@@ -128,12 +128,14 @@ AIニュースサイト/
 処理は `src/fetchImage.js`（`ingestDrafts.js` から記事ごとに呼ばれる）:
 
 1. **キーワード生成** — 記事の `tags`／見出しから検索用の英語キーワードを決定（簡易語彙マップ。
-   該当なしは `artificial intelligence technology`）。
-2. **取得** — `imageProvider`（既定 Unsplash、無ければ Pexels）で landscape 写真を1枚検索。
-   Unsplash はダウンロードトリガーを叩く（規約準拠・ベストエフォート）。
-3. **帰属** — 取得できたら `{ imageUrl, photographer, profileUrl, provider }` を記録し、
-   **撮影者名＋プロフィールリンクを必ず表示**（Unsplash 規約準拠）。
-4. **フォールバック** — キー未設定・ヒット0・APIエラー時は `{ fallbackThumb: "thumb--blue" 等 }` を返し、
+   宇宙/IPO/買収/コード等で分散。該当なしは `artificial intelligence technology`）。
+2. **取得（候補30件）** — `imageProvider`（既定 Unsplash、無ければ Pexels）で landscape 写真を**最大30件**検索。
+3. **重複回避** — 候補の中から**他記事で未使用の写真を選ぶ**。判定は `imageKey()`（URL から写真固有IDを抽出）。
+   使用済みキーの `Set` を生成・バックフィル全体で共有し、既存記事とも突き合わせる。
+   全件使用済みのときのみ index ベースで分散（最終手段は重複許容）。
+4. **帰属** — 取得できたら `{ imageUrl, photographer, profileUrl, provider }` を記録し、
+   **撮影者名＋プロフィールリンクを必ず表示**（Unsplash 規約準拠）。Unsplash はダウンロードトリガーを叩く（規約準拠）。
+5. **フォールバック** — キー未設定・ヒット0・APIエラー時は `{ fallbackThumb: "thumb--blue" 等 }` を返し、
    CSS 抽象グラデーションサムネを表示（デザイン崩れゼロ）。
 
 **表示箇所**
@@ -143,8 +145,8 @@ AIニュースサイト/
 
 **運用**
 - 有効化: `.env` に `UNSPLASH_KEY`（または `PEXELS_KEY`）。Unsplash 無料 Demo は 50 req/h で 1日6記事に十分。
-- 既存記事への一括付与: `npm run backfill-images`（抽象サムネの記事だけ実写真へ差し替え→再描画）。
-- 新規記事: 生成時に自動取得（`ingestDrafts.js` 内で `fetchImage` を呼ぶ）。
+- 一括メンテ: `npm run backfill-images` — ①画像が無い記事に付与、②**他記事と重複している画像をユニークな写真へ差し替え**、の両方を行い再描画。
+- 新規記事: 生成時に自動取得（`ingestDrafts.js` が使用済みキーを seed して `fetchImage` を呼ぶ → 既存記事と重複しない）。
 - `.env` は git 管理外（キーは公開されない）。
 
 ---
