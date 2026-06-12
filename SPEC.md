@@ -53,6 +53,7 @@ AIニュースサイト/
 ├── archive.html            # 生成: アーカイブ（記事が retentionTop を超えたら）
 ├── article.html            # デザイン参照元（旧プロトタイプ）
 ├── articles/<slug>.html    # 生成: 各記事ページ
+├── sections/<slug>.html    # 生成: ナビ各タブ（セクション別一覧。空でも生成）
 ├── assets/styles.css       # デザイン（OKLCH トークン・全クラス）
 ├── data/
 │   ├── articles.json       # コンテンツの永続ストア（=サイトの正本）
@@ -75,9 +76,11 @@ AIニュースサイト/
 │   ├── store.js            # articles.json 読み書き・slug採番
 │   └── markdown.js         # md→html / エスケープ
 ├── templates/
-│   ├── layout.js           # ticker/header/footer/page 骨格
-│   ├── index.js            # トップ
+│   ├── layout.js           # ticker/header(ナビ)/footer/page 骨格
+│   ├── cardbits.js         # 共有: 実写真サムネ thumb() / 帰属 credit()
+│   ├── index.js            # トップ（＋メルマガ欄）
 │   ├── article.js          # 記事詳細
+│   ├── section.js          # セクション別一覧
 │   └── archive.js          # アーカイブ
 └── _backup/                # 退避（旧HTML・廃止した qwen フォールバック）
 ```
@@ -219,3 +222,7 @@ open index.html
 - 記事の正本は `data/articles.json`。HTML はそこからの派生（いつでも `npm run render` で再生成可能）。
 - `makeSlug` は「同日最大連番+1」方式（削除で欠番が出ても衝突しない）。
 - zsh の `$status` は読取専用のため、シェルスクリプトでは別名（`rc`）を使う。
+- **ナビ**: ヘッダー各タブは `config.navSections` から `sections/<slug>.html` を生成・リンク（`render.js`）。
+  記事0のセクションも空状態ページを生成する。フッターの会社情報/規約/購読リンクは未実装（`#`のまま）。
+- **準備中（バックエンド無しのため未実装）**: ログイン・購読・メルマガ登録は静的サイトの制約上、
+  クリック/送信で「準備中」アラートを出すのみ（認証・メール配信は導入していない）。
