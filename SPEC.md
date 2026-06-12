@@ -97,6 +97,7 @@ AIニュースサイト/
   "source": "OpenAI",               // 出典名
   "link": "https://…",              // 出典URL（冪等キー）
   "importance": 4,                  // 重要度 1〜5（編集序列に使用）
+  "image_query": "data center servers", // Claude が決めた画像検索ワード（内容準拠）
   "image": { "imageUrl": "…", "photographer": "…", "profileUrl": "…", "provider": "unsplash" },
                                     // 画像が無い場合は { "fallbackThumb": "thumb--blue" }
   "mode": "full",
@@ -127,8 +128,12 @@ AIニュースサイト/
 
 処理は `src/fetchImage.js`（`ingestDrafts.js` から記事ごとに呼ばれる）:
 
-1. **キーワード生成** — 記事の `tags`／見出しから検索用の英語キーワードを決定（簡易語彙マップ。
-   宇宙/IPO/買収/コード等で分散。該当なしは `artificial intelligence technology`）。
+1. **キーワード生成** — 検索ワードは次の優先順:
+   - **①記事ごとの `image_query`**（最優先）— Claude が記事を読んで決めた英語の画像検索ワード（2〜4語）。
+     内容を視覚的に表す具体的な被写体（例: `data center servers` / `rocket launch` / `programming code screen`）。
+     ドラフトに含めさせ、記事レコードにも保存する（将来の再取得でも内容準拠を維持）。
+   - **②簡易語彙マップ**（フォールバック）— `image_query` が無い記事は `tags`／見出しから推定。
+   - **③既定** `artificial intelligence technology`。
 2. **取得（候補30件）** — `imageProvider`（既定 Unsplash、無ければ Pexels）で landscape 写真を**最大30件**検索。
 3. **重複回避** — 候補の中から**他記事で未使用の写真を選ぶ**。判定は `imageKey()`（URL から写真固有IDを抽出）。
    使用済みキーの `Set` を生成・バックフィル全体で共有し、既存記事とも突き合わせる。
