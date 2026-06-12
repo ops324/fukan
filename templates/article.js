@@ -6,6 +6,22 @@ import { config } from '../src/config.js';
 
 const BASE = '../';
 
+// 実写真があれば背景画像サムネ、無ければ CSS 抽象サムネ
+function thumb(a, variant) {
+  const img = a.image || {};
+  if (img.imageUrl) {
+    return `<figure class="thumb" style="background-image: url('${esc(img.imageUrl)}'); background-size: cover; background-position: center;" aria-hidden="true"></figure>`;
+  }
+  return `<figure class="thumb ${variant}" aria-hidden="true"></figure>`;
+}
+
+// Unsplash 規約準拠の帰属（実写真のときのみ）
+function credit(a) {
+  const img = a.image || {};
+  if (!img.imageUrl) return '';
+  return `<span style="color: var(--color-ink-3); font-size: var(--text-xs);">Photo: <a href="${esc(img.profileUrl)}" target="_blank" rel="noopener">${esc(img.photographer)}</a> / ${esc(img.provider)}</span>`;
+}
+
 function heroFigure(a, index = 0) {
   const img = a.image || {};
   if (img.imageUrl) {
@@ -37,11 +53,11 @@ function relatedCards(items) {
   if (!items.length) return '';
   const variants = ['thumb--rose', 'thumb--teal', 'thumb--amber'];
   const cs = items.map((a, i) => `          <article class="card">
-            <figure class="thumb ${variants[i % variants.length]}" aria-hidden="true"></figure>
+            ${thumb(a, variants[i % variants.length])}
             <span class="chip">${esc(a.section || 'AI')}</span>
             <h3 class="card__headline"><a href="${esc(a.slug)}.html">${esc(a.headline)}</a></h3>
             <p class="card__deck">${esc(a.lead)}</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: ${esc(a.source)}</span></div>
+            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: ${esc(a.source)}</span>${credit(a)}</div>
           </article>`).join('\n\n');
   return `      <section class="section" aria-label="関連記事">
         <header class="section__head">
@@ -112,7 +128,7 @@ ${heroFigure(a, index)}
             <div class="author-card__avatar" aria-hidden="true"></div>
             <span class="author-card__name">AXIOM AI 編集部</span>
             <span class="author-card__role">AI 自動要約 + 人手編集</span>
-            <p style="font-size: var(--text-xs); color: var(--color-ink-2); margin-top: var(--space-xs); line-height: 1.55;">本記事はローカル LLM が一次情報を要約・論評し、編集方針に沿って生成しています。</p>
+            <p style="font-size: var(--text-xs); color: var(--color-ink-2); margin-top: var(--space-xs); line-height: 1.55;">本記事は AI が一次情報を取材・要約・論評し、編集方針に沿って生成しています。</p>
           </div>
         </aside>
 
