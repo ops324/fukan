@@ -69,6 +69,7 @@ AIニュースサイト/
 │   ├── fetchNews.js        # RSS/補助API 取得・重複排除・一次情報優先
 │   ├── ingestDrafts.js     # 下書き取込（採番・画像・保存・再生成）
 │   ├── fetchImage.js       # Unsplash/Pexels 画像（無ければ CSS サムネ）
+│   ├── backfill-images.js  # 既存記事に実写真を一括付与
 │   ├── render.js           # 重要度序列・保持・アーカイブの描画統括
 │   ├── renderOnly.js       # 再描画のみ
 │   ├── store.js            # articles.json 読み書き・slug採番
@@ -119,7 +120,36 @@ AIニュースサイト/
 
 ---
 
-## 6. 設定リファレンス（`src/config.js`）
+## 6. 画像処理（取得・帰属・フォールバック）
+
+> **AI 画像生成は行わない。** 記事に合う写真を**フリー素材 API（Unsplash）から取得**して表示する。
+> DALL·E / Imagen 等の従量課金や、ローカル Stable Diffusion は使わない。
+
+処理は `src/fetchImage.js`（`ingestDrafts.js` から記事ごとに呼ばれる）:
+
+1. **キーワード生成** — 記事の `tags`／見出しから検索用の英語キーワードを決定（簡易語彙マップ。
+   該当なしは `artificial intelligence technology`）。
+2. **取得** — `imageProvider`（既定 Unsplash、無ければ Pexels）で landscape 写真を1枚検索。
+   Unsplash はダウンロードトリガーを叩く（規約準拠・ベストエフォート）。
+3. **帰属** — 取得できたら `{ imageUrl, photographer, profileUrl, provider }` を記録し、
+   **撮影者名＋プロフィールリンクを必ず表示**（Unsplash 規約準拠）。
+4. **フォールバック** — キー未設定・ヒット0・APIエラー時は `{ fallbackThumb: "thumb--blue" 等 }` を返し、
+   CSS 抽象グラデーションサムネを表示（デザイン崩れゼロ）。
+
+**表示箇所**
+- トップ: ヒーロー大画像＋注目カード（`templates/index.js` の `thumb()` / `credit()`）。
+- 記事詳細: アイキャッチ（`templates/article.js`）。
+- ヒーロー横・最新一覧・人気記事: テキストのみ（画像なし）。
+
+**運用**
+- 有効化: `.env` に `UNSPLASH_KEY`（または `PEXELS_KEY`）。Unsplash 無料 Demo は 50 req/h で 1日6記事に十分。
+- 既存記事への一括付与: `npm run backfill-images`（抽象サムネの記事だけ実写真へ差し替え→再描画）。
+- 新規記事: 生成時に自動取得（`ingestDrafts.js` 内で `fetchImage` を呼ぶ）。
+- `.env` は git 管理外（キーは公開されない）。
+
+---
+
+## 7. 設定リファレンス（`src/config.js`）
 
 | キー | 既定 | 説明 |
 |---|---|---|
@@ -133,7 +163,7 @@ AIニュースサイト/
 
 ---
 
-## 7. 定期実行（launchd）
+## 8. 定期実行（launchd）
 
 - ラベル: `com.axiom.generate`
 - plist: `~/Library/LaunchAgents/com.axiom.generate.plist`
@@ -153,13 +183,14 @@ launchctl kickstart -k gui/$(id -u)/com.axiom.generate
 
 ---
 
-## 8. 手動操作
+## 9. 手動操作
 
 ```sh
 npm install                  # 依存導入（rss-parser / marked / dotenv）
 npm run candidates           # 候補だけ確認（data/_candidates.json）
 zsh scripts/auto-generate.sh # 取材→執筆→反映まで全自動で1回
 npm run render               # articles.json から再描画のみ
+npm run backfill-images      # 既存記事の抽象サムネを実写真へ一括差し替え（要 UNSPLASH_KEY）
 open index.html
 ```
 
@@ -167,7 +198,7 @@ open index.html
 
 ---
 
-## 9. 前提・依存
+## 10. 前提・依存
 
 - **claude**（Claude Code CLI）が認証済みであること。執筆はこれに依存（Anthropic サブスク内）。
 - **Node.js 18+**（内蔵 `fetch` を使用）。依存は `rss-parser` / `marked` / `dotenv` のみ。
@@ -175,7 +206,7 @@ open index.html
 
 ---
 
-## 10. 設計上の既知事項
+## 11. 設計上の既知事項
 
 - **claude CLI 認証が切れると定期ジョブは失敗する**。`data/scheduler.log` を時々確認する。
 - 記事の正本は `data/articles.json`。HTML はそこからの派生（いつでも `npm run render` で再生成可能）。
