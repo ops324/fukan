@@ -44,6 +44,7 @@ for (const d of drafts) {
     source: d.source || '',
     link: d.link,
     importance: Math.min(5, Math.max(1, Number(d.importance) || 3)),
+    image_query: (d.image_query || '').trim(),
     image,
     mode: 'full',
     createdAt: new Date().toISOString(),

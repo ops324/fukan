@@ -46,10 +46,19 @@ node src/fetchCandidates.js
   "section": "候補の section をそのまま",
   "source": "候補の source をそのまま",
   "link": "候補の link をそのまま",
-  "importance": 4
+  "importance": 4,
+  "image_query": "rocket launch spacecraft"
 }
 ```
-`importance` は手順1.5で付けた重要度（3〜5の整数）を入れる。
+- `importance` は手順1.5で付けた重要度（3〜5の整数）を入れる。
+- `image_query` は**記事内容を視覚的に表す英語の画像検索ワード（2〜4語）**。フリー素材サイト（Unsplash）で
+  実際にヒットする一般的・具体的な名詞や情景にする。例:
+  - クラウド/データセンターの話 → `data center servers`
+  - 開発者/コードの話 → `programming code screen`
+  - ロケット/宇宙企業 → `rocket launch spacecraft`
+  - 資金調達/上場/株 → `stock market finance`
+  - 半導体/チップ → `circuit board chip`
+  注意: 企業名・人名・ロゴ・画像内テキストは避ける（写真に写らない）。抽象的すぎる語も避け、具体的な被写体にする。
 
 ### 4. 取り込んで反映
 次を実行する:

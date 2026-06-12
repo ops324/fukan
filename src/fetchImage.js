@@ -19,8 +19,12 @@ const KW_MAP = [
   [/コード|開発者|プログラ|エンジニア/, 'software code developer'],
 ];
 
-function keyword(tags = [], headline = '') {
-  const hay = [...tags, headline].join(' ');
+function keyword(article) {
+  // 最優先: Claude が記事を読んで決めた検索ワード（内容に最も合う）
+  const q = (article.image_query || '').trim();
+  if (q) return q;
+  // フォールバック: タグ/見出しからの簡易マップ
+  const hay = [...(article.tags || []), article.headline || ''].join(' ');
   for (const [re, kw] of KW_MAP) if (re.test(hay)) return kw;
   return 'artificial intelligence technology';
 }
@@ -73,7 +77,7 @@ async function pexelsCandidates(kw) {
 // 戻り値: 画像メタ or { fallbackThumb }
 // used: 既に使用済みの imageKey の Set（重複回避）。選んだ画像のキーは used に追加する。
 export async function fetchImage(article, index = 0, used = new Set()) {
-  const kw = keyword(article.tags, article.headline);
+  const kw = keyword(article);
   try {
     const primary = config.imageProvider === 'pexels' ? pexelsCandidates : unsplashCandidates;
     const secondary = config.imageProvider === 'pexels' ? unsplashCandidates : pexelsCandidates;
