@@ -7,6 +7,22 @@ import { config } from '../src/config.js';
 const THUMBS = config.thumbVariants;
 const href = (a) => `articles/${a.slug}.html`;
 
+// 実写真があれば背景画像のサムネ、無ければ CSS 抽象サムネ
+function thumb(a, variant) {
+  const img = a.image || {};
+  if (img.imageUrl) {
+    return `<figure class="thumb" style="background-image: url('${esc(img.imageUrl)}'); background-size: cover; background-position: center;" aria-hidden="true"></figure>`;
+  }
+  return `<figure class="thumb ${variant}" aria-hidden="true"></figure>`;
+}
+
+// Unsplash 規約準拠の帰属（実写真のときのみ）
+function credit(a) {
+  const img = a.image || {};
+  if (!img.imageUrl) return '';
+  return `<span style="color: var(--color-ink-3); font-size: var(--text-xs);">Photo: <a href="${esc(img.profileUrl)}" target="_blank" rel="noopener">${esc(img.photographer)}</a> / ${esc(img.provider)}</span>`;
+}
+
 function relTime(a) {
   return esc(a.displayTime || a.section || '');
 }
@@ -14,7 +30,7 @@ function relTime(a) {
 function heroLead(a) {
   if (!a) return '';
   return `        <article class="hero__lead">
-          <figure class="thumb ${THUMBS[0]}" aria-hidden="true"></figure>
+          ${thumb(a, THUMBS[0])}
           <div>
             <div class="meta" style="margin-bottom: var(--space-md);">
               <span class="chip">${esc(a.section || 'AI')}</span>
@@ -27,6 +43,7 @@ function heroLead(a) {
             <div class="meta" style="margin-top: var(--space-md);">
               <span class="meta__author">AXIOM AI 編集部</span>
               <span>出典: ${esc(a.source)}</span>
+              ${credit(a)}
             </div>
           </div>
         </article>`;
@@ -52,13 +69,14 @@ function cards(items) {
   const cs = items.map((a, i) => {
     const variant = THUMBS[(i + 1) % THUMBS.length];
     return `      <article class="card">
-        <figure class="thumb ${variant}" aria-hidden="true"></figure>
+        ${thumb(a, variant)}
         <span class="chip">${esc(a.section || 'AI')}</span>
         <h3 class="card__headline"><a href="${href(a)}">${esc(a.headline)}</a></h3>
         <p class="card__deck">${esc(a.lead)}</p>
         <div class="meta">
           <span class="meta__author">AXIOM AI 編集部</span>
           <span>出典: ${esc(a.source)}</span>
+          ${credit(a)}
         </div>
       </article>`;
   }).join('\n\n');
