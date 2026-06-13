@@ -1,5 +1,57 @@
 [
   {
+    "slug": "20260614-01",
+    "headline": "OpenAI、EUのAI生成物の透明性規範を支持",
+    "lead": "OpenAIがEUの「AI生成コンテンツの透明性に関する行動規範」への支持を表明した。",
+    "body_markdown": "OpenAIは、欧州委員会が公表した「AI生成コンテンツの透明性に関する行動規範（Code of Practice on Transparency of AI-Generated Content）」への支持を表明した。この規範はEU AI法（AI Act）第50条が定める透明性義務の実装を後押しするもので、関連規定は2026年8月2日に適用が始まる。\n\nOpenAIは来歴（provenance）標準への取り組みを以前から進めており、2024年には画像生成ツールの出力にC2PAメタデータを付与する対応を開始した。2025年には米国企業として初めてEUの汎用AI行動規範に署名している。\n\nAI生成物の出所を機械的に示す仕組みは、偽情報や著作物の無断利用への対策の基盤となる。主要なモデル提供者が規範を支持することは標準の普及を後押しするが、実効性は各社の実装と第三者による検証にかかっており、適用開始までの体制整備が問われる。",
+    "tags": [
+      "OpenAI",
+      "EU",
+      "AI規制",
+      "透明性",
+      "来歴標準"
+    ],
+    "section": "基盤モデル",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+    "importance": 4,
+    "image_query": "european union flags",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1608817576203-3c27ed168bd2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxldXJvcGVhbiUyMHVuaW9uJTIwZmxhZ3N8ZW58MXwwfHx8MTc4MTM4NDYyM3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Christian Lue",
+      "profileUrl": "https://unsplash.com/@christianlue?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-13T21:03:43.308Z"
+  },
+  {
+    "slug": "20260614-02",
+    "headline": "BBVA、ChatGPTを全社員12万人規模に展開",
+    "lead": "スペインの金融大手BBVAがOpenAIとの提携を拡大し、ChatGPTを全社員規模に広げる。",
+    "body_markdown": "スペインの金融大手BBVAは、OpenAIとの提携を拡大し、ChatGPT Enterpriseを全世界の従業員約12万人へ展開すると明らかにした。両社の協業は2024年5月に約3,300アカウントの導入で始まり、その後1.1万人規模へと段階的に広げてきた経緯がある。\n\n先行導入では、利用者が定型業務で週平均およそ3時間を削減し、約8割が日常的に利用していたという。BBVAは今後、顧客対応やリスク分析、ソフトウェア開発といった社内業務にAIを組み込み、「AIネイティブ」な銀行モデルの構築を目指すとしている。\n\n12万人規模は金融業界でも最大級のAI導入の一つで、規制の厳しい銀行業での本格活用の試金石となる。生産性向上の具体的な数値が示された点は注目に値する一方、機密データの取り扱いや出力精度の管理など、運用面の課題は引き続き残る。",
+    "tags": [
+      "BBVA",
+      "OpenAI",
+      "ChatGPT",
+      "金融",
+      "企業導入"
+    ],
+    "section": "基盤モデル",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/bbva",
+    "importance": 3,
+    "image_query": "bank building finance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxiYW5rJTIwYnVpbGRpbmclMjBmaW5hbmNlfGVufDF8MHx8fDE3ODEzODQ2MjN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Etienne Martin",
+      "profileUrl": "https://unsplash.com/@etiennemartin?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-13T21:03:44.142Z"
+  },
+  {
     "slug": "20260613-13",
     "headline": "OpenAIモデルとCodexがOracle Cloudから利用可能に",
     "lead": "OpenAIがOracle Cloud Infrastructure（OCI）との統合を発表し、既存のクラウド契約でAIモデルを利用できるようになる。",
