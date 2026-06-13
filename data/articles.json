@@ -1,5 +1,54 @@
 [
   {
+    "slug": "20260613-13",
+    "headline": "OpenAIモデルとCodexがOracle Cloudから利用可能に",
+    "lead": "OpenAIがOracle Cloud Infrastructure（OCI）との統合を発表し、既存のクラウド契約でAIモデルを利用できるようになる。",
+    "body_markdown": "OpenAIは6月10日、Oracle Cloud Infrastructure（OCI）を通じて同社のAIモデルおよびコーディングエージェント「Codex」を提供すると発表した。Oracle Universal Creditsの既存契約を活用してOpenAIモデルにアクセスでき、数週間以内に利用開始となる。\n\n統合対象には、OpenAIのオープンウェイトモデルファミリー（gpt-oss-120bおよびgpt-oss-20b）が含まれ、OCIのData ScienceおよびGenerative AIサービス上で直接デプロイ・ファインチューニングが可能になる。別途OpenAI APIを契約する必要はない。\n\nこの提携は、2025年9月に締結された3000億ドル規模の5カ年コンピューティング契約を基盤としている。OpenAIはこれまでMicrosoft Azureにほぼ全面的に依存してきたが、Oracleとの連携強化はクラウド戦略の多角化を示すものだ。エンタープライズ顧客にとっては、既存のクラウド投資を活かしながら最先端AIにアクセスできる選択肢が広がることになる。",
+    "tags": [
+      "OpenAI",
+      "Oracle Cloud",
+      "Codex",
+      "エンタープライズAI",
+      "クラウド"
+    ],
+    "section": "基盤モデル",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/openai-on-oracle-cloud",
+    "importance": 3,
+    "image_query": "cloud computing data center",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjbG91ZCUyMGNvbXB1dGluZyUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4MTMyMDMwNnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Albert Stoynov",
+      "profileUrl": "https://unsplash.com/@albertstoynov?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-13T03:11:46.537Z"
+  },
+  {
+    "slug": "20260613-14",
+    "headline": "NVIDIA、多言語・マルチモーダル対応の安全性モデルNemotron 3.5を公開",
+    "lead": "NVIDIAがエンタープライズ向けコンテンツ安全性モデル「Nemotron 3.5 Content Safety」をオープンライセンスで公開した。",
+    "body_markdown": "NVIDIAは、AIシステムの出力を監視するコンテンツ安全性モデル「Nemotron 3.5 Content Safety」をHugging Faceおよび NVIDIA NIM上で公開した。Google Gemma 3をベースとする40億パラメータのモデルで、商用利用も可能なオープンライセンスで提供される。\n\n前バージョンからの主な進化点は3つある。第一に、テキスト・画像・音声レスポンスを単一の推論パスで統合評価できるマルチモーダル対応。第二に、日本語を含む12言語で明示的に学習し、ゼロショットで約140言語をカバーする多言語性能。多言語ベンチマーク「Multilingual Aegis」で96.5%の精度を達成した。第三に、推論時にカスタムポリシーを動的に指定できる機能で、医療・金融など業界固有の安全基準に対応する。\n\nさらに「THINKモード」では判定理由をステップごとに出力し、監査やコンプライアンス対応に活用できる。128Kトークンのコンテキスト長を持ち、8GB以上のVRAMで動作する。エンタープライズAIの普及に伴い、安全性ガードレールの標準化が業界課題となる中、カスタマイズ可能なオープンモデルの登場は実務上の意義が大きい。",
+    "tags": [
+      "NVIDIA",
+      "Nemotron",
+      "AI安全性",
+      "マルチモーダル",
+      "オープンソース"
+    ],
+    "section": "研究",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+    "importance": 3,
+    "image_query": "security shield technology",
+    "image": {
+      "fallbackThumb": "thumb--amber"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-13T03:11:47.027Z"
+  },
+  {
     "slug": "20260613-11",
     "headline": "OpenAI、中国関連の影響工作がAI議論を標的にしていると報告",
     "lead": "OpenAIが中国関連の2つの秘密キャンペーンを摘発し、米国内のAIインフラ議論を操作しようとしていた実態を公表した。",

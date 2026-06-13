@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cohere、開発者向けコード生成モデル「North Mini Code」をオープンソース公開 | AXIOM AI</title>
-  <meta name="description" content="Cohereが初の開発者向けモデルNorth Mini Codeを公開。30Bパラメータ（アクティブ3B）のMoEアーキテクチャで、同規模クラス最高水準のコード生成性能を達成した。">
+  <title>NVIDIA、多言語・マルチモーダル対応の安全性モデルNemotron 3.5を公開 | AXIOM AI</title>
+  <meta name="description" content="NVIDIAがエンタープライズ向けコンテンツ安全性モデル「Nemotron 3.5 Content Safety」をオープンライセンスで公開した。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
@@ -71,7 +71,7 @@
         <ol>
           <li><a href="../index.html">トップ</a></li>
           <li><a href="#">研究</a></li>
-          <li aria-current="page">Cohere、開発者向けコード生成モデル「North Mini Code」をオープンソース公開</li>
+          <li aria-current="page">NVIDIA、多言語・マルチモーダル対応の安全性モデルNemotron 3.5を公開</li>
         </ol>
       </nav>
 
@@ -82,8 +82,8 @@
             <span>2026.06.13</span>
             <span>出典: Hugging Face</span>
           </div>
-          <h1 class="article-headline">Cohere、開発者向けコード生成モデル「North Mini Code」をオープンソース公開</h1>
-          <p class="article-lede">Cohereが初の開発者向けモデルNorth Mini Codeを公開。30Bパラメータ（アクティブ3B）のMoEアーキテクチャで、同規模クラス最高水準のコード生成性能を達成した。</p>
+          <h1 class="article-headline">NVIDIA、多言語・マルチモーダル対応の安全性モデルNemotron 3.5を公開</h1>
+          <p class="article-lede">NVIDIAがエンタープライズ向けコンテンツ安全性モデル「Nemotron 3.5 Content Safety」をオープンライセンスで公開した。</p>
           <div class="article-byline">
             <span>署名 <strong>AXIOM AI 編集部</strong></span>
             <span>AI 自動要約 + 編集</span>
@@ -97,8 +97,8 @@
       </header>
 
       <figure class="article-hero">
-        <div class="thumb" style="aspect-ratio: 21 / 9; background-image: url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxwcm9ncmFtbWluZyUyMGNvZGUlMjBzY3JlZW58ZW58MXwwfHx8MTc4MTI5NDMzNnww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg'); background-size: cover; background-position: center;"></div>
-        <figcaption>Cohere、開発者向けコード生成モデル「North Mini Code」をオープンソース公開<span style="color: var(--color-ink-3);"> — Photo: <a href="https://unsplash.com/@cdr6934?utm_source=axiom_ai&amp;utm_medium=referral" target="_blank" rel="noopener">Chris Ried</a> / Unsplash（本文と直接の関係はないイメージ画像）</span></figcaption>
+        <div class="thumb thumb--amber" style="aspect-ratio: 21 / 9;"></div>
+        <figcaption>編集部によるイメージ（抽象表現）。</figcaption>
       </figure>
 
       <div class="article-body-grid">
@@ -113,17 +113,15 @@
         </aside>
 
         <article class="prose">
-<p>Cohereは6月9日、開発者・エージェント開発向けの新モデル<strong>North Mini Code</strong>をApache 2.0ライセンスでオープンソース公開した。同社にとって初の開発者特化モデルとなる。</p>
-<p><strong>アーキテクチャと規模：</strong> North Mini Codeは総パラメータ数30B、アクティブパラメータ3BのMixture-of-Experts（MoE）構造を採用。128個のエキスパートのうちトークンあたり8個を活性化する設計で、コンテキスト長は最大128Kトークンに対応する。</p>
-<p><strong>訓練手法：</strong> 3段階のパイプラインが特徴的だ。まず64Kコンテキストでの教師あり微調整（SFT）を行い、次に128Kコンテキストでの長文SFTを実施。最後に検証可能な報酬を用いた強化学習（RLVR）で性能を引き上げた。訓練には7万件以上の検証可能タスクと約5,000のユニークなリポジトリが使われた。</p>
-<p><strong>ベンチマーク：</strong> SWE-Bench Verifiedでpass@10が80.2%、Terminal-Bench v2ではRLVR適用後に+7.9%の改善を達成。Artificial Analysis Coding Indexでは、より大規模なNemotron 3 Super（120B-A12B）やDevstral 2（123B）を上回り、同サイズクラスで最高水準のスコアを記録した。</p>
-<p><strong>なぜ重要か：</strong> アクティブパラメータわずか3Bという軽量さで大型モデルに匹敵する性能を実現した点は、オープンソースのコーディングAI競争に新たな基準を示すものだ。Apache 2.0ライセンスによる商用利用の自由度も、開発者コミュニティへの普及を後押しするだろう。</p>
+<p>NVIDIAは、AIシステムの出力を監視するコンテンツ安全性モデル「Nemotron 3.5 Content Safety」をHugging Faceおよび NVIDIA NIM上で公開した。Google Gemma 3をベースとする40億パラメータのモデルで、商用利用も可能なオープンライセンスで提供される。</p>
+<p>前バージョンからの主な進化点は3つある。第一に、テキスト・画像・音声レスポンスを単一の推論パスで統合評価できるマルチモーダル対応。第二に、日本語を含む12言語で明示的に学習し、ゼロショットで約140言語をカバーする多言語性能。多言語ベンチマーク「Multilingual Aegis」で96.5%の精度を達成した。第三に、推論時にカスタムポリシーを動的に指定できる機能で、医療・金融など業界固有の安全基準に対応する。</p>
+<p>さらに「THINKモード」では判定理由をステップごとに出力し、監査やコンプライアンス対応に活用できる。128Kトークンのコンテキスト長を持ち、8GB以上のVRAMで動作する。エンタープライズAIの普及に伴い、安全性ガードレールの標準化が業界課題となる中、カスタマイズ可能なオープンモデルの登場は実務上の意義が大きい。</p>
 
           <div class="callout" style="border-color: var(--color-accent);">
             <h4>出典・元記事</h4>
             <p>本記事は下記の一次情報を AXIOM AI 編集部が要約・論評したものです。正確な詳細・最新情報は元記事をご確認ください。</p>
             <p style="margin-top: var(--space-sm);">
-              <a href="https://huggingface.co/blog/CohereLabs/introducing-north-mini-code" target="_blank" rel="noopener" style="font-weight: 600;">▶ Hugging Face の元記事を読む</a>
+              <a href="https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety" target="_blank" rel="noopener" style="font-weight: 600;">▶ Hugging Face の元記事を読む</a>
             </p>
           </div>
         </article>
@@ -132,11 +130,11 @@
           <div class="topics">
             <h4>関連トピック</h4>
             <ul>
-              <li><a href="#">Cohere</a></li>
+              <li><a href="#">NVIDIA</a></li>
+              <li><a href="#">Nemotron</a></li>
+              <li><a href="#">AI安全性</a></li>
+              <li><a href="#">マルチモーダル</a></li>
               <li><a href="#">オープンソース</a></li>
-              <li><a href="#">コード生成</a></li>
-              <li><a href="#">MoE</a></li>
-              <li><a href="#">強化学習</a></li>
             </ul>
           </div>
         </aside>
@@ -168,11 +166,11 @@
           </article>
 
           <article class="card">
-            <figure class="thumb thumb--amber" aria-hidden="true"></figure>
-            <span class="chip">研究</span>
-            <h3 class="card__headline"><a href="20260613-14.html">NVIDIA、多言語・マルチモーダル対応の安全性モデルNemotron 3.5を公開</a></h3>
-            <p class="card__deck">NVIDIAがエンタープライズ向けコンテンツ安全性モデル「Nemotron 3.5 Content Safety」をオープンライセンスで公開した。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: Hugging Face</span></div>
+            <figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjbG91ZCUyMGNvbXB1dGluZyUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4MTMyMDMwNnww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg'); background-size: cover; background-position: center;" aria-hidden="true"></figure>
+            <span class="chip">基盤モデル</span>
+            <h3 class="card__headline"><a href="20260613-13.html">OpenAIモデルとCodexがOracle Cloudから利用可能に</a></h3>
+            <p class="card__deck">OpenAIがOracle Cloud Infrastructure（OCI）との統合を発表し、既存のクラウド契約でAIモデルを利用できるようになる。</p>
+            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: OpenAI</span><span style="color: var(--color-ink-3); font-size: var(--text-xs);">Photo: <a href="https://unsplash.com/@albertstoynov?utm_source=axiom_ai&amp;utm_medium=referral" target="_blank" rel="noopener">Albert Stoynov</a> / Unsplash</span></div>
           </article>
         </div>
       </section>
