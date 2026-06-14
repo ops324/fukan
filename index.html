@@ -75,8 +75,6 @@
         <div class="site-header__meta">
           <span>東京</span>
           <time>2026年6月15日 月</time>
-          <a href="#" class="btn btn--ghost" title="準備中" onclick="event.preventDefault(); alert('ログイン機能は準備中です');">ログイン</a>
-          <a href="#" class="btn btn--primary" title="準備中" onclick="event.preventDefault(); alert('購読機能は準備中です');">購読 ¥0/月</a>
         </div>
         <div class="site-header__tools">
           <div class="hsearch">
@@ -217,14 +215,6 @@
       </article>
     </section>
 
-    <!-- ============== AD: LEADERBOARD ============== -->
-    <div class="ad ad--leaderboard" role="complementary" aria-label="広告枠">
-      <div class="ad__inner">
-        <span>Advertisement · 970 × 90</span>
-        <span style="color: var(--color-ink-3);">Google AdSense / 直接広告プレースホルダ</span>
-      </div>
-    </div>
-
     <!-- ============== 最新記事 + サイドバー ============== -->
     <div class="section" style="display: grid; grid-template-columns: 8fr 4fr; gap: var(--space-2xl); align-items: start;">
       <div>
@@ -320,7 +310,7 @@
       <aside style="display: grid; gap: var(--space-xl);">
         <div>
           <header style="margin-bottom: var(--space-md);">
-            <span class="chip">人気記事 24h</span>
+            <span class="chip">注目の記事</span>
           </header>
           <ol class="ranked">
             <li class="ranked__item">
@@ -355,26 +345,18 @@
             </li>
           </ol>
         </div>
-        <div class="ad ad--rectangle">
-          <div class="ad__inner">
-            <span>Advertisement · 300 × 250</span>
-            <span style="color: var(--color-ink-3);">サイドバー広告</span>
-          </div>
-        </div>
       </aside>
     </div>
 
-    <!-- ============== NEWSLETTER（準備中）============== -->
+    <!-- ============== RSS 購読 ============== -->
     <section class="section">
       <div class="newsletter" style="text-align: center; max-width: 720px; margin: 0 auto;">
-        <span class="newsletter__eyebrow">Morning Brief</span>
-        <h3>朝、5分で世界の AI を掴む。</h3>
-        <p>AXIOM AI 編集部が毎朝、その日のニュースを要約してお届けします。無料・いつでも解除可能。</p>
-        <form class="newsletter__form" onsubmit="event.preventDefault(); alert('メルマガ登録は準備中です');" style="max-width: 480px; margin: 0 auto;">
-          <input type="email" placeholder="you@example.com" aria-label="メールアドレス">
-          <button class="btn btn--primary" type="submit">登録</button>
-        </form>
-        <p style="font-size: var(--text-xs); color: var(--color-ink-2);">※ メルマガ配信は準備中です</p>
+        <span class="newsletter__eyebrow">Stay Updated</span>
+        <h3>最新の AI ニュースを購読</h3>
+        <p>RSS フィードを登録すると、AXIOM AI の新着記事をお使いのフィードリーダーで受け取れます。無料・登録不要。</p>
+        <p style="margin-top: var(--space-lg);">
+          <a class="btn btn--primary" href="feed.xml">RSS フィードを開く</a>
+        </p>
       </div>
     </section>
 
@@ -421,7 +403,6 @@
           <h4>配信</h4>
           <ul>
             <li><a href="feed.xml">RSS フィード</a></li>
-            <li><span style="color: var(--color-ink-3);">メール配信（準備中）</span></li>
           </ul>
         </div>
       </div>

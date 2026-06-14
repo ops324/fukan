@@ -6,7 +6,7 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 14 Jun 2026 20:00:35 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 20:26:19 GMT</lastBuildDate>
     <item>
       <title>Hugging Face、AIエージェント最適化のhf CLIを刷新</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260614-06.html</link>

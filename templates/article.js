@@ -41,8 +41,8 @@ function heroFigure(a, index = 0) {
   if (img.imageUrl) {
     const credit = `Photo: <a href="${esc(img.profileUrl)}" target="_blank" rel="noopener">${esc(img.photographer)}</a> / ${esc(img.provider)}`;
     return `      <figure class="article-hero">
-        <div class="thumb" style="aspect-ratio: 21 / 9; background-image: url('${esc(optimizedUrl(img.imageUrl, 1600))}'); background-size: cover; background-position: center;"></div>
-        <figcaption>${esc(a.headline)}<span style="color: var(--color-ink-3);"> — ${credit}（本文と直接の関係はないイメージ画像）</span></figcaption>
+        <div class="thumb" role="img" aria-label="${esc(a.headline)} のイメージ写真" style="aspect-ratio: 21 / 9; background-image: url('${esc(optimizedUrl(img.imageUrl, 1600))}'); background-size: cover; background-position: center;"></div>
+        <figcaption>${esc(a.headline)}<span style="color: var(--color-ink-3);"> — ${credit}（イメージ写真）</span></figcaption>
       </figure>`;
   }
   const variant = img.fallbackThumb || config.thumbVariants[index % config.thumbVariants.length];

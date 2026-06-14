@@ -52,8 +52,6 @@ export function header(dateLabel, activeNav = 'トップ', base = '') {
         <div class="site-header__meta">
           <span>東京</span>
           <time>${dateLabel}</time>
-          <a href="#" class="btn btn--ghost" title="準備中" onclick="event.preventDefault(); alert('ログイン機能は準備中です');">ログイン</a>
-          <a href="#" class="btn btn--primary" title="準備中" onclick="event.preventDefault(); alert('購読機能は準備中です');">購読 ¥0/月</a>
         </div>
         <div class="site-header__tools">
           <div class="hsearch">
@@ -112,7 +110,6 @@ ${sections}
           <h4>配信</h4>
           <ul>
             <li><a href="${base}feed.xml">RSS フィード</a></li>
-            <li><span style="color: var(--color-ink-3);">メール配信（準備中）</span></li>
           </ul>
         </div>
       </div>
