@@ -1,5 +1,57 @@
 [
   {
+    "slug": "20260614-05",
+    "headline": "Google I/O 2026、動画生成「Gemini Omni」など発表",
+    "lead": "Googleが開発者会議I/O 2026で動画生成モデルGemini Omniと高速モデルGemini 3.5 Flashを公開した。",
+    "body_markdown": "Googleは開発者向けイベント「Google I/O 2026」で、複数のAI関連発表を行った。中心となるのは新モデル「Gemini Omni」で、画像・音声・動画・テキストといった多様な入力から動画を生成できる点を特徴とする。簡易版の「Gemini Omni Flash」は、Google AIのPlus・Pro・Ultra契約者に加え、YouTubeのクリエイター向けに無償で提供が始まる。\n\nあわせて、エージェントやコーディング用途で高い性能をうたう「Gemini 3.5 Flash」も発表された。Gemini API、Android Studio、Geminiアプリなどを通じて世界向けに利用可能になるとしている。このほか、毎朝の要約を届ける「Daily Brief」、24時間稼働の個人向けエージェント「Gemini Spark」、検索やショッピングの強化、秋に投入予定のディスプレイ付きアイウェアなども示された。\n\nGeminiブランドのもとでモデルと機能を横断的に更新する動きが続いており、動画生成とエージェント機能の両面を同時に押し出した点が今回の特徴といえる。生成AIの主戦場が、対話から動画やマルチモーダルな自動化へと広がっていることを改めて印象づける内容となった。",
+    "tags": [
+      "Google",
+      "Gemini",
+      "動画生成",
+      "マルチモーダル",
+      "AIエージェント"
+    ],
+    "section": "研究",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+    "importance": 4,
+    "image_query": "tech conference stage presentation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1592758080692-b6a5dbe9c725?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwY29uZmVyZW5jZSUyMHN0YWdlJTIwcHJlc2VudGF0aW9ufGVufDF8MHx8fDE3ODE0Mjc4MDh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Cosmin Serban",
+      "profileUrl": "https://unsplash.com/@cosminserban?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-14T09:03:28.684Z"
+  },
+  {
+    "slug": "20260614-06",
+    "headline": "Hugging Face、AIエージェント最適化のhf CLIを刷新",
+    "lead": "Hugging Faceが、人間とAIエージェントの両方に対応する新しいコマンドラインツールhfを公開した。",
+    "body_markdown": "Hugging Faceは、Hub上のモデルやリポジトリを操作する公式コマンドラインツール「hf」を、AIコーディングエージェント向けに最適化し直したと発表した。同社によると、2026年4月以降エージェント経由の利用が急増しており、Claude CodeとCodexだけで合わせて約8500万件のリクエストがあったという。\n\n新しいhfは、実行環境を自動で判別して出力を切り替える。人間には色付きの整形済みテーブルを、エージェントにはタブ区切りで省略のない構造化データを返す仕組みだ。コマンドは「リソース＋動詞」の一貫した形に整理され、次の操作を提案する補助や、確認待ちで止まらない「fail fast」な挙動、`--dry-run`によるプレビュー、`--exist-ok`を使った冪等な操作などが盛り込まれた。\n\n同社が18種類のHubタスクで検証したところ、Claude Codeでの成功率はCLI利用時94%で、非利用時の84%を上回った。トークン消費もcurlやPython SDKに比べて少なく、多段の操作では最大6倍の差が出たとしている。AIエージェントが日常的に開発ツールを使う時代を見据え、ツール側の設計をエージェント前提で見直す動きを示す事例といえる。",
+    "tags": [
+      "Hugging Face",
+      "AIエージェント",
+      "CLI",
+      "開発ツール",
+      "Claude Code"
+    ],
+    "section": "研究",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/hf-cli-for-agents",
+    "importance": 3,
+    "image_query": "programming code terminal screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxwcm9ncmFtbWluZyUyMGNvZGUlMjB0ZXJtaW5hbCUyMHNjcmVlbnxlbnwxfDB8fHwxNzgxNDI3ODA5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Florian Olivo",
+      "profileUrl": "https://unsplash.com/@florianolv?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-14T09:03:29.316Z"
+  },
+  {
     "slug": "20260614-03",
     "headline": "Google、新モデルGemini 3.5とOmniを公開",
     "lead": "Google I/O 2026でエージェント特化の3.5 Flashと動画生成Omniを発表した。",
