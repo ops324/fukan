@@ -18,7 +18,7 @@ function groupByMonth(articles) {
   return groups;
 }
 
-export function renderArchive(articles, dateLabel) {
+export function renderArchive(articles, dateLabel, tickerItems = []) {
   const sections = groupByMonth(articles).map((g) => {
     const rows = g.items.map((a) => `        <article class="list-card">
           <span class="meta">${esc(a.displayDate || '')}・出典: ${esc(a.source || '')}</span>
@@ -39,7 +39,7 @@ ${rows}
     </section>`;
   }).join('\n\n');
 
-  const body = `${ticker}
+  const body = `${ticker(tickerItems)}
 
 ${header(dateLabel, 'トップ')}
 
@@ -57,11 +57,12 @@ ${sections || '<p style="color: var(--color-ink-2);">まだ記事がありませ
 
   </main>
 
-${footer}`;
+${footer()}`;
 
   return page({
     title: 'アーカイブ | AXIOM AI',
     description: 'AXIOM AI のこれまでの全記事一覧。',
     body,
+    canonicalPath: '/archive.html',
   });
 }

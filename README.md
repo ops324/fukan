@@ -192,12 +192,14 @@ launchctl kickstart -k gui/$(id -u)/com.axiom.generate                          
 - **画像最適化**: Unsplash 画像に配信パラメータを付与＋ `images.unsplash.com` を preconnect（CWV 改善）。
 - **パイプライン監視**: `scripts/auto-generate.sh` が異常終了・push 失敗・新規ゼロ連続を検知して macOS 通知。
 - **アナリティクス（任意）**: `.env` に `CF_BEACON_TOKEN` を設定すると Cloudflare Web Analytics（Cookieless）を出力。未設定なら無効。
+- **SEO**: 全ページに OGP / Twitter Card / canonical / JSON-LD（NewsArticle・WebSite・Organization）。`sitemap.xml` / `robots.txt` / `feed.xml`（RSS）を生成。共通OG画像 `assets/og-default.jpg`。
+- **法的・運営ページ**: 運営者情報 / お問い合わせ / プライバシーポリシー / 利用規約 / 編集方針 / 免責事項を生成し、フッターに接続。
 
 ## 今後の発展（任意）
 
 1. **Astro + Cloudflare Pages** へ移植（無料枠で十分）
-2. **SEO 強化（P0）**: OGP / Twitter Card / JSON-LD（NewsArticle）/ sitemap.xml / robots.txt / RSS フィード。
-3. **AdSense 申請**（運営者情報・プライバシー・お問い合わせページを実装してから）
+2. **Google Search Console** に `sitemap.xml` を登録してインデックスを促進
+3. **AdSense 申請**（運営者情報・プライバシー・お問い合わせページは実装済み）
 
 ---
 

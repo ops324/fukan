@@ -1,6 +1,6 @@
 // トップページ。articles（新しい順）から既存デザインのヒーロー/カード/リストを再現。
 // ヒーロー/カードは実写真（Unsplash・帰属付き）があれば表示、無ければ CSS抽象サムネにフォールバック。
-import { ticker, header, footer, page } from './layout.js';
+import { ticker, header, footer, page, organizationLd } from './layout.js';
 import { esc } from '../src/markdown.js';
 import { config } from '../src/config.js';
 import { thumb, credit } from './cardbits.js';
@@ -108,7 +108,7 @@ ${lis}
 }
 
 // featured = 重要度順（ヒーロー/カード/人気用）、latest = 時系列（最新記事リスト用）
-export function renderIndex(featured, latest, dateLabel, archiveCount = 0) {
+export function renderIndex(featured, latest, dateLabel, archiveCount = 0, tickerItems = []) {
   const lead = featured[0];
   const side = featured.slice(1, 5);
   const cardItems = featured.slice(5, 8);
@@ -118,7 +118,7 @@ export function renderIndex(featured, latest, dateLabel, archiveCount = 0) {
   const archiveHref = archiveCount > 0 ? 'archive.html' : '#';
   const breaking = lead ? `${esc(lead.headline)}` : 'AXIOM AI — 最新のAIニュースを編集部がお届けします。';
 
-  const body = `${ticker}
+  const body = `${ticker(tickerItems)}
 
 ${header(dateLabel, 'トップ')}
 
@@ -185,11 +185,30 @@ ${ranked(featured.slice(0, 5))}
 
   </main>
 
-${footer}`;
+${footer()}`;
+
+  const jsonLd = [
+    {
+      '@type': 'WebSite',
+      name: config.siteName,
+      url: config.siteUrl,
+      description: config.siteDescription,
+      inLanguage: 'ja',
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: `${config.siteUrl}/?q={search_term_string}`,
+        'query-input': 'required name=search_term_string',
+      },
+    },
+    organizationLd(),
+  ];
 
   return page({
     title: 'AXIOM AI — 信頼できるAIインテリジェンス・デイリー',
     description: '生成AI・基盤モデル・規制・産業応用に関する最新情報を、編集部の要約と論評でお届けします。',
     body,
+    canonicalPath: '/',
+    ogType: 'website',
+    jsonLd,
   });
 }

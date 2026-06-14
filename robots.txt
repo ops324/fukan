@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://axiom-ai-xi.vercel.app/sitemap.xml

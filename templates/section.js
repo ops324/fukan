@@ -28,7 +28,7 @@ function cards(items) {
   return `    <section class="cards" aria-label="記事一覧">\n${cs}\n    </section>`;
 }
 
-export function renderSection(name, slug, articles, dateLabel) {
+export function renderSection(name, slug, articles, dateLabel, tickerItems = []) {
   const empty = `    <p style="color: var(--color-ink-2); padding: var(--space-2xl) 0;">このセクションの記事はまだありません。次の自動更新で追加され次第ここに表示されます。</p>`;
 
   const main = `  <main class="container">
@@ -49,6 +49,7 @@ ${articles.length ? cards(articles) : empty}
     base: BASE,
     title: `${name} | AXIOM AI`,
     description: `${name} に関する最新の AI ニュースを AXIOM AI 編集部の要約と論評でお届けします。`,
-    body: `${ticker}\n\n${header(dateLabel, name, BASE)}\n\n${main}\n\n${footer}`,
+    body: `${ticker(tickerItems)}\n\n${header(dateLabel, name, BASE)}\n\n${main}\n\n${footer(BASE)}`,
+    canonicalPath: `/sections/${slug}.html`,
   });
 }

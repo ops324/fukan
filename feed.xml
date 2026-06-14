@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AXIOM AI</title>
+    <link>https://axiom-ai-xi.vercel.app</link>
+    <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
+    <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
+    <language>ja</language>
+    <lastBuildDate>Sun, 14 Jun 2026 20:00:35 GMT</lastBuildDate>
+    <item>
+      <title>Hugging Face、AIエージェント最適化のhf CLIを刷新</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260614-06.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260614-06.html</guid>
+      <pubDate>Sun, 14 Jun 2026 09:03:29 GMT</pubDate>
+      <description>Hugging Faceが、人間とAIエージェントの両方に対応する新しいコマンドラインツールhfを公開した。</description>
+      <category>研究</category>
+    </item>
+    <item>
+      <title>Google I/O 2026、動画生成「Gemini Omni」など発表</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260614-05.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260614-05.html</guid>
+      <pubDate>Sun, 14 Jun 2026 09:03:28 GMT</pubDate>
+      <description>Googleが開発者会議I/O 2026で動画生成モデルGemini Omniと高速モデルGemini 3.5 Flashを公開した。</description>
+      <category>研究</category>
+    </item>
+    <item>
+      <title>OpenAI、職場向け無料AI講座を3つ追加</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260614-04.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260614-04.html</guid>
+      <pubDate>Sun, 14 Jun 2026 03:03:54 GMT</pubDate>
+      <description>ChatGPTアカウントがあれば誰でも受けられる実務向けの自習講座を公開した。</description>
+      <category>基盤モデル</category>
+    </item>
+    <item>
+      <title>Google、新モデルGemini 3.5とOmniを公開</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260614-03.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260614-03.html</guid>
+      <pubDate>Sun, 14 Jun 2026 03:03:54 GMT</pubDate>
+      <description>Google I/O 2026でエージェント特化の3.5 Flashと動画生成Omniを発表した。</description>
+      <category>研究</category>
+    </item>
+    <item>
+      <title>BBVA、ChatGPTを全社員12万人規模に展開</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260614-02.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260614-02.html</guid>
+      <pubDate>Sat, 13 Jun 2026 21:03:44 GMT</pubDate>
+      <description>スペインの金融大手BBVAがOpenAIとの提携を拡大し、ChatGPTを全社員規模に広げる。</description>
+      <category>基盤モデル</category>
+    </item>
+    <item>
+      <title>OpenAI、EUのAI生成物の透明性規範を支持</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260614-01.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260614-01.html</guid>
+      <pubDate>Sat, 13 Jun 2026 21:03:43 GMT</pubDate>
+      <description>OpenAIがEUの「AI生成コンテンツの透明性に関する行動規範」への支持を表明した。</description>
+      <category>基盤モデル</category>
+    </item>
+    <item>
+      <title>NVIDIA、多言語・マルチモーダル対応の安全性モデルNemotron 3.5を公開</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260613-14.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-14.html</guid>
+      <pubDate>Sat, 13 Jun 2026 03:11:47 GMT</pubDate>
+      <description>NVIDIAがエンタープライズ向けコンテンツ安全性モデル「Nemotron 3.5 Content Safety」をオープンライセンスで公開した。</description>
+      <category>研究</category>
+    </item>
+    <item>
+      <title>OpenAIモデルとCodexがOracle Cloudから利用可能に</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260613-13.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-13.html</guid>
+      <pubDate>Sat, 13 Jun 2026 03:11:46 GMT</pubDate>
+      <description>OpenAIがOracle Cloud Infrastructure（OCI）との統合を発表し、既存のクラウド契約でAIモデルを利用できるようになる。</description>
+      <category>基盤モデル</category>
+    </item>
+    <item>
+      <title>Hugging Faceら、エージェントRL向け共通環境規格「OpenEnv」を発表</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260613-12.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-12.html</guid>
+      <pubDate>Fri, 12 Jun 2026 21:04:04 GMT</pubDate>
+      <description>MetaやNvidiaなど9組織がガバナンスに参加し、エージェント強化学習の環境標準化を目指すオープンソースプロジェクトが始動した。</description>
+      <category>研究</category>
+    </item>
+    <item>
+      <title>OpenAI、中国関連の影響工作がAI議論を標的にしていると報告</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260613-11.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-11.html</guid>
+      <pubDate>Fri, 12 Jun 2026 21:04:03 GMT</pubDate>
+      <description>OpenAIが中国関連の2つの秘密キャンペーンを摘発し、米国内のAIインフラ議論を操作しようとしていた実態を公表した。</description>
+      <category>基盤モデル</category>
+    </item>
+    <item>
+      <title>OpenAIがクラウド基盤企業Onaを買収、Codexの長時間エージェント実行を強化</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260613-09.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-09.html</guid>
+      <pubDate>Fri, 12 Jun 2026 18:27:28 GMT</pubDate>
+      <description>OpenAIは独クラウドスタートアップOna（旧Gitpod）の買収を発表し、Codexにセキュアな常時稼働クラウド環境を統合する。</description>
+      <category>基盤モデル</category>
+    </item>
+    <item>
+      <title>Cohere、開発者向けコード生成モデル「North Mini Code」をオープンソース公開</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260613-10.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-10.html</guid>
+      <pubDate>Fri, 12 Jun 2026 18:27:28 GMT</pubDate>
+      <description>Cohereが初の開発者向けモデルNorth Mini Codeを公開。30Bパラメータ（アクティブ3B）のMoEアーキテクチャで、同規模クラス最高水準のコード生成性能を達成した。</description>
+      <category>研究</category>
+    </item>
+    <item>
+      <title>SpaceX上場、史上最大のIPOで750億ドル調達</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260613-07.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-07.html</guid>
+      <pubDate>Fri, 12 Jun 2026 17:59:08 GMT</pubDate>
+      <description>SpaceXがNasdaqに上場し、IPO価格135ドルに対して初値150ドルを付け、時価総額は一時2兆ドルを超えた。</description>
+      <category>産業応用</category>
+    </item>
+    <item>
+      <title>ベゾス氏のAI企業Prometheus、120億ドルを調達</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260613-08.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-08.html</guid>
+      <pubDate>Fri, 12 Jun 2026 17:59:08 GMT</pubDate>
+      <description>Jeff Bezos氏が共同CEOを務めるPrometheusが120億ドルを調達し、評価額410億ドルで「汎用AIエンジニア」の開発を目指す。</description>
+      <category>産業応用</category>
+    </item>
+    <item>
+      <title>SpaceX上場で史上最大IPO、マスク氏が初の「兆ドル長者」に</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260613-04.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-04.html</guid>
+      <pubDate>Fri, 12 Jun 2026 17:42:45 GMT</pubDate>
+      <description>SpaceXがNasdaqに上場し時価総額約1.77兆ドルを記録、イーロン・マスク氏の資産が1兆ドルを突破した。</description>
+      <category>産業応用</category>
+    </item>
+    <item>
+      <title>Mistral AI、評価額€200億で€30億の大型調達を交渉中</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260613-03.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-03.html</guid>
+      <pubDate>Fri, 12 Jun 2026 17:42:45 GMT</pubDate>
+      <description>フランスのAIスタートアップMistralが、前回ラウンドからほぼ倍増となる評価額で新たな資金調達を協議している。</description>
+      <category>スタートアップ</category>
+    </item>
+    <item>
+      <title>SpaceXのIPOが史上最大規模で実施</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260613-05.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-05.html</guid>
+      <pubDate>Fri, 12 Jun 2026 17:20:08 GMT</pubDate>
+      <description>SpaceXは、555.6億株を1株あたり135ドルで公開し、750億ドルを調達する予定。これにより、イーロン・マスク氏は世界初の1兆ドル富豪となる可能性がある。</description>
+      <category>スタートアップ</category>
+    </item>
+    <item>
+      <title>AIモデル開発の評価ツール「olmo-eval」がリリース</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260613-06.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-06.html</guid>
+      <pubDate>Fri, 12 Jun 2026 16:38:16 GMT</pubDate>
+      <description>Allen AI研究所は、大規模言語モデル(LLM)の開発プロセスを効率化するための新しい評価ワークベンチ「olmo-eval」を公開した。</description>
+      <category>研究</category>
+    </item>
+    <item>
+      <title>SpaceX上場後、SPV投資家は所有株式不明確に</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260612-03.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260612-03.html</guid>
+      <pubDate>Thu, 11 Jun 2026 21:29:49 GMT</pubDate>
+      <description>SpaceXが上場したものの、特殊目的 vehicle (SPV) を通じて投資を行った一部の投資家は、自身の保有株数を正確には知ることができない状況にある。</description>
+      <category>スタートアップ</category>
+    </item>
+    <item>
+      <title>Google、バージニア州への新投資で地元雇用とエネルギー安を支援</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260612-02.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260612-02.html</guid>
+      <pubDate>Thu, 11 Jun 2026 21:28:51 GMT</pubDate>
+      <description>Googleは、バージニア州での新たなコミュニティ投資を通じて、地元の雇用創出とエネルギー費用の軽減に取り組む。</description>
+      <category>研究</category>
+    </item>
+  </channel>
+</rss>

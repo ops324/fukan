@@ -59,10 +59,16 @@ AIニュースサイト/
 ├── articles/<slug>.html    # 生成: 各記事ページ
 ├── sections/<slug>.html    # 生成: ナビ各タブ（セクション別一覧。空でも生成）
 ├── tags/<tag>.html         # 生成: タグ別一覧（UTF-8ファイル名）＋ index.html（タグクラウド）
+├── about/contact/privacy/terms/editorial/disclaimer.html # 生成: 法的・運営ページ
+├── sitemap.xml             # 生成: サイトマップ
+├── robots.txt              # 生成: クローラ指示（Sitemap 参照）
+├── feed.xml                # 生成: RSS 2.0 フィード
 ├── search-index.json       # 生成: サイト内検索のクライアント用インデックス
 ├── assets/
 │   ├── styles.css          # デザイン（OKLCH トークン・全クラス・ライト/ダーク）
-│   └── search.js           # サイト内検索＋テーマトグル絵文字の初期化（依存ゼロ）
+│   ├── search.js           # サイト内検索＋テーマトグル絵文字の初期化（依存ゼロ）
+│   ├── og-default.jpg      # SNSシェア共通OG画像（1200×630）
+│   └── logo.png            # 構造化データ publisher.logo（512×512）
 ├── data/
 │   ├── articles.json       # コンテンツの永続ストア（=サイトの正本）
 │   ├── _candidates.json    # 一時: 候補プール（実行後に掃除）
@@ -91,6 +97,7 @@ AIニュースサイト/
 │   ├── article.js          # 記事詳細（読了時間・共有ボタン・関連記事）
 │   ├── section.js          # セクション別一覧
 │   ├── tag.js              # タグ別一覧 renderTag() / タグクラウド renderTagsIndex()
+│   ├── legal.js            # 法的・運営ページ renderLegalPages()
 │   └── archive.js          # アーカイブ
 └── _backup/                # 退避（旧HTML・廃止した qwen フォールバック）
 ```
@@ -256,9 +263,10 @@ open index.html
 - zsh の `$status` は読取専用のため、シェルスクリプトでは別名（`rc`）を使う。
 - **ナビ**: ヘッダー各タブは `config.navSections` から `sections/<slug>.html` を生成・リンク（`render.js`）。
   記事0のセクションも空状態ページを生成する。記事のパンくず／タグはセクション・タグページへリンク済み。
-  **フッターの会社情報/規約/購読リンクは未実装（`#`のまま）** — 運営者情報・プライバシー等の実ページ化は今後（P0）。
+  **フッターは実ページ（運営者情報/編集方針/お問い合わせ/プライバシー/利用規約/免責/RSS）へ接続済み**。
 - **準備中（バックエンド無しのため未実装）**: ログイン・購読・メルマガ登録は静的サイトの制約上、
   クリック/送信で「準備中」アラートを出すのみ（認証・メール配信は導入していない）。
-- **SEO（P0・未実装）**: OGP / Twitter Card / JSON-LD（NewsArticle）/ sitemap.xml / robots.txt / RSSフィードは未対応。
+- **SEO（P0・実装済み）**: OGP / Twitter Card / canonical / JSON-LD（NewsArticle・WebSite・Organization）/
+  sitemap.xml / robots.txt / RSSフィード（feed.xml）を出力。共通OG画像 `assets/og-default.jpg`。
 - **アナリティクス**: Cloudflare Web Analytics を導入済み（`.env` の `CF_BEACON_TOKEN`）。トークンは公開前提の値で、
   HTML（=デプロイ物）に埋め込まれる。`.env` 自体は git 管理外。

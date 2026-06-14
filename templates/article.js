@@ -1,6 +1,6 @@
 // 記事詳細ページ。articles/<slug>.html に出力するため base='../'。
 // 実写真は規約準拠の帰属付きで表示。出典リンクカードを目立つ位置に必ず置く。
-import { ticker, header, footer, page } from './layout.js';
+import { ticker, header, footer, page, organizationLd, absUrl } from './layout.js';
 import { mdToHtml, esc } from '../src/markdown.js';
 import { config } from '../src/config.js';
 import { thumb, credit, tagHref, optimizedUrl } from './cardbits.js';
@@ -98,7 +98,7 @@ function sourceCard(a) {
           </div>`;
 }
 
-export function renderArticle(a, related, dateLabel, index = 0) {
+export function renderArticle(a, related, dateLabel, index = 0, tickerItems = []) {
   const bodyHtml = mdToHtml(a.body_markdown);
 
   const main = `  <main>
@@ -158,10 +158,30 @@ ${relatedCards(related)}
     </div>
   </main>`;
 
+  const canonicalPath = `/articles/${a.slug}.html`;
+  const img = a.image?.imageUrl ? optimizedUrl(a.image.imageUrl, 1200) : undefined;
+  const jsonLd = {
+    '@type': 'NewsArticle',
+    headline: a.headline,
+    description: a.lead || a.headline,
+    datePublished: a.createdAt || undefined,
+    dateModified: a.createdAt || undefined,
+    inLanguage: 'ja',
+    articleSection: a.section || undefined,
+    image: img ? [img] : [absUrl(config.ogImage)],
+    mainEntityOfPage: { '@type': 'WebPage', '@id': absUrl(canonicalPath) },
+    author: organizationLd(),
+    publisher: organizationLd(),
+  };
+
   return page({
     base: BASE,
     title: `${a.headline} | AXIOM AI`,
     description: a.lead || a.headline,
-    body: `${ticker}\n\n${header(dateLabel, a.section, BASE)}\n\n${main}\n\n${footer}`,
+    body: `${ticker(tickerItems)}\n\n${header(dateLabel, a.section, BASE)}\n\n${main}\n\n${footer(BASE)}`,
+    canonicalPath,
+    ogType: 'article',
+    ogImage: img,
+    jsonLd,
   });
 }

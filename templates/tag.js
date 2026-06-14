@@ -29,7 +29,7 @@ function cards(items) {
 }
 
 // 単一タグのページ
-export function renderTag(tag, articles, dateLabel) {
+export function renderTag(tag, articles, dateLabel, tickerItems = []) {
   const main = `  <main class="container">
 
     <nav class="breadcrumb" aria-label="パンくず">
@@ -56,12 +56,13 @@ ${cards(articles)}
     base: BASE,
     title: `#${tag} の記事 | AXIOM AI`,
     description: `「${tag}」に関する最新の AI ニュースを AXIOM AI 編集部の要約と論評でお届けします。`,
-    body: `${ticker}\n\n${header(dateLabel, '', BASE)}\n\n${main}\n\n${footer}`,
+    body: `${ticker(tickerItems)}\n\n${header(dateLabel, '', BASE)}\n\n${main}\n\n${footer(BASE)}`,
+    canonicalPath: `/tags/${encodeURIComponent(tag)}.html`,
   });
 }
 
 // 全タグ一覧（タグクラウド）。entries = [tag, count][] を件数降順で渡す。
-export function renderTagsIndex(entries, dateLabel) {
+export function renderTagsIndex(entries, dateLabel, tickerItems = []) {
   const max = entries.length ? entries[0][1] : 1;
   const items = entries.map(([tag, count]) => {
     // 件数で文字サイズを段階化（タグクラウド表現）
@@ -96,6 +97,7 @@ ${items}
     base: BASE,
     title: 'タグ一覧 | AXIOM AI',
     description: 'AXIOM AI の記事トピック（タグ）一覧。テーマ別に AI ニュースを辿れます。',
-    body: `${ticker}\n\n${header(dateLabel, '', BASE)}\n\n${main}\n\n${footer}`,
+    body: `${ticker(tickerItems)}\n\n${header(dateLabel, '', BASE)}\n\n${main}\n\n${footer(BASE)}`,
+    canonicalPath: '/tags/index.html',
   });
 }

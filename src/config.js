@@ -2,8 +2,23 @@
 import 'dotenv/config';
 
 export const config = {
-  // 本番URL（共有リンク・検索・解析・将来のSEOで使用。末尾スラッシュなし）
+  // 本番URL（共有リンク・検索・解析・SEOで使用。末尾スラッシュなし）
   siteUrl: process.env.SITE_URL || 'https://axiom-ai-xi.vercel.app',
+
+  // --- サイトメタ（SEO / OGP / 構造化データで使用）---
+  siteName: 'AXIOM AI',
+  siteDescription: '生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。',
+  ogImage: '/assets/og-default.jpg', // SNSシェア時の共通サムネ（1200×630）
+  logo: '/assets/logo.png',          // 構造化データ publisher.logo
+
+  // --- 運営者情報（運営者ページ / 構造化データの publisher）---
+  operator: {
+    brand: 'FlowMate',
+    owner: '滝本哲也',
+    zip: '104-0061',
+    address: '東京都中央区銀座一丁目22番11号 銀座大竹ビジデンス 2F',
+    email: 'contact@flowmate.jp',
+  },
 
   // --- 生成設定（執筆はヘッドレス Claude が担当。ollama は廃止）---
   maxArticles: Number(process.env.MAX_ARTICLES || 2), // 1回で「掲載する」本数（×3回/日 = 6本/日）
