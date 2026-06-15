@@ -79,6 +79,11 @@
   --radius-sm: 2px;
   --radius-md: 4px;
 
+  /* Elevation（奥行き・ダーク基調は濃いめ） */
+  --shadow-sm: 0 2px 8px oklch(0% 0 0 / 0.30);
+  --shadow-md: 0 8px 28px oklch(0% 0 0 / 0.36);
+  --shadow-lg: 0 20px 56px oklch(0% 0 0 / 0.46);
+
   /* Layout */
   --site-max: 1400px;
   --site-gutter: 32px;
@@ -108,6 +113,11 @@
   --color-accent-deep: oklch(46% 0.18 250);
   --color-accent-warm: oklch(58% 0.15 65);
   --color-focus: oklch(50% 0.18 250);
+
+  /* 明るい背景では影を薄く・わずかに色味を持たせる */
+  --shadow-sm: 0 2px 8px oklch(50% 0.04 250 / 0.10);
+  --shadow-md: 0 10px 30px oklch(50% 0.05 250 / 0.14);
+  --shadow-lg: 0 24px 60px oklch(45% 0.06 250 / 0.18);
 }
 
 /* テーマ切替トグルボタン */
@@ -377,7 +387,7 @@ p { margin: 0; }
   background: var(--color-paper-1);
   border: 1px solid var(--color-rule-strong);
   border-radius: var(--radius-md);
-  box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+  box-shadow: var(--shadow-lg);
   z-index: 80;
 }
 .hsearch__results a {
@@ -818,7 +828,7 @@ p { margin: 0; }
   content: '→';
   transition: transform var(--dur-fast) var(--ease-out);
 }
-.section__more:hover::after { transform: translateX(3px); }
+.section__more:hover::after { transform: translateX(6px); }
 
 /* Section list — Bloomberg風の高密度リスト */
 .section__list {
@@ -1398,7 +1408,116 @@ p { margin: 0; }
 .side-list__item h5 a:hover { color: var(--color-accent); }
 
 /* ============================================================
- * 17. RESPONSIVE
+ * 17. ENHANCEMENTS（奥行き・質感・マイクロインタラクション・読書体験）
+ * ============================================================ */
+
+/* 紙の質感（微細ノイズ）。最前面に極薄でオーバーレイ */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.035;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ヒーローの極薄ラジアル発光 */
+.hero { position: relative; }
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: -10% -5% auto -5%;
+  height: 70%;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(60% 80% at 18% 0%, oklch(58% 0.18 232 / 0.16), transparent 70%),
+    radial-gradient(50% 70% at 92% 10%, oklch(75% 0.16 65 / 0.10), transparent 72%);
+}
+
+/* サムネを覆う擬似背景レイヤー（hover ズーム用・マークアップ非変更）*/
+.thumb { isolation: isolate; }
+.thumb::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: inherit;
+  background-color: inherit;
+  background-size: cover;
+  background-position: center;
+  transition: transform var(--dur-slow) var(--ease-out);
+}
+
+/* カード/リストカード/ヒーローのリフト＆影＆画像ズーム */
+.card,
+.list-card { transition: transform var(--dur-base) var(--ease-out); }
+.card .thumb,
+.list-card .thumb,
+.hero__lead .thumb { transition: box-shadow var(--dur-base) var(--ease-out); }
+.card:hover,
+.list-card:hover { transform: translateY(-4px); }
+.card:hover .thumb,
+.list-card:hover .thumb,
+.hero__lead:hover .thumb { box-shadow: var(--shadow-md); }
+.card:hover .thumb::before,
+.list-card:hover .thumb::before,
+.hero__lead:hover .thumb::before,
+.article-hero .thumb:hover::before { transform: scale(1.05); }
+
+/* 見出しリンクの下線スライドイン */
+.card__headline a,
+.list-card__headline a,
+.hero__side-item h3 a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 1px;
+  transition: background-size var(--dur-base) var(--ease-out), color var(--dur-fast) var(--ease-out);
+  padding-bottom: 1px;
+}
+.card__headline a:hover,
+.list-card__headline a:hover,
+.hero__side-item h3 a:hover { background-size: 100% 1px; }
+
+/* 控えめな奥行き */
+.newsletter { box-shadow: var(--shadow-sm); }
+.author-card { box-shadow: var(--shadow-sm); }
+
+/* 読了プログレスバー（reveal.js が DOM を生成）*/
+.read-progress {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  z-index: 100;
+  background: transparent;
+  pointer-events: none;
+}
+.read-progress__bar {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, var(--color-accent-deep), var(--color-accent), var(--color-accent-warm));
+  box-shadow: 0 0 12px oklch(78% 0.15 220 / 0.5);
+  transition: width 80ms linear;
+}
+
+/* 段階リビール（reveal.js が .reveal/.is-visible を付与。
+ * js クラスは reveal.js が付けるので、JS 無効/失敗時は常に表示される）*/
+html.js .reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s var(--ease-out), transform 0.6s var(--ease-out);
+  will-change: opacity, transform;
+}
+html.js .reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* ============================================================
+ * 18. RESPONSIVE
  * ============================================================ */
 
 @media (max-width: 1100px) {
@@ -1433,10 +1552,35 @@ p { margin: 0; }
   .pullquote { font-size: var(--text-xl); }
   .article-share { margin-left: 0; }
   .breaking__time { display: none; }
+  /* モバイルの読み心地（行間・段落間を広げる）*/
+  .prose { font-size: var(--text-md); line-height: 1.8; }
+  .prose > * + * { margin-top: var(--space-lg); }
+  .hero__deck { line-height: 1.65; }
 }
 
 @media (max-width: 480px) {
   .site-nav__list { gap: var(--space-md); }
   .brand__sub { display: none; }
   .ad--leaderboard { aspect-ratio: auto; min-height: 60px; }
+}
+
+/* ============================================================
+ * 19. MOTION 低減（追加インタラクションを無効化・情報は欠落させない）
+ * ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .list-card,
+  .thumb::before,
+  .section__more::after {
+    transition: none !important;
+    transform: none !important;
+  }
+  .card:hover,
+  .list-card:hover { transform: none !important; }
+  html.js .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .read-progress__bar { transition: none !important; }
 }

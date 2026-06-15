@@ -197,6 +197,7 @@ ${jsonLdScript(jsonLd)}${analyticsSnippet()}</head>
 
 ${body}
 
+  <script defer src="${base}assets/reveal.js"></script>
   <script defer src="${base}assets/search.js"></script>
 </body>
 </html>

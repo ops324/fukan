@@ -179,7 +179,8 @@ launchctl kickstart -k gui/$(id -u)/com.axiom.generate                          
 - **関連記事**: タグ／セクションの一致度でスコアリングして提示（`src/render.js` の `relatedFor`）。
 - **タグページ**: `tags/<タグ>.html` を自動生成、`tags/index.html` はタグクラウド。記事内タグから辿れる。
 - **AI 関連度フィルタ**: media 系 RSS の AI 無関係記事を `config.aiKeywords` で足切り（公式 primary は常に通す）。
-- **記事体験**: 読了時間の目安、公開時刻、機能する共有ボタン（X / はてブ / リンクコピー）。
+- **記事体験**: 読了時間の目安、公開時刻、機能する共有ボタン（X / はてブ / リンクコピー）、読了プログレスバー。
+- **奥行き・演出**: 影トークン（ライト/ダークで濃淡）、紙の微細グレイン、ヒーロー発光、カードの hover リフト＋画像ズーム、見出しの下線スライド、スクロール段階リビール。`prefers-reduced-motion` で無効化、JS 無効でも本文・カードは常時表示（`assets/reveal.js`）。
 - **ライト／ダークテーマ**: ヘッダーのトグルで切替（OS 設定に追従、localStorage で保持）。
 - **サイト内検索**: 静的（追加依存ゼロ）。`search-index.json` をクライアントで部分一致検索。
 - **画像最適化**: Unsplash 画像に配信パラメータを付与＋ `images.unsplash.com` を preconnect（CWV 改善）。
