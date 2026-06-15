@@ -217,6 +217,7 @@ AIニュースサイト/
 | 関連記事 | タグ／セクションの一致度で「あわせて読みたい」を選出。 | `render.js: relatedFor` |
 | 記事体験 | 読了時間（≈400字/分）、公開時刻、機能する共有ボタン（X / はてブ / リンクコピー）。共有URLは `siteUrl` 基準の絶対パス。**読了プログレスバー**（本文 `.prose` のあるページに自動表示）。 | `templates/article.js`, `assets/reveal.js` |
 | 奥行き・演出 | 影トークン（`--shadow-sm/md/lg`・ライト/ダークで濃淡）、紙の微細グレイン、ヒーローの極薄発光、カードの hover リフト＋画像ズーム、見出しの下線スライド、スクロールに応じた**段階リビール**。すべて `prefers-reduced-motion` で無効化。`js` クラスは `reveal.js` が付与するため **JS 無効/失敗でも本文・カードは常に表示**（プログレッシブエンハンスメント）。 | `assets/styles.css`（ENHANCEMENTS節）, `assets/reveal.js`, `layout.js` |
+| アクセシビリティ・人間工学 | ダーク基調は**純黒×純白を避ける**（背景 `paper-0`=14%・本文 `ink-0`=93%で約16:1）ことでハレーションを低減。メタ／写真クレジットは `ink-2` で 5.9:1（WCAG AA 合格）。タップ領域はテーマトグル・ナビ各項目とも **44×44px 以上**。ティッカーは `prefers-reduced-motion` で停止＋**ホバー/フォーカスで一時停止**。 | `assets/styles.css`（TOKENS節・`.ticker`・`.theme-toggle`・`.site-nav`）, `templates/cardbits.js`・`article.js`（クレジット色） |
 | ライト/ダーク | ヘッダーのトグルで切替。`<head>` のインラインJSが localStorage／OS設定から `data-theme` を paint 前に適用（フラッシュ防止）。 | `styles.css` の `[data-theme="light"]`, `layout.js` |
 | サイト内検索 | `search-index.json` をクライアントで部分一致検索（見出し/タグ/セクション/リード重み付け、キーボード操作対応）。追加依存なし。 | `assets/search.js`, `render.js` |
 | 画像最適化 | Unsplash 画像に配信パラメータ（`w/q/auto=format/fit=crop`）を付与＋`images.unsplash.com` を preconnect。CLS はサムネの `aspect-ratio` で抑制。 | `cardbits.js: optimizedUrl`, `layout.js` |

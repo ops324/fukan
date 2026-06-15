@@ -26,5 +26,5 @@ export function thumb(a, variant) {
 export function credit(a) {
   const img = a.image || {};
   if (!img.imageUrl) return '';
-  return `<span style="color: var(--color-ink-3); font-size: var(--text-xs);">Photo: <a href="${esc(img.profileUrl)}" target="_blank" rel="noopener">${esc(img.photographer)}</a> / ${esc(img.provider)}</span>`;
+  return `<span style="color: var(--color-ink-2); font-size: var(--text-xs);">Photo: <a href="${esc(img.profileUrl)}" target="_blank" rel="noopener">${esc(img.photographer)}</a> / ${esc(img.provider)}</span>`;
 }

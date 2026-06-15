@@ -33,10 +33,10 @@ open index.html
 
 | トークン | 用途 | 値 |
 |---|---|---|
-| `--color-paper-0` | ページ背景 | `oklch(11% 0.012 250)` — 深いネイビーブラック |
-| `--color-paper-1` | カード／サイドバー | `oklch(14% 0.014 250)` |
-| `--color-ink-0` | 本文 | `oklch(96% 0.006 85)` — 暖かいオフホワイト |
-| `--color-ink-2` | メタ情報 | `oklch(58% 0.008 85)` |
+| `--color-paper-0` | ページ背景 | `oklch(14% 0.012 250)` — 深いネイビーブラック（純黒を避けハレーション低減） |
+| `--color-paper-1` | カード／サイドバー | `oklch(17% 0.014 250)` |
+| `--color-ink-0` | 本文 | `oklch(93% 0.006 85)` — 暖かいオフホワイト（純白を避け本文コントラスト約16:1） |
+| `--color-ink-2` | メタ情報・写真クレジット | `oklch(64% 0.008 85)` — 背景比 5.9:1（WCAG AA 合格） |
 | `--color-accent` | 電子インク・ブルー | `oklch(78% 0.15 220)` |
 | `--color-accent-warm` | Bloomberg 風ゴールド | `oklch(75% 0.16 65)` |
 | `--color-breaking` | 速報レッド | `oklch(63% 0.22 25)` |
@@ -93,9 +93,10 @@ open index.html
 
 ## アクセシビリティ
 
-- WCAG AA 準拠コントラスト（ダーク背景に対し ink-0 = 96% lightness）
+- WCAG AA 準拠コントラスト：本文 ink-0 約 16:1（純白を避けハレーション低減）、メタ・写真クレジット ink-2 で 5.9:1（AA 合格）
+- タップ領域 44×44px 以上（テーマトグル、ナビ各項目）
 - 全インタラクティブ要素に `:focus-visible` リング（コントラスト 3:1 以上）
-- `prefers-reduced-motion: reduce` でティッカーアニメ・パルスを停止
+- `prefers-reduced-motion: reduce` でティッカーアニメ・パルスを停止。加えてティッカーはホバー/フォーカスで一時停止（読みたい見出しで止められる）
 - セマンティック HTML（`<main>` / `<aside>` / `<article>` / `<nav>` / `aria-label`）
 
 ---
