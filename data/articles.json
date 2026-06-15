@@ -1,5 +1,57 @@
 [
   {
+    "slug": "20260615-03",
+    "headline": "OpenAI、1.5億ドルでパートナー網を始動",
+    "lead": "OpenAIが1.5億ドルを投じ、企業のAI導入を支援する世界規模のパートナー制度を立ち上げた。",
+    "body_markdown": "OpenAIは、世界各地のパートナー企業がAIソリューションを構築・販売・提供するための新制度「OpenAI Partner Network」を発表した。同社は1億5000万ドルを投じ、コンサルティング会社やシステムインテグレーターなどのパートナーを通じて、企業のAI導入・展開・業務変革を後押しするとしている。\n\nOpenAIは、企業がAIから価値を得るうえでの制約は、もはやモデルの能力ではなく、適切なユースケースの特定や既存システムとの統合、組織への定着といった「導入の実務」に移っていると指摘する。今回のネットワークは、こうした現場の課題を担うパートナー層を厚くする狙いだ。\n\n基盤モデルの性能競争が一巡しつつあるなか、各社の関心は「どう使わせるか」へと移っている。OpenAIが自社単独ではなく外部パートナーへの投資という形を取った点は、生成AIの普及段階が技術提供から導入支援のフェーズへ進みつつあることを示している。",
+    "tags": [
+      "OpenAI",
+      "企業向けAI",
+      "パートナー",
+      "AI導入",
+      "基盤モデル"
+    ],
+    "section": "基盤モデル",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-openai-partner-network",
+    "importance": 4,
+    "image_query": "business people meeting office",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHBlb3BsZSUyMG1lZXRpbmclMjBvZmZpY2V8ZW58MXwwfHx8MTc4MTQ5MjYxOHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Rodeo Project Management Software",
+      "profileUrl": "https://unsplash.com/@getrodeo?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-15T03:03:38.582Z"
+  },
+  {
+    "slug": "20260615-04",
+    "headline": "Sakana AI、初の商用サービス「Marlin」",
+    "lead": "Sakana AIがリサーチ業務に特化した初の商用AIサービス「Sakana Marlin」を6月15日に始めた。",
+    "body_markdown": "Sakana AIは6月15日、同社初の商用サービス「Sakana Marlin（サカナ・マーリン）」の提供を始めた。ビジネス向けのリサーチに特化したチャット型サービスで、平均8時間をかけて自律的に調査を行い、最大80ページのレポートや概要、スライド資料を出力する。経営企画の外部環境分析や新規事業の市場調査、投資先のスクリーニングなどを想定する。\n\n技術面では独自の探索手法「AB-MCTS」を用い、調査の幅を広げつつ深掘りすべき箇所を自律判断する。同社開発の「Namazu」シリーズと他社の先端モデルを組み合わせる構成だという。料金は月額約20万円で15回程度、約40万円で60回程度の調査が可能なプランが用意される。\n\n担当者は、既存のディープリサーチ向けベンチマークは「ビジネスの現場では使えない」とし、一問一答の正答能力よりも実務の専門家が納得できる出力を優先すると説明する。性能指標の競争から距離を置き、実務での有用性を訴求する後発戦略は、リサーチ用途AIの差別化軸を考えるうえで注目される。",
+    "tags": [
+      "Sakana AI",
+      "リサーチAI",
+      "ディープリサーチ",
+      "国産AI",
+      "産業応用"
+    ],
+    "section": "産業応用",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/15/2000000085/",
+    "importance": 4,
+    "image_query": "market research charts documents",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtYXJrZXQlMjByZXNlYXJjaCUyMGNoYXJ0cyUyMGRvY3VtZW50c3xlbnwxfDB8fHwxNzgxNDkyNjE5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-15T03:03:39.417Z"
+  },
+  {
     "slug": "20260615-01",
     "headline": "中国流出懸念で米がAnthropic製AIを規制",
     "lead": "米政府はAnthropicの最先端モデルMythosの利用を米国民に限定するよう指示し、同社は両モデルを市場から撤回した。",

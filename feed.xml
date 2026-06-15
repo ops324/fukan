@@ -7,7 +7,23 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 15 Jun 2026 02:57:23 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 03:03:39 GMT</lastBuildDate>
+    <item>
+      <title>Sakana AI、初の商用サービス「Marlin」</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260615-04.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260615-04.html</guid>
+      <pubDate>Mon, 15 Jun 2026 03:03:39 GMT</pubDate>
+      <description>Sakana AIがリサーチ業務に特化した初の商用AIサービス「Sakana Marlin」を6月15日に始めた。</description>
+      <category>産業応用</category>
+    </item>
+    <item>
+      <title>OpenAI、1.5億ドルでパートナー網を始動</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260615-03.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260615-03.html</guid>
+      <pubDate>Mon, 15 Jun 2026 03:03:38 GMT</pubDate>
+      <description>OpenAIが1.5億ドルを投じ、企業のAI導入を支援する世界規模のパートナー制度を立ち上げた。</description>
+      <category>基盤モデル</category>
+    </item>
     <item>
       <title>SpaceX上場が最大規模、AI企業のIPO競争過熱</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260615-02.html</link>
@@ -151,22 +167,6 @@
       <pubDate>Fri, 12 Jun 2026 17:42:45 GMT</pubDate>
       <description>フランスのAIスタートアップMistralが、前回ラウンドからほぼ倍増となる評価額で新たな資金調達を協議している。</description>
       <category>スタートアップ</category>
-    </item>
-    <item>
-      <title>SpaceXのIPOが史上最大規模で実施</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260613-05.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-05.html</guid>
-      <pubDate>Fri, 12 Jun 2026 17:20:08 GMT</pubDate>
-      <description>SpaceXは、555.6億株を1株あたり135ドルで公開し、750億ドルを調達する予定。これにより、イーロン・マスク氏は世界初の1兆ドル富豪となる可能性がある。</description>
-      <category>スタートアップ</category>
-    </item>
-    <item>
-      <title>AIモデル開発の評価ツール「olmo-eval」がリリース</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260613-06.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-06.html</guid>
-      <pubDate>Fri, 12 Jun 2026 16:38:16 GMT</pubDate>
-      <description>Allen AI研究所は、大規模言語モデル(LLM)の開発プロセスを効率化するための新しい評価ワークベンチ「olmo-eval」を公開した。</description>
-      <category>研究</category>
     </item>
   </channel>
 </rss>
