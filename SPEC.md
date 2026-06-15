@@ -214,7 +214,8 @@ AIニュースサイト/
 | 機能 | 概要 | 実装 |
 |---|---|---|
 | タグページ | `tags/<タグ>.html`（UTF-8名）と `tags/index.html`（件数で大小をつけるタグクラウド）。記事内タグ・パンくずから辿れる。 | `templates/tag.js`, `render.js` |
-| 関連記事 | タグ／セクションの一致度で「あわせて読みたい」を選出。 | `render.js: relatedFor` |
+| 関連記事 | タグ／セクションの一致度で「あわせて読みたい」を選出。関連集合内で**被写体（`image_query` キーワード＋画像URL）を分散**させ、同種写真の並びを避ける（関連度は犠牲にしない＝無関係記事は混ぜない）。 | `render.js: relatedFor` / `pickDiverse` / `imgSig` |
+| 重要度の視覚強調 | `importance>=4` の記事は等価グリッド（トップの注目カード・最新記事）で控えめなアクセント（カード上端のアクセント線／リストの区切り線をアクセント色）を付与し、スキャン性を上げる（von Restorff 効果）。位置による階層（hero→側→カード→時系列）は従来どおり。 | `templates/cardbits.js: priorityClass`, `index.js`, `styles.css`（`.is-priority`） |
 | 記事体験 | 読了時間（≈400字/分）、公開時刻、機能する共有ボタン（X / はてブ / リンクコピー）。共有URLは `siteUrl` 基準の絶対パス。**読了プログレスバー**（本文 `.prose` のあるページに自動表示）。 | `templates/article.js`, `assets/reveal.js` |
 | 奥行き・演出 | 影トークン（`--shadow-sm/md/lg`・ライト/ダークで濃淡）、紙の微細グレイン、ヒーローの極薄発光、カードの hover リフト＋画像ズーム、見出しの下線スライド、スクロールに応じた**段階リビール**。すべて `prefers-reduced-motion` で無効化。`js` クラスは `reveal.js` が付与するため **JS 無効/失敗でも本文・カードは常に表示**（プログレッシブエンハンスメント）。 | `assets/styles.css`（ENHANCEMENTS節）, `assets/reveal.js`, `layout.js` |
 | アクセシビリティ・人間工学 | ダーク基調は**純黒×純白を避ける**（背景 `paper-0`=14%・本文 `ink-0`=93%で約16:1）ことでハレーションを低減。メタ／写真クレジットは `ink-2` で 5.9:1（WCAG AA 合格）。タップ領域はテーマトグル・ナビ各項目とも **44×44px 以上**。ティッカーは `prefers-reduced-motion` で停止＋**ホバー/フォーカスで一時停止**。 | `assets/styles.css`（TOKENS節・`.ticker`・`.theme-toggle`・`.site-nav`）, `templates/cardbits.js`・`article.js`（クレジット色） |

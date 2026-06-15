@@ -35,8 +35,45 @@ const recencyDesc = (x, y) => Date.parse(y.createdAt || 0) - Date.parse(x.create
 const imp = (a) => Number(a.importance) || 3;
 const importanceThenRecency = (x, y) => (imp(y) - imp(x)) || recencyDesc(x, y);
 
+// 画像シグネチャ: 同じ被写体の写真が関連枠に並ぶのを避けるための鍵集合。
+// imageUrl（最強）＋ image_query の意味語（接続詞・汎用語は除外）。
+const IMG_STOP = new Set([
+  'the', 'a', 'an', 'of', 'and', 'in', 'on', 'at', 'for', 'with', 'to', 'from', 'by',
+  'sky', 'night', 'day', 'view', 'shot', 'photo', 'image', 'closeup', 'close', 'up',
+  'background', 'scene', 'modern', 'abstract',
+]);
+function imgSig(a) {
+  const set = new Set();
+  const url = (a.image && a.image.imageUrl ? String(a.image.imageUrl) : '').split('?')[0];
+  if (url) set.add(`url:${url}`);
+  for (const w of String(a.image_query || '').toLowerCase().split(/[^a-z0-9]+/)) {
+    if (w.length > 2 && !IMG_STOP.has(w)) set.add(w);
+  }
+  return set;
+}
+const sigOverlaps = (sig, used) => {
+  for (const k of sig) if (used.has(k)) return true;
+  return false;
+};
+
+// 並び順（関連度／重要度順）を保ったまま貪欲に count 件選ぶ。
+// 各ステップで「既選と被写体が重ならない最上位候補」を優先採用し、無ければ最上位をそのまま採用。
+// → 関連度を犠牲にせず（候補集合は呼び出し側で限定）、可能な範囲で被写体を分散する。
+function pickDiverse(ordered, count, usedSig = new Set()) {
+  const picked = [];
+  const remaining = [...ordered];
+  while (picked.length < count && remaining.length) {
+    let idx = remaining.findIndex((a) => !sigOverlaps(imgSig(a), usedSig));
+    if (idx === -1) idx = 0; // 全候補が既選と被る → 順位最優先で妥協
+    const [chosen] = remaining.splice(idx, 1);
+    for (const k of imgSig(chosen)) usedSig.add(k);
+    picked.push(chosen);
+  }
+  return picked;
+}
+
 // 関連記事: タグ共有数×3 + 同セクション×2 でスコアし、同点は重要度→新着。
-// 関連度>0 を優先し、不足分は重要度上位で補完して count 件を返す。
+// 関連度>0 の集合内で被写体を分散して選び、不足分は重要度上位で補完して count 件を返す。
 function relatedFor(target, pool, count = 3) {
   const tags = new Set(target.tags || []);
   const scored = pool
@@ -50,13 +87,16 @@ function relatedFor(target, pool, count = 3) {
     .filter((s) => s.score > 0)
     .sort((x, y) => (y.score - x.score) || importanceThenRecency(x.a, y.a))
     .map((s) => s.a);
-  if (relevant.length >= count) return relevant.slice(0, count);
-  // 不足分を重要度上位（既選を除く）で補完
-  const chosen = new Set(relevant.map((a) => a.slug));
+  // まず関連集合から被写体分散で選ぶ（無関係記事は混ぜない＝関連度は不変）。
+  const usedSig = new Set();
+  const picked = pickDiverse(relevant, count, usedSig);
+  if (picked.length >= count) return picked;
+  // 不足分を重要度上位（既選を除く）で補完。補完側も既選の被写体を避ける。
+  const chosen = new Set(picked.map((a) => a.slug));
   const fill = pool
     .filter((a) => a.slug !== target.slug && !chosen.has(a.slug))
     .sort(importanceThenRecency);
-  return [...relevant, ...fill].slice(0, count);
+  return [...picked, ...pickDiverse(fill, count - picked.length, usedSig)];
 }
 
 // outDir を指定すると ROOT ではなくそのディレクトリへ全生成物を書き出す（既定は ROOT）。

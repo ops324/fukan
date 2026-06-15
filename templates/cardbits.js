@@ -6,6 +6,14 @@ export function tagHref(tag, base = '') {
   return `${base}tags/${encodeURIComponent(tag)}.html`;
 }
 
+// 重要度(1-5)。レガシー記事の欠落は 3 にフォールバック（render.js と同義）。
+export const imp = (a) => Number(a.importance) || 3;
+
+// 重要度が高い記事に控えめなアクセントを付けるためのクラス（等価グリッドでのスキャン性向上）。
+export function priorityClass(a) {
+  return imp(a) >= 4 ? ' is-priority' : '';
+}
+
 // Unsplash 画像URLに配信最適化パラメータを付与（バイト数削減）。他プロバイダ/不明URLは素通し。
 export function optimizedUrl(url, w = 1200) {
   if (!url || !url.includes('images.unsplash.com')) return url;

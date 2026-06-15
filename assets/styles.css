@@ -774,6 +774,12 @@ p { margin: 0; }
 
 .card .thumb { margin-bottom: var(--space-xs); }
 
+/* 重要度の高い記事（importance>=4）の控えめな強調。上端にアクセントの細線を引く。 */
+.card.is-priority {
+  padding-top: var(--space-sm);
+  border-top: 2px solid var(--color-accent);
+}
+
 .card__headline {
   font-family: var(--font-display);
   font-size: var(--text-xl);
@@ -853,6 +859,9 @@ p { margin: 0; }
   padding-top: var(--space-md);
   border-top: 2px solid var(--color-ink-3);
 }
+
+/* 重要度の高い記事は既存の区切り線をアクセント色に（レイアウト不変・色だけ強調）。 */
+.list-card.is-priority { border-top-color: var(--color-accent); }
 
 .list-card__headline {
   font-family: var(--font-display);

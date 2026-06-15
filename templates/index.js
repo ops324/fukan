@@ -3,7 +3,7 @@
 import { ticker, header, footer, page, organizationLd } from './layout.js';
 import { esc } from '../src/markdown.js';
 import { config } from '../src/config.js';
-import { thumb, credit } from './cardbits.js';
+import { thumb, credit, priorityClass } from './cardbits.js';
 
 const THUMBS = config.thumbVariants;
 const href = (a) => `articles/${a.slug}.html`;
@@ -53,7 +53,7 @@ function cards(items) {
   if (!items.length) return '';
   const cs = items.map((a, i) => {
     const variant = THUMBS[(i + 1) % THUMBS.length];
-    return `      <article class="card">
+    return `      <article class="card${priorityClass(a)}">
         ${thumb(a, variant)}
         <span class="chip">${esc(a.section || 'AI')}</span>
         <h3 class="card__headline"><a href="${href(a)}">${esc(a.headline)}</a></h3>
@@ -70,7 +70,7 @@ function cards(items) {
 
 function latestList(items, moreHref = '#') {
   if (!items.length) return '';
-  const rows = items.map((a) => `        <article class="list-card">
+  const rows = items.map((a) => `        <article class="list-card${priorityClass(a)}">
           <span class="meta">${esc(a.displayDate || '')}</span>
           <h3 class="list-card__headline"><a href="${href(a)}">${esc(a.headline)}</a></h3>
           <p class="card__deck" style="color: var(--color-ink-2);">${esc(a.lead)}</p>
