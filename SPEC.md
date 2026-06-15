@@ -272,6 +272,8 @@ open index.html
 
 - **claude CLI 認証が切れると定期ジョブは失敗する**。`data/scheduler.log` を時々確認する。
 - 記事の正本は `data/articles.json`。HTML はそこからの派生（いつでも `npm run render` で再生成可能）。
+- **コード改善はブランチで**: 自動ジョブの `git push origin main` は `main` 上の未 push コミットも一緒に送るため、
+  WIP を `main` に直コミットすると次の自動実行で本番へ出る。改善・機能追加は作業ブランチで行い、検証後に `main` へマージする（[CLAUDE.md](CLAUDE.md) §2）。
 - `makeSlug` は「同日最大連番+1」方式（削除で欠番が出ても衝突しない）。
 - zsh の `$status` は読取専用のため、シェルスクリプトでは別名（`rc`）を使う。
 - **再描画は非決定的**: `feed.xml` の `lastBuildDate` と `sitemap.xml` の `lastmod` が毎回更新されるため、
