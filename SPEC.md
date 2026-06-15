@@ -102,8 +102,15 @@ AIニュースサイト/
 │   ├── tag.js              # タグ別一覧 renderTag() / タグクラウド renderTagsIndex()
 │   ├── legal.js            # 法的・運営ページ renderLegalPages()
 │   └── archive.js          # アーカイブ
+├── CLAUDE.md               # 開発ルール（毎回自動読込・コード品質/Git/検証）
+├── README.md               # デザイン・概要
+├── SPEC.md                 # 本書（技術仕様・運用）
+├── package.json            # スクリプト（candidates / render / check / backfill-images / serve）
+├── .env.example            # 環境変数の雛形（すべて任意）
 └── _backup/                # 退避（旧HTML・廃止した qwen フォールバック）
 ```
+
+> ドキュメント3層: **CLAUDE.md＝開発ルール** / **SPEC.md＝技術仕様・運用** / **README.md＝デザイン・概要**。記事の編集方針は `prompts/generate-articles.md`。
 
 ---
 
