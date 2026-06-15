@@ -88,8 +88,9 @@ AIニュースサイト/
 │   ├── ingestDrafts.js     # 下書き取込（採番・画像・保存・再生成）
 │   ├── fetchImage.js       # Unsplash/Pexels 画像（無ければ CSS サムネ）
 │   ├── backfill-images.js  # 既存記事に実写真を一括付与
-│   ├── render.js           # 重要度序列・保持・アーカイブの描画統括
+│   ├── render.js           # 重要度序列・保持・アーカイブの描画統括（任意 outDir 対応）
 │   ├── renderOnly.js       # 再描画のみ
+│   ├── check.js            # 公開前チェック（render完走/スキーマ/鍵混入）
 │   ├── store.js            # articles.json 読み書き・slug採番
 │   └── markdown.js         # md→html / エスケープ
 ├── templates/
@@ -225,6 +226,9 @@ AIニュースサイト/
 - ログ: `data/scheduler.log`
 - 健全性監視: 実行前後で `articles.json` の件数を比較。**異常終了・articles.json 破損・push 失敗・
   新規ゼロが3回連続**のとき macOS 通知（`osascript`）を出す。連続回数は `data/.health` に記録。
+- **ソース変更ガード**: commit 前に `src/ templates/ scripts/ prompts/ package.json` の未コミット変更を検査し、
+  あれば **auto-commit/push を中止して通知**する（作業途中コードが無人ジョブで自動公開される事故を防ぐ）。
+  生成物・`data/` は対象外。クリーンな通常時のみ `git add -A` → commit → push する。
 
 ```sh
 # 状態 / 停止 / 再開 / 即時実行
@@ -242,12 +246,15 @@ launchctl kickstart -k gui/$(id -u)/com.axiom.generate
 
 ```sh
 npm install                  # 依存導入（rss-parser / marked / dotenv）
+npm run check                # 公開前ゲート（レンダー完走＋スキーマ/slug・link一意＋鍵混入チェック）
 npm run candidates           # 候補だけ確認（data/_candidates.json）
 zsh scripts/auto-generate.sh # 取材→執筆→反映まで全自動で1回
 npm run render               # articles.json から再描画のみ
 npm run backfill-images      # 既存記事の抽象サムネを実写真へ一括差し替え（要 UNSPLASH_KEY）
 open index.html
 ```
+
+> `npm run check` は一時ディレクトリへお試しレンダーするため**作業ツリーを汚さない**。手動で `git push`（=本番反映）する前に必ず実行する。開発時の規約は [CLAUDE.md](CLAUDE.md) を参照。
 
 リセット: `data/articles.json` と `articles/*.html` を削除。
 
@@ -267,6 +274,9 @@ open index.html
 - 記事の正本は `data/articles.json`。HTML はそこからの派生（いつでも `npm run render` で再生成可能）。
 - `makeSlug` は「同日最大連番+1」方式（削除で欠番が出ても衝突しない）。
 - zsh の `$status` は読取専用のため、シェルスクリプトでは別名（`rc`）を使う。
+- **再描画は非決定的**: `feed.xml` の `lastBuildDate` と `sitemap.xml` の `lastmod` が毎回更新されるため、
+  内容が同じでも `npm run render` のたびに差分が出る（＝差分＝変更ではない）。`npm run check` は
+  この性質を踏まえ「2回描画して diff 空」方式は採らず、一時dirへの描画完走で健全性を判定する。
 - **ナビ**: ヘッダー各タブは `config.navSections` から `sections/<slug>.html` を生成・リンク（`render.js`）。
   記事0のセクションも空状態ページを生成する。記事のパンくず／タグはセクション・タグページへリンク済み。
   **フッターは実ページ（運営者情報/編集方針/お問い合わせ/プライバシー/利用規約/免責/RSS）へ接続済み**。

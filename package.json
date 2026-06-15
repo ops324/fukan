@@ -8,6 +8,7 @@
     "candidates": "node src/fetchCandidates.js",
     "ingest": "node src/ingestDrafts.js",
     "render": "node src/renderOnly.js",
+    "check": "node src/check.js",
     "backfill-images": "node src/backfill-images.js",
     "serve": "node --version >/dev/null && python3 -m http.server 8000"
   },

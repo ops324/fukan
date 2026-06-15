@@ -68,8 +68,16 @@ else
 fi
 echo "$STREAK" > "$HEALTH_FILE"
 
+# --- ソース変更ガード ---
+# 作業途中の src/templates 等のコードが、無人ジョブに巻き込まれて自動公開される事故を防ぐ。
+# 生成物・data/ は対象外。ソース系に未コミット変更があれば commit/push をスキップする。
+SRC_DIRTY="$(git status --porcelain -- src templates scripts prompts package.json package-lock.json 2>/dev/null)"
+if [[ -n "$SRC_DIRTY" ]]; then
+  echo "WARN: ソースに未コミット変更があるため自動コミットを中止します:"
+  echo "$SRC_DIRTY"
+  notify "ソースに未コミット変更があるため自動コミットを中止しました。手動で整理してください。"
 # 本番(Vercel)へ自動反映: 変更があれば commit & push。push すると Vercel が自動デプロイ。
-if [[ -n "$(git status --porcelain 2>/dev/null)" ]]; then
+elif [[ -n "$(git status --porcelain 2>/dev/null)" ]]; then
   echo "変更を検出 → git push（Vercel 自動デプロイ）"
   git add -A
   git commit -q -m "auto: $(date '+%Y-%m-%d %H:%M') 記事を更新

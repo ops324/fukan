@@ -59,7 +59,9 @@ function relatedFor(target, pool, count = 3) {
   return [...relevant, ...fill].slice(0, count);
 }
 
-export async function renderSite(rawArticles) {
+// outDir を指定すると ROOT ではなくそのディレクトリへ全生成物を書き出す（既定は ROOT）。
+// check.js が一時ディレクトリへ「お試しレンダー」して作業ツリーを汚さないために使う。
+export async function renderSite(rawArticles, { outDir = ROOT } = {}) {
   const decorated = rawArticles.map(decorate);
 
   const byRecency = [...decorated].sort(recencyDesc);
@@ -73,25 +75,25 @@ export async function renderSite(rawArticles) {
 
   // index.html（ルート上書き）
   await writeFile(
-    path.join(ROOT, 'index.html'),
+    path.join(outDir, 'index.html'),
     renderIndex(featured, universe, label, archived.length, tickerItems),
     'utf8',
   );
 
   // archive.html（超過分があるときのみ・全記事を時系列で一覧）
   if (archived.length) {
-    await writeFile(path.join(ROOT, 'archive.html'), renderArchive(byRecency, label, tickerItems), 'utf8');
+    await writeFile(path.join(outDir, 'archive.html'), renderArchive(byRecency, label, tickerItems), 'utf8');
   }
 
   // sections/<slug>.html（ナビ各タブのリンク先・重要度→新着順）
-  await mkdir(path.join(ROOT, 'sections'), { recursive: true });
+  await mkdir(path.join(outDir, 'sections'), { recursive: true });
   for (const { name, slug } of config.navSections) {
     const items = [...decorated].filter((a) => a.section === name).sort(importanceThenRecency);
-    await writeFile(path.join(ROOT, 'sections', `${slug}.html`), renderSection(name, slug, items, label, tickerItems), 'utf8');
+    await writeFile(path.join(outDir, 'sections', `${slug}.html`), renderSection(name, slug, items, label, tickerItems), 'utf8');
   }
 
   // tags/<tag>.html + tags/index.html（タグ→記事の Map を構築）
-  await mkdir(path.join(ROOT, 'tags'), { recursive: true });
+  await mkdir(path.join(outDir, 'tags'), { recursive: true });
   const tagMap = new Map(); // tag -> 記事[]
   for (const a of decorated) {
     for (const t of a.tags || []) {
@@ -101,17 +103,17 @@ export async function renderSite(rawArticles) {
   }
   for (const [tag, items] of tagMap) {
     items.sort(importanceThenRecency);
-    await writeFile(path.join(ROOT, 'tags', `${tag}.html`), renderTag(tag, items, label, tickerItems), 'utf8');
+    await writeFile(path.join(outDir, 'tags', `${tag}.html`), renderTag(tag, items, label, tickerItems), 'utf8');
   }
   const tagEntries = [...tagMap.entries()]
     .map(([tag, items]) => [tag, items.length])
     .sort((x, y) => (y[1] - x[1]) || x[0].localeCompare(y[0], 'ja'));
-  await writeFile(path.join(ROOT, 'tags', 'index.html'), renderTagsIndex(tagEntries, label, tickerItems), 'utf8');
+  await writeFile(path.join(outDir, 'tags', 'index.html'), renderTagsIndex(tagEntries, label, tickerItems), 'utf8');
 
   // 法的・運営ページ（about / contact / privacy / terms / editorial / disclaimer）
   const legalPages = renderLegalPages(label, tickerItems);
   for (const [file, html] of Object.entries(legalPages)) {
-    await writeFile(path.join(ROOT, file), html, 'utf8');
+    await writeFile(path.join(outDir, file), html, 'utf8');
   }
 
   // search-index.json（クライアント検索用・全記事の軽量メタ）
@@ -123,27 +125,27 @@ export async function renderSite(rawArticles) {
     section: a.section || '',
     date: a.displayDate || '',
   }));
-  await writeFile(path.join(ROOT, 'search-index.json'), JSON.stringify(searchIndex), 'utf8');
+  await writeFile(path.join(outDir, 'search-index.json'), JSON.stringify(searchIndex), 'utf8');
 
   // 各記事ページ（全件）。関連はタグ/セクション一致でスコアし3件。
-  await mkdir(path.join(ROOT, 'articles'), { recursive: true });
+  await mkdir(path.join(outDir, 'articles'), { recursive: true });
   let count = 0;
   for (let i = 0; i < byRecency.length; i++) {
     const a = byRecency[i];
     const related = relatedFor(a, byRecency, 3);
     const html = renderArticle(a, related, label, i, tickerItems);
-    await writeFile(path.join(ROOT, 'articles', `${a.slug}.html`), html, 'utf8');
+    await writeFile(path.join(outDir, 'articles', `${a.slug}.html`), html, 'utf8');
     count++;
   }
 
   // sitemap.xml / robots.txt / feed.xml（SEO・配信）
-  await writeSeoFiles(byRecency, tagMap, Object.keys(legalPages), archived.length);
+  await writeSeoFiles(byRecency, tagMap, Object.keys(legalPages), archived.length, outDir);
 
   return { index: 1, articles: count, archived: archived.length };
 }
 
 // sitemap.xml・robots.txt・feed.xml を生成
-async function writeSeoFiles(byRecency, tagMap, legalFiles, archivedCount) {
+async function writeSeoFiles(byRecency, tagMap, legalFiles, archivedCount, outDir = ROOT) {
   const now = new Date().toISOString();
   const lastmod = (a) => (a.createdAt ? new Date(a.createdAt).toISOString() : now);
 
@@ -162,7 +164,7 @@ async function writeSeoFiles(byRecency, tagMap, legalFiles, archivedCount) {
 ${urls.map((u) => `  <url><loc>${xmlEsc(u.loc)}</loc><lastmod>${u.lastmod}</lastmod></url>`).join('\n')}
 </urlset>
 `;
-  await writeFile(path.join(ROOT, 'sitemap.xml'), sitemap, 'utf8');
+  await writeFile(path.join(outDir, 'sitemap.xml'), sitemap, 'utf8');
 
   // --- robots.txt ---
   const robots = `User-agent: *
@@ -170,7 +172,7 @@ Allow: /
 
 Sitemap: ${abs('/sitemap.xml')}
 `;
-  await writeFile(path.join(ROOT, 'robots.txt'), robots, 'utf8');
+  await writeFile(path.join(outDir, 'robots.txt'), robots, 'utf8');
 
   // --- feed.xml（RSS 2.0・最新20件）---
   const items = byRecency.slice(0, 20).map((a) => {
@@ -200,10 +202,10 @@ ${items}
   </channel>
 </rss>
 `;
-  await writeFile(path.join(ROOT, 'feed.xml'), feed, 'utf8');
+  await writeFile(path.join(outDir, 'feed.xml'), feed, 'utf8');
 
   // feed.xsl — ブラウザで feed.xml を開いたとき読み物として表示するスタイルシート
-  await writeFile(path.join(ROOT, 'feed.xsl'), feedStylesheet(), 'utf8');
+  await writeFile(path.join(outDir, 'feed.xsl'), feedStylesheet(), 'utf8');
 }
 
 // RSS をブラウザで人間向けに描画する XSLT 1.0 スタイルシート。
