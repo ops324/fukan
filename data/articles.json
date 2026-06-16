@@ -351,10 +351,11 @@
     "importance": 4,
     "image_query": "tech conference stage presentation",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1592758080692-b6a5dbe9c725?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwY29uZmVyZW5jZSUyMHN0YWdlJTIwcHJlc2VudGF0aW9ufGVufDF8MHx8fDE3ODE0Mjc4MDh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Cosmin Serban",
-      "profileUrl": "https://unsplash.com/@cosminserban?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash"
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH_SS.width-1300.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+      "source": "公式発表ページより（報道利用）"
     },
     "mode": "full",
     "createdAt": "2026-06-14T09:03:28.684Z"
@@ -377,10 +378,11 @@
     "importance": 3,
     "image_query": "programming code terminal screen",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxwcm9ncmFtbWluZyUyMGNvZGUlMjB0ZXJtaW5hbCUyMHNjcmVlbnxlbnwxfDB8fHwxNzgxNDI3ODA5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Florian Olivo",
-      "profileUrl": "https://unsplash.com/@florianolv?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash"
+      "kind": "press",
+      "imageUrl": "https://huggingface.co/blog/assets/hf-cli-for-agents/thumbnail.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/hf-cli-for-agents",
+      "source": "公式発表ページより（報道利用）"
     },
     "mode": "full",
     "createdAt": "2026-06-14T09:03:29.316Z"
@@ -403,10 +405,11 @@
     "importance": 4,
     "image_query": "video editing screen",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx2aWRlbyUyMGVkaXRpbmclMjBzY3JlZW58ZW58MXwwfHx8MTc4MTQwNjIzNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Peter Stumpf",
-      "profileUrl": "https://unsplash.com/@peter_s?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash"
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_herosocial.width-1300.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "source": "公式発表ページより（報道利用）"
     },
     "mode": "full",
     "createdAt": "2026-06-14T03:03:54.328Z"
@@ -582,10 +585,11 @@
     "importance": 3,
     "image_query": "robot arm training simulation",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1637002722490-5f8ceed9774c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxyb2JvdCUyMGFybSUyMHRyYWluaW5nJTIwc2ltdWxhdGlvbnxlbnwxfDB8fHwxNzgxMjk4MjQzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Sufyan",
-      "profileUrl": "https://unsplash.com/@blenderdesigner?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash"
+      "kind": "press",
+      "imageUrl": "https://huggingface.co/blog/assets/openenv/thumbnail2.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/openenv-agentic-rl",
+      "source": "公式発表ページより（報道利用）"
     },
     "mode": "full",
     "createdAt": "2026-06-12T21:04:04.025Z"
