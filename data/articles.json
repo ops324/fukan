@@ -1,5 +1,57 @@
 [
   {
+    "slug": "20260616-05",
+    "headline": "ソフトバンク、OpenAI技術でAIセキュリティ診断",
+    "lead": "OpenAIの「GPT-5.5 Cyber」を活用し、企業の脆弱性を発見・修復する「Patching as a Service」を発表した。",
+    "body_markdown": "ソフトバンクグループは6月16日、米OpenAIの技術を活用したサイバーセキュリティ対策サービス「Patching as a Service」を発表した。両社のジョイントベンチャー「SB OAI Japan」を通じて提供する。サイバーセキュリティに特化したAI「GPT-5.5 Cyber」とソフトバンクの運用ノウハウを組み合わせ、企業システムに疑似的な攻撃を仕掛けて脆弱性を洗い出し、修復方針の策定や実装提案まで一気通貫で行う。\n\n同社は自社システムにこの手法を適用し、1万500件の脆弱性を発見したという。孫正義氏は「1万499件の穴を塞いでも、1つの穴をやられたら全滅する。これは大変な危機だ」と述べ、AIを用いたサイバー攻撃の脅威に警鐘を鳴らした。サービスはまず日本国内の重要インフラを支える一部企業に優先提供される。診断は2億行まで無料とし、現在50人の技術者を将来的に1000人規模へ拡大する計画も示した。\n\n攻撃側がAIで高度化するなか、防御側もAIで自動化する動きが本格化している。OpenAIは防御者向けに「GPT-5.5 Cyber」を限定提供しており、今回の発表はその商用展開を日本の重要インフラ領域で具体化した事例と位置づけられる。一方で、疑似攻撃の対象範囲や成果の検証は今後の運用実績を見極める必要がある。",
+    "tags": [
+      "ソフトバンク",
+      "OpenAI",
+      "サイバーセキュリティ",
+      "脆弱性診断",
+      "重要インフラ"
+    ],
+    "section": "産業応用",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/16/2000000095/",
+    "importance": 4,
+    "image_query": "cyber security network lock",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1618060932014-4deda4932554?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxjeWJlciUyMHNlY3VyaXR5JTIwbmV0d29yayUyMGxvY2t8ZW58MXwwfHx8MTc4MTYwMDY0MHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "FlyD",
+      "profileUrl": "https://unsplash.com/@flyd2069?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-16T09:04:01.149Z"
+  },
+  {
+    "slug": "20260616-06",
+    "headline": "Preply、OpenAIで語学レッスンをAI要約",
+    "lead": "オンライン語学学習のPreplyが、OpenAIのモデルを使いレッスンの個別フィードバックを自動生成する。",
+    "body_markdown": "オンライン語学学習プラットフォームのPreplyは、OpenAIのモデルを活用した学習支援機能を導入したと公表した。中核となるのは「Lesson Insights」と呼ばれる機能で、講師とのレッスン音声を文字起こしし、AIが語彙・文法・スピーキングの観点から個別のフィードバックを生成する。学習者には文法の訂正、重要単語、類義語などが提示され、次に取り組むべき練習問題も提案される。\n\nPreplyは人間の講師を中心に据える方針を掲げており、AIはあくまで講師の指導を補完する位置づけだ。同社によると、AI要約を一度使った学習者の多くが1年以上経っても継続して利用しており、定着率の向上につながっているという。日々の練習問題や、学んだ内容を試す実践シナリオの生成にもAIが用いられている。\n\n語学学習分野では、AIによる自動化を前面に出すサービスと、人間の講師を軸にAIを補助に回すサービスとで方向性が分かれつつある。Preplyの取り組みは後者の代表例であり、対人指導の価値を保ちながらAIで個別最適化をどこまで深められるかが今後の焦点となる。",
+    "tags": [
+      "Preply",
+      "OpenAI",
+      "語学学習",
+      "EdTech",
+      "パーソナライズ"
+    ],
+    "section": "基盤モデル",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/preply",
+    "importance": 3,
+    "image_query": "online language learning laptop",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1623076189461-f7706b741c04?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBsYW5ndWFnZSUyMGxlYXJuaW5nJTIwbGFwdG9wfGVufDF8MHx8fDE3ODE2MDA2NDF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Thomas Park",
+      "profileUrl": "https://unsplash.com/@thomascpark?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-16T09:04:01.771Z"
+  },
+  {
     "slug": "20260616-03",
     "headline": "米政府がAnthropic最上位AIを輸出規制、提供一時停止",
     "lead": "Mythos 5とFable 5を全外国人向けに遮断する指令を受け、Anthropicは両モデルを全顧客向けに無効化した。",
