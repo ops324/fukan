@@ -1,5 +1,57 @@
 [
   {
+    "slug": "20260616-03",
+    "headline": "米政府がAnthropic最上位AIを輸出規制、提供一時停止",
+    "lead": "Mythos 5とFable 5を全外国人向けに遮断する指令を受け、Anthropicは両モデルを全顧客向けに無効化した。",
+    "body_markdown": "6月13日夕方、Anthropicは米政府から輸出管理指令を受領した。報道によれば、商務長官ハワード・ラトニック氏がダリオ・アモデイCEO宛ての書簡で、最上位モデルである「Mythos 5」と「Fable 5」を輸出管理の対象とし、米国外のあらゆる地域に加え、国内に滞在する外国人（外国籍の自社従業員を含む）すべてのアクセスを遮断するよう求めた。短時間での順守を迫られたAnthropicは、両モデルを全顧客向けに一旦無効化して対応した。指令は他のClaude系モデルには及ばず、それらは稼働を続けるという。\n\n規制のきっかけは、別の企業がMythos 5の「脱獄（jailbreak）」に成功したと主張したことだとされる。当局はソフトウェアの脆弱性を検出する能力が安全保障上のリスクになり得ると懸念した。これに対しAnthropicは、政府が示した根拠は限定的で、同等の能力は競合のGPT-5.5など他社モデルでも広く利用可能だと反論している。\n\n国家が輸出管理を用い、国内の外国籍従業員にまで自国企業の主力AIへのアクセスを制限した点は異例だ。AIの安全保障と、国境をまたぐ人材・市場との緊張を浮き彫りにする事例といえる。",
+    "tags": [
+      "Anthropic",
+      "輸出規制",
+      "AI安全保障",
+      "Claude",
+      "米政府"
+    ],
+    "section": "産業応用",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls",
+    "importance": 5,
+    "image_query": "capitol building washington",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1520525003249-2b9cdda513bc?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjYXBpdG9sJTIwYnVpbGRpbmclMjB3YXNoaW5ndG9ufGVufDF8MHx8fDE3ODE1NzkwNzl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Louis Velazquez",
+      "profileUrl": "https://unsplash.com/@angelvela?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-16T03:04:39.905Z"
+  },
+  {
+    "slug": "20260616-04",
+    "headline": "Google CEOの卒業式講演に抗議、約200人が退場",
+    "lead": "スタンフォード大学の卒業式で、ピチャイ氏の登壇中に学生がGoogleの軍事・行政向けAI契約へ抗議した。",
+    "body_markdown": "スタンフォード大学の卒業式で、登壇したGoogleのスンダー・ピチャイCEOに対し、約200人の卒業生が退場し、他の出席者からはブーイングが起きた。学生らが抗議の的としたのは、Googleの防衛・政府契約だ。焦点となったのは、イスラエル軍にクラウドとAIを提供する「Project Nimbus」（Amazonと共同、総額12億ドル）と、移民税関捜査局（ICE）との関係である。会場では「ICE SPIES WITH GOOGLE AI」などのプラカードやパレスチナ国旗が掲げられた。抗議は「Stanford Students for Justice in Palestine」「No Tech for Apartheid」などの団体が組織したという。\n\nGoogleは2024年にもProject Nimbusへの抗議に関与した従業員28人を解雇しており、同契約をめぐる社内外の反発は続いている。一方で、抗議を「偏っていて短絡的」と批判する声もある。\n\nAIの軍事・行政利用に対する学生や技術者の反発が改めて表面化した形だ。AI企業の事業契約と倫理をめぐる緊張が、採用市場の評判にも及びつつあることを示している。",
+    "tags": [
+      "Google",
+      "AI倫理",
+      "Project Nimbus",
+      "防衛契約",
+      "抗議"
+    ],
+    "section": "スタートアップ",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/",
+    "importance": 3,
+    "image_query": "university graduation ceremony",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwZ3JhZHVhdGlvbiUyMGNlcmVtb255fGVufDF8MHx8fDE3ODE1NzkwODB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Pang Yuhao",
+      "profileUrl": "https://unsplash.com/@yuhao?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-16T03:04:40.501Z"
+  },
+  {
     "slug": "20260616-01",
     "headline": "米政府、Anthropicの最新AIに外国人アクセス禁止令",
     "lead": "米政府がFable 5とMythos 5への外国人アクセス停止を指示し、Anthropicは全顧客向けに両モデルを無効化した。",

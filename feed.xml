@@ -7,7 +7,23 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 15 Jun 2026 21:04:03 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 03:04:40 GMT</lastBuildDate>
+    <item>
+      <title>Google CEOの卒業式講演に抗議、約200人が退場</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260616-04.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260616-04.html</guid>
+      <pubDate>Tue, 16 Jun 2026 03:04:40 GMT</pubDate>
+      <description>スタンフォード大学の卒業式で、ピチャイ氏の登壇中に学生がGoogleの軍事・行政向けAI契約へ抗議した。</description>
+      <category>スタートアップ</category>
+    </item>
+    <item>
+      <title>米政府がAnthropic最上位AIを輸出規制、提供一時停止</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260616-03.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260616-03.html</guid>
+      <pubDate>Tue, 16 Jun 2026 03:04:39 GMT</pubDate>
+      <description>Mythos 5とFable 5を全外国人向けに遮断する指令を受け、Anthropicは両モデルを全顧客向けに無効化した。</description>
+      <category>産業応用</category>
+    </item>
     <item>
       <title>Google、アラバマ州に15億ドルのデータセンター投資</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260616-02.html</link>
@@ -151,22 +167,6 @@
       <pubDate>Fri, 12 Jun 2026 21:04:03 GMT</pubDate>
       <description>OpenAIが中国関連の2つの秘密キャンペーンを摘発し、米国内のAIインフラ議論を操作しようとしていた実態を公表した。</description>
       <category>基盤モデル</category>
-    </item>
-    <item>
-      <title>OpenAIがクラウド基盤企業Onaを買収、Codexの長時間エージェント実行を強化</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260613-09.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-09.html</guid>
-      <pubDate>Fri, 12 Jun 2026 18:27:28 GMT</pubDate>
-      <description>OpenAIは独クラウドスタートアップOna（旧Gitpod）の買収を発表し、Codexにセキュアな常時稼働クラウド環境を統合する。</description>
-      <category>基盤モデル</category>
-    </item>
-    <item>
-      <title>Cohere、開発者向けコード生成モデル「North Mini Code」をオープンソース公開</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260613-10.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-10.html</guid>
-      <pubDate>Fri, 12 Jun 2026 18:27:28 GMT</pubDate>
-      <description>Cohereが初の開発者向けモデルNorth Mini Codeを公開。30Bパラメータ（アクティブ3B）のMoEアーキテクチャで、同規模クラス最高水準のコード生成性能を達成した。</description>
-      <category>研究</category>
     </item>
   </channel>
 </rss>
