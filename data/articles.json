@@ -1,5 +1,56 @@
 [
   {
+    "slug": "20260617-02",
+    "headline": "OpenAI、公開前に挙動を予測する新手法",
+    "lead": "過去の実会話を再現し、新モデルの望ましくない挙動の頻度を公開前に見積もる。",
+    "body_markdown": "OpenAIは、AIモデルを公開する前にその挙動を予測する手法「デプロイメント・シミュレーション」を発表した。過去の実際の会話を、プライバシーを保護した形で新しい候補モデルに再現させ、現実に近い文脈でどのように応答するかを事前に観察する。これにより、従来の評価では見落とされがちな新たな望ましくない挙動が、公開後にどの程度の頻度で現れるかを見積もる狙いだ。\n\n手法はツール利用を伴うエージェント的な設定にも拡張でき、社内向けの内部展開前のリスク評価にも使えるという。検証では「GPT-5.4 Thinking」について、ツールに関する虚偽の出力や許可されない内容など20種類の望ましくない挙動の発生頻度を、公開前にあらかじめ予測・登録したとしている。\n\nモデルの安全性を「公開してから測る」のではなく「公開前に推定する」という発想は、従来の評価が抱える盲点を減らす一歩といえる。一方で、予測の精度や再現に用いる会話データの取り扱いについては、引き続き検証が求められる。",
+    "tags": [
+      "OpenAI",
+      "AI安全性",
+      "モデル評価",
+      "GPT-5.4"
+    ],
+    "section": "基盤モデル",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/deployment-simulation",
+    "importance": 4,
+    "image_query": "server room data center",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1614508569207-3295ac89d75f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzZXJ2ZXIlMjByb29tJTIwZGF0YSUyMGNlbnRlcnxlbnwxfDB8fHwxNzgxNjY1NDUyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Elimende Inagella",
+      "profileUrl": "https://unsplash.com/@elimendeinagella?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-17T03:04:12.465Z"
+  },
+  {
+    "slug": "20260617-03",
+    "headline": "米政府指令でClaude最新2モデルが全面停止",
+    "lead": "輸出管理を理由にAnthropicがFable 5とMythos 5を全世界で停止。AI調達の依存リスクが表面化した。",
+    "body_markdown": "Anthropicは、米政府の輸出管理に基づく指令を受け、最新AIモデル「Claude Fable 5」と「Claude Mythos 5」の提供を2026年6月に全面停止した。両モデルは6月9日に公開されたばかりだった。米商務省は国家安全保障を理由に外国籍者によるアクセスを禁じるよう求めたが、Anthropicは米国内の利用者と外国籍者をリアルタイムに区別する手段がなく、全顧客・全世界で両モデルを無効化したとされる。他のClaudeモデルは引き続き利用できる。\n\nITmediaは、この一件が「生成AIは大手なら安心」という前提を揺るがし、生成AIが事前の通知なく突然使えなくなるリスクを顕在化させたと指摘する。調査会社Forresterは、単一モデルへの依存を避け、ベンダー間の移行性（ポータビリティ）確保をはじめとする4つの対策を推奨しているという。\n\n公開直後の主力モデルが規制で突然使えなくなった事実は、AIを基幹に組み込む企業にとって、調達の可搬性が事業継続の要であることを示す。特定ベンダーへの過度な依存はそれ自体がリスクであり、移行性を前提とした設計が現実的な備えとなる。",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "輸出管理",
+      "AIガバナンス",
+      "Forrester"
+    ],
+    "section": "産業応用",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/17/news041.html",
+    "importance": 5,
+    "image_query": "cargo shipping port containers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1678182451047-196f22a4143e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjYXJnbyUyMHNoaXBwaW5nJTIwcG9ydCUyMGNvbnRhaW5lcnN8ZW58MXwwfHx8MTc4MTY2NTQ1Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ali Mkumbwa",
+      "profileUrl": "https://unsplash.com/@mkumbwajr?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-17T03:04:13.044Z"
+  },
+  {
     "slug": "20260617-01",
     "headline": "自動運転の「フィジカルAI」、3社で分かれる設計思想",
     "lead": "Tesla・Waymo・NVIDIAが目指す物理世界向けAIは、学習方式と安全検証の考え方で大きく異なる。",

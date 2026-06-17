@@ -7,7 +7,23 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 17 Jun 2026 00:31:45 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 03:04:13 GMT</lastBuildDate>
+    <item>
+      <title>米政府指令でClaude最新2モデルが全面停止</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260617-03.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260617-03.html</guid>
+      <pubDate>Wed, 17 Jun 2026 03:04:13 GMT</pubDate>
+      <description>輸出管理を理由にAnthropicがFable 5とMythos 5を全世界で停止。AI調達の依存リスクが表面化した。</description>
+      <category>産業応用</category>
+    </item>
+    <item>
+      <title>OpenAI、公開前に挙動を予測する新手法</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260617-02.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260617-02.html</guid>
+      <pubDate>Wed, 17 Jun 2026 03:04:12 GMT</pubDate>
+      <description>過去の実会話を再現し、新モデルの望ましくない挙動の頻度を公開前に見積もる。</description>
+      <category>基盤モデル</category>
+    </item>
     <item>
       <title>自動運転の「フィジカルAI」、3社で分かれる設計思想</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260617-01.html</link>
@@ -151,22 +167,6 @@
       <pubDate>Sat, 13 Jun 2026 21:03:44 GMT</pubDate>
       <description>スペインの金融大手BBVAがOpenAIとの提携を拡大し、ChatGPTを全社員規模に広げる。</description>
       <category>基盤モデル</category>
-    </item>
-    <item>
-      <title>OpenAI、EUのAI生成物の透明性規範を支持</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260614-01.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260614-01.html</guid>
-      <pubDate>Sat, 13 Jun 2026 21:03:43 GMT</pubDate>
-      <description>OpenAIがEUの「AI生成コンテンツの透明性に関する行動規範」への支持を表明した。</description>
-      <category>基盤モデル</category>
-    </item>
-    <item>
-      <title>NVIDIA、多言語・マルチモーダル対応の安全性モデルNemotron 3.5を公開</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260613-14.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260613-14.html</guid>
-      <pubDate>Sat, 13 Jun 2026 03:11:47 GMT</pubDate>
-      <description>NVIDIAがエンタープライズ向けコンテンツ安全性モデル「Nemotron 3.5 Content Safety」をオープンライセンスで公開した。</description>
-      <category>研究</category>
     </item>
   </channel>
 </rss>
