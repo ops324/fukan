@@ -1189,6 +1189,9 @@ figure { margin: 0; }
   max-width: 60ch;
 }
 
+/* プレス画像の非推奨注記（提携・推奨を示唆しない旨）。控えめに表示。 */
+.press-note { color: var(--color-ink-3); }
+
 /* Article body 3-col */
 
 .article-body-grid {
