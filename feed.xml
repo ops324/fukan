@@ -7,7 +7,23 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 17 Jun 2026 09:05:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 21:03:42 GMT</lastBuildDate>
+    <item>
+      <title>Google医療AI「AMIE」、慢性疾患管理で医師に匹敵</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260618-02.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260618-02.html</guid>
+      <pubDate>Wed, 17 Jun 2026 21:03:42 GMT</pubDate>
+      <description>Nature掲載の盲検試験で、AMIEが初期診断を超え長期の疾患管理でも医師と同等の推論を示した。</description>
+      <category>研究</category>
+    </item>
+    <item>
+      <title>Z.ai、長時間タスク向けモデル「GLM-5.2」をMITで公開</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260618-01.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260618-01.html</guid>
+      <pubDate>Wed, 17 Jun 2026 21:03:41 GMT</pubDate>
+      <description>100万トークン文脈と長時間コーディングを強化した新モデルがオープンソース公開された。</description>
+      <category>研究</category>
+    </item>
     <item>
       <title>日立、OpenAIと連携 Codexでレガシー刷新</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260617-05.html</link>
@@ -151,22 +167,6 @@
       <pubDate>Sun, 14 Jun 2026 09:03:29 GMT</pubDate>
       <description>Hugging Faceが、人間とAIエージェントの両方に対応する新しいコマンドラインツールhfを公開した。</description>
       <category>研究</category>
-    </item>
-    <item>
-      <title>Google I/O 2026、動画生成「Gemini Omni」など発表</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260614-05.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260614-05.html</guid>
-      <pubDate>Sun, 14 Jun 2026 09:03:28 GMT</pubDate>
-      <description>Googleが開発者会議I/O 2026で動画生成モデルGemini Omniと高速モデルGemini 3.5 Flashを公開した。</description>
-      <category>研究</category>
-    </item>
-    <item>
-      <title>OpenAI、職場向け無料AI講座を3つ追加</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260614-04.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260614-04.html</guid>
-      <pubDate>Sun, 14 Jun 2026 03:03:54 GMT</pubDate>
-      <description>ChatGPTアカウントがあれば誰でも受けられる実務向けの自習講座を公開した。</description>
-      <category>基盤モデル</category>
     </item>
   </channel>
 </rss>

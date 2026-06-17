@@ -1,5 +1,56 @@
 [
   {
+    "slug": "20260618-01",
+    "headline": "Z.ai、長時間タスク向けモデル「GLM-5.2」をMITで公開",
+    "lead": "100万トークン文脈と長時間コーディングを強化した新モデルがオープンソース公開された。",
+    "body_markdown": "Z.ai は6月17日、長時間タスク（long-horizon）向けに設計した言語モデル「GLM-5.2」を公開した。前世代の GLM-5.1 を引き継ぎつつ、100万トークンの文脈長を維持し、複数の「思考の強度」レベル（High / Max）を備えたコーディング能力を強化したとしている。\n\nアーキテクチャ面では、独自の IndexShare により100万トークン文脈でのトークンあたり演算量（FLOPs）を2.9倍削減し、投機的デコーディングの受理率も最大20%向上させたと説明する。長時間コーディングのベンチマークでは、FrontierSWE で Claude Opus 4.8 に1%差まで迫り、PostTrainBench でも同モデルに次ぐ2位、SWE-Marathon ではオープンソースモデル中2位を主張。Terminal-Bench 2.1 のスコアは GLM-5.1 の63.5から81.0へ改善したという。モデル重みは MIT ライセンスで HuggingFace と ModelScope に公開され、複数の推論フレームワークに対応する。\n\nオープンソースかつ商用利用も可能な MIT ライセンスで、エージェント的な長時間処理を主眼に置いた点が特徴だ。ベンチマークはいずれも開発元の自己申告であり、実利用での性能は第三者の検証を待つ必要がある。",
+    "tags": [
+      "GLM-5.2",
+      "オープンソース",
+      "大規模言語モデル",
+      "コーディング"
+    ],
+    "section": "研究",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/zai-org/glm-52-blog",
+    "importance": 4,
+    "image_query": "programming code screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxwcm9ncmFtbWluZyUyMGNvZGUlMjBzY3JlZW58ZW58MXwwfHx8MTc4MTczMDIyMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ilya Pavlov",
+      "profileUrl": "https://unsplash.com/@ilyapavlov?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-17T21:03:41.204Z"
+  },
+  {
+    "slug": "20260618-02",
+    "headline": "Google医療AI「AMIE」、慢性疾患管理で医師に匹敵",
+    "lead": "Nature掲載の盲検試験で、AMIEが初期診断を超え長期の疾患管理でも医師と同等の推論を示した。",
+    "body_markdown": "Google Research は、医療対話AI「AMIE（Articulate Medical Intelligence Explorer）」が、初期診断にとどまらず長期的な疾患管理にも対応できることを示す研究を Nature に発表した。疾患管理とは、複数回の受診をまたいで症状を追跡し、更新されるガイドラインを読み解き、投薬を調整していく継続的なケアを指す。AMIE は Gemini の長文脈処理を活用し、薬剤集や臨床ガイドラインを統合して対応するという。\n\n盲検下の試験では、模擬患者を用いて AMIE と21人のプライマリケア医を比較し、専門医が双方の対応を評価した。その結果、AMIE は管理上の推論全般で医師と同等で、治療計画の的確さとガイドラインへの適合性では「有意に高い」評価を得たとしている。\n\n医療AIの評価軸が単発の診断から継続的なケアへ広がりつつあることを示す成果といえる。ただし試験は実際の臨床現場ではなく模擬患者を用いたもので、Google は現実の有効性を検証するため、仮想診療を対象とした全米規模の無作為化試験に着手したとしている。",
+    "tags": [
+      "AMIE",
+      "医療AI",
+      "Google",
+      "Gemini",
+      "Nature"
+    ],
+    "section": "研究",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+    "importance": 4,
+    "image_query": "doctor medical consultation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBtZWRpY2FsJTIwY29uc3VsdGF0aW9ufGVufDF8MHx8fDE3ODE3MzAyMjJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-17T21:03:42.224Z"
+  },
+  {
     "slug": "20260617-04",
     "headline": "SpaceX、Cursor運営を600億ドルで買収合意",
     "lead": "SpaceXがAIコーディング「Cursor」のAnysphereを全株式600億ドルで取得すると発表した。",
