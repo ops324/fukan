@@ -6,7 +6,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { renderIndex } from '../templates/index.js';
 import { renderArticle } from '../templates/article.js';
-import { renderArchive } from '../templates/archive.js';
+import { renderArchiveIndex, renderArchiveMonth } from '../templates/archive.js';
 import { renderSection } from '../templates/section.js';
 import { renderTag, renderTagsIndex } from '../templates/tag.js';
 import { renderLegalPages } from '../templates/legal.js';
@@ -38,6 +38,19 @@ function decorate(a) {
 const recencyDesc = (x, y) => Date.parse(effDate(y) || 0) - Date.parse(effDate(x) || 0);
 const imp = (a) => Number(a.importance) || 3;
 const importanceThenRecency = (x, y) => (imp(y) - imp(x)) || recencyDesc(x, y);
+
+// 記事（recency降順・decorate済み）を月別にグルーピングする。
+// キーは effDate(publishedAt??createdAt) の年月。新しい月順で返す（入力が降順のため自然に保たれる）。
+function monthGroups(articles) {
+  const map = new Map(); // 'YYYY-MM' -> { ym, label, items }
+  for (const a of articles) {
+    const d = effDate(a) ? new Date(effDate(a)) : new Date();
+    const ym = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
+    if (!map.has(ym)) map.set(ym, { ym, label: `${d.getFullYear()}年${d.getMonth() + 1}月`, items: [] });
+    map.get(ym).items.push(a);
+  }
+  return [...map.values()];
+}
 
 // 画像シグネチャ: 同じ被写体の写真が関連枠に並ぶのを避けるための鍵集合。
 // imageUrl（最強）＋ image_query の意味語（接続詞・汎用語は除外）。
@@ -135,9 +148,15 @@ export async function renderSite(rawArticles, { outDir = ROOT } = {}) {
     'utf8',
   );
 
-  // archive.html（超過分があるときのみ・全記事を時系列で一覧）
-  if (archived.length) {
-    await writeFile(path.join(outDir, 'archive.html'), renderArchive(byRecency, label, tickerItems), 'utf8');
+  // アーカイブ（超過分があるときのみ）。月別に分割し肥大を防ぐ:
+  //   archive.html = 月インデックス / archive/YYYY-MM.html = 各月の記事一覧
+  const archiveMonths = archived.length ? monthGroups(byRecency) : [];
+  if (archiveMonths.length) {
+    await mkdir(path.join(outDir, 'archive'), { recursive: true });
+    for (const g of archiveMonths) {
+      await writeFile(path.join(outDir, 'archive', `${g.ym}.html`), renderArchiveMonth(g, label, tickerItems), 'utf8');
+    }
+    await writeFile(path.join(outDir, 'archive.html'), renderArchiveIndex(archiveMonths, label, tickerItems), 'utf8');
   }
 
   // sections/<slug>.html（ナビ各タブのリンク先・重要度→新着順）
@@ -171,8 +190,9 @@ export async function renderSite(rawArticles, { outDir = ROOT } = {}) {
     await writeFile(path.join(outDir, file), html, 'utf8');
   }
 
-  // search-index.json（クライアント検索用・全記事の軽量メタ）
-  const searchIndex = byRecency.map((a) => ({
+  // search-index.json（クライアント検索用・軽量メタ）。
+  // 記事増に伴うクライアント負荷を抑えるため直近 searchIndexMax 件に上限化（新しい順）。
+  const searchIndex = byRecency.slice(0, config.searchIndexMax).map((a) => ({
     slug: a.slug,
     headline: a.headline,
     lead: a.lead || '',
@@ -180,6 +200,9 @@ export async function renderSite(rawArticles, { outDir = ROOT } = {}) {
     section: a.section || '',
     date: a.displayDate || '',
   }));
+  if (byRecency.length > config.searchIndexMax) {
+    console.log(`  search-index: 直近 ${config.searchIndexMax}/${byRecency.length} 件に上限化`);
+  }
   await writeFile(path.join(outDir, 'search-index.json'), JSON.stringify(searchIndex), 'utf8');
 
   // 各記事ページ（全件）。関連はタグ/セクション一致でスコアし3件。
@@ -194,13 +217,14 @@ export async function renderSite(rawArticles, { outDir = ROOT } = {}) {
   }
 
   // sitemap.xml / robots.txt / feed.xml（SEO・配信）
-  await writeSeoFiles(byRecency, tagMap, Object.keys(legalPages), archived.length, outDir);
+  await writeSeoFiles(byRecency, tagMap, Object.keys(legalPages), archiveMonths, outDir);
 
   return { index: 1, articles: count, archived: archived.length };
 }
 
 // sitemap.xml・robots.txt・feed.xml を生成
-async function writeSeoFiles(byRecency, tagMap, legalFiles, archivedCount, outDir = ROOT) {
+// archiveMonths = [{ ym, label, items }]（空ならアーカイブ無し）
+async function writeSeoFiles(byRecency, tagMap, legalFiles, archiveMonths = [], outDir = ROOT) {
   const now = new Date().toISOString();
   const lastmod = (a) => (effDate(a) ? new Date(effDate(a)).toISOString() : now);
 
@@ -211,7 +235,10 @@ async function writeSeoFiles(byRecency, tagMap, legalFiles, archivedCount, outDi
   for (const { slug } of config.navSections) urls.push({ loc: abs(`/sections/${slug}.html`), lastmod: now });
   urls.push({ loc: abs('/tags/index.html'), lastmod: now });
   for (const tag of tagMap.keys()) urls.push({ loc: abs(`/tags/${encodeURIComponent(tag)}.html`), lastmod: now });
-  if (archivedCount) urls.push({ loc: abs('/archive.html'), lastmod: now });
+  if (archiveMonths.length) {
+    urls.push({ loc: abs('/archive.html'), lastmod: now });
+    for (const g of archiveMonths) urls.push({ loc: abs(`/archive/${g.ym}.html`), lastmod: now });
+  }
   for (const f of legalFiles) urls.push({ loc: abs(`/${f}`), lastmod: now });
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
