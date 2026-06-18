@@ -1,5 +1,54 @@
 [
   {
+    "slug": "20260619-01",
+    "headline": "AI推論モデル、難病の子ども18人を新たに診断",
+    "lead": "OpenAIの推論モデルが未解明だった小児の希少疾患を解析し、18件の新たな診断につながった。",
+    "body_markdown": "米ボストン小児病院の研究チームは、OpenAIの推論モデルを使い、原因が特定できていなかった小児希少疾患376人分のゲノムを解析した。臨床医の所見や患者の症状、絞り込んだ候補遺伝子のリストを組み合わせて推論させた結果、18人について新たな診断が得られたという。内訳は神経発達症が10人、神経筋疾患が4人、突然死した2人、幼児期の精神症状が2人で、成果は医学誌の AI 専門版『NEJM AI』に報告された。OpenAI によれば、同病院でのAI活用は累計で40件以上の未解明症例の診断につながり、約6万時間の労働時間と700万ドル超の人件費の振り向けにも寄与したとしている。\n\n希少疾患は症例が少なく、確定診断まで何年もかかることが珍しくない。今回の事例は、最終判断を担うのはあくまで臨床医である一方、膨大な遺伝情報と文献を突き合わせる作業でAIが診断の入り口を広げうることを示す。ただし対象は限られた症例であり、誤りや見落としをどう検証するかを含め、医療現場での慎重な運用設計が引き続き問われる。",
+    "tags": [
+      "OpenAI",
+      "医療AI",
+      "希少疾患",
+      "ゲノム解析",
+      "推論モデル"
+    ],
+    "section": "基盤モデル",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
+    "importance": 4,
+    "image_query": "dna genetic research laboratory",
+    "image": {
+      "fallbackThumb": "thumb--blue"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-18T21:06:08.042Z"
+  },
+  {
+    "slug": "20260619-02",
+    "headline": "AI研究エージェントの情報漏えいを測る新指標",
+    "lead": "ServiceNowが、AI研究エージェントが検索履歴から機密を漏らすリスクを測る評価基準を公開した。",
+    "body_markdown": "ServiceNow の研究者らは6月18日、社内文書とWeb検索を組み合わせて調べ物を行うAI『研究エージェント』が、検索の積み重ねから機密を漏らすリスクを測る評価基準『MosaicLeaks』を公開した。個々の検索語は無害に見えても、パターンを総合すると秘密が浮かび上がる『モザイク効果』に着目したものだ。基準は合成した企業文書と管理下のWebコーパス上に1,001件の多段階の調査タスクを用意し、調査の意図の推測・私的な問いへの回答・事実の自発的な発見という3種類の漏えいを測る。\n\n実験では、単に『漏らすな』と指示するだけでは効果が乏しく、課題の達成だけを目指して学習させると漏えいが34%から51.7%へ増えた。一方、プライバシーを意識した独自の学習法を併用すると、漏えいを9.9%まで抑えつつ調査の正答率58.7%を保てたという。検証にはオープンモデルの Qwen3-4B が用いられた。AIエージェントが外部ツールを自律的に使う場面が広がるなか、本来の性能と情報保護を両立させる設計指針として注目される。",
+    "tags": [
+      "AIエージェント",
+      "プライバシー",
+      "ServiceNow",
+      "情報セキュリティ",
+      "ベンチマーク"
+    ],
+    "section": "研究",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+    "importance": 3,
+    "image_query": "computer security network",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxjb21wdXRlciUyMHNlY3VyaXR5JTIwbmV0d29ya3xlbnwxfDB8fHwxNzgxODE2NzY4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jordan Harrison",
+      "profileUrl": "https://unsplash.com/@jouwdan?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-18T21:06:08.795Z"
+  },
+  {
     "slug": "20260618-05",
     "headline": "Midjourney、全身超音波スキャナーで医療参入",
     "lead": "画像生成AIのMidjourneyが医療部門と初のハード製品を発表し、全身ボディスキャン事業に乗り出した。",

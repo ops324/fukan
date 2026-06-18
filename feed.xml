@@ -7,7 +7,23 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 18 Jun 2026 09:08:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 21:15:44 GMT</lastBuildDate>
+    <item>
+      <title>AI研究エージェントの情報漏えいを測る新指標</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260619-02.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-02.html</guid>
+      <pubDate>Thu, 18 Jun 2026 21:06:08 GMT</pubDate>
+      <description>ServiceNowが、AI研究エージェントが検索履歴から機密を漏らすリスクを測る評価基準を公開した。</description>
+      <category>研究</category>
+    </item>
+    <item>
+      <title>AI推論モデル、難病の子ども18人を新たに診断</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260619-01.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-01.html</guid>
+      <pubDate>Thu, 18 Jun 2026 21:06:08 GMT</pubDate>
+      <description>OpenAIの推論モデルが未解明だった小児の希少疾患を解析し、18件の新たな診断につながった。</description>
+      <category>基盤モデル</category>
+    </item>
     <item>
       <title>Claudeで約45分の障害 「動かない」声相次ぐ</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260618-06.html</link>
@@ -151,22 +167,6 @@
       <pubDate>Mon, 15 Jun 2026 09:04:10 GMT</pubDate>
       <description>アリゾナ大の研究者がCodexで一般相対論検証のシミュレーションを加速。</description>
       <category>基盤モデル</category>
-    </item>
-    <item>
-      <title>AIを理由にした人員削減、米で過去最多に</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260615-05.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260615-05.html</guid>
-      <pubDate>Mon, 15 Jun 2026 09:04:09 GMT</pubDate>
-      <description>AIを挙げた解雇が月間の理由で初めて首位に。富の偏在への警鐘も。</description>
-      <category>スタートアップ</category>
-    </item>
-    <item>
-      <title>Sakana AI、初の商用サービス「Marlin」</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260615-04.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260615-04.html</guid>
-      <pubDate>Mon, 15 Jun 2026 03:03:39 GMT</pubDate>
-      <description>Sakana AIがリサーチ業務に特化した初の商用AIサービス「Sakana Marlin」を6月15日に始めた。</description>
-      <category>産業応用</category>
     </item>
   </channel>
 </rss>
