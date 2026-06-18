@@ -33,9 +33,9 @@ launchd（毎日 6:00 / 12:00 / 18:00）
        └─ claude --dangerously-skip-permissions -p prompts/generate-articles.md
             ① node src/fetchCandidates.js
                  RSS取得 → 重複排除 → 弱いソース除外 → 一次情報優先で並べ
-                 → data/_candidates.json（候補プール、既定12件）
+                 → data/_candidates.json（候補プール、既定30件）
             ② Claude が編集判断・取材・執筆（セッション内）
-                 - 候補を重要度1〜5で採点、3以上を最大2件選別、類似は統合
+                 - 候補を重要度1〜5で採点、3以上を最大5件選別（床を越えた分だけ・可変）、類似は統合
                  - 元記事を WebFetch で読み、数値を WebSearch で裏取り
                  → data/_drafts.json（下書き）
             ③ node src/ingestDrafts.js
@@ -149,14 +149,14 @@ AIニュースサイト/
 | 項目 | 内容 | 関連設定 |
 |---|---|---|
 | 一次情報優先 | フィードを `tier`（primary=企業公式 / media=報道）で区別。候補は primary を上位に。media の主張は Claude が WebSearch で裏取り。 | `config.rssFeeds[].tier` |
-| 重要度で選別 | Claude が候補を 1〜5 で採点し、閾値以上のみ・1回最大N本を掲載。類似トピックは1本に統合。 | `importanceFloor`=3, `maxArticles`=2 |
+| 重要度で選別 | Claude が候補を 1〜5 で採点し、閾値以上のみ・1回最大N本を掲載（床を越えた分だけ＝本数は可変）。類似トピックは1本に統合。網羅性のため話題・セクションを分散。 | `importanceFloor`=3, `maxArticles`=5, `candidatePool`=30 |
 | 並び・鮮度の基準日時 | 並び順・表示日時・鮮度判定は **`publishedAt`（出典の発行日時）優先・無ければ `createdAt`（取り込み時刻）** にフォールバック。取り込み時刻基準だと「昨日発行を今日取り込んだ記事」が新着扱いになる歪みを防ぐ。 | `render.js: effDate` |
 | 重要度で序列 | カード／人気記事を重要度順（同点は新しい順＝`publishedAt`基準）に配置。「最新記事」のみ時系列。 | `render.js: importanceThenRecency` |
 | ヒーローの鮮度ウィンドウ | トップ最上段（ヒーロー）は**直近 `heroRecencyHours` 時間内（`publishedAt`基準）の最重要記事**から選ぶ。古い高importance記事がトップに居座る停滞を防ぐ（ほぼ日次で入れ替わる）。ウィンドウ内に記事が無ければ全体の最重要をヒーローに（保険）。サイド/カード/人気の重要度順は不変。 | `render.js`（featured 先頭差し替え）, `heroRecencyHours`=24 |
 | AI関連度フィルタ | media tier 候補は `aiKeywords` のヒット数が閾値未満なら除外（primary 公式は常に通す）。 | `aiKeywords`, `relevanceFloorMedia`=1 |
 | 関連記事 | 「あわせて読みたい」はタグ共有×3＋同セクション×2 でスコアし上位3件。不足は重要度で補完。 | `render.js: relatedFor` |
 | 保持とアーカイブ | トップは最新 N 本。超過分は `archive.html`（月別一覧）へ。記事HTMLは全保持。 | `retentionTop`=40 |
-| 掲載数 | 1回最大2本 × 1日3回 = 約6本/日。重要なものが無い回は載せない。 | `maxArticles`, スケジュール |
+| 掲載数 | 1回最大5本 × 1日3回 = 約10〜15本/日（網羅型）。床を越える候補が無い回は無理に載せない。 | `maxArticles`, スケジュール |
 
 重要度ルブリック: 5=業界を変える重大発表 / 4=主要企業の新製品・大型調達・注目研究 / 3=標準 / 1〜2=些末（掲載しない）。
 
@@ -226,19 +226,19 @@ AIニュースサイト/
 | `siteName` / `siteDescription` | AXIOM AI / 紹介文 | OGP・JSON-LD・RSS で使用 |
 | `ogImage` / `logo` | /assets/og-default.jpg / /assets/logo.png | 共通OG画像・publisher.logo の絶対パス基準 |
 | `operator` | FlowMate / 滝本哲也 / 所在地 / contact@flowmate.jp | 運営者ページ・JSON-LD publisher の情報 |
-| `maxArticles` | 2 | 1回に掲載する本数（`MAX_ARTICLES` 環境変数で上書き可） |
-| `candidatePool` | 12 | Claude に提示する候補数 |
+| `maxArticles` | 5 | 1回に掲載する上限本数（床を越えた分だけ＝可変。`MAX_ARTICLES` 環境変数で上書き可） |
+| `candidatePool` | 30 | Claude に提示する候補数（小さいと primary で満杯になり media/新ソースが届かない） |
 | `importanceFloor` | 3 | これ未満の重要度は掲載しない |
 | `retentionTop` | 40 | トップ掲載の上限。超過分はアーカイブへ |
 | `heroRecencyHours` | 24 | ヒーローは直近この時間内の最重要記事から選ぶ（トップ停滞の防止） |
 | `skipUrlPatterns` | 動画/音声系 | 取材に向かない弱いソースを除外 |
 | `aiKeywords` | AI関連語44件 | media 候補のAI関連度判定に使うキーワード |
 | `relevanceFloorMedia` | 1 | media 候補のキーワードヒットがこれ未満なら除外 |
-| `rssFeeds` | AI系8フィード | `tier` 付き。一次情報3＋メディア5 |
+| `rssFeeds` | AI系14フィード | `tier` 付き。一次情報3＋メディア11（開発: GitHub/AWS ML/MS Dev/Stack Overflow、HW: NVIDIA/IEEE 等）。汎用フィードは `aiKeywords` で非AI記事を足切り |
 | `imageProvider` / `*Key` | unsplash | 画像API（未設定なら CSS サムネ） |
 | `analytics.token` | 空（`CF_BEACON_TOKEN`） | Cloudflare Web Analytics の beacon トークン。空なら出力しない |
 | `thumbVariants` | CSS抽象サムネ6種 | 実写真が無いときのフォールバック（`styles.css` のグラデクラス） |
-| `navSections` | AI系8セクション | ナビ生成元。各要素は `hue`（OKLCH 色相）を持ち、チップのセクション別色分け（道標）に使う |
+| `navSections` | 7セクション（基盤モデル/研究/開発/産業応用/規制・倫理/スタートアップ/ハードウェア） | ナビ生成元。各要素は `hue`（OKLCH 色相）を持ち、チップのセクション別色分け（道標）に使う。オピニオン/データは記事0継続のため除外（育てば再追加）。`section` 値自体は自由でナビ外でも記事ページは生成 |
 
 ---
 

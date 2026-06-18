@@ -21,8 +21,9 @@ export const config = {
   },
 
   // --- 生成設定（執筆はヘッドレス Claude が担当。ollama は廃止）---
-  maxArticles: Number(process.env.MAX_ARTICLES || 2), // 1回で「掲載する」本数（×3回/日 = 6本/日）
-  candidatePool: 12,    // Claude に提示する候補プール数（この中から重要度で maxArticles 本を選別）
+  maxArticles: Number(process.env.MAX_ARTICLES || 5), // 1回の「掲載上限」本数（床を越えた分だけ＝可変。×3回/日で約10〜15本/日）
+  candidatePool: 30,    // Claude に提示する候補プール数（この中から重要度で maxArticles 本まで選別）。
+                        // 12 では primary(一次情報)で満杯になり media/新ソースが writer に届かないため拡大。
   importanceFloor: 3,   // 重要度(1-5)がこれ未満の候補は掲載しない（些末ネタの除外）
   retentionTop: 40,     // トップページに載せる最新記事の上限。超過分はアーカイブへ
   heroRecencyHours: 24, // ヒーロー（トップ最上段）は直近この時間内の最重要記事から選ぶ。
@@ -74,6 +75,15 @@ export const config = {
     { url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml', source: 'The Verge', section: '産業応用', tier: 'media' },
     { url: 'https://www.technologyreview.com/feed/',         source: 'MIT Tech Review', section: '研究',     tier: 'media' },
     { url: 'https://rss.itmedia.co.jp/rss/2.0/aiplus.xml',   source: 'ITmedia AI＋',   section: '産業応用',   tier: 'media' },
+    // --- 開発（AIコーディング・エージェント開発・開発者向けAI活用）---
+    // 汎用ソースだが aiKeywords フィルタ（media tier）で非AI記事は自動足切りされる。
+    { url: 'https://github.blog/feed/',                      source: 'GitHub Blog',   section: '開発',       tier: 'media' },
+    { url: 'https://aws.amazon.com/blogs/machine-learning/feed/', source: 'AWS ML Blog', section: '開発',    tier: 'media' },
+    { url: 'https://devblogs.microsoft.com/feed/',          source: 'Microsoft Dev', section: '開発',       tier: 'media' },
+    { url: 'https://stackoverflow.blog/feed/',              source: 'Stack Overflow', section: '開発',      tier: 'media' },
+    // --- ハードウェア（GPU・半導体・AI計算基盤）---
+    { url: 'https://blogs.nvidia.com/feed/',                source: 'NVIDIA',        section: 'ハードウェア', tier: 'media' },
+    { url: 'https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss', source: 'IEEE Spectrum', section: 'ハードウェア', tier: 'media' },
   ],
 
   // CSS抽象サムネのフォールバック候補（styles.css のクラス）
@@ -87,15 +97,17 @@ export const config = {
 
   // ナビのセクション（表示順）。slug はセクションページのファイル名 sections/<slug>.html。
   // hue: セクション別アクセント色相（OKLCH の H・0-360）。チップの色分けで回遊の道標にする。
+  // オピニオン/データは継続的なソースを確保しにくく記事0が続いたため、空ページを出さないようナビから除外。
+  // 規制・倫理は専用ソースが乏しいが writer が既存media（policy系記事）から内容で分類して埋める。
+  // コンテンツが育てば再追加する（記事の section 値は自由なので、ここに無いセクションの記事も記事ページは生成される）。
   navSections: [
     { name: '基盤モデル', slug: 'foundation', hue: 220 },   // 電子ブルー（ブランド基調）
     { name: '研究', slug: 'research', hue: 285 },           // バイオレット
+    { name: '開発', slug: 'dev', hue: 330 },                // ローズ（AIコーディング・開発者向けAI活用）
     { name: '産業応用', slug: 'industry', hue: 180 },        // ティール
     { name: '規制・倫理', slug: 'regulation', hue: 35 },     // アンバー寄り（速報レッドと差別化）
     { name: 'スタートアップ', slug: 'startups', hue: 145 },   // グリーン
     { name: 'ハードウェア', slug: 'hardware', hue: 65 },      // ゴールド
-    { name: 'オピニオン', slug: 'opinion', hue: 330 },        // ローズ
-    { name: 'データ', slug: 'data', hue: 250 },              // インディゴ
   ],
 
   // ====================================================================
