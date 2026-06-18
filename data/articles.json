@@ -1,5 +1,57 @@
 [
   {
+    "slug": "20260618-03",
+    "headline": "OpenAI、GPT-5.4で創薬反応を半自律改良",
+    "lead": "OpenAIとMolecule.oneが、AIが創薬で使う化学反応の条件を見直し収率を改善したと発表した。",
+    "body_markdown": "OpenAIと化学AI企業Molecule.oneは6月17日、「ほぼ自律的なAI化学者」が医薬品開発で広く使われる化学反応の改善策を提案したと発表した。中核には同社のGPT-5.4が置かれ、科学文献の読み込み、研究提案の生成と順位付け、実験設計の補助、結果の分析、追試の提案までを担った。ただし提案の取捨選択や最終的な検証は人間の化学者が行い、AIが自律的に結論を確定したわけではない。\n\n発表によると、Molecule.oneの自動実験基盤「Maria」が最適化された条件を計1万80件の反応で検証し、試したボロン酸の88%、スルホンアミドの83%で収率が向上した。人手で再現した代表的な14反応のうち11件で収率が上がり、うち8件は2倍超の改善だったという。一連の作業には約2.5か月を要した。\n\n本件は、AIが既存の創薬反応を読み解いて非自明な改良案を出し、自動実験で大規模に検証できることを示した点で注目される。一方で提案の選別と最終確認は人間が担っており、現時点のAIは熟練研究者を置き換えるより、探索を加速する協働ツールという位置づけにとどまる。",
+    "tags": [
+      "OpenAI",
+      "創薬",
+      "AI for Science",
+      "GPT-5.4",
+      "化学"
+    ],
+    "section": "基盤モデル",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/ai-chemist-improves-reaction",
+    "importance": 4,
+    "image_query": "chemistry laboratory glassware",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1617155093730-a8bf47be792d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjaGVtaXN0cnklMjBsYWJvcmF0b3J5JTIwZ2xhc3N3YXJlfGVufDF8MHx8fDE3ODE3NTE4NjF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "RephiLe water",
+      "profileUrl": "https://unsplash.com/@revolution_in_filtration?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-18T03:04:22.047Z"
+  },
+  {
+    "slug": "20260618-04",
+    "headline": "OpenAI、生命科学の評価基準LifeSciBench公開",
+    "lead": "OpenAIが、AIの生命科学研究タスク遂行力を測る専門家作成のベンチマークを公開した。",
+    "body_markdown": "OpenAIは6月17日、AIシステムが現実の生命科学研究をどこまで支援できるかを測る評価基準「LifeSciBench」を公開した。バイオテクノロジーや製薬の研究者173人が参加して作成され、生物学の研究ワークフローに沿った750の専門家作成タスクで構成される。\n\nタスクは、証拠の取り扱い、分析、設計・最適化、科学的推論、検証・運用、橋渡し、科学コミュニケーションという7つの領域に分類される。全体の79%は複数段階の推論や意思決定を要し、1タスクあたり平均で4段階の手順を含むという。各タスクは、研究者が知識豊富な協力者に出す依頼の形を取り、科学的な問いと関連資料、自由記述の回答で構成され、専門家が作成したルブリックで採点される。独立検証には453人の専門家が査読者として加わり、課題が実際の研究現場に即していることを確認したとされる。\n\n既存の評価が断片的な知識や定型問題に偏りがちだったのに対し、LifeSciBenchは実際の研究判断に近い設定でAIを試そうとする点に意義がある。AIを科学研究に投入する動きが広がるなか、その実用度を共通の物差しで測る基盤づくりとして位置づけられる。",
+    "tags": [
+      "OpenAI",
+      "ベンチマーク",
+      "生命科学",
+      "AI for Science",
+      "評価"
+    ],
+    "section": "基盤モデル",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-life-sci-bench",
+    "importance": 4,
+    "image_query": "scientist microscope laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1518152006812-edab29b069ac?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzY2llbnRpc3QlMjBtaWNyb3Njb3BlJTIwbGFib3JhdG9yeXxlbnwxfDB8fHwxNzgxNzUxODYyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ousa Chea",
+      "profileUrl": "https://unsplash.com/@cheaousa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-18T03:04:22.622Z"
+  },
+  {
     "slug": "20260618-01",
     "headline": "Z.ai、長時間タスク向けモデル「GLM-5.2」をMITで公開",
     "lead": "100万トークン文脈と長時間コーディングを強化した新モデルがオープンソース公開された。",

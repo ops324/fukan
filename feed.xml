@@ -7,7 +7,23 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 17 Jun 2026 21:03:42 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 03:04:22 GMT</lastBuildDate>
+    <item>
+      <title>OpenAI、生命科学の評価基準LifeSciBench公開</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260618-04.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260618-04.html</guid>
+      <pubDate>Thu, 18 Jun 2026 03:04:22 GMT</pubDate>
+      <description>OpenAIが、AIの生命科学研究タスク遂行力を測る専門家作成のベンチマークを公開した。</description>
+      <category>基盤モデル</category>
+    </item>
+    <item>
+      <title>OpenAI、GPT-5.4で創薬反応を半自律改良</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260618-03.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260618-03.html</guid>
+      <pubDate>Thu, 18 Jun 2026 03:04:22 GMT</pubDate>
+      <description>OpenAIとMolecule.oneが、AIが創薬で使う化学反応の条件を見直し収率を改善したと発表した。</description>
+      <category>基盤モデル</category>
+    </item>
     <item>
       <title>Google医療AI「AMIE」、慢性疾患管理で医師に匹敵</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260618-02.html</link>
@@ -151,22 +167,6 @@
       <pubDate>Sun, 14 Jun 2026 21:04:24 GMT</pubDate>
       <description>SpaceXが史上最大のIPOを達成し、OpenAIやAnthropicも追随観測。AI関連企業への資金集中が鮮明になっている。</description>
       <category>スタートアップ</category>
-    </item>
-    <item>
-      <title>中国流出懸念で米がAnthropic製AIを規制</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260615-01.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260615-01.html</guid>
-      <pubDate>Sun, 14 Jun 2026 21:04:23 GMT</pubDate>
-      <description>米政府はAnthropicの最先端モデルMythosの利用を米国民に限定するよう指示し、同社は両モデルを市場から撤回した。</description>
-      <category>産業応用</category>
-    </item>
-    <item>
-      <title>Hugging Face、AIエージェント最適化のhf CLIを刷新</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260614-06.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260614-06.html</guid>
-      <pubDate>Sun, 14 Jun 2026 09:03:29 GMT</pubDate>
-      <description>Hugging Faceが、人間とAIエージェントの両方に対応する新しいコマンドラインツールhfを公開した。</description>
-      <category>研究</category>
     </item>
   </channel>
 </rss>
