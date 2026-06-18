@@ -17,7 +17,10 @@
     "importance": 4,
     "image_query": "dna genetic research laboratory",
     "image": {
-      "fallbackThumb": "thumb--blue"
+      "imageUrl": "https://images.unsplash.com/photo-1643780668909-580822430155?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkbmElMjBnZW5ldGljJTIwcmVzZWFyY2h8ZW58MXwwfHx8MTc4MTgyMDIwN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sangharsh Lohakare",
+      "profileUrl": "https://unsplash.com/@sangharsh_l?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
     },
     "mode": "full",
     "createdAt": "2026-06-18T21:06:08.042Z"
@@ -247,9 +250,9 @@
     "importance": 4,
     "image_query": "server room data center",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1614508569207-3295ac89d75f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzZXJ2ZXIlMjByb29tJTIwZGF0YSUyMGNlbnRlcnxlbnwxfDB8fHwxNzgxNjg3MTU3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Elimende Inagella",
-      "profileUrl": "https://unsplash.com/@elimendeinagella?utm_source=axiom_ai&utm_medium=referral",
+      "imageUrl": "https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzZXJ2ZXIlMjByb29tJTIwZGF0YSUyMGNlbnRlcnxlbnwxfDB8fHwxNzgxODIwMjA3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Albert Stoynov",
+      "profileUrl": "https://unsplash.com/@albertstoynov?utm_source=axiom_ai&utm_medium=referral",
       "provider": "Unsplash"
     },
     "mode": "full",
@@ -272,9 +275,9 @@
     "importance": 4,
     "image_query": "server room data center",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1614508569207-3295ac89d75f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzZXJ2ZXIlMjByb29tJTIwZGF0YSUyMGNlbnRlcnxlbnwxfDB8fHwxNzgxNjY1NDUyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Elimende Inagella",
-      "profileUrl": "https://unsplash.com/@elimendeinagella?utm_source=axiom_ai&utm_medium=referral",
+      "imageUrl": "https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzZXJ2ZXIlMjByb29tJTIwZGF0YSUyMGNlbnRlcnxlbnwxfDB8fHwxNzgxODIwMjA4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Albert Stoynov",
+      "profileUrl": "https://unsplash.com/@albertstoynov?utm_source=axiom_ai&utm_medium=referral",
       "provider": "Unsplash"
     },
     "mode": "full",
@@ -817,7 +820,7 @@
     "importance": 3,
     "image_query": "cloud computing data center",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjbG91ZCUyMGNvbXB1dGluZyUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4MTMyMDMwNnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjbG91ZCUyMGNvbXB1dGluZyUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4MTgyMDIwOHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
       "photographer": "Albert Stoynov",
       "profileUrl": "https://unsplash.com/@albertstoynov?utm_source=axiom_ai&utm_medium=referral",
       "provider": "Unsplash"
@@ -843,7 +846,10 @@
     "importance": 3,
     "image_query": "security shield technology",
     "image": {
-      "fallbackThumb": "thumb--amber"
+      "imageUrl": "https://images.unsplash.com/photo-1603985529862-9e12198c9a60?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzZWN1cml0eSUyMHNoaWVsZHxlbnwxfDB8fHwxNzgxODIwMjA5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Privecstasy",
+      "profileUrl": "https://unsplash.com/@privecstasy?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
     },
     "mode": "full",
     "createdAt": "2026-06-13T03:11:47.027Z"
