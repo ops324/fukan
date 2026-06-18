@@ -2,7 +2,7 @@
 
 AI ニュースの取得・執筆・画像付与・サイト生成を全自動化する、ヘッドレス Claude Code ベースのニュースパイプライン。
 
-- 最終更新: 2026-06-15
+- 最終更新: 2026-06-19
 - 対象リポジトリ: `AIニュースサイト/`
 - 本番URL: `https://axiom-ai-xi.vercel.app`（Vercel・git push で自動デプロイ）
 - 配信形態: 静的サイト（HTML/CSS、閲覧は依存ゼロ。検索・演出のみ軽量バニラ JS = `search.js` / `reveal.js`）
@@ -40,7 +40,7 @@ launchd（毎日 6:00 / 12:00 / 18:00）
                  → data/_drafts.json（下書き）
             ③ node src/ingestDrafts.js
                  slug採番 → 画像取得 → 重複排除 → data/articles.json 保存
-                 → render（index / archive / articles/* / sections/* / tags/*
+                 → render（index / archive（月インデックス＋archive/YYYY-MM）/ articles/* / sections/* / tags/*
                            / 法的6ページ / search-index.json / sitemap.xml
                            / robots.txt / feed.xml / feed.xsl）
        └─ 健全性チェック（記事数増減・exit code）→ 異常なら macOS 通知
@@ -55,7 +55,8 @@ launchd（毎日 6:00 / 12:00 / 18:00）
 ```
 AIニュースサイト/
 ├── index.html              # 生成: トップページ
-├── archive.html            # 生成: アーカイブ（記事が retentionTop を超えたら）
+├── archive.html            # 生成: アーカイブ月インデックス（記事が retentionTop を超えたら）
+├── archive/YYYY-MM.html    # 生成: 月別アーカイブ（1ページ肥大を防ぐ分割）
 ├── articles/<slug>.html    # 生成: 各記事ページ
 ├── sections/<slug>.html    # 生成: ナビ各タブ（セクション別一覧。空でも生成）
 ├── tags/<tag>.html         # 生成: タグ別一覧（UTF-8ファイル名）＋ index.html（タグクラウド）
@@ -64,7 +65,7 @@ AIニュースサイト/
 ├── robots.txt              # 生成: クローラ指示（Sitemap 参照）
 ├── feed.xml                # 生成: RSS 2.0 フィード（XSL 参照付き）
 ├── feed.xsl                # 生成: feed.xml をブラウザで読み物表示する XSLT
-├── search-index.json       # 生成: サイト内検索のクライアント用インデックス
+├── search-index.json       # 生成: サイト内検索のクライアント用インデックス（直近 searchIndexMax 件）
 ├── assets/
 │   ├── styles.css          # デザイン（OKLCH トークン・全クラス・ライト/ダーク・影/質感/演出）
 │   ├── search.js           # サイト内検索＋テーマトグル絵文字の初期化（依存ゼロ）
@@ -102,7 +103,7 @@ AIニュースサイト/
 │   ├── section.js          # セクション別一覧
 │   ├── tag.js              # タグ別一覧 renderTag() / タグクラウド renderTagsIndex()
 │   ├── legal.js            # 法的・運営ページ renderLegalPages()
-│   └── archive.js          # アーカイブ
+│   └── archive.js          # アーカイブ（月インデックス renderArchiveIndex / 月別 renderArchiveMonth）
 ├── CLAUDE.md               # 開発ルール（毎回自動読込・コード品質/Git/検証）
 ├── README.md               # デザイン・概要
 ├── SPEC.md                 # 本書（技術仕様・運用）
@@ -155,7 +156,7 @@ AIニュースサイト/
 | ヒーローの鮮度ウィンドウ | トップ最上段（ヒーロー）は**直近 `heroRecencyHours` 時間内（`publishedAt`基準）の最重要記事**から選ぶ。古い高importance記事がトップに居座る停滞を防ぐ（ほぼ日次で入れ替わる）。ウィンドウ内に記事が無ければ全体の最重要をヒーローに（保険）。サイド/カード/人気の重要度順は不変。 | `render.js`（featured 先頭差し替え）, `heroRecencyHours`=24 |
 | AI関連度フィルタ | media tier 候補は `aiKeywords` のヒット数が閾値未満なら除外（primary 公式は常に通す）。 | `aiKeywords`, `relevanceFloorMedia`=1 |
 | 関連記事 | 「あわせて読みたい」はタグ共有×3＋同セクション×2 でスコアし上位3件。不足は重要度で補完。 | `render.js: relatedFor` |
-| 保持とアーカイブ | トップは最新 N 本。超過分は `archive.html`（月別一覧）へ。記事HTMLは全保持。 | `retentionTop`=40 |
+| 保持とアーカイブ | トップは最新 N 本。超過分は**月別アーカイブ**へ（`archive.html`＝月インデックス、`archive/YYYY-MM.html`＝各月一覧。記事増でも1ページが肥大しない）。月分けは `publishedAt` 基準。記事HTMLは全保持。 | `retentionTop`=40, `templates/archive.js` |
 | 掲載数 | 1回最大5本 × 1日3回 = 約10〜15本/日（網羅型）。床を越える候補が無い回は無理に載せない。 | `maxArticles`, スケジュール |
 
 重要度ルブリック: 5=業界を変える重大発表 / 4=主要企業の新製品・大型調達・注目研究 / 3=標準 / 1〜2=些末（掲載しない）。
@@ -229,7 +230,8 @@ AIニュースサイト/
 | `maxArticles` | 5 | 1回に掲載する上限本数（床を越えた分だけ＝可変。`MAX_ARTICLES` 環境変数で上書き可） |
 | `candidatePool` | 30 | Claude に提示する候補数（小さいと primary で満杯になり media/新ソースが届かない） |
 | `importanceFloor` | 3 | これ未満の重要度は掲載しない |
-| `retentionTop` | 40 | トップ掲載の上限。超過分はアーカイブへ |
+| `retentionTop` | 40 | トップ掲載の上限。超過分は月別アーカイブへ |
+| `searchIndexMax` | 600 | `search-index.json` に載せる最大件数（直近順・クライアント負荷抑制。全記事はアーカイブから辿れる） |
 | `heroRecencyHours` | 24 | ヒーローは直近この時間内の最重要記事から選ぶ（トップ停滞の防止） |
 | `skipUrlPatterns` | 動画/音声系 | 取材に向かない弱いソースを除外 |
 | `aiKeywords` | AI関連語44件 | media 候補のAI関連度判定に使うキーワード |
@@ -255,7 +257,7 @@ AIニュースサイト/
 | 角丸スケール | 罫線・チップは `--radius-sm`（2px・エディトリアルの硬さを維持）、操作UI（ボタン/入力/検索/トグル/タグ）は `--radius-md`（8px）、メディア（サムネ・サーフェス）は `--radius-lg`（12px）と用途別に分離。 | `assets/styles.css`（TOKENS節） |
 | アクセシビリティ・人間工学 | ダーク基調は**純黒×純白を避ける**（背景 `paper-0`=14%・本文 `ink-0`=93%で約16:1）ことでハレーションを低減。メタ／写真クレジットは `ink-2` で 5.9:1（WCAG AA 合格）。タップ領域はテーマトグル・ナビ各項目とも **44×44px 以上**。ティッカーは `prefers-reduced-motion` で停止＋**ホバー/フォーカスで一時停止**。 | `assets/styles.css`（TOKENS節・`.ticker`・`.theme-toggle`・`.site-nav`）, `templates/cardbits.js`・`article.js`（クレジット色） |
 | ライト/ダーク | ヘッダーのトグルで切替。`<head>` のインラインJSが localStorage／OS設定から `data-theme` を paint 前に適用（フラッシュ防止）。 | `styles.css` の `[data-theme="light"]`, `layout.js` |
-| サイト内検索 | `search-index.json` をクライアントで部分一致検索（見出し/タグ/セクション/リード重み付け、キーボード操作対応）。追加依存なし。 | `assets/search.js`, `render.js` |
+| サイト内検索 | `search-index.json`（直近 `searchIndexMax`=600 件）をクライアントで部分一致検索（見出し/タグ/セクション/リード重み付け、キーボード操作対応）。古い記事は月別アーカイブから辿る。追加依存なし。 | `assets/search.js`, `render.js`, `searchIndexMax` |
 | 画像最適化 | Unsplash 画像に配信パラメータ（`w/q/auto=format/fit=crop`）を付与＋`images.unsplash.com` を preconnect。CLS はサムネの `aspect-ratio` で抑制。 | `cardbits.js: optimizedUrl`, `layout.js` |
 | アナリティクス | `CF_BEACON_TOKEN` 設定時のみ Cloudflare Web Analytics（Cookieless・無料）の beacon を全ページに出力。未設定なら無出力。 | `config.analytics`, `layout.js` |
 
