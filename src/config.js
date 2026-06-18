@@ -25,6 +25,9 @@ export const config = {
   candidatePool: 12,    // Claude に提示する候補プール数（この中から重要度で maxArticles 本を選別）
   importanceFloor: 3,   // 重要度(1-5)がこれ未満の候補は掲載しない（些末ネタの除外）
   retentionTop: 40,     // トップページに載せる最新記事の上限。超過分はアーカイブへ
+  heroRecencyHours: 36, // ヒーロー（トップ最上段）は直近この時間内の最重要記事から選ぶ。
+                        // 古い高importance記事がトップに居座り停滞するのを防ぐ。
+                        // ウィンドウ内に記事が無ければ従来どおり全体の最重要をヒーローに（保険）。
 
   // --- AI関連度フィルタ（media tier の無関係なテック記事を足切り）---
   // title+summary にこれらのいずれかが含まれる数を数える。primary は常に通す。

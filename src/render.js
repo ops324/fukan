@@ -109,6 +109,17 @@ export async function renderSite(rawArticles, { outDir = ROOT } = {}) {
   const archived = byRecency.slice(config.retentionTop);       // アーカイブ送り
   const featured = [...universe].sort(importanceThenRecency);  // ヒーロー/カード/人気（重要度順）
 
+  // ヒーロー（featured[0]）だけは「鮮度ウィンドウ」内の最重要記事に差し替える。
+  // featured は importance 降順なので、ウィンドウ内で最初に見つかる記事＝直近 N 時間の最重要記事。
+  // これを先頭へ移すことで、古い高importance記事がトップに居座る停滞を防ぐ（サイド/カード/人気の重要度順は維持）。
+  // ウィンドウ内に該当が無ければ何もしない＝従来どおり全体の最重要がヒーロー（保険）。
+  const heroCutoff = Date.now() - config.heroRecencyHours * 3600 * 1000;
+  const heroIdx = featured.findIndex((a) => Date.parse(a.createdAt || 0) >= heroCutoff);
+  if (heroIdx > 0) {
+    const [hero] = featured.splice(heroIdx, 1);
+    featured.unshift(hero);
+  }
+
   const label = dateLabel();
   // ティッカーに流す最新見出し（架空のベンチ値を廃止し、実データを表示）
   const tickerItems = byRecency.slice(0, 12).map((a) => a.headline);
