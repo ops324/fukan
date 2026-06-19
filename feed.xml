@@ -7,7 +7,15 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 19 Jun 2026 00:16:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 03:07:11 GMT</lastBuildDate>
+    <item>
+      <title>ChatGPT広告、日本でも開始 無料版とGoに表示</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260619-03.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-03.html</guid>
+      <pubDate>Fri, 19 Jun 2026 00:23:56 GMT</pubDate>
+      <description>OpenAIが日本でChatGPT広告のパイロットを開始。無料版と低価格プラン「Go」で表示する。</description>
+      <category>産業応用</category>
+    </item>
     <item>
       <title>AI研究エージェントの情報漏えいを測る新指標</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260619-02.html</link>
@@ -22,6 +30,38 @@
       <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-01.html</guid>
       <pubDate>Thu, 18 Jun 2026 21:06:08 GMT</pubDate>
       <description>OpenAIの推論モデルが未解明だった小児の希少疾患を解析し、18件の新たな診断につながった。</description>
+      <category>基盤モデル</category>
+    </item>
+    <item>
+      <title>OpenAI、IPO前にTransformer共同発明者を採用</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260619-04.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-04.html</guid>
+      <pubDate>Thu, 18 Jun 2026 19:59:22 GMT</pubDate>
+      <description>OpenAIがGoogle DeepMindのNoam Shazeer氏らをIPO準備期に相次ぎ獲得した。</description>
+      <category>スタートアップ</category>
+    </item>
+    <item>
+      <title>AWS、自社AIチップを外販へ Nvidiaに挑む</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260619-05.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-05.html</guid>
+      <pubDate>Thu, 18 Jun 2026 18:22:13 GMT</pubDate>
+      <description>AWSが自社AIチップTrainiumの外部販売を協議。年換算約500億ドル規模を見込む。</description>
+      <category>ハードウェア</category>
+    </item>
+    <item>
+      <title>米FERC、データセンターの送電接続を迅速化</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260619-06.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-06.html</guid>
+      <pubDate>Thu, 18 Jun 2026 17:49:23 GMT</pubDate>
+      <description>米FERCが大口需要家の系統接続を優先する命令を全会一致で決定。発電不足には未対応。</description>
+      <category>規制・倫理</category>
+    </item>
+    <item>
+      <title>ChatGPT、健康回答を改善 GPT-5.5 Instant</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260619-07.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-07.html</guid>
+      <pubDate>Thu, 18 Jun 2026 11:00:00 GMT</pubDate>
+      <description>OpenAIがGPT-5.5 Instantで健康関連の回答精度を高め、全無料ユーザーに提供する。</description>
       <category>基盤モデル</category>
     </item>
     <item>
@@ -127,46 +167,6 @@
       <pubDate>Tue, 16 Jun 2026 09:04:01 GMT</pubDate>
       <description>OpenAIの「GPT-5.5 Cyber」を活用し、企業の脆弱性を発見・修復する「Patching as a Service」を発表した。</description>
       <category>産業応用</category>
-    </item>
-    <item>
-      <title>Google CEOの卒業式講演に抗議、約200人が退場</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260616-04.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260616-04.html</guid>
-      <pubDate>Tue, 16 Jun 2026 03:04:40 GMT</pubDate>
-      <description>スタンフォード大学の卒業式で、ピチャイ氏の登壇中に学生がGoogleの軍事・行政向けAI契約へ抗議した。</description>
-      <category>スタートアップ</category>
-    </item>
-    <item>
-      <title>米政府がAnthropic最上位AIを輸出規制、提供一時停止</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260616-03.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260616-03.html</guid>
-      <pubDate>Tue, 16 Jun 2026 03:04:39 GMT</pubDate>
-      <description>Mythos 5とFable 5を全外国人向けに遮断する指令を受け、Anthropicは両モデルを全顧客向けに無効化した。</description>
-      <category>産業応用</category>
-    </item>
-    <item>
-      <title>Google、アラバマ州に15億ドルのデータセンター投資</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260616-02.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260616-02.html</guid>
-      <pubDate>Mon, 15 Jun 2026 21:04:03 GMT</pubDate>
-      <description>Googleは2026〜2027年にアラバマ州ジャクソン郡のデータセンター拡張へ15億ドルを投じると発表した。</description>
-      <category>研究</category>
-    </item>
-    <item>
-      <title>米政府、Anthropicの最新AIに外国人アクセス禁止令</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260616-01.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260616-01.html</guid>
-      <pubDate>Mon, 15 Jun 2026 21:04:03 GMT</pubDate>
-      <description>米政府がFable 5とMythos 5への外国人アクセス停止を指示し、Anthropicは全顧客向けに両モデルを無効化した。</description>
-      <category>産業応用</category>
-    </item>
-    <item>
-      <title>天体物理学者がCodexでブラックホール再現</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260615-06.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260615-06.html</guid>
-      <pubDate>Mon, 15 Jun 2026 09:04:10 GMT</pubDate>
-      <description>アリゾナ大の研究者がCodexで一般相対論検証のシミュレーションを加速。</description>
-      <category>基盤モデル</category>
     </item>
   </channel>
 </rss>

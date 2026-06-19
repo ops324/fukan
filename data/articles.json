@@ -1,5 +1,140 @@
 [
   {
+    "slug": "20260619-03",
+    "headline": "ChatGPT広告、日本でも開始 無料版とGoに表示",
+    "lead": "OpenAIが日本でChatGPT広告のパイロットを開始。無料版と低価格プラン「Go」で表示する。",
+    "body_markdown": "OpenAIは2026年6月18日、対話AI「ChatGPT」での広告表示を日本でもパイロット運用として始めたと発表した。広告が表示されるのは無料プランと低価格プランの「Go」で、有料の上位プランは対象外とされる。同社は、広告はAIの回答とは区別して表示し、回答内容自体には影響を与えないと説明する。また会話の内容や個人情報を広告主と共有することはないとしている。\n\n日本での展開は、広告会社の電通デジタル、Hakuhodo DY ONE、サイバーエージェントが支援する。アカウント設計や配信設定、広告アセットの生成などを各社が担う。OpenAIは2026年2月に米国で広告テストを開始し、5月には日本を含む5カ国への拡大を予告していた。\n\n広告の導入は、巨額の計算資源コストを抱える生成AI企業にとって課金以外の収益源を探る動きといえる。一方で、利用者が事実確認に用いる対話の場へ広告を持ち込むことには、回答の中立性や信頼をどう保つかという論点がつきまとう。表示の透明性や非表示手段の使い勝手が、受け止めを左右しそうだ。",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "広告",
+      "マネタイズ",
+      "日本"
+    ],
+    "section": "産業応用",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/19/2000000107/",
+    "importance": 4,
+    "image_query": "smartphone advertising screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1480694313141-fce5e697ee25?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwYWR2ZXJ0aXNpbmclMjBzY3JlZW58ZW58MXwwfHx8MTc4MTgzODQyN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Rami Al-zayat",
+      "profileUrl": "https://unsplash.com/@rami_alzayat?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-19T03:07:07.797Z",
+    "publishedAt": "2026-06-19T00:23:56.000Z"
+  },
+  {
+    "slug": "20260619-04",
+    "headline": "OpenAI、IPO前にTransformer共同発明者を採用",
+    "lead": "OpenAIがGoogle DeepMindのNoam Shazeer氏らをIPO準備期に相次ぎ獲得した。",
+    "body_markdown": "OpenAIが新規株式公開（IPO）を見据え、著名人材の獲得を相次いで進めている。米TechCrunchが2026年6月18日に報じた。\n\n一人はNoam Shazeer氏。Google DeepMindで大規模言語モデル「Gemini」の共同リードを務め、対話AI企業Character AIの創業者でもある。現在のAIの基盤となった2017年の論文「Attention Is All You Need」の共著者の一人として知られる。同氏は6月18日にGoogleからの退社を表明した。\n\nもう一人はDean Ball氏。トランプ政権でAI政策に携わり、政府の「America's AI Action Plan」の策定に関与した人物だ。OpenAIでは新設の「Strategic Futures」チームを率い、最高戦略責任者のJason Kwon氏に報告する。破滅的リスクや再帰的な自己改善、労働市場への影響などを扱うといい、入社は7月6日の予定とされる。\n\n研究と政策の両面で重量級の人材を同時期に集める動きは、上場を控えた組織体制と対外的な発信力の強化を狙ったものとみられる。",
+    "tags": [
+      "OpenAI",
+      "IPO",
+      "人材",
+      "Transformer",
+      "AI政策"
+    ],
+    "section": "スタートアップ",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+    "importance": 4,
+    "image_query": "corporate office building",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1501324682324-0d8d7c4b9706?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBvZmZpY2UlMjBidWlsZGluZ3xlbnwxfDB8fHwxNzgxODM4NDI4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "JESHOOTS.COM",
+      "profileUrl": "https://unsplash.com/@jeshoots?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-19T03:07:08.372Z",
+    "publishedAt": "2026-06-18T19:59:22.000Z"
+  },
+  {
+    "slug": "20260619-05",
+    "headline": "AWS、自社AIチップを外販へ Nvidiaに挑む",
+    "lead": "AWSが自社AIチップTrainiumの外部販売を協議。年換算約500億ドル規模を見込む。",
+    "body_markdown": "米Amazonのクラウド部門AWSが、自社開発のAIチップ「Trainium」を他社のデータセンター向けに販売する協議を進めていると、TechCrunchが2026年6月18日に報じた。AWSのAI責任者Peter DeSantis氏が外販に向けた協議を認めたが、具体的な相手は明かさず、AWSの広報担当者も交渉は初期段階だとしている。\n\n規模感の根拠として、CEOのAndy Jassy氏が4月の株主向け書簡で示した見立てが引用されている。チップ事業を単体と仮定し、AWSと第三者の双方に今年分を販売した場合、年換算の売上高は約500億ドルになるという。これはIntelの年間売上に並ぶ水準だが、Nvidiaの売上ランレート3260億ドルにはなお遠い。\n\n現状ではTrainiumの生産枠はほぼ即時に埋まり、次世代の「Trainium4」の登場は1年以上先とされる。外販を実現するにはTSMCなどとの増産体制が前提になる。\n\nNvidiaが圧倒的なシェアを握るAI半導体で、自社設計チップを外部にも売るというAmazonの構想は、調達の選択肢を広げ得る一方、供給能力の確保が成否を分ける。",
+    "tags": [
+      "Amazon",
+      "AWS",
+      "AI半導体",
+      "Trainium",
+      "Nvidia"
+    ],
+    "section": "ハードウェア",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+    "importance": 4,
+    "image_query": "circuit board chip",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1562408590-e32931084e23?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjaXJjdWl0JTIwYm9hcmQlMjBjaGlwfGVufDF8MHx8fDE3ODE4Mzg0Mjl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Umberto",
+      "profileUrl": "https://unsplash.com/@umby?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-19T03:07:09.335Z",
+    "publishedAt": "2026-06-18T18:22:13.000Z"
+  },
+  {
+    "slug": "20260619-06",
+    "headline": "米FERC、データセンターの送電接続を迅速化",
+    "lead": "米FERCが大口需要家の系統接続を優先する命令を全会一致で決定。発電不足には未対応。",
+    "body_markdown": "米連邦エネルギー規制委員会（FERC）は、データセンターなど大口の電力需要家の送電網への接続を迅速化するよう、6つの主要な系統運用者に命じた。TechCrunchが2026年6月18日に報じたもので、委員は全会一致で承認したという。\n\n命令では、運用者に対し30日以内に利用可能な発電容量を報告し、60日以内に料金体系を見直すか正当性を説明するよう求めた。固体トランスや超伝導送電線といった代替送電技術の検討も促す。接続費用はデータセンター側が負担する。\n\nただし、接続を阻む根本原因である発電容量そのものの不足には踏み込んでいない。データセンターによる電力需要は2035年までにほぼ3倍に膨らむと見込まれ、卸電力料金はすでに5年前比で最大267%上昇している。エネルギー省長官のChris Wright氏が10月にFERCへ対応を促していた。\n\nAI向けインフラの増設を後押しする一方、供給力を欠いたままの優先接続は、既存の利用者へのしわ寄せや料金上昇への懸念を残す。送電行政がAIブームの圧力にどう応えるかが問われている。",
+    "tags": [
+      "FERC",
+      "データセンター",
+      "電力",
+      "送電網",
+      "AIインフラ"
+    ],
+    "section": "規制・倫理",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/",
+    "importance": 4,
+    "image_query": "power transmission lines",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1413882353314-73389f63b6fd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxwb3dlciUyMHRyYW5zbWlzc2lvbiUyMGxpbmVzfGVufDF8MHx8fDE3ODE4Mzg0Mjl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Fré Sonneveld",
+      "profileUrl": "https://unsplash.com/@fresonneveld?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-19T03:07:09.969Z",
+    "publishedAt": "2026-06-18T17:49:23.000Z"
+  },
+  {
+    "slug": "20260619-07",
+    "headline": "ChatGPT、健康回答を改善 GPT-5.5 Instant",
+    "lead": "OpenAIがGPT-5.5 Instantで健康関連の回答精度を高め、全無料ユーザーに提供する。",
+    "body_markdown": "OpenAIは、対話AI「ChatGPT」の健康・ウェルネスに関する回答を改善したと発表した。中核となるのは新モデル「GPT-5.5 Instant」で、緊急の受診が必要な兆候の認識、必要な文脈の確認、不確実性の説明、複雑な情報をわかりやすく伝える能力が向上したとしている。最も難しい健康評価では、上位の推論モデル「Thinking」と同等の水準に達したという。\n\n評価には医師が関与した。同社によると、3,500件の回答を対象にした医師パネルの評価で、GPT-5.5 Instantの回答は正確性・コミュニケーション・完全性などの観点で医師が書いた回答よりも高く評価された。過去2カ月でフラグの付いた健康関連回答は71%減ったとする。健康回答の質の定義づけには60カ国・260人超の医師が関わり、70万件超の応答がレビューされたという。\n\nGPT-5.5 Instantは全ての無料ユーザーに提供される。OpenAIによれば、週2億3千万人超が検査結果の解釈や受診準備などで健康・ウェルネスの質問に利用している。もっとも、こうした回答は医療上の助言に代わるものではなく、最終的な判断には専門家の関与が欠かせない点は変わらない。",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "GPT-5.5",
+      "ヘルスケア",
+      "医療AI"
+    ],
+    "section": "基盤モデル",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+    "importance": 4,
+    "image_query": "doctor medical technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBtZWRpY2FsJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzgxODM4NDMwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Online Marketing",
+      "profileUrl": "https://unsplash.com/@impulsq?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-19T03:07:11.037Z",
+    "publishedAt": "2026-06-18T11:00:00.000Z"
+  },
+  {
     "slug": "20260619-01",
     "headline": "AI推論モデル、難病の子ども18人を新たに診断",
     "lead": "OpenAIの推論モデルが未解明だった小児の希少疾患を解析し、18件の新たな診断につながった。",
