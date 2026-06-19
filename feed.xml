@@ -7,7 +7,23 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 19 Jun 2026 03:07:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 09:06:37 GMT</lastBuildDate>
+    <item>
+      <title>米、ASML製EUV装置の中国流出を指摘</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260619-10.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-10.html</guid>
+      <pubDate>Fri, 19 Jun 2026 07:59:12 GMT</pubDate>
+      <description>米商務長官がASML製EUV露光装置の中国流出の可能性を指摘、ASMLは全面否定した。</description>
+      <category>規制・倫理</category>
+    </item>
+    <item>
+      <title>OpenAI、Codexに操作記録の新機能</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260619-09.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-09.html</guid>
+      <pubDate>Fri, 19 Jun 2026 05:15:00 GMT</pubDate>
+      <description>OpenAIがCodexに、Mac上の操作を記録して再実行する「Record &amp; Replay」を追加した。</description>
+      <category>開発</category>
+    </item>
     <item>
       <title>ChatGPT広告、日本でも開始 無料版とGoに表示</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260619-03.html</link>
@@ -15,6 +31,14 @@
       <pubDate>Fri, 19 Jun 2026 00:23:56 GMT</pubDate>
       <description>OpenAIが日本でChatGPT広告のパイロットを開始。無料版と低価格プラン「Go」で表示する。</description>
       <category>産業応用</category>
+    </item>
+    <item>
+      <title>AI推論のBaseten、15億ドル調達と報道</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260619-11.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-11.html</guid>
+      <pubDate>Thu, 18 Jun 2026 21:20:13 GMT</pubDate>
+      <description>AI推論基盤のBasetenが評価額130億ドルで15億ドルの調達を進めると報じられた。</description>
+      <category>スタートアップ</category>
     </item>
     <item>
       <title>AI研究エージェントの情報漏えいを測る新指標</title>
@@ -55,6 +79,22 @@
       <pubDate>Thu, 18 Jun 2026 17:49:23 GMT</pubDate>
       <description>米FERCが大口需要家の系統接続を優先する命令を全会一致で決定。発電不足には未対応。</description>
       <category>規制・倫理</category>
+    </item>
+    <item>
+      <title>音波で動く脳模倣チップ、省電力を実証</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260619-12.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-12.html</guid>
+      <pubDate>Thu, 18 Jun 2026 13:00:01 GMT</pubDate>
+      <description>アリゾナ大が音波を使う神経模倣素子を開発し、電力10分の1で高精度分類を実証した。</description>
+      <category>ハードウェア</category>
+    </item>
+    <item>
+      <title>Photoshop等にAIアシスタント、公開ベータ開始</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260619-08.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-08.html</guid>
+      <pubDate>Thu, 18 Jun 2026 13:00:00 GMT</pubDate>
+      <description>AdobeがCreative Cloud主要アプリに対話型AIアシスタントを搭載し公開ベータを始めた。</description>
+      <category>産業応用</category>
     </item>
     <item>
       <title>ChatGPT、健康回答を改善 GPT-5.5 Instant</title>
@@ -126,46 +166,6 @@
       <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260617-04.html</guid>
       <pubDate>Wed, 17 Jun 2026 09:05:57 GMT</pubDate>
       <description>SpaceXがAIコーディング「Cursor」のAnysphereを全株式600億ドルで取得すると発表した。</description>
-      <category>産業応用</category>
-    </item>
-    <item>
-      <title>米政府指令でClaude最新2モデルが全面停止</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260617-03.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260617-03.html</guid>
-      <pubDate>Wed, 17 Jun 2026 03:04:13 GMT</pubDate>
-      <description>輸出管理を理由にAnthropicがFable 5とMythos 5を全世界で停止。AI調達の依存リスクが表面化した。</description>
-      <category>産業応用</category>
-    </item>
-    <item>
-      <title>OpenAI、公開前に挙動を予測する新手法</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260617-02.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260617-02.html</guid>
-      <pubDate>Wed, 17 Jun 2026 03:04:12 GMT</pubDate>
-      <description>過去の実会話を再現し、新モデルの望ましくない挙動の頻度を公開前に見積もる。</description>
-      <category>基盤モデル</category>
-    </item>
-    <item>
-      <title>自動運転の「フィジカルAI」、3社で分かれる設計思想</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260617-01.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260617-01.html</guid>
-      <pubDate>Tue, 16 Jun 2026 21:04:34 GMT</pubDate>
-      <description>Tesla・Waymo・NVIDIAが目指す物理世界向けAIは、学習方式と安全検証の考え方で大きく異なる。</description>
-      <category>産業応用</category>
-    </item>
-    <item>
-      <title>Preply、OpenAIで語学レッスンをAI要約</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260616-06.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260616-06.html</guid>
-      <pubDate>Tue, 16 Jun 2026 09:04:01 GMT</pubDate>
-      <description>オンライン語学学習のPreplyが、OpenAIのモデルを使いレッスンの個別フィードバックを自動生成する。</description>
-      <category>基盤モデル</category>
-    </item>
-    <item>
-      <title>ソフトバンク、OpenAI技術でAIセキュリティ診断</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260616-05.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260616-05.html</guid>
-      <pubDate>Tue, 16 Jun 2026 09:04:01 GMT</pubDate>
-      <description>OpenAIの「GPT-5.5 Cyber」を活用し、企業の脆弱性を発見・修復する「Patching as a Service」を発表した。</description>
       <category>産業応用</category>
     </item>
   </channel>

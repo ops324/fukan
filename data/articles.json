@@ -1,5 +1,136 @@
 [
   {
+    "slug": "20260619-08",
+    "headline": "Photoshop等にAIアシスタント、公開ベータ開始",
+    "lead": "AdobeがCreative Cloud主要アプリに対話型AIアシスタントを搭載し公開ベータを始めた。",
+    "body_markdown": "Adobeは6月18日、Photoshop、Premiere、Illustrator、InDesign、Frame.io の主要アプリに、自社の「creative agent（クリエイティブエージェント）」を基盤とする対話型AIアシスタントを搭載し、公開ベータとして提供を始めた。各アシスタントはアプリごとの専門家として動作し、自然言語の指示から複数手順の作業を代行する。\n\nPremiere ではクリップの分類や一括リネーム、マーカー追加、タイムラインの下地作成に対応し、Photoshop では背景の差し替え、用途別のサイズ変更、レイヤー整理を行う。Illustrator では表計算データからの多数の派生ファイル生成や、フォント欠落・カラーモードのプリフライト点検が可能だという。After Effects 向けは非公開ベータでの提供となる。\n\n画像・動画編集の定番ソフトに作業代行型のAIが組み込まれることで、定型作業の自動化が一段進む。一方で各社が編集ツールへのAI統合を競うなか、創作の主導権をどう保つかという論点も改めて問われることになる。",
+    "tags": [
+      "Adobe",
+      "生成AI",
+      "画像編集",
+      "AIアシスタント"
+    ],
+    "section": "産業応用",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch",
+    "importance": 4,
+    "image_query": "graphic design computer",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1626785774573-4b799315345d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxncmFwaGljJTIwZGVzaWduJTIwY29tcHV0ZXJ8ZW58MXwwfHx8MTc4MTg1OTk5NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Emily Bernal",
+      "profileUrl": "https://unsplash.com/@emilybernal?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-19T09:06:35.281Z",
+    "publishedAt": "2026-06-18T13:00:00.000Z"
+  },
+  {
+    "slug": "20260619-09",
+    "headline": "OpenAI、Codexに操作記録の新機能",
+    "lead": "OpenAIがCodexに、Mac上の操作を記録して再実行する「Record & Replay」を追加した。",
+    "body_markdown": "OpenAIは6月18日、コーディング支援ツール「Codex」の新機能「Record & Replay」を公開した。利用者がMac上で一連の作業を一度実演して記録すると、Codexがその手順を再利用可能な「スキル」として変換・記憶し、必要に応じて自動で繰り返し実行する。\n\n記録されるスキルには、操作のタイミングや必要な情報、失敗時の処理、結果の検証方法などが含まれるという。用途の例として、YouTube Studio での動画アップロード時にタイトルやサムネイルを設定するといった、複数手順から成る定型業務が挙げられている。現時点では macOS のみの対応で、欧州経済領域（EEA）やスイスなどは提供対象外とされる。\n\nPC画面を直接操作する「Computer Use」系の機能を、利用者自身の実演によって学習させる方向に踏み込んだ点が特徴だ。コードに限らない反復作業の自動化が広がる一方、画面操作の代行には誤操作や権限管理といった課題も残る。",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "AIエージェント",
+      "業務自動化"
+    ],
+    "section": "開発",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/articles/2606/19/news102.html",
+    "importance": 4,
+    "image_query": "programming code screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxwcm9ncmFtbWluZyUyMGNvZGUlMjBzY3JlZW58ZW58MXwwfHx8MTc4MTg1OTk5NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mohammad Rahmani",
+      "profileUrl": "https://unsplash.com/@afgprogrammer?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-19T09:06:36.094Z",
+    "publishedAt": "2026-06-19T05:15:00.000Z"
+  },
+  {
+    "slug": "20260619-10",
+    "headline": "米、ASML製EUV装置の中国流出を指摘",
+    "lead": "米商務長官がASML製EUV露光装置の中国流出の可能性を指摘、ASMLは全面否定した。",
+    "body_markdown": "ブルームバーグの6月19日報道によると、米商務長官のハワード・ラトニック氏は、ASMLの最先端のEUV（極端紫外線）露光装置1台が中国に渡った可能性があるとして、同社幹部に懸念を伝えた。米側はEUV関連の部品や輸送機材が中国に出荷された証拠があると主張したが、その証拠は公開もASMLへの開示もしていないという。\n\nASMLのクリストフ・フーケCEOは、そのような装置は中国に存在せず、過去にも存在しなかったと明確に否定した。同社は出荷した全装置を追跡しており、稼働中のものは監視下の顧客にあり、それ以外は解体・返却済みだと説明している。EUVの対中輸出は第1次トランプ政権以降、禁止が続いている。\n\nEUVは最先端半導体の製造に不可欠で、対中輸出規制の象徴的な存在だ。仮に1台の違法販売で輸出ライセンス全体を失えば、旧型のDUV装置による対中売上（2026年見込みの約2割）を含む巨額の損失を招くため、ASML側に違反の経済的動機は乏しいとの見方も出ている。",
+    "tags": [
+      "ASML",
+      "半導体",
+      "輸出規制",
+      "EUV",
+      "米中"
+    ],
+    "section": "規制・倫理",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/",
+    "importance": 4,
+    "image_query": "semiconductor manufacturing",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzZW1pY29uZHVjdG9yJTIwbWFudWZhY3R1cmluZ3xlbnwxfDB8fHwxNzgxODU5OTk2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "ThisisEngineering",
+      "profileUrl": "https://unsplash.com/@thisisengineering?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-19T09:06:36.521Z",
+    "publishedAt": "2026-06-19T07:59:12.000Z"
+  },
+  {
+    "slug": "20260619-11",
+    "headline": "AI推論のBaseten、15億ドル調達と報道",
+    "lead": "AI推論基盤のBasetenが評価額130億ドルで15億ドルの調達を進めると報じられた。",
+    "body_markdown": "米ウォール・ストリート・ジャーナルの報道によると、AI推論基盤を手掛ける新興企業 Baseten が、評価額130億ドルで15億ドル規模の資金調達をまとめつつある。半年足らずで評価額が約160%上昇した計算だ。\n\n同社は5カ月前にも評価額50億ドルでシリーズEとして3億ドルを調達したばかりで、その9カ月前には1億5000万ドルのシリーズDを実施していた。今回は一部の投資家が130億ドル、別の投資家が110億ドルの評価で参加する「分割価格」のラウンドで、Spark Capital など複数社が共同で主導するという。Baseten は利用者の要求を最適なモデルに振り分け、安価なオープンソースの代替モデルを活用してコストと速度を両立させる「推論」処理に特化している。\n\nモデルの学習だけでなく、運用時の推論インフラに投資が集中する「推論ゴールドラッシュ」の象徴的な動きだ。短期間での評価額の急騰は需要の強さを映す一方、市場の過熱への警戒も招いている。",
+    "tags": [
+      "Baseten",
+      "資金調達",
+      "AI推論",
+      "スタートアップ"
+    ],
+    "section": "スタートアップ",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+    "importance": 4,
+    "image_query": "stock market finance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MXwwfHx8MTc4MTg1OTk5Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Nick Chong",
+      "profileUrl": "https://unsplash.com/@nick604?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-19T09:06:37.137Z",
+    "publishedAt": "2026-06-18T21:20:13.000Z"
+  },
+  {
+    "slug": "20260619-12",
+    "headline": "音波で動く脳模倣チップ、省電力を実証",
+    "lead": "アリゾナ大が音波を使う神経模倣素子を開発し、電力10分の1で高精度分類を実証した。",
+    "body_markdown": "アリゾナ大学のシャオドン・ヤン助教らの研究チームは、音波を用いて脳の神経のふるまいを模倣する「音響シナプス」素子を開発した。位相に複数の値を符号化する「ファイビット（phi-bit）」により、一つの素子で並列的な計算を可能にする点が特徴だ。\n\n試作品は、エポキシ接着剤でつないだ3本のアルミ棒（長さ約60センチ、幅約1.25センチ）から成り、超音波の送受信で信号をやり取りする。アヤメの花150個を3種に分類する課題では、わずか39個のパラメータで96.7%の精度を達成し、従来の多層パーセプトロンより20%速く最高精度に到達した。消費電力は現行の電子式の神経模倣ハードウェアの最大10分の1にとどまるという。成果は6月12日付の科学誌 Science Advances に掲載された。\n\nAIチップの消費電力の増大が課題となるなか、物理現象そのものを計算に使う省エネ手法の可能性を示す研究だ。ただし現時点では試作段階であり、実用的な集積化には依然として課題が残る。",
+    "tags": [
+      "ニューロモーフィック",
+      "半導体",
+      "省電力",
+      "研究"
+    ],
+    "section": "ハードウェア",
+    "source": "IEEE Spectrum",
+    "link": "https://spectrum.ieee.org/neuromorphic-computing-acoustic-chips",
+    "importance": 3,
+    "image_query": "abstract sound waves",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1617994452722-4145e196248b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHNvdW5kJTIwd2F2ZXN8ZW58MXwwfHx8MTc4MTg1OTk5N3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Pawel Czerwinski",
+      "profileUrl": "https://unsplash.com/@pawel_czerwinski?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-19T09:06:37.661Z",
+    "publishedAt": "2026-06-18T13:00:01.000Z"
+  },
+  {
     "slug": "20260619-03",
     "headline": "ChatGPT広告、日本でも開始 無料版とGoに表示",
     "lead": "OpenAIが日本でChatGPT広告のパイロットを開始。無料版と低価格プラン「Go」で表示する。",
