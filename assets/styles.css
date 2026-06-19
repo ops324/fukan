@@ -626,6 +626,9 @@ figure { margin: 0; }
   background: var(--color-paper-2);
 }
 
+/* 画像を記事リンクにする際のラッパ（cardbits.js の thumb()）。grid アイテムとして幅いっぱいに。 */
+.thumb-link { display: block; }
+
 /* グリッドのテクスチャは抽象グラデ（フォールバック）にのみ重ねる。実写は素のまま見せる。 */
 .thumb[class*="thumb--"]::after {
   content: '';

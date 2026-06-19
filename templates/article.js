@@ -73,7 +73,7 @@ function relatedCards(items) {
   if (!items.length) return '';
   const variants = ['thumb--rose', 'thumb--teal', 'thumb--amber'];
   const cs = items.map((a, i) => `          <article class="card">
-            ${thumb(a, variants[i % variants.length])}
+            ${thumb(a, variants[i % variants.length], `${a.slug}.html`)}
             ${sectionChip(a.section)}
             <h3 class="card__headline"><a href="${esc(a.slug)}.html">${esc(a.headline)}</a></h3>
             <p class="card__deck">${esc(a.lead)}</p>

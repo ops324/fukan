@@ -15,7 +15,7 @@ function relTime(a) {
 function heroLead(a) {
   if (!a) return '';
   return `        <article class="hero__lead">
-          ${thumb(a, THUMBS[0])}
+          ${thumb(a, THUMBS[0], href(a))}
           <div>
             <div class="meta" style="margin-bottom: var(--space-md);">
               ${sectionChip(a.section)}
@@ -52,7 +52,7 @@ function cards(items) {
   const cs = items.map((a, i) => {
     const variant = THUMBS[(i + 1) % THUMBS.length];
     return `      <article class="card${priorityClass(a)}">
-        ${thumb(a, variant)}
+        ${thumb(a, variant, href(a))}
         ${sectionChip(a.section)}
         <h3 class="card__headline"><a href="${href(a)}">${esc(a.headline)}</a></h3>
         <p class="card__deck">${esc(a.lead)}</p>

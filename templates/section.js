@@ -13,7 +13,7 @@ function cards(items) {
   const cs = items.map((a, i) => {
     const variant = THUMBS[i % THUMBS.length];
     return `      <article class="card">
-        ${thumb(a, variant)}
+        ${thumb(a, variant, href(a))}
         ${sectionChip(a.section)}
         <h3 class="card__headline"><a href="${href(a)}">${esc(a.headline)}</a></h3>
         <p class="card__deck">${esc(a.lead)}</p>

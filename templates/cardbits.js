@@ -35,11 +35,14 @@ export function optimizedUrl(url, w = 1200) {
   return `${url}${sep}w=${w}&q=70&auto=format&fit=crop`;
 }
 
-// 実写真があれば背景画像サムネ、無ければ CSS 抽象サムネ
-export function thumb(a, variant) {
+// 実写真があれば背景画像サムネ、無ければ CSS 抽象サムネ。
+// href を渡すと画像全体を記事へのリンクにする（見出しと同一記事への重複リンクになるため
+// マウス操作専用とし、tabindex=-1 + aria-hidden で AT/キーボードには出さない）。
+export function thumb(a, variant, href) {
   const img = a.image || {};
-  if (img.imageUrl) {
-    return `<figure class="thumb" style="background-image: url('${esc(optimizedUrl(img.imageUrl, 800))}'); background-size: cover; background-position: center;" aria-hidden="true"></figure>`;
-  }
-  return `<figure class="thumb ${variant}" aria-hidden="true"></figure>`;
+  const fig = img.imageUrl
+    ? `<figure class="thumb" style="background-image: url('${esc(optimizedUrl(img.imageUrl, 800))}'); background-size: cover; background-position: center;" aria-hidden="true"></figure>`
+    : `<figure class="thumb ${variant}" aria-hidden="true"></figure>`;
+  if (!href) return fig;
+  return `<a class="thumb-link" href="${esc(href)}" tabindex="-1" aria-hidden="true">${fig}</a>`;
 }
