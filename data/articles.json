@@ -1,5 +1,136 @@
 [
   {
+    "slug": "20260620-06",
+    "headline": "OpenAI、ChatGPT企業版に利用分析と支出管理を追加",
+    "lead": "管理者がクレジット消費を可視化し、ワークスペースやチーム単位で上限を設定できる。",
+    "body_markdown": "OpenAIは6月18日、ChatGPT Enterprise向けに利用状況の分析機能と支出管理機能を追加したと発表した。管理コンソール上で、ChatGPTとCodexのクレジット消費をユーザー・製品・モデル別に把握でき、利用傾向や使用量の多いユーザーを時系列で追える。同じデータは「Cost API」経由でも取得できる。支出管理では、ワークスペース全体の既定上限に加え、チーム単位の上限や特定のヘビーユーザー向けの個別設定が可能になった。利用者側も自分の割り当てに対する消費量を確認し、追加クレジットを業務の文脈を添えて申請できる。機能は既存顧客に即日提供される。\n\n企業での生成AI活用が一部のヘビーユーザーを中心に広がり、利用コストの膨張が課題になりつつある。今回の追加は、コストを部門単位で配賦・抑制したい管理者の実務的な要望に応えるもので、AIの社内展開を「実験」から「予算管理を伴う恒常運用」へ移す動きの一つといえる。",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "エンタープライズ",
+      "コスト管理"
+    ],
+    "section": "基盤モデル",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+    "importance": 3,
+    "image_query": "business analytics dashboard",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMGFuYWx5dGljcyUyMGRhc2hib2FyZHxlbnwxfDB8fHwxNzgxOTI0ODA3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Carlos Muza",
+      "profileUrl": "https://unsplash.com/@kmuza?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-20T03:06:47.344Z",
+    "publishedAt": "2026-06-18T17:00:00.000Z"
+  },
+  {
+    "slug": "20260620-07",
+    "headline": "米FERC、AI向け大規模電力接続の新ルール",
+    "lead": "柔軟な大口需要家は系統接続の審査を最短60日に短縮し、自前電源の確保を促す。",
+    "body_markdown": "米連邦エネルギー規制委員会（FERC）は6月18日、AIデータセンターや半導体工場など「大口需要」の電力系統への接続を巡る新たな枠組みを示した。系統の安定運用に協力できる柔軟な需要家は、接続のための調査を最短60日で完了できるようにする一方、大口需要家には自前の発電や需要の柔軟性（出力調整）を求める。さらに、必要な送配電設備の増強費用を当該需要家が負担する仕組みとし、既存の一般利用者への料金転嫁を抑える狙いがある。半導体大手のNVIDIAはこれを歓迎し、自社が推進する「AIファクトリー」を、周辺地域の系統を安定させる柔軟な電力資産として位置づける考えを示した。\n\n急増するAI用電力需要は、各地で電力料金の上昇や系統の逼迫への懸念を生んでいる。需要家側に電源確保と費用負担、出力調整を求める今回の方針は、AIインフラの拡大と電力網の安定・公平性をどう両立させるかという論点に、規制側の一つの解を示したものだ。",
+    "tags": [
+      "FERC",
+      "データセンター",
+      "電力",
+      "AIインフラ",
+      "NVIDIA"
+    ],
+    "section": "ハードウェア",
+    "source": "NVIDIA",
+    "link": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+    "importance": 4,
+    "image_query": "electricity power lines",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1610028290816-5d937a395a49?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxlbGVjdHJpY2l0eSUyMHBvd2VyJTIwbGluZXN8ZW58MXwwfHx8MTc4MTkyNDgwN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Andrey Metelev",
+      "profileUrl": "https://unsplash.com/@metelevan?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-20T03:06:47.971Z",
+    "publishedAt": "2026-06-18T20:00:27.000Z"
+  },
+  {
+    "slug": "20260620-08",
+    "headline": "AWS、AIエージェント基盤AgentCoreを正式提供",
+    "lead": "2つのAPI呼び出しで隔離環境のエージェントを構築でき、本番運用までを短縮する。",
+    "body_markdown": "アマゾン ウェブ サービス（AWS）は6月18日、AIエージェント構築基盤「Amazon Bedrock AgentCore」を正式提供（GA）にしたと発表した。エージェントを定義する「CreateHarness」と実行する「InvokeHarness」の2つのAPI呼び出しを軸に、オーケストレーションのコードやコンテナを自作せずにエージェントを動かせる。各エージェントはファイルシステムとシェルを備えた隔離環境で動作し、セッションをまたいでユーザーや会話を記憶する。Webブラウズやコード実行、MCPやゲートウェイ経由の外部ツール呼び出しに対応し、セッションの途中でモデルの提供元を切り替えても文脈を失わない。実行過程はCloudWatchに自動で記録される。料金は基盤の利用量に応じた従量課金で、AgentCore自体への追加料金はない。\n\nエージェント開発は試作は容易でも、隔離実行・記憶・監視を備えた本番運用への移行が難所だった。主要クラウドが定型化された運用基盤を提供することは、エージェントの実運用導入を後押しする一方、特定プラットフォームへの依存という論点も伴う。",
+    "tags": [
+      "AWS",
+      "AIエージェント",
+      "Bedrock",
+      "開発基盤"
+    ],
+    "section": "開発",
+    "source": "AWS ML Blog",
+    "link": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-is-now-generally-available-go-from-idea-to-production-grade-agent-in-minutes/",
+    "importance": 3,
+    "image_query": "programming code screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxwcm9ncmFtbWluZyUyMGNvZGUlMjBzY3JlZW58ZW58MXwwfHx8MTc4MTkyNDgwOHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Juanjo Jaramillo",
+      "profileUrl": "https://unsplash.com/@juanjodev02?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-20T03:06:48.541Z",
+    "publishedAt": "2026-06-18T17:32:22.000Z"
+  },
+  {
+    "slug": "20260620-09",
+    "headline": "新興企業、LLMの計算ボトルネック解消を主張",
+    "lead": "米Subquadraticが計算量を抑える新方式を公開、研究者は独立した検証を求める。",
+    "body_markdown": "米新興企業Subquadraticが、大規模言語モデル（LLM）を長年制約してきた計算上のボトルネックを解消したと主張している。同社は5月にステルス状態を脱し、トランスフォーマーが応答生成時に行う計算量を大幅に削れるとして、「他のどのモデルより高速・安価で消費電力も少ない」LLMを実現したと説明する。中核は、計算量とメモリの増加を入力長に対してほぼ線形に抑える「サブクアドラティック（準二乗）」なアテンション方式で、長い文脈の処理を効率化するという。同社は主張を裏づける証拠の開示を始めたとされるが、多くの専門家はその意義になお懐疑的で、独立した検証を求めている。\n\n現在のLLMは文脈が長くなるほど計算コストが急増するため、効率化は性能・コスト・電力のすべてに直結する重要課題だ。仮に主張が再現可能なら影響は大きいが、誇張を含むAI効率化の主張は珍しくなく、第三者による検証を経るまでは慎重に見るべき段階にある。",
+    "tags": [
+      "LLM",
+      "トランスフォーマー",
+      "スタートアップ",
+      "計算効率"
+    ],
+    "section": "研究",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/",
+    "importance": 4,
+    "image_query": "circuit board chip",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1592659762303-90081d34b277?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxjaXJjdWl0JTIwYm9hcmQlMjBjaGlwfGVufDF8MHx8fDE3ODE5MjQ4MDl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vishnu Mohanan",
+      "profileUrl": "https://unsplash.com/@vishnumaiea?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-20T03:06:49.182Z",
+    "publishedAt": "2026-06-19T12:10:00.000Z"
+  },
+  {
+    "slug": "20260620-10",
+    "headline": "米政府、Anthropicのサイバー防御AI輸出を制限",
+    "lead": "「Mythos」など2モデルの国外提供を規制、専門家は実効性に疑問を呈する。",
+    "body_markdown": "米政府は6月、AI企業Anthropicに対し、サイバーセキュリティ向けモデル「Mythos」と「Fable」の国外提供を制限するよう命じた。Mythosは4月に公開された防御者向けのモデルで、これまで審査を経た約150組織のみが利用できていた。商務省が制限に動いた背景には、中国とのつながりが疑われる韓国の通信会社にアクセスが提供されたことや、安全対策の回避手法が見つかったとの指摘があるとされる。Anthropicはこれを「すでに修正済みの限定的な問題」だと反論している。TechCrunchの論評は、1990年代の暗号技術（PGP）や2010年代以降のスパイウェアを巡る輸出規制を引き合いに、ソフトウェアの拡散を国家が止めようとしても、競合の自力開発や各国の不統一な運用、規制の緩い国への移転によって実効性を欠いてきたと指摘する。\n\n高性能なAIは攻撃にも防御にも使える「デュアルユース」であり、輸出規制の是非は安全保障と技術普及の緊張をそのまま映す。歴史的な前例は、こうした規制が抜け道を生みやすいことを示しており、AIに同じ手法がどこまで通用するのかが問われている。",
+    "tags": [
+      "Anthropic",
+      "輸出規制",
+      "サイバーセキュリティ",
+      "規制"
+    ],
+    "section": "規制・倫理",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+    "importance": 4,
+    "image_query": "cyber security lock",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1633265486064-086b219458ec?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxjeWJlciUyMHNlY3VyaXR5JTIwbG9ja3xlbnwxfDB8fHwxNzgxOTI0ODA5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Towfiqu barbhuiya",
+      "profileUrl": "https://unsplash.com/@towfiqu999999?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-20T03:06:49.678Z",
+    "publishedAt": "2026-06-19T22:40:14.000Z"
+  },
+  {
     "slug": "20260620-01",
     "headline": "新興企業、LLMの計算ボトルネック克服を主張",
     "lead": "Subquadraticがスパース注意で計算量を削減と主張。第三者評価は速度向上を示すも専門家は懐疑的。",
