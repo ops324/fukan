@@ -1,5 +1,83 @@
 [
   {
+    "slug": "20260620-11",
+    "headline": "OpenAI法人営業責任者ゾフ氏、5カ月で再離脱",
+    "lead": "OpenAIで法人向けAI営業を率いたバレット・ゾフ氏が、復帰から約5カ月で再び退社した。",
+    "body_markdown": "OpenAIで法人向けAI営業を統括していたバレット・ゾフ氏が退社したと、The Vergeが6月19日に報じた。ゾフ氏は2024年に一度OpenAIを離れ、ミラ・ムラティ氏が創業した競合Thinking Machines Labの共同創業者兼CTOを務めたのち、2026年1月中旬にOpenAIへ復帰。法人向け事業の責任者に就いていた。今回の離脱は復帰から約5カ月で、同社からの2度目の退社となる。退社理由について、OpenAI・本人とも公表していない。\n\nOpenAIは新規株式公開（IPO）を見据え、消費者向けの「寄り道」を控えて法人向けとコーディングを収益の柱に据える方針を示してきた。商業化の正念場で中核人材が短期間で入れ替わったことは、組織の安定性を問う材料となりうる。",
+    "tags": [
+      "OpenAI",
+      "人事",
+      "法人向けAI",
+      "IPO"
+    ],
+    "section": "産業応用",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
+    "importance": 4,
+    "image_query": "modern office building",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1690357737706-b421b193048a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBidWlsZGluZ3xlbnwxfDB8fHwxNzgxOTQ2NTI0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Georgi Kalaydzhiev",
+      "profileUrl": "https://unsplash.com/@jorok?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-20T09:08:44.450Z",
+    "publishedAt": "2026-06-19T04:49:33.000Z"
+  },
+  {
+    "slug": "20260620-12",
+    "headline": "データセンター規制支持のAmazon社員に懲戒調査",
+    "lead": "シアトル市のデータセンター規制を市議会で支持した3人のAmazon社員が、社内調査と解雇の可能性を告げられた。",
+    "body_markdown": "シアトル市議会の公聴会でデータセンター規制を支持する証言をしたAmazonの従業員3人が、社内の懲戒調査の対象になったと報じられた。3人（パトリック・シュレッサー氏ら）は6月3日に証言し、市議会は6月9日、大規模データセンターを対象とする1年間のモラトリアム（新規制限）を全会一致で可決した。その翌日、3人は人事部門「従業員リレーションズ」に呼ばれ、調査の開始と、解雇を含む処分の可能性を伝えられたという。3人はいずれも環境問題に取り組む従業員グループ「Amazon Employees for Climate Justice（AECJ）」のメンバーで、政治的信条を理由とする雇用差別を禁じる市条例に違反するとして、市の公民権局に申し立てを行った。Amazon側は、3人がAmazonの代表として発言したように見えたと説明している。\n\nAIデータセンターの急拡大は電力や用水、地域社会への負荷をめぐり各地で論点となっている。企業内部からの異議申し立てと言論の保護のあり方が、改めて問われる事例といえる。",
+    "tags": [
+      "Amazon",
+      "データセンター",
+      "労働",
+      "規制"
+    ],
+    "section": "規制・倫理",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/952180/amazon-seattle-data-center-moratorium-aecj-disciplinary-action",
+    "importance": 4,
+    "image_query": "data center servers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1746893737268-81fe686e6a51?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxkYXRhJTIwY2VudGVyJTIwc2VydmVyc3xlbnwxfDB8fHwxNzgxOTQ2NTI0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Avi Waxman",
+      "profileUrl": "https://unsplash.com/@aviosly?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-20T09:08:44.728Z",
+    "publishedAt": "2026-06-18T16:00:00.000Z"
+  },
+  {
+    "slug": "20260620-13",
+    "headline": "GitHub、社内データ分析AI「Qubot」の知見を公開",
+    "lead": "GitHubは、自然言語でデータ基盤に問い合わせできる社内AIエージェント「Qubot」の構築知見を公開した。",
+    "body_markdown": "GitHubは、社員が平易な言葉で社内のデータ基盤に質問し、数秒で回答を得られる分析AIエージェント「Qubot」の開発過程をブログで公開した。SlackやVS Code、Copilot CLIから設定不要で利用でき、「どの利用者層が最も継続率が高いか」といった探索的な問いに答える。仕組みは、生の利用ログから業務ルールまでを段階的に整理した「コンテキスト層」と、用途に応じてKustoとTrinoという2つのクエリエンジンをMCP（Model Context Protocol）経由で自動選択する構成からなる。導入後は数百人規模の社員が自らデータを分析するようになり、分析チームへの問い合わせが大幅に減ったという。\n\nGitHubは「構造化され、よく整理されたコンテキスト」が回答の速度と正確さを約3倍に高めたと指摘する。生成AIエージェントの実用化では、モデルそのものより周辺の文脈整備が成否を分けることを示す事例だ。",
+    "tags": [
+      "GitHub",
+      "AIエージェント",
+      "データ分析",
+      "MCP"
+    ],
+    "section": "開発",
+    "source": "GitHub Blog",
+    "link": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+    "importance": 3,
+    "image_query": "programming code screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxwcm9ncmFtbWluZyUyMGNvZGUlMjBzY3JlZW58ZW58MXwwfHx8MTc4MTk0NjUyNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "James Harrison",
+      "profileUrl": "https://unsplash.com/@jstrippa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-20T09:08:45.003Z",
+    "publishedAt": "2026-06-19T16:00:00.000Z"
+  },
+  {
     "slug": "20260620-06",
     "headline": "OpenAI、ChatGPT企業版に利用分析と支出管理を追加",
     "lead": "管理者がクレジット消費を可視化し、ワークスペースやチーム単位で上限を設定できる。",

@@ -7,7 +7,7 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 20 Jun 2026 03:06:49 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 09:08:45 GMT</lastBuildDate>
     <item>
       <title>米政府、Anthropicのサイバー防御AI輸出を制限</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260620-10.html</link>
@@ -15,6 +15,14 @@
       <pubDate>Fri, 19 Jun 2026 22:40:14 GMT</pubDate>
       <description>「Mythos」など2モデルの国外提供を規制、専門家は実効性に疑問を呈する。</description>
       <category>規制・倫理</category>
+    </item>
+    <item>
+      <title>GitHub、社内データ分析AI「Qubot」の知見を公開</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260620-13.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260620-13.html</guid>
+      <pubDate>Fri, 19 Jun 2026 16:00:00 GMT</pubDate>
+      <description>GitHubは、自然言語でデータ基盤に問い合わせできる社内AIエージェント「Qubot」の構築知見を公開した。</description>
+      <category>開発</category>
     </item>
     <item>
       <title>AWS、AIエージェント向けWeb検索を正式提供</title>
@@ -63,6 +71,14 @@
       <pubDate>Fri, 19 Jun 2026 05:15:00 GMT</pubDate>
       <description>OpenAIがCodexに、Mac上の操作を記録して再実行する「Record &amp; Replay」を追加した。</description>
       <category>開発</category>
+    </item>
+    <item>
+      <title>OpenAI法人営業責任者ゾフ氏、5カ月で再離脱</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260620-11.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260620-11.html</guid>
+      <pubDate>Fri, 19 Jun 2026 04:49:33 GMT</pubDate>
+      <description>OpenAIで法人向けAI営業を率いたバレット・ゾフ氏が、復帰から約5カ月で再び退社した。</description>
+      <category>産業応用</category>
     </item>
     <item>
       <title>OpenAI、ChatGPTの広告テストを日本で開始</title>
@@ -151,22 +167,6 @@
       <pubDate>Thu, 18 Jun 2026 17:32:22 GMT</pubDate>
       <description>2つのAPI呼び出しで隔離環境のエージェントを構築でき、本番運用までを短縮する。</description>
       <category>開発</category>
-    </item>
-    <item>
-      <title>OpenAI、ChatGPT企業版に利用分析と支出管理を追加</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260620-06.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260620-06.html</guid>
-      <pubDate>Thu, 18 Jun 2026 17:00:00 GMT</pubDate>
-      <description>管理者がクレジット消費を可視化し、ワークスペースやチーム単位で上限を設定できる。</description>
-      <category>基盤モデル</category>
-    </item>
-    <item>
-      <title>音波で動く脳模倣チップ、省電力を実証</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260619-12.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-12.html</guid>
-      <pubDate>Thu, 18 Jun 2026 13:00:01 GMT</pubDate>
-      <description>アリゾナ大が音波を使う神経模倣素子を開発し、電力10分の1で高精度分類を実証した。</description>
-      <category>ハードウェア</category>
     </item>
   </channel>
 </rss>
