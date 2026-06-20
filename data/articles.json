@@ -1,5 +1,140 @@
 [
   {
+    "slug": "20260621-01",
+    "headline": "AlphaFold主導のジャンパー氏、Anthropicへ移籍",
+    "lead": "ノーベル化学賞受賞者でAlphaFoldを率いたジョン・ジャンパー氏が、約9年在籍したGoogle DeepMindを離れAnthropicへ移ると発表した。",
+    "body_markdown": "2026年6月20日、AIによるタンパク質立体構造予測モデル「AlphaFold」の開発を主導したジョン・ジャンパー氏が、Google DeepMindを去り競合のAnthropicに加わると明らかにした。ジャンパー氏は博士号取得からわずか半年でAlphaFoldチームのリーダーに抜擢され、2024年にはデミス・ハサビス氏とともにノーベル化学賞を受賞した経歴を持つ。DeepMindでの在籍は約9年に及び、Bloombergによれば近年はGoogleのコーディング支援ツールの開発にも関わっていたという。\n\n同じ週には、Character AIの共同創業者ノーム・シャジア氏もDeepMindを離れOpenAIへ移ったと報じられた。\n\n主要なAI研究者が研究機関の間を相次いで移る動きは、生成AI分野での人材獲得競争の激しさを映している。Anthropicにとっては科学分野の象徴的な研究者を迎える形となるが、具体的な担当領域は現時点で明らかにされていない。",
+    "tags": [
+      "Anthropic",
+      "DeepMind",
+      "AI人材",
+      "AlphaFold",
+      "AI研究"
+    ],
+    "section": "スタートアップ",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+    "importance": 4,
+    "image_query": "research laboratory science",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1602052577122-f73b9710adba?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxyZXNlYXJjaCUyMGxhYm9yYXRvcnklMjBzY2llbmNlfGVufDF8MHx8fDE3ODE5ODk2NTR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Trnava University",
+      "profileUrl": "https://unsplash.com/@trnavskauni?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-20T21:07:34.528Z",
+    "publishedAt": "2026-06-20T16:39:57.000Z"
+  },
+  {
+    "slug": "20260621-02",
+    "headline": "リライアンス、5億人にAI通話エージェント展開へ",
+    "lead": "インドのリライアンスが、5億人超のJio利用者向けにAIが通話へ参加する「Jio Call Agent」など一連のAIサービスを2026年内に投入する。",
+    "body_markdown": "2026年6月19日の株主総会で、インドの複合企業リライアンスはAIを通信サービスへ広く組み込む計画を示した。中核となるのは音声アシスタント「Jio Call Agent」で、通話に参加して会話を文字起こし・要約し、配車や出前の予約などを代行する。「Hey Jio」で起動し、5億人を超えるJio利用者を対象に2026年内の提供開始を予定する。\n\nこのほか、自然言語で操作する新「MyJio」アプリ、家庭向け表示端末「TeleFrame」、医療・教育・農業向けの「JioHealthIQ」「JioLearnIQ」「JioKrishiIQ」、22のインド言語に対応する中小事業者向け「AI Vyapar」も発表した。同社は2026年に1100億ドルのAIインフラ投資計画を掲げ、Google・Meta・Nvidiaとの協業も進めている。ムケシュ・アンバニ会長は「インドはAIの単なる消費者ではなく、創造者・主導者になるべきだ」と述べた。\n\n数億人規模の通信基盤にAIを直接組み込む試みであり、新興国での生成AI普及の速度と規模を左右しうる動きだ。",
+    "tags": [
+      "リライアンス",
+      "Jio",
+      "インド",
+      "AIアシスタント",
+      "通信"
+    ],
+    "section": "産業応用",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
+    "importance": 4,
+    "image_query": "smartphone mobile technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzbWFydHBob25lJTIwbW9iaWxlJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzgxOTg5NjU1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Rodion Kutsaiev",
+      "profileUrl": "https://unsplash.com/@frostroomhead?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-20T21:07:35.309Z",
+    "publishedAt": "2026-06-19T15:23:28.000Z"
+  },
+  {
+    "slug": "20260621-03",
+    "headline": "The Atlantic、AI学習に使われた楽曲のDBを公開",
+    "lead": "米The AtlanticがAIの音楽生成モデルの学習に使われた4つの楽曲データセットを、検索可能な形で公開した。",
+    "body_markdown": "米誌The Atlanticの記者アレックス・ライスナー氏が、AIの音楽生成に使われた4つのデータセットを特定し、権利者が自分の曲が含まれているかを調べられる検索データベースとして公開した。最大のものは1200万曲、次いで900万曲、残る2つはそれぞれ約10万曲を収録し、テイラー・スウィフトやBad Bunnyのヒット曲も含まれるという。\n\nこれらのデータセットは数千回ダウンロードされており、誰が利用したかを正確に特定するのは難しいものの、GoogleとStabilityは研究論文の中で使用を認めている。SunoやUdio、Googleといった音楽生成モデルの背後にある著作権楽曲を可視化した形だ。\n\n生成AIの学習データに著作物がどの程度使われているかを具体的に示すもので、音楽業界とAI企業の間で続く著作権訴訟に影響しうる。許諾なき利用の範囲が可視化されたことで、権利者側の反発が強まる可能性がある。",
+    "tags": [
+      "著作権",
+      "生成AI",
+      "音楽",
+      "学習データ",
+      "The Atlantic"
+    ],
+    "section": "規制・倫理",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+    "importance": 4,
+    "image_query": "music recording studio",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1618609377864-68609b857e90?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMHJlY29yZGluZyUyMHN0dWRpb3xlbnwxfDB8fHwxNzgxOTg5NjU1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "James Kovin",
+      "profileUrl": "https://unsplash.com/@james2k?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-20T21:07:35.937Z",
+    "publishedAt": "2026-06-20T18:46:48.000Z"
+  },
+  {
+    "slug": "20260621-04",
+    "headline": "脳インターフェース治験が急増、実装者150人に",
+    "lead": "ALS患者の発話を支える脳インターフェースの「最初のヘビーユーザー」の事例とともに、世界の治験参加者が急増している。",
+    "body_markdown": "MIT Technology Reviewは、ALS（筋萎縮性側索硬化症）で発話が困難なケイシー・ハレル氏を、脳コンピューターインターフェース（BCI）の「最初のヘビーユーザー」として紹介した。脳に埋め込んだ電極が発話に伴う電気信号を捉え、音素に変換したうえで、本人の声を再現した音声クローンで読み上げる仕組みだ。プライバシーモードや不適切語フィルターも備える。\n\n2023年7月の埋め込みから約3年使い続け、気候活動家としての仕事や家族との会話、娘への読み聞かせをほぼ自立して行えるという。開発はカリフォルニア大学デービス校のデビッド・ブランドマン氏らのチームが手がけた。\n\n2026年6月時点で脳電極を埋め込んだ人は約150人と、2023年末の67人から倍増した。NeuralinkやSynchron、中国のNeuracleなども治験を進めており、中国は2026年に臨床試験外でのBCI医療利用を初めて認可した。装置の実用性と被験者数の両面で、研究段階から医療応用へ移りつつある段階を示している。",
+    "tags": [
+      "BCI",
+      "脳インターフェース",
+      "医療",
+      "ALS",
+      "Neuralink"
+    ],
+    "section": "研究",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/",
+    "importance": 3,
+    "image_query": "brain medical research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1617791160536-598cf32026fb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxicmFpbiUyMG1lZGljYWwlMjByZXNlYXJjaHxlbnwxfDB8fHwxNzgxOTg5NjU2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Milad Fakurian",
+      "profileUrl": "https://unsplash.com/@fakurian?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-20T21:07:36.801Z",
+    "publishedAt": "2026-06-19T09:00:00.000Z"
+  },
+  {
+    "slug": "20260621-05",
+    "headline": "AIエージェントの「スキル」過積載は逆効果と指摘",
+    "lead": "Microsoftの開発者ブログが、AIエージェントのスキルに既知の情報を詰め込むのはトークンの無駄だと論じた。",
+    "body_markdown": "Microsoftの開発者向けブログは、AIエージェントに与える「スキル」（手順や知識をまとめた指示書）へ情報を詰め込みすぎる設計を戒める記事を公開した。モデルは学習段階で公式ドキュメントやStack Overflow、GitHubの内容をすでに取り込んでおり、それを繰り返すスキルは助けにならず「重荷」になると指摘する。冗長な記述が文脈枠（コンテキストウィンドウ）を占有し、作業中のファイルや会話履歴、他ツールの出力といった「モデルが知らない情報」を押し出してしまうという。\n\n推奨するのは「まず測る」手法だ。スキルなしで試して何を正しくこなせるかの基準を取り、モデルが間違える部分だけをスキルの対象にする。CRUDの例や認証手順、バージョン情報は、モデルが正しく扱えるなら省く。筆者は「多くの場合、モデルに必要なのは教科書ではなく要点メモだ」とまとめている。\n\nエージェント開発で見落とされがちなトークン効率に焦点を当てた実務的な指針であり、限られた文脈を有効に使う設計の重要性を示している。",
+    "tags": [
+      "AIエージェント",
+      "開発",
+      "Microsoft",
+      "プロンプト設計",
+      "トークン効率"
+    ],
+    "section": "開発",
+    "source": "Microsoft Dev",
+    "link": "https://devblogs.microsoft.com/blog/stop-overloading-your-skills",
+    "importance": 3,
+    "image_query": "programming code screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxwcm9ncmFtbWluZyUyMGNvZGUlMjBzY3JlZW58ZW58MXwwfHx8MTc4MTk4OTY1N3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Arnold Francisca",
+      "profileUrl": "https://unsplash.com/@clark_fransa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-20T21:07:37.197Z",
+    "publishedAt": "2026-06-18T14:25:27.000Z"
+  },
+  {
     "slug": "20260620-11",
     "headline": "OpenAI法人営業責任者ゾフ氏、5カ月で再離脱",
     "lead": "OpenAIで法人向けAI営業を率いたバレット・ゾフ氏が、復帰から約5カ月で再び退社した。",

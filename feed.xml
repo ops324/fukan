@@ -7,7 +7,23 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 20 Jun 2026 09:08:45 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 21:07:37 GMT</lastBuildDate>
+    <item>
+      <title>The Atlantic、AI学習に使われた楽曲のDBを公開</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260621-03.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260621-03.html</guid>
+      <pubDate>Sat, 20 Jun 2026 18:46:48 GMT</pubDate>
+      <description>米The AtlanticがAIの音楽生成モデルの学習に使われた4つの楽曲データセットを、検索可能な形で公開した。</description>
+      <category>規制・倫理</category>
+    </item>
+    <item>
+      <title>AlphaFold主導のジャンパー氏、Anthropicへ移籍</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260621-01.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260621-01.html</guid>
+      <pubDate>Sat, 20 Jun 2026 16:39:57 GMT</pubDate>
+      <description>ノーベル化学賞受賞者でAlphaFoldを率いたジョン・ジャンパー氏が、約9年在籍したGoogle DeepMindを離れAnthropicへ移ると発表した。</description>
+      <category>スタートアップ</category>
+    </item>
     <item>
       <title>米政府、Anthropicのサイバー防御AI輸出を制限</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260620-10.html</link>
@@ -23,6 +39,14 @@
       <pubDate>Fri, 19 Jun 2026 16:00:00 GMT</pubDate>
       <description>GitHubは、自然言語でデータ基盤に問い合わせできる社内AIエージェント「Qubot」の構築知見を公開した。</description>
       <category>開発</category>
+    </item>
+    <item>
+      <title>リライアンス、5億人にAI通話エージェント展開へ</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260621-02.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260621-02.html</guid>
+      <pubDate>Fri, 19 Jun 2026 15:23:28 GMT</pubDate>
+      <description>インドのリライアンスが、5億人超のJio利用者向けにAIが通話へ参加する「Jio Call Agent」など一連のAIサービスを2026年内に投入する。</description>
+      <category>産業応用</category>
     </item>
     <item>
       <title>AWS、AIエージェント向けWeb検索を正式提供</title>
@@ -46,6 +70,14 @@
       <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260620-01.html</guid>
       <pubDate>Fri, 19 Jun 2026 10:40:24 GMT</pubDate>
       <description>Subquadraticがスパース注意で計算量を削減と主張。第三者評価は速度向上を示すも専門家は懐疑的。</description>
+      <category>研究</category>
+    </item>
+    <item>
+      <title>脳インターフェース治験が急増、実装者150人に</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260621-04.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260621-04.html</guid>
+      <pubDate>Fri, 19 Jun 2026 09:00:00 GMT</pubDate>
+      <description>ALS患者の発話を支える脳インターフェースの「最初のヘビーユーザー」の事例とともに、世界の治験参加者が急増している。</description>
       <category>研究</category>
     </item>
     <item>
@@ -135,38 +167,6 @@
       <pubDate>Thu, 18 Jun 2026 20:00:27 GMT</pubDate>
       <description>柔軟な大口需要家は系統接続の審査を最短60日に短縮し、自前電源の確保を促す。</description>
       <category>ハードウェア</category>
-    </item>
-    <item>
-      <title>OpenAI、IPO前にTransformer共同発明者を採用</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260619-04.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-04.html</guid>
-      <pubDate>Thu, 18 Jun 2026 19:59:22 GMT</pubDate>
-      <description>OpenAIがGoogle DeepMindのNoam Shazeer氏らをIPO準備期に相次ぎ獲得した。</description>
-      <category>スタートアップ</category>
-    </item>
-    <item>
-      <title>AWS、自社AIチップを外販へ Nvidiaに挑む</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260619-05.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-05.html</guid>
-      <pubDate>Thu, 18 Jun 2026 18:22:13 GMT</pubDate>
-      <description>AWSが自社AIチップTrainiumの外部販売を協議。年換算約500億ドル規模を見込む。</description>
-      <category>ハードウェア</category>
-    </item>
-    <item>
-      <title>米FERC、データセンターの送電接続を迅速化</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260619-06.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-06.html</guid>
-      <pubDate>Thu, 18 Jun 2026 17:49:23 GMT</pubDate>
-      <description>米FERCが大口需要家の系統接続を優先する命令を全会一致で決定。発電不足には未対応。</description>
-      <category>規制・倫理</category>
-    </item>
-    <item>
-      <title>AWS、AIエージェント基盤AgentCoreを正式提供</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260620-08.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260620-08.html</guid>
-      <pubDate>Thu, 18 Jun 2026 17:32:22 GMT</pubDate>
-      <description>2つのAPI呼び出しで隔離環境のエージェントを構築でき、本番運用までを短縮する。</description>
-      <category>開発</category>
     </item>
   </channel>
 </rss>
