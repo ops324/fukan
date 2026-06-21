@@ -146,8 +146,8 @@ open index.html
   ヘッドレス Claude が media の主張を WebSearch で裏取りしてから採用する（`src/config.js` の `rssFeeds`）。
 - **重要度で選別＋序列化** — Claude が候補を重要度 1〜5 で採点し、`importanceFloor`(3) 以上だけを
   1回 `maxArticles`(2) 本まで掲載（＝1日6本前後）。重要なものが無い回は載せない。類似トピックは1本に統合。
-- **重要度で配置** — `render.js` がトップのカード／人気記事を重要度順に並べる
-  （`importanceThenRecency`）。「最新記事」リストのみ時系列。
+- **重要度で配置** — `render.js` がトップのヒーロー／注目カードを重要度順に並べる
+  （`importanceThenRecency`）。「最新記事」（タイムライン）と右レール「セクション別の最新」は時系列。
 - **ヒーローの鮮度ウィンドウ** — トップ最上段は直近 `heroRecencyHours`(24) 時間内の最重要記事から選び、
   古い高importance記事の居座り（トップ停滞）を防ぐ。ウィンドウ内に無ければ全体の最重要を表示（保険）。
 - **保持とアーカイブ** — トップは最新 `retentionTop`(40) 本まで。超過分は `archive.html`（月別一覧）へ。記事HTMLは全保持。
