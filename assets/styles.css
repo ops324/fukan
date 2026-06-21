@@ -948,6 +948,113 @@ figure { margin: 0; }
 .ranked__item .meta { font-size: var(--text-2xs); }
 
 /* ============================================================
+ * 13b. HOME FEED (最新タイムライン + セクション別ナビ)
+ * ============================================================ */
+
+.home-feed {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  gap: var(--space-2xl);
+  align-items: start;
+}
+
+/* 最新記事＝時系列タイムライン。displayDate で日区切り、各行は時刻先頭の横並び。
+ * 注目（.cards のモザイク）と「行 vs カード／時刻先頭」で見せ方を差別化する。 */
+.timeline { display: grid; gap: 0; }
+
+.timeline__day { display: grid; gap: 0; }
+.timeline__day + .timeline__day { margin-top: var(--space-lg); }
+
+.timeline__daylabel {
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.14em;
+  color: var(--color-ink-2);
+  padding: 0 0 var(--space-xs);
+  border-bottom: 1px solid var(--color-rule-strong);
+}
+
+.timeline__row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-md);
+  padding: var(--space-md) var(--space-sm) var(--space-md) var(--space-sm);
+  border-bottom: 1px solid var(--color-rule);
+  transition: background-color var(--dur-base) var(--ease-out);
+}
+.timeline__day .timeline__row:last-child { border-bottom: 0; }
+.timeline__row:hover { background: var(--color-paper-1); }
+
+/* 重要度の高い記事は左端にアクセント帯（レイアウト不変・色だけ強調）。 */
+.timeline__row.is-priority { box-shadow: inset 2px 0 0 var(--color-accent); }
+
+.timeline__time {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--color-accent-warm);
+  letter-spacing: 0.04em;
+  padding-top: 3px;
+  min-width: 44px;
+}
+
+.timeline__body { display: grid; gap: var(--space-2xs); }
+
+.timeline__headline {
+  font-family: var(--font-display);
+  font-size: var(--text-md);
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.008em;
+}
+.timeline__headline a:hover { color: var(--color-accent); }
+
+.timeline__deck {
+  font-size: var(--text-sm);
+  line-height: 1.5;
+  color: var(--color-ink-2);
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* 右レール＝セクション別の最新ナビ。長いタイムラインに sticky で追従し空白を抑える。 */
+.section-nav {
+  display: grid;
+  gap: var(--space-lg);
+  align-content: start;
+  position: sticky;
+  top: var(--space-lg);
+}
+
+.section-nav__head h2 {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: var(--text-lg);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.section-nav__item {
+  display: grid;
+  gap: var(--space-xs);
+  padding-bottom: var(--space-md);
+  border-bottom: 1px solid var(--color-rule);
+}
+.section-nav__item:last-child { border-bottom: 0; padding-bottom: 0; }
+
+.section-nav__item h3 {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+}
+.section-nav__item h3 a:hover { color: var(--color-accent); }
+.section-nav__item .meta { font-size: var(--text-2xs); }
+
+/* ============================================================
  * 14. NEWSLETTER CTA
  * ============================================================ */
 
@@ -1580,6 +1687,9 @@ html.js .reveal.is-visible {
   .hero__side { border-left: 0; padding-left: 0; border-top: 1px solid var(--color-rule); padding-top: var(--space-xl); }
   .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .section__list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  /* 最新フィードを縦積みし、セクション別ナビを長いタイムラインの上へ。 */
+  .home-feed { grid-template-columns: 1fr; gap: var(--space-xl); }
+  .section-nav { position: static; order: -1; }
   .article-body-grid { grid-template-columns: 1fr; }
   .article-side-left, .article-side-right { position: static; }
   .site-footer__top { grid-template-columns: 1fr 1fr; }
@@ -1626,6 +1736,7 @@ html.js .reveal.is-visible {
 @media (prefers-reduced-motion: reduce) {
   .card,
   .list-card,
+  .timeline__row,
   .thumb::before,
   .section__more::after {
     transition: none !important;
