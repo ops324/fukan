@@ -782,21 +782,28 @@ figure { margin: 0; }
 .cards {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: var(--space-2xl);
-  padding: var(--space-2xl) 0;
+  gap: 0;
+  overflow: hidden;
+  margin: var(--space-2xl) 0;
   border-top: 1px solid var(--color-rule);
 }
 
+/* 罫線区切り（Spectrum風）: 各セルに 1px の枠を box-shadow で描き、
+ * コンテナの overflow:hidden で外周だけクリップ → セル間にだけヘアラインが出る。
+ * 件数・折返し・カラム数の変化に強い（影/リフトは使わない）。 */
 .card {
   display: grid;
   gap: var(--space-sm);
+  align-content: start;
+  padding: var(--space-lg);
+  background: var(--color-paper-0);
+  box-shadow: 0 0 0 1px var(--color-rule);
 }
 
 .card .thumb { margin-bottom: var(--space-xs); }
 
 /* 重要度の高い記事（importance>=4）の控えめな強調。上端にアクセントの細線を引く。 */
 .card.is-priority {
-  padding-top: var(--space-sm);
   border-top: 2px solid var(--color-accent);
 }
 
@@ -870,18 +877,23 @@ figure { margin: 0; }
 .section__list {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: var(--space-xl);
+  gap: 0;
+  overflow: hidden;
+  border-top: 1px solid var(--color-rule);
 }
 
+/* .cards と同じ罫線区切り方式に統一（縦横のヘアライン） */
 .list-card {
   display: grid;
   gap: var(--space-sm);
-  padding-top: var(--space-md);
-  border-top: 2px solid var(--color-ink-3);
+  align-content: start;
+  padding: var(--space-md);
+  background: var(--color-paper-0);
+  box-shadow: 0 0 0 1px var(--color-rule);
 }
 
-/* 重要度の高い記事は既存の区切り線をアクセント色に（レイアウト不変・色だけ強調）。 */
-.list-card.is-priority { border-top-color: var(--color-accent); }
+/* 重要度の高い記事は上端にアクセントの細線（レイアウト不変・色だけ強調）。 */
+.list-card.is-priority { border-top: 2px solid var(--color-accent); }
 
 .list-card__headline {
   font-family: var(--font-display);
@@ -1500,17 +1512,11 @@ body::before {
   transition: transform var(--dur-slow) var(--ease-out);
 }
 
-/* カード/リストカード/ヒーローのリフト＆影＆画像ズーム */
+/* 罫線区切りでは「浮き上がり」をやめ、セル面の微かなトーン変化＋画像ズームに留める */
 .card,
-.list-card { transition: transform var(--dur-base) var(--ease-out); }
-.card .thumb,
-.list-card .thumb,
-.hero__lead .thumb { transition: box-shadow var(--dur-base) var(--ease-out); }
+.list-card { transition: background-color var(--dur-base) var(--ease-out); }
 .card:hover,
-.list-card:hover { transform: translateY(-4px); }
-.card:hover .thumb,
-.list-card:hover .thumb,
-.hero__lead:hover .thumb { box-shadow: var(--shadow-accent); }
+.list-card:hover { background: var(--color-paper-1); }
 .card:hover .thumb::before,
 .list-card:hover .thumb::before,
 .hero__lead:hover .thumb::before,
@@ -1572,6 +1578,7 @@ html.js .reveal.is-visible {
 @media (max-width: 1100px) {
   .hero__grid { grid-template-columns: 1fr; }
   .hero__side { border-left: 0; padding-left: 0; border-top: 1px solid var(--color-rule); padding-top: var(--space-xl); }
+  .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .section__list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .article-body-grid { grid-template-columns: 1fr; }
   .article-side-left, .article-side-right { position: static; }
