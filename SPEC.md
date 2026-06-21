@@ -152,8 +152,8 @@ AIニュースサイト/
 | 一次情報優先 | フィードを `tier`（primary=企業公式 / media=報道）で区別。候補は primary を上位に。media の主張は Claude が WebSearch で裏取り。 | `config.rssFeeds[].tier` |
 | 重要度で選別 | Claude が候補を 1〜5 で採点し、閾値以上のみ・1回最大N本を掲載（床を越えた分だけ＝本数は可変）。類似トピックは1本に統合。網羅性のため話題・セクションを分散。 | `importanceFloor`=3, `maxArticles`=5, `candidatePool`=30 |
 | 並び・鮮度の基準日時 | 並び順・表示日時・鮮度判定は **`publishedAt`（出典の発行日時）優先・無ければ `createdAt`（取り込み時刻）** にフォールバック。取り込み時刻基準だと「昨日発行を今日取り込んだ記事」が新着扱いになる歪みを防ぐ。 | `render.js: effDate` |
-| 重要度で序列 | カード／人気記事を重要度順（同点は新しい順＝`publishedAt`基準）に配置。「最新記事」のみ時系列。 | `render.js: importanceThenRecency` |
-| ヒーローの鮮度ウィンドウ | トップ最上段（ヒーロー）は**直近 `heroRecencyHours` 時間内（`publishedAt`基準）の最重要記事**から選ぶ。古い高importance記事がトップに居座る停滞を防ぐ（ほぼ日次で入れ替わる）。ウィンドウ内に記事が無ければ全体の最重要をヒーローに（保険）。サイド/カード/人気の重要度順は不変。 | `render.js`（featured 先頭差し替え）, `heroRecencyHours`=24 |
+| 重要度で序列 | ヒーロー／注目記事カードを重要度順（同点は新しい順＝`publishedAt`基準）に配置。「最新記事」（タイムライン）と「セクション別の最新」（右レール）は時系列。 | `render.js: importanceThenRecency` |
+| ヒーローの鮮度ウィンドウ | トップ最上段（ヒーロー）は**直近 `heroRecencyHours` 時間内（`publishedAt`基準）の最重要記事**から選ぶ。古い高importance記事がトップに居座る停滞を防ぐ（ほぼ日次で入れ替わる）。ウィンドウ内に記事が無ければ全体の最重要をヒーローに（保険）。サイド/注目カードの重要度順は不変。 | `render.js`（featured 先頭差し替え）, `heroRecencyHours`=24 |
 | AI関連度フィルタ | media tier 候補は `aiKeywords` のヒット数が閾値未満なら除外（primary 公式は常に通す）。 | `aiKeywords`, `relevanceFloorMedia`=1 |
 | 関連記事 | 「あわせて読みたい」はタグ共有×3＋同セクション×2 でスコアし上位3件。不足は重要度で補完。 | `render.js: relatedFor` |
 | 保持とアーカイブ | トップは最新 N 本。超過分は**月別アーカイブ**へ（`archive.html`＝月インデックス、`archive/YYYY-MM.html`＝各月一覧。記事増でも1ページが肥大しない）。月分けは `publishedAt` 基準。記事HTMLは全保持。 | `retentionTop`=40, `templates/archive.js` |
@@ -190,7 +190,7 @@ AIニュースサイト/
 **表示箇所**（画像は実写真。無ければ CSS 抽象サムネにフォールバック）
 - トップ: ヒーロー大画像＋注目カード（`templates/index.js` の `thumb()`）。
 - 記事詳細: アイキャッチ＋「あわせて読みたい」関連カード（`templates/article.js` の `thumb()`）。
-- ヒーロー横・最新一覧・人気記事・関連トピックタグ: テキストのみ（画像なし）。
+- ヒーロー横・最新タイムライン・セクション別の最新ナビ・関連トピックタグ: テキストのみ（画像なし）。
 
 **サムネのクリック導線**: 一覧・カード・ヒーロー・関連記事のサムネ画像は**記事ページへのリンク**（`thumb()` に記事URLを渡すと `figure.thumb` を `<a class="thumb-link">` で包む）。見出しリンクと同一記事への重複リンクになるため、画像リンクは `tabindex="-1"` ＋ `aria-hidden="true"` で**マウス操作専用**とし、スクリーンリーダー／キーボードには出さない（読み上げ・タブ移動は見出しリンクのみ）。記事詳細ページのアイキャッチ（`heroFigure()` の `article-hero`）は**リンク化しない**（既に記事内のため）。
 
@@ -254,7 +254,7 @@ AIニュースサイト/
 |---|---|---|
 | タグページ | `tags/<タグ>.html`（UTF-8名）と `tags/index.html`（件数で大小をつけるタグクラウド）。記事内タグ・パンくずから辿れる。 | `templates/tag.js`, `render.js` |
 | 関連記事 | タグ／セクションの一致度で「あわせて読みたい」を選出。関連集合内で**被写体（`image_query` キーワード＋画像URL）を分散**させ、同種写真の並びを避ける（関連度は犠牲にしない＝無関係記事は混ぜない）。 | `render.js: relatedFor` / `pickDiverse` / `imgSig` |
-| 重要度の視覚強調 | `importance>=4` の記事は等価グリッド（トップの注目カード・最新記事）で控えめなアクセント（カード上端のアクセント線／リストの区切り線をアクセント色）を付与し、スキャン性を上げる（von Restorff 効果）。位置による階層（hero→側→カード→時系列）は従来どおり。 | `templates/cardbits.js: priorityClass`, `index.js`, `styles.css`（`.is-priority`） |
+| 重要度の視覚強調 | `importance>=4` の記事は控えめなアクセント（注目カードは上端のアクセント線／最新タイムラインの行は左端のアクセント帯）を付与し、スキャン性を上げる（von Restorff 効果）。位置による階層（hero→サイド→注目カード→最新タイムライン）は従来どおり。 | `templates/cardbits.js: priorityClass`, `index.js`, `styles.css`（`.is-priority`） |
 | セクション色分け（道標） | 各セクションに固有のアクセント色相（`navSections[].hue`）を割り当て、記事チップ（`sectionChip`）を色分け。一覧でのセクション識別・回遊を助ける（wayfinding）。明度/彩度はテーマ別トークン（`--chip-l` / `--chip-c`）、色相のみ可変なのでライト/ダーク双方でコントラスト確保。 | `config.js: navSections.hue`, `templates/cardbits.js: sectionChip`, `styles.css`（`.chip`） |
 | 記事体験 | 読了時間（≈400字/分）、公開時刻、機能する共有ボタン（X / はてブ / リンクコピー）。共有URLは `siteUrl` 基準の絶対パス。**読了プログレスバー**（本文 `.prose` のあるページに自動表示）。 | `templates/article.js`, `assets/reveal.js` |
 | 奥行き・演出 | 影トークン（`--shadow-sm/md/lg`・ライト/ダークで濃淡）、hover の**色付き影**（`--shadow-accent`）、紙の微細グレイン、ヒーローの極薄発光、カードの hover リフト＋画像ズーム、見出しの下線スライド、スクロールに応じた**段階リビール**。すべて `prefers-reduced-motion` で無効化。`js` クラスは `reveal.js` が付与するため **JS 無効/失敗でも本文・カードは常に表示**（プログレッシブエンハンスメント）。 | `assets/styles.css`（ENHANCEMENTS節）, `assets/reveal.js`, `layout.js` |

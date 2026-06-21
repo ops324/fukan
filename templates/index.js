@@ -47,61 +47,102 @@ function heroSide(items) {
   return `        <aside class="hero__side">\n\n${blocks}\n\n        </aside>`;
 }
 
-function cards(items) {
+// 注目記事（importance順）。画像つきカードのモザイク。可視見出し付きの .section で包む。
+function featuredCards(items) {
   if (!items.length) return '';
   const cs = items.map((a, i) => {
     const variant = THUMBS[(i + 1) % THUMBS.length];
-    return `      <article class="card${priorityClass(a)}">
-        ${thumb(a, variant, href(a))}
-        ${sectionChip(a.section)}
-        <h3 class="card__headline"><a href="${href(a)}">${esc(a.headline)}</a></h3>
-        <p class="card__deck">${esc(a.lead)}</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>出典: ${esc(a.source)}</span>
-        </div>
-      </article>`;
+    return `        <article class="card${priorityClass(a)}">
+          ${thumb(a, variant, href(a))}
+          ${sectionChip(a.section)}
+          <h3 class="card__headline"><a href="${href(a)}">${esc(a.headline)}</a></h3>
+          <p class="card__deck">${esc(a.lead)}</p>
+          <div class="meta">
+            <span class="meta__author">AXIOM AI 編集部</span>
+            <span>出典: ${esc(a.source)}</span>
+          </div>
+        </article>`;
   }).join('\n\n');
-  return `    <section class="cards" aria-label="注目ストーリー">\n${cs}\n    </section>`;
+  return `    <section class="section" aria-label="注目記事">
+      <header class="section__head">
+        <div class="section__title">
+          <span class="chip">FEATURED · 編集部が選ぶ</span>
+          <h2>注目記事</h2>
+        </div>
+      </header>
+      <div class="cards">
+${cs}
+      </div>
+    </section>`;
 }
 
-function latestList(items, moreHref = '#') {
+// 出典発行日時（無ければ取り込み時刻）の ISO 文字列。<time datetime> 用（a11y）。
+function isoDate(a) {
+  const src = a.publishedAt || a.createdAt;
+  if (!src) return '';
+  const d = new Date(src);
+  return Number.isNaN(d.getTime()) ? '' : esc(d.toISOString());
+}
+
+// 最新記事＝時系列タイムライン。displayDate で日グループ化し、各行は「時刻｜chip＋見出し＋1行deck」。
+// items は recency降順・decorate済み（render が渡す universe ベース）。
+function timeline(items, moreHref = '#') {
   if (!items.length) return '';
-  const rows = items.map((a) => `        <article class="list-card${priorityClass(a)}">
-          <span class="meta">${esc(a.displayDate || '')}</span>
-          <h3 class="list-card__headline"><a href="${href(a)}">${esc(a.headline)}</a></h3>
-          <p class="card__deck" style="color: var(--color-ink-2);">${esc(a.lead)}</p>
-        </article>`).join('\n\n');
+  const groups = [];
+  for (const a of items) {
+    const day = a.displayDate || '';
+    const last = groups[groups.length - 1];
+    if (last && last.day === day) last.items.push(a);
+    else groups.push({ day, items: [a] });
+  }
+  const groupHtml = groups.map((g) => {
+    const rows = g.items.map((a) => `          <article class="timeline__row${priorityClass(a)}">
+            <time class="timeline__time" datetime="${isoDate(a)}">${esc(a.displayTime || '')}</time>
+            <div class="timeline__body">
+              ${sectionChip(a.section)}
+              <h3 class="timeline__headline"><a href="${href(a)}">${esc(a.headline)}</a></h3>
+              <p class="timeline__deck">${esc(a.lead)}</p>
+            </div>
+          </article>`).join('\n');
+    return `        <div class="timeline__day">
+          <span class="timeline__daylabel">${esc(g.day)}</span>
+${rows}
+        </div>`;
+  }).join('\n\n');
   const more = moreHref !== '#' ? `<a class="section__more" href="${moreHref}">アーカイブ</a>` : '';
-  return `    <section class="section" aria-label="最新記事">
-      <header class="section__head">
+  return `      <header class="section__head">
         <div class="section__title">
           <span class="chip">セクション</span>
           <h2>最新記事</h2>
         </div>
         ${more}
       </header>
-      <div class="section__list">
-${rows}
-      </div>
-    </section>`;
+      <div class="timeline">
+${groupHtml}
+      </div>`;
 }
 
-function ranked(items) {
-  const lis = items.map((a) => `            <li class="ranked__item">
-              <div>
-                <h4><a href="${href(a)}">${esc(a.headline)}</a></h4>
-                <div class="meta"><span>${esc(a.section || 'AI')}</span><span>${relTime(a)}</span></div>
-              </div>
-            </li>`).join('\n');
-  return `        <div>
-          <header style="margin-bottom: var(--space-md);">
-            <span class="chip">注目の記事</span>
-          </header>
-          <ol class="ranked">
-${lis}
-          </ol>
-        </div>`;
+// 右レール＝セクション別の最新ナビ。navSections 順に各セクションの最新1本を出す（回遊の道標）。
+// 既出（ヒーロー/注目カード）の slug は除外し、レールを完全に additive にする。
+function sectionNav(latest, excludeSlugs) {
+  const newest = new Map();
+  for (const a of latest) {
+    if (excludeSlugs.has(a.slug)) continue;
+    if (!newest.has(a.section)) newest.set(a.section, a);
+  }
+  const rows = config.navSections
+    .map((s) => newest.get(s.name))
+    .filter(Boolean)
+    .map((a) => `          <div class="section-nav__item">
+            ${sectionChip(a.section)}
+            <h3><a href="${href(a)}">${esc(a.headline)}</a></h3>
+            <time class="meta" datetime="${isoDate(a)}">${relTime(a)}</time>
+          </div>`).join('\n\n');
+  if (!rows) return '';
+  return `        <header class="section-nav__head">
+          <h2>セクション別の最新</h2>
+        </header>
+${rows}`;
 }
 
 // featured = 重要度順（ヒーロー/カード/人気用）、latest = 時系列（最新記事リスト用）
@@ -140,17 +181,19 @@ ${heroSide(side)}
       </div>
     </section>
 
-${cards(cardItems)}
+${featuredCards(cardItems)}
 
-    <!-- ============== 最新記事 + サイドバー ============== -->
-    <div class="section" style="display: grid; grid-template-columns: 8fr 4fr; gap: var(--space-2xl); align-items: start;">
-      <div>
-${latestList(listItems, archiveHref) || '<p style="color: var(--color-ink-2);">記事が増えるとここに一覧が表示されます。</p>'}
+    <!-- ============== 最新記事（タイムライン） + セクション別ナビ ============== -->
+    <section class="section" aria-label="最新記事">
+      <div class="home-feed">
+        <div>
+${timeline(listItems, archiveHref) || '<p style="color: var(--color-ink-2);">記事が増えるとここに一覧が表示されます。</p>'}
+        </div>
+        <aside class="section-nav">
+${sectionNav(latest, featuredSlugs)}
+        </aside>
       </div>
-      <aside style="display: grid; gap: var(--space-xl);">
-${ranked(featured.slice(0, 5))}
-      </aside>
-    </div>
+    </section>
 
     <!-- ============== RSS 購読 ============== -->
     <section class="section">
