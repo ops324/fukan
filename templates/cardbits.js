@@ -3,16 +3,12 @@
 import { esc } from '../src/markdown.js';
 import { config } from '../src/config.js';
 
-// セクション名 → アクセント色相。チップを色分けして回遊の道標にする（未知セクションは既定の青）。
-const SECTION_HUE = Object.fromEntries(config.navSections.map((s) => [s.name, s.hue]));
-
-// セクション名のチップ。hue があれば --chip-hue を差し込みセクション固有色にする。
-// extraClass 例: ' chip--warm'（hue を上書きしたい特殊用途）。
+// セクション名の中立ラベル。多色チップ（色信号の競合）は撤去し、色を持たない
+// 控えめなカテゴリ表記に統一（認知負荷の低減）。extraClass は任意の追加クラス。
 export function sectionChip(name, extraClass = '') {
   const label = name || 'AI';
-  const hue = SECTION_HUE[label];
-  const style = hue != null ? ` style="--chip-hue:${hue}"` : '';
-  return `<span class="chip${extraClass}"${style}>${esc(label)}</span>`;
+  const cls = `cat${extraClass ? ` ${extraClass}` : ''}`;
+  return `<span class="${cls}">${esc(label)}</span>`;
 }
 
 // タグページへのリンク（日本語タグは URL エンコード。ファイル名は生UTF-8で出力）

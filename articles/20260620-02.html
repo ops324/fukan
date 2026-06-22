@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500;600&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="alternate" type="application/rss+xml" title="AXIOM AI RSS" href="../feed.xml">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"OpenAI、ChatGPTの広告テストを日本で開始","description":"無料とGoプランの成人ユーザーが対象。設定から非表示にでき、回答は広告に影響されないと説明。","datePublished":"2026-06-19T02:26:50.000Z","dateModified":"2026-06-19T21:07:06.359Z","inLanguage":"ja","articleSection":"産業応用","image":["https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwYXBwJTIwc2NyZWVufGVufDF8MHx8fDE3ODE5MDMyMjZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg&w=1200&q=70&auto=format&fit=crop"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://axiom-ai-xi.vercel.app/articles/20260620-02.html"},"author":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}},"publisher":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}}}</script>
@@ -29,62 +29,21 @@
 </head>
 <body>
 
-  <!-- ============== TICKER ============== -->
-  <div class="ticker" role="region" aria-label="最新の見出し">
-    <div class="ticker__inner">
-      <div class="ticker__label">LIVE</div>
-      <div class="ticker__feed">
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-      </div>
-    </div>
-  </div>
-
   <!-- ============== HEADER ============== -->
   <header class="site-header">
-    <div class="container">
-      <div class="site-header__top">
-        <a class="brand" href="../index.html">
-          <span class="brand__mark">AXIOM<em>·</em>AI</span>
-          <span class="brand__sub">Intelligence Daily</span>
-        </a>
-        <div class="site-header__right">
-        <div class="site-header__meta">
-          <span>東京</span>
-          <time>2026年6月21日 日</time>
-        </div>
-        <div class="site-header__tools">
-          <div class="hsearch">
-            <input type="search" id="site-search" class="hsearch__input" placeholder="記事を検索…" aria-label="サイト内検索" autocomplete="off" data-base="../">
-            <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
-          </div>
-          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="配色テーマを切り替え" title="配色テーマを切り替え" onclick="(function(d){var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}var b=document.getElementById('theme-toggle');if(b)b.textContent=n==='light'?'☀':'☾';})(document.documentElement)">☾</button>
-        </div>
+    <div class="container site-header__bar">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark">AXIOM<em>·</em>AI</span>
+      </a>
+      <div class="site-header__tools">
+        <div class="hsearch">
+          <input type="search" id="site-search" class="hsearch__input" placeholder="検索" aria-label="サイト内検索" autocomplete="off" data-base="../">
+          <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
         </div>
       </div>
-      <nav class="site-nav" aria-label="主要セクション">
+    </div>
+    <nav class="site-nav" aria-label="主要セクション">
+      <div class="container">
         <ul class="site-nav__list">
           <li><a href="../index.html">トップ</a></li>
           <li><a href="../sections/foundation.html">基盤モデル</a></li>
@@ -95,12 +54,11 @@
           <li><a href="../sections/startups.html">スタートアップ</a></li>
           <li><a href="../sections/hardware.html">ハードウェア</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main>
-    <div class="container">
+  <main class="container container--narrow">
 
       <nav class="breadcrumb" aria-label="パンくず">
         <ol>
@@ -111,108 +69,71 @@
       </nav>
 
       <header class="article-head">
-        <div class="article-head__inner">
-          <div class="meta">
-            <span class="chip" style="--chip-hue:180">産業応用</span>
-            <span>2026.06.19 11:26</span>
-            <span>約1分で読めます</span>
-            <span>出典: ITmedia AI＋</span>
-          </div>
-          <h1 class="article-headline">OpenAI、ChatGPTの広告テストを日本で開始</h1>
-          <p class="article-lede">無料とGoプランの成人ユーザーが対象。設定から非表示にでき、回答は広告に影響されないと説明。</p>
-          <div class="article-byline">
-            <span>署名 <strong>AXIOM AI 編集部</strong></span>
-            <span>AI 自動要約 + 編集</span>
+        <div class="article-head__meta">
+          <span class="cat">産業応用</span>
+          <time datetime="2026-06-19T02:26:50.000Z">2026.06.19 11:26</time>
+          <span>約1分</span>
+          <span>出典: ITmedia AI＋</span>
+        </div>
+        <h1 class="article-headline">OpenAI、ChatGPTの広告テストを日本で開始</h1>
+        <p class="article-lede">無料とGoプランの成人ユーザーが対象。設定から非表示にでき、回答は広告に影響されないと説明。</p>
+        <div class="article-byline">
+          <span class="article-byline__by">AXIOM AI 編集部 — AI 自動要約 + 人手編集</span>
             <div class="article-share" aria-label="記事を共有">
               <a href="https://twitter.com/intent/tweet?text=OpenAI%E3%80%81ChatGPT%E3%81%AE%E5%BA%83%E5%91%8A%E3%83%86%E3%82%B9%E3%83%88%E3%82%92%E6%97%A5%E6%9C%AC%E3%81%A7%E9%96%8B%E5%A7%8B&amp;url=https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260620-02.html" class="share-btn" target="_blank" rel="noopener" aria-label="X で共有">𝕏</a>
               <a href="https://b.hatena.ne.jp/entry/https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260620-02.html" class="share-btn" target="_blank" rel="noopener" aria-label="はてなブックマークに追加">B!</a>
               <button type="button" class="share-btn" aria-label="リンクをコピー" onclick="navigator.clipboard&&navigator.clipboard.writeText('https://axiom-ai-xi.vercel.app/articles/20260620-02.html').then(()=>{this.textContent='✓';setTimeout(()=>{this.textContent='⎘'},1200)})">⎘</button>
             </div>
-          </div>
         </div>
       </header>
 
       <figure class="article-hero">
-        <div class="thumb" role="img" aria-label="OpenAI、ChatGPTの広告テストを日本で開始 のイメージ写真" style="aspect-ratio: 21 / 9; background-image: url('https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwYXBwJTIwc2NyZWVufGVufDF8MHx8fDE3ODE5MDMyMjZ8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=1600&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;"></div>
-        <figcaption>OpenAI、ChatGPTの広告テストを日本で開始<span style="color: var(--color-ink-2);"> — Photo: <a href="https://unsplash.com/@williamtm?utm_source=axiom_ai&amp;utm_medium=referral" target="_blank" rel="noopener">William Hook</a> / Unsplash（イメージ写真）</span></figcaption>
+        <div class="article-hero__img" role="img" aria-label="OpenAI、ChatGPTの広告テストを日本で開始 のイメージ写真" style="background-image: url('https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwYXBwJTIwc2NyZWVufGVufDF8MHx8fDE3ODE5MDMyMjZ8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=1600&amp;q=70&amp;auto=format&amp;fit=crop')"></div>
+        <figcaption>Photo: <a href="https://unsplash.com/@williamtm?utm_source=axiom_ai&amp;utm_medium=referral" target="_blank" rel="noopener">William Hook</a> / Unsplash（イメージ写真）</figcaption>
       </figure>
 
-      <div class="article-body-grid">
-
-        <aside class="article-side-left">
-          <div class="author-card">
-            <div class="author-card__avatar" aria-hidden="true"></div>
-            <span class="author-card__name">AXIOM AI 編集部</span>
-            <span class="author-card__role">AI 自動要約 + 人手編集</span>
-            <p style="font-size: var(--text-xs); color: var(--color-ink-2); margin-top: var(--space-xs); line-height: 1.55;">本記事は AI が一次情報を取材・要約・論評し、編集方針に沿って生成しています。</p>
-          </div>
-        </aside>
-
-        <article class="prose">
+      <article class="prose">
 <p>米OpenAIの日本法人は2026年6月19日、ChatGPTでの広告表示テストを日本でも始めたと発表した。米国では同年2月にテストが始まっており、日本はそれに続く形となる。</p>
 <p>広告が表示されるのは「無料プラン」と月額1400円の「Go」プランの成人ユーザーで、Plus・Pro・Business・Enterprise・Educationの各プラン利用者は対象外とされる。広告を非表示にしたい場合は、アプリ設定の「広告の制御」から操作できる。具体的には、上位プランへアップグレードするか、1日に無料でやりとりできる回数を減らすことで広告を消せるという。</p>
 <p>OpenAIは、ChatGPTの回答自体は広告の影響を受けないとし、チャット履歴などの個人情報を広告主に渡さない方針を示している。広告主に提供されるのは表示回数やクリック数といった指標のみという。日本でのテスト広告の運用は、電通デジタル、Hakuhodo DY ONE、サイバーエージェントが支援する。</p>
 <p>無料層を抱えるChatGPTにとって広告は新たな収益源となりうる一方、対話型サービスの信頼性をどう保つかが問われる。回答と広告を切り分ける設計が、実際の利用体験でどこまで守られるかが今後の焦点になる。</p>
 
-          <div class="callout" style="border-color: var(--color-accent);">
-            <h4>出典・元記事</h4>
+          <div class="callout">
+            <h2 class="callout__head">出典・元記事</h2>
             <p>本記事は下記の一次情報を AXIOM AI 編集部が要約・論評したものです。正確な詳細・最新情報は元記事をご確認ください。</p>
-            <p style="margin-top: var(--space-sm);">
-              <a href="https://www.itmedia.co.jp/aiplus/article/2606/19/2000000108/" target="_blank" rel="noopener" style="font-weight: 600;">▶ ITmedia AI＋ の元記事を読む</a>
-            </p>
+            <p class="callout__link"><a href="https://www.itmedia.co.jp/aiplus/article/2606/19/2000000108/" target="_blank" rel="noopener">ITmedia AI＋ の元記事を読む →</a></p>
           </div>
-        </article>
+      </article>
 
-        <aside class="article-side-right">
-          <div class="topics">
-            <h4>関連トピック</h4>
-            <ul>
-              <li><a href="../tags/OpenAI.html">OpenAI</a></li>
-              <li><a href="../tags/ChatGPT.html">ChatGPT</a></li>
-              <li><a href="../tags/%E5%BA%83%E5%91%8A.html">広告</a></li>
-              <li><a href="../tags/%E5%8F%8E%E7%9B%8A%E5%8C%96.html">収益化</a></li>
-              <li><a href="../tags/%E6%97%A5%E6%9C%AC.html">日本</a></li>
-            </ul>
-          </div>
-        </aside>
+      <div class="topics">
+        <h2 class="topics__head">関連トピック</h2>
+        <ul>
+          <li><a href="../tags/OpenAI.html">OpenAI</a></li>
+          <li><a href="../tags/ChatGPT.html">ChatGPT</a></li>
+          <li><a href="../tags/%E5%BA%83%E5%91%8A.html">広告</a></li>
+          <li><a href="../tags/%E5%8F%8E%E7%9B%8A%E5%8C%96.html">収益化</a></li>
+          <li><a href="../tags/%E6%97%A5%E6%9C%AC.html">日本</a></li>
+        </ul>
       </div>
 
-      <section class="section" aria-label="関連記事">
-        <header class="section__head">
-          <div class="section__title">
-            <span class="chip">関連</span>
-            <h2>あわせて読みたい</h2>
-          </div>
-          <a class="section__more" href="../index.html">トップに戻る</a>
-        </header>
-        <div class="cards">
-          <article class="card">
-            <a class="thumb-link" href="20260619-03.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1480694313141-fce5e697ee25?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwYWR2ZXJ0aXNpbmclMjBzY3JlZW58ZW58MXwwfHx8MTc4MTgzODQyN3ww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:180">産業応用</span>
-            <h3 class="card__headline"><a href="20260619-03.html">ChatGPT広告、日本でも開始 無料版とGoに表示</a></h3>
-            <p class="card__deck">OpenAIが日本でChatGPT広告のパイロットを開始。無料版と低価格プラン「Go」で表示する。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: ITmedia AI＋</span></div>
-          </article>
-
-          <article class="card">
-            <a class="thumb-link" href="20260619-07.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBtZWRpY2FsJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzgxODM4NDMwfDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:220">基盤モデル</span>
-            <h3 class="card__headline"><a href="20260619-07.html">ChatGPT、健康回答を改善 GPT-5.5 Instant</a></h3>
-            <p class="card__deck">OpenAIがGPT-5.5 Instantで健康関連の回答精度を高め、全無料ユーザーに提供する。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: OpenAI</span></div>
-          </article>
-
-          <article class="card">
-            <a class="thumb-link" href="20260620-06.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMGFuYWx5dGljcyUyMGRhc2hib2FyZHxlbnwxfDB8fHwxNzgxOTI0ODA3fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:220">基盤モデル</span>
-            <h3 class="card__headline"><a href="20260620-06.html">OpenAI、ChatGPT企業版に利用分析と支出管理を追加</a></h3>
-            <p class="card__deck">管理者がクレジット消費を可視化し、ワークスペースやチーム単位で上限を設定できる。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: OpenAI</span></div>
-          </article>
-        </div>
+      <section class="related" aria-label="関連記事">
+        <h2 class="feed__head">あわせて読みたい</h2>
+        <ul class="feed-list">
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260619-03.html">ChatGPT広告、日本でも開始 無料版とGoに表示</a>
+            <span class="feed-item__cat">産業応用</span>
+          </li>
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260619-07.html">ChatGPT、健康回答を改善 GPT-5.5 Instant</a>
+            <span class="feed-item__cat">基盤モデル</span>
+          </li>
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260620-06.html">OpenAI、ChatGPT企業版に利用分析と支出管理を追加</a>
+            <span class="feed-item__cat">基盤モデル</span>
+          </li>
+        </ul>
       </section>
 
-    </div>
   </main>
 
   <!-- ============== FOOTER ============== -->

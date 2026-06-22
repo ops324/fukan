@@ -21,69 +21,28 @@
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500;600&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="alternate" type="application/rss+xml" title="AXIOM AI RSS" href="../feed.xml">
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "325ab8c5bd8546bda7ab30baf1e01c9b"}'></script>
 </head>
 <body>
 
-  <!-- ============== TICKER ============== -->
-  <div class="ticker" role="region" aria-label="最新の見出し">
-    <div class="ticker__inner">
-      <div class="ticker__label">LIVE</div>
-      <div class="ticker__feed">
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-      </div>
-    </div>
-  </div>
-
   <!-- ============== HEADER ============== -->
   <header class="site-header">
-    <div class="container">
-      <div class="site-header__top">
-        <a class="brand" href="../index.html">
-          <span class="brand__mark">AXIOM<em>·</em>AI</span>
-          <span class="brand__sub">Intelligence Daily</span>
-        </a>
-        <div class="site-header__right">
-        <div class="site-header__meta">
-          <span>東京</span>
-          <time>2026年6月21日 日</time>
-        </div>
-        <div class="site-header__tools">
-          <div class="hsearch">
-            <input type="search" id="site-search" class="hsearch__input" placeholder="記事を検索…" aria-label="サイト内検索" autocomplete="off" data-base="../">
-            <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
-          </div>
-          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="配色テーマを切り替え" title="配色テーマを切り替え" onclick="(function(d){var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}var b=document.getElementById('theme-toggle');if(b)b.textContent=n==='light'?'☀':'☾';})(document.documentElement)">☾</button>
-        </div>
+    <div class="container site-header__bar">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark">AXIOM<em>·</em>AI</span>
+      </a>
+      <div class="site-header__tools">
+        <div class="hsearch">
+          <input type="search" id="site-search" class="hsearch__input" placeholder="検索" aria-label="サイト内検索" autocomplete="off" data-base="../">
+          <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
         </div>
       </div>
-      <nav class="site-nav" aria-label="主要セクション">
+    </div>
+    <nav class="site-nav" aria-label="主要セクション">
+      <div class="container">
         <ul class="site-nav__list">
           <li><a href="../index.html">トップ</a></li>
           <li><a href="../sections/foundation.html">基盤モデル</a></li>
@@ -94,11 +53,11 @@
           <li><a href="../sections/startups.html">スタートアップ</a></li>
           <li><a href="../sections/hardware.html">ハードウェア</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main class="container">
+  <main class="container container--narrow">
 
     <nav class="breadcrumb" aria-label="パンくず">
       <ol>
@@ -108,62 +67,35 @@
       </ol>
     </nav>
 
-    <header class="article-head" style="border: 0;">
-      <div class="article-head__inner">
-        <div class="meta"><span class="chip">タグ</span><span>4 記事</span></div>
-        <h1 class="article-headline">#資金調達</h1>
-        <p class="article-lede">「資金調達」に関する AXIOM AI 編集部のニュースと論評。</p>
-      </div>
+    <header class="page-head">
+      <span class="cat">タグ</span>
+      <h1 class="page-head__title">#資金調達</h1>
+      <p class="page-head__lead">「資金調達」に関する AXIOM AI 編集部のニュースと論評。（4 記事）</p>
     </header>
 
-    <section class="cards" aria-label="記事一覧">
-      <article class="card">
-        <figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MXwwfHx8MTc4MTg1OTk5Nnww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure>
-        <span class="chip" style="--chip-hue:145">スタートアップ</span>
-        <h3 class="card__headline"><a href="../articles/20260619-11.html">AI推論のBaseten、15億ドル調達と報道</a></h3>
-        <p class="card__deck">AI推論基盤のBasetenが評価額130億ドルで15億ドルの調達を進めると報じられた。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.19</span>
-          <span>出典: TechCrunch</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1761233138997-44d9b002a08f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzdG9jayUyMGV4Y2hhbmdlJTIwdHJhZGluZyUyMGZsb29yfGVufDF8MHx8fDE3ODE0NzEwNjR8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure>
-        <span class="chip" style="--chip-hue:145">スタートアップ</span>
-        <h3 class="card__headline"><a href="../articles/20260615-02.html">SpaceX上場が最大規模、AI企業のIPO競争過熱</a></h3>
-        <p class="card__deck">SpaceXが史上最大のIPOを達成し、OpenAIやAnthropicも追随観測。AI関連企業への資金集中が鮮明になっている。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.15</span>
-          <span>出典: TechCrunch</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1737644467636-6b0053476bb2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxodW1hbm9pZCUyMHJvYm90JTIwZW5naW5lZXJpbmd8ZW58MXwwfHx8MTc4MTI5NDMzN3ww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260613-08.html">ベゾス氏のAI企業Prometheus、120億ドルを調達</a></h3>
-        <p class="card__deck">Jeff Bezos氏が共同CEOを務めるPrometheusが120億ドルを調達し、評価額410億ドルで「汎用AIエンジニア」の開発を目指す。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.13</span>
-          <span>出典: The Verge</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzdGFydHVwJTIwb2ZmaWNlJTIwdGVhbXxlbnwxfDB8fHwxNzgxMjk0MzM4fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure>
-        <span class="chip" style="--chip-hue:145">スタートアップ</span>
-        <h3 class="card__headline"><a href="../articles/20260613-03.html">Mistral AI、評価額€200億で€30億の大型調達を交渉中</a></h3>
-        <p class="card__deck">フランスのAIスタートアップMistralが、前回ラウンドからほぼ倍増となる評価額で新たな資金調達を協議している。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.13</span>
-          <span>出典: TechCrunch</span>
-        </div>
-      </article>
+    <section class="feed" aria-label="記事一覧">
+      <ul class="feed-list">
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-18T21:20:13.000Z">2026.06.19</time>
+          <a class="feed-item__title" href="../articles/20260619-11.html">AI推論のBaseten、15億ドル調達と報道</a>
+          <span class="feed-item__cat">出典: TechCrunch</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-14T21:04:24.345Z">2026.06.15</time>
+          <a class="feed-item__title" href="../articles/20260615-02.html">SpaceX上場が最大規模、AI企業のIPO競争過熱</a>
+          <span class="feed-item__cat">出典: TechCrunch</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-12T17:59:08.949Z">2026.06.13</time>
+          <a class="feed-item__title" href="../articles/20260613-08.html">ベゾス氏のAI企業Prometheus、120億ドルを調達</a>
+          <span class="feed-item__cat">出典: The Verge</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-12T17:42:45.989Z">2026.06.13</time>
+          <a class="feed-item__title" href="../articles/20260613-03.html">Mistral AI、評価額€200億で€30億の大型調達を交渉中</a>
+          <span class="feed-item__cat">出典: TechCrunch</span>
+        </li>
+      </ul>
     </section>
 
   </main>

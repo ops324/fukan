@@ -1,9 +1,10 @@
 // 記事詳細ページ。articles/<slug>.html に出力するため base='../'。
-// 実写真は規約準拠の帰属付きで表示。出典リンクカードを目立つ位置に必ず置く。
+// 低認知負荷方針：3カラム（TOC/著者/関連）を畳み、単一カラムの読み筋に集中。
+// 実写真は規約準拠の帰属付きで表示。出典リンクカードを本文直後に必ず置く。
 import { ticker, header, footer, page, organizationLd, absUrl } from './layout.js';
 import { mdToHtml, esc } from '../src/markdown.js';
 import { config } from '../src/config.js';
-import { thumb, tagHref, optimizedUrl, sectionChip } from './cardbits.js';
+import { tagHref, optimizedUrl, sectionChip } from './cardbits.js';
 
 const BASE = '../';
 
@@ -23,6 +24,14 @@ function articleUrl(a) {
   return `${config.siteUrl}/articles/${a.slug}.html`;
 }
 
+// 出典発行日時の ISO（<time> 用）
+function isoDate(a) {
+  const src = a.publishedAt || a.createdAt;
+  if (!src) return '';
+  const d = new Date(src);
+  return Number.isNaN(d.getTime()) ? '' : esc(d.toISOString());
+}
+
 // 機能する共有ボタン（X / はてブ / リンクコピー）
 function shareButtons(a) {
   const url = articleUrl(a);
@@ -36,79 +45,61 @@ function shareButtons(a) {
             </div>`;
 }
 
-function heroFigure(a, index = 0) {
+// ヒーロー画像（実写真があるときのみ）。抽象グラデのフォールバックは出さない。
+function heroFigure(a) {
   const img = a.image || {};
-  if (img.imageUrl) {
-    const isPress = img.kind === 'press';
-    // 公式プレス画像は「— 提供: ◇◇」、ストック写真は従来の撮影者帰属＋「（イメージ写真）」。
-    // 非提携・商標の断りは画像ごとには出さず、フッター＋免責ページに集約（読者の信頼を損ねないため）。
-    const credit = isPress
-      ? `${esc(config.pressCreditLabel)}: ${img.creditUrl ? `<a href="${esc(img.creditUrl)}" target="_blank" rel="noopener">${esc(img.credit)}</a>` : esc(img.credit)}`
-      : `Photo: <a href="${esc(img.profileUrl)}" target="_blank" rel="noopener">${esc(img.photographer)}</a> / ${esc(img.provider)}（イメージ写真）`;
-    const aria = isPress ? `${esc(a.headline)} の関連画像` : `${esc(a.headline)} のイメージ写真`;
-    return `      <figure class="article-hero">
-        <div class="thumb" role="img" aria-label="${aria}" style="aspect-ratio: 21 / 9; background-image: url('${esc(optimizedUrl(img.imageUrl, 1600))}'); background-size: cover; background-position: center;"></div>
-        <figcaption>${esc(a.headline)}<span style="color: var(--color-ink-2);"> — ${credit}</span></figcaption>
-      </figure>`;
-  }
-  const variant = img.fallbackThumb || config.thumbVariants[index % config.thumbVariants.length];
+  if (!img.imageUrl) return '';
+  const isPress = img.kind === 'press';
+  const credit = isPress
+    ? `${esc(config.pressCreditLabel)}: ${img.creditUrl ? `<a href="${esc(img.creditUrl)}" target="_blank" rel="noopener">${esc(img.credit)}</a>` : esc(img.credit)}`
+    : `Photo: <a href="${esc(img.profileUrl)}" target="_blank" rel="noopener">${esc(img.photographer)}</a> / ${esc(img.provider)}（イメージ写真）`;
+  const aria = isPress ? `${esc(a.headline)} の関連画像` : `${esc(a.headline)} のイメージ写真`;
   return `      <figure class="article-hero">
-        <div class="thumb ${variant}" style="aspect-ratio: 21 / 9;"></div>
-        <figcaption>編集部によるイメージ（抽象表現）。</figcaption>
+        <div class="article-hero__img" role="img" aria-label="${aria}" style="background-image: url('${esc(optimizedUrl(img.imageUrl, 1600))}')"></div>
+        <figcaption>${credit}</figcaption>
       </figure>`;
 }
 
+// 関連トピック（タグ）
 function topics(tags = []) {
   if (!tags.length) return '';
-  const lis = tags.map((t) => `              <li><a href="${tagHref(t, BASE)}">${esc(t)}</a></li>`).join('\n');
-  return `          <div class="topics">
-            <h4>関連トピック</h4>
-            <ul>
+  const lis = tags.map((t) => `          <li><a href="${tagHref(t, BASE)}">${esc(t)}</a></li>`).join('\n');
+  return `      <div class="topics">
+        <h2 class="topics__head">関連トピック</h2>
+        <ul>
 ${lis}
-            </ul>
-          </div>`;
+        </ul>
+      </div>`;
 }
 
-function relatedCards(items) {
+// 関連記事＝シンプルな行リスト（モザイク・サムネは使わない）。
+function relatedList(items) {
   if (!items.length) return '';
-  const variants = ['thumb--rose', 'thumb--teal', 'thumb--amber'];
-  const cs = items.map((a, i) => `          <article class="card">
-            ${thumb(a, variants[i % variants.length], `${a.slug}.html`)}
-            ${sectionChip(a.section)}
-            <h3 class="card__headline"><a href="${esc(a.slug)}.html">${esc(a.headline)}</a></h3>
-            <p class="card__deck">${esc(a.lead)}</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: ${esc(a.source)}</span></div>
-          </article>`).join('\n\n');
-  return `      <section class="section" aria-label="関連記事">
-        <header class="section__head">
-          <div class="section__title">
-            <span class="chip">関連</span>
-            <h2>あわせて読みたい</h2>
-          </div>
-          <a class="section__more" href="${BASE}index.html">トップに戻る</a>
-        </header>
-        <div class="cards">
-${cs}
-        </div>
+  const rows = items.map((a) => `          <li class="feed-item">
+            <a class="feed-item__title" href="${esc(a.slug)}.html">${esc(a.headline)}</a>
+            <span class="feed-item__cat">${esc(a.section || 'AI')}</span>
+          </li>`).join('\n');
+  return `      <section class="related" aria-label="関連記事">
+        <h2 class="feed__head">あわせて読みたい</h2>
+        <ul class="feed-list">
+${rows}
+        </ul>
       </section>`;
 }
 
 // 出典リンクカード（最重要・必ず表示）
 function sourceCard(a) {
-  return `          <div class="callout" style="border-color: var(--color-accent);">
-            <h4>出典・元記事</h4>
+  return `          <div class="callout">
+            <h2 class="callout__head">出典・元記事</h2>
             <p>本記事は下記の一次情報を AXIOM AI 編集部が要約・論評したものです。正確な詳細・最新情報は元記事をご確認ください。</p>
-            <p style="margin-top: var(--space-sm);">
-              <a href="${esc(a.link)}" target="_blank" rel="noopener" style="font-weight: 600;">▶ ${esc(a.source)} の元記事を読む</a>
-            </p>
+            <p class="callout__link"><a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.source)} の元記事を読む →</a></p>
           </div>`;
 }
 
 export function renderArticle(a, related, dateLabel, index = 0, tickerItems = []) {
   const bodyHtml = mdToHtml(a.body_markdown);
 
-  const main = `  <main>
-    <div class="container">
+  const main = `  <main class="container container--narrow">
 
       <nav class="breadcrumb" aria-label="パンくず">
         <ol>
@@ -119,49 +110,31 @@ export function renderArticle(a, related, dateLabel, index = 0, tickerItems = []
       </nav>
 
       <header class="article-head">
-        <div class="article-head__inner">
-          <div class="meta">
-            ${sectionChip(a.section)}
-            <span>${esc(a.displayDate || '')}${a.displayTime ? ` ${esc(a.displayTime)}` : ''}</span>
-            <span>約${readingMinutes(a.body_markdown)}分で読めます</span>
-            <span>出典: ${esc(a.source)}</span>
-          </div>
-          <h1 class="article-headline">${esc(a.headline)}</h1>
-          <p class="article-lede">${esc(a.lead)}</p>
-          <div class="article-byline">
-            <span>署名 <strong>AXIOM AI 編集部</strong></span>
-            <span>AI 自動要約 + 編集</span>
+        <div class="article-head__meta">
+          ${sectionChip(a.section)}
+          <time datetime="${isoDate(a)}">${esc(a.displayDate || '')}${a.displayTime ? ` ${esc(a.displayTime)}` : ''}</time>
+          <span>約${readingMinutes(a.body_markdown)}分</span>
+          <span>出典: ${esc(a.source)}</span>
+        </div>
+        <h1 class="article-headline">${esc(a.headline)}</h1>
+        <p class="article-lede">${esc(a.lead)}</p>
+        <div class="article-byline">
+          <span class="article-byline__by">AXIOM AI 編集部 — AI 自動要約 + 人手編集</span>
 ${shareButtons(a)}
-          </div>
         </div>
       </header>
 
-${heroFigure(a, index)}
+${heroFigure(a)}
 
-      <div class="article-body-grid">
-
-        <aside class="article-side-left">
-          <div class="author-card">
-            <div class="author-card__avatar" aria-hidden="true"></div>
-            <span class="author-card__name">AXIOM AI 編集部</span>
-            <span class="author-card__role">AI 自動要約 + 人手編集</span>
-            <p style="font-size: var(--text-xs); color: var(--color-ink-2); margin-top: var(--space-xs); line-height: 1.55;">本記事は AI が一次情報を取材・要約・論評し、編集方針に沿って生成しています。</p>
-          </div>
-        </aside>
-
-        <article class="prose">
+      <article class="prose">
 ${bodyHtml}
 ${sourceCard(a)}
-        </article>
+      </article>
 
-        <aside class="article-side-right">
 ${topics(a.tags)}
-        </aside>
-      </div>
 
-${relatedCards(related)}
+${relatedList(related)}
 
-    </div>
   </main>`;
 
   const canonicalPath = `/articles/${a.slug}.html`;
@@ -184,7 +157,7 @@ ${relatedCards(related)}
     base: BASE,
     title: `${a.headline} | AXIOM AI`,
     description: a.lead || a.headline,
-    body: `${ticker(tickerItems)}\n\n${header(dateLabel, a.section, BASE)}\n\n${main}\n\n${footer(BASE)}`,
+    body: `${ticker(tickerItems)}${header(dateLabel, a.section, BASE)}\n\n${main}\n\n${footer(BASE)}`,
     canonicalPath,
     ogType: 'article',
     ogImage: img,

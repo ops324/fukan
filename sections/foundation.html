@@ -21,69 +21,28 @@
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500;600&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="alternate" type="application/rss+xml" title="AXIOM AI RSS" href="../feed.xml">
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "325ab8c5bd8546bda7ab30baf1e01c9b"}'></script>
 </head>
 <body>
 
-  <!-- ============== TICKER ============== -->
-  <div class="ticker" role="region" aria-label="最新の見出し">
-    <div class="ticker__inner">
-      <div class="ticker__label">LIVE</div>
-      <div class="ticker__feed">
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-      </div>
-    </div>
-  </div>
-
   <!-- ============== HEADER ============== -->
   <header class="site-header">
-    <div class="container">
-      <div class="site-header__top">
-        <a class="brand" href="../index.html">
-          <span class="brand__mark">AXIOM<em>·</em>AI</span>
-          <span class="brand__sub">Intelligence Daily</span>
-        </a>
-        <div class="site-header__right">
-        <div class="site-header__meta">
-          <span>東京</span>
-          <time>2026年6月21日 日</time>
-        </div>
-        <div class="site-header__tools">
-          <div class="hsearch">
-            <input type="search" id="site-search" class="hsearch__input" placeholder="記事を検索…" aria-label="サイト内検索" autocomplete="off" data-base="../">
-            <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
-          </div>
-          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="配色テーマを切り替え" title="配色テーマを切り替え" onclick="(function(d){var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}var b=document.getElementById('theme-toggle');if(b)b.textContent=n==='light'?'☀':'☾';})(document.documentElement)">☾</button>
-        </div>
+    <div class="container site-header__bar">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark">AXIOM<em>·</em>AI</span>
+      </a>
+      <div class="site-header__tools">
+        <div class="hsearch">
+          <input type="search" id="site-search" class="hsearch__input" placeholder="検索" aria-label="サイト内検索" autocomplete="off" data-base="../">
+          <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
         </div>
       </div>
-      <nav class="site-nav" aria-label="主要セクション">
+    </div>
+    <nav class="site-nav" aria-label="主要セクション">
+      <div class="container">
         <ul class="site-nav__list">
           <li><a href="../index.html">トップ</a></li>
           <li><a href="../sections/foundation.html" aria-current="page">基盤モデル</a></li>
@@ -94,200 +53,96 @@
           <li><a href="../sections/startups.html">スタートアップ</a></li>
           <li><a href="../sections/hardware.html">ハードウェア</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main class="container">
+  <main class="container container--narrow">
 
-    <header class="article-head" style="border: 0;">
-      <div class="article-head__inner">
-        <div class="meta"><span class="chip">セクション</span><span>15 記事</span></div>
-        <h1 class="article-headline">基盤モデル</h1>
-        <p class="article-lede">基盤モデル に関する AXIOM AI 編集部のニュースと論評。</p>
-      </div>
+    <header class="page-head">
+      <span class="cat">セクション</span>
+      <h1 class="page-head__title">基盤モデル</h1>
+      <p class="page-head__lead">基盤モデル に関する AXIOM AI 編集部のニュースと論評。（15 記事）</p>
     </header>
 
-    <section class="cards" aria-label="記事一覧">
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260619-01.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1643780668909-580822430155?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkbmElMjBnZW5ldGljJTIwcmVzZWFyY2h8ZW58MXwwfHx8MTc4MTgyMDIwN3ww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:220">基盤モデル</span>
-        <h3 class="card__headline"><a href="../articles/20260619-01.html">AI推論モデル、難病の子ども18人を新たに診断</a></h3>
-        <p class="card__deck">OpenAIの推論モデルが未解明だった小児の希少疾患を解析し、18件の新たな診断につながった。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.19</span>
-          <span>出典: OpenAI</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260619-07.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBtZWRpY2FsJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzgxODM4NDMwfDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:220">基盤モデル</span>
-        <h3 class="card__headline"><a href="../articles/20260619-07.html">ChatGPT、健康回答を改善 GPT-5.5 Instant</a></h3>
-        <p class="card__deck">OpenAIがGPT-5.5 Instantで健康関連の回答精度を高め、全無料ユーザーに提供する。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.18</span>
-          <span>出典: OpenAI</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260618-04.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1518152006812-edab29b069ac?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzY2llbnRpc3QlMjBtaWNyb3Njb3BlJTIwbGFib3JhdG9yeXxlbnwxfDB8fHwxNzgxNzUxODYyfDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:220">基盤モデル</span>
-        <h3 class="card__headline"><a href="../articles/20260618-04.html">OpenAI、生命科学の評価基準LifeSciBench公開</a></h3>
-        <p class="card__deck">OpenAIが、AIの生命科学研究タスク遂行力を測る専門家作成のベンチマークを公開した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.18</span>
-          <span>出典: OpenAI</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260618-03.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1617155093730-a8bf47be792d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjaGVtaXN0cnklMjBsYWJvcmF0b3J5JTIwZ2xhc3N3YXJlfGVufDF8MHx8fDE3ODE3NTE4NjF8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:220">基盤モデル</span>
-        <h3 class="card__headline"><a href="../articles/20260618-03.html">OpenAI、GPT-5.4で創薬反応を半自律改良</a></h3>
-        <p class="card__deck">OpenAIとMolecule.oneが、AIが創薬で使う化学反応の条件を見直し収率を改善したと発表した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.18</span>
-          <span>出典: OpenAI</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260617-02.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzZXJ2ZXIlMjByb29tJTIwZGF0YSUyMGNlbnRlcnxlbnwxfDB8fHwxNzgxODIwMjA4fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:220">基盤モデル</span>
-        <h3 class="card__headline"><a href="../articles/20260617-02.html">OpenAI、公開前に挙動を予測する新手法</a></h3>
-        <p class="card__deck">過去の実会話を再現し、新モデルの望ましくない挙動の頻度を公開前に見積もる。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.17</span>
-          <span>出典: OpenAI</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260615-03.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1606836591695-4d58a73eba1e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHBlb3BsZSUyMG1lZXRpbmclMjBvZmZpY2V8ZW58MXwwfHx8MTc4MTQ5MjYxOHww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:220">基盤モデル</span>
-        <h3 class="card__headline"><a href="../articles/20260615-03.html">OpenAI、1.5億ドルでパートナー網を始動</a></h3>
-        <p class="card__deck">OpenAIが1.5億ドルを投じ、企業のAI導入を支援する世界規模のパートナー制度を立ち上げた。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.15</span>
-          <span>出典: OpenAI</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260614-01.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1608817576203-3c27ed168bd2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxldXJvcGVhbiUyMHVuaW9uJTIwZmxhZ3N8ZW58MXwwfHx8MTc4MTM4NDYyM3ww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:220">基盤モデル</span>
-        <h3 class="card__headline"><a href="../articles/20260614-01.html">OpenAI、EUのAI生成物の透明性規範を支持</a></h3>
-        <p class="card__deck">OpenAIがEUの「AI生成コンテンツの透明性に関する行動規範」への支持を表明した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.14</span>
-          <span>出典: OpenAI</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260613-11.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1614064641938-3bbee52942c7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjeWJlcnNlY3VyaXR5JTIwbmV0d29yayUyMGRlZmVuc2V8ZW58MXwwfHx8MTc4MTI5ODI0M3ww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:220">基盤モデル</span>
-        <h3 class="card__headline"><a href="../articles/20260613-11.html">OpenAI、中国関連の影響工作がAI議論を標的にしていると報告</a></h3>
-        <p class="card__deck">OpenAIが中国関連の2つの秘密キャンペーンを摘発し、米国内のAIインフラ議論を操作しようとしていた実態を公表した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.13</span>
-          <span>出典: OpenAI</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260613-09.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwY2VudGVyJTIwc2VydmVyc3xlbnwxfDB8fHwxNzgxMjk0MzM1fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:220">基盤モデル</span>
-        <h3 class="card__headline"><a href="../articles/20260613-09.html">OpenAIがクラウド基盤企業Onaを買収、Codexの長時間エージェント実行を強化</a></h3>
-        <p class="card__deck">OpenAIは独クラウドスタートアップOna（旧Gitpod）の買収を発表し、Codexにセキュアな常時稼働クラウド環境を統合する。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.13</span>
-          <span>出典: OpenAI</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260620-06.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMGFuYWx5dGljcyUyMGRhc2hib2FyZHxlbnwxfDB8fHwxNzgxOTI0ODA3fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:220">基盤モデル</span>
-        <h3 class="card__headline"><a href="../articles/20260620-06.html">OpenAI、ChatGPT企業版に利用分析と支出管理を追加</a></h3>
-        <p class="card__deck">管理者がクレジット消費を可視化し、ワークスペースやチーム単位で上限を設定できる。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.19</span>
-          <span>出典: OpenAI</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260616-06.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1623076189461-f7706b741c04?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBsYW5ndWFnZSUyMGxlYXJuaW5nJTIwbGFwdG9wfGVufDF8MHx8fDE3ODE2MDA2NDF8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:220">基盤モデル</span>
-        <h3 class="card__headline"><a href="../articles/20260616-06.html">Preply、OpenAIで語学レッスンをAI要約</a></h3>
-        <p class="card__deck">オンライン語学学習のPreplyが、OpenAIのモデルを使いレッスンの個別フィードバックを自動生成する。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.16</span>
-          <span>出典: OpenAI</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260615-06.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1732633553684-b18a43a48d3d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMGhvbGUlMjBzcGFjZXxlbnwxfDB8fHwxNzgxNTE0MjQ5fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:220">基盤モデル</span>
-        <h3 class="card__headline"><a href="../articles/20260615-06.html">天体物理学者がCodexでブラックホール再現</a></h3>
-        <p class="card__deck">アリゾナ大の研究者がCodexで一般相対論検証のシミュレーションを加速。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.15</span>
-          <span>出典: OpenAI</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260614-04.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBsZWFybmluZyUyMGxhcHRvcHxlbnwxfDB8fHwxNzgxNDA2MjM0fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:220">基盤モデル</span>
-        <h3 class="card__headline"><a href="../articles/20260614-04.html">OpenAI、職場向け無料AI講座を3つ追加</a></h3>
-        <p class="card__deck">ChatGPTアカウントがあれば誰でも受けられる実務向けの自習講座を公開した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.14</span>
-          <span>出典: OpenAI</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260614-02.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxiYW5rJTIwYnVpbGRpbmclMjBmaW5hbmNlfGVufDF8MHx8fDE3ODEzODQ2MjN8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:220">基盤モデル</span>
-        <h3 class="card__headline"><a href="../articles/20260614-02.html">BBVA、ChatGPTを全社員12万人規模に展開</a></h3>
-        <p class="card__deck">スペインの金融大手BBVAがOpenAIとの提携を拡大し、ChatGPTを全社員規模に広げる。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.14</span>
-          <span>出典: OpenAI</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260613-13.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjbG91ZCUyMGNvbXB1dGluZyUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4MTgyMDIwOHww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:220">基盤モデル</span>
-        <h3 class="card__headline"><a href="../articles/20260613-13.html">OpenAIモデルとCodexがOracle Cloudから利用可能に</a></h3>
-        <p class="card__deck">OpenAIがOracle Cloud Infrastructure（OCI）との統合を発表し、既存のクラウド契約でAIモデルを利用できるようになる。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.13</span>
-          <span>出典: OpenAI</span>
-        </div>
-      </article>
+    <section class="feed" aria-label="記事一覧">
+      <ul class="feed-list">
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-18T21:06:08.042Z">2026.06.19</time>
+          <a class="feed-item__title" href="../articles/20260619-01.html">AI推論モデル、難病の子ども18人を新たに診断</a>
+          <span class="feed-item__cat">出典: OpenAI</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-18T11:00:00.000Z">2026.06.18</time>
+          <a class="feed-item__title" href="../articles/20260619-07.html">ChatGPT、健康回答を改善 GPT-5.5 Instant</a>
+          <span class="feed-item__cat">出典: OpenAI</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-18T03:04:22.622Z">2026.06.18</time>
+          <a class="feed-item__title" href="../articles/20260618-04.html">OpenAI、生命科学の評価基準LifeSciBench公開</a>
+          <span class="feed-item__cat">出典: OpenAI</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-18T03:04:22.047Z">2026.06.18</time>
+          <a class="feed-item__title" href="../articles/20260618-03.html">OpenAI、GPT-5.4で創薬反応を半自律改良</a>
+          <span class="feed-item__cat">出典: OpenAI</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-17T03:04:12.465Z">2026.06.17</time>
+          <a class="feed-item__title" href="../articles/20260617-02.html">OpenAI、公開前に挙動を予測する新手法</a>
+          <span class="feed-item__cat">出典: OpenAI</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-15T03:03:38.582Z">2026.06.15</time>
+          <a class="feed-item__title" href="../articles/20260615-03.html">OpenAI、1.5億ドルでパートナー網を始動</a>
+          <span class="feed-item__cat">出典: OpenAI</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-13T21:03:43.308Z">2026.06.14</time>
+          <a class="feed-item__title" href="../articles/20260614-01.html">OpenAI、EUのAI生成物の透明性規範を支持</a>
+          <span class="feed-item__cat">出典: OpenAI</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-12T21:04:03.369Z">2026.06.13</time>
+          <a class="feed-item__title" href="../articles/20260613-11.html">OpenAI、中国関連の影響工作がAI議論を標的にしていると報告</a>
+          <span class="feed-item__cat">出典: OpenAI</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-12T18:27:28.110Z">2026.06.13</time>
+          <a class="feed-item__title" href="../articles/20260613-09.html">OpenAIがクラウド基盤企業Onaを買収、Codexの長時間エージェント実行を強化</a>
+          <span class="feed-item__cat">出典: OpenAI</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-18T17:00:00.000Z">2026.06.19</time>
+          <a class="feed-item__title" href="../articles/20260620-06.html">OpenAI、ChatGPT企業版に利用分析と支出管理を追加</a>
+          <span class="feed-item__cat">出典: OpenAI</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-16T09:04:01.771Z">2026.06.16</time>
+          <a class="feed-item__title" href="../articles/20260616-06.html">Preply、OpenAIで語学レッスンをAI要約</a>
+          <span class="feed-item__cat">出典: OpenAI</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-15T09:04:10.012Z">2026.06.15</time>
+          <a class="feed-item__title" href="../articles/20260615-06.html">天体物理学者がCodexでブラックホール再現</a>
+          <span class="feed-item__cat">出典: OpenAI</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-14T03:03:54.932Z">2026.06.14</time>
+          <a class="feed-item__title" href="../articles/20260614-04.html">OpenAI、職場向け無料AI講座を3つ追加</a>
+          <span class="feed-item__cat">出典: OpenAI</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-13T21:03:44.142Z">2026.06.14</time>
+          <a class="feed-item__title" href="../articles/20260614-02.html">BBVA、ChatGPTを全社員12万人規模に展開</a>
+          <span class="feed-item__cat">出典: OpenAI</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-13T03:11:46.537Z">2026.06.13</time>
+          <a class="feed-item__title" href="../articles/20260613-13.html">OpenAIモデルとCodexがOracle Cloudから利用可能に</a>
+          <span class="feed-item__cat">出典: OpenAI</span>
+        </li>
+      </ul>
     </section>
 
   </main>

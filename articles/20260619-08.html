@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500;600&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="alternate" type="application/rss+xml" title="AXIOM AI RSS" href="../feed.xml">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"Photoshop等にAIアシスタント、公開ベータ開始","description":"AdobeがCreative Cloud主要アプリに対話型AIアシスタントを搭載し公開ベータを始めた。","datePublished":"2026-06-18T13:00:00.000Z","dateModified":"2026-06-19T09:06:35.281Z","inLanguage":"ja","articleSection":"産業応用","image":["https://images.unsplash.com/photo-1626785774573-4b799315345d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxncmFwaGljJTIwZGVzaWduJTIwY29tcHV0ZXJ8ZW58MXwwfHx8MTc4MTg1OTk5NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg&w=1200&q=70&auto=format&fit=crop"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://axiom-ai-xi.vercel.app/articles/20260619-08.html"},"author":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}},"publisher":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}}}</script>
@@ -29,62 +29,21 @@
 </head>
 <body>
 
-  <!-- ============== TICKER ============== -->
-  <div class="ticker" role="region" aria-label="最新の見出し">
-    <div class="ticker__inner">
-      <div class="ticker__label">LIVE</div>
-      <div class="ticker__feed">
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-      </div>
-    </div>
-  </div>
-
   <!-- ============== HEADER ============== -->
   <header class="site-header">
-    <div class="container">
-      <div class="site-header__top">
-        <a class="brand" href="../index.html">
-          <span class="brand__mark">AXIOM<em>·</em>AI</span>
-          <span class="brand__sub">Intelligence Daily</span>
-        </a>
-        <div class="site-header__right">
-        <div class="site-header__meta">
-          <span>東京</span>
-          <time>2026年6月21日 日</time>
-        </div>
-        <div class="site-header__tools">
-          <div class="hsearch">
-            <input type="search" id="site-search" class="hsearch__input" placeholder="記事を検索…" aria-label="サイト内検索" autocomplete="off" data-base="../">
-            <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
-          </div>
-          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="配色テーマを切り替え" title="配色テーマを切り替え" onclick="(function(d){var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}var b=document.getElementById('theme-toggle');if(b)b.textContent=n==='light'?'☀':'☾';})(document.documentElement)">☾</button>
-        </div>
+    <div class="container site-header__bar">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark">AXIOM<em>·</em>AI</span>
+      </a>
+      <div class="site-header__tools">
+        <div class="hsearch">
+          <input type="search" id="site-search" class="hsearch__input" placeholder="検索" aria-label="サイト内検索" autocomplete="off" data-base="../">
+          <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
         </div>
       </div>
-      <nav class="site-nav" aria-label="主要セクション">
+    </div>
+    <nav class="site-nav" aria-label="主要セクション">
+      <div class="container">
         <ul class="site-nav__list">
           <li><a href="../index.html">トップ</a></li>
           <li><a href="../sections/foundation.html">基盤モデル</a></li>
@@ -95,12 +54,11 @@
           <li><a href="../sections/startups.html">スタートアップ</a></li>
           <li><a href="../sections/hardware.html">ハードウェア</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main>
-    <div class="container">
+  <main class="container container--narrow">
 
       <nav class="breadcrumb" aria-label="パンくず">
         <ol>
@@ -111,106 +69,69 @@
       </nav>
 
       <header class="article-head">
-        <div class="article-head__inner">
-          <div class="meta">
-            <span class="chip" style="--chip-hue:180">産業応用</span>
-            <span>2026.06.18 22:00</span>
-            <span>約1分で読めます</span>
-            <span>出典: The Verge</span>
-          </div>
-          <h1 class="article-headline">Photoshop等にAIアシスタント、公開ベータ開始</h1>
-          <p class="article-lede">AdobeがCreative Cloud主要アプリに対話型AIアシスタントを搭載し公開ベータを始めた。</p>
-          <div class="article-byline">
-            <span>署名 <strong>AXIOM AI 編集部</strong></span>
-            <span>AI 自動要約 + 編集</span>
+        <div class="article-head__meta">
+          <span class="cat">産業応用</span>
+          <time datetime="2026-06-18T13:00:00.000Z">2026.06.18 22:00</time>
+          <span>約1分</span>
+          <span>出典: The Verge</span>
+        </div>
+        <h1 class="article-headline">Photoshop等にAIアシスタント、公開ベータ開始</h1>
+        <p class="article-lede">AdobeがCreative Cloud主要アプリに対話型AIアシスタントを搭載し公開ベータを始めた。</p>
+        <div class="article-byline">
+          <span class="article-byline__by">AXIOM AI 編集部 — AI 自動要約 + 人手編集</span>
             <div class="article-share" aria-label="記事を共有">
               <a href="https://twitter.com/intent/tweet?text=Photoshop%E7%AD%89%E3%81%ABAI%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%80%81%E5%85%AC%E9%96%8B%E3%83%99%E3%83%BC%E3%82%BF%E9%96%8B%E5%A7%8B&amp;url=https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260619-08.html" class="share-btn" target="_blank" rel="noopener" aria-label="X で共有">𝕏</a>
               <a href="https://b.hatena.ne.jp/entry/https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260619-08.html" class="share-btn" target="_blank" rel="noopener" aria-label="はてなブックマークに追加">B!</a>
               <button type="button" class="share-btn" aria-label="リンクをコピー" onclick="navigator.clipboard&&navigator.clipboard.writeText('https://axiom-ai-xi.vercel.app/articles/20260619-08.html').then(()=>{this.textContent='✓';setTimeout(()=>{this.textContent='⎘'},1200)})">⎘</button>
             </div>
-          </div>
         </div>
       </header>
 
       <figure class="article-hero">
-        <div class="thumb" role="img" aria-label="Photoshop等にAIアシスタント、公開ベータ開始 のイメージ写真" style="aspect-ratio: 21 / 9; background-image: url('https://images.unsplash.com/photo-1626785774573-4b799315345d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxncmFwaGljJTIwZGVzaWduJTIwY29tcHV0ZXJ8ZW58MXwwfHx8MTc4MTg1OTk5NXww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=1600&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;"></div>
-        <figcaption>Photoshop等にAIアシスタント、公開ベータ開始<span style="color: var(--color-ink-2);"> — Photo: <a href="https://unsplash.com/@emilybernal?utm_source=axiom_ai&amp;utm_medium=referral" target="_blank" rel="noopener">Emily Bernal</a> / Unsplash（イメージ写真）</span></figcaption>
+        <div class="article-hero__img" role="img" aria-label="Photoshop等にAIアシスタント、公開ベータ開始 のイメージ写真" style="background-image: url('https://images.unsplash.com/photo-1626785774573-4b799315345d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxncmFwaGljJTIwZGVzaWduJTIwY29tcHV0ZXJ8ZW58MXwwfHx8MTc4MTg1OTk5NXww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=1600&amp;q=70&amp;auto=format&amp;fit=crop')"></div>
+        <figcaption>Photo: <a href="https://unsplash.com/@emilybernal?utm_source=axiom_ai&amp;utm_medium=referral" target="_blank" rel="noopener">Emily Bernal</a> / Unsplash（イメージ写真）</figcaption>
       </figure>
 
-      <div class="article-body-grid">
-
-        <aside class="article-side-left">
-          <div class="author-card">
-            <div class="author-card__avatar" aria-hidden="true"></div>
-            <span class="author-card__name">AXIOM AI 編集部</span>
-            <span class="author-card__role">AI 自動要約 + 人手編集</span>
-            <p style="font-size: var(--text-xs); color: var(--color-ink-2); margin-top: var(--space-xs); line-height: 1.55;">本記事は AI が一次情報を取材・要約・論評し、編集方針に沿って生成しています。</p>
-          </div>
-        </aside>
-
-        <article class="prose">
+      <article class="prose">
 <p>Adobeは6月18日、Photoshop、Premiere、Illustrator、InDesign、Frame.io の主要アプリに、自社の「creative agent（クリエイティブエージェント）」を基盤とする対話型AIアシスタントを搭載し、公開ベータとして提供を始めた。各アシスタントはアプリごとの専門家として動作し、自然言語の指示から複数手順の作業を代行する。</p>
 <p>Premiere ではクリップの分類や一括リネーム、マーカー追加、タイムラインの下地作成に対応し、Photoshop では背景の差し替え、用途別のサイズ変更、レイヤー整理を行う。Illustrator では表計算データからの多数の派生ファイル生成や、フォント欠落・カラーモードのプリフライト点検が可能だという。After Effects 向けは非公開ベータでの提供となる。</p>
 <p>画像・動画編集の定番ソフトに作業代行型のAIが組み込まれることで、定型作業の自動化が一段進む。一方で各社が編集ツールへのAI統合を競うなか、創作の主導権をどう保つかという論点も改めて問われることになる。</p>
 
-          <div class="callout" style="border-color: var(--color-accent);">
-            <h4>出典・元記事</h4>
+          <div class="callout">
+            <h2 class="callout__head">出典・元記事</h2>
             <p>本記事は下記の一次情報を AXIOM AI 編集部が要約・論評したものです。正確な詳細・最新情報は元記事をご確認ください。</p>
-            <p style="margin-top: var(--space-sm);">
-              <a href="https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch" target="_blank" rel="noopener" style="font-weight: 600;">▶ The Verge の元記事を読む</a>
-            </p>
+            <p class="callout__link"><a href="https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch" target="_blank" rel="noopener">The Verge の元記事を読む →</a></p>
           </div>
-        </article>
+      </article>
 
-        <aside class="article-side-right">
-          <div class="topics">
-            <h4>関連トピック</h4>
-            <ul>
-              <li><a href="../tags/Adobe.html">Adobe</a></li>
-              <li><a href="../tags/%E7%94%9F%E6%88%90AI.html">生成AI</a></li>
-              <li><a href="../tags/%E7%94%BB%E5%83%8F%E7%B7%A8%E9%9B%86.html">画像編集</a></li>
-              <li><a href="../tags/AI%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88.html">AIアシスタント</a></li>
-            </ul>
-          </div>
-        </aside>
+      <div class="topics">
+        <h2 class="topics__head">関連トピック</h2>
+        <ul>
+          <li><a href="../tags/Adobe.html">Adobe</a></li>
+          <li><a href="../tags/%E7%94%9F%E6%88%90AI.html">生成AI</a></li>
+          <li><a href="../tags/%E7%94%BB%E5%83%8F%E7%B7%A8%E9%9B%86.html">画像編集</a></li>
+          <li><a href="../tags/AI%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88.html">AIアシスタント</a></li>
+        </ul>
       </div>
 
-      <section class="section" aria-label="関連記事">
-        <header class="section__head">
-          <div class="section__title">
-            <span class="chip">関連</span>
-            <h2>あわせて読みたい</h2>
-          </div>
-          <a class="section__more" href="../index.html">トップに戻る</a>
-        </header>
-        <div class="cards">
-          <article class="card">
-            <a class="thumb-link" href="20260621-07.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxncmFwaGljJTIwZGVzaWduJTIwY29tcHV0ZXJ8ZW58MXwwfHx8MTc4MjAxMTIyN3ww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:180">産業応用</span>
-            <h3 class="card__headline"><a href="20260621-07.html">Adobe、Fireflyを刷新 作った素材を覚えるAIスタジオ</a></h3>
-            <p class="card__deck">Adobeが創作の文脈や素材を保持する新しいFireflyのAIスタジオをプライベートベータで公開した。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: The Verge</span></div>
-          </article>
-
-          <article class="card">
-            <a class="thumb-link" href="20260621-02.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzbWFydHBob25lJTIwbW9iaWxlJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzgxOTg5NjU1fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:180">産業応用</span>
-            <h3 class="card__headline"><a href="20260621-02.html">リライアンス、5億人にAI通話エージェント展開へ</a></h3>
-            <p class="card__deck">インドのリライアンスが、5億人超のJio利用者向けにAIが通話へ参加する「Jio Call Agent」など一連のAIサービスを2026年内に投入する。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: TechCrunch</span></div>
-          </article>
-
-          <article class="card">
-            <a class="thumb-link" href="20260618-06.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1614508569207-3295ac89d75f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzZXJ2ZXIlMjByb29tJTIwZGF0YSUyMGNlbnRlcnxlbnwxfDB8fHwxNzgxNzczNjk5fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:180">産業応用</span>
-            <h3 class="card__headline"><a href="20260618-06.html">Claudeで約45分の障害 「動かない」声相次ぐ</a></h3>
-            <p class="card__deck">Anthropicの対話AI「Claude」で約45分間の障害が発生し、応答停止や遅延の報告が相次いだ。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: ITmedia AI＋</span></div>
-          </article>
-        </div>
+      <section class="related" aria-label="関連記事">
+        <h2 class="feed__head">あわせて読みたい</h2>
+        <ul class="feed-list">
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260621-07.html">Adobe、Fireflyを刷新 作った素材を覚えるAIスタジオ</a>
+            <span class="feed-item__cat">産業応用</span>
+          </li>
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260621-02.html">リライアンス、5億人にAI通話エージェント展開へ</a>
+            <span class="feed-item__cat">産業応用</span>
+          </li>
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260618-06.html">Claudeで約45分の障害 「動かない」声相次ぐ</a>
+            <span class="feed-item__cat">産業応用</span>
+          </li>
+        </ul>
       </section>
 
-    </div>
   </main>
 
   <!-- ============== FOOTER ============== -->

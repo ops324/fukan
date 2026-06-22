@@ -21,69 +21,28 @@
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500;600&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="alternate" type="application/rss+xml" title="AXIOM AI RSS" href="feed.xml">
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "325ab8c5bd8546bda7ab30baf1e01c9b"}'></script>
 </head>
 <body>
 
-  <!-- ============== TICKER ============== -->
-  <div class="ticker" role="region" aria-label="最新の見出し">
-    <div class="ticker__inner">
-      <div class="ticker__label">LIVE</div>
-      <div class="ticker__feed">
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-      </div>
-    </div>
-  </div>
-
   <!-- ============== HEADER ============== -->
   <header class="site-header">
-    <div class="container">
-      <div class="site-header__top">
-        <a class="brand" href="index.html">
-          <span class="brand__mark">AXIOM<em>·</em>AI</span>
-          <span class="brand__sub">Intelligence Daily</span>
-        </a>
-        <div class="site-header__right">
-        <div class="site-header__meta">
-          <span>東京</span>
-          <time>2026年6月21日 日</time>
-        </div>
-        <div class="site-header__tools">
-          <div class="hsearch">
-            <input type="search" id="site-search" class="hsearch__input" placeholder="記事を検索…" aria-label="サイト内検索" autocomplete="off" data-base="">
-            <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
-          </div>
-          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="配色テーマを切り替え" title="配色テーマを切り替え" onclick="(function(d){var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}var b=document.getElementById('theme-toggle');if(b)b.textContent=n==='light'?'☀':'☾';})(document.documentElement)">☾</button>
-        </div>
+    <div class="container site-header__bar">
+      <a class="brand" href="index.html">
+        <span class="brand__mark">AXIOM<em>·</em>AI</span>
+      </a>
+      <div class="site-header__tools">
+        <div class="hsearch">
+          <input type="search" id="site-search" class="hsearch__input" placeholder="検索" aria-label="サイト内検索" autocomplete="off" data-base="">
+          <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
         </div>
       </div>
-      <nav class="site-nav" aria-label="主要セクション">
+    </div>
+    <nav class="site-nav" aria-label="主要セクション">
+      <div class="container">
         <ul class="site-nav__list">
           <li><a href="index.html" aria-current="page">トップ</a></li>
           <li><a href="sections/foundation.html">基盤モデル</a></li>
@@ -94,27 +53,25 @@
           <li><a href="sections/startups.html">スタートアップ</a></li>
           <li><a href="sections/hardware.html">ハードウェア</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main class="container">
+  <main class="container container--narrow">
 
-    <header class="article-head" style="border:0;">
-      <div class="article-head__inner">
-        <div class="meta"><span class="chip">アーカイブ</span><span>全 79 記事</span></div>
-        <h1 class="article-headline">記事アーカイブ</h1>
-        <p class="article-lede">これまでに AXIOM AI 編集部が公開した記事を月別にまとめています。</p>
-      </div>
+    <header class="page-head">
+      <span class="cat">アーカイブ</span>
+      <h1 class="page-head__title">記事アーカイブ</h1>
+      <p class="page-head__lead">これまでに AXIOM AI 編集部が公開した記事を月別にまとめています。（全 79 記事）</p>
     </header>
 
-    <section class="section" aria-label="月別アーカイブ">
-      <div class="section__list">
-        <article class="list-card">
-          <h3 class="list-card__headline"><a href="archive/2026-06.html">2026年6月</a></h3>
-          <p class="card__deck" style="color: var(--color-ink-2);">79 本</p>
-        </article>
-      </div>
+    <section class="feed" aria-label="月別アーカイブ">
+      <ul class="feed-list">
+        <li class="feed-item">
+          <a class="feed-item__title" href="archive/2026-06.html">2026年6月</a>
+          <span class="feed-item__cat">79 本</span>
+        </li>
+      </ul>
     </section>
 
   </main>

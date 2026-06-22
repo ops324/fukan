@@ -10,7 +10,7 @@ const mail = `<a href="mailto:${esc(op.email)}">${esc(op.email)}</a>`;
 
 // 共通レイアウト（パンくず＋見出し＋本文 prose）
 function legalPage({ slug, title, lead, bodyHtml, dateLabel, tickerItems }) {
-  const main = `  <main class="container">
+  const main = `  <main class="container container--narrow">
 
     <nav class="breadcrumb" aria-label="パンくず">
       <ol>
@@ -19,15 +19,13 @@ function legalPage({ slug, title, lead, bodyHtml, dateLabel, tickerItems }) {
       </ol>
     </nav>
 
-    <header class="article-head" style="border:0;">
-      <div class="article-head__inner">
-        <div class="meta"><span class="chip">${esc(title)}</span></div>
-        <h1 class="article-headline">${esc(title)}</h1>
-        <p class="article-lede">${esc(lead)}</p>
-      </div>
+    <header class="page-head">
+      <span class="cat">${esc(title)}</span>
+      <h1 class="page-head__title">${esc(title)}</h1>
+      <p class="page-head__lead">${esc(lead)}</p>
     </header>
 
-    <article class="prose" style="max-width: var(--measure); margin: 0 auto;">
+    <article class="prose">
 ${bodyHtml}
     </article>
 
@@ -36,7 +34,7 @@ ${bodyHtml}
   return page({
     title: `${title} | AXIOM AI`,
     description: lead,
-    body: `${ticker(tickerItems)}\n\n${header(dateLabel, '')}\n\n${main}\n\n${footer()}`,
+    body: `${ticker(tickerItems)}${header(dateLabel, '')}\n\n${main}\n\n${footer()}`,
     canonicalPath: `/${slug}`,
   });
 }

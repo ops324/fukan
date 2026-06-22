@@ -29,38 +29,45 @@ open index.html
 
 ## デザインシステム
 
-### カラー（OKLCH）
+**方針: 低認知負荷・白基調ミニマル。** 競合する信号（色・罫線・動き）を減らし、余白で区切り、
+型階層で序列を作る。見出し＝セリフ（和欧混植）、本文＝サンス、アクセントは1色のみ、装飾モーションは持たない。
 
-| トークン | 用途 | 値 |
+### カラー
+
+白基調（わずかに温白）。文字はほぼ黒〜ミュート2段、罫線は極薄、**アクセントは青1色**のみ。
+ダークは OS 設定時のフォールバックとして簡素に維持（`[data-theme="dark"]`）。
+
+| トークン | 用途 | 値（ライト） |
 |---|---|---|
-| `--color-paper-0` | ページ背景 | `oklch(14% 0.012 250)` — 深いネイビーブラック（純黒を避けハレーション低減） |
-| `--color-paper-1` | カード／サイドバー | `oklch(17% 0.014 250)` |
-| `--color-ink-0` | 本文 | `oklch(93% 0.006 85)` — 暖かいオフホワイト（純白を避け本文コントラスト約16:1） |
-| `--color-ink-2` | メタ情報・写真クレジット | `oklch(64% 0.008 85)` — 背景比 5.9:1（WCAG AA 合格） |
-| `--color-accent` | 電子インク・ブルー | `oklch(78% 0.15 220)` |
-| `--color-accent-warm` | Bloomberg 風ゴールド | `oklch(75% 0.16 65)` |
-| `--color-breaking` | 速報レッド | `oklch(63% 0.22 25)` |
+| `--paper` | ページ背景 | `#fcfcfb`（温白） |
+| `--surface` | 入力・ドロップダウン | `#ffffff` |
+| `--ink-0` | 本文・見出し | `#1b1b18` |
+| `--ink-1` | 副次テキスト | `#585853` |
+| `--ink-2` | メタ・キャプション | `#8c8c84` |
+| `--rule` / `--rule-strong` | 罫線（極薄） | `#ecebe5` / `#dcdbd3` |
+| `--accent` | アクセント（青・唯一） | `#2f6df0` |
 
 ### タイポグラフィ（全て Google Fonts・商用無料）
 
+和文を明示的にペアリング（成り行きフォールバックを排除）。
+
 | 役割 | フォント |
 |---|---|
-| 見出し（Display） | **Fraunces**（可変フォント、イタリックの表情が美しい） |
-| 本文（Body） | **Inter**（日本語フォールバック: Hiragino Kaku Gothic ProN, Yu Gothic） |
-| メタ・データ（Mono） | **IBM Plex Mono**（タイムスタンプ、ティッカー、ラベル等） |
+| 見出し（Serif） | **Fraunces**（ラテン・可変） × **Noto Serif JP**（和文・明朝） |
+| 本文・UI（Sans） | **Inter**（ラテン） × **Noto Sans JP**（和文・ゴシック） |
 
 ### スペーシング
 
-4pt スケール、`--space-2xs` (4px) ～ `--space-5xl` (128px) を意味的に命名。
+4pt スケール、`--space-2xs` (4px) ～ `--space-4xl` (112px) を意味的に命名。
 
 ---
 
 ## 画像戦略（著作権リスク回避）
 
 **Unsplash の無料素材 API** から記事に合う実写真を1枚取得し、撮影者名＋プロフィールリンクの
-**帰属表記付き**で、トップのヒーロー／カードと記事詳細に表示する（Unsplash 規約準拠）。
-`.env` に `UNSPLASH_KEY` を設定すると有効。**未設定・検索ヒット0の場合は OKLCH グラデーションの
-抽象サムネ**（`.thumb--blue` 等）に自動フォールバックするため、キー無しでもデザインは崩れない。
+**帰属表記付き**で、トップのリードと記事詳細に表示する（Unsplash 規約準拠）。
+`.env` に `UNSPLASH_KEY` を設定すると有効。**未設定・検索ヒット0の場合は画像を出さない**（抽象グラデの
+ダミーサムネは低認知負荷方針で撤去）。テキストのみでもレイアウトは崩れない。
 
 - ニュース画像の転載はしない（実写真は Unsplash の商用利用可・帰属付き素材のみ）。
 - AI 画像生成（DALL·E / Imagen 等の従量課金サービス）は使用しない。
@@ -84,21 +91,20 @@ open index.html
 
 ## レスポンシブ
 
-- 1100px 以上: 3 カラム（本文 7 ＋ 左 2 ＋ 右 3）
-- 768px 〜 1100px: 2 カラム（サイドバーが下に）
-- 〜 768px: シングルカラム、ナビは横スクロール対応
+- 全幅で**単一カラム**（コンテンツ幅 `--site-max` 760px・本文 measure 40rem）。サイドレール・多カラムは廃止。
+- 〜600px: 最新リストの行を2段化（時刻＋見出し／カテゴリは下段）、ナビは横スクロール（右端フェード）。
 
-ブラウザ DevTools で 375 / 768 / 1280 / 1920 px を確認してください。
+ブラウザ DevTools で 375 / 768 / 1280 px を確認してください。
 
 ---
 
 ## アクセシビリティ
 
-- WCAG AA 準拠コントラスト：本文 ink-0 約 16:1（純白を避けハレーション低減）、メタ・写真クレジット ink-2 で 5.9:1（AA 合格）
-- タップ領域 44×44px 以上（テーマトグル、ナビ各項目）
+- WCAG AA 準拠コントラスト：白基調で本文 ink-0／メタ ink-2 とも AA 以上を確保
+- タップ領域 44×44px 以上（ナビ各項目）
 - 全インタラクティブ要素に `:focus-visible` リング（コントラスト 3:1 以上）
-- `prefers-reduced-motion: reduce` でティッカーアニメ・パルスを停止。加えてティッカーはホバー/フォーカスで一時停止（読みたい見出しで止められる）
-- セマンティック HTML（`<main>` / `<aside>` / `<article>` / `<nav>` / `aria-label`）
+- 装飾モーションは持たず、唯一の動き（記事の読了プログレスバー）も `prefers-reduced-motion: reduce` で停止
+- セマンティック HTML（`<main>` / `<article>` / `<nav>` / `aria-label`）
 
 ---
 
@@ -146,9 +152,9 @@ open index.html
   ヘッドレス Claude が media の主張を WebSearch で裏取りしてから採用する（`src/config.js` の `rssFeeds`）。
 - **重要度で選別＋序列化** — Claude が候補を重要度 1〜5 で採点し、`importanceFloor`(3) 以上だけを
   1回 `maxArticles`(2) 本まで掲載（＝1日6本前後）。重要なものが無い回は載せない。類似トピックは1本に統合。
-- **重要度で配置** — `render.js` がトップのヒーロー／注目カードを重要度順に並べる
-  （`importanceThenRecency`）。「最新記事」（タイムライン）と右レール「セクション別の最新」は時系列。
-- **ヒーローの鮮度ウィンドウ** — トップ最上段は直近 `heroRecencyHours`(24) 時間内の最重要記事から選び、
+- **重要度で配置** — `render.js` がトップ最上段の**リード1本**を重要度順（`importanceThenRecency`）で選ぶ。
+  リード以下の「最新」は時系列の行リスト。
+- **ヒーローの鮮度ウィンドウ** — トップ最上段（リード）は直近 `heroRecencyHours`(24) 時間内の最重要記事から選び、
   古い高importance記事の居座り（トップ停滞）を防ぐ。ウィンドウ内に無ければ全体の最重要を表示（保険）。
 - **保持とアーカイブ** — トップは最新 `retentionTop`(40) 本まで。超過分は `archive.html`（月別一覧）へ。記事HTMLは全保持。
 
@@ -162,7 +168,7 @@ open index.html
 | `retentionTop` | 40 | トップ掲載の上限。超過分は `archive.html` へ |
 | `heroRecencyHours` | 24 | ヒーローは直近この時間内の最重要記事から選ぶ（トップ停滞の防止） |
 | `rssFeeds` | AI 系 8 フィード（`tier`付き） | 一次情報/メディアの別。増減はここで編集 |
-| `imageProvider` | `unsplash` | `unsplash` / `pexels`（キー未設定なら CSS サムネ） |
+| `imageProvider` | `unsplash` | `unsplash` / `pexels`（キー未設定なら画像なし） |
 
 ### 定期実行（設定済み）
 
@@ -185,8 +191,8 @@ launchctl kickstart -k gui/$(id -u)/com.axiom.generate                          
 - **タグページ**: `tags/<タグ>.html` を自動生成、`tags/index.html` はタグクラウド。記事内タグから辿れる。
 - **AI 関連度フィルタ**: media 系 RSS の AI 無関係記事を `config.aiKeywords` で足切り（公式 primary は常に通す）。
 - **記事体験**: 読了時間の目安、公開時刻、機能する共有ボタン（X / はてブ / リンクコピー）、読了プログレスバー。
-- **奥行き・演出**: 影トークン（ライト/ダークで濃淡）、紙の微細グレイン、ヒーロー発光、カードの hover リフト＋画像ズーム、見出しの下線スライド、スクロール段階リビール。`prefers-reduced-motion` で無効化、JS 無効でも本文・カードは常時表示（`assets/reveal.js`）。
-- **ライト／ダークテーマ**: ヘッダーのトグルで切替（OS 設定に追従、localStorage で保持）。
+- **ミニマルな体験**: 装飾モーション（発光・グレイン・hover リフト・段階リビール）は撤去。動きは記事の読了プログレスバーのみ（`assets/reveal.js`）。対応ブラウザではページ遷移に控えめな View Transitions（`prefers-reduced-motion` で無効）。
+- **テーマ**: 既定はライト（白基調）。OS が dark のときのみ簡素なダークにフォールバック（`<head>` のインラインJSが paint 前に `data-theme` を適用）。
 - **サイト内検索**: 静的（追加依存ゼロ）。`search-index.json` をクライアントで部分一致検索。
 - **画像最適化**: Unsplash 画像に配信パラメータを付与＋ `images.unsplash.com` を preconnect（CWV 改善）。
 - **パイプライン監視**: `scripts/auto-generate.sh` が異常終了・push 失敗・新規ゼロ連続を検知して macOS 通知。
@@ -205,4 +211,4 @@ launchctl kickstart -k gui/$(id -u)/com.axiom.generate                          
 
 ## ライセンス
 
-このプロトタイプのコードは自由に改変してください。Google Fonts（Fraunces / Inter / IBM Plex Mono）は SIL Open Font License（商用利用可）。
+このプロトタイプのコードは自由に改変してください。Google Fonts（Fraunces / Noto Serif JP / Inter / Noto Sans JP）は SIL Open Font License（商用利用可）。

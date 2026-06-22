@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500;600&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="alternate" type="application/rss+xml" title="AXIOM AI RSS" href="../feed.xml">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"AIモデル開発の評価ツール「olmo-eval」がリリース","description":"Allen AI研究所は、大規模言語モデル(LLM)の開発プロセスを効率化するための新しい評価ワークベンチ「olmo-eval」を公開した。","datePublished":"2026-06-12T16:38:16.942Z","dateModified":"2026-06-12T16:38:16.942Z","inLanguage":"ja","articleSection":"研究","image":["https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkfGVufDF8MHx8fDE3ODEyOTQzNDB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg&w=1200&q=70&auto=format&fit=crop"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://axiom-ai-xi.vercel.app/articles/20260613-06.html"},"author":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}},"publisher":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}}}</script>
@@ -29,62 +29,21 @@
 </head>
 <body>
 
-  <!-- ============== TICKER ============== -->
-  <div class="ticker" role="region" aria-label="最新の見出し">
-    <div class="ticker__inner">
-      <div class="ticker__label">LIVE</div>
-      <div class="ticker__feed">
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-      </div>
-    </div>
-  </div>
-
   <!-- ============== HEADER ============== -->
   <header class="site-header">
-    <div class="container">
-      <div class="site-header__top">
-        <a class="brand" href="../index.html">
-          <span class="brand__mark">AXIOM<em>·</em>AI</span>
-          <span class="brand__sub">Intelligence Daily</span>
-        </a>
-        <div class="site-header__right">
-        <div class="site-header__meta">
-          <span>東京</span>
-          <time>2026年6月21日 日</time>
-        </div>
-        <div class="site-header__tools">
-          <div class="hsearch">
-            <input type="search" id="site-search" class="hsearch__input" placeholder="記事を検索…" aria-label="サイト内検索" autocomplete="off" data-base="../">
-            <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
-          </div>
-          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="配色テーマを切り替え" title="配色テーマを切り替え" onclick="(function(d){var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}var b=document.getElementById('theme-toggle');if(b)b.textContent=n==='light'?'☀':'☾';})(document.documentElement)">☾</button>
-        </div>
+    <div class="container site-header__bar">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark">AXIOM<em>·</em>AI</span>
+      </a>
+      <div class="site-header__tools">
+        <div class="hsearch">
+          <input type="search" id="site-search" class="hsearch__input" placeholder="検索" aria-label="サイト内検索" autocomplete="off" data-base="../">
+          <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
         </div>
       </div>
-      <nav class="site-nav" aria-label="主要セクション">
+    </div>
+    <nav class="site-nav" aria-label="主要セクション">
+      <div class="container">
         <ul class="site-nav__list">
           <li><a href="../index.html">トップ</a></li>
           <li><a href="../sections/foundation.html">基盤モデル</a></li>
@@ -95,12 +54,11 @@
           <li><a href="../sections/startups.html">スタートアップ</a></li>
           <li><a href="../sections/hardware.html">ハードウェア</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main>
-    <div class="container">
+  <main class="container container--narrow">
 
       <nav class="breadcrumb" aria-label="パンくず">
         <ol>
@@ -111,106 +69,69 @@
       </nav>
 
       <header class="article-head">
-        <div class="article-head__inner">
-          <div class="meta">
-            <span class="chip" style="--chip-hue:285">研究</span>
-            <span>2026.06.13 01:38</span>
-            <span>約1分で読めます</span>
-            <span>出典: Hugging Face</span>
-          </div>
-          <h1 class="article-headline">AIモデル開発の評価ツール「olmo-eval」がリリース</h1>
-          <p class="article-lede">Allen AI研究所は、大規模言語モデル(LLM)の開発プロセスを効率化するための新しい評価ワークベンチ「olmo-eval」を公開した。</p>
-          <div class="article-byline">
-            <span>署名 <strong>AXIOM AI 編集部</strong></span>
-            <span>AI 自動要約 + 編集</span>
+        <div class="article-head__meta">
+          <span class="cat">研究</span>
+          <time datetime="2026-06-12T16:38:16.942Z">2026.06.13 01:38</time>
+          <span>約1分</span>
+          <span>出典: Hugging Face</span>
+        </div>
+        <h1 class="article-headline">AIモデル開発の評価ツール「olmo-eval」がリリース</h1>
+        <p class="article-lede">Allen AI研究所は、大規模言語モデル(LLM)の開発プロセスを効率化するための新しい評価ワークベンチ「olmo-eval」を公開した。</p>
+        <div class="article-byline">
+          <span class="article-byline__by">AXIOM AI 編集部 — AI 自動要約 + 人手編集</span>
             <div class="article-share" aria-label="記事を共有">
               <a href="https://twitter.com/intent/tweet?text=AI%E3%83%A2%E3%83%87%E3%83%AB%E9%96%8B%E7%99%BA%E3%81%AE%E8%A9%95%E4%BE%A1%E3%83%84%E3%83%BC%E3%83%AB%E3%80%8Colmo-eval%E3%80%8D%E3%81%8C%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9&amp;url=https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260613-06.html" class="share-btn" target="_blank" rel="noopener" aria-label="X で共有">𝕏</a>
               <a href="https://b.hatena.ne.jp/entry/https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260613-06.html" class="share-btn" target="_blank" rel="noopener" aria-label="はてなブックマークに追加">B!</a>
               <button type="button" class="share-btn" aria-label="リンクをコピー" onclick="navigator.clipboard&&navigator.clipboard.writeText('https://axiom-ai-xi.vercel.app/articles/20260613-06.html').then(()=>{this.textContent='✓';setTimeout(()=>{this.textContent='⎘'},1200)})">⎘</button>
             </div>
-          </div>
         </div>
       </header>
 
       <figure class="article-hero">
-        <div class="thumb" role="img" aria-label="AIモデル開発の評価ツール「olmo-eval」がリリース のイメージ写真" style="aspect-ratio: 21 / 9; background-image: url('https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkfGVufDF8MHx8fDE3ODEyOTQzNDB8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=1600&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;"></div>
-        <figcaption>AIモデル開発の評価ツール「olmo-eval」がリリース<span style="color: var(--color-ink-2);"> — Photo: <a href="https://unsplash.com/@dengxiangs?utm_source=axiom_ai&amp;utm_medium=referral" target="_blank" rel="noopener">Deng Xiang</a> / Unsplash（イメージ写真）</span></figcaption>
+        <div class="article-hero__img" role="img" aria-label="AIモデル開発の評価ツール「olmo-eval」がリリース のイメージ写真" style="background-image: url('https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYW5hbHl0aWNzJTIwZGFzaGJvYXJkfGVufDF8MHx8fDE3ODEyOTQzNDB8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=1600&amp;q=70&amp;auto=format&amp;fit=crop')"></div>
+        <figcaption>Photo: <a href="https://unsplash.com/@dengxiangs?utm_source=axiom_ai&amp;utm_medium=referral" target="_blank" rel="noopener">Deng Xiang</a> / Unsplash（イメージ写真）</figcaption>
       </figure>
 
-      <div class="article-body-grid">
-
-        <aside class="article-side-left">
-          <div class="author-card">
-            <div class="author-card__avatar" aria-hidden="true"></div>
-            <span class="author-card__name">AXIOM AI 編集部</span>
-            <span class="author-card__role">AI 自動要約 + 人手編集</span>
-            <p style="font-size: var(--text-xs); color: var(--color-ink-2); margin-top: var(--space-xs); line-height: 1.55;">本記事は AI が一次情報を取材・要約・論評し、編集方針に沿って生成しています。</p>
-          </div>
-        </aside>
-
-        <article class="prose">
+      <article class="prose">
 <p>Allen AI研究所は、大規模言語モデル(LLM)の開発プロセスを効率化するための新しい評価ワークベンチ「olmo-eval」を公開しました。このツールは、LLMのデータやアーキテクチャ、ハイパーパラメータなどの調整に伴う反復的な評価作業を簡素化します。</p>
 <p>従来の評価ツールは、完成したモデルに対して既存のベンチマークを実行するか、モデルがマルチステップやツールを使用して問題を解決するシミュレートされた環境で動作させることが主な目的でした。しかし、「olmo-eval」は開発中のモデルに対する評価プロセス全体に焦点を当てています。</p>
 <p>「olmo-eval」の特徴は、新しい評価の実装作業を軽減し、ベンチマークの定義や実行方法の柔軟性を提供することです。また、個々のコンポーネントを組み合わせてより大きなワークフローを作成する機能も備えています。</p>
 <p>このツールは、開発者がモデルの小さな変更が全体的なパフォーマンスにどのように影響を与えるかを正確に評価できるように設計されています。</p>
 
-          <div class="callout" style="border-color: var(--color-accent);">
-            <h4>出典・元記事</h4>
+          <div class="callout">
+            <h2 class="callout__head">出典・元記事</h2>
             <p>本記事は下記の一次情報を AXIOM AI 編集部が要約・論評したものです。正確な詳細・最新情報は元記事をご確認ください。</p>
-            <p style="margin-top: var(--space-sm);">
-              <a href="https://huggingface.co/blog/allenai/olmo-eval" target="_blank" rel="noopener" style="font-weight: 600;">▶ Hugging Face の元記事を読む</a>
-            </p>
+            <p class="callout__link"><a href="https://huggingface.co/blog/allenai/olmo-eval" target="_blank" rel="noopener">Hugging Face の元記事を読む →</a></p>
           </div>
-        </article>
+      </article>
 
-        <aside class="article-side-right">
-          <div class="topics">
-            <h4>関連トピック</h4>
-            <ul>
-              <li><a href="../tags/AI.html">AI</a></li>
-              <li><a href="../tags/%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB.html">大規模言語モデル</a></li>
-              <li><a href="../tags/%E8%A9%95%E4%BE%A1%E3%83%84%E3%83%BC%E3%83%AB.html">評価ツール</a></li>
-            </ul>
-          </div>
-        </aside>
+      <div class="topics">
+        <h2 class="topics__head">関連トピック</h2>
+        <ul>
+          <li><a href="../tags/AI.html">AI</a></li>
+          <li><a href="../tags/%E5%A4%A7%E8%A6%8F%E6%A8%A1%E8%A8%80%E8%AA%9E%E3%83%A2%E3%83%87%E3%83%AB.html">大規模言語モデル</a></li>
+          <li><a href="../tags/%E8%A9%95%E4%BE%A1%E3%83%84%E3%83%BC%E3%83%AB.html">評価ツール</a></li>
+        </ul>
       </div>
 
-      <section class="section" aria-label="関連記事">
-        <header class="section__head">
-          <div class="section__title">
-            <span class="chip">関連</span>
-            <h2>あわせて読みたい</h2>
-          </div>
-          <a class="section__more" href="../index.html">トップに戻る</a>
-        </header>
-        <div class="cards">
-          <article class="card">
-            <a class="thumb-link" href="20260618-01.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxwcm9ncmFtbWluZyUyMGNvZGUlMjBzY3JlZW58ZW58MXwwfHx8MTc4MTczMDIyMHww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:285">研究</span>
-            <h3 class="card__headline"><a href="20260618-01.html">Z.ai、長時間タスク向けモデル「GLM-5.2」をMITで公開</a></h3>
-            <p class="card__deck">100万トークン文脈と長時間コーディングを強化した新モデルがオープンソース公開された。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: Hugging Face</span></div>
-          </article>
-
-          <article class="card">
-            <a class="thumb-link" href="20260620-09.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1592659762303-90081d34b277?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxjaXJjdWl0JTIwYm9hcmQlMjBjaGlwfGVufDF8MHx8fDE3ODE5MjQ4MDl8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:285">研究</span>
-            <h3 class="card__headline"><a href="20260620-09.html">新興企業、LLMの計算ボトルネック解消を主張</a></h3>
-            <p class="card__deck">米Subquadraticが計算量を抑える新方式を公開、研究者は独立した検証を求める。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: MIT Tech Review</span></div>
-          </article>
-
-          <article class="card">
-            <a class="thumb-link" href="20260620-01.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1644088379091-d574269d422f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMG5ldHdvcmslMjBjb25uZWN0aW9uc3xlbnwxfDB8fHwxNzgxOTAzMjI1fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:285">研究</span>
-            <h3 class="card__headline"><a href="20260620-01.html">新興企業、LLMの計算ボトルネック克服を主張</a></h3>
-            <p class="card__deck">Subquadraticがスパース注意で計算量を削減と主張。第三者評価は速度向上を示すも専門家は懐疑的。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: MIT Tech Review</span></div>
-          </article>
-        </div>
+      <section class="related" aria-label="関連記事">
+        <h2 class="feed__head">あわせて読みたい</h2>
+        <ul class="feed-list">
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260618-01.html">Z.ai、長時間タスク向けモデル「GLM-5.2」をMITで公開</a>
+            <span class="feed-item__cat">研究</span>
+          </li>
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260620-09.html">新興企業、LLMの計算ボトルネック解消を主張</a>
+            <span class="feed-item__cat">研究</span>
+          </li>
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260620-01.html">新興企業、LLMの計算ボトルネック克服を主張</a>
+            <span class="feed-item__cat">研究</span>
+          </li>
+        </ul>
       </section>
 
-    </div>
   </main>
 
   <!-- ============== FOOTER ============== -->

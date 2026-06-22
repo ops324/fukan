@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500;600&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="alternate" type="application/rss+xml" title="AXIOM AI RSS" href="../feed.xml">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"AI推論モデル、難病の子ども18人を新たに診断","description":"OpenAIの推論モデルが未解明だった小児の希少疾患を解析し、18件の新たな診断につながった。","datePublished":"2026-06-18T21:06:08.042Z","dateModified":"2026-06-18T21:06:08.042Z","inLanguage":"ja","articleSection":"基盤モデル","image":["https://images.unsplash.com/photo-1643780668909-580822430155?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkbmElMjBnZW5ldGljJTIwcmVzZWFyY2h8ZW58MXwwfHx8MTc4MTgyMDIwN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg&w=1200&q=70&auto=format&fit=crop"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://axiom-ai-xi.vercel.app/articles/20260619-01.html"},"author":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}},"publisher":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}}}</script>
@@ -29,62 +29,21 @@
 </head>
 <body>
 
-  <!-- ============== TICKER ============== -->
-  <div class="ticker" role="region" aria-label="最新の見出し">
-    <div class="ticker__inner">
-      <div class="ticker__label">LIVE</div>
-      <div class="ticker__feed">
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-      </div>
-    </div>
-  </div>
-
   <!-- ============== HEADER ============== -->
   <header class="site-header">
-    <div class="container">
-      <div class="site-header__top">
-        <a class="brand" href="../index.html">
-          <span class="brand__mark">AXIOM<em>·</em>AI</span>
-          <span class="brand__sub">Intelligence Daily</span>
-        </a>
-        <div class="site-header__right">
-        <div class="site-header__meta">
-          <span>東京</span>
-          <time>2026年6月21日 日</time>
-        </div>
-        <div class="site-header__tools">
-          <div class="hsearch">
-            <input type="search" id="site-search" class="hsearch__input" placeholder="記事を検索…" aria-label="サイト内検索" autocomplete="off" data-base="../">
-            <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
-          </div>
-          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="配色テーマを切り替え" title="配色テーマを切り替え" onclick="(function(d){var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}var b=document.getElementById('theme-toggle');if(b)b.textContent=n==='light'?'☀':'☾';})(document.documentElement)">☾</button>
-        </div>
+    <div class="container site-header__bar">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark">AXIOM<em>·</em>AI</span>
+      </a>
+      <div class="site-header__tools">
+        <div class="hsearch">
+          <input type="search" id="site-search" class="hsearch__input" placeholder="検索" aria-label="サイト内検索" autocomplete="off" data-base="../">
+          <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
         </div>
       </div>
-      <nav class="site-nav" aria-label="主要セクション">
+    </div>
+    <nav class="site-nav" aria-label="主要セクション">
+      <div class="container">
         <ul class="site-nav__list">
           <li><a href="../index.html">トップ</a></li>
           <li><a href="../sections/foundation.html" aria-current="page">基盤モデル</a></li>
@@ -95,12 +54,11 @@
           <li><a href="../sections/startups.html">スタートアップ</a></li>
           <li><a href="../sections/hardware.html">ハードウェア</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main>
-    <div class="container">
+  <main class="container container--narrow">
 
       <nav class="breadcrumb" aria-label="パンくず">
         <ol>
@@ -111,106 +69,69 @@
       </nav>
 
       <header class="article-head">
-        <div class="article-head__inner">
-          <div class="meta">
-            <span class="chip" style="--chip-hue:220">基盤モデル</span>
-            <span>2026.06.19 06:06</span>
-            <span>約1分で読めます</span>
-            <span>出典: OpenAI</span>
-          </div>
-          <h1 class="article-headline">AI推論モデル、難病の子ども18人を新たに診断</h1>
-          <p class="article-lede">OpenAIの推論モデルが未解明だった小児の希少疾患を解析し、18件の新たな診断につながった。</p>
-          <div class="article-byline">
-            <span>署名 <strong>AXIOM AI 編集部</strong></span>
-            <span>AI 自動要約 + 編集</span>
+        <div class="article-head__meta">
+          <span class="cat">基盤モデル</span>
+          <time datetime="2026-06-18T21:06:08.042Z">2026.06.19 06:06</time>
+          <span>約1分</span>
+          <span>出典: OpenAI</span>
+        </div>
+        <h1 class="article-headline">AI推論モデル、難病の子ども18人を新たに診断</h1>
+        <p class="article-lede">OpenAIの推論モデルが未解明だった小児の希少疾患を解析し、18件の新たな診断につながった。</p>
+        <div class="article-byline">
+          <span class="article-byline__by">AXIOM AI 編集部 — AI 自動要約 + 人手編集</span>
             <div class="article-share" aria-label="記事を共有">
               <a href="https://twitter.com/intent/tweet?text=AI%E6%8E%A8%E8%AB%96%E3%83%A2%E3%83%87%E3%83%AB%E3%80%81%E9%9B%A3%E7%97%85%E3%81%AE%E5%AD%90%E3%81%A9%E3%82%8218%E4%BA%BA%E3%82%92%E6%96%B0%E3%81%9F%E3%81%AB%E8%A8%BA%E6%96%AD&amp;url=https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260619-01.html" class="share-btn" target="_blank" rel="noopener" aria-label="X で共有">𝕏</a>
               <a href="https://b.hatena.ne.jp/entry/https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260619-01.html" class="share-btn" target="_blank" rel="noopener" aria-label="はてなブックマークに追加">B!</a>
               <button type="button" class="share-btn" aria-label="リンクをコピー" onclick="navigator.clipboard&&navigator.clipboard.writeText('https://axiom-ai-xi.vercel.app/articles/20260619-01.html').then(()=>{this.textContent='✓';setTimeout(()=>{this.textContent='⎘'},1200)})">⎘</button>
             </div>
-          </div>
         </div>
       </header>
 
       <figure class="article-hero">
-        <div class="thumb" role="img" aria-label="AI推論モデル、難病の子ども18人を新たに診断 のイメージ写真" style="aspect-ratio: 21 / 9; background-image: url('https://images.unsplash.com/photo-1643780668909-580822430155?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkbmElMjBnZW5ldGljJTIwcmVzZWFyY2h8ZW58MXwwfHx8MTc4MTgyMDIwN3ww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=1600&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;"></div>
-        <figcaption>AI推論モデル、難病の子ども18人を新たに診断<span style="color: var(--color-ink-2);"> — Photo: <a href="https://unsplash.com/@sangharsh_l?utm_source=axiom_ai&amp;utm_medium=referral" target="_blank" rel="noopener">Sangharsh Lohakare</a> / Unsplash（イメージ写真）</span></figcaption>
+        <div class="article-hero__img" role="img" aria-label="AI推論モデル、難病の子ども18人を新たに診断 のイメージ写真" style="background-image: url('https://images.unsplash.com/photo-1643780668909-580822430155?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkbmElMjBnZW5ldGljJTIwcmVzZWFyY2h8ZW58MXwwfHx8MTc4MTgyMDIwN3ww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=1600&amp;q=70&amp;auto=format&amp;fit=crop')"></div>
+        <figcaption>Photo: <a href="https://unsplash.com/@sangharsh_l?utm_source=axiom_ai&amp;utm_medium=referral" target="_blank" rel="noopener">Sangharsh Lohakare</a> / Unsplash（イメージ写真）</figcaption>
       </figure>
 
-      <div class="article-body-grid">
-
-        <aside class="article-side-left">
-          <div class="author-card">
-            <div class="author-card__avatar" aria-hidden="true"></div>
-            <span class="author-card__name">AXIOM AI 編集部</span>
-            <span class="author-card__role">AI 自動要約 + 人手編集</span>
-            <p style="font-size: var(--text-xs); color: var(--color-ink-2); margin-top: var(--space-xs); line-height: 1.55;">本記事は AI が一次情報を取材・要約・論評し、編集方針に沿って生成しています。</p>
-          </div>
-        </aside>
-
-        <article class="prose">
+      <article class="prose">
 <p>米ボストン小児病院の研究チームは、OpenAIの推論モデルを使い、原因が特定できていなかった小児希少疾患376人分のゲノムを解析した。臨床医の所見や患者の症状、絞り込んだ候補遺伝子のリストを組み合わせて推論させた結果、18人について新たな診断が得られたという。内訳は神経発達症が10人、神経筋疾患が4人、突然死した2人、幼児期の精神症状が2人で、成果は医学誌の AI 専門版『NEJM AI』に報告された。OpenAI によれば、同病院でのAI活用は累計で40件以上の未解明症例の診断につながり、約6万時間の労働時間と700万ドル超の人件費の振り向けにも寄与したとしている。</p>
 <p>希少疾患は症例が少なく、確定診断まで何年もかかることが珍しくない。今回の事例は、最終判断を担うのはあくまで臨床医である一方、膨大な遺伝情報と文献を突き合わせる作業でAIが診断の入り口を広げうることを示す。ただし対象は限られた症例であり、誤りや見落としをどう検証するかを含め、医療現場での慎重な運用設計が引き続き問われる。</p>
 
-          <div class="callout" style="border-color: var(--color-accent);">
-            <h4>出典・元記事</h4>
+          <div class="callout">
+            <h2 class="callout__head">出典・元記事</h2>
             <p>本記事は下記の一次情報を AXIOM AI 編集部が要約・論評したものです。正確な詳細・最新情報は元記事をご確認ください。</p>
-            <p style="margin-top: var(--space-sm);">
-              <a href="https://openai.com/index/diagnose-rare-childhood-diseases" target="_blank" rel="noopener" style="font-weight: 600;">▶ OpenAI の元記事を読む</a>
-            </p>
+            <p class="callout__link"><a href="https://openai.com/index/diagnose-rare-childhood-diseases" target="_blank" rel="noopener">OpenAI の元記事を読む →</a></p>
           </div>
-        </article>
+      </article>
 
-        <aside class="article-side-right">
-          <div class="topics">
-            <h4>関連トピック</h4>
-            <ul>
-              <li><a href="../tags/OpenAI.html">OpenAI</a></li>
-              <li><a href="../tags/%E5%8C%BB%E7%99%82AI.html">医療AI</a></li>
-              <li><a href="../tags/%E5%B8%8C%E5%B0%91%E7%96%BE%E6%82%A3.html">希少疾患</a></li>
-              <li><a href="../tags/%E3%82%B2%E3%83%8E%E3%83%A0%E8%A7%A3%E6%9E%90.html">ゲノム解析</a></li>
-              <li><a href="../tags/%E6%8E%A8%E8%AB%96%E3%83%A2%E3%83%87%E3%83%AB.html">推論モデル</a></li>
-            </ul>
-          </div>
-        </aside>
+      <div class="topics">
+        <h2 class="topics__head">関連トピック</h2>
+        <ul>
+          <li><a href="../tags/OpenAI.html">OpenAI</a></li>
+          <li><a href="../tags/%E5%8C%BB%E7%99%82AI.html">医療AI</a></li>
+          <li><a href="../tags/%E5%B8%8C%E5%B0%91%E7%96%BE%E6%82%A3.html">希少疾患</a></li>
+          <li><a href="../tags/%E3%82%B2%E3%83%8E%E3%83%A0%E8%A7%A3%E6%9E%90.html">ゲノム解析</a></li>
+          <li><a href="../tags/%E6%8E%A8%E8%AB%96%E3%83%A2%E3%83%87%E3%83%AB.html">推論モデル</a></li>
+        </ul>
       </div>
 
-      <section class="section" aria-label="関連記事">
-        <header class="section__head">
-          <div class="section__title">
-            <span class="chip">関連</span>
-            <h2>あわせて読みたい</h2>
-          </div>
-          <a class="section__more" href="../index.html">トップに戻る</a>
-        </header>
-        <div class="cards">
-          <article class="card">
-            <a class="thumb-link" href="20260619-07.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBtZWRpY2FsJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzgxODM4NDMwfDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:220">基盤モデル</span>
-            <h3 class="card__headline"><a href="20260619-07.html">ChatGPT、健康回答を改善 GPT-5.5 Instant</a></h3>
-            <p class="card__deck">OpenAIがGPT-5.5 Instantで健康関連の回答精度を高め、全無料ユーザーに提供する。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: OpenAI</span></div>
-          </article>
-
-          <article class="card">
-            <a class="thumb-link" href="20260618-04.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1518152006812-edab29b069ac?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzY2llbnRpc3QlMjBtaWNyb3Njb3BlJTIwbGFib3JhdG9yeXxlbnwxfDB8fHwxNzgxNzUxODYyfDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:220">基盤モデル</span>
-            <h3 class="card__headline"><a href="20260618-04.html">OpenAI、生命科学の評価基準LifeSciBench公開</a></h3>
-            <p class="card__deck">OpenAIが、AIの生命科学研究タスク遂行力を測る専門家作成のベンチマークを公開した。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: OpenAI</span></div>
-          </article>
-
-          <article class="card">
-            <a class="thumb-link" href="20260617-02.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzZXJ2ZXIlMjByb29tJTIwZGF0YSUyMGNlbnRlcnxlbnwxfDB8fHwxNzgxODIwMjA4fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:220">基盤モデル</span>
-            <h3 class="card__headline"><a href="20260617-02.html">OpenAI、公開前に挙動を予測する新手法</a></h3>
-            <p class="card__deck">過去の実会話を再現し、新モデルの望ましくない挙動の頻度を公開前に見積もる。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: OpenAI</span></div>
-          </article>
-        </div>
+      <section class="related" aria-label="関連記事">
+        <h2 class="feed__head">あわせて読みたい</h2>
+        <ul class="feed-list">
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260619-07.html">ChatGPT、健康回答を改善 GPT-5.5 Instant</a>
+            <span class="feed-item__cat">基盤モデル</span>
+          </li>
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260618-04.html">OpenAI、生命科学の評価基準LifeSciBench公開</a>
+            <span class="feed-item__cat">基盤モデル</span>
+          </li>
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260617-02.html">OpenAI、公開前に挙動を予測する新手法</a>
+            <span class="feed-item__cat">基盤モデル</span>
+          </li>
+        </ul>
       </section>
 
-    </div>
   </main>
 
   <!-- ============== FOOTER ============== -->

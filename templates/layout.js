@@ -11,24 +11,12 @@ export function absUrl(path = '/') {
 
 const FONTS = `  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">`;
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500;600&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">`;
 
-// 最新見出しを流すティッカー（架空のベンチ値は廃止）。items=最新の見出し配列。
-export function ticker(items = []) {
-  const heads = (items || []).filter(Boolean);
-  const feed = heads.length
-    // シームレスなループのため2周分を並べる
-    ? [...heads, ...heads].map((h) => `        <span class="ticker__item">${esc(h)}</span>`).join('\n')
-    : `        <span class="ticker__item">AXIOM AI — 最新のAIニュースを編集部の要約と論評でお届けします。</span>`;
-  return `  <!-- ============== TICKER ============== -->
-  <div class="ticker" role="region" aria-label="最新の見出し">
-    <div class="ticker__inner">
-      <div class="ticker__label">LIVE</div>
-      <div class="ticker__feed">
-${feed}
-      </div>
-    </div>
-  </div>`;
+// 旧ティッカー（常時スクロール）は認知負荷・a11y の観点で撤去。
+// 各テンプレが `ticker(...)` を呼ぶ箇所が残るため、空文字を返す薄いスタブとして維持する。
+export function ticker() {
+  return '';
 }
 
 export function header(dateLabel, activeNav = 'トップ', base = '') {
@@ -42,32 +30,24 @@ export function header(dateLabel, activeNav = 'トップ', base = '') {
     .join('\n');
   return `  <!-- ============== HEADER ============== -->
   <header class="site-header">
-    <div class="container">
-      <div class="site-header__top">
-        <a class="brand" href="${base}index.html">
-          <span class="brand__mark">AXIOM<em>·</em>AI</span>
-          <span class="brand__sub">Intelligence Daily</span>
-        </a>
-        <div class="site-header__right">
-        <div class="site-header__meta">
-          <span>東京</span>
-          <time>${dateLabel}</time>
-        </div>
-        <div class="site-header__tools">
-          <div class="hsearch">
-            <input type="search" id="site-search" class="hsearch__input" placeholder="記事を検索…" aria-label="サイト内検索" autocomplete="off" data-base="${base}">
-            <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
-          </div>
-          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="配色テーマを切り替え" title="配色テーマを切り替え" onclick="(function(d){var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}var b=document.getElementById('theme-toggle');if(b)b.textContent=n==='light'?'☀':'☾';})(document.documentElement)">☾</button>
-        </div>
+    <div class="container site-header__bar">
+      <a class="brand" href="${base}index.html">
+        <span class="brand__mark">AXIOM<em>·</em>AI</span>
+      </a>
+      <div class="site-header__tools">
+        <div class="hsearch">
+          <input type="search" id="site-search" class="hsearch__input" placeholder="検索" aria-label="サイト内検索" autocomplete="off" data-base="${base}">
+          <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
         </div>
       </div>
-      <nav class="site-nav" aria-label="主要セクション">
+    </div>
+    <nav class="site-nav" aria-label="主要セクション">
+      <div class="container">
         <ul class="site-nav__list">
 ${items}
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>`;
 }
 

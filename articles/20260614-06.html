@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500;600&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="alternate" type="application/rss+xml" title="AXIOM AI RSS" href="../feed.xml">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"Hugging Face、AIエージェント最適化のhf CLIを刷新","description":"Hugging Faceが、人間とAIエージェントの両方に対応する新しいコマンドラインツールhfを公開した。","datePublished":"2026-06-14T09:03:29.316Z","dateModified":"2026-06-14T09:03:29.316Z","inLanguage":"ja","articleSection":"研究","image":["https://huggingface.co/blog/assets/hf-cli-for-agents/thumbnail.png"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://axiom-ai-xi.vercel.app/articles/20260614-06.html"},"author":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}},"publisher":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}}}</script>
@@ -29,62 +29,21 @@
 </head>
 <body>
 
-  <!-- ============== TICKER ============== -->
-  <div class="ticker" role="region" aria-label="最新の見出し">
-    <div class="ticker__inner">
-      <div class="ticker__label">LIVE</div>
-      <div class="ticker__feed">
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-      </div>
-    </div>
-  </div>
-
   <!-- ============== HEADER ============== -->
   <header class="site-header">
-    <div class="container">
-      <div class="site-header__top">
-        <a class="brand" href="../index.html">
-          <span class="brand__mark">AXIOM<em>·</em>AI</span>
-          <span class="brand__sub">Intelligence Daily</span>
-        </a>
-        <div class="site-header__right">
-        <div class="site-header__meta">
-          <span>東京</span>
-          <time>2026年6月21日 日</time>
-        </div>
-        <div class="site-header__tools">
-          <div class="hsearch">
-            <input type="search" id="site-search" class="hsearch__input" placeholder="記事を検索…" aria-label="サイト内検索" autocomplete="off" data-base="../">
-            <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
-          </div>
-          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="配色テーマを切り替え" title="配色テーマを切り替え" onclick="(function(d){var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}var b=document.getElementById('theme-toggle');if(b)b.textContent=n==='light'?'☀':'☾';})(document.documentElement)">☾</button>
-        </div>
+    <div class="container site-header__bar">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark">AXIOM<em>·</em>AI</span>
+      </a>
+      <div class="site-header__tools">
+        <div class="hsearch">
+          <input type="search" id="site-search" class="hsearch__input" placeholder="検索" aria-label="サイト内検索" autocomplete="off" data-base="../">
+          <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
         </div>
       </div>
-      <nav class="site-nav" aria-label="主要セクション">
+    </div>
+    <nav class="site-nav" aria-label="主要セクション">
+      <div class="container">
         <ul class="site-nav__list">
           <li><a href="../index.html">トップ</a></li>
           <li><a href="../sections/foundation.html">基盤モデル</a></li>
@@ -95,12 +54,11 @@
           <li><a href="../sections/startups.html">スタートアップ</a></li>
           <li><a href="../sections/hardware.html">ハードウェア</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main>
-    <div class="container">
+  <main class="container container--narrow">
 
       <nav class="breadcrumb" aria-label="パンくず">
         <ol>
@@ -111,107 +69,70 @@
       </nav>
 
       <header class="article-head">
-        <div class="article-head__inner">
-          <div class="meta">
-            <span class="chip" style="--chip-hue:285">研究</span>
-            <span>2026.06.14 18:03</span>
-            <span>約1分で読めます</span>
-            <span>出典: Hugging Face</span>
-          </div>
-          <h1 class="article-headline">Hugging Face、AIエージェント最適化のhf CLIを刷新</h1>
-          <p class="article-lede">Hugging Faceが、人間とAIエージェントの両方に対応する新しいコマンドラインツールhfを公開した。</p>
-          <div class="article-byline">
-            <span>署名 <strong>AXIOM AI 編集部</strong></span>
-            <span>AI 自動要約 + 編集</span>
+        <div class="article-head__meta">
+          <span class="cat">研究</span>
+          <time datetime="2026-06-14T09:03:29.316Z">2026.06.14 18:03</time>
+          <span>約1分</span>
+          <span>出典: Hugging Face</span>
+        </div>
+        <h1 class="article-headline">Hugging Face、AIエージェント最適化のhf CLIを刷新</h1>
+        <p class="article-lede">Hugging Faceが、人間とAIエージェントの両方に対応する新しいコマンドラインツールhfを公開した。</p>
+        <div class="article-byline">
+          <span class="article-byline__by">AXIOM AI 編集部 — AI 自動要約 + 人手編集</span>
             <div class="article-share" aria-label="記事を共有">
               <a href="https://twitter.com/intent/tweet?text=Hugging%20Face%E3%80%81AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E6%9C%80%E9%81%A9%E5%8C%96%E3%81%AEhf%20CLI%E3%82%92%E5%88%B7%E6%96%B0&amp;url=https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260614-06.html" class="share-btn" target="_blank" rel="noopener" aria-label="X で共有">𝕏</a>
               <a href="https://b.hatena.ne.jp/entry/https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260614-06.html" class="share-btn" target="_blank" rel="noopener" aria-label="はてなブックマークに追加">B!</a>
               <button type="button" class="share-btn" aria-label="リンクをコピー" onclick="navigator.clipboard&&navigator.clipboard.writeText('https://axiom-ai-xi.vercel.app/articles/20260614-06.html').then(()=>{this.textContent='✓';setTimeout(()=>{this.textContent='⎘'},1200)})">⎘</button>
             </div>
-          </div>
         </div>
       </header>
 
       <figure class="article-hero">
-        <div class="thumb" role="img" aria-label="Hugging Face、AIエージェント最適化のhf CLIを刷新 の関連画像" style="aspect-ratio: 21 / 9; background-image: url('https://huggingface.co/blog/assets/hf-cli-for-agents/thumbnail.png'); background-size: cover; background-position: center;"></div>
-        <figcaption>Hugging Face、AIエージェント最適化のhf CLIを刷新<span style="color: var(--color-ink-2);"> — 提供: <a href="https://huggingface.co/blog/hf-cli-for-agents" target="_blank" rel="noopener">Hugging Face</a></span></figcaption>
+        <div class="article-hero__img" role="img" aria-label="Hugging Face、AIエージェント最適化のhf CLIを刷新 の関連画像" style="background-image: url('https://huggingface.co/blog/assets/hf-cli-for-agents/thumbnail.png')"></div>
+        <figcaption>提供: <a href="https://huggingface.co/blog/hf-cli-for-agents" target="_blank" rel="noopener">Hugging Face</a></figcaption>
       </figure>
 
-      <div class="article-body-grid">
-
-        <aside class="article-side-left">
-          <div class="author-card">
-            <div class="author-card__avatar" aria-hidden="true"></div>
-            <span class="author-card__name">AXIOM AI 編集部</span>
-            <span class="author-card__role">AI 自動要約 + 人手編集</span>
-            <p style="font-size: var(--text-xs); color: var(--color-ink-2); margin-top: var(--space-xs); line-height: 1.55;">本記事は AI が一次情報を取材・要約・論評し、編集方針に沿って生成しています。</p>
-          </div>
-        </aside>
-
-        <article class="prose">
+      <article class="prose">
 <p>Hugging Faceは、Hub上のモデルやリポジトリを操作する公式コマンドラインツール「hf」を、AIコーディングエージェント向けに最適化し直したと発表した。同社によると、2026年4月以降エージェント経由の利用が急増しており、Claude CodeとCodexだけで合わせて約8500万件のリクエストがあったという。</p>
 <p>新しいhfは、実行環境を自動で判別して出力を切り替える。人間には色付きの整形済みテーブルを、エージェントにはタブ区切りで省略のない構造化データを返す仕組みだ。コマンドは「リソース＋動詞」の一貫した形に整理され、次の操作を提案する補助や、確認待ちで止まらない「fail fast」な挙動、<code>--dry-run</code>によるプレビュー、<code>--exist-ok</code>を使った冪等な操作などが盛り込まれた。</p>
 <p>同社が18種類のHubタスクで検証したところ、Claude Codeでの成功率はCLI利用時94%で、非利用時の84%を上回った。トークン消費もcurlやPython SDKに比べて少なく、多段の操作では最大6倍の差が出たとしている。AIエージェントが日常的に開発ツールを使う時代を見据え、ツール側の設計をエージェント前提で見直す動きを示す事例といえる。</p>
 
-          <div class="callout" style="border-color: var(--color-accent);">
-            <h4>出典・元記事</h4>
+          <div class="callout">
+            <h2 class="callout__head">出典・元記事</h2>
             <p>本記事は下記の一次情報を AXIOM AI 編集部が要約・論評したものです。正確な詳細・最新情報は元記事をご確認ください。</p>
-            <p style="margin-top: var(--space-sm);">
-              <a href="https://huggingface.co/blog/hf-cli-for-agents" target="_blank" rel="noopener" style="font-weight: 600;">▶ Hugging Face の元記事を読む</a>
-            </p>
+            <p class="callout__link"><a href="https://huggingface.co/blog/hf-cli-for-agents" target="_blank" rel="noopener">Hugging Face の元記事を読む →</a></p>
           </div>
-        </article>
+      </article>
 
-        <aside class="article-side-right">
-          <div class="topics">
-            <h4>関連トピック</h4>
-            <ul>
-              <li><a href="../tags/Hugging%20Face.html">Hugging Face</a></li>
-              <li><a href="../tags/AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88.html">AIエージェント</a></li>
-              <li><a href="../tags/CLI.html">CLI</a></li>
-              <li><a href="../tags/%E9%96%8B%E7%99%BA%E3%83%84%E3%83%BC%E3%83%AB.html">開発ツール</a></li>
-              <li><a href="../tags/Claude%20Code.html">Claude Code</a></li>
-            </ul>
-          </div>
-        </aside>
+      <div class="topics">
+        <h2 class="topics__head">関連トピック</h2>
+        <ul>
+          <li><a href="../tags/Hugging%20Face.html">Hugging Face</a></li>
+          <li><a href="../tags/AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88.html">AIエージェント</a></li>
+          <li><a href="../tags/CLI.html">CLI</a></li>
+          <li><a href="../tags/%E9%96%8B%E7%99%BA%E3%83%84%E3%83%BC%E3%83%AB.html">開発ツール</a></li>
+          <li><a href="../tags/Claude%20Code.html">Claude Code</a></li>
+        </ul>
       </div>
 
-      <section class="section" aria-label="関連記事">
-        <header class="section__head">
-          <div class="section__title">
-            <span class="chip">関連</span>
-            <h2>あわせて読みたい</h2>
-          </div>
-          <a class="section__more" href="../index.html">トップに戻る</a>
-        </header>
-        <div class="cards">
-          <article class="card">
-            <a class="thumb-link" href="20260614-05.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH_SS.width-1300.png'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:285">研究</span>
-            <h3 class="card__headline"><a href="20260614-05.html">Google I/O 2026、動画生成「Gemini Omni」など発表</a></h3>
-            <p class="card__deck">Googleが開発者会議I/O 2026で動画生成モデルGemini Omniと高速モデルGemini 3.5 Flashを公開した。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: Google AI</span></div>
-          </article>
-
-          <article class="card">
-            <a class="thumb-link" href="20260614-03.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_herosocial.width-1300.png'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:285">研究</span>
-            <h3 class="card__headline"><a href="20260614-03.html">Google、新モデルGemini 3.5とOmniを公開</a></h3>
-            <p class="card__deck">Google I/O 2026でエージェント特化の3.5 Flashと動画生成Omniを発表した。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: Google AI</span></div>
-          </article>
-
-          <article class="card">
-            <a class="thumb-link" href="20260619-02.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxjb21wdXRlciUyMHNlY3VyaXR5JTIwbmV0d29ya3xlbnwxfDB8fHwxNzgxODE2NzY4fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:285">研究</span>
-            <h3 class="card__headline"><a href="20260619-02.html">AI研究エージェントの情報漏えいを測る新指標</a></h3>
-            <p class="card__deck">ServiceNowが、AI研究エージェントが検索履歴から機密を漏らすリスクを測る評価基準を公開した。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: Hugging Face</span></div>
-          </article>
-        </div>
+      <section class="related" aria-label="関連記事">
+        <h2 class="feed__head">あわせて読みたい</h2>
+        <ul class="feed-list">
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260614-05.html">Google I/O 2026、動画生成「Gemini Omni」など発表</a>
+            <span class="feed-item__cat">研究</span>
+          </li>
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260614-03.html">Google、新モデルGemini 3.5とOmniを公開</a>
+            <span class="feed-item__cat">研究</span>
+          </li>
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260619-02.html">AI研究エージェントの情報漏えいを測る新指標</a>
+            <span class="feed-item__cat">研究</span>
+          </li>
+        </ul>
       </section>
 
-    </div>
   </main>
 
   <!-- ============== FOOTER ============== -->

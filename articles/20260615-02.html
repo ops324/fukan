@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500;600&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="alternate" type="application/rss+xml" title="AXIOM AI RSS" href="../feed.xml">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"SpaceX上場が最大規模、AI企業のIPO競争過熱","description":"SpaceXが史上最大のIPOを達成し、OpenAIやAnthropicも追随観測。AI関連企業への資金集中が鮮明になっている。","datePublished":"2026-06-14T21:04:24.345Z","dateModified":"2026-06-14T21:04:24.345Z","inLanguage":"ja","articleSection":"スタートアップ","image":["https://images.unsplash.com/photo-1761233138997-44d9b002a08f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzdG9jayUyMGV4Y2hhbmdlJTIwdHJhZGluZyUyMGZsb29yfGVufDF8MHx8fDE3ODE0NzEwNjR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg&w=1200&q=70&auto=format&fit=crop"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://axiom-ai-xi.vercel.app/articles/20260615-02.html"},"author":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}},"publisher":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}}}</script>
@@ -29,62 +29,21 @@
 </head>
 <body>
 
-  <!-- ============== TICKER ============== -->
-  <div class="ticker" role="region" aria-label="最新の見出し">
-    <div class="ticker__inner">
-      <div class="ticker__label">LIVE</div>
-      <div class="ticker__feed">
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-      </div>
-    </div>
-  </div>
-
   <!-- ============== HEADER ============== -->
   <header class="site-header">
-    <div class="container">
-      <div class="site-header__top">
-        <a class="brand" href="../index.html">
-          <span class="brand__mark">AXIOM<em>·</em>AI</span>
-          <span class="brand__sub">Intelligence Daily</span>
-        </a>
-        <div class="site-header__right">
-        <div class="site-header__meta">
-          <span>東京</span>
-          <time>2026年6月21日 日</time>
-        </div>
-        <div class="site-header__tools">
-          <div class="hsearch">
-            <input type="search" id="site-search" class="hsearch__input" placeholder="記事を検索…" aria-label="サイト内検索" autocomplete="off" data-base="../">
-            <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
-          </div>
-          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="配色テーマを切り替え" title="配色テーマを切り替え" onclick="(function(d){var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}var b=document.getElementById('theme-toggle');if(b)b.textContent=n==='light'?'☀':'☾';})(document.documentElement)">☾</button>
-        </div>
+    <div class="container site-header__bar">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark">AXIOM<em>·</em>AI</span>
+      </a>
+      <div class="site-header__tools">
+        <div class="hsearch">
+          <input type="search" id="site-search" class="hsearch__input" placeholder="検索" aria-label="サイト内検索" autocomplete="off" data-base="../">
+          <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
         </div>
       </div>
-      <nav class="site-nav" aria-label="主要セクション">
+    </div>
+    <nav class="site-nav" aria-label="主要セクション">
+      <div class="container">
         <ul class="site-nav__list">
           <li><a href="../index.html">トップ</a></li>
           <li><a href="../sections/foundation.html">基盤モデル</a></li>
@@ -95,12 +54,11 @@
           <li><a href="../sections/startups.html" aria-current="page">スタートアップ</a></li>
           <li><a href="../sections/hardware.html">ハードウェア</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main>
-    <div class="container">
+  <main class="container container--narrow">
 
       <nav class="breadcrumb" aria-label="パンくず">
         <ol>
@@ -111,107 +69,70 @@
       </nav>
 
       <header class="article-head">
-        <div class="article-head__inner">
-          <div class="meta">
-            <span class="chip" style="--chip-hue:145">スタートアップ</span>
-            <span>2026.06.15 06:04</span>
-            <span>約1分で読めます</span>
-            <span>出典: TechCrunch</span>
-          </div>
-          <h1 class="article-headline">SpaceX上場が最大規模、AI企業のIPO競争過熱</h1>
-          <p class="article-lede">SpaceXが史上最大のIPOを達成し、OpenAIやAnthropicも追随観測。AI関連企業への資金集中が鮮明になっている。</p>
-          <div class="article-byline">
-            <span>署名 <strong>AXIOM AI 編集部</strong></span>
-            <span>AI 自動要約 + 編集</span>
+        <div class="article-head__meta">
+          <span class="cat">スタートアップ</span>
+          <time datetime="2026-06-14T21:04:24.345Z">2026.06.15 06:04</time>
+          <span>約1分</span>
+          <span>出典: TechCrunch</span>
+        </div>
+        <h1 class="article-headline">SpaceX上場が最大規模、AI企業のIPO競争過熱</h1>
+        <p class="article-lede">SpaceXが史上最大のIPOを達成し、OpenAIやAnthropicも追随観測。AI関連企業への資金集中が鮮明になっている。</p>
+        <div class="article-byline">
+          <span class="article-byline__by">AXIOM AI 編集部 — AI 自動要約 + 人手編集</span>
             <div class="article-share" aria-label="記事を共有">
               <a href="https://twitter.com/intent/tweet?text=SpaceX%E4%B8%8A%E5%A0%B4%E3%81%8C%E6%9C%80%E5%A4%A7%E8%A6%8F%E6%A8%A1%E3%80%81AI%E4%BC%81%E6%A5%AD%E3%81%AEIPO%E7%AB%B6%E4%BA%89%E9%81%8E%E7%86%B1&amp;url=https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260615-02.html" class="share-btn" target="_blank" rel="noopener" aria-label="X で共有">𝕏</a>
               <a href="https://b.hatena.ne.jp/entry/https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260615-02.html" class="share-btn" target="_blank" rel="noopener" aria-label="はてなブックマークに追加">B!</a>
               <button type="button" class="share-btn" aria-label="リンクをコピー" onclick="navigator.clipboard&&navigator.clipboard.writeText('https://axiom-ai-xi.vercel.app/articles/20260615-02.html').then(()=>{this.textContent='✓';setTimeout(()=>{this.textContent='⎘'},1200)})">⎘</button>
             </div>
-          </div>
         </div>
       </header>
 
       <figure class="article-hero">
-        <div class="thumb" role="img" aria-label="SpaceX上場が最大規模、AI企業のIPO競争過熱 のイメージ写真" style="aspect-ratio: 21 / 9; background-image: url('https://images.unsplash.com/photo-1761233138997-44d9b002a08f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzdG9jayUyMGV4Y2hhbmdlJTIwdHJhZGluZyUyMGZsb29yfGVufDF8MHx8fDE3ODE0NzEwNjR8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=1600&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;"></div>
-        <figcaption>SpaceX上場が最大規模、AI企業のIPO競争過熱<span style="color: var(--color-ink-2);"> — Photo: <a href="https://unsplash.com/@maxim_klimashin?utm_source=axiom_ai&amp;utm_medium=referral" target="_blank" rel="noopener">Maxim Klimashin</a> / Unsplash（イメージ写真）</span></figcaption>
+        <div class="article-hero__img" role="img" aria-label="SpaceX上場が最大規模、AI企業のIPO競争過熱 のイメージ写真" style="background-image: url('https://images.unsplash.com/photo-1761233138997-44d9b002a08f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzdG9jayUyMGV4Y2hhbmdlJTIwdHJhZGluZyUyMGZsb29yfGVufDF8MHx8fDE3ODE0NzEwNjR8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=1600&amp;q=70&amp;auto=format&amp;fit=crop')"></div>
+        <figcaption>Photo: <a href="https://unsplash.com/@maxim_klimashin?utm_source=axiom_ai&amp;utm_medium=referral" target="_blank" rel="noopener">Maxim Klimashin</a> / Unsplash（イメージ写真）</figcaption>
       </figure>
 
-      <div class="article-body-grid">
-
-        <aside class="article-side-left">
-          <div class="author-card">
-            <div class="author-card__avatar" aria-hidden="true"></div>
-            <span class="author-card__name">AXIOM AI 編集部</span>
-            <span class="author-card__role">AI 自動要約 + 人手編集</span>
-            <p style="font-size: var(--text-xs); color: var(--color-ink-2); margin-top: var(--space-xs); line-height: 1.55;">本記事は AI が一次情報を取材・要約・論評し、編集方針に沿って生成しています。</p>
-          </div>
-        </aside>
-
-        <article class="prose">
+      <article class="prose">
 <p>6月12日、SpaceXがナスダックに上場した。1株135ドルで約750億ドルを調達し、評価額は1.75兆ドルに達して株式市場史上最大のIPOとなった。初日に株価は急騰し、CEOのイーロン・マスク氏の資産を大きく押し上げた。TechCrunchによれば、この成功を受けてAI業界全体で上場の機運が一段と高まっている。</p>
 <p>OpenAIとAnthropicはいずれも非公開でIPOを申請済みとされ、両社の上場時期を巡る競争も指摘される。市場では従来の「FAANG」に代わり、Meta・Anthropic・NVIDIA・Google・OpenAI・SpaceXを指す「MANGOS」という呼称も登場した。さらに新興のQuantum SpaceがSPACで追随を狙うなど、周辺企業にも動きが広がっている。</p>
 <p>AIとディープテックへの資金集中は鮮明だが、調達できる資本には限りがあり、評価額の調整局面を警戒する声もある。大型上場が相次げば資金や人材の偏在が進む可能性もあり、過熱が続くかどうかは今後の決算と市況が試すことになる。</p>
 
-          <div class="callout" style="border-color: var(--color-accent);">
-            <h4>出典・元記事</h4>
+          <div class="callout">
+            <h2 class="callout__head">出典・元記事</h2>
             <p>本記事は下記の一次情報を AXIOM AI 編集部が要約・論評したものです。正確な詳細・最新情報は元記事をご確認ください。</p>
-            <p style="margin-top: var(--space-sm);">
-              <a href="https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/" target="_blank" rel="noopener" style="font-weight: 600;">▶ TechCrunch の元記事を読む</a>
-            </p>
+            <p class="callout__link"><a href="https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/" target="_blank" rel="noopener">TechCrunch の元記事を読む →</a></p>
           </div>
-        </article>
+      </article>
 
-        <aside class="article-side-right">
-          <div class="topics">
-            <h4>関連トピック</h4>
-            <ul>
-              <li><a href="../tags/IPO.html">IPO</a></li>
-              <li><a href="../tags/SpaceX.html">SpaceX</a></li>
-              <li><a href="../tags/OpenAI.html">OpenAI</a></li>
-              <li><a href="../tags/%E8%B3%87%E9%87%91%E8%AA%BF%E9%81%94.html">資金調達</a></li>
-              <li><a href="../tags/AI%E6%A0%AA.html">AI株</a></li>
-            </ul>
-          </div>
-        </aside>
+      <div class="topics">
+        <h2 class="topics__head">関連トピック</h2>
+        <ul>
+          <li><a href="../tags/IPO.html">IPO</a></li>
+          <li><a href="../tags/SpaceX.html">SpaceX</a></li>
+          <li><a href="../tags/OpenAI.html">OpenAI</a></li>
+          <li><a href="../tags/%E8%B3%87%E9%87%91%E8%AA%BF%E9%81%94.html">資金調達</a></li>
+          <li><a href="../tags/AI%E6%A0%AA.html">AI株</a></li>
+        </ul>
       </div>
 
-      <section class="section" aria-label="関連記事">
-        <header class="section__head">
-          <div class="section__title">
-            <span class="chip">関連</span>
-            <h2>あわせて読みたい</h2>
-          </div>
-          <a class="section__more" href="../index.html">トップに戻る</a>
-        </header>
-        <div class="cards">
-          <article class="card">
-            <a class="thumb-link" href="20260619-04.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1501324682324-0d8d7c4b9706?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBvZmZpY2UlMjBidWlsZGluZ3xlbnwxfDB8fHwxNzgxODM4NDI4fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:145">スタートアップ</span>
-            <h3 class="card__headline"><a href="20260619-04.html">OpenAI、IPO前にTransformer共同発明者を採用</a></h3>
-            <p class="card__deck">OpenAIがGoogle DeepMindのNoam Shazeer氏らをIPO準備期に相次ぎ獲得した。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: TechCrunch</span></div>
-          </article>
-
-          <article class="card">
-            <a class="thumb-link" href="20260613-05.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1614728263952-84ea256f9679?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzcGFjZWNyYWZ0JTIwcm9ja2V0JTIwc2t5fGVufDF8MHx8fDE3ODEyOTQzMzl8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:145">スタートアップ</span>
-            <h3 class="card__headline"><a href="20260613-05.html">SpaceXのIPOが史上最大規模で実施</a></h3>
-            <p class="card__deck">SpaceXは、555.6億株を1株あたり135ドルで公開し、750億ドルを調達する予定。これにより、イーロン・マスク氏は世界初の1兆ドル富豪となる可能性がある。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: TechCrunch</span></div>
-          </article>
-
-          <article class="card">
-            <a class="thumb-link" href="20260619-11.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MXwwfHx8MTc4MTg1OTk5Nnww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:145">スタートアップ</span>
-            <h3 class="card__headline"><a href="20260619-11.html">AI推論のBaseten、15億ドル調達と報道</a></h3>
-            <p class="card__deck">AI推論基盤のBasetenが評価額130億ドルで15億ドルの調達を進めると報じられた。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: TechCrunch</span></div>
-          </article>
-        </div>
+      <section class="related" aria-label="関連記事">
+        <h2 class="feed__head">あわせて読みたい</h2>
+        <ul class="feed-list">
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260619-04.html">OpenAI、IPO前にTransformer共同発明者を採用</a>
+            <span class="feed-item__cat">スタートアップ</span>
+          </li>
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260613-05.html">SpaceXのIPOが史上最大規模で実施</a>
+            <span class="feed-item__cat">スタートアップ</span>
+          </li>
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260619-11.html">AI推論のBaseten、15億ドル調達と報道</a>
+            <span class="feed-item__cat">スタートアップ</span>
+          </li>
+        </ul>
       </section>
 
-    </div>
   </main>
 
   <!-- ============== FOOTER ============== -->

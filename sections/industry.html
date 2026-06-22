@@ -21,69 +21,28 @@
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500;600&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="alternate" type="application/rss+xml" title="AXIOM AI RSS" href="../feed.xml">
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "325ab8c5bd8546bda7ab30baf1e01c9b"}'></script>
 </head>
 <body>
 
-  <!-- ============== TICKER ============== -->
-  <div class="ticker" role="region" aria-label="最新の見出し">
-    <div class="ticker__inner">
-      <div class="ticker__label">LIVE</div>
-      <div class="ticker__feed">
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-      </div>
-    </div>
-  </div>
-
   <!-- ============== HEADER ============== -->
   <header class="site-header">
-    <div class="container">
-      <div class="site-header__top">
-        <a class="brand" href="../index.html">
-          <span class="brand__mark">AXIOM<em>·</em>AI</span>
-          <span class="brand__sub">Intelligence Daily</span>
-        </a>
-        <div class="site-header__right">
-        <div class="site-header__meta">
-          <span>東京</span>
-          <time>2026年6月21日 日</time>
-        </div>
-        <div class="site-header__tools">
-          <div class="hsearch">
-            <input type="search" id="site-search" class="hsearch__input" placeholder="記事を検索…" aria-label="サイト内検索" autocomplete="off" data-base="../">
-            <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
-          </div>
-          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="配色テーマを切り替え" title="配色テーマを切り替え" onclick="(function(d){var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}var b=document.getElementById('theme-toggle');if(b)b.textContent=n==='light'?'☀':'☾';})(document.documentElement)">☾</button>
-        </div>
+    <div class="container site-header__bar">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark">AXIOM<em>·</em>AI</span>
+      </a>
+      <div class="site-header__tools">
+        <div class="hsearch">
+          <input type="search" id="site-search" class="hsearch__input" placeholder="検索" aria-label="サイト内検索" autocomplete="off" data-base="../">
+          <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
         </div>
       </div>
-      <nav class="site-nav" aria-label="主要セクション">
+    </div>
+    <nav class="site-nav" aria-label="主要セクション">
+      <div class="container">
         <ul class="site-nav__list">
           <li><a href="../index.html">トップ</a></li>
           <li><a href="../sections/foundation.html">基盤モデル</a></li>
@@ -94,260 +53,121 @@
           <li><a href="../sections/startups.html">スタートアップ</a></li>
           <li><a href="../sections/hardware.html">ハードウェア</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main class="container">
+  <main class="container container--narrow">
 
-    <header class="article-head" style="border: 0;">
-      <div class="article-head__inner">
-        <div class="meta"><span class="chip">セクション</span><span>20 記事</span></div>
-        <h1 class="article-headline">産業応用</h1>
-        <p class="article-lede">産業応用 に関する AXIOM AI 編集部のニュースと論評。</p>
-      </div>
+    <header class="page-head">
+      <span class="cat">セクション</span>
+      <h1 class="page-head__title">産業応用</h1>
+      <p class="page-head__lead">産業応用 に関する AXIOM AI 編集部のニュースと論評。（20 記事）</p>
     </header>
 
-    <section class="cards" aria-label="記事一覧">
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260617-04.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxwcm9ncmFtbWluZyUyMGNvZGUlMjBzY3JlZW58ZW58MXwwfHx8MTc4MTY4NzE1N3ww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260617-04.html">SpaceX、Cursor運営を600億ドルで買収合意</a></h3>
-        <p class="card__deck">SpaceXがAIコーディング「Cursor」のAnysphereを全株式600億ドルで取得すると発表した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.17</span>
-          <span>出典: ITmedia AI＋</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260617-03.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1678182451047-196f22a4143e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjYXJnbyUyMHNoaXBwaW5nJTIwcG9ydCUyMGNvbnRhaW5lcnN8ZW58MXwwfHx8MTc4MTY2NTQ1Mnww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260617-03.html">米政府指令でClaude最新2モデルが全面停止</a></h3>
-        <p class="card__deck">輸出管理を理由にAnthropicがFable 5とMythos 5を全世界で停止。AI調達の依存リスクが表面化した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.17</span>
-          <span>出典: ITmedia AI＋</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260616-03.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1520525003249-2b9cdda513bc?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjYXBpdG9sJTIwYnVpbGRpbmclMjB3YXNoaW5ndG9ufGVufDF8MHx8fDE3ODE1NzkwNzl8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260616-03.html">米政府がAnthropic最上位AIを輸出規制、提供一時停止</a></h3>
-        <p class="card__deck">Mythos 5とFable 5を全外国人向けに遮断する指令を受け、Anthropicは両モデルを全顧客向けに無効化した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.16</span>
-          <span>出典: The Verge</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260616-01.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1654588836793-c6babf14d254?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjaXJjdWl0JTIwYm9hcmQlMjBzZWN1cml0eSUyMGxvY2t8ZW58MXwwfHx8MTc4MTU1NzQ0Mnww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260616-01.html">米政府、Anthropicの最新AIに外国人アクセス禁止令</a></h3>
-        <p class="card__deck">米政府がFable 5とMythos 5への外国人アクセス停止を指示し、Anthropicは全顧客向けに両モデルを無効化した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.16</span>
-          <span>出典: The Verge</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260621-02.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzbWFydHBob25lJTIwbW9iaWxlJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzgxOTg5NjU1fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260621-02.html">リライアンス、5億人にAI通話エージェント展開へ</a></h3>
-        <p class="card__deck">インドのリライアンスが、5億人超のJio利用者向けにAIが通話へ参加する「Jio Call Agent」など一連のAIサービスを2026年内に投入する。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.20</span>
-          <span>出典: TechCrunch</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260620-11.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1690357737706-b421b193048a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBidWlsZGluZ3xlbnwxfDB8fHwxNzgxOTQ2NTI0fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260620-11.html">OpenAI法人営業責任者ゾフ氏、5カ月で再離脱</a></h3>
-        <p class="card__deck">OpenAIで法人向けAI営業を率いたバレット・ゾフ氏が、復帰から約5カ月で再び退社した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.19</span>
-          <span>出典: The Verge</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260620-02.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwYXBwJTIwc2NyZWVufGVufDF8MHx8fDE3ODE5MDMyMjZ8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260620-02.html">OpenAI、ChatGPTの広告テストを日本で開始</a></h3>
-        <p class="card__deck">無料とGoプランの成人ユーザーが対象。設定から非表示にでき、回答は広告に影響されないと説明。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.19</span>
-          <span>出典: ITmedia AI＋</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260619-03.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1480694313141-fce5e697ee25?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwYWR2ZXJ0aXNpbmclMjBzY3JlZW58ZW58MXwwfHx8MTc4MTgzODQyN3ww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260619-03.html">ChatGPT広告、日本でも開始 無料版とGoに表示</a></h3>
-        <p class="card__deck">OpenAIが日本でChatGPT広告のパイロットを開始。無料版と低価格プラン「Go」で表示する。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.19</span>
-          <span>出典: ITmedia AI＋</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260619-08.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1626785774573-4b799315345d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxncmFwaGljJTIwZGVzaWduJTIwY29tcHV0ZXJ8ZW58MXwwfHx8MTc4MTg1OTk5NXww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260619-08.html">Photoshop等にAIアシスタント、公開ベータ開始</a></h3>
-        <p class="card__deck">AdobeがCreative Cloud主要アプリに対話型AIアシスタントを搭載し公開ベータを始めた。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.18</span>
-          <span>出典: The Verge</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260618-05.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1513224502586-d1e602410265?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwdWx0cmFzb3VuZCUyMHNjYW5uZXJ8ZW58MXwwfHx8MTc4MTc3MzY5OHww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260618-05.html">Midjourney、全身超音波スキャナーで医療参入</a></h3>
-        <p class="card__deck">画像生成AIのMidjourneyが医療部門と初のハード製品を発表し、全身ボディスキャン事業に乗り出した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.18</span>
-          <span>出典: The Verge</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260617-05.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzZXJ2ZXIlMjByb29tJTIwZGF0YSUyMGNlbnRlcnxlbnwxfDB8fHwxNzgxODIwMjA3fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260617-05.html">日立、OpenAIと連携 Codexでレガシー刷新</a></h3>
-        <p class="card__deck">日立がOpenAIとの提携を本格化し、Codexによるレガシー刷新とサイバー防衛に乗り出す。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.17</span>
-          <span>出典: ITmedia AI＋</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260616-05.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1618060932014-4deda4932554?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxjeWJlciUyMHNlY3VyaXR5JTIwbmV0d29yayUyMGxvY2t8ZW58MXwwfHx8MTc4MTYwMDY0MHww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260616-05.html">ソフトバンク、OpenAI技術でAIセキュリティ診断</a></h3>
-        <p class="card__deck">OpenAIの「GPT-5.5 Cyber」を活用し、企業の脆弱性を発見・修復する「Patching as a Service」を発表した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.16</span>
-          <span>出典: ITmedia AI＋</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260615-04.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtYXJrZXQlMjByZXNlYXJjaCUyMGNoYXJ0cyUyMGRvY3VtZW50c3xlbnwxfDB8fHwxNzgxNDkyNjE5fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260615-04.html">Sakana AI、初の商用サービス「Marlin」</a></h3>
-        <p class="card__deck">Sakana AIがリサーチ業務に特化した初の商用AIサービス「Sakana Marlin」を6月15日に始めた。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.15</span>
-          <span>出典: ITmedia AI＋</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260615-01.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1614064548237-096f735f344f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxjb21wdXRlciUyMHNlY3VyaXR5JTIwcGFkbG9ja3xlbnwxfDB8fHwxNzgxNDcxMDYzfDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260615-01.html">中国流出懸念で米がAnthropic製AIを規制</a></h3>
-        <p class="card__deck">米政府はAnthropicの最先端モデルMythosの利用を米国民に限定するよう指示し、同社は両モデルを市場から撤回した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.15</span>
-          <span>出典: The Verge</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260621-07.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxncmFwaGljJTIwZGVzaWduJTIwY29tcHV0ZXJ8ZW58MXwwfHx8MTc4MjAxMTIyN3ww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260621-07.html">Adobe、Fireflyを刷新 作った素材を覚えるAIスタジオ</a></h3>
-        <p class="card__deck">Adobeが創作の文脈や素材を保持する新しいFireflyのAIスタジオをプライベートベータで公開した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.18</span>
-          <span>出典: The Verge</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260618-06.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1614508569207-3295ac89d75f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzZXJ2ZXIlMjByb29tJTIwZGF0YSUyMGNlbnRlcnxlbnwxfDB8fHwxNzgxNzczNjk5fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260618-06.html">Claudeで約45分の障害 「動かない」声相次ぐ</a></h3>
-        <p class="card__deck">Anthropicの対話AI「Claude」で約45分間の障害が発生し、応答停止や遅延の報告が相次いだ。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.18</span>
-          <span>出典: ITmedia AI＋</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260617-01.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1521410843026-323be9ead002?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzZWxmLWRyaXZpbmclMjBjYXIlMjBzZW5zb3JzJTIwcm9hZHxlbnwxfDB8fHwxNzgxNjQzODc0fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260617-01.html">自動運転の「フィジカルAI」、3社で分かれる設計思想</a></h3>
-        <p class="card__deck">Tesla・Waymo・NVIDIAが目指す物理世界向けAIは、学習方式と安全検証の考え方で大きく異なる。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.17</span>
-          <span>出典: ITmedia AI＋</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260613-07.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1517976487492-5750f3195933?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxyb2NrZXQlMjBsYXVuY2h8ZW58MXwwfHx8MTc4MTI5NDMzNnww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260613-07.html">SpaceX上場、史上最大のIPOで750億ドル調達</a></h3>
-        <p class="card__deck">SpaceXがNasdaqに上場し、IPO価格135ドルに対して初値150ドルを付け、時価総額は一時2兆ドルを超えた。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.13</span>
-          <span>出典: The Verge</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260613-08.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1737644467636-6b0053476bb2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxodW1hbm9pZCUyMHJvYm90JTIwZW5naW5lZXJpbmd8ZW58MXwwfHx8MTc4MTI5NDMzN3ww&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260613-08.html">ベゾス氏のAI企業Prometheus、120億ドルを調達</a></h3>
-        <p class="card__deck">Jeff Bezos氏が共同CEOを務めるPrometheusが120億ドルを調達し、評価額410億ドルで「汎用AIエンジニア」の開発を目指す。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.13</span>
-          <span>出典: The Verge</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260613-04.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1457364887197-9150188c107b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxyb2NrZXQlMjBsYXVuY2glMjBuaWdodHxlbnwxfDB8fHwxNzgxMjk0MzM4fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:180">産業応用</span>
-        <h3 class="card__headline"><a href="../articles/20260613-04.html">SpaceX上場で史上最大IPO、マスク氏が初の「兆ドル長者」に</a></h3>
-        <p class="card__deck">SpaceXがNasdaqに上場し時価総額約1.77兆ドルを記録、イーロン・マスク氏の資産が1兆ドルを突破した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.13</span>
-          <span>出典: The Verge</span>
-        </div>
-      </article>
+    <section class="feed" aria-label="記事一覧">
+      <ul class="feed-list">
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-17T09:05:57.359Z">2026.06.17</time>
+          <a class="feed-item__title" href="../articles/20260617-04.html">SpaceX、Cursor運営を600億ドルで買収合意</a>
+          <span class="feed-item__cat">出典: ITmedia AI＋</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-17T03:04:13.044Z">2026.06.17</time>
+          <a class="feed-item__title" href="../articles/20260617-03.html">米政府指令でClaude最新2モデルが全面停止</a>
+          <span class="feed-item__cat">出典: ITmedia AI＋</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-16T03:04:39.905Z">2026.06.16</time>
+          <a class="feed-item__title" href="../articles/20260616-03.html">米政府がAnthropic最上位AIを輸出規制、提供一時停止</a>
+          <span class="feed-item__cat">出典: The Verge</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-15T21:04:03.227Z">2026.06.16</time>
+          <a class="feed-item__title" href="../articles/20260616-01.html">米政府、Anthropicの最新AIに外国人アクセス禁止令</a>
+          <span class="feed-item__cat">出典: The Verge</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-19T15:23:28.000Z">2026.06.20</time>
+          <a class="feed-item__title" href="../articles/20260621-02.html">リライアンス、5億人にAI通話エージェント展開へ</a>
+          <span class="feed-item__cat">出典: TechCrunch</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-19T04:49:33.000Z">2026.06.19</time>
+          <a class="feed-item__title" href="../articles/20260620-11.html">OpenAI法人営業責任者ゾフ氏、5カ月で再離脱</a>
+          <span class="feed-item__cat">出典: The Verge</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-19T02:26:50.000Z">2026.06.19</time>
+          <a class="feed-item__title" href="../articles/20260620-02.html">OpenAI、ChatGPTの広告テストを日本で開始</a>
+          <span class="feed-item__cat">出典: ITmedia AI＋</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-19T00:23:56.000Z">2026.06.19</time>
+          <a class="feed-item__title" href="../articles/20260619-03.html">ChatGPT広告、日本でも開始 無料版とGoに表示</a>
+          <span class="feed-item__cat">出典: ITmedia AI＋</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-18T13:00:00.000Z">2026.06.18</time>
+          <a class="feed-item__title" href="../articles/20260619-08.html">Photoshop等にAIアシスタント、公開ベータ開始</a>
+          <span class="feed-item__cat">出典: The Verge</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-18T09:08:18.949Z">2026.06.18</time>
+          <a class="feed-item__title" href="../articles/20260618-05.html">Midjourney、全身超音波スキャナーで医療参入</a>
+          <span class="feed-item__cat">出典: The Verge</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-17T09:05:57.924Z">2026.06.17</time>
+          <a class="feed-item__title" href="../articles/20260617-05.html">日立、OpenAIと連携 Codexでレガシー刷新</a>
+          <span class="feed-item__cat">出典: ITmedia AI＋</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-16T09:04:01.149Z">2026.06.16</time>
+          <a class="feed-item__title" href="../articles/20260616-05.html">ソフトバンク、OpenAI技術でAIセキュリティ診断</a>
+          <span class="feed-item__cat">出典: ITmedia AI＋</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-15T03:03:39.417Z">2026.06.15</time>
+          <a class="feed-item__title" href="../articles/20260615-04.html">Sakana AI、初の商用サービス「Marlin」</a>
+          <span class="feed-item__cat">出典: ITmedia AI＋</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-14T21:04:23.718Z">2026.06.15</time>
+          <a class="feed-item__title" href="../articles/20260615-01.html">中国流出懸念で米がAnthropic製AIを規制</a>
+          <span class="feed-item__cat">出典: The Verge</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-18T13:00:00.000Z">2026.06.18</time>
+          <a class="feed-item__title" href="../articles/20260621-07.html">Adobe、Fireflyを刷新 作った素材を覚えるAIスタジオ</a>
+          <span class="feed-item__cat">出典: The Verge</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-18T09:08:19.505Z">2026.06.18</time>
+          <a class="feed-item__title" href="../articles/20260618-06.html">Claudeで約45分の障害 「動かない」声相次ぐ</a>
+          <span class="feed-item__cat">出典: ITmedia AI＋</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-16T21:04:34.565Z">2026.06.17</time>
+          <a class="feed-item__title" href="../articles/20260617-01.html">自動運転の「フィジカルAI」、3社で分かれる設計思想</a>
+          <span class="feed-item__cat">出典: ITmedia AI＋</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-12T17:59:08.949Z">2026.06.13</time>
+          <a class="feed-item__title" href="../articles/20260613-07.html">SpaceX上場、史上最大のIPOで750億ドル調達</a>
+          <span class="feed-item__cat">出典: The Verge</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-12T17:59:08.949Z">2026.06.13</time>
+          <a class="feed-item__title" href="../articles/20260613-08.html">ベゾス氏のAI企業Prometheus、120億ドルを調達</a>
+          <span class="feed-item__cat">出典: The Verge</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-12T17:42:45.990Z">2026.06.13</time>
+          <a class="feed-item__title" href="../articles/20260613-04.html">SpaceX上場で史上最大IPO、マスク氏が初の「兆ドル長者」に</a>
+          <span class="feed-item__cat">出典: The Verge</span>
+        </li>
+      </ul>
     </section>
 
   </main>

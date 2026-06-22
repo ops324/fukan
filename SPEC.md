@@ -67,9 +67,9 @@ AIニュースサイト/
 ├── feed.xsl                # 生成: feed.xml をブラウザで読み物表示する XSLT
 ├── search-index.json       # 生成: サイト内検索のクライアント用インデックス（直近 searchIndexMax 件）
 ├── assets/
-│   ├── styles.css          # デザイン（OKLCH トークン・全クラス・ライト/ダーク・影/質感/演出）
-│   ├── search.js           # サイト内検索＋テーマトグル絵文字の初期化（依存ゼロ）
-│   ├── reveal.js           # 読了プログレスバー＋段階リビール（依存ゼロ・JS無効でも本文表示）
+│   ├── styles.css          # デザイン（白基調ミニマル・トークン・全クラス・OS dark フォールバック）
+│   ├── search.js           # サイト内検索の初期化（依存ゼロ）
+│   ├── reveal.js           # 読了プログレスバー（依存ゼロ・装飾リビールは廃止）
 │   ├── og-default.jpg      # SNSシェア共通OG画像（1200×630）
 │   └── logo.png            # 構造化データ publisher.logo（512×512）
 ├── data/
@@ -87,7 +87,7 @@ AIニュースサイト/
 │   ├── fetchCandidates.js  # 候補を JSON 出力
 │   ├── fetchNews.js        # RSS/補助API 取得・重複排除・一次情報優先
 │   ├── ingestDrafts.js     # 下書き取込（採番・画像・保存・再生成）
-│   ├── fetchImage.js       # Unsplash/Pexels 画像（無ければ CSS サムネ）
+│   ├── fetchImage.js       # Unsplash/Pexels 画像（無ければ画像なし）
 │   ├── backfill-images.js  # 既存記事に実写真を一括付与（press画像は上書きしない）
 │   ├── set-press-image.js  # 公式プレス画像を特定記事へ手動登録（クレジット必須・上書き保護）
 │   ├── render.js           # 重要度序列・保持・アーカイブの描画統括（任意 outDir 対応）
@@ -96,9 +96,9 @@ AIニュースサイト/
 │   ├── store.js            # articles.json 読み書き・slug採番
 │   └── markdown.js         # md→html / エスケープ / 本文の生HTML・危険プロトコル無害化
 ├── templates/
-│   ├── layout.js           # ticker/header(ナビ・検索・テーマトグル)/footer/page 骨格・解析
-│   ├── cardbits.js         # 共有: サムネ thumb() / セクションチップ / tagHref() / optimizedUrl()
-│   ├── index.js            # トップ（＋メルマガ欄）
+│   ├── layout.js           # header(ナビ・検索)/footer/page 骨格・解析（ticker は空スタブ）
+│   ├── cardbits.js         # 共有: 中立カテゴリラベル sectionChip() / tagHref() / optimizedUrl()
+│   ├── index.js            # トップ（リード1本＋最新行リスト＋RSS購読）
 │   ├── article.js          # 記事詳細（読了時間・共有ボタン・関連記事）
 │   ├── section.js          # セクション別一覧
 │   ├── tag.js              # タグ別一覧 renderTag() / タグクラウド renderTagsIndex()
@@ -152,8 +152,8 @@ AIニュースサイト/
 | 一次情報優先 | フィードを `tier`（primary=企業公式 / media=報道）で区別。候補は primary を上位に。media の主張は Claude が WebSearch で裏取り。 | `config.rssFeeds[].tier` |
 | 重要度で選別 | Claude が候補を 1〜5 で採点し、閾値以上のみ・1回最大N本を掲載（床を越えた分だけ＝本数は可変）。類似トピックは1本に統合。網羅性のため話題・セクションを分散。 | `importanceFloor`=3, `maxArticles`=5, `candidatePool`=30 |
 | 並び・鮮度の基準日時 | 並び順・表示日時・鮮度判定は **`publishedAt`（出典の発行日時）優先・無ければ `createdAt`（取り込み時刻）** にフォールバック。取り込み時刻基準だと「昨日発行を今日取り込んだ記事」が新着扱いになる歪みを防ぐ。 | `render.js: effDate` |
-| 重要度で序列 | ヒーロー／注目記事カードを重要度順（同点は新しい順＝`publishedAt`基準）に配置。「最新記事」（タイムライン）と「セクション別の最新」（右レール）は時系列。 | `render.js: importanceThenRecency` |
-| ヒーローの鮮度ウィンドウ | トップ最上段（ヒーロー）は**直近 `heroRecencyHours` 時間内（`publishedAt`基準）の最重要記事**から選ぶ。古い高importance記事がトップに居座る停滞を防ぐ（ほぼ日次で入れ替わる）。ウィンドウ内に記事が無ければ全体の最重要をヒーローに（保険）。サイド/注目カードの重要度順は不変。 | `render.js`（featured 先頭差し替え）, `heroRecencyHours`=24 |
+| 重要度で序列 | トップ最上段の**リード1本**を重要度順（同点は新しい順＝`publishedAt`基準）で選ぶ。リード以下の「最新」は時系列の行リスト。 | `render.js: importanceThenRecency`, `templates/index.js` |
+| リードの鮮度ウィンドウ | トップ最上段（リード）は**直近 `heroRecencyHours` 時間内（`publishedAt`基準）の最重要記事**から選ぶ。古い高importance記事がトップに居座る停滞を防ぐ（ほぼ日次で入れ替わる）。ウィンドウ内に記事が無ければ全体の最重要をリードに（保険）。 | `render.js`（featured 先頭差し替え）, `heroRecencyHours`=24 |
 | AI関連度フィルタ | media tier 候補は `aiKeywords` のヒット数が閾値未満なら除外（primary 公式は常に通す）。 | `aiKeywords`, `relevanceFloorMedia`=1 |
 | 関連記事 | 「あわせて読みたい」はタグ共有×3＋同セクション×2 でスコアし上位3件。不足は重要度で補完。 | `render.js: relatedFor` |
 | 保持とアーカイブ | トップは最新 N 本。超過分は**月別アーカイブ**へ（`archive.html`＝月インデックス、`archive/YYYY-MM.html`＝各月一覧。記事増でも1ページが肥大しない）。月分けは `publishedAt` 基準。記事HTMLは全保持。 | `retentionTop`=40, `templates/archive.js` |
@@ -187,12 +187,13 @@ AIニュースサイト/
 5. **フォールバック** — **全キーワード候補が0ヒット**、またはキー未設定・APIエラー時のみ `{ fallbackThumb: "thumb--blue" 等 }` を返し、
    CSS 抽象グラデーションサムネを表示（デザイン崩れゼロ）。`npm run backfill-images` で後から実写真へ差し替え可能。
 
-**表示箇所**（画像は実写真。無ければ CSS 抽象サムネにフォールバック）
-- トップ: ヒーロー大画像＋注目カード（`templates/index.js` の `thumb()`）。
-- 記事詳細: アイキャッチ＋「あわせて読みたい」関連カード（`templates/article.js` の `thumb()`）。
-- ヒーロー横・最新タイムライン・セクション別の最新ナビ・関連トピックタグ: テキストのみ（画像なし）。
+**表示箇所**（白基調ミニマル方針：画像は実写真があるときのみ。抽象グラデのダミーサムネは描画しない）
+- トップ: リードに実写真があれば1枚（`templates/index.js: leadStory`）。最新の行リストはテキストのみ。
+- 記事詳細: アイキャッチ（実写真があるときのみ・`templates/article.js: heroFigure`）。
+- セクション/タグ/アーカイブ/関連記事: すべてテキストの行リスト（画像なし）。
+- ※ `fetchImage.js` はデータ上 `fallbackThumb` を返すことがあるが、テンプレートは参照しない（実写真のみ表示）。
 
-**サムネのクリック導線**: 一覧・カード・ヒーロー・関連記事のサムネ画像は**記事ページへのリンク**（`thumb()` に記事URLを渡すと `figure.thumb` を `<a class="thumb-link">` で包む）。見出しリンクと同一記事への重複リンクになるため、画像リンクは `tabindex="-1"` ＋ `aria-hidden="true"` で**マウス操作専用**とし、スクリーンリーダー／キーボードには出さない（読み上げ・タブ移動は見出しリンクのみ）。記事詳細ページのアイキャッチ（`heroFigure()` の `article-hero`）は**リンク化しない**（既に記事内のため）。
+**リードのクリック導線**: リードに画像があるとき、画像（`.lead__media`）は記事ページへのリンク。見出しリンクと同一記事への重複リンクになるため `tabindex="-1"` ＋ `aria-hidden="true"` で**マウス操作専用**とし、AT／キーボードには出さない（読み上げ・タブ移動は見出しリンクのみ）。記事詳細のアイキャッチは**リンク化しない**（既に記事内のため）。
 
 **画像クレジットの表示方針**: 一覧（カード・セクション・タグ・関連記事）には**クレジットを出さない**（見た目の情報過多を避ける）。クレジットは画像が大きく出る**記事ページ本体のアイキャッチ**（`article.js` の `heroFigure()` の figcaption）にのみ表示する。Unsplash ライセンスは帰属を「推奨（必須ではない）」とするため一覧省略でも準拠。プレス画像（`kind:'press'`）のクレジットは記事ページに必ず出る（`check.js` が credit を必須化）。
 
@@ -254,13 +255,13 @@ AIニュースサイト/
 |---|---|---|
 | タグページ | `tags/<タグ>.html`（UTF-8名）と `tags/index.html`（件数で大小をつけるタグクラウド）。記事内タグ・パンくずから辿れる。 | `templates/tag.js`, `render.js` |
 | 関連記事 | タグ／セクションの一致度で「あわせて読みたい」を選出。関連集合内で**被写体（`image_query` キーワード＋画像URL）を分散**させ、同種写真の並びを避ける（関連度は犠牲にしない＝無関係記事は混ぜない）。 | `render.js: relatedFor` / `pickDiverse` / `imgSig` |
-| 重要度の視覚強調 | `importance>=4` の記事は控えめなアクセント（注目カードは上端のアクセント線／最新タイムラインの行は左端のアクセント帯）を付与し、スキャン性を上げる（von Restorff 効果）。位置による階層（hero→サイド→注目カード→最新タイムライン）は従来どおり。 | `templates/cardbits.js: priorityClass`, `index.js`, `styles.css`（`.is-priority`） |
-| セクション色分け（道標） | 各セクションに固有のアクセント色相（`navSections[].hue`）を割り当て、記事チップ（`sectionChip`）を色分け。一覧でのセクション識別・回遊を助ける（wayfinding）。明度/彩度はテーマ別トークン（`--chip-l` / `--chip-c`）、色相のみ可変なのでライト/ダーク双方でコントラスト確保。 | `config.js: navSections.hue`, `templates/cardbits.js: sectionChip`, `styles.css`（`.chip`） |
+| 重要度で配置 | トップ最上段の**リード1本**を重要度順（鮮度窓つき）で選ぶ。リード以下の「最新」は時系列の行リスト。色や帯による強調は使わず、位置と型階層で序列を示す。 | `render.js: importanceThenRecency`, `templates/index.js` |
+| セクション表記 | 多色チップ（セクション別 hue）は**撤去**し、色を持たない中立のカテゴリ文字ラベル（`.cat` / 行リストの `feed-item__cat`）に統一。色信号の競合を避ける。 | `templates/cardbits.js: sectionChip`, `styles.css`（`.cat`） |
 | 記事体験 | 読了時間（≈400字/分）、公開時刻、機能する共有ボタン（X / はてブ / リンクコピー）。共有URLは `siteUrl` 基準の絶対パス。**読了プログレスバー**（本文 `.prose` のあるページに自動表示）。 | `templates/article.js`, `assets/reveal.js` |
-| 奥行き・演出 | 影トークン（`--shadow-sm/md/lg`・ライト/ダークで濃淡）、hover の**色付き影**（`--shadow-accent`）、紙の微細グレイン、ヒーローの極薄発光、カードの hover リフト＋画像ズーム、見出しの下線スライド、スクロールに応じた**段階リビール**。すべて `prefers-reduced-motion` で無効化。`js` クラスは `reveal.js` が付与するため **JS 無効/失敗でも本文・カードは常に表示**（プログレッシブエンハンスメント）。 | `assets/styles.css`（ENHANCEMENTS節）, `assets/reveal.js`, `layout.js` |
-| 角丸スケール | 罫線・チップは `--radius-sm`（2px・エディトリアルの硬さを維持）、操作UI（ボタン/入力/検索/トグル/タグ）は `--radius-md`（8px）、メディア（サムネ・サーフェス）は `--radius-lg`（12px）と用途別に分離。 | `assets/styles.css`（TOKENS節） |
-| アクセシビリティ・人間工学 | ダーク基調は**純黒×純白を避ける**（背景 `paper-0`=14%・本文 `ink-0`=93%で約16:1）ことでハレーションを低減。メタ／写真クレジットは `ink-2` で 5.9:1（WCAG AA 合格）。タップ領域はテーマトグル・ナビ各項目とも **44×44px 以上**。ティッカーは `prefers-reduced-motion` で停止＋**ホバー/フォーカスで一時停止**。 | `assets/styles.css`（TOKENS節・`.ticker`・`.theme-toggle`・`.site-nav`）, `templates/cardbits.js`・`article.js`（クレジット色） |
-| ライト/ダーク | ヘッダーのトグルで切替。`<head>` のインラインJSが localStorage／OS設定から `data-theme` を paint 前に適用（フラッシュ防止）。 | `styles.css` の `[data-theme="light"]`, `layout.js` |
+| ミニマル・演出 | 装飾演出（影・グレイン・発光・hover リフト＋画像ズーム・下線スライド・段階リビール）は**撤去**。動きは記事の読了プログレスバーのみ。対応ブラウザではページ遷移に控えめな View Transitions（`@view-transition`）。すべて `prefers-reduced-motion` で無効化。 | `assets/styles.css`, `assets/reveal.js` |
+| 角丸スケール | 単一の `--radius`（8px）に統一（用途別の硬軟分けは廃止）。 | `assets/styles.css`（TOKENS節） |
+| アクセシビリティ・人間工学 | 白基調で本文 `ink-0`／メタ `ink-2` とも WCAG AA 以上を確保。タップ領域はナビ各項目とも **44×44px 以上**。装飾モーションを持たず、唯一の動き（読了バー）も `prefers-reduced-motion` で停止。 | `assets/styles.css`（TOKENS節・`.site-nav`）, `templates/article.js`（クレジット色） |
+| ライト/ダーク | 既定はライト（白基調）。OS が dark のときのみ簡素なダークへフォールバック（トグルは廃止）。`<head>` のインラインJSが OS設定/localStorage から `data-theme` を paint 前に適用（フラッシュ防止）。 | `styles.css` の `[data-theme="dark"]`, `layout.js` |
 | サイト内検索 | `search-index.json`（直近 `searchIndexMax`=600 件）をクライアントで部分一致検索（見出し/タグ/セクション/リード重み付け、キーボード操作対応）。古い記事は月別アーカイブから辿る。追加依存なし。 | `assets/search.js`, `render.js`, `searchIndexMax` |
 | 画像最適化 | Unsplash 画像に配信パラメータ（`w/q/auto=format/fit=crop`）を付与＋`images.unsplash.com` を preconnect。CLS はサムネの `aspect-ratio` で抑制。 | `cardbits.js: optimizedUrl`, `layout.js` |
 | アナリティクス | `CF_BEACON_TOKEN` 設定時のみ Cloudflare Web Analytics（Cookieless・無料）の beacon を全ページに出力。未設定なら無出力。 | `config.analytics`, `layout.js` |
@@ -336,9 +337,7 @@ open index.html
 - **再描画は非決定的**: `feed.xml` の `lastBuildDate` と `sitemap.xml` の `lastmod` が毎回更新されるため、
   内容が同じでも `npm run render` のたびに差分が出る（＝差分＝変更ではない）。`npm run check` は
   この性質を踏まえ「2回描画して diff 空」方式は採らず、一時dirへの描画完走で健全性を判定する。
-- **左端整列（ガター不変条件）**: ロゴ／ナビ／速報バー／画像／見出し／カード／フッターは `.container`（`--site-gutter`：PC 32px・SP 20px）で左端を揃える。守るべき2点 ―
-  ① `.container` を入れ子で**二重に付けない**（ナビは `.site-nav` 単独、速報の内側行は `padding-block` のみ指定）。二重パディングや左右パディングの上書きで要素が右/左へずれる。
-  ② `.thumb` は `<figure>` のため**ブラウザ既定の左右マージン 40px を `figure { margin: 0 }` でリセット**する（外すと画像だけ 40px 右へずれて右側にはみ出す）。
+- **左端整列（ガター不変条件）**: ロゴ／ナビ／リード／最新リスト／フッターは `.container`（`--gutter`：24px・SP 18px、`--site-max` 760px）で左端を揃える。`.container` を入れ子で**二重に付けない**（ナビ行・ヘッダーバーはそれぞれ `.container` を1つだけ持つ）。
 - **ナビ**: ヘッダー各タブは `config.navSections` から `sections/<slug>.html` を生成・リンク（`render.js`）。
   記事0のセクションも空状態ページを生成する。記事のパンくず／タグはセクション・タグページへリンク済み。
   **フッターは実ページ（運営者情報/編集方針/お問い合わせ/プライバシー/利用規約/免責/RSS）へ接続済み**。

@@ -21,69 +21,28 @@
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500;600&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="alternate" type="application/rss+xml" title="AXIOM AI RSS" href="../feed.xml">
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "325ab8c5bd8546bda7ab30baf1e01c9b"}'></script>
 </head>
 <body>
 
-  <!-- ============== TICKER ============== -->
-  <div class="ticker" role="region" aria-label="最新の見出し">
-    <div class="ticker__inner">
-      <div class="ticker__label">LIVE</div>
-      <div class="ticker__feed">
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-      </div>
-    </div>
-  </div>
-
   <!-- ============== HEADER ============== -->
   <header class="site-header">
-    <div class="container">
-      <div class="site-header__top">
-        <a class="brand" href="../index.html">
-          <span class="brand__mark">AXIOM<em>·</em>AI</span>
-          <span class="brand__sub">Intelligence Daily</span>
-        </a>
-        <div class="site-header__right">
-        <div class="site-header__meta">
-          <span>東京</span>
-          <time>2026年6月21日 日</time>
-        </div>
-        <div class="site-header__tools">
-          <div class="hsearch">
-            <input type="search" id="site-search" class="hsearch__input" placeholder="記事を検索…" aria-label="サイト内検索" autocomplete="off" data-base="../">
-            <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
-          </div>
-          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="配色テーマを切り替え" title="配色テーマを切り替え" onclick="(function(d){var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}var b=document.getElementById('theme-toggle');if(b)b.textContent=n==='light'?'☀':'☾';})(document.documentElement)">☾</button>
-        </div>
+    <div class="container site-header__bar">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark">AXIOM<em>·</em>AI</span>
+      </a>
+      <div class="site-header__tools">
+        <div class="hsearch">
+          <input type="search" id="site-search" class="hsearch__input" placeholder="検索" aria-label="サイト内検索" autocomplete="off" data-base="../">
+          <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
         </div>
       </div>
-      <nav class="site-nav" aria-label="主要セクション">
+    </div>
+    <nav class="site-nav" aria-label="主要セクション">
+      <div class="container">
         <ul class="site-nav__list">
           <li><a href="../index.html">トップ</a></li>
           <li><a href="../sections/foundation.html">基盤モデル</a></li>
@@ -94,92 +53,51 @@
           <li><a href="../sections/startups.html">スタートアップ</a></li>
           <li><a href="../sections/hardware.html">ハードウェア</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main class="container">
+  <main class="container container--narrow">
 
-    <header class="article-head" style="border: 0;">
-      <div class="article-head__inner">
-        <div class="meta"><span class="chip">セクション</span><span>6 記事</span></div>
-        <h1 class="article-headline">規制・倫理</h1>
-        <p class="article-lede">規制・倫理 に関する AXIOM AI 編集部のニュースと論評。</p>
-      </div>
+    <header class="page-head">
+      <span class="cat">セクション</span>
+      <h1 class="page-head__title">規制・倫理</h1>
+      <p class="page-head__lead">規制・倫理 に関する AXIOM AI 編集部のニュースと論評。（6 記事）</p>
     </header>
 
-    <section class="cards" aria-label="記事一覧">
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260621-03.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1618609377864-68609b857e90?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMHJlY29yZGluZyUyMHN0dWRpb3xlbnwxfDB8fHwxNzgxOTg5NjU1fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:35">規制・倫理</span>
-        <h3 class="card__headline"><a href="../articles/20260621-03.html">The Atlantic、AI学習に使われた楽曲のDBを公開</a></h3>
-        <p class="card__deck">米The AtlanticがAIの音楽生成モデルの学習に使われた4つの楽曲データセットを、検索可能な形で公開した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.21</span>
-          <span>出典: The Verge</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260620-10.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1633265486064-086b219458ec?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxjeWJlciUyMHNlY3VyaXR5JTIwbG9ja3xlbnwxfDB8fHwxNzgxOTI0ODA5fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:35">規制・倫理</span>
-        <h3 class="card__headline"><a href="../articles/20260620-10.html">米政府、Anthropicのサイバー防御AI輸出を制限</a></h3>
-        <p class="card__deck">「Mythos」など2モデルの国外提供を規制、専門家は実効性に疑問を呈する。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.20</span>
-          <span>出典: TechCrunch</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260619-10.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzZW1pY29uZHVjdG9yJTIwbWFudWZhY3R1cmluZ3xlbnwxfDB8fHwxNzgxODU5OTk2fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:35">規制・倫理</span>
-        <h3 class="card__headline"><a href="../articles/20260619-10.html">米、ASML製EUV装置の中国流出を指摘</a></h3>
-        <p class="card__deck">米商務長官がASML製EUV露光装置の中国流出の可能性を指摘、ASMLは全面否定した。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.19</span>
-          <span>出典: TechCrunch</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260619-06.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1413882353314-73389f63b6fd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxwb3dlciUyMHRyYW5zbWlzc2lvbiUyMGxpbmVzfGVufDF8MHx8fDE3ODE4Mzg0Mjl8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:35">規制・倫理</span>
-        <h3 class="card__headline"><a href="../articles/20260619-06.html">米FERC、データセンターの送電接続を迅速化</a></h3>
-        <p class="card__deck">米FERCが大口需要家の系統接続を優先する命令を全会一致で決定。発電不足には未対応。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.19</span>
-          <span>出典: TechCrunch</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260620-12.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1746893737268-81fe686e6a51?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxkYXRhJTIwY2VudGVyJTIwc2VydmVyc3xlbnwxfDB8fHwxNzgxOTQ2NTI0fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:35">規制・倫理</span>
-        <h3 class="card__headline"><a href="../articles/20260620-12.html">データセンター規制支持のAmazon社員に懲戒調査</a></h3>
-        <p class="card__deck">シアトル市のデータセンター規制を市議会で支持した3人のAmazon社員が、社内調査と解雇の可能性を告げられた。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.19</span>
-          <span>出典: The Verge</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb-link" href="../articles/20260621-10.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwcHJpdmFjeSUyMHNlY3VyaXR5fGVufDF8MHx8fDE3ODIwMTEyMjl8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-        <span class="chip" style="--chip-hue:35">規制・倫理</span>
-        <h3 class="card__headline"><a href="../articles/20260621-10.html">Signalのウィテカー氏「AIチャットボットは友達ではない」</a></h3>
-        <p class="card__deck">Signal代表のウィテカー氏が、AIを擬人化せず統合に伴うプライバシーの危うさに警鐘を鳴らした。</p>
-        <div class="meta">
-          <span class="meta__author">AXIOM AI 編集部</span>
-          <span>2026.06.21</span>
-          <span>出典: TechCrunch</span>
-        </div>
-      </article>
+    <section class="feed" aria-label="記事一覧">
+      <ul class="feed-list">
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-20T18:46:48.000Z">2026.06.21</time>
+          <a class="feed-item__title" href="../articles/20260621-03.html">The Atlantic、AI学習に使われた楽曲のDBを公開</a>
+          <span class="feed-item__cat">出典: The Verge</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-19T22:40:14.000Z">2026.06.20</time>
+          <a class="feed-item__title" href="../articles/20260620-10.html">米政府、Anthropicのサイバー防御AI輸出を制限</a>
+          <span class="feed-item__cat">出典: TechCrunch</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-19T07:59:12.000Z">2026.06.19</time>
+          <a class="feed-item__title" href="../articles/20260619-10.html">米、ASML製EUV装置の中国流出を指摘</a>
+          <span class="feed-item__cat">出典: TechCrunch</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-18T17:49:23.000Z">2026.06.19</time>
+          <a class="feed-item__title" href="../articles/20260619-06.html">米FERC、データセンターの送電接続を迅速化</a>
+          <span class="feed-item__cat">出典: TechCrunch</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-18T16:00:00.000Z">2026.06.19</time>
+          <a class="feed-item__title" href="../articles/20260620-12.html">データセンター規制支持のAmazon社員に懲戒調査</a>
+          <span class="feed-item__cat">出典: The Verge</span>
+        </li>
+        <li class="feed-item">
+          <time class="feed-item__time" datetime="2026-06-20T20:32:29.000Z">2026.06.21</time>
+          <a class="feed-item__title" href="../articles/20260621-10.html">Signalのウィテカー氏「AIチャットボットは友達ではない」</a>
+          <span class="feed-item__cat">出典: TechCrunch</span>
+        </li>
+      </ul>
     </section>
 
   </main>

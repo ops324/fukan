@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500;600&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="alternate" type="application/rss+xml" title="AXIOM AI RSS" href="../feed.xml">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"Signalのウィテカー氏「AIチャットボットは友達ではない」","description":"Signal代表のウィテカー氏が、AIを擬人化せず統合に伴うプライバシーの危うさに警鐘を鳴らした。","datePublished":"2026-06-20T20:32:29.000Z","dateModified":"2026-06-21T03:07:09.234Z","inLanguage":"ja","articleSection":"規制・倫理","image":["https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwcHJpdmFjeSUyMHNlY3VyaXR5fGVufDF8MHx8fDE3ODIwMTEyMjl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg&w=1200&q=70&auto=format&fit=crop"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://axiom-ai-xi.vercel.app/articles/20260621-10.html"},"author":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}},"publisher":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}}}</script>
@@ -29,62 +29,21 @@
 </head>
 <body>
 
-  <!-- ============== TICKER ============== -->
-  <div class="ticker" role="region" aria-label="最新の見出し">
-    <div class="ticker__inner">
-      <div class="ticker__label">LIVE</div>
-      <div class="ticker__feed">
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-        <span class="ticker__item">Signalのウィテカー氏「AIチャットボットは友達ではない」</span>
-        <span class="ticker__item">The Atlantic、AI学習に使われた楽曲のDBを公開</span>
-        <span class="ticker__item">AlphaFold主導のジャンパー氏、Anthropicへ移籍</span>
-        <span class="ticker__item">米政府、Anthropicのサイバー防御AI輸出を制限</span>
-        <span class="ticker__item">GitHub、社内データ分析AI「Qubot」の知見を公開</span>
-        <span class="ticker__item">リライアンス、5億人にAI通話エージェント展開へ</span>
-        <span class="ticker__item">AWS、AIエージェント向けWeb検索を正式提供</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック解消を主張</span>
-        <span class="ticker__item">新興企業、LLMの計算ボトルネック克服を主張</span>
-        <span class="ticker__item">脳インターフェース治験が急増、実装者150人に</span>
-        <span class="ticker__item">理研、AI科学用スパコンを「理究」と命名 千利休に由来</span>
-        <span class="ticker__item">米、ASML製EUV装置の中国流出を指摘</span>
-      </div>
-    </div>
-  </div>
-
   <!-- ============== HEADER ============== -->
   <header class="site-header">
-    <div class="container">
-      <div class="site-header__top">
-        <a class="brand" href="../index.html">
-          <span class="brand__mark">AXIOM<em>·</em>AI</span>
-          <span class="brand__sub">Intelligence Daily</span>
-        </a>
-        <div class="site-header__right">
-        <div class="site-header__meta">
-          <span>東京</span>
-          <time>2026年6月21日 日</time>
-        </div>
-        <div class="site-header__tools">
-          <div class="hsearch">
-            <input type="search" id="site-search" class="hsearch__input" placeholder="記事を検索…" aria-label="サイト内検索" autocomplete="off" data-base="../">
-            <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
-          </div>
-          <button type="button" id="theme-toggle" class="theme-toggle" aria-label="配色テーマを切り替え" title="配色テーマを切り替え" onclick="(function(d){var n=d.getAttribute('data-theme')==='light'?'dark':'light';d.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}var b=document.getElementById('theme-toggle');if(b)b.textContent=n==='light'?'☀':'☾';})(document.documentElement)">☾</button>
-        </div>
+    <div class="container site-header__bar">
+      <a class="brand" href="../index.html">
+        <span class="brand__mark">AXIOM<em>·</em>AI</span>
+      </a>
+      <div class="site-header__tools">
+        <div class="hsearch">
+          <input type="search" id="site-search" class="hsearch__input" placeholder="検索" aria-label="サイト内検索" autocomplete="off" data-base="../">
+          <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
         </div>
       </div>
-      <nav class="site-nav" aria-label="主要セクション">
+    </div>
+    <nav class="site-nav" aria-label="主要セクション">
+      <div class="container">
         <ul class="site-nav__list">
           <li><a href="../index.html">トップ</a></li>
           <li><a href="../sections/foundation.html">基盤モデル</a></li>
@@ -95,12 +54,11 @@
           <li><a href="../sections/startups.html">スタートアップ</a></li>
           <li><a href="../sections/hardware.html">ハードウェア</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main>
-    <div class="container">
+  <main class="container container--narrow">
 
       <nav class="breadcrumb" aria-label="パンくず">
         <ol>
@@ -111,108 +69,71 @@
       </nav>
 
       <header class="article-head">
-        <div class="article-head__inner">
-          <div class="meta">
-            <span class="chip" style="--chip-hue:35">規制・倫理</span>
-            <span>2026.06.21 05:32</span>
-            <span>約1分で読めます</span>
-            <span>出典: TechCrunch</span>
-          </div>
-          <h1 class="article-headline">Signalのウィテカー氏「AIチャットボットは友達ではない」</h1>
-          <p class="article-lede">Signal代表のウィテカー氏が、AIを擬人化せず統合に伴うプライバシーの危うさに警鐘を鳴らした。</p>
-          <div class="article-byline">
-            <span>署名 <strong>AXIOM AI 編集部</strong></span>
-            <span>AI 自動要約 + 編集</span>
+        <div class="article-head__meta">
+          <span class="cat">規制・倫理</span>
+          <time datetime="2026-06-20T20:32:29.000Z">2026.06.21 05:32</time>
+          <span>約1分</span>
+          <span>出典: TechCrunch</span>
+        </div>
+        <h1 class="article-headline">Signalのウィテカー氏「AIチャットボットは友達ではない」</h1>
+        <p class="article-lede">Signal代表のウィテカー氏が、AIを擬人化せず統合に伴うプライバシーの危うさに警鐘を鳴らした。</p>
+        <div class="article-byline">
+          <span class="article-byline__by">AXIOM AI 編集部 — AI 自動要約 + 人手編集</span>
             <div class="article-share" aria-label="記事を共有">
               <a href="https://twitter.com/intent/tweet?text=Signal%E3%81%AE%E3%82%A6%E3%82%A3%E3%83%86%E3%82%AB%E3%83%BC%E6%B0%8F%E3%80%8CAI%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%83%9C%E3%83%83%E3%83%88%E3%81%AF%E5%8F%8B%E9%81%94%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84%E3%80%8D&amp;url=https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260621-10.html" class="share-btn" target="_blank" rel="noopener" aria-label="X で共有">𝕏</a>
               <a href="https://b.hatena.ne.jp/entry/https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260621-10.html" class="share-btn" target="_blank" rel="noopener" aria-label="はてなブックマークに追加">B!</a>
               <button type="button" class="share-btn" aria-label="リンクをコピー" onclick="navigator.clipboard&&navigator.clipboard.writeText('https://axiom-ai-xi.vercel.app/articles/20260621-10.html').then(()=>{this.textContent='✓';setTimeout(()=>{this.textContent='⎘'},1200)})">⎘</button>
             </div>
-          </div>
         </div>
       </header>
 
       <figure class="article-hero">
-        <div class="thumb" role="img" aria-label="Signalのウィテカー氏「AIチャットボットは友達ではない」 のイメージ写真" style="aspect-ratio: 21 / 9; background-image: url('https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwcHJpdmFjeSUyMHNlY3VyaXR5fGVufDF8MHx8fDE3ODIwMTEyMjl8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=1600&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;"></div>
-        <figcaption>Signalのウィテカー氏「AIチャットボットは友達ではない」<span style="color: var(--color-ink-2);"> — Photo: <a href="https://unsplash.com/@danny144?utm_source=axiom_ai&amp;utm_medium=referral" target="_blank" rel="noopener">Dan Nelson</a> / Unsplash（イメージ写真）</span></figcaption>
+        <div class="article-hero__img" role="img" aria-label="Signalのウィテカー氏「AIチャットボットは友達ではない」 のイメージ写真" style="background-image: url('https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwcHJpdmFjeSUyMHNlY3VyaXR5fGVufDF8MHx8fDE3ODIwMTEyMjl8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=1600&amp;q=70&amp;auto=format&amp;fit=crop')"></div>
+        <figcaption>Photo: <a href="https://unsplash.com/@danny144?utm_source=axiom_ai&amp;utm_medium=referral" target="_blank" rel="noopener">Dan Nelson</a> / Unsplash（イメージ写真）</figcaption>
       </figure>
 
-      <div class="article-body-grid">
-
-        <aside class="article-side-left">
-          <div class="author-card">
-            <div class="author-card__avatar" aria-hidden="true"></div>
-            <span class="author-card__name">AXIOM AI 編集部</span>
-            <span class="author-card__role">AI 自動要約 + 人手編集</span>
-            <p style="font-size: var(--text-xs); color: var(--color-ink-2); margin-top: var(--space-xs); line-height: 1.55;">本記事は AI が一次情報を取材・要約・論評し、編集方針に沿って生成しています。</p>
-          </div>
-        </aside>
-
-        <article class="prose">
+      <article class="prose">
 <p>暗号化メッセージアプリ「Signal」を運営するSignal財団のメレディス・ウィテカー代表が、BloombergのインタビューでAIチャットボットへの過信に警鐘を鳴らした。「これらはあなたの友達ではない。意識を持つ存在でもない」と述べ、対話AIを擬人化することへの懸念を示した。</p>
 <p>ウィテカー氏自身はAIの利用を文書の整形など最小限にとどめ、思考や執筆そのものを委ねることは避けているという。知的な営みをAIに明け渡すことへの警戒からだ。</p>
 <p>加えて、AIが買い物などを代行する構想にも触れ、そうしたサービスはクレジットカードやブラウザ、メッセージアプリ、住所、カレンダーなど広範なアクセスを必要とすると指摘。これを個人のセキュリティに対する「一種のバックドア」になりかねないと批判した。AIが生活の各サービスに深く組み込まれるほど、脆弱性が一点に集中するという見立てである。</p>
 <p>利便性を掲げてAIを生活へ統合する動きが加速するなか、その裏で進むデータ集約の危うさを問い直す指摘として注目される。</p>
 
-          <div class="callout" style="border-color: var(--color-accent);">
-            <h4>出典・元記事</h4>
+          <div class="callout">
+            <h2 class="callout__head">出典・元記事</h2>
             <p>本記事は下記の一次情報を AXIOM AI 編集部が要約・論評したものです。正確な詳細・最新情報は元記事をご確認ください。</p>
-            <p style="margin-top: var(--space-sm);">
-              <a href="https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/" target="_blank" rel="noopener" style="font-weight: 600;">▶ TechCrunch の元記事を読む</a>
-            </p>
+            <p class="callout__link"><a href="https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/" target="_blank" rel="noopener">TechCrunch の元記事を読む →</a></p>
           </div>
-        </article>
+      </article>
 
-        <aside class="article-side-right">
-          <div class="topics">
-            <h4>関連トピック</h4>
-            <ul>
-              <li><a href="../tags/Signal.html">Signal</a></li>
-              <li><a href="../tags/%E3%83%A1%E3%83%AC%E3%83%87%E3%82%A3%E3%82%B9%E3%83%BB%E3%82%A6%E3%82%A3%E3%83%86%E3%82%AB%E3%83%BC.html">メレディス・ウィテカー</a></li>
-              <li><a href="../tags/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC.html">プライバシー</a></li>
-              <li><a href="../tags/AI%E5%80%AB%E7%90%86.html">AI倫理</a></li>
-              <li><a href="../tags/%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%83%9C%E3%83%83%E3%83%88.html">チャットボット</a></li>
-            </ul>
-          </div>
-        </aside>
+      <div class="topics">
+        <h2 class="topics__head">関連トピック</h2>
+        <ul>
+          <li><a href="../tags/Signal.html">Signal</a></li>
+          <li><a href="../tags/%E3%83%A1%E3%83%AC%E3%83%87%E3%82%A3%E3%82%B9%E3%83%BB%E3%82%A6%E3%82%A3%E3%83%86%E3%82%AB%E3%83%BC.html">メレディス・ウィテカー</a></li>
+          <li><a href="../tags/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC.html">プライバシー</a></li>
+          <li><a href="../tags/AI%E5%80%AB%E7%90%86.html">AI倫理</a></li>
+          <li><a href="../tags/%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%83%9C%E3%83%83%E3%83%88.html">チャットボット</a></li>
+        </ul>
       </div>
 
-      <section class="section" aria-label="関連記事">
-        <header class="section__head">
-          <div class="section__title">
-            <span class="chip">関連</span>
-            <h2>あわせて読みたい</h2>
-          </div>
-          <a class="section__more" href="../index.html">トップに戻る</a>
-        </header>
-        <div class="cards">
-          <article class="card">
-            <a class="thumb-link" href="20260619-02.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxjb21wdXRlciUyMHNlY3VyaXR5JTIwbmV0d29ya3xlbnwxfDB8fHwxNzgxODE2NzY4fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:285">研究</span>
-            <h3 class="card__headline"><a href="20260619-02.html">AI研究エージェントの情報漏えいを測る新指標</a></h3>
-            <p class="card__deck">ServiceNowが、AI研究エージェントが検索履歴から機密を漏らすリスクを測る評価基準を公開した。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: Hugging Face</span></div>
-          </article>
-
-          <article class="card">
-            <a class="thumb-link" href="20260616-04.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwZ3JhZHVhdGlvbiUyMGNlcmVtb255fGVufDF8MHx8fDE3ODE1NzkwODB8MA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:145">スタートアップ</span>
-            <h3 class="card__headline"><a href="20260616-04.html">Google CEOの卒業式講演に抗議、約200人が退場</a></h3>
-            <p class="card__deck">スタンフォード大学の卒業式で、ピチャイ氏の登壇中に学生がGoogleの軍事・行政向けAI契約へ抗議した。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: TechCrunch</span></div>
-          </article>
-
-          <article class="card">
-            <a class="thumb-link" href="20260621-03.html" tabindex="-1" aria-hidden="true"><figure class="thumb" style="background-image: url('https://images.unsplash.com/photo-1618609377864-68609b857e90?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMHJlY29yZGluZyUyMHN0dWRpb3xlbnwxfDB8fHwxNzgxOTg5NjU1fDA&amp;ixlib=rb-4.1.0&amp;w=1280&amp;q=80&amp;fm=jpg&amp;w=800&amp;q=70&amp;auto=format&amp;fit=crop'); background-size: cover; background-position: center;" aria-hidden="true"></figure></a>
-            <span class="chip" style="--chip-hue:35">規制・倫理</span>
-            <h3 class="card__headline"><a href="20260621-03.html">The Atlantic、AI学習に使われた楽曲のDBを公開</a></h3>
-            <p class="card__deck">米The AtlanticがAIの音楽生成モデルの学習に使われた4つの楽曲データセットを、検索可能な形で公開した。</p>
-            <div class="meta"><span class="meta__author">AXIOM AI 編集部</span><span>出典: The Verge</span></div>
-          </article>
-        </div>
+      <section class="related" aria-label="関連記事">
+        <h2 class="feed__head">あわせて読みたい</h2>
+        <ul class="feed-list">
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260619-02.html">AI研究エージェントの情報漏えいを測る新指標</a>
+            <span class="feed-item__cat">研究</span>
+          </li>
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260616-04.html">Google CEOの卒業式講演に抗議、約200人が退場</a>
+            <span class="feed-item__cat">スタートアップ</span>
+          </li>
+          <li class="feed-item">
+            <a class="feed-item__title" href="20260621-03.html">The Atlantic、AI学習に使われた楽曲のDBを公開</a>
+            <span class="feed-item__cat">規制・倫理</span>
+          </li>
+        </ul>
       </section>
 
-    </div>
   </main>
 
   <!-- ============== FOOTER ============== -->
