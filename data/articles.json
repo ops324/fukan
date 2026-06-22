@@ -1,5 +1,113 @@
 [
   {
+    "slug": "20260623-01",
+    "headline": "AIチップのGroq、6.5億ドル調達 ネオクラウドに軸足",
+    "lead": "Nvidiaによる技術ライセンスと人材引き抜きを経て、Groqは6.5億ドルを調達しクラウド事業へ注力する。",
+    "body_markdown": "AI推論用半導体を手がけるGroqは6月22日、6.5億ドルの資金調達を確認した。新たな企業価値は非開示。同社は2025年9月の7.5億ドル調達時に69億ドルと評価されていた。背景には、2025年12月にNvidiaがGroqの技術について200億ドル規模の非独占ライセンス契約を結ぶと同時に、主要な人材を取り込んだ動きがある。これにより創業者でCEOのジョナサン・ロス氏や社長のサニー・マドラ氏らが退任した。買収には至らない一方で人材と技術を吸い上げる、いわゆる「非買収型の人材獲得」と呼ばれる取引だ。\n\nGroqに残ったダグ・ワイトマン氏が新CEOに就き、xAIやMetaを経たアラン・ライス氏をCOO、シンクレア・シュラー氏をCTO、ラケシュ・マルホトラ氏をCPOに据えるなど経営陣を再構築した。今後は自社の「ネオクラウド」事業に軸足を移す。同事業は北米・欧州・中東・アジア太平洋に13拠点のデータセンターを持ち、500万人を超える開発者と数千社のAI企業に利用され、週に数兆トークンを処理しているという。中核人材を抜かれた専業チップ企業が、自前のクラウド提供で生き残りを図る構図であり、推論インフラの競争激化を映す再起戦略といえる。調達した資金が人材の穴をどこまで埋められるかが当面の試金石となる。",
+    "tags": [
+      "Groq",
+      "資金調達",
+      "半導体",
+      "Nvidia",
+      "クラウド"
+    ],
+    "section": "ハードウェア",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+    "importance": 4,
+    "image_query": "circuit board chip",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxjaXJjdWl0JTIwYm9hcmQlMjBjaGlwfGVufDF8MHx8fDE3ODIxNjI2Nzd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Alexandre Debiève",
+      "profileUrl": "https://unsplash.com/@alexkixa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-22T21:11:17.813Z",
+    "publishedAt": "2026-06-22T20:13:58.000Z"
+  },
+  {
+    "slug": "20260623-02",
+    "headline": "Google DeepMind、A24に7500万ドル AI映像制作で提携",
+    "lead": "Google DeepMindが映画スタジオA24に7500万ドルを投じ、映画制作向けのAIツールを共同開発する。",
+    "body_markdown": "Google DeepMindは6月22日、独立系映画スタジオのA24に7500万ドルを投じ、映画制作向けのAIツールを共同開発すると発表した。同社はこれを技術企業と映画スタジオによる「初の試み」と位置づけ、物語づくりや作家性を支える新機能を、一線で活躍するアーティストの助言を得ながら開発するとしている。共同創業者でCEOのデミス・ハサビス氏は「アーティストを支える道具を作る最善の方法は、彼らと直接組むことだ」と述べた。A24は『エブリシング・エブリウェア・オール・アット・ワンス』『マーティ・スプリーム』などで知られ、ティモシー・シャラメ氏やアン・ハサウェイ氏らと組んできた実績を持つ。\n\n映像分野ではNetflixが2026年にベン・アフレック氏のAI制作ツール企業InterPositiveを買収し、Amazon傘下のMGMも2025年にAI制作部門を立ち上げるなど、大手の参入が続く。生成AIをめぐっては、制作現場の効率化やコスト削減への期待がある一方、俳優や脚本家の雇用・権利、作品の独自性をめぐる懸念も根強い。資金提供とツール開発を一体にし、アーティストと組む形を前面に出した今回の提携は、創作側の反発を和らげながら、実際の制作で使える道具へと橋渡しできるかが問われることになる。",
+    "tags": [
+      "Google DeepMind",
+      "A24",
+      "生成AI",
+      "映画",
+      "提携"
+    ],
+    "section": "産業応用",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+    "importance": 4,
+    "image_query": "movie film camera",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1621701816825-b5abfadae6c3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMGZpbG0lMjBjYW1lcmF8ZW58MXwwfHx8MTc4MjE2MjY3OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Billy Freeman",
+      "profileUrl": "https://unsplash.com/@billyfreeman?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-22T21:11:18.456Z",
+    "publishedAt": "2026-06-22T18:49:44.000Z"
+  },
+  {
+    "slug": "20260623-03",
+    "headline": "SpaceX、Reflection AIと計算契約 月1.5億ドルを供給",
+    "lead": "オープンソースのReflection AIが、SpaceXのデータセンターで月1.5億ドルの計算資源を確保した。",
+    "body_markdown": "TechCrunchによると、オープンソースのAI研究所Reflection AIは、SpaceXと計算資源の契約を結んだ。2026年7月1日から2029年まで月1.5億ドルを支払い、総額は63億ドルに上る。最初の3か月を過ぎれば、いずれの側も90日前の通知で契約を解除できる条項が付く。提供されるのは、SpaceXがテネシー州メンフィス近郊に持つデータセンター「Colossus 2」に置かれたNvidia最新チップ「GB300」と関連ハードウェアへの即時アクセスだ。Reflection AIは2024年に元Google DeepMindの研究者2人が設立し、独自に握り込まず学習済みの重みを公開するオープンウェイト戦略をとる。\n\n同社はこれを「公開済みとしては最大級のオープンAIインフラ投資の一つ」と説明する。ただSpaceXがAnthropicと結ぶ月12.5億ドル、Googleとの月9.2億ドルの契約に比べれば規模は小さい。いずれも2029年7月まで続くとされる。計算資源の確保がモデル開発の競争力を直接左右するなか、潤沢な資金を持つ大手だけでなくオープン陣営も、巨額の長期契約で基盤を押さえに動いた格好だ。短期での解約を認める条項は、価格や供給が変動しやすい計算市場での保険ともいえ、長期契約と柔軟性の両立を探る動きがうかがえる。",
+    "tags": [
+      "SpaceX",
+      "Reflection AI",
+      "データセンター",
+      "Nvidia",
+      "計算資源"
+    ],
+    "section": "スタートアップ",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+    "importance": 4,
+    "image_query": "data center servers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwY2VudGVyJTIwc2VydmVyc3xlbnwxfDB8fHwxNzgyMTYyNjc4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Taylor Vick",
+      "profileUrl": "https://unsplash.com/@tvick?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-22T21:11:18.894Z",
+    "publishedAt": "2026-06-22T16:51:29.000Z"
+  },
+  {
+    "slug": "20260623-04",
+    "headline": "Baidu、50言語対応OCR「PP-OCRv6」を無料公開",
+    "lead": "PaddlePaddle（Baidu）が50言語に対応する軽量OCRモデル「PP-OCRv6」をHugging Faceで公開した。",
+    "body_markdown": "Baiduの深層学習基盤PaddlePaddleは、文字認識（OCR）モデル「PP-OCRv6」をHugging Faceで公開した。文書やスクリーンショット、多言語画像、デジタル表示、産業用ラベル、看板の文字などを実環境で読み取ることを狙う。モデルは規模別に、tiny（パラメータ150万）、small（770万）、medium（3450万）の3種をそろえ、smallとmediumは簡体字・繁体字の中国語、英語、日本語、46のラテン文字系言語を含む50言語に対応する。共通の新バックボーンを採用し、規模をまたいで挙動をそろえた点も特徴だ。\n\n公式ベンチマークでは、mediumが検出のHmeanで86.2%、認識精度で83.2%を達成し、前世代のPP-OCRv5_serverと比べて検出で4.6ポイント、認識で5.1ポイント改善したという。多尺度の検出構造や認識器の改良など内部設計を見直した。モデルはsafetensorsやPaddle、ONNXの各形式で無償提供され、オンラインのデモも用意される。数千万規模の比較的小さなパラメータで多言語を実用精度で処理できる点は、端末側での動作や大量の文書処理での導入を後押しし、商用の有償サービスに頼らないオープンなOCR基盤の選択肢を広げる。",
+    "tags": [
+      "Baidu",
+      "OCR",
+      "オープンソース",
+      "多言語",
+      "Hugging Face"
+    ],
+    "section": "研究",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+    "importance": 3,
+    "image_query": "document scanner text",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1592496031762-230d5a32f6eb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkb2N1bWVudCUyMHNjYW5uZXIlMjB0ZXh0fGVufDF8MHx8fDE3ODIxNjI2Nzl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Morgan Housel",
+      "profileUrl": "https://unsplash.com/@morganhousel?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-22T21:11:19.662Z",
+    "publishedAt": "2026-06-22T13:18:56.000Z"
+  },
+  {
     "slug": "20260622-09",
     "headline": "小田急、踏切の取り残しをAI検知し列車を自動停止",
     "lead": "小田急電鉄が踏切カメラの映像をAIで解析し、取り残された人を検知して列車に停止信号を送る仕組みを4踏切で24時間運用に入れた。",

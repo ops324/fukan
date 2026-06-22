@@ -7,7 +7,39 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 22 Jun 2026 09:12:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 21:11:19 GMT</lastBuildDate>
+    <item>
+      <title>AIチップのGroq、6.5億ドル調達 ネオクラウドに軸足</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260623-01.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-01.html</guid>
+      <pubDate>Mon, 22 Jun 2026 20:13:58 GMT</pubDate>
+      <description>Nvidiaによる技術ライセンスと人材引き抜きを経て、Groqは6.5億ドルを調達しクラウド事業へ注力する。</description>
+      <category>ハードウェア</category>
+    </item>
+    <item>
+      <title>Google DeepMind、A24に7500万ドル AI映像制作で提携</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260623-02.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-02.html</guid>
+      <pubDate>Mon, 22 Jun 2026 18:49:44 GMT</pubDate>
+      <description>Google DeepMindが映画スタジオA24に7500万ドルを投じ、映画制作向けのAIツールを共同開発する。</description>
+      <category>産業応用</category>
+    </item>
+    <item>
+      <title>SpaceX、Reflection AIと計算契約 月1.5億ドルを供給</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260623-03.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-03.html</guid>
+      <pubDate>Mon, 22 Jun 2026 16:51:29 GMT</pubDate>
+      <description>オープンソースのReflection AIが、SpaceXのデータセンターで月1.5億ドルの計算資源を確保した。</description>
+      <category>スタートアップ</category>
+    </item>
+    <item>
+      <title>Baidu、50言語対応OCR「PP-OCRv6」を無料公開</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260623-04.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-04.html</guid>
+      <pubDate>Mon, 22 Jun 2026 13:18:56 GMT</pubDate>
+      <description>PaddlePaddle（Baidu）が50言語に対応する軽量OCRモデル「PP-OCRv6」をHugging Faceで公開した。</description>
+      <category>研究</category>
+    </item>
     <item>
       <title>小田急、踏切の取り残しをAI検知し列車を自動停止</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260622-09.html</link>
@@ -135,38 +167,6 @@
       <pubDate>Fri, 19 Jun 2026 12:10:00 GMT</pubDate>
       <description>米Subquadraticが計算量を抑える新方式を公開、研究者は独立した検証を求める。</description>
       <category>研究</category>
-    </item>
-    <item>
-      <title>新興企業、LLMの計算ボトルネック克服を主張</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260620-01.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260620-01.html</guid>
-      <pubDate>Fri, 19 Jun 2026 10:40:24 GMT</pubDate>
-      <description>Subquadraticがスパース注意で計算量を削減と主張。第三者評価は速度向上を示すも専門家は懐疑的。</description>
-      <category>研究</category>
-    </item>
-    <item>
-      <title>脳インターフェース治験が急増、実装者150人に</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260621-04.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260621-04.html</guid>
-      <pubDate>Fri, 19 Jun 2026 09:00:00 GMT</pubDate>
-      <description>ALS患者の発話を支える脳インターフェースの「最初のヘビーユーザー」の事例とともに、世界の治験参加者が急増している。</description>
-      <category>研究</category>
-    </item>
-    <item>
-      <title>理研、AI科学用スパコンを「理究」と命名 千利休に由来</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260621-08.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260621-08.html</guid>
-      <pubDate>Fri, 19 Jun 2026 08:00:51 GMT</pubDate>
-      <description>理化学研究所がAI for Science向けスパコンの名称を公募で「理究」（りきゅう）に決めた。</description>
-      <category>ハードウェア</category>
-    </item>
-    <item>
-      <title>米、ASML製EUV装置の中国流出を指摘</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260619-10.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260619-10.html</guid>
-      <pubDate>Fri, 19 Jun 2026 07:59:12 GMT</pubDate>
-      <description>米商務長官がASML製EUV露光装置の中国流出の可能性を指摘、ASMLは全面否定した。</description>
-      <category>規制・倫理</category>
     </item>
   </channel>
 </rss>
