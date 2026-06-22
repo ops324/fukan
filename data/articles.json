@@ -1,5 +1,113 @@
 [
   {
+    "slug": "20260622-09",
+    "headline": "小田急、踏切の取り残しをAI検知し列車を自動停止",
+    "lead": "小田急電鉄が踏切カメラの映像をAIで解析し、取り残された人を検知して列車に停止信号を送る仕組みを4踏切で24時間運用に入れた。",
+    "body_markdown": "小田急電鉄は、踏切の監視カメラ映像をAIで解析し、人や自動車・自転車・バイクなどをリアルタイムに判別して検知する映像解析システムを実運用に移した。遮断機が降りた後に踏切内へ取り残された人を検知すると、信号設備と連動して接近する列車に停止信号を発し、同時に乗務員へ危険を知らせてブレーキ操作を促す。すでに小田急線内の4カ所の踏切で24時間体制で稼働している。収集した映像データは目的外には使わず、約1年後に適切な方法で廃棄するという。\n\n踏切の安全対策はこれまで非常ボタンの押下や係員の目視に頼る部分が大きかった。カメラ映像の判別を信号設備と連動させ、人の通報を待たずに列車側へ停止信号を送る仕組みは、危険の察知から制動までの時間短縮につながりうる。一方で、誤検知による不要な停止や、悪天候・逆光下での判別精度は運用の鍵となる。限定区間とはいえ実環境での24時間運用に踏み込んだ事例であり、鉄道分野のAI活用が安全性向上にどこまで寄与するかを占う材料になりそうだ。",
+    "tags": [
+      "小田急電鉄",
+      "踏切安全",
+      "映像解析",
+      "鉄道",
+      "AI実用化"
+    ],
+    "section": "産業応用",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/articles/2606/22/news125.html",
+    "importance": 4,
+    "image_query": "railroad crossing train",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1505804363897-fc0d2b6bbf51?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxyYWlscm9hZCUyMGNyb3NzaW5nfGVufDF8MHx8fDE3ODIxMTkzNjV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jad Limcaco",
+      "profileUrl": "https://unsplash.com/@jadlimcaco?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-22T09:09:23.301Z",
+    "publishedAt": "2026-06-22T07:38:00.000Z"
+  },
+  {
+    "slug": "20260622-10",
+    "headline": "Ai2、言語指示で3D動作を予測する「MolmoMotion」公開",
+    "lead": "米Ai2が、映像と言語指示から物体の3D動作軌道を予測するモデルとデータセットを公開。ロボットの把持成功率を大きく高めた。",
+    "body_markdown": "米アレン人工知能研究所（Ai2）は、1枚の映像フレームと物体上の3D点、文章による動作指示を入力すると、その点が数秒先にどこへ動くかを3次元空間で予測するモデル「MolmoMotion」を公開した。映像全体を生成するのではなく、物体に紐づく点の将来座標を疎な軌道として出力する点が特徴で、言語理解の基盤には同研究所の「Molmo 2」を用いる。経路が定まる場合向けの自己回帰版と、不確実な未来向けのフローマッチング版の2種類を備える。\n\nあわせて、736種の動作・約5600物体を含む116万本の動画データセット「MolmoMotion-1M」と、人手で検証した評価基準「PointMotionBench」も公開した。同ベンチマークで既存手法を上回り、ロボットの把持・配置タスクでは成功率が56.0%から76.3%へ向上したと報告している。動作予測を言語で制御できる仕組みは、ロボット制御や動画生成への応用余地が大きい。学習データとモデルの重みをあわせて公開した点も、再現や検証を進めるうえで意義は小さくない。",
+    "tags": [
+      "Ai2",
+      "動作予測",
+      "ロボティクス",
+      "オープンモデル",
+      "データセット"
+    ],
+    "section": "研究",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/allenai/molmomotion",
+    "importance": 4,
+    "image_query": "robot arm laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1715059250871-08786b8a884a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxyb2JvdCUyMGFybSUyMGxhYm9yYXRvcnl8ZW58MXwwfHx8MTc4MjExOTM5NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jakub Żerdzicki",
+      "profileUrl": "https://unsplash.com/@jakubzerdzicki?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-22T09:09:52.756Z",
+    "publishedAt": "2026-06-17T15:26:44.000Z"
+  },
+  {
+    "slug": "20260622-11",
+    "headline": "AI学習に使われた楽曲へ対価を 帰属技術の模索進む",
+    "lead": "音楽のAI学習利用に応じて作り手へ対価を払う「帰属（アトリビューション）」技術の整備が、企業や著作権団体の間で動き出している。",
+    "body_markdown": "生成AIの学習に使われた楽曲に対し、作り手へどう報いるかという「帰属（アトリビューション）」の取り組みが広がっている。米IEEE Spectrumによると、スタートアップのSureelは音楽ファイルに権利者の意思を示すラベルを付け、AI企業が学習に自由に使ってよいか、影響度を制限するか、まったく使わせないかを指定できるようにする。学習での利用状況を追跡し、それに応じてライセンス料を算定する仕組みだ。SureelはWarner Music Groupに買収され、スウェーデンの著作権団体STIMと連携して報酬の枠組みを探っている。\n\n別のSoundVerseは一度きりの買い取りを否定し、出力のたびに寄与の大きい学習データへ継続的に報いるべきだと主張する。一方でSourceAudioのドリュー・シルバースタイン氏は「帰属はAIでは欠陥がある」として、年額などで固定した個別契約を支持する。学習データの寄与をどこまで因果として測れるかは未解決で、制度設計次第では創作の多様性を促しもすれば、容易に悪用もされうる。著作権訴訟が和解的な個別契約へ移りつつある今、業界の規範を左右する論点だ。",
+    "tags": [
+      "著作権",
+      "音楽",
+      "学習データ",
+      "アトリビューション",
+      "AI倫理"
+    ],
+    "section": "規制・倫理",
+    "source": "IEEE Spectrum",
+    "link": "https://spectrum.ieee.org/ai-music-attribution",
+    "importance": 4,
+    "image_query": "music recording studio",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1559732277-7453b141e3a1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxtdXNpYyUyMHJlY29yZGluZyUyMHN0dWRpb3xlbnwxfDB8fHwxNzgyMTE5NDIyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jesman fabio",
+      "profileUrl": "https://unsplash.com/@jesmanfabio?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-22T09:10:20.564Z",
+    "publishedAt": "2026-06-17T15:04:23.000Z"
+  },
+  {
+    "slug": "20260622-12",
+    "headline": "HF、自前ツールでの「エージェント性」を測る評価手法",
+    "lead": "Hugging Faceが、AIエージェントがライブラリをどれだけ使いこなせるかを成功率と労力の両面で測る評価ハーネスを公開した。",
+    "body_markdown": "Hugging Faceは、AIコーディングエージェントが特定のソフトウェアライブラリをどれだけ使いこなせるかを測る評価ハーネス「agent-eval」を公開した。成功したかどうかだけでなく、要したトークン量や時間、対話の回数といった「労力」も計測する。ライブラリの提供形態を、ライブラリ単体、ソース一式、ドキュメントや例をまとめた「スキル」の3段階に分け、CLIとコードのどちらを使ったかなどAPIの使われ方の違いも追跡する。\n\n自社のTransformersに新しいCLIと「スキル」を加えた事例では、大型モデルでは作業が速くなった一方、小型モデルではかえって混乱を招く場合があった。たとえばQwen3-14Bでは、ある分類タスクの正答率が100%から0%へ落ちる事象も観測されたという。検証ではKimi-K2.6やGLM-5.1などの大型モデルと、Qwen3-4Bなどの小型モデルを比較した。結論は「エージェント向けのAPIはモデル規模をまたいで評価すべきだ」というもので、強いモデルの手間を減らす機能が、弱いモデルには曖昧さを増やしうると指摘する。ツールを提供する側の設計指針として示唆に富む。",
+    "tags": [
+      "Hugging Face",
+      "AIエージェント",
+      "ベンチマーク",
+      "開発ツール",
+      "オープンモデル"
+    ],
+    "section": "開発",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/is-it-agentic-enough",
+    "importance": 3,
+    "image_query": "programming code screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxyZWd1bGF0aW9uJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzgyMTE5NTMwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Adi Goldstein",
+      "profileUrl": "https://unsplash.com/@adigold1?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-22T09:12:08.661Z",
+    "publishedAt": "2026-06-18T00:00:00.000Z"
+  },
+  {
     "slug": "20260622-06",
     "headline": "OpenAI、新職種「FDE」の実態語る 「仕事の7割が消滅」も",
     "lead": "OpenAIのフォワード・デプロイド・エンジニアリング統括が、新職種FDEの急速な変容を語った。",

@@ -7,7 +7,15 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 22 Jun 2026 06:32:07 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 09:12:08 GMT</lastBuildDate>
+    <item>
+      <title>小田急、踏切の取り残しをAI検知し列車を自動停止</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260622-09.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260622-09.html</guid>
+      <pubDate>Mon, 22 Jun 2026 07:38:00 GMT</pubDate>
+      <description>小田急電鉄が踏切カメラの映像をAIで解析し、取り残された人を検知して列車に停止信号を送る仕組みを4踏切で24時間運用に入れた。</description>
+      <category>産業応用</category>
+    </item>
     <item>
       <title>NVIDIA、45度の液冷でAIサーバー刷新 電力と水を削減</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260622-04.html</link>
@@ -159,14 +167,6 @@
       <pubDate>Fri, 19 Jun 2026 07:59:12 GMT</pubDate>
       <description>米商務長官がASML製EUV露光装置の中国流出の可能性を指摘、ASMLは全面否定した。</description>
       <category>規制・倫理</category>
-    </item>
-    <item>
-      <title>GMO、中国Unitreeの人型ロボ国内代理店に</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260620-03.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260620-03.html</guid>
-      <pubDate>Fri, 19 Jun 2026 07:16:24 GMT</pubDate>
-      <description>販売から導入・保守まで一気通貫で支援。Unitreeは人型ロボの世界シェア約4割を握る。</description>
-      <category>ハードウェア</category>
     </item>
   </channel>
 </rss>
