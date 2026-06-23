@@ -7,7 +7,31 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 23 Jun 2026 03:11:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 09:08:03 GMT</lastBuildDate>
+    <item>
+      <title>業務AI利用者の37.8%「禁止されても使い続ける」</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260623-14.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-14.html</guid>
+      <pubDate>Tue, 23 Jun 2026 08:18:44 GMT</pubDate>
+      <description>調査で、業務でAIを使う人の37.8%が勤務先に禁止されても利用を続ける意向を示した。</description>
+      <category>産業応用</category>
+    </item>
+    <item>
+      <title>Sakana AIの新「Fugu」、料金ドル建ての理由</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260623-13.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-13.html</guid>
+      <pubDate>Tue, 23 Jun 2026 07:34:00 GMT</pubDate>
+      <description>Sakana AIがマルチエージェントAI「Sakana Fugu」を発表し、料金をドル建てとした理由を説明した。</description>
+      <category>スタートアップ</category>
+    </item>
+    <item>
+      <title>AIを理由に挙げる大手テックの人員削減が拡大</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260623-12.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-12.html</guid>
+      <pubDate>Tue, 23 Jun 2026 01:27:55 GMT</pubDate>
+      <description>2026年、AIを理由に挙げる大手テックの人員削減が相次ぎ、OracleやAmazonで大規模な整理が報じられた。</description>
+      <category>規制・倫理</category>
+    </item>
     <item>
       <title>ダイハツ、アルミ部品の穴内部キズ検査をAI自動化</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260623-07.html</link>
@@ -73,6 +97,22 @@
       <category>研究</category>
     </item>
     <item>
+      <title>欧州初エクサ級スパコン「JUPITER」、科学で成果</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260623-11.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-11.html</guid>
+      <pubDate>Mon, 22 Jun 2026 13:00:48 GMT</pubDate>
+      <description>独ユーリッヒ研究所の欧州初エクサスケール機「JUPITER」が、気候・脳科学・量子計算で記録的成果を示した。</description>
+      <category>ハードウェア</category>
+    </item>
+    <item>
+      <title>OpenAI、OSSの脆弱性修正を支援する新施策</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260623-10.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-10.html</guid>
+      <pubDate>Mon, 22 Jun 2026 10:00:00 GMT</pubDate>
+      <description>OpenAIがTrail of Bitsと連携し、AIと専門家でOSSの脆弱性を発見・修正する取り組みを始めた。</description>
+      <category>開発</category>
+    </item>
+    <item>
       <title>OpenAI、脆弱性検出AI「Daybreak」を拡張</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260623-05.html</link>
       <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-05.html</guid>
@@ -127,46 +167,6 @@
       <pubDate>Sun, 21 Jun 2026 23:00:00 GMT</pubDate>
       <description>サムスン電子がChatGPT EnterpriseとCodexを従業員へ展開。OpenAIにとって最大級の企業導入となる。</description>
       <category>基盤モデル</category>
-    </item>
-    <item>
-      <title>米政権、Anthropicへ輸出規制 2モデルを一時停止</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260622-03.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260622-03.html</guid>
-      <pubDate>Sun, 21 Jun 2026 15:28:17 GMT</pubDate>
-      <description>トランプ政権が安全保障を理由にAnthropicへ輸出規制を発動。2つのモデルが停止し、業界への影響が議論されている。</description>
-      <category>規制・倫理</category>
-    </item>
-    <item>
-      <title>iOS 27、Siri以外にも実用AI 割り勘やパスワード更新を自動化</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260622-08.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260622-08.html</guid>
-      <pubDate>Sun, 21 Jun 2026 14:40:28 GMT</pubDate>
-      <description>AppleがWWDCで公開したiOS 27は、Siri刷新以外にも日常作業を助けるAI機能を多数備える。</description>
-      <category>ハードウェア</category>
-    </item>
-    <item>
-      <title>Signalのウィテカー氏「AIチャットボットは友達ではない」</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260621-10.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260621-10.html</guid>
-      <pubDate>Sat, 20 Jun 2026 20:32:29 GMT</pubDate>
-      <description>Signal代表のウィテカー氏が、AIを擬人化せず統合に伴うプライバシーの危うさに警鐘を鳴らした。</description>
-      <category>規制・倫理</category>
-    </item>
-    <item>
-      <title>The Atlantic、AI学習に使われた楽曲のDBを公開</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260621-03.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260621-03.html</guid>
-      <pubDate>Sat, 20 Jun 2026 18:46:48 GMT</pubDate>
-      <description>米The AtlanticがAIの音楽生成モデルの学習に使われた4つの楽曲データセットを、検索可能な形で公開した。</description>
-      <category>規制・倫理</category>
-    </item>
-    <item>
-      <title>AlphaFold主導のジャンパー氏、Anthropicへ移籍</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260621-01.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260621-01.html</guid>
-      <pubDate>Sat, 20 Jun 2026 16:39:57 GMT</pubDate>
-      <description>ノーベル化学賞受賞者でAlphaFoldを率いたジョン・ジャンパー氏が、約9年在籍したGoogle DeepMindを離れAnthropicへ移ると発表した。</description>
-      <category>スタートアップ</category>
     </item>
   </channel>
 </rss>

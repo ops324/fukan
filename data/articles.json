@@ -1,5 +1,140 @@
 [
   {
+    "slug": "20260623-10",
+    "headline": "OpenAI、OSSの脆弱性修正を支援する新施策",
+    "lead": "OpenAIがTrail of Bitsと連携し、AIと専門家でOSSの脆弱性を発見・修正する取り組みを始めた。",
+    "body_markdown": "2026年6月22日、OpenAIはセキュリティ施策群「Daybreak」の一環として「Patch the Planet」を発表した。セキュリティ企業Trail of Bitsと連携し、サイバー向けの高度なモデルでオープンソースソフトウェア（OSS）の脆弱性を洗い出し、専門エンジニアが検証・重複排除を行ったうえで、修正パッチやテストの作成までを支援する仕組みだ。\n\ncURL、Python、Go、pyca/cryptography、aiohttp、Sigstore、NATS Serverなど30を超えるプロジェクトが参加を表明した。OpenAIによれば、最初の1週間で数百件のバグを発見し、19プロジェクトにわたって64件のプルリクエストと51件のイシューが提出されたという。参加プロジェクトにはChatGPT Proや条件付きでのCodex Securityへのアクセス、APIクレジットが提供される。\n\n近年はAIによる脆弱性の「発見」が加速する一方、限られた人員のメンテナーが大量の報告をさばききれない「修正のボトルネック」が課題となっていた。発見にとどまらず検証と修正の負荷軽減まで踏み込んだこの取り組みが、商用ソフトの土台を支えるOSSの安全性にどこまで寄与するかが注目される。",
+    "tags": [
+      "OpenAI",
+      "オープンソース",
+      "セキュリティ",
+      "脆弱性",
+      "Trail of Bits"
+    ],
+    "section": "開発",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/patch-the-planet",
+    "importance": 4,
+    "image_query": "programming code screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8cHJvZ3JhbW1pbmclMjBjb2RlJTIwc2NyZWVufGVufDF8MHx8fDE3ODIyMDU2ODB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Spiske",
+      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-23T09:08:00.630Z",
+    "publishedAt": "2026-06-22T10:00:00.000Z"
+  },
+  {
+    "slug": "20260623-11",
+    "headline": "欧州初エクサ級スパコン「JUPITER」、科学で成果",
+    "lead": "独ユーリッヒ研究所の欧州初エクサスケール機「JUPITER」が、気候・脳科学・量子計算で記録的成果を示した。",
+    "body_markdown": "NVIDIAは、独ハンブルクで開催中のスパコン会議ISC 2026に合わせ、ドイツのユーリッヒ研究センターが運用する欧州初のエクサスケール・スーパーコンピューター「JUPITER」の科学成果を6月22日に紹介した。同機はNVIDIAの「Grace Hopper Superchip」と「Quantum-X800」InfiniBandを採用する。\n\n気候モデリングでは2万480基のチップを用い、1キロメートル解像度で大気・海洋・陸を再現。24時間の計算でおよそ146日分の気候を再現する世界記録を達成し、Gordon Bell気候モデリング賞を受けた。脳マッピングでは4096基を使い、21の死後脳・6.5ペタバイトのデータから基盤モデル「CytoNet」を5日未満で学習した。量子計算分野では50量子ビットの汎用シミュレーションに世界で初めて成功し、従来の48量子ビット記録を更新したとされる。\n\nAI向けGPUは生成AIの学習だけでなく、気候・神経科学・量子といった大規模科学計算の共通基盤になりつつある。膨大な計算資源を要する研究領域で、こうしたエクサ級インフラがどこまで発見の速度を引き上げるかが問われる。",
+    "tags": [
+      "スーパーコンピューター",
+      "NVIDIA",
+      "エクサスケール",
+      "科学計算",
+      "GPU"
+    ],
+    "section": "ハードウェア",
+    "source": "NVIDIA",
+    "link": "https://blogs.nvidia.com/blog/jupiter-exascale-supercomputing-science/",
+    "importance": 4,
+    "image_query": "supercomputer server room",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1695668548342-c0c1ad479aee?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzdXBlcmNvbXB1dGVyJTIwc2VydmVyfGVufDF8MHx8fDE3ODIyMDU2ODF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Kevin Ache",
+      "profileUrl": "https://unsplash.com/@kevinache?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-23T09:08:01.691Z",
+    "publishedAt": "2026-06-22T13:00:48.000Z"
+  },
+  {
+    "slug": "20260623-12",
+    "headline": "AIを理由に挙げる大手テックの人員削減が拡大",
+    "lead": "2026年、AIを理由に挙げる大手テックの人員削減が相次ぎ、OracleやAmazonで大規模な整理が報じられた。",
+    "body_markdown": "TechCrunchは、2026年にAIを削減の理由として挙げた大手テック企業の人員整理を時系列でまとめている。報じられた主な規模は、Oracleが12カ月で2万1000人（従業員の13%）、Amazonが本社部門で1万6000人、Metaが8000人（10%）、PayPalが今後2〜3年で4500人超（20%）、Ciscoが4000人（5%）、Intuitが3000人（17%）などだ。Blockは約4000人で、社員のほぼ半数に上るとされる。\n\n同記事によれば、2026年5月は単月としてここ数年で最も削減が多く、AIが主因として挙げられたという。一方で多くの企業は記録的な売上を報告しながら削減を進めており、コロナ禍で膨らんだ管理・支援職の見直しという側面も指摘されている。\n\n「AIが理由」という説明は、生産性向上とコスト削減を同時に正当化しやすい文脈で使われがちで、削減のどこまでが実際にAIによる代替で、どこからが景気要因や過剰採用の調整なのかは慎重な見極めが要る。発表時の文言だけでは因果を切り分けにくく、労働市場へのAIの影響をめぐる議論には、今後さらに業種別・職種別の精緻なデータが求められそうだ。",
+    "tags": [
+      "人員削減",
+      "雇用",
+      "AIと労働",
+      "テック業界",
+      "Oracle"
+    ],
+    "section": "規制・倫理",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+    "importance": 4,
+    "image_query": "empty office desk",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1577412647305-991150c7d163?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxlbXB0eSUyMG9mZmljZSUyMGRlc2t8ZW58MXwwfHx8MTc4MjIwNTY4MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Adolfo Félix",
+      "profileUrl": "https://unsplash.com/@adolfofelix?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-23T09:08:02.174Z",
+    "publishedAt": "2026-06-23T01:27:55.000Z"
+  },
+  {
+    "slug": "20260623-13",
+    "headline": "Sakana AIの新「Fugu」、料金ドル建ての理由",
+    "lead": "Sakana AIがマルチエージェントAI「Sakana Fugu」を発表し、料金をドル建てとした理由を説明した。",
+    "body_markdown": "日本のAI企業Sakana AIは2026年6月、複数のAIエージェントを連携させるサービス「Sakana Fugu」を発表した。タスクの内容に応じて最適なモデルを選び、必要に応じて複数のエージェントを協調させる仕組みで、ユーザーはAPI経由で1つのAIモデルのように利用できる。\n\n料金はサブスクリプション制で、Standardが月20ドル、Proが月100ドル（Standard比10倍の利用量）、Maxが月200ドル（同20倍）。同社は料金をドル建てとした理由について、グローバル展開を見据えたサービス設計のためと説明する。日本のユーザーからの円建てプランへの要望に対しては「日本のユーザーの皆様からいただくご意見・ご要望として、引き続きしっかりと受け止める」とし、対応を検討する姿勢を示した。\n\n国内で注目される国産AI企業が、日本向けでもドル建てを選んだ点は、為替変動による実質負担の増減や、価格の分かりやすさをめぐって議論を呼びうる。海外大手と同じ価格体系で勝負する狙いがうかがえる一方、国内ユーザーにとっての利便性とどう折り合いをつけるかは残された課題だ。グローバル志向と足元の利用者基盤をどう両立させるかが、今後の焦点になりそうだ。",
+    "tags": [
+      "Sakana AI",
+      "AIエージェント",
+      "料金プラン",
+      "国産AI",
+      "サブスクリプション"
+    ],
+    "section": "スタートアップ",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/articles/2606/23/news117.html",
+    "importance": 3,
+    "image_query": "stock market finance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MXwwfHx8MTc4MjIwNTY4Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Maxim Hopman",
+      "profileUrl": "https://unsplash.com/@nampoh?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-23T09:08:02.826Z",
+    "publishedAt": "2026-06-23T07:34:00.000Z"
+  },
+  {
+    "slug": "20260623-14",
+    "headline": "業務AI利用者の37.8%「禁止されても使い続ける」",
+    "lead": "調査で、業務でAIを使う人の37.8%が勤務先に禁止されても利用を続ける意向を示した。",
+    "body_markdown": "サイバーセキュリティクラウド（東京都品川区）は、業務でAIを使う会社員360人を対象に6月2〜4日に実施した調査結果を発表した。それによると、勤務先に利用を禁止されても使い続けると答えた人が37.8%に上った。内訳は「個人的に継続利用する」が19.2%、「業務効率化のため会社に利用継続を訴える」が18.6%。一方で「ルールに従って利用をやめる」は41.1%、「転職や副業など別の選択肢を考える」が7.2%だった。\n\nまた、利用するAIを勤務先に「すべて申請・共有している」人は18.9%にとどまり、半分以上を申請・共有していない層が50.8%を占めた。同社は、企業が把握できないAI利用（シャドーAI）が広がり、現場の実態とルールの間に隔たりが生じていると指摘。AI利用の可視化と、安全に活用できる環境の整備が必要だとしている。\n\n禁止だけでは利用を止めきれない実態は、規制で抑え込む発想の限界を示している。申請・共有が進んでいない現状は、情報漏えいなどのリスクが管理の外側で広がりうることも意味する。AIの利用状況を可視化したうえで、現場が安心して使える仕組みやガイドラインを整えることが、禁止と黙認の二択に代わる現実的な落としどころになりそうだ。",
+    "tags": [
+      "シャドーAI",
+      "業務利用",
+      "セキュリティ",
+      "調査",
+      "AIガバナンス"
+    ],
+    "section": "産業応用",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/23/2000000119/",
+    "importance": 3,
+    "image_query": "office worker laptop",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxvZmZpY2UlMjB3b3JrZXIlMjBsYXB0b3B8ZW58MXwwfHx8MTc4MjIwNTY4M3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Burst",
+      "profileUrl": "https://unsplash.com/@burst?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-23T09:08:03.519Z",
+    "publishedAt": "2026-06-23T08:18:44.000Z"
+  },
+  {
     "slug": "20260623-05",
     "headline": "OpenAI、脆弱性検出AI「Daybreak」を拡張",
     "lead": "Codex SecurityとGPT-5.5-Cyberを追加し、オープンソースの脆弱性修正を支援する新計画も始めた。",
