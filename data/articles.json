@@ -1,5 +1,140 @@
 [
   {
+    "slug": "20260623-05",
+    "headline": "OpenAI、脆弱性検出AI「Daybreak」を拡張",
+    "lead": "Codex SecurityとGPT-5.5-Cyberを追加し、オープンソースの脆弱性修正を支援する新計画も始めた。",
+    "body_markdown": "OpenAIは6月22日、サイバー防御向けの取り組み「Daybreak」を拡張すると発表した。中核は、脆弱性の発見・検証・修正に特化したモデル「GPT-5.5-Cyber」の正式版と、コーディング環境「Codex」に組み込む「Codex Security」プラグインだ。Codex Securityはコードベース固有の脅威モデルを構築し、隔離環境で問題を再現・検証したうえで、人間のレビューを前提とした修正案を提示する。GPT-5.5-Cyberは脆弱性の再現能力を測る社内ベンチマーク「CyberGym」で85.6%を記録し、単一モデルとして最高水準だとする。同社によれば、これらはすでにFirefoxやV8、Safari、OpenBSDなど広く使われるソフトで、3000件を超える重大・高深刻度の脆弱性の修正に寄与したという。\n\nあわせて、オープンソースの保守者を支援する「Patch the Planet」も始動した。セキュリティ企業Trail of Bitsの技術者が保守者と組み、検証済みのパッチや再利用可能な手順を提供する。log4jの混乱が示したように、少数の保守者が支える基盤ソフトの欠陥は商用全体へ波及しうる。AIを攻撃ではなく防御の側に据える狙いだが、同じ能力は攻撃にも転用できるデュアルユース性を抱えており、運用の透明性が問われる。",
+    "tags": [
+      "OpenAI",
+      "セキュリティ",
+      "オープンソース",
+      "脆弱性",
+      "Codex"
+    ],
+    "section": "開発",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/daybreak-securing-the-world",
+    "importance": 4,
+    "image_query": "cyber security laptop",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjeWJlciUyMHNlY3VyaXR5JTIwbGFwdG9wfGVufDF8MHx8fDE3ODIxODQyNjN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Philipp Katzenberger",
+      "profileUrl": "https://unsplash.com/@fantasyflip?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-23T03:11:04.130Z",
+    "publishedAt": "2026-06-22T10:00:00.000Z"
+  },
+  {
+    "slug": "20260623-06",
+    "headline": "NVIDIA、データセンターの水使用ほぼゼロを主張",
+    "lead": "次世代Rubin向け液冷設計で施設内の水消費をほぼ解消としたが、発電や製造の水は対象外との指摘も。",
+    "body_markdown": "NVIDIAは6月22日、次世代「Rubin」世代のデータセンター向け参照設計で、施設内の水消費を大幅に削減できると主張した。45度の温水を閉ループで循環させる液冷方式を採り、新たな水の補給をほぼ不要にするという。同社の最高サステナビリティ責任者ジョシュ・パーカー氏は「データセンターの水消費の課題はほぼ解決した」と述べ、条件のよい気候では施設内の水使用を100%削減できるとした。データセンターの電力や水の消費への反発が各地で強まるなか、環境負荷の軽減を前面に押し出した形だ。\n\nただし報道は、この主張の射程の狭さを指摘する。AIの水消費は施設の壁の外側、すなわち発電と半導体製造でこそ大きく、これらを含めると総量は2〜3倍に膨らむ。NVIDIAの設計が扱うのは全体の4分の1〜3分の1程度にとどまるという。とりわけ化石燃料による発電は水を多く使い、天然ガスは1キロワット時あたり1.17リットル、石炭は2.2リットルに達する。風力の0.01リットルや太陽光の0.03リットルと比べれば桁違いに多い。こうした電源がデータセンターの電力の約半分を賄う現状では、施設内の冷却方式を改良するだけでAIの「水問題」が解決するわけではない、というのが論点となる。電源構成そのものを見直さない限り、効果は限定的にとどまる。",
+    "tags": [
+      "NVIDIA",
+      "データセンター",
+      "液冷",
+      "環境",
+      "電力"
+    ],
+    "section": "ハードウェア",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/954139/nvidia-data-centers-rubin-liquid-cooling",
+    "importance": 4,
+    "image_query": "data center servers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1746893737268-81fe686e6a51?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxkYXRhJTIwY2VudGVyJTIwc2VydmVyc3xlbnwxfDB8fHwxNzgyMTYyNjc4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Avi Waxman",
+      "profileUrl": "https://unsplash.com/@aviosly?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-23T03:11:04.153Z",
+    "publishedAt": "2026-06-22T23:24:32.000Z"
+  },
+  {
+    "slug": "20260623-07",
+    "headline": "ダイハツ、アルミ部品の穴内部キズ検査をAI自動化",
+    "lead": "目視に頼っていた0.1mm単位の微細検査を画像認識で代替し、竜王工場に導入した。",
+    "body_markdown": "ダイハツ工業は6月22日、トランスミッション用アルミ部品の加工穴内部に生じるキズの検査を、AIと画像認識で自動化したと発表した。検査ソフトを手がけるVRAIN Solution（東京都中央区）と共同開発し、滋賀県の竜王工場第1地区に導入済みだという。\n\n対象となるのは、わずか0.1mm程度の差異が品質を左右する微細なキズだ。穴の内部という照明も当てにくく見えづらい部位を扱う点が、自動化の難度を一段と高めていた。これまでは熟練作業者が目視で見極めてきたが、長時間の検査は目の疲労を招き、判定にばらつきも生じやすい。両社は現場で培った検査の知見とAIを組み合わせることで、安定した判定精度と作業負荷の軽減を両立させたとしている。技術については両社で特許を共同出願した。\n\n外観検査は人の目と感性に依存し、自動化が難しい工程の一つとされてきた。熟練者の確保が年々難しくなるなか、属人的な判断を機械に置き換える試みは、多くの製造現場が抱える課題と重なる。感性に頼ってきた判定を機械化できれば、夜間や増産時にも品質を一定に保ちやすくなる。ダイハツは同様の構造を持つ他のアルミ製品や、別の検査工程への展開も視野に入れる。生成AIの華やかな話題が先行するなか、現場の地道な品質工程にAIを着実に溶け込ませる事例として参考になりそうだ。",
+    "tags": [
+      "ダイハツ",
+      "製造業",
+      "画像認識",
+      "品質検査",
+      "自動化"
+    ],
+    "section": "産業応用",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/22/2000000115/",
+    "importance": 3,
+    "image_query": "factory assembly line",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1717386255773-1e3037c81788?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxmYWN0b3J5JTIwYXNzZW1ibHklMjBsaW5lfGVufDF8MHx8fDE3ODIxODQyNjR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Homa Appliances",
+      "profileUrl": "https://unsplash.com/@homaappliances?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-23T03:11:04.790Z",
+    "publishedAt": "2026-06-23T00:13:54.000Z"
+  },
+  {
+    "slug": "20260623-08",
+    "headline": "Anthropic、米政府命令で主力AIを世界停止",
+    "lead": "商務省が安全保障を理由にFable 5とMythos 5の提供停止を命じ、同社は反発している。",
+    "body_markdown": "AnthropicとTrump政権の対立が新たな局面に入った。米商務省の産業安全保障局（BIS）は6月12日、ハワード・ラトニック長官名で、同社の最上位モデル「Fable 5」と「Mythos 5」を外国人が利用できないよう停止するよう命じた。数億人規模の利用者から外国人だけを実時間で見分けるのは難しく、結果として両モデルは全顧客で事実上利用できなくなった。\n\n引き金とされるのは、サイバー攻撃の安全装置を回避しうるFableの脆弱性に関する警告だ。Amazonのアンディ・ジャシーCEOらが政府に懸念を伝えたと報じられた。Anthropicは「限定的な懸念にすぎず、広範な提供停止は正当化されない」と反論している。\n\n対立は今回が初めてではない。2月にはTrump大統領が連邦機関にAnthropic製品の利用停止を指示し、国防総省は同社をサプライチェーン上のリスクと位置づけたと報じられた。背景には、Claudeを国内向けの大規模監視や完全自律型の兵器に使わせないという同社の契約上の制限を巡る確執があるとされる。\n\nMITテクノロジーレビューは三つの注視点を挙げる。米国製の代替が消えれば中国のオープンモデルへ需要が流れかねないこと、専門家が「禁止はむしろ防御研究を妨げ、米国を脆弱にする」と見ること、そして議会がAI規制の立法に動く可能性だ。安全保障とAIの線引きを巡る前例となりうる。",
+    "tags": [
+      "Anthropic",
+      "規制",
+      "輸出規制",
+      "安全保障",
+      "米政府"
+    ],
+    "section": "規制・倫理",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+    "importance": 4,
+    "image_query": "capitol building washington",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1557160854-e1e89fdd3286?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxjYXBpdG9sJTIwYnVpbGRpbmclMjB3YXNoaW5ndG9ufGVufDF8MHx8fDE3ODIxODQyNjV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Caleb Perez",
+      "profileUrl": "https://unsplash.com/@caleblaz?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-23T03:11:05.418Z",
+    "publishedAt": "2026-06-22T18:00:00.000Z"
+  },
+  {
+    "slug": "20260623-09",
+    "headline": "AI加工の物件写真、借り手を惑わす「理想の家」",
+    "lead": "存在しない眺望や改装を生成AIが捏造し、内見で実物との落差に直面する被害が広がる。",
+    "body_markdown": "生成AIによる物件写真の「バーチャルステージング」が、不動産の世界で新たな摩擦を生んでいる。The Vergeの報道によれば、家具を置くだけだった従来の加工は一線を越え、実在しない眺望や庭、部屋、さらには新しい屋根までも作り出す例が現れているという。\n\nあるデトロイトの借り手は、整然と手入れされた掲載写真と、荒れた庭や剥がれた塗装が写るストリートビューの画像を並べ、その落差を訴えた。AIは壁や窓まで「修復」してしまうため、現地に行くと写真よりずっと傷んで見えるという。存在しない物件のディープフェイク内見で手付金をだまし取る、詐欺の温床になる懸念もある。加工が巧妙になり、仲介する不動産業者でさえ見破りにくくなっているとの指摘もある。\n\n規制は追いついていない。カリフォルニア州では、デジタル加工した旨の明示と、未加工版または元画像へのリンクの提供を義務づける法律（AB 723）が今年1月に施行された。しかし、AIの使用そのものを禁じる法はなお存在しない。便利な演出ツールと、消費者を欺く手段との境界が曖昧なまま、競争の激しい賃貸市場で借り手がしわ寄せを受けている。物件情報の信頼そのものが揺らげば、健全な取引の土台も損なわれかねない。写真をうのみにせず現地や元画像で確かめる自衛が、当面は欠かせない。",
+    "tags": [
+      "生成AI",
+      "不動産",
+      "バーチャルステージング",
+      "消費者保護",
+      "規制"
+    ],
+    "section": "規制・倫理",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings",
+    "importance": 3,
+    "image_query": "apartment interior living room",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1628592102751-ba83b0314276?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhcGFydG1lbnQlMjBpbnRlcmlvciUyMGxpdmluZyUyMHJvb218ZW58MXwwfHx8MTc4MjE4NDI2NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Huy Nguyen",
+      "profileUrl": "https://unsplash.com/@huynguyen_pch?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-23T03:11:05.822Z",
+    "publishedAt": "2026-06-22T20:00:00.000Z"
+  },
+  {
     "slug": "20260623-01",
     "headline": "AIチップのGroq、6.5億ドル調達 ネオクラウドに軸足",
     "lead": "Nvidiaによる技術ライセンスと人材引き抜きを経て、Groqは6.5億ドルを調達しクラウド事業へ注力する。",

@@ -7,7 +7,23 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 22 Jun 2026 21:11:19 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 03:11:05 GMT</lastBuildDate>
+    <item>
+      <title>ダイハツ、アルミ部品の穴内部キズ検査をAI自動化</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260623-07.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-07.html</guid>
+      <pubDate>Tue, 23 Jun 2026 00:13:54 GMT</pubDate>
+      <description>目視に頼っていた0.1mm単位の微細検査を画像認識で代替し、竜王工場に導入した。</description>
+      <category>産業応用</category>
+    </item>
+    <item>
+      <title>NVIDIA、データセンターの水使用ほぼゼロを主張</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260623-06.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-06.html</guid>
+      <pubDate>Mon, 22 Jun 2026 23:24:32 GMT</pubDate>
+      <description>次世代Rubin向け液冷設計で施設内の水消費をほぼ解消としたが、発電や製造の水は対象外との指摘も。</description>
+      <category>ハードウェア</category>
+    </item>
     <item>
       <title>AIチップのGroq、6.5億ドル調達 ネオクラウドに軸足</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260623-01.html</link>
@@ -17,12 +33,28 @@
       <category>ハードウェア</category>
     </item>
     <item>
+      <title>AI加工の物件写真、借り手を惑わす「理想の家」</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260623-09.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-09.html</guid>
+      <pubDate>Mon, 22 Jun 2026 20:00:00 GMT</pubDate>
+      <description>存在しない眺望や改装を生成AIが捏造し、内見で実物との落差に直面する被害が広がる。</description>
+      <category>規制・倫理</category>
+    </item>
+    <item>
       <title>Google DeepMind、A24に7500万ドル AI映像制作で提携</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260623-02.html</link>
       <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-02.html</guid>
       <pubDate>Mon, 22 Jun 2026 18:49:44 GMT</pubDate>
       <description>Google DeepMindが映画スタジオA24に7500万ドルを投じ、映画制作向けのAIツールを共同開発する。</description>
       <category>産業応用</category>
+    </item>
+    <item>
+      <title>Anthropic、米政府命令で主力AIを世界停止</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260623-08.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-08.html</guid>
+      <pubDate>Mon, 22 Jun 2026 18:00:00 GMT</pubDate>
+      <description>商務省が安全保障を理由にFable 5とMythos 5の提供停止を命じ、同社は反発している。</description>
+      <category>規制・倫理</category>
     </item>
     <item>
       <title>SpaceX、Reflection AIと計算契約 月1.5億ドルを供給</title>
@@ -39,6 +71,14 @@
       <pubDate>Mon, 22 Jun 2026 13:18:56 GMT</pubDate>
       <description>PaddlePaddle（Baidu）が50言語に対応する軽量OCRモデル「PP-OCRv6」をHugging Faceで公開した。</description>
       <category>研究</category>
+    </item>
+    <item>
+      <title>OpenAI、脆弱性検出AI「Daybreak」を拡張</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260623-05.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-05.html</guid>
+      <pubDate>Mon, 22 Jun 2026 10:00:00 GMT</pubDate>
+      <description>Codex SecurityとGPT-5.5-Cyberを追加し、オープンソースの脆弱性修正を支援する新計画も始めた。</description>
+      <category>開発</category>
     </item>
     <item>
       <title>小田急、踏切の取り残しをAI検知し列車を自動停止</title>
@@ -127,46 +167,6 @@
       <pubDate>Sat, 20 Jun 2026 16:39:57 GMT</pubDate>
       <description>ノーベル化学賞受賞者でAlphaFoldを率いたジョン・ジャンパー氏が、約9年在籍したGoogle DeepMindを離れAnthropicへ移ると発表した。</description>
       <category>スタートアップ</category>
-    </item>
-    <item>
-      <title>米政府、Anthropicのサイバー防御AI輸出を制限</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260620-10.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260620-10.html</guid>
-      <pubDate>Fri, 19 Jun 2026 22:40:14 GMT</pubDate>
-      <description>「Mythos」など2モデルの国外提供を規制、専門家は実効性に疑問を呈する。</description>
-      <category>規制・倫理</category>
-    </item>
-    <item>
-      <title>GitHub、社内データ分析AI「Qubot」の知見を公開</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260620-13.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260620-13.html</guid>
-      <pubDate>Fri, 19 Jun 2026 16:00:00 GMT</pubDate>
-      <description>GitHubは、自然言語でデータ基盤に問い合わせできる社内AIエージェント「Qubot」の構築知見を公開した。</description>
-      <category>開発</category>
-    </item>
-    <item>
-      <title>リライアンス、5億人にAI通話エージェント展開へ</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260621-02.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260621-02.html</guid>
-      <pubDate>Fri, 19 Jun 2026 15:23:28 GMT</pubDate>
-      <description>インドのリライアンスが、5億人超のJio利用者向けにAIが通話へ参加する「Jio Call Agent」など一連のAIサービスを2026年内に投入する。</description>
-      <category>産業応用</category>
-    </item>
-    <item>
-      <title>AWS、AIエージェント向けWeb検索を正式提供</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260620-05.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260620-05.html</guid>
-      <pubDate>Fri, 19 Jun 2026 14:15:24 GMT</pubDate>
-      <description>Bedrock AgentCoreでGA。Amazon独自の検索インデックスで最新情報をエージェントに供給。</description>
-      <category>開発</category>
-    </item>
-    <item>
-      <title>新興企業、LLMの計算ボトルネック解消を主張</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260620-09.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260620-09.html</guid>
-      <pubDate>Fri, 19 Jun 2026 12:10:00 GMT</pubDate>
-      <description>米Subquadraticが計算量を抑える新方式を公開、研究者は独立した検証を求める。</description>
-      <category>研究</category>
     </item>
   </channel>
 </rss>
