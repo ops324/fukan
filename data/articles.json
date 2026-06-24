@@ -1,5 +1,140 @@
 [
   {
+    "slug": "20260624-06",
+    "headline": "Mistral、文書OCR新版「OCR 4」公開 170言語対応",
+    "lead": "フランスのMistral AIが文書解析OCRの最新版を公開。日本語を含む170言語に対応し、文字位置や信頼度スコアの出力に対応した。",
+    "body_markdown": "フランスのAIスタートアップMistral AIは6月23日、文書解析向けOCRモデルの最新版「Mistral OCR 4」を公開した。日本語を含む170言語に対応し、PDFやWord、PowerPoint、OpenDocument形式などを処理できる。前版（2025年3月）からは、要望の多かった各要素の位置を示すバウンディングボックスや、ページ・単語単位の信頼度スコア、見出し・表・数式・署名といったブロック種別の分類を追加した。単一コンテナでの自己ホスティングに対応し、データを外部に出さずに処理できるため、データ主権やコンプライアンスを重視する組織でも使える。料金はAPIが1000ページあたり4ドル、バッチ処理は同2ドルとなる。同社は人手による比較評価で競合に対し平均72%の勝率を得たと説明する。提供はAPIやMistral Studioのほか、Amazon SageMaker、Microsoft Foundry経由で行う。\n\nOCRは生成AIに文書を読み込ませる前処理として需要が高まっており、位置情報や信頼度を返す機能は、抽出結果の検証や自動化の精度向上につながる。機密文書を扱う企業にとって、自己ホスティング対応は採用の障壁を下げる現実的な一歩といえる。",
+    "tags": [
+      "Mistral AI",
+      "OCR",
+      "文書処理",
+      "多言語",
+      "API"
+    ],
+    "section": "産業応用",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000122/",
+    "importance": 4,
+    "image_query": "documents paper stack",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1771173479042-810085465e49?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkb2N1bWVudHMlMjBwYXBlciUyMHN0YWNrfGVufDF8MHx8fDE3ODIyNzA0MzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tanja Tepavac",
+      "profileUrl": "https://unsplash.com/@ttepavac?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-24T03:07:12.590Z",
+    "publishedAt": "2026-06-24T01:13:48.000Z"
+  },
+  {
+    "slug": "20260624-07",
+    "headline": "Anthropic、Slackで使える「Claude Tag」提供開始",
+    "lead": "Anthropicが、Slackで「@Claude」とメンションして非同期にタスクを任せられる新機能「Claude Tag」のβ版提供を始めた。",
+    "body_markdown": "米Anthropicは6月23日、チーム向け新機能「Claude Tag」を発表し、まずSlack向けにβ版の提供を始めた。チャンネル内で「@Claude」とメンションすると、Claudeが接続されたツールやコードベースと連携し、非同期かつ自律的にタスクを進める。設計上の特徴は「マルチプレイヤー」で、1つのチャンネルに全員と対話する1体のClaudeが存在し、複数のメンバーがその進捗を共有できる。基盤モデルには最新の「Opus 4.8」を採用する。権限管理は厳格で、接続できるツールやデータの範囲は管理者が制御し、メモリを含む情報は管理者が定義したチャンネル内に閉じる。プライベートチャンネルの内容は報告されないという。利用にはEnterpriseまたはTeamプランの契約が必要で、組織ごとに月間の利用上限を設定できる。同社は製品チームでコードの65%を社内版のClaude Tagが生成していると説明する。\n\nチャットツールはすでに多くの企業の業務基盤であり、そこにAIを常駐させる発想は、専用アプリを立ち上げずに自動化を組み込む現実的な手段となる。一方で、AIに組織のツールやデータへのアクセスを与える以上、権限設計の妥当性が運用上の鍵を握る。",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "Slack",
+      "AIエージェント",
+      "業務自動化"
+    ],
+    "section": "開発",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000120/",
+    "importance": 4,
+    "image_query": "office team laptops",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxvZmZpY2UlMjB0ZWFtJTIwbGFwdG9wc3xlbnwxfDB8fHwxNzgyMjcwNDMzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brooke Cagle",
+      "profileUrl": "https://unsplash.com/@brookecagle?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-24T03:07:13.350Z",
+    "publishedAt": "2026-06-23T23:55:42.000Z"
+  },
+  {
+    "slug": "20260624-08",
+    "headline": "OpenAIなど、AI標準づくりの「Appia財団」を支援",
+    "lead": "OpenAIやGoogle、MicrosoftらがAIの安全性や信頼性を検証する共通仕様づくりを担う新組織「Appia財団」に参画した。",
+    "body_markdown": "OpenAIは、先進的なAIの安全性や信頼性を検証するための共通仕様づくりに取り組むと表明した。中核となるのは、Linux Foundation傘下のJoint Development Foundationが6月17日に立ち上げた「Appia財団（Appia Foundation）」だ。OpenAIに加え、GoogleやMicrosoft、半導体設計のArm、Mastercard、Ericsson、Siemens、Schneider Electricなど業界横断の企業連合が参加する。同財団は、AIモデルやシステム、アプリケーションが安全で信頼できるかを検証・監査するための、テスト基準や評価ガイドライン、構成要素の分類を定めるオープンな「接続層」を提供するという。OpenAIでグローバル渉外担当副社長を務めるAnn O'Leary氏は、先進AIの実践を公開仕様や技術標準へ翻訳し、AIのサプライチェーン全体で安全性を高められるとしている。\n\nAIの規制や調達では、システムが信頼に足るかを客観的に示す共通の物差しが課題となってきた。競合する大手や幅広い産業が同じ枠組みに集う点は、ベンダー中立な評価基盤を整える動きとして注目される。実効性は、今後策定される具体的な仕様と各社の順守姿勢にかかっている。",
+    "tags": [
+      "OpenAI",
+      "Appia財団",
+      "AI標準",
+      "AI安全性",
+      "Linux Foundation"
+    ],
+    "section": "規制・倫理",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+    "importance": 4,
+    "image_query": "network connection technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1545987796-200677ee1011?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxuZXR3b3JrJTIwY29ubmVjdGlvbiUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4MjI3MDQzNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Alina Grubnyak",
+      "profileUrl": "https://unsplash.com/@alinnnaaaa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-24T03:07:14.786Z",
+    "publishedAt": "2026-06-23T13:00:00.000Z"
+  },
+  {
+    "slug": "20260624-09",
+    "headline": "NVIDIAとAWS、新GPUインスタンスでAI推論を高速化",
+    "lead": "NVIDIAとAWSが、Blackwell世代GPUを載せた新型インスタンスとGPU活用の検索基盤で、AIの本番運用を高速化すると発表した。",
+    "body_markdown": "NVIDIAとAWSは、AIを大規模に本番運用するための協業を発表した。新型のAmazon EC2「G7」インスタンスは、NVIDIAの「RTX PRO 4500 Blackwell Server Edition」GPUを最大8基搭載し、合計256GBのGPUメモリ、700GbpsのEFA対応ネットワーク、最大7.6TBのNVMe SSDを備える。前世代の「G6」と比べ、AI推論で最大4.6倍、グラフィックスで最大2.1倍の性能向上をうたう。あわせてAmazon OpenSearch ServerlessにNVIDIAの「cuVS」ライブラリを統合し、GPUによるベクトル検索を標準の選択肢とした。ベクトルのインデックス作成はCPUのみの構成に比べ最大10倍速く、コストは4分の1に抑えられ、10億規模のベクトルデータベースを1時間未満で構築できるという。AWSはGB300の学習ワークロードでNVIDIAの「Exemplar Cloud」認定も取得した。\n\n生成AIの普及で、推論の低遅延化とベクトル検索の効率化はサービス運用の主要なコスト要因になっている。GPUを学習・推論だけでなく検索基盤にも広げる動きは、AIインフラの競争が、学習から運用・検索の最適化へと移りつつあることを映している。",
+    "tags": [
+      "NVIDIA",
+      "AWS",
+      "GPU",
+      "Blackwell",
+      "ベクトル検索"
+    ],
+    "section": "ハードウェア",
+    "source": "NVIDIA",
+    "link": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
+    "importance": 3,
+    "image_query": "data center servers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1746893737268-81fe686e6a51?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxkYXRhJTIwY2VudGVyJTIwc2VydmVyc3xlbnwxfDB8fHwxNzgyMTYyNjc4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Avi Waxman",
+      "profileUrl": "https://unsplash.com/@aviosly?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-24T03:07:14.796Z",
+    "publishedAt": "2026-06-24T00:05:37.000Z"
+  },
+  {
+    "slug": "20260624-10",
+    "headline": "インドのMoEngage、米AIスタートアップAampeを買収",
+    "lead": "顧客エンゲージメント基盤のMoEngageが、顧客ごとにAIエージェントを割り当てる米Aampeを全額現金で買収した。",
+    "body_markdown": "インドの顧客エンゲージメント基盤企業MoEngageは、米サンフランシスコのスタートアップAampeを全額現金で買収した。取引額は非公表だが、関係者によると数千万ドル規模とされる。2020年創業のAampeは、顧客一人ひとりに専用のAIエージェントを割り当て、従来の属性別セグメントではなく個々の行動に基づいてメッセージを最適化するソフトウェアを手掛ける。米欧やアジア太平洋で30社超の顧客を持ち、年間経常収益は前年比150%で伸びていた。約20人の従業員がMoEngageに加わり、同社の総従業員数は約820人になる。MoEngageのCEOラビテジャ・ドダ氏は、買収によりSalesforceやAdobeといった競合に対抗できると述べた。MoEngageはこれまでに2億8000万ドルを調達し、75カ国で1350社超の消費者向けブランドにサービスを提供している。\n\nマーケティング領域では、画一的な配信から個別最適化への移行が進んでいる。顧客ごとにAIエージェントを置く発想は、その自動化を一段押し進める試みであり、大手スイートからの乗り換えを狙うMoEngageの戦略を補強する買収といえる。",
+    "tags": [
+      "MoEngage",
+      "Aampe",
+      "買収",
+      "AIエージェント",
+      "マーケティング"
+    ],
+    "section": "スタートアップ",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
+    "importance": 3,
+    "image_query": "marketing team meeting",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtYXJrZXRpbmclMjB0ZWFtJTIwbWVldGluZ3xlbnwxfDB8fHwxNzgyMjcwNDM1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Dylan Gillis",
+      "profileUrl": "https://unsplash.com/@mainermedia?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-24T03:07:15.569Z",
+    "publishedAt": "2026-06-23T23:30:00.000Z"
+  },
+  {
     "slug": "20260624-01",
     "headline": "GPT-5、免疫学の3年来の謎に新仮説を提示",
     "lead": "米ジャクソン研究所の免疫学者が、3年間説明できなかったT細胞の実験結果をGPT-5 Proが新機序で説明したと報告した。",
