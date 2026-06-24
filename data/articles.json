@@ -1,5 +1,140 @@
 [
   {
+    "slug": "20260624-11",
+    "headline": "AnthropicがSlack向け新機能「Claude Tag」を公開",
+    "lead": "AnthropicがSlackにAI「Claude」を招き、会話からタスクを任せられる新機能を公開した",
+    "body_markdown": "米Anthropicは6月23日（米国時間）、ビジネスチャット「Slack」上で同社のAI「Claude」を直接呼び出せる新機能「Claude Tag」のベータ版を公開した。対象はClaude EnterpriseとClaude Teamの両プラン。利用者が任意のチャンネルにClaudeを招待し、メッセージで「@Claude」とメンションしてタスクを依頼すると、Claudeがチャンネルの文脈や関係者の情報を読み取り、タスクの計画を自動で組み立てて実行を支援する。管理者はメンションを許可するチャンネルの範囲を制限でき、ワークスペースをまたいだデータ参照はできない設計とした。同社はこの機能を「Claude Codeの進化の始まり」と位置づけている。\n\nチャット内の自然な会話からそのままAIへ作業を委ねられる点が特徴で、これまで開発支援が中心だったエージェント的な使い方を、チーム全体の日常業務へ広げる狙いがうかがえる。一方で、メンション範囲の制御やワークスペースの分離など、業務データの扱いに配慮した制限を初期から設けている点は、企業導入での情報管理の懸念を意識したものといえる。",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "Slack",
+      "AIエージェント",
+      "業務効率化"
+    ],
+    "section": "開発",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/articles/2606/24/news115.html",
+    "importance": 4,
+    "image_query": "office collaboration laptop",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxvZmZpY2UlMjBjb2xsYWJvcmF0aW9uJTIwbGFwdG9wfGVufDF8MHx8fDE3ODIyOTIxNzZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Priscilla Du Preez 🇨🇦",
+      "profileUrl": "https://unsplash.com/@priscilladupreez?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-24T09:09:36.138Z",
+    "publishedAt": "2026-06-24T06:27:00.000Z"
+  },
+  {
+    "slug": "20260624-12",
+    "headline": "Diver-X、ロボット学習に使えるVRグローブ新型",
+    "lead": "Diver-XがVRグローブ新製品を発表、産業版はロボットの手の動作学習に活用できる",
+    "body_markdown": "国内スタートアップのDiver-Xは6月23日、グローブ型のVR（仮想現実）コントローラー新製品「ContactGlove3」を発表した。民生向けの「ContactGlove3」と産業向けの「ContactGlove3 Pro」の2機種を用意する。複数のセンサーを3カ所に配置する電磁気トラッキング方式を採り、推奨環境下で0.5mm程度、最大でも1.5mmの誤差という高い位置精度を実現したとする。グローブには20個のモーターを搭載し、磁力式デバイス「Magnetra3」で握り込んだ際の手応えを再現する。価格は民生版が9万9800円、Pro版が49万8000円（いずれも税抜き）で、2026年10月の販売を予定する。Pro版はロボットの手の動作学習に利用できるとしている。\n\nVR向けに磨かれた高精度な手指トラッキングを、人型ロボットの動作データ収集へ転用する流れを示す動きだ。生成AIと並んでロボットの「身体知」の獲得が課題となるなか、比較的安価な民生機器が学習データの裾野を広げる入り口になり得る点で、産業利用の観点からも注目される。",
+    "tags": [
+      "Diver-X",
+      "VR",
+      "ロボティクス",
+      "ハードウェア",
+      "トラッキング"
+    ],
+    "section": "産業応用",
+    "source": "ITmedia AI＋",
+    "link": "https://eetimes.itmedia.co.jp/ee/articles/2606/24/news095.html",
+    "importance": 3,
+    "image_query": "robotic hand technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxyb2JvdGljJTIwaGFuZCUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4MjI5MjE3Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Franck V.",
+      "profileUrl": "https://unsplash.com/@possessedphotography?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-24T09:09:37.025Z",
+    "publishedAt": "2026-06-24T07:25:00.000Z"
+  },
+  {
+    "slug": "20260624-13",
+    "headline": "AI業界マネー、NY民主党予備選に巨額流入",
+    "lead": "AI規制を争点に、業界の政治資金団体がニューヨークの民主党予備選へ巨額を投じている",
+    "body_markdown": "米ニューヨーク州第12選挙区の連邦下院民主党予備選が、AI業界からの巨額の政治資金が流れ込む異例の選挙となっている。米メディアThe Vergeなどによると、両陣営をめぐる支出は総額で数千万ドル規模に達した。州議会議員のアレックス・ボレス（Alex Bores）氏はAI規制に前向きな立場で知られ、規制に反対する陣営と支持する陣営が、それぞれ独立した政治資金団体（スーパーPAC）を通じて対立する構図だ。規制強化に反対する「Leading the Future」にはベンチャー投資のAndreessen Horowitzや米OpenAI共同創業者グレッグ・ブロックマン氏、Perplexityらが名を連ねる。一方、ボレス氏を支持する側にはAI企業Anthropicが資金を拠出した団体などが付いた。\n\nAIをめぐる規制の是非が、一地方の予備選を業界を二分する代理戦争へと押し上げた格好だ。AI企業が政治資金を通じて選挙結果へ直接影響を及ぼそうとする動きが鮮明になり、技術への規制が立法と選挙の主要な争点へと浮上しつつある現状を映し出している。",
+    "tags": [
+      "AI規制",
+      "アメリカ政治",
+      "スーパーPAC",
+      "Anthropic",
+      "OpenAI"
+    ],
+    "section": "規制・倫理",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district",
+    "importance": 4,
+    "image_query": "us capitol building",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1598134115217-a2fd543030f0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHx1cyUyMGNhcGl0b2wlMjBidWlsZGluZ3xlbnwxfDB8fHwxNzgyMjkyMTc3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Syed F Hashemi",
+      "profileUrl": "https://unsplash.com/@sfhashemi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-24T09:09:37.446Z",
+    "publishedAt": "2026-06-23T17:00:00.000Z"
+  },
+  {
+    "slug": "20260624-14",
+    "headline": "Midjourneyの全身スキャナー、専門家は懐疑的",
+    "lead": "画像生成AIのMidjourneyが超音波の全身スキャナーを発表、専門家は裏付け不足を指摘",
+    "body_markdown": "画像生成AIで知られる米Midjourneyが、医療画像分野への参入を表明した。同社は水を張った装置に体を浸して全身を撮影する超音波スキャナーを発表し、「MRIに匹敵する性能を、スパに行くような手軽さで」提供できると主張。デビッド・ホルツCEOはMRIを上回る可能性にも言及した。一方、複数の専門家は公開された裏付けが乏しいと指摘する。米The Vergeなどによると、心臓専門医のエリック・トポル氏は、超音波は頭蓋骨など密度の高い骨を透過できずMRIのように脳を撮影できないとし、むしろ骨密度などを測るDEXA検査に近いと述べた。神経放射線科医のフランシス・デン氏は、同社が過去に解剖学的に誤ったネズミの画像を公表し撤回された経緯を挙げた。\n\nスキャナーはまだ物理的な製品として完成しておらず、診断に必要な米FDAの認可も得ていない。生成AI企業が大きな触れ込みで医療へ踏み込むことへの警戒は強く、画期的をうたう主張ほど独立した検証が求められることを改めて示す事例といえる。",
+    "tags": [
+      "Midjourney",
+      "医療AI",
+      "超音波",
+      "FDA",
+      "画像診断"
+    ],
+    "section": "産業応用",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/report/954826/midjourney-medical-ai-ultrasound-body-scanner-lacks-evidence",
+    "importance": 4,
+    "image_query": "medical ultrasound scan",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1654931800911-7a9cfb3b7c17?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwdWx0cmFzb3VuZCUyMHNjYW58ZW58MXwwfHx8MTc4MjI5MjE3OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Volodymyr Hryshchenko",
+      "profileUrl": "https://unsplash.com/@lunarts?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-24T09:09:38.282Z",
+    "publishedAt": "2026-06-23T15:56:35.000Z"
+  },
+  {
+    "slug": "20260624-15",
+    "headline": "IBM、AIエージェント開発基盤CUGAを公開",
+    "lead": "IBM ResearchがエージェントAI開発の土台を担うオープンソース基盤CUGAを公開した",
+    "body_markdown": "米IBMの研究部門IBM Researchが、企業向けのAIエージェント開発基盤「CUGA（Configurable Generalist Agent）」をオープンソースで公開した。「pip install cuga」で導入でき、エージェントの計画立案や実行ループ、ツール管理といった土台部分をあらかじめ組み込んでおくのが特徴だ。開発者は通常、エージェントを動かすまでにフレームワーク選定やツール接続などの「配管」に時間を費やすが、CUGAはその部分を肩代わりし、ツールとプロンプトの定義に集中できるとする。外部ツールはOpenAPIやMCP（Model Context Protocol）、LangChainに対応し、実行環境もローカルやDocker、クラウドから選べる。OpenAIやAnthropic、watsonx、Ollamaなど複数のモデルを切り替えられる。公開リポジトリには24本の動作例アプリも同梱した。\n\nエージェント開発は個別実装の負担が重く、再現性の確保も難しい領域だった。共通の土台を整える試みは、実験的な試作から実運用への橋渡しを後押しする。AppWorldなどの評価で、巨大モデルに頼らず軽量な公開モデルでも高い成績を示したとされる点も、コスト面で現実的な選択肢を広げるものといえる。",
+    "tags": [
+      "IBM",
+      "AIエージェント",
+      "オープンソース",
+      "開発ツール",
+      "MCP"
+    ],
+    "section": "研究",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
+    "importance": 3,
+    "image_query": "programming code screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8cHJvZ3JhbW1pbmclMjBjb2RlJTIwc2NyZWVufGVufDF8MHx8fDE3ODIyMDU2ODB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Fotis Fotopoulos",
+      "profileUrl": "https://unsplash.com/@ffstop?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-24T09:09:38.303Z",
+    "publishedAt": "2026-06-23T12:51:55.000Z"
+  },
+  {
     "slug": "20260624-06",
     "headline": "Mistral、文書OCR新版「OCR 4」公開 170言語対応",
     "lead": "フランスのMistral AIが文書解析OCRの最新版を公開。日本語を含む170言語に対応し、文字位置や信頼度スコアの出力に対応した。",

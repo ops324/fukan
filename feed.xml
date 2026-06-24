@@ -7,7 +7,23 @@
     <atom:link href="https://axiom-ai-xi.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 24 Jun 2026 03:07:15 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 09:09:38 GMT</lastBuildDate>
+    <item>
+      <title>Diver-X、ロボット学習に使えるVRグローブ新型</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260624-12.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260624-12.html</guid>
+      <pubDate>Wed, 24 Jun 2026 07:25:00 GMT</pubDate>
+      <description>Diver-XがVRグローブ新製品を発表、産業版はロボットの手の動作学習に活用できる</description>
+      <category>産業応用</category>
+    </item>
+    <item>
+      <title>AnthropicがSlack向け新機能「Claude Tag」を公開</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260624-11.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260624-11.html</guid>
+      <pubDate>Wed, 24 Jun 2026 06:27:00 GMT</pubDate>
+      <description>AnthropicがSlackにAI「Claude」を招き、会話からタスクを任せられる新機能を公開した</description>
+      <category>開発</category>
+    </item>
     <item>
       <title>Mistral、文書OCR新版「OCR 4」公開 170言語対応</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260624-06.html</link>
@@ -41,6 +57,14 @@
       <category>スタートアップ</category>
     </item>
     <item>
+      <title>AI業界マネー、NY民主党予備選に巨額流入</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260624-13.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260624-13.html</guid>
+      <pubDate>Tue, 23 Jun 2026 17:00:00 GMT</pubDate>
+      <description>AI規制を争点に、業界の政治資金団体がニューヨークの民主党予備選へ巨額を投じている</description>
+      <category>規制・倫理</category>
+    </item>
+    <item>
       <title>GPT-5、免疫学の3年来の謎に新仮説を提示</title>
       <link>https://axiom-ai-xi.vercel.app/articles/20260624-01.html</link>
       <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260624-01.html</guid>
@@ -55,6 +79,14 @@
       <pubDate>Tue, 23 Jun 2026 17:00:00 GMT</pubDate>
       <description>Anthropicが、Slackで@メンションして使う常駐型AIアシスタント「Claude Tag」を法人向けにベータ公開した。</description>
       <category>スタートアップ</category>
+    </item>
+    <item>
+      <title>Midjourneyの全身スキャナー、専門家は懐疑的</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260624-14.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260624-14.html</guid>
+      <pubDate>Tue, 23 Jun 2026 15:56:35 GMT</pubDate>
+      <description>画像生成AIのMidjourneyが超音波の全身スキャナーを発表、専門家は裏付け不足を指摘</description>
+      <category>産業応用</category>
     </item>
     <item>
       <title>GitHubら、加州のAI透明化法改正を要求</title>
@@ -79,6 +111,14 @@
       <pubDate>Tue, 23 Jun 2026 13:00:00 GMT</pubDate>
       <description>Metaが初めてRay-Banブランドを冠さない3種のAIグラスを発表。299ドルからで上位モデルは399ドル。</description>
       <category>産業応用</category>
+    </item>
+    <item>
+      <title>IBM、AIエージェント開発基盤CUGAを公開</title>
+      <link>https://axiom-ai-xi.vercel.app/articles/20260624-15.html</link>
+      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260624-15.html</guid>
+      <pubDate>Tue, 23 Jun 2026 12:51:55 GMT</pubDate>
+      <description>IBM ResearchがエージェントAI開発の土台を担うオープンソース基盤CUGAを公開した</description>
+      <category>研究</category>
     </item>
     <item>
       <title>NVIDIA、スパコンTOP500の8割超に採用</title>
@@ -127,46 +167,6 @@
       <pubDate>Mon, 22 Jun 2026 23:24:32 GMT</pubDate>
       <description>次世代Rubin向け液冷設計で施設内の水消費をほぼ解消としたが、発電や製造の水は対象外との指摘も。</description>
       <category>ハードウェア</category>
-    </item>
-    <item>
-      <title>AIチップのGroq、6.5億ドル調達 ネオクラウドに軸足</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260623-01.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-01.html</guid>
-      <pubDate>Mon, 22 Jun 2026 20:13:58 GMT</pubDate>
-      <description>Nvidiaによる技術ライセンスと人材引き抜きを経て、Groqは6.5億ドルを調達しクラウド事業へ注力する。</description>
-      <category>ハードウェア</category>
-    </item>
-    <item>
-      <title>AI加工の物件写真、借り手を惑わす「理想の家」</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260623-09.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-09.html</guid>
-      <pubDate>Mon, 22 Jun 2026 20:00:00 GMT</pubDate>
-      <description>存在しない眺望や改装を生成AIが捏造し、内見で実物との落差に直面する被害が広がる。</description>
-      <category>規制・倫理</category>
-    </item>
-    <item>
-      <title>Google DeepMind、A24に7500万ドル AI映像制作で提携</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260623-02.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-02.html</guid>
-      <pubDate>Mon, 22 Jun 2026 18:49:44 GMT</pubDate>
-      <description>Google DeepMindが映画スタジオA24に7500万ドルを投じ、映画制作向けのAIツールを共同開発する。</description>
-      <category>産業応用</category>
-    </item>
-    <item>
-      <title>Anthropic、米政府命令で主力AIを世界停止</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260623-08.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-08.html</guid>
-      <pubDate>Mon, 22 Jun 2026 18:00:00 GMT</pubDate>
-      <description>商務省が安全保障を理由にFable 5とMythos 5の提供停止を命じ、同社は反発している。</description>
-      <category>規制・倫理</category>
-    </item>
-    <item>
-      <title>SpaceX、Reflection AIと計算契約 月1.5億ドルを供給</title>
-      <link>https://axiom-ai-xi.vercel.app/articles/20260623-03.html</link>
-      <guid isPermaLink="true">https://axiom-ai-xi.vercel.app/articles/20260623-03.html</guid>
-      <pubDate>Mon, 22 Jun 2026 16:51:29 GMT</pubDate>
-      <description>オープンソースのReflection AIが、SpaceXのデータセンターで月1.5億ドルの計算資源を確保した。</description>
-      <category>スタートアップ</category>
     </item>
   </channel>
 </rss>
