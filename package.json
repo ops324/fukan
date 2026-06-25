@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "AXIOM AI — ヘッドレス Claude がニュースを取材・執筆し、画像付与・静的サイト生成まで自動化するパイプライン",
+  "description": "俯瞰（FUKAN）— ヘッドレス Claude が各分野のニュースを取材・執筆し、画像付与・静的サイト生成まで自動化するパイプライン",
   "scripts": {
     "candidates": "node src/fetchCandidates.js",
     "ingest": "node src/ingestDrafts.js",

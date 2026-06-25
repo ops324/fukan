@@ -24,6 +24,7 @@ async function fromRss() {
             source: feed.source,
             section: feed.section,
             tier: feed.tier || 'media',
+            aiFilter: feed.aiFilter === true, // true のフィードのみ AI関連度で足切りする
             publishedAt: item.isoDate || item.pubDate || null,
           });
         }
@@ -107,8 +108,9 @@ export async function fetchNews(existing, limit = config.maxArticles) {
   for (const a of all) {
     if (seen.has(a.link) || existing.has(a.link)) continue;
     if (isWeakSource(a.link)) { skippedWeak++; continue; }
-    // primary(公式)は常に通す。media はAI関連度が閾値未満なら除外。
-    if (a.tier !== 'primary' && aiRelevance(a) < config.relevanceFloorMedia) {
+    // primary(公式)は常に通す。aiFilter:true のフィードのみ AI関連度が閾値未満なら除外。
+    // （総合ニュースの一般ソースは素通しし、重要度フロアと writer の選別に委ねる。）
+    if (a.tier !== 'primary' && a.aiFilter && aiRelevance(a) < config.relevanceFloorMedia) {
       skippedIrrelevant++;
       continue;
     }
@@ -116,7 +118,7 @@ export async function fetchNews(existing, limit = config.maxArticles) {
     unique.push(a);
   }
   if (skippedWeak) console.log(`  弱いソース(動画/音声等)を ${skippedWeak} 件除外`);
-  if (skippedIrrelevant) console.log(`  AI関連度が低い media を ${skippedIrrelevant} 件除外`);
+  if (skippedIrrelevant) console.log(`  AI関連度が低い汎用フィードを ${skippedIrrelevant} 件除外`);
 
   // 一次情報(primary)を優先し、その中で新しい順。media は後ろ。
   const tierRank = (t) => (t === 'primary' ? 0 : 1);
@@ -128,5 +130,24 @@ export async function fetchNews(existing, limit = config.maxArticles) {
     return tb - ta;
   });
 
-  return unique.slice(0, limit);
+  // カバレッジ均等化: 高頻度メディア(BBC/Guardian等)が低頻度セクション(Quanta等)を
+  // 候補プールから締め出さないよう、セクション round-robin でプールを満たす。
+  // primary(企業公式・少数)は一次情報として常に先頭で確保し、残り枠を media のセクション
+  // ごとのキュー(各々は上の sort で鮮度順)から順繰りに 1 件ずつ取り出して埋める。
+  const primary = unique.filter((a) => a.tier === 'primary');
+  const mediaBySection = new Map();
+  for (const a of unique) {
+    if (a.tier === 'primary') continue;
+    if (!mediaBySection.has(a.section)) mediaBySection.set(a.section, []);
+    mediaBySection.get(a.section).push(a);
+  }
+  const picked = primary.slice(0, limit);
+  const queues = [...mediaBySection.values()];
+  let qi = 0;
+  while (picked.length < limit && queues.some((q) => q.length)) {
+    const q = queues[qi % queues.length];
+    if (q.length) picked.push(q.shift());
+    qi++;
+  }
+  return picked.slice(0, limit);
 }

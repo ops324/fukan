@@ -4,18 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script>(function(){try{var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
-  <title>Hugging Face、AIエージェント最適化のhf CLIを刷新 | AXIOM AI</title>
+  <title>Hugging Face、AIエージェント最適化のhf CLIを刷新 | 俯瞰</title>
   <meta name="description" content="Hugging Faceが、人間とAIエージェントの両方に対応する新しいコマンドラインツールhfを公開した。">
-  <link rel="canonical" href="https://axiom-ai-xi.vercel.app/articles/20260614-06.html">
+  <link rel="canonical" href="https://fukan-news.vercel.app/articles/20260614-06.html">
   <meta property="og:type" content="article">
-  <meta property="og:site_name" content="AXIOM AI">
+  <meta property="og:site_name" content="俯瞰">
   <meta property="og:locale" content="ja_JP">
-  <meta property="og:title" content="Hugging Face、AIエージェント最適化のhf CLIを刷新 | AXIOM AI">
+  <meta property="og:title" content="Hugging Face、AIエージェント最適化のhf CLIを刷新 | 俯瞰">
   <meta property="og:description" content="Hugging Faceが、人間とAIエージェントの両方に対応する新しいコマンドラインツールhfを公開した。">
-  <meta property="og:url" content="https://axiom-ai-xi.vercel.app/articles/20260614-06.html">
+  <meta property="og:url" content="https://fukan-news.vercel.app/articles/20260614-06.html">
   <meta property="og:image" content="https://huggingface.co/blog/assets/hf-cli-for-agents/thumbnail.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hugging Face、AIエージェント最適化のhf CLIを刷新 | AXIOM AI">
+  <meta name="twitter:title" content="Hugging Face、AIエージェント最適化のhf CLIを刷新 | 俯瞰">
   <meta name="twitter:description" content="Hugging Faceが、人間とAIエージェントの両方に対応する新しいコマンドラインツールhfを公開した。">
   <meta name="twitter:image" content="https://huggingface.co/blog/assets/hf-cli-for-agents/thumbnail.png">
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
@@ -23,8 +23,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500;600&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">
   <link rel="stylesheet" href="../assets/styles.css">
-  <link rel="alternate" type="application/rss+xml" title="AXIOM AI RSS" href="../feed.xml">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"Hugging Face、AIエージェント最適化のhf CLIを刷新","description":"Hugging Faceが、人間とAIエージェントの両方に対応する新しいコマンドラインツールhfを公開した。","datePublished":"2026-06-14T09:03:29.316Z","dateModified":"2026-06-14T09:03:29.316Z","inLanguage":"ja","articleSection":"研究","image":["https://huggingface.co/blog/assets/hf-cli-for-agents/thumbnail.png"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://axiom-ai-xi.vercel.app/articles/20260614-06.html"},"author":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}},"publisher":{"@type":"Organization","name":"AXIOM AI","url":"https://axiom-ai-xi.vercel.app","logo":{"@type":"ImageObject","url":"https://axiom-ai-xi.vercel.app/assets/logo.png"}}}</script>
+  <link rel="alternate" type="application/rss+xml" title="俯瞰 RSS" href="../feed.xml">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"Hugging Face、AIエージェント最適化のhf CLIを刷新","description":"Hugging Faceが、人間とAIエージェントの両方に対応する新しいコマンドラインツールhfを公開した。","datePublished":"2026-06-14T09:03:29.316Z","dateModified":"2026-06-14T09:03:29.316Z","inLanguage":"ja","articleSection":"研究","image":["https://huggingface.co/blog/assets/hf-cli-for-agents/thumbnail.png"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://fukan-news.vercel.app/articles/20260614-06.html"},"author":{"@type":"Organization","name":"俯瞰","url":"https://fukan-news.vercel.app","logo":{"@type":"ImageObject","url":"https://fukan-news.vercel.app/assets/logo.png"}},"publisher":{"@type":"Organization","name":"俯瞰","url":"https://fukan-news.vercel.app","logo":{"@type":"ImageObject","url":"https://fukan-news.vercel.app/assets/logo.png"}}}</script>
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "325ab8c5bd8546bda7ab30baf1e01c9b"}'></script>
 </head>
 <body>
@@ -33,7 +33,7 @@
   <header class="site-header">
     <div class="container site-header__bar">
       <a class="brand" href="../index.html">
-        <span class="brand__mark">AXIOM<em>·</em>AI</span>
+        <span class="brand__mark">俯瞰<em>·</em>FUKAN</span>
       </a>
       <div class="site-header__tools">
         <div class="hsearch">
@@ -46,13 +46,16 @@
       <div class="container">
         <ul class="site-nav__list">
           <li><a href="../index.html">トップ</a></li>
-          <li><a href="../sections/foundation.html">基盤モデル</a></li>
-          <li><a href="../sections/research.html" aria-current="page">研究</a></li>
-          <li><a href="../sections/dev.html">開発</a></li>
-          <li><a href="../sections/industry.html">産業応用</a></li>
-          <li><a href="../sections/regulation.html">規制・倫理</a></li>
-          <li><a href="../sections/startups.html">スタートアップ</a></li>
-          <li><a href="../sections/hardware.html">ハードウェア</a></li>
+          <li><a href="../sections/ai.html">AI</a></li>
+          <li><a href="../sections/tech.html">テクノロジー</a></li>
+          <li><a href="../sections/science.html">サイエンス</a></li>
+          <li><a href="../sections/business.html">ビジネス</a></li>
+          <li><a href="../sections/economy.html">経済・マネー</a></li>
+          <li><a href="../sections/politics.html">政治</a></li>
+          <li><a href="../sections/world.html">国際・地政学</a></li>
+          <li><a href="../sections/culture.html">カルチャー</a></li>
+          <li><a href="../sections/entertainment.html">エンタメ</a></li>
+          <li><a href="../sections/life.html">ライフ・キャリア</a></li>
         </ul>
       </div>
     </nav>
@@ -63,7 +66,7 @@
       <nav class="breadcrumb" aria-label="パンくず">
         <ol>
           <li><a href="../index.html">トップ</a></li>
-          <li><a href="../sections/research.html">研究</a></li>
+          <li><a href="../index.html">研究</a></li>
           <li aria-current="page">Hugging Face、AIエージェント最適化のhf CLIを刷新</li>
         </ol>
       </nav>
@@ -78,11 +81,11 @@
         <h1 class="article-headline">Hugging Face、AIエージェント最適化のhf CLIを刷新</h1>
         <p class="article-lede">Hugging Faceが、人間とAIエージェントの両方に対応する新しいコマンドラインツールhfを公開した。</p>
         <div class="article-byline">
-          <span class="article-byline__by">AXIOM AI 編集部 — AI 自動要約 + 人手編集</span>
+          <span class="article-byline__by">俯瞰 編集部 — AI 自動要約 + 人手編集</span>
             <div class="article-share" aria-label="記事を共有">
-              <a href="https://twitter.com/intent/tweet?text=Hugging%20Face%E3%80%81AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E6%9C%80%E9%81%A9%E5%8C%96%E3%81%AEhf%20CLI%E3%82%92%E5%88%B7%E6%96%B0&amp;url=https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260614-06.html" class="share-btn" target="_blank" rel="noopener" aria-label="X で共有">𝕏</a>
-              <a href="https://b.hatena.ne.jp/entry/https%3A%2F%2Faxiom-ai-xi.vercel.app%2Farticles%2F20260614-06.html" class="share-btn" target="_blank" rel="noopener" aria-label="はてなブックマークに追加">B!</a>
-              <button type="button" class="share-btn" aria-label="リンクをコピー" onclick="navigator.clipboard&&navigator.clipboard.writeText('https://axiom-ai-xi.vercel.app/articles/20260614-06.html').then(()=>{this.textContent='✓';setTimeout(()=>{this.textContent='⎘'},1200)})">⎘</button>
+              <a href="https://twitter.com/intent/tweet?text=Hugging%20Face%E3%80%81AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E6%9C%80%E9%81%A9%E5%8C%96%E3%81%AEhf%20CLI%E3%82%92%E5%88%B7%E6%96%B0&amp;url=https%3A%2F%2Ffukan-news.vercel.app%2Farticles%2F20260614-06.html" class="share-btn" target="_blank" rel="noopener" aria-label="X で共有">𝕏</a>
+              <a href="https://b.hatena.ne.jp/entry/https%3A%2F%2Ffukan-news.vercel.app%2Farticles%2F20260614-06.html" class="share-btn" target="_blank" rel="noopener" aria-label="はてなブックマークに追加">B!</a>
+              <button type="button" class="share-btn" aria-label="リンクをコピー" onclick="navigator.clipboard&&navigator.clipboard.writeText('https://fukan-news.vercel.app/articles/20260614-06.html').then(()=>{this.textContent='✓';setTimeout(()=>{this.textContent='⎘'},1200)})">⎘</button>
             </div>
         </div>
       </header>
@@ -99,7 +102,7 @@
 
           <div class="callout">
             <h2 class="callout__head">出典・元記事</h2>
-            <p>本記事は下記の一次情報を AXIOM AI 編集部が要約・論評したものです。正確な詳細・最新情報は元記事をご確認ください。</p>
+            <p>本記事は下記の一次情報を 俯瞰 編集部が要約・論評したものです。正確な詳細・最新情報は元記事をご確認ください。</p>
             <p class="callout__link"><a href="https://huggingface.co/blog/hf-cli-for-agents" target="_blank" rel="noopener">Hugging Face の元記事を読む →</a></p>
           </div>
       </article>
@@ -140,19 +143,22 @@
     <div class="container">
       <div class="site-footer__top">
         <div class="site-footer__brand">
-          <span class="brand__mark">AXIOM<em>·</em>AI</span>
-          <p>生成 AI と基盤モデルを中心に、AI のニュースを毎日お届けします。本サイトの記事は各一次情報源の要約・論評であり、詳細は必ず出典元をご確認ください。</p>
+          <span class="brand__mark">俯瞰<em>·</em>FUKAN</span>
+          <p>テック・AI・科学・経済・政治・国際・カルチャーまで、世界のニュースを毎日お届けします。本サイトの記事は各一次情報源の要約・論評であり、詳細は必ず出典元をご確認ください。</p>
         </div>
         <div class="site-footer__col">
           <h4>セクション</h4>
           <ul>
-            <li><a href="../sections/foundation.html">基盤モデル</a></li>
-            <li><a href="../sections/research.html">研究</a></li>
-            <li><a href="../sections/dev.html">開発</a></li>
-            <li><a href="../sections/industry.html">産業応用</a></li>
-            <li><a href="../sections/regulation.html">規制・倫理</a></li>
-            <li><a href="../sections/startups.html">スタートアップ</a></li>
-            <li><a href="../sections/hardware.html">ハードウェア</a></li>
+            <li><a href="../sections/ai.html">AI</a></li>
+            <li><a href="../sections/tech.html">テクノロジー</a></li>
+            <li><a href="../sections/science.html">サイエンス</a></li>
+            <li><a href="../sections/business.html">ビジネス</a></li>
+            <li><a href="../sections/economy.html">経済・マネー</a></li>
+            <li><a href="../sections/politics.html">政治</a></li>
+            <li><a href="../sections/world.html">国際・地政学</a></li>
+            <li><a href="../sections/culture.html">カルチャー</a></li>
+            <li><a href="../sections/entertainment.html">エンタメ</a></li>
+            <li><a href="../sections/life.html">ライフ・キャリア</a></li>
           </ul>
         </div>
         <div class="site-footer__col">

@@ -1,6 +1,6 @@
-# AXIOM AI — デザインプロトタイプ
+# 俯瞰（FUKAN）— デザインプロトタイプ
 
-Bloomberg / FT 系を参照した、上品で信頼感のある近未来的 AI ニュースサイトのデザインプロトタイプ。
+Bloomberg / FT 系を参照した、上品で信頼感のある近未来的な総合ニュースサイト（テック・AI・科学・経済・政治・国際・カルチャー等）のデザインプロトタイプ。
 
 スタンドアロン HTML/CSS、依存ゼロ、ブラウザでファイルを開くだけで動きます。
 
@@ -172,7 +172,7 @@ open index.html
 
 ### 定期実行（設定済み）
 
-`~/Library/LaunchAgents/com.axiom.generate.plist` を登録済みで、**毎日 6:00 / 12:00 / 18:00** に
+`~/Library/LaunchAgents/com.axiom.generate.plist` を登録済みで、**毎日 6:00 / 18:00** に
 `scripts/auto-generate.sh`（＝ヘッドレス Claude 方式）が自走する。ログは `data/scheduler.log`。
 
 ```sh

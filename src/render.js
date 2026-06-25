@@ -327,7 +327,7 @@ function feedStylesheet() {
     <body>
       <div class="wrap">
         <div class="eyebrow">RSS Feed</div>
-        <div class="brand">AXIOM<em>·</em>AI</div>
+        <div class="brand">俯瞰<em>·</em>FUKAN</div>
         <h1><xsl:value-of select="title"/> の最新記事</h1>
         <p class="desc"><xsl:value-of select="description"/></p>
         <div class="note">
@@ -342,7 +342,7 @@ function feedStylesheet() {
             <div class="meta"><xsl:value-of select="category"/> · <xsl:value-of select="pubDate"/></div>
           </div>
         </xsl:for-each>
-        <a class="back" href="/">← AXIOM AI トップへ戻る</a>
+        <a class="back" href="/">← 俯瞰 トップへ戻る</a>
       </div>
     </body>
     </html>

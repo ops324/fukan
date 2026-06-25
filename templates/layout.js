@@ -32,7 +32,7 @@ export function header(dateLabel, activeNav = 'トップ', base = '') {
   <header class="site-header">
     <div class="container site-header__bar">
       <a class="brand" href="${base}index.html">
-        <span class="brand__mark">AXIOM<em>·</em>AI</span>
+        <span class="brand__mark">俯瞰<em>·</em>FUKAN</span>
       </a>
       <div class="site-header__tools">
         <div class="hsearch">
@@ -61,8 +61,8 @@ export function footer(base = '') {
     <div class="container">
       <div class="site-footer__top">
         <div class="site-footer__brand">
-          <span class="brand__mark">AXIOM<em>·</em>AI</span>
-          <p>生成 AI と基盤モデルを中心に、AI のニュースを毎日お届けします。本サイトの記事は各一次情報源の要約・論評であり、詳細は必ず出典元をご確認ください。</p>
+          <span class="brand__mark">俯瞰<em>·</em>FUKAN</span>
+          <p>テック・AI・科学・経済・政治・国際・カルチャーまで、世界のニュースを毎日お届けします。本サイトの記事は各一次情報源の要約・論評であり、詳細は必ず出典元をご確認ください。</p>
         </div>
         <div class="site-footer__col">
           <h4>セクション</h4>

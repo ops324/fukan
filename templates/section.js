@@ -2,6 +2,7 @@
 // 低認知負荷方針：カードモザイク（サムネ）を廃し、トップと同じシンプル行リストに統一。
 import { ticker, header, footer, page } from './layout.js';
 import { esc } from '../src/markdown.js';
+import { config } from '../src/config.js';
 
 const BASE = '../';
 const href = (a) => `${BASE}articles/${a.slug}.html`;
@@ -30,7 +31,7 @@ export function renderSection(name, slug, articles, dateLabel, tickerItems = [])
     <header class="page-head">
       <span class="cat">セクション</span>
       <h1 class="page-head__title">${esc(name)}</h1>
-      <p class="page-head__lead">${esc(name)} に関する AXIOM AI 編集部のニュースと論評。（${articles.length} 記事）</p>
+      <p class="page-head__lead">${esc(name)} に関する ${esc(config.siteName)} 編集部のニュースと論評。（${articles.length} 記事）</p>
     </header>
 
     <section class="feed" aria-label="記事一覧">
@@ -41,8 +42,8 @@ ${articles.length ? feedList(articles) : empty}
 
   return page({
     base: BASE,
-    title: `${name} | AXIOM AI`,
-    description: `${name} に関する最新の AI ニュースを AXIOM AI 編集部の要約と論評でお届けします。`,
+    title: `${name} | ${esc(config.siteName)}`,
+    description: `${name} に関する最新ニュースを ${esc(config.siteName)} 編集部の要約と論評でお届けします。`,
     body: `${ticker(tickerItems)}${header(dateLabel, name, BASE)}\n\n${main}\n\n${footer(BASE)}`,
     canonicalPath: `/sections/${slug}.html`,
   });

@@ -35,7 +35,7 @@ function isoDate(a) {
 // 機能する共有ボタン（X / はてブ / リンクコピー）
 function shareButtons(a) {
   const url = articleUrl(a);
-  const text = a.headline || 'AXIOM AI';
+  const text = a.headline || config.siteName;
   const xHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
   const hatebuHref = `https://b.hatena.ne.jp/entry/${encodeURIComponent(url)}`;
   return `            <div class="article-share" aria-label="記事を共有">
@@ -91,7 +91,7 @@ ${rows}
 function sourceCard(a) {
   return `          <div class="callout">
             <h2 class="callout__head">出典・元記事</h2>
-            <p>本記事は下記の一次情報を AXIOM AI 編集部が要約・論評したものです。正確な詳細・最新情報は元記事をご確認ください。</p>
+            <p>本記事は下記の一次情報を ${esc(config.siteName)} 編集部が要約・論評したものです。正確な詳細・最新情報は元記事をご確認ください。</p>
             <p class="callout__link"><a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.source)} の元記事を読む →</a></p>
           </div>`;
 }
@@ -119,7 +119,7 @@ export function renderArticle(a, related, dateLabel, index = 0, tickerItems = []
         <h1 class="article-headline">${esc(a.headline)}</h1>
         <p class="article-lede">${esc(a.lead)}</p>
         <div class="article-byline">
-          <span class="article-byline__by">AXIOM AI 編集部 — AI 自動要約 + 人手編集</span>
+          <span class="article-byline__by">俯瞰 編集部 — AI 自動要約 + 人手編集</span>
 ${shareButtons(a)}
         </div>
       </header>
@@ -155,7 +155,7 @@ ${relatedList(related)}
 
   return page({
     base: BASE,
-    title: `${a.headline} | AXIOM AI`,
+    title: `${a.headline} | ${esc(config.siteName)}`,
     description: a.lead || a.headline,
     body: `${ticker(tickerItems)}${header(dateLabel, a.section, BASE)}\n\n${main}\n\n${footer(BASE)}`,
     canonicalPath,

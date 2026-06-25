@@ -1,5 +1,5 @@
 #!/bin/zsh
-# AXIOM AI — launchd から定期実行されるヘッドレス Claude Code 執筆ジョブ。
+# 俯瞰（FUKAN）— launchd から定期実行されるヘッドレス Claude Code 執筆ジョブ。
 # Claude 自身が WebFetch / WebSearch で取材し、忠実な記事を書いてサイトに反映する。
 # （翡翠眼方式: API キー不要・Anthropic サブスク内で完結）
 set -u
@@ -13,16 +13,17 @@ cd "$PROJECT_DIR" || exit 1
 
 NODE_BIN="/usr/local/bin/node"
 HEALTH_FILE="$PROJECT_DIR/data/.health"
-# 査読モデル（writer=既定/Opus と別にして自己相関を下げる）。src/config.js の judgeModel が正本、ここは既定値の写し。
-# トークン削減のため既定は Haiku（別モデルである点は維持）。
-JUDGE_MODEL="${JUDGE_MODEL:-claude-haiku-4-5-20251001}"
+# 執筆モデル（writer）。要約＋論評タスクなので安価な Haiku で量産する。src/config.js の writerModel が正本、ここは既定値の写し。
+WRITER_MODEL="${WRITER_MODEL:-claude-haiku-4-5-20251001}"
+# 査読モデル（judge）。writer と別モデルにして自己相関を下げる（writer=Haiku のため judge=Sonnet）。src/config.js の judgeModel が正本、ここは既定値の写し。
+JUDGE_MODEL="${JUDGE_MODEL:-claude-sonnet-4-6}"
 # 二重起動防止ロック（content ジョブと将来の self-improve ジョブを排他）。mkdir は原子的。
 LOCK_DIR="$PROJECT_DIR/data/.harness.lock"
 LOCK_MAX_AGE=3600   # 秒。これを超える古いロックは異常終了の残骸とみなし再取得する。
 
 # macOS 通知ヘルパー（失敗時に気づけるように）
 notify() {
-  /usr/bin/osascript -e "display notification \"$1\" with title \"AXIOM AI\" sound name \"Basso\"" 2>/dev/null || true
+  /usr/bin/osascript -e "display notification \"$1\" with title \"俯瞰 FUKAN\" sound name \"Basso\"" 2>/dev/null || true
 }
 
 # 記事総数を返す（取れなければ -1）
@@ -67,7 +68,7 @@ BEFORE_COUNT="$(count_articles)"
 # 直近記事の品質傾向（決定的・オフライン）を writer プロンプト末尾へ還流する。
 # 取得失敗時は空文字＝従来どおりの挙動（日次ジョブは止めない）。
 DIGEST="$("$NODE_BIN" src/qualityDigest.js 2>/dev/null)"
-"$CLAUDE_BIN" --dangerously-skip-permissions -p "$(cat "$PROMPT_FILE")${DIGEST:+
+"$CLAUDE_BIN" --model "$WRITER_MODEL" --dangerously-skip-permissions -p "$(cat "$PROMPT_FILE")${DIGEST:+
 
 $DIGEST}"
 rc=$?

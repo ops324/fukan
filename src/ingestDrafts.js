@@ -5,6 +5,7 @@ import { readFile, unlink } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { config } from './config.js';
 import { loadArticles, saveArticles, makeSlug, yyyymmdd, existingLinks } from './store.js';
 import { fetchImage, imageKey } from './fetchImage.js';
 import { renderSite } from './render.js';
@@ -54,7 +55,12 @@ for (const d of drafts) {
     continue;
   }
   seen.add(d.link);
-  const image = await fetchImage(d, created.length, usedImages);
+  const importance = Math.min(5, Math.max(1, Number(d.importance) || 3));
+  // 画像はヒーロー候補となる重要記事(importance>=imageImportanceFloor)だけに付ける（取得・ページ重量の節約）。
+  // 軽微な記事は image:null（表示テンプレは画像が無ければ何も出さない）。
+  const image = importance >= config.imageImportanceFloor
+    ? await fetchImage(d, created.length, usedImages)
+    : null;
   created.push({
     slug: makeSlug(store, dateStr, created.length),
     headline: String(d.headline).trim(),
@@ -64,7 +70,7 @@ for (const d of drafts) {
     section: d.section || 'AI',
     source: d.source || '',
     link: d.link,
-    importance: Math.min(5, Math.max(1, Number(d.importance) || 3)),
+    importance,
     image_query: (d.image_query || '').trim(),
     image,
     mode: 'full',

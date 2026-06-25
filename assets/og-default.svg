@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fcfcfb"/>
+  <rect x="0" y="0" width="1200" height="8" fill="#2f6df0"/>
+  <text x="600" y="320" text-anchor="middle" font-family="'Hiragino Mincho ProN','Yu Mincho',serif" font-size="220" fill="#1b1b18">俯瞰</text>
+  <text x="600" y="406" text-anchor="middle" font-family="'Times New Roman',Georgia,serif" font-size="46" letter-spacing="20" fill="#2f6df0">FUKAN</text>
+  <text x="600" y="500" text-anchor="middle" font-family="'Hiragino Mincho ProN','Yu Mincho',serif" font-size="36" fill="#585853">世界のニュースを、要約と論評で</text>
+</svg>

@@ -4,6 +4,7 @@
 // 低認知負荷方針：シンプル行リストに統一。
 import { ticker, header, footer, page } from './layout.js';
 import { esc } from '../src/markdown.js';
+import { config } from '../src/config.js';
 
 const MONTH_BASE = '../';
 const monthHref = (a) => `${MONTH_BASE}articles/${a.slug}.html`;
@@ -37,7 +38,7 @@ export function renderArchiveIndex(groups, dateLabel, tickerItems = []) {
     <header class="page-head">
       <span class="cat">アーカイブ</span>
       <h1 class="page-head__title">記事アーカイブ</h1>
-      <p class="page-head__lead">これまでに AXIOM AI 編集部が公開した記事を月別にまとめています。（全 ${total} 記事）</p>
+      <p class="page-head__lead">これまでに ${esc(config.siteName)} 編集部が公開した記事を月別にまとめています。（全 ${total} 記事）</p>
     </header>
 
     <section class="feed" aria-label="月別アーカイブ">
@@ -49,8 +50,8 @@ ${rows || '<li class="feed__empty">まだ記事がありません。</li>'}
   </main>`;
 
   return page({
-    title: 'アーカイブ | AXIOM AI',
-    description: 'AXIOM AI のこれまでの全記事を月別にまとめた一覧。',
+    title: `アーカイブ | ${esc(config.siteName)}`,
+    description: `${esc(config.siteName)} のこれまでの全記事を月別にまとめた一覧。`,
     body: `${ticker(tickerItems)}${header(dateLabel, 'トップ')}\n\n${main}\n\n${footer()}`,
     canonicalPath: '/archive.html',
   });
@@ -82,8 +83,8 @@ ${feedList(group.items, monthHref)}
 
   return page({
     base: MONTH_BASE,
-    title: `${group.label}の記事 | AXIOM AI`,
-    description: `${group.label}に AXIOM AI 編集部が公開した記事の一覧。`,
+    title: `${group.label}の記事 | ${esc(config.siteName)}`,
+    description: `${group.label}に ${esc(config.siteName)} 編集部が公開した記事の一覧。`,
     body: `${ticker(tickerItems)}${header(dateLabel, 'アーカイブ', MONTH_BASE)}\n\n${main}\n\n${footer(MONTH_BASE)}`,
     canonicalPath: `/archive/${group.ym}.html`,
   });

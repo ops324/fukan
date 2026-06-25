@@ -2,6 +2,7 @@
 // 低認知負荷方針：section.js と同じシンプル行リストに統一。
 import { ticker, header, footer, page } from './layout.js';
 import { esc } from '../src/markdown.js';
+import { config } from '../src/config.js';
 import { tagHref } from './cardbits.js';
 
 const BASE = '../';
@@ -38,7 +39,7 @@ export function renderTag(tag, articles, dateLabel, tickerItems = []) {
     <header class="page-head">
       <span class="cat">タグ</span>
       <h1 class="page-head__title">#${esc(tag)}</h1>
-      <p class="page-head__lead">「${esc(tag)}」に関する AXIOM AI 編集部のニュースと論評。（${articles.length} 記事）</p>
+      <p class="page-head__lead">「${esc(tag)}」に関する ${esc(config.siteName)} 編集部のニュースと論評。（${articles.length} 記事）</p>
     </header>
 
     <section class="feed" aria-label="記事一覧">
@@ -49,8 +50,8 @@ ${feedList(articles)}
 
   return page({
     base: BASE,
-    title: `#${tag} の記事 | AXIOM AI`,
-    description: `「${tag}」に関する最新の AI ニュースを AXIOM AI 編集部の要約と論評でお届けします。`,
+    title: `#${tag} の記事 | ${esc(config.siteName)}`,
+    description: `「${tag}」に関する最新ニュースを ${esc(config.siteName)} 編集部の要約と論評でお届けします。`,
     body: `${ticker(tickerItems)}${header(dateLabel, '', BASE)}\n\n${main}\n\n${footer(BASE)}`,
     canonicalPath: `/tags/${encodeURIComponent(tag)}.html`,
   });
@@ -88,8 +89,8 @@ ${items}
 
   return page({
     base: BASE,
-    title: 'タグ一覧 | AXIOM AI',
-    description: 'AXIOM AI の記事トピック（タグ）一覧。テーマ別に AI ニュースを辿れます。',
+    title: `タグ一覧 | ${esc(config.siteName)}`,
+    description: `${esc(config.siteName)} の記事トピック（タグ）一覧。テーマ別にニュースを辿れます。`,
     body: `${ticker(tickerItems)}${header(dateLabel, '', BASE)}\n\n${main}\n\n${footer(BASE)}`,
     canonicalPath: '/tags/index.html',
   });

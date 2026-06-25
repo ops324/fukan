@@ -74,7 +74,7 @@ ${leadStory(lead)}
 ${latestList(listItems, archiveHref)}
 
     <section class="subscribe" aria-label="購読">
-      <h2 class="subscribe__head">最新の AI ニュースを購読</h2>
+      <h2 class="subscribe__head">最新ニュースを購読</h2>
       <p class="subscribe__lead">フィードリーダーに RSS を登録すると、新着記事を自動で受け取れます。無料・登録不要。</p>
       <a class="btn" href="feed.xml">RSS で購読</a>
     </section>
@@ -100,8 +100,8 @@ ${footer()}`;
   ];
 
   return page({
-    title: 'AXIOM AI — 信頼できるAIインテリジェンス・デイリー',
-    description: '生成AI・基盤モデル・規制・産業応用に関する最新情報を、編集部の要約と論評でお届けします。',
+    title: '俯瞰（FUKAN）— 世界のニュースを、要約と論評で',
+    description: 'テック・AI・科学・経済・政治・国際・カルチャーまで、世界のニュースを編集部の要約と中立論評で俯瞰します。',
     body,
     canonicalPath: '/',
     ogType: 'website',

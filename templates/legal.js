@@ -32,7 +32,7 @@ ${bodyHtml}
   </main>`;
 
   return page({
-    title: `${title} | AXIOM AI`,
+    title: `${title} | ${esc(config.siteName)}`,
     description: lead,
     body: `${ticker(tickerItems)}${header(dateLabel, '')}\n\n${main}\n\n${footer()}`,
     canonicalPath: `/${slug}`,
@@ -40,7 +40,7 @@ ${bodyHtml}
 }
 
 function aboutBody() {
-  return `      <p>${esc(config.siteName)}（アクシオム エーアイ）は、生成AI・基盤モデル・AI規制・産業応用に関する国内外のニュースを、編集部が要約・論評してお届けする日本語のAI専門メディアです。</p>
+  return `      <p>${esc(config.siteName)}（ふかん／FUKAN）は、テック・AI・科学・経済・政治・国際・カルチャーまで、国内外のニュースを編集部が要約・論評してお届けする日本語の総合ニュースメディアです。</p>
       <h2>運営者情報</h2>
       <table>
         <tbody>
@@ -99,7 +99,7 @@ function termsBody() {
 }
 
 function editorialBody() {
-  return `      <p>${esc(config.siteName)} は、信頼できる AI ニュースを届けるために、以下の編集方針に基づいて記事を制作しています。</p>
+  return `      <p>${esc(config.siteName)} は、信頼できるニュースを届けるために、以下の編集方針に基づいて記事を制作しています。</p>
       <h2>1. 一次情報の優先</h2>
       <p>企業の公式発表・公式ブログ・研究機関などの一次情報を優先的に扱います。報道メディアの情報は、可能な限り別ソースで裏取りを行ったうえで掲載します。</p>
       <h2>2. 重要度による選別</h2>

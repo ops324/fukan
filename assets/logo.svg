@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#fcfcfb"/>
+  <text x="256" y="300" text-anchor="middle" font-family="'Hiragino Mincho ProN','Yu Mincho',serif" font-size="208" fill="#1b1b18">俯瞰</text>
+  <rect x="216" y="348" width="80" height="3" fill="#2f6df0"/>
+  <text x="256" y="406" text-anchor="middle" font-family="'Times New Roman',Georgia,serif" font-size="50" letter-spacing="16" fill="#2f6df0">FUKAN</text>
+</svg>

@@ -3,11 +3,12 @@ import 'dotenv/config';
 
 export const config = {
   // 本番URL（共有リンク・検索・解析・SEOで使用。末尾スラッシュなし）
-  siteUrl: process.env.SITE_URL || 'https://axiom-ai-xi.vercel.app',
+  // 旧 axiom-ai-xi.vercel.app は fukan-news.vercel.app へ 307/308 リダイレクト済み（Vercel側設定）。
+  siteUrl: process.env.SITE_URL || 'https://fukan-news.vercel.app',
 
   // --- サイトメタ（SEO / OGP / 構造化データで使用）---
-  siteName: 'AXIOM AI',
-  siteDescription: '生成AI・基盤モデル・規制・産業応用の最新ニュースを、編集部の要約と論評でお届けする日本語AI専門メディア。',
+  siteName: '俯瞰',
+  siteDescription: 'テック・AI・科学・経済・政治・国際・カルチャーまで、世界のニュースを編集部の要約と中立論評で俯瞰する日本語ニュースメディア。',
   ogImage: '/assets/og-default.jpg', // SNSシェア時の共通サムネ（1200×630）
   logo: '/assets/logo.png',          // 構造化データ publisher.logo
 
@@ -21,9 +22,13 @@ export const config = {
   },
 
   // --- 生成設定（執筆はヘッドレス Claude が担当。ollama は廃止）---
-  maxArticles: Number(process.env.MAX_ARTICLES || 5), // 1回の「掲載上限」本数（床を越えた分だけ＝可変。×3回/日で約10〜15本/日）
-  candidatePool: 30,    // Claude に提示する候補プール数（この中から重要度で maxArticles 本まで選別）。
-                        // 12 では primary(一次情報)で満杯になり media/新ソースが writer に届かないため拡大。
+  // 1回の掲載上限の目安。※実際の出力本数は prompts/generate-articles.md の「最大N件」が制御する
+  // （fetchCandidates は candidatePool を使うため、この値は writer 起動経路では直接効かない）。
+  // 値を変えるときは generate-articles.md の「最大25件」も必ず揃えること。×2回/日(6/18)で約50本/日。
+  maxArticles: Number(process.env.MAX_ARTICLES || 25),
+  candidatePool: 140,   // Claude に提示する候補プール数（この中から重要度＋カバレッジ均等化で選別）。
+                        // 総合ニュース(36フィード/10セクション)で各セクションが writer に届くよう拡大。
+                        // fetchNews がセクション round-robin でプールを満たし、低頻度セクションの締め出しを防ぐ。
   importanceFloor: 3,   // 重要度(1-5)がこれ未満の候補は掲載しない（些末ネタの除外）
   retentionTop: 40,     // トップページに載せる最新記事の上限。超過分はアーカイブへ
   searchIndexMax: 600,  // search-index.json に載せる最大件数（直近順）。記事増時のクライアント負荷を抑える。
@@ -32,8 +37,11 @@ export const config = {
                         // 古い高importance記事がトップに居座り停滞するのを防ぐ。
                         // ウィンドウ内に記事が無ければ従来どおり全体の最重要をヒーローに（保険）。
 
-  // --- AI関連度フィルタ（media tier の無関係なテック記事を足切り）---
-  // title+summary にこれらのいずれかが含まれる数を数える。primary は常に通す。
+  // --- AI関連度フィルタ（汎用フィードの無関係なテック記事を足切り）---
+  // title+summary にこれらのいずれかが含まれる数を数える。
+  // 総合ニュース化に伴い、このフィルタは rssFeeds で aiFilter:true を付けたフィードにのみ適用する
+  // （GitHub/AWS/MS Dev 等のAI以外も大量に流す汎用ソースのノイズ抑制が目的）。
+  // primary（企業公式）と aiFilter なしの総合ソースは常に通し、重要度フロアと writer の選別に委ねる。
   aiKeywords: [
     'AI', 'A.I.', '人工知能', 'LLM', '大規模言語', '生成', 'ジェネレーティブ', 'generative',
     'モデル', 'model', 'エージェント', 'agent', 'GPT', 'Gemini', 'Claude', 'Llama', 'Grok',
@@ -42,7 +50,7 @@ export const config = {
     'マルチモーダル', 'multimodal', '推論', 'inference', '学習', 'training', 'GPU', 'NVIDIA',
     'トランスフォーマー', 'transformer', 'プロンプト', 'prompt', 'RAG', '基盤モデル', 'foundation model',
   ],
-  relevanceFloorMedia: 1, // media tier はキーワードヒットがこの数未満なら除外
+  relevanceFloorMedia: 1, // aiFilter:true のフィードはキーワードヒットがこの数未満なら除外
 
   // 弱いソース除外: 動画/ポッドキャスト等は本文が乏しく取材に向かないためスキップ
   skipUrlPatterns: ['/video/', '/videos/', '/podcast/', '/podcasts/', '/live/', 'youtube.com', 'youtu.be'],
@@ -56,6 +64,11 @@ export const config = {
   },
 
   // --- 画像（フリー素材API・任意）---
+  // 画像を付ける重要度の下限。これ未満の記事は画像を取得・付与しない（image:null）。
+  // 約50本/日で全件に画像を用意するのは取得・ページ重量の両面で過剰なため、ヒーロー候補となる
+  // 重要記事(importance>=この値)だけに限定する。ヒーローは常に高importanceなので必ず画像が付く。
+  // 表示テンプレ(leadStory/heroFigure)は「画像があれば表示」なので、これだけで「ヒーロー＋重要記事に画像」になる。
+  imageImportanceFloor: 4,
   imageProvider: process.env.IMAGE_PROVIDER || 'unsplash', // 'unsplash' | 'pexels'
   unsplashKey: process.env.UNSPLASH_KEY || '',
   pexelsKey: process.env.PEXELS_KEY || '',
@@ -66,26 +79,68 @@ export const config = {
   tavilyKey: process.env.TAVILY_KEY || '',
 
   // --- RSS（キー不要・主力ソース）---
-  // AI関連の公式/メディアRSS。増やす場合はここに追加。
+  // 総合ニュースの公式/メディアRSS。増やす場合はここに追加。
   // tier: 'primary'=企業公式の一次情報（優先）／'media'=報道メディア（補助・要裏取り）
+  // aiFilter: true を付けたフィードのみ aiKeywords による足切りが効く（AI以外も大量に流す汎用ソース向け）。
+  //           付けない総合ソースは素通しし、重要度フロアと writer の選別に委ねる。
   rssFeeds: [
-    { url: 'https://openai.com/news/rss.xml',                source: 'OpenAI',        section: '基盤モデル', tier: 'primary' },
-    { url: 'https://blog.google/technology/ai/rss/',         source: 'Google AI',     section: '研究',       tier: 'primary' },
-    { url: 'https://huggingface.co/blog/feed.xml',           source: 'Hugging Face',  section: '研究',       tier: 'primary' },
-    { url: 'https://techcrunch.com/category/artificial-intelligence/feed/', source: 'TechCrunch', section: 'スタートアップ', tier: 'media' },
-    { url: 'https://venturebeat.com/category/ai/feed/',      source: 'VentureBeat',   section: '産業応用',   tier: 'media' },
-    { url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml', source: 'The Verge', section: '産業応用', tier: 'media' },
-    { url: 'https://www.technologyreview.com/feed/',         source: 'MIT Tech Review', section: '研究',     tier: 'media' },
-    { url: 'https://rss.itmedia.co.jp/rss/2.0/aiplus.xml',   source: 'ITmedia AI＋',   section: '産業応用',   tier: 'media' },
-    // --- 開発（AIコーディング・エージェント開発・開発者向けAI活用）---
-    // 汎用ソースだが aiKeywords フィルタ（media tier）で非AI記事は自動足切りされる。
-    { url: 'https://github.blog/feed/',                      source: 'GitHub Blog',   section: '開発',       tier: 'media' },
-    { url: 'https://aws.amazon.com/blogs/machine-learning/feed/', source: 'AWS ML Blog', section: '開発',    tier: 'media' },
-    { url: 'https://devblogs.microsoft.com/feed/',          source: 'Microsoft Dev', section: '開発',       tier: 'media' },
-    { url: 'https://stackoverflow.blog/feed/',              source: 'Stack Overflow', section: '開発',      tier: 'media' },
-    // --- ハードウェア（GPU・半導体・AI計算基盤）---
-    { url: 'https://blogs.nvidia.com/feed/',                source: 'NVIDIA',        section: 'ハードウェア', tier: 'media' },
-    { url: 'https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss', source: 'IEEE Spectrum', section: 'ハードウェア', tier: 'media' },
+    // --- AI（企業公式の一次情報＋AI専業メディア）---
+    { url: 'https://openai.com/news/rss.xml',                source: 'OpenAI',        section: 'AI', tier: 'primary' },
+    { url: 'https://blog.google/technology/ai/rss/',         source: 'Google AI',     section: 'AI', tier: 'primary' },
+    { url: 'https://huggingface.co/blog/feed.xml',           source: 'Hugging Face',  section: 'AI', tier: 'primary' },
+    { url: 'https://techcrunch.com/category/artificial-intelligence/feed/', source: 'TechCrunch', section: 'AI', tier: 'media' },
+    { url: 'https://venturebeat.com/category/ai/feed/',      source: 'VentureBeat',   section: 'AI',   tier: 'media' },
+    { url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml', source: 'The Verge AI', section: 'AI', tier: 'media' },
+    { url: 'https://www.technologyreview.com/feed/',         source: 'MIT Tech Review', section: 'AI',     tier: 'media' },
+    { url: 'https://rss.itmedia.co.jp/rss/2.0/aiplus.xml',   source: 'ITmedia AI＋',   section: 'AI',   tier: 'media' },
+    // --- テクノロジー（一般テック。一部は汎用フィードのため aiFilter で過剰ノイズを抑制）---
+    { url: 'https://feeds.arstechnica.com/arstechnica/index', source: 'Ars Technica', section: 'テクノロジー', tier: 'media' },
+    { url: 'https://www.theverge.com/rss/index.xml',         source: 'The Verge',     section: 'テクノロジー', tier: 'media' },
+    { url: 'https://www.wired.com/feed/rss',                 source: 'WIRED',         section: 'テクノロジー', tier: 'media' },
+    { url: 'https://www.engadget.com/rss.xml',               source: 'Engadget',      section: 'テクノロジー', tier: 'media' },
+    { url: 'https://github.blog/feed/',                      source: 'GitHub Blog',   section: 'テクノロジー', tier: 'media', aiFilter: true },
+    { url: 'https://aws.amazon.com/blogs/machine-learning/feed/', source: 'AWS ML Blog', section: 'テクノロジー', tier: 'media', aiFilter: true },
+    { url: 'https://devblogs.microsoft.com/feed/',          source: 'Microsoft Dev', section: 'テクノロジー', tier: 'media', aiFilter: true },
+    { url: 'https://stackoverflow.blog/feed/',              source: 'Stack Overflow', section: 'テクノロジー', tier: 'media', aiFilter: true },
+    { url: 'https://blogs.nvidia.com/feed/',                source: 'NVIDIA',        section: 'テクノロジー', tier: 'media', aiFilter: true },
+    { url: 'https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss', source: 'IEEE Spectrum', section: 'テクノロジー', tier: 'media', aiFilter: true },
+    // --- サイエンス（自然科学）---
+    { url: 'https://www.quantamagazine.org/feed/',          source: 'Quanta',        section: 'サイエンス', tier: 'media' },
+    { url: 'https://www.sciencedaily.com/rss/all.xml',      source: 'ScienceDaily',  section: 'サイエンス', tier: 'media' },
+    { url: 'https://phys.org/rss-feed/',                    source: 'Phys.org',      section: 'サイエンス', tier: 'media' },
+    { url: 'https://www.nasa.gov/feed/',                    source: 'NASA',          section: 'サイエンス', tier: 'media' },
+    { url: 'https://www.nature.com/nature.rss',            source: 'Nature',        section: 'サイエンス', tier: 'media' },
+    // --- ビジネス ---
+    { url: 'https://feeds.bbci.co.uk/news/business/rss.xml', source: 'BBC Business', section: 'ビジネス', tier: 'media' },
+    { url: 'https://www.cnbc.com/id/100003114/device/rss/rss.html', source: 'CNBC', section: 'ビジネス', tier: 'media' },
+    { url: 'https://www.theguardian.com/uk/business/rss',   source: 'The Guardian',  section: 'ビジネス', tier: 'media' },
+    { url: 'https://rss.itmedia.co.jp/rss/2.0/business.xml', source: 'ITmedia ビジネス', section: 'ビジネス', tier: 'media' },
+    // --- 経済・マネー ---
+    { url: 'https://www.economist.com/finance-and-economics/rss.xml', source: 'The Economist', section: '経済・マネー', tier: 'media' },
+    { url: 'https://www.theguardian.com/money/rss',        source: 'The Guardian',  section: '経済・マネー', tier: 'media' },
+    // --- 政治 ---
+    { url: 'https://feeds.bbci.co.uk/news/politics/rss.xml', source: 'BBC Politics', section: '政治', tier: 'media' },
+    { url: 'https://www.theguardian.com/politics/rss',     source: 'The Guardian',  section: '政治', tier: 'media' },
+    { url: 'https://www.nhk.or.jp/rss/news/cat4.xml',      source: 'NHK',           section: '政治', tier: 'media' },
+    { url: 'https://rss.politico.com/politics-news.xml',   source: 'Politico',      section: '政治', tier: 'media' },
+    // --- 国際・地政学 ---
+    { url: 'https://feeds.bbci.co.uk/news/world/rss.xml',  source: 'BBC World',     section: '国際・地政学', tier: 'media' },
+    { url: 'https://www.theguardian.com/world/rss',       source: 'The Guardian',  section: '国際・地政学', tier: 'media' },
+    { url: 'https://www.aljazeera.com/xml/rss/all.xml',   source: 'Al Jazeera',    section: '国際・地政学', tier: 'media' },
+    { url: 'https://foreignpolicy.com/feed/',             source: 'Foreign Policy', section: '国際・地政学', tier: 'media' },
+    { url: 'https://www.nhk.or.jp/rss/news/cat6.xml',     source: 'NHK',           section: '国際・地政学', tier: 'media' },
+    // --- カルチャー（アート・文化）---
+    { url: 'https://www.theguardian.com/culture/rss',     source: 'The Guardian',  section: 'カルチャー', tier: 'media' },
+    { url: 'https://hyperallergic.com/feed/',             source: 'Hyperallergic', section: 'カルチャー', tier: 'media' },
+    { url: 'https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml', source: 'BBC Arts', section: 'カルチャー', tier: 'media' },
+    // --- エンタメ ---
+    { url: 'https://variety.com/feed/',                   source: 'Variety',       section: 'エンタメ', tier: 'media' },
+    { url: 'https://www.theguardian.com/film/rss',        source: 'The Guardian',  section: 'エンタメ', tier: 'media' },
+    { url: 'https://pitchfork.com/feed/feed-news/rss',    source: 'Pitchfork',     section: 'エンタメ', tier: 'media' },
+    // --- ライフ・キャリア（ライフスタイル・キャリア・教育）---
+    { url: 'https://www.theguardian.com/lifeandstyle/rss', source: 'The Guardian', section: 'ライフ・キャリア', tier: 'media' },
+    { url: 'https://www.theguardian.com/education/rss',   source: 'The Guardian',  section: 'ライフ・キャリア', tier: 'media' },
+    { url: 'https://lifehacker.com/rss',                  source: 'Lifehacker',    section: 'ライフ・キャリア', tier: 'media' },
   ],
 
   // CSS抽象サムネのフォールバック候補（styles.css のクラス）
@@ -99,17 +154,21 @@ export const config = {
 
   // ナビのセクション（表示順）。slug はセクションページのファイル名 sections/<slug>.html。
   // hue: セクション別アクセント色相（OKLCH の H・0-360）。チップの色分けで回遊の道標にする。
-  // オピニオン/データは継続的なソースを確保しにくく記事0が続いたため、空ページを出さないようナビから除外。
-  // 規制・倫理は専用ソースが乏しいが writer が既存media（policy系記事）から内容で分類して埋める。
-  // コンテンツが育てば再追加する（記事の section 値は自由なので、ここに無いセクションの記事も記事ページは生成される）。
+  // 総合ニュース化に伴い、AI専門の旧セクション（基盤モデル/研究/開発/産業応用/規制・倫理/スタートアップ/
+  // ハードウェア）を総合構成へ再編。空ページ回避のため各セクションに rssFeeds の実ソースを割り当て済み。
+  // 教育・キャリア・お金・アートは独立させずライフ・キャリア／経済・マネー／カルチャーへ統合（育てば分割）。
+  // 記事の section 値は自由なので、ここに無いセクション（旧記事の値など）の記事ページも生成される。
   navSections: [
-    { name: '基盤モデル', slug: 'foundation', hue: 220 },   // 電子ブルー（ブランド基調）
-    { name: '研究', slug: 'research', hue: 285 },           // バイオレット
-    { name: '開発', slug: 'dev', hue: 330 },                // ローズ（AIコーディング・開発者向けAI活用）
-    { name: '産業応用', slug: 'industry', hue: 180 },        // ティール
-    { name: '規制・倫理', slug: 'regulation', hue: 35 },     // アンバー寄り（速報レッドと差別化）
-    { name: 'スタートアップ', slug: 'startups', hue: 145 },   // グリーン
-    { name: 'ハードウェア', slug: 'hardware', hue: 65 },      // ゴールド
+    { name: 'AI', slug: 'ai', hue: 220 },                  // 電子ブルー（ブランド基調・heritage）
+    { name: 'テクノロジー', slug: 'tech', hue: 250 },        // ブルーバイオレット
+    { name: 'サイエンス', slug: 'science', hue: 285 },       // バイオレット
+    { name: 'ビジネス', slug: 'business', hue: 145 },        // グリーン
+    { name: '経済・マネー', slug: 'economy', hue: 170 },      // ティールグリーン
+    { name: '政治', slug: 'politics', hue: 10 },            // レッド寄り
+    { name: '国際・地政学', slug: 'world', hue: 35 },         // アンバー
+    { name: 'カルチャー', slug: 'culture', hue: 320 },        // マゼンタ
+    { name: 'エンタメ', slug: 'entertainment', hue: 300 },    // パープルピンク
+    { name: 'ライフ・キャリア', slug: 'life', hue: 100 },      // ライムグリーン
   ],
 
   // ====================================================================
@@ -161,9 +220,15 @@ export const config = {
     recentWindow: 30,  // 重複話題チェックで参照する直近記事数
   },
 
+  // --- 執筆モデル（writerModel）---
+  // 記事はRSSの要約＋中立論評（翻訳・要約タスク）なので安価な Haiku で量産する（約30本/日）。
+  // auto-generate.sh の writer 起動が --model でこれを使う。
+  writerModel: process.env.WRITER_MODEL || 'claude-haiku-4-5-20251001',
+
   // --- 判定モデル（judgeModel）---
-  // writer は既定の Opus。judge は自己相関を下げるため別モデルを使う。
-  // トークン削減のため既定は Haiku（writer=Opus と別モデルである＝相関を下げる目的は維持）。
+  // judge は自己相関を下げるため writer と別モデルを使う（ハーネスの不変条件「writer≠judge」）。
+  // writer=Haiku のため judge は一段上の Sonnet にする：安いHaikuで量産→賢いSonnetが事実誤り・
+  // 中立性を独立検証して弾く分業。judge は triage で高リスク下書きのみ実行するためコスト増は小。
   // CLI で利用できない場合はスクリプト側でフォールバック（judge をスキップし客観ゲートのみ）。
-  judgeModel: process.env.JUDGE_MODEL || 'claude-haiku-4-5-20251001',
+  judgeModel: process.env.JUDGE_MODEL || 'claude-sonnet-4-6',
 };
