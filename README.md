@@ -163,7 +163,7 @@ open index.html
 
 | 項目 | 既定 | 説明 |
 |---|---|---|
-| `maxArticles` | 2 | 1 回に掲載する本数（×3回/日 = 6本）。`MAX_ARTICLES` で上書き可 |
+| `maxArticles` | 25 | 1 回に掲載する本数の上限（×2回/日・6時/18時）。`MAX_ARTICLES` で上書き可 |
 | `candidatePool` | 12 | Claude に提示する候補数（この中から重要度で選別） |
 | `importanceFloor` | 3 | 重要度がこれ未満の候補は掲載しない |
 | `retentionTop` | 40 | トップ掲載の上限。超過分は `archive.html` へ |
