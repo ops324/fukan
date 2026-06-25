@@ -1,0 +1,43 @@
+# 公開前ゲート（npm run check）を Pull Request 上で自動実行する CI。
+# 手動開発は work/<topic> → PR → マージ のフロー（CONTRIBUTING.md）。
+#
+# 設計メモ:
+# - トリガーは pull_request のみ。push は付けない。
+#   自動ジョブ（launchd・1日3回）は main へ直 push（PR なし）するため、
+#   push トリガーを付けると自動公開のたびに無駄な CI が走り、巻き込んでしまう。
+# - check は秘密情報もネットワークも不要（src/check.js は一時ディレクトリに描画して
+#   作業ツリーを汚さず、入力 data/articles.json はコミット済み）。
+# - 警告は非ブロック（exit 0）。hard-fail はスキーマ/サニタイザ/constitution/レンダー破損のみ。
+
+name: check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+# 同一 PR で新しい push があれば、進行中の古い実行をキャンセルする。
+concurrency:
+  group: check-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run publish gate (npm run check)
+        run: npm run check

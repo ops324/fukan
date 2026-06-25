@@ -28,7 +28,7 @@
 ## 2. アーキテクチャ
 
 ```
-launchd（毎日 6:00 / 12:00 / 18:00）
+launchd（毎日 6:00 / 18:00）
   └─ scripts/auto-generate.sh
        └─ claude --dangerously-skip-permissions -p prompts/generate-articles.md
             ① node src/fetchCandidates.js
@@ -282,7 +282,7 @@ AIニュースサイト/
 
 - ラベル: `com.axiom.generate`
 - plist: `~/Library/LaunchAgents/com.axiom.generate.plist`
-- スケジュール: 毎日 **6:00 / 12:00 / 18:00**
+- スケジュール: 毎日 **6:00 / 18:00**（1日2回）
 - 実行: `scripts/auto-generate.sh`（ollama 不要・claude CLI を使用）
 - ログ: `data/scheduler.log`
 - 健全性監視: 実行前後で `articles.json` の件数を比較。**異常終了・articles.json 破損・push 失敗・
