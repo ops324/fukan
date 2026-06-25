@@ -30,6 +30,7 @@
   → **「`npm run render` 後に差分が出た＝自分が変更した」ではない**。これは正常。追加の揺れ（`Math.random()` 等）を新たに持ち込まない。
 
 ## 2. Git・コミット・デプロイ
+- **手動開発の具体手順は [CONTRIBUTING.md](CONTRIBUTING.md) を参照**（`work/<topic>` → PR → マージ）。PR は CI（`.github/workflows/check.yml` = `npm run check`）通過を確認してからマージする。
 - **push = 即本番**。`npm run check` 通過 ＋ 目視確認まで `origin main` に push しない。
 - **commit / push は明示依頼があったときだけ**行う。
 - **コード改善・機能追加・リスクある変更は作業ブランチで行う（既定）**。`main` 直コミットは記事内容や軽微な文言／ドキュメント微修正に限る。
