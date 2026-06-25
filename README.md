@@ -164,11 +164,12 @@ open index.html
 | 項目 | 既定 | 説明 |
 |---|---|---|
 | `maxArticles` | 25 | 1 回に掲載する本数の上限（×2回/日・6時/18時）。`MAX_ARTICLES` で上書き可 |
-| `candidatePool` | 12 | Claude に提示する候補数（この中から重要度で選別） |
+| `candidatePool` | 140 | Claude に提示する候補数（この中から重要度＋カバレッジ均等化で選別） |
 | `importanceFloor` | 3 | 重要度がこれ未満の候補は掲載しない |
 | `retentionTop` | 40 | トップ掲載の上限。超過分は `archive.html` へ |
 | `heroRecencyHours` | 24 | ヒーローは直近この時間内の最重要記事から選ぶ（トップ停滞の防止） |
-| `rssFeeds` | AI 系 8 フィード（`tier`付き） | 一次情報/メディアの別。増減はここで編集 |
+| `rssFeeds` | 総合ニュース10セクションのRSS（`tier`付き） | 一次情報/メディアの別。実フィードは `src/config.js` を参照（増減もここで編集） |
+| `imageImportanceFloor` | 4 | この重要度未満の記事には画像を付けない（取得・ページ重量の節約） |
 | `imageProvider` | `unsplash` | `unsplash` / `pexels`（キー未設定なら画像なし） |
 
 ### 定期実行（設定済み）
