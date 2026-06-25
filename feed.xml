@@ -7,165 +7,165 @@
     <atom:link href="https://fukan-news.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>テック・AI・科学・経済・政治・国際・カルチャーまで、世界のニュースを編集部の要約と中立論評で俯瞰する日本語ニュースメディア。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 25 Jun 2026 04:48:36 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 05:31:13 GMT</lastBuildDate>
+    <item>
+      <title>「骨減少症」、自覚なく数百万人の骨を蝕む</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-16.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-16.html</guid>
+      <pubDate>Thu, 25 Jun 2026 04:25:26 GMT</pubDate>
+      <description>骨粗しょう症の前段階。骨折で初めて気づく例も。生活改善で対策は可能。</description>
+      <category>サイエンス</category>
+    </item>
+    <item>
+      <title>アンソロピック、アリババを告発 Claudeに不正アクセスと主張</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-12.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-12.html</guid>
+      <pubDate>Thu, 25 Jun 2026 03:12:17 GMT</pubDate>
+      <description>偽アカウントで大量にデータを引き出す「蒸留」を試みたと米当局に書簡を送った。</description>
+      <category>ビジネス</category>
+    </item>
+    <item>
+      <title>政府、地震受け官邸対策室を設置 高市首相「総力挙げる」</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-19.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-19.html</guid>
+      <pubDate>Thu, 25 Jun 2026 02:41:01 GMT</pubDate>
+      <description>発生直後に危機管理センターへ対策室。緊急参集チームも招集した。</description>
+      <category>政治</category>
+    </item>
+    <item>
+      <title>孫正義氏、「ロボットがロボットを量産」体制の稼働を明かす</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-08.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-08.html</guid>
+      <pubDate>Thu, 25 Jun 2026 02:00:00 GMT</pubDate>
+      <description>ソフトバンクG株主総会で言及。フィジカルAIを新ビジョンの柱に据える。</description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>ブラックホールの「事象の地平面」、初めて痕跡を検出</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-14.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-14.html</guid>
+      <pubDate>Thu, 25 Jun 2026 01:20:01 GMT</pubDate>
+      <description>合体時の重力波から境界の兆候を捉えたとする研究。専門家には慎重論も。</description>
+      <category>サイエンス</category>
+    </item>
+    <item>
+      <title>ベネズエラでM7級地震が連続 カラカスで建物倒壊</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-18.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-18.html</guid>
+      <pubDate>Thu, 25 Jun 2026 01:11:53 GMT</pubDate>
+      <description>M7.2の直後にさらに強いM7.5。首都で被害が広がり、非常事態を宣言。</description>
+      <category>国際・地政学</category>
+    </item>
+    <item>
+      <title>Google、Gemini 3.5 Flashに画面操作AIを標準搭載</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-06.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-06.html</guid>
+      <pubDate>Thu, 25 Jun 2026 01:08:52 GMT</pubDate>
+      <description>AIが画面を認識しマウス・キーボードを自動操作する機能を主力モデルに標準統合した。</description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>NASA、史上最も「ふわふわ」な巨大惑星2つを発見</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-15.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-15.html</guid>
+      <pubDate>Thu, 25 Jun 2026 01:04:16 GMT</pubDate>
+      <description>木星サイズながら綿菓子並みの低密度。系外惑星探査衛星TESSの観測で判明。</description>
+      <category>サイエンス</category>
+    </item>
+    <item>
+      <title>トランプ政権、議会に約876億ドル要求 大半がイラン戦費</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-17.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-17.html</guid>
+      <pubDate>Thu, 25 Jun 2026 00:51:28 GMT</pubDate>
+      <description>国防費に約670億ドル。エボラ対応や農家支援も。議会では難航が必至だ。</description>
+      <category>国際・地政学</category>
+    </item>
+    <item>
+      <title>ミリー・ボビー・ブラウン、「ストレンジャー・シングス」終了を語る</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-25.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-25.html</guid>
+      <pubDate>Thu, 25 Jun 2026 00:21:08 GMT</pubDate>
+      <description>イレブンの結末を知っていたと明かし、共演者に謝罪の言葉も。</description>
+      <category>エンタメ</category>
+    </item>
+    <item>
+      <title>ファラデー・フューチャー、EVに続きロボット事業へ参入</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-27.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-27.html</guid>
+      <pubDate>Wed, 24 Jun 2026 23:22:44 GMT</pubDate>
+      <description>ヒューマノイドや四足歩行ロボットを投入。EV販売は累計15台あまり。</description>
+      <category>テクノロジー</category>
+    </item>
+    <item>
+      <title>「GTA6」は約70ポンド 物理版にディスクなし</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-22.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-22.html</guid>
+      <pubDate>Wed, 24 Jun 2026 23:20:12 GMT</pubDate>
+      <description>標準版69.99ポンド・上位版89.99ポンド。箱にはダウンロード用コード。</description>
+      <category>カルチャー</category>
+    </item>
+    <item>
+      <title>英卒業生の4人に1人、大学進学で経済的に不利の恐れ</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-26.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-26.html</guid>
+      <pubDate>Wed, 24 Jun 2026 23:01:01 GMT</pubDate>
+      <description>英IFS推計。創作・芸術系で顕著。ただし大半は生涯収入が増加する。</description>
+      <category>ライフ・キャリア</category>
+    </item>
+    <item>
+      <title>セレブラス株が急落 上場後初決算で利益率見通しを嫌気</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-09.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-09.html</guid>
+      <pubDate>Wed, 24 Jun 2026 22:41:41 GMT</pubDate>
+      <description>中核事業の粗利益率の見通しが市場予想を下回り、投資家が失望した。</description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>マイクロン、メモリ高騰で売上が約4倍 株価15%上昇</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-11.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-11.html</guid>
+      <pubDate>Wed, 24 Jun 2026 22:39:58 GMT</pubDate>
+      <description>AI需要でメモリ価格が急騰し四半期売上が前年比約4倍に。株価は時間外で15%高。</description>
+      <category>ビジネス</category>
+    </item>
+    <item>
+      <title>OpenAI、初の自社AIチップ「Jalapeno」発表 Broadcomと開発</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-07.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-07.html</guid>
+      <pubDate>Wed, 24 Jun 2026 22:38:39 GMT</pubDate>
+      <description>LLMの推論に特化した独自アクセラレータ。2026年内に展開を始める計画だ。</description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>テキサスの一家、テスラ車の住宅突入事故で同社を提訴</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-13.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-13.html</guid>
+      <pubDate>Wed, 24 Jun 2026 22:33:56 GMT</pubDate>
+      <description>70代女性が自宅に突っ込んだ車で死亡。遺族が車両の責任を問う。</description>
+      <category>ビジネス</category>
+    </item>
+    <item>
+      <title>「AIが奪う」とされたエンジニア職、実は最も底堅い</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-10.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-10.html</guid>
+      <pubDate>Wed, 24 Jun 2026 21:56:41 GMT</pubDate>
+      <description>新規採用に占める割合はむしろ拡大。SignalFireのデータが示した。</description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>高市首相、財政目標に「債務残高対GDP比の低下」据える方針</title>
+      <link>https://fukan-news.vercel.app/articles/20260625-20.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-20.html</guid>
+      <pubDate>Wed, 24 Jun 2026 21:04:47 GMT</pubDate>
+      <description>2040年度までの新たな中長期計画を策定へ。表明に向け調整している。</description>
+      <category>政治</category>
+    </item>
     <item>
       <title>「トークン節約」時代へ、AI利用に上限課す企業</title>
       <link>https://fukan-news.vercel.app/articles/20260625-05.html</link>
       <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-05.html</guid>
       <pubDate>Wed, 24 Jun 2026 20:09:45 GMT</pubDate>
       <description>使い放題志向から一転、コスト管理のため社員のAI利用を絞る企業が増えていると米TechCrunchが伝えた。</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>AI規制推進の州議員、巨額PAC戦の末に予備選敗北</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-02.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-02.html</guid>
-      <pubDate>Wed, 24 Jun 2026 17:25:00 GMT</pubDate>
-      <description>AI安全規制を主導した州議員ボーズ氏が、約2700万ドルが投じられた予備選で敗れた。</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>Figma、設計画面にコードと動きを統合</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-04.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-04.html</guid>
-      <pubDate>Wed, 24 Jun 2026 16:15:00 GMT</pubDate>
-      <description>Figmaが年次会議Config 2026で、コード編集や動き・AIシェーダーをキャンバスに統合する更新を発表した。</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>AIが設計する「人智を超えた」高周波チップ</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-03.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-03.html</guid>
-      <pubDate>Wed, 24 Jun 2026 13:00:01 GMT</pubDate>
-      <description>プリンストン大の研究者が、高周波無線チップをAIにゼロから設計させる手法を実用化しつつある。</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>Diver-X、ロボット学習に使えるVRグローブ新型</title>
-      <link>https://fukan-news.vercel.app/articles/20260624-12.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260624-12.html</guid>
-      <pubDate>Wed, 24 Jun 2026 07:25:00 GMT</pubDate>
-      <description>Diver-XがVRグローブ新製品を発表、産業版はロボットの手の動作学習に活用できる</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>AnthropicがSlack向け新機能「Claude Tag」を公開</title>
-      <link>https://fukan-news.vercel.app/articles/20260624-11.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260624-11.html</guid>
-      <pubDate>Wed, 24 Jun 2026 06:27:00 GMT</pubDate>
-      <description>AnthropicがSlackにAI「Claude」を招き、会話からタスクを任せられる新機能を公開した</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>OpenAI、自社初の推論用チップ「Jalapeño」公開</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-01.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-01.html</guid>
-      <pubDate>Wed, 24 Jun 2026 06:00:00 GMT</pubDate>
-      <description>OpenAIがBroadcomと共同開発した推論特化のカスタムASIC「Jalapeño」を発表。9カ月で設計を完了したという。</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>Mistral、文書OCR新版「OCR 4」公開 170言語対応</title>
-      <link>https://fukan-news.vercel.app/articles/20260624-06.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260624-06.html</guid>
-      <pubDate>Wed, 24 Jun 2026 01:13:48 GMT</pubDate>
-      <description>フランスのMistral AIが文書解析OCRの最新版を公開。日本語を含む170言語に対応し、文字位置や信頼度スコアの出力に対応した。</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>NVIDIAとAWS、新GPUインスタンスでAI推論を高速化</title>
-      <link>https://fukan-news.vercel.app/articles/20260624-09.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260624-09.html</guid>
-      <pubDate>Wed, 24 Jun 2026 00:05:37 GMT</pubDate>
-      <description>NVIDIAとAWSが、Blackwell世代GPUを載せた新型インスタンスとGPU活用の検索基盤で、AIの本番運用を高速化すると発表した。</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>Anthropic、Slackで使える「Claude Tag」提供開始</title>
-      <link>https://fukan-news.vercel.app/articles/20260624-07.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260624-07.html</guid>
-      <pubDate>Tue, 23 Jun 2026 23:55:42 GMT</pubDate>
-      <description>Anthropicが、Slackで「@Claude」とメンションして非同期にタスクを任せられる新機能「Claude Tag」のβ版提供を始めた。</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>インドのMoEngage、米AIスタートアップAampeを買収</title>
-      <link>https://fukan-news.vercel.app/articles/20260624-10.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260624-10.html</guid>
-      <pubDate>Tue, 23 Jun 2026 23:30:00 GMT</pubDate>
-      <description>顧客エンゲージメント基盤のMoEngageが、顧客ごとにAIエージェントを割り当てる米Aampeを全額現金で買収した。</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>AI業界マネー、NY民主党予備選に巨額流入</title>
-      <link>https://fukan-news.vercel.app/articles/20260624-13.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260624-13.html</guid>
-      <pubDate>Tue, 23 Jun 2026 17:00:00 GMT</pubDate>
-      <description>AI規制を争点に、業界の政治資金団体がニューヨークの民主党予備選へ巨額を投じている</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>GPT-5、免疫学の3年来の謎に新仮説を提示</title>
-      <link>https://fukan-news.vercel.app/articles/20260624-01.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260624-01.html</guid>
-      <pubDate>Tue, 23 Jun 2026 17:00:00 GMT</pubDate>
-      <description>米ジャクソン研究所の免疫学者が、3年間説明できなかったT細胞の実験結果をGPT-5 Proが新機序で説明したと報告した。</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>Anthropic、Slack常駐AI「Claude Tag」をベータ提供</title>
-      <link>https://fukan-news.vercel.app/articles/20260624-05.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260624-05.html</guid>
-      <pubDate>Tue, 23 Jun 2026 17:00:00 GMT</pubDate>
-      <description>Anthropicが、Slackで@メンションして使う常駐型AIアシスタント「Claude Tag」を法人向けにベータ公開した。</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>Midjourneyの全身スキャナー、専門家は懐疑的</title>
-      <link>https://fukan-news.vercel.app/articles/20260624-14.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260624-14.html</guid>
-      <pubDate>Tue, 23 Jun 2026 15:56:35 GMT</pubDate>
-      <description>画像生成AIのMidjourneyが超音波の全身スキャナーを発表、専門家は裏付け不足を指摘</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>GitHubら、加州のAI透明化法改正を要求</title>
-      <link>https://fukan-news.vercel.app/articles/20260624-02.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260624-02.html</guid>
-      <pubDate>Tue, 23 Jun 2026 15:48:00 GMT</pubDate>
-      <description>GitHubやHugging Faceらが、加州AI透明化法はオープンソースのライセンス慣行と衝突するとして改正を要求した。</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>OpenAIなど、AI標準づくりの「Appia財団」を支援</title>
-      <link>https://fukan-news.vercel.app/articles/20260624-08.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260624-08.html</guid>
-      <pubDate>Tue, 23 Jun 2026 13:00:00 GMT</pubDate>
-      <description>OpenAIやGoogle、MicrosoftらがAIの安全性や信頼性を検証する共通仕様づくりを担う新組織「Appia財団」に参画した。</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>Meta、Ray-Banを外した自社スマートグラス</title>
-      <link>https://fukan-news.vercel.app/articles/20260624-03.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260624-03.html</guid>
-      <pubDate>Tue, 23 Jun 2026 13:00:00 GMT</pubDate>
-      <description>Metaが初めてRay-Banブランドを冠さない3種のAIグラスを発表。299ドルからで上位モデルは399ドル。</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>IBM、AIエージェント開発基盤CUGAを公開</title>
-      <link>https://fukan-news.vercel.app/articles/20260624-15.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260624-15.html</guid>
-      <pubDate>Tue, 23 Jun 2026 12:51:55 GMT</pubDate>
-      <description>IBM ResearchがエージェントAI開発の土台を担うオープンソース基盤CUGAを公開した</description>
-      <category>AI</category>
-    </item>
-    <item>
-      <title>NVIDIA、スパコンTOP500の8割超に採用</title>
-      <link>https://fukan-news.vercel.app/articles/20260624-04.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260624-04.html</guid>
-      <pubDate>Tue, 23 Jun 2026 09:00:38 GMT</pubDate>
-      <description>最新のスパコン番付TOP500で、NVIDIA技術が400システム超（81%）に採用され、新規の約9割を占めた。</description>
       <category>AI</category>
     </item>
   </channel>
