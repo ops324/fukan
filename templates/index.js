@@ -43,9 +43,11 @@ function latestList(items, archiveHref = '#') {
     </section>`;
   }
   const rows = items.map((a) => `        <li class="feed-item">
-          <time class="feed-item__time" datetime="${isoDate(a)}">${esc(a.displayTime || a.displayDate || '')}</time>
+          <div class="feed-item__meta">
+            <span class="feed-item__cat">${esc(a.section || 'AI')}</span>
+            <time class="feed-item__time" datetime="${isoDate(a)}">${esc([a.displayDateShort || a.displayDate, a.displayTime].filter(Boolean).join(' '))}</time>
+          </div>
           <a class="feed-item__title" href="${href(a)}">${esc(a.headline)}</a>
-          <span class="feed-item__cat">${esc(a.section || 'AI')}</span>
         </li>`).join('\n');
   const more = archiveHref !== '#'
     ? `\n      <a class="feed__more" href="${archiveHref}">アーカイブをすべて見る</a>`

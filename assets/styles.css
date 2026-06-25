@@ -295,18 +295,42 @@ figure { margin: 0; }
   margin: 0 0 var(--space-sm);
 }
 .feed-list { list-style: none; margin: 0; padding: 0; }
+/* エブロー型: 上段に小さなメタ「カテゴリ · 日時」、下段に見出し（serif）。
+   余白と極薄罫線・型階層でモダンに（色は青アクセントのみ）。 */
 .feed-item {
-  display: grid;
-  grid-template-columns: max-content 1fr auto;
-  align-items: baseline;
-  gap: var(--space-md);
-  padding: var(--space-md) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+  padding: var(--space-lg) 0;
   border-top: 1px solid var(--rule);
 }
 .feed-item:first-child { border-top: 0; }
-.feed-item__time {
-  font-size: var(--text-sm);
+.feed-item__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
   color: var(--ink-2);
+}
+.feed-item__cat {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  max-width: 12em;
+  font-weight: 600;
+  color: var(--ink-1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.feed-item__cat::after {
+  content: "·";
+  font-weight: 400;
+  color: var(--rule-strong);
+}
+.feed-item__time {
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
@@ -314,16 +338,12 @@ figure { margin: 0; }
   font-family: var(--font-serif);
   font-size: var(--text-md);
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.4;
+  letter-spacing: -0.006em;
   color: var(--ink-0);
+  transition: color var(--dur) var(--ease);
 }
 .feed-item__title:hover { color: var(--accent); }
-.feed-item__cat {
-  font-size: var(--text-xs);
-  color: var(--ink-2);
-  white-space: nowrap;
-  text-align: right;
-}
 .feed__more {
   display: inline-block;
   margin-top: var(--space-lg);
@@ -572,8 +592,6 @@ figure { margin: 0; }
  * ============================================================ */
 @media (max-width: 600px) {
   :root { --gutter: 18px; }
-  .feed-item { grid-template-columns: max-content 1fr; }
-  .feed-item__cat { grid-column: 2; text-align: left; }
   .article-share { margin-left: 0; }
   .site-footer__top { grid-template-columns: 1fr 1fr; }
 }
@@ -637,17 +655,8 @@ figure { margin: 0; }
   background: var(--rule);
   align-self: center;
 }
-/* 行内の対比を強化: 見出しは黒・行間を締め、時刻/カテゴリはメタ格を徹底 */
-.feed-item { padding: var(--space-md) 0 calc(var(--space-md) + 1px); }
-.feed-item__title { line-height: 1.45; letter-spacing: 0.004em; }
-.feed-item__time,
-.feed-item__cat {
-  font-size: var(--text-xs);
-  letter-spacing: 0.04em;
-  color: var(--ink-2);
-}
-/* hover で行頭にわずかな引き込み（色は足さず、左の余白で「読める行」を示す） */
-.feed-item__title { transition: color var(--dur) var(--ease); }
+/* 行の型階層・余白・hover はエブロー型のベース定義（§6）に集約。
+   ここでは importance 強調のみ残す。 */
 
 /* importance 強調（テンプレが data-imp / 修飾子を出す場合のみ効く・無くても無害） */
 .feed-item[data-imp="5"] .feed-item__title,
@@ -679,7 +688,6 @@ figure { margin: 0; }
   :root { --gutter: 32px; }
   .site-nav__list { gap: var(--space-xl); }
   .lead { padding: var(--space-2xl) 0 var(--space-xl); }
-  .feed-item { gap: var(--space-lg); }
   /* footer の窮屈な 1.6fr+4 を 2 行構成に: ブランド全幅 + 4 等分 */
   .site-footer__top {
     grid-template-columns: repeat(4, 1fr);

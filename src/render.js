@@ -31,8 +31,9 @@ const effDate = (a) => a.publishedAt || a.createdAt;
 function decorate(a) {
   const d = effDate(a) ? new Date(effDate(a)) : new Date();
   const displayDate = `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, '0')}.${String(d.getDate()).padStart(2, '0')}`;
+  const displayDateShort = `${String(d.getMonth() + 1).padStart(2, '0')}.${String(d.getDate()).padStart(2, '0')}`;
   const displayTime = `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
-  return { ...a, displayDate, displayTime };
+  return { ...a, displayDate, displayDateShort, displayTime };
 }
 
 const recencyDesc = (x, y) => Date.parse(effDate(y) || 0) - Date.parse(effDate(x) || 0);
