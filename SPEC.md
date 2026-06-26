@@ -389,7 +389,7 @@ open index.html
 1. **writer（`config.writerModel`＝既定 Haiku）** `prompts/generate-articles.md` … 候補取得→取材→**自己批評**→下書き `data/_drafts.json`。**取り込みはしない**。要約＋論評タスクなので安価な Haiku で量産（約30本/日）。`auto-generate.sh` が `--model "$WRITER_MODEL"` で指定する。
    実行時、`src/qualityDigest.js`（直近8本の客観フラグ集計・決定的・オフライン）の**品質フィードバックをプロンプト末尾へ動的注入**する（前回までの逸脱の是正を促す）。取得失敗時は空＝従来挙動で**日次を止めない**。手動確認は `npm run quality-digest`。
 2. **judge（別モデル `config.judgeModel`＝既定 Sonnet）** `prompts/review-drafts.md` … 出典照合で faithfulness を採点し、`data/_review.json` に
-   各下書きの `verdict: pass|veto`＋スコアを出力。**veto は強い根拠時のみ**（事実不一致・出典死活・constitution 違反）。
+   各下書きの `verdict: pass|veto`＋スコアを出力。**veto は「明確な事実誤り」で行う**（出典矛盾・数値/単位の改変・更新済み数値の旧値記載・趣旨の取り違え＝過小/過大表現・出典死活・constitution 違反）。事実誤りは `suggestions` で流さず veto し、**迷う事実誤りは veto 寄り**に倒す。一方、体裁・文体・構成の好みでは落とさない（事実が出典と一致していれば pass＋suggestions、迷ったら pass）。
 3. **ingest** `src/ingestDrafts.js` … veto を尊重して破棄、画像付与・再生成、評価を **ledger** に追記。
 - **トークン削減の triage**: judge 呼び出しの前に `node src/evaluate.js --triage` を実行。下書きが**すべて `tier:'primary'` かつ客観フラグ無し**の
   低リスク回は judge を**丸ごとスキップ**（客観ゲート＋writer 自己批評のみで公開）。`media` 混在 or 客観フラグ有り＝独立検証が最も要る回だけ judge を走らせる。
