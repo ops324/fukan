@@ -2,10 +2,11 @@
 
 各分野のニュース（テック・AI・科学・経済・政治・国際・カルチャー等）の取得・執筆・画像付与・サイト生成を全自動化する、ヘッドレス Claude Code ベースのニュースパイプライン。
 
-- 最終更新: 2026-06-25
+- 最終更新: 2026-06-26
 - 対象リポジトリ: `AIニュースサイト/`
 - 本番URL: `https://fukan-news.vercel.app`（Vercel・git push で自動デプロイ。旧 `axiom-ai-xi.vercel.app` はこちらへリダイレクト）
 - 配信形態: 静的サイト（HTML/CSS、閲覧は依存ゼロ。検索・演出のみ軽量バニラ JS = `search.js` / `reveal.js`）
+- ビルド/配信: 生成物は **VCS にコミットせず** `dist/` に出力（gitignore 済み）。Vercel が `buildCommand:"npm run build"` / `outputDirectory:"dist"` で**デプロイ時に生成・配信**する（§13）。`dist/` 外のソース・ドキュメントは公開されない。
 
 ---
 
@@ -40,11 +41,11 @@ launchd（毎日 6:00 / 18:00）
                  → data/_drafts.json（下書き）
             ③ node src/ingestDrafts.js
                  slug採番 → 画像取得 → 重複排除 → data/articles.json 保存
-                 → render（index / archive（月インデックス＋archive/YYYY-MM）/ articles/* / sections/* / tags/*
+                 → render（dist/ へ：index / archive（月インデックス＋archive/YYYY-MM）/ articles/* / sections/* / tags/*
                            / 法的6ページ / search-index.json / sitemap.xml
-                           / robots.txt / feed.xml / feed.xsl）
+                           / robots.txt / feed.xml / feed.xsl）※ dist は gitignore のため commit されない
        └─ 健全性チェック（記事数増減・exit code）→ 異常なら macOS 通知
-       └─ 変更があれば git commit & push（Vercel 自動デプロイ）
+       └─ 変更があれば git commit & push（実質 data/articles.json の差分のみ）→ Vercel が npm run build でデプロイ
        └─ 実行結果を data/scheduler.log に追記
 ```
 
@@ -316,16 +317,17 @@ npm install                  # 依存導入（rss-parser / marked / dotenv）
 npm run check                # 公開前ゲート（レンダー完走＋スキーマ/slug・link一意＋鍵混入チェック）
 npm run candidates           # 候補だけ確認（data/_candidates.json）
 zsh scripts/auto-generate.sh # 取材→執筆→反映まで全自動で1回
-npm run render               # articles.json から再描画のみ
+npm run build                # articles.json から dist/ に全 HTML ＋ アセットを生成（Vercel と同一・→ §13）
+npm run render               # articles.json から dist/ に HTML のみ再描画（アセット複製なし）
+npm run serve                # dist/ を http://localhost:8000 で配信して目視
 npm run quality-digest       # 直近記事の品質傾向フィードバックを表示（writer還流の内容確認・→ §12.3）
 npm run backfill-images      # 既存記事の抽象サムネを実写真へ一括差し替え（要 UNSPLASH_KEY）
 npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # 公式プレス画像を手動登録（→ §6.1）
-open index.html
 ```
 
 > `npm run check` は一時ディレクトリへお試しレンダーするため**作業ツリーを汚さない**。手動で `git push`（=本番反映）する前に必ず実行する。開発時の規約は [CLAUDE.md](CLAUDE.md)、手動開発の PR フローは [CONTRIBUTING.md](CONTRIBUTING.md) を参照。
 
-リセット: `data/articles.json` と `articles/*.html` を削除。
+リセット: `data/articles.json` を削除（生成物は `dist/` に出るだけなので `dist/` を消す）。
 
 ---
 
@@ -345,13 +347,13 @@ open index.html
   無人＋push=即本番のため、ソース由来のインジェクションや writer 変更1回での公開事故を防ぐ。退行は `npm run check` の
   `checkSanitizer()`（既知の悪性入力を通して無害化を確認・オフライン・hard-fail）が検知する。
 - **claude CLI 認証が切れると定期ジョブは失敗する**。`data/scheduler.log` を時々確認する。
-- 記事の正本は `data/articles.json`。HTML はそこからの派生（いつでも `npm run render` で再生成可能）。
+- 記事の正本は `data/articles.json`。HTML はそこからの派生（いつでも `npm run build` で `dist/` に再生成可能）。
 - **コード改善はブランチで**: 自動ジョブの `git push origin main` は `main` 上の未 push コミットも一緒に送るため、
   WIP を `main` に直コミットすると次の自動実行で本番へ出る。改善・機能追加は作業ブランチで行い、検証後に `main` へマージする（[CLAUDE.md](CLAUDE.md) §2）。
 - `makeSlug` は「同日最大連番+1」方式（削除で欠番が出ても衝突しない）。
 - zsh の `$status` は読取専用のため、シェルスクリプトでは別名（`rc`）を使う。
-- **再描画は非決定的**: `feed.xml` の `lastBuildDate` と `sitemap.xml` の `lastmod` が毎回更新されるため、
-  内容が同じでも `npm run render` のたびに差分が出る（＝差分＝変更ではない）。`npm run check` は
+- **再描画は非決定的**: `feed.xml` の `lastBuildDate` と `sitemap.xml` の `lastmod` が毎回更新されるが、
+  出力先は gitignore の `dist/` なので**git 差分には出ない**（§13）。`npm run check` は
   この性質を踏まえ「2回描画して diff 空」方式は採らず、一時dirへの描画完走で健全性を判定する。
 - **左端整列（ガター不変条件）**: ロゴ／ナビ／リード／最新リスト／フッターは `.container`（`--gutter`：24px・SP 18px、`--site-max` 760px）で左端を揃える。`.container` を入れ子で**二重に付けない**（ナビ行・ヘッダーバーはそれぞれ `.container` を1つだけ持つ）。
   - **例外＝トップのみ PC で widen**: `<body class="page--home">` のとき `@media(min-width:1000px)` で `.container` を `--site-max-wide`（1120px）に拡張（ヘッダー/ナビ/メイン/フッターが揃って広がる）。`bodyClass` は `page()` の任意引数（既定空）で、トップ以外（記事/セクション/タグ/アーカイブ）は 760px のまま。`<1000px` は全ページ1カラム＝モバイル挙動を維持。
@@ -412,3 +414,17 @@ MVP を数日〜2週間運用し「評価信号が役立つ」と確認できた
   改善差分を作る。**constitution は不可・design はテキスト提案のみ**（headless はピクセルを見ないため）。
 - **対話ハーネス**: subagents（news-judge / site-auditor）と slash commands（`/evaluate`・`/self-improve`）。
   `/self-improve` は preview スクショ＋デザインスキルで**視覚監査込み**の改善を人と回す。
+
+---
+
+## 13. ビルド・配信（Vercel）
+
+生成物（HTML/feed/sitemap/search-index）は **VCS にコミットしない**。Vercel が**デプロイ時にビルド**して配信する。
+
+- **出力先**: 全生成物は `dist/`（gitignore 済み）。`renderSite()` の既定 `outDir` が `dist`（`src/render.js`）で、ingest/backfill/set-press/renderОnly のレンダーもすべて dist に出る。`check.js` だけは一時ディレクトリへ描画して作業ツリーを汚さない。
+- **`npm run build`（`src/build.js`）**: `renderSite()` → dist ＋ `assets/` を `dist/assets/` へ複製（`cpSync`・依存追加なし）。これ1本で「dist だけで配信が完結」する。Vercel もローカル目視もこれを使う。
+- **`vercel.json`**: `buildCommand:"npm run build"` / `installCommand:"npm install"` / `outputDirectory:"dist"`。Vercel は push 時に install→build し、`dist/` を公開する。render はオフライン・決定的（`articles.json` を読むだけ）なのでビルドは安定して通る。
+- **狙い（Git 肥大の抑止）**: 旧モデル（生成物を root にコミットし `outputDirectory:"."` で無加工配信）では自動ジョブの `git add -A` が毎回数百ファイルを churn し `.git` が肥大していた。dist 化で各 auto コミットは実質 `data/articles.json` の差分のみになる。
+- **副次効果**: `dist/` 外のソース・ドキュメント（`SPEC.md`・`CLAUDE.md`・`src/` 等）は**公開配信されない**（旧モデルでは `/SPEC.md` 等が公開されていた）。
+- **非決定性と git の関係**: `feed.xml` の `lastBuildDate`・`sitemap` の `lastmod`・日付ラベルは毎回変わるが、出力先が gitignore の `dist/` なので**git 差分には出ない**。
+- **スコープ外（別ロードマップ）**: render の決定化、既存履歴の `git filter-repo` 縮小、`data/articles.json` の月別シャーディング/SQLite 化。

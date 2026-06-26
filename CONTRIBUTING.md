@@ -17,7 +17,7 @@
 3. **ローカルで検証する**
    ```
    npm run check     # 公開前ゲート（必須・緑になること）
-   npm run serve     # 主要ページの目視確認（任意・推奨）
+   npm run serve     # npm run build → dist/ を配信して主要ページを目視（任意・推奨）
    ```
 
 4. **push して PR を作成する**
