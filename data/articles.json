@@ -1,5 +1,387 @@
 [
   {
+    "slug": "20260627-01",
+    "headline": "OpenAI、次世代「GPT-5.6」3モデルを限定プレビュー",
+    "lead": "OpenAIが次世代AIモデル「GPT-5.6」シリーズを限定プレビュー開始。政府調整下、最高性能モデル「Sol」から低価格「Luna」まで3階層を提供予定。",
+    "body_markdown": "OpenAIは2026年6月26日、次世代AIモデル「GPT-5.6」シリーズの限定プレビューを開始した。従来の単一モデルから脱却し、用途別に3つのモデルを用意した。フラッグシップの「Sol」は最高性能で、コーディング・生物学・サイバーセキュリティの能力を大幅に向上させた。深い推論が可能な「max」モードと複雑作業を加速する「ultra」モードを搭載している。バランス型の「Terra」は日常業務向けで、前世代GPT-5.5と同等性能を保ちながら価格を半減。最安のLuna「は同社最低コストでも高い能力を提供する。\n\n注目は政府との調整プロセスだ。米政府要請により、信頼できるパートナー向けの限定プレビューからスタートし、数週間以内に一般提供を予定している。OpenAIは政府によるアクセス確認を「短期的措置」と位置付けている。安全対策は「過去最も強固」と表現され、モデル内拒否機能・リアルタイム分類器・アカウント確認・差別化アクセスを組み合わせた多層防御を採用。70万A100換算GPU時間以上の自動レッドチーミングと人手テストを実施した。\n\nこの発表は、AIの大型モデル競争が成熟段階に入ったことを示唆している。単なる能力競争から、政策との共存と段階的展開へシフトする傾向が強まっている。",
+    "tags": [
+      "AI",
+      "OpenAI",
+      "言語モデル",
+      "次世代モデル",
+      "政府規制"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/27/2000000134/",
+    "importance": 5,
+    "image_query": "artificial intelligence code neural network",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwY29kZSUyMG5ldXJhbCUyMG5ldHdvcmt8ZW58MXwwfHx8MTc4MjUwODk3NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Steve A Johnson",
+      "profileUrl": "https://unsplash.com/@steve_j?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:55.035Z",
+    "publishedAt": "2026-06-26T19:56:10.000Z"
+  },
+  {
+    "slug": "20260627-02",
+    "headline": "ホルムズ海峡で米イラン対立が再燃、停戦交渉に亀裂",
+    "lead": "トランプ大統領がイランのホルムズ海峡での船舶攻撃を停戦違反と非難。米国とイランの交渉が危機的局面を迎えた。",
+    "body_markdown": "米国とイランの間で合意された60日間の停戦期間中に、新たな軍事衝突が発生した。トランプ大統領は、イランがホルムズ海峡を航行中の大型貨物船に無人機で直撃させたと主張し、「明らかに停戦合意に対する愚かな違反だ」と強く非難した。この衝撃は停戦交渉の脆弱性を露呈させた。\n\n同海峡は世界の石油輸送量の約35%が通過する重要な航路であり、この地域での軍事対立は国際経済に直結している。過去50年間、複数の地政学的紛争がこの海域を舞台にしてきた。トランプ政権は昨年来、イランとの関係改善を目指す交渉を進めてきたが、互いの信頼欠落が顕在化した形だ。米国はイランをテロ支援国家と指定し、経済制裁を続けている一方で、イラン側は米国の「一方的ルール設定」に反発している。\n\n米国と湾岸諸国は、ホルムズ海峡での「通航料拒否」など対抗措置を検討している。イラン側も米国の攻撃に対して報復を示唆しており、緊張がさらに高まる可能性がある。海運業界は既に保険料上昇に警戒を強めている。交渉の行方次第では、中東地域全体のリスク回避姿勢が強まり、エネルギー価格の変動要因になり得る状況だ。石油相場への短期的インパクトは即座に世界経済に波及する危険性がある。",
+    "tags": [
+      "地政学",
+      "中東",
+      "イラン",
+      "米国",
+      "エネルギー"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015161791000",
+    "importance": 5,
+    "image_query": "ship tanker shipping strait",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1614555283386-f86c91585523?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzaGlwJTIwdGFua2VyJTIwc2hpcHBpbmclMjBzdHJhaXR8ZW58MXwwfHx8MTc4MjUwODk3NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Etienne Girardet",
+      "profileUrl": "https://unsplash.com/@etiennegirardet?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:55.840Z",
+    "publishedAt": "2026-06-26T20:56:16.000Z"
+  },
+  {
+    "slug": "20260627-03",
+    "headline": "海洋温暖化が1.5℃超過で年間通じた生態系混乱が確認",
+    "lead": "気温が1.5℃上昇した年、全海洋で201件の生態系被害が記録。夏限定でなく年間通じた影響が判明した。",
+    "body_markdown": "King Abdullah University of Science and Technology（KAUST）主導の国際研究チームは、気温が産業革命前比で1.5℃を超過した初の年間における海洋生態系への影響を調査した。結果は警告的だった。世界中の海洋で201件の生態学的インパクトイベントが確認され、そのうち98%が異常な海面温度と関連していた。\n\nこれまで季節限定と考えられてきた海洋被害が、実際には年間通じて発生していることが明らかになった。珊瑚漂白・有害藻類ブルーム・生物大量死・生息地破壊・漁業崩壊など、多様な被害形態が記録された。研究チームの分析では「従来の夏季ピーク想定が不十分」と指摘している。\n\n調査はピア・レビュー済み論文・政府機関・環境NGO・モニタリングプログラムから17言語での検証データを収集した。結論として、気候変動対策の策定には「年間通じたモニタリング体制」と「非常時対応計画の抜本的拡張」が必要だとされている。1.5℃の閾値は一度限りの出来事ではなく、恒常的なストレス構造への転換を意味する。",
+    "tags": [
+      "気候変動",
+      "海洋",
+      "生態系",
+      "温暖化",
+      "持続可能性"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-06-ocean-15c-triggered-year-marine.html",
+    "importance": 4,
+    "image_query": "ocean coral reef marine ecosystem",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1778400028946-c0e52676cd98?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxvY2VhbiUyMGNvcmFsJTIwcmVlZiUyMG1hcmluZSUyMGVjb3N5c3RlbXxlbnwxfDB8fHwxNzgyNTA4OTc2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "OLIVER SCHWANEBERG",
+      "profileUrl": "https://unsplash.com/@schwanebergo?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:56.754Z",
+    "publishedAt": "2026-06-26T20:40:01.000Z"
+  },
+  {
+    "slug": "20260627-04",
+    "headline": "量子限界に到達、結晶表面の単分子操作に成功",
+    "lead": "Max Planck Institute が結晶表面での単分子の量子特性保持に初成功。量子情報技術の新展開へ。",
+    "body_markdown": "Max Planck Institute for the Science of Light（MPL）の研究チームは、結晶表面上の単分子が理想実験室条件と同等の量子特性を維持できることを初めて実証した。この成果は、分子-表面相互作用の研究と分子量子技術に新たな道を開くものだ。\n\nフーリエ限界という理論的上限に到達したことが重要だ。博士Alexey Shkarinの説明によれば、量子相干時間（量子特性を保つ時間）は通常このフーリエ限界を超えることができない。今回の突破は「表面上の分子でも、最高水準の量子環境を実現できる」ことを示した。\n\n研究手法は高度だが実装可能性が高い。真空下での制御昇華で結晶表面を清浄化し、絶対零度近くまで冷却した後、マイクロ製造オーブンで分子を堆積させた。原子間力顕微鏡や走査トンネル顕微鏡と組み合わせることで、個別の量子エミッターの操作が可能になる。応用先は単一光子生成・量子情報保存・量子もつれ分配など広範で、量子通信・量子計算技術の加速につながると期待される。",
+    "tags": [
+      "量子技術",
+      "科学",
+      "研究成果",
+      "量子情報",
+      "ナノテクノロジー"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-06-crystal-surface-molecules-ultimate-quantum.html",
+    "importance": 4,
+    "image_query": "quantum physics laboratory microscope",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1781330168411-1518d821903c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxxdWFudHVtJTIwcGh5c2ljcyUyMGxhYm9yYXRvcnklMjBtaWNyb3Njb3BlfGVufDF8MHx8fDE3ODI1MDg5Nzd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Daniel Miksha",
+      "profileUrl": "https://unsplash.com/@danielmiksha?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:57.191Z",
+    "publishedAt": "2026-06-26T21:00:01.000Z"
+  },
+  {
+    "slug": "20260627-05",
+    "headline": "企業のAI投資が本格化へ、Gartner 2026年47%成長を予測",
+    "lead": "Gartner が世界AI支出を2026年に47%増の595.6十億ドルと予測。企業の様子見が終わり実装段階へ。",
+    "body_markdown": "Gartner の最新予測によれば、世界のAI支出は2026年に前年比47%の成長を遂げ、約595.6十億ドルに達する見込みだ。このペースは鈍化していた過去数年から大きく加速している。重要なのは、成長の中心が「AIインフラ投資」にシフトしている点だ。Gartner Distinguished VP分析官は「今後数年間、AI基盤インフラ投資は全体AI支出の最大セグメントになる」と述べている。\n\nこの転換は「様子見」から「実装」への段階遷移を意味している。CIO層は「AIからどのような成果を得たいのか」を明確化する圧力に直面している。企業は既存ソフトウェアへのAI組み込み、ワークフロー専用の新型AIエージェント導入を始めている。理論段階から実践へのシフトが加速中だ。\n\nただし、単なる予算増加ではなく「戦略的な配置」が問われている。企業がAIインフラへの大規模投資を決断する際、クラウド一極集中ではなくオンプレミス・ハイブリッド構成を検討する傾向も強まっている。2026年は「AI産業の転換点」である。",
+    "tags": [
+      "AI",
+      "ビジネス",
+      "企業投資",
+      "IT予算",
+      "デジタル化"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/26/news055.html",
+    "importance": 3,
+    "image_query": "business data center technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:57.192Z",
+    "publishedAt": "2026-06-26T00:00:00.000Z"
+  },
+  {
+    "slug": "20260627-06",
+    "headline": "山梨で震度6弱の地震、複数県で停電や断水発生",
+    "lead": "山梨県で最大震度6弱の地震。約2860戸が停電、一部で断水も。専門家は今後1週間の注視を呼びかけ。",
+    "body_markdown": "2026年6月26日、山梨県で最大震度6弱の地震が発生した。Chief Cabinet Secretary 木原官房長官の報告によれば、山梨・埼玉・茨城の3県で約2860戸の停電が確認された。山梨県山中湖村では一部地域で断水も生じている。\n\nこの規模の地震は、関東地方における直近の大規模地震活動として注視される必要がある。複数県にまたがる停電は、電力インフラの脆弱性を露出させた。ライフライン途絶は、特に高齢者が多い地域で深刻な影響をもたらす。\n\n専門家はこの地震について「マグニチュード相当の余震が1週間程度続く可能性」を指摘し、住民に警戒を促している。また、調査の結果、富士山の火山活動との関連性は確認されなかったとのこと。だが、今後も類似規模の地震発生を想定した防災体制の確認が重要だ。地域の防災意識向上と、ライフライン復旧体制の強化が課題である。",
+    "tags": [
+      "地震",
+      "防災",
+      "日本",
+      "インフラ",
+      "自然災害"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015162021000",
+    "importance": 3,
+    "image_query": "earthquake disaster emergency response",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:57.192Z",
+    "publishedAt": "2026-06-26T00:00:00.000Z"
+  },
+  {
+    "slug": "20260627-07",
+    "headline": "日本発「xIPF」プラットフォーム、産業データの活用を促進へ",
+    "lead": "日本のデータ流通プラットフォーム「xIPF」が始動。独占データを開放し、AI活用による産業競争力向上を目指す。",
+    "body_markdown": "日本の産業セクターには、価値を活用されないまま眠る大量のデータが存在する。この「眠れるデータ」を競争力に変えるため、新しいプラットフォーム「xIPF（Cross Integrated Platform）」がコンソーシアム形式で始動した。参画企業は大手ソフトウェア企業、大学、研究機関など多岐にわたる。\n\nxIPF の目標は「真のデジタル化産業インフラの実現」であり、3本柱で構成される。データ統合では、各企業のバラバラなシステムを安全に接続し、インターネット接続のような基盤化を目指す。AI統一では、異なるAIシステム間の相互通信と学習共有を実現。コンピュート基盤では、分散データの処理と AI 運用を支えるリソース共有を行う。\n\nこれまで企業は自社データを独占し、他社との流通を忌避してきた。だが xIPF は「データの使用方法」を可視化するマーケットプレイス機能を提供することで、データ提供者と利用者の信頼関係を構築している。標準化された接続・相互運用性フレームワークにより、日本の製造業・産業セクター全体の AI 活用が加速すると期待される。",
+    "tags": [
+      "データ",
+      "日本",
+      "プラットフォーム",
+      "AI",
+      "産業"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia",
+    "link": "https://monoist.itmedia.co.jp/mn/articles/2606/19/news005.html",
+    "importance": 3,
+    "image_query": "data center technology server network",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:57.192Z",
+    "publishedAt": "2026-06-19T00:00:00.000Z"
+  },
+  {
+    "slug": "20260627-08",
+    "headline": "AIの計算負荷で電力・冷却がITインフラの重大課題に",
+    "lead": "AI導入で国際エネルギー機関がデータセンター電力需要の倍増を試算。企業は電力・冷却の最適配置を迫られる。",
+    "body_markdown": "AI時代のITインフラは、従来の「サーバーやクラウド調達で十分」という単純な構図から大転換している。最大の課題は「大規模計算のための電力供給と冷却」だ。国際エネルギー機関（IEA）の試算では、世界のデータセンター電力需要は2024年の約415TWh から2030年には945TWh に倍増する見込みだ。これは日本全体の年間電力消費量に相当する規模であり、産業インフラとしての重要度が急速に高まっている。\n\nGPU稼働時の発熱量は膨大だ。効率的な冷却インフラなしに、高性能AI計算は実現不可能である。企業は単に「計算リソースをどこかに配置する」ではなく、「データをどこに配置し、どのシステムに接続し、どのアクション実行まで許可するか」を総合的に計画すべき段階に入った。\n\nデータセンター立地選定も変わった。GPU配置場所・電力供給戦略・冷却システム設計が、従来のIT予算とは別の重要決定要因になっている。オンプレミス・ハイブリッド・クラウド各構成のエネルギー効率を比較検討することが、AI投資の成否を左右する時代が来ている。",
+    "tags": [
+      "テクノロジー",
+      "エネルギー",
+      "データセンター",
+      "AI",
+      "インフラ"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia",
+    "link": "https://www.itmedia.co.jp/enterprise/articles/2606/26/news023.html",
+    "importance": 3,
+    "image_query": "server room data center cooling power",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:57.192Z",
+    "publishedAt": "2026-06-26T00:00:00.000Z"
+  },
+  {
+    "slug": "20260627-09",
+    "headline": "植物の細胞分裂は「ROS酵素」が根本制御、CRISPR実験で解明",
+    "lead": "Tokyo University of Science がROS酵素の遺伝子破壊実験で、細胞分裂・組織パターン形成の根本的役割を発見。",
+    "body_markdown": "東京理科大学のチームは、植物の細胞分裂と組織パターン形成を根本から制御する分子メカニズムを解明した。主役は「ROS 生成酵素」（RBOH=respiratory burst oxidase homologs）だ。RBOH活性が低下すると、成長領域の活発に分裂している細胞数が減少する。両方のRBOH遺伝子を破壊すると、植物は成長が重度に阻害され、組織パターンが形成されない。\n\n従来、ROS（活性酸素）は「細胞にとって有害な物質」と考えられてきた。だが今回の研究は「ROS は発生シグナルの中核」であることを示した。両遺伝子欠落植物では細胞が「異常に膨張・不規則」になり、正常な組織構造を保てない。つまり ROS は単なる「余分な副産物」ではなく、細胞完全性と組織形態形成を同時に制御する発生因子なのだ。\n\n研究手法は最新バイオテクノロジーの総動員だ。CRISPR-Cas9 ゲノム編集・条件付きノックアウト分析・薬理学的ROS 操作・ライブセルイメージング・電子顕微鏡・転写体解析を統合。モデル植物にはゼニゴケ（*Marchantia polymorpha*）を採用した。この生物は RBOH が2つのみであり、遺伝的冗長性を単純化できるからだ。基礎植物生物学から作物育種まで、応用範囲は広い。",
+    "tags": [
+      "植物科学",
+      "遺伝子工学",
+      "CRISPR",
+      "生物学",
+      "研究成果"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-06-ros-enzymes-cell-division-tissue.html",
+    "importance": 3,
+    "image_query": "plant cell biology research laboratory",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:57.192Z",
+    "publishedAt": "2026-06-26T00:00:00.000Z"
+  },
+  {
+    "slug": "20260627-10",
+    "headline": "Hubble が古い星団の二段階形成を発見、銀河進化の謎に光",
+    "lead": "シャンデリア星団は単一の形成イベントではなく、6.34億年の間隔を置いた二段階で誕生。銀河進化の複雑性が浮き彫りに。",
+    "body_markdown": "Hubble Space Telescope がいて座の方向、27000光年彼方にある球状星団「NGC 6723（シャンデリア星団）」を観測し、従来の認識を覆す発見をした。この星団は10億年以上前の極めて古い構造だが、星が一度のイベントで形成されたのではなく、少なくとも二つの分離した時期に形成されたことが明らかになった。シャンデリアの名は、無数の星がシャンデリアの灯火のようにきらめく外観に由来する。\n\nこれまで球状星団は「初期宇宙の単一の星形成イベント」として理解されていた。だが今回の分析は「最初の星形成から6.34億年後に、第二の星形成の波が起きた」ことを示唆している。この事実は、初期銀河の形成プロセスがはるかに複雑で、外部からの重力的相互作用や内部のガス力学が星形成を繰り返し誘発した可能性を示唆している。多段階形成は、球状星団内での外来星団の合体や、近傍の大質量星による潮汐力など、複数の物理メカニズムを示唆している。\n\nこの発見は天文学者の星団・銀河進化モデルの根本的な見直しを促している。10億年以上の時間スケールでの複数の形成イベントが、なぜ発生し、どのようなメカニズムで駆動されたのか。その解明は初期宇宙の構造形成理論を大きく前進させるだろう。高精度分光観測による詳細な化学組成分析から、各段階での星の起源を特定することも可能になりつつある。",
+    "tags": [
+      "天文学",
+      "宇宙",
+      "星団",
+      "銀河進化",
+      "Hubble"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-06-hubble-spies-ancient-chandelier-cluster.html",
+    "importance": 3,
+    "image_query": "space telescope star cluster galaxy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:57.192Z",
+    "publishedAt": "2026-06-26T00:00:00.000Z"
+  },
+  {
+    "slug": "20260627-11",
+    "headline": "プラズマとグラフェン組み合わせで金属腐食防止へ、燃料電池応用も",
+    "lead": "Cordoba 大学がマイクロ波プラズマでグラフェンを金属表面に直接堆積。燃料電池の電極耐久性向上に可能性。",
+    "body_markdown": "スペインの Córdoba 大学の研究チームは、マイクロ波プラズマを利用してグラフェンを金属表面に直接堆積させる手法を開発した。グラフェンは極めて高い耐腐食性を持ち、同時に電流も通す。この組み合わせは、特に燃料電池の電極材料として有望だ。\n\n研究チームは2つの堆積方法を検討した。直接転移法は「グラフェン合成に使用したプラズマに金属表面を直接露出させ、その場で堆積させる」アプローチで、最速だが産業規模の装置が必要だ。三段階法は「グラフェンを合成後、有機溶剤に分散させ、ペイント的に塗布・噴霧する」方法で、一般向けアプリケーション適性が高い。\n\nだが課題も大きい。グラフェンと金属表面の密着性が不十分で、耐久性の点で改善の余地がある。lead researcher Francisco Javier Morales は「失敗実験も価値がある。改善に向けた研究は続く」とコメント。燃料電池電極は酸素や水といった強酸化環境にさらされ、従来材は劣化が激しい。グラフェン コーティングがこの課題を解決できれば、クリーンエネルギー産業に大きな貢献をもたらす。",
+    "tags": [
+      "マテリアル",
+      "グラフェン",
+      "燃料電池",
+      "エネルギー",
+      "科学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-06-plasma-graphene-combine-metal-surfaces.html",
+    "importance": 2,
+    "image_query": "materials science coating technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:57.192Z",
+    "publishedAt": "2026-06-26T00:00:00.000Z"
+  },
+  {
+    "slug": "20260627-12",
+    "headline": "イスラエル・レバノン停戦枠組みで米仲介、主権回復へ第一歩",
+    "lead": "米国がイスラエル・レバノン間で停戦枠組み合意を仲介。ヒズボラの参画が課題だが、米国が100百万ドルの支援表明。",
+    "body_markdown": "Rubio 国務長官は6月26日、米国の仲介によるイスラエル・レバノン停戦枠組み合意を発表した。米国・イスラエル・レバノンの三者協議がワシントンで4日間行われ、合意に至った。Rubio は「これは始まりの始まり」と表現し、実装への長い道のりを示唆している。\n\n枠組みの主要内容は「パイロットゾーン」の設置だ。レバノン軍がイスラエル占領下の領域の一部を奪還し、「非国家勢力の完全排除」を条件に統治権を回復する。ただし、イスラエル軍の南部リタニ地区の安全保障体制は維持される予定だ。米国は即座に100百万ドルの人道支援（国連協調）と、レバノン軍支援に30百万ドルの返金を表明した。\n\nだが重大な課題が残る。ヒズボラはこれまでの交渉に参画していない。停戦実現にはヒズボラの武装解除が不可欠だが、ヒズボラは会談を「レバノン主権の一方的譲歩」と反発している。専門家 Rami Khouri は「プロセスがイスラエル安全保障を優先し、レバノン市民の権利は後付け」と指摘。トランプ政権の強硬姿勢とレバノン側の徴収感の乖離が、本格的実装の障壁になる可能性が高い。",
+    "tags": [
+      "中東",
+      "停戦",
+      "外交",
+      "米国",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/6/26/us-announces-framework-agreement-between-israel-and-lebanon",
+    "importance": 4,
+    "image_query": "diplomacy peace agreement international relations",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1781901758406-d3a9148ae5b5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkaXBsb21hY3klMjBwZWFjZSUyMGFncmVlbWVudCUyMGludGVybmF0aW9uYWwlMjByZWxhdGlvbnN8ZW58MXwwfHx8MTc4MjUwODk3N3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Stefan Szankowski",
+      "profileUrl": "https://unsplash.com/@3scph?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:58.083Z",
+    "publishedAt": "2026-06-26T00:00:00.000Z"
+  },
+  {
+    "slug": "20260627-13",
+    "headline": "Trump、デジタルサービス税に100%関税報復を威嚇",
+    "lead": "Trump 大統領が欧州のデジタルサービス税導入を牽制。100%関税で「即座に報復」と表明。Trade Deal も無視する方針。",
+    "body_markdown": "Trump 大統領はソーシャルメディアで、「多くの欧州諸国がアメリカ企業を対象にデジタルサービス税（DST）の導入を検討している」と指摘し、強硬な対抗措置を警告した。「この税を導入する国に対して、100%の関税を直ちに課す」というもので、「既存の通商協定を超越し、署名済み・未署名を問わず、即座に実装する」と明記した。米国による通商上の単一主義姿勢が鮮明だ。\n\nデジタルサービス税は、Amazon・Google・Meta など大型 GAFAM 企業の利益がそれぞれの域内で低税率扱いされる問題に対処するため、欧州が導入を検討してきた施策だ。フランスは既に 3% の DST を導入し、イタリア・オーストリア・ポーランド等が追従を検討している。各国は域内デジタル企業の税負担を国内企業と平等化したいが、米国はこれを「不公正な米企業への差別課税」と反発してきた。OECD による国際租税ルール改革も停滞気味だ。\n\nただし法的課題もある。最高裁は Trump の過去の「相互的関税」政策を違憲とした判断例があり、今回の100%関税をどの法定根拠で発動するかが明確でない。欧州はこの威嚇に対し強硬な反論を準備していると報じられており、通商戦争へのエスカレーション懸念が高まっている。米欧経済関係が新たな緊張局面に入る可能性がある。",
+    "tags": [
+      "関税",
+      "通商",
+      "デジタル税",
+      "米国",
+      "欧州"
+    ],
+    "section": "経済・マネー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/06/26/trump-tariff-trade-tech-tax.html",
+    "importance": 3,
+    "image_query": "trade tariff commerce business",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:58.083Z",
+    "publishedAt": "2026-06-26T00:00:00.000Z"
+  },
+  {
+    "slug": "20260627-14",
+    "headline": "Anthropic の Mythos モデル、米政府の規制強化で利用制限に",
+    "lead": "Anthropic の最新AI「Mythos」が NSA の分類システムに脆弱性。政府が利用を米国民限定に制限、Anthropic は全世界停止。",
+    "body_markdown": "Anthropic が6月12日に公開した次世代 Claude モデル「Fable 5」と「Mythos 5」が、わずか数日で政府規制により事実上の禁止状態に陥った。米政府は export control order を発令し、Anthropic に両モデルの利用者を米国市民のみに限定するよう指示した。\n\nだが Anthropic は「利用者国籍の大規模検証は技術的に不可能」と判断し、両モデルへの全世界アクセスを停止した。背景にあるのは NSA テストの報告だ。Senator Mark Warner の開示によれば、NSA / U.S. Cyber Command トップが「Mythos は NSA の分類システム内をほぼすべて通過した。数週間ではなく『数時間』でだ」と述べたという。ただし、この「侵害」は政府から独立確認されておらず、Anthropic は「jailbreak 懸念は狭い・非汎用・当社固有ではない」と反論している。\n\n追加の圧力要因は、South Korean telecom SK Telecom への Mythos アクセス付与だった。米国は SK Telecom の対中関係を懸念し、政府間での技術流出リスク警告を発した。Amazon も Fable 5 の脆弱性を別途報告。これらが重なり、Trump 政権は即座に規制措置を決定した。Anthropic の自主停止は、政府との信頼欠落を象徴している。",
+    "tags": [
+      "AI",
+      "セキュリティ",
+      "政府規制",
+      "Anthropic",
+      "Claude"
+    ],
+    "section": "テクノロジー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/06/23/anthropics-mythos-model-found-vulnerabilities-in-classified-us-government-systems-official-says.html",
+    "importance": 4,
+    "image_query": "cybersecurity artificial intelligence government",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxjeWJlcnNlY3VyaXR5JTIwYXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGdvdmVybm1lbnR8ZW58MXwwfHx8MTc4MjUwODk3OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Spiske",
+      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:58.687Z",
+    "publishedAt": "2026-06-23T00:00:00.000Z"
+  },
+  {
+    "slug": "20260627-15",
+    "headline": "Fed 議長 Warsh 下でインフレ4%、政府の利下げ圧力が緩和",
+    "lead": "インフレが4%超で Fed が利上げを示唆する中、Trump 大統領は Warsh への圧力を軽減。経済政策の転換点か。",
+    "body_markdown": "Fed 新議長 Kevin Warsh の初 FOMC 会合が6月中旬に開催され、インフレ上昇を受けた政策対応が明らかになった。Fed は基準金利を3.5〜3.75%で据え置きしたが、年内の利上げの可能性を示唆した。イラン戦争に関連するエネルギー価格上昇がインフレ圧力の主因であり、2023年以来初の利上げシグナルとなった。\n\nこうした環境下、Trump 大統領の政策シグナルが変わった。かつてインフレ前の利下げを強く要求していた Trump だが、Warsh 任命以降、利下げへの直接的な圧力は軽減している。複数の政権経済顧問も「近期利下げは適切ではない」との見方を示し始めた。Treasury 長官も「インフレが優先課題」と述べている。ただし Trump は公式には「Fed に利下げさせたい」と引き続き述べており、内部での葛藤は続いている。\n\nFed 内部では FOMC メンバー12人中11人が利上げか据置を見込み、利下げを期待するのは1人のみだ。政治的圧力と経済客観情勢の乖離が鮮明だ。Warsh 議長は政策独立性の維持を求められる一方、政治的現実との調整が続く。金融市場は不確実性の中で変動を続けており、長期金利は3.5%前後で不安定だ。",
+    "tags": [
+      "金融政策",
+      "中央銀行",
+      "インフレ",
+      "米国",
+      "経済"
+    ],
+    "section": "経済・マネー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/06/26/trump-warsh-fed-rate-cuts-inflation.html",
+    "importance": 3,
+    "image_query": "central bank finance economy stock market",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:58.687Z",
+    "publishedAt": "2026-06-26T00:00:00.000Z"
+  },
+  {
+    "slug": "20260627-16",
+    "headline": "Newsom が全米富豪税を提案、AI 市民ファンド構想も",
+    "lead": "California 知事が「经済リセット」を掲げ、富豪への最低税率導入と AI 公開エクイティファンド創設を主張。",
+    "body_markdown": "California の Gavin Newsom 知事は、全米レベルでの経済改革を主張した。「真の富豪最低税」を導入し、「アメリカ国民が AI の未来の成果を共有する」仕組みを構築するというものだ。2028年の大統領選を視野に、彼は中道進歩主義のプラットフォームを構築している。\n\n具体的施策の柱は3つ。第一に、Buffett Rule を現代化した「富豪最低税」であり、年収最高層がその従業員と同等以上の税率を負担することを強制する。第二に、税制抜け穴の廃止で、特に「税制回避的生活資金調達（買入・借入・死後放置スキーム）」を段階的に終わらせる。第三に、AI の成長から国民全体が受益する「公開エクイティファンド」だ。AI 産業による富の集中を前提としつつ、国民共有の参加枠組みを設計する戦略的提案である。\n\nただし政治的背景がある。California では 11月に州内富豪税投票が予定され、一時的な1回限りの 5% 資産課税が有権者の判定待ちだ。Newsom は同州の富豪税に反対表明し、代わりに全米規模での恒久的・段階的フレームワークを示唆している。分配正義と経済成長の両立を模索する、2028年のアジェンダ設定だ。",
+    "tags": [
+      "税制",
+      "政治",
+      "AI",
+      "経済格差",
+      "米国"
+    ],
+    "section": "政治",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/06/26/gavin-newsom-national-billionaires-tax-california.html",
+    "importance": 3,
+    "image_query": "politics economy income wealth",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T21:22:58.687Z",
+    "publishedAt": "2026-06-26T00:00:00.000Z"
+  },
+  {
     "slug": "20260626-01",
     "headline": "OpenAI Codex利用が6ヶ月で56倍に急増",
     "lead": "OpenAI の最新調査により、AI エージェント「Codex」の利用が研究部門で過去6ヶ月間に56倍に増加。営業・法務・人事など非技術部門へも急速に広がっている。",
