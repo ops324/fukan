@@ -7,166 +7,166 @@
     <atom:link href="https://fukan-news.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <description>テック・AI・科学・経済・政治・国際・カルチャーまで、世界のニュースを編集部の要約と中立論評で俯瞰する日本語ニュースメディア。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 26 Jun 2026 11:24:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 12:20:39 GMT</lastBuildDate>
     <item>
-      <title>細胞の自己形状変化メカニズム解明、日本の研究が成果</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-33.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-33.html</guid>
-      <pubDate>Thu, 25 Jun 2026 09:00:03 GMT</pubDate>
-      <description>奈良先端大学の研究チームが、外部信号なしに細胞が形状を変える仕組みを発見。自己推進タンパク質『SpTA』が鍵。</description>
-      <category>サイエンス</category>
+      <title>イラン、米・湾岸諸国の共同声明を『介入主義』と非難</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-08.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-08.html</guid>
+      <pubDate>Fri, 26 Jun 2026 11:54:41 GMT</pubDate>
+      <description>アメリカが中東の湾岸諸国と地域の安全保障継続を宣言。イラン外務省は『無責任で挑発的』と反発。ホルムズ海峡の管理を巡る対立も浮上。</description>
+      <category>国際・地政学</category>
     </item>
     <item>
-      <title>日本政府、家事支援サービス税制 女性活躍推進策を検討</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-34.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-34.html</guid>
-      <pubDate>Thu, 25 Jun 2026 08:56:15 GMT</pubDate>
-      <description>政府の『女性版骨太の方針』で、家事支援サービス利用への税制措置を含む支援策を検討。少子化対策の一環。</description>
-      <category>政治</category>
+      <title>欧州の記録的熱波、気候変動で5倍以上確率が上昇</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-05.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-05.html</guid>
+      <pubDate>Fri, 26 Jun 2026 11:42:01 GMT</pubDate>
+      <description>欧州全域で36℃超の熱波が襲来。夏至前後の気温が平年より14～18℃も上昇。気候変動の影響で同規模の熱波は50年前なら『ほぼ起こり得なかった』。</description>
+      <category>国際・地政学</category>
     </item>
     <item>
-      <title>スペースシャトル Endeavour、カリフォルニアで常設展示開始</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-36.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-36.html</guid>
-      <pubDate>Thu, 25 Jun 2026 08:50:01 GMT</pubDate>
-      <description>NASA が引退したスペースシャトル Endeavour を California Science Center で展示。25 回の飛行実績を持つ宇宙機。</description>
-      <category>サイエンス</category>
-    </item>
-    <item>
-      <title>金・銀相場が下落続く、貴金属ラリーの勢い減速</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-45.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-45.html</guid>
-      <pubDate>Thu, 25 Jun 2026 08:46:28 GMT</pubDate>
-      <description>金-8%、銀-20% 年初来下落。利回り環境の改善で安全資産需要が軟化。</description>
+      <title>Revolut、新卒にオフィス勤務を義務化─リモート回帰</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-24.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-24.html</guid>
+      <pubDate>Fri, 26 Jun 2026 11:41:10 GMT</pubDate>
+      <description>Fintech Revolut が 2027 年入社の新卒・インターン向けに週 3 日のオフィス勤務を義務化。『リモートファースト』ポリシーから方向転換。</description>
       <category>ビジネス</category>
     </item>
     <item>
-      <title>ケニア民間人デモ激化、警察がナイロビ主要道路を封鎖</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-38.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-38.html</guid>
-      <pubDate>Thu, 25 Jun 2026 08:29:31 GMT</pubDate>
-      <description>ケニアで Gen Z デモが再燃。昨年の警察暴力で 80 名以上が死亡。政府への抗議が続く。</description>
+      <title>Samsung、SmartThings API を 10月に有料化へ</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-07.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-07.html</guid>
+      <pubDate>Fri, 26 Jun 2026 11:38:11 GMT</pubDate>
+      <description>Samsung が SmartThings API へのアクセスを 10月から有料化。月額4.99ドルの個人開発者向けプランから法人プランまで段階的に導入。</description>
+      <category>テクノロジー</category>
+    </item>
+    <item>
+      <title>日本、防災庁設置法案を推進─大規模地震に備え</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-09.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-09.html</guid>
+      <pubDate>Fri, 26 Jun 2026 11:37:01 GMT</pubDate>
+      <description>高市首相が防災庁設置法案を推進。南海トラフ巨大地震などの対応を見据え、事前防災と継続的な災害対応体制の強化を強調。</description>
+      <category>政治</category>
+    </item>
+    <item>
+      <title>ベネズエラで連続地震、死者200人超に─援助活動始動</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-11.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-11.html</guid>
+      <pubDate>Fri, 26 Jun 2026 11:36:53 GMT</pubDate>
+      <description>ベネズエラ北西部でマグニチュード7超の地震が相次ぎ発生。死者は235人以上、行方不明者1万4000人超。国際社会からの支援が本格化。</description>
       <category>国際・地政学</category>
     </item>
     <item>
-      <title>イラン戦争 Day 118、ホルムズ海峡で新ルート協議</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-40.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-40.html</guid>
-      <pubDate>Thu, 25 Jun 2026 08:28:35 GMT</pubDate>
-      <description>イラン IRGC がホルムズ海峡の迂回ルートを拒否。米国務長官 Rubio が湾岸諸国と協議開始。</description>
+      <title>皇族養子に『皇位継承資格なし』─衆参議長が示す</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-18.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-18.html</guid>
+      <pubDate>Fri, 26 Jun 2026 11:35:46 GMT</pubDate>
+      <description>衆参両院議長が皇族数確保策を『立法府の総意』として取りまとめ。旧宮家から養子を受け入れるが、皇位継承資格は持たないとする案。</description>
+      <category>政治</category>
+    </item>
+    <item>
+      <title>ホルムズ海峡、紛争激化─UN 避難計画が一時中止</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-20.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-20.html</guid>
+      <pubDate>Fri, 26 Jun 2026 11:27:59 GMT</pubDate>
+      <description>ホルムズ海峡で貨物船がミサイル攻撃受ける。UN の 1.1万人避難計画が一時中止。イランが『一方的ルート』に強硬反発。</description>
       <category>国際・地政学</category>
     </item>
     <item>
-      <title>カンボジア野生動物、秘密カメラと AI で希少種を発見</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-49.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-49.html</guid>
-      <pubDate>Thu, 25 Jun 2026 08:18:32 GMT</pubDate>
-      <description>AI と秘密カメラでカンボジア Cardamom Mountains の希少生物を初めて映像化。生態系保全に新境地。</description>
+      <title>VW、10万人削減・4工場閉鎖を発表─中国勢に対抗</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-02.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-02.html</guid>
+      <pubDate>Fri, 26 Jun 2026 11:27:10 GMT</pubDate>
+      <description>Volkswagen が過去最大のリストラを発表。従業員の15%に相当する10万人削減と4つのドイツ工場の閉鎖を計画。中国車メーカーとの競争激化が背景。</description>
+      <category>ビジネス</category>
+    </item>
+    <item>
+      <title>Apple、M6 Pro/Max をスキップし M7 を 2027年前倒し</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-12.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-12.html</guid>
+      <pubDate>Fri, 26 Jun 2026 11:14:44 GMT</pubDate>
+      <description>Apple が通常のチップ開発ロードマップを変更。M6 の上位モデルをスキップし、AI 特化の M7 を 2027年前半に前倒し投入へ。</description>
+      <category>テクノロジー</category>
+    </item>
+    <item>
+      <title>NASA TESS が『綿菓子』密度の巨大惑星を発見</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-06.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-06.html</guid>
+      <pubDate>Fri, 26 Jun 2026 11:09:10 GMT</pubDate>
+      <description>NASA の TESS 宇宙望遠鏡が、綿菓子並みの低密度を持つ『超プフ惑星』2個を同一星系で発見。木星サイズながら質量は数%。</description>
       <category>サイエンス</category>
     </item>
     <item>
-      <title>米最高裁『出生地主義』判断を検討、Trump の大統領令が争点</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-43.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-43.html</guid>
-      <pubDate>Thu, 25 Jun 2026 08:14:47 GMT</pubDate>
-      <description>米国籍取得ルール見直し。最高裁近く合憲性判断へ。移民政策大転換の可能性も。</description>
-      <category>国際・地政学</category>
+      <title>Rocket Lab、16時間42分での軌道到達─新記録樹立</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-15.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-15.html</guid>
+      <pubDate>Fri, 26 Jun 2026 11:00:59 GMT</pubDate>
+      <description>Rocket Lab が米空軍 VICTUS HAZE ミッションを、通知から16時間42分で打ち上げ。従来記録を10時間以上更新。急速対応宇宙アクセスの新基準。</description>
+      <category>テクノロジー</category>
     </item>
     <item>
-      <title>映画『The Furious』、マーシャルアーツの傑作</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-39.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-39.html</guid>
-      <pubDate>Thu, 25 Jun 2026 08:00:08 GMT</pubDate>
-      <description>日本の監督による東南アジア舞台の格闘映画が高評価。『Raid』『Kill』に並ぶ傑作に。</description>
-      <category>エンタメ</category>
+      <title>エストロゲンパッチ供給不足が長期化の兆候</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-17.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-17.html</guid>
+      <pubDate>Fri, 26 Jun 2026 11:00:01 GMT</pubDate>
+      <description>閉経ホルモン療法の需要急増で、エストロゲンパッチが米国全域で品薄化。複数メーカーが品切れ状態で、解決に3年かかる見通し。</description>
+      <category>ビジネス</category>
     </item>
     <item>
-      <title>中国の人型ロボット開発が急速拡大、日本の戦略は</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-37.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-37.html</guid>
-      <pubDate>Thu, 25 Jun 2026 08:00:00 GMT</pubDate>
-      <description>中国が人型ロボット分野で急成長。労働力不足と製造業転換が背景。日本は技術継承と投資戦略の見直しが課題。</description>
+      <title>Figma、AI 出力の没個性化問題に『人間協働』で対抗</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-10.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-10.html</guid>
+      <pubDate>Fri, 26 Jun 2026 09:15:00 GMT</pubDate>
+      <description>生成 AI が製品を没個性化させる課題が浮上。デザイン企業 Figma は AI 出力を『素材』として位置付け、人間が最終判断する仕組みを構築。</description>
       <category>AI</category>
     </item>
     <item>
-      <title>Amazon Zoox、新型ロボタクシー発表 量産体制へ</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-35.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-35.html</guid>
-      <pubDate>Thu, 25 Jun 2026 07:55:01 GMT</pubDate>
-      <description>自動運転タクシー企業 Zoox が改良版ロボタクシーを発表。内外装を一新し、年間 5,000 台以上の製造能力を確保。</description>
-      <category>テクノロジー</category>
-    </item>
-    <item>
-      <title>インド企業 Rajesh Exports 不正会計、スイス精錬所の親会社</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-44.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-44.html</guid>
-      <pubDate>Thu, 25 Jun 2026 07:23:53 GMT</pubDate>
-      <description>インド大手金企業の会計不正が明らかに。親会社スイス Valcambi の透明性問題も浮上。</description>
-      <category>ビジネス</category>
-    </item>
-    <item>
-      <title>ベネズエラ地震で数十人死亡、Trump が即座に援助を表明</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-48.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-48.html</guid>
-      <pubDate>Thu, 25 Jun 2026 07:12:37 GMT</pubDate>
-      <description>複数の地震がベネズエラを襲撃。多数の死亡・倒壊報道。米国 Trump 政権が即座に援助表明し、外交転換を示唆。</description>
-      <category>国際・地政学</category>
-    </item>
-    <item>
-      <title>Frida Kahlo 展『Making an Icon』、複雑性の再評価</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-46.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-46.html</guid>
-      <pubDate>Thu, 25 Jun 2026 07:00:07 GMT</pubDate>
-      <description>ロンドン Tate Modern で開催。Frida Kahlo が商品化され、複雑な人生が単純化される問題を検証。</description>
-      <category>カルチャー</category>
-    </item>
-    <item>
-      <title>Cambridge South 駅、持続可能インフラの新モデル</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-41.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-41.html</guid>
-      <pubDate>Thu, 25 Jun 2026 06:00:06 GMT</pubDate>
-      <description>英国の新駅が 6 月 28 日開業。自転車 1,000 台停車、太陽光、生態系配慮で持続可能性を実装。</description>
-      <category>ライフ・キャリア</category>
-    </item>
-    <item>
-      <title>OpenAI「GPT-5.5 Instant」アップデート、文脈保持が向上</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-42.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-42.html</guid>
-      <pubDate>Thu, 25 Jun 2026 05:06:27 GMT</pubDate>
-      <description>ChatGPT 無料版のモデルが改善。会話の文脈維持、テンプレート削減、地域適応で読みやすさ向上。</description>
-      <category>テクノロジー</category>
-    </item>
-    <item>
-      <title>「骨減少症」、自覚なく数百万人の骨を蝕む</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-16.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-16.html</guid>
-      <pubDate>Thu, 25 Jun 2026 04:25:26 GMT</pubDate>
-      <description>骨粗しょう症の前段階。骨折で初めて気づく例も。生活改善で対策は可能。</description>
+      <title>イソギンチャク、ウイルス防御機構が人間と『逆』</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-16.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-16.html</guid>
+      <pubDate>Fri, 26 Jun 2026 09:00:08 GMT</pubDate>
+      <description>イソギンチャクの研究から、人間の免疫タンパク質に似たタンパク質が逆の役割を担う新機構が判明。動物のウイルス防御の多様性を示唆。</description>
       <category>サイエンス</category>
     </item>
     <item>
-      <title>物理学者 Rovelli『核兵器論』、再軍備への異議</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-47.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-47.html</guid>
-      <pubDate>Thu, 25 Jun 2026 04:00:04 GMT</pubDate>
-      <description>理論物理学者 Carlo Rovelli の新著『85 Seconds to Midnight』が警告。NATO 再軍備への歴史的・倫理的反論。</description>
-      <category>カルチャー</category>
-    </item>
-    <item>
-      <title>アンソロピック、アリババを告発 Claudeに不正アクセスと主張</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-12.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-12.html</guid>
-      <pubDate>Thu, 25 Jun 2026 03:12:17 GMT</pubDate>
-      <description>偽アカウントで大量にデータを引き出す「蒸留」を試みたと米当局に書簡を送った。</description>
-      <category>ビジネス</category>
-    </item>
-    <item>
-      <title>政府、地震受け官邸対策室を設置 高市首相「総力挙げる」</title>
-      <link>https://fukan-news.vercel.app/articles/20260625-19.html</link>
-      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260625-19.html</guid>
-      <pubDate>Thu, 25 Jun 2026 02:41:01 GMT</pubDate>
-      <description>発生直後に危機管理センターへ対策室。緊急参集チームも招集した。</description>
+      <title>防衛省、AI フェイクに対抗─『認知戦』対応方針公開</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-13.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-13.html</guid>
+      <pubDate>Fri, 26 Jun 2026 04:35:00 GMT</pubDate>
+      <description>防衛省が 6月26日、ウクライナ戦争の分析から『認知戦』への対応方針を発表。AI による偽情報拡散と情報工作への対抗体制を整備へ。</description>
       <category>政治</category>
+    </item>
+    <item>
+      <title>AWS、OpenAI モデル GPT-5.5・Codex の提供開始</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-04.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-04.html</guid>
+      <pubDate>Fri, 26 Jun 2026 04:00:00 GMT</pubDate>
+      <description>OpenAI と AWS の戦略的パートナーシップが拡大。GPT-5.5・GPT-5.4・Codex が Amazon Bedrock で一般提供開始。Azure 独占時代が終焉。</description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>Amazon Bedrock、Q1 だけで過去累計超えの処理量</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-19.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-19.html</guid>
+      <pubDate>Fri, 26 Jun 2026 02:00:17 GMT</pubDate>
+      <description>AWS の Amazon Bedrock が 2026年第1四半期だけで、過去全期間の累積トークン処理量を上回る。AI 推論の爆発的成長を示す。</description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>Hugging Face、vLLM で LLM サーバーをワンコマンド起動</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-14.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-14.html</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Hugging Face Jobs 上で vLLM を使い、OpenAI 互換の LLM エンドポイントをワンコマンドで起動可能に。インフラ構築不要、従量課金方式。</description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>Google Finance 新アプリ公開、AI ポートフォリオ機能を搭載</title>
+      <link>https://fukan-news.vercel.app/articles/20260626-03.html</link>
+      <guid isPermaLink="true">https://fukan-news.vercel.app/articles/20260626-03.html</guid>
+      <pubDate>Thu, 25 Jun 2026 16:00:00 GMT</pubDate>
+      <description>Google が再設計した Google Finance の新アンドロイドアプリをリリース。投資ポートフォリオ管理と AI による市場ブリーフィング機能が初登場。</description>
+      <category>テクノロジー</category>
     </item>
   </channel>
 </rss>

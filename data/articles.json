@@ -1,5 +1,564 @@
 [
   {
+    "slug": "20260626-01",
+    "headline": "OpenAI Codex利用が6ヶ月で56倍に急増",
+    "lead": "OpenAI の最新調査により、AI エージェント「Codex」の利用が研究部門で過去6ヶ月間に56倍に増加。営業・法務・人事など非技術部門へも急速に広がっている。",
+    "body_markdown": "OpenAIが発表した最新の研究報告書では、AIエージェント「Codex」の企業導入が指数関数的に成長していることが明らかになった。\n\n調査によると、2025年11月から2026年6月の半年間で、研究部門におけるCodexの中央利用量は56倍に増加した。さらに顕著な成長は顧客サポート部門（32倍）とエンジニアリング部門（27倍）で観察され、法務部門でも13倍の成長を記録している。\n\n特筆すべきは、非技術部門でのCodexの急速な浸透である。従来AIツールは開発者向けが中心だったが、現在は法務、採用、営業など専門技術を持たない部門でもCodexが主要なAIツールとなっている。レポートでは、Codexが「従来ボトルネックとなっていた技術的専門知識による制限を打破し、ワークフロー全体を加速させている」と指摘している。\n\nユーザー数も急増しており、2025年8月以降、非開発者の個人ユーザーは137倍に、企業ユーザーは189倍に増加した。これは企業全体がAIエージェント時代へ移行していることを示唆している。",
+    "tags": [
+      "AI",
+      "OpenAI",
+      "エージェント",
+      "業務効率化"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/how-agents-are-transforming-work",
+    "importance": 5,
+    "image_query": "office workspace computer technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1497215842964-222b430dc094?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjB3b3Jrc3BhY2UlMjBjb21wdXRlciUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4MjQ3NjQzM3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Alesia Kazantceva",
+      "profileUrl": "https://unsplash.com/@alesiaskaz?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:33.085Z",
+    "publishedAt": "2026-06-25T02:00:00.000Z"
+  },
+  {
+    "slug": "20260626-02",
+    "headline": "VW、10万人削減・4工場閉鎖を発表─中国勢に対抗",
+    "lead": "Volkswagen が過去最大のリストラを発表。従業員の15%に相当する10万人削減と4つのドイツ工場の閉鎖を計画。中国車メーカーとの競争激化が背景。",
+    "body_markdown": "ドイツの自動車大手Volkswagen（VW）は、グループの歴史で最大規模の構造改革を発表した。従業員約65万人のうち約10万人、つまり15%の削減と4つのドイツ国内工場の閉鎖を計画している。\n\nCEOオリバー・ブルーメ氏が示した戦略では、Volkswagen ブランドと部品事業部門の独立企業化も検討されている。4つの工場はドイツの主要製造拠点で、生産終了時期に段階的に閉鎖される予定だ。\n\nこの大規模なリストラの背景には、中国の自動車メーカーからの競争激化がある。中国メーカーは急速に技術力を高め、欧州市場への進出を加速させており、VWはこれに対抗するため経営資源の急速な再配置を余儀なくされている。\n\n一方、ドイツの労働組合IG Metall は強く反発し、「そのような計画が実行されるなら、あらゆる手段でこれを阻止する」と声明を発表している。工場閉鎖と大量削減は地域経済にも大きな影響を与えると予想される。VWの発表は欧州自動車産業全体の再編圧力を象徴している。",
+    "tags": [
+      "自動車",
+      "リストラ",
+      "ドイツ",
+      "経営危機"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/06/26/volkswagen-vw-job-cuts-autos-germany.html",
+    "importance": 5,
+    "image_query": "car factory manufacturing",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1777383975764-bec6f5cabf00?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxjYXIlMjBmYWN0b3J5JTIwbWFudWZhY3R1cmluZ3xlbnwxfDB8fHwxNzgyNDc2NDMzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Lilian Do Khac",
+      "profileUrl": "https://unsplash.com/@nailil?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:33.545Z",
+    "publishedAt": "2026-06-26T11:27:10.000Z"
+  },
+  {
+    "slug": "20260626-03",
+    "headline": "Google Finance 新アプリ公開、AI ポートフォリオ機能を搭載",
+    "lead": "Google が再設計した Google Finance の新アンドロイドアプリをリリース。投資ポートフォリオ管理と AI による市場ブリーフィング機能が初登場。",
+    "body_markdown": "Google は6月25日、10ヶ月間のテスト期間を経て Google Finance を正式リリースした。新版では、これまで不足していた3つの主要機能を搭載している。\n\nまず、専用のAndroidアプリが全世界で利用可能になった。アプリでは、リアルタイムデータの閲覧、ウォッチリストの管理に加え、AIが「株価が動いた理由」を説明するキーモーメント機能や、ライブフィードでの金融ニュース配信が利用できる。iOS版は年内後半にリリース予定。\n\n次に、投資ポートフォリオ機能が実装された。ユーザーはスクリーンショットやPDF、CSV形式で自分の保有資産をアップロードでき、単一ダッシュボードで全資産を一元管理できるようになった。資産配分の分析やパフォーマンス見積もりも自動で提供される。\n\n第三の機能は AI タスク機能。「主要な仮想通貨市場の前場分析を毎日届けて」といった指示を与えると、Google Finance が背景で自動実行し、スケジュール通りにカスタム分析レポートが配信される。今後、ウェブ版の機能がモバイルアプリにも段階的に追加される予定。",
+    "tags": [
+      "Google",
+      "金融",
+      "アプリ",
+      "AI"
+    ],
+    "section": "テクノロジー",
+    "source": "Google AI",
+    "link": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+    "importance": 4,
+    "image_query": "stock market financial data",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1651341050677-24dba59ce0fd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxzdG9jayUyMG1hcmtldCUyMGZpbmFuY2lhbCUyMGRhdGF8ZW58MXwwfHx8MTc4MjQ3NjQzNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Anne Nygård",
+      "profileUrl": "https://unsplash.com/@polarmermaid?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:34.215Z",
+    "publishedAt": "2026-06-25T16:00:00.000Z"
+  },
+  {
+    "slug": "20260626-04",
+    "headline": "AWS、OpenAI モデル GPT-5.5・Codex の提供開始",
+    "lead": "OpenAI と AWS の戦略的パートナーシップが拡大。GPT-5.5・GPT-5.4・Codex が Amazon Bedrock で一般提供開始。Azure 独占時代が終焉。",
+    "body_markdown": "Amazon Web Services（AWS）は、OpenAI の最新モデルを Amazon Bedrock 経由で提供開始した。これまで OpenAI モデルは Microsoft Azure 経由でのみ入手可能だったが、AWS ユーザーも直接アクセスできるようになった。\n\nBedrock 上で提供されるのは、OpenAI の最先端モデルである GPT-5.5 と GPT-5.4、そしてコーディングエージェント「Codex」である。両モデルは Bedrock の次世代推論エンジン上で動作し、高いパフォーマンス、信頼性、セキュリティが実現される。\n\nこのパートナーシップ拡大は、OpenAI と Microsoft が4月末に契約条件を修正したことで可能になった。修正により、OpenAI は Azure 以外のクラウドプロバイダーでもモデルを配信する自由を得た。料金は OpenAI の公式料金と同じで追加費用は発生しない。\n\nCodex は Codex App、CLI、IDE 統合を通じて利用でき、すべての推論は Amazon Bedrock 経由で実行される。IAM、VPC 隔離、暗号化といった AWS セキュリティ機能がフルに適用される。この拡大により、AWS ユーザーは OpenAI の最先端モデルに直接アクセスでき、Azure から乗り換えるインセンティブが生まれた。",
+    "tags": [
+      "AWS",
+      "OpenAI",
+      "クラウド",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/26/news045.html",
+    "importance": 4,
+    "image_query": "cloud computing data center",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1782330300479-02550a1a3c7a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxjbG91ZCUyMGNvbXB1dGluZyUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4MjQ3NjQzNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brecht Corbeel",
+      "profileUrl": "https://unsplash.com/@brechtcorbeel?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:34.619Z",
+    "publishedAt": "2026-06-26T04:00:00.000Z"
+  },
+  {
+    "slug": "20260626-05",
+    "headline": "欧州の記録的熱波、気候変動で5倍以上確率が上昇",
+    "lead": "欧州全域で36℃超の熱波が襲来。夏至前後の気温が平年より14～18℃も上昇。気候変動の影響で同規模の熱波は50年前なら『ほぼ起こり得なかった』。",
+    "body_markdown": "欧州は2026年6月中旬から下旬にかけて、季節外れの猛烈な熱波に見舞われている。特に記録的なのは気温の上昇度合いで、夏至時期に気温が平年比で14～18℃も高い地域が複数に及ぶ。\n\nイギリスでは6月21日に36.1℃を記録し、6月の最高気温を更新。オーストリアでは36.6℃（97.9°F）に達した。西スロベニアでも36℃を超えている。これらの気温は、通常このシーズンの気候を大きく上回るレベルだ。\n\n気象学者の分析によると、今回の熱波は人為的な気候変動によって「少なくとも5倍以上確率が高まった」とされている。世界気象機関とコペルニクス気候変動サービスの報告書は、欧州は世界平均の2倍のペースで温暖化が進んでいることを指摘している。\n\n専門家は、化石燃料の燃焼による温暖化背景温度が上昇し、すべての熱波をより激しくしていると警告している。今回の熱波が『50年前ならほぼ起こり得ない』という表現は、気候システムの根本的な変化を示唆している。電力グリッド、インフラ、公衆衛生に対する負荷が急増している。",
+    "tags": [
+      "気候変動",
+      "熱波",
+      "欧州",
+      "環境"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/6/26/climate-change-the-culprit-for-europes-most-severe-heatwave-report",
+    "importance": 4,
+    "image_query": "heatwave weather thermometer",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1740560516658-5a94b0b715ed?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxoZWF0d2F2ZSUyMHdlYXRoZXIlMjB0aGVybW9tZXRlcnxlbnwxfDB8fHwxNzgyNDc2NDM1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Immo Wegmann",
+      "profileUrl": "https://unsplash.com/@tinkerman?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:35.156Z",
+    "publishedAt": "2026-06-26T11:42:01.000Z"
+  },
+  {
+    "slug": "20260626-06",
+    "headline": "NASA TESS が『綿菓子』密度の巨大惑星を発見",
+    "lead": "NASA の TESS 宇宙望遠鏡が、綿菓子並みの低密度を持つ『超プフ惑星』2個を同一星系で発見。木星サイズながら質量は数%。",
+    "body_markdown": "NASA の Transiting Exoplanet Survey Satellite（TESS）は、極めて珍しい『超プフ惑星』（super-puff planet）2個を同じ星系で発見した。TOI-791 b と TOI-791 c と名付けられたこれらの惑星は、サイズは木星と同等かそれ以上だが、質量は木星の数%に過ぎない。\n\nTOI-791 b は木星とほぼ同じサイズながら、質量はわずか木星の3%。TOI-791 c はさらに大きく木星を上回るサイズだが、質量は木星の5.9%に留まる。密度は TOI-791 b で0.038 g/cm³、TOI-791 c で0.047 g/cm³で、木星の平均密度1.33 g/cm³の実に28～35倍も低い。\n\n『綿菓子』という通俗表現は、これらの惑星がいかに低密度であるかを直感的に伝える。比較すれば、綿菓子の密度に近い宇宙天体が実在することは、惑星形成と大気進化の理論に重要な示唆を与える。\n\nTOI-791 星系は地球から約1,113光年離れており、TESS は7年間で1,122日分のデータを収集した。TOI-791 b の公転周期は139日、TOI-791 c は232日。この発見は Monthly Notices of the Royal Astronomical Society に掲載された。超プフ惑星の同一星系での複数発見は非常に稀である。",
+    "tags": [
+      "NASA",
+      "宇宙",
+      "惑星発見",
+      "天文学"
+    ],
+    "section": "サイエンス",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2202239/nasa-tess-cotton-candy-planet-discovery/",
+    "importance": 4,
+    "image_query": "space planet discovery telescope",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1701014159143-09482059f571?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzcGFjZSUyMHBsYW5ldCUyMGRpc2NvdmVyeSUyMHRlbGVzY29wZXxlbnwxfDB8fHwxNzgyNDc2NDM1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "BoliviaInteligente",
+      "profileUrl": "https://unsplash.com/@boliviainteligente?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:35.644Z",
+    "publishedAt": "2026-06-26T11:09:10.000Z"
+  },
+  {
+    "slug": "20260626-07",
+    "headline": "Samsung、SmartThings API を 10月に有料化へ",
+    "lead": "Samsung が SmartThings API へのアクセスを 10月から有料化。月額4.99ドルの個人開発者向けプランから法人プランまで段階的に導入。",
+    "body_markdown": "Samsung は SmartThings API について、2026年10月より有料化を実施すると発表した。これまで API は無料でアクセス可能だったが、同社は『より高品質なサービス提供』を理由に複数の価格帯を設定する。\n\n個人開発者向けには月額4.99ドルの『Personal Plan』が用意される。一方、商用・大規模利用向けにはより高額なプランが用意される見通しだ。Samsung は詳細な料金体系と移行スケジュールをまもなく発表予定としている。\n\nこの変更は、Home Assistant など SmartThings API を統合したサードパーティーのスマートホームプラットフォームに影響を与える可能性が高い。Home Assistant は「今回の変更により、その統合は『Personal Plans』の対象になる」と声明を出している。\n\nスマートホーム愛好家で API に直接アクセスする高度なユーザーも影響を受ける。これまで無料でカスタマイズ可能な自動化を構築できていたが、今後は月額利用料が発生することになる。\n\nSamsung は開発者パートナーシップメール（partners@smartthings.com）で詳細情報提供予定。業界では、API 有料化がスマートホーム市場の競争環境に与える影響について議論が高まっている。",
+    "tags": [
+      "Samsung",
+      "スマートホーム",
+      "API",
+      "IoT"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/957597/samsung-smartthings-api-charges",
+    "importance": 3,
+    "image_query": "smart home technology devices",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:35.644Z",
+    "publishedAt": "2026-06-26T11:38:11.000Z"
+  },
+  {
+    "slug": "20260626-08",
+    "headline": "イラン、米・湾岸諸国の共同声明を『介入主義』と非難",
+    "lead": "アメリカが中東の湾岸諸国と地域の安全保障継続を宣言。イラン外務省は『無責任で挑発的』と反発。ホルムズ海峡の管理を巡る対立も浮上。",
+    "body_markdown": "アメリカと中東の湾岸諸国が、地域の安全保障に関する共同声明を発表した。声明では、米国が引き続き中東での関与を強化する姿勢が示されている。\n\nこれに対し、イラン外務省は直ちに反発声明を発表。アメリカと湾岸諸国の行動を『介入主義的で、無責任かつ挑発的である』と厳しく批判した。イランは、自国の地域的影響力が脅かされていると見なしており、米国の関与強化を領土侵害と解釈している。\n\n特に争点となっているのは、ホルムズ海峡の将来的な管理である。ホルムズ海峡は世界の石油輸送の約20～30%を占める戦略的要衝で、イランはこの海域での支配権を重視している。米国と湾岸諸国の接近は、イランの地政学的影響力を削減することを意図していると、イランは解釈している。\n\nこの対立は、中東情勢全体の緊張関係を反映している。米国は湾岸同盟諸国との絆を強化することで、イランの地域的野心を抑制しようとしている一方、イランはこれを地政学的な包囲戦略と見なし、強く反発している。ホルムズ海峡周辺の安全保障は、グローバルなエネルギー供給と深く結びついている。",
+    "tags": [
+      "イラン",
+      "米国",
+      "中東",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015161831000",
+    "importance": 4,
+    "image_query": "middle east strait map diplomacy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1774779685524-cc735ae11a9e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtaWRkbGUlMjBlYXN0JTIwc3RyYWl0JTIwbWFwJTIwZGlwbG9tYWN5fGVufDF8MHx8fDE3ODI0NzY0MzZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Emin Huric",
+      "profileUrl": "https://unsplash.com/@emin99?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:36.073Z",
+    "publishedAt": "2026-06-26T11:54:41.000Z"
+  },
+  {
+    "slug": "20260626-09",
+    "headline": "日本、防災庁設置法案を推進─大規模地震に備え",
+    "lead": "高市首相が防災庁設置法案を推進。南海トラフ巨大地震などの対応を見据え、事前防災と継続的な災害対応体制の強化を強調。",
+    "body_markdown": "日本の高市総理大臣は、災害対策の司令塔となる『防災庁』の設置に向けた法案について、その推進方針を明確に示した。首相は『防災立国の実現には一貫した災害対応体制の強化が重要』と述べ、事前防災への重点投資の必要性を強調している。\n\n特に想定されているのが南海トラフ巨大地震である。この地震は最悪シナリオでは死者が数十万人に達する可能性があり、日本経済に未曾有の打撃をもたらす恐れがある。首相は『南海トラフ巨大地震など最悪のシナリオを想定し、徹底した事前防災を推進する』との考えを表明。\n\n防災庁は従来分散していた防災機能を一元化し、中央から地域への指揮命令系統を強化することが期待される。これにより、発災時の対応速度と効率性が大幅に向上すると予想される。\n\n一貫性のある防災体制の構築は、人命救助の最初の黄金の72時間を如何に有効活用するかが鍵となる。防災庁設置法案は今国会での成立を目指しており、法案が成立すれば、日本の防災体制は大きく刷新される。防災に関する人材確保と予算増額も重要な課題となる。",
+    "tags": [
+      "防災",
+      "日本",
+      "政策",
+      "大規模災害"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015161821000",
+    "importance": 4,
+    "image_query": "disaster prevention emergency response",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1624638764471-cffef5035746?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkaXNhc3RlciUyMHByZXZlbnRpb24lMjBlbWVyZ2VuY3klMjByZXNwb25zZXxlbnwxfDB8fHwxNzgyNDc2NDM2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mathurin NAPOLY / matnapo",
+      "profileUrl": "https://unsplash.com/@matnapo?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:36.867Z",
+    "publishedAt": "2026-06-26T11:37:01.000Z"
+  },
+  {
+    "slug": "20260626-10",
+    "headline": "Figma、AI 出力の没個性化問題に『人間協働』で対抗",
+    "lead": "生成 AI が製品を没個性化させる課題が浮上。デザイン企業 Figma は AI 出力を『素材』として位置付け、人間が最終判断する仕組みを構築。",
+    "body_markdown": "生成AI の普及に伴い、企業が直面する課題として『製品の没個性化』がある。様々な企業が同じ AI を使えば、出力も類似化し、競争優位が失われるリスクがある。\n\nデザインプラットフォーム Figma は、この課題に対する独自のアプローチを示した。Figma は AI を『完成品を自動生成するツール』ではなく、『人間が調整・改善するための素材』として位置付けた。AI が生成したデザイン案に対し、デザイナーが意図的に微調整・承認するプロセスを組み込む。\n\nこのアプローチの背景にあるのは『編集可能な履歴管理』である。AI が生成したすべてのコンテンツについて、人間がいつでも改変・承認できるチェックポイントを設置する。完全自動化ではなく、『AI と人間の協働による創造性の維持』が核となる。\n\nFigma の CEO Dylan Field は『テキストが完璧に見えるように、クリエイティビティはそのまま形になる』とコメント。つまり、AI の能力を認めながらも、人間の創造的判断を最終的な判断基準とする考え方である。\n\nこの戦略は『AI コスト削減（最大30%削減）』と『ブランド差別化』の両立を目指している。組織全体で自社ルールを共有し、個人の暗黙知を資産化する仕組みが、競争力を生み出す源泉となる。",
+    "tags": [
+      "AI",
+      "デザイン",
+      "生産性",
+      "ブランド戦略"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/business/articles/2606/26/news076.html",
+    "importance": 3,
+    "image_query": "design creative work computer",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:36.867Z",
+    "publishedAt": "2026-06-26T09:15:00.000Z"
+  },
+  {
+    "slug": "20260626-11",
+    "headline": "ベネズエラで連続地震、死者200人超に─援助活動始動",
+    "lead": "ベネズエラ北西部でマグニチュード7超の地震が相次ぎ発生。死者は235人以上、行方不明者1万4000人超。国際社会からの支援が本格化。",
+    "body_markdown": "ベネズエラ北西部のヤラクイ州を中心に、6月24日に連続地震が発生した。まず Mw 7.2 の前震が起き、わずか39秒後に Mw 7.5 の本震が襲来。この組み合わせは極めて危険で、地盤の破壊と建造物へのダメージが二重に加算される。\n\n6月26日時点の報告では、死者が235人前後に上っている。初期報告では164人とされていたが、被害の全容把握につれて数字は急増。1000人以上が負傷し、1万4000人以上が行方不明状態にあるとされている。アメリカ地質調査所（USGS）のPAGER システムは、今後死者数が最大10万人に達する可能性を警告している。\n\n首都カラカスとラ・グアイラを始め、ベネズエラ全域に広範な被害が及んでいる。建物倒壊、ライフライン寸断、医療施設の機能不全など、人道支援のニーズは莫大である。\n\n国際社会は緊急支援に動いている。アメリカ、コロンビア、ブラジル、そして国連機関が物資・人員派遣を調整中。しかし、ベネズエラの政治情勢と経済危機により、支援物資の流通体制が十分に機能していない状況もある。地震発生から72時間が生存率を大きく左右する『黄金の時間』となるため、迅速な対応が求められている。",
+    "tags": [
+      "地震",
+      "ベネズエラ",
+      "災害",
+      "人道支援"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/6/26/venezuela-earthquakes-what-happens-in-the-first-72-hours",
+    "importance": 5,
+    "image_query": "earthquake disaster rescue response",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1621077742331-2df96a07cca7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxlYXJ0aHF1YWtlJTIwZGlzYXN0ZXIlMjByZXNjdWUlMjByZXNwb25zZXxlbnwxfDB8fHwxNzgyNDc2NDM3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jose Antonio Gallego Vázquez",
+      "profileUrl": "https://unsplash.com/@joseantoniogall?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:37.923Z",
+    "publishedAt": "2026-06-26T11:36:53.000Z"
+  },
+  {
+    "slug": "20260626-12",
+    "headline": "Apple、M6 Pro/Max をスキップし M7 を 2027年前倒し",
+    "lead": "Apple が通常のチップ開発ロードマップを変更。M6 の上位モデルをスキップし、AI 特化の M7 を 2027年前半に前倒し投入へ。",
+    "body_markdown": "Apple が Mac シリコンのロードマップを大きく変更する報道が相次いでいる。従来の段階的なアップグレード戦略から、より急激な『飛び越し』へのシフトが明らかになった。\n\nベースの M6 チップは予定通り2026年中にリリース予定だが、通常であれば続く M6 Pro、M6 Max、M6 Ultra の上位モデルはスキップされる。代わり、AI 処理能力を大幅強化した M7 シリーズが 2027年前半の早期に登場する計画だ。\n\nM7 シリーズは『オンデバイス AI 処理の強化』を最優先課題として設計されている。Apple は生成 AI 機能を「デバイス上で実行可能な安全で高速な処理」として位置付けており、M7 はそれを実現するための計算性能を備える。\n\nタイムラインとしては、M7 ベースモデルが 2027年前半、M7 Pro/Max が 2027年末から 2028年初頭、M7 Ultra は 2028年と予想されている。\n\nこの戦略変更の背景には『AI 処理需要の急速な拡大』と『Apple の AI への経営的優先順位上昇』がある。高性能な上位モデルの遅延は暫定的には Mac Pro など限定的な製品カテゴリにのみ影響するが、企業向けワークステーション市場では遅延の影響を受ける可能性がある。",
+    "tags": [
+      "Apple",
+      "テクノロジー",
+      "チップ",
+      "AI"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/957561/apple-m6-m7-ai-chip-release-timeline-gurman",
+    "importance": 4,
+    "image_query": "computer chip processor technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1672307613484-3254a04651fd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxjb21wdXRlciUyMGNoaXAlMjBwcm9jZXNzb3IlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3ODI0NzY0Mzh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Maxence Pira",
+      "profileUrl": "https://unsplash.com/@maxence_pira?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:38.908Z",
+    "publishedAt": "2026-06-26T11:14:44.000Z"
+  },
+  {
+    "slug": "20260626-13",
+    "headline": "防衛省、AI フェイクに対抗─『認知戦』対応方針公開",
+    "lead": "防衛省が 6月26日、ウクライナ戦争の分析から『認知戦』への対応方針を発表。AI による偽情報拡散と情報工作への対抗体制を整備へ。",
+    "body_markdown": "防衛省は6月26日、『防衛力変革推進本部』での議論に基づき、『認知戦』への対応方針を示す分析資料を公表した。認知戦とは、偽情報による国民の判断操作と社会分断を狙う情報戦争である。\n\nウクライナ戦争の事例分析が中核となっている。ロシアは AI を活用した大規模な偽情報キャンペーンを展開。ウクライナ側は、政府による偽情報監視機構の設立、民間企業とのブランド戦略協力、市民主導のオープンソースインテリジェンス（OSINT）、そしてファクトチェック組織による対抗で一定の成果を上げた。\n\n防衛省は『AI 技術の進展により、偽情報の拡散が加速し、認知戦への対応がより困難化する可能性』を指摘。対抗には『情報収集・分析、発信、評価・改善』の サイクルが必要と位置付けた。\n\n具体的な対応策として、戦略的な情報発信機能の強化、AI 活用による偽情報検出、情報関連機能の組織的強化が挙げられている。\n\nウクライナでの教訓から、単一機構ではなく、複数の官民組織が連携する『複層的防御』が有効であることが明かになった。日本防衛省は、この多角的アプローチを参考に、国内の認知戦対応態勢を段階的に構築する方針である。",
+    "tags": [
+      "防衛",
+      "AI",
+      "情報戦",
+      "安全保障"
+    ],
+    "section": "政治",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/articles/2606/26/news091.html",
+    "importance": 3,
+    "image_query": "cybersecurity information defense",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:38.908Z",
+    "publishedAt": "2026-06-26T04:35:00.000Z"
+  },
+  {
+    "slug": "20260626-14",
+    "headline": "Hugging Face、vLLM で LLM サーバーをワンコマンド起動",
+    "lead": "Hugging Face Jobs 上で vLLM を使い、OpenAI 互換の LLM エンドポイントをワンコマンドで起動可能に。インフラ構築不要、従量課金方式。",
+    "body_markdown": "Hugging Face は、オープンソース推論エンジン vLLM との統合を発表。ユーザーは `hf jobs run` コマンドで、プライベートな大規模言語モデル（LLM）エンドポイントを瞬時に立ち上げることができるようになった。\n\nこれまで LLM のセルフホスティングには、サーバープロビジョニング、Kubernetes クラスタ構築といった複雑なインフラ作業が必要だった。Hugging Face Jobs はこれを一行のコマンドに短縮。`hf jobs run` は『Docker run for Hugging Face infrastructure』として機能する。GPU リソース指定（`--flavor`）とポート公開（`--expose`）で vLLM サーバーが起動する。\n\nオプションとして `--ssh` フラグを付けると、実行中のジョブに直接 shell でアクセス可能。ログ読みの煩雑さなく、リアルタイムでモニタリングとデバッグができる。\n\nスケーリングも容易である。より高性能な GPU フレーバーを選び、`--tensor-parallel-size` で複数 GPU 間の分散を指定すれば、大規模モデルも実行可能。vLLM は GPU 効率に最適化された推論エンジンであり、生成スピードと スケーラビリティが向上する。\n\n課金は GPU 使用時間に基づいた従量制。開発者は初期投資なしに、必要な時だけプロダクション級の推論インフラを利用できる利点がある。",
+    "tags": [
+      "Hugging Face",
+      "LLM",
+      "開発者向け",
+      "インフラ"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/vllm-jobs",
+    "importance": 3,
+    "image_query": "programming code development",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:38.908Z",
+    "publishedAt": "2026-06-26T00:00:00.000Z"
+  },
+  {
+    "slug": "20260626-15",
+    "headline": "Rocket Lab、16時間42分での軌道到達─新記録樹立",
+    "lead": "Rocket Lab が米空軍 VICTUS HAZE ミッションを、通知から16時間42分で打ち上げ。従来記録を10時間以上更新。急速対応宇宙アクセスの新基準。",
+    "body_markdown": "Rocket Lab は6月19日、米国防衛イノベーションユニット（DIU）と空軍スペースシステムコマンドの VICTUS HAZE Tactically Responsive Space（TacRS）ミッションを実施。notice to launch から打ち上げまで、わずか16時間42分という記録を樹立した。\n\n従来の急速対応ロケット打ち上げの世界記録は、これより10時間以上長かった。Rocket Lab は New Zealand の Launch Complex 1 から Electron ロケットで Pioneer 衛星を軌道投入。\n\nミッションの特筆すべき点は『一元化されたソリューション』である。Rocket Lab は衛星の設計・製造から急速打ち上げ、軌道上運用まで、すべてを単一プライムコントラクターとして提供した。これまでの TacRS ミッションでは複数契約者が関わることが標準だった。\n\n宇宙機の初期運用（commissioning）も極めて迅速。37時間36分で完了し、プログラム要求の72時間を34時間以上の余裕をもって達成。\n\nRocket Lab の Electron ロケット生産ラインは、現在 11日に1機のペースで機体を製造中。この生産能力が、急速対応宇宙アクセスのビジネスケース成立を可能にしている。軍事・防衛戦略の即応性を求める米空軍にとって、この能力は戦略的価値を持つ。",
+    "tags": [
+      "宇宙",
+      "ロケット",
+      "米国防衛",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "Ars Technica",
+    "link": "https://arstechnica.com/space/2026/06/rocket-report-china-may-soon-attempt-booster-landing-rocket-lab-does-rapid-response/",
+    "importance": 3,
+    "image_query": "rocket launch spacecraft space",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:38.908Z",
+    "publishedAt": "2026-06-26T11:00:59.000Z"
+  },
+  {
+    "slug": "20260626-16",
+    "headline": "イソギンチャク、ウイルス防御機構が人間と『逆』",
+    "lead": "イソギンチャクの研究から、人間の免疫タンパク質に似たタンパク質が逆の役割を担う新機構が判明。動物のウイルス防御の多様性を示唆。",
+    "body_markdown": "イソギンチャクの研究が、生命のウイルス防御メカニズムの多様性を示す新知見をもたらした。研究チームは、イソギンチャクが人間免疫系の鍵となるタンパク質に酷似したものを持ちながら、その働きが『正反対』であることを発見。\n\n新しく同定されたタンパク質は CARDIB（CARD Inhibitor Binding protein）と命名された。人間の免疫系では、同族のタンパク質が炎症反応を『促進』することで、ウイルスに対抗している。しかし、CARDIB は『抑制』的な機能を担いながら、イソギンチャクが有効なウイルス防御を実現している。\n\nCRISPR遺伝子編集でイソギンチャクから CARDIB 遺伝子を除去し、ウイルスに曝露したところ、予想外に脆弱性が劇的に増加。CARDIB が無いと、防御効果が著しく低下することが判明した。\n\nこの発見は『動物は複数のウイルス防御戦略を進化させている』ことを示唆する。人間の免疫システムが全生物共通と思われていた前提が、実は種や分類群ごとに多様なメカニズムが併存していることを明かしている。\n\n研究はウイルス進化と宿主防御の軍拡競争の産物と考えられ、新規抗ウイルス療法開発の視点から注目される。",
+    "tags": [
+      "生物学",
+      "免疫",
+      "ウイルス",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-06-sea-anemones-reveal-antiviral-defense.html",
+    "importance": 3,
+    "image_query": "biology laboratory research microscope",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:38.908Z",
+    "publishedAt": "2026-06-26T09:00:08.000Z"
+  },
+  {
+    "slug": "20260626-17",
+    "headline": "エストロゲンパッチ供給不足が長期化の兆候",
+    "lead": "閉経ホルモン療法の需要急増で、エストロゲンパッチが米国全域で品薄化。複数メーカーが品切れ状態で、解決に3年かかる見通し。",
+    "body_markdown": "米国全域の薬局でエストロゲンパッチが品薄化している。閉経症状の治療薬として需要が急増した結果、主要ブランド（Climara、Vivelle-Dot）とジェネリック（Teva、Mylan）のすべてが無期限バックオーダー状態に陥った。\n\n供給不足の背景は複合的である。昨年の FDA による安全警告削除と『人命救済的治療』の公式推奨により、処方件数が26%急増。同時に、複数の製造施設で供給チェーン混乱が発生。海外医薬品製造業者への関税圧力も重なった。\n\n業界筋の予測では、供給が需要に追いつくまで最大3年を要する可能性がある。メーカーの製造能力拡張は時間を要し、急速な増産は困難な状況にある。\n\nAmneal、Zydus、Sandoz、Noven、Viatris といった大手メーカーすべてが何らかの形で供給制約を報告。医療提供者は患者に対し、代替医薬品への切り替えや投与形式の変更を余儀なくされている。\n\n本来、エストロゲンパッチは皮膚吸収による安定した投与が可能で、経口薬より GI 吸収の影響が少ない利点がある。供給正常化までの間、多くの患者が医療アクセス低下のリスクに晒されている状況が続く見通しだ。",
+    "tags": [
+      "医療",
+      "医薬品",
+      "供給不足",
+      "女性保健"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/06/26/estrogen-patches-are-in-short-supply-as-women-seek-menopause-support.html",
+    "importance": 3,
+    "image_query": "medical healthcare pharmacy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:38.908Z",
+    "publishedAt": "2026-06-26T11:00:01.000Z"
+  },
+  {
+    "slug": "20260626-18",
+    "headline": "皇族養子に『皇位継承資格なし』─衆参議長が示す",
+    "lead": "衆参両院議長が皇族数確保策を『立法府の総意』として取りまとめ。旧宮家から養子を受け入れるが、皇位継承資格は持たないとする案。",
+    "body_markdown": "衆参両院の議長が6月10日、皇族数確保に関する『立法府の総意』を取りまとめた。与野党が参加した『全体会議』で、政府有識者会議が示した二案を『了とする』との見解に合意。\n\n合意内容の要点は、旧皇族（1947年10月に皇籍を離脱した旧11宮家）の男系男子を養子として皇族に復帰させる案である。しかし、重要な条件が付されている：『養子は皇位継承資格を持たない』との明記である。\n\nこれは皇室典範改正の基本方針となる。皇籍を回復して皇族の身分を得るが、皇位継承順位には列しない枠組みである。女性皇族の身分保持についても検討が進んでいる。\n\n政府は『立法府の総意』を踏まえ、皇室典範改正案など必要な法案の起草に着手。月内にも国会へ提出し、今国会中の成立を目指す方針を示している。\n\nこの対応は、昭和天皇の末弟である常陸宮正仁親王の薨去により、皇族の減少が加速化していることへの対策である。皇族数の維持は国家儀式と皇籍継続の観点から重要課題とされてきた。養子制度と皇位継承資格の分離は、伝統維持と皇室の安定化のバランスを図った案として評価されている。",
+    "tags": [
+      "皇室",
+      "政治",
+      "日本",
+      "法案"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015161841000",
+    "importance": 3,
+    "image_query": "government politics law japan",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:38.908Z",
+    "publishedAt": "2026-06-26T11:35:46.000Z"
+  },
+  {
+    "slug": "20260626-19",
+    "headline": "Amazon Bedrock、Q1 だけで過去累計超えの処理量",
+    "lead": "AWS の Amazon Bedrock が 2026年第1四半期だけで、過去全期間の累積トークン処理量を上回る。AI 推論の爆発的成長を示す。",
+    "body_markdown": "AWS 幹部の Dave Brown が AWS Summit Japan 2026 の基調講演で発表した驚くべき数字：Amazon Bedrock が 2026年第1四半期（Q1）だけで、サービス開始以来の累積トークン処理量を超過した。\n\nこれは、AI 推論需要の指数関数的成長を示唆している。Bedrock は AWS が提供するマネージドサービスで、OpenAI の GPT、Anthropic の Claude、Stability AI の画像生成モデルなど複数の生成モデルへのアクセスを統一インターフェースで提供している。\n\nトークン処理量の急増背景には、複数の要因がある。第一に、AI エージェントの広範な展開である。各エージェントは計画・検証・応答生成の複数ステップで推論を要し、従来のワンショット推論と比べはるかに多くのトークン処理が必要。\n\n第二に、全世界で数百万の AI エージェントが同時運用されている現実である。金融機関、カスタマーサポート、コンテンツ生成、オートメーションなど、あらゆるセクターで AI エージェントが稼働。\n\nBrown は『AI 推論が地球上で最大のワークロードになった』と述べ、『AI 時代のインフラは、GPU、電力、冷却の確保が戦略的最優先である』と強調。Bedrock の急成長は、企業が生成 AI を単なる実験から本格的ビジネス活用へ移行していることを示す。",
+    "tags": [
+      "AWS",
+      "AI",
+      "クラウド",
+      "インフラ"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/26/2000000131/",
+    "importance": 3,
+    "image_query": "cloud computing data center",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:38.908Z",
+    "publishedAt": "2026-06-26T02:00:17.000Z"
+  },
+  {
+    "slug": "20260626-20",
+    "headline": "ホルムズ海峡、紛争激化─UN 避難計画が一時中止",
+    "lead": "ホルムズ海峡で貨物船がミサイル攻撃受ける。UN の 1.1万人避難計画が一時中止。イランが『一方的ルート』に強硬反発。",
+    "body_markdown": "中東の地政学的危機が一層深刻化している。UN が調整した通船避難計画が、実施初日から実績なく中止に追い込まれた。\n\n6月25日、シンガポール籍貨物船『Ever Lovely』がホルムズ海峡近くで『未確認の発射体』による攻撃を受けた。船橋部分が被弾し、乗員 1名が軽傷。環境汚染は報告されていないが、紛争エスカレーションの危険信号である。\n\nこの攻撃は、UN 国際海事機関（IMO）が先日発表した 1万1000人超の船員避難計画を直撃した。計画は 2つの『セーフコリドー』を設定し、イラン領海経由と オマーン領海経由の選択肢を提供していた。\n\nしかし IMO 事務局長は『安全保障を確認できるまで避難計画を中止する』と声明。イランの強硬姿勢が背景である。イランは『UN 事前通告なしのルート設定は受け入れ不可』と主張し、『唯一の正当なルートはイランが宣言したもの』と強弁している。\n\n米政府内でも『攻撃の実行主体は不明確』との立場。ただし、防衛分析家の多くはイランの Revolutionary Guard Corps（IRGC）関連組織の関与を指摘している。ホルムズ海峡は世界の石油輸出の20～30%が通過する戦略的要衝。この混乱は全球エネルギー市場へのリスク要因である。",
+    "tags": [
+      "中東",
+      "ホルムズ海峡",
+      "紛争",
+      "海上輸送"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cjwg9np904qo",
+    "importance": 4,
+    "image_query": "ship cargo maritime conflict",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1606185540834-d6e7483ee1a4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzaGlwJTIwY2FyZ28lMjBtYXJpdGltZSUyMGNvbmZsaWN0fGVufDF8MHx8fDE3ODI0NzY0Mzl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "william william",
+      "profileUrl": "https://unsplash.com/@william07?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:39.419Z",
+    "publishedAt": "2026-06-26T11:27:59.000Z"
+  },
+  {
+    "slug": "20260626-21",
+    "headline": "Patronus AI、5000万ドル調達─AI エージェントの『試験場』構築",
+    "lead": "Patronus AI が Series B で5000万ドルを調達。デジタル世界でエージェントをストレステスト後、実環境へ導入する技術を開発。",
+    "body_markdown": "AI セーフティ企業 Patronus AI が、Greenfield Partners を主導者とする Series B 資金調達ラウンドで5000万ドルを確保。累計資金は7000万ドルに達した。Notable Capital、Lightspeed、Datadog、Samsung が参加。\n\nPatronus の核技術は『デジタル世界モデル』である。企業の実際のウェブサイトやシステムのレプリカを仮想環境に構築し、AI エージェントをそこで『強化学習による試験』にかける。成功タスク完了には報酬、エラーには罰則を与え、本番前にエージェントを高精度化する。\n\n比較として、Waymo が自動運転カーを仮想環境で訓練するのと同じ発想である。悪天候や衝突事故など、実世界では稀な危険シナリオを仮想環境で再現し、エージェントをロバスト化できる。\n\n創業者は Meta 出身の AI 研究者 Anand Kannappan と Rebecca Qian。同社の売上は過去1年で 15倍に成長し、『事実上すべての主要 AI ラボと多数のスタートアップが利用している』と Notable Capital の Glenn Solomon が述べている。\n\n現在、Patronus は『検証可能な領域』（ソフトウェアエンジニアリング、金融）に集中。今後、医療や法務といった『より検証が難しい領域』への拡大を予定している。エージェントの信頼性検証が、生成 AI ビジネス化の鍵として浮上している。",
+    "tags": [
+      "AI",
+      "スタートアップ",
+      "資金調達",
+      "テスト"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+    "importance": 3,
+    "image_query": "startup technology innovation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:39.419Z",
+    "publishedAt": "2026-06-25T00:00:00.000Z"
+  },
+  {
+    "slug": "20260626-22",
+    "headline": "Anthropic Claude、有料ユーザー市場で存在感を拡大",
+    "lead": "Anthropic の Claude が有料ユーザー市場で ChatGPT に急速に肉薄。企業向けでは Claude の AI エンジニアリング市場シェア 42～54%。",
+    "body_markdown": "生成 AI 市場のランドスケープが変わりつつある。Anthropic の Claude は、全体の AI チャットボット市場では 4.5% のシェアで 5 位だが、有料ユーザーと企業セグメントでは驚くべき存在感を示している。\n\nグローバル AI チャットボット市場全体では ChatGPT が 60.4% で圧倒的。Google Gemini が 15.2% で続く。一方、Claude は 4.5% に過ぎない。しかし、『エンタープライズ AI 市場』での数字は逆転している。Anthropic はエンタープライズ AI で 32% のシェアを占め、トップレベル。\n\nさらに顕著なのが『AI コーディング市場』での優位性である。Claude の企業エンジニアリング市場シェアは 42～54%。OpenAI の同セグメントシェアは 21%。開発者と技術組織は Claude を選好している傾向が明確。\n\nユーザー成長も堅調である。有料ユーザーは 2026 年 1 月以降 75% 増加。消費者向け課金ベースで Claude は ChatGPT に急速に追い上げている。ただし、新規有料加入者の総数では OpenAI がなお優位。\n\n Google が Anthropic へ最大 400 億ドルの投資を計画しており、Anthropic の 2026 年 4 月時点の年間売上ランレート（ARR）は 30 億ドルに達している。市場構図は『OpenAI 独占』から『多極化』へシフトしている。",
+    "tags": [
+      "AI",
+      "ChatGPT",
+      "Claude",
+      "市場"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt",
+    "importance": 3,
+    "image_query": "artificial intelligence technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:39.419Z",
+    "publishedAt": "2026-06-25T00:00:00.000Z"
+  },
+  {
+    "slug": "20260626-23",
+    "headline": "Ryanair、CMA 調査受け家族シート有料化を撤廃",
+    "lead": "Ryanair が英国競争当局 CMA の調査を受け、親と子ども並席の『義務的課金』を廃止。6月25日から無料随時割当へ転換。",
+    "body_markdown": "ヨーロッパ大手 LCC（格安航空会社）Ryanair は、英国競争市場局（CMA）の調査対象となっていた『ファミリーシート有料化ポリシー』を修正した。\n\n従来、Ryanair は 2～11 歳の子どもを同伴する大人に『ファミリーシート料金』（片道約 8 ポンド≈9 ユーロ）を請求。最大 4 人の子どもまで大人と隣同士の座席を保証する仕組みだった。\n\nCMA は『ドリップ価格設定』（基本料金に見えない追加料金が上乗せされる慣行）と判断。『消費者に最適な利益をもたらす』という主張に対し、競争法違反の懸念を指摘した。\n\n新ポリシー（2026 年 6 月 25 日実施）では、親が任意座席選択を拒否すれば、チェックイン後に『無料で』子どもと隣同士の座席が自動割当される。ただし、制約がある：機内の後部座席への割当てが優先。プレミアム前方座席を希望する家族は依然有料。\n\nRyanair CEO は『不適切な規制者たちに対応するため、業界標準に不本意に調整する』とコメント。同社は自社ポリシーが『消費者最適』と主張していたが、CMA の圧力に屈した形。\n\nこの判断は、EU・英国を含むヨーロッパ航空規制の『隠れた追加料金排除』トレンドを反映している。航空業界全体で『ドリップ価格設定』への規制がかかりつつある。",
+    "tags": [
+      "航空",
+      "価格政策",
+      "規制",
+      "ヨーロッパ"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/jun/25/ryanair-adopts-free-of-charge-family-seating-policy-after-watchdog-investigation",
+    "importance": 3,
+    "image_query": "airplane airline travel booking",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:39.419Z",
+    "publishedAt": "2026-06-25T12:58:24.000Z"
+  },
+  {
+    "slug": "20260626-24",
+    "headline": "Revolut、新卒にオフィス勤務を義務化─リモート回帰",
+    "lead": "Fintech Revolut が 2027 年入社の新卒・インターン向けに週 3 日のオフィス勤務を義務化。『リモートファースト』ポリシーから方向転換。",
+    "body_markdown": "ロンドン拠点の Fintech 企業 Revolut は、キャリア初期段階の従業員に対するリモートワーク政策を修正。2027 年から入社する新卒・インターンは、週 3 日以上のオフィス出勤が必須となる。\n\nこれまで Revolut は『リモートファースト』方針で知られており、新入社員も在宅勤務・オフィス勤務・海外出張（年 120 日まで）の選択肢があった。柔軟性が採用競争力の源泉だったが、経営方針が転換。\n\nCEO の説明は『キャリア初期段階での対面メンタリングの価値』である。オンボーディング期間は密度の濃い人間関係構築、チーム融合、組織文化習得が不可欠。オフィス環境でこれが加速するという判断。\n\n同社は『既存従業員には変更なし。リモートファースト方針は維持』と強調。つまり、キャリア初期層に限定した施策。新卒プログラム修了後、フルタイム採用された場合は通常のリモートファースト契約に移行可能。\n\nこの方針転換は業界全体のトレンド反映でもある。パンデミック直後の『完全リモート化』は、オンボーディングの質低下、社員間協調性の低減といった課題が顕在化。多くの企業がハイブリッド型への回帰、あるいはキャリア初期の対面勤務義務化へシフトしている。Revolut はこうした業界トレンドへの適応と見られる。",
+    "tags": [
+      "Fintech",
+      "人事政策",
+      "リモートワーク",
+      "キャリア"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/jun/26/revolut-recruits-work-in-office-remote-first-policy-graduates-interns",
+    "importance": 3,
+    "image_query": "office workspace employees work",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-26T12:20:39.419Z",
+    "publishedAt": "2026-06-26T11:41:10.000Z"
+  },
+  {
     "slug": "20260625-28",
     "headline": "OpenAI、会話型旅行AI『Omio』を統合",
     "lead": "旅行プラットフォーム Omio が OpenAI と統合し、AIが会話形式で旅行計画をサポート。ユーザー体験向上と開発加速を実現。",
