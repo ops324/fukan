@@ -18,6 +18,9 @@ const abs = (p) => `${config.siteUrl}${p.startsWith('/') ? p : `/${p}`}`;
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
+// 生成物の既定の出力先。Vercel はこの dist をビルド成果物として配信する（outputDirectory:"dist"）。
+// dist は .gitignore 済みなので、render 系スクリプトの出力はリポジトリに混入しない。
+const DIST = path.join(ROOT, 'dist');
 
 function dateLabel(d = new Date()) {
   const wd = ['日', '月', '火', '水', '木', '金', '土'][d.getDay()];
@@ -117,9 +120,12 @@ function relatedFor(target, pool, count = 3) {
   return [...picked, ...pickDiverse(fill, count - picked.length, usedSig)];
 }
 
-// outDir を指定すると ROOT ではなくそのディレクトリへ全生成物を書き出す（既定は ROOT）。
+// outDir を指定すると DIST ではなくそのディレクトリへ全生成物を書き出す（既定は dist）。
 // check.js が一時ディレクトリへ「お試しレンダー」して作業ツリーを汚さないために使う。
-export async function renderSite(rawArticles, { outDir = ROOT } = {}) {
+export async function renderSite(rawArticles, { outDir = DIST } = {}) {
+  // 出力先（既定は dist）を用意。従来は ROOT 固定で常に存在したが、dist は未作成のことがある。
+  await mkdir(outDir, { recursive: true });
+
   const decorated = rawArticles.map(decorate);
 
   const byRecency = [...decorated].sort(recencyDesc);

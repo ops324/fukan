@@ -134,16 +134,19 @@ launchd → scripts/auto-generate.sh
 ```sh
 npm run candidates           # 候補だけ確認（data/_candidates.json）
 zsh scripts/auto-generate.sh # 取材→執筆→反映まで全自動で1回
-npm run render               # articles.json から index/archive/記事ページを再生成のみ
-open index.html
+npm run build                # articles.json から dist/ に全 HTML ＋ アセットを生成
+npm run serve                # dist/ を http://localhost:8000 で配信して目視
 ```
+
+> 生成物は `dist/`（gitignore 済み）に出力し、**コミットしない**。本番は Vercel が
+> デプロイ時に `npm run build` を実行して `dist/` を配信する（`vercel.json`）。
 
 ### 設計のポイント
 
 - **記事はアグリゲーター型の短評**（全文リライトではない）。Claude が元記事を読み、
   「短い独自要約＋論評＋目立つ出典リンク」を生成 → 著作権リスクと事実誤りを同時に抑制。
 - **冪等**：処理済み `link` は再生成しない。`data/articles.json` が蓄積され、走らせるほど記事が増える。
-- リセットしたい場合は `data/articles.json` と `articles/*.html` を削除。
+- リセットしたい場合は `data/articles.json` を削除（生成物は `dist/` に出るだけなので `dist/` を消せばよい）。
 
 ### 編集方針（エディトリアルポリシー）
 

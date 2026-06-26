@@ -3,6 +3,31 @@ node_modules/
 *.log
 .DS_Store
 
+# ビルド成果物。Vercel が buildCommand:"npm run build" でデプロイ時に生成・配信する。
+# render 系スクリプト（ingest/backfill/set-press/renderOnly/build）の出力先はすべて dist。
+# 生成物を VCS に置かないことで Git 肥大（毎ジョブの数百ファイル churn）を断つ。
+dist/
+
+# 旧モデル（生成物を root にコミットして配信）で追跡されていた生成物。
+# Vercel ビルド化に伴い VCS から外す（git rm --cached 済み・以後 untracked）。
+/index.html
+/about.html
+/contact.html
+/privacy.html
+/terms.html
+/editorial.html
+/disclaimer.html
+/archive.html
+/feed.xml
+/feed.xsl
+/robots.txt
+/sitemap.xml
+/search-index.json
+/articles/
+/sections/
+/tags/
+/archive/
+
 # 実行時の一時ファイル（articles.json は正本なのでコミットする）
 data/_candidates.json
 data/_drafts.json
