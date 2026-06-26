@@ -291,6 +291,8 @@ AIニュースサイト/
 - ログ: `data/scheduler.log`
 - 健全性監視: 実行前後で `articles.json` の件数を比較。**異常終了・articles.json 破損・push 失敗・
   新規ゼロが3回連続**のとき macOS 通知（`osascript`）を出す。連続回数は `data/.health` に記録。
+  さらに **候補が1件以上あるのに下書き0本（＝writer 失敗の疑い）** は3回を待たず**即時通知**する
+  （真に新着が無い回や、下書きは出たが veto/重複で全て公開見送りになった回＝品質ゲート作動、とは区別する）。
 - **ソース変更ガード**: commit 前に `src/ templates/ scripts/ prompts/ package.json` の未コミット変更を検査し、
   あれば **auto-commit/push を中止して通知**する（作業途中コードが無人ジョブで自動公開される事故を防ぐ）。
   生成物・`data/` は対象外。クリーンな通常時のみ `git add -A` → commit → push する。
@@ -387,9 +389,11 @@ open index.html
 ### 12.3 日次フロー（内ループ）
 `scripts/auto-generate.sh` が3段で実行する（**stale安全ロックで二重起動を排他**）:
 1. **writer（`config.writerModel`＝既定 Haiku）** `prompts/generate-articles.md` … 候補取得→取材→**自己批評**→下書き `data/_drafts.json`。**取り込みはしない**。要約＋論評タスクなので安価な Haiku で量産（約30本/日）。`auto-generate.sh` が `--model "$WRITER_MODEL"` で指定する。
+   - **ツール暴走対策（重要）**: writer は `--tools`（`Bash Read Write Edit WebFetch WebSearch Glob Grep` の allowlist）＋ `--strict-mcp-config`（MCP サーバを全無効化）で起動する。既定のフルツールセットだと `ScheduleWakeup`/`Agent`/`Monitor`/`Workflow` 等のオーケストレーション系や MCP（lazyweb 等）を掴み、線形パイプライン（候補→取材→下書きWrite）から逸脱して**下書き0本で終わる事故**が起きたため（2026-06-26）、必要ツールだけに絞って構造的に防ぐ。可用性制限は `--tools` で行う（`--allowedTools` は自動承認の制御でツール可用性は絞らない）。
+   - **リトライ／フォールバック**: 失敗（プロセス異常終了、または「候補ありなのに下書き0本」）時は最大 `WRITER_MAX_TRIES`（既定2＝初回＋1）まで再実行する。過負荷/瞬断には `--fallback-model`（既定 Sonnet）で対応し、可用性を底上げする（通常は Haiku を使う）。
    実行時、`src/qualityDigest.js`（直近8本の客観フラグ集計・決定的・オフライン）の**品質フィードバックをプロンプト末尾へ動的注入**する（前回までの逸脱の是正を促す）。取得失敗時は空＝従来挙動で**日次を止めない**。手動確認は `npm run quality-digest`。
 2. **judge（別モデル `config.judgeModel`＝既定 Sonnet）** `prompts/review-drafts.md` … 出典照合で faithfulness を採点し、`data/_review.json` に
-   各下書きの `verdict: pass|veto`＋スコアを出力。**veto は「明確な事実誤り」で行う**（出典矛盾・数値/単位の改変・更新済み数値の旧値記載・趣旨の取り違え＝過小/過大表現・出典死活・constitution 違反）。事実誤りは `suggestions` で流さず veto し、**迷う事実誤りは veto 寄り**に倒す。一方、体裁・文体・構成の好みでは落とさない（事実が出典と一致していれば pass＋suggestions、迷ったら pass）。
+   各下書きの `verdict: pass|veto`＋スコアを出力。judge も writer 同様に `--tools`（`Bash Read Write WebFetch WebSearch`）＋ `--strict-mcp-config` で起動する（迷走防止）。**veto は「明確な事実誤り」で行う**（出典矛盾・数値/単位の改変・更新済み数値の旧値記載・趣旨の取り違え＝過小/過大表現・出典死活・constitution 違反）。事実誤りは `suggestions` で流さず veto し、**迷う事実誤りは veto 寄り**に倒す。一方、体裁・文体・構成の好みでは落とさない（事実が出典と一致していれば pass＋suggestions、迷ったら pass）。
 3. **ingest** `src/ingestDrafts.js` … veto を尊重して破棄、画像付与・再生成、評価を **ledger** に追記。
 - **トークン削減の triage**: judge 呼び出しの前に `node src/evaluate.js --triage` を実行。下書きが**すべて `tier:'primary'` かつ客観フラグ無し**の
   低リスク回は judge を**丸ごとスキップ**（客観ゲート＋writer 自己批評のみで公開）。`media` 混在 or 客観フラグ有り＝独立検証が最も要る回だけ judge を走らせる。
