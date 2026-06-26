@@ -118,8 +118,8 @@ function sectionBlocks(universe, shown) {
     const items = groups.get(name)
       .filter((a) => !shown.has(a.slug))
       .sort(importanceThenRecency)
-      .slice(0, 4);
-    if (items.length < 3) continue;
+      .slice(0, config.sectionBlockMax);
+    if (items.length < config.sectionBlockMin) continue;
     blocks.push(sectionBlock(name, slugByName.get(name) || '', items));
   }
   return blocks.length ? `\n${blocks.join('\n\n')}\n` : '';

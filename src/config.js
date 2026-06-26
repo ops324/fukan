@@ -31,6 +31,10 @@ export const config = {
                         // fetchNews がセクション round-robin でプールを満たし、低頻度セクションの締め出しを防ぐ。
   importanceFloor: 3,   // 重要度(1-5)がこれ未満の候補は掲載しない（些末ネタの除外）
   retentionTop: 40,     // トップページに載せる最新記事の上限。超過分はアーカイブへ
+  // トップ中段カテゴリ別ブロックの表示本数。min=見出しを出す最小本数（navSections順に固定表示）、
+  // max=1ブロックあたりの最大カード数。母集団は retentionTop（最新N本）。0本のカテゴリは構造上出せない。
+  sectionBlockMin: 2,
+  sectionBlockMax: 4,
   searchIndexMax: 600,  // search-index.json に載せる最大件数（直近順）。記事増時のクライアント負荷を抑える。
                         // 全記事はアーカイブ（月別）から辿れる。
   heroRecencyHours: 24, // ヒーロー（トップ最上段）は直近この時間内の最重要記事から選ぶ。
