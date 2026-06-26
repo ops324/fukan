@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://fukan-news.vercel.app/sitemap.xml
