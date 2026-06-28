@@ -553,14 +553,34 @@ figure { margin: 0; }
 .article-byline__by { color: var(--ink-1); }
 .article-share { margin-left: auto; display: flex; gap: var(--space-xs); }
 .share-btn {
-  width: 38px; height: 38px;
+  width: 38px; height: 38px; flex: none;
   display: inline-flex; align-items: center; justify-content: center;
   border: 1px solid var(--rule-strong); border-radius: var(--radius);
   color: var(--ink-1); background: transparent;
-  font-size: var(--text-sm);
-  transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
+  cursor: pointer;
+  transition: background var(--dur) var(--ease), color var(--dur) var(--ease),
+              border-color var(--dur) var(--ease);
 }
-.share-btn:hover { background: var(--paper); color: var(--ink-0); }
+.share-btn .share-ic { width: 18px; height: 18px; display: block; }
+.share-btn:hover { background: var(--paper); color: var(--ink-0); border-color: var(--ink-2); }
+.share-btn:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px;
+}
+/* ホバーでブランド色（境界も合わせて引き締める） */
+.share-btn--x:hover      { color: #0f0f0f; border-color: #0f0f0f; }
+.share-btn--line:hover   { color: #06c755; border-color: #06c755; }
+.share-btn--hatebu:hover { color: #00a4de; border-color: #00a4de; }
+.share-btn--copy:hover,
+.share-btn--native:hover { color: var(--accent); border-color: var(--accent); }
+.share-btn--copy.is-copied { color: #16a34a; border-color: #16a34a; }
+[data-theme="dark"] .share-btn--x:hover { color: #fff; border-color: #fff; }
+
+/* Web Share API 対応端末では個別 SNS を畳み「共有＋コピー」の2点に */
+.share-btn--native { display: none; }
+.has-web-share .share-btn--native { display: inline-flex; }
+.has-web-share .share-btn--x,
+.has-web-share .share-btn--line,
+.has-web-share .share-btn--hatebu { display: none; }
 
 .article-hero { margin: var(--space-xl) 0; }
 .article-hero__img {

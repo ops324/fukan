@@ -73,6 +73,7 @@ AIニュースサイト/
 │   ├── styles.css          # デザイン（白基調ミニマル・トークン・全クラス・OS dark フォールバック）
 │   ├── search.js           # サイト内検索の初期化（依存ゼロ）
 │   ├── reveal.js           # 読了プログレスバー（依存ゼロ・装飾リビールは廃止）
+│   ├── share.js            # 記事共有の強化（依存ゼロ・リンクコピー＋Web Share API の能力検出）
 │   ├── og-default.jpg      # SNSシェア共通OG画像（1200×630）
 │   └── logo.png            # 構造化データ publisher.logo（512×512）
 ├── data/
@@ -102,7 +103,7 @@ AIニュースサイト/
 │   ├── layout.js           # header(ナビ・検索)/footer/page 骨格・解析（ticker は空スタブ）
 │   ├── cardbits.js         # 共有: メタ行 metaLine()/isoDate() / 中立カテゴリラベル sectionChip() / tagHref() / optimizedUrl()
 │   ├── index.js            # トップ（ヒーロー＋トップニュース右レール→最新グリッド→カテゴリ別ブロック→購読）
-│   ├── article.js          # 記事詳細（読了時間・共有ボタン・関連記事）
+│   ├── article.js          # 記事詳細（読了時間・共有ボタン[X/LINE/はてブ/コピー＋Web Share]・関連記事）
 │   ├── section.js          # セクション別一覧
 │   ├── tag.js              # タグ別一覧 renderTag() / タグクラウド renderTagsIndex()
 │   ├── legal.js            # 法的・運営ページ renderLegalPages()
@@ -272,7 +273,8 @@ AIニュースサイト/
 | 型階層・エディトリアル | 色を増やさず**型と余白だけで序列**を立てる（白基調ミニマル堅持）。リード見出しを `clamp(--text-2xl, 6.4vw, 46px)`・字間 -0.014em でヘッドライン化、リード文（デッキ）をサンス→**セリフ 20px** に格上げ、「最新」見出し（`.feed__head`）を罫線付きの欄見出しに、本文 `.prose h2` の頭に短い罫線。**「最新」行はエブロー型**（`.feed-item` はフレックス縦積み、`.feed-item__meta` に「カテゴリ（`.feed-item__cat` ＝ ink-1・中字500・字間0.08em ＋ 中点 `::after`＝ink-2・前に余白）· 日時（`.feed-item__time`＝等幅数字）」、下段に `.feed-item__title`、一覧では出典 `.feed-item__src`＝右寄せ `align-self:flex-end`。余白広め・極薄罫線・見出し hover で青。単色のミニマル洗練）。記事リード `.article-lede` は 24px のデッキ格。新規トークンは追加しない（既存 `--text-*`/`--space-*` のみ）。※`importance>=5` の行強調（`.feed-item[data-imp]`/`.feed-item--lead`）は CSS 側を用意済みだがテンプレが当該属性を未出力のため現状休眠（無害）。由来: design-sprint 勝者案 B。 | `assets/styles.css`（§15 型階層）, `templates/index.js`/`article.js` |
 | タブレット中間帯 | `640/600/420` のスマホ寄り BP に加え **680–1024px** を新設。ガターを 32px に広げ、`site-footer__top` を「ブランド全幅＋4等分」の2行に組み直して 600–768px の窮屈さを解消。`min-width` 加算でモバイル既存レイアウトは不変（相互排他で衝突なし）。 | `assets/styles.css`（§15 @media 680–1024px） |
 | セクション表記 | 多色チップ（セクション別 hue）は**撤去**し、色を持たない中立のカテゴリ文字ラベル（`.cat` / 行リストの `feed-item__cat`）に統一。色信号の競合を避ける。 | `templates/cardbits.js: sectionChip`, `styles.css`（`.cat`） |
-| 記事体験 | 読了時間（≈400字/分）、公開時刻、機能する共有ボタン（X / はてブ / リンクコピー）。共有URLは `siteUrl` 基準の絶対パス。**読了プログレスバー**（本文 `.prose` のあるページに自動表示）。 | `templates/article.js`, `assets/reveal.js` |
+| 記事体験 | 読了時間（≈400字/分）、公開時刻、機能する共有ボタン（**X / LINE / はてブ / リンクコピー**、いずれも正式SVGアイコン）。共有URLは `siteUrl` 基準の絶対パス。**読了プログレスバー**（本文 `.prose` のあるページに自動表示）。 | `templates/article.js`, `assets/reveal.js` |
+| 記事共有（progressive enhancement） | サーバーHTMLは X/LINE/はてブ/コピー の4ボタンを常時出力（JS無効でも動作）。`assets/share.js` が `navigator.share` 対応端末でだけルートに `has-web-share` を付与し、CSS が個別SNSを畳んで「**共有**（OS共有シート）＋**コピー**」の2点に切替（主にモバイル）。コピーは `navigator.clipboard`→失敗時 `execCommand` フォールバックで必ず成功表示。ホバーで各社ブランド色。 | `templates/article.js: shareButtons/SHARE_ICONS`, `assets/share.js`, `assets/styles.css`（`.share-btn` / `.has-web-share`） |
 | ミニマル・演出 | 装飾演出（影・グレイン・発光・hover リフト＋画像ズーム・下線スライド・段階リビール）は**撤去**。動きは記事の読了プログレスバーのみ。対応ブラウザではページ遷移に控えめな View Transitions（`@view-transition`）。すべて `prefers-reduced-motion` で無効化。 | `assets/styles.css`, `assets/reveal.js` |
 | 角丸スケール | 単一の `--radius`（8px）に統一（用途別の硬軟分けは廃止）。 | `assets/styles.css`（TOKENS節） |
 | アクセシビリティ・人間工学 | 白基調で本文 `ink-0`／メタ `ink-2` とも WCAG AA 以上を確保。タップ領域はナビ各項目とも **44×44px 以上**。装飾モーションを持たず、唯一の動き（読了バー）も `prefers-reduced-motion` で停止。 | `assets/styles.css`（TOKENS節・`.site-nav`）, `templates/article.js`（クレジット色） |
