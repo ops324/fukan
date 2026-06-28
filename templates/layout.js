@@ -180,6 +180,7 @@ ${body}
 
   <script defer src="${base}assets/reveal.js"></script>
   <script defer src="${base}assets/search.js"></script>
+  <script defer src="${base}assets/share.js"></script>
 </body>
 </html>
 `;

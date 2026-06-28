@@ -196,7 +196,7 @@ launchctl kickstart -k gui/$(id -u)/com.axiom.generate                          
 - **関連記事**: タグ／セクションの一致度でスコアリングして提示（`src/render.js` の `relatedFor`）。
 - **タグページ**: `tags/<タグ>.html` を自動生成、`tags/index.html` はタグクラウド。記事内タグから辿れる。
 - **AI 関連度フィルタ**: media 系 RSS の AI 無関係記事を `config.aiKeywords` で足切り（公式 primary は常に通す）。
-- **記事体験**: 読了時間の目安、公開時刻、機能する共有ボタン（X / はてブ / リンクコピー）、読了プログレスバー。
+- **記事体験**: 読了時間の目安、公開時刻、機能する共有ボタン（X / LINE / はてブ / リンクコピー＋モバイルは OS 共有シート）、読了プログレスバー。
 - **ミニマルな体験**: 装飾モーション（発光・グレイン・hover リフト・段階リビール）は撤去。動きは記事の読了プログレスバーのみ（`assets/reveal.js`）。対応ブラウザではページ遷移に控えめな View Transitions（`prefers-reduced-motion` で無効）。
 - **テーマ**: 既定はライト（白基調）。OS が dark のときのみ簡素なダークにフォールバック（`<head>` のインラインJSが paint 前に `data-theme` を適用）。
 - **サイト内検索**: 静的（追加依存ゼロ）。`search-index.json` をクライアントで部分一致検索。
