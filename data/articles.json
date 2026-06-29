@@ -1,5 +1,184 @@
 [
   {
+    "slug": "20260629-09",
+    "headline": "AlphaFold進化形、複雑なタンパク質構造を正確に予測",
+    "lead": "実験データを組み込んだAlphaFoldの改善により、従来見逃されていた動的なタンパク質構造を予測可能に。",
+    "body_markdown": "タンパク質構造予測AI「AlphaFold」の限界を克服する新手法が登場した。従来のAlphaFoldは、大量の結晶構造データで訓練されたため、タンパク質の異質な構造を単一の支配的な構造に還元する傾向があった。タンパク質データベースの約85%が結晶構造で占められていることから、タンパク質の動的な性質が見落とされてきたのだ。\n\nオーストリア科学技術研究所（ISTA）とその国際的な協力者らが開発した新アプローチは、実験データを直接AlphaFoldの予測に統合する方法である。核磁気共鳴（NMR）やクライオ電子顕微鏡（cryo-EM）などの測定データを活用することで、「複数の構造のアンサンブルを予測し、タンパク質の構造的異質性をより良く反映する」ことが可能になった。この手法により、従来の方法では見逃されていた重要な構造が明らかになった。\n\nこの進展は医薬品開発や生物工学の応用において重要な意味を持つ。タンパク質の動的振る舞いをより正確に理解することで、より効果的で安全な医薬品の設計が期待される。特に、疾患関連のタンパク質が複数の構造を取ることが多い現実を考えると、単一の構造予測では不十分だった。本研究の手法は、タンパク質の「揺らぎ」と呼ばれる動的性質を正確に捉えられるため、創薬プロセスに革命をもたらす可能性がある。Nature Biotechnologyに掲載された本研究は、AI予測モデルと実験データの融合による予測精度向上の新たな道を示唆している。",
+    "tags": [
+      "AI",
+      "生物工学",
+      "医薬品開発",
+      "研究",
+      "構造予測"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-06-alphafold-ai-tool-conformation-limitation.html",
+    "importance": 4,
+    "image_query": "protein structure laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1709227371218-35ef4d1d91f8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxwcm90ZWluJTIwc3RydWN0dXJlJTIwbGFib3JhdG9yeXxlbnwxfDB8fHwxNzgyNzI0NjQzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tayfun Dikmen",
+      "profileUrl": "https://unsplash.com/@tayfundikmen?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-29T09:17:23.971Z",
+    "publishedAt": "2026-06-29T09:00:01.000Z"
+  },
+  {
+    "slug": "20260629-10",
+    "headline": "塩辛い土壌の作物救う細菌が発見、リグニン生成で耐塩性向上",
+    "lead": "シュードモナス属の土壌細菌がリグニン生成を促進、塩辛い農地での作物収量を劇的に改善する可能性。",
+    "body_markdown": "農業が直面する大きな課題の一つ、塩分過多土壌での作物栽培の問題に対する新たな解決策が発見された。研究チームが発見したのは、シュードモナス属の土壌細菌が、植物の塩分耐性を劇的に強化するメカニズムである。\n\n従来、塩ストレスに対する対策は塩分を直接排出することに焦点が当てられていた。しかし新たな研究は異なる仕組みを明らかにした。この細菌は塩ストレス下の植物にリグニンの生成を促す。リグニンは植物細胞壁を強化する天然化合物で、植物組織を硬化させ、環境ストレスへの耐性を向上させる「組み込みサポートシステム」として機能する。細菌と植物のこの共生的な相互作用は、自然界で長年にわたって培われた関係を示唆している。\n\n温室実験と圃場試験の両方で顕著な改善が確認された。細菌処理を受けた植物は、塩辛い土壌で育った未処理植物と比較して、より強い根システム、より良い発育、そしてより高い収量を示した。リグニン含有量は塩ストレス下で30%以上増加したとの報告もある。世界的には農地の30%以上が塩分蓄積の影響を受けており、食料安全保障への脅威となっている。このアプローチは化学肥料を使わない「バイオベース処理」として、塩分蓄積により使用不可能とされてきた広大な農地を農業に戻す可能性を開く。気候変動により塩害がさらに深刻化する中、この発見は農業の持続可能性に貢献する有望な道を示している。",
+    "tags": [
+      "農業技術",
+      "生物学",
+      "環境",
+      "土壌",
+      "微生物"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/06/260626124703.htm",
+    "importance": 4,
+    "image_query": "soil bacteria agriculture crops",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzb2lsJTIwYmFjdGVyaWElMjBhZ3JpY3VsdHVyZSUyMGNyb3BzfGVufDF8MHx8fDE3ODI3MjQ2NDR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Steven Weeks",
+      "profileUrl": "https://unsplash.com/@sweeksco?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-29T09:17:24.582Z",
+    "publishedAt": "2026-06-29T01:21:44.000Z"
+  },
+  {
+    "slug": "20260629-11",
+    "headline": "ロボット訓練を60時間から4.8時間に短縮、ファナック×AWS",
+    "lead": "ファナックがAWSのクラウドGPUを活用し、ロボット模個学習を12分の1に高速化、フィジカルAI開発を加速。",
+    "body_markdown": "製造業向けロボット開発において、AIトレーニング時間の劇的な短縮が実現した。自動化機械メーカーのファナックは、AWSのクラウド基盤を活用することで、ロボット模個学習の時間を従来の60時間から4.8時間へと約12分の1に削減することに成功した。\n\nこの成果は、Amazon EC2のGPUインスタンス「P5」を活用し、オンプレミスから高速クラウド環境への移行によって実現した。ファナック安部健一郎常務執行役員によると、実機での学習と仮想空間での並列学習を組み合わせることで、この劇的な時間短縮を可能にしたという。AWSが提供する高い計算能力により、複数の学習プロセスを同時実行できるようになったのだ。\n\nこの技術進化は、フィジカルAI開発全体に大きな波及効果をもたらしている。衣類など柔らかい素材のハンドリングなど、従来ルールベース制御では困難だった複雑な動作習得が加速している。AWSジャパンは国内企業向けに最大600万ドル規模の「フィジカルAI開発支援プログラム」を開始し、日本が直面する労働力不足という社会課題の解決を目指している。製造業の自動化とAIの融合は、産業競争力の鍵となりつつある。",
+    "tags": [
+      "AI",
+      "ロボティクス",
+      "製造業",
+      "技術開発",
+      "クラウド"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/29/2000000136/",
+    "importance": 4,
+    "image_query": "robot factory automation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1716191299980-a6e8827ba10b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxyb2JvdCUyMGZhY3RvcnklMjBhdXRvbWF0aW9ufGVufDF8MHx8fDE3ODI3MjQ2NDV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Homa Appliances",
+      "profileUrl": "https://unsplash.com/@homaappliances?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-29T09:17:25.320Z",
+    "publishedAt": "2026-06-29T01:39:09.000Z"
+  },
+  {
+    "slug": "20260629-12",
+    "headline": "南極パインアイランド氷河の後退、人間活動が18～20%悪化させた",
+    "lead": "気候変動が南極最速の融解氷河を急速に後退させ、海面上昇への寄与が加速している。",
+    "body_markdown": "南極で最も急速に後退している氷河「パインアイランド氷河」について、人為的気候変動がその後退を大幅に加速させていることが明らかになった。キングスカレッジロンドンの研究により、温室効果ガス排出が1940年代以降、この氷河の後退を約18～20%悪化させていることが判明した。\n\n氷河の後退距離はこれだけで数キロメートルに及ぶ。研究の主導者であるDr. Alex Bradleyは「気候変動はパインアイランド氷河の後退を大幅に悪化させた」と述べ、1960年代中盤以降の海面温度上昇がこの氷河衰退の主要因であることを強強調した。人間の影響がなければ、現在ほど劇的な後退は起きていなかったはずだ。研究チームは、温暖化された海洋が氷河の底部に接触し、融解を加速させるメカニズムを特定した。\n\nパインアイランド氷河は西南極氷床の広大な部分を排水し、アムンゼン海へと流れ込む。このため、全球海面上昇への最も重大な貢献者の一つとなっている。仮に西南極氷床が完全に融解すれば、世界の海面は3メートル以上上昇するとも予測されている。科学者らの予測によると、人間の活動は「今後数世紀にわたって南極の氷損失を形作り続ける」という。21世紀後半には氷河が基盤の岩の隆起により一時的に後退が緩和される可能性があるが、温暖化が継続すれば22世紀に再び急速に後退するとみられている。",
+    "tags": [
+      "気候変動",
+      "氷河",
+      "海面上昇",
+      "環境",
+      "南極"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-06-human-driven-retreat-antarctica-fastest.html",
+    "importance": 4,
+    "image_query": "antarctica glacier ice melting",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1486566584569-b9319dc74315?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhbnRhcmN0aWNhJTIwZ2xhY2llciUyMGljZSUyMG1lbHRpbmd8ZW58MXwwfHx8MTc4MjcyNDY0NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Matt Palmer",
+      "profileUrl": "https://unsplash.com/@mattpalmer?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-29T09:17:25.830Z",
+    "publishedAt": "2026-06-28T23:00:01.000Z"
+  },
+  {
+    "slug": "20260629-13",
+    "headline": "Autodesk幹部が語るAI時代の設計の未来、CADと知識の融合へ",
+    "lead": "AI技術がCAD設計を支援する時代へ移行、自然言語指示で複雑なモデリングが自動実行される未来を構想。",
+    "body_markdown": "CAD（コンピュータ支援設計）ツールの大手メーカーAutodeskの経営幹部Jeff Kinderは、AI技術が設計ワークフロー全体にもたらす変化について言及した。AI時代の設計では、単なる技術革新ではなく、CADシステムと設計知識の深い統合が不可欠であると強調している。\n\nAutodeskのFusion 360に組み込まれたAI機能「Autodesk Assistant」は、ユーザーが自然言語で指示すれば、システムが自動的にスクリプトを生成し、3Dモデルの作成や編集を実行できる。例えば「円形の穴を5個並べる」といった指示が、設計の詳細な工程を経ずに実行可能になる。これまでCADの操作には専門知識が必要だったが、AI導入により設計の敷居が低くなる可能性がある。\n\nしかしKinderが指摘する重要な点は、AIだけでは不十分だということだ。システムがCADの詳細な知識を備えていなければ、期待した成果は得られない。設計データの正確性と一貫性が損なわれれば、製造段階で多くの問題が生じる。将来のワークフローでは、CAD、CAM（コンピュータ支援製造）、PLM（製品ライフサイクル管理）がシームレスに連携し、設計変更が各システムに自動で反映される統合環境が想定されている。最終的な判断と責任は人間の設計者に帰属し、AIはその強力な支援役として機能する立場が明確にされている。",
+    "tags": [
+      "AI",
+      "設計",
+      "CAD",
+      "テクノロジー",
+      "産業"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI＋",
+    "link": "https://monoist.itmedia.co.jp/mn/articles/2606/29/news008.html",
+    "importance": 3,
+    "image_query": "CAD design software 3D model",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-29T09:17:25.831Z",
+    "publishedAt": "2026-06-28T23:00:00.000Z"
+  },
+  {
+    "slug": "20260629-14",
+    "headline": "DJI新型カメラ、17段の動的範囲を実現 プロ級映像撮影が可能に",
+    "lead": "DJI Osmo Pocket 4Pが新ログ記録形式D-Log2を採用、映画用カメラと同等の17段の動的範囲で撮影できる。",
+    "body_markdown": "DJIは小型カメラ「Osmo Pocket」シリーズの新型「Osmo Pocket 4P」を発表した。本機の最大の特徴は、**17段の動的範囲**を実現したこと。これはプロフェッショナルな映画カメラ（例：ARRI Alexa）と同等の性能に匹敵する。\n\nこの高い動的範囲を活かすため、DJIは新たなログ記録フォーマット「D-Log2」を導入した。このフォーマットにより、ユーザーは記録された豊富な情報を後処理で最大限に活用でき、より洗練された色調補正と露出調整が可能になる。映像制作のプロワークフローに対応する選択肢が、より小型で携帯可能なカメラで実現したことは、映像クリエイターにとって大きな意味を持つ。\n\nハードウェア面では、2本のレンズを搭載している。広角レンズは約20mm相当、ズームレンズは60mm相当で3倍の光学ズーム機能を備え、ポートレートや製品撮影に最適化されている。本体色は従来の黒に加えて、白色が追加されたことで、美的な選択肢も拡がった。DJIはヨーロッパと北米での発売を来四半期初期に予定しており、中国ではすでに販売が開始されている。",
+    "tags": [
+      "カメラ",
+      "動画撮影",
+      "テクノロジー",
+      "映像制作",
+      "DJI"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2203535/dji-osmo-pocket-4p-promises-17-stops-of-dynamic-range/",
+    "importance": 3,
+    "image_query": "camera video production filming",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-29T09:17:25.831Z",
+    "publishedAt": "2026-06-29T08:13:42.000Z"
+  },
+  {
+    "slug": "20260629-15",
+    "headline": "中国が日本の20の企業・団体に軍民両用品輸出禁止",
+    "lead": "中国商務省が日本の企業・団体を輸出規制リストに追加し、軍民両用品の輸出を禁止、防衛関連産業が対象。",
+    "body_markdown": "中国商務省は6月29日、日本の企業・団体20組織に対して軍民両用品の輸出禁止措置を発表した。対象には「防衛省防衛研究所」など防衛関連機関が含まれている。これは日本による防衛力向上に対抗する経済的措置として位置付けられており、日中間の経済・安全保障上の緊張を示す明確な事例となっている。\n\n具体的には、これら20の団体・企業が日本の「軍事力向上に関与している」と中国が判断した結果、輸出規制リストに追加された。軍民両用品とは、民間での利用と軍事利用の両方が可能な物資・技術を指す。リストに登録された企業からの発注は、中国側は許可なく実行できなくなる。\n\nこの措置は、2月24日に実施された第1弾の規制に続く第2弾である。第1弾では三菱造船などを含む別の企業群が対象となり、合計40の日本企業・組織が規制対象となったことになる。中国政府は日本の再武装化を警告し、「軍民両用品の中国からの調達」を制限することで、日本の防衛力向上を遅延させる狙いが示唆されている。日本側は中国の措置を受け入れられないと表明し、外交的な対応を進めている。",
+    "tags": [
+      "日中関係",
+      "防衛",
+      "経済制裁",
+      "国際政治",
+      "輸出規制"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015163591000",
+    "importance": 4,
+    "image_query": "factory industrial production export",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1610891015188-5369212db097?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxmYWN0b3J5JTIwaW5kdXN0cmlhbCUyMHByb2R1Y3Rpb24lMjBleHBvcnR8ZW58MXwwfHx8MTc4MjcyNDY0Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Lalit Kumar",
+      "profileUrl": "https://unsplash.com/@klalit?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-29T09:17:26.445Z",
+    "publishedAt": "2026-06-29T08:23:58.000Z"
+  },
+  {
     "slug": "20260629-01",
     "headline": "イラン・米国、ホルムズ海峡で攻撃応酬",
     "lead": "イランが米軍施設を攻撃、米国も報復。6月の停戦協定が崩壊し、中東情勢が新たな緊張局面へ。",
