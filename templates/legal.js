@@ -40,7 +40,7 @@ ${bodyHtml}
 }
 
 function aboutBody() {
-  return `      <p>${esc(config.siteName)}（ふかん／FUKAN）は、テック・AI・科学・経済・政治・国際・カルチャーまで、国内外のニュースを編集部が要約・論評してお届けする日本語の総合ニュースメディアです。</p>
+  return `      <p>${esc(config.siteName)}（ふかん／FUKAN）は、テック・AI・科学・経済・政治・国際・カルチャーまで、国内外のニュースを編集部が要約・論評してお届けする総合ニュースメディアです。</p>
       <h2>運営者情報</h2>
       <table>
         <tbody>
