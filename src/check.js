@@ -186,7 +186,14 @@ function checkQuality(arts) {
 }
 
 // --- 実行 ---
-const arts = await loadArticles();
+let arts;
+try {
+  arts = await loadArticles();
+} catch (e) {
+  // 破損 articles.json は loadArticles が throw する。空配列で素通りさせず check を赤にする。
+  console.error(`✗ check 失敗（1 件）:\n  - ${e.message}`);
+  process.exit(1);
+}
 await checkRender(arts);
 checkSchema(arts);
 checkSanitizer();

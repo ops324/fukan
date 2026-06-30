@@ -56,6 +56,12 @@ export const config = {
   ],
   relevanceFloorMedia: 1, // aiFilter:true のフィードはキーワードヒットがこの数未満なら除外
 
+  // --- ネットワーク timeout（ミリ秒）。挙動を変える定数は一元管理する ---
+  timeouts: {
+    rssMs: 15000,      // RSS フィード取得（rss-parser）
+    linkCheckMs: 5000, // リンク死活チェック（evaluate.checkLink）
+  },
+
   // 弱いソース除外: 動画/ポッドキャスト等は本文が乏しく取材に向かないためスキップ
   skipUrlPatterns: ['/video/', '/videos/', '/podcast/', '/podcasts/', '/live/', 'youtube.com', 'youtu.be'],
 

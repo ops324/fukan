@@ -9,12 +9,20 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_FILE = path.join(__dirname, '..', 'data', 'articles.json');
 
 export async function loadArticles() {
+  // ファイル不在は正常な初回（空で開始）。読込/parse 失敗は破損の可能性 → throw。
+  // ここで [] を返すと load→save 経路（ingest/set-press-image/migrate/backfill）が
+  // 既存記事を空配列で全上書きしてしまうため、握りつぶさず必ず失敗させる。
   if (!existsSync(DATA_FILE)) return [];
+  let raw;
   try {
-    const raw = await readFile(DATA_FILE, 'utf8');
+    raw = await readFile(DATA_FILE, 'utf8');
+  } catch (e) {
+    throw new Error(`articles.json を読み込めません（破損の可能性）: ${e.message}`);
+  }
+  try {
     return JSON.parse(raw);
-  } catch {
-    return [];
+  } catch (e) {
+    throw new Error(`articles.json を JSON として解析できません（破損の可能性）: ${e.message}`);
   }
 }
 

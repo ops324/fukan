@@ -3,7 +3,7 @@
 import Parser from 'rss-parser';
 import { config } from './config.js';
 
-const parser = new Parser({ timeout: 15000 });
+const parser = new Parser({ timeout: config.timeouts.rssMs });
 
 function clean(s = '') {
   return s.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();

@@ -56,9 +56,15 @@ acquire_lock() {
   if mkdir "$LOCK_DIR" 2>/dev/null; then
     echo "$$ $(date '+%s')" > "$LOCK_DIR/info"; return 0
   fi
-  local age=999999 started
+  local age=999999 started pid
+  [[ -f "$LOCK_DIR/info" ]] && pid="$(awk '{print $1}' "$LOCK_DIR/info" 2>/dev/null)"
   [[ -f "$LOCK_DIR/info" ]] && started="$(awk '{print $2}' "$LOCK_DIR/info" 2>/dev/null)"
   [[ -n "${started:-}" ]] && age=$(( $(date '+%s') - started ))
+  # ロック保持プロセスが生存していれば、age に関わらず奪わない（書込み中の二重実行→破損を防ぐ）。
+  if [[ -n "${pid:-}" ]] && kill -0 "$pid" 2>/dev/null; then
+    echo "INFO: 別のジョブが実行中（ロックあり, PID=$pid 生存, age=${age}s）。今回はスキップします。"
+    return 1
+  fi
   if [[ "$age" -ge "$LOCK_MAX_AGE" ]]; then
     echo "WARN: 古いロック（${age}秒）を再取得します（前回ジョブの異常終了の可能性）"
     notify "古いロックを再取得しました。前回の自動ジョブが異常終了した可能性があります。"
@@ -138,6 +144,9 @@ if [[ "$HAS_DRAFTS" == "1" ]]; then
     if [[ "$jrc" -ne 0 || ! -f "$PROJECT_DIR/data/_review.json" ]]; then
       echo "WARN: 査読が完了しませんでした (exit=$jrc)。客観ゲートのみで取り込みを続行します。"
       notify "査読(judge)が不在のまま公開します。後で品質をご確認ください。"
+      # 観測性: judge 不在を ledger に残し、後追いで頻度・原因を分析できるようにする（日次は止めない）。
+      printf '{"ts":"%s","type":"judge_absent","exit":%s}\n' "$(date -u +%FT%TZ)" "$jrc" \
+        >> "$PROJECT_DIR/data/quality/incidents.jsonl"
     fi
   else
     echo "低リスク（全て一次情報・客観フラグ無し）→ 査読をスキップし客観ゲートのみで公開"
