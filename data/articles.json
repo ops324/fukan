@@ -1,5 +1,497 @@
 [
   {
+    "slug": "20260630-22",
+    "headline": "AI時代のEU労働力、自動化リスク18%か成長機会12%か",
+    "lead": "OpenAIが欧州連合の労働市場に対するAIの影響を分析。自動化リスク、再編成、成長機会で4層に分化する職業構造が明らかに。",
+    "body_markdown": "OpenAIが発表した新報告書『AI Jobs Transition Framework for EU』は、欧州連合の職業をAIの影響に応じて4つのグループに分類した。自動化リスク18%、AI統合による再編成24%、成長機会12%、変化少ないもの46%。職業分類体系『ESCO』とEurostat就業データを基に、AI時代の労働市場変化を初めて体系的に分析した。\n\nEUの自動化リスク職の割合は米国より小さい傾向を示す。一方、国別では大きなばらつきが見られる。ルクセンブルク、スウェーデン、オランダはAIとの親和性が高い職種が集中し、デジタル化への適応力が高い。対照的にドイツ、ギリシャ、イタリアは自動化リスク職の雇用比率が高く、産業転換への課題が大きい。\n\nレポートは単なる職業消滅の警告ではなく、各国の経済構造と雇用政策の設計に向けた実用的な指標を提供。EUの政策立案者は、高リスク職の労働者向け再教育支援、デジタル化への投資配分、地域経済の多様化などの具体策が急務であることが示唆される。AI導入と雇用維持のバランスを取るため、EUが編成する対応が世界の他地域でも参考事例になる可能性がある。",
+    "tags": [
+      "AI",
+      "労働市場",
+      "欧州",
+      "自動化",
+      "経済"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+    "importance": 4,
+    "image_query": "office workers computer screens",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxvZmZpY2UlMjB3b3JrZXJzJTIwY29tcHV0ZXIlMjBzY3JlZW5zfGVufDF8MHx8fDE3ODI4MTIwMjZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Israel Andrade",
+      "profileUrl": "https://unsplash.com/@israelandrxde?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:46.479Z",
+    "publishedAt": "2026-06-29T07:00:00.000Z"
+  },
+  {
+    "slug": "20260630-23",
+    "headline": "HPがOpenAI『Frontier』を全社導入、エンジニア生産性を大幅向上",
+    "lead": "HPが OpenAI のエンタープライズAIプラットフォーム『Frontier』の戦略パートナーシップを発表。4か月のパイロット実施後、正式採用。",
+    "body_markdown": "HPは6月28日、OpenAIの『Frontier』を全社に展開する戦略パートナーシップを発表した。Frontierは2月5日にOpenAIが公開したエンタープライズツールキット。エージェント間のコンテキスト共有、他システムとの統合、権限管理を一元化し、複数AIエージェントが有機的に連携する環境を提供する。\n\nHPは2月から4か月間のパイロット運用を実施。成果は顕著だった。エンジニアが43プロジェクト中122個のプルリクエストを数週間で処理。セキュリティチーム が通常1か月要するバグ修正を1日で完了させた。こうした生産性向上が、本格導入を決定した背景にある。\n\n両社は今後、データ統合・ガバナンス・セキュリティ面での協業を予定。HPの顧客体験とソフトウェア開発、内部運用の3領域でFrontierを活用する。同プラットフォームはOracle、Intuit、State Farm、Thermo Fisher Scientific、Uberなど大手企業も採用。エンタープライズAI導入の加速が鮮明になっている。HPのような大規模企業が実績ベースで本格導入することで、ほかの企業へのAI統合の道筋を示すモデルとなっている。",
+    "tags": [
+      "OpenAI",
+      "エンタープライズ",
+      "生産性",
+      "Frontier"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/hp-frontier-partnership",
+    "importance": 4,
+    "image_query": "software engineering collaboration",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzb2Z0d2FyZSUyMGVuZ2luZWVyaW5nJTIwY29sbGFib3JhdGlvbnxlbnwxfDB8fHwxNzgyODEyMDI3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Compagnons",
+      "profileUrl": "https://unsplash.com/@sigmund?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:47.382Z",
+    "publishedAt": "2026-06-28T17:00:00.000Z"
+  },
+  {
+    "slug": "20260630-24",
+    "headline": "国産LLM『Sarashina3』が高品質日本語で進化、30兆トークン学習",
+    "lead": "ソフトバンク傘下SB Intuitionsが『Sarashina』最新版『Sarashina3』発表。日本語特化の検証で言語品質を向上。",
+    "body_markdown": "ソフトバンク傘下のSB Intuitionsが、国産大規模言語モデル『Sarashina』シリーズの最新版『Sarashina3』を公開した。30兆トークン超のデータで事前学習され、AIエージェント機能、数理的理解力、コード生成能力を備える。国産LLM市場で有力な選択肢として注目される。\n\n学習プロセスでは、教師モデルの知識を「蒸留」し強化学習と組み合わせることで能力を向上。特に日本語については専門チームが「自然さ、丁寧さ、簡潔さ、実用性」を段階的に評価・検証し、その結果を強化学習に反映させた。高品質な日本語を安定して出力できるよう調整されている。\n\nSarashina3は5種のモデル構成。mini（標準）は外部API自律呼び出しとエージェント機能が強み。nano（軽量）は計算資源に制約のある環境向け。guard（安全性評価）はコンテンツ安全性チェック専用。embedding（ベクトル化）とrerank（文書並び替え）は検索・情報検索タスク最適化。ユースケースに応じた柔軟な選択が可能。国産ベースモデルの充実は、日本企業がAI導入時の選択肢拡大につながり、データプライバシー面での独立性確保にも寄与する。",
+    "tags": [
+      "LLM",
+      "日本語",
+      "AI",
+      "ソフトバンク"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/30/2000000143/",
+    "importance": 4,
+    "image_query": "neural network artificial intelligence",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1719650592946-55163c4994cb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxuZXVyYWwlMjBuZXR3b3JrJTIwYXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZXxlbnwxfDB8fHwxNzgyODEyMDI4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Bhautik Patel",
+      "profileUrl": "https://unsplash.com/@bhautik_patel3?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:48.243Z",
+    "publishedAt": "2026-06-30T08:33:29.000Z"
+  },
+  {
+    "slug": "20260630-25",
+    "headline": "NASA、老朽『Swift』望遠鏡の大気圏再突入を阻止　300km軌道引上げへ",
+    "lead": "NASAが老朽化する『Swift』観測衛星の軌道低下を防ぐため、ロボット宇宙船『LINK』で軌道修正を実施。無人衛星の救出ミッションは50%の成功確率。",
+    "body_markdown": "『ニール・ゲーレルス・スウィフト天文台』は2004年の打上げ以来、ガンマ線バースト観測で天文学に革新的な貢献を続けてきた。しかし太陽活動増加による大気上層の稠密化で軌道低下が加速。NASAは大気圏再突入を防ぐため、スタートアップKatalyst社開発のロボット宇宙船『LINK』を6月30日にペガサス空中発射ロケットで打上げた。\n\nLINKはSwiftに接近し、3本の可動アームで本体に接触。段階的に約300km高い安全軌道へ牽引する。作業期間は数か月から秋までで、総予算は3000万ドル（元衛星開発費2.5億ドル）。コスト効率の観点から有意義なミッションとなる。\n\n課題は望遠鏡後方の詳細構造が不明という点。設計当初、衛星軌道修正を想定していなかったため、アームの付着点となる部位の強度や配置が把握しきれていない。成功確率は約50%と見込まれるが、仮に成功すれば、軌道修正やメンテナンス、性能向上を想定しなかった衛星群への新たなサービスモデルが確立される。老朽衛星活用の枠組み拡大が、宇宙経済の新たな産業領域を切り開く可能性を持つ。",
+    "tags": [
+      "NASA",
+      "宇宙",
+      "望遠鏡",
+      "ロボット"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-06-nasa-robot-aging-swift-telescope.html",
+    "importance": 4,
+    "image_query": "satellite space mission spacecraft",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1460186136353-977e9d6085a1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzYXRlbGxpdGUlMjBzcGFjZSUyMG1pc3Npb24lMjBzcGFjZWNyYWZ0fGVufDF8MHx8fDE3ODI4MTIwMjh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "SpaceX",
+      "profileUrl": "https://unsplash.com/@spacex?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:48.857Z",
+    "publishedAt": "2026-06-30T07:47:05.000Z"
+  },
+  {
+    "slug": "20260630-26",
+    "headline": "脳蛋白『Arc』がタウを運搬、アルツハイマー伝播メカニズムを解明",
+    "lead": "研究チームが、脳蛋白『Arc』が有害なタウ蛋白を健康な神経細胞へ異常運搬する仕組みを特定。治療の新たな標的が見えた。",
+    "body_markdown": "アルツハイマー病は神経変性疾患の中でも進行が不可逆的で、治療法確立が世界の医学課題。研究チームがこの謎に接近した。通常は細胞間通信を助けるタンパク質『Arc』が、細胞外小胞（EV）と呼ばれる膜構造を介して、有害なタウ蛋白を損傷した神経細胞から健康な細胞へ移動させることを発見した。\n\nこのプロセスがアルツハイマー病の伝播拡大を招いていた。検証実験では、マウスモデルでArc遺伝子を欠損させたとき、タウの転移は著しく減少。ヒト脳組織からも同様の証拠が確認された。タウは細胞内で『粘着性の塊』を形成し、神経細胞を傷つけるが、Arc経由の異常運搬がその伝播経路の1つであることが判明。\n\n治療戦略として、タウを完全に排除する代わりに、有害な小胞が健康細胞到達を阻害する方法が有望視される。早期段階でのアルツハイマー進行遅延の可能性が新たに開かれた。ただし臨床応用にはさらなる検証が必要。基礎研究から治療薬開発までの道程は長いが、伝播メカニズム解明は認知機能喪失の克服に向けた重要な一歩である。",
+    "tags": [
+      "医学",
+      "アルツハイマー",
+      "神経科学",
+      "治療"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/06/260630020521.htm",
+    "importance": 4,
+    "image_query": "brain neuron medical research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1711409645921-ef3db0501f96?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxicmFpbiUyMG5ldXJvbiUyMG1lZGljYWwlMjByZXNlYXJjaHxlbnwxfDB8fHwxNzgyODEyMDI5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Shawn Day",
+      "profileUrl": "https://unsplash.com/@whisperingshiba?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:49.634Z",
+    "publishedAt": "2026-06-30T07:21:06.000Z"
+  },
+  {
+    "slug": "20260630-27",
+    "headline": "欧州記録的熱波が東方拡大、スロバキア41℃・超過死亡1300人超",
+    "lead": "欧州を襲った猛烈な熱波が東欧へ波及。ハンガリー、スロバキアで気温最高記録を更新。国連は超過死亡1300人超を報告。",
+    "body_markdown": "6月21日以降、欧州を襲った記録的熱波がポーランド、チェコ、ドイツで既に気温記録を塗り替えた後、東方へ移動。スロバキア南東部トゥルナ・ナド・ボドヴォで6月24日に41℃の新国家記録を樹立。ハンガリー中部アスゾドでは41.8℃に達し、2007年の同国最高記録41.9℃に接近している。\n\n人命喪失が深刻化。国連保健機関の報告によると、6月21日以降のヨーロッパ全体での超過死亡は1300人を超える。フランスでは18日以降74件の溺死事故が報告され、ポーランドは日曜日だけで17件が記録された。高温下での熱中症、脱水、心臓疾患が高齢者層を直撃。医療資源逼迫と死亡率上昇が同時進行している。\n\n政府の緊急対応も追いつかない状況。ハンガリー首相マジャルは在宅勤務推奨、屋外作業延期、飲料水支給を要請。ウクライナでは戦争で傷ついたエネルギーネットワークへの負担から緊急停電を実施。太陽活動増加に伴う成層圏への影響とクライシス対応の脆弱性が重なり、気候変動に対応する欧州インフラ整備の課題が浮き彫りになっている。",
+    "tags": [
+      "気候変動",
+      "熱波",
+      "欧州",
+      "自然災害"
+    ],
+    "section": "国際・地政学",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-06-europe-deadly-east-slovakia.html",
+    "importance": 5,
+    "image_query": "heat wave weather thermometer",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1602096675810-9dce30949e80?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxoZWF0JTIwd2F2ZSUyMHdlYXRoZXIlMjB0aGVybW9tZXRlcnxlbnwxfDB8fHwxNzgyODEyMDMwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ilse Orsel",
+      "profileUrl": "https://unsplash.com/@lgtts?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:50.382Z",
+    "publishedAt": "2026-06-30T01:40:01.000Z"
+  },
+  {
+    "slug": "20260630-28",
+    "headline": "皇族数確保へ皇室典範改正案が国会へ、女性皇族の皇籍維持と旧皇族養子を正式化",
+    "lead": "政府が皇族数減少に対応する皇室典範改正案を閣議決定。女性皇族の皇籍維持と旧皇族男系男子の養子受け入れを容認。",
+    "body_markdown": "6月30日、政府は皇族数確保に向けた皇室典範改正案を臨時閣議で決定し、国会に提出した。改正の核心は2点。第一に、女性皇族が皇籍以外の男性と結婚後も皇籍を保持できるようにする条項。従来の皇籍離脱規定を改め、結婚による身分喪失を回避する。第二に、皇籍を離脱した旧皇族から男系の男性を養子として皇室に受け入れることを容認する内容。皇族数が減少傾向にある中、安定的な皇位継承を支える人員確保が目的。\n\n改正案に付帯決議案も併せて示された。30年ごとの見直し規定では、養子に迎えた旧皇族男系男子を取り巻く環境を勘案する旨が明記。皇位継承の本筋（天皇から皇太子への流れ）は変わらず、女性皇族や旧皇族養子は後継地位の対象外とされたままである。女性天皇即位論も今回の改正では盛り込まれず、保守的な枠組みが維持された。\n\n政治的背景として、皇族数維持は国家統治の継続性と国民統合のシンボル保全に不可欠。改正は慎重な議論を経た現実的な調整案。ただし、先例を拡大解釈する懸念と、より抜本的な皇位継承制度改革を求める声も対立。国会審議では、保守派と改革派の価値観衝突が予想される。",
+    "tags": [
+      "皇室",
+      "政治",
+      "日本",
+      "法制"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015164681000",
+    "importance": 4,
+    "image_query": "imperial palace traditional ceremony",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1764008918034-b5f5d7e9b73c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxpbXBlcmlhbCUyMHBhbGFjZSUyMHRyYWRpdGlvbmFsJTIwY2VyZW1vbnl8ZW58MXwwfHx8MTc4MjgxMjAzMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Bruna Santos",
+      "profileUrl": "https://unsplash.com/@brunafisantos?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:51.062Z",
+    "publishedAt": "2026-06-30T08:34:50.000Z"
+  },
+  {
+    "slug": "20260630-29",
+    "headline": "Devin Fusion、複数AIモデル並列利用で35%のコスト削減を実現",
+    "lead": "Cognitionが新型マルチモデルハーネス『Devin Fusion』を発表。フロンティアモデル並みの性能を大幅割安で実現。",
+    "body_markdown": "米Cognitionが開発したコーディングエージェント『Devin』の後継として、AIモデル実行基盤『Devin Fusion』を6月29日からプレビュー提供開始した。複数のAIモデルを効率的に組み合わせることで、フロンティアモデル（GPT-5.5やClaude Opus 4.8）並みの性能を35%割安なコストで実現する革新的アプローチ。\n\nDynamicルーティング方式とSidekick方式の2つの実装パターンを用意。Dynamicルーティングは、タスク進行中にモデルを動的に切り替え、「タスク種類と複雑さに応じた最適低コストモデル選択」と「メインエージェント処理への動的切り戻し」を併用。Sidekick方式は高性能メインエージェントと低コスト支援エージェントを並列稼働させ、メインが判断・計画を担当しながら適宜タスクを委譲。\n\nCognitionの内部試験では、『マージされたプルリクエストの88%がDevin Fusionで処理された』と報告。Claude Fable 5を組み込んだ構成では41%のコスト削減を確認。高コスト境界モデルに依存しない柔軟なAIアーキテクチャの時代が到来。企業のAI導入コスト障壁が低下し、デベロッパー向けツール市場の競争激化が予想される。",
+    "tags": [
+      "AI",
+      "コーディング",
+      "コスト削減",
+      "マルチモデル"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/30/2000000140/",
+    "importance": 3,
+    "image_query": "programming code development screen",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:51.062Z",
+    "publishedAt": "2026-06-30T04:17:34.000Z"
+  },
+  {
+    "slug": "20260630-30",
+    "headline": "東宝がアニメグッズ監修にAI導入、『ハイキュー!!』の全巻読み込みで原作品質を自動検証",
+    "lead": "東宝とアクセンチュアが協力、IPを活かしたグッズ監修にAIシステムを導入。原作との適合性を50項目以上で自動検証。",
+    "body_markdown": "東宝がアクセンチュアと協力し、知的財産を活用した商品監修にAIシステムを導入。既成概念を打ち破る事例として注目。『ハイキュー!!』を皮切りに、原作漫画の全巻をAIが読み込み、Tシャツなどのグッズに使用されるセリフが原作のどの巻のどのページに出現するかを自動抽出できるようにした。\n\n複数のAIエージェントが連携し、デザインやコピーを50以上の項目で検証するシステムを構築。「ヒューマン・イン・ザ・ループ」方式で、AIが1次チェック実施後、人間が2次チェックを行う体制。AWS クラウドサービスを基盤に、スケーラビリティと安全性を確保。違法模造商品対策としても機能し、知財保護を多角的に支援。\n\n今後、海外向け商品へも監修システムを拡大予定。ハイキュー以外の東宝管理IPへの適用も計画されている。アニメグッズ監修の自動化は、製品開発サイクルを高速化し、原作ファンの期待値を満たす品質維持と、急速な海外展開を両立させるカギ。東宝の『IP360』政策と相乗して、日本発コンテンツの世界市場拡大を加速させる要素として機能する。",
+    "tags": [
+      "AI",
+      "グッズ",
+      "アニメ",
+      "品質管理"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/30/2000000139/",
+    "importance": 3,
+    "image_query": "merchandise product design creative",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:51.062Z",
+    "publishedAt": "2026-06-30T03:27:30.000Z"
+  },
+  {
+    "slug": "20260630-31",
+    "headline": "Noetra が国産マルチモーダルAI開発を始動、産総研と協業で2026～2030年に展開",
+    "lead": "『日本AI基盤モデル開発』から『Noetra』に名称変更。テキスト・画像・音声対応と『世界基盤モデル』開発を計画。",
+    "body_markdown": "日本AI基盤モデル開発社は2026年7月1日付で『Noetra』に名称を変更し、国産マルチモーダルAI開発に本格始動した。ソフトバンク、NEC、本田技研工業、ソニーグループなど大手企業が出資。テキスト、画像、音声など複数の入力形式を処理できるモデル開発が軸。日本語理解性能に優れたモデルに加え、物理空間認識を備えた『世界基盤モデル』の開発も目指している。\n\n産業技術総合研究所（産総研）と経済産業省の支援下で協業体制を構築。役割分担として、NoetraがAIモデルの開発と提供を担い、産総研が理論・アーキテクチャなどの研究領域を手掛ける。事業期間は2026～2030年度。開発したAIモデルの学習済み重みは事業期間内から国内に順次公開予定で、日本全体のAI産業の底上げに貢献する構想。\n\nグローバルなAI競争の中で、日本発の基盤モデル構築は戦略的価値が高い。言語特有の複雑性（敬語、文法、文脈依存性）への最適化や、ロボット・自動運転など物理世界タスク対応のマルチモーダル能力は、日本産業全体のAI導入を加速させる基盤インフラとなる。",
+    "tags": [
+      "AI",
+      "マルチモーダル",
+      "日本",
+      "基盤モデル"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/30/2000000138/",
+    "importance": 4,
+    "image_query": "artificial intelligence machine learning",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1677442135136-760c813028c0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDF8MHx8fDE3ODI4MTIwMzF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Steve A Johnson",
+      "profileUrl": "https://unsplash.com/@steve_j?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:51.853Z",
+    "publishedAt": "2026-06-30T03:10:52.000Z"
+  },
+  {
+    "slug": "20260630-32",
+    "headline": "日印、AIドローン共同開発で安保協力深化　対中念頭に防衛装備強化へ",
+    "lead": "日本とインド、防衛用AI搭載ドローンの共同開発を推進。高市首相とモディ首相が7月2日の会談で確認、対中念頭に安保連携強化。",
+    "body_markdown": "日本とインド両政府が防衛分野で活用するAI搭載型ドローン（無人機）の共同開発を推進することを決定した。高市早苗首相は7月2日にインドでモディ首相との会談を予定しており、この場で防衛装備品協力の加速と安全保障協力の深化を正式確認する見通し。中国がインド太平洋地域で軍事活動を活発化させる中、日印による防衛技術協力の具体化は、地域の戦略バランスを大きく変える。\n\nAIドローン共同開発は、日本の高度な電子機器・AI技術とインドの開発・運用効率を結合する戦略的パートナーシップ。無人機は偵察・監視・対地攻撃など多用途対応が想定。AIによる自律判断や脅威認識能力を持つことで、従来型無人機より高い稼働効率を実現。日印両国の防衛態勢をレベルアップさせるとともに、共同開発による相互依存関係が政治・外交的結束を強化。\n\nインド太平洋における民主主義諸国の連携強化として、米国からも好意的に見られている。クアッド（日米豪印）の枠組みの中での防衛技術協力も視野。中国の南シナ海進出抑止とインド洋での存在感維持が、日印の戦略的利益の重合点として、当面の協力関係を規定する。",
+    "tags": [
+      "日本",
+      "インド",
+      "ドローン",
+      "防衛"
+    ],
+    "section": "政治",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/articles/2606/30/news141.html",
+    "importance": 4,
+    "image_query": "drone aerial vehicle military",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1514598800938-f7125ea1aa1c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkcm9uZSUyMGFlcmlhbCUyMHZlaGljbGUlMjBtaWxpdGFyeXxlbnwxfDB8fHwxNzgyODEyMDMyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Fikri Rasyid",
+      "profileUrl": "https://unsplash.com/@fikrirasyid?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:52.548Z",
+    "publishedAt": "2026-06-30T07:12:00.000Z"
+  },
+  {
+    "slug": "20260630-33",
+    "headline": "Anthropic と California 州政府、Claude を 50% 割引で提供　全州機関が利用可能に",
+    "lead": "Anthropic とカリフォルニア州が戦略パートナーシップ。全州機関・自治体が Claude を半額で利用でき、無償の職業訓練も実施。",
+    "body_markdown": "6月29日、Anthropic とカリフォルニア州のニューサム知事が歴史的パートナーシップを発表した。カリフォルニア州のすべての州機関、および各市町村・郡が、Anthropic の AI 生産性アシスタント『Claude』を 50% 割引で利用できるようになる。従来の価格の半額という大幅な優遇条件。\n\n協力内容は割引に限定されない。無償の職業訓練プログラム、Anthropic 開発者による技術支援、ワークフロー設計の専門的アドバイスが含まれる。California Department of Technology が運営する統一 IT 共有サービス（SITeS）ポータルを通じて、全州機関が Claude へのアクセスを得られる。カリフォルニア自動車局（DMV）は顧客サービス自動化で、保健医療サービス局は内部ワークフロー効率化で既に Claude を活用中。\n\nこの決定は連邦政府との政治的対立を示唆している。米防衛省が Claude 契約を拒否し OpenAI との契約に傾く中、カリフォルニア州は Anthropic の価値を率先して承認。年間推計使用額の削減と州職員の生産性向上が期待される。Anthropic にとっては、大規模公共部門での信頼獲得と市場浸透の千金の機会。政府部門での AI 採用加速と、連邦・州レベルでの AI 企業選定競争の激化を象徴する。",
+    "tags": [
+      "AI",
+      "California",
+      "政府",
+      "効率化"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+    "importance": 3,
+    "image_query": "government office collaboration technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:52.548Z",
+    "publishedAt": "2026-06-29T18:10:26.000Z"
+  },
+  {
+    "slug": "20260630-34",
+    "headline": "Tidal が AI 生成音楽の収益化を禁止、7月15日から『AI』タグで識別",
+    "lead": "音楽配信 Tidal が完全 AI 生成曲の収益化を即座に廃止。7月15日から『AI』バッジを付与し、ユーザーに通知。",
+    "body_markdown": "音楽配信サービス Tidal が新たな AI 音楽ポリシーを発表。完全 AI 生成音楽からの収益化を即座に禁止し、自動検出ツールでアーティストなりすまし曲を検出・削除する体制を整える。7月15日からはすべての AI 生成曲に『AI』バッジを付与し、ユーザーに対して明示。Tidal ユーザーが AI 生成音楽の提示を望まないという利用者調査に基づいた判断。\n\n政策の背景にあるのは「有機的創造性」保護の原則。人間のアーティストによる創作活動を経済的に保護し、『本物の創作』と『AI 自動生成』を明確に区別する戦略。Spotify は 2025年9月にラベリング規則を改定、Apple Music は 2026年3月にタグ付けを発表したが、Tidal はさらに一歩踏み込んで収益化禁止という強硬手段に出た。Deezer は編集プレイリスト除外でさらに攻撃的。\n\n実装上の課題が残る。『完全 AI 生成』判定が難しく、単一の人間ボーカル・楽器を追加すれば回避可能という欠陥が指摘される。Tidal は当ポリシーを『生きた文書』と位置づけ、運用過程で改定する姿勢を示しているが、検出精度の向上と利用者体験のバランスが試行錯誤の対象となる。",
+    "tags": [
+      "音楽",
+      "AI",
+      "著作権",
+      "配信"
+    ],
+    "section": "AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
+    "importance": 3,
+    "image_query": "music streaming headphones audio",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:52.548Z",
+    "publishedAt": "2026-06-29T19:47:35.000Z"
+  },
+  {
+    "slug": "20260630-35",
+    "headline": "英国電力網改修費が50%膨らみ90億ポンド、クリーン発電 2030 年達成へ必要",
+    "lead": "英国エネルギーシステム運用機構が、2030年代の電力網改修費を £90 億に上方修正。脱炭素化と需要増に対応必須。",
+    "body_markdown": "英国のエネルギーシステム運用機構（National Grid ESO）が発表した電力網改修費用の見積もりは、労働党政権誕生前の推計比で 50% 上昇した £90 億。2030年までのクリーン発電目標達成には、高圧送電線網の新築と低炭素エネルギー（再生可能エネルギー・原子力）の接続インフラ整備が緊急課題。\n\n投資内訳は多層的。£10.3 億が電力送電網強化に充当され、信頼性向上と容量拡張に使用。加速戦略的送電インフラ（ASTI）フレームワークに £19.8 億を配分。クリーンパワーへの民間投資誘発も見込まれており、政府支援 £40 億/年 × 6年間の投資により、約 £200 億の民間資本動員を予想。\n\nこの規模の投資拡大は、英国の産業脱炭素化と国際競争力維持の両立を目指す政策的決断。2030 年達成は野心的だが、経済成長との相乗効果（再生可能エネルギー産業の新規雇用、技術立国としてのポジション確保）が見込まれている。電力網の老朽化と需要急増のギャップを埋める多年投資が、英国経済の次の 10 年を規定する。",
+    "tags": [
+      "エネルギー",
+      "クリーンパワー",
+      "インフラ",
+      "投資"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/jun/30/great-britain-electricity-network-90bn-pounds-2030s",
+    "importance": 3,
+    "image_query": "power lines electricity grid infrastructure",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:52.549Z",
+    "publishedAt": "2026-06-30T06:00:42.000Z"
+  },
+  {
+    "slug": "20260630-36",
+    "headline": "スクエニが『AI駆動型品質チェックプラットフォーム』開発、テスト自動化で最大1億円補助",
+    "lead": "スクウェア・エニックスが経産省補助金で AI 品質チェック基盤を構築。テスト設計から QA 自動化まで一気通貫。",
+    "body_markdown": "スクウェア・エニックス、バンダイナムコエンターテインメント、NTT 西日本、note など 4 社が経産省『IP360』補助事業（メニュー6）に採択された。スクエニは『AI 駆動型品質チェックプラットフォーム』開発を計画。テスト設計から QA 自動プレイ、グラフィックス不具合検出、テキストチェックまでを一気通貫で自動化する基盤を構築する。\n\n補助金の概要は、1 社あたり最大 1 億円で補助率は 2 分の 1。105 件の応募中 15 件が採択されている競争的環境。AI、XR、ブロックチェーンなど高度技術活用が採択要件。スクエニの AI 品質チェックシステムは、ゲーム開発の品質保証業務を大幅に効率化し、開発サイクルの短縮と人員配置の最適化を可能にするポテンシャルを持つ。\n\nこの政策支援は、日本発コンテンツの海外売上を 2033 年までに 20 兆円に拡大する政府目標の下で実施。ゲーム産業における AI 導入が急速化する中、国内大手企業による先行的な技術構築は、全産業への波及効果を生む。IP 活用による付加価値創出と、AI による製品品質維持の両立が、日本のコンテンツ産業国際競争力を左右する。",
+    "tags": [
+      "AI",
+      "ゲーム",
+      "品質管理",
+      "自動化"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/30/2000000142/",
+    "importance": 3,
+    "image_query": "software testing quality assurance",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:52.549Z",
+    "publishedAt": "2026-06-30T07:43:55.000Z"
+  },
+  {
+    "slug": "20260630-37",
+    "headline": "OpenAI、Codex 向けマクロパッド『Codex Micro』を 7 月 15 日公開予定",
+    "lead": "OpenAI が Work Louder と協力、Codex 専用ハードウェア『Codex Micro』を発表。カスタマイズ可能ショートカットで開発効率化。",
+    "body_markdown": "OpenAI が AI コーディングアシスタント『Codex』向けのカスタムハードウェア『Codex Micro』を 7 月 15 日に公開する予定を発表。キーボードメーカー Work Louder との協業により実現。テーザー動画では、正方形形状の 13 個メカニカルスイッチ・ジョイスティック・タッチセンサーを搭載したマクロパッドが示された。Work Louder 既存製品『Creator Micro 2』ベースの設計。\n\nCodex Micro の主要機能は、カスタマイズ可能なショートカット割り当て。デベロッパーが頻繁に使用する Codex コマンド・API 呼び出し・デバッグ操作などを物理ボタンに割り当てることで、キーボードから手を離さずに AI 支援を受けられるワークフロー実現。マウス切り替えやキーボード検索による時間ロスを削減し、開発効率を向上。\n\n現時点では詳細仕様・価格・互換性情報は未公表。初期供給数や対応 OS 環境も不明。ただし、Codex ユーザーからの需要は高く、AI 駆動コーディング時代における『開発者体験』設計の一例として注目を集めている。物理インターフェースとデジタル AI の融合は、ハードウェア・ソフトウェアの相互発展を示唆。",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "ハードウェア",
+      "開発"
+    ],
+    "section": "AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+    "importance": 3,
+    "image_query": "keyboard hardware developer tools",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:52.549Z",
+    "publishedAt": "2026-06-29T18:52:03.000Z"
+  },
+  {
+    "slug": "20260630-38",
+    "headline": "AI 採用企業のヘッドカウント 10.2% 増で、むしろ雇用拡大が実現",
+    "lead": "TechCrunch 報告：高投資 AI 企業の雇用増加が確認。入門職も 12% 増で、AI 失業論は単純化過ぎと指摘。",
+    "body_markdown": "TechCrunch が 2026 年上半期の AI 導入と雇用の関係を分析。2026 年 5 月までに約 9 万人の職員削減が AI 理由で発表されながらも、反対の動きも顕著。AI に月平均 1 人あたり 30 ドル超投資する『高投資企業』のヘッドカウントが 10.2% 増加。特に入門職では 12% の雇用増が観測されている。AI が単なる労働力代替でなく、企業拡張ツールとして機能している実態が明らかになった。\n\nソフトウェア・テクノロジー企業において、エンジニアリング職のヘッドカウント増加が全職種平均より速い。AI により、コード記述・デバッグ・技術ドキュメント作成・製品開発が加速され、スループットが向上。その結果、コア事業スケール拡大に必要な人員増加を招いている。削減と拡大の両立現象は、AI が『産業空洞化ツール』から『成長加速ツール』へシフトしつつあることを示唆。\n\nただし就業市場全体では二極化が進行。AI 導入企業と非導入企業で生産性・報酬格差が拡大。デジタル化への適応力が、今後の個人・企業の競争力を規定する重要な分岐点。AI 雇用影響は単純な『失業vs成長』ではなく、複雑な再構成プロセスとして理解すべき。",
+    "tags": [
+      "AI",
+      "雇用",
+      "経済",
+      "テクノロジー"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+    "importance": 3,
+    "image_query": "office workers meeting collaboration",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:52.549Z",
+    "publishedAt": "2026-06-30T04:01:00.000Z"
+  },
+  {
+    "slug": "20260630-39",
+    "headline": "『AX』（エージェント体験）が AI 時代の新キーワード、機械向けドキュメント設計が重要に",
+    "lead": "AIエージェント利用時代に『AX』（Agent Experience）が注目。人間向けドキュメントとは別に、AI向け『読みやすい設計』が急務。",
+    "body_markdown": "AI エージェント時代の新概念『AX』（Agent Experience）が業界で急速に浸透しつつある。従来の UX（ユーザー体験）とは異なる『AI ユーザーとしての体験』を指す。2 つの層で構成される。第一に『エージェント視点の AX』：AI エージェントが製品・プラットフォームの『ユーザー』として得る体験の総体。第二に『人間視点の AX』：エージェントを使う人間がそれを監督し、結果を受け取り、信頼し、必要に応じて介入するための体験。\n\nAI 向け設計では『機械にとっての読みやすさ』が決定的に重要。具体的には、『機能説明が曖昧さなく言語化されているか、エラー発生時に何が問題なのかを明確に返してくれるか』という点。AI は画面ビジュアルでは判断しないため、技術的な正確性と明確性が本質的。\n\n先進企業は対応を始めている。Netlify・Supabase など開発プラットフォーム企業は、人間向けドキュメントとは別に『AI エージェント向けの読み取りやすい形に整え直した専用ドキュメント』を公開。エージェントを新しい『利用者層』として設計の再考を開始している。AI に対する API・インターフェース設計の透明性追求は、今後のプロダクト競争力を左右する決定的要因となりつつある。",
+    "tags": [
+      "AI",
+      "ユーザー体験",
+      "設計",
+      "エージェント"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2606/30/2000000132/",
+    "importance": 3,
+    "image_query": "interface design user experience",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:52.549Z",
+    "publishedAt": "2026-06-30T03:00:00.000Z"
+  },
+  {
+    "slug": "20260630-40",
+    "headline": "中国 6 月製造業景況感が 3 ヶ月ぶりに改善、通信・電子機器が牽引",
+    "lead": "中国の製造業景況感指数（PMI）が 50 を上回り改善。通信・電子機器セクターの生産・受注が堅調。",
+    "body_markdown": "中国の 6 月製造業景況感指数（PMI）が『3 ヶ月ぶりに改善し、景気判断の節目である 50 を上回った』と国家統計局が発表。4 月・5 月の低迷から回復。セクター別では通信業・電子機器業における『生産と新規受注が堅調』なことが指数改善を牽引。\n\nAI ブームと関連ハードウェア需要が一因と推察される。中国がジェネレーティブ AI・データセンター・GPU チップ開発を急速に強化する中、その支材製造（電子部品・通信機器など）の受注が増加。グローバル AI インフラ競争に参加する中国企業の設備投資・生産拡大が、製造業全体に好影響。\n\nただし全体的には景気回復の足取りは重い。50 上回りは最低限の『拡大基調』を示すのみで、強い成長の兆候ではない。欧米経済の減速、イラン戦争による地政学的リスク、供給チェーン混乱など外部要因の不確実性が続く。中国経済の次のステップは AI・高度製造への投資継続と、国内消費需要の復興が両輪となるかが問われている。",
+    "tags": [
+      "中国",
+      "経済",
+      "製造業",
+      "PMI"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015164561000",
+    "importance": 3,
+    "image_query": "factory manufacturing industrial production",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:52.549Z",
+    "publishedAt": "2026-06-30T03:27:20.000Z"
+  },
+  {
+    "slug": "20260630-41",
+    "headline": "英国学校スマートフォン禁止が若者に『罰則的』と映る、UCL 研究が警告",
+    "lead": "英国の学校スマートフォン禁止令が 30 日発効。UCL 研究では『過度に単純化・罰則的』として若者から反発。",
+    "body_markdown": "イギリスで 6 月 30 日、学校でのスマートフォン全面禁止が法律として発効した。個別学校・トラスト（学校法人）が全日を通じた『ノースマートフォン』体制を法的に責務付けられた。しかし、ロンドン大学カレッジ（UCL）の研究報告が同日に発表され、禁止政策に対する若者の感情的反発を明らかにした。\n\n調査結論は『スマートフォン全面禁止は過度に単純化されたアプローチであり、若者からは『罰則的』というレッテルを受けている』。高度に規制的な禁止令は、教育的な動機付けより『処罰感覚』を引き起こし、学生-学校関係の感情的ギャップを生む。デジタルリテラシー教育や段階的な使用ガイドラインの方が、長期的な行動改善につながる。\n\n実装の課題も指摘。禁止違反の検査・回収・保管・返却プロセスが校務負担を大幅増加させる。スマートフォンなしの学習環境で不安感が高まる生徒も想定される。若者のメンタルヘルスと学習効果の両面から、『禁止』より『制限と教育』の組み合わせが有効という科学的見地が浮彫りになった。政策見直しの機運が高まる可能性。",
+    "tags": [
+      "教育",
+      "スマートフォン",
+      "若者",
+      "イギリス"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/politics/2026/jun/30/school-smartphone-ban-seen-as-punitive-by-young-people-report",
+    "importance": 3,
+    "image_query": "students classroom education school",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:52.549Z",
+    "publishedAt": "2026-06-30T05:00:39.000Z"
+  },
+  {
+    "slug": "20260630-42",
+    "headline": "ウクライナ情勢 6 月 30 日の動き、各地で戦闘継続・国民避難急増",
+    "lead": "ロシア・ウクライナ戦争が続行。ウクライナ各地でロシア軍との戦闘激化、数百万国民が国外避難継続中。",
+    "body_markdown": "ロシアによるウクライナに対する軍事侵攻が 4 年以上続く中、6 月 30 日も戦闘が継続。ウクライナの複数地点でロシア軍・ウクライナ軍の激しい戦闘が繰り広げられている。地上戦に加え、ロシアによる空爆・ドローン攻撃がインフラ施設を破壊。民間施設への被害が相次ぎ、一般市民の人命喪失が続く。\n\nウクライナ国内の人道的危機も深刻。戦闘地域からの難民脱出が加速。隣国ポーランド、ルーマニア、モルドバなどへの亡命者数が膨張し、一部は欧州全域への再配置を余儀なくされている。国連難民高等弁務官事務所（UNHCR）によると、ウクライナから 800 万人を超える国民が国外に避難。国内避難民（IDP）含めると、2,000 万人超が基本的安全を脅かされている。\n\n国際社会の支援の枠組みも疲弊。米国・EU・NATO の武器供与が続く一方、長期戦による供給側の消耗と資金枯渇の危機が懸念。ウクライナの戦争疲弊と復興ニーズの拡大が、今後数年の国際紛争・人道支援の構図を決定づける重大局面。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "戦争",
+      "難民"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015133001000",
+    "importance": 5,
+    "image_query": "war conflict military humanitarian",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1494972688394-4cc796f9e4c5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx3YXIlMjBjb25mbGljdCUyMG1pbGl0YXJ5JTIwaHVtYW5pdGFyaWFufGVufDF8MHx8fDE3ODI4MTIwMzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Stijn Swinnen",
+      "profileUrl": "https://unsplash.com/@stijnswinnen?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-30T09:33:53.069Z",
+    "publishedAt": "2026-06-30T08:29:29.000Z"
+  },
+  {
     "slug": "20260630-01",
     "headline": "米最高裁、トランプのFRB理事解任を無効と判決",
     "lead": "大統領権限を制限。中央銀行の独立性が憲法上保護されることが確定。",
