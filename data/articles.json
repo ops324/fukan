@@ -1,5 +1,283 @@
 [
   {
+    "slug": "20260701-01",
+    "headline": "Claude Sonnet 5、エージェント業務で低価格化",
+    "lead": "Anthropicが新モデル「Claude Sonnet 5」を発表。高度なエージェント機能を備えながらOpusより安価な設定で提供し、AI開発の価格競争が激化する。",
+    "body_markdown": "Anthropicは6月30日、最新の『Claude Sonnet 5』を発表した。エージェントAIの市場化が加速する中、同モデルは計画立案、ブラウザ操作、自動実行など複雑なマルチステップタスク対応能力を備えている。特に自己チェック機能により、明示的に要求されなくても出力を自動検証する。\n\nパフォーマンスではエージェント向けコーディングベンチマークで63.2%、ナレッジワークではOpus 4.8をわずかに上回る。価格設定が大きな特徴だ。8月31日までは入力100万トークンあたり2ドル、出力10ドル。9月以降は3ドル、15ドルになるが、従来のOpus 4.8（より高額）やGPT-5.5、Gemini 3.1 Proより安い。Gemini 3.5 Flashより高いが、汎用性はより高い。\n\nセキュリティ面ではSonnet 4.6から改善され、開発者に「コストとパフォーマンスのバランスを調整できるオプション」として位置づけられている。エージェント機能の標準化が進む業界で、Anthropicは価格競争力を武器に市場浸透を狙う戦略を打ち出した。",
+    "tags": [
+      "AI",
+      "エージェント",
+      "価格競争",
+      "Anthropic"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+    "importance": 4,
+    "image_query": "artificial intelligence agents code screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwYWdlbnRzJTIwY29kZSUyMHNjcmVlbnxlbnwxfDB8fHwxNzgyODU0MjAwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Steve A Johnson",
+      "profileUrl": "https://unsplash.com/@steve_j?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-06-30T21:16:40.366Z",
+    "publishedAt": "2026-06-30T18:00:00.000Z"
+  },
+  {
+    "slug": "20260701-02",
+    "headline": "Google Nano Banana 2 Lite、画像生成を4秒で低価格化",
+    "lead": "Googleが画像生成AIを大幅高速化・低価格化。秒速4秒で1000画像0.034ドルの新モデル『Nano Banana 2 Lite』を発表、クリエイター向けワークフロー最適化。",
+    "body_markdown": "Googleは6月30日、画像生成モデル『Nano Banana 2 Lite』を発表した。大量の画像を迅速に生成する必要があるクリエイター向けに最適化され、わずか4秒で画像を完成させる。価格は1000画像あたり0.034ドル（約4円）で、高速・低価格を実現した。\n\nモデルは『高スループット高速ワークフロー』に特化しており、複数の画像を短時間で繰り返し生成・改良するユースケースを想定している。テンプレート開発、マーケティング素材、大量出力が必要な業務向けだ。前世代Nano Banana 2との比較では大幅な高速化が実現された。\n\nアクセスはGoogle AI Studio、Gemini API、Gemini Enterprise Agent Platform経由で可能。従来の高品質画像生成と異なり、『ワークショップ用途・高速反復』に特化した設計が特徴だ。価格競争が激化する画像生成AI市場で、Googleはボリュームゾーン攻略で市場拡大を狙っている。",
+    "tags": [
+      "AI",
+      "画像生成",
+      "Google",
+      "低価格化"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+    "importance": 3,
+    "image_query": "AI image generation art design",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T21:16:40.366Z",
+    "publishedAt": "2026-06-30T19:02:38.000Z"
+  },
+  {
+    "slug": "20260701-03",
+    "headline": "Xが AI ツール向けに MCP サーバー公開、読み込み機能統合",
+    "lead": "Xは Model Context Protocol（MCP）のホストサーバーを提供開始。ClaudeやCursorなどAIツールがX上の検索・トレンド分析・リアルタイムデータを読み込める環境を整備。",
+    "body_markdown": "Xは6月30日、AI アシスタント向けの『Model Context Protocol（MCP）』ホストサーバーを公開した。これまで開発者が独自にMCP統合を構築していたのに対し、Xが基盤を提供することで、Claude、Cursor、Grok Buildなど複数のAIツールが簡単に連携できる環境を整備した。\n\nMCPは『AIモデルが外部ツール・サービスに接続するための標準仕様』。Xを通じたMCP連携により、AI ツールはX上のポスト検索、トレンド分析、リアルタイムデータ取得といった読み込み機能を活用できる。ただし、自動投稿やスパム生成を防ぐため、書き込み機能は意図的に制限されている。\n\nセキュリティ対策として、API価格を引き上げ（1ポスト検索0.015ドル、リンク0.20ドル）、既存API制限の継続、AI生成スパム検出機能の更新が実装された。GitHub、Slack、Notion、Stripeに続き、Xも公式MCPエンドポイントを提供するAI生態系の一角へと進化する。",
+    "tags": [
+      "AI",
+      "X（Twitter）",
+      "MCP",
+      "統合"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
+    "importance": 3,
+    "image_query": "AI integration platform data flow",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T21:16:40.366Z",
+    "publishedAt": "2026-06-30T17:00:00.000Z"
+  },
+  {
+    "slug": "20260701-04",
+    "headline": "Google NotebookLM が TikTok 風短動画生成、研究音声化",
+    "lead": "Googleは NotebookLM に『Short Video Overviews』機能を追加。研究資料から TikTok 風の60秒AI動画を自動生成、研究者の情報共有を革新。",
+    "body_markdown": "GoogleはNotebookLMに新機能『Short Video Overviews』を実装し、研究資料からTikTok風の60秒AI短動画を自動生成できるようにした。AI Ultra/Proサブスクライバーを対象に順次展開される。\n\n例えば、オーストラリアのエミュとの戦いをテーマとした学術資料から、紙製アート風エミューイラスト＋AI音声ナレーションの短動画が生成される。これまでNotebookLMは『AIポッドキャスト』『映画的動画』『ビジュアル説明』など複数の研究解釈手段を提供していたが、短動画という『スクロール向け』フォーマット追加で、Z世代以下の消費行動に適応する。\n\n研究の『アクセシビリティ向上』と『拡散力強化』を両立させるツールとして、学術コミュニティ・教育機関での採用が加速する見込み。AI生成動画の品質向上と、著作権処理の透明性確保がこれからの課題。",
+    "tags": [
+      "Google",
+      "AI",
+      "研究",
+      "動画生成"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
+    "importance": 3,
+    "image_query": "research video presentation AI",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T21:16:40.366Z",
+    "publishedAt": "2026-06-30T19:24:51.000Z"
+  },
+  {
+    "slug": "20260701-05",
+    "headline": "Anthropic 『Claude Science』、研究者向けワークフロー統合",
+    "lead": "AnthropicがClaude Scienceをベータ公開。60以上の科学データベース統合、マルチエージェント調整、論文作成の透明性確保で研究プロセスを一元化。",
+    "body_markdown": "Anthropicは『Claude Science』をベータで公開した。新しい言語モデル開発ではなく、『研究ワークフロー最適化』に焦点を置いたプロダクトだ。Pro/Max/Team/Enterpriseサブスクライバーが利用でき、ポスドク・院生向けには最大3万ドルのクレジット支援も行う（2026年12月まで）。\n\nプラットフォーム上で複数のAIエージェントが『プロジェクトマネージャー』として機能し、ゲノミクス・タンパク質構造・化学など60を超える科学データベース連携タスクを自動調整する。生成した図表には実行コード・環境詳細・会話履歴が自動添付され、再現性が確保される。さらに『ファクトチェック層』により、AI出力の引用・計算を別のエージェントが検証してから発表される。\n\nこのアプローチはOpenAI『GPT-Rosalind』（ファインチューニング重視）やGoogle DeepMind『AlphaFold』（スタンドアロンモデル）との差別化戦略。Anthropicは『マルチエージェント＋ワークフロー』で研究加速を狙う。",
+    "tags": [
+      "AI",
+      "研究",
+      "科学",
+      "Anthropic"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
+    "importance": 3,
+    "image_query": "scientific research laboratory data analysis",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T21:16:40.366Z",
+    "publishedAt": "2026-06-30T18:00:00.000Z"
+  },
+  {
+    "slug": "20260701-06",
+    "headline": "Google Full Stack AI、TPU～Geminiまで統合で低コスト実現",
+    "lead": "GoogleはFull Stack AIアプローチを解説。ハードウェア（TPU）から言語モデル・UI まで一元管理することで、開発効率と価格競争力を両立させる戦略。",
+    "body_markdown": "Googleの AI 専門家Richard Seroterは『Full Stack AI』について説明した。『アプリケーション構築・運用に必要なすべての技術層を一貫したシステムで提供する』というGoogleの戦略だ。\n\n構成要素はTPU（ハードウェア）→Geminiモデルファミリー（言語モデル）→Gemini Enterprise Agent Platform（オーケストレーション）→Gmail・Maps等（ユーザーUI）まで、全層で統合管理される。この結果、信頼性・パフォーマンスが向上し、『サードパーティベンダー手数料が不要になるため、ユーザーは低価格を享受できる』。\n\n開発難度別に『AI Studio』（プロトタイプ用）『Gemini Enterprise Platform』（自動化）『Antigravity』（複雑ビルド）の3入口を用意。ただし『一貫しているが拡張可能』という設計で、他ベンダー部品への置き換えも許容する。業界では『垂直統合による効率化』と『オープンエコシステム維持』のバランスが評価される。",
+    "tags": [
+      "Google",
+      "AI",
+      "インフラストラクチャ",
+      "戦略"
+    ],
+    "section": "テクノロジー",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+    "importance": 3,
+    "image_query": "cloud infrastructure computing platform",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T21:16:40.366Z",
+    "publishedAt": "2026-06-29T16:00:00.000Z"
+  },
+  {
+    "slug": "20260701-07",
+    "headline": "Google Gemini Spark、PCを閉じても24時間自律実行",
+    "lead": "GoogleがAIエージェント『Gemini Spark』を発表。データ分析や報告書作成を自動実行、人間の監督下で自律的に仕事を進める新世代AI。",
+    "body_markdown": "GoogleがAIエージェント『Gemini Spark』を発表した。これまでのチャットAIと異なり、『ユーザーがPC を閉じた後も24時間自律的にタスク実行を継続する』エージェント型の動作を実現する。\n\nGemini Sparkは、目標を与えられると『必要なタスクを特定し、計画を立て、自律的に実行する』。例えば、データセット分析→結果の要約→報告書作成といったマルチステップワークフローを一貫して実行する。ユーザーには各ステップで推奨アクションが提示され、『目標と合致しているか確認してから実行に進める』という人間中心の確認フローが組み込まれている。\n\n現在は米国の一部ユーザーに限定公開中で、2026年前後に日本での提供が見込まれている。同プロダクトはGoogleの『エージェント型AI市場化戦略』の象徴で、ChatGPTやClaudeなど他社競合との機能競争が加速する。",
+    "tags": [
+      "Google",
+      "AIエージェント",
+      "自動化",
+      "ワークフロー"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia ビジネス",
+    "link": "https://www.itmedia.co.jp/business/articles/2607/01/news013.html",
+    "importance": 3,
+    "image_query": "artificial intelligence automation workflow",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T21:16:40.366Z",
+    "publishedAt": "2026-06-30T20:30:00.000Z"
+  },
+  {
+    "slug": "20260701-08",
+    "headline": "ルネサンス期貴族マラリア死亡の謎、古代DNA が解明",
+    "lead": "イタリア・メディチ家の2兄弟の遺骨から古代マラリア菌株を発見。毒殺説を覆し、ルネサンス期の感染症実態を明かす考古学的成果。",
+    "body_markdown": "イタリア・フィレンツェを支配したメディチ家の兄弟・ジョヴァンニ（1562年没）とフランチェスコ（1587年没）の遺骨を分析した国際研究チームが、古代マラリア菌株のDNAを検出した。\n\nイェール大学とピサ大学の研究者が行った遺伝子解析から、ジョヴァンニの遺骨から『Plasmodium falciparum』（マラリア原虫）の未知の菌株が、フランチェスコからは『P. falciparum』と『P. malariae』の両方が検出された。歴史学者による『フランチェスコは兄による毒殺説』を数百年後の科学が反証し、両者が沼地周辺での滞在中に蚊を媒介して感染したことを裏付けた。\n\n研究リーダーAlexander Ochoaは『古代DNAにより、過去の個人をマラリア診断する機会だけでなく、病原体進化の理解が深まる』と述べた。マラリアは現在も年間61万人の死者を出す疾患で、ルネサンス期の感染実態分析は現代の防止戦略にも貢献する。",
+    "tags": [
+      "考古学",
+      "DNA",
+      "マラリア",
+      "ルネサンス"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-06-medici-brothers-reveal-renaissance-era.html",
+    "importance": 3,
+    "image_query": "history archaeology ancient DNA analysis",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T21:16:40.366Z",
+    "publishedAt": "2026-06-30T20:50:01.000Z"
+  },
+  {
+    "slug": "20260701-09",
+    "headline": "洞窟壁画から採取、千年生存した古代人DNA",
+    "lead": "スペイン・ポルトガルの洞窟壁画から、千年以上前の人間DNA を検出。古代アーティストの身元特定や先史人類の系譜解析に新展開。",
+    "body_markdown": "国際研究チームが、スペインとポルトガルの洞窟壁画に含まれる顔料から、数千年前の人間DNA を検出した。成果は6月23日『Nature Communications』誌に掲載されたもので、Max Planck Instituteの Alba Bossoms Mesa 率いる研究者たちが、11窟の24パネルから採取した顔料を分析した。\n\nすべてのサンプルから古代DNA が抽出できたわけではないが、『顔料に付着した人間の体液・汗・血液』が数千年間、岩石環境で保存される可能性を示唆した。古代DNA 専門家 Monica Green は『分子証拠の抽出により、大規模人口移動からパンデミックまで、過去の理解が革命的に進む』と述べた。\n\nこの手法は、アルゼンチン『Cueva de las Manos』（9500～13000年前の手形）など世界的な考古学遺跡への応用が期待される。美術作品が『生物学的記録庫』として機能し、先史人類のゲノム・系統情報を提供する革新的事例。",
+    "tags": [
+      "考古学",
+      "DNA",
+      "洞窟壁画",
+      "先史人類"
+    ],
+    "section": "サイエンス",
+    "source": "Hyperallergic",
+    "link": "https://hyperallergic.com/human-dna-in-cave-paintings-can-survive-for-millennia-study-finds/",
+    "importance": 3,
+    "image_query": "cave paintings ancient art archaeology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T21:16:40.366Z",
+    "publishedAt": "2026-06-30T19:41:17.000Z"
+  },
+  {
+    "slug": "20260701-10",
+    "headline": "マウスの視覚戦略『infotaxis』、VR 実験で証明",
+    "lead": "仮想環境でマウスが対象物の見え方に応じて動きを変える『情報探索戦略』を発見。視覚能力が低い動物ほど能動的に視点調整する現象が明かされた。",
+    "body_markdown": "神経科学チームがVR環境でマウスの視覚決定メカニズムを解析し、『infotaxis』と呼ぶ情報探索戦略を確認した。マウスは人間の7～8分の1に過ぎない視力を補うため、対象物の見え方が悪い場合、意図的に体を動かしてより良い視点を探す行動を示した。\n\n実験では『黒いしずく形の妨害物』と『白いしずく形の正解』がほぼ隠れた環境に置かれた。物体が大部分隠れている時、マウスはスクリーンに接近し、速度を低下させ、より複雑な経路を取って、最適な視点まで移動してから判断を下した。『対象の見え方が悪いほど、マウスは近づく前により判断を延延させる』という合理的な行動パターンが確認された。\n\n研究チームはVRシステムを『オープンソース化』し、脳記録と連動した将来の神経科学研究基盤を提供した。動物の『自律的な視覚戦略』は認知能力の理解を深め、AI知覚の開発にも応用される見通し。",
+    "tags": [
+      "神経科学",
+      "視覚",
+      "VR",
+      "動物行動"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-06-mice-views-visual-decisions-virtual.html",
+    "importance": 3,
+    "image_query": "laboratory research animal behavior testing",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T21:16:40.366Z",
+    "publishedAt": "2026-06-30T20:20:05.000Z"
+  },
+  {
+    "slug": "20260701-11",
+    "headline": "アマゾン干ばつで気候フィードバック悪化、イソプレン吸収が4倍低下",
+    "lead": "アマゾン極端干ばつ時、大気中のイソプレン吸収能が4倍低下。植物ストレス増加と土壌微生物機能低下が悪循環、気候モデルに新課題。",
+    "body_markdown": "Max Planck 気化学研究所チームが、2023年エル・ニーニョ時のアマゾン干ばつデータ分析から、気候フィードバックの悪化を発見した。通常時と比べ、土壌が吸収するイソプレン（植物が放出する揮発性有機物）が『4倍以上低下』した。\n\nメカニズムは二重の悪循環だ。干ばつストレス下で植物はイソプレン放出を増やすが、同時に土壌の水分が20％以下に低下すると、イソプレン分解菌の活動が制限される。つまり『大気へのイソプレン濃度が上がる一方で、土壌吸収が下がる』という大気酸化能減衰をもたらす。結果、大気中メタン寿命が延び、温暖化をさらに加速させる。\n\nMax Planck Institute の Amazon Tall Tower Observatory で計測されたデータは、気候予測モデルに土壌イソプレン吸収を組み込む必要性を示唆した。熱帯気候フィードバックの『複合悪化』は、単一パラメータの改善だけでは対処不可能な課題を浮き彫りにした。",
+    "tags": [
+      "気候変動",
+      "アマゾン",
+      "干ばつ",
+      "生態学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-06-extreme-droughts-rainforest-important-feedback.html",
+    "importance": 3,
+    "image_query": "rainforest drought climate environment",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T21:16:40.366Z",
+    "publishedAt": "2026-06-30T20:30:01.000Z"
+  },
+  {
+    "slug": "20260701-12",
+    "headline": "日印首脳会談、バイオガス自動車で協力枠組み合意へ",
+    "lead": "高市総理がモディ首相と7月2日会談。インド国内バイオガスプラント1000カ所整備で協力、脱炭素エネルギー転換と農村雇用創出を同時実現。",
+    "body_markdown": "高市総理大臣は、7月2日（現地時間）にインドのナレンドラ・モディ首相との首脳会談で、環境に優しい自動車燃料の普及に向けた新たな協力枠組みで合意する見通しが示された。\n\nその内容は、バイオガスを燃料とする自動車の推進に向けて、インド国内に『1000カ所のバイオガスプラント整備』を含む協力体制の構築だ。バイオガスは農業廃棄物や有機性廃棄物から製造でき、カーボンニュートラル燃料として位置づけられている。日本がその技術力と設備製造能力を提供し、インドの地理的優位性（廃棄物資源豊富）と市場規模を活かす相互補完的パートナーシップ構想だ。\n\nこの協力は『脱炭素社会移行』と『農村経済振興』を同時に実現する戦略として機能する。バイオガス産業化はインドの廃棄物管理体制強化と農村部の雇用創出に直結し、日本はクリーンエネルギー関連産業のアジア市場展開の足がかりを得られる。政治・経済・環境の三重ウィンが見込まれ、両国の戦略的重要性が高い。",
+    "tags": [
+      "日本",
+      "インド",
+      "バイオガス",
+      "脱炭素"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015165161000",
+    "importance": 3,
+    "image_query": "renewable energy biofuel green technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T21:16:40.366Z",
+    "publishedAt": "2026-06-30T20:43:43.000Z"
+  },
+  {
+    "slug": "20260701-13",
+    "headline": "皇室典範改正案、旧皇族男子の養子に皇位継承資格",
+    "lead": "政府・与党が国会で皇室典範改正案を審議中。養子に迎えた旧皇族男系男子の男児に皇位継承資格を付与する規定が焦点、野党から異論。",
+    "body_markdown": "政府・与党が『いまの国会での成立を目指す』方針を示した皇室典範改正案が、議論の中心に据えられている。皇族数確保が改正の背景だが、焦点となるのは『養子に迎えた旧皇族の男系男子に男の子が生まれた場合、その男児に皇位継承資格を付与する』という規定だ。\n\n野党からは『この規定に異論』が上がっており、皇位継承の『資格拡大』が保守派・リベラル派で意見が分かれている。政府は『皇族数減少への対応』を説き、与党は成立を急ぐ構えだ。審議では『旧皇族との関係性の歴史的根拠』『女性皇族の身分変更可能性』など、複数の論点が同時進行している。\n\n改正成否は、夏以降の国会運営とも連動する。皇位継承の『制度的安定性』と『国民的合意形成』のバランスが、今後数年の皇室制度の在り方を左右する重要局面。",
+    "tags": [
+      "政治",
+      "皇室",
+      "典範改正",
+      "日本"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015165151000",
+    "importance": 3,
+    "image_query": "government parliament politics japan",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-06-30T21:16:40.366Z",
+    "publishedAt": "2026-06-30T20:12:45.000Z"
+  },
+  {
     "slug": "20260630-22",
     "headline": "AI時代のEU労働力、自動化リスク18%か成長機会12%か",
     "lead": "OpenAIが欧州連合の労働市場に対するAIの影響を分析。自動化リスク、再編成、成長機会で4層に分化する職業構造が明らかに。",
