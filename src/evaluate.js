@@ -141,7 +141,7 @@ export async function appendCalibration(slug, score, note = '') {
 
 // --- 出典リンク死活（非ゲート・参考）---
 // 多くのニュースサイトは HEAD/bot を弾くため GET＋UA＋timeout。失敗＝必ずしもリンク切れではない。
-export async function checkLink(url, timeoutMs = 5000) {
+export async function checkLink(url, timeoutMs = config.timeouts.linkCheckMs) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), timeoutMs);
   try {
