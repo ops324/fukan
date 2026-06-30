@@ -8,7 +8,7 @@ export const config = {
 
   // --- サイトメタ（SEO / OGP / 構造化データで使用）---
   siteName: '俯瞰',
-  siteDescription: 'テック・AI・科学・経済・政治・国際・カルチャーまで、世界のニュースを編集部の要約と中立論評で俯瞰する日本語ニュースメディア。',
+  siteDescription: 'テック・AI・科学・経済・政治・国際・カルチャーまで、世界のニュースを編集部の要約と中立論評で俯瞰するニュースメディア。',
   ogImage: '/assets/og-default.jpg', // SNSシェア時の共通サムネ（1200×630）
   logo: '/assets/logo.png',          // 構造化データ publisher.logo
 
