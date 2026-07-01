@@ -1,5 +1,576 @@
 [
   {
+    "slug": "20260702-01",
+    "headline": "LLMの『予測可能性』問題、新興企業が多様性向上へ",
+    "lead": "大規模言語モデルが陥る『グループシンク』現象を分析したスタートアップが、出力の多様性を高める技術を開発。",
+    "body_markdown": "大規模言語モデル（LLM）の重大な弱点として、出力が画一的で予測可能になりやすいという課題が指摘されている。複数の独立した研究チームの論文では、ChatGPT、Claude、Geminiなどの主要モデルが、開放的な質問に対してほぼ同じ方向の回答を生成することが報告されている。\n\nその具体例が顕著だ。「ランダムな数字を言ってください」という質問にかけて、ほぼすべてのモデルが「7」と答える。また、複数のLLMに「時間についてのメタファー」を書かせると、25個のモデルが全て「時間は川」または「時間は織り手」という非常に似た表現に収束してしまう。\n\nこの現象の背景には、「同じような方法で同じデータから学習している」LLMたちの根本的な特性がある。温度パラメータを上げてランダム性を増すことは試みられているが、それは出力品質も低下させるため、実用的ではない。\n\nオーストラリアのスタートアップSpringboardsが開発した「Flint」は、この課題に対して新たなアプローチを提案している。同社の手法は、温度を一律に上げるのではなく、「出力の中で多様性が可能な特定ポイントにのみランダム性を組み込む」というもの。例えば、広告やマーケティング戦略のブレインストーミング時に、目的地の名前や背景設定など、本質的には異なる提案でも構わない部分に限定して「変化を促す要素」を挿入する。\n\nこれにより、より創造的でユニークな提案が生成され、マーケティング専門家やコンサルタントが実務で活用できるレベルの多様性が実現するという。LLMが社会的意思決定やコンサルティング、研究支援に活用される時代において、『モデルが何を『考える』か』の多様性は、AI信頼性の根本的な課題となる。",
+    "tags": [
+      "言語モデル",
+      "AI技術",
+      "多様性",
+      "予測可能性",
+      "生成AI"
+    ],
+    "section": "AI",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+    "importance": 4,
+    "image_query": "artificial intelligence neural network code",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwbmV1cmFsJTIwbmV0d29yayUyMGNvZGV8ZW58MXwwfHx8MTc4Mjk0MTEyNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Hitesh Choudhary",
+      "profileUrl": "https://unsplash.com/@hiteshchoudhary?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:24.311Z",
+    "publishedAt": "2026-07-01T14:35:16.000Z"
+  },
+  {
+    "slug": "20260702-02",
+    "headline": "Google、NY教育サミット開催　AI時代の『人間スキル』が争点に",
+    "lead": "Googleがニューヨークで150名の教育・業界リーダーを招き、学校現場でのAI活用と課題について協議。",
+    "body_markdown": "GoogleはニューヨークのOfficeで、教育界と業界界のトップ150名を集めた『AI教育サミット』を開催した。New York Jobs CEO CouncilおよびUrban Assemblyとの共催で、採用側の産業界と教育現場の知識共有が主目的だった。\\n\\nサミットでは、Google AI Mode、NotebookLM、『Vibe Coding』といった教育支援ツールの実践的なセッションが展開された。これらのツールが、学校の現場でいかに学生の好奇心を刺激し、AI リテラシーを構築できるかが探求された。\\n\\n重要な論点として浮かび上がったのは、AI技術の真の価値が「問題解決を可能にすること」であるという認識だ。業界リーダーたちから共通して指摘されたのは、テクノロジーがワークフローを効率化する一方で、適応性、協働、批判的判断といった『人間スキル』が今後ますます不可欠になるということ。つまり、AI時代ほど、人間にしかできない思考力や判断力の育成が重要になるという逆説的な現実が、産学双方で合意された。\\n\\nさらに、参加者たちはプライバシー保護と学習機会の公平なアクセスの重要性に同意し、「技術革新は学校の周辺ではなく、学校と一緒に行われるべき」という結論に至った。\\n\\nこのサミットは、単なる技術デモンストレーションではなく、AI導入時代における学教育現場の課題と機会が、産業界と教育界で綿密に協議される場となった。2026年6月末の米国教育界における、このような対話の重要性は、グローバルな教育改革の方向性を示唆している。",
+    "tags": [
+      "AI教育",
+      "Google",
+      "産学連携",
+      "人間スキル",
+      "デジタルリテラシー"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+    "importance": 4,
+    "image_query": "education classroom technology learning",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxlZHVjYXRpb24lMjBjbGFzc3Jvb20lMjB0ZWNobm9sb2d5JTIwbGVhcm5pbmd8ZW58MXwwfHx8MTc4Mjk0MTEyNXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Quilia",
+      "profileUrl": "https://unsplash.com/@heyquilia?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:25.632Z",
+    "publishedAt": "2026-07-01T16:00:00.000Z"
+  },
+  {
+    "slug": "20260702-03",
+    "headline": "Anthropic『Claude Science』発表、科学研究支援で医薬品開発を加速",
+    "lead": "Anthropic が科学研究向け新AI『Claude Science』を発表。計算生物学・医薬品開発に活用へ。",
+    "body_markdown": "Anthropic は、科学研究を支援する新製品『Claude Science』を発表した。ソフトウェア開発向けの『Claude Code』と同様に、「簡潔で高レベルの指示から、実質的な科学的仕事を自律的に遂行する」ことを目的としている。\\n\\n対象分野は、計算生物学と医薬品開発。Anthropic自身も『Claude Science』を活用して、『稀有で見過ごされた疾患』（rare, neglected diseases）向けの医薬品研究に取り組む予定だ。\\n\\nこの製品は、製薬業界の経営者、バイオテック企業の創業者、研究者を対象にした発表イベントで公開された。Anthropicの科学領域への注力姿勢が顕著になった形だ。\\n\\n『Claude Code』が、開発者にプログラミングを任せるのと同じロジックで、『Claude Science』は研究者に科学的推論と分析を任せるモデルとなっている。医薬品開発プロセスは、分子設計、スクリーニング、データ分析など、計算量が多く、パターン認識が重要な領域が多い。AIが自律的に仮説を立てたり、実験計画を提案したりすることで、研究スピードの加速が期待される。\\n\\nバイオテック業界では、開発期間と費用の削減が永遠の課題だ。『Claude Science』が科学プロセスの一部を担うことで、研究者は解釈と戦略に専念できるようになる。特に『稀有疾患』のように患者数が少なく、経済的インセンティブが低い領域での医薬品開発にAIが活用されることは、社会的意義が大きい。",
+    "tags": [
+      "AI",
+      "科学研究",
+      "医薬品開発",
+      "バイオテック",
+      "Anthropic"
+    ],
+    "section": "AI",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/",
+    "importance": 4,
+    "image_query": "laboratory research science microscope",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1614308460927-5024ba2e1dcb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxsYWJvcmF0b3J5JTIwcmVzZWFyY2glMjBzY2llbmNlJTIwbWljcm9zY29wZXxlbnwxfDB8fHwxNzgyOTQxMTI2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Logan Gutierrez",
+      "profileUrl": "https://unsplash.com/@photosoflogan?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:26.612Z",
+    "publishedAt": "2026-07-01T12:10:00.000Z"
+  },
+  {
+    "slug": "20260702-04",
+    "headline": "Ashton Kutcher、新VC立ち上げ　AI基盤インフラに投資シフト",
+    "lead": "Kutcherが Sound Ventures を離れ、Morgan Beller と新会社設立。AI企業ではなく、その下支えとなるインフラ企業を投資対象に。",
+    "body_markdown": "ハリウッドスター兼ベンチャーキャピタリストの Ashton Kutcher が、自身が率いた Sound Ventures から離れ、Morgan Beller とともに新たなベンチャーキャピタル企業を立ち上げることが発表された。この人事異動は、米国のテック投資業界における投資戦略の転換を象徴している。\\n\\nSound Ventures は、OpenAI や Anthropic のような「カテゴリーリーディング（業界最先端）の AI ラボ」への集中的で確信度の高い投資で知られていた。すなわち、最前線の AI 企業自体への投資が中心だった。\\n\\nこれに対して、Kutcher と Beller の新会社は、AI 企業の下層に位置する企業、すなわち「AI 企業たちが依存するインフラと電力」を投資対象にしようとしている。これは投資戦略の大きなシフトを示している。AI 企業の花形的な成長よりも、それらが稼働するための電力、データセンター、半導体、ネットワークといった基盤となるインフラストラクチャー企業への着眼点の変化だ。\\n\\nKutcher は Sound Ventures のアドバイザーとしての役割は継続する。Sound Ventures の創業者 Guy Oseary と Sound のゼネラルパートナー Effie Epstein は、Kutcher と Beller の新企業のアドバイザーを務める予定である。\\n\\nこの発表は極めて直近のもので、報道は 2026年7月1日の午後に成されたばかり。VC 業界における一大人事であり、AI インフラ投資への関心の高まりを象徴する動きとなっている。",
+    "tags": [
+      "ベンチャーキャピタル",
+      "AI投資",
+      "インフラ",
+      "エネルギー",
+      "テック"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/",
+    "importance": 4,
+    "image_query": "venture capital investment technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1593510987459-9a1489817a3b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx2ZW50dXJlJTIwY2FwaXRhbCUyMGludmVzdG1lbnQlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3ODI5NDExMjd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:27.677Z",
+    "publishedAt": "2026-07-01T18:47:22.000Z"
+  },
+  {
+    "slug": "20260702-05",
+    "headline": "Google Gemini Spark、Mac版リリース　デスクトップ自動化に対応",
+    "lead": "Google がビジネスユーザー向けAIアシスタント『Gemini Spark』の macOS 版を発表。ファイル・アプリ操作の自動化機能を搭載。",
+    "body_markdown": "Google は、生成型AI アシスタント『Gemini Spark』の macOS 対応版をリリースした。Windows 同様の自動化機能をデスクトップで展開することで、プロダクティビティツールとしての位置づけを強化している。\\n\\nGemini Spark は、2024年の発表以来、Google の AI スイート内で「エージェント型アシスタント」として位置付けられてきた。デスクトップ版では、単なるチャット機能ではなく、ローカルファイルやアプリケーション（Google Workspace を含む）全体にわたる「自動化タスク」の実行を可能にしている。\\n\\n**提供される機能例：**\\n- Downloads フォルダの PDF を、ラベル別のサブフォルダに自動分類\\n- ローカルに保存された請求書から数値を抽出し、Google Workspace の予算スプレッドシートに自動入力\\n- リマインダーに基づき、定期的なスプレッドシート更新を自動実行\\n\\n**提携アプリケーション：**\\nGoogle は初期段階で、Canva、Dropbox、Instacart、OpenTable、Zillow Rentals などのパートナー企業のアプリケーションと統合。また Google Keep（思考メモ）と Google Tasks（TODO リスト）の連携により、ユーザーの『散らばった思考』を自動的にタスク化する機能も提供している。\\n\\n**リモートタスク機能（近日対応予定）：**\\nユーザーはスマートフォンから、「Mac 上の特定営業レポートを検索し、売上高を抽出してメール送信」といった複合的なタスクを指示。Gemini Spark がユーザーの不在中に遠隔実行する、という先進的なワークフロー実現が計画されている。\\n\\n**提供形態：**\\nGemini Spark for Mac は、Google AI Ultra 契約者（月額99ドル以上）向けにベータ版で提供開始。当初は米国のみで、UK、カナダ、EEA、オーストラリア、日本では未対応。",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI",
+      "自動化",
+      "マックOS"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+    "importance": 4,
+    "image_query": "computer desktop automation office work",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMGRlc2t0b3AlMjBhdXRvbWF0aW9uJTIwb2ZmaWNlJTIwd29ya3xlbnwxfDB8fHwxNzgyOTQxMTI4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sebastian Bednarek",
+      "profileUrl": "https://unsplash.com/@abeso?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:28.640Z",
+    "publishedAt": "2026-07-01T14:20:19.000Z"
+  },
+  {
+    "slug": "20260702-06",
+    "headline": "Meta、『Meta Compute』発表　AI余剰処理を商用化へ",
+    "lead": "Meta がクラウドインフラ事業を立ち上げ、余剰の AI 計算能力を外部企業に販売。AWS、Azure に対抗。",
+    "body_markdown": "Meta は 2026年7月1日、AI インフラストラクチャの余剰処理能力を商用化する新クラウドビジネス『Meta Compute』の構想を発表した。これは Amazon AWS、Microsoft Azure、Google Cloud といった既存クラウドプロバイダーと直接競争する動きである。\\n\\n**背景：Meta の巨大 AI インフラ投資**\\nMeta の AI インフラへの投資規模は、2026年までに1,250〜1,450億ドルに達する見通し。同社はミッドウェスト地域に 1 ギガワット級のデータセンター建設を進め、ルイジアナ州には 2,250 エーカーのハイパースケール キャンパス「Hyperion」の建設を進めている。\\n\\n**提供形態：**\\nMeta Compute は 2 つの選択肢を企業に提供する予定：\\n1. **Amazon Bedrock 型**: 企業が Meta のインフラ上で AI モデルを実行し、従量課金\\n2. **GPU キャパシティ販売**: 生のグラフィックスプロセッシングユニット（GPU）処理能力の販売\\n\\n**戦略的背景：**\\n社内の AI 訓練と運用で膨大な計算能力を購入している Meta だが、その一方で実装済みのモデルのみに計算能力を集中させたい戦略がある。余剰処理能力を他社に販売することで、インフラ投資の ROI（投資対効果）を向上させつつ、AI 業界全体の計算リソースの民主化に貢献できるという考え方だ。\\n\\n**パートナーシップ：**\\nMeta と CoreWeave は 2032年12月までの 210 億ドルの拡大 AI インフラ協定を発表。NVIDIA の次世代 Vera Rubin プラットフォームの初期配備の一部が含まれる。\\n\\nこの動きは、SpaceX が余剰の衛星通信能力を Starlink で商用化した手法と類似。テック大手の「余剰リソースの外販」戦略が、業界の収益モデルを再構成しつつある。",
+    "tags": [
+      "Meta",
+      "クラウド",
+      "AI",
+      "インフラ",
+      "データセンター"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+    "importance": 4,
+    "image_query": "data center servers cloud computing",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1667984390538-3dea7a3fe33d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxkYXRhJTIwY2VudGVyJTIwc2VydmVycyUyMGNsb3VkJTIwY29tcHV0aW5nfGVufDF8MHx8fDE3ODI5NDExMjl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Growtika",
+      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:29.610Z",
+    "publishedAt": "2026-07-01T13:43:07.000Z"
+  },
+  {
+    "slug": "20260702-07",
+    "headline": "ChatGPT、全大陸で拡大　月間10億ユーザー突破　急成長はアジア・アフリカ",
+    "lead": "OpenAI Signals データより、ChatGPT が 2026年6月時点で月間10億ユーザーを突破。地域別では途上国での急速な普及が顕著。",
+    "body_markdown": "OpenAI が公開した『OpenAI Signals』のデータから、ChatGPT の世界的な普及が加速していることが明らかになった。同社の発表によれば、ChatGPT は 2026年6月中に月間アクティブユーザー 10 億人の大台を突破。週間アクティブユーザー数は 2024年2月から 2026年2月の 18 ヶ月間で 350% 成長しており、同ペースが続けば 2026年末までに週間 10 億ユーザーの達成も現実的になったという。\\n\\n**地域別成長傾向：**\\nChatGPT の採用増加は全大陸で観測されているが、相対的な成長率で見ると、アフリカとアジアが最も高い。Human Development Index（HDI）が低い国々では、2023年7月以来のユーザー増加率が特に顕著である。\\n\\nラテンアメリカ・カリブ地域、アジア太平洋、アフリカ、ヨーロッパでは継続的にユーザー数が上昇している。特に Dominican Republic と Haiti は Q4 2025 から Q1 2026 にかけて順位を 9 つ上昇。日本は 8 位上昇している。\\n\\n**言語の多様化：**\\n英語以外では、スペイン語、ポルトガル語、アラビア語が主要言語として定着。さらに、ウズベク語、カザフ語、ビルマ語では、2023年7月以来のシェア増加率が最大級である。これは言語人口が多い新興国・発展途上国での採用加速を示唆している。\\n\\n**2026年第1四半期の拡大トレンド：**\\nQ1 の統計では、Consumer ChatGPT の成長が「年齢層を超えて」拡大。従来の若年層・テック層だけではなく、一般的なユーザー層へ浸透。また女性的な名前を持つユーザーの割合が上昇し、より多くの国・地域に深化していることが確認された。\\n\\nこれらの数字は、ChatGPT が単なるテック業界のツールではなく、グローバルな主流ツールへと段階的に移行していることを示唆している。",
+    "tags": [
+      "ChatGPT",
+      "OpenAI",
+      "ユーザー数",
+      "グローバル展開",
+      "普及"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+    "importance": 4,
+    "image_query": "global world map technology growth",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1713098965471-d324f294a71d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxnbG9iYWwlMjB3b3JsZCUyMG1hcCUyMHRlY2hub2xvZ3klMjBncm93dGh8ZW58MXwwfHx8MTc4Mjk0MTEzMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Hartono Creative Studio",
+      "profileUrl": "https://unsplash.com/@hartonocreativestudio?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:30.645Z",
+    "publishedAt": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "slug": "20260702-08",
+    "headline": "SpaceX AI端末計画、Musk が否定　報道と言説対立",
+    "lead": "WSJ が『SpaceX が AI スマートフォンプロトタイプをを投資家に披露』と報道。Musk は『全く虚偽』と一蹴。真相なお不明。",
+    "body_markdown": "SpaceX がハンドヘルド AI デバイス（スマートフォン的な端末）のプロトタイプを投資家に示したと報道されたことに対し、Elon Musk が強く否定した。業界内で「噂」と「事実」の綱引きが展開されている。\\n\\n**報道の詳細：**\\nWall Street Journal（WSJ）の報道によれば、SpaceX は同社の IPO（新規公開）前に、投資家向けに『ハンドヘルド AI プロトタイプ』を披露した。その仕様は以下の通り：\\n- iPhone より『スリム』な外形\\n- Qualcomm の Snapdragon チップセットで動作\\n- SpaceX 独自の AI 対話用オペレーティングシステムを搭載\\n- xAI（SpaceX が 2026年2月に吸収した AI 企業）のテクノロジーを活用\\n\\n報道によると、同デバイスはプロトタイプの段階で「設計変更の可能性がある」とのこと。実現性は高くない段階での展示という位置づけだった。\\n\\n**Musk の否定：**\\nこれに対し、Musk は X（旧 Twitter）で『Utterly false』（「全く虚偽」）と投稿。強硬な否定姿勢を示している。\\n\\n**背景の考察：**\\nSpaceX は衛星通信インフラ（Starlink）を保有する唯一の民間企業だ。独自の通信インフラがあれば、AI スマートフォンの通信レイテンシーを最小化でき、競争力が高まるという構想は理にかなっている。Musk が「完全否定」する一方で、WSJ は複数の関係者情報に基づいて報道している。\\n\\nいずれが事実かは、今後の動向に依存している。端末実現の有無にかかわらず、SpaceX が『衛星通信 + AI』という融合を構想していることは、業界の次の波を示唆している。",
+    "tags": [
+      "SpaceX",
+      "AI",
+      "スマートフォン",
+      "Elon Musk",
+      "プロトタイプ"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/science/960442/spacex-phone-prototype-elon-musk",
+    "importance": 4,
+    "image_query": "smartphone mobile device technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzbWFydHBob25lJTIwbW9iaWxlJTIwZGV2aWNlJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzgyOTQxMTMxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vojtech Bruzek",
+      "profileUrl": "https://unsplash.com/@vojtechbruzek?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:31.598Z",
+    "publishedAt": "2026-07-01T20:10:21.000Z"
+  },
+  {
+    "slug": "20260702-09",
+    "headline": "OpenAI、18年前からの未検出バグを解明　大規模解析が奏功",
+    "lead": "OpenAI がインフラの謎のクラッシュを調査。大規模コアダンプ分析から、18年来のソフトウェアバグとハードウェア障害を発掘。",
+    "body_markdown": "OpenAI は、同社のインフラで発生していた稀かつ原因不明のシステムクラッシュの真因を特定した。大規模なコアダンプ（メモリ内容保存）の自動分析によって明かされたのは、ソフトウェアバグとハードウェア障害の複合的な連鎖だった。\\n\\n**発見の経緯：**\\nOpenAI が観測していたのは、Rockset（NoSQL データベース）サービスからのクラッシュ。通常の C++ 関数が完了したはずなのに、その後プログラムが「不正なアドレス」へジャンプし、カーネルが命令実行を停止するというもの。スタックが破損していたのだ。\\n\\n**2つの根本原因：**\\n調査の結果、見かけ上は「1 つの奇妙なバグ」に見えていたものが、実は 2 つの全く別のクラッシュ現象だったことが判明した。\\n\\n1. **ハードウェア障害：** クラッシュのうち「スタック不整列」に起因するものは、1 つの物理的な Azure ノードから発生。地域性が顕著で、開始日がはっきり区別でき、長期稼働マシンでは発生しない。つまり、特定物理マシンの不具合が複数の仮想マシンに波及していた。\\n\\n2. **ソフトウェアバグ：** もう一方の「null へのジャンプ」型クラッシュは、複数クラスタ・複数地域に分散。長期的な問題だった。\\n\\n**解決方法：**\\nOpenAI は投資を決定し、コアダンプの自動分析パイプラインを構築。ChatGPT にコアファイルの先頭部分をダウンロードし、レジスタ情報を抽出するスクリプトを生成させた。これが奏功し、デデータセットがきれいになると、相関パターンが即座に現れた。\\n\\n**予防措置：**\\nOpenAI は、再発防止のため以下を実施：\\n- フェイタルシグナルハンドラをレジスタ状態を含めるよう改善（ログだけからの再発検知が可能に）\\n- コントロールプレーンで VM リサイクルではなく再利用を推奨（悪質ノードの検知を容易に）\\n\\nこの事例は、AI 企業のインフラ運用が如何に複雑化し、大規模データ分析が根本原因特定に不可欠になっているかを象徴している。",
+    "tags": [
+      "OpenAI",
+      "インフラ",
+      "バグ",
+      "ハードウェア",
+      "データセンター"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+    "importance": 4,
+    "image_query": "computer server data center infrastructure",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxjb21wdXRlciUyMHNlcnZlciUyMGRhdGElMjBjZW50ZXIlMjBpbmZyYXN0cnVjdHVyZXxlbnwxfDB8fHwxNzgyOTQxMTMyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "imgix",
+      "profileUrl": "https://unsplash.com/@imgix?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:32.604Z",
+    "publishedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "slug": "20260702-10",
+    "headline": "Google Gemini 3.5 Flash 発表、エージェント向けで従来モデルを凌駕",
+    "lead": "Google が最新 AI モデル『Gemini 3.5 Flash』をリリース。検索とエージェント機能の既定モデルに。",
+    "body_markdown": "Google は、AI フラグシップモデルの最新版『Gemini 3.5 Flash』をリリースした。Flash シリーズ史上、最も高い基本性能を備えたモデルで、エージェント機能（自律的にタスク実行する AI）とコード生成に特に強い。\\n\\n**パフォーマンス：**\\nGemini 3.5 Flash は、より大型のフラグシップモデルと同等の知能を備えながら、Flash シリーズらしい高速性を保つ。困難なコーディングおよびエージェント・ベンチマークで Gemini 3.1 Pro を凌駕：\\n- Terminal-Bench 2.1：76.2%\\n- GDPval-AA：1656 Elo\\n- MCP Atlas：83.6%\\n\\n**検索への統合：**\\nGoogle は Search に Gemini 3.5 Flash を既定モデルとして統合。Search の大改革の一環で、同社は「Search ボックスの過去 25 年間で最大のアップグレード」を実施。AI ツールがダイレクトに指先にある状態を実現した。\\n\\n**エージェント機能の拡大：**\\nGoogle AI Pro・Ultra サブスクライバー向けに『Information Agents』を夏場にリリース予定。Search 内で予約機能（ローカル経験・サービス）など広範なタスク対応予定。\\n\\n**Workspace 統合強化：**\\n- Drive：『Organize my files』機能。散在ファイルを最適フォルダに自動分類、または関連項目をグループ化\\n- Google Pics：最新 Nano Banana モデルで構築した画像生成・編集ツール。オブジェクト分割、テキスト編集、言語翻訳に対応。Workspace との統合\\n\\n**市場インパクト：**\\nこれまで AI エージェント機能は技術的課題から、ChatGPT や Claude の独占に近かった。Google がフラグシップ・エージェント機能を Search の中核に統合することで、利用者層（Search ユーザー）の拡大が期待される。",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI",
+      "検索",
+      "エージェント"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+    "importance": 4,
+    "image_query": "artificial intelligence code programming",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1694903110330-cc64b7e1d21d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwY29kZSUyMHByb2dyYW1taW5nfGVufDF8MHx8fDE3ODI5NDExMzN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Igor Omilaev",
+      "profileUrl": "https://unsplash.com/@omilaev?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:33.504Z",
+    "publishedAt": "2026-07-01T18:15:00.000Z"
+  },
+  {
+    "slug": "20260702-11",
+    "headline": "米国、家庭用蓄電池の導入が過去最高　電気代上昇が需要牽引",
+    "lead": "米国の 2026 年第1四半期、家庭用バッテリー導入が記録的高水準。電気代の上昇と AI 需要がドライブ。",
+    "body_markdown": "米国は 2026 年第1四半期（Q1）に、家庭用蓄電池の導入量が記録を更新。ユーティリティスケール、住宅用、商用・産業用の全カテゴリーで、季節的に鈍い Q1 としては過去最高を達成した。\\n\\n**導入規模：**\\nQ1 の導入量は 3.3GW / 8.4GWh。累積の米国エネルギー貯蔵能力は、2031 年までに 200GW / 655GWh に到達する見通し。これは現在比で 4 倍の増加である。\\n\\n**電気代の上昇がドライブ：**\\n米国の平均電気料金は 4 年で 17% 上昇。2022 年の 15.04¢/kWh から 2026 年の 17.65¢/kWh へ。直近では 2026 年 4 月時点で 13.88¢/kWh（全米平均）。上昇要因は燃料費インフレ、グリッド近代化投資、データセンター需要急増、EV 普及。\\n\\n**バッテリーコスト：**\\n2026 年の家庭用バッテリーシステムは 9,000〜18,000 ドルの範囲。バッテリー本体が総コストの 45〜55% を占め、残りは施工・設計・パーミット。\\n\\n**採用動機：**\\n多くの州で太陽光発電の電力売却価格（グリッド買取価格）が低下している。平均電気料金が 17¢/kWh に上昇した状況では、自家蓄電による『自給自足』が経済的に成り立つようになった。すなわち、電力網への依存を減らし、エネルギー自立度を高めたいという利用者の需要が高まっている。\\n\\n**AI データセンターとの競争：**\\nただし、DRAM・HBM 市場では AI 企業（OpenAI、Meta）が大量購買。これが記憶体市場全体を逼迫させ、バッテリー価格にも波及。家庭用蓄電池と大型 AI インフラが、半導体・部品市場で競合関係に陥っている実態がある。",
+    "tags": [
+      "エネルギー",
+      "蓄電池",
+      "再生可能エネルギー",
+      "電気料金",
+      "AI"
+    ],
+    "section": "テクノロジー",
+    "source": "Ars Technica",
+    "link": "https://arstechnica.com/science/2026/07/us-home-battery-installations-hit-record-high-in-early-2026/",
+    "importance": 3,
+    "image_query": "solar battery panel renewable energy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:33.504Z",
+    "publishedAt": "2026-07-01T19:11:15.000Z"
+  },
+  {
+    "slug": "20260702-12",
+    "headline": "ポルトガル、極端な熱波に見舞われ　リスボンなど赤色警報発令",
+    "lead": "ポルトガルが 7 月初旬に猛烈な熱波。リスボン地域など複数地区で赤色警報。最高気温 40℃超が 1 週間以上継続。",
+    "body_markdown": "ポルトガルは 7 月初旬、極めて異常な熱波に見舞われている。ポルトガル海洋大気研究所（IPMA）はリスボン、セトゥーバルの両地区に赤色（最高レベル）警報を発令。期間は木曜日深夜から金曜日終日まで、および土曜日も継続予定。コイムブラとレイリアも同様に赤色警報下。\\n\\n**気温予報：**\\n全土で最高気温が 35°C を超える。内陸・南部地域では 40°C 超。アレンテージョ地域では 43°C、一部では 44°C に達する可能性。夜間最低気温は 24〜28°C。\\n\\n**継続期間と広がり：**\\nこの熱波の特筆すべき特徴は『継続期間の長さ』。少なくとも 1 週間以上続く見通し。カステロブランコ、ポルターレグレ、エヴォラ、ベージャの地区はオレンジ警報（第2レベル）から、金曜日に全土へ拡大予定。\\n\\n**紫外線指数：**\\nIPMA は、非常に高い〜極度の紫外線指数（UVI）を警告。全地区で UVI 10〜11 レベル（極度相当）。屋外活動時の日焼け止め・帽子・サングラスが必須。\\n\\n**ヨーロッパ全体のトレンド：**\\nこの熱波は、ポルトガルが 6 月末の『ヨーロッパ全体の熱波』から相対的に被害を逃れていたこともあり、この時期での大規模発生となった。気候変動による極端気象の『後ずれ現象』が観測されている。",
+    "tags": [
+      "気候変動",
+      "熱波",
+      "ポルトガル",
+      "極端気象",
+      "警報"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-portugal-braces-high-temperatures.html",
+    "importance": 3,
+    "image_query": "heat wave summer sun thermometer temperature",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:33.504Z",
+    "publishedAt": "2026-07-01T20:00:06.000Z"
+  },
+  {
+    "slug": "20260702-13",
+    "headline": "英国 FCA、暗号資産規制を最終化　ステーブルコイン資本要件 1%に軽減",
+    "lead": "英国金融行為機構（FCA）が暗号資産の包括的規制枠組みを最終決定。企業向けの厳格な基準と、業界との調整が特徴。",
+    "body_markdown": "英国の金融行為機構（FCA）は 6 月 30 日、暗号資産（crypto assets）の包括的規制フレームワークを最終決定した。この枠組みは、マネロン対策を超えた「完全な健全性（prudential）・行為（conduct）・オペレーショナル・レジリエンス基準」を企業に要求する歴史的な規制となる。\\n\\n**資本要件の調整：**\\nステーブルコイン企業に対する最初の資本要件は 2% だったが、業界の強い異議により 1% に軽減された。これは発行済みステーブルコインの総価値に対する水準。\\n\\n**健全性基準：**\\n暗号資産企業は、以下を含む完全な財務レジリエンス要件に適合する必要がある：\\n- 資本適否（capital adequacy）\\n- ストレステスト（年 1 回、企業独自設計モデルで FCA に報告）\\n- 流動性基準\\n- オペレーショナル・リスク評価\\n\\n**ストレステスト：**\\nUK 銀行（Bank of England）が具体的シナリオを指定するのに対し、暗号資産企業は内部リスク評価に基づいて自社でテストシナリオを設計。その結果を毎年 FCA に提出。\\n\\n**導入スケジュール：**\\n- 企業申請期間：2026 年 9 月 30 日〜2027 年 2 月 28 日\\n- 既存の AML 登録は自動移行しない（再申請必要）\\n- 新規則発効：2027 年 10 月 25 日\\n\\n**市場への意味：**\\nこの規制は『暗号資産を銀行と同等のレジリエンス基準に統合』することを意図。英国が「グローバルな暗号資産ハブ」の地位を狙う一方で、企業には厳格な基準を課す二重戦略である。",
+    "tags": [
+      "暗号資産",
+      "規制",
+      "FCA",
+      "英国",
+      "ステーブルコイン"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/technology/2026/jun/30/crypto-firms-sweeping-new-rules-uk-fca-regulator",
+    "importance": 3,
+    "image_query": "cryptocurrency blockchain finance regulation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:33.504Z",
+    "publishedAt": "2026-06-29T23:01:31.000Z"
+  },
+  {
+    "slug": "20260702-14",
+    "headline": "英国教師給与 6.6% 引き上げ決定　学校財政に懸念",
+    "lead": "英国政府、教員給与を 2 年間で 6.6% 引き上げ。9 月から 3.5%、来年さらに 3%。ただし学校予算の約 3 分の 1 を自己負担。",
+    "body_markdown": "英国政府は教員給与の大幅な引き上げを決定した。School Teachers' Review Body（STRB）の勧告を受け入れ、2 年間で 6.6% の昇給を実施。同時に £1.8 billion の学校予算増額も発表した。しかし、その資金のうち約 3 分の 1 を学校側が効率化により自己負担する必要があり、学校経営陣から懸念の声が上がっている。\\n\\n**給与の詳細：**\\n- 2026 年 9 月以降：3.5% 引き上げ\\n- 2027 年 9 月以降：さらに 3%\\n- 平均教員給与：現在から 52,800 ポンド超（9 月）、54,400 ポンド超（2027 年 9 月）\\n\\n**学校予算の負担：**\\nBridget Phillipson 教育相は「政府は大部分の給与上昇費用をカバーする」と述べたが、教育労組は「学校が給与増の約 3 分の 1 を既存予算から充当する必要がある」と指摘。政府は 1 パーセンテージポイント分は「効率化による縮減」で学校が吸収することを期待している。\\n\\n**背景と課題：**\\nUK の教員不足は深刻。給与の低さと労働条件の悪化で、多くの教員が職を離れている。政府はこの給与引き上げで人材確保を狙う。一方、既に予算が逼迫している学校は、支援職員の削減やプログラム縮小で対応する可能性が高く、教育現場のさらなる困窮を招く懸念がある。\\n\\n**労組の評価：**\\n労組は「政府の決定を歓迎するが、給与引き上げの 3 分の 1 を学校負担にさせるのは、実質的には『政府負担減』である」と批判。教員給与の完全な政府負担と、それに伴う学校予算全体の復興を要求している。",
+    "tags": [
+      "教育",
+      "給与",
+      "教員",
+      "英国",
+      "労働"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/education/2026/jul/01/teachers-pay-rise-schools-england",
+    "importance": 3,
+    "image_query": "teacher classroom education school learning",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:33.504Z",
+    "publishedAt": "2026-07-01T16:29:40.000Z"
+  },
+  {
+    "slug": "20260702-15",
+    "headline": "米国、NAFTA 後継『USMCA』長期更新を拒否　年次レビュー制に",
+    "lead": "トランプ政権が 16 年間の USMCA 自動更新を拒否。年次更新制に変更し、カナダ・メキシコとの協議継続へ。",
+    "body_markdown": "米国は、北米貿易協定『USMCA（米国・メキシコ・カナダ協定）』の 16 年間の長期更新を承認しない決定を下した。同協定の自動更新期限が 2026 年 7 月 1 日（水曜）で、米国はこの期限までに 3 国による共同決定を求めていた。結果として、協定は 2036 年の失効を待つのではなく、年次レビュー制に移行する。\\n\\n**背景：**\\nトランプ政権は、同協定に対して『米国の貿易赤字が大きすぎる』という長年の主張を続けている。USMCA は 2020 年の発効以来、メキシコとカナダに有利な条件が多いと政権は考えており、交渉の再開を狙っている。\\n\\n**協定の現状：**\\n- 発効日：2020 年 7 月 1 日\\n- 本来の失効予定：2036 年\\n- 現在の状況：年次レビュー制に変更。毎年、3 国が継続の是非を判断する形式。\\n\\n**政治的意図：**\\nトランプが『自身が 2016 年にやり遂げた『ディールメイキング』（NAFTA から USMCA へ）を再び『改善』したい』という政治的動機がうかがわれる。ただし、カナダとメキシコの同意が必須のため、交渉は難航が予想される。\\n\\n**経済への影響：**\\nUSMCA は北米地域で年間約 $1.3 trillion の貿易を支えている。年次レビュー制になることで、企業は『協定の永続性』に不安を持つようになり、中長期の投資決定に慎重になる可能性がある。特にメキシコの製造業やカナダの農業・林業に影響が波及する見込み。",
+    "tags": [
+      "貿易",
+      "USMCA",
+      "北米",
+      "トランプ",
+      "交渉"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/us-news/2026/jul/01/trump-usmca-trade-treaty",
+    "importance": 4,
+    "image_query": "trade agreement business handshake negotiation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1638262052640-82e94d64664a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHx0cmFkZSUyMGFncmVlbWVudCUyMGJ1c2luZXNzJTIwaGFuZHNoYWtlJTIwbmVnb3RpYXRpb258ZW58MXwwfHx8MTc4Mjk0MTEzNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Rock Staar",
+      "profileUrl": "https://unsplash.com/@rockstaar_?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:34.524Z",
+    "publishedAt": "2026-07-01T20:09:01.000Z"
+  },
+  {
+    "slug": "20260702-16",
+    "headline": "英国、AI活用で年4日分の時間削減　生産性向上の希望",
+    "lead": "Google UK経済報告により、AI導入で国内労働者は平均週3.7時間削減。年換算で約8日分の時間効率化。",
+    "body_markdown": "Google UK が発表した最新の経済インパクト報告書から、AI 活用による英国の生産性向上の可能性が浮かび上がった。同報告書は、AI が英国経済にもたらす経済的・生産的な潜在力を数値で示すとともに、採用阻害要因も指摘している。\n\n**現在の AI 導入状況：**\nUK の勤労者のうち 82% が職場で AI を使用したことがあると報告。このうち 73% は月 1 回以上の頻度で使用。さらに詳しく見ると：\n- 週 1 回以上：59%\n- 日 1 回以上：28%\n\nすなわち、**UK の就労人口の大多数が既に何らかの形で AI を日常業務に統合している**実態が明かされた。\n\n**時間効率化の実績：**\nGoogle の調査では、ユーザーが Non-user（非利用者）から Intermediate user（中程度利用者）へシフトするために必要な小さな変更を加えると、平均して週 3.7 時間の時間削減が実現される。これは年間換算で 192 時間、つまり 8 営業日分に相当する。\n\n**経済規模の試算：**\nOECD の推計によれば、UK は AI 関連イノベーションから今後 10 年間で £400 billion（約 400 億ポンド）の経済成長を獲得する可能性がある。ただし、この成長の 50% は「労働者が実際に技術を採用するかどうか」に依存しているという条件付きである。\n\n**労働生産性の見通し：**\nOECD は、UK の労働生産性成長が AI により向こう 10 年間で年 0.4〜1.2 パーセンテージポイント上昇する可能性を提示。これは G7 の中で米国に次ぐ水準で、ドイツやフランスを上回る。",
+    "tags": [
+      "AI",
+      "生産性",
+      "英国",
+      "経済",
+      "労働"
+    ],
+    "section": "AI",
+    "source": "Google UK",
+    "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+    "importance": 4,
+    "image_query": "office work productivity technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxvZmZpY2UlMjB3b3JrJTIwcHJvZHVjdGl2aXR5JTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzgyOTQxMTM1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Carl Heyerdahl",
+      "profileUrl": "https://unsplash.com/@carlheyerdahl?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:35.475Z",
+    "publishedAt": "2026-06-30T06:00:00.000Z"
+  },
+  {
+    "slug": "20260702-17",
+    "headline": "NYC、文化予算を記録的拡充　1,171団体へ7,430万ドル配分",
+    "lead": "NYC が FY2026 の文化庁予算で 1 割超の増額決定。1,171の文化団体に対し過去最大規模の補助金を配分。",
+    "body_markdown": "ニューヨーク市は、会計年度 2026（FY2026）の予算案で、文化庁（DCLA）の予算を記録的に拡充することを承認した。市全域の 1,171 の文化組織に総額 7,430 万ドルの助成金を配分することが決まった。これは同市の文化的支援制度として過去最大の規模である。\n\n**予算規模：**\n- DCLA 全体予算：$299.6 million（会計年度 2026）\n- 新規追加予算：$45 million（過去 10 年間で初の実質的基本予算増加）\n- 文化開発基金（CDF）配分：$74.3 million\n\n**配分内容：**\nこれまで文化団体への助成は単年度契約が主流だった。FY2026 からは、受給資格の拡大に伴い、多年度契約（複数年の継続支援）が全団体に適用可能になった。これにより、芸術団体は「安定した長期運営」を計画しやすくなる。\n\n**背景：**\nNYC の文化セクターは、パンデミック後の経営危機が継続。多くの小型劇場や美術館が経営的困難に直面している中で、市がこれを支援する動きである。特に、小規模な草根芸術団体（community arts）が受益する構造が強調されている。\n\n**Cultural Stability Fund の導入：**\n市は新たに『Cultural Stability Fund』（文化安定基金）を設立。経営難に陥った芸術組織の緊急支援枠を構想している。",
+    "tags": [
+      "文化",
+      "NYC",
+      "芸術",
+      "予算",
+      "助成"
+    ],
+    "section": "カルチャー",
+    "source": "NYC Department of Cultural Affairs",
+    "link": "https://www.nyc.gov/site/dcla/about/pressrelease/PR-2026-2-26-NYC-Department-of-Cultural-Affairs-Announces-74.3-Million-in-Grants-for-1,171-Cultural-Organizations-Across-the-City.page",
+    "importance": 3,
+    "image_query": "art gallery theater performance culture",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:35.475Z",
+    "publishedAt": "2026-07-01T19:46:18.000Z"
+  },
+  {
+    "slug": "20260702-18",
+    "headline": "Alamo Drafthouse、映画祭未配給作の上映事業化　独立映画を救済",
+    "lead": "映画館チェーン Alamo Drafthouse が『Alamo Exclusives』を立ち上げ。Sundance 等の映画祭で配給されなかった作品を限定上映。",
+    "body_markdown": "映画館チェーン Alamo Drafthouse Cinema は、これまで全国配給を獲得できなかった映画祭入選作品を、限定的に自社スクリーンで上映する新事業『Alamo Exclusives』をスタートさせた。独立系・実験的な映画作品の「救済ルート」として機能する。\n\n**背景：**\n映画祭（Sundance、SXSW、Tribeca、TIFF、Cannes、Berlin など）に入選した作品の多くは、国際的な映画配給会社の関心を引かず、全国劇場公開の機会を失う。このギャップを埋めるべく、Alamo Drafthouse が『一回限りの限定上映』という形式で対応する。\n\n**事業スキーム：**\n- 映画館が直接、映画祭入選作品の監督と交渉\n- 1〜2 週間の限定上映（複数館での並行上映可能）\n- マーケティング・プロモーションを Alamo が主導\n- シアター品質の映写・音響で高品質な上映を提供\n\n**第 1 弾：Butthole Surfers ドキュメンタリー**\nキックオフとなるのは、SXSW で入選した『Butthole Surfers: The Hole Truth and Nothing Butt』（Tom Stern 監督）。伝説的なパンクバンド Butthole Surfers の軌跡を描いたドキュメンタリー。2026 年 7 月 21 日に Alamo Drafthouse で初上映予定。\n\n**業界への波及効果：**\nこの事業モデルは、大型配給会社ではなく、独立系・実験的な映画作品の上映機会を拡大。映像制作者にとって『全国公開は難しくても、心ある映画館での上映は可能』という新たな流通ルートを提供する。",
+    "tags": [
+      "映画",
+      "映画祭",
+      "独立映画",
+      "配給",
+      "Alamo"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/news/alamo-drafthouse-distribution-program-film-festival-movies-1236800106/",
+    "importance": 3,
+    "image_query": "movie theater cinema screen film",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:35.475Z",
+    "publishedAt": "2026-07-01T19:00:22.000Z"
+  },
+  {
+    "slug": "20260702-19",
+    "headline": "Twitter 投稿が新種発見　福岡のハチが中国からの未記録種だった",
+    "lead": "Twitter に投稿された福岡発のハチの写真から、新種『Eupelmus curvator』を確認。SNS が市民科学の『目』となった。",
+    "body_markdown": "SNS 上の一枚の投稿が、生物学的な新発見をもたらした。福岡県で撮影された小さなハチの写真が Twitter で共有され、九州大学の研究チームに指摘されたことがきっかけで、中国にのみ生息すると考えられていた『Eupelmus curvator』（日本国内初記録）が福岡でも生息することが判明した。\n\n**発見の経緯：**\n市民が、カマキリの卵鞘（産卵後の空の卵筒）から羽化するハチを撮影し、Twitter に投稿。九州大学の寄生蜂（hymenoptera）専門家・河野泰裕氏の同僚が、その投稿に気付き、河野氏に DM で転送。\n\n**対象種の詳細：**\nEupelmus curvator は、これまで中国でのみ記録されていた種。個体サイズは非常に小さく（メス 2.2〜3.2mm）、研究の過程で『オスの形態』が初めて科学的に記述された。高度なマクロ写真と焦点深度合成技術を用いて、ハチ体内の微細な器官の詳細画像が撮影され、学術論文として発表された。\n\n**市民科学の潜在力：**\nこの発見は、『GPS 付きスマートフォン + SNS』が市民科学者の『野外調査の目』を急速に拡張していることを示唆している。研究者が直接フィールドに出向く時間や予算は限定的だが、何百万人もの市民が日々、身近な生物を観察・撮影・共有している。その膨大な『目』が、従来は見過ごされていた生物多様性を明らかにする。\n\n**包含性の意義：**\n日本のような生物多様性の高い島国でも、仔細な調査は必ずしも網羅的ではない。市民科学による『偶然の発見』が、科学知識の拡張に貢献する実例となった。",
+    "tags": [
+      "科学",
+      "市民科学",
+      "生物多様性",
+      "SNS",
+      "日本"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-scrolling-science-twitter-wasp-fukuoka.html",
+    "importance": 3,
+    "image_query": "insect wasp nature microscope biology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:35.475Z",
+    "publishedAt": "2026-07-01T20:20:09.000Z"
+  },
+  {
+    "slug": "20260702-20",
+    "headline": "イングランド、6月気温記録更新　熱帯夜多発で観測史上最高",
+    "lead": "イングランドが 6 月の平均気温で観測史上最高を更新。1884 年の統計開始以来、初の記録。",
+    "body_markdown": "イングランドは 2026 年 6 月、平均気温が 17.1°C に達し、観測史上最高（1884 年統計開始以来）を記録した。前年（2025 年）の前回記録を更新し、長期平均を約 3°C 上回った。気象庁（Met Office）が 7 月 1 日に発表した。\n\n**記録の詳細：**\n- イングランド平均気温：17.1°C（観測史上最高）\n- UK 全体：第 2 位の暖かさ（Wales も同様）\n- 6 月月間最高気温（当月記録）：37.7°C（ノーフォーク州で観測）\n\n**特筆すべき特徴『熱帯夜』の頻出：**\n本月の極めて異常な特徴は、「夜間気温が異常に高かった」こと。日中の気温上昇は昨年も見られたが、夜間の冷え込みが失われ、真夜中でも 24〜28°C 程度に保たれるという『熱帯夜』が連日発生。\n\n結果として：\n- UK 全体の 6 月月平均最低気温：観測史上最高\n- イングランドの 6 月月平均最低気温：観測史上最高\n- Wales の 6 月月平均最低気温：観測史上最高\n\n**極端気象警報の発令：**\n気象庁は 2021 年に『赤色警報（Extreme Heat Warning）』制度を導入。今年 6 月は初めて、この赤色警報が 3 日連続で発令される事態となった。\n\n**グローバル気候変動との関連：**\nこの現象は、大西洋と北極域の高気圧配置が、ジェット気流を押し上げ、チベット高気圧（アジア）とアゾレス高気圧（大西洋）が接近・融合した結果。結果として、北大西洋から西ヨーロッパ全域が強力な熱ドーム（heat dome）に覆われた。",
+    "tags": [
+      "気候変動",
+      "気温",
+      "熱波",
+      "イングランド",
+      "極端気象"
+    ],
+    "section": "サイエンス",
+    "source": "Met Office",
+    "link": "https://phys.org/news/2026-07-england-warmest-june-met-office.html",
+    "importance": 3,
+    "image_query": "heat summer sun thermometer weather",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:35.475Z",
+    "publishedAt": "2026-07-01T20:20:06.000Z"
+  },
+  {
+    "slug": "20260702-21",
+    "headline": "ゲーム機値上げ加速、AI が導火線　DRAM・HBM価格高騰で",
+    "lead": "PlayStation・Xbox・Nintendo Switch の全機が値上げ。AI データセンターの部品買い占めが原因。",
+    "body_markdown": "ゲーム機メーカー 3 社（Sony・Microsoft・Nintendo）が相次いで家庭用ゲーム機の価格を引き上げると発表した。価格上昇の根本原因は『AI 企業による半導体・メモリの大量購買』。データセンター向けの高帯域幅メモリ（HBM）と DRAM が世界的に逼迫し、ゲーム機の部品原価が上昇したのが直接的な要因である。\n\n**機種別値上げ幅：**\n- PlayStation 5：100 ドル上昇（$549.99 → $649.99）\n- Xbox Series S/X：100～150 ドル上昇\n- Nintendo Switch 2：50 ユーロ上昇（9 月 1 日より）\n\n全機種で、2020 年初代発売から 6 年後の値上げ決定。従来は機種が経年で下落するのが常であり、逆方向の値上げは極めて異例である。\n\n**メモリ価格の上昇トレンド：**\nOpenAI、Meta、Google などの AI 企業が、DRAM・HBM の生産量の大部分を長期契約で確保。結果として、汎用メモリ（ゲーム機・PC・スマートフォン向け）の供給が逼迫。Jefferies Equity Research の試算では：\n- Q3 2026：メモリ価格さらに 40～50% 上昇予想\n- Q4 2026：さらに 30～40% の上昇予想\n- 2027：さらに大幅な値上げ予想\n\n**コスト構成の激変：**\nゲーム機製造原価に占めるメモリ（RAM・ストレージ）の割合：\n- 従来（2020 年）：~15%\n- 現在（2026 年）：>35%\n\nメモリだけで全コストの 3 分の 1 を占める構図が出現。\n\n**次世代機への波及：**\nSony の PlayStation 6 の想定 BOM（部品代）は既に豪ドル換算で約 $300 の上昇を記録。業界アナリストの予想では、PS6 の小売価格は約 $1,600 豪ドル（日本円で約 150,000 円相当）に達する可能性も。\n\n**業界への影響：**\nゲーム機市場全体での『コンソール・デフレーション（値上げ）』が、消費者の買い換え需要を冷やす可能性あり。ゲーム業界は、AI データセンター競争の『巻き添え』被害を受けている形。",
+    "tags": [
+      "ゲーム",
+      "価格",
+      "AI",
+      "半導体",
+      "メモリ"
+    ],
+    "section": "カルチャー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/games/2026/jul/01/pushing-buttons-ai-datacentres-memory-console-prices-sony-playstation-xbox",
+    "importance": 4,
+    "image_query": "gaming console playstation xbox nintendo",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1612036781124-847f8939b154?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBjb25zb2xlJTIwcGxheXN0YXRpb24lMjB4Ym94JTIwbmludGVuZG98ZW58MXwwfHx8MTc4Mjk0MTEzNnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Erik Mclean",
+      "profileUrl": "https://unsplash.com/@introspectivedsgn?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:36.305Z",
+    "publishedAt": "2026-07-01T14:00:37.000Z"
+  },
+  {
+    "slug": "20260702-22",
+    "headline": "Google Home Speaker、夏に発売開始　Gemini 対応ハード第1弾",
+    "lead": "Google が Gemini 対応スマートスピーカー『Home Speaker』の発売を 6月25日より開始。$99.99 で入手可能。",
+    "body_markdown": "Google は、Gemini AI アシスタント対応の専用スマートスピーカー『Google Home Speaker』の発売をスタートさせた。当初は「Spring 2026」での発売が予定されていたが、Gemini Home 機能が完全に準備できるまで遅延し、結果として夏シーズン（6月 25 日）の発売となった。米国での提供価格は $99.99。\n\n**開発遅延の理由：**\nGoogle が明示した理由は、「Gemini がスピーカー向けに十分な準備ができていなかった」こと。新しいハードウェアを『機能不完全な状態』で発売するのではなく、既存デバイスとオプトインユーザーに対して機能テストを実施し、改善してから正式発売に臨むという判断だった。\n\n**背景：Google Assistant の苦境：**\n過去数年、Google は AI 関連への投資集中の結果、既存の Google Assistant が機能低下。ユーザーは音声コマンド失敗や「Sorry, I didn't understand」というエラーレスポンスに悩まされていた。Gemini への転換期に、ハードウェア側の機能不足がさらに顕在化するリスクがあった。\n\n**Home Speaker の仕様：**\n- AI アシスタント：Gemini for Home\n- 自然言語理解：高度な推論機能で、定型句ではなく自然な話し方に対応\n- 価格：$99.99（初代 Home Pod との対抗製品）\n\n**市場への意義：**\nスマートスピーカー市場は、Amazon Alexa と Apple Siri に支配されてきた。Google が Gemini 対応の専用ハードウェアを投入することで、三者競争がより熾烈になる可能性がある。ただし、Google Assistant の不安定性が解消されていない場合、ユーザー信頼の回復に時間がかかる可能性もある。",
+    "tags": [
+      "Google",
+      "Gemini",
+      "スマートスピーカー",
+      "AI",
+      "音声"
+    ],
+    "section": "AI",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2200116/google-home-speaker-review/",
+    "importance": 3,
+    "image_query": "smart speaker home device google",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:36.305Z",
+    "publishedAt": "2026-07-01T12:00:00.000Z"
+  },
+  {
+    "slug": "20260702-23",
+    "headline": "英国、新移民法案を発表　Article 8 の基準を厳格化へ",
+    "lead": "UK 政府が『移民・難民法案 2026』を発表。欧州人権条約の『家族生活の権利』条項の適用を狭める改革案。",
+    "body_markdown": "英国政府は『Immigration and Asylum Bill 2026』を議会に提出した。本法案は、欧州人権条約（ECHR）の Article 8（私生活・家族生活の保護）に関する規定を大幅に厳格化し、外国人の強制退去を容易にする内容を含む。\n\n**Article 8 改正の要点：**\nこれまで「家族」の定義は拡張的に解釈され、遠い親戚や事実婚パートナーも保護対象になりうた。改正案では「『家族』の定義を大幅に狭める」：\n- 夫婦、親子（18 歳未満）のみを基本的保護対象に\n- その他の親戚関係は「例外的状況」下でのみ認める\n\n**外国人犯罪者の強制退去基準の引き上げ：**\nこれまで犯罪を理由とした強制退去を避けるため、Article 8 を根拠に「家族生活が破壊される」と主張するケースが多かった。改正案は：\n- 外国人犯罪者が Article 8 を根拠に強制退去を阻止できるのは「最も例外的な状況」のみに限定\n- 「家族生活破壊」の判断基準を極めて狭く解釈する枠組みを法定\n\n**入国ビザ申請ルール変更：**\n従来、海外在住の親族が UK 在住のスポンサーに支援されて来英する際、海外で入国査証（Entry Clearance）を申請するのが慣例。改正案では：\n- 入国査証申請をスポンサーが UK 国内で行う方式に変更\n- Article 8 を根拠とする申請にも同ルール適用\n\n**強制退去の公益性重視：**\nClause 20 により、指定された強制退去対象者については、退去が「公益に適合する」と推定。退去が「明らかに過度である」証拠がない限り、強制退去が実行される。\n\n**法案の背景と議論：**\n政府は『難民危機』を理由に、強制退去と厳格な入国管理を掲げている。一方、人権団体は「Article 8 の過度な制限は人権侵害に該当する」と批判。EU 離脱後の人権政策のあり方をめぐって、UK 国内で深い分裂が見られる。",
+    "tags": [
+      "移民",
+      "人権",
+      "法律",
+      "英国",
+      "難民"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/commentisfree/2026/jul/01/the-guardian-view-on-yet-another-immigration-bill-law-as-performance-is-a-failing-model",
+    "importance": 3,
+    "image_query": "law justice courthouse gavel",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-01T21:25:36.305Z",
+    "publishedAt": "2026-07-01T18:03:48.000Z"
+  },
+  {
     "slug": "20260701-14",
     "headline": "OpenAI、GeneBench-Proで生物学AI評価の新基準確立",
     "lead": "OpenAIがゲノミクス・定量生物学向けベンチマークGeneBench-Proを発表、最先端AIの現実的課題への対応能力を評価する。",
