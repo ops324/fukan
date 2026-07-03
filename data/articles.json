@@ -1,5 +1,397 @@
 [
   {
+    "slug": "20260703-11",
+    "headline": "ベネズエラ地震、死者2595人に　百年ぶりの大規模地震",
+    "lead": "南米ベネズエラで6月下旬に発生したマグニチュード7超の地震で、死者が2595人を超え、1世紀以上ぶりの大規模災害となった。",
+    "body_markdown": "南米ベネズエラで6月24日に発生した連続地震により、死者が2595人、負傷者が1万2000人を超える被害が生じた。最大の地震はマグニチュード7.5で、首都から西約293キロのユマーレ近郊を震源とした。同国では1900年のサン・ナルシソ地震以来、126年ぶりの規模となる。\n\n地震直後から救助活動が続いており、8日目に建物の地下に閉じ込められていた生存者が救出されるなど、奇跡的な救助劇も報告されている。一方で、約5万人がいまだ行方不明とみられており、救助活動が難航している。インフラも大きな被害を受け、水や食料の供給網が途絶した地域も多い。\n\nベネズエラは経済危機下にあり、医療体制や建築基準が脆弱な地域が多いため、被害の全容把握が進まず、死者数がさらに増加する可能性もある。国際的な支援の動きも始まっており、赤十字など人道支援機関が救援活動に当たっている。",
+    "tags": [
+      "ベネズエラ",
+      "地震",
+      "自然災害",
+      "人道支援",
+      "南米"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/03/venezuela-earthquakes-death-toll-rises-rescue-efforts-continue.html",
+    "importance": 5,
+    "image_query": "earthquake disaster rubble rescue",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1641213131995-06e2cf0790d8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxlYXJ0aHF1YWtlJTIwZGlzYXN0ZXIlMjBydWJibGUlMjByZXNjdWV8ZW58MXwwfHx8MTc4MzA3MDk5Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sarah Crego",
+      "profileUrl": "https://unsplash.com/@fromsarahtophotography?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:52.292Z",
+    "publishedAt": "2026-07-03T03:46:27.000Z"
+  },
+  {
+    "slug": "20260703-12",
+    "headline": "米国の猛烈な熱波、電力網が危機的状況に　停電の危険",
+    "lead": "米国北東部を襲う異常な熱波で電力需要が過去最高水準に達し、大規模停電のリスクが高まっている。",
+    "body_markdown": "米国が30州の1億6000万人以上を襲う異常な熱波の影響で、電力網が史上最高水準の需要に直面している。気温は摂氏40度超に達する見通しで、米国エネルギー省は初めて北東部を中心とした最大規模の電力広域運用機関PJM管区の全域に「緊急事態」を宣言した。\n\nPJMは7月1日夜の最大需要を166.3ギガワットと予測。これは2006年の過去最高記録を上回り、深刻な供給不足のリスクを指摘している。エネルギー省は連邦電力法202条(c)項に基づき緊急命令を発令し、予備発電所の稼働やバックアップ電源の投入を承認。これまで回避してきた大規模停電も現実化する可能性がある。\n\nAI産業の電力需要急増も背景にあり、従来型インフラの脆弱性が露呈。PJMは需要対応プログラムの発動や電圧低下など段階的な対応をとるが、対応不足の場合は計画停電に至る恐れがある。7月4日独立記念日の連休期間と重なり、輸送・通信への影響も懸念される。",
+    "tags": [
+      "熱波",
+      "電力網",
+      "エネルギー",
+      "米国",
+      "気候変動"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/03/extreme-heat-us-power-grids-july-4-travel.html",
+    "importance": 4,
+    "image_query": "heat wave thermometer power lines",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1606901900840-f3dba75bcd47?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxoZWF0JTIwd2F2ZSUyMHRoZXJtb21ldGVyJTIwcG93ZXIlMjBsaW5lc3xlbnwxfDB8fHwxNzgzMDcwOTkzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Yuan Yang",
+      "profileUrl": "https://unsplash.com/@jack_young022?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:53.234Z",
+    "publishedAt": "2026-07-03T08:06:40.000Z"
+  },
+  {
+    "slug": "20260703-13",
+    "headline": "テスラFSD運転の死亡事故、過失致死で逮捕　加速異常の疑い",
+    "lead": "テスラの自動運転システム「FSD」を使用中の事故で、テキサス州の男性が過失致死罪で逮捕された。運転者が意図的に加速を求める検索をしていた形跡も。",
+    "body_markdown": "テキサス州カティの住宅に突入したテスラ・モデル3の事故で、運転手マイケル・バトラー（44歳）が過失致死罪で逮捕された。事故は6月19日に発生し、自宅内にいた女性マーサ・アビラ氏が殺害された。\n\nバトラーは事故時にFSD（完全自動運転）機能を使用していたと供述したが、テスラのAI責任者は異なる主張をしている。データ分析によれば、バトラーはアクセルペダルを100％まで踏み込み、住宅地で時速73マイル（約117キロ）に加速。テスラのシステムログでは、バトラーが直前に手動操作に切り替えたことが記録されている。\n\nさらに調査で、バトラーが事故数週間前にスマートフォンで「テスラFSD、アグレッシブでない」「テスラFSD、2026モデル、アグレッシブでない」と複数回検索していたことが判明。バトラーは保釈金15万ドルで勾留されており、NHTSA（米国道路交通安全局）とNTSB（米国運輸安全委員会）が捜査を進めている。",
+    "tags": [
+      "テスラ",
+      "自動運転",
+      "FSD",
+      "死亡事故",
+      "交通安全"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/transportation/961161/tesla-fsd-katy-tx-manslaughter-charges",
+    "importance": 4,
+    "image_query": "autonomous vehicle car accident",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1713623311317-d3c43a4be4cf?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhdXRvbm9tb3VzJTIwdmVoaWNsZSUyMGNhciUyMGFjY2lkZW50fGVufDF8MHx8fDE3ODMwNzA5OTR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Anthony Maw",
+      "profileUrl": "https://unsplash.com/@anthonymaw?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:54.334Z",
+    "publishedAt": "2026-07-02T22:09:33.000Z"
+  },
+  {
+    "slug": "20260703-14",
+    "headline": "173年の歴史に幕　ハリファックス銀行ブランド廃止、ロイズに統合へ",
+    "lead": "英国の老舗金融機関ハリファックスが173年の歴史に終止符を打ち、親会社ロイズ銀行への統合が決定。支店は2027年中に段階的に転換される。",
+    "body_markdown": "英国の大手銀行グループ・ロイズ・バンキング・グループは、傘下のハリファックス・ブランドを廃止することを正式に発表した。1853年の設立以来、173年間営業してきた老舗金融機関が消滅する。\n\nハリファックスはイングランド北部ヨークシャーで建築組合として創設され、英国最大級の住宅ローン機関へと成長した。2009年にロイズが親会社となった後も、独立したブランドとして存続してきた。しかし経営統合と事業の簡素化を理由に、2027年を通じて段階的にロイズ・ブランドへの転換を実施する。\n\n顧客への影響は限定的で、口座番号や支店コード、預金保護制度の適用は変わらない。従業員約3000人が勤務するハリファックス・タウンセンターの本部オフィスは維持され、最近の投資（約1億1600万ポンド）が無駄にならない配慮がされている。人員削減も予定されていないが、老舗金融ブランドの消滅は英国金融史の転換点として象徴的な出来事である。",
+    "tags": [
+      "ハリファックス",
+      "銀行統合",
+      "ロイズ",
+      "ブランド廃止",
+      "英国経済"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/jul/01/halifax-to-disappear-from-uk-high-street-as-lloyds-axes-bank-brand-after-173-years",
+    "importance": 4,
+    "image_query": "bank building financial institution",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1616803140344-6682afb13cda?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxiYW5rJTIwYnVpbGRpbmclMjBmaW5hbmNpYWwlMjBpbnN0aXR1dGlvbnxlbnwxfDB8fHwxNzgzMDcwOTk1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jonathan Cooper",
+      "profileUrl": "https://unsplash.com/@theshuttervision?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:55.461Z",
+    "publishedAt": "2026-07-01T11:01:33.000Z"
+  },
+  {
+    "slug": "20260703-15",
+    "headline": "ジェイムズ・ウェッブ、宇宙初期の銀河を次々発見　理論を覆す",
+    "lead": "ジェイムズ・ウェッブ宇宙望遠鏡がビッグバン後わずか2〜8億年の時期に、予想外に大規模な銀河や複数銀河の衝突を検出。宇宙進化のモデルが大きく修正を迫られている。",
+    "body_markdown": "ジェイムズ・ウェッブ宇宙望遠鏡（JWST）の2026年の観測成果により、宇宙初期における銀河形成の理論的予測が根本的に見直されることになった。\n\nウェッブはビッグバン後わずか2億8000万年の時期に存在する輝く銀河MoM-z14を確認。従来の理論が予測していた数百倍の明るさを持つ銀河が、初期宇宙に予想以上に多数存在することが明らかになった。さらに、ビッグバン後8億年の時期には、5つ以上の銀河が密集状態で衝突する「ウェッブ・クインテット」と呼ばれるシステムも検出された。こうした銀河相互作用が、科学者たちが想定していたより遥かに早い段階で生じていた。\n\nさらに驚くべき発見として、ビッグバン後20億年以内に形成された巨大銀河で、回転を持たないものも検出された。こうした特性は通常、銀河が十分に進化した後期宇宙でのみ見られるはずである。また、テンタクルのような長いガスの流れを持つ「クラゲ銀河」も初期宇宙で観測され、銀河集団内での動的プロセスが初期段階から活発であったことを示唆している。これらの発見により、銀河形成モデルの大規模な修正が必然的となっている。",
+    "tags": [
+      "ジェイムズウェッブ",
+      "宇宙望遠鏡",
+      "銀河",
+      "天文学",
+      "宇宙初期"
+    ],
+    "section": "サイエンス",
+    "source": "Quanta",
+    "link": "https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/",
+    "importance": 4,
+    "image_query": "space telescope galaxy universe",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzcGFjZSUyMHRlbGVzY29wZSUyMGdhbGF4eSUyMHVuaXZlcnNlfGVufDF8MHx8fDE3ODMwNzA5OTZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Shot by Cerqueira",
+      "profileUrl": "https://unsplash.com/@shotbycerqueira?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:56.486Z",
+    "publishedAt": "2026-07-02T14:57:31.000Z"
+  },
+  {
+    "slug": "20260703-16",
+    "headline": "Meta、AI開発の加速が予想以上に遅れ　ザッカーバーグが認める",
+    "lead": "メタのザッカーバーグCEOが社内タウンホールで、大規模な組織改編と巨額投資にもかかわらずAIエージェント開発が期待通り進んでいないと明かした。",
+    "body_markdown": "メタのマーク・ザッカーバーグ会長兼CEOは、従業員向けの社内会議で、AI開発の進捗が想定より遅くなっていることを認めた。メタは最近の大規模な組織改編で従業員の10％をカットし、さらに7000人をAI関連プロジェクトに配置転換した上、2026年の総資本支出として最大1450億ドルをAIインフラに投入する計画を立てている。\n\nしかし、ザッカーバーグは過去4ヶ月間の開発成果について「期待したような加速が実現しなかった」と述べた。同社が投資した新しい組織構造による効果も予想より限定的で、大規模投資の見返りが短期的には現れていない状況を示唆している。\n\nただし、ザッカーバーグは向こう3〜6ヶ月以内に、AI投資の効果が本格的に顕在化するとの見通しも示した。メタはAIエージェント開発を将来の事業中核と位置づけており、大型投資を継続する姿勢は変わっていない。競合するアンスロピックやOpenAIとの開発競争が激化する中、投資効率化と開発スピード向上が急務となっている。",
+    "tags": [
+      "Meta",
+      "AI開発",
+      "AI エージェント",
+      "組織改編",
+      "テック企業"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+    "importance": 4,
+    "image_query": "artificial intelligence technology company",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1781029711378-e17c0c6bd0d1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neSUyMGNvbXBhbnl8ZW58MXwwfHx8MTc4MzA3MDk5Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Euronewsweek Media",
+      "profileUrl": "https://unsplash.com/@euronewsweek?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:57.199Z",
+    "publishedAt": "2026-07-02T23:38:10.000Z"
+  },
+  {
+    "slug": "20260703-17",
+    "headline": "英国文化相、Xから離脱表明　プラットフォーム大量離脱の兆し",
+    "lead": "英国のリサ・ナンディ文化相が、Xでの虐待とミスインフォメーションを理由にプラットフォームを離脱。政府部門全体の撤退も予定されている。",
+    "body_markdown": "英国のリサ・ナンディ文化・メディア・スポーツ相は、Xプラットフォームからの離脱を宣言した。発表は同プラットフォーム上で行われ、ナンディ氏は「このプラットフォームから離脱する。文化・メディア・スポーツ部門も撤退する」と述べた。\n\nナンディ氏の離脱声明では、プラットフォームが当初の「言論の自由」という設計目標から乖離し、「虐待とミスインフォメーション」の温床となっていることが理由と明記されている。政府高官によるプラットフォーム離脱は象徴的な意味を持つ。イーロン・マスク買収以降、Xでは極右コンテンツやヘイトスピーチの増加、ファクトチェック機能の廃止、内容規制の大幅緩和などが進んでいた。\n\nナンディ氏の部門全体の撤退予定により、英国政府のプラットフォーム戦略転換が加速する可能性がある。EUも同様にX使用の見直しを検討しており、大手公的機関の集団離脱が現実化すれば、プラットフォーム運営に対する実質的なプレッシャーとなるだろう。",
+    "tags": [
+      "X",
+      "ソーシャルメディア",
+      "政治",
+      "言論の自由",
+      "英国"
+    ],
+    "section": "テクノロジー",
+    "source": "Variety",
+    "link": "https://variety.com/2026/digital/news/lisa-nandy-quits-x-uk-culture-secretary-1236801244/",
+    "importance": 4,
+    "image_query": "social media platform digital communication",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1683721003111-070bcc053d8b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBtZWRpYSUyMHBsYXRmb3JtJTIwZGlnaXRhbCUyMGNvbW11bmljYXRpb258ZW58MXwwfHx8MTc4MzA3MDk5OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mariia Shalabaieva",
+      "profileUrl": "https://unsplash.com/@maria_shalabaieva?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:58.221Z",
+    "publishedAt": "2026-07-03T06:58:14.000Z"
+  },
+  {
+    "slug": "20260703-18",
+    "headline": "南仏で大規模山火事、3000人が避難　熱波が引き金",
+    "lead": "フランス南西部の山火事で約3000人が避難命令を受けた。異常高温による乾燥がヨーロッパの山火事シーズンの前倒しを招いている。",
+    "body_markdown": "フランス南西部で大規模な山火事が発生し、約3000人が避難を余儀なくされた。セバスチャン・ルコルニュ首相は、記録的な熱波の直後に出火した初夏の時点での山火事多発を警戒するコメントを発表。気候変動による乾燥条件が、従来の山火事シーズンを前倒しにしている傾向を指摘した。\n\nフランスを含むヨーロッパ全域で、6月を通じた異常高温により土壌の含水量が低下し、山火事のリスクが著しく上昇。今後の夏季を通じ、スペイン、イタリア、ギリシャなど地中海沿岸国でも同様の懸念が増幅している。\n\n欧州森林火災情報システム（EFFIS）によると、ヨーロッパの本格的な山火事シーズンは通常7〜9月だが、今年は6月時点で既に異常な活動が観測されている。気候変動による温暖化と乾燥の複合効果により、山火事の季節化パターンと激甚化が同時に進行している。",
+    "tags": [
+      "山火事",
+      "熱波",
+      "気候変動",
+      "フランス",
+      "自然災害"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-wildfires-rage-southern-france-people.html",
+    "importance": 4,
+    "image_query": "wildfire forest fire smoke landscape",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1615092296061-e2ccfeb2f3d6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx3aWxkZmlyZSUyMGZvcmVzdCUyMGZpcmUlMjBzbW9rZSUyMGxhbmRzY2FwZXxlbnwxfDB8fHwxNzgzMDcwOTk5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Matt Palmer",
+      "profileUrl": "https://unsplash.com/@mattpalmer?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:59.557Z",
+    "publishedAt": "2026-07-03T08:00:02.000Z"
+  },
+  {
+    "slug": "20260703-19",
+    "headline": "日本、熊被害で山岳カメラ大量導入　被害増加を機に対策強化",
+    "lead": "熊による人身被害が急増するなか、日本は山岳地帯に数百台のカメラを設置して、個体群数と行動パターンを把握する全国調査に着手した。",
+    "body_markdown": "日本政府は熊による人身被害の増加に対応するため、全国の山岳地帯に数百台のカメラを設置して野生熊の個体群調査を開始した。この広域的な監視プロジェクトにより、熊の分布、季節的移動パターン、人間との接触リスク地点を詳細に把握する狙いがある。\n\n2026年の熊被害は前年同時期比で著しく増加しており、北海道や本州の山間部での人身事故が報告されている。被害の主な原因は、気候変動による熊の食料（アケビやドングリなど）の生産変動に伴う山麓への下降行動の増加。カメラネットワークの構築により、被害予測とリスク管理の精度向上が期待されている。\n\nこのプロジェクトは単なる被害管理にとどまらず、保全生物学的な知見も蓄積する。熊個体の識別、行動圏の推定、気候変動への応答パターンなどが詳細に記録され、中長期的な個体群管理と人間社会との共存戦略の策定に活用される予定。",
+    "tags": [
+      "熊",
+      "野生動物",
+      "自然保護",
+      "日本",
+      "被害対策"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-japan-deploys-cameras-mountains-surge.html",
+    "importance": 3,
+    "image_query": "wildlife camera bear forest animal",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:59.557Z",
+    "publishedAt": "2026-07-03T07:30:01.000Z"
+  },
+  {
+    "slug": "20260703-20",
+    "headline": "ゲームエンジン「Godot」、AI生成コード原則禁止　コミュニティ疲弊受け",
+    "lead": "オープンソースゲームエンジン「Godot」が、AI生成コードの提出を原則禁止することを決定。レビュアー側の負担急増が背景。",
+    "body_markdown": "オープンソースゲームエンジン「Godot」の開発コミュニティは、プルリクエストでのAI生成コード提出を原則禁止する方針を採択した。新規コントリビューターからのAI生成プルリクが急増する一方で、これらをレビューするコミュニティメンバー数は増加しておらず、レビュアーの疲弊が限界に達しているという背景がある。\n\nGodotのコア開発チームは、AI生成されたコードの品質と保守性に対する懸念も示した。AI生成コードは場当たり的で長期的な設計方針と乖離する傾向があり、コードベースの一貫性を害するリスクがあるとも指摘している。同時にコミュニティ内での人間同士のテキストコミュニケーション（プルリクエストのディスカッションなど）に際しても、AI生成文の使用を禁止する方針がとられた。\n\nこの決定はオープンソースコミュニティにおけるAI利用の限界を示す重要な事例。AIツールが生産性向上の手段である一方、無制限な利用がコミュニティの自己維持機能を損なう可能性があることが改めて認識された。",
+    "tags": [
+      "Godot",
+      "ゲームエンジン",
+      "AI生成",
+      "オープンソース",
+      "開発"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/03/2000000156/",
+    "importance": 3,
+    "image_query": "game development coding programming",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:59.557Z",
+    "publishedAt": "2026-07-03T03:22:21.000Z"
+  },
+  {
+    "slug": "20260703-21",
+    "headline": "Cloudflare、AI爬虫類をブロック　コンテンツ所有者の権利保護",
+    "lead": "CDNサービス大手Cloudflareが、AI企業向けのウェブクローラーをフィルタリングする機能を導入。コンテンツ所有者がAI学習データ収集を制御できるようにする。",
+    "body_markdown": "クラウドフレア（Cloudflare）は、ウェブサイト運営者がAI企業向けのウェブクローラーをブロックできる新機能を提供開始した。この機能により、サイト所有者は自サイトのコンテンツがOpenAI、Google、Anthropicなど生成AI企業のモデル学習に使用されることを拒否できる。\n\nこの施策は、生成AI企業による無許可の大規模データ収集に対する規制・倫理的関心の高まりを反映している。欧米では、著作権保有者が学習用データ利用許可の掲出を拒否できる仕組みの整備が急速に進んでいる。EU一般データ保護規則（GDPR）やその他の個人情報保護規制も、データ利用についての同意原則を強化している。\n\nCloudflareは「サイト運営者はAI企業のコンテンツ利用を管理できるべき」という立場を表明。同社が管理する膨大なウェブトラフィックを活用することで、この機能は大規模な影響力を持つ可能性がある。",
+    "tags": [
+      "Cloudflare",
+      "AI学習",
+      "著作権",
+      "データ保護",
+      "ウェブ"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2207360/cloudflare-will-filter-out-web-crawlers-that-serve-ai-companies/",
+    "importance": 3,
+    "image_query": "data security internet technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:59.558Z",
+    "publishedAt": "2026-07-02T21:17:10.000Z"
+  },
+  {
+    "slug": "20260703-22",
+    "headline": "スコットランド、食肉削減で環境・健康両立へ　野菜・豆類活用を推奨",
+    "lead": "スコットランドの研究が示唆するところによれば、適度な肉類・乳製品削減と植物性代替食の活用により、環境負荷軽減と栄養改善を同時に達成できる。",
+    "body_markdown": "スコットランド大学の研究チームが、『ネイチャー・フード』誌に発表した論文によれば、加工肉・生肉・乳製品の消費を段階的に削減し、野菜・豆類・卵で代替すると、スコットランドの温室効果ガス排出削減と栄養標準達成の両立が可能であることが示された。\n\n同研究は、食生活の抜本的転換（完全菜食主義）ではなく「段階的・適度な転換」に焦点を当てている。肉類・乳製品の完全廃止ではなく、20〜30％程度の削減により、相応の環境便益が得られることが数値モデルで示された。同時に、豆類やナッツ類、全粒穀物への置き換えにより、タンパク質、ミネラル、食物繊維などの栄養バランスも改善される。\n\nスコットランド政府はこの研究結果を食糧政策に組み込む方針を示唆している。経済負担を最小化しつつ環境・健康目標に到達するアプローチとして、他国でも参考になる政策模式を提示している。",
+    "tags": [
+      "食糧政策",
+      "気候変動",
+      "栄養学",
+      "スコットランド",
+      "環境"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-modest-meat-dairy-scotland-emissions.html",
+    "importance": 3,
+    "image_query": "healthy food vegetables nutrition diet",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:59.558Z",
+    "publishedAt": "2026-07-03T09:00:03.000Z"
+  },
+  {
+    "slug": "20260703-23",
+    "headline": "Meta、AI生成ゲーム開発アプリ「Pocket」ローンチ　対話式ミニゲーム流行か",
+    "lead": "メタが新アプリ「Pocket」をリリース。テキストプロンプトからAIが対話式ミニゲームを自動生成し、シェアできるプラットフォーム機能を備えている。",
+    "body_markdown": "メタが生成AI「Pocket」アプリを静かにローンチした。テキストプロンプト入力により、AIが対話式のインタラクティブ「ギズモ」（小型ゲーム）を自動生成する仕組みで、ユーザーは生成したゲームを友人と共有できる。\n\nポケットはメタのザッカーバーグが掲げる「AIネイティブなソーシャルメディア」戦略の実装例。従来のフォロー・いいね型SNSではなく、ユーザーが生成・カスタマイズしたAIコンテンツの共有を中心とするプラットフォームへの転換を目指している。デザイン上はシンプルで、プロンプト入力→AI生成→即座にプレイ・シェアというワークフロー。\n\nなお、Pocketは米国では未提供だが、複数の国のアプリストアに登録されている。エコシステム展開の初期段階として位置付けられており、今後の機能拡張やユーザー数増加により、新しいメディア消費形式の確立を目指すと見られている。",
+    "tags": [
+      "Meta",
+      "AI",
+      "ゲーム",
+      "SNS",
+      "生成AI"
+    ],
+    "section": "AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/961086/meta-pocket-app-gizmo-ai",
+    "importance": 3,
+    "image_query": "mobile app game interactive interface",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:59.558Z",
+    "publishedAt": "2026-07-02T21:09:06.000Z"
+  },
+  {
+    "slug": "20260703-24",
+    "headline": "Paralives、Sims超え狙う　新作シミュレーション、早期アクセスで25万売上",
+    "lead": "EAのSims独占体制に挑戦する新作ライフシミュレーション「Paralives」がSteamで早期アクセス開始。初日8時間で25万本販売、SAAAのプレイヤー数を短時間で上回る勢い。",
+    "body_markdown": "インディー開発者アレックス・マッセが開発するライフシミュレーション「Paralives」がSteam上で早期アクセス版をリリース。初日8時間で25万本を販売し、同時接続プレイヤー数が7万8000人を超えた。これはSims 4の過去最高同時接続数（9万6000人）に迫る数字で、インディー作品としては異例の成功を収めている。\n\nParalivesの躍進背景には、EAが親会社のSims 4に対する規制批判やビジネスモデル批判への不満が挙げられる。特にEAが最近サウジアラビアの大手投資ファンドの支配下に入ったことに伴い、ユーザーから倫理的懸念が生じていた。その受け皿としてParalivesの「独立系かつ倫理的」というポジショニングが功奏したと見られる。\n\nゲーム自体はSims 4よりも創造性重視の設計で、プレイヤーが思い思いにキャラクター・建物・世界を作成できる自由度を強調。開発チームも成長を続け、早期アクセス期間を通じたユーザーフィードバック反映により、本格リリースに向けた品質向上が進められている。",
+    "tags": [
+      "Paralives",
+      "ライフシミュレーション",
+      "Sims",
+      "ゲーム",
+      "インディー"
+    ],
+    "section": "カルチャー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/games/2026/jul/03/paralives-life-simulator-game-the-sims",
+    "importance": 3,
+    "image_query": "video game simulation creative gameplay",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:59.558Z",
+    "publishedAt": "2026-07-03T08:30:23.000Z"
+  },
+  {
+    "slug": "20260703-25",
+    "headline": "中国、若手科学者向け基金を大幅増額　研究競争激化への対応",
+    "lead": "中国政府が高い名声を持つ若手科学者向けの基金を大幅増加させることを発表。米国との競争激化の中、人材獲得競争を強化する意図が鮮明。",
+    "body_markdown": "自然科学基金委員会（NSFC）を通じて、中国政府は若手科学者向けの学術助成金プログラムを大幅拡充することを発表した。対象者の職歴制限を緩和し、より幅広い研究者層に配分資金を広げる方針。これは若手研究人材の海外流出を抑制し、国内研究エコシステムへの投資を強化する戦略である。\n\nこの施策は米国との科学・技術競争が加速する中で、中国の人材獲得能力を強化する狙いがある。特にAI、半導体、バイオテクノロジーなど戦略的重要分野での研究員の育成・確保が優先課題になっている。\n\nしかし競争激化そのものがもたらす課題もある。多数の研究者が限定的な競争的資金を求めるため、申請競争が激化し、研究評価システムそのものへのプレッシャーが増加。「出版数最大化」志向など、競争的圧力による研究質の歪みも懸念されている。",
+    "tags": [
+      "中国",
+      "科学研究",
+      "学術助成",
+      "人材育成",
+      "米中競争"
+    ],
+    "section": "サイエンス",
+    "source": "Nature",
+    "link": "https://www.nature.com/articles/d41586-026-01989-5",
+    "importance": 3,
+    "image_query": "scientific research laboratory research",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:59.558Z",
+    "publishedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "slug": "20260703-26",
+    "headline": "テスラModel Y Lが米国でようやく販売開始　62000ドルで3列シート",
+    "lead": "テスラが中国で好評のModel Y ロングホイールベース版を米国でも販売開始。3列目シートを備えながら、同じセグメント他社より低価格の設定。",
+    "body_markdown": "テスラは米国とプエルトリコでModel Y ロングホイールベース版（Model Y L）の注文受付を開始した。価格は6万2000ドル（約930万円）の設定で、3列目シートを備え最大7人乗車が可能。\n\nModel Y Lは中国市場で既に成功を収めており、広大な米国市場への導入が待たれていた。ロングホイールベース版により、室内空間がステーションワゴン並みに拡張され、SUV形態で多人数乗車ニーズに対応する。競合するトヨタ・ハイランダーやホンダ・パイロットなど伝統的3列SUVより、基本価格が低い点が競争優位性である。\n\nテスラはModel Y Lの導入により、より広いセグメントを捕捉する戦略を進めている。ただし供給チェーンの安定性と品質管理が米国での受け入れを左右する重要要因となる。",
+    "tags": [
+      "テスラ",
+      "Model Y",
+      "自動車",
+      "電気自動車",
+      "米国"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2207503/teslas-model-y-long-wheelbase-comes-to-the-us/",
+    "importance": 3,
+    "image_query": "electric vehicle car Tesla",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-03T09:29:59.558Z",
+    "publishedAt": "2026-07-03T07:00:33.000Z"
+  },
+  {
     "slug": "20260703-01",
     "headline": "日本が2兆円規模の対インド投資発表",
     "lead": "日本とインドの首脳会談で日本企業による2兆円投資と約130件の企業協力を発表。経済関係を大幅に強化。",
