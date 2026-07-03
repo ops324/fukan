@@ -1,5 +1,456 @@
 [
   {
+    "slug": "20260704-01",
+    "headline": "イランのハメネイ師葬儀、百万規模で開催――地政学的メッセージ",
+    "lead": "2月の暗殺から約5カ月後、イランの前最高指導者ハメネイ師の葬儀がテヘラン及びクムで開催され、50ヵ国以上から要人が参列した。",
+    "body_markdown": "イランの前最高指導者、アリー・ハメネイ師の葬儀が7月3日から開始された。クム市だけで200万人以上、テヘランを含めた国全体では数百万人の参加が見込まれており、1989年のホメイニ師葬儀（約1000万人）に匹敵する規模に発展する可能性がある。\n\nイラク、タジキスタン、トルクメニスタン、ジョージア、パキスタンといった中東および周辺国の指導者が参列を表明。イランは米国およびイスラエルを支持した国への招待は拒否し、反米・反イスラエル陣営の結束を象徴する外交イベントとして機能している。\n\n今回の葬儀は、2月の暗殺（米国とイスラエルが関与したとされる）後のイラン社会の統一を示す政治的メッセージとなっている。専門家は、ハメネイ師暗殺にもかかわらずイラン政府が弱体化せず、むしろ国家結集（rally-around-the-flag）が生じたと分析。後継指導者体制への権力移行が円滑に進むとともに、中東地域における対米・対イスラエルの立場が揺るがないことを国際社会に示すねらいがある。\n\nイランの国営メディアは葬儀を「国の統一と連帯の象徴」として報道。複数日間にわたる悼みの儀式と集会を通じて、イランのソフトパワーと地政学的影響力を再び発揮する機会となっている。",
+    "tags": [
+      "イラン",
+      "地政学",
+      "中東",
+      "国葬",
+      "政治"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/3/iran-begins-week-of-funeral-ceremonies-for-slain-supreme-leader-khamenei",
+    "importance": 5,
+    "image_query": "funeral ceremony crowd gathering",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1435686858161-59da32dfd4b4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxmdW5lcmFsJTIwY2VyZW1vbnklMjBjcm93ZCUyMGdhdGhlcmluZ3xlbnwxfDB8fHwxNzgzMTEzNTM2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "davide ragusa",
+      "profileUrl": "https://unsplash.com/@davideragusa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T21:18:56.340Z",
+    "publishedAt": "2026-07-03T18:39:31.000Z"
+  },
+  {
+    "slug": "20260704-02",
+    "headline": "ペルー大統領選、ケイコ・フジモリが僅差で勝利――9年間の政治的混乱に終止符か",
+    "lead": "ペルー大統領選決選投票で、元大統領の長女ケイコ・フジモリが50.1%獲得し当選。同国の政治的不安定と治安悪化に直面する課題が山積。",
+    "body_markdown": "ペルーの大統領選決選投票で、元大統領アルベルト・フジモリの長女ケイコ・フジモリ氏（60）が当選を決めた。ペルー選挙管理当局（JNE）が7月3日に発表した最終開票結果によれば、ケイコ氏は923万票（50.135%）を獲得。左派の下院議員ロベルト・サンチェス氏の917万票（49.865%）をわずかに上回った。\n\nペルーでは4月の総選挙で候補者が過半数を獲得できず、6月7日に決選投票が実施された。ケイコ氏は当選後、7月28日の独立記念日に大統領として就任する予定。政治的混乱が続くペルーで、彼女は同国の9番目の大統領となる――わずか10年間で9人の指導者が交代する事態の象徴的なデータである。\n\n選挙戦を通じて、ペルーの有権者が最優先課題として掲げたのは、組織犯罪集団による恐喝・銀行強盗・麻薬密売といった治安悪化への対応。経済的不安定さと社会的分断も深刻で、ケイコ氏は秩序回復と経済安定化を公約に掲げた。ただ、ケイコ氏自身、過去に汚職疑惑で起訴された経歴があり、政権運営への懸念も残る。",
+    "tags": [
+      "ペルー",
+      "選挙",
+      "政治",
+      "ラテンアメリカ",
+      "治安"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/3/keiko-fujimori-officially-declared-winner-of-peru-presidential-race",
+    "importance": 5,
+    "image_query": "election voting Peru",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1613612904637-dca0b7f316f4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxlbGVjdGlvbiUyMHZvdGluZyUyMFBlcnV8ZW58MXwwfHx8MTc4MzExMzUzN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Alvaro Palacios",
+      "profileUrl": "https://unsplash.com/@xapalacioscx?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T21:18:57.355Z",
+    "publishedAt": "2026-07-03T20:00:00.000Z"
+  },
+  {
+    "slug": "20260704-03",
+    "headline": "ポーランド首相が警告、ロシアの攻撃リスク「数ヶ月以内の可能性」",
+    "lead": "ドナルド・トゥスク首相が、ロシアがポーランドへの軍事的挑発を計画している可能性を指摘。NATO防衛能力の強化が急務に。",
+    "body_markdown": "ポーランドのドナルド・トゥスク首相は7月3日、ロシアがポーランド領土への軍事的挑発を企図している可能性が高いと述べ、同国が「数ヶ月のうちに」重大な脅威に直面する可能性があると警告した。\n\nトゥスク首相の声明は、ロシアがポーランドに対して限定的な軍事行動（ミサイル・ドローン攻撃、重要インフラへの可能な加害、あるいはNATO領土への限定的越境侵入）を計画しているとの報道に基づいている。首相は「準備は必要だが、恐怖に陥る必要はない」と述べつつも、ポーランドが「様々なシナリオに対して集中的に準備中」であることを強調した。\n\nこの警告は、中東イラン戦争の長期化とそれに伴う西側の軍事・外交資源の消耗に乗じて、ロシアがウクライナでの戦いを有利に進め、さらにNATO加盟国への挑発的行動を仕掛ける可能性を懸念するものである。NATO防衛態勢の急速な強化とウクライナへの軍事支援の継続が、東欧の安全保障上の急務となっている。",
+    "tags": [
+      "ポーランド",
+      "ロシア",
+      "NATO",
+      "地政学",
+      "防衛"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cj0gp88q4l4o",
+    "importance": 5,
+    "image_query": "nato military defense",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1608396941316-ea89219bd56e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxuYXRvJTIwbWlsaXRhcnklMjBkZWZlbnNlfGVufDF8MHx8fDE3ODMxMTM1Mzh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Filip Andrejevic",
+      "profileUrl": "https://unsplash.com/@fandrejevic?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T21:18:58.258Z",
+    "publishedAt": "2026-07-03T16:41:00.000Z"
+  },
+  {
+    "slug": "20260704-04",
+    "headline": "Anthropicが医薬開発に参入――AIが創薬を加速させるか",
+    "lead": "生成AIの大手企業Anthropicが、独自の医薬開発プログラムを立ち上げ。Claude Science workbenchで研究加速を目指す。",
+    "body_markdown": "Anthropicは先週開催した「The Briefing: AI for Science」イベントで、新たな科学研究向けAI基盤「Claude Science」を発表。単なるAIモデル提供に留まらず、同社自らが医薬品開発に乗り出す方針を明かした。\n\nClaude Scienceは、断片化した研究ツールおよびデータセットを統合する「AI workbench」で、研究者が図表・ビジュアルを自動生成できるプラットフォーム。Anthropicは、この仕組みが「科学的発見と医療介入の開発ペースを劇的に加速させる」と主張している。\n\nすでに多数のバイオテック・医薬大手がClaudeを導入・活用しており、Anthropicは顧客基盤を持つ。今回の医薬開発への直接参入は、テック企業が科学研究の最前線に進出する新しいトレンドを示す。AIの能力が高度化するにつれ、従来は医学研究者・医薬企業の独占領域だった創薬プロセスが、AIスタートアップの参入対象になりつつある。ただ、医療規制の厳格さや臨床試験の長期性など、実際の医薬品承認までには数年から十年の時間が必要。Anthropicの雄心がどこまで現実化するかは未知数。",
+    "tags": [
+      "AI",
+      "医薬",
+      "Anthropic",
+      "バイオテック",
+      "創薬"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+    "importance": 4,
+    "image_query": "medical research laboratory AI",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1606206873764-fd15e242df52?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxtZWRpY2FsJTIwcmVzZWFyY2glMjBsYWJvcmF0b3J5JTIwQUl8ZW58MXwwfHx8MTc4MzExMzUzOXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Testalize.me",
+      "profileUrl": "https://unsplash.com/@testalizeme?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T21:18:59.461Z",
+    "publishedAt": "2026-07-03T13:56:52.000Z"
+  },
+  {
+    "slug": "20260704-05",
+    "headline": "SpaceX IPO後、議員が株購入――政治と企業の利益相反を問う声",
+    "lead": "SpaceX IPO直後、国防・金融委員会所属の議員が同社株を購入。利益相反や政府契約への影響懸念が浮上。",
+    "body_markdown": "SpaceXが6月に歴史的な新規公開（IPO）を果たして以来、複数の連邦議員がSpaceX株を購入していることが判明した。ペンシルベニア州選出のダン・メウザー下院議員は依存する子どもが6月15日に1万5000〜5万ドル相当の株を、またカリフォルニア州選出のギル・シスネロス下院議員は同議員自身が6月18日に1000〜1万5000ドルの株を購入したと開示している。\n\nメウザー氏は下院金融委員会に、シスネロス氏は下院軍事委員会に所属している。軍事委員会は国防総省の契約・予算を監督する重要な部門であり、SpaceXは国防総省からの契約を大量に受注している企業。シスネロス氏のSpaceX株購入は、軍事・防衛予算の配分を担う議員が、同時にその利益企業の株主になる構図を呈している。\n\nただ法的には、非公開情報を用いた取引（インサイダー取引）の証拠はなく、両議員とも違法行為には該当していない。しかしIPO直後の大きな値上がり局面での購入は、議員が政治的影響力を利用して投資利益を得ている印象を与える。SPACの拡大とテック企業IPOラッシュの中で、政治・企業間の距離の近さが問題視される傾向が強まっている。",
+    "tags": [
+      "SpaceX",
+      "IPO",
+      "議員",
+      "利益相反",
+      "政治"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/03/spacex-stock-congress-meuser-cisneros-ipo-disclosure.html",
+    "importance": 4,
+    "image_query": "stock market finance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxzdG9jayUyMG1hcmtldCUyMGZpbmFuY2V8ZW58MXwwfHx8MTc4MzExMzU0MHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Nicholas Cappello",
+      "profileUrl": "https://unsplash.com/@bash__profile?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T21:19:00.365Z",
+    "publishedAt": "2026-07-03T18:16:43.000Z"
+  },
+  {
+    "slug": "20260704-06",
+    "headline": "CRISPR制御システム「PRINCE」開発――治療効果がオン・オフ自在に",
+    "lead": "中国の研究チームがCRISPR編集を薬剤で制御する小分子システムを開発。生体内での精密遺伝子治療の実現へ一歩前進。",
+    "body_markdown": "中国の深圳先進技術研究院（中国科学院）のワン・ユー氏ら研究チームが、『Science Translational Medicine』に発表した研究で、投与した薬剤により生体内でCRISPR編集活動をオン・オフ切り替えられるシステム「PRINCE」「Little Prince」を開発した。\n\nこれまでのCRISPR療法は、一度遺伝子が編集されるとその活性を止めにくく、予期しない副作用が生じるリスクがあった。新システムは、小分子誘導薬（ドキシサイクリン様物質）を投与するとCRISPR活動が起動し、薬剤がなくなるとオフになる制御機構を持つ。\n\n動物実験では、高コレステロール血症モデルマウスの肝臓PCSK9遺伝子をPRINCEで編集した結果、血中総コレステロールおよびLDLコレステロールが約50%低下。さらに加齢黄斑変性（AMD）モデルマウスでVEGFA遺伝子を標的にした実験では、網膜の病的血管漏出と病変が軽減され、網膜機能が改善した。\n\nLittle Princeは単一のアデノ関連ウイルス（AAV）ベクター内に搭載可能で、より実用的な遺伝子治療への道を開く。ただし、ヒトでの臨床試験には数年の期間が必要。",
+    "tags": [
+      "CRISPR",
+      "遺伝子治療",
+      "医療",
+      "バイオテック",
+      "医学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-small-molecule-therapeutic-crispr-demand.html",
+    "importance": 4,
+    "image_query": "genetic research laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1611689698949-1e776464ff23?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxnZW5ldGljJTIwcmVzZWFyY2glMjBsYWJvcmF0b3J5fGVufDF8MHx8fDE3ODMxMTM1NDB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Diana Polekhina",
+      "profileUrl": "https://unsplash.com/@diana_pole?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T21:19:00.916Z",
+    "publishedAt": "2026-07-03T20:40:01.000Z"
+  },
+  {
+    "slug": "20260704-07",
+    "headline": "死亡者からの眼移植が現実へ――灌流装置で眼機能を延命",
+    "lead": "スペインの研究チームが、死亡ドナーからの眼臓器を保存・蘇生させるECaBoxデバイスを開発。眼移植成功率向上の可能性。",
+    "body_markdown": "眼移植は困難な手術とされ、過去の臨床例では移植後の視力回復に至らなかった。スペインのバルセロナ生命科学研究所の研究チームが開発した「Eye-in-a-Care-Box（ECaBox）」と呼ばれるデバイスは、この課題を解決する可能性を示している。\n\nECaBoxの仕組みは灌流技術を用いて、酸素豊富な液体を眼に血液を供給する動脈を通じて継続的に供給する。眼は恒温・一定気圧の密閉容器内に置かれ、側面の透明窓から眼の状態を監視できる。余分な液体は自動排出される。\n\n豚眼を用いた実験では、ECaBox内で保存した眼は従来手法よりも「著しく生存可能性が高い」ことが判明。特に灌流開始後約15分で、瞳孔が光に反応するなど基本的な網膜機能が回復した。ヒト眼を用いた12例の試験では、灌流後に網膜が保持されるなど良好な結果が確認された。\n\nこの技術は、摘出直後から劣化し始める眼という特性を克服し、移植可能な時間枠を大幅に拡張。世界的な臓器移植のボトルネック（ドナー不足）の緩和にも貢献する可能性がある。臨床応用にはさらなる検証が必要だが、眼移植成功率向上への重要なステップとなり得る。",
+    "tags": [
+      "医療",
+      "眼移植",
+      "臓器移植",
+      "バイオテック",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/",
+    "importance": 4,
+    "image_query": "medical surgery transplant",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1504813184591-01572f98c85f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwc3VyZ2VyeSUyMHRyYW5zcGxhbnR8ZW58MXwwfHx8MTc4MzExMzU0MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Piron Guillaume",
+      "profileUrl": "https://unsplash.com/@gpiron?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T21:19:01.841Z",
+    "publishedAt": "2026-07-03T17:34:37.000Z"
+  },
+  {
+    "slug": "20260704-08",
+    "headline": "Google DeepMindで労組交渉が難航――従業員が軍事AI利用に反発",
+    "lead": "UK DeepMind従業員が98%の賛成で労組結成を決定。ペンタゴン契約やイスラエル軍との関係に抗議。",
+    "body_markdown": "Googleの英国拠点DeepMindで、従業員による労働組合の結成投票が圧倒的多数で可決された。通信労働組合（CWU）とUnite the Unionが従業員代表として立候補し、投票メンバーの98%が支持を表明。これは世界初の\"frontier AI laboratory\"での労組結成運動となる。\n\n労働側の主要な要求は、GoogleのAI技術が米国国防総省（DoD）およびイスラエル軍によって利用されることの即時停止である。ペンタゴン契約に対する従業員の倫理的懸念は、社内でも激しい反発を生み出している。\n\n組合側は経営陣に対して、CWUおよびUnite the Unionの正式な認定（労使交渉テーブルへの参加）を求める書簡を送付。10営業日以内の自発的認定か仲裁交渉への同意がなければ、法的強制手段に訴える構えを見せている。DeepMindロンドン拠点には約1000人のスタッフがおり、労組が認定されれば同数が代表権を得ることになる。\n\nこの動きは、AI企業の急速な成長と軍事・防衛利用への懸念の衝突を象徴している。従業員が倫理上の異議を組織的に表現する手段としての労働組合の役割が、テック業界でも拡大しつつある。",
+    "tags": [
+      "Google",
+      "DeepMind",
+      "労組",
+      "AI倫理",
+      "軍事"
+    ],
+    "section": "テクノロジー",
+    "source": "WIRED",
+    "link": "https://www.wired.com/story/google-deepmind-unionization-talks-are-off-to-a-rocky-start/",
+    "importance": 4,
+    "image_query": "worker protest labor union",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1552664953-e398220d7b9c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx3b3JrZXIlMjBwcm90ZXN0JTIwbGFib3IlMjB1bmlvbnxlbnwxfDB8fHwxNzgzMTEzNTQyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Fauzan",
+      "profileUrl": "https://unsplash.com/@fauzanazhima?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T21:19:02.865Z",
+    "publishedAt": "2026-07-03T16:30:00.000Z"
+  },
+  {
+    "slug": "20260704-09",
+    "headline": "カナダが大型パイプライン投資――輸出多角化で米国依存を低減",
+    "lead": "カナダ政府がアルバータ州パイプライン事業に200億カナダドル投資。アジア市場向け石油輸出拡大を目指す。",
+    "body_markdown": "カナダのマーク・カーニー首相とアルバータ州政府は7月2日、西部太平洋岸へのパイプライン・インフラ構想を公式に発表。政府と民間部門合わせて200億カナダドル以上の新規投資をアナウンスした。\n\nプロジェクトの中核は、アルバータ州からブリティッシュコロンビア州太平洋岸への大型石油パイプライン建設。従来は米国への輸出に依存していたカナダの石油産業を、アジア向けの新たな販売ルート確保を通じて多角化させることが目標。完成時には1日あたり100万バレルの原油輸送が可能になるとされている。\n\nTransMountain Corporationが事業主導、Pembina Pipeline Corporationが民間投資家として参加。BC州と先住民コミュニティの懸念（環境保護・海上輸送リスク）を緩和するため、追加の環境保護措置および資金支援が約束された。\n\nカナダ政府のより広い戦略は、米国貿易圏への過度な依存を減らし、中国・日本・インド・ASEAN諸国といったアジア太平洋地域への輸出シェアを拡大することにある。中東紛争による世界的なエネルギー価格変動の中で、カナダのエネルギー輸出戦略の重要性が増している。",
+    "tags": [
+      "カナダ",
+      "石油",
+      "パイプライン",
+      "インフラ",
+      "エネルギー"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/jul/03/canada-alberta-pipeline",
+    "importance": 4,
+    "image_query": "pipeline infrastructure energy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1714901423336-1884cd3fb50f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxwaXBlbGluZSUyMGluZnJhc3RydWN0dXJlJTIwZW5lcmd5fGVufDF8MHx8fDE3ODMxMTM1NDN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Wolfgang Weiser",
+      "profileUrl": "https://unsplash.com/@hamburgmeinefreundin?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T21:19:03.791Z",
+    "publishedAt": "2026-07-03T15:34:32.000Z"
+  },
+  {
+    "slug": "20260704-10",
+    "headline": "LIGO信号が示唆するダークマター――プリモルディアルブラックホール発見へ",
+    "lead": "重力波検出器LIGOが検出した異常な信号が、太陽より軽い物体の衝突を示唆。ダークマターの正体解明に向けた重要な手がかり。",
+    "body_markdown": "米国の重力波検出器LIGO（ライゴ）が2025年11月に記録した異常な重力波信号が、従来の恒星進化では説明困難なブラックホール合体を示している。この発見は、初期宇宙に形成された\"プリモルディアルブラックホール\"（原始ブラックホール）の存在証拠になる可能性を秘めている。\n\n通常、恒星崩壊で生じるブラックホールは太陽質量以上。だがLIGOが捉えた信号は、太陽質量未満の物体どうしの合体を指し示す。この規模のブラックホール形成メカニズムは現代の恒星物理学では未解明。一方、初期宇宙の高密度領域ではプリモルディアルブラックホールが自然発生した可能性があるとの理論が数十年前から提唱されている。\n\n注目すべきは、プリモルディアルブラックホールがダークマター（宇宙質量の約85%を占める謎の物質）の相当部分または全体を説明できる可能性だ。今回の信号が確認されれば、数十年間にわたり理論的存在に留まっていたプリモルディアルブラックホールの実在が証明される。ただし研究者らは、単一の検出では不十分であり、類似の信号が複数回確認されてこそ決定的な証拠になると強調している。",
+    "tags": [
+      "ダークマター",
+      "ブラックホール",
+      "重力波",
+      "天文学",
+      "宇宙"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/06/260626125703.htm",
+    "importance": 4,
+    "image_query": "space universe telescope",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1600456548090-7d1b3f0bbea5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzcGFjZSUyMHVuaXZlcnNlJTIwdGVsZXNjb3BlfGVufDF8MHx8fDE3ODMxMTM1NDR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Matthew Ansley",
+      "profileUrl": "https://unsplash.com/@ansleycreative?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T21:19:04.755Z",
+    "publishedAt": "2026-07-03T03:56:36.000Z"
+  },
+  {
+    "slug": "20260704-11",
+    "headline": "哺乳動物の嗅覚は進化が保存した能動的行為――マウスと人間が共通メカニズムを使用",
+    "lead": "ノースウェスタン大学の研究が、マウスと人間が嗅覚処理で進化を通じて保存された同一の神経機構を持つことを証明。",
+    "body_markdown": "ノースウェスタン大学の研究チームが、マウスと人間が嗅覚知覚において極めて似たメカニズムを用いていることを発見。この知見は、嗅覚が単なる反射的感覚反応ではなく、能動的な情報収集活動であることを示唆している。\n\n従来の認識では、マウスは「嗅ぎ」と呼ばれる高速反復的な鼻呼吸を無意識的に行うと考えられていた。しかし今回の研究によれば、マウスも人間同様に食物や環境を調査する際に「意図的な単一の嗅ぎ」を実行することが初めて実証された。この行動は、随意的な感覚サンプリングの例である。\n\n驚くべきことに、人間が単一の深呼吸を行う際に生じる脳波（低周波シータ波：2〜8Hz）が、マウスの嗅ぎリズムと一致するという関連性が発見された。進化を通じて、哺乳動物全体でこうした嗅覚処理メカニズムが保存・維持されてきたと考えられる。\n\nこの発見は、自閉症・アルツハイマー病・パーキンソン病など、嗅覚異常と関連する神経疾患の早期診断および治療法開発に貢献する可能性を持つ。嗅覚低下は認知機能衰退の前駆症状となり得るため、予防医学の観点からも重要。",
+    "tags": [
+      "神経科学",
+      "嗅覚",
+      "進化",
+      "脳科学",
+      "医療"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-mammals-underlying-evolution.html",
+    "importance": 4,
+    "image_query": "brain neuroscience research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1644648479153-2a3dbee76212?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxicmFpbiUyMG5ldXJvc2NpZW5jZSUyMHJlc2VhcmNofGVufDF8MHx8fDE3ODMxMTM1NDV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "BUDDHI Kumar SHRESTHA",
+      "profileUrl": "https://unsplash.com/@aresbuddhi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-03T21:19:05.594Z",
+    "publishedAt": "2026-07-03T18:00:06.000Z"
+  },
+  {
+    "slug": "20260704-12",
+    "headline": "米国熱波がAIデータセンターを圧迫――電力網と水資源に危機感",
+    "lead": "猛烈な熱波でデータセンターの電力消費が急増。2030年までに米電力需要の9%を占める見通しで、供給体制が追いつかない。",
+    "body_markdown": "米国東部・中西部を襲う記録的な熱波が、AI企業の大規模データセンターに深刻な負荷をもたらしている。ハイパースケールデータセンターは通常100〜300メガワットの電力を消費（約30万世帯相当）し、全米データセンターの年間消費電力は約176テラワット時に達する。これは約1600万世帯、約4000万人の年間電力使用量に相当。\n\n現在、米国全体の電力需要の4%をデータセンターが占めるが、2030年までにこの割合が9%に上昇する見通し。PJM Interconnectionなど地域電力会社は、緊急時にデータセンターに予備電源（バックアップジェネレータ）への切り替えを要請する事態が生じている。\n\n一層深刻なのが水資源枯渇。大型AI施設は冷却のため1日あたり500万ガロン（約1万9000立方メートル）の水を消費（人口5万都市相当）。冷却水の約80%が蒸発して回収不可能。2022年以降に建設された新規データセンターの3分の2が、すでに水不足地域に立地している。\n\n米国民の70%がデータセンター建設に地元反対の立場を表明。電力・水資源の提供と気候変動対策のジレンマが、AIの急速な拡大と並行して深刻化している。",
+    "tags": [
+      "AI",
+      "エネルギー",
+      "環境",
+      "気候",
+      "インフラ"
+    ],
+    "section": "テクノロジー",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/economy/2026/7/3/us-heatwave-raises-alarms-over-ai-data-centre-energy-demands",
+    "importance": 3,
+    "image_query": "data center servers power",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-03T21:19:05.594Z",
+    "publishedAt": "2026-07-03T19:48:44.000Z"
+  },
+  {
+    "slug": "20260704-13",
+    "headline": "Meta、Claude Code期待の組織改編が失速――ザッカーバーグが認める",
+    "lead": "昨年の人員削減・組織再編にもかかわらず、AI開発の加速が期待値に届かず。Metaが投資戦略の検証迫られる。",
+    "body_markdown": "Metaのマーク・ザッカーバーグCEOは7月2日の社内集会で、同社の野心的なAIエージェント開発戦略が失速していることを認めた。昨年1月〜2月、Metaは全社員の約10%に相当する1万人超の人員削減を実施し、同時に7000人をAI関連部門に配置転換する大規模な組織改編を断行した。\n\nこの再編の背景には、Anthropicの生成AI「Claude Code」および類似のAI開発ツール活用による\"爆速開発\"への楽観的期待があった。Metaは2026年だけで最大1450億ドルのAI関連投資（主にインフラ・GPUチップ）を予定し、AI技術で他のビッグテック企業に先制攻撃をかけるつもりだった。\n\nしかし4ヶ月を経た現在、ザッカーバーグは「過去4ヶ月間のAIエージェント開発の軌跡は期待より加速していない」と述べ、組織転換の実行が当初より不揃いであったこと、経営陣が移行タイミングを誤ったことを認めた。従業員のモラルも、唐突な人員削減と叶わぬ公約により損なわれている。\n\nザッカーバーグは3〜6ヶ月内に効果が現れることを期待していると述べているが、AI開発競争の激化と投資回収への圧力の中で、Metaの戦略的対応が試される局面となっている。",
+    "tags": [
+      "Meta",
+      "AI",
+      "組織改編",
+      "開発",
+      "テクノロジー"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/03/2000000155/",
+    "importance": 3,
+    "image_query": "technology company office",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-03T21:19:05.594Z",
+    "publishedAt": "2026-07-03T02:01:17.000Z"
+  },
+  {
+    "slug": "20260704-14",
+    "headline": "Claude Fable 5は\"弱体化\"したのか――性能測定の解釈が対立",
+    "lead": "提供再開後のFable 5について、性能低下を主張する企業と維持を報告する企業が相反する結果を発表。",
+    "body_markdown": "Anthropicが6月30日にClaude Fable 5の提供を再開したことに伴い、同モデルの性能が低下したのか維持されたのか、相反する報告が複数のAI企業から出ている。背景には、安全フィルタリング機構の変更とベンチマーク測定方法の解釈違いがある。\n\nBridgeMind AIは、独自の「BridgeBench」コーディング・ベンチマークでFable 5の性能低下を主張。同社の測定では、デバッグ性能が86.2から25.9に低下、コード改修タスクが73.6から38.4に低下したと報告した。しかし同社はさらなる分析により、基となるモデル自体が弱体化したのではなく、Anthropicが強化した「分類器」（有害命令を検出する安全機構）が、無害なコーディングリクエストまで過度にブロックしているのが原因だと結論付けた。\n\n一方、AIベンチマークプラットフォームArena.aiは、テキスト・画像処理タスク全般にわたる数千件の独立評価を集約した結果、Fable 5の性能は提供停止前後で「ほぼ維持されている」と報告。安全フィルタの変更がベンチマークスコア低下の主因であり、実際の能力低下は起こっていないと示唆している。\n\n今回の事例は、AIモデル評価がどのような基準・方法で実施されるかが結果に大きく影響することを示す。安全性と性能のトレードオフが、今後のAI開発において避けられない課題。",
+    "tags": [
+      "Claude",
+      "Fable 5",
+      "AI",
+      "性能",
+      "評価"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/03/2000000157/",
+    "importance": 3,
+    "image_query": "programming code screen",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-03T21:19:05.594Z",
+    "publishedAt": "2026-07-03T03:59:30.000Z"
+  },
+  {
+    "slug": "20260704-15",
+    "headline": "AWS戦略シフト――OpenAIとAnthropicを\"1日違い登壇\"に込めた意味",
+    "lead": "AWS Summit Japan 2026で、生成AI競合企業を立続けに招待。クラウドの価値を再定義する戦略転換の表れ。",
+    "body_markdown": "AWS Summit Japan 2026で、AmazonのAWS部門は競合するOpenAIとAnthropicを基調講演に立続けて招待した。この異例の配置から浮かび上がるのは、モデルの優秀性競争から一歩退き、\"基盤としてのインフラ\"の重要性をアピールしようとするAWSの静かな戦略シフトだ。\n\nOpenAIは世界的な生成AI先駆者として知名度が高く、Anthropicはセーフティ研究やClaude系AIで注目を集める企業。かつてAWSは、自社開発AIモデルで競争力を示すことを目指していた。しかし現実は、AIモデルの優劣競争に勝ち抜くことの困難さと、多様なモデルユーザーのニーズ顕在化にAWSが気付いたことを示唆している。\n\n\"モデルの賢さ\"より「どのインフラ・どのAPIで動かすか」が実装企業の最大関心事になりつつある。GPU・ストレージ・ネットワーク・データ管理など、生成AIモデルを実運用するための基盤こそが、AWSが握るべき価値である。競合モデルを積極的に紹介することで、ユーザー企業に対して\"AWS上でなら、あらゆるAIモデルが最適に動作する\"というメッセージを送る。\n\nこの戦略転換は、AIモデル開発競争の白熱化と、クラウドインフラの戦略的位置づけの再評価を示す重要な転換点。",
+    "tags": [
+      "AWS",
+      "クラウド",
+      "AI",
+      "戦略",
+      "インフラ"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/enterprise/articles/2607/06/news016.html",
+    "importance": 3,
+    "image_query": "cloud computing servers",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-03T21:19:05.595Z",
+    "publishedAt": "2026-07-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20260704-16",
+    "headline": "ロンドンのカーシェア、89%の車両が消滅――Zipcar撤退の衝撃",
+    "lead": "米Zipcarが英市場撤退後、ロンドンのカーシェアリング車両は330台に激減。市民は購入・リースへ舵を切る。",
+    "body_markdown": "米国のカーシェアリング大手Zipcarが2025年12月にロンドン市場から撤退して以来、同市のカーシェアリング車両数が劇的に減少している。かつてはロンドン全域に数千台が配置されていたが、最新データによれば現在はわずか330台にまで落ち込んだ。減少率は89%に上る――市民は\"カタストロフィック\"な状況に直面。\n\nZipcarが支配的地位にあった理由は、スマートフォンアプリで即座に予約・鍵を開錠でき、街中の駐車スペースで乗降できる柔軟性。しかしZipcar撤退後、代替サービスの拡大が進まず、ロンドン市民は自動車所有（購入またはリース）へ舵を切らざるを得なくなった。\n\n独自自動車所有への回帰は、都市交通・環境・駐車スペース不足といった課題を深刻化させる。ロンドン市長を含む政策立案者は、カーシェアリング産業への新規参入企業誘致と規制環境整備の必要性を認識しつつも、具体的な対策を講じていない。この空白は、欧州の脱炭素・スマートシティ戦略に対する逆風となっている。",
+    "tags": [
+      "ロンドン",
+      "カーシェア",
+      "都市交通",
+      "環境",
+      "経済"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/money/2026/jul/03/london-car-club-vehicles-zipcar-exit",
+    "importance": 3,
+    "image_query": "car sharing transportation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-03T21:19:05.595Z",
+    "publishedAt": "2026-07-03T16:00:32.000Z"
+  },
+  {
+    "slug": "20260704-17",
+    "headline": "英国エネルギー価格が13%上昇――1350万世帯が燃料貧困へ突入",
+    "lead": "7月1日より電力規制上限が引き上げ。年間料金1862ポンドに到達し、中東紛争による燃料価格高騰が家計を圧迫。",
+    "body_markdown": "英国のエネルギー規制当局Ofgemは7月1日、電力・ガス価格の規制上限を13%引き上げた。typical household（標準的な家計）の平均年間エネルギー料金は1862ポンド（約34万円）に跳ね上がり、4月時点の1642ポンドから220ポンド（約4万円）の実質増加となった。\n\n燃料貧困（所得の10%以上をエネルギー料金に充てる状態）に陥る世帯数は、4月の1130万から1350万に急増。さらに深刻なのが、所得の20%以上をエネルギーに費やす\"エネルギー貧困の最前線\"にある世帯で、430万から550万に拡大することだ。これらの世帯は、冬季の暖房・温水を極度に制限する状況が予想される。\n\n価格上昇の主因は、中東紛争による国際LNG（液化天然ガス）市場の不安定化と、欧州全体のガス供給構造脆弱性。英国のエネルギー自給率低下と再生可能エネルギー導入の遅延が、こうした国際マーケット変動に対する脆弱性を増幅させている。政府は支援策検討を迫られている状況。",
+    "tags": [
+      "英国",
+      "エネルギー",
+      "物価",
+      "燃料貧困",
+      "政策"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/money/2026/jul/01/energy-price-cap-rise-will-push-millions-in-great-britain-into-fuel-poverty",
+    "importance": 3,
+    "image_query": "utility meter power energy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-03T21:19:05.595Z",
+    "publishedAt": "2026-07-01T05:00:26.000Z"
+  },
+  {
+    "slug": "20260704-18",
+    "headline": "AI性的虐待マテリアル拡散に警告――親は子どもの画像投稿に用心を",
+    "lead": "英当局が、AI加工による児童性的虐待画像の拡散増加に警告。ソーシャルメディア上の子ども画像が悪用される危険。",
+    "body_markdown": "英国の国家犯罪庁（NCA）とインターネット監視財団（IWF）が共同で、保護者に対して警告を発した。AI生成技術の進化に伴い、公開されたソーシャルメディア上の児童画像が、アルゴリズム処理により性的虐待マテリアルに改ざんされるケースが増加しているという。\n\n両当局は、親・保護者がInstagram・Facebook・TikTokなど主要SNSに投稿する子ども画像の取り扱いに細心の注意を払うよう勧告。推奨される対策は、アカウントを非公開にして「親友のみ」にアクセスを限定すること。公開設定での投稿は、潜在的な児童虐待者・犯罪ネットワークの標的になるリスク。\n\nNCAとIWFは、この警告が「親の振る舞いを規制するもの」ではなく、「現在の脅威環境についての認識を高める」ためのものと強調。各親・保護者は、SNS利用時に子どもの画像がどのように悪用される可能性があるかを理解した上で、慎重な判断を下すべき時代に入った。\n\nこの動きは、AI技術の悪用とチャイルドセーフティの重大な衝突を示す。各国の執行機関・プラットフォーム企業・市民社会が連携した対策強化が緊急課題。",
+    "tags": [
+      "AI",
+      "児童保護",
+      "犯罪",
+      "ソーシャルメディア",
+      "安全"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/society/2026/jul/03/ai-sexual-abuse-fears-uk-parents-warned-posting-images-children-national-crime-agency",
+    "importance": 3,
+    "image_query": "safety protection security",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-03T21:19:05.596Z",
+    "publishedAt": "2026-07-03T17:22:59.000Z"
+  },
+  {
     "slug": "20260703-11",
     "headline": "ベネズエラ地震、死者2595人に　百年ぶりの大規模地震",
     "lead": "南米ベネズエラで6月下旬に発生したマグニチュード7超の地震で、死者が2595人を超え、1世紀以上ぶりの大規模災害となった。",
