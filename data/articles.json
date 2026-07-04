@@ -1,5 +1,223 @@
 [
   {
+    "slug": "20260704-19",
+    "headline": "テイラー・スウィフト、NFLトップ選手と結婚　NY大規模婚式",
+    "lead": "世界的ポップスターとアメリカンフットボール選手が、セレブが集結した大規模婚式をニューヨークで挙げた。",
+    "body_markdown": "米国の世界的ポップスター、テイラー・スウィフトがNFL（アメリカプロフットボールリーグ）の選手トラビス・ケルシーとの結婚を7月3日に発表した。式はニューヨークのマディソン・スクエア・ガーデンで開催され、セレブが多数出席した大きな話題となった。\n\nケルシーはカンザスシティ・チーフスのタイトエンド。スウィフトとは約3年前に出会い、その後の関係が世界的な関心を集めていた。\n\n式ではハリウッド俳優アダム・サンドラーが司式を務め、ブラッドリー・クーパー、ヒュー・グラント、スティーヴン・スピルバーグ、トム・ブレイディなど映画・音楽・スポーツ界の著名人が多数出席。スウィフトはクリスチャン・ディオール・オートクチュールのウェディングドレスを身にまとい、カルティエのジュエリーを添えた。ケルシーも同ブランドのタキシードで臨んだ。\n\n式の間、携帯電話の持ち込みが禁止され、プライバシーが厳重に管理された。ニューヨーク市内には数千人のスウィフトのファンが会場外に集まり、このイベントを祝った。式の前には、カップルが秘密裏に別の場所でも挙式を行ったと報じられている。\n\nこの結婚は、ポップカルチャーと米国スポーツ界の融合として受け止められており、国際的なメディアから高い関心を集めている。",
+    "tags": [
+      "テイラー・スウィフト",
+      "結婚",
+      "アメリカ",
+      "セレブ",
+      "エンタメ"
+    ],
+    "section": "エンタメ",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/4/taylor-swift-and-travis-kelce-marry-at-nycs-madison-square-garden",
+    "importance": 5,
+    "image_query": "wedding celebration elegant venue",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1780901049024-8e504f6024a8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY2VsZWJyYXRpb24lMjBlbGVnYW50JTIwdmVudWV8ZW58MXwwfHx8MTc4MzE1NjYzMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Simply thrilled",
+      "profileUrl": "https://unsplash.com/@simplythrilled_?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-04T09:17:10.983Z",
+    "publishedAt": "2026-07-04T07:46:55.000Z"
+  },
+  {
+    "slug": "20260704-20",
+    "headline": "トランプ大統領『AI規制は最小限に』　中国競争を優先",
+    "lead": "米トランプ政権がAI規制を最小限に抑える方針を改めて表明。競争優位性を優先する戦略。",
+    "body_markdown": "米国のトランプ大統領は7月2日、CNBCのインタビューで、AI規制について「ガードレールは必要だが、介入はできるだけ少なくしたい」と述べ、規制最小限の路線を改めて示した。この発言は、同政権のAI産業に対する基本姿勢を改めて明確にするものとなっている。\n\nトランプ氏は、AIが「インターネットより大きい市場」であり、「その分野で一番になった者がこのレースに勝つ」と指摘。米国が中国に対して「大幅にリード」していると強調した。中国のAI開発投資に対抗する形で、米国産業の自由度を優先させるという現政権の思想が明確に示されている。\n\nこれは、トランプ政権が2025年に打ち出した脱規制の方針を継続するもの。政権はバイデン政権時代のAI行政命令を撤廃し、州レベルの規制を無効化しようとしてきた。ただし、同政権はAnthropicのAIモデルについて一時的な輸出制限を導入するなど、安全保障上の懸念には対応している。つまり、基本は脱規制だが、国防・安保上の要所では介入を辞さないというバランス型アプローチを取っている。\n\nトランプ政権のこのアプローチは、EUの厳格な規制フレームワークとは対照的。米国ではAI企業の創意工夫と競争を重視し、イノベーションを通じた世界市場での優位性確保を目指している。この路線が成功するかどうかは、今後の米中AI競争の帰趨を左右する要因となり、国際的な注視が続く。",
+    "tags": [
+      "AI",
+      "規制",
+      "トランプ政権",
+      "米国政策",
+      "競争"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/04/2000000159/",
+    "importance": 4,
+    "image_query": "artificial intelligence policy government",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1753513291124-4f615bf1f6de?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwcG9saWN5JTIwZ292ZXJubWVudHxlbnwxfDB8fHwxNzgzMTU2NjMxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sumaid pal Singh Bakshi",
+      "profileUrl": "https://unsplash.com/@sumaidsingh?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-04T09:17:11.875Z",
+    "publishedAt": "2026-07-03T23:00:00.000Z"
+  },
+  {
+    "slug": "20260704-21",
+    "headline": "5300年前アイスマン、腸の酵母でパン再現　古代微生物を培養",
+    "lead": "アルプスの冷凍ミイラから見つかった5000年以上前の酵母を培養し、サワードウパンに仕立てた。",
+    "body_markdown": "科学者たちが、アルプス山脈で5300年以上前に死亡したミイラ『エッツィ（オエッツィ）』の腸から見つかった古代酵母を培養し、サワードウパンを焼く実験に成功した。\n\nエッツィの遺骨はオーストリア・イタリア国境のアルプスで1991年に発見された。最近のDNA分析により、彼の腸に生息していた4種類の酵母が特定され、研究者らがこれを3ヶ月間かけて培養に成功。その酵母でパンを焼いた。\n\n注目すべきは、これらの酵母が南極などの極寒環境にしか生息しないはずの種類だったこと。科学者らは、これらの微生物が死後まもなく遺体に付着し、永久凍土の環境で生き続けたと推定している。\n\nさらに興味深いのは、見つかった古代の腸内細菌の組成。エッツィは現代の先進国の食生活とは異なり、高繊維・全粒穀物を中心とした食事をしていたことが、その腸内バクテリアのパターンから判明した。\n\nこの発見は、単なる考古学的好奇心にとどまらない応用価値もある。酵母が化学物質フェノール（ミイラ保存に使われた）を分解できることが判明し、将来的な環境浄化への活用が検討されている。",
+    "tags": [
+      "古代人",
+      "考古学",
+      "微生物",
+      "ミイラ",
+      "科学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-06-scientists-yeast-ancient-iceman-guts.html",
+    "importance": 4,
+    "image_query": "ancient mummy archaeology ice glacier",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1546891155-157e823e329a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhbmNpZW50JTIwbXVtbXklMjBhcmNoYWVvbG9neSUyMGljZSUyMGdsYWNpZXJ8ZW58MXwwfHx8MTc4MzE1NjYzMnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tommy Rodrigue",
+      "profileUrl": "https://unsplash.com/@tommyrodrigue?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-04T09:17:12.878Z",
+    "publishedAt": "2026-07-04T08:00:01.000Z"
+  },
+  {
+    "slug": "20260704-22",
+    "headline": "Hugging Face、AIモデル評価を統一　22万件結果を統合",
+    "lead": "Hugging Faceが『Every Eval Ever』と連携し、AIモデル評価の統一基準を実現。22000超のモデルをカバー。",
+    "body_markdown": "AI開発プラットフォーム大手のHugging Faceが、AIモデルの評価結果を統一化する大規模イニシアティブを打ち出した。\n\nこれまで、AIモデルの性能評価は分散していた。同じモデルでも、異なる評価機関が異なるベンチマークで測定した結果、大きく異なるスコアが報告されることが常だった。どの結果が信頼できるのかが不透明で、研究者や企業がモデル選定時に混乱していた。\n\nHugging Faceは『Every Eval Ever（EEE）』という独立的評価プロジェクトと連携し、統一されたJSON形式で評価メタデータを記録することにしたという。誰がいつ、どの条件でどのモデルを評価したのかが明確に記録され、トレーサビリティが確保される。\n\n現在、EEEのデータストアには約22万9000件の評価結果が蓄積されており、22000以上のモデルと2200以上のベンチマークをカバーしている。これらは31種類の異なる報告フォーマットから統合されたもの。\n\nこの動きは、AI産業全体の透明性と信頼性を高める上で重要。モデルの安全性評価や選定の根拠が明確になることで、企業・研究機関の意思決定がより合理的になることが期待されている。",
+    "tags": [
+      "AI",
+      "評価",
+      "ベンチマーク",
+      "Hugging Face",
+      "透明性"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/eee-community-evals",
+    "importance": 3,
+    "image_query": "data analysis chart evaluation metrics",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-04T09:17:12.879Z",
+    "publishedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "slug": "20260704-23",
+    "headline": "スペースシャトル『エンデヴァー』、11月に打ち上げ姿勢で展示",
+    "lead": "14年間保管されてきた歴史的宇宙船が、打ち上げ当時の姿勢で永久展示へ。米カリフォルニア。",
+    "body_markdown": "米国の宇宙開発史において象徴的な存在であるスペースシャトル『エンデヴァー』が、この11月13日から新しい形式で一般公開される。米国カリフォルニア州ロサンゼルスのカリフォルニア・サイエンスセンター内に新設される『Samuel Oschin Air and Space Center』での展示は、エンデヴァーを「打ち上げ姿勢」で展示する初の試みとなる。\n\nエンデヴァーは2012年から同センターに保管されていたが、それまでは水平姿勢で横たわる形での展示が一般的だった。新しい展示では、固体ロケットブースター（SRB）と外部タンク（ET）を装着した、実際の打ち上げ直前の状態で展示される。\n\n新ギャラリーは20万平方フィートの規模で、エンデヴァーの周囲に約100点の航空宇宙関連文物を展示。来館者は高さ140フィートのエレベーターで上昇し、実際の宇宙飛行士が打ち上げ前に搭乗する体験をシミュレートできるようになっている。\n\nエンデヴァーは1992年から2011年にかけて25回の宇宙ミッションを実施。国際宇宙ステーション建設や科学実験など、数多くの歴史的なミッションを遂行した。この新展示は、米国の宇宙開発の栄光を後世に伝える重要なランドマークとなる。",
+    "tags": [
+      "スペースシャトル",
+      "宇宙開発",
+      "展示",
+      "米国",
+      "歴史"
+    ],
+    "section": "サイエンス",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2207813/space-shuttle-endeavour-goes-on-public-display-later-this-year/",
+    "importance": 3,
+    "image_query": "space shuttle rocket launch display",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-04T09:17:12.879Z",
+    "publishedAt": "2026-07-03T19:41:47.000Z"
+  },
+  {
+    "slug": "20260704-24",
+    "headline": "AI業界用語完全ガイド　ハルシネーション、トークンなど30語以上解説",
+    "lead": "TechCrunchが急速に進化するAI分野の用語集を公開。業界最新動向を反映した概念も収録。",
+    "body_markdown": "AI産業の急速な発展に伴い、新しい専門用語が次々と出現している。TechCrunchが、AI関連の最重要用語30以上を解説する包括的な用語集を公開した。これは定期的に更新される『生きた文書』として機能するとのこと。\n\nこの用語集の強みは、初心者向けの基礎用語から、業界トレンドを反映した新概念まで、幅広いレンジをカバーしている点。例えば、『ハルシネーション』は「AIが実在しない情報を生成してしまう現象」と定義されており、これはAI安全性の中核的課題として広く認識されている。\n\nその他、『トークン』（人間とAI間の基本的な通信単位）、『チェーン・オブ・ソート』（推論精度を高める手法）、『強化学習』（学習方法論）といった基本概念から、『RAMゲドン』（メモリチップ不足）や『再帰的自己改善』（AI自体がAIを改善する現象）といった新しいトレンド用語まで掲載されている。\n\n用語集は、AI企業の採用やアップスケール、安全性、インフラストラクチャといった現在の産業課題を反映した構成になっており、2026年時点でのAI業界の関心事を理解する上で良い指標となっている。",
+    "tags": [
+      "AI",
+      "用語",
+      "教育",
+      "技術解説",
+      "業界トレンド"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+    "importance": 3,
+    "image_query": "technology education digital learning",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-04T09:17:12.879Z",
+    "publishedAt": "2026-07-03T21:20:00.000Z"
+  },
+  {
+    "slug": "20260704-25",
+    "headline": "Midjourney医療用スキャナー、実用化に課題　浴槽型超音波装置",
+    "lead": "AI画像生成企業Midjourneyが医療向け超音波スキャナを開発。実証はまだ限定的だが、可能性を追求中。",
+    "body_markdown": "AI画像生成で知られるMidjourneyが、医療分野への参入を表明した。開発しているのは『浴槽型超音波スキャナ』。放射線を使わず、安価で詳細なイメージング実現を目指している。\n\nこのスキャナは、数十の超音波プローブを浴槽状の装置に統合し、患者がお湯に浸かる感覚で医療スキャンを受けられる構造を想定している。Midjourneyはスパでの導入も計画しており、医療と美容・ウェルネスの境界を曖昧にする戦略を示している。\n\nただし、公開された『舞台裏ビデオ』によると、装置はまだプロトタイプ段階。YouTubeテックチャンネル『Marcinのガレージ』のホスト、そして同社エンジニアであるMarcin Plazaが明かしたところでは、装置は「超音波プローブを無理やり分解して取り付けた改造湯船に、コンピュータと Raspberry Pi を繋いだもの」という状態だという。\n\n実用化への道のりは長い。超音波イメージングの精度、患者安全性の検証、規制当局の承認などが必要。しかし、Midjourneyが医療技術開発に参入する姿勢は、AI企業の事業拡大の流れを象徴している。",
+    "tags": [
+      "AI",
+      "医療",
+      "テクノロジー",
+      "スキャナー",
+      "イノベーション"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
+    "importance": 3,
+    "image_query": "medical imaging ultrasound technology health",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-04T09:17:12.880Z",
+    "publishedAt": "2026-07-03T11:49:10.000Z"
+  },
+  {
+    "slug": "20260704-26",
+    "headline": "イラン、ハメネイ師の6日間葬儀開始　テヘランで市民が追悼",
+    "lead": "2月に殺害されたイランの前最高指導者ハメネイ師の葬儀が7月4日、テヘランで始まった。複数の儀式が計画されている。",
+    "body_markdown": "イランの前最高指導者、アヤトラ・アリー・ハメネイ師の6日間に渡る葬儀が7月4日にテヘランで始まった。ハメネイ師は今年2月、米国とイスラエルの軍事攻撃により殺害されていた。\n\nテヘランではすでに多数の市民が追悼のため集結。葬儀はテヘランおよびイラク領内の複数都市で執り行われる予定。最終的には、師の埋葬地であるマシャド（イラン北東部）での埋葬式が計画されている。\n\nハメネイ師は1989年から2026年2月まで、イランの最高指導者として35年以上の長きに亘り権力を行使してきた。シーア派イスラーム教の宗教指導者であると同時に、イランの政治・軍事体制の最高権力者としての地位にあった。\n\n彼の死は、イラン国内政治の大きな転機となった。イラン政府は2月の攻撃をイスラエルとその同盟国による「卑劣な行為」と非難し、報復権を保有すると表明していた。葬儀は、国内結束を示すとともに、後継体制への移行を象徴する重要な儀式となっている。",
+    "tags": [
+      "イラン",
+      "政治",
+      "宗教指導者",
+      "中東",
+      "葬儀"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015168741000",
+    "importance": 4,
+    "image_query": "funeral religious ceremony middle east",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1760715506538-09e65b317557?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxmdW5lcmFsJTIwcmVsaWdpb3VzJTIwY2VyZW1vbnklMjBtaWRkbGUlMjBlYXN0fGVufDF8MHx8fDE3ODMxNTY2MzN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Erik Esly",
+      "profileUrl": "https://unsplash.com/@lensofbbb?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-04T09:17:13.550Z",
+    "publishedAt": "2026-07-04T05:48:59.000Z"
+  },
+  {
+    "slug": "20260704-27",
+    "headline": "英国、女性教育支援プログラムを打ち切り　アフリカ・アジアで100万人対象",
+    "lead": "英国政府がアフリカ・アジア・中東の女性高等教育支援制度SHEFEを予算削減により終了。2年間で事業終結。",
+    "body_markdown": "英国政府がアフリカ・アジア・中東地域の女性高等教育を支援していた『SHEFE』（女性の権利強化のための高等教育強化）プログラムを打ち切ることを決定した。同プログラムは2024年に発表されて以来、わずか2年で廃止される運びとなった。\n\nSHEFEは当初、3大陸で計100万人の女性学生への学費支援を目的としていた。予算規模は4500万ポンド（日本円で約100億円相当）であり、保守党政権下での大型国際開発支援事業として注目されていた。女性への教育機会拡大は、SDGs達成と地域安定化の両面で重要な課題とされてきた。\n\nしかし、英国政府の対外援助予算が削減される流れの中で、本プログラムは優先度を失った。外務・英連邦・開発省（FCDO）は、入札を取り下げると発表した。\n\nこの決定は、国際開発支援を巡る先進国の政策転換を象徴している。同時に、女性教育への投資削減が、対象地域の長期的な経済発展にどう影響するか、国際開発界からの批判も予想されている。",
+    "tags": [
+      "イギリス",
+      "教育",
+      "国際開発",
+      "女性",
+      "政策"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/global-development/2026/jul/04/overseas-education-project-for-women-and-girls-axed-by-uk-after-two-years",
+    "importance": 3,
+    "image_query": "education school classroom learning students",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-04T09:17:13.550Z",
+    "publishedAt": "2026-07-04T08:00:08.000Z"
+  },
+  {
     "slug": "20260704-01",
     "headline": "イランのハメネイ師葬儀、百万規模で開催――地政学的メッセージ",
     "lead": "2月の暗殺から約5カ月後、イランの前最高指導者ハメネイ師の葬儀がテヘラン及びクムで開催され、50ヵ国以上から要人が参列した。",
