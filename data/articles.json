@@ -1,5 +1,319 @@
 [
   {
+    "slug": "20260705-17",
+    "headline": "スーパー台風バビ、米領グアムに接近 カテゴリー5相当",
+    "lead": "米太平洋領土のグアムと北マリアナ諸島がスーパー台風バビの接近に備え、緊急避難態勢に入った。風速260キロを超える猛威が予想される。",
+    "body_markdown": "米太平洋地域がスーパー台風バビの接近に備え、緊急警戒態勢を敷いた。グアムと北マリアナ諸島の住民は7月5日、避難センターへの移動や最後の準備を急いだ。台風は月曜日早朝に同地域を通過する見込みで、カテゴリー5相当の猛烈な風速260キロメートル、突風は315キロメートルに達すると予報されている。\n\nグアムは学校5校に避難センターを開設し、約1,900人の収容能力を確保。脆弱な建物の住民を優先に受け入れる体制が整備された。北マリアナ諸島とグアムは両地域とも非常事態を宣言し、防衛体制を強化している。\n\n連邦緊急事態管理庁（FEMA）はグアムに要員を派遣し、配給センターに110万リットルの水、120万食の食料、6,700台のコット、90台の発電機を備蓄。小島ロタ（グアムとサイパンの中間）が最も接近する見込みで、グアム、ロタ、ティニアン、サイパンに台風警報が発令されている。\n\nバビは2026年で3番目となるカテゴリー5台風として記録される可能性が高い。破壊的な風、生命を脅かす高潮、広域の洪水、カタストロフィック級の損傷が予測される中、住民の安全確保が最優先課題となっている。北マリアナ諸島は過去数年で複数の台風被害を受けており、今回の接近は復興途上の地域社会に再度の打撃をもたらす危険を秘めている。",
+    "tags": [
+      "台風",
+      "気象災害",
+      "米国",
+      "グアム",
+      "緊急"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-dangerous-super-typhoon-nears-pacific.html",
+    "importance": 5,
+    "image_query": "typhoon storm clouds severe weather",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1500740516770-92bd004b996e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx0eXBob29uJTIwc3Rvcm0lMjBjbG91ZHMlMjBzZXZlcmUlMjB3ZWF0aGVyfGVufDF8MHx8fDE3ODMyNDMwNDV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Anandu Vinod",
+      "profileUrl": "https://unsplash.com/@anandu?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T09:17:25.409Z",
+    "publishedAt": "2026-07-05T08:55:51.000Z"
+  },
+  {
+    "slug": "20260705-18",
+    "headline": "OpenAI、トランプ政権に5%株式を提案 AI 産業の富の共有を構想",
+    "lead": "OpenAI が Trump 政権に5%の持株を提案し、米国政府が AI ブームの上昇投資から利益を得る仕組みを提唱した。",
+    "body_markdown": "OpenAI が Trump 政権に5%の企業持株を提案するという構想を報道機関に明かした。CEO サム・アルトマンは、公共が AI の成長から直接的に利益を得ることが、成果の共有につながると主張している。\n\nOpenAI の直近の資金調達では、企業価値が8,520億ドル（約126兆円）と評価されており、5%の持株は約426億ドル（約6.3兆円）相当となる。アルトマンと OpenAI 幹部は、米国の主要 AI 企業が同様に企業株の5%を政府向けの主権ファンド・ビークルに充当する案を提案している。その枠組みはアラスカ永久基金と同様の構想で、Anthropic、Google、Meta も同様に株式を譲出することが想定されている。\n\nアラスカ永久基金モデルでは、石油採掘権からの収益が政府が保有するファンドに流入し、国民配当として還元される。OpenAI が提案する仕組みは同様に、AI 産業の経済的価値から国家が直接利益を得るという発想に基づいている。金融時報の報道によると、この協議はまだ初期段階かつ概念的な段階であり、実現にはアメリカ議会の立法措置が必要になる可能性があると指摘されている。Washington が GPT-5.6 の開発を遅延させたばかりの中での提案であり、政治的なプレッシャーをかわす意図が示唆されている。OpenAI はコメントを控えており、ホワイトハウスも回答していない。",
+    "tags": [
+      "OpenAI",
+      "AI",
+      "政治経済",
+      "投資",
+      "米国"
+    ],
+    "section": "AI",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html",
+    "importance": 4,
+    "image_query": "ai artificial intelligence technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1646583288948-24548aedffd8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxhaSUyMGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2UlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3ODMyNDMwNDV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Spiske",
+      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T09:17:26.098Z",
+    "publishedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "slug": "20260705-19",
+    "headline": "トランプ、ウクライナ戦争の終結仲介を表明 プーチン・ゼレンスキーと相次ぎ電話会談",
+    "lead": "米国の Trump 大統領がロシアのプーチン大統領とウクライナのゼレンスキー大統領との電話会談を相次いで実施し、戦争終結の仲介に動く姿勢を示した。",
+    "body_markdown": "米国の Donald Trump 大統領がロシアとウクライナの両首脳と相次いで電話会談を行い、ウクライナ戦争の終結仲介に乗り出す姿勢を示した。プーチン大統領との会談は約85分間に及び、戦争を「できるだけ早期に」終わらせる必要性を強調。トランプはプーチンとの会談で、経済的協力の可能性を実現するために戦争の終結が不可欠であると述べた。\n\nトランプ側は、米国特使スティーブ・ウィットコフと娘婿のジャレッド・クシュナーが仲介を続け、モスクワ訪問の準備を整えている。クレムリンの発表によると、トランプはプーチンに対して平和的解決の探求に向けた米国のコミットメントを再確認した。会談は NATO サミット（7月7-8日、アンカラ開催）の直前に実施され、米国の新たなウクライナ戦争政策の転換を象徴する動きとなっている。\n\nウクライナのゼレンスキー大統領も Trump との電話会談を実施。前線の状況やキーフの外交的な取り組みについて協議し、NATO サミットでの継続協議に同意した。ゼレンスキーはウクライナ市民の安全と領土保全が不可欠であることを強調した。\n\nこれは、ウクライナ戦争が長期化する中での地政学的な転換点として国際的に注視されている。米国の仲介姿勢は、NATO 同盟国の戦略にも影響を及ぼす可能性がある。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "米国",
+      "トランプ",
+      "戦争"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/5/trump-offers-to-help-end-ukraine-war-in-long-call-with-putin-kremlin-says",
+    "importance": 5,
+    "image_query": "diplomacy international relations negotiation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkaXBsb21hY3klMjBpbnRlcm5hdGlvbmFsJTIwcmVsYXRpb25zJTIwbmVnb3RpYXRpb258ZW58MXwwfHx8MTc4MzI0MzA0Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Cytonn Photography",
+      "profileUrl": "https://unsplash.com/@cytonn_photography?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T09:17:27.197Z",
+    "publishedAt": "2026-07-05T00:00:00.000Z"
+  },
+  {
+    "slug": "20260705-20",
+    "headline": "中国・ロシア海軍が合同演習 青島沖で7月実施予定",
+    "lead": "中国とロシアの海軍が「Joint Sea-2026」と名付けた合同演習を青島沖で実施する。地政学的な緊張が続く中、両国の軍事的連携が一層明確化される。",
+    "body_markdown": "中国国防省は7月5日、中国とロシアの海軍が山東省青島沖の黄海で合同演習を実施すると発表した。「Joint Sea-2026」と名付けられた演習は7月6日から13日まで行われ、両国の軍事的連携を示す重要な機会となる。この演習は両国の年間協力計画の一部で、地域の安全保障上の課題に共同で対応し、地域の平和と安定を守ることが表向きの名目である。\n\nロシア側はガード巡洋艦ヴァリャーグ、コルベット レズキー、ディーゼル電気潜水艦ウファ、救難船イゴル・ベロウソフを派遣。中国側は駆逐艦アンシャンと開封、フリゲート烏湖、ユアン級ディーゼル電気潜水艦、補給艦克克西里湖、救難船塩城湖を配置する。両国の主要海洋兵力が参加することで、演習の軍事的重要性が強調されている。\n\n演習後、両国の部隊の一部は太平洋の関連海域で共同の海上パトロールを実施する予定。青島はロシアにおける東アジア太平洋地域への出撃拠点として機能し、共同パトロール構想はインド太平洋地域における両国のプレゼンス拡張を意味している。\n\nウクライナ戦争が継続する中で NATO が対露結束を強める状況で、中国とロシアの軍事的一体化はそれぞれの戦略的地位を強化するシグナルとして機能している。米国の戦争終結仲介動きと対比して、中露連携の深化が地政学的な新しい軸を形成しつつある。",
+    "tags": [
+      "中国",
+      "ロシア",
+      "海軍",
+      "演習",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Xinhua",
+    "link": "https://english.news.cn/20260705/3ad119864b9546dba0e627a89450ccb0/c.html",
+    "importance": 5,
+    "image_query": "military naval ships exercise",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1508530786855-dfea35260b8d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtaWxpdGFyeSUyMG5hdmFsJTIwc2hpcHMlMjBleGVyY2lzZXxlbnwxfDB8fHwxNzgzMjQzMDQ3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Michael Afonso",
+      "profileUrl": "https://unsplash.com/@mafonso?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T09:17:28.119Z",
+    "publishedAt": "2026-07-05T00:00:00.000Z"
+  },
+  {
+    "slug": "20260705-21",
+    "headline": "Claude Fable 5 が有料化へ トランスフォーマーサブスク利用者に影響",
+    "lead": "Anthropic が Claude Fable 5 を7月7日以降、利用クレジット制に転換。サブスクリプション利用者は追加課金が必要になる。",
+    "body_markdown": "Anthropic が大規模言語モデル Claude Fable 5 のサブスクリプション提供方法を変更すると発表した。7月7日以降、Pro、Max、Team、一部 Enterprise プランの加入者は、Fable 5 への利用をクレジット購入による追加課金で対応することになる。\n\n従来、これらのプランでは Fable 5 が週間利用限度の最大50%まで含まれていた。今後はこの先の利用にクレジットを購入する必要が生じる。Anthropic はこの変更が一時的な措置であると明示し、需要が予測困難な高まりを見せているため、サブスク利用枠の段階的制限を採ったと説明している。\n\nAPI インターフェース経由の利用やコンサンプションベース Enterprise プランは本変更の対象外であり、引き続き Fable 5 への無制限アクセスが可能。Anthropic は容量が確保でき次第、Fable 5 を標準サブスク機能として復帰させる予定としている。\n\nこの決定は Fable 5 の市場における需要の高さを反映している。",
+    "tags": [
+      "AI",
+      "Anthropic",
+      "Claude",
+      "サブスクリプション",
+      "料金"
+    ],
+    "section": "AI",
+    "source": "Anthropic",
+    "link": "https://www.anthropic.com/claude/fable",
+    "importance": 4,
+    "image_query": "artificial intelligence machine learning",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1744640326166-433469d102f2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwxfDB8fHwxNzgzMjQzMDQ4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Immo Wegmann",
+      "profileUrl": "https://unsplash.com/@tinkerman?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T09:17:29.032Z",
+    "publishedAt": "2026-07-04T00:00:00.000Z"
+  },
+  {
+    "slug": "20260705-22",
+    "headline": "フットボール選手がディープフェイク詐欺の標的に AI の悪用拡大",
+    "lead": "違法賭博業者が AI で生成したディープフェイク動画を使い、フットボール選手ブルーノ・フェルナンデスに成りすまし詐欺を実行。テック悪用の深刻さが露呈。",
+    "body_markdown": "マンチェスター・ユナイテッドのキャプテン、ブルーノ・フェルナンデスがディープフェイク詐欺の被害に遭った。違法な海外賭博業者がベトナムの非認可ギャンブルサイト QH88 のブランドアンバサダーとしてフェルナンデスに成りすまし、AI で生成した動画を配信して顧客を誘導した。\n\nこの詐欺画像はきわめて巧妙に作られており、フレーム単位での分析でようやく AI 生成物であることが確認されたレベルの完成度を持つ。フェルナンデスはマンチェスター・ユナイテッドのキャプテンという高い知名度を悪用され、テック企業の「成りすまし防止」課題を浮き彫りにした。\n\n違法デジタルカジノはディープフェイク技術を常用して被害者を誘い込む傾向を深める。2025年の英国統計では、ディープフェイク関連の詐欺事例が約800万件に達し、2023年比で約4倍増加。規制外の海外賭博事業者は著作権法や商標法に無頓着であり、執行が困難な状況が続いている。\n\n事例は一次情報の希少性や個人特定情報の保護をめぐるテック企業の責任を問う必要性を示唆している。",
+    "tags": [
+      "詐欺",
+      "ディープフェイク",
+      "AI",
+      "セキュリティ",
+      "犯罪"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/football/2026/jul/05/a-footballing-deepfake-how-bruno-fernandes-fell-victim-to-an-unlicensed-betting-operator",
+    "importance": 4,
+    "image_query": "technology security fraud",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHx0ZWNobm9sb2d5JTIwc2VjdXJpdHklMjBmcmF1ZHxlbnwxfDB8fHwxNzgzMjQzMDQ5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jefferson Santos",
+      "profileUrl": "https://unsplash.com/@jefflssantos?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T09:17:29.960Z",
+    "publishedAt": "2026-07-05T07:00:20.000Z"
+  },
+  {
+    "slug": "20260705-23",
+    "headline": "Midjourney、ハリウッドスタジオに AI 使用方法の開示要求 裁判で攻防",
+    "lead": "AI 画像生成企業 Midjourney が著作権侵害訴訟の裁判で、Disney・Universal・Warner Bros. が自社で使う AI の透開示を求める動き。",
+    "body_markdown": "AI 画像生成企業 Midjourney が、提訴したハリウッドスタジオ大手に対する法廷戦で新しい戦術を展開している。Midjourney は Disney、Universal、Warner Bros. に対し、ディスカバリープロセス（証拠開示段階）で自社の生成 AI の使用方法を詳細に明かすよう求める動議を裁判所に提出した。\n\nディズニー、ユニバーサル、ワーナー・ブラザーズは Midjourney をバート・シンプソンやダース・ベイダーといった著作権キャラクターの画像生成を理由に提訴していた。だが Midjourney の弁論は、スタジオが自社のコンテンツ制作やストーリーボード作成で、無許可のコピーライト保有データで学習させた独自の画像生成 AI を開発している可能性を指摘している。\n\nMidjourney の法務チームは「スタジオが社内ストーリーボード用に無許可のサードパーティ著作権データで AI を学習させているなら、業界慣行としてアンライセンス学習が存在することが証明される」と主張している。\n\n前回の判事判断では、スタジオは消費者向け動画・画像に限定した AI 使用情報の開示が命じられていたが、Midjourney はこれをより広範な開示へ拡張させる戦いを続けている。",
+    "tags": [
+      "AI",
+      "著作権",
+      "ハリウッド",
+      "訴訟",
+      "生成AI"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+    "importance": 4,
+    "image_query": "technology law court justice",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5JTIwbGF3JTIwY291cnQlMjBqdXN0aWNlfGVufDF8MHx8fDE3ODMyNDMwNTB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tingey Injury Law Firm",
+      "profileUrl": "https://unsplash.com/@tingeyinjurylawfirm?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T09:17:30.906Z",
+    "publishedAt": "2026-07-04T00:00:00.000Z"
+  },
+  {
+    "slug": "20260705-24",
+    "headline": "Beyoncé、サプライズ新曲「Morning Dew (Donk)」をリリース B'Day 20周年に向けて",
+    "lead": "Beyoncé が7月4日、2年ぶりの新曲「Morning Dew (Donk)」をサプライズリリース。B'Day アルバムの20周年記念企画の始まりを告げる。",
+    "body_markdown": "メガスター Beyoncé が 2年ぶりの新曲「Morning Dew (Donk)」を7月4日にサプライズリリースした。この曲は Pharrell Williams や The-Dream、Darius Dixon と共作され、Beyoncé と Pharrell が共同で制作した「R&B デイドリーム」として描写されている。\n\nこのリリースは、彼女の誕生日までの60日カウントダウンの始まりを象徴し、2006年9月4日にリリースされた革新的な2枚目のアルバム「B'Day」の20周年記念企画の火付け役となる。楽曲は同アルバムの20周年エディションに収録される予定であり、常連コラボレータの Cliff Watts が監督した歌詞ビデオが付随している。\n\nこの曲は当初、2006年の B'Day LP に収録される予定だったが、20年の時を経て世に出されることになった。業界アナリストは、このリリースが Beyoncé の来たる誕生日とアルバム記念をめぐる大掛かりなマーケティングキャンペーンの開幕を示唆すると指摘している。",
+    "tags": [
+      "音楽",
+      "Beyoncé",
+      "アルバム",
+      "リリース",
+      "ポップカルチャー"
+    ],
+    "section": "カルチャー",
+    "source": "Rolling Stone",
+    "link": "https://www.rollingstone.com/music/music-news/beyonce-surprise-new-song-morning-dew-donk-bday-reissue-1235589184/",
+    "importance": 4,
+    "image_query": "music artist concert performance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMGFydGlzdCUyMGNvbmNlcnQlMjBwZXJmb3JtYW5jZXxlbnwxfDB8fHwxNzgzMjQzMDUxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Nainoa Shizuru",
+      "profileUrl": "https://unsplash.com/@nainoa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T09:17:31.908Z",
+    "publishedAt": "2026-07-04T00:00:00.000Z"
+  },
+  {
+    "slug": "20260705-25",
+    "headline": "北朝鮮、新型駆逐艦の巡航ミサイル発射実験を実施 キム総書記が視察",
+    "lead": "北朝鮮がキム・ジョンウン総書記の視察の下、新型駆逐艦の巡航ミサイル発射実験を実施。朝鮮半島の軍事緊張がさらに高まる。",
+    "body_markdown": "北朝鮮国防省は、キム・ジョンウン総書記が新型駆逐艦の巡航ミサイル発射実験の視察を実施したことを明らかにした。この軍事演習は朝鮮半島の情勢が不安定化する中で実施され、北朝鮮の軍事力増強姿勢を鮮明に示した。\n\nこの新型駆逐艦はこれまで公開されていない仕様を備えており、巡航ミサイルの発射精度と能力の向上を目指すものと見られている。キム総書記による現地視察は、兵器開発の重要性と成果を政権の正当化に活用する北朝鮮の常套手段を示している。\n\n国防力の強化は、米国の Trump 政権がウクライナ戦争への仲介に動く一方で、朝鮮半島の軍事バランスにおける北朝鮮の影響力を維持する狙いが示唆される。地域の安定を求める国際的な圧力が強まる中、北朝鮮の軍事的挑発は予測不可能な事態へのリスクを増加させている。",
+    "tags": [
+      "北朝鮮",
+      "軍事",
+      "ミサイル",
+      "朝鮮半島",
+      "安全保障"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://www3.nhk.or.jp/news/html/20260705/k10015175089000.html",
+    "importance": 4,
+    "image_query": "military weapon missile test",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1673026002361-64b5b15032ee?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtaWxpdGFyeSUyMHdlYXBvbiUyMG1pc3NpbGUlMjB0ZXN0fGVufDF8MHx8fDE3ODMyNDMwNTN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vony Razom",
+      "profileUrl": "https://unsplash.com/@vonyrazom?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T09:17:33.644Z",
+    "publishedAt": "2026-07-05T00:00:00.000Z"
+  },
+  {
+    "slug": "20260705-26",
+    "headline": "ホワイトハウス、エネルギー節約関連ページを削除 気候対策の後退が指摘される",
+    "lead": "トランプ政権がエネルギー節約に関する数千のウェブページを削除。気候危機対策の転換を象徴する動きとして批判の声が上がる。",
+    "body_markdown": "トランプ政権がホワイトハウスのウェブサイトからエネルギー節約に関連する数千のページを削除した。この措置は米国が記録的な熱波に見舞われている最中に実施されたもので、気候変動対策の転換を象徴する動きとして環境保護活動家や科学コミュニティから批判の声が上がっている。\n\n削除されたコンテンツには、家庭内のエネルギー効率の改善方法や連邦政府のエネルギー節約プログラムに関する情報が含まれる。政権は省エネルギーに関する指針の有効性に疑問を呈し、エネルギー政策の重点を変更することを正当化している。\n\nただし、米国全土で気温が摂氏40度を超える地域が増えており、気候関連の公共情報の削除は市民のリスク対応能力に影響を与える可能性が指摘されている。エネルギー産業の規制緩和と気候対策の経済効果をめぐって、米国内の政策議論が一層対立する局面を迎えている。",
+    "tags": [
+      "気候変動",
+      "エネルギー",
+      "政治",
+      "米国",
+      "環境"
+    ],
+    "section": "政治",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/2026/7/3/23215435/white-house-deletes-web-pages-energy-conservation-climate-change",
+    "importance": 4,
+    "image_query": "climate change environment energy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjbGltYXRlJTIwY2hhbmdlJTIwZW52aXJvbm1lbnQlMjBlbmVyZ3l8ZW58MXwwfHx8MTc4MzI0MzA1NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Karsten Würth",
+      "profileUrl": "https://unsplash.com/@karsten_wuerth?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T09:17:34.547Z",
+    "publishedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "slug": "20260705-27",
+    "headline": "Google の Gemini スマートスピーカーが好発進できず AI 準備不足が課題",
+    "lead": "Google が Gemini AI を搭載した新型スマートスピーカーをリリースしたが、AI の準備状況が不十分でユーザー体験に影響が出ている。",
+    "body_markdown": "Google が Gemini AI を統合した新世代スマートスピーカーをリリースしたものの、ハードウェアと AI 機能のバランスが課題となっている。スマートスピーカーのデザインは優れているが、音声アシスタント機能の Gemini は使用可能な状況に至っていないと評価されている。\n\nテック媒体の評価では、Google が優れたスマートスピーカーを開発したことを認めつつも、肝心の AI アシスタント部分の機能が十分でないという矛盾が指摘されている。Gemini の学習と応答精度を高めるため、Google は利用ユーザーからのフィードバックループを強化する必要がある。\n\nこの製品展開は、AI 企業が技術の成熟度と市場投入のタイミングをめぐるジレンマに直面していることを物語っている。競合する Amazon Alexa や Apple Siri に対抗するため、Google は Gemini の本格的な統合を急ぎ過ぎた可能性が指摘されている。",
+    "tags": [
+      "Google",
+      "AI",
+      "スマートスピーカー",
+      "テクノロジー",
+      "Gemini"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/2026/7/2/23209876/google-gemini-speaker-ai-readiness-issue",
+    "importance": 3,
+    "image_query": "smart speaker technology voice assistant",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-05T09:17:34.547Z",
+    "publishedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "slug": "20260705-28",
+    "headline": "英国の不動産市場が鈍化 2カ月連続で価格が停滞",
+    "lead": "英国の住宅価格が2ヶ月連続で停滞し、不動産エージェントが夏季の低迷を予警告。経済不安が市場に影響。",
+    "body_markdown": "英国の住宅市場が鈍化局面に入った。不動産価格が2ヶ月連続で停滞し、不動産エージェント各社は夏季需要の落ち込みを警告している。ロンドンを含む主要都市でも売買意欲の減速傾向が見られており、市場の不確実性が増している。\n\nこの停滞は複数の要因に起因しており、利率環境の不透明性、家計の購買力低下、投資家心理の後退が相互に作用している。不動産エージェント業界のデータによると、今後数週間のさらなる鈍化が予想されており、Q3 における取引件数の減少が見込まれている。\n\n英国政府は年初から不動産市場の活性化策を講じてきたが、インフレーション圧力とエネルギーコストの上昇が家計予算を圧迫し、大型購入決定を延期する傾向を生み出している。市場アナリストは、金融政策の正常化が不動産市場の回復を促すまで、当面の低迷が続くと予測している。",
+    "tags": [
+      "英国",
+      "不動産",
+      "経済",
+      "市場",
+      "金融"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/money/2026/jul/04/uk-house-prices-stall-second-straight-month",
+    "importance": 3,
+    "image_query": "real estate housing market property",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-05T09:17:34.547Z",
+    "publishedAt": "2026-07-04T00:00:00.000Z"
+  },
+  {
     "slug": "20260705-01",
     "headline": "DiScoFormer、密度と勾配を統一で推定する新AI",
     "lead": "Allen AIとHugging Faceが共同開発した新トランスフォーマーは、データセットを再学習せず複数の分布に対応できる。",
