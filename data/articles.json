@@ -1,5 +1,433 @@
 [
   {
+    "slug": "20260706-01",
+    "headline": "イラン後継指導者、葬儀で姿見せず",
+    "lead": "米イスラエル攻撃で殺害されたハメネイ師の葬儀で、後継者の息子モジタバ師の公開出現が確認されず、イランの権力継承に注目が集まる。",
+    "body_markdown": "アメリカとイスラエルによる攻撃で殺害されたイランの前最高指導者ハメネイ師の葬儀が行われ、後継の最高指導者である息子モジタバ・ハメネイ師の兄弟3人が参列した。しかし、新たに最高指導者となった当事者本人の公開出現は確認されていない。\n\nこの不在は政治的に注目される。イラン情勢は米イスラエル戦争の長期化に伴い不確実性が高まっており、最高指導者が公の場に姿を見せないことは、後継体制の安定性や権力基盤の強さについての疑問を招いている。国内外の観測筋は、今後の権力運営方針と国際関係における姿勢を注視している。",
+    "tags": [
+      "イラン",
+      "政治権力",
+      "中東情勢",
+      "後継体制"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015169571000",
+    "importance": 5,
+    "image_query": "Iran government official state ceremony",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1693139062697-f5f8663217fa?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxJcmFuJTIwZ292ZXJubWVudCUyMG9mZmljaWFsJTIwc3RhdGUlMjBjZXJlbW9ueXxlbnwxfDB8fHwxNzgzMjg2NTY1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "sina drakhshani",
+      "profileUrl": "https://unsplash.com/@sina_drakhshani?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:45.994Z",
+    "publishedAt": "2026-07-05T20:36:25.000Z"
+  },
+  {
+    "slug": "20260706-02",
+    "headline": "ロシアの戦果主張は「誇張」と米分析機関",
+    "lead": "ウクライナ東部の領土支配をめぐるロシアの発表に対し、米国戦争研究所が戦場の実態と相違があると指摘した。",
+    "body_markdown": "米シンクタンク「戦争研究所」はロシア軍が発表したウクライナ東部ドネツク地域の領土掌握について、戦場の実態とロシアの主張が一致していないと分析を発表した。同機関は「ロシア軍は成果を誇張している」と指摘している。\n\nウクライナ紛争は3年目に突入し、双方の損失が増大している。ロシアはここ数ヶ月、限定的な領土獲得を発表しているが、米国の信頼性高い分析機関による指摘は、戦地からの情報の不確実性と情報戦の激化を示している。国際社会はロシア発表とその検証に注視を続けており、紛争の長期化が懸念される中、事実ベースの情報評価がより重要性を増している。",
+    "tags": [
+      "ウクライナ戦争",
+      "ロシア軍",
+      "領土問題",
+      "情報戦"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015169591000",
+    "importance": 5,
+    "image_query": "military conflict map eastern Europe",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1584931423298-c576fda54bd2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtaWxpdGFyeSUyMGNvbmZsaWN0JTIwbWFwfGVufDF8MHx8fDE3ODMyODY1Njd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Martin Sanchez",
+      "profileUrl": "https://unsplash.com/@martinsanchez?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:47.567Z",
+    "publishedAt": "2026-07-05T20:54:43.000Z"
+  },
+  {
+    "slug": "20260706-03",
+    "headline": "OPEC加盟国、8月も日量18万バレル増産へ",
+    "lead": "サウジアラビアなど主要産油国7ヵ国が、米イラン停戦後も原油生産を月間で約18万バレル増やすと発表。",
+    "body_markdown": "サウジアラビアなどOPECプラスの主要産油国7ヵ国は、原油の日当たり生産量を8月も18万バレル余り増やすことを発表した。この決定は7月に続く継続的な増産を意味する。\n\nアメリカとイランの停戦覚書署名後、原油市場は動揺している。増産はサウジが地域の安定化に向けた協調姿勢を示す信号である一方で、需要見通しの弱さを背景とした供給サイドの対応とも見られている。国際石油価格は当面、地政学的リスク削減による下押し圧力と、OPECの意思的な供給調整のバランスで推移する見込み。エネルギー輸入国は価格安定を望む立場だが、産油国のマージン圧縮懸念も存在する。",
+    "tags": [
+      "原油",
+      "OPEC",
+      "エネルギー価格",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015169531000",
+    "importance": 5,
+    "image_query": "oil refinery petroleum energy production",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1588011930968-eadac80e6a5a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxvaWwlMjByZWZpbmVyeSUyMHBldHJvbGV1bSUyMGVuZXJneSUyMHByb2R1Y3Rpb258ZW58MXwwfHx8MTc4MzI4NjU2OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Maksym Kaharlytskyi",
+      "profileUrl": "https://unsplash.com/@qwitka?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:48.302Z",
+    "publishedAt": "2026-07-05T19:49:24.000Z"
+  },
+  {
+    "slug": "20260706-04",
+    "headline": "OpenAI、遺伝子ベンチ「Genebench-Pro」公開",
+    "lead": "OpenAIが生物学研究向けAIモデルの評価ツール「Genebench-Pro」を発表し、AIの科学的実用化が進展。",
+    "body_markdown": "OpenAIは遺伝子・生物学分野でのAI性能を測定するベンチマーク「Genebench-Pro」を公開した。同ツールは、AI モデルが実世界の生物学的課題をどの程度解決できるかを客観的に評価する基準として機能する。\n\n生命科学研究の加速化は、医療技術やバイオテクノロジー産業にとって重要なテーマであり、AIが実験設計・仮説生成・データ分析を支援する可能性が注目されている。Genebench-Proの公開は、AI企業が産業応用への道を示す一方で、科学コミュニティの信頼獲得にも資する。OpenAIはAIの「科学的責任」を強調する戦略を取っており、単なる性能指標にとどまらず、研究の透明性と再現性を支える仕組みとしての位置づけである。",
+    "tags": [
+      "AI",
+      "生物学研究",
+      "ベンチマーク",
+      "遺伝子解析"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/genebench-pro/case-studies",
+    "importance": 5,
+    "image_query": "DNA laboratory genetic research microscope",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1637929476734-bd7f5f78e40a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxETkElMjBsYWJvcmF0b3J5JTIwZ2VuZXRpYyUyMHJlc2VhcmNoJTIwbWljcm9zY29wZXxlbnwxfDB8fHwxNzgzMjg2NTY5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Warren Umoh",
+      "profileUrl": "https://unsplash.com/@warrenumoh?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:49.331Z",
+    "publishedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "slug": "20260706-05",
+    "headline": "アマゾンMechanical Turk、新規受付終了へ",
+    "lead": "Amazonのクラウドワーキングプラットフォーム「Mechanical Turk」が7月30日で新規顧客の受け入れを停止する。",
+    "body_markdown": "Amazonは2005年から運営してきたクラウドソーシングプラットフォーム「Mechanical Turk」について、7月30日から新規顧客の受け入れを終了すると発表した。既存ユーザーはサービスを継続利用できるが、実質的には段階的廃止の道を歩むことになる。\n\nMechanical Turkは当初、CAPTCHAやテキスト分類などの自動化困難なタスクに対する人間労働を安価に調達する手段として機能していた。しかし、2023年の分析では利用者の33～46%が大規模言語モデルを使用してタスクを完了していたことが判明し、データ品質への懸念が生じた。プラットフォームは名前の由来である「からくり仕掛けの自動演奏機械」の逸話さながら、人間労働が見えない形でAIに置き換わっていた。AIの発展が人手不足を解消する一方で、かつてのギグワーカープラットフォームの必要性も失われつつある。",
+    "tags": [
+      "Amazon",
+      "クラウドワーキング",
+      "AI",
+      "労働市場"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+    "importance": 4,
+    "image_query": "computer work digital tasks coding screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxjb21wdXRlciUyMHdvcmslMjBkaWdpdGFsJTIwdGFza3MlMjBjb2RpbmclMjBzY3JlZW58ZW58MXwwfHx8MTc4MzI4NjU3MHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Luca Bravo",
+      "profileUrl": "https://unsplash.com/@lucabravo?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:50.175Z",
+    "publishedAt": "2026-07-05T17:43:36.000Z"
+  },
+  {
+    "slug": "20260706-06",
+    "headline": "Google創業者CMにAI登場、批評相次ぐ",
+    "lead": "GoogleWorkspaceが独立戦争の建国父たちがAIで独立宣言を起草する場面を描き、広告としてのセンス議論を呼ぶ。",
+    "body_markdown": "Googleは新しい企業広告で、米独立戦争の建国父たちがGeminiなどのAIツールを使って独立宣言を作成する架空のシナリオを描いた。ベンジャミン・フランクリンがトーマス・ジェファーソンにメッセージを送り、写真をAIで文字起こしして、複数人で編集提案を加えるという内容。\n\n広告の狙いはAI時代の協働効率を示すことだが、歴史上の重要な文書を現代のSaaS営業ツール的に扱う表現への批判が出ている。評者からは「作為的」「不気味」といった指摘がなされており、AIと人間文化の関係性についての認識のズレが露呈した形。企業のAI活用広告が増える中で、創意工夫と不敬のバランスをめぐる表現上の課題が問われている。",
+    "tags": [
+      "Google",
+      "AI",
+      "広告",
+      "Gemini"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
+    "importance": 3,
+    "image_query": "advertising creative digital marketing presentation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:50.175Z",
+    "publishedAt": "2026-07-05T14:23:11.000Z"
+  },
+  {
+    "slug": "20260706-07",
+    "headline": "二次創作界でAI検知論争、削除圧力も",
+    "lead": "ファンフィクション投稿サイトAO3でAI創作の排除運動が進み、検知方法の信頼性が問われている。",
+    "body_markdown": "ファンフィクション創作コミュニティでAI生成作品の排除を目指す運動が激化している。6月29日には匿名アカウント@heatedrivalryaiがAI検知ツール提供を表明したが、その精度については疑問の声が上がっている。\n\nClaudeやChatGPTなどのAI生成テキスト検知の方法として、Em ダッシュの多用やプロレタリア的な文体といった特徴が挙げられているが、これらは人間の執筆でも起こりうる。検知による誤断の危険性に加え、創作コミュニティ内での階級化や非難の文化への懸念も生じている。創作の自由とAI利用の倫理のバランスをめぐり、クリエイターコミュニティ内部でも価値観の相違が深刻化している。",
+    "tags": [
+      "AI",
+      "ファンフィクション",
+      "創作",
+      "倫理"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
+    "importance": 3,
+    "image_query": "creative writing literature storytelling online community",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:50.175Z",
+    "publishedAt": "2026-07-04T12:00:00.000Z"
+  },
+  {
+    "slug": "20260706-08",
+    "headline": "AI規制なき開発は「広島級脅威」と英外相",
+    "lead": "英国外相イヴェット・クーパー氏がAIの無規制発展は「広島級」の危機をもたらす可能性を警告。",
+    "body_markdown": "イギリスのイヴェット・クーパー外相は、AI技術の無制限な発展は人類に対して原爆投下に匹敵する脅威をもたらす可能性があると警告した。「広島のようなAI事態が起きる前に行動すべき」との主張で、米国と中国を含む各国への国際ルール設定を呼びかけている。\n\nクーパー外相は、AIが今後2年の外交政策における主要課題になると予測している。AI規制は単なる産業政策でなく、国家安全保障に関わる重大案件として位置づけられつつあり、先進国間での調整圧力が高まっている。一方で、AI開発競争の激化と規制要求の衝突に伴う国際的な分断懸念も指摘される。",
+    "tags": [
+      "AI規制",
+      "国際関係",
+      "安全保障",
+      "英国"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/politics/2026/jul/05/ai-hiroshima-style-threat-humanity-global-rules-yvette-cooper",
+    "importance": 4,
+    "image_query": "government conference international cooperation policy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1561489396-888724a1543d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxnb3Zlcm5tZW50JTIwY29uZmVyZW5jZSUyMGludGVybmF0aW9uYWwlMjBjb29wZXJhdGlvbiUyMHBvbGljeXxlbnwxfDB8fHwxNzgzMjg2NTcxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Evangeline Shaw",
+      "profileUrl": "https://unsplash.com/@evangelineshaw?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:51.362Z",
+    "publishedAt": "2026-07-05T19:00:34.000Z"
+  },
+  {
+    "slug": "20260706-09",
+    "headline": "FIFA議長、米政治との関係「慎重に」",
+    "lead": "FIFA議長ジャンニ・インファンティーノ氏が米政権との過度な接近を懸念する声が国内で高まり、バランス維持の圧力。",
+    "body_markdown": "ワールドカップ2026の開催国米国の政治的影響力が強まる中で、FIFA議長ジャンニ・インファンティーノ氏がトランプ政権との関係において自由度を失いつつあることへの懸念が出ている。ノルウェーのサッカー連盟幹部などから「米国への過度な寄り添いは国際スポーツの中立性を損なう」との批判が上がっている。\n\nバロウン選手の出場停止解除要求など、政治的干渉とスポーツ運営の境界が曖昧化している。FIFA内部でも、政治的圧力への耐性を保ちながら国際組織としての信用を維持する難しさが増している。スポーツと政治の関係が構造的に深まる中で、国際運営機関の独立性の維持が試されている。",
+    "tags": [
+      "FIFA",
+      "ワールドカップ",
+      "政治干渉",
+      "国際スポーツ"
+    ],
+    "section": "政治",
+    "source": "Politico",
+    "link": "https://www.politico.com/live-updates/2026/07/05/world-cup-2026/gianni-infantino-win-over-trump-folarin-balogun-red-card-00987448",
+    "importance": 3,
+    "image_query": "sports organization international federation official meeting",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:51.362Z",
+    "publishedAt": "2026-07-05T18:51:17.000Z"
+  },
+  {
+    "slug": "20260706-10",
+    "headline": "メキシコ・イングランド戦、貿易交渉も視野に",
+    "lead": "ワールドカップのメキシコ・イングランド戦は、Brexit後の英メキシコ間の経済協力協議の再開の機会として注目。",
+    "body_markdown": "ワールドカップ2026におけるメキシコとイングランドの対戦が、単なるスポーツ競技を超えて経済外交の舞台となっている。英国とメキシコは、Brexit後の関税交渉が停滞していた経緯があり、スポーツ外交の場を通じた関係修復を模索している。\n\n両国の指導部はこの試合を通じて、通商協定の交渉再開シグナルを送る可能性が指摘されている。スポーツと外交の結びつきは従来から存在するが、ワールドカップの高い国際メディア露出を利用した「軟実力」戦略として機能している。グローバル経済における地域的なブロック化と並行して、二国間関係の修復と深化が進行している。",
+    "tags": [
+      "ワールドカップ",
+      "英国",
+      "メキシコ",
+      "貿易交渉"
+    ],
+    "section": "政治",
+    "source": "Politico",
+    "link": "https://www.politico.com/live-updates/2026/07/05/world-cup-2026/mexico-v-england-trade-edition-whats-really-at-stake-00987125",
+    "importance": 3,
+    "image_query": "international diplomacy trade conference discussion",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:51.362Z",
+    "publishedAt": "2026-07-05T18:15:00.000Z"
+  },
+  {
+    "slug": "20260706-11",
+    "headline": "ファラージ氏、資金報告書疑惑で陳述",
+    "lead": "英国の政治家ナイジェル・ファラージ氏が、暗号資産起業家からの資金援助報告義務違反疑惑に関して説明を求められている。",
+    "body_markdown": "英国Reform党の指導者ナイジェル・ファラージ氏が、資金援助に関する登録義務の違反疑惑に直面している。暗号資産起業家で詐欺前科を持つ人物からの支援を受けながら、その事実を政治資金報告書に記載していなかった可能性が指摘されている。\n\n当該人物は32歳で、米国での詐欺有罪判決歴があり、ファラージ氏と長年の関係にあるとされている。英国では政治資金の透明性が強く求められており、今回の疑惑はファラージ氏の信用に直結する。野党や市民団体からは「政治倫理の基本原則の違反」との批判が出ており、事実関係の解明と説明責任が焦点となっている。",
+    "tags": [
+      "政治資金",
+      "英国政治",
+      "透明性",
+      "倫理問題"
+    ],
+    "section": "政治",
+    "source": "BBC Politics",
+    "link": "https://www.bbc.co.uk/news/articles/c5yzzw5vk8vo",
+    "importance": 3,
+    "image_query": "politics corruption scandal investigation evidence",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:51.362Z",
+    "publishedAt": "2026-07-05T17:57:46.000Z"
+  },
+  {
+    "slug": "20260706-12",
+    "headline": "自閉症「極端男性脳説」、提唱者が撤回",
+    "lead": "自閉症研究の権威シモン・バロン＝コーエン教授が、自らの「極端男性脳」理論は誤解招くため不適切だと見直した。",
+    "body_markdown": "自閉症研究の第一人者シモン・バロン＝コーエン教授は、自身が2002年に提唱した「極端男性脳」理論の言語表現が不適切だったと公式に述べた。理論の基礎科学は妥当だが、そのラベリングが自閉症者に対する誤った認識を生み出したという。\n\n「極端男性脳説」は、自閉症が高い体系化能力と低い共感能力で特徴づけられるという仮説だった。数十年にわたり学術界と一般認識に大きな影響を与えたが、自閉症者のコミュニティからは「共感能力の欠落という誤解を固定化した」との批判が続いていた。今回の見直しは、科学的知見と社会的影響のズレを正す重要な一歩。バロン＝コーエン教授は同時にケンブリッジ大学に新設される自閉症研究センターの責務も引き受けており、より包括的なアプローチへの転換が期待される。",
+    "tags": [
+      "自閉症",
+      "神経多様性",
+      "科学理論",
+      "心理学"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/society/2026/jul/05/autism-extreme-male-brain-simon-baron-cohen",
+    "importance": 4,
+    "image_query": "autism awareness neurodiversity research education",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1672952419591-3c0bc803175d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhdXRpc20lMjBhd2FyZW5lc3MlMjBuZXVyb2RpdmVyc2l0eSUyMHJlc2VhcmNoJTIwZWR1Y2F0aW9ufGVufDF8MHx8fDE3ODMyODY1NzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Peter Burdon",
+      "profileUrl": "https://unsplash.com/@peterburdon?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:52.334Z",
+    "publishedAt": "2026-07-05T14:02:46.000Z"
+  },
+  {
+    "slug": "20260706-13",
+    "headline": "大学の言語課程削減、社会流動性を脅かす",
+    "lead": "エクセター大学が70人以上の言語学者の削減を発表し、貴族大学が言語学位廃止を検討。",
+    "body_markdown": "英国のエクセター大学はここ数年のうちに150人の人員削減を進める中で、70人以上の言語学者が対象となる可能性を発表した。同大学はラッセルグループ（英国の研究重点大学群）に属する。さらにノッティンガム大学は、ラッセルグループとしては初めて言語学位課程を廃止する可能性を示唆している。\n\n言語学位は、競争が少ないため成績要件が相対的に低く、社会経済的に恵まれない学生にとって一流大学への入学経路となってきた。オックスフォードとケンブリッジで言語学受験者の採用率は約50%で、他分野より大幅に高い。人文学からの撤退戦略は大学の経営効率化と矛盾しないが、機会均等と教養教育の深さという価値の喪失につながる懸念が指摘されている。",
+    "tags": [
+      "大学教育",
+      "言語学",
+      "社会流動性",
+      "高等教育"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/education/2026/jul/05/cutting-university-language-courses-puts-social-mobility-at-risk-say-experts",
+    "importance": 4,
+    "image_query": "university classroom education learning language study",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1581726707445-75cbe4efc586?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHx1bml2ZXJzaXR5JTIwY2xhc3Nyb29tJTIwZWR1Y2F0aW9uJTIwbGVhcm5pbmclMjBsYW5ndWFnZSUyMHN0dWR5fGVufDF8MHx8fDE3ODMyODY1NzN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Taylor Flowe",
+      "profileUrl": "https://unsplash.com/@taypaigey?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:53.320Z",
+    "publishedAt": "2026-07-05T14:00:28.000Z"
+  },
+  {
+    "slug": "20260706-14",
+    "headline": "Ofsted、自閉症と過激化を結びつけるガイド廃止",
+    "lead": "英国の学校監視機関Ofstedが、自閉症と過激化の関連性を示唆する訓練資料を廃止した。",
+    "body_markdown": "英国の学校監視機関Ofstedは、教員や検査官向けの訓練資料で自閉症と過激化傾向を結びつける内容を削除することを決定した。当該資料には、自閉症のある子どもが特殊関心を持つことが過激化のリスク要因となる可能性があると記載されていた。\n\n有名テレビ司会者クリス・パッカムなどの有名人が「差別的で根拠が薄い」と異議を唱え、大規模な撤回キャンペーンが展開されていた。医学的研究により、自閉症と過激化傾向の因果関連は実証されておらず、むしろ社会孤立の経験が通常より強いことが知られている。Ofsted幹部は当初、ガイドラインの維持を示唆していたが、公的圧力と科学的根拠の欠如を受けて方針転換した。教育現場における神経多様性への理解改善が課題として残る。",
+    "tags": [
+      "自閉症",
+      "教育政策",
+      "差別",
+      "安全保障"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/education/2026/jul/05/ofsted-drops-autism-extremism-guidance",
+    "importance": 4,
+    "image_query": "education policy school children learning classroom",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxlZHVjYXRpb24lMjBwb2xpY3klMjBzY2hvb2wlMjBjaGlsZHJlbiUyMGxlYXJuaW5nJTIwY2xhc3Nyb29tfGVufDF8MHx8fDE3ODMyODY1NzN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:53.936Z",
+    "publishedAt": "2026-07-05T06:00:19.000Z"
+  },
+  {
+    "slug": "20260706-15",
+    "headline": "女性の仕事での進展、停滞局面に入った",
+    "lead": "Lean in と McKinsey の調査で、女性の昇進意欲が男性との間で拡大。企業の支援撤退が背景。",
+    "body_markdown": "Lean inとマッキンゼーの共同調査「Women in the Workplace」で、女性の職業的野心が鈍化している実態が明らかになった。女性の昇進志向は80%と高いが、男性の86%に比べ6ポイント低く、その差は入社初期レベルと経営層で顕著だ。\n\n特に入社初期段階では女性の昇進希望が69%に対し男性は80%で、経営層でも女性84%、男性92%と男女差が定着している。企業の女性キャリア支援の関心低下が顕著で、支援継続企業は約50%に留まっている。「Lean in」の概念は、女性に構造的不利を個人的努力で補わせる傾向があり、実際には無形労働や育児責任の非対称性という根本的課題が未解決のままである。職場における男女平等の停滞が示唆する問題は、経済競争力の観点からも人的資本の活用面でも重大。",
+    "tags": [
+      "ジェンダー平等",
+      "職場",
+      "昇進",
+      "企業文化"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.theguardian.com/finance-and-economics/2026/07/05/womens-progress-at-work-appears-to-be-stalling",
+    "importance": 4,
+    "image_query": "workplace women professional office meeting business",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx3b3JrcGxhY2UlMjB3b21lbiUyMHByb2Zlc3Npb25hbCUyMG9mZmljZSUyMG1lZXRpbmclMjBidXNpbmVzc3xlbnwxfDB8fHwxNzgzMjg2NTc0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "LinkedIn Sales Solutions",
+      "profileUrl": "https://unsplash.com/@linkedinsalesnavigator?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:54.899Z",
+    "publishedAt": "2026-07-05T17:22:02.000Z"
+  },
+  {
+    "slug": "20260706-16",
+    "headline": "エアコン詐欺、模造サイトで拡大中",
+    "lead": "猛暑でエアコン需要が急増する中、有名小売店のサイトを模倣した詐欺が増加。",
+    "body_markdown": "英国で続く熱波に伴うエアコン需要の急増に乗じた詐欺が拡大している。詐欺師はアルディなどの有名小売チェーンのウェブサイトを完全に模倣し、大幅値引きを装うことで利用者を引き込んでいる。実際に商品は届かず、お金だけが失われるスキーム。\n\n正規品の品薄と価格上昇が背景にあり、消費者の「安く購入したい」という急迫した心理が狙われている。詐欺サイトは URLや見た目が本物に酷似し、通常のネットリテラシーでは判別困難。英国消費者庁はドメイン一つの違いなど細部の確認を推奨しているが、緊急購入を急ぐ消費者の脆弱性は依然高い。極端気象下での消費行動を標的とする新種詐欺として注視が必要。",
+    "tags": [
+      "詐欺",
+      "気象",
+      "消費者被害",
+      "オンライン"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/money/2026/jul/05/air-conditioning-scams-fake-deals-heatwave-aldi",
+    "importance": 3,
+    "image_query": "online fraud website security warning internet",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:54.899Z",
+    "publishedAt": "2026-07-05T06:00:19.000Z"
+  },
+  {
+    "slug": "20260706-17",
+    "headline": "ステーブルコイン規制、各国で統一基準化進む",
+    "lead": "米国を含む主要7ヵ国がステーブルコインに対する統一規制フレームワークの導入を推進。",
+    "body_markdown": "2026年、米国・EU・英国・シンガポール・香港・UAE・日本が、ステーブルコインに対する統一的な規制基準の導入を推し進めている。共通要件は100%の準備金裏付け、ライセンス発行者、償還権の保証で、ステーブルコインを仮想資産ではなく規制決済手段として位置づけている。\n\n米国では7月18日、「GENIUS Act」が正式化し、決済安定性確保のための反マネーロンダリング（AML）と制裁金融（OFAC）規定が実装される。各国の規制収束は、ステーブルコインを「シャドーバンク化」させないための取り組みとして評価される一方で、実装過程での相互運用性確保や、開発途上国の規制格差の問題も残されている。規制の「透明性強化」が必須要件となる中で、中央銀行デジタル通貨（CBDC）との位置関係も再整理されつつある。",
+    "tags": [
+      "ステーブルコイン",
+      "暗号資産",
+      "金融規制",
+      "国際基準"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/07/02/are-stablecoins-money",
+    "importance": 3,
+    "image_query": "cryptocurrency blockchain digital money finance",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:54.899Z",
+    "publishedAt": "2026-07-02T09:37:02.000Z"
+  },
+  {
+    "slug": "20260706-18",
+    "headline": "3D TVブーム終焉、技術と市場の課題",
+    "lead": "3D テレビは2010年代の短い流行から消滅。眼鏡負担と低質な映画化が主因。",
+    "body_markdown": "2010年代初頭、アバターなどの映画ヒットに後押しされた3D TVブームは2015年までに終焉を迎えた。技術的障壁と市場課題が複合的に作用した。\n\nハード面では、視聴用眼鏡が高額（10～50ドル）で充電が必要、1080pで解像度が50%減少するパッシブ眼鏡の制限、専用Blu-rayプレーヤーの追加費用。ソフト面では、3D映画の大多数が2Dからの低質な変換で、ネイティブ撮影はアバター、ライフオブパイなど少数に限定された。BBCのデータでは、3D対応TV所有家庭の利用率は3年で25%から10%未満に低下。スポーツ中継など限定的な需要はあったが、一般向けサービスとしてのメリットが消えた。技術革新の成功と市場採用には、利便性と高質なコンテンツの両輪が不可欠という教訓を残した。",
+    "tags": [
+      "テレビ技術",
+      "3D",
+      "映画産業",
+      "消費者市場"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2206391/why-3d-tvs-failed/",
+    "importance": 3,
+    "image_query": "television technology display screen innovation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-05T21:22:54.899Z",
+    "publishedAt": "2026-07-05T18:30:00.000Z"
+  },
+  {
     "slug": "20260705-17",
     "headline": "スーパー台風バビ、米領グアムに接近 カテゴリー5相当",
     "lead": "米太平洋領土のグアムと北マリアナ諸島がスーパー台風バビの接近に備え、緊急避難態勢に入った。風速260キロを超える猛威が予想される。",
