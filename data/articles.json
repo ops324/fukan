@@ -1,5 +1,528 @@
 [
   {
+    "slug": "20260707-01",
+    "headline": "LeRobot v0.6.0がロボット制御を進化",
+    "lead": "ロボット学習フレームワーク LeRobot が画像生成AI、報酬モデル、マルチGPU対応を一体統合した新版をリリース。",
+    "body_markdown": "Hugging Face が発表したロボティクス向けフレームワーク LeRobot v0.6.0 は、ロボット制御の複数の課題を一度に解決する大型アップデートだ。\n\n最大の特徴は、3つの世界モデルポリシーの導入。VLA-JEPA、LingBot-VA、FastWAM という手法が、ロボットに「未来状態を想像させる」機能を与える。特に FastWAM は推論時の計算コストを増やさず予測精度を高めるなど、実運用への配慮が目立つ。\n\n報酬モデル API の Robometer と TOPReward は、ロボットが「タスク成功」を判定する仕組み。事前学習済みで、新しいタスク用に1から学習し直す手間を省く。\n\nデータセット側も強化。カスタム動画コーデック、深度センサ統合、VLM による自動ラベル付けなどで、数倍速いデータ処理を実現した。FSDP マルチGPU対応で大規模学習もスケール可能に。\n\nロボティクスは従来、各社が個別に取り組む領域だったが、LeRobot の統合プラットフォーム化で、研究者や開発者の参入障壁が大きく下がる。未来のロボット社会に向けた基盤が整いつつある。",
+    "tags": [
+      "ロボティクス",
+      "AI",
+      "オープンソース",
+      "機械学習"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/lerobot-release-v060",
+    "importance": 4,
+    "image_query": "robot arm automation machine learning",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1563968743333-044cef800494?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxyb2JvdCUyMGFybSUyMGF1dG9tYXRpb24lMjBtYWNoaW5lJTIwbGVhcm5pbmd8ZW58MXwwfHx8MTc4MzM3Mjg1Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Franck V.",
+      "profileUrl": "https://unsplash.com/@possessedphotography?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-06T21:20:56.551Z",
+    "publishedAt": "2026-07-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20260707-02",
+    "headline": "アリババ、Claude を社内禁止に",
+    "lead": "Anthropic が最大級の「蒸留攻撃」を受けたとして、中国アリババはClaudeを高リスク指定し従業員に使用禁止を命じた。",
+    "body_markdown": "中国e-コマース大手アリババが、Anthropic の Claude Code を全従業員に使用禁止にすると発表した。7月10日より段階的に施行される。\n\n背景にあるのは、Anthropic が公表した「最大規模の蒸留攻撃」。2026年4月22日〜6月5日の間に、阿里巴巴(Qwen)の関連組織が約2万5000個の偽アカウントを作成し、約2880万件の会話を生成してClaudeの重要なモデルから知識を抽出しようとしたという。\n\nこれに対し、Anthropic が 2026年4月からリリースしたClaudeのバージョン 2.1.91以降には「隠されたバックドア」が組み込まれていたことが発覚。China detection メカニズムで、無認可の再販売からの悪用防止を名目に、中国ユーザーを特定・追跡していたと指摘されている。\n\nアリババ側は Claude Code を「高リスク・スパイウェア」指定し、従業員に自社の AI アシスタント Qoder への乗り換えを指示。一方 Anthropic のエンジニアは X で「3月から開始した実験が終わった」とコメントするなど、米中 AI 競争の緊迫度が高まっている。",
+    "tags": [
+      "AI",
+      "セキュリティ",
+      "米中対立",
+      "データセキュリティ"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/06/alibaba-anthropic-ai-ban-claude-china.html",
+    "importance": 5,
+    "image_query": "cybersecurity data security attack",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1660644808219-1f103401bc85?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxjeWJlcnNlY3VyaXR5JTIwZGF0YSUyMHNlY3VyaXR5JTIwYXR0YWNrfGVufDF8MHx8fDE3ODMzNzI4NTd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "GuerrillaBuzz",
+      "profileUrl": "https://unsplash.com/@guerrillabuzz?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-06T21:20:57.483Z",
+    "publishedAt": "2026-07-06T20:56:35.000Z"
+  },
+  {
+    "slug": "20260707-03",
+    "headline": "Photoroom、PRX Part 4 でデータ戦略を公開",
+    "lead": "生成AI向け大規模学習データセットの構築・最適化を再現可能にする手法を詳述。",
+    "body_markdown": "Photoroom が、自社の画像生成モデル PRX 開発で実践したデータ戦略をPart 4で公開した。従来は秘匿されることが多いデータ処理のノウハウが、詳細なレベルで明かされている。\n\n最重要視されたのは「キャプション品質」。単なる短い説明文ではなく、画像内のすべての要素を正確に説明する長いキャプションが、出力品質を大きく向上させることが実証された。Qwen2.5-VL といった視覚言語モデルで生成したキャプションは、手書きのものより複数の指標で圧倒的に優れていたという。\n\nデータセット構築ではLance（columnar形式）を使い、全文検索・ベクトル類似度検索で、学習前にデータセット内容を完全に可視化。JPEG品質92での圧縮、縦横比ごとのバケッティング、テキスト分類による不適切コンテンツのフィルタリング、知覚ハッシュでの重複排除といった細部の最適化が積み重なっている。\n\n学習用フォーマットはMosaic Data Shards（MDS）に統一し、再開可能なシャッフリングと複数ストリーム混合を実現。再現可能性と効率性の両立を実装している。",
+    "tags": [
+      "データセット",
+      "生成AI",
+      "学習",
+      "Best Practices"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+    "importance": 3,
+    "image_query": "machine learning dataset training data",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-06T21:20:57.484Z",
+    "publishedAt": "2026-07-06T15:30:55.000Z"
+  },
+  {
+    "slug": "20260707-04",
+    "headline": "Anthropic、AIコーディングの4つのループ型を解説",
+    "lead": "Claude Code が使い分けるべきループモデル4パターンをフレームワーク化し、開発者向けに詳説。",
+    "body_markdown": "Anthropic が、AI によるコーディング時に使い分けるべき「ループ」の4パターンを ITmedia 連携記事で整理した。AIにどこまで任せて、人間がどこで止めるべきか、初心者向けに体系化している。\n\n第一は「ターンベース型」。人間が指示を与えて、AI が1ターン実行し、結果を返す。最も単純で人間のコントロールが強い。\n\n第二が「ゴール型」。`/goal` コマンドで目標を設定すると、AI が自動的に目標達成まで繰り返し試行。人間が細かく指示しなくても進む。\n\n第三は「時間ベース型」。`/loop` と `/schedule` コマンドで定期実行。定期メンテナンスやバッチ処理向け。\n\n最後が「プロアクティブ型」。人間の明示的な指示なしに、AI が主体的に動く。最も自律度が高く、使用は限定的。\n\nこれら4つは単なる学習パターンでなく、企業の自動化戦略全体に影響する。誤ったループ選択は無限実行や不完全な結果につながる。開発チームの成熟度に応じた選択が重要だ。",
+    "tags": [
+      "AI開発",
+      "Claude Code",
+      "自動化",
+      "開発ツール"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/07/news014.html",
+    "importance": 3,
+    "image_query": "programming code development automation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-06T21:20:57.484Z",
+    "publishedAt": "2026-07-06T20:00:00.000Z"
+  },
+  {
+    "slug": "20260707-05",
+    "headline": "医薬配送ロボット、非ニュートン流体での予想外の動き",
+    "lead": "磁気駆動ミニロボットが血液のような粘性流体で逆転する振る舞いを発見。ターゲット配送の精度向上に道。",
+    "body_markdown": "米リーハイ大学の研究チームが、医薬配送用の極小ロボットが体内の非ニュートン流体（血液や粘液）内で、予想外の動作をすることを発見した。\n\n磁気駆動される微小球体とらせん形ロボットが、駆動周波数を上げると、水など通常の流体では見られない「逆方向への滑り」を起こしたのだ。液体の物理的性質（流動特性）だけで、ロボットの形状関係なくこの現象が起きることが確認された。\n\n研究主査のエブル・デミール博士は「流体を単なる移動媒体ではなく、制御システムそのものとして認識できる」と指摘。極小ロボットが血管内を移動し、腫瘍に到達して化学療法薬を放出する際、この性質を利用して「強力なコントロールハンドル」を得られる可能性がある。\n\n従来、医薬配送ロボットは水のような理想流体でのシミュレーションが主だったが、実際の人体内の複雑な流動環境では予測とズレが生じていた。今回の発見により、体内環境そのものをコントローラとして再設計する新しい戦略が開けた。",
+    "tags": [
+      "医療機器",
+      "ナノロボット",
+      "医薬配送",
+      "バイオテクノロジー"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-unexpected-motion-drug-delivery-robots.html",
+    "importance": 3,
+    "image_query": "nano robot medical science research",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-06T21:20:57.484Z",
+    "publishedAt": "2026-07-06T20:40:05.000Z"
+  },
+  {
+    "slug": "20260707-06",
+    "headline": "世界銀行、気候ファイナンス目標を撤回",
+    "lead": "米国の圧力で45%削減目標を放棄。気候変動対策の成果指標重視にシフトへ。",
+    "body_markdown": "世界銀行は気候変動対応行動計画（CCAP）から、投資の45%を気候緩和・適応に充てるという数値目標を削除することを決めた。同時に35%の関連目標も廃止。\n\n米国現政権、ロシア、サウジアラビアからの強い圧力が背景にある。一方、約100カ国にのぼる新興国・途上国グループは気候ファイナンス公約の維持を求めており、先進国と途上国の分断が鮮明化している。\n\n世銀は全体の気候行動計画は維持するとしているが、数値ターゲット廃止により、投資額の追跡が曖昧化する恐れがある。代わりに「温室ガス排出削減量」や「気候リスク対策で保護される人口」といった成果指標へシフトするという。\n\n世銀は年250億ドル規模の気候投資を実行してきたが、今回の決定は「緑の成長」という20年来のパラダイムの転換を象徴している。既得権益と気候正義のはざまで、開発金融機構の中立性が問われる局面を迎えた。",
+    "tags": [
+      "気候変動",
+      "ファイナンス",
+      "地政学",
+      "SDGs"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/07/06/the-world-bank-has-ditched-its-climate-targets",
+    "importance": 4,
+    "image_query": "climate change finance environment",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1570095378004-ce65d6c2d5bb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjbGltYXRlJTIwY2hhbmdlJTIwZmluYW5jZSUyMGVudmlyb25tZW50fGVufDF8MHx8fDE3ODMzNzI4NTh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Spiske",
+      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-06T21:20:58.694Z",
+    "publishedAt": "2026-07-06T19:40:33.000Z"
+  },
+  {
+    "slug": "20260707-07",
+    "headline": "英国医師、12カ月のストライキ権を取得",
+    "lead": "経営陣医師たちが給与25%低下に対する1年間の団体交渉権を獲得、NHS改革の局面が変わる。",
+    "body_markdown": "英国の経営陣医師（コンサルタント医師）が、向こう12カ月のストライキ権を求める投票で賛成多数を獲得した。平均年収15万2000ポンドでありながら、2008〜09年以降に給与価値が25%低下したことに対抗する。\n\n経営陣医師は英国医療制度（NHS）の最高レベルの医学専門家。彼らの年収低下は、若手医師や看護師のモチベーション低下にも波及している。賃金の多年度協定要求は「構造的な低賃金化からの脱却」を象徴する。\n\nNHS は既に下級医師のストライキで数月の混乱を経験しており、最高峰の医師層までが団体行動に動く事態は極めて深刻。一方、英国政府は財政難を理由に大幅な給与引き上げに慎重。\n\nこの投票は医師の不満が「給与交渉」にとどまらず、NHS全体の資金配分・優先順位についての根本的な異議を反映している。欧州の公衆衛生危機として、今後の交渉が注視される。",
+    "tags": [
+      "労働問題",
+      "医療制度",
+      "NHS",
+      "イギリス"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://www.theguardian.com/society/2026/jul/06/consultant-doctors-england-vote-nhs-strikes-pay-working-week",
+    "importance": 3,
+    "image_query": "hospital doctor healthcare medical",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-06T21:20:58.694Z",
+    "publishedAt": "2026-07-06T18:46:54.000Z"
+  },
+  {
+    "slug": "20260707-08",
+    "headline": "NATO首脳会議、米の関与低下に対応へ",
+    "lead": "トルコで開幕するNATO会議でアンカラで加盟国が防衛支出増の確認求める、米国の欧州保護削減受け。",
+    "body_markdown": "北大西洋条約機構（NATO）の首脳会議が7月7日からトルコの首都アンカラで2日間にわたって開催される。米国がヨーロッパの防衛への関与を減らしつつある現在、加盟国間の結束を示すことが焦点。\n\nバイデン政権以来、米国はウクライナ支援の限界を示唆し、ヨーロッパ自身の防衛力強化を求めている。NATO各国は独立した防衛力構築の必要性を認識しつつも、米国との同盟関係の弱体化を警戒。今回の会議では「NATO2%（GDP比2%以上の国防支出）」目標の達成時期の確認や、新たな防衛協力の枠組みづくりが主要議題となる。\n\nウクライナ支援の継続可否、東欧への軍事配備レベル、ロシアとの対抗姿勢の維持など、加盟国30カ国が多次元的な課題で合意を形成する難しさが指摘されている。\n\nこれは単なる軍事同盟の再調整ではなく、米国の戦略的後退とヨーロッパの自立を巡る根本的なパラダイムシフトを反映している。",
+    "tags": [
+      "NATO",
+      "地政学",
+      "防衛政策",
+      "米欧関係"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015170231000",
+    "importance": 4,
+    "image_query": "military defense NATO conference",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1521726834835-4ff1624e69da?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxtaWxpdGFyeSUyMGRlZmVuc2UlMjBOQVRPfGVufDF8MHx8fDE3ODMzNzI4NjB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Kony",
+      "profileUrl": "https://unsplash.com/@konyxyzx?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:00.824Z",
+    "publishedAt": "2026-07-06T20:34:39.000Z"
+  },
+  {
+    "slug": "20260707-09",
+    "headline": "Microsoft、4800人削減・Xbox大規模再編",
+    "lead": "全従業員の2.1%にあたる4800人を削減、Xbox部門は3200人の職失う。AI対応への戦略転換を宣言。",
+    "body_markdown": "Microsoft が4800人（全従業員の2.1%）の削減を発表。1年前に9100人削減したばかりだが、今回は特にXbox ゲーム事業と商用営業部門に集中。\n\nXbox 関連だけで3200人の職が失われ、歴史上最大規模の部門再編が実行される。同時に4つのゲームスタジオをスピンオフまたは売却、さらに1スタジオはレビュー対象となり閉鎖の可能性。Xbox の本体販売が軟化する中、サブスクリプションとクラウドゲーミングへのビジネスモデル転換が急速化している。\n\nMicrosoft経営陣は声明で「AI による技術産業の変化への対応」を削減理由に掲げた。ただし実態は、生成AI への投資優先で、従来型ゲーム事業の収益性を見直す決定。クラウド・Azure・Copilot など AI 関連の部門には引き続き投資を続ける。\n\nMicrosoft のような巨大テック企業の大規模リストラは市場シグナル。生成AI がビジネス価値を示さない限り、既存事業の選別・淘汰が加速される局面に業界全体が入った。",
+    "tags": [
+      "Microsoft",
+      "レイオフ",
+      "AI戦略",
+      "ゲーム産業"
+    ],
+    "section": "ビジネス",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/c36yy27rnpeo",
+    "importance": 5,
+    "image_query": "office business corporate layoffs",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1564069114553-7215e1ff1890?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxvZmZpY2UlMjBidXNpbmVzcyUyMGNvcnBvcmF0ZSUyMGxheW9mZnN8ZW58MXwwfHx8MTc4MzM3Mjg2MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ant Rozetsky",
+      "profileUrl": "https://unsplash.com/@rozetsky?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:02.101Z",
+    "publishedAt": "2026-07-06T15:18:53.000Z"
+  },
+  {
+    "slug": "20260707-10",
+    "headline": "結核撲滅に PAC-MAN と AI を組み合わせ",
+    "lead": "ペプチドグリカン透過性評価技術と機械学習モデルで、結核菌に効く化合物の開発速度を加速。",
+    "body_markdown": "米マサチューセッツ大学アマースト校の研究チームが、結核撲滅に向けて2つの技術を統合した新たなアプローチを発表。PAC-MAN（Peptidoglycan Accessibility Click-Mediated AssessmeNt）と呼ばれる高速スクリーニング技術と AI モデルの組み合わせだ。\n\nPAC-MAN 技術は、複数の化学化合物を同時にテストする。従来は化合物1つずつ試す必要があり、膨大な試行錯誤が必要だったが、並列処理で数千倍の効率化を実現。\n\nそれと並行して、研究チームが機械学習モデル「MycoPermeNet」を開発。PAC-MAN のデータから学習し、化学構造だけで「結核菌の保護膜を透過する可能性」を予測。透過性が高い分子ほど菌を殺す効果も高いという相関が確認された。\n\n結核菌は独特な外膜構造で、既存の多くの抗生物質が効かない。今回の発見により、有望な薬候補を合理的に優先できるようになり、開発期間・コスト削減に直結。世界的な結核撲滅へ向けた転機となる可能性がある。",
+    "tags": [
+      "医療",
+      "感染症",
+      "機械学習",
+      "医薬開発"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-world-deadliest-infection-pac-ai.html",
+    "importance": 3,
+    "image_query": "medical research laboratory microscope",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:02.102Z",
+    "publishedAt": "2026-07-06T20:20:04.000Z"
+  },
+  {
+    "slug": "20260707-11",
+    "headline": "Square Kilometer Array、地球外生命探査を革新",
+    "lead": "豪州とアフリカを跨ぐ巨大電波望遠鏡が、4光年先の地球型文明の携帯通信も検出可能に。",
+    "body_markdown": "オーストラリアとアフリカ大陸を跨ぐ史上最大級の電波望遠鏡「Square Kilometer Array（SKA）」が、地球外知的生命体（SETI）探査の方法論を根本的に変える。\n\nSKA は従来の SETI 手法を超える感度を持つ。1時間の観測で、4光年離れた惑星上の「現代的な携帯電話ネットワーク相当」の通信を検出できるほどの精度。従来は地球に意図的に送信されたビーコンのみを探していたが、SKA は「漏洩信号」—— つまり宇宙文明が無意識のうちに発する電磁ノイズも検出可能。\n\n実装戦略では、SKA が他の天文観測用に収集したデータから SETI 信号を後付けで抽出。実装専有時間の競争を避ける。ただし膨大なデータセット処理と、地球由来のノイズ除去に AI・超長基線干渉法（VLBI）を駆使する必要がある。\n\nこれは単なる技術的進歩でなく、人類の「自分たちが宇宙で孤独か」という根本的な問いへの解答に迫る転機である。",
+    "tags": [
+      "宇宙科学",
+      "SETI",
+      "宇宙探索",
+      "天文学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-square-kilometer-array-revolutionize-alien.html",
+    "importance": 3,
+    "image_query": "space telescope astronomy radio waves",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:02.102Z",
+    "publishedAt": "2026-07-06T20:20:02.000Z"
+  },
+  {
+    "slug": "20260707-12",
+    "headline": "Palantir CEO、OpenAI/Anthropic の価格モデルを猛批判",
+    "lead": "トークン課金の「完全な非合理性」を指摘、エンタープライズはデータ搾取の危機にと警告。",
+    "body_markdown": "Palantir CEO アレックス・カープがCNBC出演で、OpenAI と Anthropic のトークンベース課金モデルを「完全に非合理」と激しく批判した。\n\nカープの主張：フロンティアモデルプロバイダが、顧客のプロプライエタリデータを学習に用いて競争優位を確保する構造は、「盗窃」に等しい。エンタープライズ顧客は「価値を生まないトークンに金を払わされている」と怒り、同時に自社の最高機密が AI 企業に吸い上げられている。\n\nさらに国家安全保障観からも懸念。米国が軍事・重要インフラの AI を、シリコンバレーの private 企業に依存する構造は危険だと指摘。\n\n対抗策として Palantir と Nvidia は提携し、Nvidia のオープンソースモデル Nemotron を米国政府・重要インフラに配備。分類済みネットワーク環境でのローカル運用を実現。\n\nこの批判は単なる競争相手の言及でなく、AI 産業の根本的な矛盾を突いている——エンタープライズデータなくして frontier models は存在しないのに、そのデータの対価が著しく不十分であることだ。",
+    "tags": [
+      "AI",
+      "ビジネスモデル",
+      "エンタープライズ",
+      "データセキュリティ"
+    ],
+    "section": "AI",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/01/palantir-karp-open-ai-anthropic-tokens.html",
+    "importance": 4,
+    "image_query": "technology business innovation AI",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1633311905139-7b6088a69e33?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHx0ZWNobm9sb2d5JTIwYnVzaW5lc3MlMjBpbm5vdmF0aW9uJTIwQUl8ZW58MXwwfHx8MTc4MzM3Mjg2Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jackson Sophat",
+      "profileUrl": "https://unsplash.com/@jacksonsophat?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:03.056Z",
+    "publishedAt": "2026-07-06T09:50:54.000Z"
+  },
+  {
+    "slug": "20260707-13",
+    "headline": "Google、検索アップロード画像で AI 学習",
+    "lead": "ユーザーが Google 検索にアップロードした全メディアがデフォルト AI 学習対象に。オプトアウト必須。",
+    "body_markdown": "Google が、Google Lens・音声検索・Google Translate など検索サービスにアップロードされた画像・動画・音声を、新たに AI 学習の学習データとして活用することを決定。全ユーザーがデフォルトで同意状態に設定されている。\n\nプライバシー保護の観点からは、自分の写真や音声が他の用途に転用される可能性がある。Google フォトはデータセットに含めないとしているが、Google Lens や翻訳サービス経由の画像は対象となる。\n\nオプトアウト方法は複雑。「Search Services History」ページの「Save Media」チェックボックスを外し、さらに「Search Services Personalization」で保存を無効化する必要がある。双方設定を確認しなければ、デフォルトで学習対象のままになる。\n\nこれは Google の「データ駆動 AI」戦略の実行段階。各社が隠れたデータ利用を進める中、ユーザーの明示的な同意確保よりも、オプトアウトの面倒さで実質的な利用を進める手法が問題視されている。",
+    "tags": [
+      "プライバシー",
+      "AI学習",
+      "Google",
+      "データ利用"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2208978/google-now-uses-your-uploaded-search-media-to-train-ai/",
+    "importance": 3,
+    "image_query": "privacy data security technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:03.057Z",
+    "publishedAt": "2026-07-06T19:13:52.000Z"
+  },
+  {
+    "slug": "20260707-14",
+    "headline": "Anthropic トラッカー問題、中国ユーザーを秘密監視",
+    "lead": "Claude に組み込まれた追跡機能が、蒸留攻撃検止名目で中国ユーザーを特定・記録していた。",
+    "body_markdown": "Anthropic が 2026年4月以降の Claude Code バージョンに、「China detection backdoor」と指摘される追跡機能を組み込んでいたことが発覚した。名目は「無認可再販業者からの悪用防止」だったが、実質的には中国ユーザーを識別・監視する仕組みだった。\n\nこの発見は Alibaba の「蒸留攻撃」批判の引き金となった。Anthropic エンジニアは X 上で「3月から開始した実験が終わった」とコメントしているが、その「実験」が何の許可なく実施されていたこと、また顧客に知らされていなかったこと、がプライバシー問題として浮上。\n\nAnthropicは「data exhaust protection」「account abuse prevention」を標榜しているが、同時に「地理的特定と監視」というセキュリティ技術とプライバシー権の境界線が曖昧なままになっていた。\n\nこれは単なる Anthropic の問題でなく、米国 AI 企業全体の監視機構に対する懸念を象徴する。前年の OpenAI の GDPR 訴訟、Microsoft のデータ利用問題と並び、AI 企業による無自覚な個人監視が、規制当局・ユーザーの警戒心を急速に高めている。",
+    "tags": [
+      "プライバシー",
+      "監視",
+      "セキュリティ",
+      "AI倫理"
+    ],
+    "section": "テクノロジー",
+    "source": "Ars Technica",
+    "link": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/",
+    "importance": 4,
+    "image_query": "cybersecurity surveillance data privacy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1461685265823-f8d5d0b08b9b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxjeWJlcnNlY3VyaXR5JTIwc3VydmVpbGxhbmNlJTIwZGF0YSUyMHByaXZhY3l8ZW58MXwwfHx8MTc4MzM3Mjg2NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Matthew Henry",
+      "profileUrl": "https://unsplash.com/@matthewhenry?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:04.190Z",
+    "publishedAt": "2026-07-06T16:44:18.000Z"
+  },
+  {
+    "slug": "20260707-15",
+    "headline": "Vercel CEO、モデルと AI エージェント分離論",
+    "lead": "Rauch 氏がモデル・エージェント統合の「ロック・イン」効果に警告、企業の選択肢拡大促す。",
+    "body_markdown": "Vercel CEO ギレルモ・ラウチが、frontier AI 企業が提供する「モデル + エージェント」の統合パッケージに対し、分離の必要性を強く主張。\n\n背景：OpenAI・Anthropic などは、自社モデルと、そのモデルを操作するエージェント（RAG・ツール呼び出し）を一体パッケージで提供。これにより顧客企業は特定の AI 企業に深く依存する「ロック・イン」状態に置かれる。\n\nラウチの主張：「モジュール化」が必須。「ライブラリや構成要素として提供者から借りる」従来的なソフトウェアエンジニアリングの原則を、AI にも適用。Google Gemini・DeepSeek など複数モデルから「価格/性能」で最適なものを選び、別のプロバイダのエージェント・ツール環境と組み合わせられるべき。\n\nこうしたモジュール化こそが、AI 企業による「ベンダーロック」の壁を破り、ユーザー企業に真の選択肢をもたらす。Vercel 自身をそのインフラ基盤にしたい狙いも透ける。\n\nこれは単なる競争論ではなく、AI 産業の今後の構造を決める根本的な課題を指摘している。",
+    "tags": [
+      "AI",
+      "ベンダロック",
+      "モジュール化",
+      "ビジネスモデル"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+    "importance": 3,
+    "image_query": "technology software development architecture",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:04.190Z",
+    "publishedAt": "2026-07-06T19:49:10.000Z"
+  },
+  {
+    "slug": "20260707-16",
+    "headline": "iOS 27 beta、Siri のペース・表情度をカスタマイズ可能に",
+    "lead": "Apple が Siri の声速度と感情表現を個別に調整する機能を iOS 27 beta 3 で有効化。",
+    "body_markdown": "Apple が iOS 27 beta 3 で、Siri アシスタントの「ペース」と「表情度（expressivity）」をユーザーが個別に設定できるようにした。以前は「Coming soon」とされていた機能が、実際にテスト可能になった。\n\n「ペース」調整により、Siri の話す速度をスローモーション～高速化まで選択可能。「表情度」は、Siri の声がどれほど人間らしい感情を含むかを制御。単調で機械的な音声から、感情表現が豊かな音声への切り替え。\n\nApple は Siri を生成 AI ベースで再構築中。Gemini モデルを活用しつつも、差別化のため「カスタマイズ性」を強調。従来のボイスアシスタントは選定済みの数種類ボイスのみだったが、連続的な調整パラメータを提供することで、ユーザー体験の個人化を進める戦略。\n\nSiri の「人間らしさ」を段階的に調整できることで、ビジネスシーン・プライベート・アクセシビリティなど用途別のカスタマイズが広がる可能性がある。",
+    "tags": [
+      "Apple",
+      "AI",
+      "音声アシスタント",
+      "ユーザー体験"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+    "importance": 3,
+    "image_query": "smartphone voice assistant technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:04.190Z",
+    "publishedAt": "2026-07-06T19:01:59.000Z"
+  },
+  {
+    "slug": "20260707-17",
+    "headline": "日本経団連、中国派遣団で対話開始へ",
+    "lead": "経団連会長が中国側との調整を進め、経済界代表団の派遣実現を目指す。",
+    "body_markdown": "日本の経団連（経済団体連合会）の筒井会長が、中国への経済界代表団派遣について、「中国側との対話を進める」と表明した。\n\n背景：日本経済界は、米国の対中姿勢強化・貿易制限の拡大の中で、中国市場への接点維持を模索。一方で日本政府の対中技術輸出規制方針との整合性も課題。\n\n代表団派遣は、去年来ずっと「実現見通しが立たない」状態が続いていたが、会長の発言で交渉が再度活性化する見込み。ただし中国側の対日政策（対日制裁・経済懲罰カード）の解除が前提となる。\n\n経済界の立場は、米中対立の「隙間」で経営判断を迫られる日本企業の現状を反映。政府の外交方針と民間企業の利益追求の板挟みが続く中での、慎重で段階的なアプローチが採られている。",
+    "tags": [
+      "日本",
+      "中国",
+      "経済外交",
+      "ビジネス"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015170221000",
+    "importance": 3,
+    "image_query": "business meeting international trade",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:04.190Z",
+    "publishedAt": "2026-07-06T20:41:48.000Z"
+  },
+  {
+    "slug": "20260707-18",
+    "headline": "中国潜水艦、太平洋上でミサイル発射テスト",
+    "lead": "中国海軍が戦略原潜からの模擬弾頭ミサイル発射を公表、関係国が懸念。",
+    "body_markdown": "中国人民解放軍海軍は7月6日、戦略的核推進潜水艦（SSBN）が模擬弾頭を搭載したミサイル1発を発射し、太平洋公海上に着弾させたと発表した。\n\n中国は「事前に関係国に通知し、国際法に合致している」と強調。しかし日本を含む関係国から懸念の声が上がっている。\n\n背景：米イスラエル軍のイラン指導部殺害（2月）に対する報復的な戦力展示の可能性が指摘される。同時に、米国による対中圧力・台湾海峡での軍事プレゼンス強化への対抗意思表示。\n\n核戦力の「透明化」と称する発表だが、実際には核抑止戦略のメッセージ効果を狙ったものと解釈される。特にNATO 首脳会議を控える時期での発表は、西太平洋での緊張を意図的に高めようとする意図を反映している。\n\nこれは単なる軍事演習ではなく、米国・日本・韓国・台湾などとの多層的な戦力均衡へのメッセージである。",
+    "tags": [
+      "中国",
+      "軍事",
+      "核戦力",
+      "太平洋"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015170341000",
+    "importance": 4,
+    "image_query": "military submarine missile defense",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1521041601476-47a88cecb403?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtaWxpdGFyeSUyMHN1Ym1hcmluZSUyMG1pc3NpbGUlMjBkZWZlbnNlfGVufDF8MHx8fDE3ODMzNzI4NjR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Asael Peña",
+      "profileUrl": "https://unsplash.com/@asaelamaury?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:05.125Z",
+    "publishedAt": "2026-07-06T20:36:15.000Z"
+  },
+  {
+    "slug": "20260707-19",
+    "headline": "Wegovy 錠剤、英国薬局で販売開始",
+    "lead": "セマグルチド（Wegovy 成分）の錠剤化版が英国の薬局で販売開始、NHS 非対応で私費購入のみ。",
+    "body_markdown": "丹製薬大手ノボノルディスクの肥満改善薬 Wegovy が、錠剤化版として英国の一般薬局での販売を開始した。従来の注射型と同じ活性成分セマグルチドを含む、1日1回の経口タイプ。\n\nこれまで Wegovy は注射剤（週1回投与）のみだったが、錠剤化により服薬の手軽さが大幅に向上。用量は 1.5 mg / 4 mg / 9 mg / 25 mg の4段階。臨床試験では64週間で体重の最大22%の減量効果が確認されている。\n\nただし NHS（英国国民保健サービス）は公費負担の対象にしておらず、患者は全額自己負担。価格はまだ公式発表がされていない段階。\n\nWegovyの錠剤化は世界的なトレンド。米国でも GLP-1 アゴニスト系の錠剤版が続々と承認される中、肥満治療の「スタンダード化」が進行中。ただし肥満症は単なる「美容目的」でなく、代謝疾患・心血管リスク低減を目的とした医学的介入として位置づけられている。",
+    "tags": [
+      "医療",
+      "医薬",
+      "肥満改善",
+      "UK"
+    ],
+    "section": "ビジネス",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/czj8w4pjd4yo",
+    "importance": 3,
+    "image_query": "medicine pharmaceutical health pills",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:05.125Z",
+    "publishedAt": "2026-07-06T11:09:54.000Z"
+  },
+  {
+    "slug": "20260707-20",
+    "headline": "言語学習が脳加齢を遅延させる、86000人規模研究",
+    "lead": "2言語で脳年齢6歳若返り、4言語なら13歳若返り。習得時期・流暢性も重要との欧州研究。",
+    "body_markdown": "欧州の神経科学者による大規模研究が、複言語能力と脳の加齢メカニズムの強い相関を示した。対象は27カ国・51〜90歳の8万6000人。\n\n研究結果：複言語話者は単言語者と比べ、加齢による脳の生物学的老化速度が「約半分」に低下。具体的には、2言語話者で約6歳若い脳状態、3言語で7歳、4言語以上で13歳若い相当性が観察された。\n\n重要な条件：\n- 言語数が多いほど効果大\n- 習得時期が早いほど効果大（幼少期学習ほど脳保護効果が強い）\n- 言語の流暢性・習熟度も加齢遅延に相関\n\nメカニズムは完全には解明されていないが、複言語処理による認知的負荷が脳の可塑性を刺激し、神経可逆性を促進する仮説が有力。認知予備力（cognitive reserve）を構築する。\n\nこれは単なる認知スキル向上でなく、認知症・脳神経疾患リスク低減を意味し、高齢社会における「予防医学」としての言語学習の価値を再認識させている。",
+    "tags": [
+      "脳科学",
+      "学習",
+      "加齢",
+      "神経科学"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/education/2026/jul/06/learning-another-language-appears-to-slow-brain-ageing-scientists-say",
+    "importance": 3,
+    "image_query": "brain learning neuroscience education",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:05.125Z",
+    "publishedAt": "2026-07-06T04:00:00.000Z"
+  },
+  {
+    "slug": "20260707-21",
+    "headline": "ワシントン DC、独立記念花火で大気汚染最悪化",
+    "lead": "84万発・40分間の花火が PM2.5 汚染を危険レベルに、市全体で Code Purple 警報。",
+    "body_markdown": "米国の建国250年記念日（7月4日）、ワシントン DC で空前規模の花火大会が実施された。85万発を40分間で打ち上げるという計画だったが、その結果、市全体の大気汚染が「極度に不健康」なレベルに達した。\n\nPM2.5（細粒子状物質）が測定地点で 200 μg/m³ を超え、「Code Purple」（最高ランクの危険警報）が発令。この値は、通常の北京やデリーの冬季大気汚染に匹敵。乳幼児・高齢者・呼吸器疾患患者にとって直ちに危険な状態。\n\nPM2.5 は肺の深部まで浸透し、「急性肺障害から長期的な呼吸器・心血管疾患」まで多様な健康影響をもたらす。\n\n幸運だったのは、花火直後に降雨があったこと。豪雨がスモークを分散させ、翌日までに汚染は回復。大気科学者によれば「ワシントンは『弾丸を避けた』」とのこと。降雨がなければ、汚染はさらに数日継続する危険性があった。\n\nこれは公開行事と公衆衛生のトレードオフを象徴的に示すケース。気候変動による極端気象の増加は、こうしたリスクを加速させている。",
+    "tags": [
+      "環境汚染",
+      "大気汚染",
+      "公衆衛生",
+      "米国"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-fireworks-display-washington-toxic.html",
+    "importance": 3,
+    "image_query": "air pollution environment smoke city",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:05.125Z",
+    "publishedAt": "2026-07-06T20:10:01.000Z"
+  },
+  {
+    "slug": "20260707-22",
+    "headline": "女性の職場進出、停滞局面へ",
+    "lead": "10年間の進展が頭打ち、昇進希望率が男性下回る。リーン・イン戦略の限界が露呈。",
+    "body_markdown": "McKinsey と Lean In による 2026年の「Women in the Workplace」報告書が、女性キャリア進出が停滞期に入ったことを示した。\n\n主要な逆転指標：\n- エントリーレベルで、男性の昇進希望率は 80%だが、女性は 69%（11ポイント低下）\n- C スイート（経営幹部）採用が 2022年以降ストール\n- 取締役会構成でも逆行の兆し\n- 職場文化障壁が増加（+7ポイント）\n- 男性アリー（支援者）が減少（-4ポイント）\n\n根本原因分析：従来の「女性が自分たちで適応する」という「Lean In」アプローチでは不十分。実構造的な問題——育児・無給労働の不均等分担、リーダーシップモデルの男性的イメージ、昇進メカニズムの透明性不足——が改善されていない。\n\n企業が「包括性声明」を出すだけでは変わらない。組織設計・評価制度・給与透明性などの制度的改革が必須。\n\nこれは単なる「女性問題」でなく、タレント・生産性・イノベーション能力を失う企業戦略の誤りを露呈している。",
+    "tags": [
+      "ダイバーシティ",
+      "女性活躍",
+      "職場",
+      "経済"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/07/05/womens-progress-at-work-appears-to-be-stalling",
+    "importance": 3,
+    "image_query": "office work business women professional",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:05.126Z",
+    "publishedAt": "2026-07-05T17:22:02.000Z"
+  },
+  {
+    "slug": "20260707-23",
+    "headline": "キューバ、半年で3度目の全土停電",
+    "lead": "燃料不足で発電能力半減、米国の石油封鎖で危機的状況に。",
+    "body_markdown": "カリブ海の島国キューバが、7月6日に3度目の全土停電を経験した。今年初頭から半年で繰り返される大規模停電は、国内経済・生活に極めて深刻な影響を与えている。\n\n根本原因は燃料枯渇。2026年1月にトランプ政権が石油封鎖を再発動した後、キューバの発電用燃料供給は激減。ベネズエラ（最大供給国）からの支援も不安定化している。\n\n発電容量は最大需要の約50%にまで低下し、電力企業が「計画停電」を実施しても対応し切れない状況。医療施設・水道・通信インフラまで影響を被り、住民生活は「苦渋そのもの」と表現される。\n\nキューバは従来、ソビエト時代の産業基盤に依存してきたが、冷戦終結・米国経済制裁により老朽化。再生可能エネルギー転換も資金不足で遅れている。\n\n石油封鎖は「経済戦」であり、キューバの体制転換を狙う米国の地政学的圧力の一環。短期的には国民の苦難を深め、中長期的には革命政権の支持基盤を掘り崩す戦略。国連やラテンアメリカ諸国から批判が上がっている。",
+    "tags": [
+      "キューバ",
+      "エネルギー危機",
+      "経済制裁",
+      "政治"
+    ],
+    "section": "国際・地政学",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/jul/06/cuba-suffers-third-nationwide-blackout-in-six-months",
+    "importance": 3,
+    "image_query": "power outage blackout electricity infrastructure",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-06T21:21:05.126Z",
+    "publishedAt": "2026-07-06T19:30:09.000Z"
+  },
+  {
     "slug": "20260706-19",
     "headline": "中国軍が太平洋でミサイル発射実験、豪州など懸念",
     "lead": "中国海軍は7月6日、太平洋の公海上で戦略ミサイルを発射し、豪州・NZ・日本が軍事的透明性の欠如を批判した。",
