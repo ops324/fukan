@@ -1,5 +1,474 @@
 [
   {
+    "slug": "20260708-01",
+    "headline": "米国、イラン産原油販売認可を取り消し",
+    "lead": "米財務省はホルムズ海峡でのタンカー攻撃を受け、イラン産原油の販売認可を取り消し、7月17日までの段階的撤廃を実施する。",
+    "body_markdown": "米国財務省は7月7日、イラン産原油の生産・販売に関する認可を取り消すことを発表した。ホルムズ海峡で複数のタンカーが攻撃を受けたことが直接の引き金となった。\n\nこの決定は、イラン核協議後に発行された一時的な認可の失効を意味する。米当局者は「イランとの了解はイランの履行状況に基づいている」とコメントしており、一連の攻撃がイランの政治的立場に対する強いメッセージと見なされていることを示唆している。\n\n米国務省は段階的な風下期間（ウインドダウン・ピリオド）を7月17日までとし、それ以降は新規取引を認めないとした。石油市場は即座に反応し、原油先物は3%以上上昇。今後、米・イラン間の外交関係がさらに冷え込む可能性がある。この決定は地域の地政学的緊張と世界のエネルギー市場に影響を与える可能性が高い。",
+    "tags": [
+      "イラン",
+      "原油",
+      "米国政策",
+      "中東"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/07/us-revokes-iran-oil-sanctions-waiver-tanker-attacks.html",
+    "importance": 5,
+    "image_query": "oil tanker middle east",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1635365816597-8bc539908cc5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxvaWwlMjB0YW5rZXIlMjBtaWRkbGUlMjBlYXN0fGVufDF8MHx8fDE3ODM0NTkzNDB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Cole Keister",
+      "profileUrl": "https://unsplash.com/@coleito?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:20.560Z",
+    "publishedAt": "2026-07-07T20:59:03.000Z"
+  },
+  {
+    "slug": "20260708-02",
+    "headline": "トランプ、NATO首脳会議で不満表明",
+    "lead": "トランプ大統領はトルコでのNATO首脳会議初日、同盟国の国防支出に不満を示し、米軍のヨーロッパ撤収の可能性まで言及した。",
+    "body_markdown": "NATO首脳会議がトルコのアンカラで開幕した7月7日、トランプ大統領は参加各国に強硬姿勢を示した。記者会見では「NATOには非常にがっかりさせられた」と述べ、ウクライナ支援とイラン軍事作戦への対応に関し、加盟国の不十分な対応を批判した。\n\nさらに同大統領は、米国がヨーロッパから軍隊を撤収させる可能性に言及。ロシア脅威の増大やウクライナ情勢が不透明な中での発言は、ヨーロッパの防衛態勢に大きな懸念をもたらしている。\n\n今回の発言は、米国の国防政策の不確実性を改めて浮き彫りにした。NATO首脳会議は防衛支出の増加と欧州の自主防衛能力強化の重要性を議題としており、米国の姿勢が最終合意に影響を与えるか注目される。",
+    "tags": [
+      "NATO",
+      "トランプ政権",
+      "ヨーロッパ防衛"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk.jp/newsweb/na/na-k10015171261000",
+    "importance": 5,
+    "image_query": "nato military summit conference",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1519276649662-7bd2db2658fe?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxuYXRvJTIwbWlsaXRhcnklMjBzdW1taXQlMjBjb25mZXJlbmNlfGVufDF8MHx8fDE3ODM0NTkzNDF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Davi Mendes",
+      "profileUrl": "https://unsplash.com/@ddmdsdd?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:21.619Z",
+    "publishedAt": "2026-07-07T20:25:17.000Z"
+  },
+  {
+    "slug": "20260708-03",
+    "headline": "Google Gemini APIにバックグラウンド実行などの新機能",
+    "lead": "GoogleはGemini APIの管理エージェント向けに、バックグラウンド実行・リモートMCP統合など4つの主要機能を発表し、本番対応エージェント開発を簡素化する。",
+    "body_markdown": "GoogleはGemini API向けの管理エージェント機能を大幅に拡張した。新機能により、開発者はプロダクション対応の自律型エージェントをより容易に構築できるようになる。\n\n追加された主要な4つの機能は：（1）バックグラウンド実行——長時間実行タスク用に非同期実行が可能となり、APIは即座にIDを返す。（2）リモートMCPサーバー統合——Model Context Protocolサーバーを直接接続でき、プライベートデータベースや内部APIのアクセスが簡素化される。（3）カスタム関数呼び出し——ローカルで実行するカスタムツールの追加が可能。（4）ネットワーク認証情報の更新——ファイルシステム状態を保持したままトークンやAPIキーの更新ができる。\n\nこれらの機能は、エージェント開発の複雑性を大幅に軽減する。開発者はより高度なエージェントロジックに集中できるようになり、AI活用の裾野を広げることが期待される。",
+    "tags": [
+      "Google",
+      "API",
+      "AI",
+      "開発者向け"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+    "importance": 4,
+    "image_query": "ai agent development software",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1684369175833-4b445ad6bfb5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxhaSUyMGFnZW50JTIwZGV2ZWxvcG1lbnQlMjBzb2Z0d2FyZXxlbnwxfDB8fHwxNzgzNDU5MzQyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mohamed Nohassi",
+      "profileUrl": "https://unsplash.com/@coopery?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:22.677Z",
+    "publishedAt": "2026-07-07T08:54:00.000Z"
+  },
+  {
+    "slug": "20260708-04",
+    "headline": "Hugging FaceモデルがAzureで直接実行可能に",
+    "lead": "MicrosoftとHugging Faceの統合により、オープンウェイトモデルをAzure上で直接デプロイ・運用でき、エンタープライズレベルのセキュリティ対応を実現する。",
+    "body_markdown": "MicrosoftがMicrosoft Build 2026で発表した新しい統合により、Hugging FaceのオープンウェイトモデルをAzure上で直接実行できるようになった。これまでのように複雑な環境構築や運用管理が不要になり、エンタープライズ利用が大幅に簡素化される。\n\n主な特徴は：（1）ワンクリックデプロイメント——セキュリティスクリーニング、ライセンス確認済みのモデルをそのままFoundryにデプロイ可能。（2）統一インターフェース——OpenAI SDKで同じエンドポイントから利用でき、frontier モデルと同じ方法で統合できる。（3）エンタープライズ対応——自動セキュリティパッチ、CVEスキャン、RBAC対応、プライベートネットワーク対応。（4）複数ランタイムサポート——vLLM、SGLang、TensorRT-LLMなど各モデルに最適化されたランタイムを自動選択。\n\nこの統合により、オープンソースモデルの運用複雑性をMicrosoftが管理し、企業はモデル活用に専念できる。",
+    "tags": [
+      "Microsoft",
+      "Hugging Face",
+      "クラウド",
+      "AI運用"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+    "importance": 4,
+    "image_query": "cloud computing ai models",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1690627931320-16ac56eb2588?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxjbG91ZCUyMGNvbXB1dGluZyUyMGFpJTIwbW9kZWxzfGVufDF8MHx8fDE3ODM0NTkzNDN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Hazel Z",
+      "profileUrl": "https://unsplash.com/@hazelz?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:23.878Z",
+    "publishedAt": "2026-07-07T15:20:06.000Z"
+  },
+  {
+    "slug": "20260708-05",
+    "headline": "Metaの画像生成AI「Muse Image」、InstagramユーザータグOK",
+    "lead": "MetaがMuse Imageを発表。友人のInstagramアカウントをタグして生成画像に組み込んだり、複数写真の統合が可能な次世代画像生成モデル。",
+    "body_markdown": "MetaのSupeインtelligence Labsが開発した「Muse Image」は、複雑なプロンプト理解と高度な編集機能を持つ次世代AI画像生成モデルだ。Meta AI、Instagram、WhatsAppで利用可能になった。\n\n特徴的な機能は：（1）Instagramアカウントタグ付け——友人のInstagramアカウントをタグ付けすることで、生成画像に彼らの姿を自然に組み込める。（2）複数写真統合——複数の写真を高品質な作品に統合可能。（3）テキスト生成——画像内のテキストは読みやすく、スタイル設定も可能。（4）QRコード生成——機能的なQRコードの自動生成。\n\nInstagramでは30以上の新しいストーリーズエフェクトが追加され、WhatsAppではチャット内での画像編集・生成が可能に。日常的な利用は無料で、より多くの生成が必要な場合はMeta Oneの有料サブスクリプション購入オプションがある。Muse Imageは、クリエイター向けAI活用の新局面を切り開く。",
+    "tags": [
+      "Meta",
+      "AI画像生成",
+      "Instagram",
+      "SNS"
+    ],
+    "section": "AI",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2210087/meta-s-new-muse-image-model-accepts-instagram-accounts-as-a-prompt/",
+    "importance": 4,
+    "image_query": "ai image generation social media",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1770233621425-5d9ee7a0a700?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhaSUyMGltYWdlJTIwZ2VuZXJhdGlvbnxlbnwxfDB8fHwxNzgzNDU5MzQ1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zach M",
+      "profileUrl": "https://unsplash.com/@zachmmalin?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:25.409Z",
+    "publishedAt": "2026-07-07T20:49:10.000Z"
+  },
+  {
+    "slug": "20260708-06",
+    "headline": "Bethesda、id Softwareが大規模人員削減",
+    "lead": "MicrosoftのXbox再編の一環でBethesdaとid Softwareが大規模レイオフを実施。Doomシリーズ開発スタジオが約半数の人員削減に直面。",
+    "body_markdown": "Microsoftの経営再編に伴い、Bethesdaとid Softwareが大規模な人員削減を実施している。報道によると、両スタジオの一部チームでは最大50%に及ぶスタッフの削減が行われている。\n\nid Softwareはゲーム業界を代表する開発スタジオの一つで、DoomやQuakeといった歴史的タイトルを生み出してきた。今回のレイオフは同スタジオの創造的な能力に深刻な影響を与える可能性がある。\n\nMicrosoftはゲーム部門でのコスト削減と戦略の再評価を進めており、今後さらなるリストラの可能性も指摘されている。業界全体が収益最適化に向けた再構成を進める中、創造産業の人材流出が続いている。",
+    "tags": [
+      "Microsoft",
+      "ゲーム",
+      "レイオフ",
+      "Bethesda"
+    ],
+    "section": "テクノロジー",
+    "source": "Ars Technica",
+    "link": "https://arstechnica.com/gaming/2026/07/bethesda-id-software-reportedly-hit-hard-by-microsoft-layoffs/",
+    "importance": 4,
+    "image_query": "video game development studio",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1744339699989-550c61f3ecb8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx2aWRlbyUyMGdhbWUlMjBkZXZlbG9wbWVudCUyMHN0dWRpb3xlbnwxfDB8fHwxNzgzNDU5MzQ1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Dennis Zhang",
+      "profileUrl": "https://unsplash.com/@windagh?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:25.969Z",
+    "publishedAt": "2026-07-07T19:52:59.000Z"
+  },
+  {
+    "slug": "20260708-07",
+    "headline": "SpaceX、IPO1か月でNasdaq-100に加入",
+    "lead": "SpaceXは上場後わずか1か月でNasdaq-100インデックスに加入。通常のルールが免除され、将来のIPO企業にも道を開く可能性。",
+    "body_markdown": "SpaceXは2026年7月にIPO後、わずか1か月足らずでNasdaq-100インデックスに加入した。通常、上場後最低3カ月の公開取引期間が必要とされるルールが特例として適用免除された。\n\nこの決定は単なるSpaceXの個別事例ではなく、今後のOpenAIやAnthropicなど他の大型IPO予定企業の加入を容易にする先例となる可能性がある。Nasdaq-100には200以上の投資商品が連動しており、米国内の年金基金を含む多くの投資家がこのインデックスに追従している。\n\nNasdaq-100はDow Jonesの30社との異なり、高成長ポテンシャルのある非金融企業100社を対象としており、よりリスク志向の投資戦略を反映している。SpaceXの加入は、宇宙産業への機関投資家からの関心を示唆する。",
+    "tags": [
+      "SpaceX",
+      "IPO",
+      "NASDAQ",
+      "投資"
+    ],
+    "section": "ビジネス",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/economy/2026/7/7/nasdaq-vs-dow-how-are-the-key-indices-different-as-spacex-joins-one",
+    "importance": 4,
+    "image_query": "stock market nasdaq trading",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1773266110858-acb9b6c43b15?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzdG9jayUyMG1hcmtldCUyMG5hc2RhcSUyMHRyYWRpbmd8ZW58MXwwfHx8MTc4MzQ1OTM0Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Daniel Brzdęk",
+      "profileUrl": "https://unsplash.com/@format_?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:26.513Z",
+    "publishedAt": "2026-07-07T20:50:34.000Z"
+  },
+  {
+    "slug": "20260708-08",
+    "headline": "光ビーム74フェムト秒で操向",
+    "lead": "カルテック研究チームが超高速光操向チップを開発。わずか74フェムト秒で光ビームを13度まで偏向させ、次世代通信・センサーの基盤を提供。",
+    "body_markdown": "カルテック（カリフォルニア工科大学）の研究チームが、光ビームを超高速で操向するナノ加工チップを開発した。わずか74フェムト秒（1兆分の74秒）で最大13度まで偏向可能で、これは光が人間の髪の毛の幅を通過するのに要する時間に相当する。\n\nチップは光メタサーフェス（超薄型ナノ加工シート）を利用している。強力な「ポンプ」ビームがアモルファスシリコン薄膜の光学特性を瞬時に変化させ、その後、弱い「プローブ」ビームがこのパターンに従って偏向される。従来の電子的制御方式と異なり、光ケルフ効果（強い光が物質の屈折率を一時的に変化させる現象）を活用することで、従来を大幅に上回る応答速度を実現した。\n\n光技術は膨大な情報をきわめて高速で伝送でき、高速通信、強力な計算システム、より感度の高いセンサーなど次世代光子技術の基盤となる。",
+    "tags": [
+      "量子",
+      "光学",
+      "テクノロジー",
+      "研究開発"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-chip-redirects-trillionth.html",
+    "importance": 4,
+    "image_query": "photonic technology light beam",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1606814540563-5c02d62fd409?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxwaG90b25pYyUyMHRlY2hub2xvZ3klMjBsaWdodCUyMGJlYW18ZW58MXwwfHx8MTc4MzQ1OTM0N3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Compare Fibre",
+      "profileUrl": "https://unsplash.com/@comparefibre?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:27.790Z",
+    "publishedAt": "2026-07-07T19:40:06.000Z"
+  },
+  {
+    "slug": "20260708-09",
+    "headline": "AIがバッテリー・材料研究を加速",
+    "lead": "米アルゴンヌ国立研究所がAIフレームワーク「ChemGraph」を開発。自然言語で科学問題を述べるだけで計算を自動化し、材料研究の時間を大幅短縮。",
+    "body_markdown": "米国エネルギー省傘下のアルゴンヌ国立研究所が、計算化学と材料科学の研究ワークフローを自動化するAIフレームワーク「ChemGraph」を開発した。これまで博士号レベルの知識と数十ステップが必要だった複雑な計算プロセスを、自然言語での記述で実行できる。\n\n研究者が自然言語で科学的問題を述べると、フレームワークがそれを計算タスク、適切なソフトウェアツール、分析に自動変換する。これにより以下の研究が加速する：電池性能改善のシミュレーション、エンジン効率向上の計算、材料抽出プロセスの最適化。\n\n複数のAIエージェントを組み合わせることで、大規模言語モデルの効率的な活用と計算コストの削減を両立させている。大学の学生も利用可能で、計算化学をより身近にすることが目標。バッテリー開発の加速は、電気自動車やエネルギー貯蔵の革新につながる可能性がある。",
+    "tags": [
+      "AI",
+      "化学",
+      "材料科学",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-ai-framework-battery-combustion-materials.html",
+    "importance": 3,
+    "image_query": "battery research laboratory technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:27.790Z",
+    "publishedAt": "2026-07-07T20:00:01.000Z"
+  },
+  {
+    "slug": "20260708-10",
+    "headline": "Claude Cowork、モバイル・ウェブで利用可能に",
+    "lead": "AnthropicのAI開発支援プラットフォーム「Claude Cowork」がiOS・Androidおよびウェブで利用可能に。デスクトップからの継続作業が容易に。",
+    "body_markdown": "Anthropicは、AI開発支援プラットフォーム「Claude Cowork」のモバイル・ウェブ対応を発表した。これまでmacOS・Windows限定だったCoworkが、iOS・Android、ウェブブラウザからもアクセス可能になった。\n\nMax購読者から段階的にロールアウトが始まり、その他のプランのユーザーにも「数週間以内」に提供予定。クラウドベースのセッション実行により、デスクトップで開始したタスクを、モバイルデバイスからステータス確認・更新し、後に完成版をデスクトップで収集できる利便性が実現する。\n\nただし、ローカルファイルアクセスなど「フルエクスペリエンス」はデスクトップアプリで提供される。複数デバイスでのシームレスな開発フロー対応により、開発者の生産性向上が期待される。",
+    "tags": [
+      "Claude",
+      "AI開発",
+      "モバイル",
+      "開発者向け"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+    "importance": 3,
+    "image_query": "mobile app development platform",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:27.790Z",
+    "publishedAt": "2026-07-07T17:46:59.000Z"
+  },
+  {
+    "slug": "20260708-11",
+    "headline": "Google Pixel 11、8月12日発表 価格引き上げか",
+    "lead": "Googleが新旗艦スマートフォン「Pixel 11」の発表イベントを8月12日に開催予定。発光LEDやホログラム機能の搭載、価格上昇の可能性が報じられている。",
+    "body_markdown": "Googleが新世代フラグシップスマートフォン「Pixel 11」の発表イベントを8月12日に開催することが明らかになった。新機能には複数の発光LED搭載や、ホログラム表示対応などが予想されている。\n\n同時に、価格上昇の可能性も指摘されている。スマートフォン市場全体でプレミアム化が進む中、Pixelシリーズも例外ではないと見られている。フラグシップモデルとしての機能強化とコスト上昇のバランスが、購入判断に影響を与える可能性がある。\n\n発表まで約1カ月となり、業界内での期待と懸念の両方が高まっている。AIエージェント統合など、独自の機能提供がPixelシリーズの差別化ポイントとなる見通し。",
+    "tags": [
+      "Google",
+      "Pixel",
+      "スマートフォン",
+      "新製品"
+    ],
+    "section": "テクノロジー",
+    "source": "Ars Technica",
+    "link": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
+    "importance": 3,
+    "image_query": "smartphone technology launch event",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:27.791Z",
+    "publishedAt": "2026-07-07T19:08:34.000Z"
+  },
+  {
+    "slug": "20260708-12",
+    "headline": "UK携帯インターネット速度、EU・G7で最悪",
+    "lead": "消費者団体Which?の調査で、英国の携帯インターネット速度がEU全27国およびG7全国中で最下位。ダウンロード速度は57位、ネットワーク性能70位。",
+    "body_markdown": "英国の消費者団体Which?がOpensignalのデータを分析した結果、英国の携帯ネットワーク性能がEU全加盟国とG7諸国の中で最も低いことが判明した。ダウンロード速度では世界的には57位、ネットワーク性能では70位という深刻な状況だ。\n\n調査では、EU内の27国すべてとカナダ、日本、米国などG7全国が英国を上回っていることが確認された。料金は比較的安価だが、通信品質の面では国際的に遅れている。\n\nこれはデジタル経済の競争力や国民生活の質に直結する問題だ。英国政府は通信インフラ投資の加速を迫られており、5G・6Gの導入計画の見直しが求められている。",
+    "tags": [
+      "英国",
+      "通信インフラ",
+      "デジタル",
+      "ネットワーク"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/money/2026/jul/06/mobile-internet-coverage-uk-worse-on-eu-g7",
+    "importance": 3,
+    "image_query": "mobile network technology infrastructure",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:27.791Z",
+    "publishedAt": "2026-07-05T23:01:39.000Z"
+  },
+  {
+    "slug": "20260708-13",
+    "headline": "Greenlandめぐりトランプ大統領、撤収をほのめかす",
+    "lead": "NATO首脳会議でトランプ大統領がグリーンランド領有への執着を改めて表明。米軍のヨーロッパ撤収にも言及し、戦略転換の可能性を示唆。",
+    "body_markdown": "トランプ大統領はNATO首脳会議の場で、グリーンランドに対する米国の支配を求める姿勢を繰り返し表明した。国家安全保障上の理由付けがされているが、デンマーク領グリーンランドの領有権要求は国際的な反発を招いている。\n\n同時に大統領は、米軍がヨーロッパから撤収する可能性に言及。北大西洋条約機構のメンバーへの防衛支出要求と合わせ、米国がヨーロッパとの同盟関係を条件付きと見なしていることを示唆している。\n\nこうした発言は、冷戦終結以来の米国の対ヨーロッパ戦略の大転換を意味する可能性がある。アイスランド、ノルウェーを含むアーティック地域への地政学的関心の高まりが背景にあると指摘されている。",
+    "tags": [
+      "トランプ",
+      "グリーンランド",
+      "NATO",
+      "戦略"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/07/trump-nato-summit-greenland-us-troops-europe.html",
+    "importance": 4,
+    "image_query": "greenland arctic geopolitics",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1519227778781-02fbc3c547a6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxncmVlbmxhbmQlMjBhcmN0aWMlMjBnZW9wb2xpdGljc3xlbnwxfDB8fHwxNzgzNDU5MzQ4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Hubert Neufeld",
+      "profileUrl": "https://unsplash.com/@htn_films?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:28.506Z",
+    "publishedAt": "2026-07-07T16:15:08.000Z"
+  },
+  {
+    "slug": "20260708-14",
+    "headline": "台湾、日本の対中防衛支援に期待",
+    "lead": "台湾世論調査、日本が台湾防衛に協力すると信頼する国民が多い。アジア太平洋地域の安全保障構図が変わる中、日本の役割への期待が高まる。",
+    "body_markdown": "台湾の世論調査によると、国民の多くが日本が台湾防衛に協力すると信頼していることが明らかになった。地政学的緊張が高まる中、日本の防衛協力への期待が顕著になっている。\n\n台湾国防部は日本の役割を戦略的に重視しており、米国との同盟に加え、日本との防衛協力深化を求めている。米国の対台政策の不透明性が増す中で、日本への信頼が相対的に高まっているという側面もある。\n\nこの調査結果は、アジア太平洋地域での日本の防衛役割の重要性を示すとともに、中国の軍事的脅威に対抗する多層的な連携体制の必要性を示唆している。日本は国防力増強と地域協力強化の両面で戦略的対応を迫られている。",
+    "tags": [
+      "台湾",
+      "日本",
+      "防衛協力",
+      "アジア太平洋"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/07/07/china-taiwan-japan-invasion-polling/",
+    "importance": 4,
+    "image_query": "asia pacific defense geopolitics",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1531421389064-2100a1b71999?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhc2lhJTIwcGFjaWZpY3xlbnwxfDB8fHwxNzgzNDU5MzUwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Rachel Martin",
+      "profileUrl": "https://unsplash.com/@rmartin_?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:30.556Z",
+    "publishedAt": "2026-07-07T18:46:00.000Z"
+  },
+  {
+    "slug": "20260708-15",
+    "headline": "新児童文学賞、Patrice Lawrence選出",
+    "lead": "英国の新児童文学賞にPatrice Lawrence選出。『Orangeboy』など社会問題を直視した作品で、多様性と読書推進を重視する新体制へ。",
+    "body_markdown": "英国の児童文学賞にPatrice Lawrenceが新たに選出された。同氏は『Orangeboy』『Indigo Donut』『Is That Your Mama?』などの著作で、社会問題に正面から向き合う作風で知られている。\n\nLawrenceはインタビューで、かつてJacqueline Wilsonの社会的リアリズムなしに自分の執筆スタイルは存在しないと語った。児童文学界の重鎮との系譜を引き継ぎながら、より多くの子どもたちが読書へアクセスできる環境整備を重視する方針を示している。\n\n任期は2年間で、従来の白人男性中心の児童文学界からの多様性強化が期待される。特に社会経済的マイノリティや異文化背景を持つ子どもたちの読書推進が、新体制の重要な課題となる。",
+    "tags": [
+      "文学",
+      "児童文学",
+      "多様性",
+      "英国"
+    ],
+    "section": "カルチャー",
+    "source": "BBC Arts",
+    "link": "https://www.bbc.co.uk/news/articles/c5yzzz856m3o",
+    "importance": 3,
+    "image_query": "book literature reading children",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:30.557Z",
+    "publishedAt": "2026-07-07T13:38:42.000Z"
+  },
+  {
+    "slug": "20260708-16",
+    "headline": "Microsoft、独自AI活用でコスト削減",
+    "lead": "MicrosoftがOpenAIへの依存を減らし、独自開発AIモデルをより活用する方針へシフト。業界全体でのAI支出競争が熱を帯びている。",
+    "body_markdown": "MicrosoftはOpenAIへの投資と依存を減らし、社内開発のAIモデルを活用する方向にシフトしている。テック大手各社でのAIコスト削減競争が進む中での戦略転換だ。\n\nこの動きはGoogle、Meta、Anthropicなど他のAI企業も進行中。生成AI技術の急速な進展により、前年比での利益化が企業の至上課題となっている。\n\n独自開発モデルへのシフトは、技術的な独立性強化と、OpenAIなど外部企業への利益流出削減につながる。ただし、エコシステムの競争構造に変化をもたらす可能性もあり、業界全体の再編を加速させるかもしれない。",
+    "tags": [
+      "Microsoft",
+      "AI",
+      "コスト",
+      "技術戦略"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
+    "importance": 3,
+    "image_query": "artificial intelligence technology development",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:30.557Z",
+    "publishedAt": "2026-07-07T19:58:20.000Z"
+  },
+  {
+    "slug": "20260708-17",
+    "headline": "X、盗用動画対策で自社エディタ搭載",
+    "lead": "X（旧Twitter）が動画編集機能を実装。トップアカウントによる他ユーザー動画の盗用が常態化する中、オリジナルコンテンツ奨励へ。",
+    "body_markdown": "X（旧Twitter）が新たに動画編集・録画機能をプラットフォームに統合した。複数言語対応のキャプション自動生成機能も搭載される。\n\n同社のNikita Bier製品責任者は、トップアカウントが他ユーザーの動画を盗用し、時には5年前の投稿が拡散されることが多いと指摘。プラットフォーム内での動画は総インプレッションの約半分に達しており、「再利用コンテンツ」がX内での支配的なパターンになっていることが問題化していた。\n\n新ツールでの自社エディタ搭載により、ユーザーはX上で直接オリジナル動画を作成・編集できるようになり、他プラットフォームからの転用が減少することが期待される。",
+    "tags": [
+      "X",
+      "社会メディア",
+      "動画",
+      "コンテンツ"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/962415/x-video-editor-recycled-content",
+    "importance": 3,
+    "image_query": "social media video editing",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:30.557Z",
+    "publishedAt": "2026-07-07T18:28:08.000Z"
+  },
+  {
+    "slug": "20260708-18",
+    "headline": "太陽光パネル低金利ローン、年数百ポンド節約可能",
+    "lead": "英国シンクタンク報告書、政府支援の低金利ローン制度で家庭が再生可能エネルギー化できれば、年数百ポンドの電気代削減が実現可能と推算。",
+    "body_markdown": "英国のシンクタンク「New Economics Foundation」と「Finance Innovation Lab」が、太陽光パネル導入の低金利ローン制度が電気代削減に極めて有効だと報告した。アップフロント投資約6000ポンド（約90万円）が導入障壁になる中、政府が後援する低金利ローン制度なら800万世帯が対象になると試算している。\n\n太陽光パネルは、バッテリー連携で最も低コストな発電方法の一つだ。一度導入すれば、20年以上にわたり年数百ポンドの節約が可能になるが、初期コストが大きいために普及が進まない。\n\n報告書は、イングランド銀行が支援できる低金利ローン制度の設計可能性を示唆。エネルギー価格急騰に直面する英国家庭にとって、再生可能エネルギーへのアクセス拡大は経済・環境の両面で重要な課題だ。",
+    "tags": [
+      "太陽光",
+      "再生可能エネルギー",
+      "ローン",
+      "英国"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/environment/2026/jul/07/low-cost-loans-for-solar-panels-could-save-households-hundreds-on-bills-thinktanks",
+    "importance": 3,
+    "image_query": "solar panels renewable energy home",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:30.557Z",
+    "publishedAt": "2026-07-07T09:00:36.000Z"
+  },
+  {
+    "slug": "20260708-19",
+    "headline": "ヒートウェーブでの睡眠対策、13の工夫",
+    "lead": "気温上昇が常態化する中、英国の専門家が夏の睡眠を守るための13の工夫を提案。冷感寝具から冷却ファンまで、低コスト対策も多数。",
+    "body_markdown": "英国メンタルヘルス財団の調査で、成人は週3日程度の良質睡眠しか得られていないことが分かっている。ヒートウェーブが常態化する中、睡眠医学の専門家が実証的な対策法をまとめた。\n\n専門家のAllie Hare博士は「高温下での睡眠は、睡眠の質と時間を大きく減少させる。特に深い睡眠（slow wave sleep）段階が短くなり、目覚めた時の疲労感が残る」と指摘。13の工夫には温度調整機能付きマットレスパッドから、エアコンなしの低コスト方法まで幅広い選択肢が含まれている。\n\n気候変動により、英国のような温帯地域でも45度Cに達する気象が想定される中、家庭での対応インフラ整備が社会課題となっている。",
+    "tags": [
+      "睡眠",
+      "気候",
+      "健康",
+      "生活工夫"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/thefilter/2026/jul/07/how-to-sleep-in-a-heatwave",
+    "importance": 3,
+    "image_query": "sleep health summer heat",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:30.557Z",
+    "publishedAt": "2026-07-07T14:00:02.000Z"
+  },
+  {
+    "slug": "20260708-20",
+    "headline": "NASA New Horizons、冬眠から復帰 クイパーベルト撮影開始",
+    "lead": "NASAの深宇宙探査機New Horizonsが約1年の冬眠期間を終え、ジョンズ・ホプキンス大学と通信確立。冥王星以遠のクイパーベルトの科学データ送信再開。",
+    "body_markdown": "NASAの宇宙探査機New Horizonsが、約1年間の冬眠期間を終えて復帰した。メリーランド州ローレルのジョンズ・ホプキンス応用物理研究所（APL）の飛行制御チームが6月23日に通信確立を確認した。\n\nNew Horizonsは2015年に人類初の冥王星フライバイを実施し、その後太陽系外縁のクイパーベルト探査に従事している。冬眠から復帰した同機は、現在クイパーベルト領域で収集された科学データの送信を再開する予定。遠く離れた距離から得られるデータは、太陽系形成の謎や外惑星系の構造に関する知見をもたらすと期待される。\n\nNASA深宇宙ミッションの成功例として、New Horizonsの継続的運用は人類の宇宙探究の歴史に刻まれている。",
+    "tags": [
+      "NASA",
+      "宇宙探査",
+      "冥王星",
+      "クイパーベルト"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://science.nasa.gov/missions/new-horizons/nasas-new-horizons-spacecraft-wakes-from-hibernation-in-good-health/",
+    "importance": 3,
+    "image_query": "space exploration spacecraft mission",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T21:22:30.557Z",
+    "publishedAt": "2026-07-07T17:48:49.000Z"
+  },
+  {
     "slug": "20260707-24",
     "headline": "サムスン電子が営業利益19倍、AI需要で半導体事業が過去最高",
     "lead": "サムスン電子がQ2決算で営業利益約19倍を達成、AI向けメモリチップの需要拡大が牽引した過去最高更新。",
