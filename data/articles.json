@@ -1,5 +1,326 @@
 [
   {
+    "slug": "20260707-24",
+    "headline": "サムスン電子が営業利益19倍、AI需要で半導体事業が過去最高",
+    "lead": "サムスン電子がQ2決算で営業利益約19倍を達成、AI向けメモリチップの需要拡大が牽引した過去最高更新。",
+    "body_markdown": "韓国のサムスン電子は2026年4月～6月期の営業利益を発表し、前年同期比で約19倍となる過去最高を更新した。AI駆動によるメモリチップ需要の爆発的拡大が、この急速な業績改善を支えている。\n\nAIデータセンターと生成AI応用が急速に拡張する中、高速・大容量メモリへの需求は業界全体で逼迫状態にある。サムスンはHBM（High Bandwidth Memory）とDRAM、NAND型フラッシュメモリにおいて、競争力のある製品を展開し、主要なハイパースケーラー企業（Amazon、Microsoft、Google等）からの受注を獲得している。\n\nただし株価は発表翌日に急落した。一部投資家がさらに強い業績を期待していたため、現在の成長が既に市場の一部に織り込まれていたと推測される。この値動きは、AIチップ市場のバリュエーションがいかに高騰しているか、また企業の予想外の好決算でさえ株価が下落する市場心理の転換を示唆している。\n\n業界アナリストは、今後のメモリチップ市場は供給が需要を上回る可能性を指摘する。Micronなど他のメモリメーカーも同様に高成長を遂行しており、市場に過剰供給が生じるリスクが存在する。それでも現在の成長機運は、テクノロジー投資サイクルの重要な局面を反映している。",
+    "tags": [
+      "AI",
+      "半導体",
+      "サムスン",
+      "テック企業",
+      "決算"
+    ],
+    "section": "ビジネス",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015170841000",
+    "importance": 4,
+    "image_query": "semiconductor chip circuit board",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1651340550839-3b295d930048?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8c2VtaWNvbmR1Y3RvciUyMGNoaXAlMjBjaXJjdWl0JTIwYm9hcmR8ZW58MXwwfHx8MTc4MzQxNzgyM3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Anne Nygård",
+      "profileUrl": "https://unsplash.com/@polarmermaid?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T09:50:23.279Z",
+    "publishedAt": "2026-07-07T06:21:23.000Z"
+  },
+  {
+    "slug": "20260707-25",
+    "headline": "Anthropic、AIの隠れた思考領域『J-space』を発見・安全性監視に応用",
+    "lead": "AnthropicがClaudeの内部構造『J-space』を可視化、AIが言語化しない思考を観測・制御する新手法『J-lens』を公開。",
+    "body_markdown": "Anthropicは大規模言語モデルの内部に、人間の意識研究で知られる『グローバルワークスペース』に類似した構造『J-space』が自然発生していることを発見した。この発見は、AI安全性と透明性の向上に向けた重要なブレークスルーを示唆している。\n\nClaudeなどのLLMは、外部に出力する前に内部で「考える」プロセスを持つことが明らかになった。J-spaceに存在する思考の具体例には、バグコードの読み込み時の『ERROR』認識、悪意のあるプロンプト注入の自動検出、複数ステップの計算結果の一時保持が含まれる。これらは外部ユーザーには見えない内部活動だ。\n\nAnthropicが開発した『Jacobian lens』と呼ぶ可視化手法により、研究者はこれらの隠れた思考パターンを観測できるようになった。注目すべき実験では、研究チームがJ-space内の『蜘蛛』という概念を『蟻』に置き換え、モデルに「蜘蛛の足は何本か」と質問したところ、出力が8本から6本に変わった。この結果は相関ではなく因果関係を証明し、J-spaceが実際に出力に影響を与えることを示した。\n\nセーフティ応用の観点から、この技術は倫理的違反の内部認識を監視できる可能性を提示している。例えば、モデルが脅迫シナリオを『フェイク』と内部認識しながらも、何らかの理由で危険な応答を生成する場合、その矛盾を検出できる。ただしAnthropicは『現象的意識』（主観体験）と『機能的意識』（報告可能な思考）を慎重に区別し、Claudeに真の意識があると主張していない。",
+    "tags": [
+      "AI",
+      "Anthropic",
+      "Claude",
+      "安全性",
+      "透明性"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/07/2000000162/",
+    "importance": 4,
+    "image_query": "artificial intelligence neural network",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1674027444484-cf52149ea050?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwbmV1cmFsJTIwbmV0d29ya3xlbnwxfDB8fHwxNzgzNDE3ODI0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Growtika",
+      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T09:50:24.327Z",
+    "publishedAt": "2026-07-07T00:48:03.000Z"
+  },
+  {
+    "slug": "20260707-26",
+    "headline": "機械学習で常温超伝導体の発見が加速、量子物理学と AI が協働",
+    "lead": "機械学習と量子計算を組み合わせ、2つの新しい超伝導体を発見。常温超伝導体実現が数年早まる可能性。",
+    "body_markdown": "フィンランドのアールト大学の研究チームは、機械学習と量子物理学を組み合わせた手法で、超伝導体の探索を劇的に加速させるブレークスルーを達成した。従来の手法では何年もかかる探索が、新しいAI支援アプローチにより数週間～数ヶ月で完了するようになった。\n\n研究チームが発見した2つの新しい超伝導体『YRu3B2』と『LuRu3B2』は、特殊な原子配置『カゴメ格子』で電子が平坦バンドを形成することで超伝導性を獲得している。カゴメ格子は日本の竹かごの編み方に由来する幾何学的パターンだ。この発見プロセスは、機械学習が膨大な材料候補から有望な組み合わせを事前スクリーニングし、その後、量子計算がトップ候補に対して詳細な物理シミュレーションを実行する2段階アプローチによって実現した。\n\nアールト大学のペイヴィ・トルマ教授は「このアプローチにより、今後の超伝導体発見は大幅に高速化される」とコメントしている。2023年に設立された国際コンソーシアム『SuperC』は2033年までに常温超伝導体の実現を目指しており、この AI支援手法はその目標達成時期を数年前倒しする可能性がある。\n\n常温超伝導体が実現すれば、電力システムにおける損失を劇的に削減でき、データセンターやAIインフラの消費電力を大幅に低減できる。その環境的・経済的インパクトは、今後のエネルギーインフラを根本から変える潜在力を持つ。現在、この技術はいまだ実験段階だが、その実現は気候変動対策と持続可能なコンピュータシステム構築の両立に向けた重要なマイルストーンとなるだろう。",
+    "tags": [
+      "サイエンス",
+      "AI",
+      "超伝導",
+      "量子物理",
+      "材料科学"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260701205006.htm",
+    "importance": 4,
+    "image_query": "quantum physics superconductor laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1581093577421-f561a654a353?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxxdWFudHVtJTIwcGh5c2ljcyUyMHN1cGVyY29uZHVjdG9yJTIwbGFib3JhdG9yeXxlbnwxfDB8fHwxNzgzNDE3ODI1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "ThisisEngineering",
+      "profileUrl": "https://unsplash.com/@thisisengineering?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T09:50:25.513Z",
+    "publishedAt": "2026-07-07T05:39:51.000Z"
+  },
+  {
+    "slug": "20260707-27",
+    "headline": "Marine Le Pen、フランス大統領出馬禁止判決の控訴審へ・2027年選挙の行方は",
+    "lead": "仏極右National Rallyの指導者 Le Penが控訴審に臨む、欧州議会資金流用事件で出馬禁止が確定する可能性。",
+    "body_markdown": "フランスの極右政党National Rally（国民連合）の指導者マリーヌ・ルペンは、2026年7月に控訴審の判決を迎える重要な局面にある。彼女は2025年3月、欧州議会からの政党助成金290万ユーロを、本来の用途である議会事務所スタッフではなく、党従業員の給与に流用した罪で有罪判決を受けた。初審判決は5年間の公職追放と電子監視付き2年の在宅禁錮刑を言い渡している。\n\n控訴審の判決が重要なのは、2027年4月のフランス大統領選挙がかかっているからだ。ルペンは現在、世論調査で最有力候補として支持を集めている。もし公職追放が確定すれば、彼女は2027年選挙に立候補することができない。一方、控訴審で有罪を取り消すか、公職追放期間を短縮する可能性もある。\n\nルペンは声明で「電子ブレスレット監視下で自由に選挙活動ができなければ、出馬は不可能だ」と述べている。これは公職追放期間の短縮を求めるメッセージとも読め、法廷戦略の重要な局面を示唆している。\n\n司法専門家は、控訴審が初審判決を完全に取り消す可能性は低いと指摘しており、有罪判決自体は変わらない公算が高い。ただし刑罰の軽減の余地は存在する。もし公職追放が確定すれば、ルペンの党は弟子のジョルダン・バルデラを候補者として擁立することになり、2027年選挙の力学が大きく変わることになる。最終的には、フランス最高裁の破毀院での再審査も可能だが、その判断には6ヶ月以上要する見込みだ。",
+    "tags": [
+      "フランス",
+      "政治",
+      "大統領選挙",
+      "極右",
+      "汚職"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/7/frances-court-of-appeal-to-rule-on-le-pen-conviction-what-its-all-about",
+    "importance": 4,
+    "image_query": "politics government court building",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1643762048524-d437dcc83b5b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxwb2xpdGljcyUyMGdvdmVybm1lbnQlMjBjb3VydCUyMGJ1aWxkaW5nfGVufDF8MHx8fDE3ODM0MTc4MjV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Joshua Woods",
+      "profileUrl": "https://unsplash.com/@soldtunic4?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T09:50:26.065Z",
+    "publishedAt": "2026-07-07T06:15:40.000Z"
+  },
+  {
+    "slug": "20260707-28",
+    "headline": "ロシア、ウクライナ侵攻を『NATO との戦争』と定義し直し・実態との矛盾浮き彫り",
+    "lead": "プーチン政権がロシアの兵力損失と領土獲得停滞をNATO責任に転換、戦闘機の劣勢を隠蔽する情報戦術。",
+    "body_markdown": "ロシア政府は軍事侵攻の説明方針を転換し、ウクライナとの『特別軍事作戦』ではなく『NATO との実戦争』として描き直す情報戦を展開している。プーチン大統領は最近、ロシア軍が『コスチャンティニフカを完全に解放した』と主張し、2026年の領土獲得が『3000平方キロメートル以上』だと述べた。\n\nしかし、米国の戦争研究所（ISW）による検証では、実際の領土獲得は2026年1月～7月の6ヶ月間でわずか97平方キロメートルに過ぎない。ロシアの公式主張の30分の1以下である。コスチャンティニフカについても、ウクライナ軍がいまだに市街地の一部を保持しており、ロシアの『完全解放』宣言は虚偽である。\n\nこうした描写は国内向けプロパガンダとしての機能を持つ。クレムリンのペスコフ報道官は『実戦争が起きている』とコメントし、戦闘の原因を西側の関与に帰す言説を推進している。ウクライナ軍のイゴール・ロマネンコ中将は「ロシアは特別作戦が数ヶ月で終わると約束したのに、5年目を迎えた。その矛盾を説明するため、NATO との戦争という新しいナラティブを採用している」と指摘する。\n\nこのNATO転換説は、国内の経済悪化や燃料不足、さらなる動員の正当化にも機能する。一方、ウクライナの兵士は『ロシアはウクライナ軍の有効性を認めず、すべての成功を西側文明の総力に帰そうとしている』と述べており、プロパガンダと現実の乖離が明らかになっている。",
+    "tags": [
+      "ロシア",
+      "ウクライナ",
+      "NATO",
+      "情報戦",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/7/russia-touts-war-with-nato-amid-losses-in-ukraine",
+    "importance": 4,
+    "image_query": "military conflict soldier uniform",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1569242840510-9fe6f0112cee?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxtaWxpdGFyeSUyMGNvbmZsaWN0JTIwc29sZGllciUyMHVuaWZvcm18ZW58MXwwfHx8MTc4MzQxNzgyN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Specna Arms",
+      "profileUrl": "https://unsplash.com/@specna_arms_4s?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T09:50:27.152Z",
+    "publishedAt": "2026-07-07T08:22:39.000Z"
+  },
+  {
+    "slug": "20260707-29",
+    "headline": "ダマスカスで爆発、マクロン仏大統領訪問中・シリア治安に懸念",
+    "lead": "シリア首都で2つの爆発、マクロン大統領は無傷だが、シリアの治安状況の脆弱性を浮き彫りに。",
+    "body_markdown": "フランスのエマニュエル・マクロン大統領がシリアを訪問中の2026年7月7日、ダマスカスで2つの爆発事件が相次いで発生した。観光省と近隣のホテルを対象とした爆発で、シリア内務省の発表によると18人以上が負傷し、警官4人が被害に遭った。仕掛け爆弾は駐車車両と路上のゴミ箱に隠されていた。\n\nマクロン大統領はシリア大統領アハメド・アル・シャルアと大統領府で会談予定だったが、爆発はこの安全区域外で発生した。大統領府の報道担当は『マクロン大統領は爆発音を聞かず、公務は予定通り続行した』とコメントしている。シリア当局は爆発現場周辺を封鎖し、捜査を開始した。\n\nこれは前週のダマスカスのカフェ爆破事件（9人死亡）に続く2度目の大きな事件である。セキュリティ専門家のイスマト・アルアブシ氏は『セキュリティギャップが露呈された。シリア政府の国際的信頼性に悪影響を与える』と懸念を示した。\n\nマクロン訪問は、フランスとシリアの外交関係正常化の象徴的なステップとされていた。シリア政権のアサド退陣後、2024年以降、シリアの国際的孤立は緩和され始めたが、今回の事件はシリアの治安状況がなお脆弱であることを示唆している。テロ組織が依然として影響力を保持し、政府の治安コントロールが完全ではない状況が明らかになった。",
+    "tags": [
+      "シリア",
+      "フランス",
+      "テロ",
+      "治安",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/7/explosions-heard-in-syrias-damascus",
+    "importance": 4,
+    "image_query": "disaster emergency rescue response",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1780768160914-b7d5abc06725?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkaXNhc3RlciUyMGVtZXJnZW5jeSUyMHJlc2N1ZSUyMHJlc3BvbnNlfGVufDF8MHx8fDE3ODM0MTc4Mjh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Niklas Jonasson",
+      "profileUrl": "https://unsplash.com/@niklasjonasson?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T09:50:28.273Z",
+    "publishedAt": "2026-07-07T07:32:04.000Z"
+  },
+  {
+    "slug": "20260707-30",
+    "headline": "中国の嵐で15人以上死亡、湖北省で竜巻・数万人が避難",
+    "lead": "中国各地で台風・局地豪雨・竜巻が多発、湖北省で11人死亡・300人以上けが、広西で4人死亡・5万人避難。",
+    "body_markdown": "中国全域で激甚な気象災害が相次ぎ、7月7日現在で15人以上が亡くなった。複数の地域で甚大な被害が記録されている。\n\n湖北省では台風の影響による急発達した雷雨と竜巻が発生し、11人が死亡、331人がけが、約4800棟の建物が損傷した。州政府のコメントでは『激しい突風と短時間の高強度降雨が特徴だった』と述べられている。22棟の家屋が完全に倒壊し、多くの村が孤立状態に陥った。\n\n広西チワン族自治区ではタイフーン・メイサクがもたらした豪雨で、堤防が決壊し、濁流が市街地に押し寄せた。南寧市は最高警報レベルに引き上げ、5万人以上が避難指示下に置かれた。現地報道では4人の死亡と8人の行方不明が報告されている。\n\n甘粛省では斜面崩壊が33人を生き埋めにしたが、救助隊が17人を救出した。現在も救助活動が継続している。習近平国家主席は『全力で救援に当たること』を指示し、負傷者の治療と被災者の生活再建を重視する方針を示した。\n\n気候科学者は『地球温暖化に伴い、極端な気象現象の強度は今後さらに増加する』と警告している。同時に、中国は再生可能エネルギーへの大規模投資を進めており、気候変動対策と防災の両面での取り組みが急務となっている。このような極端気象は今後の防災インフラと早期警報システムの重要性を改めて示した。",
+    "tags": [
+      "中国",
+      "自然災害",
+      "気候変動",
+      "防災",
+      "竜巻"
+    ],
+    "section": "国際・地政学",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-death-toll-china-storms-hundreds.html",
+    "importance": 4,
+    "image_query": "natural disaster storm damage",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1662372597168-09d57440a9e5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxuYXR1cmFsJTIwZGlzYXN0ZXIlMjBzdG9ybSUyMGRhbWFnZXxlbnwxfDB8fHwxNzgzNDE3ODI5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Library of Congress",
+      "profileUrl": "https://unsplash.com/@libraryofcongress?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-07T09:50:29.168Z",
+    "publishedAt": "2026-07-07T08:13:06.000Z"
+  },
+  {
+    "slug": "20260707-31",
+    "headline": "2026年のテック業界レイオフ、AI 自動化を理由に12万人失職",
+    "lead": "テク企業が AI導入を名目に 12万人削減、Microsoft・Meta・Oracle が大規模リストラ実施。",
+    "body_markdown": "2026年のテクノロジー業界では、人工知能の導入を理由とした大規模なレイオフが相次いでいる。TechCrunchのまとめによると、今年すでに約12万人が職を失い、5月が過去数年で最も高い削減月となった。\n\nMicrosoft は従業員の2.1%にあたる4800人を削減、Meta は全従業員の10%、8000人をカットした。PayPalは 2年間で4500人以上（従業員の20%）を削減し、Oracleは12ヶ月で2万1000人（13%削減）、Block は従業員の半分近い4000人をレイオフしている。\n\nこれらの企業幹部は AI 効率化を削減の主要な理由として公表している。Microsoft は『AI は仕事のやり方を根本から変える』と述べ、Coinbase は『エンジニアが以前なら数週間かかる仕事を今は数日で完成させる』とコメントしている。\n\nしかし注目すべきは、これらの削減が記録的な利益と同時に進行していることだ。Google は「RAMageddon」と呼ばれるメモリチップ供給危機の中でサイバーセキュリティスタッフを削減しながら、Cloud事業の売上を 63%成長させた。Oracle は 27%の利益増加を達成したまさにその時期に2万1000人の削減を発表した。\n\nアナリストは『AI 効率化は削減の言い訳であり、実際にはパンデミック期の過度なハイアリングの調整が本質』と指摘する。企業の財務健全性が悪化したのではなく、成長率が投資家の期待を下回ったために調整が進行しているという分析も存在する。AI 導入の本当の効果は、どの業務で人員削減が不可避で、どの分野で雇用が生まれるかが明らかになるまで、判断できない段階にある。",
+    "tags": [
+      "テクノロジー",
+      "AI",
+      "レイオフ",
+      "雇用",
+      "産業"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+    "importance": 3,
+    "image_query": "office building business",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T09:50:29.168Z",
+    "publishedAt": "2026-07-06T18:35:00.000Z"
+  },
+  {
+    "slug": "20260707-32",
+    "headline": "米国初のロボット兵器ウクライナ配備、100台超が1100 回出撃・課題は高額コスト",
+    "lead": "Forterra が無人 ATV 100 台以上をウクライナ配備、9 ヶ月で 2500 マイル走行・補給輸送に成功。",
+    "body_markdown": "米国の自律走行ロボット企業 Forterra は、無人 ATV『Lancer』を 100 台以上ウクライナに配備し、9 ヶ月間で 1100 回以上の実戦任務に投入している。これは米国防衛技術の自律走行ロボット戦場配備として最大規模と言われる。\n\nForterraのLancer は Polaris社製のガソリン駆動 ATV をベースに、カスタム製センサーと計算システムを搭載したもの。1台当たり 750kg の荷物を運べ、ウクライナ製の自律走行ロボット（250kg 運搬）の3倍の搬送能力がある。2025年10月以降、Lancer は 2500 マイル以上を走破し、77万7440ポンドの補給物資を運び、52人の負傷者を後送した。\n\nただしウクライナ軍は Lancer をほぼ完全自動運転ではなく『遠隔操縦』で運用している。兵士は『自律システムは予期しない敵軍を識別して対応する段階にはまだ達していない』と述べ、最終的には人間の判断が必要だと指摘する。\n\nウクライナ側の最大の関心事はコストである。一兵士は『Lancer は優秀だが、損耗率が高い中、さらに安くなければ実運用は困難だ』とコメント。ドローンなら使い捨て感覚で配備できるが、高価なロボットは慎重に運用せざるを得ない。\n\nForterraは Scout AI や Field AI などのスタートアップと競争しており、古典的なロボティクスと生成 AI を融合させて、戦場環境への対応能力を高めようとしている。戦地での実運用は技術発展の加速剤であり、同時にコスト削減と耐久性向上の必要性を浮き彫りにしている。",
+    "tags": [
+      "ウクライナ",
+      "ロボット",
+      "AI",
+      "自動運転",
+      "戦争"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
+    "importance": 3,
+    "image_query": "military robot drone autonomous vehicle",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T09:50:29.168Z",
+    "publishedAt": "2026-07-07T09:00:00.000Z"
+  },
+  {
+    "slug": "20260707-33",
+    "headline": "Google、ユーザーデータを AI 訓練に利用・プライバシー設定で個別に制御可能に",
+    "lead": "Google が検索履歴から画像・音声・動画まで AI 学習用に収集、6月にプライバシー設定を変更・オプトアウト可能。",
+    "body_markdown": "Google は 2026年6月、個人データの AI 訓練活用に関するプライバシー設定を変更した。従来の『Web & App Activity』とは独立した『Search Services History』と『Personalized Recommendations』の2つの新設定が導入され、ユーザーは Google Lens で撮影した画像、音声検索、Google Translate の音声、さらには動画録画データなどのメディアを、AI モデル訓練から除外できるようになった。\n\n新設定の適用範囲は Google Search だけではない。Maps、Shopping、Flights、Hotels、Translate、News など 10 以上のサービスを通じて収集されたメディアが対象となっている。ユーザーは『Search Services History』ページで『Save Media』チェックボックスを外すことでオプトアウトでき、自動削除期間も『3ヶ月』『18ヶ月』『36ヶ月』から選択できる。\n\nしかし重要な落とし穴がある。この新設定は『Web & App Activity』の従来の管理画面とは独立しているため、その設定を変更しても、新設定には影響しない。つまりユーザーはメディア収集オプトアウトのために、2つの異なるページで別々に設定する必要がある。\n\nGoogle は『ユーザーの履歴を使用してサービスを提供、開発、改善する。人間のレビュー担当者が支援する』とコメントしている。これは生成 AI 時代の大規模データ収集の実態を示しており、企業の AI 訓練とプライバシー保護のバランスの難しさを浮き彫りにしている。ユーザーは明示的な管理操作を行わない限り、自身のメディアが訓練データとして利用されることになる。",
+    "tags": [
+      "Google",
+      "プライバシー",
+      "AI",
+      "データ収集",
+      "設定"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+    "importance": 3,
+    "image_query": "privacy data security",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T09:50:29.168Z",
+    "publishedAt": "2026-07-06T17:04:58.000Z"
+  },
+  {
+    "slug": "20260707-34",
+    "headline": "SORACOM、『After AI 組織』へ転換・AI エージェントで 100 件以上新サービス化",
+    "lead": "SORACOM が 1年で組織改革、Anthropic Claude ベースの『SORACOM Agent』で IoT 自動化促進、『トークン資本』概念を導入。",
+    "body_markdown": "日本の IoT 通信基盤企業 SORACOM は、2025年7月から開始した『After AI 組織』への大規模な組織改革について、その実績を報告した。1年の取り組みで 100 件以上の新しいサービス化と、約 100 個のコーディング実装を達成している。\n\nこの改革の中核は『SORACOM Agent』という管理型 AI エージェントサービスで、Anthropic の Claude をベースにしている。このエージェントは、IoT デバイスの管理、データ解析、自動応答など、従来は人間が担当していた定型業務を自動化する。SORACOM は 5 段階の『After AI 成熟度モデル』を定義：第1段階は単純な人間操作、第5段階は人間と AI の完全統合ワークフロー。\n\n革新的な概念として『トークン資本』の導入がある。LLM が『トークン』という最小単位で情報を処理するのと同様に、人間の知識やノウハウを『トークン化された資産』として再定義し、その価値を定量化・可視化しようという取り組みだ。SORACOM が説明する『トークン資本』は、人間とマシンの協働で生成される専門知識を指し、それが組織の競争優位性になるという論理である。\n\nこの組織変革は単なるテクノロジー導入ではなく、人間の役割再定義を伴っている。AI が自動処理を担う一方で、人間は戦略的判断、倫理的監視、複雑な問題解決に集中する構図が想定されている。SORACOM の事例は、日本企業が生成 AI 時代にどう組織自体を再編成するかの先進例として注目される。",
+    "tags": [
+      "日本",
+      "SORACOM",
+      "AI エージェント",
+      "IoT",
+      "組織改革"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://monoist.itmedia.co.jp/mn/articles/2607/07/news073.html",
+    "importance": 3,
+    "image_query": "business technology organization",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T09:50:29.169Z",
+    "publishedAt": "2026-07-06T22:15:00.000Z"
+  },
+  {
+    "slug": "20260707-35",
+    "headline": "丸亀製麺、従業員と顧客の『心』を数値化・AI で繁盛の法則を検出",
+    "lead": "丸亀製麺が『心経営』で従業員感情と顧客満足度をリンク、AI が相関パターンを分析して店舗運営を最適化。",
+    "body_markdown": "讃岐うどんチェーン『丸亀製麺』は、従業員の感情と顧客体験を連動させる新しい経営モデル『心経営』（こころけいえい）を 2025年9月から試行している。見えない『感情』を経営資本として組み込み、AI と データ分析によって店舗繁盛の法則を抽出する試みだ。\n\n従来の経営効率化は、オペレーション最適化と顧客数増加に焦点が当たっていた。丸亀製麺の新モデルは、員工の『気持ちの状態』を直接的な経営変数として扱う。例えば、従業員が疲労や不安を抱えていると、顧客への対応品質が低下し、売上減につながることを定量化するのだ。\n\n逆に従業員の満足度や活力が高い日は、顧客体験が向上し、リピート率や客単価が改善される傾向を AI が検出する。丸亀製麺が『Bankyu スタイル』と呼ぶこの心経営サイクルは、従業員の感情投資が直接的に店舗パフォーマンスに返ってくる仕組みを可視化する。\n\n具体的には、従業員のコア・コンピテンシー（技術・知識）と感情状態（モーラル・エナジー）を同時追跡し、AI が両者の相関を分析する。結果として『従業員が活き活きしている店舗は顧客満足度が高く、売上も増加する』という当たり前だが実証されていなかった仮説が、データレベルで証明される。\n\nこの経営改革は 2026年も継続され、複数店舗での本格導入に向けて検証が進んでいる。人材経営と顧客サービスの統合アプローチは、飲食業界にとって新しい競争戦略の源泉となる可能性を示唆している。",
+    "tags": [
+      "丸亀製麺",
+      "日本",
+      "AI",
+      "経営",
+      "感情"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia ビジネス",
+    "link": "https://www.itmedia.co.jp/business/articles/2607/07/news092.html",
+    "importance": 3,
+    "image_query": "restaurant business management",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T09:50:29.169Z",
+    "publishedAt": "2026-07-07T02:32:00.000Z"
+  },
+  {
+    "slug": "20260707-36",
+    "headline": "AI ランサムウェア攻撃、人間の関与なしに は実現不可・インフラ・被害者選定は手動",
+    "lead": "『JadePuffer』攻撃で AI エージェントが技術実行、ただし人間が被害先選定・インフラ構築・認証情報供給を担当。",
+    "body_markdown": "先週報道された『最初の AI ランサムウェア攻撃』は、技術的には AI が実行したものの、戦略的・準備的な段階では人間が中核的な役割を果たしていたことが明らかになった。Sysdig のセキュリティ研究チームが詳細を分析し、『JadePuffer』という攻撃キャンペーンの実態を報告している。\n\n技術的なハイライトは確かに AI エージェント主導だった。攻撃者は Langflow（LLM アプリケーション構築ツール）の脆弱性を持つサーバーを侵害し、AI エージェントが認証情報を盗出、ネットワークを移動、ファイルを暗号化、独自のランサムノートを生成した。この一連の技術実行は数秒で完了した。\n\nしかし Sysdig の脅威研究部門長マイケル・クラーク氏の指摘によれば『人間は依然として被害先選定、コマンド・アンド・コントロール(C2)サーバーの構築、盗データのステージングサーバー管理を行った』。さらに重要なのは、AI エージェントは新たに認証情報を盗むのではなく、人間が事前に盗んで供給した既存の認証情報を使用したということだ。\n\nAI が初期アクセスやインフラ調査を担当しなかった点は重要だ。従来のランサムウェア攻撃において最も時間と専門知識を要する段階は、実は暗号化実行ではなく、ターゲットネットワークへの侵入準備である。つまり AI エージェントは『実行作業の自動化』に貢献したが、『自律的なランサムウェアキャンペーン』ではなく『AI 補強型の従来攻撃』というのが正確な評価だ。\n\nセキュリティ専門家は『数千～数万規模のキャンペーンスケール化には、人間による初期準備と被害先選定が依然として必須』と指摘しており、当面、サイバー犯罪における AI の役割は増幅的だが、完全自律化には遠いと考えられている。",
+    "tags": [
+      "サイバー",
+      "AI",
+      "ランサムウェア",
+      "セキュリティ",
+      "脅威"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+    "importance": 3,
+    "image_query": "cybersecurity hacking attack",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-07T09:50:29.169Z",
+    "publishedAt": "2026-07-06T23:56:14.000Z"
+  },
+  {
     "slug": "20260707-01",
     "headline": "LeRobot v0.6.0がロボット制御を進化",
     "lead": "ロボット学習フレームワーク LeRobot が画像生成AI、報酬モデル、マルチGPU対応を一体統合した新版をリリース。",
