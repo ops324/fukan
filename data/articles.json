@@ -1,5 +1,327 @@
 [
   {
+    "slug": "20260709-01",
+    "headline": "OpenAI、GPT-Live で音声会話を革新",
+    "lead": "OpenAI が新音声モデル「GPT-Live-1」を発表、同時双方向通話と 30〜40 分の長時間会話に対応。",
+    "body_markdown": "## OpenAI の新音声モデル「GPT-Live-1」が会話の質を大幅改善\n\nOpenAI は 7 月 8 日、新型音声モデル「GPT-Live-1」と軽量版「GPT-Live-1 mini」を発表した。これまでの音声アシスタントの課題だった「話者の割り込みに対応できない」「長い沈黙が生じる」といった不自然さを解決する。\n\n### 主な新機能\n\n**同時双方向通話が可能**\n新モデルは「speak and listen at the same time」に対応し、ユーザーが話の途中で自然に割り込むことができる。これにより会話がより人間らしく流暢になる。\n\n**長時間対話に対応**\n実際の利用例では 30〜40 分間の連続対話が可能。より深い問題解決やコーチング、カウンセリング的な用途が想定される。\n\n**最新テキストモデルとの連携**\nGPT-5.5 など最新のテキスト推論モデルにアクセス可能。複雑な問題では自動的にテキスト処理に切り替わり、結果を音声で自然に説明できる。特に情報検索やリアルタイム翻訳での活用が期待される。\n\n**安全機能の組み込み**\n年齢に応じた安全措置が組み込まれており、児童利用時の保護も考慮されている。\n\n現在、ChatGPT の音声機能は 1 億 5000 万人以上に利用されており、新モデルはこれらのユーザーへの段階的な展開が予定されている。",
+    "tags": [
+      "AI",
+      "音声AI",
+      "ChatGPT",
+      "OpenAI",
+      "会話"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+    "importance": 4,
+    "image_query": "ai voice conversation digital",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1694878981964-c9d8f1ffc19d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhaSUyMHZvaWNlJTIwY29udmVyc2F0aW9ufGVufDF8MHx8fDE3ODM1NDU2NjJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Kelly Sikkema",
+      "profileUrl": "https://unsplash.com/@kellysikkema?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-08T21:21:02.670Z",
+    "publishedAt": "2026-07-08T17:00:00.000Z"
+  },
+  {
+    "slug": "20260709-02",
+    "headline": "Grok 4.5、Opus 級性能を 3 分の 1 の価格で",
+    "lead": "SpaceXAI が Grok 4.5 を発表。Elon Musk は Opus 4.7 相当の能力を持ち、トークン効率が 2 倍と説明。",
+    "body_markdown": "## SpaceXAI の Grok 4.5、低価格で高性能を実現\n\nSpaceXAI は 7 月 8 日、新型大規模言語モデル「Grok 4.5」を発表した。CEO Elon Musk によれば、性能は Claude の「Opus 4.7」と同等だが、価格は大幅に安価という。\n\n### 性能と効率\n\n**Opus 級の能力**\nコーディング、事務作業、研究、執筆など多様なタスクに対応。Musk は「Opus 級のモデル」と評した。\n\n**トークン効率が 2 倍**\nSpaceXAI によると、競合モデル比で 2 倍のトークン効率を実現。これはユーザーと企業の両方のコストを大幅に削減する。\n\n### 価格競争力\n\n**入力トークン**: 100 万あたり $2（Opus 4.7 は $5、OpenAI の最新モデルは $5）\n**出力トークン**: 100 万あたり $6（Opus 4.7 は $25、OpenAI 最新は $30）\n\n同等の性能を持ちながら、入力で 60% 削減、出力で 75% 削減という圧倒的な価格優位性を示す。これは AI エージェント・複雑タスク処理の民主化につながる可能性がある。\n\nGrok はこれまで Twitter/X の有料プレミアムユーザーに限定されていたが、今回の発表により API での外部提供も視野に入ると見られる。",
+    "tags": [
+      "AI",
+      "LLM",
+      "SpaceX",
+      "Grok",
+      "価格競争"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+    "importance": 4,
+    "image_query": "AI model processing code",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1692607431225-5f4564c8f132?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxBSSUyMG1vZGVsJTIwcHJvY2Vzc2luZyUyMGNvZGV8ZW58MXwwfHx8MTc4MzU0NTY2M3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Google DeepMind",
+      "profileUrl": "https://unsplash.com/@googledeepmind?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-08T21:21:03.881Z",
+    "publishedAt": "2026-07-08T19:30:16.000Z"
+  },
+  {
+    "slug": "20260709-03",
+    "headline": "米国、イランへの追加攻撃を実施",
+    "lead": "米中央軍がイランのホルムズ海峡の航行能力を標的に追加攻撃。トランプ大統領はさらなる軍事行動示唆。",
+    "body_markdown": "## 米国がイランへの新たな波状攻撃を開始\n\nアメリカ中央軍（CENTCOM）は 7 月 8 日、イランに対する追加攻撃を開始したと発表。この行動は、Trump 政権の対イラン強硬姿勢が加速している兆候として注目される。\n\n### 攻撃の背景と目標\n\n**ホルムズ海峡への圧力**\n中央軍の声明は「イランのホルムズ海峡における航行の自由を脅かす能力」に言及。イランが保有する対艦ミサイルやドローン、沿岸防御施設の破壊が目的と推定される。ホルムズ海峡は世界石油供給の約 30% が通過する戦略的要衝であり、同地域での米国の支配を示す狙いがある。\n\n**段階的エスカレーション**\nTrump 大統領は「おそらく今夜もまた攻撃する」と述べ、継続的な軍事行動の可能性を示唆。同政権はイラン産原油の生産・販売認可も取り消し、多面的な経済・軍事圧力を強化している。\n\n### 国際的含意\n\n**ウクライナ・イラン同時対処**\nNATO アンカラ首脳会議と時期を同じくした攻撃で、米国は東欧とペルシア湾という二つの紛争フロントへの関与を同時に示す姿勢を明確にしている。\n\nイランは報復の可能性を示唆しており、地域の軍事衝突が深刻化する懸念もある。",
+    "tags": [
+      "中東",
+      "イラン",
+      "米国",
+      "ホルムズ海峡",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015172441000",
+    "importance": 5,
+    "image_query": "military aircraft strike missile",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1698658546066-94f4f951246c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxtaWxpdGFyeSUyMGFpcmNyYWZ0JTIwc3RyaWtlJTIwbWlzc2lsZXxlbnwxfDB8fHwxNzgzNTQ1NjY0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "david hili",
+      "profileUrl": "https://unsplash.com/@davidhili123?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-08T21:21:04.847Z",
+    "publishedAt": "2026-07-08T20:38:28.000Z"
+  },
+  {
+    "slug": "20260709-04",
+    "headline": "FTC が John Deere と和解、修理権確保",
+    "lead": "農民による農機修理権の獲得。10 年以上の訴訟により、John Deere は装置とサービスへのアクセスを開放。",
+    "body_markdown": "## FTC と John Deere の和解、農民の修理権が実現\n\n米連邦取引委員会（FTC）は John Deere との訴訟において和解に至り、農民が長年求めてきた農業機械の修理権が正式に確保された。10 年以上に及ぶ修理権活動家と農民の訴訟の成果となる。\n\n### 修理権の獲得内容\n\n**装置・サービスへのアクセス確保**\nJohn Deere は農民に対して、農機の修理に必要な診断装置、修理ガイド、部品情報へのアクセスを提供することを合意した。これまで、同社は修理権を独占し、公認ディーラーのみが修理対応を行うモデルを運営していた。\n\n**独立修理業者の活動を解放**\n地方の小規模修理業者や個人での修理が可能になり、農業の経営コスト削減につながる。特に緊急時の修理対応が迅速化することで、農業経営の効率性が向上する見通し。\n\n### 背景\n\n**垂直統合の打破**\nJohn Deere は農機だけでなく、サービスから部品供給まで垂直統合し、農民に高い修理コストを強いていた。FTC が独占的な排他行為に該当すると判断し、和解に至った。\n\n**修理権運動の広がり**\nこの事案は米国内での「right-to-repair」運動の象徴的な勝利。自動車やスマートフォンの修理権を求める声も拡大している。",
+    "tags": [
+      "FTC",
+      "修理権",
+      "農業",
+      "ビジネス"
+    ],
+    "section": "テクノロジー",
+    "source": "WIRED",
+    "link": "https://www.wired.com/story/the-ftc-settlement-with-john-deere-is-a-huge-win-for-the-right-to-repair-movement/",
+    "importance": 3,
+    "image_query": "farming tractor repair",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-08T21:21:04.849Z",
+    "publishedAt": "2026-07-08T20:27:18.000Z"
+  },
+  {
+    "slug": "20260709-05",
+    "headline": "Google Photos、AI で動画編集・スタイル変更が可能に",
+    "lead": "Google Photos に新機能「Video Remix」が登場。AI が映像の色調調整や背景置換、アート化に対応。",
+    "body_markdown": "## Google Photos の新 AI 機能「Video Remix」で動画加工が簡単に\n\nGoogle は 7 月 8 日、Google Photos に新たな AI 機能「Video Remix」を追加すると発表した。ユーザーが手軽に動画のスタイル変更や視覚的な改善を加えられるようになる。\n\n### Video Remix の主要機能\n\n**シネマティック・リライティング**\nAI が暗いシーンの動画を自動で明るく補正。照明が不足した屋内や夜間の撮影でも、プロの編集レベルの見た目を実現する。\n\n**背景の置換・カスタマイズ**\n退屈な背景を楽しいデザインに自動変更。旅行動画やイベント記録を華やかにできる。\n\n**アート化・スタイル適用**\n人気のアート画風や映像フィルターを自動適用。複雑な編集作業を AI が代行する。\n\n### ユーザーメリット\n\n従来は専門的な編集ソフト（Final Cut Pro など）が必要だった加工が、スマートフォン上で瞬時に完了する。Google Photos 内で完結でき、追加ソフト不要。\n\nこの機能は Google One の加入者や Google Pixel ユーザーを中心に段階的に提供予定。",
+    "tags": [
+      "Google",
+      "AI",
+      "動画編集",
+      "写真"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+    "importance": 3,
+    "image_query": "video editing creative film",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-08T21:21:04.849Z",
+    "publishedAt": "2026-07-08T18:30:08.000Z"
+  },
+  {
+    "slug": "20260709-06",
+    "headline": "Prime Intellect、企業向け AI エージェント開発に 130M 融資",
+    "lead": "Prime Intellect が Series A で 1 億 3000 万ドル調達。企業が独自の AI エージェントを構築できるプラットフォーム。",
+    "body_markdown": "## Prime Intellect、企業向け AI エージェント開発プラットフォームが大型融資\n\nPrime Intellect は 7 月 8 日、Series A ラウンドで 1 億 3000 万ドル（約 130 億円）の資金調達を発表。企業が外部の frontier AI ラボに依存せず、独自の AI エージェントを構築・学習させることを可能にするプラットフォームを提供する。\n\n### Prime Intellect の目指すもの\n\n**AI 開発の民主化**\n従来、高度な AI エージェントの開発には OpenAI や Google のような大手ラボのモデルが必要だった。Prime Intellect は、企業が自社のデータを使い、カスタマイズされた AI エージェントを開発できるインフラを提供する。\n\n**オーダーメイド AI エージェント**\n企業固有のタスク（カスタマーサポート、内部業務自動化、分析など）に最適化された AI エージェントを開発できる。コスト削減と独占性の両立が狙い。\n\n### 投資の意義\n\nAI の「frontier lab 独占」が緩和される可能性を示す。2024 年に設立されたばかりの Prime Intellect が 130M の大型投資を得たことは、エンタープライズ AI エージェント市場の急速な成長と競争激化を示唆している。",
+    "tags": [
+      "AI",
+      "エージェント",
+      "資金調達",
+      "スタートアップ"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+    "importance": 3,
+    "image_query": "artificial intelligence robot business",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-08T21:21:04.849Z",
+    "publishedAt": "2026-07-08T16:22:38.000Z"
+  },
+  {
+    "slug": "20260709-07",
+    "headline": "新型スーパー・ジュピター、180 日周期で発見",
+    "lead": "天文学者が稀少な「スーパー・ジュピター」を発見。木星より 8% 大きく質量は 5 倍。",
+    "body_markdown": "## 稀少な「スーパー・ジュピター」NGTS-38 b を発見\n\nQueen's University Belfast の国際研究チームは、遠く離れた星の周りで稀少な太陽系外惑星「スーパー・ジュピター」を新たに発見したと発表した。この惑星は NGTS-38 b と命名され、既知の惑星の中でも極めて珍しい特性を持つ。\n\n### NGTS-38 b の特性\n\n**スーパー・ジュピターとは**\n木星より大きく、かつ質量が 5 倍に達する超大型ガス惑星。太陽系になぞらえると「木星級以上」の分類となり、通常の惑星形成理論では予測が難しい。\n\n**軌道特性**\n母星からの距離が比較的近く、180 日周期で公転。太陽系の内惑星の周期より長いが、これほど大型の惑星が比較的短い周期で公転する例は少ない。\n\n### 科学的意義\n\n惑星形成の多様性を示す発見。ガス惑星がどのような条件で巨大化し、どのような軌道に配置されるかの理解が深まる。系外惑星探査における観測技術（Next Generation Transit Survey）の能力を示す成果でもある。",
+    "tags": [
+      "宇宙",
+      "天文学",
+      "系外惑星",
+      "発見"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-scientists-rare-super-jupiter-planet.html",
+    "importance": 3,
+    "image_query": "exoplanet jupiter space astronomy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-08T21:21:04.849Z",
+    "publishedAt": "2026-07-08T20:40:02.000Z"
+  },
+  {
+    "slug": "20260709-08",
+    "headline": "CRISPR 新手法、細胞内のタンパク質生産制御を実現",
+    "lead": "リボソーム RNA 量の制御で細胞分裂・分化を操作。Science 誌に掲載、再生医療への応用期待。",
+    "body_markdown": "## CRISPR で細胞内タンパク質生産を精密制御\n\nルートヴィヒ・マクシミリアン大学 LMU とヘルムホルツ・ミュンヘンのチームは、CRISPR 技術を用いてリボソーム RNA（rRNA）の量を制御し、細胞のタンパク質生産速度を直接操作する手法を開発した。成果は Science 誌に掲載されている。\n\n### 研究成果の概要\n\n**タンパク質生産速度が細胞運命を決定**\nリボソーム数が直接、細胞が分裂するか分化するか、あるいは幹細胞特性を保つかを決定することを実証した。これは従来の分子生物学モデルを更新する発見である。\n\n**精密な CRISPR 制御**\n新手法により、rRNA 発現を段階的に操作でき、細胞内のタンパク質生産量を微調整可能。この精密性は再生医療やがん治療の細胞制御に応用できる可能性がある。\n\n### 医療応用への展望\n\n**幹細胞・臓器再生**\n特定のタンパク質生産レベルを維持することで、幹細胞を目的の細胞型に誘導する効率が向上。臓器再生医療の精度向上が見込まれる。\n\n**がん・加齢研究**\n細胞の分裂・分化メカニズムの理解が進み、がんの異常な細胞分裂の抑制やアンチエイジング研究も進展する可能性。",
+    "tags": [
+      "CRISPR",
+      "遺伝子工学",
+      "医療",
+      "バイオテック"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-crispr-method-protein-production-cells.html",
+    "importance": 3,
+    "image_query": "dna laboratory cell science",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-08T21:21:04.849Z",
+    "publishedAt": "2026-07-08T20:00:01.000Z"
+  },
+  {
+    "slug": "20260709-09",
+    "headline": "トランプ氏、E Jean Carroll 名誉毀損裁判で 5.8M ドル支払い命令",
+    "lead": "米最高裁が上訴を棄却。トランプ氏は E Jean Carroll 氏への損害賠償金 5.8M ドルの支払いを命じられた。",
+    "body_markdown": "## トランプ氏、E Jean Carroll 事件で最高裁判決確定\n\nアメリカ最高裁判所は 7 月 8 日、ドナルド・トランプ氏の上訴を棄却。E Jean Carroll ジャーナリストが提起した名誉毀損・性的暴行訴訟において、トランプ氏が 580 万ドル（約 6 億円）の損害賠償金を支払うことが確定した。\n\n### 事件の背景\n\n**暴行と否定**\nE Jean Carroll はトランプ氏から 1990 年代に性的暴行を受けたと主張。トランプ氏は繰り返し否定し、Carroll を嘘つきと呼んだ。この発言が Carroll の名誉を傷つけたとして訴訟が提起された。\n\n**長年の法的戦闘**\n訴訟は数年に及び、複数の段階で異なる判断が示されたが、最高裁の棄却により、下級審の判決が確定した。\n\n### 政治的影響\n\n**大統領選挙中のダメージ**\n2026 年の選挙時期における負の判決。トランプ支持者との分断や、女性有権者への影響も想定される。ただしトランプ陣営は政治的迫害と主張し、支持層は結束する構図も見られる。",
+    "tags": [
+      "裁判",
+      "米国",
+      "政治",
+      "メディア"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/8/trump-ordered-to-pay-e-jean-carroll-5-8m-after-failed-appeal",
+    "importance": 4,
+    "image_query": "courthouse law justice",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1636652966850-5ac4d02370e9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjb3VydGhvdXNlJTIwbGF3JTIwanVzdGljZXxlbnwxfDB8fHwxNzgzNTQ1NjY1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Colin Lloyd",
+      "profileUrl": "https://unsplash.com/@onthesearchforpineapples?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-08T21:21:05.994Z",
+    "publishedAt": "2026-07-08T19:58:00.000Z"
+  },
+  {
+    "slug": "20260709-10",
+    "headline": "Meta のスマートグラス、録画防止機能を追加",
+    "lead": "Meta が Ray-Ban glasses のプライバシー機能を強化。周囲の知らない間の録画を防止。",
+    "body_markdown": "## Meta、AI スマートグラス搭載の Ray-Ban の秘密録画機能を制限\n\nMeta は 7 月 8 日、自社の AI 搭載スマートグラス「Ray-Ban」に新たなプライバシー保護機能を追加すると発表。これまで課題だった「周囲の人に知られず撮影される」リスクを軽減する。\n\n### 新機能の内容\n\n**視覚的な警告表示**\n眼鏡で録画中の場合、レンズの外側に LED インジケーターが点灯。周囲の人が「今、録画されている」と認識しやすくなり、プライバシー侵害を抑止する。\n\n**ユーザーコントロールの強化**\n音声コマンドで録画開始・停止がより明確に確認できるようにアップデート。不意の起動リスクを低減。\n\n### 批判への対応\n\n**プライバシー懸念**\nMeta の AI グラスは、リアルタイムで周囲を視認・記録・分析できることから、プライバシー侵害ツールとみなされてきた。特に公共の場での無断撮影が問題化していた。\n\n**トレードオフ**\n一方で、Meta は個人の安全・医療・ナビゲーション応用など AR グラスの利便性も強調。プライバシー保護と利便性のバランスを模索している。",
+    "tags": [
+      "Meta",
+      "プライバシー",
+      "スマートグラス",
+      "AI"
+    ],
+    "section": "テクノロジー",
+    "source": "Lifehacker",
+    "link": "https://lifehacker.com/tech/meta-just-patched-a-major-privacy-flaw-with-its-smart-glasses",
+    "importance": 3,
+    "image_query": "smart glasses technology privacy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-08T21:21:05.994Z",
+    "publishedAt": "2026-07-08T16:00:00.000Z"
+  },
+  {
+    "slug": "20260709-11",
+    "headline": "Justin Bieber、FIFA World Cup Final ハーフタイムショーに追加",
+    "lead": "FIFA 2026 ワールドカップ決勝ハーフタイム。Madonna・Shakira・BTS に Justin Bieber が加わる豪華ラインアップ。",
+    "body_markdown": "## Justin Bieber が World Cup Final ハーフタイムショーの最終ヘッドライナーに決定\n\nFIFA は 7 月 8 日、2026 年ワールドカップ決勝（7 月 19 日・ニューヨーク）のハーフタイムショーに Justin Bieber が出演することを発表。Madonna、Shakira、BTS に加わる。\n\n### ハーフタイムショーの構成\n\n**歴代級の豪華ラインアップ**\n初めて FIFA が専用ハーフタイムショーを企画。11 分間の集約された舞台に、複数の世界的スター（全年代カバー）を配置。\n\n**グローバルスターの集約**\nMadonna（1980 年代の伝説）、Shakira（2000 年代のラテンポップ）、BTS（2010 年代の K-pop）、Bieber（2010 年代のポップ）という時代を超えた構成。\n\n### 視聴規模と経済効果\n\n**世界規模のスポーツ・エンタメ事業**\nWorld Cup 決勝は世界で 10 億人以上が視聴。広告・チケット・配信権の大規模商機であり、ハーフタイムショーは視聴維持と国際ブランド化の重要要素。",
+    "tags": [
+      "音楽",
+      "ワールドカップ",
+      "エンタメ",
+      "ライブ"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/music/news/justin-bieber-joins-fifa-world-cup-final-haltime-show-1236804858/",
+    "importance": 3,
+    "image_query": "concert stage performance music",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-08T21:21:05.994Z",
+    "publishedAt": "2026-07-08T19:16:24.000Z"
+  },
+  {
+    "slug": "20260709-12",
+    "headline": "BBC、テレビ視聴料の廃止検討。新体制で「旧モデル」と評価",
+    "lead": "BBC 新会長 Matt Brittin が視聴料制度を「昨日の遺物」と指摘。将来の資金調達モデルを再検討。",
+    "body_markdown": "## BBC の新トップ、テレビ視聴料は「旧モデル」と明言\n\nイギリス公共放送 BBC の新会長 Matt Brittin は、BBC を支える伝統的な視聴料制度を「yesterday's model（昨日の遺物）」と評価。デジタル化が進む視聴環境の中で、新たな資金調達モデルの構築が急務との認識を示した。\n\n### テレビ視聴料制度の現状\n\n**英国の伝統的モデル**\nBBC はテレビを所有する全世帯から視聴料（年間約 159 ポンド）を徴収。この制度は 100 年近く続く。\n\n**デジタル化の衝撃**\nストリーミング・ポッドキャスト・オンデマンド配信の普及により、従来のテレビ視聴が減少。特に若年層の視聴習慣が変わり、視聴料徴収の正当性が問われている。\n\n### 改革の方向\n\n**新財源モデルの検討**\nBrittin は広告モデル、サブスクリプション、政府補助など複数の選択肢を検討していると示唆。BBC の将来的な独立採算性と公共性のバランスが争点となる見通し。\n\n**政治的圧力**\n保守党と労働党双方から BBC の改革要求が出ており、新会長の発言は改革への足がかりとなる可能性がある。",
+    "tags": [
+      "BBC",
+      "メディア",
+      "イギリス",
+      "放送"
+    ],
+    "section": "カルチャー",
+    "source": "BBC Arts",
+    "link": "https://www.bbc.co.uk/news/articles/c20yjjm7n87o",
+    "importance": 3,
+    "image_query": "television broadcast media",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-08T21:21:05.995Z",
+    "publishedAt": "2026-07-08T12:37:41.000Z"
+  },
+  {
+    "slug": "20260709-13",
+    "headline": "PC 出荷、2 年ぶりに減速。メモリ不足が影響",
+    "lead": "半導体メモリ不足が PC 出荷に急ブレーキ。ただし価格上昇で企業収益は増加。",
+    "body_markdown": "## PC 出荷が 2 年ぶり減少、メモリ供給制約が原因\n\n市場調査によると、2026 年第 2 四半期の PC 出荷台数が前年同期比で初めて減少に転じた。主な要因は RAM・SSD などのメモリ半導体の供給不足。ただし商品の平均販売価格が上昇したため、業界全体の収益は維持されている。\n\n### 出荷減少の背景\n\n**メモリ供給の逼迫**\nAI サーバー、GPU、スマートフォン向けのメモリ需要が急増。消費者向けメモリが優先度を落とされている状況。\n\n**高価格化**\n供給不足により PC メーカーは仕入れコストが上昇。これを販売価格に転嫁し、消費者負担が増加。特にハイエンド PC の価格上昇が著しい。\n\n### ビジネスメリット\n\n**メーカー利益率の改善**\n台数は減少もユニットあたりの利益が上昇。Lenovo・Dell・HP などの大手メーカーは実益ベースで好調を維持する見通し。\n\n**市場の二極化**\n低価格 PC の供給難が続く一方、プレミアム PC（ハイメモリ・高性能 CPU）は供給・販売が堅調。プロ向け・ハイエンドユーザーへのシフトが進む。",
+    "tags": [
+      "PC",
+      "半導体",
+      "供給チェーン",
+      "技術"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2210856/pc-shipments-just-fell-for-the-first-time-in-two-years-thanks-to-the-memory-shortage/",
+    "importance": 3,
+    "image_query": "computer laptop technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-08T21:21:05.995Z",
+    "publishedAt": "2026-07-08T19:01:59.000Z"
+  },
+  {
+    "slug": "20260709-14",
+    "headline": "ホルムズ海峡での米国・イランの緊張、LNG 市場に波及",
+    "lead": "米イラン軍事衝突の激化で、中東エネルギー市場が不安定化。LNG 価格の上昇懸念。",
+    "body_markdown": "## イランとの軍事衝突で LNG 市場に不確実性、冬季対応に警戒感\n\nホルムズ海峡でのアメリカとイランの軍事的対立激化により、液化天然ガス（LNG）市場が不安定化の兆候を示している。戦略的要衝での紛争長期化は、エネルギー供給の不確実性をもたらす。\n\n### LNG 市場への影響\n\n**ホルムズ海峡の重要性**\n世界の石油供給の約 30%、天然ガスの一部もホルムズ海峡を経由。米国とイランの軍事衝突が海上輸送の混乱をもたらせば、エネルギー価格は急騰する可能性。\n\n**冬季エネルギー危機への懸念**\n北半球の冬季（10〜3 月）は暖房需要が急増。ホルムズ海峡での供給制約が続けば、欧州・東アジアでの LNG 不足と価格上昇のリスクが高まる。\n\n### 市場シナリオ\n\n**複数の不安定要因**\nイラン産原油の制裁、米国の政治的不安定性、ウクライナ情勢の継続などが重ねれば、エネルギー市場の二重・三重の価格ショック発生も想定される。\n\n**企業・消費者への波及**\n電力代・ガス代の上昇、製造業コストの上昇に波及。特に新興国での経済圧迫が懸念される。",
+    "tags": [
+      "エネルギー",
+      "LNG",
+      "地政学",
+      "中東"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/07/08/three-ways-the-lng-market-could-crack-before-winter",
+    "importance": 4,
+    "image_query": "oil gas energy market",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1624771002998-4aadfd43e7c4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxvaWwlMjBnYXMlMjBlbmVyZ3klMjBtYXJrZXR8ZW58MXwwfHx8MTc4MzU0NTY2Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "David Thielen",
+      "profileUrl": "https://unsplash.com/@david_thielen?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-08T21:21:06.970Z",
+    "publishedAt": "2026-07-08T14:08:15.000Z"
+  },
+  {
     "slug": "20260708-21",
     "headline": "OpenAI、GPT-5.6シリーズを一般公開へ",
     "lead": "OpenAIが最新型LLM「GPT-5.6」の3モデル（Sol・Terra・Luna）を7月10日に一般公開、政府との調整を経た初の展開。",
