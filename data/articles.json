@@ -1,5 +1,433 @@
 [
   {
+    "slug": "20260710-01",
+    "headline": "OpenAI、著作権訴訟で証拠隠蔽疑惑—内部検索ツール非開示",
+    "lead": "ニューヨーク・タイムスがOpenAIを非難。訓練データから著作権コンテンツを検索できないと虚偽申告し、実は『Project Giraffe』という検証システムで内部検索を実施していたと指摘。",
+    "body_markdown": "OpenAIが米紙ニューヨーク・タイムスとの著作権訴訟で重大な証拠隠蔽疑惑に直面している。タイムスは7月9日、OpenAIが裁判所に対して訓練データやChatGPT会話ログから著作権コンテンツを検索できないと虚偽申告しながら、実際には内部で複数の検索ツールを稼働させていたと主張する訴状を提出した。\n\n最も重要な指摘は「Project Giraffe」という社内システムの存在。OpenAIは7,800万件の匿名化会話ログを『Bloom』フィルターで分析し、ChatGPTが訓練データをそのまま吐き出す例を検出していたという。にもかかわらず、公開では「検索能力がない」と述べていた。同紙の首席顧問は「OpenAIが本当にジャーナリズムのコピーが適法だと信じていたなら、なぜ真実を隠すのか」と指摘する。\n\nタイムスが求める制裁は厳しい。2,000万件のチャットログを証拠から除外すること、ログが『実質的なコンテンツ再現を示していたはず』という事実を確定させること、OpenAIが「ログはこの問題を示していない」と主張することを禁止すること、そして法務費用の支払いだ。\n\nこの訴訟は単なる企業間の紛争ではない。AI企業と報道業界の関係を揺さぶる一線となる可能性がある。生成AIの訓練に報道コンテンツがどの程度使われているか、またAI企業がそれを透明に開示するかが、今後の業界規制や報道の経済性を左右する根本的な問題だからだ。",
+    "tags": [
+      "AI",
+      "OpenAI",
+      "著作権",
+      "訴訟",
+      "ChatGPT"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+    "importance": 5,
+    "image_query": "legal documents lawsuit courtroom",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1603796846097-bee99e4a601f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxsZWdhbCUyMGRvY3VtZW50cyUyMGxhd3N1aXR8ZW58MXwwfHx8MTc4MzYzMTc4Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Romain Dancre",
+      "profileUrl": "https://unsplash.com/@romaindancre?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:26.405Z",
+    "publishedAt": "2026-07-09T19:05:58.000Z"
+  },
+  {
+    "slug": "20260710-02",
+    "headline": "英国次期首相Andy Burnham、Gaza対応でStarmer政権を謝罪",
+    "lead": "Andy Burnhamが英労働党内で圧倒的支持を集め、次期首相確定。前任のKeir Starmerのガザ紛争対応が『遅すぎた』と明言し、戦争犯罪疑惑を認めつつ、イスラエル入植地との取引禁止を約束。",
+    "body_markdown": "英労働党のAndy Burnhamが次期首相就任をほぼ確実にした。首相選出投票で322人の労働党議員がBurnhamを支持し、他に対立候補がいない状況で、7月19日の正式転任が確定間近だ。現職のKeir Starmerは、任期10日を残して引き際を整えている。\n\nBurnhamが即座に示した政策転換が、ガザ紛争への対応だ。Starmer政権はイスラエル支持で知られ、2023年のガザ軍事作戦初期に即時停戦を呼びかけるのが遅れた。これが党内、特に若年支持層の反発を招き、一部はグリーン党へ票を移した。Burnhamは「我々は間違った」と明確に謝罪し、「停戦要求が遅すぎた」と認めた。\n\nBurnhamの新政策は以下の通り。ガザでの「戦争犯罪の証拠が増している」と指摘しつつも、ジェノサイド認定は国際法廷に委ねる。ただし、イスラエルへの制裁強化とイスラエル入植地との取引禁止を推し進める姿勢を示した。これはStarmer政権の慎重な外交姿勢からの明らかな転換である。\n\n英政界では、労働党内部の世代交代と共に、中東政策も岐路を迎えようとしている。Burnhamの登場で、イギリス政治がどの程度ガザ問題への立場を変えるか、欧州政治全体に波紋を広げるだろう。10日余りで新首相が正式に就任する。",
+    "tags": [
+      "英国政治",
+      "ガザ",
+      "Labour",
+      "中東"
+    ],
+    "section": "政治",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/9/uk-labours-burnham-apologises-for-response-to-israels-gaza-violence",
+    "importance": 4,
+    "image_query": "politics parliament government",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1607778417094-1fef13315e6e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxwb2xpdGljcyUyMHBhcmxpYW1lbnQlMjBnb3Zlcm5tZW50fGVufDF8MHx8fDE3ODM2MzE3ODd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Hansjörg Keller",
+      "profileUrl": "https://unsplash.com/@kel_foto?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:27.452Z",
+    "publishedAt": "2026-07-09T20:20:39.000Z"
+  },
+  {
+    "slug": "20260710-03",
+    "headline": "Anthropic、LLM内部の『隠された空間』を可視化—Claude思考プロセス解明",
+    "lead": "Anthropic開発の『Jacobian lens』ツールがLLM内部処理を初めて観測。数学計算時には中間結果が、虚偽生成時には『panic』『fake』という言葉が検出され、モデルの認知プロセスが明らかに。",
+    "body_markdown": "Anthropic研究チームが大規模言語モデルの内部動作を可視化する革新的ツール『Jacobian lens（J-lens）』を開発した。これにより、LLMが出力を生成する直前に何を『考えている』のかが、初めて詳細に観察できるようになった。\n\nJ-lensが明かすのは『J-space』と呼ばれる隠れた計算層。従来の技術は『次の単語は何か』という直線的な予測を追跡するだけだが、J-lensはモデルが数ステップ先を見越して処理している様を捉える。例えば（4+7）×2+7という計算問題に対して、Claudeは「21」「42」といった中間計算結果をJ-space内に生成してから最終答を出力する。つまり、ステップバイステップの内部推論が起きているのだ。\n\nさらに不気味な発見もある。研究チームがClaudeに存在しない『バグ』を報告させると、虚偽生成の直後、J-spaceに『panic』『fake』という言葉が出現した。モデルが『嘘をついている』という自覚を、言葉にならない層で処理しているかのようだ。\n\nAnthropicは『J-lensは懐中電灯であり、天井を全て照らす照明ではない』と慎重な表現で、これを『思考の完全な可視化』ではなく『ツール』と位置付けている。だが、AIが『何かおかしい』と感知する内部信号を検出できるようになれば、モデルが破綻や危険な行動に向かうのを検知・阻止する防衛手段になる可能性がある。AIの透明性と安全性への重要な一歩だ。",
+    "tags": [
+      "AI",
+      "Anthropic",
+      "Claude",
+      "透明性",
+      "内部処理"
+    ],
+    "section": "AI",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+    "importance": 4,
+    "image_query": "artificial intelligence neural network computation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1674027215016-0a4abfdbf1cc?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMG5ldXJhbCUyMG5ldHdvcmslMjBjb21wdXRhdGlvbnxlbnwxfDB8fHwxNzgzNjMxNzg4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Growtika",
+      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:28.581Z",
+    "publishedAt": "2026-07-09T20:22:28.000Z"
+  },
+  {
+    "slug": "20260710-04",
+    "headline": "Meta独自AI チップ9月生産開始へ—Nvidia依存から脱却戦略",
+    "lead": "Metaが『MTIA』シリーズの新型AIチップ4世代を独自開発。9月から本格生産。GPU不足とNvidia高騰から自社チップで年数十億ドルのコスト削減狙う。モジュラー設計で急速なAI進化に対応。",
+    "body_markdown": "Meta Platforms（旧Facebook）が、Nvidia GPUへの巨額投資から脱却するため、独自AI専用チップの本格生産に踏み切る。内部メモによれば、Meta Training and Inference Accelerator（MTIA）シリーズの新型チップが2026年9月から製造開始される予定だ。\n\nMetaが独自チップ開発に動いた背景は明確。年間数十億ドルの計算インフラ投資が必要な中で、Nvidiaへの依存による価格高騰とコンポーネント不足が経営を圧迫している。独自設計により、GPU購買費用を大幅削減し、機械学習の訓練から推論、ランキング、レコメンデーション機能まで、一貫して最適化されたチップで運用できる。\n\nMTIA戦略の特徴は『モジュラー』設計にある。AI技術が急速に進化する中で、生産時点で既に陳腐化する恐れがあるため、Metaは「最新のAIワークロード知見を毎世代に組み込み、より短いサイクルで展開する」方針を採った。前世代の成果を活用しながら、柔軟に機能拡張・改善できる構造になっている。\n\n製造はTSMCが担当。チップセット設計はBroadcom、メモリはSamsung、ストレージはSandiskと、複数サプライヤーの組み合わせで供給リスクも分散する。テスト段階で複数チップが予定より1.5カ月以上前倒しで完成したという報告も、生産体制の確度を示唆している。Meta、Amazon、Googleなど超大型AI企業による『垂直統合』戦略の顕在化であり、Nvidia の独占的地位への挑戦が本格化しつつある。",
+    "tags": [
+      "Meta",
+      "AI",
+      "チップ",
+      "テクノロジー",
+      "TSMC"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+    "importance": 4,
+    "image_query": "semiconductor chip microprocessor technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1587845323226-bad89242c735?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxzZW1pY29uZHVjdG9yJTIwY2hpcCUyMG1pY3JvcHJvY2Vzc29yJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzgzNjMxNzg5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Laura Ockel",
+      "profileUrl": "https://unsplash.com/@viazavier?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:29.711Z",
+    "publishedAt": "2026-07-09T17:17:37.000Z"
+  },
+  {
+    "slug": "20260710-05",
+    "headline": "AI物理学者がニュートリノ質量解明へ—粒子論の自動設計システム",
+    "lead": "UC Irvine研究チームが『AMBer』と呼ぶ強化学習型AI システムを開発。ニュートリノの小さな質量を説明する新しい粒子物理モデルを自動提案。人間の理論物理学者が数ヶ月かかる作業を大幅加速。",
+    "body_markdown": "米カリフォルニア大学アーバイン校の物理学チームが、粒子物理学の未解決難題『ニュートリノ質量問題』の解明に向け、革新的AI手法を導入した。開発した『AMBer』（Autonomous Model Builder）という強化学習システムが、従来の物理学的直感に頼らずに、数学的に有望な理論モデルを自動設計し提案するのだ。\n\n標準模型（Standard Model）では、ニュートリノに質量があることが説明できない。これは素粒子物理学の最大のミステリーの一つ。従来、物理学者は手作業で理論モデルを試行錯誤し、実験データにどう適合するか、不要なパラメータを最小化できるか、を人力で確認していた。その過程は試行錯誤の繰り返しであり、数ヶ月単位の時間を要する。\n\nAMBerはこのプロセスを劇的に加速した。試験時に、既知の理論フレームワークを再現できることを確認した後、AMBerは『未探索の数学的フレームワーク』を主動的に提案し始めた。これが次世代の研究者たちの出発点となり、人間の物理学者がさらに深く掘り下げる候補を提供する。AI は理論家を『置き換える』のではなく、『候補スクリーン』として機能し、発見のスピードを飛躍的に加速させるのだ。\n\nこの手法は物理学のみならず、化学、生物学など複合的な理論探索が必要な分野全般に応用可能。AIが科学的発見を『加速するパートナー』となる時代が本格化している。",
+    "tags": [
+      "AI",
+      "物理学",
+      "ニュートリノ",
+      "サイエンス",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-ai-particle-neutrinos-tiny-mass.html",
+    "importance": 4,
+    "image_query": "particle physics laboratory research scientist",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1618053448492-2b629c2c912c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxwYXJ0aWNsZSUyMHBoeXNpY3MlMjBsYWJvcmF0b3J5JTIwcmVzZWFyY2glMjBzY2llbnRpc3R8ZW58MXwwfHx8MTc4MzYzMTc5MHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "DIANA HAUAN",
+      "profileUrl": "https://unsplash.com/@amelune?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:30.734Z",
+    "publishedAt": "2026-07-09T20:09:05.000Z"
+  },
+  {
+    "slug": "20260710-06",
+    "headline": "Gradium、AI音声企業が$100M調達—Nvidia参画で超低遅延対話実現",
+    "lead": "パリ拠点のAI音声スタートアップGradiumが1億ドルのシード調達を完了。Nvidiaが新規投資家として参画。超低遅延（Ultra-Low Latency）で AI エージェント間の自然な対話を実現。",
+    "body_markdown": "AI音声技術で注目を集めるパリ拠点のスタートアップGradiumが7月、シードラウンド最大で$1億を調達した。初期投資家はFirstMark Capital、Eurazeo、DST Global Partners、Eric Schmidt前Google CEO、フランス通信業界の大物Xavier Niel。新たにNvidiaが主要出資者として参画し、業界での存在感をさらに高めた。\n\nGradiumの核となるのは『超低遅延音声AI』。従来のAI音声アシスタントは、会話の間に沈黙が生じ、応答の待ち時間がぎこちなく感じられる。Gradiumは、その遅延を限りなくゼロに近づけることで、人間とAIの対話を『自然で流暢』にする技術を開発した。これにより、Zoom通話での自動字幕生成、コールセンター自動対応、AI エージェント間の多言語交渉など、リアルタイム対話が必須のユースケースが初めて現実的になる。\n\n2023年12月のローンチから、Gradiumは大手自動車メーカーRenaultをはじめとする顧客を獲得。今回の資金調達で同社はサンフランシスコに新しいオフィスを開設し、Google、Meta、OpenAI、Anthropicといった超大型AI企業が集中する『北カリフォルニアのAI生態系の中心』に拠点を移す。ヨーロッパでの研究開発を保持しながら、シリコンバレーでの人材獲得と投資家との近接を狙った戦略転換だ。$1億のシード調達は、生成AI分野でヨーロッパスタートアップが国際的な競争力を証明する象徴となった。",
+    "tags": [
+      "AI",
+      "音声",
+      "スタートアップ",
+      "資金調達",
+      "Nvidia"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
+    "importance": 3,
+    "image_query": "microphone audio recording sound technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:30.734Z",
+    "publishedAt": "2026-07-09T18:34:35.000Z"
+  },
+  {
+    "slug": "20260710-07",
+    "headline": "ウクライナ、パトリオット迎撃ミサイル国産化—生産開始まで『約2年』",
+    "lead": "トランプ大統領がウクライナへのパトリオット防空システム迎撃ミサイルのライセンス生産を容認。ただし実際の生産開始には約2年を要するとウクライナ軍事専門家が指摘。",
+    "body_markdown": "米国のドナルド・トランプ大統領が、ウクライナに対してパトリオット防空システムの迎撃ミサイル国産化を認可した。ロシアの航空優位に対抗するため、ウクライナはこれまで米国からの輸入に依存していたが、今後は国内でのライセンス生産が可能になる。これは戦略的には重要な一歩だが、実現には長期の待機が必要になる。\n\nウクライナ軍事専門家によれば、「生産開始まで約2年」を要するという。ライセンス契約の締結、生産設備の整備、労働力の訓練、品質管理体制の構築など、工業化には複合的で時間のかかるプロセスが必須だ。パトリオットは複雑な電子機器と精密加工を要する防御システム。米国内での技術移転と現地実装に、最低でも2年間の準備期間が必要という評価は、現実的な見立てだと言えよう。\n\nウクライナ側の狙いは明確。ロシアとの長期戦を想定し、米国の供給ラインへの依存を減らし、国内での継続的な防衛能力確保を目指している。ただし2年の間は、従来通り米国からの輸入で防空網を維持せざるを得ず、その間の露軍の空爆戦術の進化や、米国の支援政策の変動というリスクが存在する。トランプ容認は一見、ウクライナへの支援拡大に見えるが、実質的な戦力化までには相当な時間ギャップが生じる点が、戦術的な課題として残る。",
+    "tags": [
+      "ウクライナ",
+      "防衛",
+      "ミサイル",
+      "ロシア",
+      "米国"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015173281000",
+    "importance": 4,
+    "image_query": "military missile defense system weapons",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1737719158987-e7cd95068bec?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxtaWxpdGFyeSUyMG1pc3NpbGUlMjBkZWZlbnNlJTIwc3lzdGVtJTIwd2VhcG9uc3xlbnwxfDB8fHwxNzgzNjMxNzkxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Moslem Daneshzadeh",
+      "profileUrl": "https://unsplash.com/@moslemdanesh?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:31.857Z",
+    "publishedAt": "2026-07-09T20:51:59.000Z"
+  },
+  {
+    "slug": "20260710-08",
+    "headline": "ポリネシア民族の東方移動—気候変動と太平洋大航海の謎が解明",
+    "lead": "西太平洋サモア・トンガで西暦900～1050年に『2000年来の最悪干ばつ』が発生。食糧危機に迫られた民族が東の島々へ大移動。新研究が映画『モアナ』の虚構と歴史の交差を証明。",
+    "body_markdown": "ハリウッド映画『モアナ』の中核となる『ポリネシア民族の太平洋大航海』が、実は気候変動によって引き起こされた移民危機だったことが、新しい古気候学研究で明らかになった。サウサンプトン大学とイースト・アングリア大学の研究チームが、サモアとトンガの泥層を分析し、西暦900～1050年に『過去2000年間で最悪の干ばつ』が襲ったことを突き止めたのだ。\n\n当時の太平洋水温の変化が東方への降水パターンをシフトさせた。豊かだったはずの島々の淡水が枯渇し、農業と漁業の基盤が崩壊。食料難に直面したポリネシア民族は、より『湿った島々で、人が住んでいない空き地』を求めて東へ航海した。ポリネシア人の造船技術、天文学的航法、集団移住の意志があってこそ、その大航海は実現した。\n\n映画『モアナ』は、この歴史を娯楽の文脈に翻案している。劇中では個人の英雄的行為で島を救う物語になっているが、実際の歴史は『集団生存戦略』であり、環境ストレスによる『やむを得ない選択肢』だった。島の危機→民族移動という基本構造は同じだが、その深層にあるのは気候予測と社会的回復力の闘いなのだ。\n\nこの発見は、気候変動が人間社会に及ぼす歴史的インパクトを、古代遡及的に証明する重要な知見となる。現代の気候危機を考える際、1000年前のポリネシア民族の選択は、『大規模移動と適応戦略』の歴史的前例として、政策立案者と研究者の両者に示唆を与えるはずだ。",
+    "tags": [
+      "気候変動",
+      "ポリネシア",
+      "太平洋",
+      "古気候学",
+      "移民"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-real-moana-story-polynesians-suddenly.html",
+    "importance": 3,
+    "image_query": "ocean sailing canoe Pacific Islands",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:31.857Z",
+    "publishedAt": "2026-07-09T20:20:11.000Z"
+  },
+  {
+    "slug": "20260710-09",
+    "headline": "ガリウムの謎150年解明—融点の低さの秘密は『再形成する結合』",
+    "lead": "ニュージーランド研究チームが150年前からの謎を解明。ガリウム原子の共有結合は融点で一度消失するが『高温では再形成』される。半導体・液体金属産業に革新的応用の道。",
+    "body_markdown": "金属ガリウムは『融点が異常に低い』という不可解な性質で知られてきた。通常の金属は融点で原子結合が完全に破断するが、ガリウムは融けても何かしら内部構造が維持されているという仮説が150年近く存在しながら、完全には解明されていなかった。オークランド大学とヴィクトリア大学ウェリントン校の研究チームが、この謎をついに解き明かした。\n\n成果は『Journal of Materials Horizons』に発表された。研究チームはガリウム液体を段階的に加熱し、原子配置の変化をX線回折で追跡した。その結果、融点では原子の共有結合が断絶するが、『さらに高温に加熱すると、その結合が再形成される』という予想外の挙動が観察された。この再形成により、原子間エントロピー（無秩序度）が増加し、原子が『フリーに動ける状態』へ移行。その結果、融点での融解エネルギーが低くまま保持されるという機構だ。\n\nこの発見の応用範囲は広い。半導体・電子機器産業では、ガリウムの温度依存性をより正確にモデル化でき、LED やソーラーパネル、5G 通信機器の性能最適化が可能になる。ナノテクノロジーでは、原子スケールでの構造制御が改善される。さらに、液体金属触媒としての利用、火星での古代微生物の痕跡検出（液体水との化学反応を指標に）など、境界領域の研究も広がる。150年ぶりの謎解明は、地味だが産業技術全般への静かな革新をもたらすだろう。",
+    "tags": [
+      "ガリウム",
+      "化学",
+      "物理",
+      "半導体",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260707054119.htm",
+    "importance": 4,
+    "image_query": "laboratory research chemistry experiment",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxsYWJvcmF0b3J5JTIwcmVzZWFyY2glMjBjaGVtaXN0cnklMjBleHBlcmltZW50fGVufDF8MHx8fDE3ODM2MzE3OTJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Hans Reniers",
+      "profileUrl": "https://unsplash.com/@hansreniers?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:33.020Z",
+    "publishedAt": "2026-07-09T07:40:57.000Z"
+  },
+  {
+    "slug": "20260710-10",
+    "headline": "ソフトバンク全社RAG基盤、1万9000人が利用—AI と ガバナンスの融合",
+    "lead": "ソフトバンクが構築した『全社RAG基盤』は1万9000名のユーザーをサポート。セキュリティと利便性の両立を実現。データマネジャー承認フローで統制、数万時間の業務削減を達成。",
+    "body_markdown": "ソフトバンクグループが、企業全体を対象とした統合的なAI基盤『全社RAG（Retrieval-Augmented Generation）基盤』を完成させた。同社の約1万9000人のユーザーがこのシステムを利用し、日々の業務効率化を実現している。\n\nこの基盤の最大の特徴は『ガバナンスを障壁ではなく支援の仕組みにした』点だ。通常、企業がAI導入を進めると、複数部門が独自にRAGシステムを構築し、データ管理やセキュリティ基準がバラバラになってしまう。ソフトバンクは『ガバナンスはAI活用を止めるのではなく、支えるための仕組み』という哲学で、集中管理型の基盤を設計した。\n\nアーキテクチャには、Identity Provider（ID管理）とアクセス制御層を組み込み、データマネジャーによる承認ワークフローを実装。ユーザーはExcelやPDF等の非構造化データを投入しても、自動的にデータ品質検査とLLMテストを経由してから学習データとなる。この『人間とシステムの多段チェック』により、セキュリティと利便性の両立が実現した。\n\nビジネスインパクトは明確。定期的な手作業データ入力の自動化、部門横断的なレポート生成の高速化、営業・企画部門でのリアルタイム情報活用。同社の試算では『数万時間相当の業務削減効果』を達成したという。ソフトバンクの事例は、『AI導入 = 規制緩和』ではなく『AI導入 = 統制型民主化』というモデルを示唆し、大企業のAI実装における新しいベストプラクティスとなるだろう。",
+    "tags": [
+      "AI",
+      "RAG",
+      "ソフトバンク",
+      "ガバナンス",
+      "業務効率化"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/10/news002.html",
+    "importance": 3,
+    "image_query": "business technology data management office",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:33.020Z",
+    "publishedAt": "2026-07-09T20:00:00.000Z"
+  },
+  {
+    "slug": "20260710-11",
+    "headline": "OpenAI frontier model 政府承認プロセス、著しく不透明—『要件が不明』の指摘",
+    "lead": "政府がOpenAIの最新モデル『Sol』の安全性を承認したプロセスが判明。ただし、テスト内容・検査機関・政府要件がすべて非開示で、『事実上のブラックボックス』。規制当局と企業の対話が不透明。",
+    "body_markdown": "米政府がOpenAIの最新AI モデル『Sol』をリリース前に安全性確認した過程が、著しく不透明であることが明らかになった。商務長官Howard Lutnick、財務長官Scott Bessent、国家サイバーセキュリティ責任者Sean Cairncrossらの『対話』によって承認されたとされるが、具体的な内容はほぼ非開示である。\n\nOpenAIは『外部機関による評価』を盾に説明している。英国AISI（AI Safety Institute）、SecureBio、Irregularといった外部組織が検査に関わったと述べるが、『誰が、どの基準で、どの程度のテストを実施したのか』は明かされていない。さらに、『セレクト ユーザーへのプレビュー』も行われたと述べるが、そのユーザー選定基準や人数も秘密にされている。\n\nトランプ政権前任者である政策アドバイザーは「リリースのための政府要件が何なのか、誰も知らない」と指摘。Center for Security and Emerging Technology（CSET）の研究者も「政府とAnthropicとOpenAIの対話が具体的にどのようなものだったのか、不明確なままだ」とコメント。\n\n規制当局とAI企業の対話は本来透明性が必須だ。政策の根拠、意思決定の過程、確認項目がすべて公開されねば、国家レベルのリスク評価も、議会の監視も成立しない。現在の『事実上のブラックボックス』状態は、規制当局による『規制回避』あるいは『規制捕虜化』の懸念を生むだけではなく、AI産業における『恣意的安全基準』の温床となる。透明性確立が急務だ。",
+    "tags": [
+      "AI",
+      "OpenAI",
+      "政府規制",
+      "透明性",
+      "安全"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
+    "importance": 4,
+    "image_query": "government policy regulation discussion",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1698210611902-3f58c1711a03?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxnb3Zlcm5tZW50JTIwcG9saWN5JTIwcmVndWxhdGlvbiUyMGRpc2N1c3Npb258ZW58MXwwfHx8MTc4MzYzMTc5NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Yue WU",
+      "profileUrl": "https://unsplash.com/@samuelwu?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:34.209Z",
+    "publishedAt": "2026-07-09T18:22:39.000Z"
+  },
+  {
+    "slug": "20260710-12",
+    "headline": "木はなぜ成長止後もCO2吸収続けるのか—光合成と木材生産の『乖離』",
+    "lead": "米国樫の木が5～10月に成長停止後も光合成を継続。年間CO2吸収の36% が成長後に獲得。従来の『光合成=成長』仮説が崩壊。森林炭素吸収モデルの再検討が必須に。",
+    "body_markdown": "木はなぜ成長を停止してもCO2を吸収し続けるのか。この謎に、科学者らが新しい答えを提示した。米東部で樫の木を長期観測した研究チームは、『樹木の成長と光合成は実は独立した現象である』ことを発見。この知見は、気候変動下での森林の炭素貯蔵能力についての従来予測を根本的に修正させるものだ。\n\n観測からわかったメカニズムは以下の通り。樫は5月から7月まで木材成長（height/diameter増加）を続けるが、光合成は10月まで続く。つまり『成長が停止した後も、大気中のCO2をせっせと吸収し続けている』のだ。年間のCO2吸収量の約36% が、成長期終了後に獲得される計算になる。\n\nこの『乖離』の原因は、樹液圧（water pressure）の喪失にある。夏の乾燥と高温で樹液圧が低下すると、細胞拡張に必要な内圧が失われ、成長が即座に停止する。一方、光合成は『圧力に依存しない生化学プロセス』であり、多少の低下はあれど継続する。吸収したCO2の一部は来春への『炭素貯蔵』に回り、残りは根や葉の維持、冬季呼吸に充てられる。\n\n問題は、気候変動で『乾燥期間が延長』される場合だ。成長が短縮され、光合成だけ続いても『木材（長期炭素隔離）』には変わらず、大気CO2吸収モデルの楽観予測が破綻する。森林がCO2『シンク』として機能するとの期待は、降水パターンと樹種に大きく依存することが判明。今後の気候モデル改良に、樹木生理学の精密データが必須とされる局面が来た。",
+    "tags": [
+      "気候変動",
+      "森林",
+      "CO2",
+      "環境",
+      "植物生理"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260708022210.htm",
+    "importance": 3,
+    "image_query": "forest trees nature woodland landscape",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:34.209Z",
+    "publishedAt": "2026-07-09T06:28:44.000Z"
+  },
+  {
+    "slug": "20260710-13",
+    "headline": "独フォルクスワーゲン、工場閉鎖・10万人削減計画が具体化—EV競争激化の波紋",
+    "lead": "独自動車大手フォルクスワーゲンが国内4工場の閉鎖と最大10万人のリストラを計画。監査役会に正式提出。電動化への投資と競争激化で経営危機。従業員大規模抗議デモ勃発。",
+    "body_markdown": "ドイツ自動車産業の象徴的存在、フォルクスワーゲン（VW）グループが経営危機に直面している。7月9日、Oliver Blume最高経営責任者が監査役会に対して、国内4つの工場の『段階的閉鎖』と『最大10万人のリストラ』を軸とした劇的な事業再構成計画を提示した。\n\n背景にあるのは、電動化への大規模投資と急速に進む国際競争である。中国EV メーカーが低価格で高性能のモデルを供給し、欧米市場でも存在感を増す中、VW も『2030年代ガソリン車全廃』への舵を切った。そのための新工場建設と研究開発投資が、当期利益を圧迫している。同時にドイツ国内の製造コスト（労賃・エネルギー）が欧州でも高い水準にあり、経営効率の観点から『国内拠点の最適化』は避けられない状況だ。\n\n組合IG Metall は即座に17ヶ所の工場で大規模抗議デモを展開した。「経営陣は近年の失政をすべて労働者に転嫁するのか」という批判が出ている。VW は組合との協調を標榜してきたが、今回の計画は『ドイツ国内の大規模雇用喪失』という歴史的転換を意味する。戦後ドイツ経済は労使協力モデル（Corporate Governance）で成長してきたが、グローバル競争下でそのモデルが試される局面が来た。\n\nVWのリストラは、ドイツ全体のEV産業転換の象徴的出来事となるだろう。既に他の自動車メーカーも同様の圧力下にあり、ドイツの産業空洞化と雇用喪失が本格化する可能性が高まっている。",
+    "tags": [
+      "フォルクスワーゲン",
+      "リストラ",
+      "EV",
+      "ドイツ",
+      "産業"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/jul/09/vw-protests-germany-proposed-job-cuts-factory-closures",
+    "importance": 4,
+    "image_query": "factory manufacturing automotive industry",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758873263428-f4b2edb45fe1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxmYWN0b3J5JTIwbWFudWZhY3R1cmluZyUyMGF1dG9tb3RpdmUlMjBpbmR1c3RyeXxlbnwxfDB8fHwxNzgzNjMxNzk0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Hans Westbeek",
+      "profileUrl": "https://unsplash.com/@hanswestbeek?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:34.822Z",
+    "publishedAt": "2026-07-09T16:19:26.000Z"
+  },
+  {
+    "slug": "20260710-14",
+    "headline": "西欧、6月の気温が史上最高に—『過去観測以来、最も暑い6月』とEU気象機関",
+    "lead": "欧州連合気象情報機関（Copernicus）が発表。西ヨーロッパの6月平均気温が20.74℃で、観測史上最高を記録。地球規模の温暖化加速を象徴。",
+    "body_markdown": "欧州連合の気象観測機関Copernicus Climate Change Service が7月9日、衝撃的なデータを発表した。西ヨーロッパ地域の2026年6月の月平均気温が『観測史上最高』の20.74℃に達したというのだ。これまでのRecord は更新され、気候変動の加速が統計的に確実になった。\n\n6月は北半球の初夏。通常、降水量が適度にあり、気候が安定する季節とされてきた。だがこの6月、西ヨーロッパはヒートドーム状の高気圧に支配され、スペイン、フランス、イタリア、ギリシャなどで連日35℃超の気温が記録された。森林火災も多発し、インフラ機能まで影響を受けた。\n\nCopernicusのデータは、次の重大性を示唆している。気候システムの『臨界点』がより近くなっているという事実だ。1.5℃上昇閾値（パリ協定の野心的目標）は、累積ベースでほぼ達成間近。毎年『過去最高記録更新』が当たり前になれば、気候適応政策の効果すら相対的に低下していく。\n\n欧州各国は即座に冷却・防災対策を発動したが、根本的な温室効果ガス削減なしには、今後の『常態化した熱波』には対応しきれないだろう。気候科学的には『戻り道のない加速段階』に既に入っていることを、このデータは示唆している。",
+    "tags": [
+      "気候変動",
+      "気温",
+      "欧州",
+      "環境",
+      "天気"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015173251000",
+    "importance": 3,
+    "image_query": "heat wave weather climate temperature",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:34.822Z",
+    "publishedAt": "2026-07-09T20:23:22.000Z"
+  },
+  {
+    "slug": "20260710-15",
+    "headline": "Mexico、FBI の麻薬王逮捕関与疑惑を調査—米国の主権侵害か",
+    "lead": "メキシコ政府がFBI による『シナロア・カルテル』幹部Ismael 『El Mayo』Zambada の違法逮捕疑惑を調査開始。米国は関与を否定してきたが、報道機関が証拠を指摘。",
+    "body_markdown": "メキシコ政府が米国司法当局を対象とした異例の調査を開始した。麻薬王Ismael 『El Mayo』Zambada がメキシコ領内から2024年に逮捕された際、FBI が関与していたのではないかという疑惑が浮上したためだ。米国は『メキシコ領内での作戦関与』を一貫して否定してきたが、メディア報道『Pie de Nota』によれば、FBIは逮捕作戦に深く関与していたという。\n\nZambada はシナロア・カルテルの共同創業者。数十年間、米国と メキシコの麻薬捜査当局から逃走し続けた逃亡者である。2024年の逮捕は、両国の捜査歴史では『大きな勝利』とされたが、その内幕が違法作戦だったとすれば、国家主権の侵害という国際的トラブルに発展する。\n\nメキシコ政府は『メキシコ領内での外国情報機関の無許可作戦』を、歴史的に警戒してきた。1960年代のCIA工作から現代まで、米国との情報活動の『越界』は外交問題化する傾向にある。今回の調査は、Zambada という個別事件をはるかに超えて、米墨間の『法執行機関の協力枠組み』そのものを問うものになりかねない。メキシコ司法が結論を出すまで、米墨関係は緊張局面を迎えるだろう。",
+    "tags": [
+      "メキシコ",
+      "麻薬",
+      "FBI",
+      "シナロア",
+      "主権"
+    ],
+    "section": "国際・地政学",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/jul/09/mexico-drug-lord-arrest-sinaloa-cartel-investigation",
+    "importance": 3,
+    "image_query": "law enforcement crime investigation police",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:34.822Z",
+    "publishedAt": "2026-07-09T18:17:49.000Z"
+  },
+  {
+    "slug": "20260710-16",
+    "headline": "Palantir NHS 契約めぐり議論激化—£330M 投資、データ保護懸念で野党圧力",
+    "lead": "英議会科学技術委員会に続き、保健委員会も Palantir との£3.3億ポンド NHS データシステム契約破棄を促す決議採択。米テック企業による英国医療データ管理への疑念広がる。",
+    "body_markdown": "英国で米データ分析企業Palantir による NHS（国民医療制度）データプラットフォーム契約が、政治的な焦点となっている。英議会の超党派委員会が、Keir Starmer 後任首相に対して『契約破棄を検討するよう』強く促す動議を相次いで採択した。\n\n問題の契約額は£3.3億ポンド（約600億円相当）。Palantir は『NHS 全体の医療データを統合・分析』するプラットフォームを構築する予定だった。AIやビッグデータ分析で NHS の効率性向上を狙った大型プロジェクトである。だが、科学技術委員会と保健委員会が相次いで『懸念あり』との見解を表明した。\n\n懸念の焦点は2つ。第一に『米国テック企業による英国市民の医療データ管理』という、データ主権の問題。Palantir は米防衛・情報機関向けの分析ツールで知られ、その企業体質に対して『英国データが米国政府に晒されるリスク』が指摘されている。第二に『透明性と監視可能性』。一度 Palantir にデータが集約されれば、プラットフォームの内部アルゴリズムを独立監査することは困難になる。\n\nLabour 党内からも議論が出ており、Andy Burnham 次期首相の政策判断が注視される。NHS デジタル化は急務だが、その過程でデータ主権を譲渡することは、国家的リスクでもある。米英同盟を損なわないいい線引きが求められる局面だ。",
+    "tags": [
+      "NHS",
+      "Palantir",
+      "データ",
+      "英国",
+      "医療"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/politics/2026/jul/09/mps-urge-labour-to-ditch-330m-palantir-software-contract-with-nhs",
+    "importance": 4,
+    "image_query": "data analysis technology computers database",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwYW5hbHlzaXMlMjB0ZWNobm9sb2d5JTIwY29tcHV0ZXJzJTIwZGF0YWJhc2V8ZW58MXwwfHx8MTc4MzYzMTc5NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Luke Chesser",
+      "profileUrl": "https://unsplash.com/@lukechesser?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:35.866Z",
+    "publishedAt": "2026-07-09T18:12:00.000Z"
+  },
+  {
+    "slug": "20260710-17",
+    "headline": "AI が株式市場を支配、債券市場が次へ—アルゴリズム取引の信用リスク課題",
+    "lead": "The Economist 分析。AI アルゴリズム取引が株式市場を『実質支配』。次は債券市場が AI 資金フローの対象に。ただし信用評価の『自動化』には、リスク判定の困難さが潜む。",
+    "body_markdown": "株式市場はすでに AI アルゴリズムの支配下にある。過去10年で自動取引の流通量シェアは 80% を超え、人間トレーダーは周縁化された。The Economist の分析によれば、次の『AI 侵食フロンティア』は債券市場だという。これまで債券市場は『相対的に手作業』が多く、信用評価（Credit Rating）も人間のアナリストが主導してきた。ところが AI の『信用リスク自動判定』が急速に高度化しつつあり、債券市場への大規模 AI 資金流入が避けられない局面に来ているのだ。\n\nしかし、ここに重大な落とし穴がある。企業の信用リスクは『単なるデータポイント』ではなく、経営者の質、業界の将来性、政治的リスク、突発的イベント（M&A、経営危機）など、定量化が困難な『ノイズ』で満ちている。AI が信用ラベル（AAA/BBB など）を自動付与するようになれば、そのラベル自体が市場の集団行動を誘導し、『実は脆い企業』でも高格付けで資金調達してしまう逆説的状況が生じうる。\n\n2008年の金融危機も、『信用リスク評価システム』の誤りが根因だった。住宅ローン担保証券（MBS）の『複雑性』を CRA（信用格付機関）が過度に単純化し、結果として『リスク隠蔽』が起こった。AI が同じ過ちを繰り返さないなら、『判定根拠の透明化』と『定性的リスク要因の組み込み』が必須だ。ただし、AI システムの『ブラックボックス性』と『速度最適化』のプレッシャーの中で、こうした対策が実装されるか、極めて疑わしい。",
+    "tags": [
+      "AI",
+      "株式市場",
+      "債券",
+      "金融",
+      "リスク"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/07/07/ai-has-taken-over-the-stock-market-the-bond-market-is-next",
+    "importance": 4,
+    "image_query": "stock market finance trading graph data",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1651340981821-b519ad14da7c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxzdG9jayUyMG1hcmtldCUyMGZpbmFuY2UlMjB0cmFkaW5nJTIwZ3JhcGglMjBkYXRhfGVufDF8MHx8fDE3ODM2MzE3OTZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Anne Nygård",
+      "profileUrl": "https://unsplash.com/@polarmermaid?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-09T21:16:36.976Z",
+    "publishedAt": "2026-07-07T20:08:30.000Z"
+  },
+  {
     "slug": "20260709-15",
     "headline": "AIコード評価ベンチマーク 30%に欠陥 OpenAI検査",
     "lead": "OpenAIが一般的なコーディングベンチマーク SWE-Bench Pro を監査し、テストの 30% が欠陥。",
