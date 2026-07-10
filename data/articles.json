@@ -1,5 +1,343 @@
 [
   {
+    "slug": "20260710-18",
+    "headline": "OpenAI、GPT-5.6を一般公開",
+    "lead": "OpenAIが新型LLM「GPT-5.6」3モデルを発表。最上位の「Sol」は競合Anthropicのモデルと同等性能を半額以下で実現。",
+    "body_markdown": "OpenAIは2026年7月9日、最新のLLMファミリー「GPT-5.6」を一般公開した。Sol、Terra、Lunaの3つのバリアント構成。\n\nSolはエンタープライズ、コーディング、科学研究に最適化されており、Anthropicの「Claude Fable 5」と同等水準のパフォーマンスを発揮しながら、推定コストは約半分という。処理時間も61％短縮されている。コーディングベンチマークでは数値上Fable 5がやや優位だが、総合的な効率性ではSolが優位との主張。\n\nAPI価格は100万トークン当たり、Solが入力5ドル・出力30ドル、Terraが入力2.5ドル・出力15ドル、Lunaが入力1ドル・出力6ドル。トークン効率が54％向上し、AIコーディングタスクでの利便性が高い。\n\n同時に企業向けツール「ChatGPT Work」もリリース。利用制限（レートリミット）も全ユーザーを対象にリセット。同日Anthropicも同様の対抗措置を取るなど、LLM業界の競争が激化している。",
+    "tags": [
+      "AI",
+      "LLM",
+      "生成AI",
+      "OpenAI",
+      "GPT"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+    "importance": 5,
+    "image_query": "artificial intelligence technology neural network",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1749006590475-4592a5dbf99f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHRlY2hub2xvZ3klMjBuZXVyYWwlMjBuZXR3b3JrfGVufDF8MHx8fDE3ODM1MDIzMzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Omar:. Lopez-Rincon",
+      "profileUrl": "https://unsplash.com/@procopiopi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-10T09:12:08.435Z",
+    "publishedAt": "2026-07-09T22:24:24.000Z"
+  },
+  {
+    "slug": "20260710-19",
+    "headline": "SK Hynix、米国IPOで265億ドル調達",
+    "lead": "韓国メモリーチップ大手SK Hynixが史上最大規模の外国企業IPOを実現。AI需要が買い支える。",
+    "body_markdown": "韓国半導体大手SK Hynixは2026年7月10日、米ナスダック市場に上場し、265億ドル（約3.8兆円）を調達した。これは米国における外国企業によるIPOとして過去最大規模で、2014年のアリババ上場時の250億ドルを上回る。\n\n同社は約1億7,790万の米国預託証券(ADS)を1株149ドルで販売。市場の強い需要を反映し、ブルームバーグによると「7倍以上のオーバーサブスクリプション」を記録し、約1,710億ドル分の注文が集まった。\n\nSK Hynixは生成AI向けデータセンター建設ブームに乗じて、高度なメモリーチップ需要が急増。第1四半期には403億4,000万ウォンの純利益を記録するなど、好況が続いている。アナリストは「AIメモリーサイクルは実在し、収益も実在する」と指摘。グローバル投資家がAI関連半導体メーカーへのアクセス機会を強く求めていることが背景。",
+    "tags": [
+      "ビジネス",
+      "テクノロジー",
+      "IPO",
+      "AI",
+      "半導体"
+    ],
+    "section": "ビジネス",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/economy/2026/7/10/south-koreas-sk-hynix-raises-26-5bn-in-record-breaking-us-ipo",
+    "importance": 4,
+    "image_query": "stock market finance IPO trading",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1563986768711-b3bde3dc821e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxzdG9jayUyMG1hcmtldCUyMGZpbmFuY2UlMjBJUE8lMjB0cmFkaW5nfGVufDF8MHx8fDE3ODM2NzQ3MzF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Austin Distel",
+      "profileUrl": "https://unsplash.com/@austindistel?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-10T09:12:09.365Z",
+    "publishedAt": "2026-07-10T07:02:05.000Z"
+  },
+  {
+    "slug": "20260710-20",
+    "headline": "AnthropicとOpenAI、利用制限巡り競争激化",
+    "lead": "ChatGPTの利用制限リセットに対し、Claudeも即座に対抗。AI企業による利用者獲得競争が加速。",
+    "body_markdown": "OpenAIが新型LLM「GPT-5.6」と企業向けツール「ChatGPT Work」のリリースに合わせてレートリミット（利用制限）をリセットしたのに対し、AnthropicもClaude全ユーザーの利用制限を一斉リセットで即座に対抗した。\n\nOpenAI開発責任者ティボ・ソティオ氏は、Anthropicの動きに対してSNS上で「ビビってるね」とコメント。両社の緊張関係が表面化した。同日のうちに相次いで新機能リリースと利用者優遇措置を打ち出す事態となり、生成AI業界の競争が白熱している実態を露呈させた。\n\n背景には、EnterpriseやAPI利用者の奪い合い、IPO前の市場シェア拡大の思惑がある。OpenAIはChatGPT Plus/Proユーザー数の伸び鈍化、Anthropicは急速な成長を背景に、共に利用者基盤の充実を急いでいる状況が見える。",
+    "tags": [
+      "AI",
+      "生成AI",
+      "競争",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/10/2000000181/",
+    "importance": 3,
+    "image_query": "competition business technology rivalry",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-10T09:12:09.365Z",
+    "publishedAt": "2026-07-10T03:13:22.000Z"
+  },
+  {
+    "slug": "20260710-21",
+    "headline": "改正個人情報保護法が成立、AI開発促進へ",
+    "lead": "参議院本会議でAI開発促進のための個人情報取得規制緩和を盛り込んだ改正法が可決。",
+    "body_markdown": "参議院本会議は2026年7月10日、AI開発促進に向けた個人情報保護法改正案を可決・成立させた。自民・維新両党と中道改革連合、国民民主党、参政党などが賛成多数で支持した。\n\n改正法の重要な柱は、AI開発時に個人情報を取得する際の規制を緩和する点。従来の厳格なルールを緩和することで、学習データとなる個人情報の活用がしやすくなり、日本国内でのAI研究開発環境の整備を狙う。\n\nAI技術の発展が国家競争力を左右する時代となる中、各国が規制と活用のバランスを見直す動き。日本も世界的なAI開発競争への参加を強化する方針を示している。一方、個人情報保護との緊張関係を生じさせる可能性もあり、今後の運用に注視が必要。",
+    "tags": [
+      "政治",
+      "法律",
+      "AI",
+      "日本",
+      "個人情報"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015173591000",
+    "importance": 4,
+    "image_query": "law legislation parliament policy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1635017010130-8b12cbae591d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxsYXclMjBsZWdpc2xhdGlvbiUyMHBhcmxpYW1lbnQlMjBwb2xpY3l8ZW58MXwwfHx8MTc4MzY3NDczMnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Kunal Saha",
+      "profileUrl": "https://unsplash.com/@kunalsahaaa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-10T09:12:10.297Z",
+    "publishedAt": "2026-07-10T08:45:30.000Z"
+  },
+  {
+    "slug": "20260710-22",
+    "headline": "デジタル庁、国産AIを政府クラウドで実稼働",
+    "lead": "デジタル庁が国産AIモデルを国内クラウドで運用。日本のAI自律性確保を目指す実証実験が始動。",
+    "body_markdown": "デジタル庁は2026年7月、政府職員向けAI基盤「源内」の実証実験の一環として、国産AIモデルを国産クラウドサービス上で稼働させる計画を発表した。さくらインターネットが提供する「さくらのクラウド」を初めてガバメントクラウドとして活用する。\n\n導入対象となる国産AIモデルは3種類。NTT開発の「tsuzumi 2」、富士通の「Takane 32B」、Preferred Networksの「PLaMo 2.0 Prime」。これらを源内のチャット機能で提供し、利用者がどの出力結果を好むかを選択させるテスト形式で評価を行う。\n\n8月までに環境構築を完了し、9月から11月にかけて複数回のテストを実施予定。米国企業に依存しない日本のAI開発基盤を構築する試み。政府、産業界、クラウド事業者が一体となり、国家的なAI自律性の確保を目指す重要な政策転換。",
+    "tags": [
+      "AI",
+      "日本",
+      "政治",
+      "テクノロジー",
+      "クラウド"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/10/2000000182/",
+    "importance": 4,
+    "image_query": "technology cloud computing servers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1667984390553-7f439e6ae401?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHx0ZWNobm9sb2d5JTIwY2xvdWQlMjBjb21wdXRpbmd8ZW58MXwwfHx8MTc4MzY3NDczM3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Growtika",
+      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-10T09:12:13.858Z",
+    "publishedAt": "2026-07-10T02:30:01.000Z"
+  },
+  {
+    "slug": "20260710-23",
+    "headline": "H5鳥インフル、豪州海鳥で初検出",
+    "lead": "オーストラリアで高病原性鳥インフルエンザH5が野生海鳥から初めて検出。地元当局が警戒を強化。",
+    "body_markdown": "オーストラリア政府は2026年7月10日、高病原性鳥インフルエンザ（H5）が豪州の海鳥から初めて検出されたと発表した。南オーストラリア州ロベの沿岸域で確認された大型タイセイヨウカモメから検出。\n\nこれまでオーストラリアはH5感染から免れていたが、6月以来、渡り鳥を中心に12件の感染が確認されていた。今回の発見は、地域の野生生物への感染がより広がっている可能性を示唆している。\n\n当局は現在のところ「人間の健康リスクは低い」と評価。野生動物間での広がりに注視し、沿岸地域の強化監視体制を敷いた。ただし、亜南極諸島ではゾウアザラシの子ども約13,000頭がH5で死亡。豪州固有の野生生物への脅威が懸念されており、今後の動向が注視される。",
+    "tags": [
+      "サイエンス",
+      "動物",
+      "健康",
+      "環境",
+      "オーストラリア"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-h5-bird-flu-australian-seabird.html",
+    "importance": 3,
+    "image_query": "bird wildlife seabird nature",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-10T09:12:13.858Z",
+    "publishedAt": "2026-07-10T08:10:01.000Z"
+  },
+  {
+    "slug": "20260710-24",
+    "headline": "GPT-Live、音声で自然な対話を実現",
+    "lead": "OpenAIが音声会話AI「GPT-Live」提供開始。聞き取りと発話を同時処理で、会話が人間的に。",
+    "body_markdown": "OpenAIは2026年7月8日より、音声対話に最適化された新型AI「GPT-Live」の提供を始めた。テキストベースの従来型AIと異なり、「聞き取り中から考え、話す」という人間らしい二重処理を実現。\n\nユーザーが話しかけると、AIが出力生成と同時に応答を返す仕組み。従来は応答完全生成後に返答するため、ユーザーが完成を待つ間の沈黙があったが、新モデルでは自然な会話テンポを保つ。SNS上では「まるで人間と話している」「会話が自然すぎる」という感想が多数上がっている。\n\n対応デバイスはiOS、Android、Web。ChatGPT Plus/Proユーザーは「GPT-Live-1」、無料ユーザーは「GPT-Live-1 mini」を利用可能。音声インタフェースを日常的に使う利用者層にとって、大きな利便性向上となる。",
+    "tags": [
+      "AI",
+      "音声",
+      "生成AI",
+      "技術",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/articles/2607/10/news114.html",
+    "importance": 4,
+    "image_query": "audio voice technology sound microphone",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhdWRpbyUyMHZvaWNlJTIwdGVjaG5vbG9neSUyMHNvdW5kJTIwbWljcm9waG9uZXxlbnwxfDB8fHwxNzgzNjc0NzM0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Bogomil Mihaylov",
+      "profileUrl": "https://unsplash.com/@bogomi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-10T09:12:14.761Z",
+    "publishedAt": "2026-07-10T07:45:00.000Z"
+  },
+  {
+    "slug": "20260710-25",
+    "headline": "バイユー・タペストリー、1000年ぶり英国へ",
+    "lead": "フランスがバイユー・タペストリーを英国に貸与。1000年ぶりの里帰り、英仏関係修復の象徴に。",
+    "body_markdown": "フランスはノルマン征服を描いた貴重な中世タペストリー「バイユー・タペストリー」を英国に貸与することを決定。2025年9月から2027年7月まで、ロンドンの大英博物館に展示される予定。約1000年ぶりとなるイギリス上陸で、1066年の征服地への歴史的な「帰還」となる。\n\nこのタペストリーは長さ70メートル、幅50センチの中世芸術作品。ノルマンディー公ウィリアムが英国を征服する過程が精密に描かれており、英仏両国の運命を分けた歴史的事件を象徴している。\n\nフランス大統領マクロンは「長年にわたる友好関係の具体的表現」とコメント。Brexit後、冷え込んだ英仏関係の修復を示す外交的ジェスチャーとも評価される。英国側も応じ、大英博物館はフランスへ7世紀のアングロサクソン船葬遺物を返却するなど、相互の文化交換を実現。",
+    "tags": [
+      "文化",
+      "国際",
+      "歴史",
+      "イギリス",
+      "フランス"
+    ],
+    "section": "カルチャー",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/10/bayeux-tapestry-smuggled-into-britain-for-first-visit-in-1000-years",
+    "importance": 3,
+    "image_query": "medieval tapestry artwork historical artifact",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-10T09:12:14.761Z",
+    "publishedAt": "2026-07-10T07:59:32.000Z"
+  },
+  {
+    "slug": "20260710-26",
+    "headline": "皇室典範改正、皇族数確保へ",
+    "lead": "衆院で皇族数確保を狙う皇室典範改正案が可決。参院での成立の見通しが高まった。",
+    "body_markdown": "衆議院本会議は2026年7月10日、皇族の人数を確保するための皇室典範改正案を採決。自民・維新両党と中道改革連合、国民民主党、参政党などの賛成多数で可決され、参議院に送付された。\n\n改正案は安定的な皇位継承体制の維持が主眼。現在の皇族構成では将来的に継承者が不足する可能性が指摘されており、このリスクを事前に回避する狙い。具体的な内容は報道では詳細に明かされていないが、皇族数の維持に関わる制度改正が含まれるとみられる。\n\n参議院での審議を経て、今国会内での成立が有力視されている。皇家の継続性を確保するための重要な法制度改正であり、歴史的な改正となる可能性がある。",
+    "tags": [
+      "政治",
+      "法律",
+      "日本",
+      "皇室",
+      "制度"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015173031000",
+    "importance": 3,
+    "image_query": "parliament government law legislation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-10T09:12:14.762Z",
+    "publishedAt": "2026-07-10T08:39:46.000Z"
+  },
+  {
+    "slug": "20260710-27",
+    "headline": "米、トラック排ガス規制を緩和",
+    "lead": "トランプ政権がトラック排出基準を緩和。保証期間を45万マイルから10万マイルに短縮。",
+    "body_markdown": "トランプ政権は2026年7月、環境保護庁（EPA）がトラック排ガス規制を緩和する提案を発表した。窒素酸化物（NOx）排出基準の保証期間を45万マイルから10万マイルに短縮し、2027年度モデルから適用予定。\n\n政権側は「製造業者とトラック運転手の双方に利益をもたらす」と主張。推定120億ドルの製造コスト削減と新型トラック当たり最大6,000ドルの節約が見込まれるという。NOx削減目標の約90%は維持されると強調。\n\n一方、環境団体は強く反発。環境防衛基金(EDF)などは「スモッグと微粒子汚染物質の増加につながる」と警告。トラック製造業者がすでに新エンジン技術で基準達成可能だと指摘し、環境面でのしわ寄せを懸念。政権の経済優先政策と環境規制のバランスが問われている。",
+    "tags": [
+      "環境",
+      "規制",
+      "米国",
+      "トランプ",
+      "産業"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-weaker-truck-pollution.html",
+    "importance": 3,
+    "image_query": "truck vehicle transportation pollution",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-10T09:12:14.762Z",
+    "publishedAt": "2026-07-10T08:20:02.000Z"
+  },
+  {
+    "slug": "20260710-28",
+    "headline": "OpenAI No.2、健康理由で退任へ",
+    "lead": "OpenAIの№2執行役員Fidji Simoが慢性疾患の悪化で退任。部分的な顧問役へ。",
+    "body_markdown": "OpenAIの№2執行役員Fidji Simoは2026年7月9日、フルタイムの職務から退任し、パートタイム顧問への転換を発表した。3カ月の医療休暇が予想より長引き、神経免疫疾患の再発に対応するため。\n\nSimoは2025年5月にOpenAIに入社し、新設のアプリケーション部門CEO職を務めた。4月には神経免疫疾患の悪化で医療休暇を取得。その後の状況を総合的に判断し、パートタイム顧問への転職を決断した。\n\nその間、COO Brad LightcapやCFO Sarah Friarといった主要幹部がSimoの指揮下にあり、組織的な空白が生じる。OpenAIはIPO準備中で、上場後は経営体制強化が予定されていただけに、タイミング的な影響が懸念される。AI企業の急速な成長と人事異動の激しさが象徴的。",
+    "tags": [
+      "ビジネス",
+      "AI",
+      "人事",
+      "OpenAI",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+    "importance": 3,
+    "image_query": "office business executive leadership corporate",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-10T09:12:14.762Z",
+    "publishedAt": "2026-07-09T23:38:00.000Z"
+  },
+  {
+    "slug": "20260710-29",
+    "headline": "時間なし、極低温原子で小宇宙を作成",
+    "lead": "バーミンガム大学が24,000個の冷却原子を使い、外部の時計なしで時間が生じる現象を実現。",
+    "body_markdown": "バーミンガム大学の物理学者チームは、24,000個の極低温原子を用いた小規模な量子システムを構築し、外部の時計がなくても時間が内部の変化から自然に生じることを実証した。時間の本質に関わる基礎物理学の謎に新たな光を当てる成果。\n\n実験では、システム内の原子が明るい領域と暗い領域の間を移動する際、エントロピー（無秩序性）の変化が時間を定義することを確認。粒子の分布が変わるにつれてシステムが時間を前に進める機能を持ち、分布が停止すると時間も止まることが判明。\n\nこの発見は量子重力理論における基本的問題「なぜ時間は一方向に流れるのか？」に対し、新しい解釈を提供。物理法則が時間の方向に関わらず対称的であるにもかかわらず、現実では時間が一方向であることの謎に迫る重要な実験。",
+    "tags": [
+      "サイエンス",
+      "物理学",
+      "量子",
+      "研究",
+      "宇宙"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260709160632.htm",
+    "importance": 4,
+    "image_query": "science laboratory research physics",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1630959305790-4c956ce6c0b6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxzY2llbmNlJTIwbGFib3JhdG9yeSUyMHJlc2VhcmNoJTIwcGh5c2ljc3xlbnwxfDB8fHwxNzgzNjc0NzM1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-10T09:12:15.673Z",
+    "publishedAt": "2026-07-09T23:46:43.000Z"
+  },
+  {
+    "slug": "20260710-30",
+    "headline": "宇宙飛行士の先駆者ウォーリー・ファンク逝去",
+    "lead": "史上最年長の宇宙旅行者ウォーリー・ファンク氏が87歳で逝去。航空開拓の人生に幕。",
+    "body_markdown": "航空パイオニアのウォーリー・ファンク氏が2026年7月10日、テキサス州グレープバイン市の介護施設で87歳で逝去した。最近の転倒と脚の感染症が原因。\n\nファンク氏は航空分野で複数の歴史的業績を遺した。2021年、82歳でジェフ・ベゾスのBlue Originロケットに乗船し、宇宙到達を果たした時点で「最年長の宇宙旅行者」に。また連邦航空局初の女性検査官、国家運輸安全委員会初の女性航空安全調査官を務めた。\n\n1960年代のNASA「マーキュリー計画」では、ファンク氏を含む13人の女性パイロットが宇宙飛行士訓練を受けたものの、当時の政策により宇宙飛行の機会は与えられず。その後も決して諦めず、数十年後に実現した宇宙飛行は感動的な達成だった。同僚は「最も永遠に楽観的な人物」と評し、不屈の精神を讃えている。",
+    "tags": [
+      "サイエンス",
+      "宇宙",
+      "航空",
+      "女性",
+      "訃報"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-wally-funk-aviation-oldest-woman.html",
+    "importance": 3,
+    "image_query": "space rocket astronaut spacecraft",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-10T09:12:15.674Z",
+    "publishedAt": "2026-07-10T07:57:28.000Z"
+  },
+  {
+    "slug": "20260710-31",
+    "headline": "海外邦人、選挙権なく違憲訴訟",
+    "lead": "超短期衆院選で郵便投票が間に合わず、海外4人が国に損害賠償請求。選挙権の壁が浮き彫り。",
+    "body_markdown": "2026年2月に実施された衆議院選挙の異例の「超短期決戦」により、海外に住む日本人4人が「郵便投票が間に合わず、選挙権を行使できなかった」として、国に対して損害賠償請求の訴えを起こした。\n\n原告らは、この状況が基本的人権である選挙権の行使を妨げるもので、憲法に違反していると主張。衆院選の投票期間が極めて短かったため、海外からの郵便投票が投票日に間に合わなかった可能性が高い。\n\nこの訴訟は、短期間での選挙実施の是非と海外邦人の投票機会をめぐる制度的課題を浮き彫りにしている。グローバル化する日本社会の中で、海外居住者の参政権保障が今後の重要な政策課題となることを示唆している。",
+    "tags": [
+      "政治",
+      "日本",
+      "法律",
+      "選挙",
+      "憲法"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015173771000",
+    "importance": 3,
+    "image_query": "voting ballot election democracy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-10T09:12:15.674Z",
+    "publishedAt": "2026-07-10T08:42:25.000Z"
+  },
+  {
     "slug": "20260710-01",
     "headline": "OpenAI、著作権訴訟で証拠隠蔽疑惑—内部検索ツール非開示",
     "lead": "ニューヨーク・タイムスがOpenAIを非難。訓練データから著作権コンテンツを検索できないと虚偽申告し、実は『Project Giraffe』という検証システムで内部検索を実施していたと指摘。",
