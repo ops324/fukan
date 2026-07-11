@@ -1,5 +1,645 @@
 [
   {
+    "slug": "20260712-01",
+    "headline": "SK Hynixが265億ドルのIPO—米国半導体産業への圧力",
+    "lead": "韓国メモリ大手SK Hynixが米国上場で265億ドルを調達、米国外企業の最大級IPOとなった。米国政府は米国内の工場建設を要求。",
+    "body_markdown": "韓国の半導体大手SK Hynixが米国市場でのIPO（新規上場）で265億ドル（約4兆ウォン）を調達し、2014年のアリババのIPO以来、米国での外国企業上場としては過去最大規模となった。\n\n1株149ドルで1億7790万米国預託証券（ADR）を販売。初日の取引では公開価格の14%上乗せでスタートし、需要は利用可能株式の7倍以上に達するなど、市場の強い関心を示した。\n\n背景には、AI チップ不足が続く中、メモリ半導体の需要が急増していることがある。AI 学習・推論システムが大量のVRAM（ビデオメモリ）を必要とし、SK HynixとサムスンといったDRAM・NAND型フラッシュメモリの大手が戦略的に重要となっている。\n\nしかし米国側の狙いは単なる資本調達ではない。米国商務長官ハワード・ルトニックはSK HynixとサムスンEDAに米国内での新工場建設の協議を既に開始していることを明かし、「韓国が重要技術産業を独占し続けるのは許さない」という政策方針を示唆している。一方、米系マイクロンテクノロジーは2500億ドルの米国投資計画を発表し、9万人以上の雇用創出を見込んでいる。\n\n米国の半導体国内産業の確保と、東アジア（特に韓国・台湾）への産業集中を避けるという地政学的戦略が、今回のIPO支援と投資要求の背後にある。",
+    "tags": [
+      "半導体",
+      "SK Hynix",
+      "IPO",
+      "米国",
+      "地政学"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+    "importance": 5,
+    "image_query": "chip semiconductor factory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1557701197-2f99da0922dd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8Y2hpcCUyMHNlbWljb25kdWN0b3J8ZW58MXwwfHx8MTc4MzgwNTAzMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Yogesh Phuyal",
+      "profileUrl": "https://unsplash.com/@yogeshppl?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:23:50.781Z",
+    "publishedAt": "2026-07-10T17:17:12.000Z"
+  },
+  {
+    "slug": "20260712-02",
+    "headline": "トランプ、イランへの全面報復を警告—核協議の破綻",
+    "lead": "トランプ大統領が『1000発のミサイルが準備中』とイランを脅迫。イラン最高指導者の葬儀で米国への報復宣言が相次ぎ、中東情勢が緊迫化。",
+    "body_markdown": "ドナルド・トランプ米大統領が7月11日、イランの指導部が自分の暗殺を試みた場合、『1000発のミサイルが装填・照準完了済みで、イスラム共和国に向けて降り注ぎ、その直後にさらに数千発が続く』と述べた。\n\nこの発言は、イランの最高指導者アヤトラ・アリ・ハメネイの葬儀で、イラン指導部が米国指導者の殺害を明確に呼びかけたことに対する報復警告である。イランのモジタバ・ハメネイ師（故アリ・ハメネイの息子・新最高指導者）は葬儀で、アメリカへの復讐を続けると宣言した。\n\n同時に、米国務省とホワイトハウスはイランに対し、ホルムズ海峡の開放宣言と船舶攻撃の中止を求める公式声明の発表を要求。米国務省の高官らは『イランが最初にホルムズ海峡の開放と非攻撃を公式に約束しなければ、核協議には決して応じない』と厳しい姿勢を示している。\n\nイランはこの数ヶ月間、ホルムズ海峡付近でのドローン・ミサイル攻撃を複数回実施し、国際海運に対する威圧を続けてきた。米国はこれを『中東和平と航行の自由に対する直接的脅威』と位置付け、イラン向けの新たな経済制裁も実施した。\n\n中東情勢は緊迫の一途をたどり、核交渉による緩和の道は急速に閉ざされつつある。",
+    "tags": [
+      "イラン",
+      "トランプ",
+      "中東",
+      "核問題",
+      "脅迫"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/11/trump-threat.html",
+    "importance": 5,
+    "image_query": "missile military middle east",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1724640779282-389a3ac31730?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxtaXNzaWxlJTIwbWlsaXRhcnklMjBtaWRkbGUlMjBlYXN0fGVufDF8MHx8fDE3ODM4MDUwMzF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Somesh Harshavardhan",
+      "profileUrl": "https://unsplash.com/@harshtakes?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:23:51.390Z",
+    "publishedAt": "2026-07-11T20:35:21.000Z"
+  },
+  {
+    "slug": "20260712-03",
+    "headline": "Appleが大型訴訟—OpenAIの『系統的な知財盗取』を告発",
+    "lead": "AppleがOpenAIを提訴、元Apple幹部によるハードウェア機密の横領を主張。Jony Ive系IO Productsの買収を巡る対立が激化。",
+    "body_markdown": "AppleがOpenAIを提訴した。北カリフォルニア連邦地裁での訴状で、『あらゆるレベルで、技術スタッフから最高ハードウェア責任者に至るまで、ビジネスパートナーとの連携の下、OpenAIはAppleの営業秘密と機密情報を組織的に盗取している』と主張している。\n\n被告人物は、OpenAIのハードウェア責任者Tang Tan（元Apple副社長）とChang Liu（Apple在籍8年の上級システム電気エンジニア）。Tang Tanは求職者にApple秘密の持ち込みを求め『ショー・アンド・テル』セッションで実際の部品を見せさせたほか、Liu はApple退職時にノートパソコンを返却せず、未発表製品や技術仕様を含むハードウェア関連ファイル数十件をダウンロード・持ち出したと指摘されている。\n\n背景には、2024年のOpenAI・Apple協業（iPhoneへのChatGPT統合）からの関係悪化がある。OpenAIが2025年にAppleの元デザイナー・Jony IveのIO Products（スタートアップ）を64億ドルで買収し、独自のハードウェアデバイス開発に乗り出したことが引き金となった。Appleは大量のエンジニアをOpenAIに失い、今年中のOpenAIハードウェア初号機発表を前に、テクノロジー業界での競争上の地位喪失に危機感を抱いている。\n\nOpenAIは『他社の営業秘密に関心はない』と否定しているが、この訴訟は、AI企業とハードウェア巨人の間で激化する知財戦争の象徴となった。",
+    "tags": [
+      "Apple",
+      "OpenAI",
+      "訴訟",
+      "知財",
+      "ハードウェア"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+    "importance": 5,
+    "image_query": "lawsuit legal court",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1589391886645-d51941baf7fb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxsYXdzdWl0JTIwbGVnYWwlMjBjb3VydHxlbnwxfDB8fHwxNzgzODA1MDMxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tingey Injury Law Firm",
+      "profileUrl": "https://unsplash.com/@tingeyinjurylawfirm?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:23:52.005Z",
+    "publishedAt": "2026-07-10T21:36:51.000Z"
+  },
+  {
+    "slug": "20260712-04",
+    "headline": "PyTorchの注意機構最適化—メモリ効率化で大幅高速化",
+    "lead": "HuggingFaceが『Attention is all you profile』を発表。注意機構実装の隠れたボトルネックを可視化し、FlashAttentionによる最適化を解説。",
+    "body_markdown": "HuggingFaceが『Profiling in PyTorch (Part 3): Attention is all you profile』を発表し、深層学習における『注意機構（Attention）』の最適化について詳細に解説した。\n\n『注意機構』はTransformerモデルの心臓部であり、全ての大規模言語モデル（LLM）の中核を成している。しかし単純な実装は意外な性能低下をもたらす。例えば、elementwise operationとしての『matmul』『mask_fill』『softmax』を素朴に実装した場合、GPU内に隠れたメモリコピー操作が発生する。\n\n研究チームはプロファイリング（performance trace）を通じて、予測と現実のズレから最適化ポイントを発見する学習法を強調。その結果、インプレース操作への変更だけで、GPUカーネル全体を削減できることを確認した。\n\nさらに、複数のSDPA（Scaled Dot-Product Attention）バックエンド実装を比較：\n- Math：FP32精度優先、20個のカーネル使用\n- Efficient：融合カーネル、bf16精度、1カーネル\n- Flash：最速、低占有率（13%）にもかかわらず最高性能\n- cuDNN：事前計算コストを削減\n\n重要な知見は『Attentionのボトルネックは行列演算ではなく、高バンド幅メモリ（HBM）への往復トラフィック』という点。FlashAttentionは中間結果をオンチップ保持し、ランニングソフトマックスを計算することで、全シーケンス行列の実体化を回避する。\n\nこの最適化手法はAttentionに限定されず、他の計算集約的なモジュール設計にも応用可能である。",
+    "tags": [
+      "PyTorch",
+      "Attention機構",
+      "パフォーマンス",
+      "最適化",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/torch-attention-profile",
+    "importance": 4,
+    "image_query": "computer chip neural network",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1666037801539-f30fd661657a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8Y29tcHV0ZXIlMjBjaGlwJTIwbmV1cmFsJTIwbmV0d29ya3xlbnwxfDB8fHwxNzgzODA1MDMyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Maxence Pira",
+      "profileUrl": "https://unsplash.com/@maxence_pira?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:23:52.884Z",
+    "publishedAt": "2026-07-10T00:00:00.000Z"
+  },
+  {
+    "slug": "20260712-05",
+    "headline": "マクロファージ由来ナノ粒子でカンジダ感染を制圧",
+    "lead": "UC San Diego がマクロファージ膜から製造した抗真菌ナノ粒子を開発。マウス実験で重度感染を制御、新たな治療法に期待。",
+    "body_markdown": "カリフォルニア大学サンディエゴ校の研究チームが、人間の免疫細胞『マクロファージ』の膜から抗真菌ナノ粒子を製造する方法を開発した。この手法は、抗生物質耐性化した真菌感染症に対する新たな治療法として注目される。\n\n従来の抗生物質は、カンジダ・アルビカンスなどの日和見真菌に対する有効性が低下している。バイオフィルム形成による耐性獲得が主な原因で、特に血流感染と膣炎の治療が難しくなっていた。\n\n研究チームが開発したナノ粒子は、免疫細胞のマクロファージから外膜（細胞膜）を分離し、生分解性ポリマー製のディスク状基質に融合させたもの。サイズは約10～20ナノメートルで、元の細胞の約1000倍小さい。\n\nナノ粒子は真菌に付着後、その保護膜を弱化させ、細胞内物質の漏出を誘発し、最終的に真菌を死滅させる。同時に体内の免疫反応を増幅し、バイオフィルム形成も防止する。\n\nマウス実験では、重度のカンジダ感染を持つ動物にナノ粒子を投与した結果、心臓・腎臓・肺・脾臓の真菌量が著しく減少した。特に高用量投与では、全実験群のマウスが生き残るという成果を達成。感染防止と生存率改善が同時に実現された。\n\nこの手法は、既存薬剤が効かない難治性真菌感染症の治療に新たな光をもたらす可能性を秘めている。",
+    "tags": [
+      "医療",
+      "真菌感染",
+      "ナノテク",
+      "ナノ粒子",
+      "免疫"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-immune-cells-fungus-nanoparticles.html",
+    "importance": 4,
+    "image_query": "laboratory medical microscope cell",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxsYWJvcmF0b3J5JTIwbWVkaWNhbCUyMG1pY3Jvc2NvcGUlMjBjZWxsfGVufDF8MHx8fDE3ODM4MDUwMzN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Lucas Vasques",
+      "profileUrl": "https://unsplash.com/@luvqs?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:23:53.745Z",
+    "publishedAt": "2026-07-11T20:00:04.000Z"
+  },
+  {
+    "slug": "20260712-06",
+    "headline": "ウクライナ、ロシアの影の船団を集中攻撃—補給線を遮断",
+    "lead": "ウクライナ軍が南部海域でロシア船舶12隻を撃破。クリミアへの燃料輸送を断ち、ロシア軍の補給体制に打撃。",
+    "body_markdown": "ウクライナ軍は7月7～8日、ロシアが占領するクリミア半島への補給ルートとなっているアゾフ海で、ロシアのタンカー船12隻を無人機（ドローン）で集中攻撃した。\n\nウクライナ軍の発表によると、攻撃対象は制裁逃れのため『シャドーフリート（影の船団）』と呼ばれる登録フラッグの不明確な船舶。ロシア軍がクリミア占領地への燃料・物資輸送に使用していた。7月7日には8隻をアゾフ海で撃破、その後2隻を追加攻撃。さらに前日も同海域で2隻を撃沈させており、2日間で合計12隻に達している。\n\nアゾフ海はウクライナ南部の占領地への最重要補給路であり、ロシア軍にとって極めて戦略的に重要な海域である。燃料不足はロシア軍の作戦遂行能力に直結するため、今回の集中攻撃は物質的な損害だけでなく、ロシア軍の戦術選択肢の縮小をもたらす。\n\n同時期（7月8日）、ウクライナ軍はロシア国内の石油精製施設も攻撃。攻撃地点はウクライナ国境から約2500キロ内陸に位置する施設で、ドローンの航続距離能力の進化を示している。\n\nロシアはこれまで、海上輸送路とエネルギーインフラを『民間経済対象』として保護してきたが、ウクライナは長期戦に向けた補給線切断戦略に転換している。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "軍事",
+      "補給線",
+      "海戦"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015140931000",
+    "importance": 5,
+    "image_query": "military ship drone navy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1685178362030-9b574eb9ae7c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxtaWxpdGFyeSUyMHNoaXAlMjBkcm9uZSUyMG5hdnl8ZW58MXwwfHx8MTc4MzgwNTAzNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vidar Nordli-Mathisen",
+      "profileUrl": "https://unsplash.com/@vidarnm?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:23:54.357Z",
+    "publishedAt": "2026-07-11T20:56:06.000Z"
+  },
+  {
+    "slug": "20260712-07",
+    "headline": "OpenAI『GPT-5.6』正式公開—複数ティアで低コスト化を実現",
+    "lead": "OpenAIが『GPT-5.6』ファミリーを3段階リリース。最上位SolはClaude Fable 5を上回り、下位モデルでも16分の1コストで同等性能を達成。",
+    "body_markdown": "OpenAIが7月9日、次世代言語モデル『GPT-5.6ファミリー』の一般提供を開始した。6月26日のプレビューを経ての正式公開。3つのティア（Sol・Terra・Luna）で構成されており、計算リソースとコストの多様なニーズに対応する戦略をとっている。\n\n最上位の『GPT-5.6 Sol（ソル）』は53.6の推論スコアを達成し、AnthropicのClaude Fable 5の40.5を13.1ポイント上回った。コーディング・知識労働・サイバーセキュリティ・科学の全領域で最先端性能を保有。\n\nAPI料金は、Solが入力100万トークンあたり5ドル、出力30ドル。バランス型の『Terra（テラ）』は2.50ドル・15ドル、最安の『Luna（ルナ）』は1ドル・6ドルで、Lunaは従来モデルの16分の1のコストでFable 5と同等以上の性能を提供する。\n\n特筆すべき点は、OpenAIが『より少ないトークンと低コストで競合モデルと同等以上の結果を実現』とコスト効率を強調していること。大型言語モデルの開発競争は単なる性能追求から、推論効率・コスト対効果への転換期に入った。\n\nMicrosoft Copilot 365への統合も進行中で、職場の生産性ツールとしても展開予定。ただし、同日発表のGPT-5.6をめぐって、OpenAIとMicrosoftの関係が『破綻の危機』という報道も出ており、独占的パートナーシップの再調整が進んでいる模様。",
+    "tags": [
+      "OpenAI",
+      "GPT-5.6",
+      "生成AI",
+      "価格設定",
+      "LLM"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://forest.watch.impress.co.jp/docs/news/2124016.html",
+    "importance": 4,
+    "image_query": "artificial intelligence machine learning",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1696272440000-0808a203c852?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwxfDB8fHwxNzgzODA1MDM1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Andres Siimon",
+      "profileUrl": "https://unsplash.com/@johnmcclane?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:23:55.275Z",
+    "publishedAt": "2026-07-10T00:16:54.000Z"
+  },
+  {
+    "slug": "20260712-08",
+    "headline": "Meta、Instagram無断AI合成機能を停止—倫理的懸念に屈服",
+    "lead": "Metaが公開写真からのAI合成機能を3日で中止。著名人・労働組合の反発で、同意フレームワークなしの運用を撤回。",
+    "body_markdown": "Metaが7月10日、Instagramの『@-メンション機能を使った公開アカウントの無断AI合成』という物議をかもした機能を停止した。発表からわずか3日での撤回。\n\nこの機能は7月7日に『Meta AI・Muse』として新機能として発表された。Instagramの公開アカウントを@-タグすると、そのアカウントの公開投稿画像を学習材料としてAI画像生成が自動実行されるもの。著作権や肖像権の許可を一切必要としない仕様だった。\n\nの反発は即座かつ広範囲に及んだ。ハリウッド大手エージェントCAA（トム・ハンクス、メリル・ストリープなど多数クライアント保有）がMetaに直接懸念を表明。米労働組合SAG-AFTRA（映画・テレビ俳優組合）も会員に対して機能からのオプトアウトを奨励した。\n\nCA Aの声明：『いかなる人物の氏名、画像、肖像、声、創作物も、第三者が明確かつ文書化された同意なく使用してはならない』。\n\n深刻な問題は、公開アカウント所有者が知らないうちに自分の顔や身体が『ディープフェイク学習データ』として利用される可能性だった。特に著名人・政治家・公的人物にとって、偽造画像の悪用リスクは深刻。\n\nMetaは公式声明で『ユーザーに知らせ、創作的なツール提供』と当初主張していたが、倫理的フレームワークの不備を認め撤回した。今後の展開は『同意ベース』への修正が必須。",
+    "tags": [
+      "Meta",
+      "Instagram",
+      "AI合成",
+      "倫理",
+      "肖像権"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+    "importance": 4,
+    "image_query": "social media digital privacy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1579869847557-1f67382cc158?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzb2NpYWwlMjBtZWRpYSUyMGRpZ2l0YWwlMjBwcml2YWN5fGVufDF8MHx8fDE3ODM4MDUwMzV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "dole777",
+      "profileUrl": "https://unsplash.com/@dole777?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:23:56.099Z",
+    "publishedAt": "2026-07-10T23:49:50.000Z"
+  },
+  {
+    "slug": "20260712-09",
+    "headline": "OpenAI、家族向けChatGPT拡大へ—子ども・介護向け機能を開発",
+    "lead": "OpenAIが専任PM採用、親・子ども・高齢者向けの家族機能を開発中。チャットGPT利用の低年齢化に対応。",
+    "body_markdown": "OpenAIがサンフランシスコで、家族・介護者・高齢者向けの専任プロダクト・マネージャーを募集している。job postingから、生成AIが『個人生産性ツール』から『家庭・家族向けテクノロジー』へシフトしていることが明白。\n\n業界アナリストBen Bajarin の分析によると、OpenAI が開発中の施策は：\n- 家族向けプラン（複数ユーザーサブスクリプション）\n- 子ども・ティーン向けプロファイル\n- 介護者向けツール\n- 強化された安全コントロール\n\n現時点の安全対策は、親向けパレンタルコントロール・ティーンアカウント・機密会話の高度推論モデルへの自動ルーティング・『信頼できる連絡先（Trusted Contact）』機能（自傷の可能性がある会話を介護者に通知）。\n\n背景に、使用者層の拡大と低年齢化がある。米国スマートフォンユーザーの親による月間利用率は16%から24%に急増。35歳以上の利用シェアは、グローバルで26%から31%に伸長。\n\nただし懸念もある。調査で『親は子どものAI利用を過小評価』：子どもの週間利用率38%に対し、親の推定は27%。未成年の自律的なAI使用が親の認識を上回っているのが実態。\n\nOpenAI の家族向け施策は、こうした市場機動に対応しながら、同時に保護者・介護者の信頼確保が不可欠となる。",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "家族",
+      "子ども",
+      "安全"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+    "importance": 4,
+    "image_query": "family technology parents children",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjB0ZWNobm9sb2d5JTIwcGFyZW50cyUyMGNoaWxkcmVufGVufDF8MHx8fDE3ODM4MDUwMzZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Alexander Dummer",
+      "profileUrl": "https://unsplash.com/@4dgraphic?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:23:57.223Z",
+    "publishedAt": "2026-07-11T14:13:00.000Z"
+  },
+  {
+    "slug": "20260712-10",
+    "headline": "ドイツテレコムがOpenAIと協業—欧州260万人にAI導入",
+    "lead": "ドイツテレコムがOpenAIと複数年契約。リアルタイム翻訳・通話アシスト・音声要約をChatGPTで実現、2026年Q1からパイロット開始。",
+    "body_markdown": "欧州の大手通信企業ドイツテレコムがOpenAIと複数年にわたる協業契約を締結した。OpenAIが欧州での大規模導入を見据えた初の主要通信キャリアとの提携となる。\n\nドイツテレコムは世界2億6100万人のモバイルカスタマーを保有。今回の協業で、OpenAIの高度なAI機能を顧客対応に直結させる計画。\n\n具体的な展開は：\n- リアルタイム多言語翻訳\n- 通話中アシスタント（自動議事録・サマリー作成）\n- 通話後の要約自動生成\n- 顧客ケアの自動化と効率化\n\nタイムラインは2026年Q1からパイロット実施、その後2026年内に本格展開予定。\n\n同時にドイツテレコムは社内全体にChatGPT Enterpriseを導入。従業員に対してOpenAI最新ツールへのセキュアなアクセスを提供し、カスタマーケア改善・ワークフロー効率化・イノベーション加速を狙う。\n\n戦略的背景は、通信キャリアが単なる『パイプ』から『AI活用プラットフォーム』への転換を志向していることを示す。データ量と顧客ベースを持つ通信事業者が、AI企業とのパートナーシップで新サービスを共創する時代に入った。OpenAI にとっても、欧州市場での大規模実装の足がかりとなる。",
+    "tags": [
+      "ドイツテレコム",
+      "OpenAI",
+      "通信",
+      "AI導入",
+      "多言語"
+    ],
+    "section": "テクノロジー",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/deutsche-telekom",
+    "importance": 4,
+    "image_query": "telecommunications customer service",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1626863905121-3b0c0ed7b94c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx0ZWxlY29tbXVuaWNhdGlvbnMlMjBjdXN0b21lciUyMHNlcnZpY2V8ZW58MXwwfHx8MTc4MzgwNTAzOHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Charanjeet Dhiman",
+      "profileUrl": "https://unsplash.com/@charanjeet_dhiman?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:23:58.248Z",
+    "publishedAt": "2026-07-10T07:00:00.000Z"
+  },
+  {
+    "slug": "20260712-11",
+    "headline": "OpenAI『Bio Bug Bounty』で25万円—GPT-5.5の生物学的脆弱性を募集",
+    "lead": "OpenAIが生物学的安全性の脆弱性検査プログラムを実施。5つの生物安全質問を単一プロンプトで突破できた研究者に250万円の報酬。",
+    "body_markdown": "OpenAIが『GPT-5.5 Bio Bug Bounty』プログラムを開始し、生物学的安全性に関する脆弱性を検査している。生成AIの悪用防止に特化した異例のセキュリティ企画。\n\nプログラムは生成AIの『レッドティーム（敵対的テスト）』経験を持つ研究者を招致。GPT-5.5が『生物学的安全性を脅かすプロンプト注入（ジャイルブレイク）』に対して、どの程度耐性を持つかを検査する。\n\nチャレンジの要件：\n- 5つの生物学的安全質問が出題される\n- 全5問を『単一のユニバーサル・ジャイルブレイク・プロンプト』で突破\n- 回答後、新規チャットから同じプロンプトでも成功する必要がある\n- モデレーション回避が必須\n\n報酬は最高250万円（$25,000）で、最初に全問突破した研究者に授与。\n\nスケジュール：\n- 応募受付：2026年4月23日～6月22日（2026年4月28日にテスト開始）\n- テスト期間：7月27日まで\n- 参加者には厳格なNDA（非開示契約）を要求\n\nこの施策は、生成AIによる『生物兵器設計・ウイルス製造・病原体操作』といった極度に危険な用途を防ぐための「責任あるAI公開」の一環。OpenAIは『先制的に脆弱性を発見・修正する』アプローチをとっており、一般公開前の安全性向上を目指している。",
+    "tags": [
+      "OpenAI",
+      "GPT-5.5",
+      "セキュリティ",
+      "生物安全",
+      "レッドティーム"
+    ],
+    "section": "テクノロジー",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/bio-bug-bounty",
+    "importance": 4,
+    "image_query": "laboratory biosecurity safety",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1581594549595-35f6edc7b762?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxsYWJvcmF0b3J5JTIwYmlvc2VjdXJpdHklMjBzYWZldHl8ZW58MXwwfHx8MTc4MzgwNTAzOHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:23:59.170Z",
+    "publishedAt": "2026-07-09T10:00:00.000Z"
+  },
+  {
+    "slug": "20260712-12",
+    "headline": "細胞が『プログラマブル・コンピュータ』に—リボソーム遺伝子回路が複数シグナル処理",
+    "lead": "韓国POSTECH が『RATEX』開発。リボソームを分子スイッチに転用し、6つのシグナルを同時処理する生きた細胞コンピュータを実現。",
+    "body_markdown": "韓国・浦項工科大学（POSTECH）のワーキショップ・システム工学研究室が『リボソーム支援型転写発現制御（RATEX）』プラットフォームを開発した。タンパク質合成の『工場』として働くリボソームを『分子スイッチ』に転用する革新的手法。\n\nこれまでの遺伝子工学は、遺伝子のオン・オフを単純に制御するのに留まっていた。複数のシグナルを同時に『読み込み』、条件に応じた複雑な応答を生成する能力は限定的だった。\n\nRATEXが実現した機能：\n- 最大6つのRNA シグナルを同時処理\n- 約1492倍の遺伝子発現制御（高精度な増幅）\n- アミノ酸・ビタミンなどの代謝物信号も統合可能\n\nメカニズムは『転写・翻訳統合制御器（TTC）』アーキテクチャ。リボソームが特定遺伝子位置で『一時停止』し、分子条件により継続するかどうかを判断。翻訳と転写の階層を跨いだ多層的な意思決定が可能に。\n\n応用可能性：\n- スマート治療薬：がん細胞シグナルを検知して局所治療を実行\n- 環境バイオセンサー：複数の汚染物質組み合わせに応答\n- 条件付きCRISPR：特定環境下でのみ遺伝子編集を実行\n\nこの技術は『生きた細胞を汎用コンピュータ化』する道を開く。従来の診断・治療デバイスの限界を突破し、体内で『自己判断・自己実行』する医療システムの構築を可能にする。",
+    "tags": [
+      "バイオテク",
+      "遺伝子工学",
+      "CRISPR",
+      "細胞コンピュータ",
+      "医療"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-ribosome-based-gene-circuit-cells.html",
+    "importance": 4,
+    "image_query": "cell biology laboratory genetics",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1641903202531-bfa6bf0c6419?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxjZWxsJTIwYmlvbG9neSUyMGxhYm9yYXRvcnklMjBnZW5ldGljc3xlbnwxfDB8fHwxNzgzODA1MDQwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sangharsh Lohakare",
+      "profileUrl": "https://unsplash.com/@sangharsh_l?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:24:00.298Z",
+    "publishedAt": "2026-07-11T19:00:06.000Z"
+  },
+  {
+    "slug": "20260712-13",
+    "headline": "イランのアマゾン薬用植物、気候変動で30%消滅の危機",
+    "lead": "スイス研究チームが分析。アマゾン先住民族が利用する薬用・食用植物の3割が、温暖化・降雨不足で失われる可能性。文化遺産と医療資源の喪失。",
+    "body_markdown": "スイスの研究グループがアマゾン熱帯雨林における先住民族活用植物の気候変動脆弱性を分析した結果を発表。先住民族が医療・栄養源として利用してきた植物の約30%が、温暖化シナリオ下で消滅リスクに晒されていることが判明。\n\nアマゾンは『地球の肺』と呼ばれ、世界の生物多様性の10%以上を保有。その中でも先住民族は数千年にわたり、プラント・ナレッジ（伝統薬学知識）を蓄積し、地域の治療・栄養システムを構築してきた。\n\n今回の研究は複数シナリオをモデル化：\n- 気温上昇：2°C～4.5°Cの上昇予測\n- 降雨パターン変化：アマゾン雨量の減少\n- 標高帯シフト：植物の生育可能地域が上昇\n\n結果として、約30%の先住民族利用植物が『種の保全地域外への遷移』または『消滅』を余儀なくされる。特に低地の薬用植物が打撃を受ける。\n\n具体的な懸念：\n1. 医療資源喪失：現地の伝統医療システムの崩壊\n2. 文化遺産喪失：先住民族の知識体系の断絶\n3. 医薬品開発機会の喪失：未発見の有用成分が失われる可能性\n\nこの分析は『気候変動が生物多様性だけでなく、人類の文化・医療に直結した脅威』であることを示唆している。先住民族の領土保護と気候対策の連動が急務。",
+    "tags": [
+      "気候変動",
+      "アマゾン",
+      "先住民族",
+      "生物多様性",
+      "医療"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015174401000",
+    "importance": 4,
+    "image_query": "rainforest amazon plants nature",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1682887523090-8eed9a92a6e5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxyYWluZm9yZXN0JTIwYW1hem9uJTIwcGxhbnRzJTIwbmF0dXJlfGVufDF8MHx8fDE3ODM4MDUwNDB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Levi Arnold",
+      "profileUrl": "https://unsplash.com/@leviarnold?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:24:00.911Z",
+    "publishedAt": "2026-07-11T19:49:47.000Z"
+  },
+  {
+    "slug": "20260712-14",
+    "headline": "Hugging FaceのCEOが警告—『企業はAI賃借時代は終わり』",
+    "lead": "Clem Delangue CEO がオープンソースAI台頭を指摘。フォーチュン500の半数がオープンモデル採用、ベンダーロックインから脱却へ。",
+    "body_markdown": "Hugging Face の最高経営責任者Clem Delangue氏が、生成AI業界の転換点を指摘した。『企業は大型言語モデルを『レンタル』する時代から『所有・カスタマイズ』する時代へシフトしている』。\n\nHugging Face はAIモデル共有プラットフォーム『GitHub for AI』として機能。開発者がオープンソースモデルをアップロード・ダウンロードでき、約半世紀のIT慣例（エンタープライズ・ベンダー・ロックイン）から離脱する環境を提供している。\n\nCEOの声明が示唆するもの：\n- フォーチュン500企業の約半数がオープンAIモデルを導入済み\n- OpenAI・Anthropic などの『クローズドモデル』への依存を減らす傾向\n- 社内カスタマイズ・ファインチューニング・プライバシー保護を優先する戦略シフト\n\n背景要因：\n1. API利用コストの高騰化（大規模言語モデルの使用料）\n2. 企業秘密データをクラウドに預けることへの懸念\n3. オープンモデルの品質・性能向上（Mistral・LLaMAなど）\n4. 規制リスク（欧州AI法など）への対応\n\nこの転換は、生成AI業界における『独占→競争化』を象徴。OpenAIの初期の市場支配力が、オープンソース化と競合他社の台頭により、相対化される局面に。",
+    "tags": [
+      "Hugging Face",
+      "オープンソース",
+      "AI",
+      "ベンダーロック",
+      "企業"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+    "importance": 4,
+    "image_query": "artificial intelligence machine learning software",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1674027444636-ce7379d51252?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOHx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMG1hY2hpbmUlMjBsZWFybmluZyUyMHNvZnR3YXJlfGVufDF8MHx8fDE3ODM4MDUwNDF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Growtika",
+      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:24:01.929Z",
+    "publishedAt": "2026-07-10T14:00:00.000Z"
+  },
+  {
+    "slug": "20260712-15",
+    "headline": "ロシア首都でガソリン不足—ウクライナドローン攻撃が直撃",
+    "lead": "モスクワのガソリンスタンドで給油待ち行列が常態化。ウクライナによる製油所集中攻撃で、ロシア国内のエネルギー供給体制が危機的状況に。",
+    "body_markdown": "ロシアの首都モスクワでもガソリン・軽油の供給不足が深刻化し、給油待ちの行列が急増している。ロシア政府内にも『状況は依然として厳しい』という危機感が広がっている。\n\n背景はウクライナ軍による石油精製施設への集中ドローン攻撃。過去数週間でロシア国内の主要製油所複数が攻撃対象となり、石油精製能力が低下。特にクリミアなど占領地への燃料供給体制が逼迫している。\n\n具体的な影響：\n- モスクワのガソリンスタンドで数時間の待ち時間\n- 一部ステーション閉鎖・配給制限\n- 軍用燃料の優先配分がされている模様\n\nエネルギー政策担当のロシア副首相は『状況は深刻だが管理可能』と述べつつも、国民からの不満が高まっている。\n\nこれはウクライナ側の戦略転換を示唆している。従来は軍事目標の直接破壊を目指していたが、現在は『ロシア国内のインフラ・エネルギー体制の機能不全化』という長期戦略に転換。本格的な補給線切断戦に突入。\n\nロシアは『影の船団』による海上輸送やカスピ海ルートでの代替供給を模索しているが、ウクライナの攻撃範囲拡大により、抜本的な解決は難しくなっている。",
+    "tags": [
+      "ロシア",
+      "エネルギー",
+      "ウクライナ",
+      "経済",
+      "軍事"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015174671000",
+    "importance": 5,
+    "image_query": "gas station fuel energy crisis",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1709536240401-58dff8e8d597?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxnYXMlMjBzdGF0aW9uJTIwZnVlbCUyMGVuZXJneSUyMGNyaXNpc3xlbnwxfDB8fHwxNzgzODA1MDQyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "engin akyurt",
+      "profileUrl": "https://unsplash.com/@enginakyurt?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:24:02.613Z",
+    "publishedAt": "2026-07-11T19:54:27.000Z"
+  },
+  {
+    "slug": "20260712-16",
+    "headline": "花粉交通路が蜜蜂トラップに—ロードサイド緑化の落とし穴",
+    "lead": "スウェーデンの研究チーム発表。花畑を作ったロードサイド道路の高交通量が、蜜蜂の死亡率を急増させている危険性。",
+    "body_markdown": "スウェーデン・ルンド大学の研究チームが、高速道路沿いの花畑が『蜜蜂トラップ』となる危険性を指摘した。装香犬を使用した調査で、交通量の多い道路沿いに咲く花は、実は蜜蜂にとって『食料源』であり『死への罠』であることが判明。\n\n研究設計：\n- スウェーデン南部の60カ所のロードサイド緑地を調査\n- 交通量を階層化（少・中・多）\n- 生死の蜜蜂群を記録\n\nを記録。\n\n結論：交通量が増加するにつれて、死亡蜜蜂数が著しく増加。『花が豊かなロード・ベルジュ（路肩）』は、蜜蜂の採食本能を刺激し、自動車との衝突死を増加させる。\n\n理由：\n1. 視覚的誘因：花の色が蜜蜂を引き寄せる\n2. 環境ギャップ：安全な採食地から高リスク地へ\n3. 行動変化：高交通環境では回避行動が不十分\n\n意図的な『ロードサイド緑化』も、モニタリングと段階的実施が必要という教訓。生物多様性保全と交通安全の衝突を示唆している。",
+    "tags": [
+      "環境",
+      "蜜蜂",
+      "道路",
+      "生態系",
+      "交通"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-heavy-traffic-rich-verges-bumblebee.html",
+    "importance": 3,
+    "image_query": "bee honeybee nature flower",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T21:24:02.613Z",
+    "publishedAt": "2026-07-11T18:00:03.000Z"
+  },
+  {
+    "slug": "20260712-17",
+    "headline": "日本の水管理が国際評価—世紀間の古い石水路が現代技術と融合",
+    "lead": "福岡県朝倉市の古い石水路システムが最新の水文生態学研究対象に。九州大学が『地元知恵と科学の統合』モデルを構築。",
+    "body_markdown": "日本の水資源管理が国際研究において再評価されている。福岡県朝倉市の『世紀の石水路』システムが、現代の水文工学と融合した先進的な取り組みの象徴となっている。\n\n九州大学の『流域システム工学研究室』が、この古い灌漑システムの復元・再活用プロジェクトを進行中。水路は長年のインフラ老朽化により放棄された水田を『機能する湿地・森林生態系』へ転換する試み。\n\n特徴：\n- 何百年前に構築された石積み水路の保存\n- 現代的な水流管理・生態調査の導入\n- 放棄水田の湿地・生態系復活\n- 地域の水セキュリティと生物多様性の同時実現\n\n意義：\n1. 文化遺産保全：古い農業インフラの価値認識\n2. 気候対応：水管理の現代的最適化\n3. 生物多様性：水辺生態系の復活\n4. グローバル・モデル：日本の古い知恵と新しい科学の統合\n\nこのアプローチは『グレーインフラ（新規建設）』から『グリーンインフラ（自然復活）』への転換を示し、世界の水資源管理における新しい指標となっている。",
+    "tags": [
+      "日本",
+      "水管理",
+      "古いインフラ",
+      "生態系",
+      "持続可能性"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-local-wisdom-science.html",
+    "importance": 3,
+    "image_query": "water channel agriculture irrigation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T21:24:02.613Z",
+    "publishedAt": "2026-07-11T18:00:01.000Z"
+  },
+  {
+    "slug": "20260712-18",
+    "headline": "親星の死を逃れた木星サイズ惑星を発見—恒星進化の謎",
+    "lead": "Ars Technica が報告。太陽が『赤色巨星化』する際に、通常は焼却される惑星が脱出。軌道進化の新知見。",
+    "body_markdown": "天文学者が木星サイズの巨大惑星が、親星の死（赤色巨星化による膨張）から逃れた稀有な例を観測した。この惑星がいかにして恒星からの『吹き飛ばし』を生き延びたのかは、惑星軌道進化の新しい謎を提起している。\n\n背景：\n恒星が寿命を迎えると『赤色巨星』に膨張。太陽が赤色巨星になった場合、地球・金星・水星は確実に焼却される。木星・土星なども『スパイラルイン』（恒星中心へ落下）するのが通例。\n\nしかし今回観測された惑星は：\n- 親星の赤色巨星化を『サバイバル』\n- 現在も観測可能な軌道に存在\n\n可能なメカニズム：\n1. 高速軌道遷移：未知の物理過程で急速に軌道が拡大\n2. 多惑星相互作用：他の惑星の引力が軌道を『蹴出し』\n3. 恒星風圧による軌道修正\n\nこの発見は『惑星系の進化』に新しい可能性を開く。また、将来の太陽系（50億年後）の運命にも新しい不確実性をもたらす。",
+    "tags": [
+      "天文学",
+      "惑星",
+      "恒星進化",
+      "宇宙",
+      "軌道"
+    ],
+    "section": "サイエンス",
+    "source": "Ars Technica",
+    "link": "https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death/",
+    "importance": 3,
+    "image_query": "planet star space astronomy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T21:24:02.613Z",
+    "publishedAt": "2026-07-11T12:00:58.000Z"
+  },
+  {
+    "slug": "20260712-19",
+    "headline": "第二妊娠が脳を『再配線』する—神経科学が新知見",
+    "lead": "ScienceDaily が報告。2人目以降の妊娠で、母親の脳が予期しない方向に変化。不可逆的な神経再編成。",
+    "body_markdown": "神経生物学者が、複数回の妊娠が母親の脳構造に予期しない変化をもたらすことを発見した。特に『第二妊娠以降』に、第一妊娠では見られなかった脳領域の再編成が起こる。\n\n研究内容：\n- 複数回妊娠母親と単一妊娠母親の脳スキャン比較\n- 妊娠中・出産後のホルモン変化追跡\n- 神経可塑性（脳の柔軟性）の測定\n\n発見：\n1. 第二妊娠で『新しい』脳領域が活性化\n2. これらの変化は部分的に不可逆的\n3. 認知機能・母性本能・ストレス耐性に影響の可能性\n\n意義：\n- 母親の『経験に基づく脳進化』を示唆\n- 多産がもたらす神経的適応\n- ホルモン作用の複雑さの解明",
+    "tags": [
+      "妊娠",
+      "脳科学",
+      "神経生物学",
+      "母親",
+      "発達"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/pregnancy-brain-changes/",
+    "importance": 3,
+    "image_query": "brain neuroscience medical research",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T21:24:02.613Z",
+    "publishedAt": "2026-07-11T18:00:02.000Z"
+  },
+  {
+    "slug": "20260712-20",
+    "headline": "物理学者が『予測された』量子物質をついに製造—10年越しの実現",
+    "lead": "ScienceDaily が報告。2015年の理論予測が2026年に物質化。量子コンピュータ開発への道を切開。",
+    "body_markdown": "物理学研究チームが、2015年の理論物理学の予測に基づいた『量子物質』の製造に成功した。10年以上の研究期間を経ての実現は、量子物質工学における重要なマイルストーン。\n\n背景：\n2015年に量子物理学者が『こういう物質が存在すれば量子効果X が実現するはず』という理論的予測を発表。しかし実際の製造は困難で、2026年までかかった。\n\n製造方法：\n- 超低温環境（ケルビン台）での精密制御\n- 原子層レベルでの配置\n- 複数の量子状態の同時制御\n\n意義：\n1. 理論と実験の統合：基礎科学の前進\n2. 量子コンピュータへの応用：新しい量子ビット候補\n3. 材料科学の拡張：未知の物理現象の発見可能性",
+    "tags": [
+      "量子物理",
+      "物質科学",
+      "量子コンピュータ",
+      "研究",
+      "技術"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/quantum-material-breakthrough/",
+    "importance": 4,
+    "image_query": "quantum physics laboratory research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1678527973176-e53c88287c7e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxxdWFudHVtJTIwcGh5c2ljcyUyMGxhYm9yYXRvcnklMjByZXNlYXJjaHxlbnwxfDB8fHwxNzgzODA1MDQzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brandon Style",
+      "profileUrl": "https://unsplash.com/@brann?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:24:03.576Z",
+    "publishedAt": "2026-07-11T18:00:05.000Z"
+  },
+  {
+    "slug": "20260712-21",
+    "headline": "天気予報のズレで国民の『感情が変わる』—社会心理学新研究",
+    "lead": "POSTECH の研究チーム発表。台風予報の過剰予測・過小予測が、市民のメンタルヘルスと信頼度に直結。",
+    "body_markdown": "韓国・浦項工科大学（POSTECH）の研究チームが、天気予報のズレが市民の感情に与える影響を分析した。特に『予報と現実の乖離』がストレス・不安・当局信頼度に顕著に影響することが判明。\n\n研究対象：2023年台風カヌンの上陸予報\n\n発見：\n1. 過剰予報（予報より被害が小さい）→ 市民の『警戒疲れ』『不信感』\n2. 過小予報（実際が予報より厳しい）→『恐怖・パニック』\n3. 型別の感情応答が異なる\n\n利用方法：\n- AI・自然言語処理で市民のSNS投稿を分析\n- 感情スコアを可視化\n- 予報精度改善と『市民コミュニケーション』の統合\n\n意義：\n- 気象警報の改善：単なる数値精度ではなく『心理的対応』を重視\n- 災害時のメンタルヘルス対応\n- 科学的情報発信のあり方（リスク・不確実性の伝達方法）",
+    "tags": [
+      "気象",
+      "社会心理学",
+      "感情分析",
+      "AI",
+      "災害"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-gap-reality-emotions-disasters.html",
+    "importance": 3,
+    "image_query": "weather forecast storm typhoon",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T21:24:03.576Z",
+    "publishedAt": "2026-07-11T19:00:04.000Z"
+  },
+  {
+    "slug": "20260712-22",
+    "headline": "Philips『Hue Bridge Pro』、アップデートで不具合—無償交換を実施",
+    "lead": "Philips が スマートライトコントローラーの『ブリック化』バグを確認。ファームウェアアップデート失敗で全機能喪失、無償交換プログラム開始。",
+    "body_markdown": "Philips がスマートライティングシステム『Hue Bridge Pro』の障害に対応。最近のファームウェアアップデートで、一部ユーザーのデバイスが『ブリック化』（完全な機能喪失状態）したことが判明。\n\n問題の詳細：\n- ファームウェアアップデート実行時にエラー発生\n- デバイスが起動不可状態に陥る\n- スマートホーム全体が機能停止\n\nPhilips の対応：\n1. 新しいアップデートが同問題の再発を防止することを確認\n2. 既に影響を受けたユーザーに対して『無償交換プログラム』を実施\n3. より慎重なロールアウト戦略を導入\n\n業界への教訓：\n- スマートデバイスのファームウェア更新リスク\n- IoT製品の『信頼性品質保証』の重要性\n- ユーザーフレンドリーなリカバリー機構の必要性",
+    "tags": [
+      "Philips",
+      "スマートホーム",
+      "IoT",
+      "ファームウェア",
+      "品質"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2212954/philips-free-replacements-hue-bridge-pro-update-bricked-smart-lighting-hubs/",
+    "importance": 3,
+    "image_query": "smart home technology devices",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T21:24:03.576Z",
+    "publishedAt": "2026-07-11T17:41:03.000Z"
+  },
+  {
+    "slug": "20260712-23",
+    "headline": "Bluesky 公式CEO 復帰—分散SNS のガバナンス再構築",
+    "lead": "Bluesky（分散型X 代替）が正式CEO 返り咲き。Twitter 離脱組の『プロトコルベースSNS』が実権委譲モデルで次段階へ。",
+    "body_markdown": "Twitter 離脱ユーザーが支持する分散型SNS『Bluesky』が、公式なCEO（最高経営責任者）職の設置を発表。これまでのファウンダーレッド体制から、ガバナンス面での明確な統治構造へ移行。\n\nBluesky の特徴：\n- プロトコルベース：AT Protocol という開放仕様\n- 分散型：中央サーバーに依存しない構成\n- ユーザー主権：データ・フィード・アルゴリズムの自由度\n\nCEO 復帰の意義：\n1. 組織の長期安定性：スタートアップから『成熟企業』へ\n2. 投資家・パートナー信頼：明確なガバナンス\n3. 規制対応：正式経営体制での法的対応\n\n背景：\nTwitter の Elon Musk 買収（2022年）以後、多くのユーザーが分散型 SNS に移行。Bluesky、Mastodon、Threads など複数候補が競合中。Bluesky の『プロトコル独立性』が、ベンダーロックインを避けるユーザーに支持されている。",
+    "tags": [
+      "Bluesky",
+      "SNS",
+      "分散型",
+      "Twitter",
+      "ガバナンス"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/964467/bluesky-official-ceo",
+    "importance": 3,
+    "image_query": "social media digital communication",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T21:24:03.577Z",
+    "publishedAt": "2026-07-11T18:00:00.000Z"
+  },
+  {
+    "slug": "20260712-24",
+    "headline": "イラン最高指導者『米国へ報復継続』—葬儀で復讐宣言",
+    "lead": "故アヤトラ・ハメネイの葬儀で、息子モジタバ師が報復継続宣言。米国の政策転換なし、対イラン制裁強化へ。",
+    "body_markdown": "イランの故最高指導者アヤトラ・アリ・ハメネイ（先月死亡）の大規模葬儀で、息子でありイランの新最高指導者モジタバ・ハメネイ師が『米国への報復継続』を公式に宣言した。\n\n葬儀の規模と政治的意味：\n- イラン全土での追悼式典\n- 政治・軍事・宗教指導部全員参加\n- メディアを通じた公式な報復意思表示\n\n宣言の意味：\n1. イラン指導部の強硬姿勢の継続\n2. 米国との核協議再開の可能性を阻止\n3. 地域での軍事活動・プロキシ戦争の継続宣言\n\n米国側の対応：\n- Treasury Department による新たな制裁発動\n- ホルムズ海峡での軍事プレゼンス強化\n- イスラエルとの暗黙の調整（軍事オプション）\n\nこの局面では、外交的緩和ではなく『軍事的緊張の長期化』が濃厚。",
+    "tags": [
+      "イラン",
+      "米国",
+      "中東",
+      "地政学",
+      "制裁"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/c000000",
+    "importance": 5,
+    "image_query": "middle east politics international relations",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1774779685639-0e72566de1b6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxtaWRkbGUlMjBlYXN0JTIwcG9saXRpY3MlMjBpbnRlcm5hdGlvbmFsJTIwcmVsYXRpb25zfGVufDF8MHx8fDE3ODM4MDUwNDR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Emin Huric",
+      "profileUrl": "https://unsplash.com/@emin99?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:24:04.241Z",
+    "publishedAt": "2026-07-11T18:00:00.000Z"
+  },
+  {
+    "slug": "20260712-25",
+    "headline": "OpenAI 安全責任者が退任—組織再編で研究と安全を統合",
+    "lead": "OpenAI のヘッド・オブ・セーフティが辞任。研究部門と安全チームを統合する組織再編の一環。AI安全戦略の転換を示唆。",
+    "body_markdown": "OpenAI が内部組織再編を発表。安全責任者（Head of Safety）が退任し、研究部門と安全チームの『統合マネジメント』体制へ移行。\n\n背景：\nOpenAI は『最先端AI開発』と『安全性検証』のバランスを模索中。従来は独立した安全部門が『ブレーキ役』を担ってきたが、今回の改組で両者が『同一チェーン・オブ・コマンド』下に統合される。\n\n意味合い：\n1. 安全性検証の『速度化』：開発に寄り添う形での検証\n2. 組織スリム化：冗長性の排除\n3. 開発優先化：安全性の『相対的優先度低下』の懸念も\n\n業界への波紋：\n- AI 企業の『安全文化』が市場競争で侵食される可能性\n- 独立監査・外部レビューの必要性再認識\n- 規制当局への圧力（EU AI Act、新機関設置など）",
+    "tags": [
+      "OpenAI",
+      "AI安全",
+      "組織再編",
+      "ガバナンス",
+      "開発"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2212941/openai-head-of-safety-leaving-company-reorganization/",
+    "importance": 4,
+    "image_query": "artificial intelligence safety technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1666597107756-ef489e9f1f09?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHNhZmV0eSUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4MzgwNTA0NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "julien Tromeur",
+      "profileUrl": "https://unsplash.com/@julientromeur?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T21:24:05.212Z",
+    "publishedAt": "2026-07-11T15:39:12.000Z"
+  },
+  {
     "slug": "20260711-22",
     "headline": "OpenAI、GPT-5.6を発表 コスト半減で高性能",
     "lead": "新モデルファミリーGPT-5.6は3段階設定で、最上位SolがFable 5並の性能をコスト半分で実現。",
