@@ -1,5 +1,350 @@
 [
   {
+    "slug": "20260711-22",
+    "headline": "OpenAI、GPT-5.6を発表 コスト半減で高性能",
+    "lead": "新モデルファミリーGPT-5.6は3段階設定で、最上位SolがFable 5並の性能をコスト半分で実現。",
+    "body_markdown": "OpenAIが7月9日、新型言語モデルファミリー「GPT-5.6」を発表した。同日から一般利用が開始され、AIの性能と費用効率のバランスが大きく改善された。\n\nGPT-5.6は3つのモデルで構成される。最上位の「Sol」は、コーディング・知識労働・サイバーセキュリティ・科学分野で高い性能を発揮する。ITmediaの測定によると、Intelligence Indexで58.9点を獲得し、AnthropicのFable 5（59.9点）に1点差の性能を61%短い実行時間でかつ推定コスト半分程度で実現した。特にコーディング性能では80点を記録し、Fable 5を上回った。\n\n中段の「Terra」はバランス型で、日常業務に適している。最下位の「Luna」はコスト優先で、軽量処理向けだ。API料金（100万トークン当たり）はSol（入力5ドル/出力30ドル）、Terra（2.5/15ドル）、Luna（1/6ドル）に設定された。\n\nOpenAIは同時に「ChatGPT Work」というエージェント機能も発表。複数アプリ間で数時間にわたるタスクを自動実行し、プロジェクトを完成させる。生成AI市場は「単一大規模モデル」から「用途に応じた選択型」へシフトしており、今回のリリースはその傾向を加速させる。",
+    "tags": [
+      "AI",
+      "言語モデル",
+      "OpenAI",
+      "技術革新"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/gpt-5-6",
+    "importance": 4,
+    "image_query": "artificial intelligence model development",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1750365919971-7dd273e7b317?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMG1vZGVsJTIwZGV2ZWxvcG1lbnR8ZW58MXwwfHx8MTc4Mzc2MTk2Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Omar:. Lopez-Rincon",
+      "profileUrl": "https://unsplash.com/@procopiopi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T09:26:02.719Z",
+    "publishedAt": "2026-07-09T10:00:00.000Z"
+  },
+  {
+    "slug": "20260711-23",
+    "headline": "Microsoft 365、最新AI「GPT-5.6」を統合",
+    "lead": "Word・Excel・PowerPointでOpenAI最新モデルGPT-5.6が順次展開され、複雑な作業の効率化が加速。",
+    "body_markdown": "Microsoftは、ビジネス向け統合オフィススイート「Microsoft 365」にOpenAIの最新言語モデル「GPT-5.6」を組み込むと発表した。Word、Excel、PowerPoint、Chat、Coworkなど各アプリケーションで順次展開される予定である。\n\nMicrosoft 365 Copilot がGPT-5.6を採用することで、ユーザーはこれまで以上に高度な作業を自動化できるようになる。文書作成ではAIが複雑な構成を提案し、表計算ではデータ分析と予測が高精度で実行され、プレゼンテーション資料の作成も AI が支援する。これらの機能強化により、ユーザーは「より速く、より高品質な成果」を生み出せる。\n\nMicrosoft と OpenAI の提携は、クラウドサービスの差別化要因になっている。企業のワークロードがクラウドへ移行する中、Microsoft 365 内に最先端 AI を統合することで、ユーザーはツール切り替えなしに最新の生成AI機能を利用できる。この統合は、ビジネス生産性ソフトウェアの競争軸を「機能の豊かさ」から「AI による自動化度」へ急速にシフトさせている。",
+    "tags": [
+      "Microsoft",
+      "AI",
+      "オフィスツール",
+      "生産性"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+    "importance": 4,
+    "image_query": "office productivity software AI",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjBwcm9kdWN0aXZpdHklMjBzb2Z0d2FyZSUyMEFJfGVufDF8MHx8fDE3ODM3NjE5NjN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Christopher Gower",
+      "profileUrl": "https://unsplash.com/@cgower?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T09:26:03.621Z",
+    "publishedAt": "2026-07-09T13:00:00.000Z"
+  },
+  {
+    "slug": "20260711-24",
+    "headline": "ChatGPT、エージェント機能で複雑作業を自動実行",
+    "lead": "新「ChatGPT Work」は数時間の案件を自動処理、アプリ横断で行動を実行し実績を完成。",
+    "body_markdown": "OpenAIは「ChatGPT Work」と名付けた新型エージェント機能を発表した。従来のチャットベースのAIアシスタントから一歩進んで、複数のアプリケーション間で自動的にタスクを実行し、プロジェクトを完成させるまで「働き続ける」能力を備えた。\n\nChatGPT Work の特徴は、ユーザーが目標を指定すれば、AIが数時間にわたってそれを自動処理する点である。メールの確認、ドキュメントの作成、データの収集・整理、外部ツールの操作など、複数ステップの業務を人間の指示なしで完行する。従来は「ChatGPTに相談 → 回答を人間が実行」という2段構えだったが、ChatGPT Work は「目標指定 → AI が最後まで実行」という1段に統合された。\n\nこうしたエージェント型AI は、企業向け自動化の新段階を象徴している。単なる「提案・生成ツール」から「執行エージェント」への転換により、人間は戦略的な判断と監督に専念できるようになる。ただし、AI が多くのアプリケーションやデータにアクセスするため、セキュリティとプライバシー管理が重要な課題となる。",
+    "tags": [
+      "AI",
+      "自動化",
+      "ワークフロー",
+      "ChatGPT"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+    "importance": 4,
+    "image_query": "AI agent workflow automation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1730303827725-6cc9143877e7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxBSSUyMGFnZW50JTIwd29ya2Zsb3clMjBhdXRvbWF0aW9ufGVufDF8MHx8fDE3ODM3NjE5NjR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Milad Fakurian",
+      "profileUrl": "https://unsplash.com/@fakurian?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T09:26:04.590Z",
+    "publishedAt": "2026-07-09T10:00:00.000Z"
+  },
+  {
+    "slug": "20260711-25",
+    "headline": "固体電池の大課題、リチウムデンドライト破壊を解明",
+    "lead": "スマートフォンやEV向けの次世代電池で、セラミック層の突破メカニズムを解明し実用化が加速。",
+    "body_markdown": "次世代電池として期待される固体電池の実現に向け、重大な技術課題が解明された。リチウムデンドライトと呼ばれる樹状結晶が、固体電池内部のセラミック層を破壊するメカニズムが明らかになった。この知見により、より耐久性が高く安全な固体電池の設計が可能になる。\n\n固体電池は、従来のリチウムイオン電池の液体電解質をセラミック固体に置き換えたもので、より高いエネルギー密度と安全性を持つ。しかし、充放電の繰り返しで、リチウム金属が樹状に成長し、セラミック層に亀裂を入れることが課題だった。この亀裂が進行すると、電池は短絡を起こし、発火リスクが高まる。\n\n研究チームの発見によれば、リチウムデンドライトがセラミック層を突破する過程は、単なる「力ずくの貫通」ではなく、化学的な相互作用と機械的ストレスの複合的な現象である。この理解により、セラミック材料の組成・構造・厚みを最適化することで、デンドライト侵入を防ぐ設計が可能になった。\n\nスマートフォン・電気自動車・定置用蓄電池など、エネルギー貯蔵デバイスの性能向上は社会的に急務である。固体電池の実用化は、電池コストの低下と充電時間の短縮をもたらし、EV の航続距離向上と電力網の安定化に貢献する。",
+    "tags": [
+      "固体電池",
+      "リチウム",
+      "次世代技術",
+      "EV"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260710003533.htm",
+    "importance": 4,
+    "image_query": "battery technology development",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1619641805634-b867f535071c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxiYXR0ZXJ5JTIwdGVjaG5vbG9neSUyMGRldmVsb3BtZW50fGVufDF8MHx8fDE3ODM3NjE5NjV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Roberto Sorin",
+      "profileUrl": "https://unsplash.com/@roberto_sorin?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T09:26:05.718Z",
+    "publishedAt": "2026-07-10T12:29:27.000Z"
+  },
+  {
+    "slug": "20260711-26",
+    "headline": "AI企業、高性能より「コスト×タスク選別」へシフト",
+    "lead": "生成AI市場は「モデルサイズ競争」から「費用対効果と用途適合」の戦略へ転換、実用段階へ突入。",
+    "body_markdown": "生成AI市場の競争構図が根本的に変わりつつある。これまでは「より大きく、より強いモデルの開発」が主流だったが、今、企業は用途・コスト・ユースケースに応じた「適切な規模と能力」のモデル選択へ軸足を移している。\n\nこの変化を象徴するのが、OpenAI の GPT-5.6 ファミリーや、各社による「ライトウェイト言語モデル」の相次ぐリリースである。かつては「最強のモデルを購入して何でも解く」という戦略が主流だったが、今は「軽いタスクには軽いモデルを、重いタスクには重いモデルを、自社の予算と SLA に合わせて組み合わせる」というポートフォリオ戦略が現れた。\n\n企業の意思決定指標も変わった。「ベンチマークスコア」から「1トークンあたりのコスト」「実行時間」「精度のばらつき」へと多角化している。特に大規模言語モデル（LLM）を活用したスタートアップは、高額なモデル API 呼び出しのコストが経営を圧迫するため、より効率的な選択肢を渇望していた。\n\nこの転換は、生成 AI が「実験段階」から「本番運用段階」へ移行したことを示唆している。統計学的に支配的なモデル（frontier model）はもはや必須ではなく、各企業が「自社ユースケースに最適化された組み合わせ」を構築する時代になった。その結果、AI ベンダーの競争軸は「スケール」から「効率とカスタマイズ」へシフトしている。",
+    "tags": [
+      "AI",
+      "言語モデル",
+      "市場戦略",
+      "コスト"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/10/the-ai-race-is-shifting-from-bigger-models-to-cheaper-smarter-systems.html",
+    "importance": 4,
+    "image_query": "business technology investment",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMHRlY2hub2xvZ3klMjBpbnZlc3RtZW50fGVufDF8MHx8fDE3ODM3NjE5NjZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Adeolu Eletu",
+      "profileUrl": "https://unsplash.com/@adeolueletu?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T09:26:06.307Z",
+    "publishedAt": "2026-07-10T21:27:18.000Z"
+  },
+  {
+    "slug": "20260711-27",
+    "headline": "トランプ、イラン脅迫 「壊滅的報復」示唆",
+    "lead": "ハメネイ指導者葬儀での反米デモを受け、米大統領がイランへの軍事的威嚇を表明、地政学リスク高まる。",
+    "body_markdown": "トランプ米大統領がイランに対し、軍事的な威嚇を公然と表明した。ハメネイ最高指導者の葬儀でイラン側の反米デモが激化したことを受けた対抗措置である。米国とイランの緊張は一気に高まり、中東地域全体の不安定性が増した。\n\nトランプは声明で「米国はイランを圧倒的な力で壊滅させる用意がある」と述べ、核問題交渉の進展がない場合の軍事介入をほのめかした。この発言は、前政権時代の「最大圧力キャンペーン」の継続を示唆している。一方、イラン側はこれを挑発と見なし、対抗措置をちらつかせている。\n\nホルムズ海峡周辺の情勢は特に懸念される。同海峡はペルシャ湾の石油輸出口であり、世界のエネルギーサプライチェーンの咽喉である。米国とイランの軍事的対立が激化すれば、海上交通の混乱と油価上昇のリスクが現実化する。\n\nサウジアラビアなど湾岸同盟国は、米国とイランの二国間交渉による安定化を期待しているが、トランプの強硬な言動は和平プロセスを困難にしている。欧州や中国も仲介を模索しているが、米国大統領の強気な姿勢が交渉のハードルを上げている。地政学的リスク資産の価格上昇が懸念される。",
+    "tags": [
+      "イラン",
+      "米国",
+      "中東",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/11/trump-threatens-iran-after-chants-for-his-death-erupted-at-khamenei-funeral",
+    "importance": 4,
+    "image_query": "international politics diplomacy tension",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1668120084348-efc2ba0ad31d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxpbnRlcm5hdGlvbmFsJTIwcG9saXRpY3MlMjBkaXBsb21hY3klMjB0ZW5zaW9ufGVufDF8MHx8fDE3ODM3NjE5Njd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Eric Prouzet",
+      "profileUrl": "https://unsplash.com/@eprouzet?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-11T09:26:07.174Z",
+    "publishedAt": "2026-07-11T08:04:57.000Z"
+  },
+  {
+    "slug": "20260711-28",
+    "headline": "Meta、Instagram AI画像生成機能を中止 反発受け",
+    "lead": "ユーザーの公開投稿を許可なく参照してAI画像生成する機能を停止、ポリシー修正。",
+    "body_markdown": "Meta は Instagram の AI 画像生成機能「Muse Image」を停止した。この機能は、ユーザーが公開アカウントを「@」で指定するだけで、そのアカウントの投稿内容を参照して AI が画像を生成するというものだった。しかし、著作権や肖像権を巡る懸念が急速に高まり、Meta は実装わずか数日で中止を決断した。\n\n問題の焦点は「許可なき参照」である。投稿者の明示的な同意なしに、AI が個人や企業のコンテンツを学習・参照することに対し、クリエイター・権利団体から強い反発が出た。また、一般ユーザーも自身の画像が無断で AI 訓練データに使われることを懸念した。\n\nMeta は公式声明で「ユーザーのフィードバックを受けて、この機能は期待値に達していない」と述べ、実装を一時停止することを明らかにした。同社の意図は「創造的なツール」を提供することだったが、実行方法が不十分だったと認めた形だ。\n\nこの出来事は、生成 AI による著作権・肖像権侵害の懸念が業界全体に波及していることを示している。企業が AI 機能を急速に展開する圧力と、ユーザー・権利保有者の保護の間に、埋めがたい緊張が生まれている。Meta を含むテック大手は、AI 倫理と法的リスクのバランスを取り直す必要がある。",
+    "tags": [
+      "Meta",
+      "AI",
+      "著作権",
+      "プライバシー"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+    "importance": 3,
+    "image_query": "social media AI content generation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T09:26:07.175Z",
+    "publishedAt": "2026-07-10T23:55:07.000Z"
+  },
+  {
+    "slug": "20260711-29",
+    "headline": "中国と北朝鮮、友好条約65周年を祝賀 同盟強化",
+    "lead": "両国が65年前の軍事協力条約を記念し結束を表明、米国との対抗姿勢が際立つ。",
+    "body_markdown": "中国と北朝鮮が、1961年に締結した友好協力相互援助条約の65周年記念を祝賀した。両国指導部は公式声明で同盟関係の強化を誓い、米国との対抗姿勢を明確にした。\n\nこの条約は冷戦初期、中国とソビエト連邦がそれぞれ東アジアの同盟国を支援していた時代に成立した。現在でも、朝鮮戦争以来の相互防衛約束として存続している。毎年この日は両国間の「結束」を象徴する行事として機能してきた。\n\n今年の記念式では、中国側が「米国の覇権に対抗する重要なパートナーシップ」として北朝鮮を位置付け、北朝鮮側も中国への感謝と「共同の敵（米国）への対抗」を述べた。両国はまた、経済協力と人的交流の拡大も約束した。ただし、北朝鮮の国内経済難や国連制裁の影響で、実質的な協力の進展は限定的である。\n\nこの記念式は、米国とその同盟国（日本・韓国・台湾）に対する中朝の結束を示すシグナルである。米国が東アジアでの軍事的プレゼンスを強化する中、中国と北朝鮮はこれに対抗する構図を強調している。ただし、北朝鮮の核兵器開発と中国の大国戦略の間には、微妙な利害ズレも存在する。",
+    "tags": [
+      "中国",
+      "北朝鮮",
+      "同盟",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/11/sealed-in-blood-where-does-the-china-north-korea-alliance-stand-today",
+    "importance": 3,
+    "image_query": "international relations diplomacy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T09:26:07.175Z",
+    "publishedAt": "2026-07-11T08:21:20.000Z"
+  },
+  {
+    "slug": "20260711-30",
+    "headline": "次世代農薬、マルハナバチの生殖を阻害 懸念",
+    "lead": "スルホキサフロル低用量がマルハナバチの遺伝子発現を変化させ、生殖系に影響、ポリネーター危機。",
+    "body_markdown": "次世代殺虫剤「スルホキサフロル」が、マルハナバチの生殖健康に悪影響を与える可能性が示唆された。低用量の曝露でも、生殖系の遺伝子発現が変化することが実験で確認された。この知見は、世界食糧生産の3分の1に依存するポリネーター保護の観点から、重大な懸念を生じさせている。\n\nスルホキサフロルは、従来のネオニコチノイド系殺虫剤よりも「より安全」と位置付けられ、EU や米国で登録が進められていた。しかし、今回の研究で、低濃度の長期曝露が蜜蜂の生殖機能に影響することが判明した。特に、生殖器官の発達と卵巣機能に関わる遺伝子の発現が低下することが観察されている。\n\nマルハナバチなどのポリネーター減少は、全世界的な農業危機の一因とされている。授粉昆虫の喪失は、野菜・果実・種子の収穫量低下を招き、食糧安全保障に直結する。殺虫剤による不可視的な影響（生殖能低下・免疫低下）は、即座の死亡よりも検出が難しく、個体群の急速な衰退をもたらす。\n\n研究者は「殺虫剤の登録審査にあたり、単なる急性毒性だけでなく、長期的・低用量での影響も評価すべき」と提言している。害虫防除と生態系保全の両立は、農業の持続可能性を左右する重要な課題である。",
+    "tags": [
+      "農薬",
+      "マルハナバチ",
+      "生態系",
+      "ポリネーター"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260709160630.htm",
+    "importance": 3,
+    "image_query": "bee pollination agriculture",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T09:26:07.186Z",
+    "publishedAt": "2026-07-10T11:58:21.000Z"
+  },
+  {
+    "slug": "20260711-31",
+    "headline": "英国、学校が危機的高温 40℃超の教室でこもり状態",
+    "lead": "猛暑が英国を襲い、学校の教室が40℃超に達し、生徒の熱中症リスクが深刻化。",
+    "body_markdown": "英国が異常な猛暑に見舞われ、学校の教室が40℃を超える危機的な温度に達している。生徒と教職員が熱中症・脱水症・疲労困憊に陥り、教育現場は機能不全に陥っている。\n\nこの数週間、英国は2回の極端な熱波に襲われた。通常、英国の夏は20～25℃程度だが、今回の気温上昇は例外的である。多くの学校の建物は、高温対策を想定して設計されていない。教室にはエアコンがなく、開け窓による自然換気に頼っているため、40℃を超える外気をそのまま室内に取り込んでしまう。\n\n教育現場からは悲鳴が上がっている。教職員は、生徒を濡れたタオルで冷やしたり、足を水で冷やしたりするなど、応急処置を余儀なくされている。一部の学校は、授業短縮や夏休み前倒しを決定している。医療機関も、子どもの熱中症搬送件数の増加に対応している。\n\nこの事態は、気候変動が先進国でも生活基盤を脅かしていることを示している。英国政府は、学校施設への空調導入やヒートアクションプラン策定を急いでいるが、インフラ改造には時間と資金が必要である。気候危機への適応は、もはや先進国でも無視できない課題となっている。",
+    "tags": [
+      "英国",
+      "猛暑",
+      "気候",
+      "教育"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/education/2026/jul/11/uk-pupils-struggle-extreme-heat-schools-classrooms",
+    "importance": 3,
+    "image_query": "classroom school heat temperature",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T09:26:07.186Z",
+    "publishedAt": "2026-07-11T06:00:41.000Z"
+  },
+  {
+    "slug": "20260711-32",
+    "headline": "英国の政治献金規制、大型寄付監視の動き",
+    "lead": "政治家への巨額献金が問題化、定期的な上限設定と透明性強化を求める声が与野党から。",
+    "body_markdown": "英国の政治献金制度が揺らいでいる。政治家への巨額献金が相次ぎ、背景にある利益相反や政治的影響力の買収疑惑が高まっている。与野党から献金上限設定と透明性強化を求める声が出ている。\n\n問題の焦点は、海外資金の流入と「個人献金」の定義である。最近、改革UK党の党首ナイジェル・ファラージが、タイ在住の暗号資産ビリオネア・クリストファー・ハーボーンから500万ポンド（約8億円）の献金を受けた。ファラージは「個人的な寄付で政治的影響力は求められていない」と弁明したが、議会倫理委員会が調査を開始している。\n\nこの事例を機に、献金制度の課題が浮き彫りになった。現行制度では、「政治的」か「個人的」かの区別が曖昧で、大型寄付の真の意図を検証しにくい。労働党・保守党・自由民主党など各政党は、定期的な献金上限設定と寄付者情報の公開要件強化を検討している。\n\n一方、寄付額の上限化は政治資金調達を困難にするリスクもある。特に野党は、大口個人献金に依存していることが多い。政治的多元性を保ちながら、献金による腐敗を防ぐバランスの取り方が、民主主義の根幹に関わる課題である。",
+    "tags": [
+      "英国",
+      "政治献金",
+      "透明性",
+      "ガバナンス"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/politics/2026/jul/10/how-do-political-donations-work-and-why-are-there-growing-calls-for-a-cap",
+    "importance": 3,
+    "image_query": "politics governance donations",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T09:26:07.187Z",
+    "publishedAt": "2026-07-10T18:24:15.000Z"
+  },
+  {
+    "slug": "20260711-33",
+    "headline": "英国、大手プラットフォームに詐欺広告排除を義務付け",
+    "lead": "Ofcomが提案。Facebook・X・YouTubeなど大手は不正業者をブロックし新規登録を防ぐ義務化。",
+    "body_markdown": "英国通信規制庁（Ofcom）が、Facebook・Instagram・X・Snapchat・YouTube など大手ソーシャルメディア・プラットフォームに対し、詐欺広告排除を法的に義務付ける提案を発表した。プラットフォーム側は不正業者のアカウント作成をブロックし、詐欺的なコンテンツ配信を防ぐ責任を負うことになる。\n\n背景には、オンライン詐欺被害の急増がある。英国ではロマンス詐欺・投資詐欺など、プラットフォーム広告を通じた詐欺事件が相次いでいる。消費者は一見正当に見える広告をクリックし、詐欺師に金銭を奪われている。被害総額は毎年数億ポンドに達するとみられている。\n\nOfcom の提案では、大手プラットフォームに以下の義務が課せられる：(1)詐欺的な広告主の徹底的な検証、(2)不正業者のアカウント凍結と再登録防止、(3)消費者への詐欺警告メッセージの表示。これらの措置を講じない企業には罰金が科せられることになる。\n\n一方、プラットフォーム企業は「完全な詐欺排除は不可能」と主張している。膨大な広告量と多言語コンテンツの審査負荷は極めて大きく、技術的には限界がある。ただし、Ofcom は「プラットフォームは利益を得ているのだから、その代償として一定の監視責任を果たすべき」という立場である。オンライン安全性と言論の自由のバランスが問われている。",
+    "tags": [
+      "英国",
+      "詐欺",
+      "プラットフォーム",
+      "規制"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/media/2026/jul/10/online-platforms-ban-scam-ads-uk-fraud-ofcom-online-safety-act",
+    "importance": 3,
+    "image_query": "digital fraud prevention online safety",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T09:26:07.187Z",
+    "publishedAt": "2026-07-10T16:45:39.000Z"
+  },
+  {
+    "slug": "20260711-34",
+    "headline": "欧州、ホルムズ海峡通行料の可能性検討",
+    "lead": "欧米が任意の航行サービス料金制度を検討。イラン対策と海峡の商業利用の両立模索。",
+    "body_markdown": "欧州とアメリカが、ホルムズ海峡での任意的な通行料金制度を検討している。同海峡はペルシャ湾原油輸出の咽喉で、世界のエネルギー流通の約20%が通過する重要な海上通路である。米国とイランの緊張高まりの中、欧州は海峡の安定運用と商業利用の両立を模索している。\n\nホルムズ海峡での通行料金は、国際海事機関（IMO）が認める方式として存在する。スエズ運河やマラッカ海峡でも導入されており、「任意」という設定が重要である。強制的な通行料は国際海法違反になるが、任意で提供される「航行サービス」への対価は合法である。\n\n英国副首相デービッド・ラミーは、「強制的な料金は経済的に破壊的」と述べながらも、「任意的で国連が認可するサービス料金は検討に値する」との立場を示した。その対象は、海峡内での安全な航行支援・情報提供・救難サービス等である。\n\nこの提案は、イラン対策と海上貿易安定性のバランスを取ろうとするものである。イランは通行料収入を得られ、国際社会は海峡安定性を保証でき、商業船舶は安全な通航を確保できる。ただし、実現には米国・イラン・サウジアラビアなど主要国の同意が必須である。",
+    "tags": [
+      "ホルムズ海峡",
+      "海上貿易",
+      "イラン",
+      "国際"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/jul/11/europe-considers-proposals-navigational-fees-strait-of-hormuz-iran-us",
+    "importance": 3,
+    "image_query": "shipping maritime trade",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T09:26:07.187Z",
+    "publishedAt": "2026-07-11T04:32:15.000Z"
+  },
+  {
+    "slug": "20260711-35",
+    "headline": "サム・フェンダー、英国チャート最長No.1記録 更新",
+    "lead": "英国人アーティストによる最長連続1位記録を樹立、音楽業界で新たな歴史。",
+    "body_markdown": "英国の人気シンガーソングライター、サム・フェンダーが、英国人アーティストによる最長連続シングルNo.1記録を樹立した。Olivia Dean とのコラボレーション曲「Rein Me In」が、連続1位を継続し、過去のどのアーティストも達成していない記録を更新した。\n\nこの記録の達成は、英国の音楽チャート史で注目される出来事である。通常、シングルのチャートトップは数週間から数ヶ月で交代するが、「Rein Me In」の例外的なロングラン人気は、同曲の普遍的な魅力と、フェンダーとディーンの相乗効果を示唆している。\n\nサム・フェンダーはノース・イングランド出身で、社会的メッセージを含む詩的な歌詞とメロディアスなサウンドで知られている。「Rein Me In」は彼の代表曲の一つで、恋愛の複雑性と個人的な葛藤を描いている。この曲が幅広い年代に支持されたことが、記録更新を可能にした。\n\nチャート記録の更新は、音楽産業の構造変化も反映している。ストリーミング時代では、楽曲の再生回数が直結してチャート成績に影響する。従来のシングル販売中心の時代と異なり、ファンの継続的な再生がロングラン人気を支える。サム・フェンダーの記録は、英国ポップスの新時代における成功の一例となった。",
+    "tags": [
+      "サム・フェンダー",
+      "音楽",
+      "チャート",
+      "英国"
+    ],
+    "section": "カルチャー",
+    "source": "BBC Arts",
+    "link": "https://www.bbc.co.uk/news/articles/cn94rdz3e59o",
+    "importance": 3,
+    "image_query": "music chart performance",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T09:26:07.187Z",
+    "publishedAt": "2026-07-10T17:07:43.000Z"
+  },
+  {
+    "slug": "20260711-36",
+    "headline": "Lizzo、バッシングに反論 「前に進む」宣言",
+    "lead": "2023年のセクハラ告発から3年、音楽活動に戻るアーティストが自身の経験と今後を語る。",
+    "body_markdown": "米国のポップスター、Lizzo が、3年前のセクハラ告発と その後のメディア批判について初めて詳しく語った。2023年7月、彼女の元ダンサー3人が、ツアー中のセクハラ・ホスタイル職場環境・宗教的・人種差別を告発した。告発後、リッツォは公の場から姿を消していたが、新作アルバム制作を進めていたことを明かした。\n\n彼女は、告発によるメディアの「パイルオン」と、SNS上での激しいバッシングが精神的に深刻な打撃を与えたことを認めた。同時に、「自分は太い黒人女性で、彼らは常に私を引きずり下ろそうとした」という社会的文脈を提示し、告発者の主張の正当性を否定することなく、自身の経験の複雑性を語った。\n\nリッツォは「完全に反省した」とは述べず、むしろ「自分たちの関係性は相互的だった」という立場を示唆した。ただし、同時に、従業員管理体制の改善と、より安全な職場文化の構築に取り組むことを約束した。彼女の再出発は、音楽業界のセクハラ問題とキャンセルカルチャーの複雑さを象徴している。\n\nアルバム完成後の具体的なリリース時期は明かされていないが、彼女は「音楽を通じて前に進む」という意志を表明した。セレブリティの失脚と再起の物語は、アメリカ社会における正義・赦し・再生の問題を投げかけている。",
+    "tags": [
+      "Lizzo",
+      "音楽",
+      "セクハラ",
+      "カムバック"
+    ],
+    "section": "カルチャー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/music/2026/jul/11/lizzo-interview-answers-critics-accusations-fat-black-happy-girl-tear-me-down",
+    "importance": 3,
+    "image_query": "music artist comeback resilience",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-11T09:26:07.187Z",
+    "publishedAt": "2026-07-11T05:00:41.000Z"
+  },
+  {
     "slug": "20260711-01",
     "headline": "ドイツテレコム、OpenAIと提携し欧州拡大へ",
     "lead": "ドイツ最大手通信企業ドイツテレコムが、OpenAIと複数年にわたる戦略的パートナーシップを発表し、カスタマーサービスから従業員の生産性向上まで、AIを事業全体に統合する計画を明かした。",
