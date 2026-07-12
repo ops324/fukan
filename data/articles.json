@@ -1,5 +1,504 @@
 [
   {
+    "slug": "20260712-26",
+    "headline": "イランがホルムズ海峡の封鎖を宣言、米軍が報復攻撃を開始",
+    "lead": "イラン革命防衛隊は7月12日、ホルムズ海峡を事実上封鎖すると発表し、米軍がイランへの攻撃を開始した。中東情勢の急速な緊迫化を示唆している。",
+    "body_markdown": "イラン革命防衛隊は7月12日、ホルムズ海峡で船舶がイラン側の定める航路を通らなかったとして警告射撃を行い、「追って通知あるまでホルムズ海峡は封鎖」と宣言した。米軍はコンテナ船が攻撃を受けたと判断し、イランへの軍事行動を開始したと発表している。\n\nホルムズ海峡は世界のエネルギー供給の要衝で、日々の石油・ガス輸送の多くがこの海域を通過する。今回の事態は原油価格の急騰やサプライチェーンの混乱を招く恐れがある。国連安全保障理事会は緊急会合を開くなど、国際社会が対応に動いている。\n\n日本も直ちに代替調達ルートへの切り替えを進めている。エネルギー安全保障の観点から、地政学的リスクがあらわになった形だ。",
+    "tags": [
+      "中東情勢",
+      "イラン",
+      "ホルムズ海峡",
+      "エネルギー",
+      "米国"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015174811000",
+    "importance": 5,
+    "image_query": "strait water ship tanker",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1518527989017-5baca7a58d3c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzdHJhaXQlMjB3YXRlciUyMHNoaXAlMjB0YW5rZXJ8ZW58MXwwfHx8MTc4Mzg0NzY5NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Shaah Shahidh",
+      "profileUrl": "https://unsplash.com/@shaahshahidh?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-12T09:14:54.461Z",
+    "publishedAt": "2026-07-12T08:27:59.000Z"
+  },
+  {
+    "slug": "20260712-27",
+    "headline": "米上院の重鎮Lindsey Graham議員が急逝、71歳",
+    "lead": "共和党の有力議員Lindsey Graham上院議員が7月12日、急性疾患のため急逝した。イスラエルの強力な支援者として知られていた。",
+    "body_markdown": "米国のLindsey Graham上院議員（共和党・サウスカロライナ州選出）が7月12日に急逝した。71歳だった。家族の声明によれば「短期間の疾患後に逝去した」という。\n\nGraham議員は1994年から下院議員を務め、2002年から上院議員として24年間サウスカロライナ州を代表してきた。米軍に属する弁護士として6年以上、その後予備役として20年以上にわたり軍務に携わった経歴を持つ。\n\n政治的には2003年のイラク侵攻の強力な支持者であり、イランに対する軍事行動を一貫して主張してきた。当初はドナルド・トランプを批判していたが、その後は議会内での最強力な支持者の一人となった。イスラエル防衛省は彼の逝去を悼む声明を発表し、「イスラエルが最も困難な時に立ち上がった」と記した。",
+    "tags": [
+      "米国政治",
+      "上院議員",
+      "訃報",
+      "共和党"
+    ],
+    "section": "政治",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/12/us-senator-lindsey-graham-passes-away",
+    "importance": 4,
+    "image_query": "politician senate meeting",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxwb2xpdGljaWFuJTIwc2VuYXRlJTIwbWVldGluZ3xlbnwxfDB8fHwxNzgzODQ3Njk1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "History in HD",
+      "profileUrl": "https://unsplash.com/@historyhd?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-12T09:14:55.429Z",
+    "publishedAt": "2026-07-12T06:27:06.000Z"
+  },
+  {
+    "slug": "20260712-28",
+    "headline": "OpenAI「GPT-5.6」を一般公開、Anthropicのモデルに対抗",
+    "lead": "OpenAIが新型AIモデル「GPT-5.6」シリーズを発表。最高峰の「Sol」はAnthropicのFable 5と同等性能でコストは半分とうたっている。",
+    "body_markdown": "OpenAIは7月10日、新しいAIモデルシリーズ「GPT-5.6」を公開した。ラインアップは3段階に分かれ、最高性能の「Sol」、バランス型の「Terra」、低コストの「Luna」がある。\n\nSolの性能はAnthropicのFable 5と比較して、汎用ベンチマークでは若干劣る（Sol 58.9点 vs Fable 5 59.9点）ものの、「61%高速で、コストは約半分」という。特にコーディングタスクではSolが優位で、Artificial Analysis Coding Agent Indexで80点を獲得し、Fable 5を上回った。\n\n価格体系はSolが百万トークンあたり入力5ドル・出力30ドル。TerraはSolの半値、Lunaは無料層向けの最低価格。各ChatGPTプランで利用可能な階層が異なる。\n\nただし一部評価指標（SWE-Bench Pro）ではFable 5（80%）がSol（64.6%）を大きく上回るなど、性能は評価軸で変動する。",
+    "tags": [
+      "生成AI",
+      "OpenAI",
+      "GPT",
+      "AI競争",
+      "言語モデル"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/10/2000000183/",
+    "importance": 4,
+    "image_query": "artificial intelligence code programming",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1537884944318-390069bb8665?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGNvZGUlMjBwcm9ncmFtbWluZ3xlbnwxfDB8fHwxNzgzODQ3Njk2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Pankaj Patel",
+      "profileUrl": "https://unsplash.com/@pankajpatel?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-12T09:14:56.323Z",
+    "publishedAt": "2026-07-10T03:09:08.000Z"
+  },
+  {
+    "slug": "20260712-29",
+    "headline": "ビノード・コスラが96億ドルでSeattle Seahawks買収",
+    "lead": "テック投資家ビノード・コスラがNFL傘下のシアトル・シーホークスを96億ドルで買収することで合意した。スポーツ特別買収では過去最高級の評価額。",
+    "body_markdown": "テク投資家ビノード・コスラとその家族が、NFL（米プロフットボール）のシアトル・シーホークスを96億ドルで買収することで合意した。複数の関係者が明かした。この金額はスポーツチームの支配権取得における過去最大級の評価額に接近している。\n\nコスラはApollonia Ventures創業者で、クリーンテック・AIへの投資で知られている。シーホークスはポール・アレン元マイクロソフト会長の故人の遺産として代々管理されてきた。今回の買収はテク業界の資金がスポーツ産業へ流入する象徴的な事例とも言える。\n\nNFL球団の買収価格は近年上昇傾向にあり、このディール成立によってスポーツの商業化がさらに進む可能性がある。",
+    "tags": [
+      "スポーツ買収",
+      "NFL",
+      "テック投資",
+      "ビジネス",
+      "米国"
+    ],
+    "section": "ビジネス",
+    "source": "Variety",
+    "link": "https://variety.com/2026/tv/news/vinod-khosla-buy-nfl-seattle-seahawks-paul-allen-49ers-1236807365/",
+    "importance": 4,
+    "image_query": "football stadium sports",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxmb290YmFsbCUyMHN0YWRpdW0lMjBzcG9ydHN8ZW58MXwwfHx8MTc4Mzg0NzY5N3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mario Klassen",
+      "profileUrl": "https://unsplash.com/@marioklassen?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-12T09:14:57.207Z",
+    "publishedAt": "2026-07-12T01:22:35.000Z"
+  },
+  {
+    "slug": "20260712-30",
+    "headline": "Microsoftのカーボン排出が25%増加、AI展開で気候目標が揺らぐ",
+    "lead": "2025年度のMicrosoftカーボン排出量が前年比25%増加し、3400万メトリックトンに達した。データセンター拡張が主因。2030年カーボンネガティブ目標の達成が課題に。",
+    "body_markdown": "Microsoftは2026年度の持続可能性報告書で、2025年のカーボン排出量が25%増加して3400万メトリックトン（「介入なし」ベース）に達したことを明かした。急速なAI展開に伴うデータセンター基盤の拡張が主な原因だという。\n\n同社は数年前、2030年までにカーボンネガティブ（排出量以上を吸収）を達成する目標を掲げていた。しかし急成長するクラウド・AI需要への対応には、膨大なエネルギーが必要となる。またMicrosoftは2月に、環境認証の低い再生可能エネルギー証書の購入を中止する決定も行った。\n\nAI企業各社は性能競争と気候責任のバランスに直面している。Microsoftはこうした課題を公開することで、業界内での透明性を示唆する一方、実現可能性の再検討を迫られている。",
+    "tags": [
+      "AI",
+      "環境",
+      "カーボン排出",
+      "Microsoft",
+      "気候変動"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
+    "importance": 4,
+    "image_query": "data center servers energy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1682559736721-c2e77ff4c650?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxkYXRhJTIwY2VudGVyJTIwc2VydmVycyUyMGVuZXJneXxlbnwxfDB8fHwxNzgzODQ3Njk3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Lightsaber Collection",
+      "profileUrl": "https://unsplash.com/@lightsabercollection?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-12T09:14:57.733Z",
+    "publishedAt": "2026-07-10T00:04:13.000Z"
+  },
+  {
+    "slug": "20260712-31",
+    "headline": "Yale研究がパーキンソン病の進行メカニズムを解明、治療道開く",
+    "lead": "Yale大学の研究者が、2つの神経表面タンパク質がパーキンソン病の毒性タンパク質拡散を促進することを発見。動物実験で阻害によって症状が抑制された。",
+    "body_markdown": "Yale大学の科学者らが、パーキンソン病において毒性タンパク質（α-シヌクレイン）の脳内拡散を助長する2つの神経表面タンパク質「mGluR4」と「NPDC1」を特定した。Nature Communications誌に発表された。\n\n研究チームは4400の細胞集団を網羅的にスクリーニングし、異常折り畳みのあるα-シヌクレインが16の表面タンパク質に結合することを確認した。そのうちmGluR4とNPDC1が、ドーパミン産生ニューロンにおける疾患進行で最も重要な役割を果たしていた。\n\n遺伝子改変マウスで双方のタンパク質のいずれかを除去すると、症状の発症が防止され、疾患の進行が減速した。シニア研究者Stephen Strittmatterは「ニューロンへの進入メカニズムが理解できれば、進行を遅延または阻止できる可能性がある」とコメントした。\n\n現在の治療は症状管理に限定されるが、本研究は神経変性を根本から対処する疾患修飾療法への道を切り開く。",
+    "tags": [
+      "医学",
+      "神経科学",
+      "パーキンソン病",
+      "研究",
+      "治療"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260710003529.htm",
+    "importance": 4,
+    "image_query": "laboratory brain neuron research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxsYWJvcmF0b3J5JTIwYnJhaW4lMjBuZXVyb24lMjByZXNlYXJjaHxlbnwxfDB8fHwxNzgzODQ3Njk4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Robina Weermeijer",
+      "profileUrl": "https://unsplash.com/@averey?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-12T09:14:58.683Z",
+    "publishedAt": "2026-07-12T02:06:14.000Z"
+  },
+  {
+    "slug": "20260712-32",
+    "headline": "10年以上前から予測の量子材料、ついに実現　室温量子デバイス実現へ弾み",
+    "lead": "物理学者が10年以上前に理論化された二次元量子材料を初めて実験的に製造成功。室温での量子電子デバイス実現の可能性が広がった。",
+    "body_markdown": "フィンランドの大学の物理学者チームが、10年以上前に理論予測されていた二次元トポロジカル結晶絶縁体を初めて実験的に創製した。Nature Communications誌に掲載。\n\n研究チームは、スズテルル化物（SnTe）の2層薄膜をニオブジセレン化物（NbSe2）基板上に構築することで、前例なき伝導エッジ状態を持つ量子材料を製造した。この伝導特性は歪みによって調整可能で、スピンベース電子機器の開発に向けた実験台として機能する。\n\n特筆すべきは、電子バンドギャップが大きいため、理論上は室温でもトポロジカル特性が安定して維持されるということだ。従来の量子デバイスは極低温を必要としていたが、本成果は常温での実用化の道を大きく拓く。スピンエレクトロニクスやナノスケール応用への展開が期待される。",
+    "tags": [
+      "量子技術",
+      "物理学",
+      "材料科学",
+      "電子機器",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260711010123.htm",
+    "importance": 4,
+    "image_query": "quantum material physics laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1690683789766-93253a3422c1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxxdWFudHVtJTIwbWF0ZXJpYWwlMjBwaHlzaWNzfGVufDF8MHx8fDE3ODM4NDc3MDB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brecht Corbeel",
+      "profileUrl": "https://unsplash.com/@brechtcorbeel?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-12T09:15:00.274Z",
+    "publishedAt": "2026-07-11T07:03:53.000Z"
+  },
+  {
+    "slug": "20260712-33",
+    "headline": "フェイク報道で投資詐欺、ソーシャルメディアを悪用する新たな手口",
+    "lead": "詐欺師がThe Guardianなど著名紙になりすまし、有名人の金銭取引を報じるフェイク記事を作成して投資詐欺サイトへ誘導する手口が蔓延。",
+    "body_markdown": "詐欺師がThe Guardianやその他の大手メディアの記事に酷似した偽造記事を作成し、ソーシャルメディアで拡散して投資詐欺サイトへ誘導する詐欺が横行している。\n\nSocial Mediaで流布している虚偽記事の典型例は、著名ビジネスマン・ジム・ラットクリフが秘密の投資プラットフォームで莫大な利益を得たという内容。記事には本人が使用しているとされるプラットフォームへのリンクが埋め込まれ、暗号資産や株式の取引へ誘導する。被害者は初期投資でプラットフォームにアクセスできても、引き出しはできない仕組みだ。\n\nメディアリテラシーの欠如を狙った詐欺で、特に高齢者やインターネット経験の浅い層が狙われやすい。プラットフォーム企業のコンテンツモデレーション強化と利用者側の警戒が課題である。",
+    "tags": [
+      "詐欺",
+      "ソーシャルメディア",
+      "投資詐欺",
+      "サイバーセキュリティ",
+      "メディアリテラシー"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/money/2026/jul/12/clone-news-sites-faked-scam-investment-sites-social-media",
+    "importance": 4,
+    "image_query": "fraud scam computer screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1608742213509-815b97c30b36?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxmcmF1ZCUyMHNjYW0lMjBjb21wdXRlciUyMHNjcmVlbnxlbnwxfDB8fHwxNzgzODQ3NzAwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jake Walker",
+      "profileUrl": "https://unsplash.com/@jakewalker?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-12T09:15:00.990Z",
+    "publishedAt": "2026-07-12T06:00:11.000Z"
+  },
+  {
+    "slug": "20260712-34",
+    "headline": "「スーパーエルニーニョ」が食料価格を直撃、2028年まで高騰続く恐れ",
+    "lead": "経済学者が「スーパーエルニーニョ」と呼ばれる異常な気候現象が2026年に発生すれば、世界の食料価格が2028年まで激変する可能性を警告。イラン戦争による価格上昇に加えて重ねての打撃。",
+    "body_markdown": "経済学者らが、2026年に発生する可能性のある「スーパーエルニーニョ」気象パターンが、世界の食料価格に深刻な衝撃をもたらす可能性を警告している。現在、イラン情勢の不安定化により食品価格がすでに3年ぶりの高水準に達しているのに加え、エルニーニョに伴う供給の混乱が「二重ショック」をもたらす可能性があるという。\n\nエルニーニーニョは太平洋の水温変動に由来する自然気象現象だが、今回は「スーパー」級の強度が予想されている。これに地球温暖化が絡み、穀物生産地での水不足や冷害のリスクが高まる。影響は2028年まで持続する見込み。\n\n農業生産国の多くは東南アジアやアフリカであり、貧困層の食糧確保が脅かされる可能性が高い。国連の食糧計画も備蓄と供給多元化の必要性を強調している。",
+    "tags": [
+      "気候変動",
+      "食料安全保障",
+      "経済",
+      "自然災害",
+      "インフレ"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/jul/12/super-el-nino-severe-shock-global-food-prices-lasting-into-2028-economists-warn",
+    "importance": 4,
+    "image_query": "weather climate agriculture farm",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1596753365498-2d23bbfcbc24?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx3ZWF0aGVyJTIwY2xpbWF0ZSUyMGFncmljdWx0dXJlJTIwZmFybXxlbnwxfDB8fHwxNzgzODQ3NzAxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brandon Green",
+      "profileUrl": "https://unsplash.com/@brandgreen?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-12T09:15:02.043Z",
+    "publishedAt": "2026-07-12T07:00:11.000Z"
+  },
+  {
+    "slug": "20260712-35",
+    "headline": "コンゴでエボラ治療試験が開始、6週間の異例の速さで患者受け入れ",
+    "lead": "アフリカ民主共和国でエボラ治療薬の臨床試験が始まった。アウトブレーク宣言からわずか6週間での実施は業界記録級。死亡率低減の希望につながるか。",
+    "body_markdown": "アフリカ民主共和国（DRC）でエボラ出血熱の治療薬臨床試験が患者受け入れを開始した。イトゥリ地域で2種類の治療薬がテストされている。\n\n特筆すべきは、試験開始の迅速性だ。世界保健機関（WHO）が5月17日に公衆衛生上の国際的懸念事態として宣言してから、わずか6週間での開始となった。通常、臨床試験の準備には数カ月から数年を要するが、今回の社会的・医学的緊急性がこの異例の加速を可能にした。\n\n従来、エボラ対策は隔離と支持療法が中心で、特効薬がない状態が続いてきた。今回の試験成功は、死亡率低減と将来のアウトブレーク対応の大きな転機となり得る。複数の国際機関が高い関心を寄せている。",
+    "tags": [
+      "医学",
+      "伝染病",
+      "アフリカ",
+      "治療薬",
+      "国際保健"
+    ],
+    "section": "国際・地政学",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/global-development/2026/jul/12/record-breaking-ebola-treatment-trial-drc",
+    "importance": 4,
+    "image_query": "medical laboratory virus research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1578496480240-32d3e0c04525?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxtZWRpY2FsJTIwbGFib3JhdG9yeSUyMHZpcnVzJTIwcmVzZWFyY2h8ZW58MXwwfHx8MTc4Mzg0NzcwMnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-12T09:15:02.732Z",
+    "publishedAt": "2026-07-12T08:00:12.000Z"
+  },
+  {
+    "slug": "20260712-36",
+    "headline": "セロトニンが心弁膜疾患に関連、Columbia大学が新知見を発表",
+    "lead": "Columbia大学の科学者が、気分調整で知られるセロトニンが心弁膜疾患の進行速度に関連することを発見。SSRI系抗うつ薬の影響が浮上。",
+    "body_markdown": "Columbia大学の研究者が、気分調整に関連するホルモン・セロトニンが、僧帽弁不全などの心弁膜疾患の進行を加速させる可能性があることを発見した。\n\n研究チームは、僧帽弁不全患者のうち、SSRI系抗うつ薬を服用し、特定の遺伝的変異を持つ個人では、心弁膜の障害が急速に進行し、より早期の外科手術が必要になる可能性があることを示した。\n\nセロトニンは脳内の神経伝達物質として周知されているが、心臓組織にも受容体が存在し、弁の組織構造に影響を与える可能性が示唆された。高齢化社会において、抗うつ薬服用者の心疾患管理は重要な臨床課題になりつつある。",
+    "tags": [
+      "医学",
+      "心臓病",
+      "神経化学",
+      "薬学",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260711010131.htm",
+    "importance": 3,
+    "image_query": "heart medical cardiology laboratory",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-12T09:15:02.732Z",
+    "publishedAt": "2026-07-12T03:11:19.000Z"
+  },
+  {
+    "slug": "20260712-37",
+    "headline": "Microsoft 365 CopilotにOpenAI最新モデル「GPT-5.6」が追加される",
+    "lead": "MicrosoftがM365スイート向けAI機能「Microsoft 365 Copilot」にOpenAIの最新AIモデル「GPT-5.6」を追加すると発表。複雑なタスク処理が効率化される見込み。",
+    "body_markdown": "Microsoftは、WordやExcel、PowerPointなどOffice 365スイートに搭載されたAI機能「Microsoft 365 Copilot」に、OpenAIの最新AIモデル「GPT-5.6」シリーズを段階的に追加すると発表した。\n\nGPT-5.6の導入により、ユーザーは複雑な文書作成、データ分析、プレゼンテーション作成などの作業をより効率的に処理できるようになる。特にSolモデルは高度な推論タスクで高性能を発揮するため、知識作業者の生産性向上が見込まれている。\n\nMicrosoftはこれまでOpenAIの複数モデルと提携関係にあるが、今回の統合により、既存のCopilot利用者は追加手続きなしに最新性能にアップグレードされる予定。企業向けクラウド戦略の重要な位置付けとなっている。",
+    "tags": [
+      "生成AI",
+      "生産性",
+      "Microsoft",
+      "OpenAI",
+      "ビジネス"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/10/2000000184/",
+    "importance": 4,
+    "image_query": "office computer work productivity",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1629904853716-f0bc54eea481?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxvZmZpY2UlMjBjb21wdXRlciUyMHdvcmslMjBwcm9kdWN0aXZpdHl8ZW58MXwwfHx8MTc4Mzg0NzcwM3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Compagnons",
+      "profileUrl": "https://unsplash.com/@sigmund?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-12T09:15:03.341Z",
+    "publishedAt": "2026-07-10T07:16:10.000Z"
+  },
+  {
+    "slug": "20260712-38",
+    "headline": "テスラ車でAI「Grok」と会話できる、日本でも展開へ",
+    "lead": "テスラ車内でX (旧Twitter) のAI「Grok」と音声対話が可能になった。日本でもプレミアム通信プランで利用可能に。ナビやルート確認が音声で可能に。",
+    "body_markdown": "テスラの日本法人が7月10日、テスラ車内でElon MuskのX傘下のAI「Grok」と対話できる機能の提供を開始したと発表した。日本市場への展開により、ユーザーは音声対話でナビゲーション設定やルート確認など車内機能を操作できるようになる。\n\n利用には、ソフトウェアバージョン2026.20以降と「プレミアムコネクティビティ」（月額有料の車内通信プラン）の契約が必要。Grokは自然言語処理を活用した生成AIで、運転中の安全性を損なわない音声インターフェースとして機能する。\n\n自動車産業におけるAI統合は急速に進行中だ。テスラはAI音声アシスタント機能を強化することで、ドライバー体験を向上させ、競合他社（特にApple CarPlayなど）との差別化を図っている。",
+    "tags": [
+      "AI",
+      "テスラ",
+      "自動運転",
+      "音声アシスタント",
+      "日本"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/articles/2607/10/news157.html",
+    "importance": 3,
+    "image_query": "car vehicle technology dashboard",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-12T09:15:03.341Z",
+    "publishedAt": "2026-07-10T12:15:00.000Z"
+  },
+  {
+    "slug": "20260712-39",
+    "headline": "南シナ海仲裁判断から10年、14カ国が中国の順守を要求",
+    "lead": "南シナ海領有権紛争の国際仲裁判断が採択されて10年。日本など14カ国が共同声明を発表し、中国に最終判断の受け入れを要求した。",
+    "body_markdown": "2016年の南シナ海仲裁判断から12日で10年を迎えた。この判断は、中国の領有権主張を退け、南シナ海をめぐる国際法上の秩序を示すものだった。これを受け、日本、米国、豪州、アセアン各国など14カ国が共同声明を発表し、仲裁判断が「最終的で決定的」であり、すべての当事国が順守すべき原則を確認した。\n\n中国はこれまで仲裁判断の履行に消極的で、南シナ海での軍事的活動を継続している。声明は、国際法の支配と紛争の平和的解決を重視する立場を改めて強調した形だ。\n\n南シナ海は世界の海運の約3分の1が通過する戦略的要衝。領有権紛争の長期化は、地域の安定性と世界経済に直結する課題である。",
+    "tags": [
+      "南シナ海",
+      "領有権",
+      "国際法",
+      "中国",
+      "アセアン"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015174871000",
+    "importance": 3,
+    "image_query": "sea ocean ship asia pacific",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-12T09:15:03.341Z",
+    "publishedAt": "2026-07-12T03:23:45.000Z"
+  },
+  {
+    "slug": "20260712-40",
+    "headline": "生成AIが日常に根付く、約6割が「使えなくなると困る」と回答",
+    "lead": "ICT総研の調査で、生成AIサービスが利用できなくなると困ると答えた人が約6割に達した。日本でもAIが生活インフラ化が進行している。",
+    "body_markdown": "ICT総研が実施した調査で、生成AIが利用できなくなると困ると答えた回答者が約60%に上ることが判明した。生成AIサービスは単なるツールから生活・仕事の一部として定着しつつある。\n\n一方で、生成AIの登場により利用頻度が減ったものの1位は「検索エンジン」だった。チャットボット型AIで直接回答を得られるため、従来の情報検索手段の重要性が相対的に低下している実態が示された。\n\n世代別では、若年層だけでなく中高年層でも利用が広がっており、AI活用スキルが今後の雇用競争力を左右する可能性が高い。企業や教育機関によるAI教育の充実化が急務となっている。",
+    "tags": [
+      "生成AI",
+      "日本",
+      "ユーザー調査",
+      "デジタル化",
+      "ライフスタイル"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/10/news056.html",
+    "importance": 3,
+    "image_query": "artificial intelligence chat computer",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-12T09:15:03.341Z",
+    "publishedAt": "2026-07-10T04:00:00.000Z"
+  },
+  {
+    "slug": "20260712-41",
+    "headline": "日本がホルムズ海峡迂回ルートで原油調達を推進、代替戦略が成功",
+    "lead": "イラン情勢の悪化に対応し、日本が海峡を迂回したルートでの原油調達を進めている。代替調達の効果により、原油輸入の減少幅が縮小傾向にある。",
+    "body_markdown": "イラン革命防衛隊がホルムズ海峡の実質的な封鎖を宣言したことを受け、日本政府はホルムズ海峡を通らないルートでの原油調達を加速させている。\n\nオマン沖を経由する南回りのルートや、イラン北部を迂回する陸上パイプラインを活用することで、代替調達を推進。初期段階では原油輸入量が減少したが、ルート多元化の効果により、減少幅の縮小傾向が観測されている。\n\nホルムズ海峡は世界のエネルギー供給の約3割を経由する要衝だが、日本はサウジアラビアやアラブ首長国連邦からの調達を多角化することでリスク分散を図っている。ただし迂回ルートは運搬コスト増加につながり、ガソリン価格に影響を与える可能性がある。",
+    "tags": [
+      "エネルギー",
+      "原油",
+      "日本",
+      "サプライチェーン",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015175001000",
+    "importance": 3,
+    "image_query": "oil tanker ship sea transport",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-12T09:15:03.341Z",
+    "publishedAt": "2026-07-12T07:21:28.000Z"
+  },
+  {
+    "slug": "20260712-42",
+    "headline": "妊娠が脳を変える、第2子で異なるパターンを発見",
+    "lead": "科学者が、妊娠するたびに脳神経構造が異なる方式で変化することを発見。第2子妊娠では第1子と異なるパターン。周産期うつ対策への応用に期待。",
+    "body_markdown": "ScienceDailyの報道によると、科学者らが、複数の妊娠がそれぞれ異なるパターンで脳を再構成することを発見した。第1子妊娠と第2子妊娠では異なる神経構造の変化が起こり、特に周産期精神保健（妊娠・産後のメンタルヘルス）に関連する脳領域が影響を受けるという。\n\n妊娠中のホルモン変化がもたらす脳の可塑性は長年知られていたが、妊娠ごとの個別性が実証されたのは初めてだ。この知見は、妊娠による脳変化と周産期うつ病の発症リスクの関連性を理解し、予防・治療戦略の開発に直結する。\n\n高齢出産の増加に伴い、周産期メンタルヘルスは公衆衛生上の重要な課題だ。個別化医療への展開も期待されている。",
+    "tags": [
+      "神経科学",
+      "妊娠",
+      "脳科学",
+      "医学",
+      "メンタルヘルス"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260711010125.htm",
+    "importance": 4,
+    "image_query": "brain neuroscience medical research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1679639539537-0d2e452890f7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxicmFpbiUyMG5ldXJvc2NpZW5jZSUyMG1lZGljYWwlMjByZXNlYXJjaHxlbnwxfDB8fHwxNzgzODQ3NzA0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "KOMMERS",
+      "profileUrl": "https://unsplash.com/@kommers?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-12T09:15:04.266Z",
+    "publishedAt": "2026-07-11T11:37:04.000Z"
+  },
+  {
+    "slug": "20260712-43",
+    "headline": "Googleが広告表示時にAI生成の有無を開示、透明性を強化",
+    "lead": "GoogleがGoogle SearchやYouTubeで表示される広告について、AI生成・編集の有無を示す新ラベルを導入。AI時代のメディアリテラシー向上を狙う。",
+    "body_markdown": "Googleは、Google SearchやGoogle Discover、YouTubeに表示される広告に対し、AI生成・編集の有無を示す新しいラベルを導入する。ユーザーが広告下の情報ボタンをタップすることで「how this ad was made」セクションに表示される。\n\nGoogleの生成AI広告作成ツールで作成された広告には自動的にラベルが付与される。一方、他のツールで作成されたAI広告に関しては、広告主が手動でラベルを設定する必要がある。今後段階的に、複数地域での展開が予定されている。\n\nAI技術の浸透に伴い、消費者が広告の出処を理解することの重要性が高まっている。同施策は業界での透明性向上の先例となる可能性がある。",
+    "tags": [
+      "AI",
+      "広告",
+      "透明性",
+      "メディアリテラシー",
+      "Google"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
+    "importance": 3,
+    "image_query": "advertising digital marketing technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-12T09:15:04.267Z",
+    "publishedAt": "2026-07-09T20:11:38.000Z"
+  },
+  {
+    "slug": "20260712-44",
+    "headline": "アジア産トノサマバッタがヨーロッパで繁殖拡大、在来種を脅かす",
+    "lead": "アジア産の大型トノサマバッタ2種がヨーロッパに侵入・繁殖し、生態系の脅威として正式に侵襲生物に指定された。気候変動と都市化が拡大を加速。",
+    "body_markdown": "科学者らがアジア産の2種類の大型トノサマバッタが、ヨーロッパ全域に急速に拡散していることを警告している。これら外来捕食者は、気候変動と都市環境を利用して北上を続けており、在来のトノサマバッタ個体群を脅かしているという。\n\n本研究は生態系への多面的な影響を指摘している。アジア産トノサマバッタは生殖行動が凶暴で、在来のトノサマバッタと交配する際に致死的な結果をもたらす。同時に、蝶などの受粉媒介昆虫を含む小型無脊椎動物への捕食圧が高い。\n\n気温上昇がこれらの熱帯適応種の越冬を可能にし、ブドウ畑や農業地帯での大量繁殖につながっている。ヨーロッパの食糧生産と自然保護双方の視点から、長期的な対策が急務である。",
+    "tags": [
+      "生態系",
+      "侵襲生物",
+      "気候変動",
+      "欧州",
+      "生物多様性"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260710003540.htm",
+    "importance": 3,
+    "image_query": "insect grasshopper nature wildlife",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-12T09:15:04.267Z",
+    "publishedAt": "2026-07-11T12:53:55.000Z"
+  },
+  {
+    "slug": "20260712-45",
+    "headline": "ホワイトハウス、「宇宙人説」主唱の天体物理学者をUFO科学諮問会議の長に指名",
+    "lead": "White Houseがハーバード大学の著名天体物理学者Avi Loebを、UAP (未確認異常現象) 科学諮問会議の議長に指名。UFO研究の学術化が進む。",
+    "body_markdown": "White HouseはUAP（Unidentified Anomalous Phenomena・未確認異常現象）Science Advisory Councilの議長にハーバード大学の著名天体物理学者Avi Loebを指名した。同会議は2024年、White House、Pentagon、National Intelligence Director等により設立されている。\n\nLoebは公然と宇宙人起源説を主張する著名人で、過去には恒星間物体「ウムウアムア」を宇宙船の可能性があると提唱し、業界内で賛否を呼んだ。同時に彼の学術的経歴は堅牢で、複数のピア・レビュー論文を発表している。\n\n同科学会議は、UAP現象の本質を「解明」するため、物理学者・病理学者・計算機科学者・哲学者・心理学者など幅広い分野の専門家を集めている。政府主導でUAP研究の学術化を進める施策として注目される。",
+    "tags": [
+      "UFO",
+      "宇宙科学",
+      "ホワイトハウス",
+      "研究",
+      "天体物理学"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/science/964478/white-house-avi-loeb-aliens-ufo-uap-council",
+    "importance": 3,
+    "image_query": "space universe star sky",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-12T09:15:04.267Z",
+    "publishedAt": "2026-07-11T14:18:33.000Z"
+  },
+  {
     "slug": "20260712-01",
     "headline": "SK Hynixが265億ドルのIPO—米国半導体産業への圧力",
     "lead": "韓国メモリ大手SK Hynixが米国上場で265億ドルを調達、米国外企業の最大級IPOとなった。米国政府は米国内の工場建設を要求。",
