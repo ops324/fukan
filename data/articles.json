@@ -1,5 +1,379 @@
 [
   {
+    "slug": "20260714-01",
+    "headline": "ベネズエラ大地震、死者4500人超に",
+    "lead": "ベネズエラの大地震で死者が4500人を超え、日本の援助隊も捜索活動に参加。",
+    "body_markdown": "6月24日に発生したベネズエラの大地震は、現時点で4500人以上の死亡が確認されており、被害は日を追うごとに増加している。被害が集中している地域では、住民らが行方不明者の捜索を続けているものの、がれきの下での「パンケーキクラッシュ」と呼ばれる現象が相次ぐなど、捜索活動は難航している。\n\n日本政府は350万ドル（約5億円相当）の緊急無償資金協力を実施し、日本の国際緊急援助隊も現地での捜索・救助活動に当たっている。\n\nベネズエラは南米の石油資源国だが、政治的混乱と経済危機により、事前の防災投資や建設基準の徹底が十分ではなく、自然災害への耐性が低いとされている。今回の大地震は、発展途上国における防災インフラ整備の重要性を改めて浮き彫りにした。国連など国際機関も支援体制を構築しており、今後、被害の全容把握と中長期的な復興支援が課題となる。",
+    "tags": [
+      "自然災害",
+      "ベネズエラ",
+      "国際援助",
+      "大地震"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015176181000",
+    "importance": 5,
+    "image_query": "earthquake rescue rubble",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1617585411149-54e9fdf60348?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxlYXJ0aHF1YWtlJTIwcmVzY3VlJTIwcnViYmxlfGVufDF8MHx8fDE3ODM5Nzc3Nzl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Carl Campbell",
+      "profileUrl": "https://unsplash.com/@carlbcampbell?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-13T21:22:59.837Z",
+    "publishedAt": "2026-07-13T20:44:50.000Z"
+  },
+  {
+    "slug": "20260714-02",
+    "headline": "トランプ、イラン海上封鎖再開、ホルムズ海峡で20%通行料",
+    "lead": "トランプ大統領がイランの港湾封鎖を再開し、ホルムズ海峡の全輸送品に対して20%の通行料を徴収する方針を宣言。",
+    "body_markdown": "ドナルド・トランプ米大統領は7月13日、イランの港湾に対する海上封鎖を再開するとともに、ホルムズ海峡を通過するすべての貨物に対して20%の通行料を徴収する方針を表明した。トランプ大統領は米国を海峡の「守護者」と位置付け、保護の対価として料金徴収を正当化している。\n\n6月中旬に米国とイランが署名した一時的な停戦協定は、テヘランによる海峡での料金徴収を明示的に禁止していたが、同協定は最近の相次ぐ地域での攻撃によって骨抜きにされ、トランプ大統領は先週、停戦が「終わった」と宣言していた。\n\nこの措置に対し、国連の海事機関（IMO）は直ちに反発を表明。国際法では、国際航行用の海峡での通行料徴収は違法とされており、米国自身も過去にイランの同様の試みを非難してきた。米軍とイランの革命防衛隊は相次いで大規模な報復攻撃を展開しており、中東情勢はさらに緊迫している。世界の石油供給の3分の1がホルムズ海峡を通過するため、この紛争が長期化すれば世界経済への影響も懸念される。",
+    "tags": [
+      "中東紛争",
+      "イラン",
+      "トランプ",
+      "経済制裁",
+      "国際法"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o",
+    "importance": 5,
+    "image_query": "oil tanker ship strait",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1496347326319-2935d381b307?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxvaWwlMjB0YW5rZXIlMjBzaGlwJTIwc3RyYWl0fGVufDF8MHx8fDE3ODM5Nzc3ODB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ian Simmonds",
+      "profileUrl": "https://unsplash.com/@ihs_photo?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-13T21:23:00.731Z",
+    "publishedAt": "2026-07-13T20:57:08.000Z"
+  },
+  {
+    "slug": "20260714-03",
+    "headline": "マイクロソフトのナデラCEO、企業がAIに引き込まれる危険を警告",
+    "lead": "マイクロソフトのサティア・ナデラCEOは、企業が独占的なAIモデルを使用することで機密データが流出する危険を指摘。",
+    "body_markdown": "マイクロソフトのサティア・ナデラ最高経営責任者（CEO）は、企業がOpenAIやAnthropicなどの独占的なAIモデルを使用することの隠れた代価について警告を発した。\n\nナデラの主張の核となるのは「データの二重対価」の概念だ。企業は金銭で一度AIを購入するが、さらに大きな代価を払っている—それは「明かさなければならない機密の知識」である。モデル提供業者は、ユーザーとの相互作用や修正を通じて、企業の業務に関する敏感な情報にアクセスする。これにより、AI開発企業が競争相手に変わるという利益相反が生じうる。\n\nナデラは、企業がAIモデルに与える各修正や相互作用は、「競争相手が決して購入できないような企業操作の知識」を提供していると指摘している。\n\n同CEOが提案する解決策は、企業が自身のデータ、プロンプト、フィードバックの所有権を保持し、クラウドインフラ上に独自の学習環境を構築することだ。複数のAI提供者を「オーケストレーション層」で組み合わせることで、単一のモデルにロックインされることを回避できるとしている。\n\nナデラは明示的には述べていないが、企業は自社で運用できるオープンソースのAIモデルも検討すべきという示唆が背景にある。",
+    "tags": [
+      "AI",
+      "マイクロソフト",
+      "データ保護",
+      "企業戦略",
+      "技術ガバナンス"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
+    "importance": 4,
+    "image_query": "data security technology corporate",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1640158615573-cd28feb1bf4e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxkYXRhJTIwc2VjdXJpdHklMjB0ZWNobm9sb2d5JTIwY29ycG9yYXRlfGVufDF8MHx8fDE3ODM5Nzc3ODF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Claudio Schwarz",
+      "profileUrl": "https://unsplash.com/@purzlbaum?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-13T21:23:01.676Z",
+    "publishedAt": "2026-07-13T20:59:00.000Z"
+  },
+  {
+    "slug": "20260714-04",
+    "headline": "Apple、OpenAIを提訴、スパイ行為まがいの取引秘密盗用疑惑",
+    "lead": "Appleが連邦裁判所でOpenAIを提訴、元従業員からの機密情報の引き出しと秘密プロジェクトコードの無断利用を指摘。",
+    "body_markdown": "Appleは、OpenAIがAppleの営業秘密を盗用してハードウェア製品を開発したと主張して、連邦裁判所に提訴した。訴状によれば、同社の上級リーダーシップ、特にハードウェア責任者のタン・タンが主導した不正行為パターンが浮き彫りになっているという。\n\nAppleの申し立てによれば、タンはOpenAIの採用プロセスでAppleの機密プロジェクトコード名を使用し、採用面接の際に応募者にAppleのハードウェア部品を持参するよう求め、Appleを辞める従業員にセキュリティ手順を回避する方法をコーチングし、未発表製品の詳細について尋ねたという。\n\nAppleのシニアシステムズエレクトリカルエンジニアとして8年間勤務したチャン・リュウは、2026年にOpenAIに転職後、Appleが発行したノートパソコンの返却に応じず、同機でApple の機密技術文書をダウンロードしたと指摘されている。\n\nさらにAppleは、OpenAIが退職するApple従業員に対してAppleのセキュリティ手順を回避する方法についてコーチングを行い、「要秘」指定されたApple内部文書を新規採用者に流布し、「恐ろしい退職」を避けるための方法を記載していたと主張している。\n\nOpenAIは声明で「他社の営業秘密に興味はない。私たちは世界中の人々に力を与える革新的なテクノロジーの構築に注力している」と反論した。\n\n2024年に両社は高い評判の提携を開始したが、その後急速に関係は悪化したことになる。",
+    "tags": [
+      "Apple",
+      "OpenAI",
+      "訴訟",
+      "知的財産",
+      "採用競争"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
+    "importance": 4,
+    "image_query": "courtroom legal business lawsuit",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1645570990200-2701a49d45ca?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxjb3VydHJvb20lMjBsZWdhbCUyMGJ1c2luZXNzJTIwbGF3c3VpdHxlbnwxfDB8fHwxNzgzOTc3NzgyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Conny Schneider",
+      "profileUrl": "https://unsplash.com/@choys_?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-13T21:23:02.263Z",
+    "publishedAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260714-05",
+    "headline": "ウクライナと9ヵ国、ロシアの弾道ミサイル対策で防空連合設立",
+    "lead": "ウクライナとフランス、ドイツなど9ヵ国がロシアの弾道ミサイル脅威に対抗する防空連合を結成、独自システム開発へ。",
+    "body_markdown": "ウクライナと西側同盟国は7月13日、パリで「統合型対弾道ミサイル連合」の設立を発表した。ウォロディミル・ゼレンスキー大統領とデンマーク、フランス、ドイツ、イタリア、オランダ、ノルウェー、スペイン、スウェーデン、英国の首脳が参加し、防衛産業の約12社とともに会議を開いた。\n\n10ヵ国はロシアが放つ弾道ミサイルの「増大する脅威」を認識し、「ヨーロッパ全体の統合防空能力構築」を目標に掲げた。新型防空システム「Freyja（フレイヤ）」の共同開発を進める計画で、米国のPatriotシステムの代替・補完手段となる、より安価で迅速に構築できるソリューションを目指している。\n\nFreyjaはすでに存在するシステムに代わるものではなく、防空を補強し、ヨーロッパ全域に強固な盾を作り、より低コストで迅速に実現するための方法と位置付けられている。\n\n声明は構想の実現期限を明記せず、計画は他国への開放を想定している。一方、トランプ大統領はウクライナにPatriotシステム製造のライセンス供与を約束しているが、専門家やウクライナ指導部は、これを実現するには恐らく数年を要すると警告している。\n\nこの連合設立は、ウクライナとヨーロッパが米国に過度に依存しない防空体制の構築を急ぐ背景を反映している。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "防空",
+      "ヨーロッパ",
+      "軍事同盟"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/longform/2026/7/13/ukraine-russia-war-in-maps-and-charts-live-tracker",
+    "importance": 4,
+    "image_query": "missile defense military system",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1710750266502-cd3a2dc8a92f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxtaXNzaWxlJTIwZGVmZW5zZSUyMG1pbGl0YXJ5JTIwc3lzdGVtfGVufDF8MHx8fDE3ODM5Nzc3ODN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sergey Koznov",
+      "profileUrl": "https://unsplash.com/@sergeykoznov?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-13T21:23:03.296Z",
+    "publishedAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260714-06",
+    "headline": "Apple Siri AI刷新、文脈理解と画面認識で大幅に高度化",
+    "lead": "AppleのWWDC2026でSiri AIが全面刷新、会話型で個人情報を理解し画面上の情報も把握。",
+    "body_markdown": "Apple は開発者会議「WWDC 2026」で、AIアシスタント「Siri」の大幅な刷新を発表した。新型Siri AIは、従来比で飛躍的に高度な会話能力、幅広い知識、複雑なタスク処理に対応する。\n\n新Siriの主な特徴は、ユーザーの個人的な文脈を理解し、あらゆるトピックについてWeb上の情報を引き出し、メッセージ、メール、写真などユーザーの個人データから関連情報をサーフェスできることだ。利用者はiPhone、iPad、Apple Watch間でSiriとの会話履歴を共通のアプリで確認・参照できる。また「Visual Intelligence」（視覚情報処理）の機能も拡張され、ライティング支援ツールも統合される。\n\n新型Siri AIは本年後半に英語ユーザー（サポート対象デバイス）向けのベータ版として提供開始予定。Appleは今後、より多くの言語対応を急速に進める方針を示している。ただし、EU域内ではiOS、iPadOS、watchOS向けの新型Siri AIは当初利用不可。中国では規制要件を満たすまで提供されない。\n\n同時にAppleは、iOS 27でアプリの起動速度が最大30%高速化、写真読み込みが最大70%高速化、AirDrop転送が最大80%高速化するなど、パフォーマンス大幅向上を謳った。Safari のタブ管理、ワンタップパスワード更新、Messages のAI返信提案など、Apple Intelligence全体での機能追加も進める。",
+    "tags": [
+      "Apple",
+      "AI",
+      "iOS27",
+      "WWDC",
+      "音声アシスタント"
+    ],
+    "section": "AI",
+    "source": "Apple",
+    "link": "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
+    "importance": 4,
+    "image_query": "smartphone AI assistant voice",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1607270788732-55d2cdb8f52a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwQUklMjBhc3Npc3RhbnQlMjB2b2ljZXxlbnwxfDB8fHwxNzgzOTc3Nzg0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ali Pli",
+      "profileUrl": "https://unsplash.com/@ali_alipli?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-13T21:23:04.207Z",
+    "publishedAt": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "slug": "20260714-07",
+    "headline": "複数州がParamount・Warner Bros買収提訴、110億ドル合併に待ったなし",
+    "lead": "カリフォルニアなど12州がParamount Skydanceの110億ドルのWarner Bros買収差し止めを提訴、映画配信競争の悪化を懸念。",
+    "body_markdown": "民主党系の州司法長官を率いるカリフォルニア州など12州は、2026年7月13日、Paramount Skydanceによる110億ドル規模のWarner Bros. Discovery買収に対して連邦裁判所に提訴し、その差し止めを求めた。提訴州はアリゾナ、コロラド、コネチカット、マサチューセッツ、ミネソタ、ネバダ、ニュージャージー、ニューメキシコ、ニューヨーク、オレゴン、ワシントン、およびカリフォルニアの12州。\n\n訴状によれば、同買収は映画配信と有料テレビチャネルライセンシングの市場において競争を著しく制限し、消費者にとって選択肢の減少と価格上昇をもたらすと主張している。具体的には、①広域公開映画配信市場、②最高収益映画配信市場、③基本有料ケーブルライセンシング市場の3つの市場でのClaytonモデルによる競争制限を指摘。\n\nトランプ行政府は6月、条件なしでこの買収を承認していたが、州の提訴によって最大の法的障害が生じた形。買収推進側はこれまで、メディア業界の統合は世界的トレンドであり、ストリーミング競争が激化する中で経営効率化が不可欠だと主張してきた。一方、州側は消費者保護を最優先にするべきだと考えており、今後の裁判の行方が注目される。",
+    "tags": [
+      "買収",
+      "メディア",
+      "独占禁止法",
+      "エンタメ産業",
+      "米国司法"
+    ],
+    "section": "ビジネス",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/news/paramount-warner-bros-merger-states-lawsuit-1236806824/",
+    "importance": 4,
+    "image_query": "media company merger office",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1604328703693-18313fe20f3a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtZWRpYSUyMGNvbXBhbnklMjBtZXJnZXIlMjBvZmZpY2V8ZW58MXwwfHx8MTc4Mzk3Nzc4NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Copernico",
+      "profileUrl": "https://unsplash.com/@copernicowork?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-13T21:23:05.152Z",
+    "publishedAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260714-08",
+    "headline": "AIデータセンター、地中貯蔵で炭素排出90%削減可能",
+    "lead": "研究によれば、AIデータセンターの炭素排出量のほぼ90%を地中の塩水帯水層への炭素貯蔵で削減できる可能性。",
+    "body_markdown": "AIの急速な普及に伴い、データセンターのエネルギー消費と炭素排出が懸念事項となっている。最新の研究は、塩水帯水層への炭素回収・貯蔵（CCS）技術によって、データセンター排出量のほぼ90%を削減できることを示唆している。\n\n研究によれば、米国内34州は1世紀以上にわたり炭素を貯蔵可能な塩水帯水層を有しており、2025年からこれら州のデータセンター排出物を塩水帯水層に注入した場合、2030年までにデータセンター排出量の約4分の3を軽減でき、さらに他州からパイプラインで運搬された炭素も含めれば、削減率は90%に達する見通しだ。\n\n天然ガス複合サイクル発電所にCCS技術を装備すれば、効率的にデータセンターへの電力供給と同時にCO2排出を防止できる。\n\n一方で、産業エネルギー消費は2026年までに倍増する可能性があり、パリ協定の2030年までにデータセンター排出量を53%削減する目標が脅かされかねない。研究チームは、廃熱利用や負荷の柔軟な分散、再生可能エネルギーの導入などの複合戦略が必要だと指摘している。同時にマイクロソフトなど大型テック企業は、2026年から再生可能エネルギーの大量購入契約を進めており、業界全体での脱炭素化の取り組みが加速している。",
+    "tags": [
+      "環境",
+      "AI",
+      "炭素",
+      "エネルギー",
+      "気候変動"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-storage-curb-more-than-90-cent-ai-data-centre-emissions.html",
+    "importance": 4,
+    "image_query": "data center server environmental",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1506399309177-3b43e99fead2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxkYXRhJTIwY2VudGVyJTIwc2VydmVyJTIwZW52aXJvbm1lbnRhbHxlbnwxfDB8fHwxNzgzOTc3Nzg2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "imgix",
+      "profileUrl": "https://unsplash.com/@imgix?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-13T21:23:06.124Z",
+    "publishedAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260714-09",
+    "headline": "iOS 27ベータ公開、Siri AI と新セーフティ機能がハイライト",
+    "lead": "Appleが iOS 27の公開ベータ版をリリース、Siri AIと強化された子どもセーフティ機能が主な改善点。",
+    "body_markdown": "Apple は 2026年7月中旬にiOS 27の公開ベータ版をリリースした。WWDC26で発表された同OSの最大の目玉は、新型Siri AIと各種のApple Intelligence機能だ。\n\n**Siri AI** は、これまで以上に高度な会話型アシスタントで、ウェブ情報検索、個人のメール・メッセージ・写真からの関連情報抽出、デバイス間での会話履歴の同期などを備える。ただし、iPhone 15 Pro 以降の機種に限定されることに注意。\n\n**子どもセーフティ強化** では、スクリーンタイムがさらに細分化されたコントロールを提供。親は、子どもがアプリごと・カテゴリごとに利用時間を管理でき、有害コンテンツへのアクセス制限も厳格化。\n\n**その他のハイライト**：\n- Safari に新しいタブ管理機能\n- ワンタップでのパスワード自動更新\n- Photo App での AI 画像編集\n- Image Playground による生成画像機能\n- Messages に AI 返信提案\n\nパフォーマンス面では、アプリ起動速度が最大30%、写真読み込みが最大70%、AirDrop転送が最大80%高速化。\n\nただし、Siri AI などの Apple Intelligence機能は初期段階では英語のみサポート。EU ではリリース初期に利用不可で、中国も規制対応待ち。公式リリースは 2026年9月予定。",
+    "tags": [
+      "iOS",
+      "Apple",
+      "ベータ版",
+      "AI",
+      "セーフティ"
+    ],
+    "section": "テクノロジー",
+    "source": "9to5Mac",
+    "link": "https://9to5mac.com/2026/07/02/ios-27-public-beta-release-date-when-you-can-install-the-new-iphone-update/",
+    "importance": 3,
+    "image_query": "smartphone iOS software release",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-13T21:23:06.125Z",
+    "publishedAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260714-10",
+    "headline": "女性の稼ぎ手、賃金格差は依然深刻—1ドル当たり82セント",
+    "lead": "米国で女性労働者が全体の半数近くを占める中、女性の週給は男性比で82.1セントにとどまり、格差が悪化。",
+    "body_markdown": "2025年の米国経済データによれば、女性が全時間勤務労働力の47%近くを占めるようになった一方、賃金格差は依然として根深い。女性労働者の週給は男性の1ドルに対して82.1セントにすぎず、前年の82.7セント、前々年の83.6セントと比較して、格差が拡大している。\n\n特に家計の主な稼ぎ手である母親層の状況は厳しく、フルタイム・通年勤務の家計稼ぎ手シングルマザーの収入は、男性の稼ぎ手父親比で76セントにとどまる。職業の偏り（mothers が教育・医療・福祉セクターに集中し中央値年5万3,267ドル、一方 fathers は建設業で中央値12万5,958ドル）も格差を拡大させている。\n\n交差差別（intersectional disparities）も顕著。白人女性が 0.82 ドルに対し、アメリカンインディアン・アラスカ先住民女性はわずか 0.74 ドル、黒人女性 0.78 ドル、ヒスパニック女性 0.79 ドルの対男性賃金比となっている。\n\nコロンビア大学の研究では、女性は出産後の収入が50%に低下し、その状態が数年間も続くことが判明した。この「マザーペナルティ」（motherhood penalty）は、例え稼ぎ手母親でも例外ではない。政策面では、同等賃金法の強化、育児支援の充実、職場柔軟性の向上などが急務となっている。",
+    "tags": [
+      "労働",
+      "ジェンダー",
+      "経済格差",
+      "女性",
+      "統計"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/briefing/2026/07/12/breadwinning-women",
+    "importance": 3,
+    "image_query": "workplace office business diversity",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-13T21:23:06.125Z",
+    "publishedAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260714-11",
+    "headline": "日本政府、副首都構想の法案可決へ、大阪への機能分散狙う",
+    "lead": "自民党と日本維新の会が副首都設置法案を国会に提出、7月17日会期末までの可決を目指す。",
+    "body_markdown": "日本の自民党と日本維新の会は 2026年6月24日、副首都設置に関する立法を国会に提出した。同法案は、大規模災害時における政府機能の継続性確保と、日常的な行政機能の東京からの分散を目的としている。\n\n**法案の概要** では、東京以外の主要都市に副首都の地位を付与し、内閣会議、国会の開催、重要行政サービスなどが災害時に移転可能な体制を構築する。具体的な対象都市名は法案に明記されていないが、日本維新の会が本拠地とする大阪への機能分散が背景にある。\n\n**政治的背景** は、高市早苗首相率いる自民党と、維新の会が昨年10月の連立合意で本構想の実現を約束したこと。高市氏は日本初の女性首相として、維新との関係強化と地域分散政策の推進を掲げている。\n\n**大阪への関連** として、維新は長年、大阪を東京と同等の特別区域構造に改組することを主張してきた。副首都化はこの方針と整合性を持つ。\n\n法案は 2026年7月17日の会期末までの成立を目指しており、成立すれば東京一極集中の是正と防災体制強化の両面で歴史的転換点となる見込み。ただし、実装には数年を要する可能性が高い。",
+    "tags": [
+      "日本政治",
+      "大阪",
+      "行政",
+      "災害対策",
+      "地方分散"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015172800000",
+    "importance": 3,
+    "image_query": "government parliament architecture city",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-13T21:23:06.125Z",
+    "publishedAt": "2026-07-13T20:00:00.000Z"
+  },
+  {
+    "slug": "20260714-12",
+    "headline": "AI電子鼻が数万種類のニオイを識別、医療・環境監視へ応用",
+    "lead": "DGIST が AI とグラフェンセンサを組み合わせた電子鼻を開発、医療診断や環境汚染検出に活用できる新技術。",
+    "body_markdown": "韓国の大邱慶北科学技術院（DGIST）は、AI 駆動の電子鼻（e-nose）技術が数万種類のニオイを識別できることを実証した。従来の化学センサと異なり、グラフェン系のセンサアレイと機械学習を組み合わせることで、人間の嗅覚を圧倒的に上回る精度を実現している。\n\n**技術的特徴** では、グラフェンベースのセンサアレイが匂い分子を電気信号に変換し、AI が信号パターンから化学的特性を推測。人間の鼻の 1,000 倍の精度を有する。従来の電子鼻が「におい適応」（嗅覚疲れ）で感度が低下する問題も克服。\n\n**医療応用** として、呼気分析による感染症検出が注目されている。特定の呼吸器感染症や代謝異常は、呼気に特有の揮発性有機化合物（VOC）を生じさせるため、電子鼻で迅速診断可能。また香水・食品産業では、開発サイクル短縮と低コスト化が期待される。\n\n**環境監視** では、建物内の汚染物質や有害ガス検出に応用。労働安全や室内空気質管理での自動化が進む。\n\n**開発ロードマップ** として、DGIST の研究チームは、金属有機フレームワーク（MOF）などの次世代センサ材料と AI を統合した人工嗅覚システムの開発を加速しており、向こう数年での実用化が見込まれている。",
+    "tags": [
+      "AI",
+      "センサ",
+      "医療",
+      "環境",
+      "科学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-ai-powered-electronic-nose-distinguish-tens-thousands.html",
+    "importance": 3,
+    "image_query": "sensor technology laboratory research",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-13T21:23:06.125Z",
+    "publishedAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260714-13",
+    "headline": "OpenAI、ChatGPT Work の5時間制限を一時的に解除、GPT-5.6 Sol 効率改善",
+    "lead": "OpenAI が ChatGPT Work と Codex の 5 時間使用制限を一時的に廃止し、GPT-5.6 Sol のトークン効率を改善。",
+    "body_markdown": "OpenAI は 2026年7月12日、ChatGPT Work と Codex の使用時間制限を大幅に緩和すると発表した。Plus、Business、Pro プランのユーザーに対して、従来の「5時間上限」を一時的に撤廃。週間上限は引き続き適用されるが、日中の作業時間の制約が大幅に軽減される。\n\nこの変更は、同社の最新モデル「GPT-5.6 Sol」リリース後の需要増加に応じた措置。同時に GPT-5.6 Sol のトークン効率を向上させ、ユーザーが同じ使用量枠内で長時間の作業や大規模タスク処理が可能になるよう最適化を進めている。\n\nOpenAI は、同措置が一時的な性質のものであることを明記しており、具体的な期限については未公表。約600万人のアクティブユーザーが影響を受ける。\n\n**背景** として、ChatGPT Work は企業向けの高度なコード作成・分析ツールとして、Python、JavaScript、SQL などの複雑なプログラミングタスクに利用されており、5時間の制限は開発効率の阻害要因として批判を受けていた。今回の施策は、エンタープライズ顧客との競争激化の中で、ユーザー満足度向上を狙うもの。",
+    "tags": [
+      "OpenAI",
+      "AI",
+      "ChatGPT",
+      "効率",
+      "開発"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://www.digitaltrends.com/computing/openai-just-took-the-handcuffs-off-your-chatgpt-work-and-codex-usage-limits-at-least-for-now",
+    "importance": 3,
+    "image_query": "software development programming coding",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-13T21:23:06.125Z",
+    "publishedAt": "2026-07-12T00:00:00.000Z"
+  },
+  {
+    "slug": "20260714-14",
+    "headline": "Google Pixel 11 が Gemini Omni 搭載で動画生成機能、マルチモーダル AI 本格化",
+    "lead": "Google が Pixel 11 で Gemini Omni AI を導入、画像・音声・動画入出力に対応した統合型 AI を実装。",
+    "body_markdown": "Google は 2026年5月の I/O ワールドコンファレンスと 6月の Pixel Drop で、Gemini 3.5 Flash と Gemini Omni の新モデルシリーズを発表した。これらはコード、推論、マルチモーダル処理で Gemini 3.1 Pro を上回り、出力トークン当たりの処理速度が従来比 4倍高速化されている。\n\n**Gemini Omni** の革新性は、画像・音声・動画・テキストを入力に受け取り、リアルワールド知識に基づいた動画出力を生成する点。ユーザーは生成された動画を簡単に編集でき、カスタム動画やオリジナル音楽の創作が手軽になった。\n\n**Pixel 11 の新機能**：\n- スクリーン反応機能でセルフィー動画を画面録画に直接合成\n- Gemini により、カスタム動画・音楽トラック生成、写真編集が自動化\n- リアルタイム音声翻訳の多言語対応\n- フローティングアプリウィンドウで複数タスク同時処理\n\n**Android 17** は浮動ウィンドウ、スクリーン反応、折り畳み式端末用ゲーム最適化レイアウトなどを搭載し、まず Pixel 系から展開、その後 2026年を通じて他の Android デバイスへ拡大予定。\n\nこれらアップデートは、Google が AI をスマートフォンの日常機能に深く統合させ、テキストに限らない創作・編集ツール化を加速させる戦略を示している。",
+    "tags": [
+      "Google",
+      "AI",
+      "Pixel",
+      "Gemini",
+      "モバイル"
+    ],
+    "section": "テクノロジー",
+    "source": "Google",
+    "link": "https://blog.google/products-and-platforms/devices/pixel/june-2026-pixel-drop/",
+    "importance": 4,
+    "image_query": "smartphone AI technology mobile device",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1612442058361-178007e5e498?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzbWFydHBob25lJTIwQUklMjB0ZWNobm9sb2d5JTIwbW9iaWxlJTIwZGV2aWNlfGVufDF8MHx8fDE3ODM5Nzc3ODZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Adrien",
+      "profileUrl": "https://unsplash.com/@adrien?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-13T21:23:07.013Z",
+    "publishedAt": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "slug": "20260714-15",
+    "headline": "Anthropic、インド市場で Claude の価格ローカライズ、ルピー建て支払い開始",
+    "lead": "Anthropic が米国に次ぐ主要市場インドで Claude の地域別価格を導入、ルピー建ての請求が可能に。",
+    "body_markdown": "AI スタートアップ Anthropic は、米国に次ぐ第2の主要市場であるインドで Claude の価格ローカライズを開始した。ウェブサイトとモバイルアプリで、ルピー建ての価格表示が一部ユーザーに展開され始めている。\n\n**インド市場での価格体系**：\n- Claude Pro：₹2,000（月額、年間契約時）≒ $21（米国 $17）\n- Claude Max：₹11,999（月額）≒ $125（米国 $100）\n- Team プラン：₹2,399/シート（月額）≒ $25（米国 $20）\n（ローカルタックス込み）\n\n**市場規模** としてインドは全体 Claude 利用シェアの 5.8% を占め、米国に次ぐ世界第2位の市場。Anthropic は 2月にバンガロールにオフィスを開設し、1月には Microsoft インド前会長 Irina Ghose をインド事業トップに任命している。Infosys、Tata Consultancy Services といったインド IT 大手との提携も進めており、エンタープライズ AI 導入の加速を狙う。\n\n**課題** としては、インド国内で広く利用される Unified Payments Interface（UPI）での支払いに未対応。ユーザーはカード払いか Apple・Google アプリストア経由での決済が必要。これに対し競合の OpenAI は 8月に ChatGPT インド向けルピー価格を UPI サポート付きで展開予定。\n\nこの施策は、グローバル AI 市場での地域別価格戦略が本格化していることを示唆している。",
+    "tags": [
+      "Anthropic",
+      "AI",
+      "インド市場",
+      "価格戦略",
+      "ローカライゼーション"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
+    "importance": 3,
+    "image_query": "business market commerce technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-13T21:23:07.013Z",
+    "publishedAt": "2026-07-13T00:00:00.000Z"
+  },
+  {
     "slug": "20260713-01",
     "headline": "米イラン、ホルムズ海峡で軍事応酬 協議再開は不透明",
     "lead": "米軍がイランに追加攻撃を実施し、イランは米軍基地への報復を宣言。石油輸送の要衝で緊張が高まる。",
