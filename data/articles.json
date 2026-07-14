@@ -1,5 +1,267 @@
 [
   {
+    "slug": "20260715-01",
+    "headline": "アップルが刷新Siri AIをベータ公開、全iPhoneで試用可能",
+    "lead": "iOS 27 パブリックベータで、デバイス情報へのアクセスや自然言語対応を強化した新Siriが解放。",
+    "body_markdown": "アップルは7月14日、完全に再設計した音声アシスタント「Siri」の新バージョンをiOS 27パブリックベータとして公開した。これにより、開発者限定だったベータテストを一般ユーザーに拡大。世界で約25億台のアップルデバイスが対象となる可能性があり、同社が開発したAI音声助手の最大規模テストとなる。\n\n刷新されたSiriは、従来の限定的な機能から大幅に進化した。新たに「ユーザーのデバイス上のメール、写真、メッセージなどの個人情報にアクセス可能」になったほか、画面上のコンテンツを理解し、一般的な世界知識にも対応。音声アクティベーション（「Hey Siri」）、サイドボタン押下、動的アイランドからのスワイプなど複数の起動方法をサポートする。さらに初めてSiriの単独アプリケーションが提供される。\n\nApple Intelligenceとプロプライエタリな基盤モデルを活用しており、処理はオンデバイスで完結する「Private Cloud Compute」により、ユーザーデータがアップルにも保存されない設計になっている。グーグルのGeminiと協業したが、Geminiのリバッジングではなく独自モデルを構築した点が特徴。このベータテストの規模と期間は、秋の正式版リリースに向けた重要な検証フェーズとなる。iPad、Mac、Apple Watch、CarPlay、AirPods、Apple TV、Vision Proでも利用可能。",
+    "tags": [
+      "アップル",
+      "Siri",
+      "AI音声助手",
+      "iOS 27",
+      "プライバシー"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+    "importance": 4,
+    "image_query": "smartphone voice assistant",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1519558260268-cde7e03a0152?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwdm9pY2UlMjBhc3Npc3RhbnR8ZW58MXwwfHx8MTc4NDA2Mzg5NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "BENCE BOROS",
+      "profileUrl": "https://unsplash.com/@benceboros?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-14T21:18:15.105Z",
+    "publishedAt": "2026-07-14T19:42:27.000Z"
+  },
+  {
+    "slug": "20260715-02",
+    "headline": "グーグルが大型出版社に提訴される、AI学習データの著作権侵害で",
+    "lead": "Hachette・Cengage・Elsevierら著名出版社がGemini学習の著作権侵害を告発。",
+    "body_markdown": "大手出版社複数がグーグルを提訴した。告訴状によれば、グーグルが著作権で保護された著作物の許可なく、Gemini AI学習に使用したという。原告にはHachette、Cengage、Elsevier、著名作家スコット・トゥロー、S.C.R.I.B.E.が含まれる。\n\n訴訟の特異な側面は、原告がグーグルと既存の関係を有していることだ。グーグル・ブックス・プロジェクトを通じて、検索機能用の書籍を提出していた。訴状は、グーグルがこのパートナーシップから得た書籍コピーを、AI学習に流用したと主張している。さらに問題なのは、グーグルが「著作権情報を意図的に削除または改変した」疑いが指摘されていること。学習データの由来隠蔽の可能性を示唆している。\n\n大きな法的背景として、カリフォルニア州裁判所の最近の2件の判決がある。これらは大型AI企業による著作権所有物の使用を「フェアユース」と判断し、企業側に有利な判断を示していた。一方、Anthropicは過去に著作権関連で15億ドル（過去最大）の罰金を支払っているが、多くの著作家は個別の訴訟追行を選択している。グーグルの内部文書には、潜在的な罰金が「100億ドル～1000億ドル」という試算も示唆されている。事件は南地区のニューヨーク連邦地裁で審理される。",
+    "tags": [
+      "グーグル",
+      "AI著作権",
+      "出版社",
+      "訴訟",
+      "Gemini"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
+    "importance": 4,
+    "image_query": "copyright law book",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1562412692-26406e1bf600?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjb3B5cmlnaHQlMjBsYXclMjBib29rfGVufDF8MHx8fDE3ODQwNjM4OTV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Umberto",
+      "profileUrl": "https://unsplash.com/@umby?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-14T21:18:15.804Z",
+    "publishedAt": "2026-07-14T18:33:31.000Z"
+  },
+  {
+    "slug": "20260715-03",
+    "headline": "DeepMindがAI規制の独立監視機関設置を提案",
+    "lead": "FINRAモデルに基づくAI基準監視機構。Demis Hassabisが業界自主規制を提唱。",
+    "body_markdown": "グーグルのDeepMind CEOであるDemis Hassabisは、最先端AI モデルのリリース前に独立した監視機関で審査する枠組みを提案した。これは金融業界の規制当局FINRA（金融業規制機構）をモデルとしており、AI業界の「standards body（基準監視機構）」構想である。\n\nHassabisの提案によれば、最初の段階では任意参加制。AI企業がリリース30日前までにモデルを提出し、監視機関が評価することになる。十分な実績を積めば、この基準は米国市場でのモデルリリースに対して義務化される可能性もある。また、リリース後に発見された重大な脆弱性への対応も支援するという。\n\n背景にあるのは、政府によるAI審査への不信感だ。Anthropic の「Mythos」や OpenAI の「Sol」など最先端モデルの政府審査は、技術的な深さが欠け、透明性も十分でないと批判されていた。Hassabis は「技術的に焦点を当てながら、同時にイノベーション支援を行う」アプローチを主張。監視機関はオープンソース代表と業界専門家で構成され、資金はAI企業が負担するが運営は独立。具体的なAI安全性リスク評価は外部の専門組織に外注する設計が構想されている。",
+    "tags": [
+      "DeepMind",
+      "AI規制",
+      "業界自主規制",
+      "基準設定",
+      "AI安全性"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+    "importance": 4,
+    "image_query": "regulation compliance audit",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1704969724221-8b7361b61f75?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxyZWd1bGF0aW9uJTIwY29tcGxpYW5jZSUyMGF1ZGl0fGVufDF8MHx8fDE3ODQwNjM4OTZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-14T21:18:16.707Z",
+    "publishedAt": "2026-07-14T17:45:55.000Z"
+  },
+  {
+    "slug": "20260715-04",
+    "headline": "ニューヨークが大型データセンター禁止令、1年間の建設凍結",
+    "lead": "AI需要で急増するデータセンター建設。Hochul知事が環境・電力影響を理由に一時停止。",
+    "body_markdown": "ニューヨーク州のKathy Hochul知事は7月14日、大規模AI データセンター（50メガワット以上の電力消費施設）の建設を1年間凍結する行政命令に署名した。米国で初めての包括的なデータセンター モラトリアム（建設禁止令）である。\n\n知事の判断理由は多岐にわたる。データセンター建設ラッシュが地域住民の電気代上昇、天然水資源の枯渇、電力網への過度な負荷、低所得コミュニティへの不釣り合いな健康被害をもたらすと懸念。州は「今後10年間で喘息関連症例が60万件増加する」という予測も提示した。新規制では、データセンター事業者が送電網アップグレードやクリーンエネルギー投資など、インフラ費用を自己負担する仕組みを導入。州は売上税免除廃止も検討している。\n\n全国波及の可能性が高い。モラトリアム提案の動きは少なくとも12州（バーモント、ミシガン、バージニア等）で検討中。世論調査では米国民の71%がコミュニティ内でのデータセンター建設に反対している。AI投資ブームの側面としてのエネルギー消費問題が、政治的な焦点として浮上した典型例となり、今後の中間選挙の争点化も予想される。",
+    "tags": [
+      "データセンター",
+      "AI",
+      "電力",
+      "環境",
+      "ニューヨーク"
+    ],
+    "section": "テクノロジー",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/economy/2026/7/14/new-york-imposes-landmark-one-year-ban-on-large-data-centres",
+    "importance": 4,
+    "image_query": "data center servers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1746893737268-81fe686e6a51?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxkYXRhJTIwY2VudGVyJTIwc2VydmVyc3xlbnwxfDB8fHwxNzg0MDYzODk2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Avi Waxman",
+      "profileUrl": "https://unsplash.com/@aviosly?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-14T21:18:17.072Z",
+    "publishedAt": "2026-07-14T20:13:32.000Z"
+  },
+  {
+    "slug": "20260715-05",
+    "headline": "アマゾンのメタン排出、モデル予想の4倍に、気候リスク顕在化",
+    "lead": "低高度航空観測で発見。アマゾン湿地帯からの温室ガス排出が従来予測を大幅超過。",
+    "body_markdown": "マックス・プランク化学研究所の研究者たちがアマゾン上空での低高度航空観測により、衝撃的な発見をした。アマゾン熱帯雨林からのメタン排出量が、従来の気候モデルの予想を遥かに上回っていたのだ。特に地表近くでは「予測値の約2倍」という乖離が観測された。一部地域では「従来計算の4倍」という極端に高い排出量が検出されている。\n\nメタンは二酸化炭素の約25～28倍の温室効果を持つ強力な温室ガス。熱帯湿地はメタンの最大の自然発生源だ。河川デルタ地帯では26%、貯水池では19%、定期的に水没する地域では13%、それぞれ従来モデルより排出量が高かった。研究主任 Linda Ort は「測定値が気候モデルを上回る理由は、モデルが地表付近でのメタン挙動を不正確に表現しているため」と指摘。大気上層では拡散シミュレーション精度が高いが、下層での動態把握が課題として残されている。\n\nこの発見は気候変動予測に重大な含意をもたらす。「アマゾンのような熱帯湿地にはまだ多くの過小評価されたメタン源が存在する」ことが示唆された。既存の気候モデルが地球温暖化を過小予測している可能性があり、今後の気候シナリオの上方修正が必要になるかもしれない。",
+    "tags": [
+      "気候変動",
+      "メタン排出",
+      "アマゾン",
+      "温室ガス",
+      "環境"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-altitude-flights-reveal-amazon-methane.html",
+    "importance": 3,
+    "image_query": "rainforest amazon forest",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-14T21:18:17.073Z",
+    "publishedAt": "2026-07-14T20:40:02.000Z"
+  },
+  {
+    "slug": "20260715-06",
+    "headline": "食料生産と生物多様性の両立、ベルギーの農業実験が実証",
+    "lead": "アグリワイルディング15年実験。蝶の個体数が従来農業の6倍、従来的な自然保護区を凌駕。",
+    "body_markdown": "ベルギーのフリー大学ブリュッセル校の研究チームが、食料生産と生物多様性保全を同時に実現する農業手法「アグリワイルディング」の15年間にわたる実験結果を発表した。ヴラーンデン州の2ヘクタール農地で実施された実験は、従来型農業や自然保護区と比較して、卓越した生態系復元成果を示している。\n\nアグリワイルディングの特徴は、多種多様な要素を統合したシステム設計だ。多年生作物、果樹・ナッツ木、種の豊富な草地、池、在来植物などを組み合わせ、耕起を最小化しながら自然生態系を活用する。この混合農業システムでは、地域に生息する蝶類39種のうち30種が確認された。個体数ベースでは、従来型単一作付け農業と比べて「蝶と蛾が最大6倍」という顕著な増加を記録。蛾の種多様性でも近傍の自然保護区に匹敵する成果を達成した。\n\n研究成果は欧州の農業政策への影響を予想させる。欧州連合の共通農業政策は従来、農地を生産から引き上げることで生物多様性を補償する手法を採ってきた。しかしアグリワイルディングは「食料生産と生物多様性復元を同時実現」する経済的実行性を実証。集約的に農業化された欧州域内での生態系復元の新たな経路を示唆している。科学雑誌『Biological Conservation』に掲載された本研究は、農業本質の再考を促す。",
+    "tags": [
+      "農業",
+      "生物多様性",
+      "環境",
+      "持続可能性",
+      "アグリワイルディング"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-food-biodiversity-highlights-potential-agriwilding.html",
+    "importance": 3,
+    "image_query": "farm biodiversity nature",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-14T21:18:17.073Z",
+    "publishedAt": "2026-07-14T20:40:01.000Z"
+  },
+  {
+    "slug": "20260715-07",
+    "headline": "天文台がVLA最新調査を完了、ラジオ宇宙の詳細地図が完成",
+    "lead": "VLA sky survey が8年間観測終了。全天ラジオ観測で超新星・ブラックホール・銀河進化を検出。",
+    "body_markdown": "米国国立科学財団傘下の国立ラジオ天文台（NSF NRAO）は、Very Large Array（VLA）による天体観測プロジェクト「VLA sky survey（VLASS）」の観測完了を発表した。2017年9月から2026年2月まで約8年間にわたり、約34,000平方度の天空をスキャン。実質上、VLAが観測可能な全天領域（南緯-40度以南を除く）をカバーしたことになる。総観測時間は約6,500時間に及ぶ。\n\nVLASSの技術的成果は、電波天文学における新たな基準を示している。達成した角度分解能は約2.5アークセコンド。全天規模でのラジオ観測としては最高解像度の調査となった。観測周波数は2～4ギガヘルツ帯。ファラデー回転測定を通じて宇宙磁場をマッピングし、電波放射の物理プロセスを理解する基盤を構築した。\n\n科学的には4つの主要研究領域へ貢献する。一つは超新星、ガンマ線バースト、その他短期変動天体の検出。二つめは宇宙磁場構造の解明。三つめは銀河進化と活動銀河核のダイナミクス。四つめが銀河系内の未知構造の可視化である。本プロジェクトは約2ペタバイトのデータを生成。天文学コミュニティの長期研究資源として、今後の発見を促進する基盤となる。",
+    "tags": [
+      "天文学",
+      "ラジオ観測",
+      "宇宙",
+      "VLA",
+      "銀河"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-vla-sky-survey-standard-high.html",
+    "importance": 3,
+    "image_query": "radio telescope observatory",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-14T21:18:17.075Z",
+    "publishedAt": "2026-07-14T20:00:01.000Z"
+  },
+  {
+    "slug": "20260715-08",
+    "headline": "イエメン紛争が再燃へ、4年の停戦合意が崩壊の危機",
+    "lead": "イランの関与が緊張を激化。フーシ派が「緊張緩和段階」終了を宣言。経済危機の深刻化で爆発寸前。",
+    "body_markdown": "イエメンの10年にわたる内戦が、4年間の脆弱な均衡から戦闘再開へと転じようとしている。2022年の停戦合意が機能不全に陥りつつあり、軍事的エスカレーションの危険性が急速に高まっている。7月初旬、イラン航空機がフーシ派支配下のサヌアに着陸したことが発火点となった。米軍によるイラン爆撃（前述）とほぼ時を同じくして、イエメン側でも軍事的緊張が急速に上昇した。\n\nシグナルは明確だ。イエメン政府とフーシ派の双方が6月下旬より戦闘員の動員を開始。フーシ派の軍事報道官は「緊張緩和段階は終了した」と宣言。イエメン国防大臣は「忍耐は終わりだ」と述べた。この修辞的転換は、地上での軍事準備と併行している。セキュリティアナリストSalah Ali Salahは、フーシ派が「地政学的位置と軍事能力」を有し、湾岸海運と地域国家への圧力を行使可能だと指摘。米国とイランの軍事衝突が激化する中で、フーシ派による南からの連動攻撃があれば、中東全体の不安定性をさらに増幅させる。\n\n根本的な課題は経済の極度な悪化だ。イエメンは世界最貧国。18.3百万人が急性食糧不安に瀕している。長期的な戦争状態と停戦の不安定さが、人道的危機を深刻化させている。外交交渉が繰り返し失敗に終わり、双方の信頼が消耗。軍事的な打開を求める力学が政治を侵食している。この地域の急速な「平和から紛争への転換」は、ホルムズ海峡での米イラン対立と相まって、中東全体のリスク環境を著しく悪化させる。",
+    "tags": [
+      "イエメン",
+      "内戦",
+      "中東紛争",
+      "人道危機",
+      "フーシ派"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/features/2026/7/14/why-yemens-long-no-war-no-peace-deadlock-may-be-ending",
+    "importance": 3,
+    "image_query": "war conflict crisis",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-14T21:18:17.075Z",
+    "publishedAt": "2026-07-14T20:17:56.000Z"
+  },
+  {
+    "slug": "20260715-09",
+    "headline": "Hingeの創業者が新しいAIデーティングサービス「Overtone」に18M調達",
+    "lead": "音声ベースのマッチング、スワイプ廃止。AIが深く理解した者同士をつなぐ新型マッチングアプリ。",
+    "body_markdown": "マッチグループのマッチングアプリ「Hinge」の創業者Justin McLeodが、新たなAIデーティングサービス「Overtone」を立ち上げた。昨年CEOを退いた同氏は、1800万ドルの資金調達に成功。投資家にはHingeの親会社マッチグループ、FirstMark Capital、Pace Capital が参加している。\n\nOvertoneの特徴は、従来型デーティングアプリとの根本的な相違にある。「音声・オーディオ中心で、AIが実現した高度にキュレートされたマッチング」を謳う。アルゴリズムフィードやスワイプメカニクスなど、既存アプリを支配する要素を廃止した。McLeod は「各個人について深く理解し、その声、固有のストーリーを聴く。そして価値のあるマッチングだけを行い、関係科学と思慮深い思考に基づいている」と述べる。\n\n既存デーティングアプリへの不満は根深い。2024年フォーブス・ヘルス調査では、ユーザーの78%が「燃え尽き感」を報告。一方で平均51分/日をアプリに費やしている矛盾がある。Overtoneはこの苦痛に対応する。マッチングの質を優先し、無限ブラウジングを避ける戦略だ。アドバイザリーボードには関係コンサルタント Esther Perel、Match CEO Spencer Rascoff、リーダーシップコーチ Diana Chapman が名を連ねる。2026年後半に限定地域でのローンチ予定。同類のDitto、Date Dropなど競合サービスも、質重視の路線を探索している。",
+    "tags": [
+      "デーティングアプリ",
+      "AI",
+      "音声",
+      "スタートアップ",
+      "マッチング"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/",
+    "importance": 3,
+    "image_query": "dating app smartphone",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-14T21:18:17.075Z",
+    "publishedAt": "2026-07-14T19:39:39.000Z"
+  },
+  {
+    "slug": "20260715-10",
+    "headline": "Spotifyが音声AIチャットボット導入、プレイリスト検索が会話型に",
+    "lead": "「Talk to Spotify」機能公開。プレミアム会員がAIと対話して音楽・ポッドキャスト再生可能に。",
+    "body_markdown": "Spotifyは7月14日、プレミアム会員向けにAIチャットボット機能「Talk to Spotify」の試験運用を開始した。音声またはテキスト入力でSpotifyと対話し、音楽、オーディオブック、ポッドキャストの検索・再生が可能になった。機能はモバイルアプリの「ホーム」画面と「再生中」ビューに統合される。テキストボックスをタップするか、マイクアイコンで音声入力できる。\n\n仕組みは、単なるスマートスピーカー統合と一線を画す。従来、Amazon Musicは音声アシスタント「Alexa Plus」を導入したが、Spotifyのアプローチは異なる。チャットボットがユーザーの「プレイリスト、好みの曲、再生履歴」を参照し、極めてパーソナライズされた会話型推奨を実現。「この気分に合う曲は？」といった自然言語クエリに、個人の聴取パターンに基づいた推奨を返す。ただし、今のところ推奨提供に留まり、実際の画像生成や第三者アプリ連携は実装されていない。\n\nSpotifyにとっての意義は、従来のサーチ UI（検索ボックス+スクロール）からの脱却だ。会話型インターフェースは、ユーザーエンゲージメント増加とセッション時間延長をもたらす可能性がある。本機能は段階的ローリングアウト中で、全プレミアム会員へのアクセス提供に向けて準備が進められている。",
+    "tags": [
+      "Spotify",
+      "AI",
+      "チャットボット",
+      "ストリーミング",
+      "音声"
+    ],
+    "section": "AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
+    "importance": 3,
+    "image_query": "music streaming app phone",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-14T21:18:17.075Z",
+    "publishedAt": "2026-07-14T15:47:36.000Z"
+  },
+  {
+    "slug": "20260715-11",
+    "headline": "不耕起農法に落とし穴、除草剤依存と減収のリスク判明",
+    "lead": "CO2削減を謳う不耕起農法。実態は化学薬品多用と5%減収、環境効果は限定的。",
+    "body_markdown": "長年、環境に優しい農法として推奨されてきた「不耕起農法」の実像が、最新研究で疑問符を付けられた。土壌撹乱を避けることで炭素貯蔵と侵食防止を実現するとされてきたが、実際には複数の根本的な課題がある。\n\n不耕起農法は前作の残茎上に直接播種するシステムで、1950～60年代に除草剤が廉価で広く利用可能になったのに伴い普及した。化学農薬がなければ実現不可能な手法でもある。米国トウモロコシ・大豆産業に関する2025年フレンドズ・オブ・ザ・アース報告書は「除草剤への極度の依存」を指摘。これらの化学物質は「がん、先天奇形、不妊、その他の医学的状態」と因果関連が研究により示唆されている。\n\n炭素貯蔵効果についても、従来主張が覆された。不耕起土壌は従来農法と比較して「約5%少ない炭素を貯蔵」する。収量面でも深刻だ。678件の研究を分析した国際的メタアナリシスでは、50種類の作物にわたり、従来農法から不耕起への転換後「1～2年で約5%の収量減」が報告された。結論として、土壌健全性には従来農法が優れており、ただし化学肥料多用依存を避けることが条件。「no-kill cropping」など代替手法の検討が必要とされている。",
+    "tags": [
+      "農業",
+      "環境",
+      "化学肥料",
+      "土壌",
+      "持続可能性"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-notill-farming-environment.html",
+    "importance": 3,
+    "image_query": "farm soil agriculture",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-14T21:18:17.076Z",
+    "publishedAt": "2026-07-14T19:40:01.000Z"
+  },
+  {
     "slug": "20260714-01",
     "headline": "ベネズエラ大地震、死者4500人超に",
     "lead": "ベネズエラの大地震で死者が4500人を超え、日本の援助隊も捜索活動に参加。",
