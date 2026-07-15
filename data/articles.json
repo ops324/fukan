@@ -1,5 +1,364 @@
 [
   {
+    "slug": "20260716-01",
+    "headline": "Hugging Faceが海洋保護AIシステム「Shippy」の設計知見を公開",
+    "lead": "Allen研究所が構築した海洋監視エージェント・Shippyの開発経験から、信頼性あるAIエージェント実装に必要な段階的設計思想を解説。",
+    "body_markdown": "Hugging Faceが、Allen研究所のSkylight チームによるAIエージェント「Shippy」の開発経験をまとめた技術記事を公開した。Shippyは衛星データと船舶信号を処理し、70カ国以上の政府機関やNGOに海洋保護に関する意思決定支援を行うシステムである。\n\n重要な知見の第一は「構造化ツール設計」だ。従来のエージェントはAPIを自由に構築させるが、Shippyはあらかじめ目的別のCLIインターフェースを設計することで、ページネーション誤りのような微妙なバグを防いだ。決定論的な動作は予測性と信頼性を大幅に向上させる。\n\n第二の要素は「関心の分離」である。Shippyを「ソウル」（システムプロンプト）、「スキル」（タスク固有の機能）、「設定」（ランタイムパラメータ）に分割することで、各部の独立テストと保守が容易になった。\n\n第三は「隔離によるセキュリティ」である。Mothership というプラットフォームで、各ユーザーのセッションを個別のKubernetesで実行させ、マルチテナント環境でのデータ漏洩を防止した。\n\n第四は「ドメイン特化的評価」である。一般的なベンチマークに頼らず、主題専門家とともに独自の評価指標を開発。漁業データ照会では精度が最重要だが、他のタスクではレスポンススタイルが重視されるなど、タスク種別で重み付けを変えた。記事は、高度なモデルだけでなく、インフラと実装設計こそが信頼性あるエージェントの鍵であることを強調している。",
+    "tags": [
+      "AI エージェント",
+      "海洋保護",
+      "エンジニアリング",
+      "システム設計"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+    "importance": 4,
+    "image_query": "ocean satellite monitoring",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1733128666089-e313cc0113ef?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxvY2VhbiUyMHNhdGVsbGl0ZSUyMG1vbml0b3Jpbmd8ZW58MXwwfHx8MTc4NDE1MDM0OXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Hoyoun Lee",
+      "profileUrl": "https://unsplash.com/@icedcocoa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T21:19:09.533Z",
+    "publishedAt": "2026-07-15T17:29:41.000Z"
+  },
+  {
+    "slug": "20260716-02",
+    "headline": "Thinking MachinesがAIの「万能性」に反旗、マルチモーダル大規模モデル『Inkling』を公開",
+    "lead": "フィリピン拠点のAI企業が1兆パラメータのマルチモーダルモデルを発表。テキスト・画像・音声を同時処理し、数学・コーディングで高性能を実現。",
+    "body_markdown": "Thinking Machines がオープンソースのマルチモーダル言語モデル『Inkling』を発表した。およそ1兆パラメータの規模を持ち、100万トークンのコンテキストウインドウをサポートする。パラメータのうち、実際に動作時に活性化されるのは41Bのみであり、計算効率を重視した設計が特徴だ。\n\nモデルアーキテクチャは「疎な混合専門家（Mixture-of-Experts）」を採用。相対的注意機構、グローバルと局所ウインドウ注意を組み合わせたハイブリッド注意、短畳み込み層、そして画像・音声用のマルチモーダルタワーを搭載している。画像はML階層パッチ化、音声は離散化メルスペクトログラムで処理される。\n\n学習データは45兆トークン分のテキスト、画像、音声、映像を用いた。モデルはテキスト、画像、音声をネイティブに処理でき、マルチモーダル推論タスクに対応する。推論時には「なし」から「最大」までの段階的な思考努力レベルを選択可能で、投機的デコード用のマルチトークン予測ドラフタを備える。主要な推論フレームワーク（Transformers、SGLang、vLLM、llama.cpp）に対応。\n\n性能では、数学競技（AIME 2026で99.2）とコーディング（SWE-bench Proで62.1）で特に強い結果を示す。Inkling は『すべての用途に適したAI』という現在の主流モデル観に異議を唱え、専門性と効率性のバランスを示す試みである。",
+    "tags": [
+      "マルチモーダルAI",
+      "大規模言語モデル",
+      "オープンソース",
+      "推論効率"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/thinkingmachines-inkling",
+    "importance": 4,
+    "image_query": "artificial intelligence neural network",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1674027444474-e63f9d516f92?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMG5ldXJhbCUyMG5ldHdvcmt8ZW58MXwwfHx8MTc4NDE1MDM1MHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Growtika",
+      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T21:19:10.196Z",
+    "publishedAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "slug": "20260716-03",
+    "headline": "ロシア、黒海でウクライナ貿易路への攻撃激化。オデーサなど主要港を集中的に襲撃",
+    "lead": "ロシア軍がウクライナ南部の黒海港湾地帯への5日連続攻撃で民間人3人が死亡。穀物輸出の生命線が脅威にさらされている。",
+    "body_markdown": "ロシア軍とウクライナ軍が黒海での戦いをエスカレートさせている。ロシアはウクライナ南部のオデーサを中心とした黒海港湾地帯に対し、5日連続で大規模なドローンとミサイル攻撃を実施した。2026年7月11〜15日の間に、オデーサ、チョルノモルスク、ユージヌイの3港湾がロシアの標的となり、市民3人が死亡、民間施設と港湾インフラが被害を受けた。\n\n特筆すべきは、これまでは埠頭後背の施設が主な目標だったのに対し、今回は商船そのものが独立した攻撃対象になったことだ。一方、ウクライナのドローン部隊は7月15日夜間にロシア艦艇20隻を撃沈・損傷させたと発表。同月中、アゾフ海ではウクライナが116隻のロシア艦に打撃を与えている。\n\nオデーサなど黒海深水港は、ウクライナが戦時下で穀物などの重要な輸出品を扱う生命線である。世界最大の穀物輸出国ロシア自身も、ウクライナの対艦攻撃によってアゾフ海での出荷制限を余儀なくされており、ロシア穀物輸出の約4分の1を処理していた航路が機能不全に陥っている。黒海での戦術的消耗戦は、両国の戦時経済に深刻な影響を与えている。",
+    "tags": [
+      "ウクライナ戦争",
+      "黒海",
+      "経済制裁",
+      "穀物輸出"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/15/russian-attack-on-odesa-kills-three-as-ukraine-targets-vessels-in-black-sea",
+    "importance": 4,
+    "image_query": "black sea port ships",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1729343641942-5c8d60c4a7a2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMHNlYSUyMHBvcnQlMjBzaGlwc3xlbnwxfDB8fHwxNzg0MTUwMzUwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Stepan Konev",
+      "profileUrl": "https://unsplash.com/@stepan_konev?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T21:19:10.837Z",
+    "publishedAt": "2026-07-15T20:45:20.000Z"
+  },
+  {
+    "slug": "20260716-04",
+    "headline": "フランス国会がAID in dying法案を可決。医療倫理の転機",
+    "lead": "フランス下院が医学的援助死を認める法案を291対241で承認。オランダ、ベルギー、スイス、カナダに続き、主要先進国が制度化へ。",
+    "body_markdown": "フランスの国民議会（下院）は、患者が医学的援助により生を終わらせることを認める画期的な法案を可決した。投票は291対241と接戦であり、医療倫理に関する深刻な分裂を示している。\n\n法案が認める医学的援助死の対象者は、以下の厳格な要件を満たさねばならない。フランス市民または合法的な居住者であること、治癒不可能で生命脅威的な疾患が進行・末期段階にあること、恒常的な身体または心理的苦痛を経験していること、そして自由で情報に基づいた決定を下す完全な能力を保持していることである。\n\n実行方法としては、患者が自ら薬物を投与するか、身体能力の欠損時には医師または看護師が投与する。プロセスは厳密に管理され、複数の医師による確認が必要とされる予定である。ただし法案は、フランスの憲法評議会の最終承認がまだ必要であり、施行には数ヶ月の時間を要する可能性がある。\n\n国際的には、オランダ（2002年）、ベルギー（2002年）、スイス（1937年から医学的援助死が認可）、カナダ（2021年から医療援助死が認可）に続き、フランスは先進国の中で医学的援助死を制度化する主要国となる。社会的価値観の転換を象徴する決定である。",
+    "tags": [
+      "医療倫理",
+      "医学的援助死",
+      "フランス政治",
+      "生命倫理"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/15/french-parliament-approves-landmark-assisted-dying-bill",
+    "importance": 4,
+    "image_query": "hospital medical care decision",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1512678080530-7760d81faba6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxob3NwaXRhbCUyMG1lZGljYWwlMjBjYXJlJTIwZGVjaXNpb258ZW58MXwwfHx8MTc4NDE1MDM1MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Martha Dominguez de Gouveia",
+      "profileUrl": "https://unsplash.com/@m_dominguez_marketing?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T21:19:11.455Z",
+    "publishedAt": "2026-07-15T19:58:53.000Z"
+  },
+  {
+    "slug": "20260716-05",
+    "headline": "Sunoの大規模データ流出が露呈。YouTube・Deezer・Geniusから数百万曲をスクレイピング",
+    "lead": "AI音楽生成企業Sunoの流出ソースコードから、YouTubeだけで201万以上の楽曲を学習データとして収集していた実態が明らかに。",
+    "body_markdown": "AI音楽生成企業Sunoのセキュリティ侵害により、同社が学習データをいかに取得したかについて、これまで秘匿してきた内実が暴露された。流出したソースコードは、2025年11月に従業員の認証情報を盗用した供給チェーン攻撃によって奪取されたもので、大規模なデータスクレイピング活動の詳細を記録していた。\n\nスクレイピング規模は驚異的である。YouTubeから201万3545曲分、約11万3879時間。Deezerから1万2287時間、Geniusから1万7615時間。Pond5（ストック音楽）から6万2117時間、Jamendoから3726時間、国際音楽スコアライブラリプロジェクトから1万9514時間。加えて、約42万件のポッドキャストRSSフィードを通じて、およそ100万時間の音声が自動取得された。\n\n著作権侵害の法的問題は深刻である。米国の大手レーベルはSunoに対し複数の訴訟を提起しており、Digital Millennium Copyright Act（DMCA）によればYouTubeの保護機構を意図的に回避することは違法であり、YouTubeの利用規約にも違反する行為である。\n\nSunoは声明で、ハッキングは11月に迅速に封じ込められたと主張し、流出したコードは『現在は使用されていない旧式のものである』とコメントした。しかし同社はこれまで、何百万曲ものスクレイピングに依存していたことを長年認めており、今回の流出はその実態を生データで証明した。",
+    "tags": [
+      "AI著作権",
+      "Suno",
+      "データスクレイピング",
+      "音楽生成"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
+    "importance": 4,
+    "image_query": "music data digital copyright",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMGRhdGElMjBkaWdpdGFsJTIwY29weXJpZ2h0fGVufDF8MHx8fDE3ODQxNTAzNTJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "blocks",
+      "profileUrl": "https://unsplash.com/@blocks?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T21:19:12.380Z",
+    "publishedAt": "2026-07-15T17:00:34.000Z"
+  },
+  {
+    "slug": "20260716-06",
+    "headline": "Anthropic、10月上場に向け投資家ラウンドショーを開始。965億ドル評価の大型IPO段階へ",
+    "lead": "AI企業AnthropicがOctober上場を目指し、Goldman Sachs、Morgan Stanley、JPMorganが幹事を務める投資家向けミーティングを開催。",
+    "body_markdown": "生成AI企業Anthropicは、最大級の投資銀行3社による主幹事の下で、10月にも株式公開買付（IPO）を実施する準備を進めている。Goldman Sachs、Morgan Stanley、JPMorgan Chase が幹事行として投資家向けミーティングをスケジュールしており、ここ数週間の間に複数の投資家と接触する予定だ。\n\nこのミーティングは企業が証券規制当局に機密申請した後の標準的な手順であり、より広い投資家グループに経営陣がプレゼンテーションを行う本格的なロードショーに先立つ。市場規模調査のこの段階が、IPO時期や株価決定の重要な指標となる。\n\nAnthropicの企業評価は急速に上昇している。5月の資金調達ラウンドで965億ドルの評価で65億ドルを調達し、初めてOpenAI（852億ドル）の時価総額を上回った。この時点でAnthropicは、非公開企業としては世界で最も高い評価を受けるAI企業となった。\n\n10月上場を達成すれば、Anthropicはライバル企業OpenAIより先に株式市場に進出することになる。OpenAIは技術株のボラティリティを懸念し、IPOを2027年に延期する方向で検討中である。先制的な上場は、AI景気が後退した場合のマーケット環境変化に対する耐性を提供する戦略的利点があると見られている。",
+    "tags": [
+      "Anthropic",
+      "IPO",
+      "AI企業",
+      "資金調達"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/15/anthropic-ipo-banks-investor-meetings.html",
+    "importance": 4,
+    "image_query": "stock market finance IPO",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1648275913341-7973ae7bc9b3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzdG9jayUyMG1hcmtldCUyMGZpbmFuY2UlMjBJUE98ZW58MXwwfHx8MTc4NDE1MDM1M3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tyler Prahm",
+      "profileUrl": "https://unsplash.com/@tprahm?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T21:19:13.384Z",
+    "publishedAt": "2026-07-15T17:22:51.000Z"
+  },
+  {
+    "slug": "20260716-07",
+    "headline": "Microsoft、過去最大のパッチ火曜日で570個の脆弱性を修正。AI検出が功奏",
+    "lead": "2026年7月のPatch Tuesdayで570件の脆弱性を一括修正。AI支援による検出が記録的な件数を実現。2件の零日に即修正対応。",
+    "body_markdown": "Microsoftが2026年7月の月次セキュリティアップデート「Patch Tuesday」で、過去最大となる570個のセキュリティ脆弱性を修正した。そのうち「Critical」ランクは59件で、48件がリモートコード実行、9件が権限昇格、1件がセキュリティバイパス、1件がスプーフィングに分類される。\n\n特に重大なのは、2件の零日（ゼロデイ）脆弱性がすでに攻撃に悪用されていたことだ。CVE-2026-56155はActive Directory Federation Services（AD FS）に影響し、認証済みの攻撃者が管理者権限に昇格可能。CVE-2026-56164はMicrosoft SharePointに影響し、認証が欠落した重要機能を介して遠隔から権限昇格ができる。加えて、BitLockerのセキュリティ機能バイパス（CVE-2026-50661）は事前に公開報告されていたが、実際の攻撃悪用は確認されていない。\n\nアップデートの対象範囲は広い。Windows、Office、Exchange Server、SharePoint Server、SQL Server、Azure、Visual Studio ほか多岐のMicrosoft製品が修正の対象となった。\n\nMicrosoftは、記録的な脆弱性件数の増加を、人工知能が脆弱性発見を支援したことが寄与していると明示した。AI駆動の自動スキャンが、従来は手動では見逃していた欠陥を大量に検出できるようになり、修正対象が急増したという。このため、全員が予定どおり7月のパッチを直ちに適用することが重要である。",
+    "tags": [
+      "セキュリティ",
+      "Microsoft",
+      "脆弱性",
+      "Patch Tuesday"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+    "importance": 4,
+    "image_query": "computer security software patch",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1590065707046-4fde65275b2e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxjb21wdXRlciUyMHNlY3VyaXR5JTIwc29mdHdhcmUlMjBwYXRjaHxlbnwxfDB8fHwxNzg0MTUwMzU0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Dan Nelson",
+      "profileUrl": "https://unsplash.com/@danny144?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T21:19:14.301Z",
+    "publishedAt": "2026-07-15T16:20:18.000Z"
+  },
+  {
+    "slug": "20260716-08",
+    "headline": "SpaceX株がIPO価格135ドルを初割れ。時価総額世界最大も投資家心理に陰り",
+    "lead": "SpaceXの株価が初公開価格を初めて下回る。Elon Musk最大級のIPO成功も1ヶ月足らずで売却圧力が高まる。",
+    "body_markdown": "Space Exploration Technologies（SpaceX）の上場株が2026年7月15日、公式な初値である135ドルを初めて割り込んだ。株価は約1%下落し134ドル台で引けた。先月の歴史的な大型IPO完了からわずか1ヶ月足らずでの下落である。\n\nSpaceXのIPOは、再利用可能ロケットメーカーにとって記録的な成功を収めた。IPOが募った資金は860億ドルと過去最大級で、CEO兼創業者Elon Muskを世界初の「兆万長者」へと押し上げた。当初は投資家の熱狂が著しく、株価は初値150ドルからわずか1ヶ月で225ドル超まで跳ね上がり、時価総額がMicrosoftやAmazonを一時上回るまでに膨らんだ。\n\nしかし、その後は急速に冷え込んだ。先週SpaceXがNASDAQ-100インデックスに組み込まれた際、パッシブな指数追跡投資家が大量に流入したとみられるが、同時に株価は初値150ドルを割り込み、その後135ドルのIPO価格まで下落した。一部の分析家は、初期の熱狂が持続不可能な評価に基づいており、調整局面に入ったと指摘している。SpaceXの事業見通しが急変したわけではないが、市場の心理が冷却している。",
+    "tags": [
+      "SpaceX",
+      "IPO",
+      "株価",
+      "宇宙開発"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/15/spacex-spcx-stock-ipo-price.html",
+    "importance": 4,
+    "image_query": "rocket launch spacecraft",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxyb2NrZXQlMjBsYXVuY2glMjBzcGFjZWNyYWZ0fGVufDF8MHx8fDE3ODQxNTAzNTV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "SpaceX",
+      "profileUrl": "https://unsplash.com/@spacex?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T21:19:15.208Z",
+    "publishedAt": "2026-07-15T20:13:11.000Z"
+  },
+  {
+    "slug": "20260716-09",
+    "headline": "Apple、中国でIntelligenece機能を正式承認。Alibaba・Qwen AIを統合",
+    "lead": "中国当局がApple Intelligenceの展開を公式承認。Alibaba傘下のQwen AIを統合し、iPhoneのオン・デバイス生成AI機能を中国市場で実現。",
+    "body_markdown": "中国の『サイバースペース管理局』（CAC）は2026年7月15日、Appleの生成AI機能『Apple Intelligence』を中国での展開を正式に承認した。同機能はAlibaba傘下の大規模言語モデル『Qwen』を統合する形で実装される。\n\nQwenはiOS、iPadOS、macOS、visionOSの各OSにネイティブに組み込まれ、中国本土のユーザーはアプリケーション切り替えなしにテキスト理解、画像認識、コンテンツ生成の各タスクにアクセスできる。ユーザー体験の観点では、Appleが提供するインターフェース上でQwenの能力を直接利用できることになる。\n\nこの承認は、世界最大のスマートフォン市場でのApple Intelligenceの展開に向けた重要なマイルストーンである。Appleは2024年にApple Intelligenceを初めて発表したものの、中国市場での展開は規制要件の協議に時間を要していた。今回の承認により、中国政府の安全性・セキュリティ要件も満たされたとみられる。\n\nただし、規制承認と商用展開の間には時間差がある可能性がある。Apple Intelligenceがユーザーに実装される前に、セキュリティレビュー、エンジニアリング適応、OSアップデートを経る必要がある。本格的な中国展開は秋以降となる可能性が高い。Alibaba にとっても、国内有力AI企業として、世界的なプラットフォームへの組み込みは大きな実績となる。",
+    "tags": [
+      "Apple",
+      "生成AI",
+      "中国市場",
+      "Alibaba"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+    "importance": 4,
+    "image_query": "smartphone artificial intelligence device",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1744900647430-965ccc7a6078?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxzbWFydHBob25lJTIwYXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGRldmljZXxlbnwxfDB8fHwxNzg0MTUwMzU1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Aerps.com",
+      "profileUrl": "https://unsplash.com/@almoya?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T21:19:16.110Z",
+    "publishedAt": "2026-07-15T15:29:33.000Z"
+  },
+  {
+    "slug": "20260716-10",
+    "headline": "中国の月探査機「天問2号」、10億km離れた小惑星に到着。サンプル採取段階へ",
+    "lead": "中国・天問2号が約400日の航行を経て、小惑星2016HO3（カモオアレア）から20km圏内まで到達。2027年の試料採集に向け観測開始。",
+    "body_markdown": "中国国家宇宙局の天問2号探査機は、約10億km・400日間の航行を経て、目標とする小惑星『2016HO3』（別名：カモオアレア）の観測圏内に到達した。現在、小惑星からおよそ20km の距離で浮遊し、本格的な科学観測フェーズに入った。このカモオアレアは地球の準月と呼ばれる稀有な天体であり、天体力学的には地球の重力に捕捉される準衛星軌道を周回している。\n\n天問2号は2025年5月29日に中国から打ち上げられ、複数の科学目標を掲げる10年規模のミッションである。主要目標は近地球小惑星2016HO3からのサンプル採集と、主小惑星帯彗星311Pの探査である。小惑星の表面は多様な地質条件を示すと予想されるため、探査機には『接触・ホバリング・固定』の3つのサンプリング方式が搭載された。\n\n現在から2027年4月までは、LiDAR、カメラ、サウンディングレーダを用いた詳細な小惑星マッピングが行われる。航空機は2027年4月24日（中国の『宇宙の日』）に小惑星を離脱予定。その後、採集した試料を搭載した再突入カプセルは、数年内に地球大気圏へ帰還し、着陸する見込みである。この成功は、中国の宇宙探査能力の着実な進展を示すものである。",
+    "tags": [
+      "宇宙探査",
+      "中国",
+      "小惑星",
+      "試料採集"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-billion-kilometers-china-asteroid-hunter.html",
+    "importance": 4,
+    "image_query": "space probe asteroid mission",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzcGFjZSUyMHByb2JlJTIwYXN0ZXJvaWQlMjBtaXNzaW9ufGVufDF8MHx8fDE3ODQxNTAzNTZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "NASA",
+      "profileUrl": "https://unsplash.com/@nasa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T21:19:17.073Z",
+    "publishedAt": "2026-07-15T20:20:01.000Z"
+  },
+  {
+    "slug": "20260716-11",
+    "headline": "米NYが初のAIデータセンター禁止令を発令。トランプは即座に撤廃要求",
+    "lead": "NY州知事がAIデータセンター建設モラトリアムに署名。トランプ大統領が『直ちに政策変更を』と批判し、規制巡る対立が鮮明に。",
+    "body_markdown": "ニューヨーク州のHochul知事が、米国初となるAIデータセンター建設禁止令に署名した。同モラトリアムは、大規模な生成AI訓練用インフラの建設を一時的に制限するもので、州内のエネルギー逼迫への懸念を背景としている。データセンターは膨大な電力を消費し、NY州の電力供給に圧力をかけるとの判断である。\n\nこの決定に、Donald Trump大統領は即座に反発した。トランプは公式声明で『ニューヨークは直ちに政策を変更すべき』と述べ、AI産業の育成をNY州が妨害することを強く批判。トランプ政権はAI開発の加速と米国の競争力維持を優先する立場を鮮明にしており、州レベルでの規制立案と連邦政策目標の間に齟齬が生じた。\n\nエネルギー問題は実在する。ニューヨーク州の電力インフラは限定的な供給能力しか有しておらず、複数の大規模データセンターの同時建設は送電網に負荷をかけることが確実である。一方、AI企業側は、米国内でのデータセンター立地が競争力に直結し、海外（特に中国）への投資流出につながると主張する。この緊張関係は、今後の米国AI政策における州連邦関係の試金石となる。",
+    "tags": [
+      "AI規制",
+      "データセンター",
+      "エネルギー",
+      "政治"
+    ],
+    "section": "テクノロジー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/15/trump-blasts-new-york-gov-hochul-over-ai-data-center-moratorium.html",
+    "importance": 4,
+    "image_query": "data center servers computer",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1762163516269-3c143e04175c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxkYXRhJTIwY2VudGVyJTIwc2VydmVycyUyMGNvbXB1dGVyfGVufDF8MHx8fDE3ODQxNTAzNTd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Domaintechnik",
+      "profileUrl": "https://unsplash.com/@fslfsl?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T21:19:17.600Z",
+    "publishedAt": "2026-07-15T20:35:40.000Z"
+  },
+  {
+    "slug": "20260716-12",
+    "headline": "スーダン情勢悪化、新たな経済制裁が検討。国連が戦争犯罪の証拠を報告",
+    "lead": "スーダン内戦の戦争犯罪証拠が積み重なる中、国連が新制裁を提案。対外国勢力への直接制裁には国家が慎重な姿勢。",
+    "body_markdown": "スーダンの内戦が収束の兆しを見せず、国際社会の懸念が深まっている。国連の調査機関がスーダン政府と反政府勢力による組織的な人権侵害と戦争犯罪の証拠を記録し、報告書を提出した。また、民族的浄化の兆候と指摘される地域的な暴力事象も多数報告されている。\n\nこれを踏まえ、国連安保理および複数の先進国政府は、スーダンの当事者に対する追加制裁の検討を開始した。しかし、実際の制裁実行には難しさがある。各国は当事国への直接制裁に慎重であり、スーダン政府や反政府勢力を支援する外国アクターに対する制裁を優先する傾向がある。イランやロシアなど、スーダン情勢への関与を指摘される国への経済制裁が、より現実的な政策ツールと見なされている。\n\n2年を超える内戦により、スーダンの人道状況は急速に悪化している。数百万人が国内避難民化し、深刻な食糧不足が報告されている。しかし国際的な軍事介入の動きは限定的であり、制裁による圧力行使が主な手段となっている。戦争犯罪への国際的な責任追及は、政治的妥協の中で後景化する傾向も指摘されている。",
+    "tags": [
+      "スーダン",
+      "内戦",
+      "人権侵害",
+      "国際制裁"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/07/15/sudan-civil-war-crimes-sanctions-un-report-genocide/",
+    "importance": 4,
+    "image_query": "conflict humanitarian crisis",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1643276626105-8cddc22e8b09?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjb25mbGljdCUyMGh1bWFuaXRhcmlhbiUyMGNyaXNpc3xlbnwxfDB8fHwxNzg0MTUwMzU4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mahmoud Sulaiman",
+      "profileUrl": "https://unsplash.com/@mahmoud_ms1?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T21:19:18.515Z",
+    "publishedAt": "2026-07-15T19:46:20.000Z"
+  },
+  {
+    "slug": "20260716-13",
+    "headline": "国際世論の転換　中国への好意度、米国を逆転。Pew調査が示す地政学的シフト",
+    "lead": "Pew Research Centerの国際調査で、世界的にXi Jinpingへの信頼がTrumpを上回った。米国の国際的地位が相対的に低下。",
+    "body_markdown": "米国の主要シンクタンクPew Research Centerが発表した国際意識調査で、重大な転換が示された。世界的に見て、中国指導者Xi Jinpingに対する信頼度が、米国大統領Donald Trumpに対する信頼度を初めて上回ったのである。この調査は複数の国の成人層を対象にした継続的なプロジェクトで、地政学的な国際関係の変化を敏感に反映する。\n\n結果が示唆するのは、米国の国際的ソフトパワーの相対的な低下である。Trumpの大統領就任後、米国は多くの国際的な枠組みからの撤退や政策転換を行い、これが同盟国の間でも信頼感を減少させた。一方、中国は一帯一路構想などのインフラ投資や、グローバルサウスと呼ばれる発展途上国への経済的関与を深めており、その影響力が拡大している。\n\n特に影響を受けているのは、発展途上国と新興国である。米国の民主主義推進や人権外交が実行性を欠くと認識する層が増加する中、中国の実用的な経済支援への評価が高まっている。ただしこの転換は、中国の民主的統治を評価するものではなく、むしろ経済的利益と直接的な国益追求を重視する現実主義的な選択を反映している。国際政治におけるパワーシフトが、世論レベルで可視化された形である。",
+    "tags": [
+      "地政学",
+      "米中関係",
+      "国際世論",
+      "外交"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cd959q11g54o",
+    "importance": 4,
+    "image_query": "world map countries diplomacy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1524661135-423995f22d0b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx3b3JsZCUyMG1hcCUyMGNvdW50cmllcyUyMGRpcGxvbWFjeXxlbnwxfDB8fHwxNzg0MTUwMzU5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Andrew Stutesman",
+      "profileUrl": "https://unsplash.com/@drwmrk?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T21:19:19.360Z",
+    "publishedAt": "2026-07-15T17:02:41.000Z"
+  },
+  {
+    "slug": "20260716-14",
+    "headline": "プラスチック廃棄物を水と酸素で有用な酸類に変換。環境問題の技術的突破口",
+    "lead": "国際研究チームが微小水滴を用いたプラスチック分解技術を開発。有害物質を生じず、化学原料として再利用可能。",
+    "body_markdown": "環境技術に大きな進展がもたらされた。複数国の研究機関からなる国際チームが、難分解性プラスチック廃棄物を、水と酸素のみを用いて有用な化学物質（有機酸類）に変換する新技術を開発した。この方法は、従来のプラスチック焼却や化学処理法と異なり、有害な二酸化炭素や有毒物質を副産物として生じない。\n\n革新的な要素は『微小水滴』の活用である。極めて小さな水滴を使用することで、プラスチック分子と水分子の接触面積が飛躍的に増加し、反応効率が大幅に向上する。このプロセスは酸化プロセスの応用で、プラスチックの高分子鎖が段階的に分解され、有機酸類へと変換される。\n\nより詳細には、試験対象のプラスチック（ポリエチレン、ポリプロピレンなど日常的なプラスチック製品の主要素材）が、マイルドな条件下で酸化され、各種カルボン酸へと変換されることが確認された。これらの化学物質は、医薬品、食品添加物、工業化学品の原料として再利用できる。\n\n現在の課題は、スケールアップ（小規模実験から大規模実用化）と経済性の確保である。研究チームは、この技術が2030年代中盤には産業規模での実装が可能と予測している。プラスチック廃棄物問題は、リサイクルとエネルギー回収だけでなく、化学的な再構成によっても部分的な解決が可能となる道を示す技術である。",
+    "tags": [
+      "プラスチック リサイクル",
+      "環境技術",
+      "循環経済",
+      "化学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-tiny-droplets-stubborn-plastic-valuable.html",
+    "importance": 3,
+    "image_query": "plastic recycling waste management",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-15T21:19:19.362Z",
+    "publishedAt": "2026-07-15T20:00:05.000Z"
+  },
+  {
     "slug": "20260715-12",
     "headline": "中国Q2成長率4.3%、目標未達で景気鈍化懸念",
     "lead": "中国の4〜6月期GDP成長率が4.3%に減速、4.5%の目標を下回り2022年末以来の低水準。",
