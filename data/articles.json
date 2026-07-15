@@ -1,5 +1,446 @@
 [
   {
+    "slug": "20260715-12",
+    "headline": "中国Q2成長率4.3%、目標未達で景気鈍化懸念",
+    "lead": "中国の4〜6月期GDP成長率が4.3%に減速、4.5%の目標を下回り2022年末以来の低水準。",
+    "body_markdown": "中国経済が予想外の減速に直面している。2026年第2四半期のGDP成長率は前年同期比4.3%に留まり、政府が掲げた年間目標の下限4.5%を下回った。1990年代の公表以来、最低の成長目標すら達成できないという異例の事態だ。\n\n統計では、AI・電動車関連で輸出が前年比17.6%と好調だったものの、国内需要の停滞が足を引っ張っている。家計消費は不動産バブルの長期化と雇用不安で縮小し、固定資産投資も前年同期比5.7%減少。不動産業の投資は18%のマイナスと深刻だ。\n\n構造的な課題は明らかで、過度な輸出依存と国内経済の不均衡が露呈している。政府は追加の金融緩和や財政支援を検討するとされるが、改革なくして持続的な回復は難しい。世界経済の減速懸念も高まり、国際的な影響は避けられない。",
+    "tags": [
+      "中国経済",
+      "GDP",
+      "景気減速",
+      "投資",
+      "消費"
+    ],
+    "section": "経済・マネー",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/cd959x4edy8o",
+    "importance": 5,
+    "image_query": "economic growth data finance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1618044733300-9472054094ee?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxlY29ub21pYyUyMGdyb3d0aCUyMGRhdGElMjBmaW5hbmNlfGVufDF8MHx8fDE3ODQxMDY5ODF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Spiske",
+      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:19.147Z",
+    "publishedAt": "2026-07-15T05:12:55.000Z"
+  },
+  {
+    "slug": "20260715-13",
+    "headline": "アルツハイマー新薬、臨床試験で進行抑制を確認",
+    "lead": "米製薬企業がアルツハイマー病の新薬で第2段階臨床試験の好結果を発表。症状進行の抑制効果。",
+    "body_markdown": "世界規模で開発競争が進むアルツハイマー病治療薬で、新タイプの治療法が臨床成果を上げた。米国の製薬企業が実施した第2段階臨床試験で、症状の進行を抑制する効果を確認したと発表した。\n\nアルツハイマー病の薬物開発パイプラインは2026年時点で拡大しており、第2段階の臨床試験は計89件が進行中（全試験の46%）である。治療対象は軽度認知機能障害（MCI）から初期アルツハイマー患者まで幅広い。\n\nこれまでのアミロイド標的療法から多様な機序の薬剤へ転換する傾向が強まっており、例えば注意欠陥・多動症（ADHD）治療薬を転用した治験も進行中だ。2026年は8つの第3段階試験が完了予定で、薬物療法の選択肢が増える可能性がある。ただし治療の実用化には規制当局の承認が必須であり、安全性検証もなお必要である。",
+    "tags": [
+      "医療",
+      "アルツハイマー病",
+      "臨床試験",
+      "医薬品",
+      "神経疾患"
+    ],
+    "section": "サイエンス",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015177501000",
+    "importance": 5,
+    "image_query": "medical research laboratory brain",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1631563019676-dade0dbdb8fc?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxtZWRpY2FsJTIwcmVzZWFyY2glMjBsYWJvcmF0b3J5JTIwYnJhaW58ZW58MXwwfHx8MTc4NDEwNjk4Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:20.150Z",
+    "publishedAt": "2026-07-15T07:25:54.000Z"
+  },
+  {
+    "slug": "20260715-14",
+    "headline": "OpenAI初ハードウェア、動く音声AI スピーカーの実現へ",
+    "lead": "OpenAIが初の製品化ハードウェアは、動く要素を備えた音声スピーカー。ChatGPTの物理的な具現化を目指す。",
+    "body_markdown": "AI企業OpenAIが初のハードウェア製品を発表する見通しが高まっている。開発中のスピーカーは画面を持たず、移動可能な機械要素を備えた設計とされる。Bloombergの報道では、デバイスに「独自に動く機械要素」が含まれ、ChatGPTの物理的な具現化を意図した「コンパニオン」として機能するという。\n\n技術仕様としては、GPT-Liveの高度なバージョンを搭載し、同時リスニング・スピーキング機能で自然な会話フローを実現する。カメラとセンサーで環境認識し、スマートホームの制御にも対応する予定だ。2027年の発売が想定されているが、遅延の可能性もある。\n\n2025年にAppleの元デザイナー・Jony Ive率いる起業チーム「io」をOpenAIが65億ドルで買収したことが、ハードウェア開発の背景にある。Appleは最近、OpenAIが従業員400名超の引き抜きと機密情報の不正取得を指摘する訴訟を提起しており、法的な課題が存在する。",
+    "tags": [
+      "AI",
+      "ハードウェア",
+      "OpenAI",
+      "音声",
+      "スマートデバイス"
+    ],
+    "section": "AI",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2215417/openai-first-device-humanlike-rechargeable-speaker/",
+    "importance": 5,
+    "image_query": "ai speaker device technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1529359744902-86b2ab9edaea?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxhaSUyMHNwZWFrZXIlMjBkZXZpY2UlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3ODQxMDY5ODN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Howard Bouchevereau",
+      "profileUrl": "https://unsplash.com/@howardbouchevereau?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:21.169Z",
+    "publishedAt": "2026-07-15T08:37:19.000Z"
+  },
+  {
+    "slug": "20260715-15",
+    "headline": "GoogleとEpic和解、Android にサードパーティストア登場",
+    "lead": "Google Playにライバルアプリストアが7月22日から統合される。独占構造が転換。",
+    "body_markdown": "GoogleとEpic Gamesが訴訟を通じた競争をひとまず終わらせ、Androidエコシステムの大きな変化が実現する。米国の裁判官の命令に従う形で、GoogleはPlayストア内にライバルのアプリストアを搭載することが確定した。提案していた軟化した和解案を両者が撤回し、より厳しい原案を受け入れた。\n\n7月22日から、Google Playは「カタログアクセスプログラム」に登録したサードパーティストアに対して、米国向けアプリのメタデータ（名前、アイコン、説明、スクリーンショット）を自動共有する。開発者は明示的に除外を選ばない限り、自動的に第三者ストアへ掲載される構想だ。\n\nGoogle側は年間5000ドルの「セキュリティ・ポリシー審査」手数料を徴収する。サービス料金体系は新規インストール20%（サブスク10%）、別途決済手数料5%となった。この構造的な変化はAndroid市場の多元化を意味し、アプリ配布の競争環境が大きく転換する局面となる。",
+    "tags": [
+      "Google",
+      "Android",
+      "アプリストア",
+      "Epic Games",
+      "競争"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play",
+    "importance": 4,
+    "image_query": "app store mobile platform",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1601034913836-a1f43e143611?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhcHAlMjBzdG9yZSUyMG1vYmlsZSUyMHBsYXRmb3JtfGVufDF8MHx8fDE3ODQxMDY5ODR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brett Jordan",
+      "profileUrl": "https://unsplash.com/@brett_jordan?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:22.132Z",
+    "publishedAt": "2026-07-15T03:28:53.000Z"
+  },
+  {
+    "slug": "20260715-16",
+    "headline": "NASAが月・火星探査の新技術41件を選定",
+    "lead": "NASA が民間企業の宇宙技術41案件を採択。月の永久影領域の電力確保など、探査課題を解く。",
+    "body_markdown": "米国航空宇宙局（NASA）が、月およ び火星探査に向けた民間技術の開発支援対象として、37社から41件の提案を選定した。協力の枠組みは「2025年度協力提案（ACO）プログラム」で、企業が自己資金を投じる形でNASA施設や専門知識へのアクセスを提供する仕組みだ。\n\n選定されたテーマは多岐にわたる。Lockheed Martinは月の永久影領域で発電する「コンパクトで モジュール型の電力システム」を開発中であり、光ファイバーレーザーを使った無線給電も並行している。Kall Morris は「非破壊的な接着剤」でペイロード取付けを簡素化するAsteria システムを、Moonprintは月のアブレッシブな塵から機器を守る「柔軟な保護カバー」を開発している。\n\n1998年の同プログラム開始から、NASAが投じた資源は約3000万ドル、民間企業の追加投資は3200万ドルであり、官民協働が軌道に乗っている。対象技術は推進系、航法、着陸システムから宇宙サービス、製造、エネルギー管理まで幅広く、商業宇宙市場の成長も期待される。",
+    "tags": [
+      "NASA",
+      "月探査",
+      "火星探査",
+      "宇宙技術",
+      "民間協働"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260713084855.htm",
+    "importance": 4,
+    "image_query": "spacecraft moon landing mission",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1614726365930-627c75da663e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzcGFjZWNyYWZ0JTIwbW9vbiUyMGxhbmRpbmclMjBtaXNzaW9ufGVufDF8MHx8fDE3ODQxMDY5ODV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "NASA",
+      "profileUrl": "https://unsplash.com/@nasa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:23.214Z",
+    "publishedAt": "2026-07-15T07:43:02.000Z"
+  },
+  {
+    "slug": "20260715-17",
+    "headline": "Anthropic、米K-12教員に「Claude for Teachers」無料提供開始",
+    "lead": "AI企業Anthropicが米国の幼〜高校教員向けにClaudeプレミアム機能を無料提供。授業計画ツール も含む。",
+    "body_markdown": "AI企業Anthropicが、米国の認証取得K-12（幼稚園〜高校）教員を対象に、「Claude for Teachers」サービスを7月14日から開始した。プレミアムClaudeの全機能、クロード・コード、Cowork機能、全50州の教育水準に対応した授業計画ツールを、1年間無料で提供する。\n\n\"Learning Commons\" 連携により、Claudeは全50州の学習基準にアクセス可能。OpenSciEdやIllustrative Mathematicsなどの信頼できる教育リソースが統合されている。授業計画策定時には、自動的に各州の標準に準拠した形で構成される。\n\n隣接する複数の教育プラットフォーム（ASSISTments、Brisk Teaching、Canva Educationなど）への接続にも対応。データプライバシーはFERPA（全米教育機関の学生記録保護法）に準拠し、学生情報は モデル学習に使用されない。AFTと協働し、業界のプライバシー基準を策定中であり、学校・地区向けの専用オファーも計画されている。",
+    "tags": [
+      "教育",
+      "AI",
+      "Claude",
+      "K-12",
+      "Anthropic"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/15/2000000193/",
+    "importance": 4,
+    "image_query": "education classroom technology learning",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxlZHVjYXRpb24lMjBjbGFzc3Jvb20lMjB0ZWNobm9sb2d5JTIwbGVhcm5pbmd8ZW58MXwwfHx8MTc4NDEwNjk4Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Quilia",
+      "profileUrl": "https://unsplash.com/@heyquilia?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:24.316Z",
+    "publishedAt": "2026-07-15T02:25:28.000Z"
+  },
+  {
+    "slug": "20260715-18",
+    "headline": "Starlink V5ディッシュが登場、小型・省電力化で採用加速へ",
+    "lead": "SpaceXの新型Starlink受信機V5が稼働開始。前世代V4比で小型・軽量・省電力。",
+    "body_markdown": "SpaceXがStarlink衛星インターネットの新型住宅向けディッシュ「Starlink V5」を投入した。前世代V4に比べて著しく小型軽量化され、電力効率も大幅に改善されている。ただし通信速度の向上は見込まれていない。\n\n新型V5の主な特徴は、小型フォームファクタと軽量設計、向上した電力効率である。より広い地域への展開を視野に、SpaceXは段階的に生産能力を上げるとしている。\n\nV5は静止利用向けの設計で、移動中の利用を想定した「新型Starlink Mini」の登場は別途予定されている。既存ユーザーも段階的な更新対象となる見通しで、農村部や離島などのブロードバンド空白地帯の解消が加速する可能性がある。ただし通信速度の大幅改善はないため、既設ユーザーの無理な買い替えは想定されていない。",
+    "tags": [
+      "衛星通信",
+      "Starlink",
+      "インターネット",
+      "SpaceX",
+      "通信"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2215419/starlink-v5-home-dish-smaller-and-more-energy-efficient/",
+    "importance": 4,
+    "image_query": "satellite internet technology dish",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1526666923127-b2970f64b422?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzYXRlbGxpdGUlMjBpbnRlcm5ldCUyMHRlY2hub2xvZ3klMjBkaXNofGVufDF8MHx8fDE3ODQxMDY5ODd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Donald Giannatti",
+      "profileUrl": "https://unsplash.com/@wizwow?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:25.492Z",
+    "publishedAt": "2026-07-15T08:45:09.000Z"
+  },
+  {
+    "slug": "20260715-19",
+    "headline": "OpenAI研究者、AI創薬企業立ち上げ 評価額20億ドル",
+    "lead": "OpenAI の研究者Miles Wangが、AI薬剤発見企業の立ち上げで融資交渉中。評価額20億ドル。",
+    "body_markdown": "OpenAIの研究者Miles Wangが、AI を活用した医薬品発見に特化したスタートアップの設立に向けて、大規模な資金調達を進めている。評価額は20億ドルに達するとされ、投資家の生命科学分野へのAI応用への強い関心が示されている。\n\nこのニュースは、生命科学産業における AI 導入の加速を象徴している。AI モデルの大規模言語処理能力を医薬品開発のスクリーニングや分子設計に応用し、従来なら数年かかる研究期間を大幅短縮できるという期待が背景にある。\n\nWangは OpenAI で最先端 AI 技術へのアクセスを有しており、その知見を直接起業に活かす動きだ。製薬業界では、AI による新規化合物の探索が急速に実用化段階に進んでおり、既存製薬大手もAI スタートアップとの協業を加速させている。ただし、AI 創薬の有効性検証と規制承認プロセスは未だ途上であり、実際の医療応用までには時間を要する。",
+    "tags": [
+      "AI",
+      "医薬品開発",
+      "創薬",
+      "スタートアップ",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+    "importance": 4,
+    "image_query": "medical research pharmaceutical molecule",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwcmVzZWFyY2glMjBwaGFybWFjZXV0aWNhbCUyMG1vbGVjdWxlfGVufDF8MHx8fDE3ODQxMDY5ODh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Terry Vlisidis",
+      "profileUrl": "https://unsplash.com/@vlisidis?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:26.770Z",
+    "publishedAt": "2026-07-15T00:27:04.000Z"
+  },
+  {
+    "slug": "20260715-20",
+    "headline": "Microsoft Secure Boot、10年の脆弱性が判明 回避方法が存在",
+    "lead": "Microsoftの Secure Boot セキュリティ機能に10年来の脆弱性。無効化されていない旧シムが悪用可能。",
+    "body_markdown": "Windows のセキュリティ機能「Secure Boot」に、長年見過ごされていた根本的な脆弱性が発覚した。Microsoftが廃止し忘れていた古い「シム」（署名済みロードプログラム）を利用すれば、セキュアブートを簡単に回避できるとされている。\n\nこの脆弱性は Secure Boot の実装当初からほぼ10年間存在し続けたにもかかわらず、誰からも指摘されることなく放置されていた。攻撃者は廃止済みの古いシムを用いて、不正な OS やドライバをロード可能になる危険性がある。\n\nMicrosoftはパッチプログラムで対応を進めているが、すべてのWindows環境への展開には時間を要する。特にエンタープライズ環境では互換性確保の課題があり、段階的な修正展開が見込まれている。セキュアブートはPC の起動時の信頼性を担保する最後の防線であり、この穴の塞止は Windows 全体のセキュリティ強化に不可欠である。",
+    "tags": [
+      "Windows",
+      "セキュリティ",
+      "脆弱性",
+      "Microsoft",
+      "ファーム"
+    ],
+    "section": "テクノロジー",
+    "source": "Ars Technica",
+    "link": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
+    "importance": 4,
+    "image_query": "security vulnerability computer code",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8c2VjdXJpdHklMjB2dWxuZXJhYmlsaXR5JTIwY29tcHV0ZXIlMjBjb2RlfGVufDF8MHx8fDE3ODQxMDY5ODl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Shahadat Rahman",
+      "profileUrl": "https://unsplash.com/@hishahadat?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:27.720Z",
+    "publishedAt": "2026-07-14T22:20:48.000Z"
+  },
+  {
+    "slug": "20260715-21",
+    "headline": "北米の森林火災、中西部・北東部に健康被害をもたらす煙",
+    "lead": "カナダとミネソタの大規模火災が、米国中西部・北東部に危険な大気汚染をもたらしている。",
+    "body_markdown": "カナダとミネソタで猛威を振るう大規模森林火災から放出される煙が、米国中西部および北東部に深刻な大気汚染をもたらしている。ツインシティ、デトロイト、ミルウォーキーを含む広大な地域が影響を受け、最終的にはワシントンD.C.周辺まで煙が到達する見通しだ。\n\n複数の州（ミネソタ、ミシガン、ウィスコンシン、ニューヨーク、メイン、ペンシルベニア）が大気質アラートを発令している。野火からの微粒子汚染は、呼吸困難、咳、めまい、疲労などの症状を引き起こし、特に児童と心臓・肺疾患患者に危険である。\n\n対策としては屋外活動の最小化、N95マスク着用、窓を閉じて空気清浄機利用、ピーク時の屋内待機が推奨されている。長期的な野火煙への曝露は主要な早期死亡原因の一つであり、公衆衛生上の深刻な懸念がある。環境と気候変動への適応が急務である。",
+    "tags": [
+      "環境",
+      "森林火災",
+      "大気汚染",
+      "健康",
+      "気候"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-wildfires-expose-millions-midwest-northeast.html",
+    "importance": 3,
+    "image_query": "wildfire smoke air pollution",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:27.720Z",
+    "publishedAt": "2026-07-15T08:40:21.000Z"
+  },
+  {
+    "slug": "20260715-22",
+    "headline": "スペイン、W杯決勝へ フランスを2-0で制破",
+    "lead": "サッカーワールドカップ北中米大会の準決勝でスペインがフランスに勝利。決勝進出を決めた。",
+    "body_markdown": "サッカーワールドカップ北中米大会の準決勝で、スペイン代表がフランス代表を2-0で破り、大会決勝進出を決めた。2010年の前回優勝以来、スペインが再び優勝の舞台に立つ可能性が現実化している。\n\nスペインはこの試合で支配的なパフォーマンスを披露し、フランスの守備を揺さぶった。同国のルイス・デ・ラ・フエンテ監督は、2010年大会の栄光を再び呼び覚ましたいという意思を表明している。\n\n決勝の対手は同大会での快進撃を続ける別のチームとなる見通しだが、スペインが16年ぶりの世界制覇を目指す展開が期待される。欧州勢の強さが改めて示された準決勝となった。",
+    "tags": [
+      "サッカー",
+      "ワールドカップ",
+      "スペイン",
+      "スポーツ",
+      "国際大会"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/gallery/2026/7/15/photos-france-fireworks-fade-as-spain-march-into-world-cup-final",
+    "importance": 3,
+    "image_query": "soccer football match sport",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:27.721Z",
+    "publishedAt": "2026-07-15T07:25:22.000Z"
+  },
+  {
+    "slug": "20260715-23",
+    "headline": "皇室典範改正案が参議院で審議入り、皇族数確保へ",
+    "lead": "皇族数の確保に向けた皇室典範改正案が参議院で審議入り。採決は慎重に進める方針。",
+    "body_markdown": "皇族数の確保を目的とした皇室典範改正案が7月15日、参議院で審議入りした。自民党と立憲民主党の国会対策委員長が会談し、野党側が十分な審議を求めていることを踏まえ、特別委員会での採決は翌日以降に見送られた。\n\n改正案の目的は皇族の減少に対応することだが、具体的な改正内容については、今回の報道では詳細が明かされていない。ただし、養子制度に関する質疑が交わされたことが示唆されており、皇族身分や継承に関わる根本的な議論が予想される。\n\n皇室の安定的な存続に向けた改正は国家的な重要課題であり、与野党を含めた慎重な審議が必要とされている。採決までには複数回の委員会での議論が予定されており、国民的な合意形成も視野に入れた対応が図られる見通しだ。",
+    "tags": [
+      "皇室",
+      "皇籍",
+      "改正法",
+      "参議院",
+      "政治"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015176941000",
+    "importance": 3,
+    "image_query": "government parliament politics japan",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:27.721Z",
+    "publishedAt": "2026-07-15T08:32:52.000Z"
+  },
+  {
+    "slug": "20260715-24",
+    "headline": "暗号資産を『金融商品』に位置づけ、改正金融商品取引法が成立",
+    "lead": "ビットコインなど暗号資産を金融商品として扱う法改正が成立。規制枠組みが明確化。",
+    "body_markdown": "ビットコインなどの暗号資産を投資対象とする層の拡大を受け、暗号資産を「金融商品」として位置づける改正金融商品取引法が参議院本会議で可決・成立した。暗号資産市場への監視枠組みが強化され、投資家保護が高まる見通しだ。\n\nこれまで、暗号資産は特定の金融商品扱いや商品分類が曖昧な部分があった。改正により、金融庁の監督下に置かれ、取引業者への規制が統一される。投資家は暗号資産の売買時により明確な情報開示と業者の信用調査に依存できるようになる。\n\n暗号資産市場の成熟化に伴い、規制の透明性が求められていた。本改正は市場の健全化と業界の長期的な信頼構築につながると期待される。ただし、過度な規制による市場の成長阻害を懸念する声もあり、規則の具体的な運用が注視される。",
+    "tags": [
+      "暗号資産",
+      "金融規制",
+      "ビットコイン",
+      "金融商品",
+      "法改正"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015177471000",
+    "importance": 3,
+    "image_query": "cryptocurrency bitcoin finance market",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:27.721Z",
+    "publishedAt": "2026-07-15T07:06:22.000Z"
+  },
+  {
+    "slug": "20260715-25",
+    "headline": "英国、16〜17歳の深夜SNS利用を禁止提案 若者保護へ",
+    "lead": "英国政府が16〜17歳向けにSNSの深夜アクセス禁止を提案。若年層の睡眠と心身保護を目指す。",
+    "body_markdown": "英国政府が、16〜17歳のティーンエイジャーに対してSNSの深夜利用を禁止する方針を提案した。午前0時から朝の利用制限により、若者の睡眠時間の確保と心身への悪影響を軽減する狙いだ。\n\n政府はこの施策が「ティーンエイジャーの生活向上」につながると主張している。一方、市民活動家からは「この提案は限定的であり、タイムリーな機会を逃している」という批判の声も上がっており、より包括的な規制を求める声もある。\n\nSNS企業との協力による自主規制と法的規制のバランスが課題となる。実装の詳細と実効性が今後の焦点となるが、若年層のデジタルウェルネスに関する議論は欧米全域で高まっている。",
+    "tags": [
+      "SNS",
+      "若年層",
+      "規制",
+      "メンタルヘルス",
+      "イギリス"
+    ],
+    "section": "政治",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/c982857nlrlo",
+    "importance": 3,
+    "image_query": "social media teen smartphone digital",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:27.721Z",
+    "publishedAt": "2026-07-15T08:41:16.000Z"
+  },
+  {
+    "slug": "20260715-26",
+    "headline": "博物館・映画・劇場の鑑賞が、加齢を遅延させる可能性が明らかに",
+    "lead": "英研究で、文化活動を定期的に行う高齢者は、3歳若い生物学的年齢を持つという結果。",
+    "body_markdown": "映画鑑賞、美術館訪問、劇場での舞台鑑賞などの文化活動を定期的に行う高齢者は、身体機能が実際の年齢より約3歳若い水準を保つという研究結果が発表された。寿命延伸とは異なる「生物学的年齢」の観点から、文化的活動の意義が再評価されている。\n\n研究者らは、強い社会的つながり、精神衛生の改善、より健康的な生活習慣が、この効果の背景にあると推測している。ただし、文化活動が直接的に加齢を遅延させるのか、それとも既に健康な人が文化活動を選ぶ傾向にあるのか、因果関係はまだ完全に解明されていない。\n\n今後の詳細な追跡研究により、文化活動の具体的な医学的メカニズムが明らかになる可能性があり、高齢化社会における生活の質（QOL）向上戦略の一環として注目を集めている。",
+    "tags": [
+      "加齢",
+      "文化活動",
+      "健康",
+      "老年医学",
+      "人口動態"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260714225526.htm",
+    "importance": 3,
+    "image_query": "museum exhibition culture art",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:27.721Z",
+    "publishedAt": "2026-07-15T04:45:47.000Z"
+  },
+  {
+    "slug": "20260715-27",
+    "headline": "象の足音が振動を通じた遠距離コミュニケーション手段に",
+    "lead": "象は足の振動を通じて5〜10キロメートル先の同族へメッセージを送信。骨伝導で検知。",
+    "body_markdown": "象のコミュニケーション機構を扱う研究で、足から地面へ伝わる振動が5〜10キロメートルの長距離メッセージ伝達手段だという仕組みが明らかになった。足から脚、そして頭骨の骨を通じて内耳に直接振動が伝わる「骨伝導聴覚」により、遠い象も信号を知覚できるという。\n\nこれまで象は長距離音声通信（3マイル以上）で知られていたが、地面振動による通信システムはさらに長距離に対応している。これは、群れの維持、危機の警告、生殖活動の調整など、複雑な社会行動を支える基盤となっている。\n\n研究は野生動物の認識能力と行動生態の理解を深め、象保全戦略の改善に寄与する可能性がある。動物のコミュニケーション多様性への認識は、生態学の重要な領域へと発展しており、続く研究が期待されている。",
+    "tags": [
+      "象",
+      "動物",
+      "コミュニケーション",
+      "振動",
+      "生物学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-elephants-footsteps-messages-ground-skull.html",
+    "importance": 3,
+    "image_query": "elephant wildlife animal africa",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:27.721Z",
+    "publishedAt": "2026-07-15T04:00:07.000Z"
+  },
+  {
+    "slug": "20260715-28",
+    "headline": "Google Images 25周年、視覚検索を大幅進化 生成AI統合へ",
+    "lead": "Google Imagesが創設25年。テキストプロンプトから画像生成機能をAI Overviewに統合。",
+    "body_markdown": "Googleが検索画像サービス「Google Images」の25周年を迎え、視覚検索の進化を振り返る記念投稿を公開した。2001年の立ち上げから、検索技術は劇的に変貌している。\n\n新たな機能の一つとして、AI Overviewに画像生成機能を統合し、テキストプロンプトから「高品質なカスタム画像」を生成できるようになった。Google Nano Bananaモデルが用いられ、ユーザーの想像を具体的なビジュアルへ変換する仕組みだ。\n\n同時に、Google ImagesのホームページをUIリニューアルし、「ウェブ全体からのリアルタイム画像ギャラリーを動的に生成、ユーザーの関心に応じてカスタマイズ」するインタフェースが登場した。2011年の「画像による検索」、2018年のGoogle Lens、2024年の「Circle to Search」ジェスチャーと並び、視覚検索の進化系として位置づけられている。",
+    "tags": [
+      "Google",
+      "画像検索",
+      "AI",
+      "生成",
+      "検索技術"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
+    "importance": 3,
+    "image_query": "search engine image visual technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:27.721Z",
+    "publishedAt": "2026-07-14T16:00:00.000Z"
+  },
+  {
+    "slug": "20260715-29",
+    "headline": "Google DeepMind CEOが『フロンティアAI標準化機関』設立を提唱",
+    "lead": "Google DeepMindの Demis Hassabis CEOが、AGI実現は『あと数年』と予測し、米主導の新規制機関を提案。",
+    "body_markdown": "Google DeepMindの最高経営責任者Demis Hassabisが、汎用人工知能（AGI）の実現時期を「おそらくあと数年」と推測するエッセイを公開した。同時に、米国主導の「フロンティアAI標準化機関」の創設を提唱している。\n\n構想の参考モデルは金融業界の自主規制機関FINRAで、新機関はリリース前の先端AIモデルを審査し、将来的には米国市場展開の条件として承認を義務化する狙いだ。研究と規制のバランスを取りながら、AI技術の安全性確保を図る枠組みを求めている。\n\nAGI実現が現実的なタイムスケール上に迫ってきたという認識が、大手AI企業指導部にも広がっている。自主規制と政府規制の二層構造や、国家間の競争圧力下でのガバナンス確立が今後の課題となる。",
+    "tags": [
+      "AI",
+      "規制",
+      "Google DeepMind",
+      "AGI",
+      "標準化"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/15/2000000192/",
+    "importance": 3,
+    "image_query": "artificial intelligence technology future",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-15T09:16:27.722Z",
+    "publishedAt": "2026-07-14T22:25:13.000Z"
+  },
+  {
     "slug": "20260715-01",
     "headline": "アップルが刷新Siri AIをベータ公開、全iPhoneで試用可能",
     "lead": "iOS 27 パブリックベータで、デバイス情報へのアクセスや自然言語対応を強化した新Siriが解放。",
