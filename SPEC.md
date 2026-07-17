@@ -277,7 +277,8 @@ AIニュースサイト/
 
 **安全境界（なぜ壊れないか）**:
 - **対象は allowlist のドメインだけ**（`config.pressImage.allowlist`）。各社が「自社について」発表する
-  一次情報の公式ドメイン（openai.com / blog.google / huggingface.co / blogs.nvidia.com / nasa.gov 等）のみ。
+  一次情報の公式ドメイン（openai.com / anthropic.com / blog.google / ai.meta.com / mistral.ai / x.ai /
+  huggingface.co / blogs.nvidia.com / nasa.gov 等）のみ。
   ホストが「そのドメイン自身 or サブドメイン」なら一致。**第三者メディア（BBC/Guardian/TechCrunch 等）は
   対象外**——通信社・ライセンス物が多く転載が権利侵害になりやすいため、自動では絶対に使わない。
 - **必ず「提供: 〈社名〉」＋出典リンク**を伴う（`check.js` が press 画像のクレジット必須を強制）。
@@ -313,7 +314,7 @@ AIニュースサイト/
 | `timeouts` | `{ rssMs:15000, linkCheckMs:5000 }` | ネットワーク timeout（ms）。RSS 取得（`fetchNews`）と出典リンク死活（`evaluate.checkLink`）。挙動を変える定数の一元管理 |
 | `rssFeeds` | AI系14フィード | `tier` 付き。一次情報3＋メディア11（開発: GitHub/AWS ML/MS Dev/Stack Overflow、HW: NVIDIA/IEEE 等）。汎用フィードは `aiKeywords` で非AI記事を足切り |
 | `imageProvider` / `*Key` | unsplash | 画像API（未設定なら CSS サムネ） |
-| `pressImage` | `enabled:true` / allowlist9件 | 公式ドメインの og:image を取り込み時に自動採用（§6.2）。`allowlist`＝報道用素材を認める一次情報の公式ドメイン。第三者メディアは対象外 |
+| `pressImage` | `enabled:true` / allowlist13件（主要AIラボ＋公式ソース） | 公式ドメインの og:image を取り込み時に自動採用（§6.2）。`allowlist`＝報道用素材を認める一次情報の公式ドメイン。第三者メディアは対象外 |
 | `analytics.token` | 空（`CF_BEACON_TOKEN`） | Cloudflare Web Analytics の beacon トークン。空なら出力しない |
 | `thumbVariants` | CSS抽象サムネ6種 | 実写真が無いときのフォールバック（`styles.css` のグラデクラス） |
 | `navSections` | 総合10セクション（AI/テクノロジー/サイエンス/ビジネス/経済・マネー/政治/国際・地政学/カルチャー/エンタメ/ライフ・キャリア） | ナビ生成元。各要素は `slug`（`sections/<slug>.html`）と `hue`（OKLCH 色相）を持つ。総合ニュース化で旧 AI 細分類から再編。`section` 値自体は自由でナビ外でも記事ページは生成 |
