@@ -98,10 +98,16 @@ export const config = {
     minImportance: 4,    // これ未満の記事には付けない（imageImportanceFloor と揃える）
     // 各社が「自社について」発表する一次情報の公式ドメインのみ。credit は「提供: <credit>」表示。
     allowlist: [
+      // 主要 AI ラボ（各社の公式ドメイン）
       { domain: 'openai.com',            credit: 'OpenAI' },
+      { domain: 'anthropic.com',         credit: 'Anthropic' },
       { domain: 'blog.google',           credit: 'Google' },
       { domain: 'deepmind.google',       credit: 'Google DeepMind' },
+      { domain: 'ai.meta.com',           credit: 'Meta AI' },
+      { domain: 'mistral.ai',            credit: 'Mistral AI' },
+      { domain: 'x.ai',                  credit: 'xAI' },
       { domain: 'huggingface.co',        credit: 'Hugging Face' },
+      // その他の一次情報の公式ドメイン
       { domain: 'blogs.nvidia.com',      credit: 'NVIDIA' },
       { domain: 'nasa.gov',              credit: 'NASA' },
       { domain: 'github.blog',           credit: 'GitHub' },
