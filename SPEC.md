@@ -2,7 +2,7 @@
 
 各分野のニュース（テック・AI・科学・経済・政治・国際・カルチャー等）の取得・執筆・画像付与・サイト生成を全自動化する、ヘッドレス Claude Code ベースのニュースパイプライン。
 
-- 最終更新: 2026-06-26
+- 最終更新: 2026-07-17
 - 対象リポジトリ: `AIニュースサイト/`
 - 本番URL: `https://fukan-news.vercel.app`（Vercel・git push で自動デプロイ。旧 `axiom-ai-xi.vercel.app` はこちらへリダイレクト）
 - 配信形態: 静的サイト（HTML/CSS、閲覧は依存ゼロ。検索・演出のみ軽量バニラ JS = `search.js` / `reveal.js`）
@@ -78,6 +78,7 @@ AIニュースサイト/
 │   └── logo.png            # 構造化データ publisher.logo（512×512）
 ├── data/
 │   ├── articles.json       # コンテンツの永続ストア（=サイトの正本）
+│   ├── brand-photos.json   # ブランド写真の索引（写真スラッグ→ブランド。refresh-brand-photos が生成）
 │   ├── _candidates.json    # 一時: 候補プール（実行後に掃除）
 │   ├── _drafts.json        # 一時: Claude の下書き（実行後に掃除）
 │   ├── .health             # 一時: 新規ゼロの連続回数（監視用・git管理外）
@@ -92,6 +93,9 @@ AIニュースサイト/
 │   ├── fetchNews.js        # RSS/補助API 取得・重複排除・一次情報優先
 │   ├── ingestDrafts.js     # 下書き取込（採番・画像・保存・再生成）
 │   ├── fetchImage.js       # Unsplash/Pexels 画像（無ければ画像なし）
+│   ├── imageBrands.js      # 記事とサムネのブランド不一致判定（他社ロゴ/UI の写り込みを弾く）
+│   ├── refreshBrandPhotos.js # ブランド写真の索引を生成（data/brand-photos.json・マージ方式）
+│   ├── recheckImageBrands.js # 既存記事のサムネをブランド不一致で点検・差し替え
 │   ├── backfill-images.js  # 既存記事に実写真を一括付与（press画像は上書きしない）
 │   ├── set-press-image.js  # 公式プレス画像を特定記事へ手動登録（クレジット必須・上書き保護）
 │   ├── render.js           # 重要度序列・保持・アーカイブの描画統括（任意 outDir 対応）
@@ -111,7 +115,7 @@ AIニュースサイト/
 ├── CLAUDE.md               # 開発ルール（毎回自動読込・コード品質/Git/検証）
 ├── README.md               # デザイン・概要
 ├── SPEC.md                 # 本書（技術仕様・運用）
-├── package.json            # スクリプト（candidates / render / check / backfill-images / set-press-image / serve）
+├── package.json            # スクリプト（candidates / render / check / backfill-images / recheck-images / refresh-brand-photos / set-press-image / serve）
 ├── .env.example            # 環境変数の雛形（すべて任意）
 └── _backup/                # 退避（旧HTML・廃止した qwen フォールバック）
 ```
@@ -134,7 +138,10 @@ AIニュースサイト/
   "link": "https://…",              // 出典URL（冪等キー）
   "importance": 4,                  // 重要度 1〜5（編集序列に使用）
   "image_query": "data center servers", // Claude が決めた画像検索ワード（内容準拠）
-  "image": { "imageUrl": "…", "photographer": "…", "profileUrl": "…", "provider": "unsplash" },
+  "image": { "imageUrl": "…", "photographer": "…", "profileUrl": "…", "provider": "unsplash",
+             "alt": "a computer generated image of a human brain" },
+                                    // alt は提供元の説明文（ブランド不一致の判定に使う。§6の2.5）。
+                                    // レガシー記事には無い（欠落可・後方互換）。
                                     // 画像が無い場合は { "fallbackThumb": "thumb--blue" }
                                     // 公式プレス画像（手動登録・自動上書き対象外）の場合:
                                     // { "kind": "press", "imageUrl": "…", "credit": "Anthropic",
@@ -184,13 +191,38 @@ AIニュースサイト/
    - **③簡易語彙マップ** — `tags`／見出しから推定（例: 診断→`medical technology`）。
    - **④既定** `artificial intelligence technology`。
 2. **取得（候補30件）** — 各語につき `imageProvider`（既定 Unsplash、無ければ Pexels）で landscape 写真を**最大30件**検索。
+2.5. **ブランド不一致の排除（`src/imageBrands.js`）** — 記事が扱っていないブランドが写った候補を捨てる。
+   `artificial intelligence` 等の一般語には他社のロゴ/UI が写った写真が多数混ざるため、素通しすると
+   **Claude の記事に ChatGPT のサムネ**が付き、事実に反する印象を与える（アグリゲーターとして致命的）。
+   記事側のブランドは見出し・リード・タグ・出典・`image_query` から判定（日本語表記も拾う）。写真側は2層で判定:
+   - **①テキスト層** — 写真の `alt`/`description` にブランド名が出るか（例「chatgpt on a phone」）。
+   - **②ランキング層** — **そのブランド名で検索した上位に出る写真か**（索引 `data/brand-photos.json`）。
+     alt は自動生成で当てにならない——OpenAI ロゴの 3D レンダですら alt は「a ball of string」で、
+     テキスト層では捕まらない。「そのブランド名で引くと出てくる」方が写り込みの信号として強い。
+     索引は `npm run refresh-brand-photos` で更新（**マージ方式**・レート制限に当たっても続きから育つ）。
+     **索引が無くても①だけで動く**（縮退運転。選定は止めない）。
+   記事がブランドに触れていなければ、ブランド写真は**一律に避ける**。全候補が落ちたら次の（より広い）語へ、
+   最後まで残らなければ抽象サムネ＝**誤った写真より安全**という優先順位。
 3. **重複回避** — 候補の中から**他記事で未使用の写真を選ぶ**。判定は `imageKey()`（URL から写真固有IDを抽出）。
    使用済みキーの `Set` を生成・バックフィル全体で共有し、既存記事とも突き合わせる。
    全件使用済みのときのみ index ベースで分散（最終手段は重複許容）。
-4. **帰属** — 取得できたら `{ imageUrl, photographer, profileUrl, provider }` を記録し、
+4. **帰属** — 取得できたら `{ imageUrl, photographer, profileUrl, provider, alt }` を記録し、
    **撮影者名＋プロフィールリンクを必ず表示**（Unsplash 規約準拠）。Unsplash はダウンロードトリガーを叩く（規約準拠）。
 5. **フォールバック** — **全キーワード候補が0ヒット**、またはキー未設定・APIエラー時のみ `{ fallbackThumb: "thumb--blue" 等 }` を返し、
    CSS 抽象グラデーションサムネを表示（デザイン崩れゼロ）。`npm run backfill-images` で後から実写真へ差し替え可能。
+
+**レート制限の扱い（RateLimitError）** — Unsplash デモキーは 50req/時。制限を「ヒット0」と取り違えると
+「該当写真なし」に化けて事故る（空の索引を正常扱いで書く／まともな写真を抽象サムネで潰す）。そのため
+プロバイダは 403/429 で `RateLimitError` を送出し、用途ごとに扱いを変える:
+- **日次の取り込み（ingest・既定 `strict:false`）** — 握り潰して抽象サムネへ。**公開を止めない**
+  （評価機構の故障で公開事故/停止を起こさない、という §12 の原則と同じ）。
+- **既存画像の差し替え（recheck・`strict:true`）／索引生成** — 打ち切る。制限のせいで既存の写真を壊さない。
+
+**既存記事の点検（`npm run recheck-images`）** — 全記事のサムネをブランド不一致の観点で点検する。
+判定は索引のスラッグ照合なので **API を使わない**（API を使うのは `--apply` の差し替え取得だけ）。
+既定は dry-run。`--apply` で差し替え＋再生成、`--limit N` で1回の差し替え件数を絞る（レート制限対策）。
+新しい記事から順に直す（読者の目に触れている写真を先に直す）。公式プレス画像（`kind:'press'`）は
+報道対象そのものの写真なので対象外。
 
 **画像を付ける対象**（取得・ページ重量の節約。`imageImportanceFloor`＝既定4）
 - 約50本/日で全件に画像を用意するのは過剰なため、**重要度 importance>=4 の記事だけ**画像を取得・付与する（`ingestDrafts.js`）。
