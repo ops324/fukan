@@ -97,6 +97,7 @@ AIニュースサイト/
 │   ├── refreshBrandPhotos.js # ブランド写真の索引を生成（data/brand-photos.json・マージ方式）
 │   ├── recheckImageBrands.js # 既存記事のサムネをブランド不一致で点検・差し替え
 │   ├── backfill-images.js  # 既存記事に実写真を一括付与（press画像は上書きしない）
+│   ├── pressImage.js       # 公式ドメインの og:image を取り込み時に自動採用（報道用素材・allowlist厳格）
 │   ├── set-press-image.js  # 公式プレス画像を特定記事へ手動登録（クレジット必須・上書き保護）
 │   ├── render.js           # 重要度序列・保持・アーカイブの描画統括（任意 outDir 対応）
 │   ├── renderOnly.js       # 再描画のみ
@@ -143,9 +144,9 @@ AIニュースサイト/
                                     // alt は提供元の説明文（ブランド不一致の判定に使う。§6の2.5）。
                                     // レガシー記事には無い（欠落可・後方互換）。
                                     // 画像が無い場合は { "fallbackThumb": "thumb--blue" }
-                                    // 公式プレス画像（手動登録・自動上書き対象外）の場合:
+                                    // 公式プレス画像（手動 set-press-image / 自動 pressImage・上書き対象外）の場合:
                                     // { "kind": "press", "imageUrl": "…", "credit": "Anthropic",
-                                    //   "creditUrl": "https://…（任意）", "source": "報道利用メモ（任意）" }
+                                    //   "creditUrl": "https://…（任意）", "source": "報道利用メモ（自動採用は 'og:image auto'）" }
   "mode": "full",
   "createdAt": "2026-06-13T03:29:00.000Z", // 取り込み時刻（ingest 時に採番）
   "publishedAt": "2026-06-12T22:00:00.000Z" // 出典の発行日時（任意・候補の publishedAt 由来）
@@ -179,6 +180,9 @@ AIニュースサイト/
 
 > **AI 画像生成は行わない。** 記事に合う写真を**フリー素材 API（Unsplash）から取得**して表示する。
 > DALL·E / Imagen 等の従量課金や、ローカル Stable Diffusion は使わない。
+
+取り込み時の画像決定順（`ingestDrafts.js`）: **①公式プレス画像の自動採用（§6.2・出典が公式ドメインのとき）
+→ ②stock 写真（下記 `fetchImage.js`）→ ③抽象サムネ**。以下は②の詳細。
 
 処理は `src/fetchImage.js`（`ingestDrafts.js` から記事ごとに呼ばれる）:
 
@@ -264,6 +268,27 @@ AIニュースサイト/
 - [ ] 不安・許諾不明なら**使わず Unsplash か公式埋め込み（oEmbed）にフォールバック**する
 - [ ] ローカル複製（`assets/press/`）する場合は“複製の許諾”がより明確であることを確認した
 
+### 6.2 公式プレス画像の自動採用（`src/pressImage.js`・取り込み時）
+
+§6.1 の「報道用素材を条件付きで使う」を、**一次情報の公式ソースに限って自動化**したもの。取り込み時、
+記事の出典が各社の公式ドメインなら、そのページの `og:image`（各社が SNS 共有用に自ら配布している画像＝
+報道用素材）を提供クレジット付きで自動採用する。stock 写真より優先し、取れなければ従来どおり stock/
+抽象サムネへフォールバックする（**今より悪くならない**）。
+
+**安全境界（なぜ壊れないか）**:
+- **対象は allowlist のドメインだけ**（`config.pressImage.allowlist`）。各社が「自社について」発表する
+  一次情報の公式ドメイン（openai.com / blog.google / huggingface.co / blogs.nvidia.com / nasa.gov 等）のみ。
+  ホストが「そのドメイン自身 or サブドメイン」なら一致。**第三者メディア（BBC/Guardian/TechCrunch 等）は
+  対象外**——通信社・ライセンス物が多く転載が権利侵害になりやすいため、自動では絶対に使わない。
+- **必ず「提供: 〈社名〉」＋出典リンク**を伴う（`check.js` が press 画像のクレジット必須を強制）。
+- **URL を厳格検証**——絶対 http(s) で、`url('…')` やタグを破れる文字を含む URL は弾く（CSS/HTML インジェクション防止）。
+- 取得失敗（403 でボット拒否する openai.com 等）・タイムアウト・`og:image` 無しは **null → stock へ**。
+- `minImportance`（既定4＝`imageImportanceFloor` と同じ）未満の記事には付けない。
+- 自動採用も手動同様 `kind:'press'`＝`backfill-images` の上書き対象外。ブランド不一致チェックの対象外
+  （報道対象“本人”の公式画像なので）。手動登録（§6.1）は引き続き優先経路として利用できる。
+
+**対象ソースの増減**は `config.pressImage.allowlist` を編集するだけ。`enabled:false` で機能ごと無効化。
+
 ---
 
 ## 7. 設定リファレンス（`src/config.js`）
@@ -288,6 +313,7 @@ AIニュースサイト/
 | `timeouts` | `{ rssMs:15000, linkCheckMs:5000 }` | ネットワーク timeout（ms）。RSS 取得（`fetchNews`）と出典リンク死活（`evaluate.checkLink`）。挙動を変える定数の一元管理 |
 | `rssFeeds` | AI系14フィード | `tier` 付き。一次情報3＋メディア11（開発: GitHub/AWS ML/MS Dev/Stack Overflow、HW: NVIDIA/IEEE 等）。汎用フィードは `aiKeywords` で非AI記事を足切り |
 | `imageProvider` / `*Key` | unsplash | 画像API（未設定なら CSS サムネ） |
+| `pressImage` | `enabled:true` / allowlist9件 | 公式ドメインの og:image を取り込み時に自動採用（§6.2）。`allowlist`＝報道用素材を認める一次情報の公式ドメイン。第三者メディアは対象外 |
 | `analytics.token` | 空（`CF_BEACON_TOKEN`） | Cloudflare Web Analytics の beacon トークン。空なら出力しない |
 | `thumbVariants` | CSS抽象サムネ6種 | 実写真が無いときのフォールバック（`styles.css` のグラデクラス） |
 | `navSections` | 総合10セクション（AI/テクノロジー/サイエンス/ビジネス/経済・マネー/政治/国際・地政学/カルチャー/エンタメ/ライフ・キャリア） | ナビ生成元。各要素は `slug`（`sections/<slug>.html`）と `hue`（OKLCH 色相）を持つ。総合ニュース化で旧 AI 細分類から再編。`section` 値自体は自由でナビ外でも記事ページは生成 |

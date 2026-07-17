@@ -83,6 +83,33 @@ export const config = {
   unsplashKey: process.env.UNSPLASH_KEY || '',
   pexelsKey: process.env.PEXELS_KEY || '',
 
+  // --- 公式プレス画像の自動採用（報道用素材）---
+  // 記事の出典(link)が「報道対象“本人”の公式発表ページ」なら、そのページの og:image を
+  // 提供クレジット付きで自動的にサムネにする（企業が自ら SNS 共有用に配布している画像＝報道用素材）。
+  // 取り込み時に stock 写真より優先し、失敗時は従来どおり stock/抽象サムネへフォールバック（今より悪くならない）。
+  //
+  // 安全境界（重要）: 第三者メディア（BBC/Guardian/TechCrunch 等）の画像は通信社・ライセンス物が
+  // 多く転載は権利侵害になりやすい。よって **allowlist のドメイン（＝各社が自社について発表する公式ドメイン）に
+  // 出典がある記事だけ**を対象にする。ここに無いソースは自動採用しない（stock にフォールバック）。
+  // 追加・削除はこのリストを編集するだけ。domain は link のホストが「それ自身 or そのサブドメイン」なら一致。
+  pressImage: {
+    enabled: true,
+    timeoutMs: 8000,     // 出典ページ取得のタイムアウト（超過はスキップして stock へ）
+    minImportance: 4,    // これ未満の記事には付けない（imageImportanceFloor と揃える）
+    // 各社が「自社について」発表する一次情報の公式ドメインのみ。credit は「提供: <credit>」表示。
+    allowlist: [
+      { domain: 'openai.com',            credit: 'OpenAI' },
+      { domain: 'blog.google',           credit: 'Google' },
+      { domain: 'deepmind.google',       credit: 'Google DeepMind' },
+      { domain: 'huggingface.co',        credit: 'Hugging Face' },
+      { domain: 'blogs.nvidia.com',      credit: 'NVIDIA' },
+      { domain: 'nasa.gov',              credit: 'NASA' },
+      { domain: 'github.blog',           credit: 'GitHub' },
+      { domain: 'devblogs.microsoft.com', credit: 'Microsoft' },
+      { domain: 'aws.amazon.com',        credit: 'Amazon Web Services' },
+    ],
+  },
+
   // --- ニュース補助ソース（任意・キーがあれば使用）---
   newsapiKey: process.env.NEWSAPI_KEY || '',
   gnewsKey: process.env.GNEWS_KEY || '',

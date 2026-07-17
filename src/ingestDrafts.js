@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { config } from './config.js';
 import { loadArticles, saveArticles, makeSlug, yyyymmdd, existingLinks, normalizeSectionTags } from './store.js';
 import { fetchImage, imageKey } from './fetchImage.js';
+import { fetchPressImage } from './pressImage.js';
 import { renderSite } from './render.js';
 import { evaluateArticle, appendEvaluation, writeRunSummary } from './evaluate.js';
 
@@ -58,9 +59,13 @@ for (const d of drafts) {
   const importance = Math.min(5, Math.max(1, Number(d.importance) || 3));
   // 画像はヒーロー候補となる重要記事(importance>=imageImportanceFloor)だけに付ける（取得・ページ重量の節約）。
   // 軽微な記事は image:null（表示テンプレは画像が無ければ何も出さない）。
-  const image = importance >= config.imageImportanceFloor
-    ? await fetchImage(d, created.length, usedImages)
-    : null;
+  // ① 出典が公式ドメインなら og:image（報道用素材）を優先採用 → ② 無理なら stock 写真へフォールバック。
+  let image = null;
+  if (importance >= config.imageImportanceFloor) {
+    image = await fetchPressImage({ ...d, importance }, usedImages);
+    if (image) console.error(`  [press] 公式画像を採用: ${d.headline} — 提供: ${image.credit}`);
+    else image = await fetchImage(d, created.length, usedImages);
+  }
   // 旧カテゴリは navSections へ正規化（旧ラベルはタグへ退避）。新規の総合カテゴリは素通り。
   const { section, tags } = normalizeSectionTags(
     d.section || 'AI',
