@@ -1,5 +1,305 @@
 [
   {
+    "slug": "20260718-01",
+    "headline": "AWS請求システム障害、顧客に数十億ドルの誤請求表示",
+    "lead": "Amazonのクラウド請求システムに障害が発生し、一部顧客の月額請求額が数セント から数十億ドルに誤表示された。",
+    "body_markdown": "Amazon Web Services（AWS）の請求システムに深刻な障害が発生し、一部顧客が目を疑うような請求額を目撃することになった。7月17日から18日にかけて、AWSのコスト管理コンソールに不正な請求見積もりが表示されたもので、あるユーザーの月額請求は通常1ドル未満にもかかわらず25億ドルと表示され、別のユーザーは7.1兆ドル（Amazonの時価総額の2倍以上）という虚偽の請求を見せられた。\n\nAmazonは問題の原因を「請求計算サブシステム内のユニット価格設定の問題」と特定した。同社が発表した重要な声明によると、これらの誤った見積もりは「実際の使用状況と請求を反映していない」とのこと。幸いなことに、実際の請求書や支払い処理システムは影響を受けていないと同社は確認している。\n\nAmazonは修正作業に着手し、コスト管理コンソール内のデータをバックフィルしており、顧客は7月18日太平洋時間正午までにはすべて修正された金額を確認できるようになるとしている。本障害は、AWS が毎年数千億ドルの請求を処理する規模と複雑さを示すとともに、デジタル社会におけるシステムの信頼性の重要性を改めて浮き彫りにした。",
+    "tags": [
+      "AWS",
+      "クラウド",
+      "システム障害",
+      "サイバーセキュリティ",
+      "IT"
+    ],
+    "section": "テクノロジー",
+    "source": "WIRED",
+    "link": "https://www.wired.com/story/amazon-web-services-glitch-oh-no/",
+    "importance": 4,
+    "image_query": "cloud server billing",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1667984390535-6d03cff0b11a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxjbG91ZCUyMHNlcnZlciUyMGJpbGxpbmd8ZW58MXwwfHx8MTc4NDMyMzQzMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Growtika",
+      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a computer tower with a purple light"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-17T21:23:50.818Z",
+    "publishedAt": "2026-07-17T19:50:38.000Z"
+  },
+  {
+    "slug": "20260718-02",
+    "headline": "Hugging Face、AIエージェントの自動攻撃により機密データ漏洩",
+    "lead": "Hugging Faceが数千の自律AIエージェントによるサイバー攻撃を受け、内部データセットとサービス認証情報が漏洩した。",
+    "body_markdown": "AI開発プラットフォームのHugging Faceは、前例のない自律型AIエージェントによるサイバー攻撃を受けたことを公表した。攻撃者は数千の短期間のサンドボックス内で実行される自律型AIエージェント・フレームワークを使用し、膨大な数の個別アクションを実行。最終的に限定的ではあるが、複数の内部データセットとサービス認証情報にアクセスすることに成功した。\n\n攻撃の詳細によると、不正アクターはデータ処理パイプラインの脆弱性を悪用し、初期アクセスを確立。その後、公開サービスに段階的に構築された、自己移行型のコマンドアンドコントロールインフラを展開した。検査と対応は数千のテレメトリイベント相関を含む LLMベースのトリアージによるAI駆動分析システムが発見し、攻撃タイムラインの再構築と認証情報の身元確認を可能にした。\n\nHugging Faceは迅速に対応し、脆弱性の修正（データセット実行パスの閉鎖）、侵害されたノードの削除・再構築、認証情報の無効化とローテーション実施を完了したと報告している。同社は予防措置として、ユーザーに対してアクセストークンのローテーションと過去のアクティビティレビューの実施を推奨している。本事件は、AI企業が単なる従来型のサイバー脅威だけでなく、自律型AIが攻撃者側でも機能しうることを示唆する重要な出来事だ。",
+    "tags": [
+      "Hugging Face",
+      "サイバーセキュリティ",
+      "AIエージェント",
+      "データ漏洩",
+      "セキュリティ"
+    ],
+    "section": "テクノロジー",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/security-incident-july-2026",
+    "importance": 4,
+    "image_query": "cybersecurity data breach",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://huggingface.co/blog/assets/security-incident-july-2026/thumbnail.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/security-incident-july-2026",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-17T21:23:51.140Z",
+    "publishedAt": "2026-07-16T00:00:00.000Z"
+  },
+  {
+    "slug": "20260718-03",
+    "headline": "Google Vids、Gemini Omniで動画作成が会話のように簡単に",
+    "lead": "Googleが Vidsに Gemini Omniを搭載。テキスト説明だけで動画編集・生成可能に。個人AIアバターも登場。",
+    "body_markdown": "Googleは、動画作成アプリ「Google Vids」に大型アップデートを実施し、最新のマルチモーダルAIモデル「Gemini Omni」による自然言語入力での動画生成・編集機能と、個人のデジタルアバター機能を追加した。\n\nユーザーは、テキストプロンプトと画像リファレンス（写真やスケッチなど）を組み合わせるだけで、プロフェッショナルな動画を生成できるようになった。編集時も、従来のマウス操作の代わりに自然言語で「背景を変える」「照明を修正する」「エフェクトを追加する」といった指示を与えるだけで、Vidsがそれを認識して反映する。\n\n新機能である個人AIアバターは、セルフィーと音声録音をアップロードすることで、ユーザーのそっくりなデジタルアバターを生成。テキストで入力した内容をそのアバターに喋らせることができるため、カメラの前で直接演技する必要がない。アバターはGoogleアカウントにリンクされており、本人のみが使用可能。全生成クリップには見えない SynthIDデジタルウォーターマークが付与され、AIで生成されたコンテンツであることを証明する仕組みが施されている。\n\nGoogle Vids の Gemini Omni と個人アバター機能は、Google AI Pro・Ultra ユーザーおよび Google Workspace ビジネスカスタマー向けに展開中で、アバター機能は現在、特定地域の18才以上に限定されている。",
+    "tags": [
+      "Google",
+      "AI動画生成",
+      "Gemini",
+      "クリエイター",
+      "映像制作"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+    "importance": 3,
+    "image_query": "video creation AI generation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-17T21:23:51.141Z",
+    "publishedAt": "2026-07-16T16:00:00.000Z"
+  },
+  {
+    "slug": "20260718-04",
+    "headline": "中国Moonshot AI、Kimi K3で米国AI企業に肉迫",
+    "lead": "2.8兆パラメータの大規模言語モデル「Kimi K3」がOpenAI・Anthropicと性能で競争。米中AI競争で新局面。",
+    "body_markdown": "中国のAI企業Moonshot AIが発表した大規模言語モデル「Kimi K3」が、OpenAI や Anthropic などの米国主流AIモデルとの距離を大幅に縮めた。Kimi K3は2.8兆のパラメータを持つ現在世界最大のオープンウェイトモデル（ソースコードと重みが公開される）で、性能ベンチマークで OpenAI の GPT-5.6 Sol や Anthropic の Claude Opus 4.8 を上回るケースも報告されている。\n\nKimi K3の特徴は、新しい「Kimi Delta Attention（KDA）」ハイブリッド線形注意メカニズムを採用し、100万トークンという広大なコンテキストウィンドウを実現。大規模コードベース、長文書、複雑な多段階推論タスクを一度に処理できる。AIアリーナなどの第三者評価では、フロントエンドコーディングタスクにおいて Claude Fable 5 や GPT-5.6 Sol を含むすべての米国主流モデルを上回る性能を示した。\n\n価格戦略も競争力がある。入力トークンは100万あたり3ドル、出力は15ドルと設定され、キャッシュ入力は0.30ドルまで低下。これは西側ラボの中流プランとほぼ同等の価格で、トップクラスの性能を提供する形になっており、性能対コスト比で攻撃的なポジショニングだ。本モデルの登場は、オープンウェイトモデル時代における米中AI競争の激化と、米国企業の独占的地位が相対的に縮小していることを示唆する動きとして注視される。",
+    "tags": [
+      "中国",
+      "AI",
+      "言語モデル",
+      "Moonshot",
+      "米中競争"
+    ],
+    "section": "AI",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html",
+    "importance": 4,
+    "image_query": "artificial intelligence model neural network",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwbW9kZWwlMjBuZXVyYWwlMjBuZXR3b3JrfGVufDF8MHx8fDE3ODQzMjM0MzF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Growtika",
+      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "an abstract image of a sphere with dots and lines"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-17T21:23:52.012Z",
+    "publishedAt": "2026-07-17T20:48:35.000Z"
+  },
+  {
+    "slug": "20260718-05",
+    "headline": "Agility Robotics、テスラの本拠地フレモントでAIロボ訓練センター開設",
+    "lead": "ロボティクス企業が 6万平方フィートの訓練施設をカリフォルニアに開設。ヒューマノイドロボ Digit の実運用を加速。",
+    "body_markdown": "ロボティクス企業Agility Roboticsは、テスラが今年中にヒューマノイドロボット「Optimus」の製造を開始する予定の同じフレモント地区に、新しい6万平方フィートの訓練・開発センターを開設した。\n\nこの施設は、Agility のヒューマノイドロボット「Digit」のソフトウェア・能力ハブとして機能。エンジニアリングチームが AI機能を訓練・検証し、実環境でのタスク性能を向上させるための重要な拠点となる。\n\nDigitはすでに商業化段階にあり、Amazon、GXO、Schaeffler、Toyota Motor Manufacturing Canada などの顧客の製造・倉庫業務でトートボックスやビンの運搬に従事している。Agility は同ロボットに対して3億ドルの契約オーダーを確保しており、商用実績が急速に拡大している段階にある。\n\nこの施設開設は、Agility が Churchill Capital Corp XI との経営統合（SPAC合併）による上場を控える時期と一致。Agility は上場後、米国初の純粋なヒューマノイドロボティクス企業として投資家にアピールする予定だ。シリコンバレーの中心地での物理的存在の拡大は、エンジニアリング能力強化と競争力の可視化を意図したものとみられる。",
+    "tags": [
+      "ロボティクス",
+      "ヒューマノイド",
+      "AI",
+      "自動化",
+      "物流"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
+    "importance": 3,
+    "image_query": "humanoid robot warehouse logistics",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-17T21:23:52.012Z",
+    "publishedAt": "2026-07-17T20:19:49.000Z"
+  },
+  {
+    "slug": "20260718-06",
+    "headline": "CERN、大型ハドロン衝突型加速器をヒッグス粒子研究のため大規模改修へ",
+    "lead": "LHC が4年間の長期シャットダウンへ。2030年再開時は輝度10倍に。ヒッグス粒子の謎解きが加速。",
+    "body_markdown": "欧州原子核研究機構（CERN）は、世界最大級の粒子加速器「大型ハドロン衝突型加速器（LHC）」を大規模にアップグレードするため、2026年中盤から4年間のシャットダウンに入る。\n\nアップグレード（High-Luminosity LHC、HL-LHC）では、LHC内の1.2キロメートルに及ぶ加速器コンポーネントが取り外され、新しいものに交換される。完成後の2030年には、HL-LHC の「輝度」（衝突の頻度）はオリジナルの LHC の10倍になり、AI ベースのリアルタイムイベント選別機能を搭載した新型超伝導磁石により、毎秒数十億回の衝突が可能になる。\n\n改修の中核的な目標はヒッグス粒子の謎解きにある。LHC がこれまで生成したヒッグス粒子は約5,500万個だったのに対し、HL-LHC の運用期間には約3億8,000万個のヒッグス粒子が生成される見込み。これにより、ヒッグス粒子が自らと相互作用する現象を観測する可能性が大幅に高まる。この自己相互作用を測定することは、ヒッグス場の本質と宇宙進化直後の初期条件の解明に向けた鍵となるとされている。\n\nLHC は2012年に ATLAS と CMS 検出器により、ヒッグス粒子の初発見を達成した歴史を持つ。今回の改修は、基礎物理学研究における次の大きな飛躍に向けた投資であり、150 億ドル相当の国際的なプロジェクトとなる。",
+    "tags": [
+      "素粒子物理",
+      "ヒッグス粒子",
+      "CERN",
+      "研究",
+      "加速器"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-large-hadron-collider-secrets-higgs.html",
+    "importance": 4,
+    "image_query": "particle accelerator physics laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1781330168090-a2b6721eb435?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxwYXJ0aWNsZSUyMGFjY2VsZXJhdG9yJTIwcGh5c2ljcyUyMGxhYm9yYXRvcnl8ZW58MXwwfHx8MTc4NDMyMzQzMnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Daniel Miksha",
+      "profileUrl": "https://unsplash.com/@danielmiksha?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Complex scientific machinery with pipes and yellow blocks."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-17T21:23:52.602Z",
+    "publishedAt": "2026-07-17T18:20:03.000Z"
+  },
+  {
+    "slug": "20260718-07",
+    "headline": "アマゾン大豆モラトリアムの崩壊、140万ヘクタール追加伐採の危機",
+    "lead": "2008年以来続いた大豆栽培区での森林破壊禁止協定が終焉。カナダ年間排出量に相当するCO₂放出リスク。",
+    "body_markdown": "2006年に樹立された歴史的な「アマゾン大豆モラトリアム」協定が2026年に実質的に崩壊し、ブラジルのアマゾン地域における深刻な環境危機をもたらす見通しだ。同協定は、大豆取引業者が2008年7月以降に伐採された土地での大豆購入・融資を行わないという自主的な約束。実装後、「大豆関連の森林破壊はほぼゼロになった」と評価された。\n\nしかし協定は、大豆農家からの200 百万ドルに及ぶ訴訟提起、独禁法調査、環境支援税制を廃止する州法など、多層的な圧力により機能不全に陥った。研究機関による分析では、協定崩壊により2036年までに**140万ヘクタール（350万エーカー）**の追加伐採が見込まれるという。\n\nこの面積は「サッカーピッチ200万個分」に相当し、失われた森林は約7億4,500万トンのCO₂をもたらす。これはカナダの年間温室効果ガス排出量に匹敵する規模だ。森林喪失は過去10年間の記録されたアマゾン全体伐採の約17%に該当し、ブラジル政府の Lula 大統領下での環保護進展を大きく後退させる可能性がある。\n\n協定の崩壊は、企業の自主的な環境コミットメントの限界と、政治的・経済的圧力による環境規制の脆弱性を示す象徴的な事例として、気候変動対策の課題として注目される。",
+    "tags": [
+      "アマゾン",
+      "森林破壊",
+      "気候変動",
+      "環境",
+      "ブラジル"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-amazon-soy-pact-collapse-million.html",
+    "importance": 4,
+    "image_query": "amazon rainforest deforestation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1764620926425-27fff5d63b08?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhbWF6b24lMjByYWluZm9yZXN0JTIwZGVmb3Jlc3RhdGlvbnxlbnwxfDB8fHwxNzg0MzIzNDMzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mirna Wabi-Sabi",
+      "profileUrl": "https://unsplash.com/@mirnawabisabi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Protesters hold signs with animal faces and banners at banner."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-17T21:23:53.241Z",
+    "publishedAt": "2026-07-17T19:40:02.000Z"
+  },
+  {
+    "slug": "20260718-08",
+    "headline": "海洋酸素喪失が地球安定を脅かす、研究が警告",
+    "lead": "海洋・湖沼の酸素欠乏が拡大。気候変動と栄養汚染が原因。生態系と人類に重大リスク。",
+    "body_markdown": "米国 UC サンディエゴの Scripps Institution of Oceanography の研究者が、海洋・内陸水域における急速な酸素喪失が地球規模の安定性に対する深刻な脅威となることを、学術誌『Limnology and Oceanography』に発表した。\n\n研究によると、酸素欠乏（デオキシジェネーション）は気候温暖化、過剰な栄養汚染、内部水域の通気低下という3つの主要因に由来。これにより海洋、沿岸域、河川、湖沼、小川における酸素レベルが急速に低下している。筆頭著者エリカ・フェラー氏は「われわれの惑星の健康と安定は、酸素を必要とする水生生態系の健康と安定に依存している」と指摘する。\n\n酸素喪失の影響は食物連鎖全体に及ぶ。顕微鏡生物からサメまで、海洋生物全般が脅かされ、海生哺乳動物は餌や生息地の変化を通じて間接的に影響を受ける。生態系の不均衡は気候調節に必須の生物・化学プロセスを破壊する。\n\nこの研究は、既存の「惑星の限界」フレームワーク（気候変動、海洋酸性化など9つの地球システムの上限を定めたもの）に、溶存酸素条件を第10の限界として追加することを提案。酸素喪失を気候変動に匹敵する臨界的惑星脅威として認識すべき時代に入った。",
+    "tags": [
+      "海洋",
+      "環境",
+      "気候変動",
+      "生態系",
+      "地球科学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-underwater-oxygen-loss-threatens-earth.html",
+    "importance": 4,
+    "image_query": "ocean marine ecosystem underwater",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxvY2VhbiUyMG1hcmluZSUyMGVjb3N5c3RlbSUyMHVuZGVyd2F0ZXJ8ZW58MXwwfHx8MTc4NDMyMzQzM3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Hiroko Yoshii",
+      "profileUrl": "https://unsplash.com/@hiro0718?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "school of fish in body of water"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-17T21:23:53.862Z",
+    "publishedAt": "2026-07-17T18:20:01.000Z"
+  },
+  {
+    "slug": "20260718-09",
+    "headline": "Patreon、Cloudflareと連携してAI学習スクレイパーを積極的にブロック",
+    "lead": "クリエータープラットフォームが robots.txt から強制ブロックへ転換。AI企業の無許可学習に対抗。",
+    "body_markdown": "クリエータ支援プラットフォームの Patreon は、インターネットインフラ企業 Cloudflare と協力し、クリエータの著作物を無許可で AI 学習に使用する AI ボットを積極的にブロックする取り組みを開始した。\n\n従来、Patreon は robots.txt ファイル（ウェブスクレイパーに対する「お願い」形式の指示）を使用して AI ボットのアクセスを制限していた。しかし、テスト結果は機能不全を露呈。AI スクレイパーの週間アクセス試行回数は数千回から0回へと劇的に減少し、AI企業が Patreon の robots.txt を無視して継続的にスクレイピングしていたことが明らかになった。\n\nこれを受け、Patreon は Cloudflare の「AI Crawl Control」技術を導用。同社 CEO Jack Conte は、AI企業に対する3つの要件として「同意（Consent）」「クレジット表記（Credit）」「報酬（Compensation）」を掲げ、クリエータ保護を強調している。なお、サイトインデックスと情報整理用のボットはアクセスを許可し、ユーザーを Patreon に送り返すページランクアップ機能は維持する。\n\n2026年9月15日から、Cloudflare は新規ドメインに対して学習・エージェント型ボットのデフォルトブロックを開始する予定。この動きは、プラットフォームがクリエータ権益を重視する姿勢を示すとともに、AI企業の無許可学習に対する企業レベルの抵抗戦略の象徴となっている。",
+    "tags": [
+      "AI",
+      "著作権",
+      "データ",
+      "クリエーター保護",
+      "技術"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+    "importance": 3,
+    "image_query": "cybersecurity data protection",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-17T21:23:53.862Z",
+    "publishedAt": "2026-07-17T15:21:17.000Z"
+  },
+  {
+    "slug": "20260718-10",
+    "headline": "TikTok、AIディープフェイク検出ツール試験運用。創作者保護が急務に。",
+    "lead": "TikTok が AI ライクネス検出機能をテスト中。有識者確認後、本人確認の厳格化へ。生成動画3億本到達。",
+    "body_markdown": "TikTok は、クリエータが自分のセルフィー・音声が無断で AI 化される「ディープフェイク」から身を守るためのオプトイン AI ライクネス検出ツールの試験運用を始めた。ソーシャルメディアコンサルタント Matt Navarra が発見し、報告した。\n\n本機能は限定的な米国クリエータを対象にテスト中。利用するには Jumio という企業による本人確認（リアルタイムセルフィースキャンと ID チェック）が必須だ。TikTok のザカリー・キザー報道官は「TikTok は ID ドキュメント情報を保持していない」と明記し、プライバシー懸念を緩和させようとしている。\n\nTikTok は既に AI生成コンテンツの透明性に力を入れており、7月時点で30億本の AI 動画にラベルを付与した。2026年の AI コンテンツ規制では4段階ペナルティ（警告から永久バンまで）を導入。ただし研究では、小さなオーバーレイラベルだけでは、ユーザーのディープフェイク判別能力改善や信頼性向上にほぼ影響がないことが判明している。\n\n同様の検出ツール は YouTube も開発しており、最近すべての成人ユーザーに利用可能化したばかり。クリエータの身元保護が急務となる中、各プラットフォームが生体認証と検証技術の投資を加速させている。",
+    "tags": [
+      "TikTok",
+      "ディープフェイク",
+      "AI",
+      "プライバシー",
+      "クリエーター保護"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+    "importance": 3,
+    "image_query": "deepfake detection video AI",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-17T21:23:53.862Z",
+    "publishedAt": "2026-07-17T19:34:30.000Z"
+  },
+  {
+    "slug": "20260718-11",
+    "headline": "Gartner予測：企業の40%がAIエージェント計画を2027年までに廃止へ",
+    "lead": "AIエージェントプロジェクトの40%が費用増加・不明瞭なROI・ガバナンス不足で中止。ハイプとの乖離。",
+    "body_markdown": "調査企業 Gartner は、企業の40%以上が自律型 AI エージェントプロジェクトを2027年末までに中止するか格下げすると予測している。理由は、コスト急増、不明瞭なビジネス価値、不十分なリスクコントロール。\n\nGartner の分析によると、現在のほとんどの AI エージェント計画は初期実験段階（Proof of Concept）に止まり、ハイプに主導される傾向が強い。多くの企業は、実装規模での真の複雑性とコストを見過ごしており、本番環境への移行を阻害している。また、ベンダーの「エージェント・ウォッシング」（既存製品である AI アシスタント、RPA、チャットボットを「AI エージェント」にリブランディング）が状況を複雑にしている。Gartner は、数千のベンダーのうち真のエージェント能力を持つのは約130社のみと推定。\n\n一方、ポジティブな見通しも存在。Gartner は、日常業務の意思決定の15%が2028年までに AI エージェントで自動化されると予測（2024年は 0%）。また、エンタープライズソフトウェア・アプリケーションの33%が AI エージェント機能を含むようになる（現在は1%未満）。これはプロジェクト廃止と同時に、本格実装の準備が進むという矛盾した展望を示唆している。\n\nエージェント技術の採用は成熟曲線の上り坂にあり、実装に成功した企業と失敗した企業の二分化が加速する見通しだ。",
+    "tags": [
+      "AI",
+      "エージェント",
+      "企業導入",
+      "ガバナンス",
+      "Gartner"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/17/news053.html",
+    "importance": 3,
+    "image_query": "artificial intelligence automation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-17T21:23:53.862Z",
+    "publishedAt": "2026-07-17T04:00:00.000Z"
+  },
+  {
+    "slug": "20260718-12",
+    "headline": "気象データ改ざんリスク高まる、AI予報時代に重要インフラ化",
+    "lead": "予測市場とAI天気予報が天気データ正確性を脅かす。農業・エネルギー企業に数十億ドル規模の影響。",
+    "body_markdown": "MIT Technology Review の報道によると、予測市場と AI ベース気象予報の普及により、気象データの正確性が新たな脅威にさらされている。\n\n気象予測は、現代の重要インフラ意思決定の中核的役割を担っている。農家は作付品種選定、肥料散布時期、灌漑インフラ投資、家畜放牧期間を気象予報に基づいて決定。電力会社は太陽光・風力発電サイトの場所選択と卸電力価格設定に依存している。同様に航空会社、海運企業、建設企業も予報に数十億ドル規模の意思決定を紐づけている。\n\nリスクは二重化。一つは予測市場に参加する投機家のインセンティブ。気象データを改ざんして市場で優位を得ようとする誘因が生じる。もう一つは気象予報システムの分散型・脆弱な データ基盤。複数組織が異なる法域・制度下で観測データを提供しており、攻撃表面が広がっている。\n\n専門家は「現在のところリスクは管理可能」と述べるが、「シナリオが雪だるま式に拡大する可能性は予見できる」と警告。気象データは個別企業から社会インフラへと重要度が上昇しており、サイバーセキュリティと観測データの検証体制の強化が急務となっている。",
+    "tags": [
+      "サイバーセキュリティ",
+      "気象",
+      "データ改ざん",
+      "重要インフラ",
+      "AI"
+    ],
+    "section": "テクノロジー",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+    "importance": 3,
+    "image_query": "weather forecast prediction data",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-17T21:23:53.862Z",
+    "publishedAt": "2026-07-17T08:57:32.000Z"
+  },
+  {
     "slug": "20260717-01",
     "headline": "NVIDIA最新埋め込みモデルが検索性能で首位",
     "lead": "NVIDIAが開発した埋め込みモデル「Nemotron 3」が、検索ベンチマークで業界トップの成績を達成。エージェントシステムのコスト削減に貢献。",
