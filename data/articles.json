@@ -1,5 +1,338 @@
 [
   {
+    "slug": "20260718-13",
+    "headline": "NVIDIA NeMo が Hugging Face と統合、大規模動画画像モデルの学習を民主化",
+    "lead": "NVIDIA NeMo と Hugging Face が連携し、ユーザーが1〜数百GPU規模でテキスト画像・動画生成モデルを効率的に学習できる環境を実現した。",
+    "body_markdown": "NVIDIA NeMo AutomodelとHugging Faceの統合により、研究者や開発者がHub上のあらゆるDiffusersモデルを直接微調整できるようになった。従来はチェックポイント変換や複雑な環境構築が必要だったが、新しいワークフローではHubの事前学習済み重みをそのまま使い、学習後も即座にDiffusionPipelineで推論できる。\n\n技術的には、FSDP2やテンソル並列化、コンテキスト並列化などの高度な並列化スキームがYAML設定で選択可能。1つのGPUから数百GPUへと無リシャッフルでスケールする。対応モデルはFLUX.1-dev（12B）、Wan 2系（1.3B～27B）、HunyuanVideo（13B）、Qwen-Imageなど、テキスト画像・動画生成の主要モデルをカバーしている。全パラメータ学習とLoRA両対応で、研究の自由度も高い。\n\nメモリ効率化と分散学習を統一的に満たし、新モデルへの対応も容易な設計により、大規模な拡散モデルの学習が学術機関や中小企業にも門戸を開く。これまでメガスケール企業に限定されていた生成モデル開発が、より広い層のイノベーターにアクセスできるようになる転機となりうる。",
+    "tags": [
+      "AI",
+      "機械学習",
+      "生成モデル",
+      "オープンソース"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+    "importance": 4,
+    "image_query": "machine learning neural network training",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/67e44a92b96703c8b0e5a805/VGYINP_TZGLSkx2zW8uIa.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-18T09:19:24.026Z",
+    "publishedAt": "2026-07-17T15:57:54.000Z"
+  },
+  {
+    "slug": "20260718-14",
+    "headline": "OpenAI が企業向けAI効果測定スコアカードを発表",
+    "lead": "OpenAI CFOが、ROI・コスト・信頼性・計算効率を統合した実践的なAIスコアカードを提唱。企業のAI投資判断の指標を示す。",
+    "body_markdown": "OpenAI最高財務責任者のサラ・フライアが、企業がAI導入のROIを測定するための実践的なスコアカードを発表した。従来は「AIの価値」が曖昧で定量評価が難しかったが、新しい枠組みは4つの主要指標で投資効果を可視化する。\n\n具体的な測定対象は、「有用な仕事量」（実際に価値を生み出したタスク数）、「タスク当たりコスト」（達成1件あたりの経済コスト）、「信頼性」（成功率や精度）、「計算効率」（投入計算リソースへのリターン）。AIが経営層の意思決定ツールになるにつれ、感情論ではなく客観的な指標で判断する需要が高まっていた。\n\nこのスコアカード発表は、エンタープライズAI市場が成熟期に向かう転換点を示唆する。導入企業が「AI予算をどう配分するか」をデータで決められるようになれば、現在の「誇大広告型」のベンダー選定から「実績ベース」へのシフトが加速する。金融機関やヘルスケアなど、規制が厳しく説明責任を求められる業界からの採用が見込まれる。",
+    "tags": [
+      "AI",
+      "エンタープライズ",
+      "ROI",
+      "経営"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
+    "importance": 4,
+    "image_query": "business metrics analytics dashboard",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMG1ldHJpY3MlMjBhbmFseXRpY3MlMjBkYXNoYm9hcmR8ZW58MXwwfHx8MTc4NDM2NjM2NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "path digital",
+      "profileUrl": "https://unsplash.com/@pathdigital?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black and silver laptop computer"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-18T09:19:25.495Z",
+    "publishedAt": "2026-07-17T10:00:00.000Z"
+  },
+  {
+    "slug": "20260718-15",
+    "headline": "OpenAI がティーンズ向けChatGPT安全機能を拡充",
+    "lead": "ChatGPTが年齢別保護・学習ツール・保護者コントロール・専門家連携で10代ユーザーに対応。",
+    "body_markdown": "OpenAIは、若年層向けのChatGPT利用環境を大幅に強化する新機能を発表した。10代ユーザーが適切にAIを活用しつつ、有害コンテンツや過度な依存から守るための包括的な対策が盛り込まれている。\n\n主な機能は、年齢に応じた段階的な保護（不適切な返答フィルター強化）、学習・宿題補助専用ツール、保護者がアカウント設定を管理できるペアレンタルコントロール、そして教育者・心理学者との連携による安全ガイドライン策定。ChatGPTの利用が学生層で急速に広がる中、「親は子どもがAIをどう使っているか見守りたい」というニーズは強かった。\n\nこの施策は、AIが教育インフラの一部として定着しつつある現実を反映している。生成AIへのアクセス制限ではなく「安全な利用環境の整備」という方向性は、業界全体の責任ある発展へのシグナルになる。次は学校向けの監視機能やカリキュラム統合ツールへの拡張も予想され、教育セクターのAI革新が本格化する可能性が高い。",
+    "tags": [
+      "AI",
+      "教育",
+      "未成年",
+      "安全性"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+    "importance": 4,
+    "image_query": "teenager using computer learning",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1556636530-6b7482d80e3d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx0ZWVuYWdlciUyMHVzaW5nJTIwY29tcHV0ZXIlMjBsZWFybmluZ3xlbnwxfDB8fHwxNzg0MzY2MzY2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Patrick Amoy",
+      "profileUrl": "https://unsplash.com/@napzphoto?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person holding a computer mouse in a room"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-18T09:19:26.442Z",
+    "publishedAt": "2026-07-16T16:00:00.000Z"
+  },
+  {
+    "slug": "20260718-16",
+    "headline": "Databricks が$188B評価に到達、データからAIへの事業転換が奏功",
+    "lead": "Databricks がわずか半年で$134Bから$188Bへ跳躍。データプラットフォーム企業がAI時代の覇者に豹変した。",
+    "body_markdown": "データ分析基盤大手のDatabricksが、Coatueが主導する投資ラウンドで$188B評価に到達した。わずか半年での$54B評価上昇（40%増）は、AI熱が一部の大型スタートアップに集中する現象を象徴している。同社が成功した理由は「既存データ資産の活用」だった。\n\n2013年創業当初、Databricksは大規模データをクラウドに保管し高速分析できるプラットフォームで急成長した。しかし2024年以降、AIブームの波に乗り、既存の膨大な企業データを「AI学習・運用の基盤」に転換した。Unity AI Gateway（マルチAIガバナンス）、Genie（AIアシスタント）、Lakebase（AI向けデータベース）といった新製品群により、セキュリティとコスト管理を求める大企業のニーズに応えた。\n\n創業者兼CEOアリ・ゴディシは「オープンソースモデルの方が大型言語モデルより経済的で、一定タスクで劣らない性能」という研究を発表し、AIコストの民主化を掲げている。既得権的なクローズドモデル依存から脱却するトレンドを先導する立場が、投資家から高く評価されている。かつてのデータ企業が、AI時代の基盤レイヤーへの変身に成功した稀有な事例だ。",
+    "tags": [
+      "AI",
+      "スタートアップ",
+      "データ",
+      "企業向け"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+    "importance": 4,
+    "image_query": "data center cloud computing",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1667372283587-e1557c08aca4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxkYXRhJTIwY2VudGVyJTIwY2xvdWQlMjBjb21wdXRpbmd8ZW58MXwwfHx8MTc4NDM2NjM2Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Growtika",
+      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "icon"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-18T09:19:26.966Z",
+    "publishedAt": "2026-07-17T22:12:56.000Z"
+  },
+  {
+    "slug": "20260718-17",
+    "headline": "Claude Fable 5 が Max/Team Premium の標準機能に、7月20日から提供",
+    "lead": "Anthropic が最新AIモデル「Claude Fable 5」を有料プランに統合。Pro プランは有料クレジット対応。",
+    "body_markdown": "Anthropic は7月20日、最上位AIモデル「Claude Fable 5」を Max および Team Premium プランの標準機能として提供開始することを発表した。既存ユーザーは追加費用なく、使用上限の50%までFable 5にアクセス可能になる。無料提供期間を2度延長した末の方針転換で、モデルの安定性が実用水準に達したことを示唆している。\n\nより低価格帯の Pro および Team Standard プランのユーザーは、100ドル分のクレジットを1回限定で付与され、その範囲内でFable 5を利用できる。以降の使用には有料クレジットが必要。この段階的なアクセス制限は、計算コストが高いフロンティアモデルの経済性確保と、幅広いユーザー層へのアクセス提供のバランスをとる戦略だ。\n\nClaude の進化系ラインナップは、経済版（Haiku）から標準版（Opus）、最新版（Fable 5）へと多層化しており、ユースケースと予算に応じた選択肢が整いつつある。とりわけエンタープライズ向けには、Fable 5 が「推論品質」で最優先される契約項目となるだろう。API経由のクレジット制も競争激化で飽和した市場では、サブスクモデルとの混在で顧客満足度を維持する施策として機能する。",
+    "tags": [
+      "AI",
+      "Anthropic",
+      "Claude",
+      "有料プラン"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/articles/2607/18/news019.html",
+    "importance": 4,
+    "image_query": "artificial intelligence neural network",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1732704573802-8ec393009148?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMHx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMG5ldXJhbCUyMG5ldHdvcmt8ZW58MXwwfHx8MTc4NDI4MDkxNXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Bhautik Patel",
+      "profileUrl": "https://unsplash.com/@bhautik_patel3?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A computer generated image of a brain surrounded by wires"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-18T09:19:26.988Z",
+    "publishedAt": "2026-07-18T03:50:00.000Z"
+  },
+  {
+    "slug": "20260718-18",
+    "headline": "米国・イラン対立が激化、7日連続攻撃で覚書が形骸化",
+    "lead": "米軍がイランに対して7日連続で軍事攻撃。イランは「全面的攻勢段階に入る」と警告。わずか1ヶ月前の合意がすでに効力を失った。",
+    "body_markdown": "米国軍がイランに対して7日連続の軍事攻撃を実施し、中東情勢が急速に緊迫化している。1ヶ月前に締結された両国間の覚書は「形骸化」状態に陥り、報告されている被害はインフラ破壊や人的損害に及んでいる。\n\nイランは明確な報復警告を発し、「米国の攻撃が継続すれば、全面的な攻勢段階に入る」と声明を出した。当該地域ではクウェートが電力・水施設への攻撃を報告するなど、紛争が周辺国へも波及している。既存の停戦合意は名ばかりとなり、両国関係は実質的に戦闘状態に近づきつつある。\n\n地政学的には、米国がトランプ政権下でイランに対する強硬姿勢を強める一方、イランも譲歩の余地を示していない。原油価格への上昇圧力や船舶の安全保障への脅威も高まり、世界経済への波及リスクが顕在化している。北朝鮮問題に続き、中東での軍事的緊張の昇温は、先行き不透明な国際情勢を象徴している。この対立がどこまで拡大するかが、向こう数週間の重要な焦点だ。",
+    "tags": [
+      "国際・地政学",
+      "イラン",
+      "米国",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015180131000",
+    "importance": 5,
+    "image_query": "military aircraft conflict",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1500252185289-40ca85eb23a7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtaWxpdGFyeSUyMGFpcmNyYWZ0JTIwY29uZmxpY3R8ZW58MXwwfHx8MTc4NDM2NjM2N3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "UX Gun",
+      "profileUrl": "https://unsplash.com/@uxgun?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "six fighter jets"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-18T09:19:27.908Z",
+    "publishedAt": "2026-07-18T02:37:45.000Z"
+  },
+  {
+    "slug": "20260718-19",
+    "headline": "インド初の商用軌道ロケット Skyroot Vikram-1 が打ち上げ成功、民間宇宙産業に転機",
+    "lead": "インドのスペーステック企業 Skyroot Aerospace が同国初の民間開発軌道ロケット「Vikram-1」を成功裏に打ち上げ。小型衛星市場への本格参入を実現した。",
+    "body_markdown": "インドのスペーステック企業 Skyroot Aerospace が、7月18日に同国初の民間開発軌道ロケット「Vikram-1」の打ち上げに成功した。打ち上げはアンドラプラデシュ州のサティシュ・ダワン宇宙センターから実施され、ミッション名は「Aagaman（到着）」。小型衛星（最大350kg）を低軌道（450km高度）に投入する能力を実証し、インドの民間宇宙産業が国際市場へ本格参入する道を開いた。\n\nVikram-1は高さ約20m、直径1.7mで、最初の3段が固体燃料、最終段が液体エンジンを搭載する4段式。構造体はすべて炭素複合材で軽量化され、3Dプリント製のエンジンと高推力固体燃料ブースターが採用されている。技術仕様から見て、既存の国営ISRO（インド宇宙研究機関）ロケットとは異なる効率的な設計思想を実装している。\n\nこの成功は、インドが「スペーステック最有望国」へ進化する象徴的な瞬間だ。ISRO依存の体質から民間企業の参入を促進する政策転換が、実際の軌道打ち上げまで到達した。欧米企業が独占していた小型衛星打ち上げ市場に、アジア発の低コスト・高信頼性プレイヤーが現れたことで、全球宇宙産業の競争地図が塗り替わる可能性がある。",
+    "tags": [
+      "国際・地政学",
+      "宇宙",
+      "インド",
+      "スペーステック"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/clyekv7rld3o",
+    "importance": 4,
+    "image_query": "rocket launch spacecraft",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1457365050282-c53d772ef8b2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxyb2NrZXQlMjBsYXVuY2glMjBzcGFjZWNyYWZ0fGVufDF8MHx8fDE3ODQzNjYzNjh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "SpaceX",
+      "profileUrl": "https://unsplash.com/@spacex?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "cosmic view during night time"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-18T09:19:28.743Z",
+    "publishedAt": "2026-07-18T07:05:19.000Z"
+  },
+  {
+    "slug": "20260718-20",
+    "headline": "イスラエルが西岸にペリメーター障壁、パレスチナ農業が90%減",
+    "lead": "イスラエルがヨルダン渓谷に「紅い糸」軍事障壁を建設。農業破壊とコミュニティ分断で人道危機が深刻化。",
+    "body_markdown": "イスラエルが西岸ヨルダン渓谷に建設する軍事障壁「紅い糸」が、パレスチナ社会に深刻な被害をもたらしている。アイン・シビリとタヤシル検問所の間、約22kmの初期段階が既に構築され、完成時には500kmに及ぶ予定だ。\n\n現地パレスチナ人への影響は急速かつ過酷だ。日常移動が数時間を要するようになり、農業用インフラ（灌漑管、井戸、温室）が系統的に破壊されて農業生産が約90%減少した。数週間単位で水供給が遮断される事態も報告されている。既に数十世帯がコミュニティから離散を余儀なくされ、地元指導者は「トレンチ完成時には住民が『事実上の刑務所』に入る」と警告している。\n\n軍事安全保障の名目で急速に進む隔壁化は、国際人道法と憲章の枠組みで論争の余地がない。国際社会の反応は限定的だが、人口増加と資源限定の圧力下での係争領土統治の異様さを露呈させた。この事態がどこまで膨張するか、また外交による是正がありうるかが注視される。",
+    "tags": [
+      "国際・地政学",
+      "中東",
+      "イスラエル",
+      "パレスチナ"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/features/2026/7/18/israels-crimson-thread-military-barrier-is-strangling-the-west-bank",
+    "importance": 4,
+    "image_query": "barrier fence wall",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1624285928647-75f414ca15d1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxiYXJyaWVyJTIwZmVuY2UlMjB3YWxsfGVufDF8MHx8fDE3ODQzNjYzNjl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "CHUTTERSNAP",
+      "profileUrl": "https://unsplash.com/@chuttersnap?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "silhouette of man standing near fence during sunset"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-18T09:19:29.273Z",
+    "publishedAt": "2026-07-18T05:15:11.000Z"
+  },
+  {
+    "slug": "20260718-21",
+    "headline": "白House が frontier AI モデルのアクセス権を統制、民間企業の自由度制約",
+    "lead": "トランプ政権がOpenAI・Anthropic ら AI 企業に対し、最新モデルの公開前に政府への提供を義務付け。国家安全保障を理由とした統制が本格化。",
+    "body_markdown": "トランプ政権が frontier AI（最先端AI）モデルのアクセス権統制に乗り出した。6月2日の大統領令により、AI企業は新モデルの公開30日前に政府がアクセスして検査する「voluntary framework」に参加することが要請されている。本来は民間企業が自由に配布時期を決定していたが、政府が事実上の「事前許可」権を握るようになった。\n\nこの枠組みの下では、frontier model（一定の性能基準を超えるモデル）の認定を政府が行い、企業は認定前にアクセス権を限定された「信頼できるパートナー」にのみ提供する。名目上は voluntary だが、国家安全保障を盾にした強い圧力が実質的に機能している。実例として、先月トランプ政権が Anthropic の Claude Mythos 5 と Fable 5 を「国家安全保障上の懸念」で一時ブロック。数週間の交渉の末に解除されたが、民間企業の自主性は大きく侵食された。\n\nこの動きは、AI大国間での覇権競争激化を反映している。米国政府が戦略的に AI を「統制下に置きたい」という意思を明確にした転換点だ。企業側は「innovation への障害」と反発する一方で、欧州の規制とは異なる「アクセス権限集中型」の統制が展開されつつある。国家と民間の AI ガバナンス線引きは、今後の技術進展と産業構造に大きな影響を及ぼす重要な岐路だ。",
+    "tags": [
+      "AI",
+      "ビジネス",
+      "規制",
+      "政治"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/17/white-house-ai-access-anthropic-openai.html",
+    "importance": 4,
+    "image_query": "government regulation technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1624417963912-8532660d9de8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxnb3Zlcm5tZW50JTIwcmVndWxhdGlvbiUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4NDM2NjM3MHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Elijah Mears",
+      "profileUrl": "https://unsplash.com/@elijahjmears?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "white concrete building under blue sky during daytime"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-18T09:19:30.239Z",
+    "publishedAt": "2026-07-17T23:10:07.000Z"
+  },
+  {
+    "slug": "20260718-22",
+    "headline": "米国経済見通しが悪化、パンデミック後で最も深刻",
+    "lead": "CNBC全米経済調査で、経済見通しが歴史的水準まで低下。消費者と企業の両層で景気後退懸念が高まった。",
+    "body_markdown": "米国経済に対する見通しが急速に悪化している。CNBC が実施した全米経済調査では、経済見通しが新型コロナウイルスパンデミック後で最悪水準に達した。消費者信頼感と企業投資意欲の双方が低迷しており、景気後退入りの懸念が現実味を帯びてきた。\n\n調査結果では、トランプ政権の経済政策に対する評価が大きく分かれている。高い関税や企業規制、AI 統制などの政策が、市場参加者の間で「不確実性の増大」と認識されている。インフレ率こそ低下基調だが、金利高止まりと消費需要の減速が重なり、ハードランディングのリスクが高まっているという見立てが支配的だ。\n\n特に注目は、責任帰属がトランプ政権へ向かっていることだ。就任から半年の政策実行が「有効ではない」と判断する層が増えている。世界経済への波及も懸念され、米国の景気後退は全球サプライチェーンと金融市場に直結した脅威である。向こう数ヶ月の経済統計と金融市場の動きが、政権の政策転換を迫る可能性も否定できない。",
+    "tags": [
+      "経済・マネー",
+      "ビジネス",
+      "米国",
+      "景気"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/17/economic-outlook-is-worsening-and-trump-is-getting-blamed-cnbc-survey-finds.html",
+    "importance": 4,
+    "image_query": "stock market finance graph",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1745270917233-65e776a47547?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxzdG9jayUyMG1hcmtldCUyMGZpbmFuY2UlMjBncmFwaHxlbnwxfDB8fHwxNzg0MzY2MzcwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Arturo Añez",
+      "profileUrl": "https://unsplash.com/@americanaez225?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Stock chart indicates growth and potential profit."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-18T09:19:31.009Z",
+    "publishedAt": "2026-07-17T19:49:17.000Z"
+  },
+  {
+    "slug": "20260718-23",
+    "headline": "カナダ・ミネソタの山火事スモークが米国東部を覆う、ワシントン DC 視界不良",
+    "lead": "カナダのワイルドファイア由来のスモークが米国を北上。大湖周辺から東部沿岸まで広範囲で空気質が悪化、呼吸器疾患の懸念。",
+    "body_markdown": "カナダとミネソタのコントロール不能な山火事から発生するスモークが、米国全土に急速に拡大している。大湖地域、ノースイースト、ミッド・アトランティック州に及び、数百万人が不健康な大気にさらされている。特にデトロイト、シカゴなど主要都市の空気質は世界最悪水準に達した。\n\nワシントン DC では、Washington Monument が橙色の霞越しにようやく見える状況。複数の自治体が幼児・高齢者・呼吸器疾患者への屋外活動控えを勧告した。Cleveland Guardians の野球試合も大気質を理由に延期されるなど、市民生活と経済活動に直接的な影響が出ている。気象予報では、スモークが今後 1 週間程度続く見込み。週末の雷雨が一時的な改善をもたらす可能性があるが、World Cup 決勝戦がニュージャージー MetLife Stadium で予定されている日曜日まで悪化した空気質が残る可能性がある。\n\nこうした異常気象パターンの常態化は、気候変動と火災管理政策の失敗を示唆している。北米大陸規模での空気汚染イベントが、国境を越えて複数国に健康被害をもたらす新しい北米の脅威像を描いている。",
+    "tags": [
+      "サイエンス",
+      "環境",
+      "気象",
+      "健康"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-wildfire-canada-minnesota-engulfs-dc.html",
+    "importance": 3,
+    "image_query": "wildfire smoke haze",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-18T09:19:31.010Z",
+    "publishedAt": "2026-07-18T08:30:04.000Z"
+  },
+  {
+    "slug": "20260718-24",
+    "headline": "Zoox ロボタクシが煙対応ソフトウェアリコール、wildfire スモークで判断不安定",
+    "lead": "Zoox の自動運転タクシーが、火災スモークで視覚認識が混乱する脆弱性を発見。NHTSA がソフトウェア更新を指示。",
+    "body_markdown": "Amazon 傘下の自動運転タクシー企業 Zoox が、火災スモークへの対応不足でソフトウェアリコール（OTA 更新）を実施することになった。カナダ・米国で急速に拡大するワイルドファイアスモークが、ロボタクシーの LiDAR とカメラベースの認識システムを混乱させるという脆弱性が報告されたのだ。\n\n具体的には、オレンジ色のスモークヘイズが、信号灯やレーン標示との視覚的判別を困難にし、自動運転の制御判断が不安定化する。NHTSA（米国家道路交通安全局）は「緊急時の対応能力の向上」を業界全体に求める勧告を最近出したばかりで、このリコール是非は自動運転産業の安全水準を揺るがす象徴的な事例になった。\n\nロボタクシーの現実的課題が顕在化した瞬間だ。晴天での走行試験は成功しても、極端な気象条件下での判断信頼性は、現在の技術で十分解決されていない。Zoox の迅速な対応は評価できるが、業界全体で「edge case への耐性」を大幅に強化する必要性が鮮明になった。自動運転の社会実装は、こうした予測外の環境変化への適応能力が分け目となるだろう。",
+    "tags": [
+      "テクノロジー",
+      "自動運転",
+      "AI",
+      "安全"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2217803/zoox-issues-software-recall-because-its-robotaxis-may-be-confused-by-smoke/",
+    "importance": 3,
+    "image_query": "autonomous vehicle robotaxi",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-18T09:19:31.011Z",
+    "publishedAt": "2026-07-17T19:10:22.000Z"
+  },
+  {
+    "slug": "20260718-25",
+    "headline": "Fed 資産規模縮小の難題、Kevin Warsh 新議長が直面",
+    "lead": "Fed 新議長 Kevin Warsh が、7 兆ドルに膨らんだ資産台帳の縮小戦略に直面。債券売却の市場への波及が懸念される。",
+    "body_markdown": "米 Federal Reserve の新議長 Kevin Warsh が、2008 年金融危機以降に膨らんだ Fed 資産（約 7 兆ドル）をいかに縮小するかという構造的課題を担うことになった。量的緩和（QE）で購入した国債・住宅ローン担保証券（MBS）の売却是非が、向こう数年の金融政策の最大テーマになる。\n\nWarsh の戦略選択肢は限定的だ。急激な資産売却は債券市場に大きな売却圧力をもたらし、金利上昇と信用収縮を招く。一方、現状維持は高インフレリスクと長期金利の抑制圧力をもたらし、通貨価値の目減りにつながる。いわば「スタグフレーション」と「デフレーション」のはざまで、最適解のない選択が求められている。\n\nこの政策的不確実性は、金融市場全体に「予測不可能性」をもたらす。企業投資判断と個人資産配分の双方が Warsh の発言と政策方向に敏感に反応する状況が続くだろう。米国経済の深刻な見通し悪化と重なり、「歴史的な政策転換期」の緊張感が充満している。",
+    "tags": [
+      "経済・マネー",
+      "金融政策",
+      "Fed",
+      "米国"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/07/16/how-to-shrink-the-feds-7trn-balance-sheet",
+    "importance": 3,
+    "image_query": "stock market finance",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-18T09:19:31.011Z",
+    "publishedAt": "2026-07-16T09:06:46.000Z"
+  },
+  {
     "slug": "20260718-01",
     "headline": "AWS請求システム障害、顧客に数十億ドルの誤請求表示",
     "lead": "Amazonのクラウド請求システムに障害が発生し、一部顧客の月額請求額が数セント から数十億ドルに誤表示された。",
