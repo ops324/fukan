@@ -1,5 +1,416 @@
 [
   {
+    "slug": "20260720-01",
+    "headline": "米イラン軍事紛争が激化、ヨルダン攻撃で米兵2人死亡",
+    "lead": "イランによる弾道ミサイル攻撃でヨルダンの米軍基地が被害を受け、米兵2人が死亡、1人が行方不明に。米軍が報復攻撃を実施。",
+    "body_markdown": "## 概要\n\n2026年7月18日、米国中部軍（CENTCOM）がイランによる弾道ミサイルと無人機による攻撃を受けたと発表した。ヨルダンに駐留する米軍基地が狙われ、米兵2人が殺害され、1人が行方不明となっている。これは3月以降、イランの攻撃による初めての米兵死亡事例である。\n\n## 米国の対抗措置\n\n米軍は即座に報復空爆を開始し、イランのホルムズ海峡周辺の海岸防衛施設と防空施設を標的にした。この攻撃はイランの商船に対する脅威能力をさらに低下させることを狙ったものだ。土曜日の攻撃は、今月に入ってから8日連続となるイランへの米軍攻撃である。\n\n## 拡大する被害\n\n米国防総省によると、イラン戦争の開始以来、合計16人の米兵が殺害され、400人以上が負傷している。さらに、クウェート石油公社は、石油インフラが何度もイランの攻撃を受け、甚大な物資損失と人的損失が発生したと報告している。\n\n## 今後の見通し\n\n両国間の軍事的緊張は継続しており、地域の不安定性が深刻化している。商業海運への脅威も増加しており、国際社会は動向を注視している。",
+    "tags": [
+      "米国",
+      "イラン",
+      "中東紛争",
+      "軍事"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/19/us-says-it-targeted-iran-forces-after-deaths-of-two-american-troops.html",
+    "importance": 5,
+    "image_query": "military missile attack",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1636939764072-9dd91590f4d3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtaWxpdGFyeSUyMG1pc3NpbGUlMjBhdHRhY2t8ZW58MXwwfHx8MTc4NDQ5NjIxMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Edgar Serrano",
+      "profileUrl": "https://unsplash.com/@eserrano13?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a plane is flying in the sky near a large explosion"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:30.701Z",
+    "publishedAt": "2026-07-19T20:25:15.000Z"
+  },
+  {
+    "slug": "20260720-02",
+    "headline": "ロシアがウクライナに過去最大級のミサイル攻撃",
+    "lead": "ロシアが弾道ミサイル25発を含む大規模攻撃を実施し、キーウで1人死亡、16人負傷。ウクライナが迎撃に成功した。",
+    "body_markdown": "## 攻撃の規模\n\n2026年7月19日未明、ロシア軍はウクライナの首都キーウに対して弾道ミサイル41発と攻撃用無人機125機を発射した。これは戦争開始以来、最大規模の弾道ミサイル攻撃と位置づけられている。ウクライナ外相が公式に発表した。\n\n## 被害状況\n\n攻撃は現地時間午前1時30分から数時間続き、爆発がキーウ全域で響き渡った。ウクライナ国家緊急庁によると、ロケット弾がキーウ市内5地区で火災を引き起こし、住宅建築物、オフィス、工業施設、寮、車両に被害をもたらした。公式発表では1人が死亡、16人が負傷している。\n\n## 防空体制の対応\n\nウクライナ軍の防空部隊は、無人機108機と巡航ミサイル18機を撃墜・抑止したほか、弾道ミサイル17発以上を撃ち落とした。ただし、ウクライナは米国製の防空システムの在庫不足で苦戦しており、防御能力が限定されている。\n\n## 戦況の背景\n\nロシアはここ数週間で弾道ミサイルによる攻撃を激化させており、ウクライナがパトリオット迎撃ミサイルの補給が逼迫している状況を狙っている。軍事専門家は長期化する消耗戦の深刻さを指摘している。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "戦争",
+      "ミサイル攻撃"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/19/russia-launches-largest-ballistic-missile-attack-on-kyiv-since-start-of-war",
+    "importance": 5,
+    "image_query": "missile attack city destroyed",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1686620225738-a362b05f5e54?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtaXNzaWxlJTIwYXR0YWNrJTIwY2l0eSUyMGRlc3Ryb3llZHxlbnwxfDB8fHwxNzg0NDk2MjExfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jade Koroliuk",
+      "profileUrl": "https://unsplash.com/@jadekoroliuk?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a very large building that has been destroyed"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:31.520Z",
+    "publishedAt": "2026-07-19T19:56:13.000Z"
+  },
+  {
+    "slug": "20260720-03",
+    "headline": "Andy Burnham が英国首相に就任",
+    "lead": "マンチェスター前市長のAndy Burnhamが英国の新首相に就任し、7代目のリーダーとなる。政治的不安定性の終焉を約束。",
+    "body_markdown": "## 新首相の確認\n\n2026年7月19日、Andy Burnhamはイギリスの与党労働党の党首として確認されたことで、月曜日に首相に就任する予定である。彼はKeir Starmerの後継者となり、英国の7人目の首相（わずか10年間）となる。10年間にわたる政治的不安定性の中で、英国に希望と結束をもたらすことを約束した。\n\n## Burnhamの背景\n\nBurnhamはマンチェスターの前市長であり、左寄りの政治立場を持つ。彼は英国の北部地域を代表する人物であり、地域経済の復興と社会正義を重視している。政治的には革新的な立場を表明しながらも、ビジネス寄りのアプローチを掲げている。\n\n## 直面する課題\n\n新首相は生活費危機、社会不安、複数の対外紛争など、多くの課題に直面している。右翼ポピュリスト勢力「Reform UK」との政治対立も予想される。\n\n## 改革の方向性\n\nBurnhamは北部地域への権限移譲、エネルギー政策の転換、福祉制度の見直しなどを掲げている。政治的安定と経済的回復が、今後の重要な目標となる。",
+    "tags": [
+      "英国",
+      "政治",
+      "首相",
+      "労働党"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/19/andy-burnhams-in-tray-the-challenges-facing-the-new-uk-pm",
+    "importance": 5,
+    "image_query": "government political leader parliament",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1672264597620-d792bb6de88d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxnb3Zlcm5tZW50JTIwcG9saXRpY2FsJTIwbGVhZGVyJTIwcGFybGlhbWVudHxlbnwxfDB8fHwxNzg0NDk2MjExfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Marcus Reubenstein",
+      "profileUrl": "https://unsplash.com/@reubenstein?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large building with a flag on top of it"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:32.065Z",
+    "publishedAt": "2026-07-19T20:12:26.000Z"
+  },
+  {
+    "slug": "20260720-04",
+    "headline": "ガイアナの旅客船が沈没、多数が行方不明",
+    "lead": "ガイアナ沖で116人乗客のフェリーが沈没し、67人が救助されたが、約50人が依然行方不明。国の最大級の海難事故。",
+    "body_markdown": "## 事故の経過\n\n2026年7月19日未明、ガイアナ南米沿岸でMV Barimaというフェリーが沈没した。ジョージタウンからポート・カイテュマへの定期航路中の出来事である。フェリーは夜間11時頃に遭難信号を発信し、沿岸警備隊と民間船舶が救助活動に当たった。\n\n## 被害規模\n\n船上には乗客乗員合計116人が乗船していた。沿岸警備隊の報告によれば、67人が救助された。救助者には15人の子どもが含まれている。依然として約50人が行方不明であり、大規模な捜索・救助活動が継続中である。\n\n## 船舶情報\n\nMV Barimaは全長40m（131フィート）の旅客フェリーで、1939年に建造された。船上には250着の救命胴衣、2隻の硬質救命筏、6隻の膨張式救命筏が搭載されていた。\n\n## 原因と調査\n\n沈没の原因はまだ明らかになっていない。政府当局は事故調査よりも捜索救助活動を優先させている。Mark Phillips首相は昼間の救助活動で救助者数が増加することを期待していると述べた。ガイアナの海難事故としては最大級の出来事として位置付けられている。",
+    "tags": [
+      "ガイアナ",
+      "海難事故",
+      "フェリー沈没",
+      "救助活動"
+    ],
+    "section": "国際・地政学",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/jul/19/dozens-missing-after-passenger-ferry-sinks-off-coast-of-guyana",
+    "importance": 4,
+    "image_query": "ship maritime disaster rescue",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1536477832394-ac86b93e3753?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzaGlwJTIwbWFyaXRpbWUlMjBkaXNhc3RlciUyMHJlc2N1ZXxlbnwxfDB8fHwxNzg0NDk2MjEzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jason Mavrommatis",
+      "profileUrl": "https://unsplash.com/@jasonblackeye?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "ship sinking on ocean at daytime"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:33.190Z",
+    "publishedAt": "2026-07-19T19:39:58.000Z"
+  },
+  {
+    "slug": "20260720-05",
+    "headline": "ノーランの新作『オデッセイ』が興行記録更新",
+    "lead": "Christopher Nolan監督の新作映画『The Odyssey』がR指定、3時間の大作にもかかわらず、グローバルボックスオフィス2億6400万ドルでノーラン史上最大の初週成績を記録。",
+    "body_markdown": "## 興行成績\n\n2026年7月19日のボックスオフィス報告によると、Christopher Nolan監督の『The Odyssey』（邦題未定）がグローバルで2億6410万ドルの初週興行成績を達成した。これはノーラン作品の中で最大の初週成績であり、前作『ダークナイト ライジング』の2億4900万ドルを上回っている。\n\n## 国内外の成績\n\n国内（米国）では1億2450万ドル、国際市場では1億3960万ドルの売上を記録した。特に国際展開は73カ国で実施され、英国・アイルランドで1740万ドル、フランスで1370万ドル、イタリアで1150万ドルなど、ヨーロッパ市場での好成績が目立っている。\n\n## 作品の特徴\n\n本作はR指定、上映時間3時間、メジャーフランチャイズではない独立系大作映画であるにもかかわらず、この成績を達成した。ユニバーサルは製作費2億5000万ドル、マーケティング費1億2500万ドルを投じた。\n\n## 評価\n\nロッテントマトーズではクリティカルスコア95%の高評価を獲得。オーディエンススコアもA-CinemaScoreと上々である。映画評論家からはノーラン監督のキャリアの中でも最高評価のレビューが出ている。",
+    "tags": [
+      "映画",
+      "ボックスオフィス",
+      "Christopher Nolan",
+      "エンタメ"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/box-office/the-odyssey-christopher-nolan-biggest-global-debut-1236815981/",
+    "importance": 4,
+    "image_query": "movie theater cinema blockbuster",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMHRoZWF0ZXIlMjBjaW5lbWElMjBibG9ja2J1c3RlcnxlbnwxfDB8fHwxNzg0NDk2MjEzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Felix Mooneeram",
+      "profileUrl": "https://unsplash.com/@felixmooneeram?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "red cinema chair"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:34.070Z",
+    "publishedAt": "2026-07-19T17:47:17.000Z"
+  },
+  {
+    "slug": "20260720-06",
+    "headline": "Eli Lilly が精神医療向け向精神薬企業を38億ドルで買収",
+    "lead": "Eli Lillyが向精神薬開発企業AtaiBeckleyを38億ドルで買収。治療抵抗性抑うつ症治療薬BPL-003の開発を進める。",
+    "body_markdown": "## 買収の概要\n\n2026年7月16日、医薬品大手Eli Lillyは、向精神薬専門企業AtaiBeckley Incの買収を発表した。総額は最大38億ドルである。このうち28億ドルを現金で即座に支払い、残り10億ドルは特定のマイルストーン達成時に支払われる。Eli Lillyは向精神薬分野への初進出となる。\n\n## 主要薬剤\n\nAtaiBeckleyの主力開発候補はBPL-003（メブフォテニン安息香酸塩）で、5-MeO-DMT（シンセティック精神活性物質）の経鼻スプレー剤型である。治療抵抗性抑うつ症（TRD）の治療薬として開発中であり、フェーズ3治験結果は2029年に予定されている。\n\n## 業界への影響\n\nこの買収は、向精神薬分野における最大の案件である。先行例としてAbbVieは2025年8月にGilgamesh Pharmaceuticalsの主力開発品を最大12億ドルで買収している。この流れは大手製薬企業がメンタルヘルス領域に本格参入していることを示している。\n\n## 市場展望\n\nメンタルヘルス治療市場は急速に拡大しており、精神医学における新しい治療選択肢への需要が高まっている。Eli Lillyの参入により、向精神薬候補の臨床開発と商業化が加速する見通しである。",
+    "tags": [
+      "Eli Lilly",
+      "医薬品",
+      "メンタルヘルス",
+      "向精神薬"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/19/psychedelic-drugs-mental-health.html",
+    "importance": 4,
+    "image_query": "pharmaceutical research laboratory medicine",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1579165466991-467135ad3110?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxwaGFybWFjZXV0aWNhbCUyMHJlc2VhcmNoJTIwbGFib3JhdG9yeSUyMG1lZGljaW5lfGVufDF8MHx8fDE3ODQ0OTYyMTR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "CDC",
+      "profileUrl": "https://unsplash.com/@cdc?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person holding tube"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:34.914Z",
+    "publishedAt": "2026-07-19T14:45:37.000Z"
+  },
+  {
+    "slug": "20260720-07",
+    "headline": "Appleが OpenAI を営業秘密窃取で提訴",
+    "lead": "AppleがOpenAIを営業秘密窃取で連邦裁判所に提訴。従業員引き抜きと機密情報持ち出しを主張。ハードウェア開発計画に影響の可能性。",
+    "body_markdown": "## 訴訟の内容\n\n2026年7月10日、Appleはカリフォルニア北部地区の連邦裁判所でOpenAIとその関係者を営業秘密窃取について提訴した。訴状には、OpenAIが現職・元職の従業員にApple機密情報の開示を促し、ハードウェア開発に向けた機密情報の組織的抽出を行ったと主張されている。\n\n## 具体的な疑惑\n\nAppleの訴状で指摘されている疑惑：\n1. OpenAIが退職予定のApple従業員に対し、セキュリティプロセスを回避する方法をコーチング\n2. 元Apple従業員Chang LiuがAppleのラップトップを盗出\n3. OpenAIのハードウェア責任者Tang Tan（元Apple副社長）が面接時にApple機密を求めるよう指示\n4. 面接候補者に『お見せとお話し』セッション用にAppleの実物部品の持ち込みを依頼\n\n## OpenAIのハードウェア計画への影響\n\nOpenAIはこの訴訟にもかかわらず、2026年末の初製品発表と2027年の発売予定を維持している。ただし、採用活動への影響と製品開発への支障は避けられない可能性が高い。\n\n## 産業への波紋\n\nテック業界で営業秘密窃取訴訟は注目度が高く、AI企業とハードウェア大手の競争激化を象徴している。判決結果は業界全体のビジネスプラクティスに大きな影響を及ぼす可能性がある。",
+    "tags": [
+      "Apple",
+      "OpenAI",
+      "訴訟",
+      "ハードウェア"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+    "importance": 4,
+    "image_query": "legal court lawsuit law",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1676181739859-08330dea8999?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxsZWdhbCUyMGNvdXJ0JTIwbGF3c3VpdCUyMGxhd3xlbnwxfDB8fHwxNzg0NDk2MjE1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Wesley Tingey",
+      "profileUrl": "https://unsplash.com/@wesleyphotography?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a wooden judge's hammer sitting on top of a table"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:35.404Z",
+    "publishedAt": "2026-07-19T14:52:08.000Z"
+  },
+  {
+    "slug": "20260720-08",
+    "headline": "Current AI が全ての人に開かれたAIインフラを構築中",
+    "lead": "非営利団体Current AIが、グローバルサウスの言語・文化に対応したオープンソースAIスタックを開発。22言語対応のオフライン端末も。",
+    "body_markdown": "## Current AI の使命\n\n2025年2月に設立された非営利団体Current AIは、特定の企業や国に支配されない公開AIインフラの構築を目指している。創設者はMartin Tisneで、急速な進展を遂行中だ。\n\n## Suno Sutra プロジェクト\n\nCurrent AIは、インド向けにシステムを開発。『Suno Sutra』（ヒンディー語で『聴取の記録』）という手のひらサイズのオフライン端末を開発し、インドの22言語でAI対話が可能。インターネット接続なしで動作するこのデバイスはオープンソース化されており、デベロッパーコミュニティが拡張・改善できる。\n\n## グローバルパートナーシップ\n\nCurrent AIはインド政府支援のBhashini、フランスの非営利団体、Kalpa Impactと協力し、320万ドルのグラント配分を4つの組織に実施した。さらにジュネーブのAI for Good Summitでは、10の国際組織（Hugging Face、Mozilla、MIT Media Lab含む）と共同でオープンソースAIチャットボット『Alpha Chat』を7週間で完成させた。\n\n## 日本・グローバルサウス対応\n\nCurrent AIはSakana AIと提携し、日本語と日本文化に対応した共有型オープンソースAIスタックを構築。グローバルサウスの各地域コミュニティもこのエコシステムの恩恵を受ける予定。\n\n## 重要性\n\nAI技術の民主化と地域言語・文化への対応は、デジタル格差の縮小と多様な社会における共生の実現に向けた重要な取り組みである。",
+    "tags": [
+      "AI",
+      "非営利",
+      "オープンソース",
+      "グローバル"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+    "importance": 4,
+    "image_query": "artificial intelligence technology innovation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1770171323762-7b9a517a7094?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHRlY2hub2xvZ3klMjBpbm5vdmF0aW9ufGVufDF8MHx8fDE3ODQ0OTYyMTZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zach M",
+      "profileUrl": "https://unsplash.com/@zachmmalin?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "The letters ai are displayed on a blurred background."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:36.423Z",
+    "publishedAt": "2026-07-19T14:00:00.000Z"
+  },
+  {
+    "slug": "20260720-09",
+    "headline": "NASA Psyche 探査機がマルス・フライバイを完了",
+    "lead": "NASA Psyche探査機が火星の重力アシストを利用し、金属豊富な小惑星Psyche探査に向けて軌道を調整。2029年到着予定。",
+    "body_markdown": "## フライバイの成功\n\n2026年5月15日、NASA Psyche探査機は火星の近傍を通過し、重力アシストを完了した。火星表面から2864マイル（4609km）まで接近し、予定通りのミッションを遂行した。\n\n## 物理的効果\n\nこのフライバイにより、探査機は時速1000マイルの速度増加を得た。また、太陽に対する軌道平面が約1度シフトされた。これらのマヌーバーにより、探査機の搭載推進剤を消費することなく、目標天体への到着が可能になった。\n\n## 科学計器のテスト\n\nマルス到着時には、Psyche探査機の科学計器群が実際の環境でテストされた。イメージャーチームは、火星表面の詳細な観測画像を取得し、風で侵食されたクレーター、南極圷帽、大型の2重リング構造を持つHuygens クレーターなどの映像を記録した。\n\n## 目標小惑星について\n\nPsyche小惑星は、約173マイル（280km）の幅を持つ金属豊富な小惑星である。2029年8月に到達予定で、小惑星の周囲軌道に投入され、詳細な科学観測が実施される。\n\n## 科学的意義\n\nPsyche小惑星の研究は、惑星形成過程や金属鉱床の形成メカニズムの理解に向けた重要なデータを提供すると期待されている。",
+    "tags": [
+      "NASA",
+      "火星",
+      "宇宙探査",
+      "小惑星"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://science.nasa.gov/blogs/psyche/2026/07/17/nasas-psyche-mission-delivers-mars-flyby-data-time-lapse-video/",
+    "importance": 4,
+    "image_query": "space spacecraft planet Mars",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26/pia26749/E2_PIA26749_Psyche_Imager_Mars_Mosaic1_F247E.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+      "credit": "NASA",
+      "creditUrl": "https://science.nasa.gov/blogs/psyche/2026/07/17/nasas-psyche-mission-delivers-mars-flyby-data-time-lapse-video/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:36.502Z",
+    "publishedAt": "2026-07-17T00:00:00.000Z"
+  },
+  {
+    "slug": "20260720-10",
+    "headline": "Suno が AI 音楽生成で収入300万ドル超に成長",
+    "lead": "AI音楽生成サービスSunoが月間利用者1億人、有料購読者200万人に達成。Warner Music Groupとの和解後、2026年は著作権許可のデータで学習。",
+    "body_markdown": "## Suno の成長\n\n2026年2月現在、Suno は月間利用者100万人を突破し、有料購読者は200万人に達している。年間経常利益は300万ドルに達し、Series Dラウンドで4億ドルを調達。企業評価額は54億ドルに上昇している。\n\n## バージョン5.5 の革新\n\n2026年3月26日に開始されたSuno v5.5は、『より良い音質』から『より個人的な音楽』への方針転換を示している。ユーザーが60～90秒の個人音声録音をアップロードすると、Suno AIがカスタム音声モデルを構築し、その声で歌唱する機能を実装。\n\n## 料金体系\n\n**Pro プラン**：月8ドル（年払い）。月500曲、ロイヤリティフリー音楽、v5.5アクセス、商用利用権など。独立系クリエイター向けに最適。\n\n**Premier プラン**：月24ドル。Suno Studioなど高度な機能が必要なユーザー向け。\n\n## 著作権対応の進展\n\n2025年11月25日、Warner Music Groupとの著作権訴訟が和解された。Sunoはライセンス契約を締結し、2026年モデルは許諾を受けたデータで学習することを約束した。ただし、UniversalおよびSonyとの訴訟交渉は停滞中である。\n\n## 業界への影響\n\nSunoの成長は、生成型AIが音楽産業に与える影響の拡大を示している。クリエイター向けツールとしての位置付けが強まっている。",
+    "tags": [
+      "AI",
+      "音楽",
+      "Suno",
+      "生成型AI"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+    "importance": 3,
+    "image_query": "music generation AI technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:36.502Z",
+    "publishedAt": "2026-07-18T00:00:00.000Z"
+  },
+  {
+    "slug": "20260720-11",
+    "headline": "トンボの空中戦、単純なルールで複雑な機動を実現",
+    "lead": "インペリアル・カレッジ・ロンドンの研究で、オスのトンボが単純な視覚ガイダンス則で高度な空中機動を実行していることが判明。ロボット応用の可能性も。",
+    "body_markdown": "## 研究の成果\n\nインペリアル・カレッジ・ロンドンと台北動物園の研究チームは、オスのトンボが領土争奪時に実行する複雑に見える空中戦のメカニズムを解明した。3D飛行軌跡の分析により、これらの機動が『単純な視覚ガイダンス法則』に従っていることを発見した。\n\n## 観測データ\n\n研究チームは102対のオス同士の相互作用を立体ビデオ撮影リグで記録した。遠心加速度は最大6gに達し、極めて高度な飛行能力が実証された。興味深いことに、飛行時間の約3分の1はグライディング（滑空）で、実際の戦闘中でもエネルギー効率を優先している。\n\n## 戦闘戦術の解析\n\n14件の戦闘エピソード中、6件では『動きの迷彩』と呼ばれる現象が観察された。これは追跡者と被追跡者の役割が頻繁に入れ替わり、相互追跡と速度調整によって複雑なパターンが生まれる現象である。\n\n## 進化的背景\n\n獲物の捕食とは異なり、トンボの戦いは位置争奪が目的である。相手に接近しすぎると速度を落とし、衝突を避ける。この行動は、視覚と運動の生物物理学的制約に基づいている。\n\n## 将来への応用\n\n本研究は、ロボット工学や無人航空機（UAV）の開発に応用できる可能性がある。単純なルールから複雑な行動が生まれるというメカニズムは、制御工学の新しい方向性を示唆している。",
+    "tags": [
+      "トンボ",
+      "生物学",
+      "飛行機動",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-dragonfly-aerial-simple.html",
+    "importance": 3,
+    "image_query": "insect dragonfly nature wildlife",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:36.502Z",
+    "publishedAt": "2026-07-19T21:00:01.000Z"
+  },
+  {
+    "slug": "20260720-12",
+    "headline": "人気の人工甘味料で脳の加速度的衰退か",
+    "lead": "脳認知機能研究で、アスパルテームなど6種の人工甘味料が認知能力の低下と関連。特に糖尿病患者で低下が顕著。",
+    "body_markdown": "## 研究の発見\n\n2026年7月の最新研究により、多くの人気人工甘味料が脳の加速度的老化と関連している可能性が示唆された。最高摂取量の成人は、最低摂取量と比較して記憶と思考能力が約1.6年分早く低下していることが判明した。\n\n## 対象甘味料と影響\n\nこの研究で特別に調査された6種の甘味料（アスパルテーム、サッカリン、アセスルファムK、エリスリトール、ソルビトール、キシリトール）は、全体認知能力の低下と関連していた。特に記憶喪失が顕著である。タガトースのみが認知低下と関連していなかった。\n\n## 特定集団への影響\n\n年齢60歳未満の参加者では、高摘取群は低摘取群と比較して言語流暢性と全体認知能力の低下が際立っていた。糖尿病患者では、甘味料摂取と認知低下の相関がより強かった。\n\n## 因果関係の注意\n\n本研究は観察研究であり、甘味料と脳衰退の間に直接的な因果関係を確立していない。また、現在の科学的根拠は弱く、公認の人工甘味料と脳老化の直接的相関についての確実な結論は出ていない。\n\n## 公衆衛生への意味\n\nこの研究は、無炭水化物甘味料利用の潜在的なリスクについての公的議論を拡大している。消費者には、各自の健康状態に合わせた選択が推奨されている。",
+    "tags": [
+      "健康",
+      "栄養",
+      "脳科学",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260717033213.htm",
+    "importance": 3,
+    "image_query": "health medical research laboratory",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:36.502Z",
+    "publishedAt": "2026-07-17T00:00:00.000Z"
+  },
+  {
+    "slug": "20260720-13",
+    "headline": "断続的断食で1年間の体重維持が可能、新研究",
+    "lead": "16時間断食・8時間食事のインターミッテントファスティングが、1年後も体重低下を維持。食事時間帯よりも時間制限が重要。",
+    "body_markdown": "## 研究成果\n\n2026年7月の新研究によると、16:8インターミッテントファスティング（16時間絶食、8時間食事ウィンドウ）は、中期的な体重管理に有効である。追跡調査により、体重低下の効果が1年後も持続されていることが判明した。\n\n## 食事時間帯による差異の欠如\n\n注目すべき発見として、食事ウィンドウが朝方か夜方かは、体重維持効果に大きな差がないことが示された。つまり、個人のライフスタイルに合わせた柔軟な実施が可能である。\n\n## 従来的食事制限との比較\n\nコクランレビュー（22の臨床試験、2000人近くの対象者）の分析により、インターミッテントファスティングが従来的カロリー制限よりも有意に優れた体重低下をもたらさないことが判明した。標準食事アドバイスや構造化プランなしとも、体重低下効果は同程度である。\n\n## 実装的優位性\n\n2026年7月の実践的研究は、インターミッテントファスティングの主な利点は『持続可能性』にあることを示した。カロリー計算の負担を感じない人々にとって、断続的断食は従来的カロリー制限と同等の結果を得られ、心理的ストレスが低い。\n\n## 2型糖尿病への応用\n\n12時間のインターミッテントファスティングとカロリー制限の組み合わせは、2型糖尿病患者の体重低下と血糖管理改善に対し、カロリー制限単独より優れた結果を示している。\n\n## 個人差の考慮\n\n成功は個人差が大きく、自身のライフスタイルに適合した方法選択が最も重要である。",
+    "tags": [
+      "ダイエット",
+      "健康",
+      "栄養学",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "Medical Xpress",
+    "link": "https://medicalxpress.com/news/2026-07-intermittent-fasting-term-weight-loss.html",
+    "importance": 3,
+    "image_query": "health fitness nutrition diet",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:36.502Z",
+    "publishedAt": "2026-07-19T00:00:00.000Z"
+  },
+  {
+    "slug": "20260720-14",
+    "headline": "ノーラン監督、AI を『明白なトロイの木馬』と批判",
+    "lead": "新作『The Odyssey』のプロモーション中、Christopher Nolan監督がAIテクノロジーを強く批判。特に若い世代のAI拒否姿勢を評価。",
+    "body_markdown": "## ノーラン監督の発言\n\nChristopher Nolan監督は、YouTubeインフルエンサーHugoDécrypteとの対談中、AI技術について強い懸念を表明した。彼はAIを『明白なトロイの木馬で、ギリシャ人がその中にいることを誰もが知っている。透明なガラス製の馬だ』と表現した。\n\n## 映画とのつながり\n\nこの発言は、新作『The Odyssey』の主要なストーリー要素であるトロイの木馬との関連性を示唆している。映画では、見かけの贈り物が実は危険な脅威を隠しているというテーマが中心となっている。\n\n## 若い世代の懸念\n\nノーランは、若年層がAIに対して『これ以上にない懐疑的態度』を示していることを『非常に励まされる』と述べた。『これほど急速に進むテクノロジーが広く社会に拒否されたことを見たことがない』とコメントした。\n\n## 業界への影響\n\nノーラン監督のような大型映画製作者の明確なAI批判は、エンターテインメント業界全体に波及している。AIが生成コンテンツ（『AIスロップ』）で映画産業を圧迫することへの懸念が業界内で強まっている。\n\n## 文化的意味\n\nこの発言は、テクノロジー進歩への社会的な不信感と、人間主導の創造性への価値追求の表れとして解釈される。",
+    "tags": [
+      "映画",
+      "AI",
+      "Christopher Nolan",
+      "テクノロジー"
+    ],
+    "section": "エンタメ",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+    "importance": 3,
+    "image_query": "technology artificial intelligence warning",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:36.502Z",
+    "publishedAt": "2026-07-19T14:52:08.000Z"
+  },
+  {
+    "slug": "20260720-15",
+    "headline": "世界中で聞こえる『不可解な音』の謎が50年後に解明か",
+    "lead": "『The Hum』と呼ばれる数十年間の謎である低周波音について、新研究が低周波性耳鳴りの可能性を指摘。",
+    "body_markdown": "## 謎の『Hum』とは\n\n『The Hum』と呼ばれる現象は、過去50年間、世界中の人口の2～4%が報告してきた低周波の持続音である。一般的には遠方のディーゼルエンジン、アイドリング中のトラック、産業機械、または低い電気的ブザー音に例えられる。\n\n## 起源の謎\n\n1970年代のブリストル（イギリス）で最初に広く報告され、その後イギリス全体、北米、豪州、ニュージーランド、南アフリカ、ヨーロッパ各地に報告が広がった。ただし、音源は特定されないまま謎とされてきた。\n\n## 2026年の新しい説\n\n2026年3月27日に発表された研究（Baumann, Voss, Jurado, Drexlらが執筆）により、有力な説が提示された。研究者たちは、多くの『Hum』報告者が例外的な低周波聴覚能力を持つか、耳から測定可能な音を生成しているわけではないと判定した。\n\n## 低周波性耳鳴りの可能性\n\n最も有力な仮説は、『Hum』が多くの場合、低周波性耳鳴りであるというものだ。つまり音は外部ではなく、聴者の耳から生じている可能性が高い。ただし音は完全に外部のように知覚される。\n\n## 今後の研究\n\nこの研究は完全な結論ではなく、継続的な調査が必要である。複数の要因が『Hum』知覚に寄与する可能性がある。",
+    "tags": [
+      "謎",
+      "音",
+      "科学",
+      "医学"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260719040002.htm",
+    "importance": 3,
+    "image_query": "sound audio mysterious noise",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:36.502Z",
+    "publishedAt": "2026-07-19T00:00:00.000Z"
+  },
+  {
+    "slug": "20260720-16",
+    "headline": "シネマティック VR が映画体験を根本から変える",
+    "lead": "新研究で、VR映画が従来の観賞から『体験者』としての没入感を実現。360度ナラティブが映画表現を革新。",
+    "body_markdown": "## VR シネマの本質的変化\n\n2026年7月19日発表の研究により、シネマティック VR が単なる映像技術ではなく、物語言語そのものを変えることが示された。VR映画では、視聴者は遠く離れた観賞者ではなく、物語の世界の『中に存在する』体験者になる。\n\n## イマーシブ体験の深化\n\n360度の視点が可能になることで、観賞者は物語に直接参与する。従来の映画では監督が「どこを見るべきか」を指定するが、VRではその自由度が拡張される。ただし、視聴者が重要な場面を見逃す可能性も生じる。\n\n## ナラティブ技術への挑戦\n\nシネマティック VR は、従来の映画作法（ペーシング、配置、撮影技法）をすべて再考する必要がある。また、編集概念も変化し、オムニプレゼントなサウンドデザインが視聴者の注意を誘導する重要な役割を果たす。\n\n## サウンドデザインの重要性\n\n研究により、空間音声キューが360度環境での視聴者の注意を効果的に目標刺激へ導くことが実証された。これにより、物語の完全性が保証される。\n\n## ハイブリッド・ストーリーテリング\n\n業界採用の傾向は、線形プロット構造と、視聴者の行動や視線に反応するインタラクティブ要素の融合を示している。これが没入感をさらに深める。\n\n## 業界への波及\n\n映画製作、ゲーム、教育、医療訓練など多岐にわたる分野での応用が期待されている。",
+    "tags": [
+      "VR",
+      "映画",
+      "テクノロジー",
+      "体験"
+    ],
+    "section": "テクノロジー",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-cinematic-vr-immerses-viewers-narrative.html",
+    "importance": 3,
+    "image_query": "virtual reality VR technology experience",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:36.502Z",
+    "publishedAt": "2026-07-19T19:00:03.000Z"
+  },
+  {
+    "slug": "20260720-17",
+    "headline": "ポルトガル語特化型 OCR モデルが汎用モデルを圧倒",
+    "lead": "Hugging Face に掲載のDharmaOCR は、ポルトガル語テキスト認識で Mistral、Unlimited-OCR を13～16ポイント上回る性能を実現。",
+    "body_markdown": "## 特化型モデルの優位性\n\nDharmaOCRは、ブラジルポルトガル語に特化した小型言語モデルで、オープンソース・商用ベースラインを大きく上回る性能を発揮している。根本的な設計哲学は『限定的なリソースで最大の成果を出す』である。\n\n## 性能ベンチマーク\n\nベンチマークテストでは以下の結果が記録された：\n- DharmaOCR: 0.925\n- Mistral OCR4: 0.798（13ポイント差）\n- Unlimited-OCR: 0.7587（16ポイント以上の差）\n\n## 汎用モデルの限界\n\n広範な対応モデルは『より多くの領域をカバーするが、各領域への専念度が低い』という根本的なトレードオフに直面している。DharmaOCRの成功は、特定言語への集中がいかに有効であるかを示している。\n\n## 失敗モード分析\n\n汎用OCRモデルの典型的な失敗パターン：\n- ポルトガル語固有名詞の誤認識（例：『Chico Buarque』→『Chico Barque』）\n- 視覚的に複雑な文書でのテキスト劣化（繰り返しで不連貫な出力）\n\n## 実用的な応用\n\nこのアプローチはコスト効率性と推論速度に優れ、エッジデバイスやリソース制限環境での使用に最適である。\n\n## 業界への含意\n\n汎用AI モデルと特化型モデルのトレードオフは、AI開発の基本的な課題である。実務的には、ドメイン特化が重要な場面では依然として優位性を持つ。",
+    "tags": [
+      "AI",
+      "OCR",
+      "自然言語処理",
+      "機械学習"
+    ],
+    "section": "テクノロジー",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+    "importance": 3,
+    "image_query": "text recognition OCR artificial intelligence",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-19T21:23:36.503Z",
+    "publishedAt": "2026-07-16T11:49:48.000Z"
+  },
+  {
     "slug": "20260719-20",
     "headline": "米イラン軍事エスカレーション 8夜連続攻撃に",
     "lead": "米軍はイランの軍事施設を攻撃、イランも報復。地域の緊張が急速に高まっている。",
