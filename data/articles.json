@@ -1,5 +1,33 @@
 [
   {
+    "slug": "20260720-18",
+    "headline": "データサイエンスチーム向け ChatGPT Work の活用事例公開",
+    "lead": "OpenAI、データサイエンス業務向けに ChatGPT Work の具体的な活用事例をアカデミーで公開。",
+    "body_markdown": "OpenAIは、データサイエンスチーム向けに ChatGPT Work の具体的な活用事例をアカデミーで公開した。データ分析実務の効率化を支援する実践的なユースケースを示すことで、分析業務における AI の価値を明確に。\n\nデータサイエンスチームは ChatGPT Work を使用して、根本原因分析報告書の自動作成、インパクト評価資料の生成、KPI メモの集計、スコープ限定分析、ダッシュボード仕様書など、複数の分析文書を実務データから自動生成できるようになった。これまでデータサイエンティストが手作業で作成していた報告書・分析ドキュメント作成の時間を大幅に削減。専門家をより戦略的な分析業務に割き当てられる。\n\n実務レベルの具体例を示すことで、ChatGPT Work が複雑な分析業務のスピードアップと品質向上に貢献することを実証。データ駆動意思決定の効率化と分析の民主化が期待される。OpenAI のアカデミー公開は、複雑な分析業務において AI がどのように支援できるかを具体的に示す重要な施策であり、エンタープライズ利用者の導入心理を大きく動かす可能性がある。",
+    "tags": [
+      "AI",
+      "ChatGPT",
+      "データサイエンス",
+      "分析",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+    "importance": 4,
+    "image_query": "data science analytics visualization",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxkYXRhJTIwc2NpZW5jZSUyMGFuYWx5dGljcyUyMHZpc3VhbGl6YXRpb258ZW58MXwwfHx8MTc4NDUzOTc5OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Stephen Dawson",
+      "profileUrl": "https://unsplash.com/@dawson2406?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "turned on monitoring screen"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-20T09:29:58.239Z",
+    "publishedAt": "2026-07-14T00:00:00.000Z"
+  },
+  {
     "slug": "20260720-01",
     "headline": "米イラン軍事紛争が激化、ヨルダン攻撃で米兵2人死亡",
     "lead": "イランによる弾道ミサイル攻撃でヨルダンの米軍基地が被害を受け、米兵2人が死亡、1人が行方不明に。米軍が報復攻撃を実施。",
