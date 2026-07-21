@@ -1,5 +1,465 @@
 [
   {
+    "slug": "20260722-01",
+    "headline": "OpenAI、小企業向け ChatGPT プログラム始動",
+    "lead": "OpenAI が起業家をターゲットに ChatGPT プログラムを開始、AI スキル育成と実装支援を提供する。",
+    "body_markdown": "小企業向けの新しい選択肢\n\nOpenAI は 7 月 21 日、小企業向けの ChatGPT プログラムを公式発表した。このプログラムは、IT スタッフを持たない起業家や小規模ビジネスオーナーを対象に、AI テクノロジーの導入を支援するものだ。\n\nプログラムの中核は ChatGPT Work で、月額約 25 ドル/ユーザーで提供される。同プラットフォームは OpenAI の最新 AI モデル GPT-5.6 を搭載しており、コンシューマー向けの ChatGPT Plus と企業向け OpenAI Enterprise の中間に位置する価格帯・機能セットとなっている。\n\nサポートと教育リソース\n\nプログラムには以下が含まれる。バーチャルトレーニングではハンズオンセッションで ChatGPT の実践的な使い方を学ぶ。AI アカデミーは米国での対面型 AI 講座で、ビジネス活用を深掘りする。スターターガイドは小企業向けに最適化されたドキュメント。パートナーエコシステムは小企業向けの専用エージェント・パートナー企業へのアクセスを提供する。\n\n戦略的背景\n\nOpenAI は ChatGPT Work のユーザー数 1000 万人達成を公表するなど、エンタープライズ市場での拡大に力を入れている。今回のプログラムは、中小ビジネス層への浸透戦略の一環。起業家が AI スキルを習得し、業務効率化や事業成長を実現する環境を整えることで、ChatGPT のユースケースを拡大・定着させる狙いがある。\n\n市場への影響\n\n小企業向けの構造化されたオンボーディングプログラムは珍しく、トレーニング提供によってアダプション率を高める戦略として注目される。Microsoft との提携で Azure スタックへの統合も進む中、OpenAI は開発者層だけでなく、経営層・実務者層へのリーチを広げている。小企業がアウトソース困難な業務（顧客対応、マーケティング、データ分析）を ChatGPT で自動化・高速化できれば、生産性向上と人件費削減につながり、スモールビジネスの競争力強化に貢献する可能性がある。",
+    "tags": [
+      "AI",
+      "OpenAI",
+      "ChatGPT",
+      "小企業",
+      "生産性"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
+    "importance": 4,
+    "image_query": "business team workspace",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1690378820474-b468b8ee64d3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMHRlYW0lMjB3b3Jrc3BhY2V8ZW58MXwwfHx8MTc4NDY2OTQ2OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Lyubomyr Reverchuk",
+      "profileUrl": "https://unsplash.com/@lreverchuk?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a group of people sitting around a table with laptops"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:08.263Z",
+    "publishedAt": "2026-07-21T17:00:00.000Z"
+  },
+  {
+    "slug": "20260722-02",
+    "headline": "Google、新 Gemini モデル 3 種をリリース・3.5 Pro は未登場",
+    "lead": "Google が Gemini 3.6 Flash・3.5 Flash-Lite・3.5 Flash Cyber の 3 モデルをリリース、フラッグシップ Pro の遅延が問題視されている。",
+    "body_markdown": "新モデルの詳細\n\nGoogle DeepMind は 7 月 21 日、3 つの新 Gemini モデルを発表した。Gemini 3.6 Flash は Google の「ワークホース」モデルとして位置づけられており、コーディング・知識作業・マルチモーダル機能で改善が加えられた。トークン使用量は前世代比 17% 削減され、より経済的になっている。\n\nGemini 3.5 Flash-Lite は最も予算に優しいオプション。Gemini 3.5 Flash Cyber はサイバーセキュリティ脆弱性の特定と対応に特化した専用バリアント。このモデルは政府・信頼できるパートナー企業に限定されたパイロットプログラムを通じてのみ利用可能だ。\n\n欠落する Gemini Pro の問題\n\nGoogle の旗艦 Gemini Pro モデルは 2026 年 2 月以降更新されておらず、その欠落が業界で問題視されている。競合企業は積極的に新バージョンをリリースしており、OpenAI は GPT-5.6、Anthropic は Claude Opus 4.8 と Claude Sonnet 5 を提供している。\n\n報道によれば、「Google は 3.5 Pro のリリースで内部パフォーマンス目標を達成するのに苦労し、内部遅延に直面していた」という。Google は Pro バージョンが現在パートナー向けのテスト中であり、近日中に到着すべきと述べている。\n\nAI 市場の競争激化\n\nこの遅延は、Google が AI モデル開発におけるペースで競合企業に追い抜かれていることを示唆している。Flash シリーズはコスト効率で優位だが、最高性能が必要なユースケースでは Pro モデルが期待されている。Google がいつ Pro をリリースするかは、企業ユーザーのモデル選択に大きな影響を与える可能性がある。",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI",
+      "LLM",
+      "機械学習"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+    "importance": 3,
+    "image_query": "AI model neural network",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:08.266Z",
+    "publishedAt": "2026-07-21T17:11:50.000Z"
+  },
+  {
+    "slug": "20260722-03",
+    "headline": "データセンター、2035 年までに電力消費 4 倍に",
+    "lead": "AI 訓練・推論の急増により、データセンターの電力消費が 4 倍に増加し、地域電力網に深刻な負荷を及ぼす見込み。",
+    "body_markdown": "驚異的な電力増加の見通し\n\nBloombergNEF の報告書によると、データセンターは今後 10 年間で電力消費を大幅に増やす見通しだ。2035 年までに米国全体の電力供給の 5 分の 1 をデータセンターが占めるようになり、現在のレベルから 4 倍の増加となる。\n\n新規データセンターの容量は約 200 ギガワット。2033 年までに建設されるデータセンターは年間 1,935 テラワット時を消費する見込みで、これはインドの現在の電力消費とほぼ等しい。BloombergNEF の 2026 年予測は 2025 年 12 月の予測より 83% 高い。\n\nAI が主犯因\n\n急増の主要因は人工知能だ。報告書は「その容量の約半分が訓練・推論に充てられる」と指摘。米国は 2033 年までに AI チップの電力需要の約 64% をホストする予定。企業が AI インフラ投資を加速させており、電力需要は指数関数的に増加している。\n\n地域電力網への負荷\n\n地域電力網は深刻な圧力を受ける見込みだ。PJM Interconnection は電力の 34%、ERCOT は発電容量の 22% をデータセンターに充てる予定。米国最大電力網の電力価格は過去 1 年で 76% 上昇しており、大手ユーティリティ企業は相互接続から撤退すると脅迫している。\n\nインフラの課題\n\n新規データセンターの大部分は既に過負荷状態の電力網に接続される。電力供給・配分のボトルネックが発生する可能性が高い。冷却水の不足、送電網の拡張コストなど、複数の課題がデータセンター展開を複雑にしている。",
+    "tags": [
+      "データセンター",
+      "AI",
+      "電力消費",
+      "インフラ",
+      "エネルギー"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/21/data-centers-expected-to-use-4x-more-electricity-by-2035/",
+    "importance": 3,
+    "image_query": "data center servers electricity",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:08.266Z",
+    "publishedAt": "2026-07-21T18:06:38.000Z"
+  },
+  {
+    "slug": "20260722-04",
+    "headline": "中国 AI モデル Kimi K3、欧米トップモデルに肉薄",
+    "lead": "Moonshot AI が 2.8 兆パラメータの Kimi K3 をリリース、一部ベンチマークで OpenAI・Anthropic のモデルに匹敵する性能を発揮。",
+    "body_markdown": "中国の大規模モデル登場\n\nBeijing 拠点の AI スタートアップ Moonshot AI は、Kimi K3 をリリースした。2.8 兆パラメータを持つこのモデルは、世界最大のオープンソース AI モデルだと主張されている。同社は Alibaba の支援を受けている。\n\n欧米競合との競争力\n\nMoonshot は Kimi K3 を Anthropic の Claude Fable 5 と OpenAI の GPT-5.6 Sol に対する直接的なチャレンジャーとして位置づけている。ただし、同社の評価では全体的なパフォーマンスは依然として Fable 5 と GPT-5.6 Sol に及ばないが、「フロンティアレベル」の性能を実現している。\n\n注目すべき点は、コーディングと汎用エージェント を含む一部のベンチマークで Kimi K3 は Fable 5 と「競争的」に機能し、Claude Opus 4.8 を「大幅に上回った」ということだ。\n\n業界への影響\n\nこのリリースは、2026 年世界 AI カンファレンスの直前に Shanghai で行われ、世界的な AI 軍拡競争の劇的なエスカレーションであり、オープンソース AI ムーブメントの転換点となっている。\n\nBank of America のアナリストは、Moonshot が最先端チップへのアクセスが限定されているにもかかわらず、モデル訓練・設計方法の改善により大きな前進を実現できたことを賞賛。これは、最先端チップへのアクセスがなくても AI 開発で競争できることを示唆している。",
+    "tags": [
+      "AI",
+      "中国",
+      "Moonshot",
+      "LLM",
+      "競争"
+    ],
+    "section": "AI",
+    "source": "Forbes",
+    "link": "https://www.forbes.com/sites/tylerroush/2026/07/17/chinese-ai-startup-moonshot-unveils-kimi-k3-model-will-it-challenge-openai-and-anthropic/",
+    "importance": 4,
+    "image_query": "AI neural network model",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1674027444484-cf52149ea050?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxBSSUyMG5ldXJhbCUyMG5ldHdvcmslMjBtb2RlbHxlbnwxfDB8fHwxNzg0NjY5NDY5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Growtika",
+      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a computer generated image of a ball of string"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:09.485Z",
+    "publishedAt": "2026-07-21T19:00:00.000Z"
+  },
+  {
+    "slug": "20260722-05",
+    "headline": "ウクライナ、軍総司令官シルスキーを解任・ドラパティが後任",
+    "lead": "ゼレンスキー大統領が軍総司令官オレクサンドル・シルスキーを解任、防衛改革を加速・マイカイロ・ドラパティ将軍を新任。",
+    "body_markdown": "軍指導部の大転換\n\nウクライナのボロディミル・ゼレンスキー大統領は 7 月 21 日、ウクライナ軍総司令官オレクサンドル・シルスキーの解任を発表した。同時に少将マイカイロ・ドラパティを新総司令官に任命。シルスキーは 2024 年から職にあり、ロシアのウクライナ侵攻時に首都キーウの防衛を指揮した経験豊富な司令官だった。\n\n解任の背景\n\nシルスキーの解任は人気改革派の防衛相ミハイロ・フェドーロフ解任から数日後に続いた。フェドーロフ解任に抗議する大規模デモがキーウと全国で展開されており、ゼレンスキーは軍部の指導体制を刷新することで不満を緩和しようとしている。\n\nドラパティの役割\n\nドラパティはウクライナ統合軍司令官で、フェドーロフ前防衛相の同盟者。軍内での改革派グループの代表格とされ、より機動的な軍事戦略の推進が期待される。シルスキーとは異なるアプローチで、戦術の刷新と軍幹部の入れ替えを推進する可能性がある。\n\n戦略的意義\n\nロシアとの長期戦争が続く中、ウクライナは軍指導部の世代交代を進めている。新司令官への交代は、軍の士気向上と改革推進を目的としたもの。同時に国内政治の安定化も狙いとしており、ゼレンスキー政権の求心力維持に向けた人事判断。",
+    "tags": [
+      "ウクライナ",
+      "軍事",
+      "政治",
+      "人事",
+      "防衛"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cyvl35z3917o",
+    "importance": 4,
+    "image_query": "military commander leadership",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1596144086603-679a540a2b28?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtaWxpdGFyeSUyMGNvbW1hbmRlciUyMGxlYWRlcnNoaXB8ZW58MXwwfHx8MTc4NDY2OTQ3MHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Scandinavian Backlash",
+      "profileUrl": "https://unsplash.com/@oldschoolwillie?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "men in camouflage uniform standing on field during daytime"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:10.401Z",
+    "publishedAt": "2026-07-21T19:57:38.000Z"
+  },
+  {
+    "slug": "20260722-06",
+    "headline": "Apple の Hide My Email 脆弱性がようやく修正",
+    "lead": "1 年以上報告されていたメールアドレス漏洩脆弱性を Apple が修正、iCloud+ ユーザーのプライバシー保護が強化。",
+    "body_markdown": "脆弱性の背景\n\nApple の Hide My Email 脆弱性は 2025 年 6 月に初めて報告されたが、同社は修正に 1 年以上要した。404 Media が 7 月初旬に報道するまで、Apple は修正を実施していなかった。\n\n脆弱性の詳細\n\nHide My Email ユーザーに対して迷惑メールとして却下されるメッセージを送信すると、その送信者に対してユーザーの実メールアドレスが公開される。ボランティアテストでは 100% の exploit 成功率が確認された。\n\n修正と残る懸念\n\nApple は 2026 年 7 月 3 日にパッチを配開。ただし、セキュリティ研究者は Hide My Email ユーザーへの危険が完全に排除されたとは考えていない。非悪意のメールがバウンスしても隠されたメールアドレスが漏洩する可能性があり、メール転送ログは長期保持されることが多いため、リスクは残存している。",
+    "tags": [
+      "Apple",
+      "セキュリティ",
+      "プライバシー",
+      "脆弱性",
+      "iCloud"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2220057/apple-has-reportedly-fixed-its-hide-my-email-vulnerability/",
+    "importance": 3,
+    "image_query": "cybersecurity privacy email",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:10.402Z",
+    "publishedAt": "2026-07-21T18:51:19.000Z"
+  },
+  {
+    "slug": "20260722-07",
+    "headline": "Anthropic、著作権訴訟で 15 億ドルの歴史的和解が成立",
+    "lead": "Anthropic が著者・出版社との著作権訴訟で 15 億ドルの和解をジャッジに承認され、約 50 万作品の著者に補償。",
+    "body_markdown": "歴史的な著作権和解\n\n連邦ジャッジ Araceli Martinez-Olguín は 7 月 21 日、Anthropic の 15 億ドル著作権訴訟和解を最終承認した。これは米国著作権法の歴史で最大級の回収となる。\n\n補償内容\n\n和解により、著者・出版社に対して合計 15 億ドルが支払われる。約 50 万作品を対象に、作品あたり 3,000 ドルの補償が支給される見込み。\n\n訴訟の背景\n\nAnthropicは著作権本を数百万冊不正にダウンロード・保存していた。訓練用ライブラリは購入・スキャンした書籍と、Library Genesis や Pirate Library Mirror などの海賊サイトからダウンロードした書籍の 2 つの出典から構成されていた。\n\nフェアユース判断の意義\n\nジャッジは AI モデルの訓練におけるコピーライト保護テキストの使用がフェアユースに該当すると判断。これは AI 業界にとって分岐点となる決定として広く見なされている。ただし、多くの著者・クリエイターは本和解を勝利とは見ていない。",
+    "tags": [
+      "Anthropic",
+      "著作権",
+      "法律",
+      "AI",
+      "出版"
+    ],
+    "section": "AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved",
+    "importance": 4,
+    "image_query": "legal law court",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1668239596261-62f94059533e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxsZWdhbCUyMGxhdyUyMGNvdXJ0fGVufDF8MHx8fDE3ODQ2Njk0NzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Wesley Tingey",
+      "profileUrl": "https://unsplash.com/@wesleyphotography?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a statue of a person holding a staff"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:10.913Z",
+    "publishedAt": "2026-07-21T16:53:37.000Z"
+  },
+  {
+    "slug": "20260722-08",
+    "headline": "Burnham 英首相就任、内閣大刷新・財政課題に直面",
+    "lead": "Andy Burnham が新首相として就任、Starmer 前政権の閣僚の大半を刷新・電気料金 VAT カットで家計支援を発表。",
+    "body_markdown": "新首相の就任と大改革\n\nAndy Burnham は正式に英国首相に就任、内閣の大規模な刷新を即座に実施した。Keir Starmer 前首相の多くの同盟者を政府から排除し、新体制を構築している。\n\n主要な人事\n\nJohn Healey をチャンセラー（財務相）に任命。Angela Rayner をホーシング・セクレタリー（住宅・地域担当）に起用。Ed Miliband を外交官・Commonwealth Office のセクレタリー（外相）に昇進させた。\n\n去職者\n\n政府から去った人物には、前チャンセラー Rachel Reeves、前ジャスティス・セクレタリー David Lammy、前ビジネス・セクレタリー Peter Kyle が含まれる。\n\n政策方針\n\nBurnham は記者会見で、「新しい政治的モデルと新しい経済モデル」を実行し、家計に「breathing space」を提供しつつ「英国の再工業化」に取り組むと述べた。電気料金の VAT 撤廃（6 ヶ月間）を最初のコスト削減措置として発表。\n\n政治的課題\n\nBurnham の内閣は財政制約下での野心的な政策実現を求められている。防衛支出増・社会保障拡充・エネルギー価格抑制などの公約実現に必要な資金源をどこに求めるかが焦点となる。",
+    "tags": [
+      "イギリス",
+      "政治",
+      "首相",
+      "内閣",
+      "経済政策"
+    ],
+    "section": "政治",
+    "source": "BBC Politics",
+    "link": "https://www.bbc.co.uk/news/articles/c4gjz907pppo",
+    "importance": 4,
+    "image_query": "government parliament UK",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1486299267070-83823f5448dd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxnb3Zlcm5tZW50JTIwcGFybGlhbWVudCUyMFVLfGVufDF8MHx8fDE3ODQ2Njk0NzF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Marcin Nowak",
+      "profileUrl": "https://unsplash.com/@marcin?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Big Ben, London"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:11.583Z",
+    "publishedAt": "2026-07-21T17:14:44.000Z"
+  },
+  {
+    "slug": "20260722-09",
+    "headline": "Goldman Sachs、資産家向け私募市場プラットフォーム立ち上げ",
+    "lead": "Goldman Sachs が個別企業投資向けプラットフォームを開始、SpaceX・Stripe クラスのユニコーン参画機会を富裕層に提供。",
+    "body_markdown": "新プラットフォーム始動\n\nGoldman Sachs は資産家・ファミリーオフィス向けの新しい代替投資プラットフォームを立ち上げた。既存の代替投資事業と 2 つの新設チームを統合し、個別プライベート企業への直接投資と、そのようなステークの売却・買収を支援するプラットフォーム。\n\n戦略的背景\n\n最も成功したスタートアップは、かつてより長くプライベートのままでいる。そのため早期投資家が成長の大部分を獲得し、パブリック投資家は参加機会を逃している。Goldman Sachs のオルタナティブ投資グローバル・ヘッド（ウェルス向け）は「企業は 1 兆ドルで IPO に至っている」と指摘。顧客が過程で参画していなければ、成長サイクルの大部分を逃す。\n\n資産規模\n\nGoldman Sachs は世界最大級のオルタナティブ投資家。2025 年 12 月 31 日現在、プライベートエクイティ・グロース・クレジット・インフラ・不動産・セカンダリ・ヘッジファンド全域で 627 億ドルを運用。40 年のグローバル経験を持つ。\n\nマーケット機会\n\nプライベート・マーケットの成長により、超富裕層の投資選択肢が拡大。ユニコーン企業への直接参画は長期リターンと分散投資の両立をもたらす可能性がある。",
+    "tags": [
+      "Goldman Sachs",
+      "投資",
+      "プライベートエクイティ",
+      "富裕層",
+      "金融"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/21/goldman-sachs-private-markets-platform.html",
+    "importance": 4,
+    "image_query": "investment finance wealth",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1604594849809-dfedbc827105?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxpbnZlc3RtZW50JTIwZmluYW5jZSUyMHdlYWx0aHxlbnwxfDB8fHwxNzg0NjY5NDcyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mathieu Stern",
+      "profileUrl": "https://unsplash.com/@mathieustern?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Miniature person sitting on stack of coins reading newspaper"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:12.448Z",
+    "publishedAt": "2026-07-21T20:51:34.000Z"
+  },
+  {
+    "slug": "20260722-10",
+    "headline": "Substack、AI 検出ツールを実装・コンテンツの信頼性向上へ",
+    "lead": "Substack が Pangram と提携、AI 生成テキスト検出機能を導入・クリエイター向けに透明性表記も開始。",
+    "body_markdown": "AI 検出ツールの実装\n\nSubstack は 7 月 21 日、AI 検出ツールをプラットフォームに統合。Pangram とのパートナーシップにより、読者が記事中の AI 生成比率を推定できるようになった。\n\n機能詳細\n\n読者は 100 字以上のテキストをスキャン可能。投稿・返信・コメントに対して、AI 作成比率とヒューマン・ライティング比率の推定値が表示される。Substack App の 3 ドット メニューから「Scan for AI text」オプションを選択して実行。\n\n提供状況\n\nWeb・iOS で本日より利用可能。Android 版は近日中にリリース予定。\n\nクリエイター向け透明性機能\n\nSubstack はクリエイター向けに新しい表記スペースを追加。コンテンツ作成時に AI 使用の有無・方法を明記できるようになった。AI を道具として活用するクリエイターと、完全にヒューマン・ライティングの著者の区別が容易になる。\n\n背景\n\nAI 生成コンテンツの急増により、読者の信頼が毀損される懸念が高まっている。Substack はプラットフォーム内での透明性を強化し、読者が情報源の信頼性を判断できる環境を整備する狙い。",
+    "tags": [
+      "Substack",
+      "AI検出",
+      "コンテンツ",
+      "透明性",
+      "メディア"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2220064/substack-is-adding-an-ai-detection-feature/",
+    "importance": 3,
+    "image_query": "technology platform interface",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:12.448Z",
+    "publishedAt": "2026-07-21T18:54:20.000Z"
+  },
+  {
+    "slug": "20260722-11",
+    "headline": "Nolan『オデッセイ』、歴代興収記録更新・世界興収 264 億円超",
+    "lead": "Christopher Nolan 映画『オデッセイ』がオープニング週末に全世界 264 億円を達成、Nolan 監督作では最大規模の出だし。",
+    "body_markdown": "歴史的なオープニング\n\nChristopher Nolan 監督による新作『オデッセイ』は 7 月 17 日の公開後、オープニング週末に世界興収 264 億円（2.641 億ドル）を記録。Nolan 監督作品史上最大規模のスタートを切った。\n\n地域別興収\n\n国内（米国）興収は 124.5 億円（1.245 億ドル）、国際興収は 139.6 億円（1.396 億ドル）。合計で 264.1 億円に達し、Nolan 監督のキャリアにおいて最大のオープニング週末成績。\n\n過去作との比較\n\n本作は『ダークナイト・ライジング』（160 億円）・『ダークナイト』『オッペンハイマー』を上回る出発点となった。2012 年『ダークナイト・ライジング』以来、Nolan 作品最大級のデビュー成績。業界全体でも本年 3 番目のオープニング記録。\n\n制作規模と期待\n\n制作費は 250 億円という巨大投資。マーケティング費用は 125 億円。評価は高く、IMAX フォーマットの人気も牽引力。アンサンブル・キャストと R レーティングにもかかわらず、大規模な観客動員を実現した。",
+    "tags": [
+      "映画",
+      "box office",
+      "興収",
+      "Nolan",
+      "エンタメ"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/box-office/odyssey-box-office-christopher-nolan-biggest-global-debut-1236815981/",
+    "importance": 5,
+    "image_query": "movie theater cinema",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1608170825938-a8ea0305d46c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMHRoZWF0ZXIlMjBjaW5lbWF8ZW58MXwwfHx8MTc4NDY2OTQ3Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Felipe Bustillo",
+      "profileUrl": "https://unsplash.com/@pipe_fx?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "2 women sitting on blue leather chair holding white and red plastic cups"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:13.051Z",
+    "publishedAt": "2026-07-21T17:55:25.000Z"
+  },
+  {
+    "slug": "20260722-12",
+    "headline": "フランス、15 歳未満のソーシャルメディア禁止法を承認",
+    "lead": "フランス議会が未成年者向けの SNS アクセス禁止法を承認、欧州初の包括的なデジタルユース規制。",
+    "body_markdown": "欧州初の立法\n\nフランス議会は 7 月 22 日、15 歳未満の児童によるソーシャルメディアアクセスを禁止する法案を承認。欧州諸国としては初めての包括的なデジタル年齢規制。\n\n対象プラットフォーム\n\nTikTok・Facebook・Snapchat・YouTube など主要な SNS が禁止対象。マクロン大統領はこの禁止を自身の任期最後の主要改革として推進。\n\n実施スケジュール\n\nマクロン大統領は 2026 年 9 月までの実装を公約している。憲法評議会の承認を経て正式発効。\n\n技術的措置\n\n情報技術相が禁止対象のソーシャルネットワークリストを公式化。各プラットフォームは仏プライバシー規制局の承認を得た年齢確認システムを導入。一部の高等学校ではスマートフォン使用も禁止。\n\n国際的コンテキスト\n\nフランスは世界的なトレンドに先制。オーストラリアでは 16 歳未満のソーシャルメディア禁止法が 2024 年 12 月に発効済み。米国・英国など主要国でも同様の規制検討が始まっている。",
+    "tags": [
+      "フランス",
+      "SNS禁止",
+      "児童保護",
+      "デジタル規制",
+      "法律"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/jul/21/france-ban-social-media-access-under-15s",
+    "importance": 3,
+    "image_query": "social media phone regulation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:13.052Z",
+    "publishedAt": "2026-07-21T19:14:04.000Z"
+  },
+  {
+    "slug": "20260722-13",
+    "headline": "日英伊の次期戦闘機開発、カナダがオブザーバー参加を決定",
+    "lead": "GCAP（全球戦闘航空計画）に新たにカナダがオブザーバーとして参加、2035 年目標の 6 世代目ステルス戦闘機開発は国際化が進む。",
+    "body_markdown": "カナダの参画\n\n2026 年 7 月 21 日、カナダは日本・英国・イタリア主導の GCAP（Global Combat Air Programme）の初のオブザーバーとして正式に参加することを決定。\n\nプロジェクトの規模\n\n英国・イタリア・日本は 7 月 3 日、次世代ステルス戦闘機開発の次段階に向けた 46 億ポンド（61 億ドル）の契約を締結。Edgewing—英国 BAE Systems・イタリア Leonardo・日本航空工業高度化会社の合弁体—に委託。\n\n開発目標\n\nGCAP は 2035 年までのステルス戦闘機配備を目指す 3 国共同プロジェクト。技術統合・コスト共有・人的交流などで国家防衛力の向上を実現。\n\nカナダの戦略的意義\n\nカナダが初のオブザーバー参加国となることは、プロジェクトの国際化・拡大を示唆。防衛技術の先端性・開発進捗への関心が高い。\n\nファーンボロー・エアショー\n\n日本の防衛相・小泉シンジロー は 7 月 20 日開始のファーンボロー国際航空ショーのため英国訪問。プロジェクト参画国との協力を強化。",
+    "tags": [
+      "防衛",
+      "戦闘機",
+      "日本",
+      "英国",
+      "イタリア"
+    ],
+    "section": "国際・地政学",
+    "source": "The Japan Times",
+    "link": "https://www.japantimes.co.jp/news/2026/06/10/japan/canada-joint-fighter-project/",
+    "importance": 3,
+    "image_query": "military aircraft fighter jet",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:13.052Z",
+    "publishedAt": "2026-07-21T20:20:50.000Z"
+  },
+  {
+    "slug": "20260722-14",
+    "headline": "新研究、銀河合併が星形成停止に与える影響を再評価",
+    "lead": "Florida International University の最新シミュレーションが、銀河合併と星形成終焉の関連性に疑問を呈し、従来仮説を覆す。",
+    "body_markdown": "従来仮説の再検証\n\nFlorida International University の研究チームは、銀河合併が必ずしも星形成の停止（クエンチング）を引き起こさないという新たな研究結果を発表した。\n\n研究の発見\n\n最新のシミュレーションによれば、大規模な銀河合併後にクエンチングが続く比率は、従来の見解より遙かに低い。調査対象の大型銀河合併の約 3% だけが、10 億年以内にクエンチングで星形成が停止。すべての合併を含めても、クエンチングと関連するのは約 12% に過ぎない。\n\n従来仮説との相違\n\n数十年にわたり、天文学者は銀河合併を「宇宙の終局的な相互関係」と見なしてきた。合併時のカオス・ブラックホール目覚め・星形成の劇的な停止という物語が支配的だった。\n\n代替メカニズム\n\n研究は、銀河内部の力学（内部的なガス動態・重力分布）が星形成終焉の主要因である可能性を示唆。外部的な合併イベントではなく、銀河の内部動態がクエンチングを決定する。\n\n宇宙進化への含意\n\nこの発見は、銀河進化の理解を根本から見直させる可能性がある。星形成がどのように停止するのか、また銀河がどのように成熟するのかについて、新たな視点を提供する。",
+    "tags": [
+      "天文学",
+      "銀河",
+      "星形成",
+      "宇宙",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-simulation-explanation-galaxies-stars.html",
+    "importance": 3,
+    "image_query": "galaxy space universe",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:13.052Z",
+    "publishedAt": "2026-07-21T20:50:02.000Z"
+  },
+  {
+    "slug": "20260722-15",
+    "headline": "『Camp Rock 3』、Jonas Brothers 復帰・新世代エンタメを公開",
+    "lead": "Disney Channel・Disney+ で 8 月公開予定、Jonas Brothers が Connect 3 として復帰・次世代キャストと新しい音楽を披露。",
+    "body_markdown": "懐かしのフランチャイズ復活\n\nDisney Channel と Disney+ は 8 月 13・14 日、『Camp Rock 3』を公開する。『Camp Rock』シリーズの初公開は 2008 年だった。新作では Jonas Brothers（Joe・Nick・Kevin）が Connect 3 として 18 年ぶりに主演。\n\nストーリー展開\n\nConnect 3 がリユニオンツアーの開幕アクトを失うという設定から、彼らが愛する Camp Rock に戻り、次の大スターを発掘する物語。新しい世代のキャンパーたちがオープニングアクトの座を競い、緊張・友情試験・恋愛が織り交ざる。\n\n新出演キャスト\n\nLiamani Segura（Sage）・Malachi Barton（Fletch）・Lumi Pollack（Rosie）・Sherry Cola（Lark）・Hudson Stone（Desi）・Casey Trotter（Cliff）・Brooklynn Pitts（Callie）・Ava Jean（Madison）が新出演。\n\nクリエイティブ・チーム\n\n Demi Lovato（前作出演者）がエグゼクティブ・プロデューサーとして参画。Tim Federle・Betsy Sullenger・Spencer Berman・Gary Marsh も制作陣に名を連ねる。\n\nマーケット意義\n\n懐かしいテンの復活は Z 世代の親層（ミレニアル）にアピール。Jonas Brothers の音楽ファンベースと新世代の発見層を同時に狙う戦略。",
+    "tags": [
+      "Disney",
+      "エンタメ",
+      "Jonas Brothers",
+      "映画",
+      "青春"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/tv/news/tv-news-roundup-week-of-july-20-1236816679/",
+    "importance": 3,
+    "image_query": "summer camp concert music",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:13.052Z",
+    "publishedAt": "2026-07-21T19:39:13.000Z"
+  },
+  {
+    "slug": "20260722-16",
+    "headline": "米財務長官、中国 AI モデルへの制裁を警告・知的財産問題",
+    "lead": "Treasury Secretary Scott Bessent が、中国 AI モデルの知的財産権侵害に対する制裁の可能性を公言、アメリカ企業の保護を宣言。",
+    "body_markdown": "新しい制裁ツール\n\nアメリカの Treasury Secretary Scott Bessent は 2026 年 7 月 21 日、中国のオープンソース AI モデルに対する制裁の可能性を言及。アメリカの大手 AI 企業が被った知的財産権侵害に対応する意思を表明した。\n\n具体的な懸念\n\nBessent は、米国の大手言語モデル（LLM）のウォーターマークが多数の中国 AI モデルで検出されていることを指摘。このような行為は「受け入れられない」と非難。モデル・ディスティレーション技術により、大規模なアメリカ・モデルから中国企業が機能を転送・抽出している疑いが濃厚。\n\nディスティレーション技術の課題\n\nディスティレーションは、大規模モデルから小型システムへと機能を移す技術。アメリカの AI 企業は、この過程で知的財産が盗まれていると主張。Bessent は、アメリカは制裁ツールキットを保持していると警告。\n\n制裁の可能性\n\n今回の発言は、Trump 政権が初めて AI 知的財産問題を制裁の対象にすることを示唆。これまで、制裁は伝統的な産業・軍事・金融分野に集中していた。\n\nビジネス・インパクト\n\nMoonshot AI の Kimi K3 など、欧米モデルに迫る性能の中国 AI が次々登場する中、制裁脅迫は中国の AI 開発加速と米国の危機感を反映している。",
+    "tags": [
+      "中国",
+      "AI",
+      "制裁",
+      "知的財産",
+      "政治"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/",
+    "importance": 3,
+    "image_query": "diplomatic trade policy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:13.052Z",
+    "publishedAt": "2026-07-21T15:37:05.000Z"
+  },
+  {
+    "slug": "20260722-17",
+    "headline": "Meta の Threads に親権コントロール機能が搭載される",
+    "lead": "Meta が Threads にパレンタル・スーパービジョンツールをロールアウト、青少年向けデジタル安全を強化。",
+    "body_markdown": "新しい親権管理機能\n\nMeta は 2026 年 7 月 21 日、Threads に親権スーパービジョン機能をロールアウトする。Family Center を通じて、親・保護者が十代のユーザーの利用状況と設定を管理可能に。\n\n機能詳細\n\nセットアップ後、親御さんは以下を管理できる：\n- Threads での利用時間の可視化\n- 1 日あたりのスクリーン時間制限の設定\n- 睡眠時間帯の自動ロック（スリープモード）\n- プライバシーセッティングの調整\n\n青少年のコントロール制限権\n\n来週からは、親は 16 歳未満の青少年が設定をさらに厳しくできるかどうかを決定。青少年が設定を緩めることを防ぐことが可能。\n\nロールアウト予定\n\n米国を皮切りに、Family Center を通じて親権スーパービジョンを提供開始。Android および iOS 双方で利用可能。\n\n規制圧力への対応\n\nこのロールアウトは、Meta に対する規制・法制化圧力の増加に対応するもの。青少年のオンライン安全性を巡る社会的・政治的懸念が高まっており、プラットフォーム企業は積極的な対応が求められている。",
+    "tags": [
+      "Meta",
+      "Threads",
+      "親権",
+      "デジタル安全",
+      "青少年"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/21/threads-rolls-out-parental-supervision-tools/",
+    "importance": 3,
+    "image_query": "parental control app family",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:13.053Z",
+    "publishedAt": "2026-07-21T18:15:00.000Z"
+  },
+  {
+    "slug": "20260722-18",
+    "headline": "ペプチド療法が腫瘍環境を標的・がん治療の新展開",
+    "lead": "University of Tennessee の研究が、酸性腫瘍環境に反応するペプチドを開発、精密がん治療に新しい道を開く。",
+    "body_markdown": "革新的なペプチド設計\n\nUniversity of Tennessee の Francisco N. Barrera 研究室は、腫瘍の酸性環境に反応してセルメンブレンに挿入されるペプチド・クラスを開発。これにより、腫瘍に直接的に医療薬物を送達できる新しい方法が実現した。\n\nメカニズム\n\nペプチドは pH 感応性で設計されている。健康な組織の pH レベルでは不活性だが、腫瘍周辺の低 pH 環境で自動的に活性化。この選択的活性化により、腫瘍細胞へのみダメージを集中させ、健康な細胞への害を最小化する。\n\n臨床的利点\n\n- **標的特異性**: 腫瘍にのみ機能する設計で、副作用軽減\n- **効率性**: 薬物運搬の成功率向上\n- **多様なガン適用**: 様々なガン種への応用可能性\n\n広範な製薬応用\n\nこの戦略は単一ペプチドに限定されず、複数の医療薬物・生物学的治療薬の運搬システムとして応用可能。ADC（抗体薬物複合体）リンカー・ペプチドとしての用途も検討されている。\n\n研究進展\n\nBarrera ラボは、このペプチド技術をさらに最適化し、臨床試験への道を模索中。がん治療の精密化・個別化医療への実現を目指している。",
+    "tags": [
+      "医学",
+      "ペプチド",
+      "がん治療",
+      "研究",
+      "生物医学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-peptide-strategy-aims-cancer-precise.html",
+    "importance": 3,
+    "image_query": "medical research laboratory",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:13.053Z",
+    "publishedAt": "2026-07-21T20:40:03.000Z"
+  },
+  {
+    "slug": "20260722-19",
+    "headline": "Airbus、折りたたみ翼で燃費 20～30% 削減目指す",
+    "lead": "Airbus が『Wing of Tomorrow』プログラムで次世代ステルス設計を試験、2026年末の実験機初飛行を予定。",
+    "body_markdown": "革新的な翼技術\n\nAirbus は『Wing of Tomorrow』プログラムの下で、長く・軽く・薄い翼を活用した次世代単通路航空機の開発を加速。最大の課題は、長い翼が既存空港の制約に合わないことだ。\n\n折りたたみ翼の意義\n\n翼の先端を折りたたむ設計により、飛行時には完全に展開して空気力学の効率を最大化。着陸時には翼端を格納することで、既存の空港ゲートや格納庫に対応可能にする。\n\n燃費削減目標\n\nAirbus は、当技術を含む複数の革新により、次世代航空機で**燃料消費を 20～30% 削減**することを目標に設定。個別の折りたたみ翼だけで 5～10% の効率改善を見込む。\n\nテスト計画\n\nAirbus UpNext が eXtra Performance WING（xPWING）デモンストレータを開発中。遠隔操作パイロットによる初飛行を 2026 年末までに実施予定。\n\n実装スケジュール\n\nA321neo 航空機に翼拡張機を装着してテスト。異なる翼形状のパフォーマンスをリアルフライト条件で評価。2030 年代の次世代航空機への統合が目標。\n\nエネルギー・環境への含意\n\n20～30% の燃料効率向上は、航空業界の脱炭素化に極めて重要。燃料コスト削減と排出量低下の両面でメリット。",
+    "tags": [
+      "航空",
+      "技術革新",
+      "燃費",
+      "環境",
+      "Airbus"
+    ],
+    "section": "テクノロジー",
+    "source": "Airbus",
+    "link": "https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-launches-new-flight-test-programme-for-wing-of-tomorrow",
+    "importance": 3,
+    "image_query": "aircraft wing airplane engineering",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-21T21:31:13.053Z",
+    "publishedAt": "2026-07-21T18:00:00.000Z"
+  },
+  {
     "slug": "20260721-11",
     "headline": "Anthropic著作権訴訟で2400億円和解成立",
     "lead": "AIモデル学習に使用された書籍著作権をめぐる米国での集団訴訟で、Anthropicが15億ドルの和解金支払いに応じた。",
