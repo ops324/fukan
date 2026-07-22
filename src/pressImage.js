@@ -11,7 +11,8 @@
 import { config } from './config.js';
 
 // link のホストが allowlist のドメイン（それ自身 or サブドメイン）に一致すれば、その credit を返す。
-function matchAllowed(link) {
+// recheckImageBrands 等、他ツールからも allowlist 照合を使えるよう export する（単一情報源）。
+export function pressAllowlistCredit(link) {
   let host;
   try { host = new URL(link).hostname.toLowerCase().replace(/^www\./, ''); } catch { return null; }
   for (const { domain, credit } of config.pressImage.allowlist || []) {
@@ -64,6 +65,24 @@ function safeAbsoluteUrl(raw, base) {
   return href;
 }
 
+// 指定 UA で出典ページを1回取得する。呼び出し側が 403 判定・リトライ判断できるよう
+// レスポンス（または例外時は null）をそのまま返す。
+async function tryFetch(link, userAgent, timeoutMs) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), timeoutMs);
+  try {
+    return await fetch(link, {
+      signal: ctrl.signal,
+      redirect: 'follow',
+      headers: { 'User-Agent': userAgent, Accept: 'text/html' },
+    });
+  } catch {
+    return null; // タイムアウト・ネットワーク断
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 // 記事に自動プレス画像を付けられるなら image レコードを、無理なら null を返す。
 // used: 使用済み画像キーの Set（渡されれば imageUrl を登録し他記事との重複回避に寄与する）。
 export async function fetchPressImage(article, used = null) {
@@ -72,21 +91,19 @@ export async function fetchPressImage(article, used = null) {
   if ((Number(article.importance) || 3) < (cfg.minImportance ?? config.imageImportanceFloor)) return null;
   const link = (article.link || '').trim();
   if (!link) return null;
-  const credit = matchAllowed(link);
+  const credit = pressAllowlistCredit(link);
   if (!credit) return null; // 非許可ドメイン → stock へフォールバック
 
-  const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(), cfg.timeoutMs || 8000);
+  const timeoutMs = cfg.timeoutMs || 8000;
   try {
-    const res = await fetch(link, {
-      signal: ctrl.signal,
-      redirect: 'follow',
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; FukanNewsBot/1.0; +https://fukan-news.vercel.app)',
-        Accept: 'text/html',
-      },
-    });
-    if (!res.ok) return null;
+    // 既定は正直な Bot UA（robots/ToS 配慮・レート制限されやすい）。
+    let res = await tryFetch(link, cfg.userAgent, timeoutMs);
+    // 一部の公式ドメインは Bot UA を一律 403 で拒否する（例: openai.com の Cloudflare）。
+    // その場合に限りブラウザ UA で1回だけ再試行する（全面採用ではなく 403 時のみの保険）。
+    if (res?.status === 403 && cfg.fallbackUserAgent) {
+      res = await tryFetch(link, cfg.fallbackUserAgent, timeoutMs);
+    }
+    if (!res || !res.ok) return null;
     const ct = res.headers.get('content-type') || '';
     if (!ct.includes('html')) return null;
     // og:image は <head> にあるので冒頭だけ読めば十分（巨大ページの全読込を避ける）。
@@ -104,8 +121,6 @@ export async function fetchPressImage(article, used = null) {
       source: 'og:image auto', // 内部メモ（表示はしない。手動登録と区別する印）
     };
   } catch {
-    return null; // タイムアウト・ネットワーク・パース失敗 → stock へフォールバック
-  } finally {
-    clearTimeout(timer);
+    return null; // パース失敗等 → stock へフォールバック
   }
 }

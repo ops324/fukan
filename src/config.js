@@ -96,6 +96,12 @@ export const config = {
     enabled: true,
     timeoutMs: 8000,     // 出典ページ取得のタイムアウト（超過はスキップして stock へ）
     minImportance: 4,    // これ未満の記事には付けない（imageImportanceFloor と揃える）
+    // 既定の Bot UA（正直な素性表明。robots/ToS 配慮・レート制限もされやすい）。
+    userAgent: 'Mozilla/5.0 (compatible; FukanNewsBot/1.0; +https://fukan-news.vercel.app)',
+    // 既定 UA が 403 を返したドメインに限り、この UA で1回だけ再試行する。
+    // 一部の公式ドメイン（例: openai.com）は Cloudflare 等が Bot UA を一律ブロックし、
+    // og:image が取得できず stock 写真に落ちてしまう事故があったための保険（403時のみ・全面採用ではない）。
+    fallbackUserAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
     // 各社が「自社について」発表する一次情報の公式ドメインのみ。credit は「提供: <credit>」表示。
     allowlist: [
       // 主要 AI ラボ（各社の公式ドメイン）
