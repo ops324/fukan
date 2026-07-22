@@ -2446,11 +2446,10 @@
     "importance": 4,
     "image_query": "business metrics analytics dashboard",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMG1ldHJpY3MlMjBhbmFseXRpY3MlMjBkYXNoYm9hcmR8ZW58MXwwfHx8MTc4NDM2NjM2NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "path digital",
-      "profileUrl": "https://unsplash.com/@pathdigital?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash",
-      "alt": "black and silver laptop computer"
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/2AALaD60DKuRkqenMyd9By/02ee9fe9a433a13f51bcb8cff7657d91/Frame-1.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/a-scorecard-for-the-ai-age/"
     },
     "mode": "full",
     "createdAt": "2026-07-18T09:19:25.495Z",
