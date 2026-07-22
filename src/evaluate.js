@@ -15,6 +15,7 @@ import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { loadArticles } from './store.js';
 import { config } from './config.js';
+import { pressAllowlistCredit } from './pressImage.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const QUALITY_DIR = path.join(ROOT, 'data', 'quality');
@@ -103,6 +104,26 @@ export async function appendEvaluation(rec) {
   await appendFile(EVAL_FILE, line + '\n', 'utf8');
 }
 
+// この run が評価した記事のうち、「公式プレス画像が付くはず（allowlist出典・importance十分）なのに
+// stock写真に落ちた」件数。fetchPressImage の silent failure（例: UAをドメインに拒否され続ける等）の
+// 再発を検知するためのセンチネル。既存記事全体ではなく evals（＝この run が触った記事）だけを対象にする
+// ことで、対応しないと決めたレガシーの積み残しに埋もれず「今回増えたかどうか」を可視化する。
+// importance 不足で press を試みてすらいない記事（image kind='fallback'）は誤検知になるため除外し、
+// 実際に stock（kind='photo'）に落ちたものだけを数える。
+function countPressAllowlistMisses(arts, evals) {
+  const bySlug = new Map(arts.map((a) => [a.slug, a]));
+  const minImportance = config.pressImage?.minImportance ?? config.imageImportanceFloor;
+  let misses = 0;
+  for (const e of evals) {
+    const a = bySlug.get(e.slug);
+    if (!a) continue;
+    if ((Number(a.importance) || 3) < minImportance) continue; // press 対象外
+    if (!pressAllowlistCredit(a.link || '')) continue; // 非許可ドメイン（press対象外）
+    if (imageKindOf(a.image) === 'photo') misses++; // press が付くはずが stock に落ちた
+  }
+  return misses;
+}
+
 // --- 実行ごとのサイト集計 ---
 export async function writeRunSummary(arts, evals = []) {
   await ensureDir();
@@ -125,6 +146,8 @@ export async function writeRunSummary(arts, evals = []) {
     importanceDistribution,
     imageHitRate: arts.length ? Number(((photo + press) / arts.length).toFixed(3)) : 0,
     imageBreakdown: { photo, press, fallback },
+    // この run で評価した記事に限った「公式出典なのにstock」件数（累積ではない。回帰検知用センチネル）。
+    pressAllowlistMiss: countPressAllowlistMisses(arts, evals),
     avgFlagsPerEvaluated: evals.length ? Number((totalFlags / evals.length).toFixed(2)) : 0,
   };
   // 1実行1行で追記（ファイル乱立を避け、時系列分析しやすくする）。
@@ -221,6 +244,9 @@ if (isMain) {
     const flagged = evals.filter((e) => e.flags.length);
     console.log(`✓ 客観評価: 直近 ${evals.length} 件を採点し ledger に追記（計 ${arts.length} 記事）`);
     console.log(`  画像ヒット率 ${(summary.imageHitRate * 100).toFixed(0)}% / 平均フラグ ${summary.avgFlagsPerEvaluated} 件`);
+    if (summary.pressAllowlistMiss > 0) {
+      console.log(`  ⚠ 公式出典なのにstock画像に落ちた記事（今回評価分）: ${summary.pressAllowlistMiss} 件`);
+    }
     console.log(`  セクション分布: ${JSON.stringify(summary.sectionDistribution)}`);
     if (flagged.length) {
       console.log(`  ⚠ フラグのある記事 ${flagged.length} 件:`);
