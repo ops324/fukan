@@ -37,6 +37,8 @@ data/_image_review_targets.json
 data/_image_review.json
 data/scheduler.log
 data/.health
+# 評価 ledger の退避アーカイブ（有界化で溢れた古い行。履歴はローカル保持・git には載せない）
+data/quality/*.archive.jsonl
 data/.harness.lock/
 
 # Claude Code ローカル状態

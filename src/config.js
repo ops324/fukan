@@ -304,6 +304,17 @@ export const config = {
     recentWindow: 30,  // 重複話題チェックで参照する直近記事数
   },
 
+  // --- 評価 ledger の上限（無制限追記による肥大の抑制）---
+  // append-only の jsonl（evaluations/runs）は毎ラン成長し auto-commit に載る。長期で数十MBに達するため、
+  // アクティブファイルを直近 maxLines 行に有界化し、溢れた古い行は gitignore 済みの .archive.jsonl へ退避する。
+  // 有界化は毎回ではなく「maxLines + margin を超えたとき」だけ実行（間は純追記＝git 差分を小さく保つ）。
+  // qualityDigest 等は直近行しか使わないため、退避で機能は損なわれない（履歴はローカルの archive に残る）。
+  ledger: {
+    evalMaxLines: 4000,  // evaluations.jsonl の保持行数（≈24行/日 → 約5ヶ月分）
+    runsMaxLines: 2000,  // runs.jsonl の保持行数（≈2行/日 → 約2.7年分）
+    margin: 500,         // これだけ超えてから有界化を実行（有界化の頻度＝git churn を抑える）
+  },
+
   // --- 執筆モデル（writerModel）---
   // 記事はRSSの要約＋中立論評（翻訳・要約タスク）なので安価な Haiku で量産する（約30本/日）。
   // auto-generate.sh の writer 起動が --model でこれを使う。

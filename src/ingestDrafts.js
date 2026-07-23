@@ -126,16 +126,18 @@ if (!created.length) {
 
   // --- Phase 4: LLM 画像一致チェックのターゲット抽出（境界スコアのみ・任意）---
   // 決定論スコアが band 内＝「機械的には判断が付きにくい」新規 stock 画像だけを LLM 査読に回す。
-  // 保存画像は alt のみ（description 破棄済み）なので alt で採点＝recheck と同基準。press/抽象サムネは対象外。
+  // 採点・査読の材料は alt＋description（description も保存するようになった）。press/抽象サムネは対象外。
   const lr = config.imageRelevance.llmReview;
   if (lr?.enabled) {
     const [lo, hi] = lr.band;
     const targets = [];
     for (const a of created) {
       if (!a.image?.imageUrl || a.image.kind === 'press') continue;
-      const score = relevanceScore({ alt: a.image.alt, description: '' }, articleImageTokens(a));
+      const alt = a.image.alt || '';
+      const description = a.image.description || '';
+      const score = relevanceScore({ alt, description }, articleImageTokens(a));
       if (score >= lo && score < hi) {
-        targets.push({ slug: a.slug, headline: a.headline, lead: a.lead, alt: a.image.alt || '', score });
+        targets.push({ slug: a.slug, headline: a.headline, lead: a.lead, alt, description, score });
       }
     }
     if (targets.length) {

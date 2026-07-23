@@ -199,7 +199,11 @@ export async function fetchImage(article, index = 0, used = new Set(), { strict 
     if (pick._download) { // Unsplash 規約: ダウンロードトリガー（ベストエフォート）
       fetch(pick._download, { headers: { Authorization: `Client-ID ${config.unsplashKey}` } }).catch(() => {});
     }
+    // _download は内部用なので剥がす。description は写真の内容説明で、後日の関連度再点検（recheck）や
+    // LLM 査読の判定材料になる（Unsplash の alt_description は null が多く alt だけでは約4割が採点不能なため、
+    // description を残すと遡及点検のカバレッジが上がる）。空なら保存しない（レコード肥大を避ける）。
     const { _download, description, ...img } = pick;
+    if (description) img.description = description;
     return img;
   };
   let weakBest = null; // どのクエリも minScore に届かなかったとき用の最良候補（実写を抽象サムネより優先）

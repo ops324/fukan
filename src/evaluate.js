@@ -10,7 +10,7 @@
 //          `node src/evaluate.js --link-check`  出典リンク死活（非ゲート・参考）
 //
 // 重要: しきい値（config.qualityThresholds）は「床/ガードレール」であって最大化目標ではない。
-import { appendFile, mkdir, readFile } from 'node:fs/promises';
+import { appendFile, mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { loadArticles } from './store.js';
@@ -96,12 +96,30 @@ export function evaluateArticle(a, recent = []) {
   };
 }
 
-// --- ledger 追記 ---
+// --- ledger 追記（有界化つき）---
+// 純追記だと jsonl が無制限成長し auto-commit に載り続けるため、maxLines+margin を超えたら
+// 直近 maxLines 行に切り詰め、溢れた古い行は gitignore 済みの <file>.archive.jsonl へ退避する。
+// 追記は毎回・有界化は margin ごと（間は純追記＝git 差分は末尾1行のみで小さい）。
+async function appendBounded(file, line, maxLines) {
+  await appendFile(file, line + '\n', 'utf8');
+  const margin = config.ledger?.margin ?? 500;
+  if (!maxLines || maxLines <= 0) return;
+  let content;
+  try { content = await readFile(file, 'utf8'); } catch { return; }
+  const lines = content.split('\n').filter(Boolean);
+  if (lines.length <= maxLines + margin) return; // まだ余裕あり → 純追記のまま
+  const keep = lines.slice(-maxLines);
+  const dropped = lines.slice(0, -maxLines);
+  // 履歴はローカルの archive に退避（gitignore 済み＝git は肥大しない）。
+  await appendFile(`${file}.archive.jsonl`, dropped.join('\n') + '\n', 'utf8');
+  await writeFile(file, keep.join('\n') + '\n', 'utf8');
+}
+
 // rec は evaluateArticle の戻り値に source 等を足したもの。judge 結果(scores/critique)も合流可。
 export async function appendEvaluation(rec) {
   await ensureDir();
   const line = JSON.stringify({ evaluatedAt: new Date().toISOString(), source: 'objective', ...rec });
-  await appendFile(EVAL_FILE, line + '\n', 'utf8');
+  await appendBounded(EVAL_FILE, line, config.ledger?.evalMaxLines ?? 4000);
 }
 
 // この run が評価した記事のうち、「公式プレス画像が付くはず（allowlist出典・importance十分）なのに
@@ -150,8 +168,8 @@ export async function writeRunSummary(arts, evals = []) {
     pressAllowlistMiss: countPressAllowlistMisses(arts, evals),
     avgFlagsPerEvaluated: evals.length ? Number((totalFlags / evals.length).toFixed(2)) : 0,
   };
-  // 1実行1行で追記（ファイル乱立を避け、時系列分析しやすくする）。
-  await appendFile(RUNS_FILE, JSON.stringify(summary) + '\n', 'utf8');
+  // 1実行1行で追記（ファイル乱立を避け、時系列分析しやすくする）。有界化つき。
+  await appendBounded(RUNS_FILE, JSON.stringify(summary), config.ledger?.runsMaxLines ?? 2000);
   return summary;
 }
 

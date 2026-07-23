@@ -9,9 +9,9 @@
 機械スコアはこの2つを区別できないため、あなたの意味的判断で仕分ける。
 
 ## 入力
-- `data/_image_review_targets.json` … 判定対象の配列。各要素 `{ slug, headline, lead, alt, score }`。
-  - `alt` はストック写真の英語説明文（写真に実際に写っているものの説明）。
-  - **画像そのものは見られない**。`alt` が写真の内容を表す唯一の手がかり。
+- `data/_image_review_targets.json` … 判定対象の配列。各要素 `{ slug, headline, lead, alt, description, score }`。
+  - `alt`／`description` はストック写真の英語説明文（写真に実際に写っているものの説明）。`description` は空のこともある。
+  - **画像そのものは見られない**。`alt`＋`description` が写真の内容を表す唯一の手がかり。両方空なら判断材料が無いので keep。
 
 まず `data/_image_review_targets.json` を読む。**存在しない/空配列なら、`data/_image_review.json` に `[]` を書いて終了**する。
 
