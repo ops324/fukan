@@ -32,20 +32,21 @@ for (const a of arts) { const k = imageKey(a.image); if (k) used.add(k); }
 // alt 空の画像は採点材料が無く score=0 になるが、これは「ミスマッチ」ではなく「メタデータ欠落」。
 // 内容の妥当性を判定できないため mismatch には数えず、別枠でカウントだけする（誤って一括差し替えしない）。
 const bad = [];
-let noAlt = 0;
+let noText = 0;
 for (const a of arts) {
   if (!a.image?.imageUrl || a.image.kind === 'press') continue;
-  if (!a.image.alt || !a.image.alt.trim()) { noAlt++; continue; } // alt 欠落は判定不能
-  const tokens = articleImageTokens(a);
-  // 保存画像に description は無いので alt のみで採点（近似）。
-  const score = relevanceScore({ alt: a.image.alt, description: '' }, tokens);
+  // 採点材料は alt＋description（新しい記事は description も保存。レガシーは alt のみ or どちらも無し）。
+  const alt = (a.image.alt || '').trim();
+  const description = (a.image.description || '').trim();
+  if (!alt && !description) { noText++; continue; } // 説明文が全く無い＝判定不能（メタデータ欠落）
+  const score = relevanceScore({ alt, description }, articleImageTokens(a));
   if (score < threshold) bad.push({ a, score });
 }
 
 // 新しい記事から直す（トップ/セクションに出ている＝読者の目に触れる写真を先に直す）。
 bad.sort((x, y) => new Date(y.a.publishedAt || y.a.createdAt) - new Date(x.a.publishedAt || x.a.createdAt));
 
-console.log(`全 ${arts.length} 記事を点検 → 関連度 ${threshold} 未満（alt有り）${bad.length} 件 / alt欠落で判定不能 ${noAlt} 件${apply ? `（最大 ${limit} 件を差し替え）` : '（dry-run）'}\n`);
+console.log(`全 ${arts.length} 記事を点検 → 関連度 ${threshold} 未満 ${bad.length} 件 / 説明文なしで判定不能 ${noText} 件${apply ? `（最大 ${limit} 件を差し替え）` : '（dry-run）'}\n`);
 for (const { a, score } of bad) {
   console.log(`  ✗ ${a.headline}`);
   console.log(`      score=${score} query="${a.image_query || '-'}" alt="${a.image.alt || '(alt無し)'}"`);
