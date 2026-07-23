@@ -8,6 +8,7 @@ PROJECT_DIR="/Users/takimototetsuya/AIニュースサイト"
 CLAUDE_BIN="/Users/takimototetsuya/.local/bin/claude"
 PROMPT_FILE="$PROJECT_DIR/prompts/generate-articles.md"
 REVIEW_PROMPT_FILE="$PROJECT_DIR/prompts/review-drafts.md"
+IMAGE_REVIEW_PROMPT_FILE="$PROJECT_DIR/prompts/review-images.md"
 
 cd "$PROJECT_DIR" || exit 1
 
@@ -80,7 +81,8 @@ trap 'rm -rf "$LOCK_DIR"' EXIT
 BEFORE_COUNT="$(count_articles)"
 
 # 前回ジョブの残骸を掃除（古い下書き/査読を今回の成功と誤認しないため）。
-rm -f "$PROJECT_DIR/data/_drafts.json" "$PROJECT_DIR/data/_review.json"
+rm -f "$PROJECT_DIR/data/_drafts.json" "$PROJECT_DIR/data/_review.json" \
+      "$PROJECT_DIR/data/_image_review_targets.json" "$PROJECT_DIR/data/_image_review.json"
 
 # 下書き/候補の件数を返すヘルパー（読めなければ 0）。
 drafts_count() {
@@ -158,6 +160,24 @@ if [[ "$HAS_DRAFTS" == "1" ]]; then
     echo "ERROR: ingestDrafts が失敗 (exit=$irc)"
     notify "取り込みに失敗しました (exit=$irc)。ログを確認してください。"
     rc=$irc
+  fi
+
+  # --- 画像一致 LLM 査読（任意・境界スコアのみ）---
+  # ingest が境界スコアの新規画像を _image_review_targets.json に書いたときだけ走る
+  # （config.imageRelevance.llmReview.enabled=false ならターゲットが無い＝このブロックは丸ごとスキップ）。
+  # judge と同じ規律: 失敗しても日次ジョブは止めない。結果は applyImageReview.js が適用・掃除する。
+  if [[ -f "$PROJECT_DIR/data/_image_review_targets.json" ]]; then
+    echo "境界スコアの画像あり → 別モデル($JUDGE_MODEL)で画像一致を査読（alt照合, tools制限/MCP無効）"
+    "$CLAUDE_BIN" --model "$JUDGE_MODEL" --dangerously-skip-permissions \
+      --tools "Read Write" --strict-mcp-config -p "$(cat "$IMAGE_REVIEW_PROMPT_FILE")"
+    ircv=$?
+    if [[ "$ircv" -ne 0 || ! -f "$PROJECT_DIR/data/_image_review.json" ]]; then
+      echo "WARN: 画像査読が完了しませんでした (exit=$ircv)。画像はそのまま公開します。"
+      printf '{"ts":"%s","type":"image_review_absent","exit":%s}\n' "$(date -u +%FT%TZ)" "$ircv" \
+        >> "$PROJECT_DIR/data/quality/incidents.jsonl"
+    fi
+    # 査読結果があれば swap を適用、無ければ残骸を掃除するだけ（どちらも公開は止めない）。
+    "$NODE_BIN" src/applyImageReview.js || echo "WARN: applyImageReview が非0終了。画像はそのまま公開します。"
   fi
 else
   echo "下書きなし（査読・取り込みはスキップ）"

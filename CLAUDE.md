@@ -63,6 +63,7 @@
 | `npm run backfill-images` | 画像の補完／重複解消（画像系を触ったとき） |
 | `npm run refresh-brand-photos` | ブランド写真の索引（`data/brand-photos.json`）を更新。他社ロゴ/UI の写り込み判定に使う。マージ方式＝レート制限に当たっても再実行で続きから育つ。月1回程度 |
 | `npm run recheck-images` | 既存記事のサムネをブランド不一致で点検（dry-run・API不要）。`-- --apply` で差し替え＋再生成、`-- --limit N` で件数を絞る |
+| `npm run recheck-image-relevance` | 既存記事のサムネを記事内容との関連度で点検（dry-run・API不要）。alt有りの低関連度を洗い出す（alt欠落は別枠集計）。`-- --apply` で差し替え |
 | `npm run set-press-image` | 公式プレス画像を手動登録（クレジット必須・自動上書き保護。SPEC §6.1） |
 | `npm run serve` | `npm run build` 実行後、`dist/` を http://localhost:8000 で配信してローカル確認 |
 
