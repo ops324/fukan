@@ -15,6 +15,7 @@
     "quality-digest": "node src/qualityDigest.js",
     "backfill-images": "node src/backfill-images.js",
     "recheck-images": "node src/recheckImageBrands.js",
+    "recheck-image-relevance": "node src/recheckImageRelevance.js",
     "refresh-brand-photos": "node src/refreshBrandPhotos.js",
     "set-press-image": "node src/set-press-image.js",
     "serve": "npm run build && python3 -m http.server 8000 --directory dist"

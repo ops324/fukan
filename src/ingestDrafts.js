@@ -1,13 +1,13 @@
 // ヘッドレスClaude執筆フロー用: Claude が書いた data/_drafts.json を取り込み、
 // slug採番・画像取得・重複排除・保存・サイト再生成までを決定的に行う。
 // drafts の各要素: { headline, lead, body_markdown, tags[], section, source, link }
-import { readFile, unlink } from 'node:fs/promises';
+import { readFile, unlink, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { config } from './config.js';
 import { loadArticles, saveArticles, makeSlug, yyyymmdd, existingLinks, normalizeSectionTags } from './store.js';
-import { fetchImage, imageKey } from './fetchImage.js';
+import { fetchImage, imageKey, articleImageTokens, relevanceScore } from './fetchImage.js';
 import { fetchPressImage } from './pressImage.js';
 import { renderSite } from './render.js';
 import { evaluateArticle, appendEvaluation, writeRunSummary } from './evaluate.js';
@@ -15,6 +15,9 @@ import { evaluateArticle, appendEvaluation, writeRunSummary } from './evaluate.j
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const draftsPath = path.join(ROOT, 'data', '_drafts.json');
 const reviewPath = path.join(ROOT, 'data', '_review.json');
+// Phase 4: LLM 画像一致チェックのターゲット（境界スコアの新規 stock 画像）。gitignore 済み。
+// 後続の auto-generate.sh 画像査読ステップ→applyImageReview.js が消費・削除する。
+const imageTargetsPath = path.join(ROOT, 'data', '_image_review_targets.json');
 
 let drafts;
 try {
@@ -120,9 +123,32 @@ if (!created.length) {
   } catch (err) {
     console.error(`  WARN: 評価の記録に失敗しました（公開は完了済み）: ${err.message}`);
   }
+
+  // --- Phase 4: LLM 画像一致チェックのターゲット抽出（境界スコアのみ・任意）---
+  // 決定論スコアが band 内＝「機械的には判断が付きにくい」新規 stock 画像だけを LLM 査読に回す。
+  // 保存画像は alt のみ（description 破棄済み）なので alt で採点＝recheck と同基準。press/抽象サムネは対象外。
+  const lr = config.imageRelevance.llmReview;
+  if (lr?.enabled) {
+    const [lo, hi] = lr.band;
+    const targets = [];
+    for (const a of created) {
+      if (!a.image?.imageUrl || a.image.kind === 'press') continue;
+      const score = relevanceScore({ alt: a.image.alt, description: '' }, articleImageTokens(a));
+      if (score >= lo && score < hi) {
+        targets.push({ slug: a.slug, headline: a.headline, lead: a.lead, alt: a.image.alt || '', score });
+      }
+    }
+    if (targets.length) {
+      await writeFile(imageTargetsPath, JSON.stringify(targets, null, 2));
+      console.log(`  [image-llm] 境界スコアの画像 ${targets.length} 件を査読対象に書き出し。`);
+    }
+  }
 }
 
-// 一時ファイルを掃除（judge の _review.json も含む）
+// 一時ファイルを掃除（judge の _review.json も含む）。
+// 注: _image_review_targets はこの ingest が書いた「後続 LLM 査読への入力」なので、ここでは消さない
+// （消すと auto-generate.sh の画像査読ステップが読めない）。消費側の applyImageReview.js と、
+// auto-generate.sh 開始時の掃除に委ねる。_image_review（査読結果）も同様に applyImageReview が消す。
 for (const f of [draftsPath, reviewPath, path.join(ROOT, 'data', '_candidates.json')]) {
   try { await unlink(f); } catch { /* noop */ }
 }

@@ -32,6 +32,9 @@ dist/
 data/_candidates.json
 data/_drafts.json
 data/_review.json
+# Phase 4 画像一致 LLM 査読の一時ファイル（ingest→査読→applyImageReview が消費。VCS に残さない）
+data/_image_review_targets.json
+data/_image_review.json
 data/scheduler.log
 data/.health
 data/.harness.lock/

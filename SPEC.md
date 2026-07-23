@@ -92,10 +92,12 @@ AIニュースサイト/
 │   ├── fetchCandidates.js  # 候補を JSON 出力
 │   ├── fetchNews.js        # RSS/補助API 取得・重複排除・一次情報優先
 │   ├── ingestDrafts.js     # 下書き取込（採番・画像・保存・再生成）
-│   ├── fetchImage.js       # Unsplash/Pexels 画像（無ければ画像なし）
+│   ├── fetchImage.js       # Unsplash/Pexels 画像＋関連度スコアリング（無ければ画像なし）
 │   ├── imageBrands.js      # 記事とサムネのブランド不一致判定（他社ロゴ/UI の写り込みを弾く）
 │   ├── refreshBrandPhotos.js # ブランド写真の索引を生成（data/brand-photos.json・マージ方式）
 │   ├── recheckImageBrands.js # 既存記事のサムネをブランド不一致で点検・差し替え
+│   ├── recheckImageRelevance.js # 既存記事のサムネを記事との関連度で点検・差し替え
+│   ├── applyImageReview.js # 画像一致 LLM 査読（§6.3）の keep/swap 結果を適用
 │   ├── backfill-images.js  # 既存記事に実写真を一括付与（press画像は上書きしない）
 │   ├── pressImage.js       # 公式ドメインの og:image を取り込み時に自動採用（報道用素材・allowlist厳格）
 │   ├── set-press-image.js  # 公式プレス画像を特定記事へ手動登録（クレジット必須・上書き保護）
@@ -116,7 +118,7 @@ AIニュースサイト/
 ├── CLAUDE.md               # 開発ルール（毎回自動読込・コード品質/Git/検証）
 ├── README.md               # デザイン・概要
 ├── SPEC.md                 # 本書（技術仕様・運用）
-├── package.json            # スクリプト（candidates / render / check / backfill-images / recheck-images / refresh-brand-photos / set-press-image / serve）
+├── package.json            # スクリプト（candidates / render / check / backfill-images / recheck-images / recheck-image-relevance / refresh-brand-photos / set-press-image / serve）
 ├── .env.example            # 環境変数の雛形（すべて任意）
 └── _backup/                # 退避（旧HTML・廃止した qwen フォールバック）
 ```
@@ -192,8 +194,10 @@ AIニュースサイト/
    - **①記事ごとの `image_query`**（最優先）— Claude が決めた英語ワード（**2〜3語**）。内容を視覚的に表す具体的な被写体。
      記事レコードにも保存（将来の再取得でも内容準拠を維持）。
    - **②語を減らした版** — `image_query` が4語以上なら先頭3語・先頭2語に短縮（例: `dna genetic research laboratory`→0件 なら `dna genetic research`→`dna genetic`）。
-   - **③簡易語彙マップ** — `tags`／見出しから推定（例: 診断→`medical technology`）。
-   - **④既定** `artificial intelligence technology`。
+   - **③簡易語彙マップ** — `tags`／見出しから推定（例: 診断→`medical healthcare hospital`）。総合ニュース各分野
+     （政治／国際／環境／エンタメ／経済等）のパターンを含む（`KW_MAP`）。
+   - **④既定** — 記事の `section` に応じた中立語（`SECTION_DEFAULT`。例 政治→`government building parliament`、
+     国際→`world map globe`）。未定義セクションは `artificial intelligence technology` にフォールバック。
 2. **取得（候補30件）** — 各語につき `imageProvider`（既定 Unsplash、無ければ Pexels）で landscape 写真を**最大30件**検索。
 2.5. **ブランド不一致の排除（`src/imageBrands.js`）** — 記事が扱っていないブランドが写った候補を捨てる。
    `artificial intelligence` 等の一般語には他社のロゴ/UI が写った写真が多数混ざるため、素通しすると
@@ -207,9 +211,18 @@ AIニュースサイト/
      **索引が無くても①だけで動く**（縮退運転。選定は止めない）。
    記事がブランドに触れていなければ、ブランド写真は**一律に避ける**。全候補が落ちたら次の（より広い）語へ、
    最後まで残らなければ抽象サムネ＝**誤った写真より安全**という優先順位。
+2.7. **関連度スコアリング（`config.imageRelevance`・API 追加コストなし）** — ブランド排除後の候補を、
+   写真の `alt`+`description` と記事キーワードの重なりで採点し、**最も内容が合う写真を選ぶ**（従来は先頭採用）。
+   記事側トークンは重み付き（`image_query` 最強 ＞ `KW_MAP` 由来 ＞ `tags`/見出しの英字。汎用語は除外せず低重み化）。
+   `enabled=false` で従来の先頭採用に即戻せる安全弁。**このスコアリングは正の一致判定**で、2.5 の負の除外（ブランド不一致）を補完する。
+   - **重複回避との両立** — 最高スコア±`tolerance` を「同等」とみなし、その帯内で未使用を優先。帯内に未使用が無ければ
+     **全候補から未使用を探す**（従来の重複回避の強度を維持）。
+   - **弱一致の扱い** — どのクエリも `minScore` 未満なら「弱一致」を退避して次の広い語へ。全滅時は `acceptWeak` なら
+     退避した最良候補を採用（抽象サムネより実写を優先）。既定 `minScore:0` はクエリ拡張挙動・抽象サムネ落ち率を現行のまま保つ。
+   - **限界** — トークン一致のため「語は重なるがトピック違い」の写真を拾う余地がある。そこは 6.3 の LLM 査読が補う。
 3. **重複回避** — 候補の中から**他記事で未使用の写真を選ぶ**。判定は `imageKey()`（URL から写真固有IDを抽出）。
    使用済みキーの `Set` を生成・バックフィル全体で共有し、既存記事とも突き合わせる。
-   全件使用済みのときのみ index ベースで分散（最終手段は重複許容）。
+   全件使用済みのときのみ index ベースで分散（最終手段は重複許容）。スコアリング有効時は 2.7 の帯内で効かせる。
 4. **帰属** — 取得できたら `{ imageUrl, photographer, profileUrl, provider, alt }` を記録し、
    **撮影者名＋プロフィールリンクを必ず表示**（Unsplash 規約準拠）。Unsplash はダウンロードトリガーを叩く（規約準拠）。
 5. **フォールバック** — **全キーワード候補が0ヒット**、またはキー未設定・APIエラー時のみ `{ fallbackThumb: "thumb--blue" 等 }` を返し、
@@ -227,6 +240,21 @@ AIニュースサイト/
 既定は dry-run。`--apply` で差し替え＋再生成、`--limit N` で1回の差し替え件数を絞る（レート制限対策）。
 新しい記事から順に直す（読者の目に触れている写真を先に直す）。公式プレス画像（`kind:'press'`）は
 報道対象そのものの写真なので対象外。
+
+**既存記事の関連度点検（`npm run recheck-image-relevance`）** — 保存画像の `alt` と記事キーワードの関連度を
+採点し、`config.imageRelevance.recheckMinScore`（既定1・取り込み時 `minScore` とは別）未満を洗い出す（API 不要）。
+既定 dry-run／`--apply` で差し替え。**制約**: 保存画像は `alt` のみ（`description` は保存前に破棄）ため遡及スコアは
+近似。かつ古い記事は `alt` 自体が未保存のものが多く、その場合はスコア0でも「メタデータ欠落」であり
+**ミスマッチとは別枠**として集計する（証拠のない一括差し替えをしない）。実務上のミスマッチ抽出は 6.3 の LLM 査読が有効。
+
+### 6.3 画像一致の LLM 査読（任意・境界ケースのみ・既定 OFF）
+決定論スコア（2.7）で判断が付きにくい境界ケースだけを、別モデル judge の意味理解で keep/swap 裁定する層。
+`config.imageRelevance.llmReview.enabled`（既定 `false`）で切替。判定は写真の `alt` × 記事 `headline`/`lead`（**テキストのみ**・
+Vision 不使用）で、翡翠眼方式（API キー不使用・CLI サブスク内）。フロー:
+1. `ingestDrafts.js` が画像付与後、スコアが `llmReview.band`（境界帯）の**新規 stock 画像**を `data/_image_review_targets.json` に書く（該当ゼロなら書かない＝以降スキップ）。
+2. `auto-generate.sh` が ingest 後、ターゲットがあるときだけ judge モデルで `prompts/review-images.md` を実行し `data/_image_review.json` に `{slug, verdict, reason}` を出力。
+3. `src/applyImageReview.js` が `swap` の記事だけ画像を再取得・再生成し、一時ファイルを掃除。
+**judge と同じ規律で失敗しても公開は止めない**（不在は `incidents.jsonl` に記録）。一時ファイルは gitignore 済み＝自動コミットに載らない（配信モデル不変）。
 
 **画像を付ける対象**（取得・ページ重量の節約。`imageImportanceFloor`＝既定4）
 - 約50本/日で全件に画像を用意するのは過剰なため、**重要度 importance>=4 の記事だけ**画像を取得・付与する（`ingestDrafts.js`）。

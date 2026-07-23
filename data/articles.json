@@ -89,11 +89,11 @@
     "importance": 4,
     "image_query": "AI neural network model",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1674027444484-cf52149ea050?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxBSSUyMG5ldXJhbCUyMG5ldHdvcmslMjBtb2RlbHxlbnwxfDB8fHwxNzg0NjY5NDY5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Growtika",
-      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "imageUrl": "https://images.unsplash.com/photo-1678845536613-5cf0ec5245cd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMHx8QUklMjBuZXVyYWwlMjBuZXR3b3JrJTIwbW9kZWx8ZW58MXwwfHx8MTc4NDc3MjI0Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "BoliviaInteligente",
+      "profileUrl": "https://unsplash.com/@boliviainteligente?utm_source=axiom_ai&utm_medium=referral",
       "provider": "Unsplash",
-      "alt": "a computer generated image of a ball of string"
+      "alt": "an abstract image of a network of dots"
     },
     "mode": "full",
     "createdAt": "2026-07-21T21:31:09.485Z",
@@ -273,11 +273,11 @@
     "importance": 5,
     "image_query": "movie theater cinema",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1608170825938-a8ea0305d46c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtb3ZpZSUyMHRoZWF0ZXIlMjBjaW5lbWF8ZW58MXwwfHx8MTc4NDY2OTQ3Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Felipe Bustillo",
-      "profileUrl": "https://unsplash.com/@pipe_fx?utm_source=axiom_ai&utm_medium=referral",
+      "imageUrl": "https://images.unsplash.com/photo-1753944847480-92f369a5f00e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMnx8bW92aWUlMjB0aGVhdGVyJTIwY2luZW1hfGVufDF8MHx8fDE3ODQ2Njk0NzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Gabriela",
+      "profileUrl": "https://unsplash.com/@gabigi?utm_source=axiom_ai&utm_medium=referral",
       "provider": "Unsplash",
-      "alt": "2 women sitting on blue leather chair holding white and red plastic cups"
+      "alt": "A person looks at movie posters."
     },
     "mode": "full",
     "createdAt": "2026-07-21T21:31:13.051Z",
@@ -685,11 +685,11 @@
     "importance": 4,
     "image_query": "artificial intelligence safety research",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1674027444636-ce7379d51252?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHNhZmV0eSUyMHJlc2VhcmNofGVufDF8MHx8fDE3ODQ2MjU4MzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Growtika",
-      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "imageUrl": "https://images.unsplash.com/photo-1718241905439-3562f088758d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyM3x8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHNhZmV0eSUyMHJlc2VhcmNofGVufDF8MHx8fDE3ODQ2MjU4MzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "BoliviaInteligente",
+      "profileUrl": "https://unsplash.com/@boliviainteligente?utm_source=axiom_ai&utm_medium=referral",
       "provider": "Unsplash",
-      "alt": "a computer generated image of a circular object"
+      "alt": "a computer keyboard with a blue light on it"
     },
     "mode": "full",
     "createdAt": "2026-07-21T09:23:52.726Z",
@@ -737,11 +737,7 @@
     "importance": 4,
     "image_query": "government surveillance human rights",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1629753908080-e8551ac57b8d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxnb3Zlcm5tZW50JTIwc3VydmVpbGxhbmNlJTIwaHVtYW4lMjByaWdodHN8ZW58MXwwfHx8MTc4NDYyNTgzNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Markus Spiske",
-      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash",
-      "alt": "black and white labeled bottle"
+      "fallbackThumb": "thumb--violet"
     },
     "mode": "full",
     "createdAt": "2026-07-21T09:23:54.763Z",
@@ -1720,11 +1716,11 @@
     "importance": 4,
     "image_query": "dinosaur asteroid impact crater",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1583307359900-dbefeb18e3cc?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkaW5vc2F1ciUyMGFzdGVyb2lkJTIwaW1wYWN0fGVufDF8MHx8fDE3ODQ0NTI1ODZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Leo_Visions",
-      "profileUrl": "https://unsplash.com/@leo_visions_?utm_source=axiom_ai&utm_medium=referral",
+      "imageUrl": "https://images.unsplash.com/photo-1609398240709-f20c8f2d0a51?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxkaW5vc2F1ciUyMGFzdGVyb2lkJTIwaW1wYWN0fGVufDF8MHx8fDE3ODQ3NzIyNDh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "engin akyurt",
+      "profileUrl": "https://unsplash.com/@enginakyurt?utm_source=axiom_ai&utm_medium=referral",
       "provider": "Unsplash",
-      "alt": "brown horse running on brown field during daytime"
+      "alt": "brown dinosaur on brown sand"
     },
     "mode": "full",
     "createdAt": "2026-07-19T09:16:27.087Z",
@@ -2082,11 +2078,11 @@
     "importance": 4,
     "image_query": "west bank palestinian",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1620844622406-94544b8640af?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx3ZXN0JTIwYmFuayUyMHBhbGVzdGluaWFufGVufDF8MHx8fDE3ODQ0MDk3MzZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Levi Meir Clancy",
-      "profileUrl": "https://unsplash.com/@levimeirclancy?utm_source=axiom_ai&utm_medium=referral",
+      "imageUrl": "https://images.unsplash.com/photo-1610878292988-22cbf13b4a6f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHx3ZXN0JTIwYmFuayUyMHBhbGVzdGluaWFufGVufDF8MHx8fDE3ODQ3NzIyNDh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "David McLenachan",
+      "profileUrl": "https://unsplash.com/@dmclenachan?utm_source=axiom_ai&utm_medium=referral",
       "provider": "Unsplash",
-      "alt": "green palm trees on brown sand under blue sky during daytime"
+      "alt": "green tree on brown sand during daytime"
     },
     "mode": "full",
     "createdAt": "2026-07-18T21:22:16.308Z",
@@ -2499,11 +2495,11 @@
     "importance": 4,
     "image_query": "data center cloud computing",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1667372283587-e1557c08aca4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxkYXRhJTIwY2VudGVyJTIwY2xvdWQlMjBjb21wdXRpbmd8ZW58MXwwfHx8MTc4NDM2NjM2Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1667372283587-e1557c08aca4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxkYXRhJTIwY2VudGVyJTIwY2xvdWQlMjBjb21wdXRpbmd8ZW58MXwwfHx8MTc4NDc3MjI0OXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
       "photographer": "Growtika",
       "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
       "provider": "Unsplash",
-      "alt": "icon"
+      "alt": "data center servers"
     },
     "mode": "full",
     "createdAt": "2026-07-18T09:19:26.966Z",

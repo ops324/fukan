@@ -83,6 +83,28 @@ export const config = {
   unsplashKey: process.env.UNSPLASH_KEY || '',
   pexelsKey: process.env.PEXELS_KEY || '',
 
+  // --- 記事と写真の関連度スコアリング（決定論・API 追加コストなし）---
+  // 背景: 従来の選定は「ブランド非衝突かつ未使用の候補を先頭から採用」だけで、写真が記事内容に
+  // 合うかの正の判定が無かった。取得済みの写真説明文（alt/description）を記事キーワードと照合し、
+  // 最も内容が合う候補を選ぶ。数値・語彙はここに集約（トークン化ロジックは fetchImage.js）。
+  imageRelevance: {
+    enabled: true,       // false で従来の「先頭採用」に即戻す安全弁
+    minScore: 0,         // 取り込み時: これ未満のクエリ候補は「弱一致」として退避し次の広いクエリへ（0=常に採用＝クエリ拡張挙動は現行不変）
+    acceptWeak: true,    // 全クエリ未達でも最良候補を採用（抽象サムネより実写を優先）
+    tolerance: 0.5,      // 最高スコアからこの差以内を「同等」とみなし used/index 分散を効かせる
+    recheckMinScore: 1,  // 遡り点検（recheck-image-relevance）専用のしきい値（>0）。取り込み時 minScore とは分離
+    queryWeight: 1.0,    // image_query 由来トークンの重み（Claude が本文から決めた＝最強シグナル）
+    mapWeight: 0.6,      // KW_MAP(JA→EN)由来トークンの重み
+    tagWeight: 0.5,      // tags/headline の英字トークンの重み
+    genericWeight: 0.15, // 汎用語の重み（除外せず薄める。'data center' の 'data' まで消さないため）
+    // 汎用語（被写体を特定しない語）。除外ではなく低重み化する。被写体語（rocket/laboratory 等）は入れない。
+    // 注: tokenize は3字以上のみ拾うため 'ai' は元々脱落する（ここに入れても空振り）。
+    genericTokens: ['technology', 'tech', 'artificial', 'intelligence', 'abstract', 'digital',
+      'concept', 'background', 'modern', 'future', 'futuristic', 'system', 'device', 'screen', 'view', 'close'],
+    // 境界ケースのみ LLM 査読に回す（Phase 4）。band 内のスコアだけを対象にしトークンを最小化。
+    llmReview: { enabled: false, band: [0, 1] },
+  },
+
   // --- 公式プレス画像の自動採用（報道用素材）---
   // 記事の出典(link)が「報道対象“本人”の公式発表ページ」なら、そのページの og:image を
   // 提供クレジット付きで自動的にサムネにする（企業が自ら SNS 共有用に配布している画像＝報道用素材）。
