@@ -2892,32 +2892,6 @@
     "publishedAt": "2026-07-18T18:55:05.000Z"
   },
   {
-    "slug": "20260719-07",
-    "headline": "NASA火星探査機、小惑星Psycheへの飛行継続",
-    "lead": "NASA Psyche探査機が火星をフライバイして観測データを取得。小惑星Psyche到着は2029年予定。",
-    "body_markdown": "NASA Psyche探査機は、火星のフライバイ（接近通過観測）を成功させ、貴重なデータと時間経過映像を取得した。同探査機は、小惑星Psycheへの到着に向けた長期ミッションを継続しており、火星での近接観測はその重要なマイルストーンである。ミッション・チームは、大量のデータセットを分析中であり、最終的な目的地への航行計画精密化に活用する予定である。\n\n小惑星Psycheは、鉄とニッケルで構成されると考えられており、惑星形成時代の遺跡とも言える天体である。この探査ミッションにより、太陽系の起源と進化に関する新たな知見が得られることが期待されている。火星からのデータは、Psycheの軌道や特性についての追加情報を提供し、2029年到着時の科学観測の効率を高めるだろう。\n\n2029年のPsyche到着に向けて、ミッションは正常に進行している。この成功は、米国の宇宙探査能力の継続的な発展を示すと同時に、人類が太陽系のより遠い領域を理解する努力を象徴している。",
-    "tags": [
-      "NASA",
-      "宇宙探査",
-      "小惑星"
-    ],
-    "section": "サイエンス",
-    "source": "Phys.org",
-    "link": "https://phys.org/news/2026-07-nasa-psyche-mission-mars-flyby.html",
-    "importance": 4,
-    "image_query": "spacecraft nasa mission",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1710267224163-0ee7e0d7a7ce?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzcGFjZWNyYWZ0JTIwbmFzYSUyMG1pc3Npb258ZW58MXwwfHx8MTc4NDQwOTczN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "NASA Hubble Space Telescope",
-      "profileUrl": "https://unsplash.com/@hubblespacetelescope?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash",
-      "alt": "a satellite in orbit with the earth in the background"
-    },
-    "mode": "full",
-    "createdAt": "2026-07-18T21:22:17.439Z",
-    "publishedAt": "2026-07-18T18:51:26.000Z"
-  },
-  {
     "slug": "20260719-08",
     "headline": "VRが行動科学研究の再現性を革新",
     "lead": "仮想現実（VR）が行動科学研究において再現性危機の解決策となり得ることが、41人の研究者による論文で示唆された。",
@@ -8625,33 +8599,6 @@
     "publishedAt": "2026-07-10T19:13:23.000Z"
   },
   {
-    "slug": "20260710-18",
-    "headline": "OpenAI、GPT-5.6を一般公開",
-    "lead": "OpenAIが新型LLM「GPT-5.6」3モデルを発表。最上位の「Sol」は競合Anthropicのモデルと同等性能を半額以下で実現。",
-    "body_markdown": "OpenAIは2026年7月9日、最新のLLMファミリー「GPT-5.6」を一般公開した。Sol、Terra、Lunaの3つのバリアント構成。\n\nSolはエンタープライズ、コーディング、科学研究に最適化されており、Anthropicの「Claude Fable 5」と同等水準のパフォーマンスを発揮しながら、推定コストは約半分という。処理時間も61％短縮されている。コーディングベンチマークでは数値上Fable 5がやや優位だが、総合的な効率性ではSolが優位との主張。\n\nAPI価格は100万トークン当たり、Solが入力5ドル・出力30ドル、Terraが入力2.5ドル・出力15ドル、Lunaが入力1ドル・出力6ドル。トークン効率が54％向上し、AIコーディングタスクでの利便性が高い。\n\n同時に企業向けツール「ChatGPT Work」もリリース。利用制限（レートリミット）も全ユーザーを対象にリセット。同日Anthropicも同様の対抗措置を取るなど、LLM業界の競争が激化している。",
-    "tags": [
-      "AI",
-      "LLM",
-      "生成AI",
-      "OpenAI",
-      "GPT"
-    ],
-    "section": "AI",
-    "source": "TechCrunch",
-    "link": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
-    "importance": 5,
-    "image_query": "artificial intelligence technology neural network",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1749006590475-4592a5dbf99f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHRlY2hub2xvZ3klMjBuZXVyYWwlMjBuZXR3b3JrfGVufDF8MHx8fDE3ODM1MDIzMzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Omar:. Lopez-Rincon",
-      "profileUrl": "https://unsplash.com/@procopiopi?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash"
-    },
-    "mode": "full",
-    "createdAt": "2026-07-10T09:12:08.435Z",
-    "publishedAt": "2026-07-09T22:24:24.000Z"
-  },
-  {
     "slug": "20260710-19",
     "headline": "SK Hynix、米国IPOで265億ドル調達",
     "lead": "韓国メモリーチップ大手SK Hynixが史上最大規模の外国企業IPOを実現。AI需要が買い支える。",
@@ -8775,33 +8722,6 @@
     "mode": "full",
     "createdAt": "2026-07-10T09:12:13.858Z",
     "publishedAt": "2026-07-10T08:10:01.000Z"
-  },
-  {
-    "slug": "20260710-24",
-    "headline": "GPT-Live、音声で自然な対話を実現",
-    "lead": "OpenAIが音声会話AI「GPT-Live」提供開始。聞き取りと発話を同時処理で、会話が人間的に。",
-    "body_markdown": "OpenAIは2026年7月8日より、音声対話に最適化された新型AI「GPT-Live」の提供を始めた。テキストベースの従来型AIと異なり、「聞き取り中から考え、話す」という人間らしい二重処理を実現。\n\nユーザーが話しかけると、AIが出力生成と同時に応答を返す仕組み。従来は応答完全生成後に返答するため、ユーザーが完成を待つ間の沈黙があったが、新モデルでは自然な会話テンポを保つ。SNS上では「まるで人間と話している」「会話が自然すぎる」という感想が多数上がっている。\n\n対応デバイスはiOS、Android、Web。ChatGPT Plus/Proユーザーは「GPT-Live-1」、無料ユーザーは「GPT-Live-1 mini」を利用可能。音声インタフェースを日常的に使う利用者層にとって、大きな利便性向上となる。",
-    "tags": [
-      "AI",
-      "音声",
-      "生成AI",
-      "技術",
-      "OpenAI"
-    ],
-    "section": "AI",
-    "source": "ITmedia AI＋",
-    "link": "https://www.itmedia.co.jp/news/articles/2607/10/news114.html",
-    "importance": 4,
-    "image_query": "audio voice technology sound microphone",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhdWRpbyUyMHZvaWNlJTIwdGVjaG5vbG9neSUyMHNvdW5kJTIwbWljcm9waG9uZXxlbnwxfDB8fHwxNzgzNjc0NzM0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Bogomil Mihaylov",
-      "profileUrl": "https://unsplash.com/@bogomi?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash"
-    },
-    "mode": "full",
-    "createdAt": "2026-07-10T09:12:14.761Z",
-    "publishedAt": "2026-07-10T07:45:00.000Z"
   },
   {
     "slug": "20260710-25",
@@ -10292,33 +10212,6 @@
     "mode": "full",
     "createdAt": "2026-07-08T09:18:54.158Z",
     "publishedAt": "2026-07-08T07:16:00.000Z"
-  },
-  {
-    "slug": "20260708-23",
-    "headline": "Meta、ユーザー写真を無断使用のAI画像生成ツール「Muse Image」",
-    "lead": "Meta が AI画像生成モデル「Muse Image」公開、他人のInstagram写真をタグ付けして合成可能だが、プライバシー懸念が高まる。",
-    "body_markdown": "Meta が Meta Superintelligence Labs 開発の AI 画像生成モデル「Muse Image」を公開。Meta AI アプリ、Instagram、WhatsApp を通じて無料で利用可能だ。同ツールは漫画風の創作画像生成、インテリアデザイン・シミュレーション、広告カスタマイズなど多様な用途を提供する。\n\n最も議論を呼ぶ機能は、公開中の Instagram ユーザープロフィール写真をタグ付けし、本人の了承なく AI 合成画像を生成できる点だ。X 上でユーザーは「プライバシー地雷が爆発するのを待っている」と指摘。重大な問題は「タグ付けされたユーザーが画像生成を一切通知されない」という設計である。Meta は当該機能を「デフォルト オプトアウト」で実装し、ユーザーは自分の写真がこの方式で使用されることを事前に知らない可能性が高い。\n\nMeta のプライバシー履歴は批判の背景にある。2019年の Facebook–Cambridge Analytica スキャンダルに関連し、同社は FTC から過去最高の50億ドルの罰金を科された。その後、規制圧力下で顔認識システムを廃止した。Muse Image は段階的にロールアウト中だが、プライバシー擁護団体の追及が予想される。Meta の「広範データ利用を優先」する組織文化の中での新機能展開は、規制当局と消費者の警戒を招いている。",
-    "tags": [
-      "Meta",
-      "AI",
-      "画像生成",
-      "プライバシー",
-      "インスタグラム"
-    ],
-    "section": "AI",
-    "source": "TechCrunch",
-    "link": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
-    "importance": 4,
-    "image_query": "artificial intelligence image generation",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1739036868260-c26b292cd85d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGltYWdlJTIwZ2VuZXJhdGlvbnxlbnwxfDB8fHwxNzgzNTAyMzM1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Igor Omilaev",
-      "profileUrl": "https://unsplash.com/@omilaev?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash"
-    },
-    "mode": "full",
-    "createdAt": "2026-07-08T09:18:55.245Z",
-    "publishedAt": "2026-07-07T22:18:10.000Z"
   },
   {
     "slug": "20260708-24",
@@ -12346,32 +12239,6 @@
     "mode": "full",
     "createdAt": "2026-07-05T21:22:48.302Z",
     "publishedAt": "2026-07-05T19:49:24.000Z"
-  },
-  {
-    "slug": "20260706-04",
-    "headline": "OpenAI、遺伝子ベンチ「Genebench-Pro」公開",
-    "lead": "OpenAIが生物学研究向けAIモデルの評価ツール「Genebench-Pro」を発表し、AIの科学的実用化が進展。",
-    "body_markdown": "OpenAIは遺伝子・生物学分野でのAI性能を測定するベンチマーク「Genebench-Pro」を公開した。同ツールは、AI モデルが実世界の生物学的課題をどの程度解決できるかを客観的に評価する基準として機能する。\n\n生命科学研究の加速化は、医療技術やバイオテクノロジー産業にとって重要なテーマであり、AIが実験設計・仮説生成・データ分析を支援する可能性が注目されている。Genebench-Proの公開は、AI企業が産業応用への道を示す一方で、科学コミュニティの信頼獲得にも資する。OpenAIはAIの「科学的責任」を強調する戦略を取っており、単なる性能指標にとどまらず、研究の透明性と再現性を支える仕組みとしての位置づけである。",
-    "tags": [
-      "AI",
-      "生物学研究",
-      "ベンチマーク",
-      "遺伝子解析"
-    ],
-    "section": "AI",
-    "source": "OpenAI",
-    "link": "https://openai.com/index/genebench-pro/case-studies",
-    "importance": 5,
-    "image_query": "DNA laboratory genetic research microscope",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1637929476734-bd7f5f78e40a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxETkElMjBsYWJvcmF0b3J5JTIwZ2VuZXRpYyUyMHJlc2VhcmNoJTIwbWljcm9zY29wZXxlbnwxfDB8fHwxNzgzMjg2NTY5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Warren Umoh",
-      "profileUrl": "https://unsplash.com/@warrenumoh?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash"
-    },
-    "mode": "full",
-    "createdAt": "2026-07-05T21:22:49.331Z",
-    "publishedAt": "2026-06-30T00:00:00.000Z"
   },
   {
     "slug": "20260706-05",
@@ -15046,33 +14913,6 @@
     "publishedAt": "2026-07-01T16:00:00.000Z"
   },
   {
-    "slug": "20260702-03",
-    "headline": "Anthropic『Claude Science』発表、科学研究支援で医薬品開発を加速",
-    "lead": "Anthropic が科学研究向け新AI『Claude Science』を発表。計算生物学・医薬品開発に活用へ。",
-    "body_markdown": "Anthropic は、科学研究を支援する新製品『Claude Science』を発表した。ソフトウェア開発向けの『Claude Code』と同様に、「簡潔で高レベルの指示から、実質的な科学的仕事を自律的に遂行する」ことを目的としている。\\n\\n対象分野は、計算生物学と医薬品開発。Anthropic自身も『Claude Science』を活用して、『稀有で見過ごされた疾患』（rare, neglected diseases）向けの医薬品研究に取り組む予定だ。\\n\\nこの製品は、製薬業界の経営者、バイオテック企業の創業者、研究者を対象にした発表イベントで公開された。Anthropicの科学領域への注力姿勢が顕著になった形だ。\\n\\n『Claude Code』が、開発者にプログラミングを任せるのと同じロジックで、『Claude Science』は研究者に科学的推論と分析を任せるモデルとなっている。医薬品開発プロセスは、分子設計、スクリーニング、データ分析など、計算量が多く、パターン認識が重要な領域が多い。AIが自律的に仮説を立てたり、実験計画を提案したりすることで、研究スピードの加速が期待される。\\n\\nバイオテック業界では、開発期間と費用の削減が永遠の課題だ。『Claude Science』が科学プロセスの一部を担うことで、研究者は解釈と戦略に専念できるようになる。特に『稀有疾患』のように患者数が少なく、経済的インセンティブが低い領域での医薬品開発にAIが活用されることは、社会的意義が大きい。",
-    "tags": [
-      "AI",
-      "科学研究",
-      "医薬品開発",
-      "バイオテック",
-      "Anthropic"
-    ],
-    "section": "AI",
-    "source": "MIT Tech Review",
-    "link": "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/",
-    "importance": 4,
-    "image_query": "laboratory research science microscope",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1614308460927-5024ba2e1dcb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxsYWJvcmF0b3J5JTIwcmVzZWFyY2glMjBzY2llbmNlJTIwbWljcm9zY29wZXxlbnwxfDB8fHwxNzgyOTQxMTI2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Logan Gutierrez",
-      "profileUrl": "https://unsplash.com/@photosoflogan?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash"
-    },
-    "mode": "full",
-    "createdAt": "2026-07-01T21:25:26.612Z",
-    "publishedAt": "2026-07-01T12:10:00.000Z"
-  },
-  {
     "slug": "20260702-04",
     "headline": "Ashton Kutcher、新VC立ち上げ　AI基盤インフラに投資シフト",
     "lead": "Kutcherが Sound Ventures を離れ、Morgan Beller と新会社設立。AI企業ではなく、その下支えとなるインフラ企業を投資対象に。",
@@ -16012,27 +15852,6 @@
     "publishedAt": "2026-06-30T19:24:51.000Z"
   },
   {
-    "slug": "20260701-05",
-    "headline": "Anthropic 『Claude Science』、研究者向けワークフロー統合",
-    "lead": "AnthropicがClaude Scienceをベータ公開。60以上の科学データベース統合、マルチエージェント調整、論文作成の透明性確保で研究プロセスを一元化。",
-    "body_markdown": "Anthropicは『Claude Science』をベータで公開した。新しい言語モデル開発ではなく、『研究ワークフロー最適化』に焦点を置いたプロダクトだ。Pro/Max/Team/Enterpriseサブスクライバーが利用でき、ポスドク・院生向けには最大3万ドルのクレジット支援も行う（2026年12月まで）。\n\nプラットフォーム上で複数のAIエージェントが『プロジェクトマネージャー』として機能し、ゲノミクス・タンパク質構造・化学など60を超える科学データベース連携タスクを自動調整する。生成した図表には実行コード・環境詳細・会話履歴が自動添付され、再現性が確保される。さらに『ファクトチェック層』により、AI出力の引用・計算を別のエージェントが検証してから発表される。\n\nこのアプローチはOpenAI『GPT-Rosalind』（ファインチューニング重視）やGoogle DeepMind『AlphaFold』（スタンドアロンモデル）との差別化戦略。Anthropicは『マルチエージェント＋ワークフロー』で研究加速を狙う。",
-    "tags": [
-      "AI",
-      "研究",
-      "科学",
-      "Anthropic"
-    ],
-    "section": "テクノロジー",
-    "source": "TechCrunch",
-    "link": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
-    "importance": 3,
-    "image_query": "scientific research laboratory data analysis",
-    "image": null,
-    "mode": "full",
-    "createdAt": "2026-06-30T21:16:40.366Z",
-    "publishedAt": "2026-06-30T18:00:00.000Z"
-  },
-  {
     "slug": "20260701-06",
     "headline": "Google Full Stack AI、TPU～Geminiまで統合で低コスト実現",
     "lead": "GoogleはFull Stack AIアプローチを解説。ハードウェア（TPU）から言語モデル・UI まで一元管理することで、開発効率と価格競争力を両立させる戦略。",
@@ -16766,26 +16585,6 @@
     "mode": "full",
     "createdAt": "2026-06-29T21:56:34.049Z",
     "publishedAt": "2026-06-29T07:00:00.000Z"
-  },
-  {
-    "slug": "20260630-04",
-    "headline": "HPがOpenAI「Frontier」を全社展開　4か月パイロット後",
-    "lead": "顧客体験と内部業務にAIを統合。エンジニアリング効率が大幅向上。",
-    "body_markdown": "HP Inc.は2026年6月28日、OpenAIの「Frontier」プラットフォームを全社規模で導入することを発表した。2月から4か月間のパイロットプログラムで、エンジニアリング、セキュリティ、カスタマーエクスペリエンス部門での運用効果を検証した後の本格展開である。\n\nパイロット結果によると、エンジニアがFrontierを使用することで、わずか数週間で122のプルリクエストを43プロジェクト間で処理。セキュリティチームは通常1か月かかるバグ修復を1日で完了させた。HPはこれらの実績に基づき、顧客向けツール、従業員生産性システム、ワークフォースアナリティクス、エンジニアリング・ソフトウェア開発にFrontierを展開する方針。\n\nHP と OpenAIは今後、データ統合、ガバナンス、セキュリティを重視した共同開発を進め、エンタープライズAI導入の新しいモデルを構築していく。",
-    "tags": [
-      "OpenAI",
-      "エンタープライズAI",
-      "自動化"
-    ],
-    "section": "AI",
-    "source": "HP",
-    "link": "https://www.hp.com/us-en/newsroom/press-releases/2026/open-ai-partnership.html",
-    "importance": 3,
-    "image_query": "enterprise software productivity",
-    "image": null,
-    "mode": "full",
-    "createdAt": "2026-06-29T21:56:34.051Z",
-    "publishedAt": "2026-06-28T17:00:00.000Z"
   },
   {
     "slug": "20260630-05",
@@ -18229,28 +18028,6 @@
     "mode": "full",
     "createdAt": "2026-06-27T21:20:34.379Z",
     "publishedAt": "2026-06-26T23:00:00.000Z"
-  },
-  {
-    "slug": "20260628-10",
-    "headline": "Apple Vision Pro幹部、OpenAIに移籍",
-    "lead": "Paul Meadeが米Apple の VR 責任者からOpenAIのハードウェアチームへ。AI企業のハードウェア野心を加速。",
-    "body_markdown": "AppleのVision Pro責任者だったPaul Meade副社長がOpenAIへの移籍を決めた。新CEOの組織再編に伴い、一部副社長が降格されたとの報道があり、Meadeの移籍はこうした組織変更の一環と見られている。\n\nAppleは Vision Pro の商業的成功が限定的であり、より手頃な価格のスマートグラスの開発へシフトしている。一方、OpenAIは Jony Ive 元デザイン責任者と協力してハードウェア開発を推進しており、Altman CEO は新デバイスが「iPhoneよりも穏やかで落ち着いた」ものになると述べている。Meadeの獲得により、OpenAIは実績あるハードウェア開発のノウハウを取り込み、AI時代のデバイス戦略を具体化させる狙いがある。",
-    "tags": [
-      "Apple",
-      "OpenAI",
-      "ハードウェア",
-      "AI",
-      "人材流動"
-    ],
-    "section": "AI",
-    "source": "TechCrunch",
-    "link": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
-    "importance": 3,
-    "image_query": "technology device innovation",
-    "image": null,
-    "mode": "full",
-    "createdAt": "2026-06-27T21:20:34.379Z",
-    "publishedAt": "2026-06-27T16:45:09.000Z"
   },
   {
     "slug": "20260628-11",
@@ -21184,33 +20961,6 @@
     "publishedAt": "2026-06-24T20:09:45.000Z"
   },
   {
-    "slug": "20260624-11",
-    "headline": "AnthropicがSlack向け新機能「Claude Tag」を公開",
-    "lead": "AnthropicがSlackにAI「Claude」を招き、会話からタスクを任せられる新機能を公開した",
-    "body_markdown": "米Anthropicは6月23日（米国時間）、ビジネスチャット「Slack」上で同社のAI「Claude」を直接呼び出せる新機能「Claude Tag」のベータ版を公開した。対象はClaude EnterpriseとClaude Teamの両プラン。利用者が任意のチャンネルにClaudeを招待し、メッセージで「@Claude」とメンションしてタスクを依頼すると、Claudeがチャンネルの文脈や関係者の情報を読み取り、タスクの計画を自動で組み立てて実行を支援する。管理者はメンションを許可するチャンネルの範囲を制限でき、ワークスペースをまたいだデータ参照はできない設計とした。同社はこの機能を「Claude Codeの進化の始まり」と位置づけている。\n\nチャット内の自然な会話からそのままAIへ作業を委ねられる点が特徴で、これまで開発支援が中心だったエージェント的な使い方を、チーム全体の日常業務へ広げる狙いがうかがえる。一方で、メンション範囲の制御やワークスペースの分離など、業務データの扱いに配慮した制限を初期から設けている点は、企業導入での情報管理の懸念を意識したものといえる。",
-    "tags": [
-      "開発",
-      "Anthropic",
-      "Claude",
-      "Slack",
-      "AIエージェント"
-    ],
-    "section": "AI",
-    "source": "ITmedia AI＋",
-    "link": "https://www.itmedia.co.jp/news/articles/2606/24/news115.html",
-    "importance": 4,
-    "image_query": "office collaboration laptop",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxvZmZpY2UlMjBjb2xsYWJvcmF0aW9uJTIwbGFwdG9wfGVufDF8MHx8fDE3ODIyOTIxNzZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Priscilla Du Preez 🇨🇦",
-      "profileUrl": "https://unsplash.com/@priscilladupreez?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash"
-    },
-    "mode": "full",
-    "createdAt": "2026-06-24T09:09:36.138Z",
-    "publishedAt": "2026-06-24T06:27:00.000Z"
-  },
-  {
     "slug": "20260624-12",
     "headline": "Diver-X、ロボット学習に使えるVRグローブ新型",
     "lead": "Diver-XがVRグローブ新製品を発表、産業版はロボットの手の動作学習に活用できる",
@@ -21344,33 +21094,6 @@
     "mode": "full",
     "createdAt": "2026-06-24T03:07:12.590Z",
     "publishedAt": "2026-06-24T01:13:48.000Z"
-  },
-  {
-    "slug": "20260624-07",
-    "headline": "Anthropic、Slackで使える「Claude Tag」提供開始",
-    "lead": "Anthropicが、Slackで「@Claude」とメンションして非同期にタスクを任せられる新機能「Claude Tag」のβ版提供を始めた。",
-    "body_markdown": "米Anthropicは6月23日、チーム向け新機能「Claude Tag」を発表し、まずSlack向けにβ版の提供を始めた。チャンネル内で「@Claude」とメンションすると、Claudeが接続されたツールやコードベースと連携し、非同期かつ自律的にタスクを進める。設計上の特徴は「マルチプレイヤー」で、1つのチャンネルに全員と対話する1体のClaudeが存在し、複数のメンバーがその進捗を共有できる。基盤モデルには最新の「Opus 4.8」を採用する。権限管理は厳格で、接続できるツールやデータの範囲は管理者が制御し、メモリを含む情報は管理者が定義したチャンネル内に閉じる。プライベートチャンネルの内容は報告されないという。利用にはEnterpriseまたはTeamプランの契約が必要で、組織ごとに月間の利用上限を設定できる。同社は製品チームでコードの65%を社内版のClaude Tagが生成していると説明する。\n\nチャットツールはすでに多くの企業の業務基盤であり、そこにAIを常駐させる発想は、専用アプリを立ち上げずに自動化を組み込む現実的な手段となる。一方で、AIに組織のツールやデータへのアクセスを与える以上、権限設計の妥当性が運用上の鍵を握る。",
-    "tags": [
-      "開発",
-      "Anthropic",
-      "Claude",
-      "Slack",
-      "AIエージェント"
-    ],
-    "section": "AI",
-    "source": "ITmedia AI＋",
-    "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000120/",
-    "importance": 4,
-    "image_query": "office team laptops",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxvZmZpY2UlMjB0ZWFtJTIwbGFwdG9wc3xlbnwxfDB8fHwxNzgyMjcwNDMzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Brooke Cagle",
-      "profileUrl": "https://unsplash.com/@brookecagle?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash"
-    },
-    "mode": "full",
-    "createdAt": "2026-06-24T03:07:13.350Z",
-    "publishedAt": "2026-06-23T23:55:42.000Z"
   },
   {
     "slug": "20260624-08",
@@ -23571,32 +23294,6 @@
     "createdAt": "2026-06-16T09:04:01.771Z"
   },
   {
-    "slug": "20260616-03",
-    "headline": "米政府がAnthropic最上位AIを輸出規制、提供一時停止",
-    "lead": "Mythos 5とFable 5を全外国人向けに遮断する指令を受け、Anthropicは両モデルを全顧客向けに無効化した。",
-    "body_markdown": "6月13日夕方、Anthropicは米政府から輸出管理指令を受領した。報道によれば、商務長官ハワード・ラトニック氏がダリオ・アモデイCEO宛ての書簡で、最上位モデルである「Mythos 5」と「Fable 5」を輸出管理の対象とし、米国外のあらゆる地域に加え、国内に滞在する外国人（外国籍の自社従業員を含む）すべてのアクセスを遮断するよう求めた。短時間での順守を迫られたAnthropicは、両モデルを全顧客向けに一旦無効化して対応した。指令は他のClaude系モデルには及ばず、それらは稼働を続けるという。\n\n規制のきっかけは、別の企業がMythos 5の「脱獄（jailbreak）」に成功したと主張したことだとされる。当局はソフトウェアの脆弱性を検出する能力が安全保障上のリスクになり得ると懸念した。これに対しAnthropicは、政府が示した根拠は限定的で、同等の能力は競合のGPT-5.5など他社モデルでも広く利用可能だと反論している。\n\n国家が輸出管理を用い、国内の外国籍従業員にまで自国企業の主力AIへのアクセスを制限した点は異例だ。AIの安全保障と、国境をまたぐ人材・市場との緊張を浮き彫りにする事例といえる。",
-    "tags": [
-      "産業応用",
-      "Anthropic",
-      "輸出規制",
-      "AI安全保障",
-      "Claude"
-    ],
-    "section": "AI",
-    "source": "The Verge",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls",
-    "importance": 5,
-    "image_query": "capitol building washington",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1520525003249-2b9cdda513bc?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjYXBpdG9sJTIwYnVpbGRpbmclMjB3YXNoaW5ndG9ufGVufDF8MHx8fDE3ODE1NzkwNzl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Louis Velazquez",
-      "profileUrl": "https://unsplash.com/@angelvela?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash"
-    },
-    "mode": "full",
-    "createdAt": "2026-06-16T03:04:39.905Z"
-  },
-  {
     "slug": "20260616-04",
     "headline": "Google CEOの卒業式講演に抗議、約200人が退場",
     "lead": "スタンフォード大学の卒業式で、ピチャイ氏の登壇中に学生がGoogleの軍事・行政向けAI契約へ抗議した。",
@@ -23829,33 +23526,6 @@
     },
     "mode": "full",
     "createdAt": "2026-06-14T21:04:24.345Z"
-  },
-  {
-    "slug": "20260614-05",
-    "headline": "Google I/O 2026、動画生成「Gemini Omni」など発表",
-    "lead": "Googleが開発者会議I/O 2026で動画生成モデルGemini Omniと高速モデルGemini 3.5 Flashを公開した。",
-    "body_markdown": "Googleは開発者向けイベント「Google I/O 2026」で、複数のAI関連発表を行った。中心となるのは新モデル「Gemini Omni」で、画像・音声・動画・テキストといった多様な入力から動画を生成できる点を特徴とする。簡易版の「Gemini Omni Flash」は、Google AIのPlus・Pro・Ultra契約者に加え、YouTubeのクリエイター向けに無償で提供が始まる。\n\nあわせて、エージェントやコーディング用途で高い性能をうたう「Gemini 3.5 Flash」も発表された。Gemini API、Android Studio、Geminiアプリなどを通じて世界向けに利用可能になるとしている。このほか、毎朝の要約を届ける「Daily Brief」、24時間稼働の個人向けエージェント「Gemini Spark」、検索やショッピングの強化、秋に投入予定のディスプレイ付きアイウェアなども示された。\n\nGeminiブランドのもとでモデルと機能を横断的に更新する動きが続いており、動画生成とエージェント機能の両面を同時に押し出した点が今回の特徴といえる。生成AIの主戦場が、対話から動画やマルチモーダルな自動化へと広がっていることを改めて印象づける内容となった。",
-    "tags": [
-      "研究",
-      "Google",
-      "Gemini",
-      "動画生成",
-      "マルチモーダル"
-    ],
-    "section": "AI",
-    "source": "Google AI",
-    "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
-    "importance": 4,
-    "image_query": "tech conference stage presentation",
-    "image": {
-      "kind": "press",
-      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH_SS.width-1300.png",
-      "credit": "Google",
-      "creditUrl": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
-      "source": "公式発表ページより（報道利用）"
-    },
-    "mode": "full",
-    "createdAt": "2026-06-14T09:03:28.684Z"
   },
   {
     "slug": "20260614-06",
