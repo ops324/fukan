@@ -3,13 +3,13 @@
 import { ticker, header, footer, page } from './layout.js';
 import { esc } from '../src/markdown.js';
 import { config } from '../src/config.js';
-import { tagHref, metaLine } from './cardbits.js';
+import { tagHref, metaLine, imp } from './cardbits.js';
 
 const BASE = '../';
 const href = (a) => `${BASE}articles/${a.slug}.html`;
 
 function feedList(items) {
-  const rows = items.map((a) => `        <li class="feed-item">
+  const rows = items.map((a) => `        <li class="feed-item" data-imp="${imp(a)}">
           ${metaLine(a)}
           <a class="feed-item__title" href="${href(a)}">${esc(a.headline)}</a>
           <span class="feed-item__src">出典: ${esc(a.source)}</span>
@@ -19,7 +19,7 @@ function feedList(items) {
 
 // 単一タグのページ
 export function renderTag(tag, articles, dateLabel, tickerItems = []) {
-  const main = `  <main class="container container--narrow">
+  const main = `  <main id="main" tabindex="-1" class="container container--narrow">
 
     <nav class="breadcrumb" aria-label="パンくず">
       <ol>
@@ -59,7 +59,7 @@ export function renderTagsIndex(entries, dateLabel, tickerItems = []) {
     return `        <li><a class="tagcloud__item" href="${tagHref(tag, BASE)}" style="font-size: ${scale}rem;">#${esc(tag)} <span class="tagcloud__count">${count}</span></a></li>`;
   }).join('\n');
 
-  const main = `  <main class="container container--narrow">
+  const main = `  <main id="main" tabindex="-1" class="container container--narrow">
 
     <nav class="breadcrumb" aria-label="パンくず">
       <ol>

@@ -27,7 +27,7 @@ export function renderArchiveIndex(groups, dateLabel, tickerItems = []) {
           <span class="feed-item__cat">${g.items.length} 本</span>
         </li>`).join('\n');
 
-  const main = `  <main class="container container--narrow">
+  const main = `  <main id="main" tabindex="-1" class="container container--narrow">
 
     <header class="page-head">
       <span class="cat">アーカイブ</span>
@@ -53,7 +53,7 @@ ${rows || '<li class="feed__empty">まだ記事がありません。</li>'}
 
 // 月別ページ（/archive/YYYY-MM.html）。group = { ym, label, items }。
 export function renderArchiveMonth(group, dateLabel, tickerItems = []) {
-  const main = `  <main class="container container--narrow">
+  const main = `  <main id="main" tabindex="-1" class="container container--narrow">
 
     <nav class="breadcrumb" aria-label="パンくず">
       <ol>

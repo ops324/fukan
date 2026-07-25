@@ -10,7 +10,7 @@ const mail = `<a href="mailto:${esc(op.email)}">${esc(op.email)}</a>`;
 
 // 共通レイアウト（パンくず＋見出し＋本文 prose）
 function legalPage({ slug, title, lead, bodyHtml, dateLabel, tickerItems }) {
-  const main = `  <main class="container container--narrow">
+  const main = `  <main id="main" tabindex="-1" class="container container--narrow">
 
     <nav class="breadcrumb" aria-label="パンくず">
       <ol>

@@ -40,6 +40,47 @@ export function priorityClass(a) {
   return imp(a) >= 4 ? ' is-priority' : '';
 }
 
+// --- 版面マーク（.plate）------------------------------------------------
+// 全記事の約48%は出典側の事情で写真を持たない。そこを「欠落」ではなく「型」として
+// 扱うための装置。写真には擬態せず、3本の罫の長さ・太さの組み合わせで示す組版の標。
+// 形はセクションで決まり、変奏（標の全長）は slug で決まる。
+//
+// ハッシュは FNV-1a（32bit）。Math.random() は使わない——render の決定性を壊さない
+// ため（CLAUDE.md の不変条件）。同じ記事は何度ビルドしても同じ版面になる。
+function hash32(s = '') {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < s.length; i += 1) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 0x01000193) >>> 0;
+  }
+  return h >>> 0;
+}
+
+// セクション → 標の形。近い性格のセクションは同じ形に寄せて「族」を作る。
+//   asc = 情報・計算系 / peak = 観測系 / weight = 数量系 / desc = 記録系
+//   split = 表現系 / pair = 技術系
+const PLATE_SYSTEM = new Map([
+  ['AI', 'asc'],
+  ['テクノロジー', 'pair'],
+  ['サイエンス', 'peak'],
+  ['ビジネス', 'weight'],
+  ['経済・マネー', 'weight'],
+  ['政治', 'desc'],
+  ['国際・地政学', 'peak'],
+  ['カルチャー', 'split'],
+  ['エンタメ', 'split'],
+  ['ライフ・キャリア', 'desc'],
+]);
+const PLATE_VARIANTS = 3;
+
+// 装飾なので aria-hidden。セクション名はメタ行が既に読み上げるため情報の欠落は無い。
+export function plate(a, extraClass = '') {
+  const system = PLATE_SYSTEM.get(a.section) || 'desc';
+  const v = (hash32(a.slug || '') % PLATE_VARIANTS) + 1;
+  const cls = `plate plate--${system} plate--v${v}${extraClass ? ` ${extraClass}` : ''}`;
+  return `<div class="${cls}" aria-hidden="true"><span class="plate__label">${esc(a.section || 'AI')}</span></div>`;
+}
+
 // Unsplash 画像URLに配信最適化パラメータを付与（バイト数削減）。他プロバイダ/不明URLは素通し。
 export function optimizedUrl(url, w = 1200) {
   if (!url || !url.includes('images.unsplash.com')) return url;

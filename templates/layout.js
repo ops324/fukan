@@ -11,7 +11,7 @@ export function absUrl(path = '/') {
 
 const FONTS = `  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500;600&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">`;
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">`;
 
 // 旧ティッカー（常時スクロール）は認知負荷・a11y の観点で撤去。
 // 各テンプレが `ticker(...)` を呼ぶ箇所が残るため、空文字を返す薄いスタブとして維持する。
@@ -28,7 +28,8 @@ export function header(dateLabel, activeNav = 'トップ', base = '') {
       return `          <li><a href="${href}"${cur}>${name}</a></li>`;
     })
     .join('\n');
-  return `  <!-- ============== HEADER ============== -->
+  return `  <a class="skip-link" href="#main">本文へスキップ</a>
+  <!-- ============== HEADER ============== -->
   <header class="site-header">
     <div class="container site-header__bar">
       <a class="brand" href="${base}index.html">
@@ -36,7 +37,7 @@ export function header(dateLabel, activeNav = 'トップ', base = '') {
       </a>
       <div class="site-header__tools">
         <div class="hsearch">
-          <input type="search" id="site-search" class="hsearch__input" placeholder="検索" aria-label="サイト内検索" autocomplete="off" data-base="${base}">
+          <input type="search" id="site-search" class="hsearch__input" placeholder="検索" aria-label="サイト内検索" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="site-search-results" aria-autocomplete="list" data-base="${base}">
           <div id="site-search-results" class="hsearch__results" role="listbox" hidden></div>
         </div>
       </div>
