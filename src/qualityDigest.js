@@ -5,6 +5,8 @@
 import { pathToFileURL } from 'node:url';
 import { loadArticles } from './store.js';
 import { evaluateRecent } from './evaluate.js';
+import { config } from './config.js';
+import { buildVetoDigest, summarizeRescue } from './vetoDigest.js';
 
 const RECENT_N = 8; // 直近この本数を母集団に傾向を見る
 
@@ -49,9 +51,26 @@ export function buildDigest(arts, recentN = RECENT_N) {
 }
 
 // CLI: 直近の傾向を stdout に出力（無ければ空＝何も出さない）。
+// veto digest（捨てられた下書きの傾向）を先に、体裁 digest（公開記事の逸脱）を後に置く。
+// 賭け金の大きい順＝事実誤りの是正を先に読ませるため。auto-generate.sh 側は無変更で済む。
 const isMain = import.meta.url === pathToFileURL(process.argv[1] || '').href;
 if (isMain) {
   const arts = await loadArticles();
-  const digest = buildDigest(arts);
+  // ledger が読めなくても writer を止めない（既存の「取得失敗時は空＝従来挙動」を veto 側にも適用）。
+  let vetoRows = [];
+  try {
+    const { readVetoes } = await import('./vetoLedger.js');
+    vetoRows = await readVetoes({ windowDays: config.vetoDigest.windowDays });
+  } catch { /* ledger 不在・破損はスキップ */ }
+  let vetoPart = '';
+  try {
+    vetoPart = buildVetoDigest(vetoRows);
+    // 救済率は stdout に出さない（writer に見せると「通ればよい」という目標値として作用する）。
+    // ログ（stderr）にだけ残して人間が監視する。
+    const rescue = summarizeRescue(vetoRows);
+    if (rescue) process.stderr.write(`${rescue}\n`);
+  } catch { /* digest 生成の失敗も writer を止めない */ }
+
+  const digest = [vetoPart, buildDigest(arts)].filter(Boolean).join('\n\n');
   if (digest) process.stdout.write(`${digest}\n`);
 }

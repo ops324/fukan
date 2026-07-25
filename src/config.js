@@ -312,7 +312,32 @@ export const config = {
   ledger: {
     evalMaxLines: 4000,  // evaluations.jsonl の保持行数（≈24行/日 → 約5ヶ月分）
     runsMaxLines: 2000,  // runs.jsonl の保持行数（≈2行/日 → 約2.7年分）
+    vetoMaxLines: 2000,  // vetoes.jsonl の保持行数（≈4行/日 → 約1.4年分）
     margin: 500,         // これだけ超えてから有界化を実行（有界化の頻度＝git churn を抑える）
+  },
+
+  // --- veto の還流（vetoDigest）---
+  // judge が veto した下書きは従来その場で破棄され、理由は scheduler.log にしか残らなかった。
+  // 結果 writer は自分の失敗を一度も見ておらず、同じ型の誤り（桁・単位の誤変換が veto の約6割）を
+  // 繰り返していた。veto の傾向を集計して writer プロンプトへ戻し、事前に潰す。
+  // 重要: ここで生成する指示は「手続き」であって「目標値」ではない。「veto を減らせ」と書くと
+  // 数値を省略してぼかす方向に最適化されるため、件数目標は絶対に注入しない（SPEC §12.6）。
+  vetoDigest: {
+    windowDays: 14,    // 直近この日数の veto を母集団にする
+    minCount: 2,       // これ未満のカテゴリは提示しない（ノイズ抑制）
+    maxCategories: 4,  // 提示する上位カテゴリ数
+    maxChars: 1600,    // 注入テキストの上限（writer プロンプトの肥大を防ぐ）
+  },
+
+  // --- 修正リトライ（fixRound）---
+  // veto の大半は「骨子は正しく数値・固有名詞だけが誤り」＝文言修正で救える。judge が fixable と
+  // 判定した下書きだけを writer に差し戻し、修正後に**同じ基準で**再査読して通れば公開する。
+  // 不変条件: 修正は1回限り（イテレーションなし＝judge を騙す勾配を作らない）。再査読の基準は
+  // 初回と同一（prompts/_veto-criteria.md を両ラウンドで共有）。fix が失敗しても pass 記事の公開は
+  // 妨げない（mergeFixReview.js が原状復帰させる）。異常時は enabled:false の1行で即停止できる。
+  fixRound: {
+    enabled: false,   // 初期値 false。Phase A/B を観測してから有効化する（SPEC §12.6）
+    maxTargets: 8,    // 1ランで修正に回す上限（コストと実行時間の上限）
   },
 
   // --- 更新鮮度の警告しきい値（freshness）---

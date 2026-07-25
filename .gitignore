@@ -35,6 +35,12 @@ data/_review.json
 # Phase 4 画像一致 LLM 査読の一時ファイル（ingest→査読→applyImageReview が消費。VCS に残さない）
 data/_image_review_targets.json
 data/_image_review.json
+# 修正リトライの一時ファイル（prepareFixRound→fix-writer→再査読→mergeFixReview が消費）
+data/_drafts.bak.json
+data/_fix_targets.json
+data/_fix_result.json
+data/_review_fixed.json
+data/_writer.log
 data/scheduler.log
 data/.health
 # 自動ジョブの状態（最終成功・直近エラー・連続失敗回数）。人間が一目で見るためのローカル状態。
