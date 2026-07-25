@@ -47,6 +47,9 @@ LOCK_MAX_AGE=3600   # 秒。これを超える古いロックは異常終了の�
 # macOS 通知ヘルパー（失敗時に気づけるように）
 notify() {
   /usr/bin/osascript -e "display notification \"$1\" with title \"俯瞰 FUKAN\" sound name \"Basso\"" 2>/dev/null || true
+  # Slack にも送る。バナーは数秒で消え集中モードでも抑制されるため、認証切れの通知が4回出ていたのに
+  # 気づけず3日間停止した事故があった（2026-07-22〜25）。SLACK_WEBHOOK_URL 未設定なら何も起きない。
+  "$NODE_BIN" src/notifySlack.js "$1" --level "${2:-error}" >/dev/null 2>&1 || true
 }
 
 # 状態ファイルを書く。通知バナーは集中モード等で抑制されうるので、消えない形でも残す。
@@ -309,6 +312,21 @@ else
 fi
 echo "$STREAK" > "$HEALTH_FILE"
 write_status "$STATUS_STATE" "$STATUS_DETAIL"
+
+# --- 実行サマリを Slack へ（生成ログ）---
+# 異常時は上の notify() が個別に飛んでいる。ここは「毎回の結果が見える」ようにするためのもので、
+# 正常回も送る（config.slack.notifyOnSuccess）。1日2回なので通知過多にはならない。
+# 失敗しても日次は止めない。
+SUMMARY="状態: ${STATUS_STATE}
+記事: ${BEFORE_COUNT} → ${AFTER_COUNT}（追加 ${ADDED} 件）
+候補 ${CAND_COUNT} 件 / 下書き ${DRAFT_COUNT} 件"
+[[ "${FIX_COUNT:-0}" -gt 0 ]] && SUMMARY="${SUMMARY}
+修正リトライ: ${FIX_COUNT} 件を差し戻し"
+SUMMARY="${SUMMARY}
+${STATUS_DETAIL}"
+if [[ "$rc" -eq 0 && "$ADDED" -gt 0 ]]; then
+  "$NODE_BIN" src/notifySlack.js "$SUMMARY" --level info >/dev/null 2>&1 || true
+fi
 
 # --- ソース変更ガード ---
 # 作業途中の src/templates 等のコードが、無人ジョブに巻き込まれて自動公開される事故を防ぐ。

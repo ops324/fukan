@@ -165,6 +165,18 @@ export const config = {
     ],
   },
 
+  // --- Slack 通知（任意・SLACK_WEBHOOK_URL があれば使用）---
+  // 背景: 通知が macOS のバナーだけだったため、認証切れの通知が4回出ていたのに気づけず
+  // 3日間サイトが更新されない事故が起きた（2026-07-22〜25）。バナーは数秒で消え、集中モードでも
+  // 抑制される。「向こうから届く」経路を1本持つ。未設定なら何もしない（日次は止めない）。
+  // Webhook URL は秘密情報なので .env にのみ置く（コード・ログ・生成物に出さない）。
+  slack: {
+    webhookUrl: process.env.SLACK_WEBHOOK_URL || '',
+    timeoutMs: 5000,
+    // 正常終了時もサマリを送るか。false にすると異常時のみになる。
+    notifyOnSuccess: true,
+  },
+
   // --- ニュース補助ソース（任意・キーがあれば使用）---
   newsapiKey: process.env.NEWSAPI_KEY || '',
   gnewsKey: process.env.GNEWS_KEY || '',

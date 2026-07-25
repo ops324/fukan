@@ -121,6 +121,7 @@ AIニュースサイト/
 │   ├── fetchCandidates.js  # 候補を JSON 出力
 │   ├── fetchNews.js        # RSS/補助API 取得・重複排除・一次情報優先・候補選別の内訳を ledger へ
 │   ├── summaryFetch.js     # 候補の本文補完（robots.txt が許可したドメインのみ・§7 summaryFetch）
+│   ├── notifySlack.js      # Slack 通知（異常＋実行サマリ。未設定なら何もしない・§8）
 │   ├── ingestDrafts.js     # 下書き取込（採番・画像・保存・再生成）
 │   ├── fetchImage.js       # Unsplash/Pexels 画像＋関連度スコアリング（無ければ画像なし）
 │   ├── imageBrands.js      # 記事とサムネのブランド不一致判定（他社ロゴ/UI の写り込みを弾く）
@@ -460,6 +461,12 @@ allowlist ドメイン判定 `pressAllowlistCredit()` は `pressImage.js` から
   `rc=0` に上書きしていたため、**6ラン連続ゼロ・3日間を無言で見逃した**（2026-07-22〜25）。判定順が要。
 - **状態ファイル `data/.status`**（git 管理外）: 最終実行時刻・状態・詳細・連続ゼロ回数を毎ラン上書きする。
   通知バナー（`osascript`）は集中モード等で抑制されうるため、**消えない形でも残す**のが目的。
+- **Slack 通知**（`src/notifySlack.js`・`SLACK_WEBHOOK_URL` があるときだけ）: 異常時は `notify()` から、
+  正常時は実行サマリ（記事数の変化・候補/下書き件数・修正リトライの件数）をランの最後に送る。
+  *背景*: 通知が macOS のバナーだけだったため、**認証切れの通知が4回出ていたのに気づけず3日間停止**した
+  （2026-07-22〜25）。バナーは数秒で消え集中モードでも抑制される。「見に行けば分かる」ではなく
+  **「向こうから届く」経路**を1本持つ。未設定・ネットワーク断・不正 URL のいずれでも**日次は止めない**
+  （通知は常に exit 0）。Webhook URL は秘密情報なので `.env` にのみ置く（`npm run check` の鍵混入検査の対象）。
 - **ソース変更ガード**: commit 前に `src/ templates/ scripts/ prompts/ package.json` の未コミット変更を検査し、
   あれば **auto-commit/push を中止して通知**する（作業途中コードが無人ジョブで自動公開される事故を防ぐ）。
   生成物・`data/` は対象外。クリーンな通常時のみ `git add -A` → commit → push する。
