@@ -29,35 +29,6 @@
     "publishedAt": "2026-07-25T02:29:36.000Z"
   },
   {
-    "slug": "20260725-10",
-    "headline": "スペックス Starship第13次試験打上に成功",
-    "lead": "スペックス（SpaceX）がIPO後初となるStarshipの試験打上に成功、新型Starlink衛星20基をサブオービタル軌道に展開。",
-    "body_markdown": "スペックスは7月24日、テキサス州スターベースから巨大ロケット「Starship」と「Super Heavy」ブースターの13番目の試験打上を実施し、成功させた。これはスペックスが先月IPO（初期公開）で860億ドルの資金調達後、初の試験飛行となる。\n\n打上げから約18分後、スペックスは新型「Starlink V3」衛星20基をサブオービタル軌道に展開することに成功した。展開された衛星は試験目的で宇宙から地上への通信試験が行われたが、意図的な亜軌道軌跡により衛星群は展開後約20分で大気圏に再突入した。Starshipはその後、大きな損傷を受けることなく地球に帰還。試験飛行は全体的に成功裏に終わった。\n\nこの成功に至るまでの道のりは平坦ではなかった。7月16日の試験打上げでは、ブースターのエンジン始動時に保安装置が作動し、試験飛行が中止されていた。市場でのスペックス株は過去5週間のうち4週で下落、6月16日のピーク比で43%下落している。\n\n今回の成功は投資家心理の改善につながる見通しもあり、衛星展開能力の実証により、将来的なStarlinkコンステレーション拡張に向けた基盤が整いつつある。",
-    "tags": [
-      "スペックス",
-      "ロケット",
-      "Starship",
-      "衛星",
-      "宇宙産業"
-    ],
-    "section": "ビジネス",
-    "source": "CNBC",
-    "link": "https://www.cnbc.com/2026/07/24/spacex-launches-massive-starship-rocket-in-first-test-flight-since-ipo.html",
-    "importance": 5,
-    "image_query": "rocket launch spacecraft",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1518364538800-6bae3c2ea0f2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxyb2NrZXQlMjBsYXVuY2glMjBzcGFjZWNyYWZ0fGVufDF8MHx8fDE3ODQ5NTIzOTl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Bill Jelen",
-      "profileUrl": "https://unsplash.com/@billjelen?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash",
-      "alt": "space shuttle",
-      "description": "The first launch of the SpaceX Falcon Heavy rocket."
-    },
-    "mode": "full",
-    "createdAt": "2026-07-25T04:06:39.263Z",
-    "publishedAt": "2026-07-25T02:17:11.000Z"
-  },
-  {
     "slug": "20260725-11",
     "headline": "NASA観測施設がスペイン山火事で一時避難",
     "lead": "スペイン山火事によりNASA・ディープスペースネットワーク複合施設が緊急避難を強いられる。",
