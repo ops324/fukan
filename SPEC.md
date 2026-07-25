@@ -465,7 +465,13 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
 - **claude CLI 認証が切れると定期ジョブは記事を書けない**（トークンは有限寿命なので再発する）。検知は三重にした:
   ①ジョブが認証エラーを検出して復旧手順つきで通知＋`incidents.jsonl` に記録（§8）、②`data/.status` に消えない形で残す、
   ③`npm run check` が最終記事から `config.freshness.staleDays` 日超で**更新停滞を警告**する（非ブロック）。
-  復旧はターミナルで `claude` を起動し `/login`（OAuth 再認証は対話が必要でヘッドレスジョブからは不可）。
+  復旧はターミナルで `claude auth login`（または `claude` を起動して `/login`）。OAuth 再認証は対話が必要で
+  ヘッドレスジョブからは不可。
+  **診断に `claude auth status` を使ってはいけない**——失効中でも `loggedIn: true` を返す（保存された資格情報の
+  「存在」を見ているだけで有効性を検証しない）。実際に生きているかは最小の呼び出しで確かめる:
+  `claude -p "OK とだけ答えてください" --model claude-haiku-4-5-20251001 --strict-mcp-config`。
+  失効していれば `Failed to authenticate. API Error: 401` が返る（2026-07-25 の復旧時、`auth status` の
+  `loggedIn: true` で一度誤診しかけた）。
 - 記事の正本は `data/articles.json`。HTML はそこからの派生（いつでも `npm run build` で `dist/` に再生成可能）。
 - **`loadArticles()` は破損時に throw する（握りつぶさない）**: ファイル不在は正常な初回として `[]` を返すが、
   読込/JSON parse 失敗は `throw`。これが `[]` を返すと load→save 経路（`ingestDrafts`／`set-press-image`／
