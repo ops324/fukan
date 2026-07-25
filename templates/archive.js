@@ -2,7 +2,7 @@
 //   /archive.html            … 月インデックス（各月へのリンク＋件数）
 //   /archive/YYYY-MM.html     … その月の記事一覧（時系列）
 // 低認知負荷方針：シンプル行リストに統一。
-import { ticker, header, footer, page } from './layout.js';
+import { header, footer, page } from './layout.js';
 import { esc } from '../src/markdown.js';
 import { config } from '../src/config.js';
 import { metaLine } from './cardbits.js';
@@ -20,7 +20,7 @@ function feedList(items, href) {
 }
 
 // 月インデックス（/archive.html）。groups = [{ ym, label, items }]（新しい月順）。
-export function renderArchiveIndex(groups, dateLabel, tickerItems = []) {
+export function renderArchiveIndex(groups, dateLabel) {
   const total = groups.reduce((n, g) => n + g.items.length, 0);
   const rows = groups.map((g) => `        <li class="feed-item">
           <a class="feed-item__title" href="archive/${g.ym}.html">${esc(g.label)}</a>
@@ -46,13 +46,13 @@ ${rows || '<li class="feed__empty">まだ記事がありません。</li>'}
   return page({
     title: `アーカイブ | ${esc(config.siteName)}`,
     description: `${esc(config.siteName)} のこれまでの全記事を月別にまとめた一覧。`,
-    body: `${ticker(tickerItems)}${header(dateLabel, 'トップ')}\n\n${main}\n\n${footer()}`,
+    body: `${header(dateLabel, 'トップ')}\n\n${main}\n\n${footer()}`,
     canonicalPath: '/archive.html',
   });
 }
 
 // 月別ページ（/archive/YYYY-MM.html）。group = { ym, label, items }。
-export function renderArchiveMonth(group, dateLabel, tickerItems = []) {
+export function renderArchiveMonth(group, dateLabel) {
   const main = `  <main id="main" tabindex="-1" class="container container--narrow">
 
     <nav class="breadcrumb" aria-label="パンくず">
@@ -79,7 +79,7 @@ ${feedList(group.items, monthHref)}
     base: MONTH_BASE,
     title: `${group.label}の記事 | ${esc(config.siteName)}`,
     description: `${group.label}に ${esc(config.siteName)} 編集部が公開した記事の一覧。`,
-    body: `${ticker(tickerItems)}${header(dateLabel, 'アーカイブ', MONTH_BASE)}\n\n${main}\n\n${footer(MONTH_BASE)}`,
+    body: `${header(dateLabel, 'アーカイブ', MONTH_BASE)}\n\n${main}\n\n${footer(MONTH_BASE)}`,
     canonicalPath: `/archive/${group.ym}.html`,
   });
 }

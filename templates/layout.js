@@ -13,12 +13,6 @@ const FONTS = `  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..500&family=Noto+Serif+JP:wght@500&family=Inter:wght@400;500&family=Noto+Sans+JP:wght@400;500&display=swap">`;
 
-// 旧ティッカー（常時スクロール）は認知負荷・a11y の観点で撤去。
-// 各テンプレが `ticker(...)` を呼ぶ箇所が残るため、空文字を返す薄いスタブとして維持する。
-export function ticker() {
-  return '';
-}
-
 export function header(dateLabel, activeNav = 'トップ', base = '') {
   const nav = [{ name: 'トップ', slug: '' }, ...config.navSections];
   const items = nav

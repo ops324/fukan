@@ -145,13 +145,11 @@ export async function renderSite(rawArticles, { outDir = DIST } = {}) {
   }
 
   const label = dateLabel();
-  // ティッカーに流す最新見出し（架空のベンチ値を廃止し、実データを表示）
-  const tickerItems = byRecency.slice(0, 12).map((a) => a.headline);
 
   // index.html（ルート上書き）
   await writeFile(
     path.join(outDir, 'index.html'),
-    renderIndex(featured, universe, label, archived.length, tickerItems),
+    renderIndex(featured, universe, label, archived.length),
     'utf8',
   );
 
@@ -161,16 +159,16 @@ export async function renderSite(rawArticles, { outDir = DIST } = {}) {
   if (archiveMonths.length) {
     await mkdir(path.join(outDir, 'archive'), { recursive: true });
     for (const g of archiveMonths) {
-      await writeFile(path.join(outDir, 'archive', `${g.ym}.html`), renderArchiveMonth(g, label, tickerItems), 'utf8');
+      await writeFile(path.join(outDir, 'archive', `${g.ym}.html`), renderArchiveMonth(g, label), 'utf8');
     }
-    await writeFile(path.join(outDir, 'archive.html'), renderArchiveIndex(archiveMonths, label, tickerItems), 'utf8');
+    await writeFile(path.join(outDir, 'archive.html'), renderArchiveIndex(archiveMonths, label), 'utf8');
   }
 
   // sections/<slug>.html（ナビ各タブのリンク先・重要度→新着順）
   await mkdir(path.join(outDir, 'sections'), { recursive: true });
   for (const { name, slug } of config.navSections) {
     const items = [...decorated].filter((a) => a.section === name).sort(importanceThenRecency);
-    await writeFile(path.join(outDir, 'sections', `${slug}.html`), renderSection(name, slug, items, label, tickerItems), 'utf8');
+    await writeFile(path.join(outDir, 'sections', `${slug}.html`), renderSection(name, slug, items, label), 'utf8');
   }
 
   // tags/<tag>.html + tags/index.html（タグ→記事の Map を構築）
@@ -184,15 +182,15 @@ export async function renderSite(rawArticles, { outDir = DIST } = {}) {
   }
   for (const [tag, items] of tagMap) {
     items.sort(importanceThenRecency);
-    await writeFile(path.join(outDir, 'tags', `${tag}.html`), renderTag(tag, items, label, tickerItems), 'utf8');
+    await writeFile(path.join(outDir, 'tags', `${tag}.html`), renderTag(tag, items, label), 'utf8');
   }
   const tagEntries = [...tagMap.entries()]
     .map(([tag, items]) => [tag, items.length])
     .sort((x, y) => (y[1] - x[1]) || x[0].localeCompare(y[0], 'ja'));
-  await writeFile(path.join(outDir, 'tags', 'index.html'), renderTagsIndex(tagEntries, label, tickerItems), 'utf8');
+  await writeFile(path.join(outDir, 'tags', 'index.html'), renderTagsIndex(tagEntries, label), 'utf8');
 
   // 法的・運営ページ（about / contact / privacy / terms / editorial / disclaimer）
-  const legalPages = renderLegalPages(label, tickerItems);
+  const legalPages = renderLegalPages(label);
   for (const [file, html] of Object.entries(legalPages)) {
     await writeFile(path.join(outDir, file), html, 'utf8');
   }
@@ -218,7 +216,7 @@ export async function renderSite(rawArticles, { outDir = DIST } = {}) {
   for (let i = 0; i < byRecency.length; i++) {
     const a = byRecency[i];
     const related = relatedFor(a, byRecency, 3);
-    const html = renderArticle(a, related, label, i, tickerItems);
+    const html = renderArticle(a, related, label);
     await writeFile(path.join(outDir, 'articles', `${a.slug}.html`), html, 'utf8');
     count++;
   }
