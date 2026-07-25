@@ -110,6 +110,7 @@ rm -f "$PROJECT_DIR/data/_drafts.json" "$PROJECT_DIR/data/_review.json" \
       "$PROJECT_DIR/data/_image_review_targets.json" "$PROJECT_DIR/data/_image_review.json" \
       "$PROJECT_DIR/data/_drafts.bak.json" "$PROJECT_DIR/data/_fix_targets.json" \
       "$PROJECT_DIR/data/_fix_result.json" "$PROJECT_DIR/data/_review_fixed.json" \
+      "$PROJECT_DIR/data/_lint.json" \
       "$WRITER_LOG"
 
 # 下書き/候補の件数を返すヘルパー（読めなければ 0）。
@@ -177,14 +178,40 @@ CAND_COUNT="$(candidates_count)"
 # --- 2) 査読（judge=別モデル）→ 3) 取り込み。下書きがあるときだけ実行。---
 HAS_DRAFTS="$("$NODE_BIN" -e 'try{const d=require("./data/_drafts.json");process.stdout.write(Array.isArray(d)&&d.length?"1":"0")}catch(e){process.stdout.write("0")}' 2>/dev/null)"
 if [[ "$HAS_DRAFTS" == "1" ]]; then
+  # --- 決定論リント（writer が §3.6 で自ら実行するのと同じ検査を、ここでも必ず走らせる）---
+  # writer が手順を飛ばしても検査が消えないようにするための二重化。判定はしない（警告のみ）。
+  # 結果は judge プロンプトへ「確認の起点」として添付し、件数はログ／Slack サマリに出す。
+  LINT_TEXT="$("$NODE_BIN" src/lintDrafts.js 2>/dev/null)"
+  LINT_COUNT="$("$NODE_BIN" -e 'try{const d=require("./data/_lint.json");process.stdout.write(String(Array.isArray(d)?d.length:0))}catch(e){process.stdout.write("0")}' 2>/dev/null)"
+  [[ "$LINT_COUNT" =~ ^[0-9]+$ ]] || LINT_COUNT=0
+  echo "下書きリント: 要確認 ${LINT_COUNT} 件"
+  if [[ "$LINT_COUNT" -gt 0 ]]; then
+    echo "$LINT_TEXT"
+    printf '{"ts":"%s","type":"draft_lint","flagged":%s,"drafts":%s}\n' \
+      "$(date -u +%FT%TZ)" "$LINT_COUNT" "$(drafts_count)" \
+      >> "$PROJECT_DIR/data/quality/incidents.jsonl"
+  fi
+
   # トークン削減: 低リスク（全 draft が primary かつ客観フラグ無し）なら査読を丸ごとスキップ。
   # media 混在 or 客観フラグ有り（=独立検証が最も要る回）のときだけ judge を走らせる。
   NEED_JUDGE="$("$NODE_BIN" src/evaluate.js --triage 2>/dev/null)"
   if [[ "$NEED_JUDGE" == "1" ]]; then
     echo "高リスクの下書きあり → 別モデル($JUDGE_MODEL)で査読（出典照合・採点, tools制限/MCP無効）"
+    # リントの指摘は judge へ「確認の起点」として渡す（判定の根拠にはさせない）。
+    # 静的解析のレポートをレビュアーに添えるのと同じ位置づけ。空なら何も足さない。
+    LINT_NOTE=""
+    if [[ "$LINT_COUNT" -gt 0 ]]; then
+      LINT_NOTE="## 機械リントの指摘（参考・偽陽性を含む）
+下記は出典を読まずに検出した機械的な疑いです。**判定の根拠にはせず、確認の起点にのみ使ってください。**
+ここに無いから正しい、という意味でもありません（あなた自身の出典照合が判定の根拠です）。
+
+${LINT_TEXT}"
+    fi
     "$CLAUDE_BIN" --model "$JUDGE_MODEL" --dangerously-skip-permissions \
       --tools "$JUDGE_TOOLS" --strict-mcp-config \
-      -p "$(cat "$CRITERIA_PROMPT_FILE" "$REVIEW_PROMPT_FILE")"
+      -p "$(cat "$CRITERIA_PROMPT_FILE" "$REVIEW_PROMPT_FILE")${LINT_NOTE:+
+
+$LINT_NOTE}"
     jrc=$?
     # 失敗時最優先: 日次ジョブを止めない。査読不在なら客観ゲートのみで通常公開し通知。
     if [[ "$jrc" -ne 0 || ! -f "$PROJECT_DIR/data/_review.json" ]]; then
@@ -320,6 +347,8 @@ write_status "$STATUS_STATE" "$STATUS_DETAIL"
 SUMMARY="状態: ${STATUS_STATE}
 記事: ${BEFORE_COUNT} → ${AFTER_COUNT}（追加 ${ADDED} 件）
 候補 ${CAND_COUNT} 件 / 下書き ${DRAFT_COUNT} 件"
+[[ "${LINT_COUNT:-0}" -gt 0 ]] && SUMMARY="${SUMMARY}
+下書きリント: ${LINT_COUNT} 件が要確認"
 [[ "${FIX_COUNT:-0}" -gt 0 ]] && SUMMARY="${SUMMARY}
 修正リトライ: ${FIX_COUNT} 件を差し戻し"
 SUMMARY="${SUMMARY}

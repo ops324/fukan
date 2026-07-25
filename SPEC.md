@@ -613,14 +613,15 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
    - **ツール暴走対策（重要）**: writer は `--tools`（`Bash Read Write Edit WebFetch WebSearch Glob Grep` の allowlist）＋ `--strict-mcp-config`（MCP サーバを全無効化）で起動する。既定のフルツールセットだと `ScheduleWakeup`/`Agent`/`Monitor`/`Workflow` 等のオーケストレーション系や MCP（lazyweb 等）を掴み、線形パイプライン（候補→取材→下書きWrite）から逸脱して**下書き0本で終わる事故**が起きたため（2026-06-26）、必要ツールだけに絞って構造的に防ぐ。可用性制限は `--tools` で行う（`--allowedTools` は自動承認の制御でツール可用性は絞らない）。
    - **リトライ／フォールバック**: 失敗（プロセス異常終了、または「候補ありなのに下書き0本」）時は最大 `WRITER_MAX_TRIES`（既定2＝初回＋1）まで再実行する。過負荷/瞬断には `--fallback-model`（既定 Sonnet）で対応し、可用性を底上げする（通常は Haiku を使う）。
    実行時、`src/qualityDigest.js`（直近8本の客観フラグ集計・決定的・オフライン）の**品質フィードバックをプロンプト末尾へ動的注入**する（前回までの逸脱の是正を促す）。取得失敗時は空＝従来挙動で**日次を止めない**。手動確認は `npm run quality-digest`。
+   下書きを書いたら writer 自身が **`node src/lintDrafts.js`（決定論の検算器）を実行**し、出典を読まずに分かる矛盾を潰してから終了する（§12.7）。
 2. **judge（別モデル `config.judgeModel`＝既定 Sonnet）** `prompts/review-drafts.md` … 出典照合で faithfulness を採点し、`data/_review.json` に
    各下書きの `verdict: pass|veto`＋スコアを出力。judge も writer 同様に `--tools`（`Bash Read Write WebFetch WebSearch`）＋ `--strict-mcp-config` で起動する（迷走防止）。**veto は「明確な事実誤り」で行う**（出典矛盾・数値/単位の改変・更新済み数値の旧値記載・趣旨の取り違え＝過小/過大表現・出典死活・constitution 違反）。事実誤りは `suggestions` で流さず veto し、**迷う事実誤りは veto 寄り**に倒す。一方、体裁・文体・構成の好みでは落とさない（事実が出典と一致していれば pass＋suggestions、迷ったら pass）。
 3. **修正リトライ（任意・`config.fixRound.enabled`）** … judge が `fixable:true` と判定した veto を writer に差し戻し、
    訂正後に**初回と同一の基準**で再査読する。詳細は §12.6。ingest が `_drafts.json`/`_review.json` を消すため**必ず ingest の前**に置く。
 4. **ingest** `src/ingestDrafts.js` … veto を尊重して破棄、画像付与・再生成、評価を **ledger** に追記。
    破棄した下書きは `vetoes.jsonl` に1行残す（失敗の記憶。§12.6）。記録の失敗で公開は止めない。
-- **トークン削減の triage**: judge 呼び出しの前に `node src/evaluate.js --triage` を実行。下書きが**すべて `tier:'primary'` かつ客観フラグ無し**の
-  低リスク回は judge を**丸ごとスキップ**（客観ゲート＋writer 自己批評のみで公開）。`media` 混在 or 客観フラグ有り＝独立検証が最も要る回だけ judge を走らせる。
+- **トークン削減の triage**: judge 呼び出しの前に `node src/evaluate.js --triage` を実行。下書きが**すべて `tier:'primary'` かつ客観フラグ無し
+  かつリント指摘無し**の低リスク回は judge を**丸ごとスキップ**（客観ゲート＋writer 自己批評のみで公開）。`media` 混在 or 客観フラグ有り＝独立検証が最も要る回だけ judge を走らせる。
   `tier` が `primary` と明示されない下書きは risky 扱い（フェイルセーフ）。writer=Haiku のため judge は一段上の **Sonnet** を既定にしている（writer≠judge を保ち、安いHaikuの量産を賢いSonnetが独立検証する分業）。
 - **失敗時最優先＝日次を止めない**: judge がエラー/タイムアウト/スキップでも**ブロックせず**客観ゲートのみで通常公開し（失敗時は通知＋`data/quality/incidents.jsonl` に `judge_absent` を1行記録して後追い分析できるようにする）。
 
@@ -666,7 +667,13 @@ numeric/entity 側に寄せる（writer への指示が「書いた後に突き�
 過去分は `npm run seed-veto-ledger`（既定 dry-run・`--apply`・二重投入を拒む冪等ガードつき）でログから遡及投入する。
 
 **(B) 還流（予防）** — `src/vetoDigest.js` が傾向を writer プロンプトへ注入する（`qualityDigest.js` の CLI で連結。
-注入点 `auto-generate.sh` の `$DIGEST` は不変）。**体裁 digest とは必ず別セクション**にする（母集団も、測るものも、
+注入点 `auto-generate.sh` の `$DIGEST` は不変）。
+**母集団は「初回査読で veto された下書き」全部**（救済されたものを含む）。ledger の行はすべて初回 veto であり、
+救済の有無は結果であって、writer が誤りを犯した事実は変わらない。一時期ここで `outcome:'rescued'` を除いており、
+修正リトライを有効化した途端に writer が見られる失敗が 15件中4件（27%）まで痩せた（2026-07-25 実測）。
+**安全網が働くほど writer が学べなくなる**逆説で、「writer が自分の失敗を見られない構造に戻さない」に反する。
+ただし**救済されたかどうかは writer に見せない**（「直してもらえる」と学ぶと初回精度を上げる動機が消える）。
+救済率は §12.6(C) のとおり stderr にだけ出す。**体裁 digest とは必ず別セクション**にする（母集団も、測るものも、
 是正の性質も違う。混ぜると事実誤りの優先度が下がる）。順序は veto→体裁＝賭け金の大きい順。
 **禁止**: 「veto を N 件未満にせよ」等の目標値を注入しない — 数値を省略してぼかす最悪の最適化を誘発する。是正は必ず手続きで書く。
 
@@ -699,6 +706,36 @@ numeric/entity 側に寄せる（writer への指示が「書いた後に突き�
   **救済率は監視する** — `outcome:'rescued'` の割合を `qualityDigest` が **stderr にだけ**出す（writer に見せると
   「通ればよい」という目標値として作用する）。**100%に張り付くのは執筆改善ではなく再査読のゲーム化のシグナル**で、
   持続的に80%超なら手動監査のうえ `enabled:false` で即停止する。
+
+### 12.7 下書きの決定論リント（writer の検算器）
+
+**背景**: veto の最多カテゴリ（numeric＝約6割）への対策は、これまで**プロンプトの文言だけ**だった。文言は
+「読んだつもり」で素通りできるが、実行される検査は素通りできない。2026-07-25 に差し戻された4件を調べると、
+うち3件は**出典を読まなくても機械的に疑える形**をしていた（リードだけが主張する数値／同一記事内の比率の
+食い違い／別記事の固有名詞の混入）。そこで writer 自身が実行する検算器 `src/lintDrafts.js` を置く。
+
+- **検査（すべて出典不要・決定論・オフライン）**:
+  | code | 何を見るか | 由来した事故 |
+  |---|---|---|
+  | `summary-only-number` | 見出し・リードの数量が本文に無い | 見出し「20万人超が避難」が本文の内訳と繋がらない／別記事の「Brent原油100ドル」がリードに混入 |
+  | `ratio-conflict` | 同一記事内で比率表現が食い違う（要約層が比率を主張しているときだけ） | リード「Fable 5の半値」× 本文「およそ3分の1」 |
+  | `currency-conversion` | 出典が日本語圏でないのに円建ての数値がある | 為替レートは出典に無い＝自分で換算すれば出典外の数値になる |
+  | `composite-char` | 全角合成文字（㌦㌫㌧ 等） | 表記ルールの機械化 |
+  | `crosstalk` | **同じ回の別記事にしか出ない稀語**が、この記事には1回だけ出る | Trump 関税記事に別記事の「Brent」が入った／Etched の記事に EquiLibre の創業者・所在地 |
+- **混入検出のノイズ抑制**: 直近 `config.draftLint.corpusRecent` 本の公開記事から**文書頻度**を作り、
+  `corpusDfMax` 本以上に出る語（「データセンター」「Nvidia」等のサイト常出語）は判定から外す。
+  実測（2026-07-26・公開済み200本）: 除外なしだと指摘81件／除外ありで15件。実際の混入語は df=0 なので残る。
+- **位置づけ（重要）**: これは **judge の出典照合を代替しない**。前段で「出典を読まずに分かる矛盾」を落とし、
+  judge を本質的な照合へ集中させるためのもの。すべて**警告**で公開はブロックしない（CLI は常に exit 0）。
+- **二重化**: writer がプロンプトの手順（§3.6）を飛ばしても検査が消えないよう、`auto-generate.sh` も ingest 前に
+  同じ検査を実行する。指摘があれば ①ログと Slack サマリに件数 ②`incidents.jsonl` に `draft_lint`
+  ③judge プロンプトへ「**確認の起点**（判定の根拠にしない・偽陽性を含む・ここに無いから正しいわけでもない）」として添付。
+  さらに `evaluate.js --triage` は**リント指摘があれば必ず judge を走らせる**（安く疑えたものを独立検証に回す）。
+- **誤った直し方の封じ込め**: 指摘の解消を「数値・固有名詞を削る」で行わせない。CLI の出力・両プロンプトに
+  「削除・曖昧化での辻褄合わせは訂正ではなく回避（再査読で veto）」「出典に無い記述のときだけ削除が正しい訂正」を明記する。
+- **退行検査**: `npm run check` の `checkDraftLint()` が、上表の事故形を再現した合成下書きを通し、
+  4つの code が今も検出されることを hard-fail で確認する（サニタイザ検査と同じ方式）。
+  安全弁 `config.draftLint.enabled=false` の間は警告に落とす（安全弁を引いたら check が赤になる逆転を避けるため）。
 
 ---
 

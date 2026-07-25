@@ -51,14 +51,23 @@ const LABEL = {
 
 // rows は readVetoes() の結果（新しい順）。writer プロンプトへ注入するテキストを返す。
 export function buildVetoDigest(rows) {
+  // 母集団は「初回査読で veto された下書き」全部。ledger の行は救済（rescued）されたものも
+  // 含めて**すべて初回 veto**であり、writer が実際に犯した誤りの記録である。
+  //
+  // ここで rescued を除いていた時期があり、修正リトライ（fixRound）を入れた途端に writer への
+  // フィードバックが痩せた: 2026-07-25 の 15 件中 11 件（73%）が救済され、writer は自分の失敗の
+  // 4 件しか見られなくなっていた。**安全網が働くほど writer が学べなくなる**という逆説で、
+  // 「writer が自分の失敗を見られない構造に戻さない」(CLAUDE.md) に反する。母集団に戻す。
+  //
+  // 救済されたかどうか（結果）は writer に見せない——「直してもらえる」と学ぶと初回の精度を
+  // 上げる動機が消える。見せるのは誤りの型と是正手順だけ。救済率は stderr（人間向け）に出す。
   const list = Array.isArray(rows) ? rows : [];
-  // 母集団は「実際に捨てられた」もの。救済された記事（rescued）は失敗例ではないので除く。
-  const discarded = list.filter((r) => r?.outcome !== 'rescued');
-  if (!discarded.length) return '';
+  const vetoed = list.filter((r) => r && typeof r === 'object');
+  if (!vetoed.length) return '';
 
   const { minCount, maxCategories, maxChars } = config.vetoDigest;
   const counts = new Map();
-  for (const r of discarded) {
+  for (const r of vetoed) {
     for (const c of r?.categories || []) counts.set(c, (counts.get(c) || 0) + 1);
   }
   const top = [...counts.entries()]
@@ -69,7 +78,7 @@ export function buildVetoDigest(rows) {
 
   const lines = [];
   for (const [cat, n] of top) {
-    const pct = Math.round((n / discarded.length) * 100);
+    const pct = Math.round((n / vetoed.length) * 100);
     const label = LABEL[cat] || cat;
     lines.push(`- **${label}: ${n}本（${pct}%）**`);
     for (const g of VETO_GUIDANCE[cat] || []) lines.push(`  → ${g}`);
@@ -77,7 +86,7 @@ export function buildVetoDigest(rows) {
 
   const out = [
     '## 直近の不採用（veto）傾向 — 今回の執筆で最優先に潰すこと',
-    `直近${config.vetoDigest.windowDays}日で査読が ${discarded.length} 本を不採用にしました（＝公開されず捨てられた）。原因の内訳:`,
+    `直近${config.vetoDigest.windowDays}日で査読が ${vetoed.length} 本を不採用（veto）にしました。原因の内訳:`,
     ...lines,
     '',
     '注意: これらの是正は「数値や固有名詞を書かない」ことでは達成されない。**正確に書く**ことで達成する。',
