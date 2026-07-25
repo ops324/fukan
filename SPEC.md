@@ -141,7 +141,13 @@ AIニュースサイト/
   "tags": ["…"],                    // 日本語タグ 3〜5個
   "section": "AI",                  // セクション（navSections 推奨。旧カテゴリは sectionAliases で正規化）
   "source": "OpenAI",               // 出典名
-  "link": "https://…",              // 出典URL（冪等キー）
+  "link": "https://…",              // 出典URL（冪等キー）＝主出典
+  "sources": [{ "url": "https://…", "name": "Reuters" }],
+                                    // 裏取りに使った2次媒体（任意・レガシー記事には無い＝後方互換）。
+                                    // 出典本文を取得できないときに参照した報道を記録し、記事ページの
+                                    // 出典欄へ併記して読者が検証できるようにする（§5「複数出典の明示」）。
+                                    // 取り込み時に config.trustedSecondary 外のホスト・壊れたURL・
+                                    // 主出典の重複を落とす（ingestDrafts.normalizeSources・上限4件）。
   "importance": 4,                  // 重要度 1〜5（編集序列に使用）
   "image_query": "data center servers", // Claude が決めた画像検索ワード（内容準拠）
   "image": { "imageUrl": "…", "photographer": "…", "profileUrl": "…", "provider": "unsplash",
@@ -178,6 +184,10 @@ AIニュースサイト/
 | 関連記事 | 「あわせて読みたい」はタグ共有×3＋同セクション×2 でスコアし上位3件。不足は重要度で補完。 | `render.js: relatedFor` |
 | 保持とアーカイブ | トップは最新 N 本。超過分は**月別アーカイブ**へ（`archive.html`＝月インデックス、`archive/YYYY-MM.html`＝各月一覧。記事増でも1ページが肥大しない）。月分けは `publishedAt` 基準。記事HTMLは全保持。 | `retentionTop`=40, `templates/archive.js` |
 | 掲載数 | 1回最大25本 × 1日2回（6/18時）= 最大約50本/日（網羅型）。床を越えた分だけ載せるため実際はこれ以下。床を越える候補が無い回は無理に載せない。 | `maxArticles`, スケジュール |
+| **出典が読めないときの手順** | 出典の約3割は自動取得できない（§11）。**想像で埋めない**。①候補の `summary`（出典サイト自身が配信した RSS 要約）で書ける範囲を書く ②足りなければ `trustedSecondary` の報道機関で裏取りし、**使った媒体を `sources[]` に記録** ③どれでも確認できない事実は書かない（450字に届かないならその候補を選ばない）。 | `trustedSecondary`, `prompts/generate-articles.md` |
+| **複数出典の明示** | 他媒体を参照すること自体は正しい取材だが、**参照したなら読者に見せる**のが条件。`sources[]` は記事ページの出典欄に併記され、本文でも帰属を示す（例:「ロイターによると〜」）。記録せず他所の数値を書くのは veto 事由——`link` を掲げながらそこに無い数値を載せると読者が検証できない。 | `templates/article.js: sourceCard`, `prompts/_veto-criteria.md` |
+| **固有名詞の表記** | 企業名・製品名・人名は**出典の表記をそのまま**使う。原綴りがあるものは原綴りで書き、独自にカタカナ化しない（`SpaceX` を「スペックス」と書かない）。見出し・リードも揃える。逸脱は veto 事由（読者が別の対象と誤認するため体裁ではなく事実の問題として扱う）。 | `prompts/generate-articles.md`, `prompts/_veto-criteria.md` |
+| **二重掲載の防止** | 同じ出来事を出典違いで複数本出さない。`link` 重複排除は同一URLしか捕まえないため、取り込み時に**特徴語の包含率**でも判定する（§11）。 | `dupBlockContainment`, `dupBlockMinShared`, `ingestDrafts` |
 
 重要度ルブリック: 5=業界を変える重大発表 / 4=主要企業の新製品・大型調達・注目研究 / 3=標準 / 1〜2=些末（掲載しない）。
 
@@ -357,6 +367,10 @@ allowlist ドメイン判定 `pressAllowlistCredit()` は `pressImage.js` から
 | `analytics.token` | 空（`CF_BEACON_TOKEN`） | Cloudflare Web Analytics の beacon トークン。空なら出力しない |
 | `thumbVariants` | CSS抽象サムネ6種 | 実写真が無いときのフォールバック（`styles.css` のグラデクラス） |
 | `navSections` | 総合10セクション（AI/テクノロジー/サイエンス/ビジネス/経済・マネー/政治/国際・地政学/カルチャー/エンタメ/ライフ・キャリア） | ナビ生成元。各要素は `slug`（`sections/<slug>.html`）と `hue`（OKLCH 色相）を持つ。総合ニュース化で旧 AI 細分類から再編。`section` 値自体は自由でナビ外でも記事ページは生成 |
+| `trustedSecondary` | 通信社・主要報道・学術系 約40ドメイン | 出典本文を取得できないときに**裏取りへ使ってよい2次媒体**。ここに無いホスト（ブログ・まとめ・SNS・出所不明）は取り込み時に `sources[]` から落とされる。判定は「それ自身 or そのサブドメイン」（`pressImage.allowlist` と同じ規則） |
+| `qualityThresholds.dupBlockContainment` | 0.8 | 二重掲載として**取り込みをブロック**する特徴語の包含率。実測でこの閾値でないと対象ケース（0.83）を逃す |
+| `qualityThresholds.dupBlockMinShared` | 3 | 同時に要求する共通特徴語の数。特徴語1〜2語での誤ブロックを防ぐ |
+| `qualityThresholds.dupBlockJaccard` | 0.78 | 「見出しがほぼ同一」のケース用に併置する従来型の閾値（警告用 `dupJaccardMax`=0.6 より高い） |
 | `freshness.staleDays` | 2 | `npm run check` が「最終記事からの経過日数」を警告するしきい値（非ブロック）。1日2回稼働なので 2日＝4ラン分の空振り。自動ジョブの無言停止に手作業時も気づくための最後の砦（§11） |
 | `sectionAliases` | 旧7カテゴリ → `AI` | 旧 AI 細分類（産業応用/研究/基盤モデル/規制・倫理/スタートアップ/ハードウェア/開発）を navSections へ正規化。ingest 自動＋`npm run migrate-sections`。旧ラベルはタグへ退避（§編集・運用「カテゴリ正規化」） |
 
@@ -472,6 +486,21 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
   `claude -p "OK とだけ答えてください" --model claude-haiku-4-5-20251001 --strict-mcp-config`。
   失効していれば `Failed to authenticate. API Error: 401` が返る（2026-07-25 の復旧時、`auth status` の
   `loggedIn: true` で一度誤診しかけた）。
+- **出典の約3割は自動取得できない**（2026-07-25 実測 292/993本）。Guardian(77)・Verge(59)・BBC(37) は bot 拒否、
+  openai.com(58)・CNBC(46) は 403、Variety(15) は TollBit の課金ゲートで**ブラウザでも読めない**。
+  いずれも障害ではなく**「AI に読ませたくない」という意思表示**であり、**UA 偽装での回避は取らない**
+  （このサイト自身が `robots.txt` を出す側でもある）。業界標準は ①ライセンス契約 ②RSS の範囲に留める
+  ③一次情報を厚くする、の3つで、本サイトの「アグリゲーター型短評」は元々②に一致する。
+  対処は §5「出典が読めないときの手順」「複数出典の明示」。
+  *背景*: judge はこの3割で出典照合ができず、writer も読めない出典から550〜750字を書いていた。
+  veto 理由の21%が「出典にない事実の創作」だったのはこれが一因。
+- **二重掲載は類似度だけでは捕まらない**。`link` 重複排除は同一URLしか見ず、日本語の文字 bigram による
+  話題類似度は**表記揺れに弱い**。同じ Starship 試験飛行を「スペックス Starship第13次…」と
+  「SpaceX Starship第13次…」で書いた2本の Jaccard は **0.278** で、警告閾値 0.6 にも届かなかった
+  （誤表記が重複検出そのものを無力化した）。一方**見出し＋リードの英数字トークン（固有名詞・型番・序数）の
+  包含率は 0.83** と明確に出る。よって取り込みブロックは包含率を主、Jaccard を従にしている
+  （`evaluate.js: featureTokens / maxFeatureContainment`）。導入時の全数照合で既存に19件の
+  二重掲載が見つかり、13本を整理した（一次情報の出典を残す）。
 - 記事の正本は `data/articles.json`。HTML はそこからの派生（いつでも `npm run build` で `dist/` に再生成可能）。
 - **`loadArticles()` は破損時に throw する（握りつぶさない）**: ファイル不在は正常な初回として `[]` を返すが、
   読込/JSON parse 失敗は `throw`。これが `[]` を返すと load→save 経路（`ingestDrafts`／`set-press-image`／
@@ -580,8 +609,19 @@ numeric/entity 側に寄せる（writer への指示が「書いた後に突き�
 - **判定基準は `prompts/_veto-criteria.md` に切り出し**、初回・再査読の両方へシェルが `cat` で合成する。
   バイト単位で同一の基準文が入るため「再査読だけ緩む」ドリフトが構造的に起きない。再査読には初回 critique を**渡さない**
   （「指摘が直ったか」ではなく「出典と一致するか」を独立に判定させる）。
-- **`fixHint` は出典側の事実指摘のみ**。judge に修正文を書かせない — 次ラウンドで judge が自作を査読することになり
+- **`fixHint` は事実指摘のみ**。judge に修正文を書かせない — 次ラウンドで judge が自作を査読することになり
   `writer≠judge` が実質崩壊するため。`fixable:true` は判定を緩めない（依然 veto。再査読を通らない限り公開されない）。
+- **訂正の根拠は「読者が辿れる形」で示せるものに限る**（2026-07-25 の事故を受けて強化）。`fixable:true` にしてよいのは
+  ①`link` を取得できた ②候補の `summary` で確認できた ③`trustedSecondary` の媒体で確認できた（**媒体名と URL を
+  `fixHint` に添え、writer が `sources[]` に記録する**）のいずれか。どれでも確定できなければ `fixable:false`。
+  **他媒体の使用は禁じない。出所を隠すことだけを禁じる。**
+  *背景*: 初回の実運用で、BBC（bot 拒否）を出典とする記事に対し judge が WebSearch で得た別ソースの数値を
+  `fixHint` に書き、writer がそれで本文を書き換えた。記事は「BBC を出典に掲げながら BBC と異なる避難者数を
+  載せる」状態になり、読者が検証できなくなった。さらに writer は本文の内訳に合わせて**リードの合計値を
+  下げて**おり、これは訂正ではなく改変にあたる。よって「全体値を内訳に合わせて動かすこと」「合計を自分で
+  足し算して作ること」も明示的に禁止した（`fix-drafts.md` / `review-fixed.md`）。
+- 修正ラウンドで変更してよいのは `headline`/`lead`/`body_markdown`/`tags`/`sources` の5つのみ。
+  `sources` が可変なのは他媒体で裏取りしたときに出所を追記させるため（信頼リスト外は `normalizeSources` が落とす）。
 - **安全装置 `src/mergeFixReview.js`（決定論・LLM 不使用）**: `ingestDrafts.js` は `_drafts.json` の parse 失敗で
   `process.exit(1)` するため、fix-writer が JSON を壊す/記事を落とすと **pass 記事まで巻き添えで全滅**する
   （しかも writer プロンプトには「直しきれない記事は外す」という既存の指示があり癖が転移しうる）。そこで
