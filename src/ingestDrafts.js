@@ -92,6 +92,10 @@ for (const d of drafts) {
         scores: rv.scores,
         overall: rv.overall,
         flags: evaluateArticle(d, store).flags,
+        // judge がその出典を実際に読めたか。**検査バイアスの測定に要る**——出典を読めなかった
+        // 記事は誤りがあっても検出されず veto に上がらないため、これを pass 側にも記録して
+        // 初めて「読めた記事」と「読めなかった記事」の品質を比較できる（SPEC §11）。
+        ...(rv.sourceFetched != null ? { sourceFetched: rv.sourceFetched } : {}),
         ...(rv.fixable != null ? { fixable: rv.fixable, fixHint: rv.fixHint } : {}),
         // 修正リトライを経てなお veto された＝救済に失敗した回（救済率の分母になる）。
         ...(rv.fixAttempted ? { stage: 'refix' } : {}),
@@ -181,6 +185,9 @@ if (!created.length) {
         ...objective,
         source: rv ? 'merged' : 'objective',
         ...(rv ? { scores: rv.scores, overall: rv.overall, critique: rv.critique, suggestions: rv.suggestions } : {}),
+        // pass 側にも記録するのが要点。veto だけ見ると「読めない出典は veto が少ない＝品質が良い」と
+        // 誤読してしまう（実際は検査できていないだけ）。両方揃って初めて比較できる。
+        ...(rv?.sourceFetched != null ? { sourceFetched: rv.sourceFetched } : {}),
       });
       // 一度 veto され、修正リトライで救済された記事。veto ledger にも結果を残し、
       // 救済率（rescued / (rescued + discarded)）を同じファイルから測れるようにする。

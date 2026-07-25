@@ -21,8 +21,13 @@
    - **本文の事実が `link` にも `sources[]` にも見当たらない**なら、writer が出所を隠して他所から持ち込んだ疑いが強い。
      読者が検証できないので veto 事由（判定基準を参照）。逆に `sources[]` に記録され本文でも帰属が示されていれば、
      他媒体の事実を使っていること自体は問題ない。
-2. **ルブリック採点**: `config.rubric` の各次元（faithfulness/structure/neutrality/headline/originality/japanese）を **1〜5** で採点する。
-3. **不変条項（constitution）違反の確認**: `config.constitution` に反していないか（創作・数値改変・全文転載・煽り・出典逸脱）。
+2. **記事間の取り違えチェック（あなたにしかできない）**: あなたは全下書きを一度に見ている**唯一の層**です。
+   ある下書きの人名・社名・所在地・金額・従業員数・投資家名が、**同じ回の別の下書きの内容と入れ替わっていないか**を
+   横断的に確認する。実際に繰り返し起きている事故で、実例は「Etched の記事に EquiLibre（同じ回の別記事）の
+   創業者・所在地・従業員数が丸ごと入っていた」「Anthropic の記事に OpenAI の製品名が入っていた」。
+   **似た分野の記事が並んだ回ほど起きやすい**。該当すれば出典に無い記述なので veto。
+3. **ルブリック採点**: `config.rubric` の各次元（faithfulness/structure/neutrality/headline/originality/japanese）を **1〜5** で採点する。
+4. **不変条項（constitution）違反の確認**: `config.constitution` に反していないか（創作・数値改変・全文転載・煽り・出典逸脱）。
 
 ## 判定（verdict）
 判定基準は**このプロンプトの冒頭に添付された「## 判定（verdict）」節**（`prompts/_veto-criteria.md`）に従う。
@@ -76,8 +81,14 @@ veto した下書きは、**修正ラウンド**（別プロセスの writer が
   "critique": "判定理由を1〜2文（特に veto 時は出典との不一致点を具体的に）",
   "suggestions": ["改善提案を0〜3個（任意）"],
   "fixable": "veto のときだけ true/false（pass のときは省略可）",
-  "fixHint": "fixable:true のときだけ。出典側の正しい事実を1〜2文（修正文は書かない）"
+  "fixHint": "fixable:true のときだけ。出典側の正しい事実を1〜2文（修正文は書かない）",
+  "sourceFetched": "その link の本文を実際に取得して読めたか（true/false）。pass・veto の両方で必ず返す"
 }
 ```
+- **`sourceFetched` は必ず全件に付ける**（pass も veto も）。これは判定ではなく**観測**のためのフィールドです。
+  出典を読めなかった記事は誤りがあっても検出できず、veto にも上がらない——つまり「読めない出典の記事は
+  veto が少ない」ように見えてしまう（検査していないだけ）。`sourceFetched` を pass 側にも記録して初めて、
+  「出典を読めた記事」と「読めなかった記事」の品質を比較できるようになります。**正直に返してください。**
+  RSS の `summary` や別媒体で裏取りしただけの場合は `false` です（`link` 本文を読めたときだけ `true`）。
 
 最後に、各下書きの `verdict` と `overall` を一覧で簡潔に報告して終了する。**取り込み（ingestDrafts）は実行しない。**

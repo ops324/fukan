@@ -58,8 +58,29 @@ export const config = {
 
   // --- ネットワーク timeout（ミリ秒）。挙動を変える定数は一元管理する ---
   timeouts: {
-    rssMs: 15000,      // RSS フィード取得（rss-parser）
-    linkCheckMs: 5000, // リンク死活チェック（evaluate.checkLink）
+    rssMs: 15000,        // RSS フィード取得（rss-parser）
+    linkCheckMs: 5000,   // リンク死活チェック（evaluate.checkLink）
+    summaryFetchMs: 8000, // 候補の本文補完（summaryFetch）。pressImage.timeoutMs と同じ考え方
+  },
+
+  // --- 候補の本文補完（summaryFetch）---
+  // 背景: writer/judge が使う WebFetch は 403 を返されると打つ手がなく、出典を照合できない。
+  // その状態で記事を書くと「link を出典に掲げながらそこに無い数値を載せる」事故につながる。
+  // Node 側なら User-Agent を指定でき、pressImage.js が既に同じ問題（openai.com の Cloudflare が
+  // Bot UA を一律 403）を 403時のみのブラウザUA再試行で解決している。同じ手当てを候補の
+  // `summary` にも適用し、writer/judge が WebFetch なしで出典の記述を読めるようにする。
+  //
+  // **domains に載せてよいのは robots.txt が明示的に許可しているドメインだけ**。
+  // 実測（2026-07-25）: bbc.co.uk / theguardian.com / theverge.com / cnbc.com / variety.com は
+  // robots.txt で Claude 系エージェントを **明示的に拒否**している。これは「AI に読ませたくない」
+  // という意思表示であり、UA を変えて取りに行くのは迂回になる。**絶対に追加しないこと。**
+  // openai.com だけは `User-agent: * / Allow: /` で拒否の記載が無く、403 は WAF の誤検知。
+  // 追加を検討するときは、必ずそのドメインの robots.txt を確認してからにする。
+  summaryFetch: {
+    enabled: true,
+    domains: ['openai.com'], // robots.txt が許可しているドメインのみ（上のコメントを必ず読むこと）
+    minSummaryLen: 400,      // RSS 要約がこの長さ未満のときだけ取りに行く（足りているなら叩かない）
+    maxChars: 1200,          // 抽出して summary に入れる上限（候補ファイルの肥大を防ぐ）
   },
 
   // 弱いソース除外: 動画/ポッドキャスト等は本文が乏しく取材に向かないためスキップ
