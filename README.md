@@ -51,10 +51,16 @@ open index.html
 
 和文を明示的にペアリング（成り行きフォールバックを排除）。
 
-| 役割 | フォント |
-|---|---|
-| 見出し（Serif） | **Fraunces**（ラテン・可変） × **Noto Serif JP**（和文・明朝） |
-| 本文・UI（Sans） | **Inter**（ラテン） × **Noto Sans JP**（和文・ゴシック） |
+| 役割 | フォント | ウェイト |
+|---|---|---|
+| 見出し（Serif） | **Fraunces**（ラテン・可変 opsz 9..144） × **Noto Serif JP**（和文・明朝） | 400–500 / 500 |
+| 本文・UI（Sans） | **Inter**（ラテン） × **Noto Sans JP**（和文・ゴシック） | 400,500 / 400,500 |
+
+読み込むウェイトは CSS が実際に使うものだけに絞る（和文フォントは1ウェイトでも重い）。
+`grep font-weight assets/styles.css` で 400/500 しか使っていないことを確認できる。
+
+日本語の組み方は SPEC.md §7.5「日本語組版」を参照——`palt`（約物のアキ詰め）、
+`word-break: auto-phrase`（文節折り返し）、`tabular-nums`（桁揃え）、和欧の字間分離。
 
 ### スペーシング
 
