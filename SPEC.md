@@ -31,19 +31,30 @@
 ```
 launchd（毎日 6:00 / 18:00）
   └─ scripts/auto-generate.sh
-       └─ claude --dangerously-skip-permissions -p prompts/generate-articles.md
-            ① node src/fetchCandidates.js
-                 RSS取得 → 重複排除 → 弱いソース除外 → 一次情報優先で並べ
-                 → data/_candidates.json（候補プール、既定140件）
-            ② Claude が編集判断・取材・執筆（セッション内）
-                 - 候補を重要度1〜5で採点、3以上を最大25件選別（床を越えた分だけ・可変）、類似は統合
-                 - 元記事を WebFetch で読み、数値を WebSearch で裏取り
-                 → data/_drafts.json（下書き）
-            ③ node src/ingestDrafts.js
-                 slug採番 → 画像取得 → 重複排除 → data/articles.json 保存
-                 → render（dist/ へ：index / archive（月インデックス＋archive/YYYY-MM）/ articles/* / sections/* / tags/*
-                           / 法的6ページ / search-index.json / sitemap.xml
-                           / robots.txt / feed.xml / feed.xsl）※ dist は gitignore のため commit されない
+       ① writer（claude・config.writerModel＝Haiku）← prompts/generate-articles.md
+            node src/fetchCandidates.js
+              RSS取得 → 重複排除 → 弱いソース除外 → AI関連度足切り
+              → 本文補完（summaryFetch・robots許可ドメインのみ）→ 一次情報優先＋セクションround-robin
+              → data/_candidates.json（候補プール・既定140件／選別の内訳は incidents.jsonl へ）
+            候補を重要度1〜5で採点し3以上を最大25件選別（床を越えた分だけ・可変）、類似は統合
+            取材（WebFetch／読めなければ候補のsummary→trustedSecondaryで裏取りしsources[]に記録）→ 執筆
+              → data/_drafts.json（下書き）
+            ※ 直近の veto 傾向と体裁逸脱（qualityDigest）をプロンプト末尾へ動的注入
+       ② judge（claude・config.judgeModel＝Sonnet）← _veto-criteria.md + review-drafts.md
+            ※ node src/evaluate.js --triage が 1 のときだけ起動（全件primary＋フラグ無しならスキップ）
+            出典照合（link → 候補summary → sources[]）→ 記事間の取り違えを横断チェック
+            → ルブリック採点・veto判定・fixable/fixHint・sourceFetched
+              → data/_review.json
+       ③ 修正リトライ（config.fixRound.enabled・**1回限り**・§12.6）
+            prepareFixRound（対象抽出＋バックアップ）→ fix-writer（Haiku）→ 再査読（Sonnet・**基準は初回と同一**）
+            → mergeFixReview（決定論の検証・違反は原状復帰・_review.json へ統合）
+       ④ node src/ingestDrafts.js
+            veto破棄（理由を vetoes.jsonl へ）→ 二重掲載ブロック → slug採番 → 画像取得 → data/articles.json 保存
+            → render（dist/ へ：index / archive（月インデックス＋archive/YYYY-MM）/ articles/* / sections/* / tags/*
+                      / 法的6ページ / search-index.json / sitemap.xml
+                      / robots.txt / feed.xml / feed.xsl）※ dist は gitignore のため commit されない
+            → 評価を ledger へ（evaluations.jsonl / runs.jsonl）
+       ⑤ 画像一致の LLM 査読（境界スコアの新規stock画像があるときだけ・既定OFF・§6.3）
        └─ 健全性チェック（認証切れ → 記事数増減・exit code の順に判定）→ 異常なら macOS 通知＋data/.status
        └─ 変更があれば git commit & push（実質 data/articles.json の差分のみ）→ Vercel が npm run build でデプロイ
             ※ 認証切れのランは記事ゼロ＝公開すべき変更なしなので commit/push ごとスキップ
@@ -82,18 +93,34 @@ AIニュースサイト/
 │   ├── brand-photos.json   # ブランド写真の索引（写真スラッグ→ブランド。refresh-brand-photos が生成）
 │   ├── _candidates.json    # 一時: 候補プール（実行後に掃除）
 │   ├── _drafts.json        # 一時: Claude の下書き（実行後に掃除）
+│   ├── _review.json        # 一時: judge の判定（verdict/scores/fixable/sourceFetched）
+│   ├── _drafts.bak.json    # 一時: 修正リトライ前のバックアップ（原状復帰に使う・§12.6）
+│   ├── _fix_targets.json   # 一時: 修正対象（link/headline/critique/fixHint。scores は渡さない）
+│   ├── _fix_result.json    # 一時: fix-writer の自己申告（fixed | unfixable）
+│   ├── _review_fixed.json  # 一時: 再査読の結果（mergeFixReview が _review.json へ統合）
+│   ├── quality/            # 評価 ledger（§12.4）
+│   │   ├── evaluations.jsonl # 1記事1評価（客観指標＋judge 結果＋sourceFetched）
+│   │   ├── vetoes.jsonl      # 不採用にした下書き（critique 原文・categories・救済結果）
+│   │   ├── runs.jsonl        # 実行ごとのサイト集計
+│   │   └── incidents.jsonl   # 運用イベント（judge_absent / auth_failed / candidates 等）
 │   ├── .health             # 一時: 新規ゼロの連続回数（監視用・git管理外）
 │   ├── .status             # 一時: 最終実行の状態サマリ（人間が読む・git管理外）
 │   ├── _writer.log         # 一時: writer 出力の退避（認証エラー検査用・実行後に掃除）
 │   └── scheduler.log       # 定期実行ログ
 ├── prompts/
-│   └── generate-articles.md # Claude への執筆指示（編集方針を内包）
+│   ├── generate-articles.md # writer への執筆指示（編集方針を内包）
+│   ├── _veto-criteria.md    # veto 判定基準の**正本**。初回査読と再査読の両方へ cat で合成する
+│   ├── review-drafts.md     # judge への初回査読指示（出典照合・採点・fixable 判定）
+│   ├── fix-drafts.md        # 修正リトライ: writer への訂正指示（§12.6）
+│   ├── review-fixed.md      # 修正リトライ: judge への再査読指示（基準は初回と同一）
+│   └── review-images.md     # 画像一致の LLM 査読（境界スコアのみ・既定OFF・§6.3）
 ├── scripts/
 │   └── auto-generate.sh    # launchd ラッパー（ヘッドレス Claude を起動）
 ├── src/
 │   ├── config.js           # 設定（フィード・件数・閾値・画像）
 │   ├── fetchCandidates.js  # 候補を JSON 出力
-│   ├── fetchNews.js        # RSS/補助API 取得・重複排除・一次情報優先
+│   ├── fetchNews.js        # RSS/補助API 取得・重複排除・一次情報優先・候補選別の内訳を ledger へ
+│   ├── summaryFetch.js     # 候補の本文補完（robots.txt が許可したドメインのみ・§7 summaryFetch）
 │   ├── ingestDrafts.js     # 下書き取込（採番・画像・保存・再生成）
 │   ├── fetchImage.js       # Unsplash/Pexels 画像＋関連度スコアリング（無ければ画像なし）
 │   ├── imageBrands.js      # 記事とサムネのブランド不一致判定（他社ロゴ/UI の写り込みを弾く）
@@ -108,7 +135,14 @@ AIニュースサイト/
 │   ├── renderOnly.js       # 再描画のみ
 │   ├── check.js            # 公開前チェック（render完走/スキーマ/鍵混入）
 │   ├── store.js            # articles.json 読み書き・slug採番
-│   └── markdown.js         # md→html / エスケープ / 本文の生HTML・危険プロトコル無害化
+│   ├── markdown.js         # md→html / エスケープ / 本文の生HTML・危険プロトコル無害化
+│   ├── evaluate.js         # 客観評価・ledger 追記・有界化・二重掲載の特徴語判定（§12.1）
+│   ├── qualityDigest.js    # 直近の逸脱と veto 傾向を writer プロンプトへ還流（§12.6）
+│   ├── vetoLedger.js       # veto の記録と critique の分類（data/quality/vetoes.jsonl）
+│   ├── vetoDigest.js       # veto 傾向 → writer への是正指示テキスト
+│   ├── seedVetoLedger.js   # 過去の veto を scheduler.log から遡及投入（冪等・既定 dry-run）
+│   ├── prepareFixRound.js  # 修正リトライの対象抽出とバックアップ（§12.6）
+│   └── mergeFixReview.js   # 修正結果の検証・原状復帰・再査読の統合（決定論の安全装置）
 ├── templates/
 │   ├── layout.js           # header(ナビ・検索)/footer/page 骨格・解析（ticker は空スタブ）
 │   ├── cardbits.js         # 共有: メタ行 metaLine()/isoDate() / 中立カテゴリラベル sectionChip() / tagHref() / optimizedUrl()
