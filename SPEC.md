@@ -526,7 +526,10 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
    実行時、`src/qualityDigest.js`（直近8本の客観フラグ集計・決定的・オフライン）の**品質フィードバックをプロンプト末尾へ動的注入**する（前回までの逸脱の是正を促す）。取得失敗時は空＝従来挙動で**日次を止めない**。手動確認は `npm run quality-digest`。
 2. **judge（別モデル `config.judgeModel`＝既定 Sonnet）** `prompts/review-drafts.md` … 出典照合で faithfulness を採点し、`data/_review.json` に
    各下書きの `verdict: pass|veto`＋スコアを出力。judge も writer 同様に `--tools`（`Bash Read Write WebFetch WebSearch`）＋ `--strict-mcp-config` で起動する（迷走防止）。**veto は「明確な事実誤り」で行う**（出典矛盾・数値/単位の改変・更新済み数値の旧値記載・趣旨の取り違え＝過小/過大表現・出典死活・constitution 違反）。事実誤りは `suggestions` で流さず veto し、**迷う事実誤りは veto 寄り**に倒す。一方、体裁・文体・構成の好みでは落とさない（事実が出典と一致していれば pass＋suggestions、迷ったら pass）。
-3. **ingest** `src/ingestDrafts.js` … veto を尊重して破棄、画像付与・再生成、評価を **ledger** に追記。
+3. **修正リトライ（任意・`config.fixRound.enabled`）** … judge が `fixable:true` と判定した veto を writer に差し戻し、
+   訂正後に**初回と同一の基準**で再査読する。詳細は §12.6。ingest が `_drafts.json`/`_review.json` を消すため**必ず ingest の前**に置く。
+4. **ingest** `src/ingestDrafts.js` … veto を尊重して破棄、画像付与・再生成、評価を **ledger** に追記。
+   破棄した下書きは `vetoes.jsonl` に1行残す（失敗の記憶。§12.6）。記録の失敗で公開は止めない。
 - **トークン削減の triage**: judge 呼び出しの前に `node src/evaluate.js --triage` を実行。下書きが**すべて `tier:'primary'` かつ客観フラグ無し**の
   低リスク回は judge を**丸ごとスキップ**（客観ゲート＋writer 自己批評のみで公開）。`media` 混在 or 客観フラグ有り＝独立検証が最も要る回だけ judge を走らせる。
   `tier` が `primary` と明示されない下書きは risky 扱い（フェイルセーフ）。writer=Haiku のため judge は一段上の **Sonnet** を既定にしている（writer≠judge を保ち、安いHaikuの量産を賢いSonnetが独立検証する分業）。
@@ -540,7 +543,11 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
   付かず stock に落ちた」件数。累積ではなく**その回の評価分に限定**することで、既存の
   対応見送り分に埋もれず、§6.2 の自動採用が再び silent に失敗し始めた回帰を検知できる）。
 - `calibration.jsonl` … 人間評価。
-- `incidents.jsonl` … 運用イベント（judge 不在 `judge_absent`／画像査読不在 `image_review_absent`）。日次を止めずに観測性だけ残す。
+- `incidents.jsonl` … 運用イベント（judge 不在 `judge_absent`／画像査読不在 `image_review_absent`／認証切れ `auth_failed`）。日次を止めずに観測性だけ残す。
+- `vetoes.jsonl` … **不採用にした下書き**（1件1行。`critique` 原文・`categories`・`fixable`・`stage`・`outcome`）。
+  `evaluations.jsonl` と分ける理由: veto 記事は slug 未採番で「1公開記事1行・slug がキー」という契約を壊すうえ、
+  veto のバーストが公開記事の retention を押し出すため。`categories` は `critique` から再計算できる派生ビューに
+  留め（原文を必ず保存する）、分類器を直せば後から再分類できるようにする＝分類の誤りを不可逆にしない。
 
 **有界化（無制限追記の抑制）**: `evaluations.jsonl`／`runs.jsonl` は append-only で毎ラン auto コミットに載るため、
 `config.ledger`（`evalMaxLines`/`runsMaxLines`/`margin`）で**アクティブファイルを直近 N 行に有界化**する。上限＋margin を
@@ -553,6 +560,40 @@ MVP を数日〜2週間運用し「評価信号が役立つ」と確認できた
   改善差分を作る。**constitution は不可・design はテキスト提案のみ**（headless はピクセルを見ないため）。
 - **対話ハーネス**: subagents（news-judge / site-auditor）と slash commands（`/evaluate`・`/self-improve`）。
   `/self-improve` は preview スクショ＋デザインスキルで**視覚監査込み**の改善を人と回す。
+
+### 12.6 veto の還流と修正リトライ（学習ループ）
+**背景**: veto された下書きは従来その場で破棄され、理由は `scheduler.log` にしか残らなかった。累計169件を
+分類したところ **数値・桁・単位の誤変換が約6割**（例「$1.5B と $15B で10倍」「£3 billion を3000億ポンドと100倍」）、
+次いで固有名詞の取り違え・出典にない創作。writer はこの指摘を**一度も見ていなかった**ため同じ型の誤りを繰り返していた。
+
+**(A) 記録** — `src/vetoLedger.js`。`classifyCritique()` が critique を6カテゴリ（numeric / entity / contradiction /
+fabrication / date / unreachable）に分類する。`contradiction` は**下書き内部の不整合に限定**し、出典との不一致は
+numeric/entity 側に寄せる（writer への指示が「書いた後に突き合わせろ」と「出典を取り直せ」で根本的に違うため）。
+過去分は `npm run seed-veto-ledger`（既定 dry-run・`--apply`・二重投入を拒む冪等ガードつき）でログから遡及投入する。
+
+**(B) 還流（予防）** — `src/vetoDigest.js` が傾向を writer プロンプトへ注入する（`qualityDigest.js` の CLI で連結。
+注入点 `auto-generate.sh` の `$DIGEST` は不変）。**体裁 digest とは必ず別セクション**にする（母集団も、測るものも、
+是正の性質も違う。混ぜると事実誤りの優先度が下がる）。順序は veto→体裁＝賭け金の大きい順。
+**禁止**: 「veto を N 件未満にせよ」等の目標値を注入しない — 数値を省略してぼかす最悪の最適化を誘発する。是正は必ず手続きで書く。
+
+**(C) 救済** — `config.fixRound.enabled`（既定 false）。fixable な veto を writer に差し戻して訂正させ、再査読する。
+- **判定基準は `prompts/_veto-criteria.md` に切り出し**、初回・再査読の両方へシェルが `cat` で合成する。
+  バイト単位で同一の基準文が入るため「再査読だけ緩む」ドリフトが構造的に起きない。再査読には初回 critique を**渡さない**
+  （「指摘が直ったか」ではなく「出典と一致するか」を独立に判定させる）。
+- **`fixHint` は出典側の事実指摘のみ**。judge に修正文を書かせない — 次ラウンドで judge が自作を査読することになり
+  `writer≠judge` が実質崩壊するため。`fixable:true` は判定を緩めない（依然 veto。再査読を通らない限り公開されない）。
+- **安全装置 `src/mergeFixReview.js`（決定論・LLM 不使用）**: `ingestDrafts.js` は `_drafts.json` の parse 失敗で
+  `process.exit(1)` するため、fix-writer が JSON を壊す/記事を落とすと **pass 記事まで巻き添えで全滅**する
+  （しかも writer プロンプトには「直しきれない記事は外す」という既存の指示があり癖が転移しうる）。そこで
+  ①パース ②link 多重集合の一致 ③対象外要素の完全一致 ④可変フィールドは `headline`/`lead`/`body_markdown`/`tags` のみ
+  ⑤必須フィールド非空、を検証し違反は**バックアップから復元**する。最悪ケースが「fix 実行前とバイト単位で同一」に落ちる。
+  処理順は**①ドラフト復元 → ②`_review.json` 書き込み**に固定（①の後で落ちてもドラフトと判定の整合が保たれる）。
+  再査読が pass 記事の判定をひっくり返すのも、プロンプトではなく**コードで**排除する。
+- **ゲーム化の防止**: 修正は1回限り（N=1 では登れる勾配が無い）／fix-writer に `scores` を渡さない／削除による
+  辻褄合わせを禁止（ただし創作記述の削除は正しい訂正）／出典の再取得を必須化。
+  **救済率は監視する** — `outcome:'rescued'` の割合を `qualityDigest` が **stderr にだけ**出す（writer に見せると
+  「通ればよい」という目標値として作用する）。**100%に張り付くのは執筆改善ではなく再査読のゲーム化のシグナル**で、
+  持続的に80%超なら手動監査のうえ `enabled:false` で即停止する。
 
 ---
 

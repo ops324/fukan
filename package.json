@@ -13,6 +13,7 @@
     "check": "node src/check.js",
     "evaluate": "node src/evaluate.js",
     "quality-digest": "node src/qualityDigest.js",
+    "seed-veto-ledger": "node src/seedVetoLedger.js",
     "backfill-images": "node src/backfill-images.js",
     "recheck-images": "node src/recheckImageBrands.js",
     "recheck-image-relevance": "node src/recheckImageRelevance.js",

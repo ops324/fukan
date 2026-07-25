@@ -11,6 +11,7 @@ import { fetchImage, imageKey, articleImageTokens, relevanceScore } from './fetc
 import { fetchPressImage } from './pressImage.js';
 import { renderSite } from './render.js';
 import { evaluateArticle, appendEvaluation, writeRunSummary } from './evaluate.js';
+import { appendVeto } from './vetoLedger.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const draftsPath = path.join(ROOT, 'data', '_drafts.json');
@@ -56,6 +57,27 @@ for (const d of drafts) {
   const rv = reviewByLink.get(d.link);
   if (rv?.verdict === 'veto') {
     console.error(`  ✗ veto により破棄: ${d.headline}${rv.critique ? ` — ${rv.critique}` : ''}`);
+    // 失敗を ledger に残す（vetoDigest が writer へ還流し、同じ型の誤りの再発を減らす）。
+    // ledger の故障で公開を止めないよう必ず握りつぶす（SPEC §12「評価機構の故障で公開事故を起こさない」）。
+    try {
+      await appendVeto({
+        link: d.link,
+        headline: d.headline,
+        section: d.section,
+        source: d.source,
+        tier: d.tier,
+        importance: Number(d.importance) || null,
+        critique: rv.critique,
+        scores: rv.scores,
+        overall: rv.overall,
+        flags: evaluateArticle(d, store).flags,
+        ...(rv.fixable != null ? { fixable: rv.fixable, fixHint: rv.fixHint } : {}),
+        // 修正リトライを経てなお veto された＝救済に失敗した回（救済率の分母になる）。
+        ...(rv.fixAttempted ? { stage: 'refix' } : {}),
+      });
+    } catch (err) {
+      console.error(`  WARN: veto の記録に失敗しました（取り込みは継続）: ${err.message}`);
+    }
     continue;
   }
   seen.add(d.link);
@@ -118,6 +140,25 @@ if (!created.length) {
         source: rv ? 'merged' : 'objective',
         ...(rv ? { scores: rv.scores, overall: rv.overall, critique: rv.critique, suggestions: rv.suggestions } : {}),
       });
+      // 一度 veto され、修正リトライで救済された記事。veto ledger にも結果を残し、
+      // 救済率（rescued / (rescued + discarded)）を同じファイルから測れるようにする。
+      // 救済率が100%に張り付くのは「執筆改善」ではなく再査読のゲーム化のシグナル（SPEC §12.6）。
+      if (rv?.fixAttempted) {
+        try {
+          await appendVeto({
+            link: a.link,
+            headline: a.headline,
+            section: a.section,
+            source: a.source,
+            importance: a.importance,
+            critique: rv.initialCritique || rv.critique,
+            scores: rv.scores,
+            overall: rv.overall,
+            stage: 'refix',
+            outcome: 'rescued',
+          });
+        } catch { /* 記録の失敗は公開を妨げない */ }
+      }
     }
     await writeRunSummary(all, evalsForCreated);
   } catch (err) {

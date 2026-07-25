@@ -26,6 +26,12 @@
   - `src/config.js` の `constitution`（事実忠実性・創作禁止・全文転載しない 等）と `lockedDecisions`（署名表記など）は**弱めない**。`lockedDecisions` の文言が記事HTMLから消えると `npm run check` が落ちる（退行検査）。署名「AI 自動要約 + 人手編集」は現状維持。
   - 日次フローは **writer(Haiku, 下書きのみ・量産)→ judge(別モデル/Sonnet, 出典照合・veto)→ ingest(veto尊重・評価をledgerへ)** の3段。writer は安価な Haiku で約30本/日を量産し、judge は writer≠judge を保つため一段上の Sonnet で独立検証する（モデルは `src/config.js` の `writerModel`/`judgeModel` が正本）。`generate-articles.md` は ingest を実行しない（`auto-generate.sh` が査読と取り込みを行う）。
   - **judge が失敗しても日次ジョブは止めない**（客観ゲートのみで公開＋通知）。評価機構の故障で公開事故/停止を起こさないこと。
+  - **修正リトライ（`config.fixRound`）の不変条件**: 修正は**1回限り**（イテレーションを増やすと judge を騙す勾配ができる）。
+    再査読の判定基準は初回と**同一**（`prompts/_veto-criteria.md` を両ラウンドへ `cat` 合成する。片方だけ緩めない）。
+    `fixHint` は出典側の事実指摘のみで**修正文を書かせない**（judge が自作を査読すると writer≠judge が崩れる）。
+    **fix が失敗しても pass 記事の公開を妨げない**——`src/mergeFixReview.js` がドラフトを原状復帰させる（SPEC §12.6）。
+  - **veto は必ず ledger に残す**（`data/quality/vetoes.jsonl`）。writer が自分の失敗を見られない構造に戻さないこと。
+    ただし記録の失敗で取り込みを止めない（try/catch で握る）。
   - `data/quality/`（評価 ledger）は **data 配下＝dirty ガードに触れない**。客観指標のしきい値は「床」であって最大化目標ではない。
 - **依存は最小**: runtime 依存は `dotenv` / `marked` / `rss-parser` の3つのみ。安易に増やさない（閲覧側はゼロ依存の静的物）。
 - **render は“非決定的”**: 日付ラベル・`feed.xml` の `lastBuildDate`・`sitemap` の `lastmod` が毎回更新される。
@@ -60,6 +66,8 @@
 | `npm run render` | `articles.json` から `dist/` に HTML のみ再生成（アセットは複製しない。下書き再描画用） |
 | `npm run migrate-sections` | 旧カテゴリ section を `config.sectionAliases` で navSections へ一括正規化（旧ラベルはタグへ退避・冪等）。実行後 `npm run build` |
 | `npm run evaluate` | 直近記事を客観評価して ledger に記録（`--rate <slug> <1-5> [メモ]` で人手評価）。SPEC §12 |
+| `npm run quality-digest` | writer に注入される品質フィードバックを確認（veto 傾向＋体裁逸脱）。stderr に救済率も出る |
+| `npm run seed-veto-ledger` | 過去の veto を `scheduler.log` から `vetoes.jsonl` へ遡及投入（既定 dry-run／`-- --apply`）。冪等 |
 | `npm run backfill-images` | 画像の補完／重複解消（画像系を触ったとき） |
 | `npm run refresh-brand-photos` | ブランド写真の索引（`data/brand-photos.json`）を更新。他社ロゴ/UI の写り込み判定に使う。マージ方式＝レート制限に当たっても再実行で続きから育つ。月1回程度 |
 | `npm run recheck-images` | 既存記事のサムネをブランド不一致で点検（dry-run・API不要）。`-- --apply` で差し替え＋再生成、`-- --limit N` で件数を絞る |

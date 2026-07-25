@@ -10,6 +10,10 @@ CLAUDE_BIN="${CLAUDE_BIN:-/Users/takimototetsuya/.local/bin/claude}"
 PROMPT_FILE="$PROJECT_DIR/prompts/generate-articles.md"
 REVIEW_PROMPT_FILE="$PROJECT_DIR/prompts/review-drafts.md"
 IMAGE_REVIEW_PROMPT_FILE="$PROJECT_DIR/prompts/review-images.md"
+# veto 判定基準の正本。初回査読と再査読の両方へ cat で合成し、片方だけ緩む事故を構造的に防ぐ。
+CRITERIA_PROMPT_FILE="$PROJECT_DIR/prompts/_veto-criteria.md"
+FIX_PROMPT_FILE="$PROJECT_DIR/prompts/fix-drafts.md"
+REVIEW_FIXED_PROMPT_FILE="$PROJECT_DIR/prompts/review-fixed.md"
 
 cd "$PROJECT_DIR" || exit 1
 
@@ -101,6 +105,8 @@ BEFORE_COUNT="$(count_articles)"
 # 前回ジョブの残骸を掃除（古い下書き/査読を今回の成功と誤認しないため）。
 rm -f "$PROJECT_DIR/data/_drafts.json" "$PROJECT_DIR/data/_review.json" \
       "$PROJECT_DIR/data/_image_review_targets.json" "$PROJECT_DIR/data/_image_review.json" \
+      "$PROJECT_DIR/data/_drafts.bak.json" "$PROJECT_DIR/data/_fix_targets.json" \
+      "$PROJECT_DIR/data/_fix_result.json" "$PROJECT_DIR/data/_review_fixed.json" \
       "$WRITER_LOG"
 
 # 下書き/候補の件数を返すヘルパー（読めなければ 0）。
@@ -174,7 +180,8 @@ if [[ "$HAS_DRAFTS" == "1" ]]; then
   if [[ "$NEED_JUDGE" == "1" ]]; then
     echo "高リスクの下書きあり → 別モデル($JUDGE_MODEL)で査読（出典照合・採点, tools制限/MCP無効）"
     "$CLAUDE_BIN" --model "$JUDGE_MODEL" --dangerously-skip-permissions \
-      --tools "$JUDGE_TOOLS" --strict-mcp-config -p "$(cat "$REVIEW_PROMPT_FILE")"
+      --tools "$JUDGE_TOOLS" --strict-mcp-config \
+      -p "$(cat "$CRITERIA_PROMPT_FILE" "$REVIEW_PROMPT_FILE")"
     jrc=$?
     # 失敗時最優先: 日次ジョブを止めない。査読不在なら客観ゲートのみで通常公開し通知。
     if [[ "$jrc" -ne 0 || ! -f "$PROJECT_DIR/data/_review.json" ]]; then
@@ -187,6 +194,29 @@ if [[ "$HAS_DRAFTS" == "1" ]]; then
   else
     echo "低リスク（全て一次情報・客観フラグ無し）→ 査読をスキップし客観ゲートのみで公開"
   fi
+  # --- 修正リトライ（fixable な veto のみ・1回限り）---
+  # veto の大半は「骨子は正しく数値・固有名詞だけが誤り」で、文言の訂正で救える。judge が
+  # fixable と判定したものを writer に差し戻し、**初回と同一の基準**で再査読して通れば公開する。
+  # 置き場所が要: ingestDrafts が _drafts.json/_review.json を消すので、必ず ingest の前。
+  # 失敗しても pass 記事の公開は妨げない（mergeFixReview.js がドラフトを原状復帰させる）。
+  # 停止したいときは config.fixRound.enabled=false（prepareFixRound が 0 を返して素通りする）。
+  FIX_COUNT="$("$NODE_BIN" src/prepareFixRound.js 2>/dev/null)"
+  [[ "$FIX_COUNT" =~ ^[0-9]+$ ]] || FIX_COUNT=0
+  if [[ "$FIX_COUNT" -gt 0 ]]; then
+    echo "修正リトライ: ${FIX_COUNT} 件を writer に差し戻し（$WRITER_MODEL・出典を再取得して訂正）"
+    "$CLAUDE_BIN" --model "$WRITER_MODEL" --fallback-model "$WRITER_FALLBACK_MODEL" \
+      --dangerously-skip-permissions --tools "$WRITER_TOOLS" --strict-mcp-config \
+      -p "$(cat "$FIX_PROMPT_FILE")" \
+      || echo "WARN: 修正が完了しませんでした（元の判定のまま続行）"
+    echo "修正分を再査読（$JUDGE_MODEL・判定基準は初回と同一）"
+    "$CLAUDE_BIN" --model "$JUDGE_MODEL" --dangerously-skip-permissions \
+      --tools "$JUDGE_TOOLS" --strict-mcp-config \
+      -p "$(cat "$CRITERIA_PROMPT_FILE" "$REVIEW_FIXED_PROMPT_FILE")" \
+      || echo "WARN: 再査読が完了しませんでした（veto 据え置き）"
+    "$NODE_BIN" src/mergeFixReview.js \
+      || echo "WARN: 修正結果の統合に失敗しました（pass 記事の公開は継続）"
+  fi
+
   echo "取り込み（veto尊重・画像付与・再生成・評価をledgerへ記録）"
   "$NODE_BIN" src/ingestDrafts.js
   irc=$?

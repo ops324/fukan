@@ -100,7 +100,7 @@ export function evaluateArticle(a, recent = []) {
 // 純追記だと jsonl が無制限成長し auto-commit に載り続けるため、maxLines+margin を超えたら
 // 直近 maxLines 行に切り詰め、溢れた古い行は gitignore 済みの <file>.archive.jsonl へ退避する。
 // 追記は毎回・有界化は margin ごと（間は純追記＝git 差分は末尾1行のみで小さい）。
-async function appendBounded(file, line, maxLines) {
+export async function appendBounded(file, line, maxLines) {
   await appendFile(file, line + '\n', 'utf8');
   const margin = config.ledger?.margin ?? 500;
   if (!maxLines || maxLines <= 0) return;
