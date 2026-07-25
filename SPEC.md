@@ -44,8 +44,9 @@ launchd（毎日 6:00 / 18:00）
                  → render（dist/ へ：index / archive（月インデックス＋archive/YYYY-MM）/ articles/* / sections/* / tags/*
                            / 法的6ページ / search-index.json / sitemap.xml
                            / robots.txt / feed.xml / feed.xsl）※ dist は gitignore のため commit されない
-       └─ 健全性チェック（記事数増減・exit code）→ 異常なら macOS 通知
+       └─ 健全性チェック（認証切れ → 記事数増減・exit code の順に判定）→ 異常なら macOS 通知＋data/.status
        └─ 変更があれば git commit & push（実質 data/articles.json の差分のみ）→ Vercel が npm run build でデプロイ
+            ※ 認証切れのランは記事ゼロ＝公開すべき変更なしなので commit/push ごとスキップ
        └─ 実行結果を data/scheduler.log に追記
 ```
 
@@ -82,6 +83,8 @@ AIニュースサイト/
 │   ├── _candidates.json    # 一時: 候補プール（実行後に掃除）
 │   ├── _drafts.json        # 一時: Claude の下書き（実行後に掃除）
 │   ├── .health             # 一時: 新規ゼロの連続回数（監視用・git管理外）
+│   ├── .status             # 一時: 最終実行の状態サマリ（人間が読む・git管理外）
+│   ├── _writer.log         # 一時: writer 出力の退避（認証エラー検査用・実行後に掃除）
 │   └── scheduler.log       # 定期実行ログ
 ├── prompts/
 │   └── generate-articles.md # Claude への執筆指示（編集方針を内包）
@@ -354,6 +357,7 @@ allowlist ドメイン判定 `pressAllowlistCredit()` は `pressImage.js` から
 | `analytics.token` | 空（`CF_BEACON_TOKEN`） | Cloudflare Web Analytics の beacon トークン。空なら出力しない |
 | `thumbVariants` | CSS抽象サムネ6種 | 実写真が無いときのフォールバック（`styles.css` のグラデクラス） |
 | `navSections` | 総合10セクション（AI/テクノロジー/サイエンス/ビジネス/経済・マネー/政治/国際・地政学/カルチャー/エンタメ/ライフ・キャリア） | ナビ生成元。各要素は `slug`（`sections/<slug>.html`）と `hue`（OKLCH 色相）を持つ。総合ニュース化で旧 AI 細分類から再編。`section` 値自体は自由でナビ外でも記事ページは生成 |
+| `freshness.staleDays` | 2 | `npm run check` が「最終記事からの経過日数」を警告するしきい値（非ブロック）。1日2回稼働なので 2日＝4ラン分の空振り。自動ジョブの無言停止に手作業時も気づくための最後の砦（§11） |
 | `sectionAliases` | 旧7カテゴリ → `AI` | 旧 AI 細分類（産業応用/研究/基盤モデル/規制・倫理/スタートアップ/ハードウェア/開発）を navSections へ正規化。ingest 自動＋`npm run migrate-sections`。旧ラベルはタグへ退避（§編集・運用「カテゴリ正規化」） |
 
 ---
@@ -395,6 +399,17 @@ allowlist ドメイン判定 `pressAllowlistCredit()` は `pressImage.js` から
   新規ゼロが3回連続**のとき macOS 通知（`osascript`）を出す。連続回数は `data/.health` に記録。
   さらに **候補が1件以上あるのに下書き0本（＝writer 失敗の疑い）** は3回を待たず**即時通知**する
   （真に新着が無い回や、下書きは出たが veto/重複で全て公開見送りになった回＝品質ゲート作動、とは区別する）。
+- **認証切れの検知（最優先分岐）**: writer の出力を `data/_writer.log` に退避し `Failed to authenticate` を検査する。
+  claude CLI は **401 でも exit 0 を返す**ため終了コードでは判定できない。検出したら**リトライせず即中止**し、
+  `data/quality/incidents.jsonl` に `auth_failed` を1行記録、「ターミナルで claude を起動し /login」と
+  **具体的な復旧手順を本文に書いた**通知を出す（新規ゼロ3回連続の汎用通知は抑制＝二重通知を避ける）。
+  さらに **commit/push を丸ごとスキップ**する——記事は1本も増えていないので公開すべき変更が無く、
+  ここで commit すると `incidents.jsonl` の1行だけを抱えたコミットが毎ラン積まれて Vercel が無意味に
+  再デプロイされ、「自動ジョブのコミットは実質 `articles.json` の差分のみ」という配信モデルも崩れる。
+  *背景*: 候補取得は writer 自身が担うため認証で即死すると候補0件になる。これを「新着なし」と取り違えて
+  `rc=0` に上書きしていたため、**6ラン連続ゼロ・3日間を無言で見逃した**（2026-07-22〜25）。判定順が要。
+- **状態ファイル `data/.status`**（git 管理外）: 最終実行時刻・状態・詳細・連続ゼロ回数を毎ラン上書きする。
+  通知バナー（`osascript`）は集中モード等で抑制されうるため、**消えない形でも残す**のが目的。
 - **ソース変更ガード**: commit 前に `src/ templates/ scripts/ prompts/ package.json` の未コミット変更を検査し、
   あれば **auto-commit/push を中止して通知**する（作業途中コードが無人ジョブで自動公開される事故を防ぐ）。
   生成物・`data/` は対象外。クリーンな通常時のみ `git add -A` → commit → push する。
@@ -447,7 +462,10 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
   （`http(s)`／`mailto`／相対／アンカーのみ）で検証する。`javascript:`・`data:`・`vbscript:` 等は `#` に無害化。
   無人＋push=即本番のため、ソース由来のインジェクションや writer 変更1回での公開事故を防ぐ。退行は `npm run check` の
   `checkSanitizer()`（既知の悪性入力を通して無害化を確認・オフライン・hard-fail）が検知する。
-- **claude CLI 認証が切れると定期ジョブは失敗する**。`data/scheduler.log` を時々確認する。
+- **claude CLI 認証が切れると定期ジョブは記事を書けない**（トークンは有限寿命なので再発する）。検知は三重にした:
+  ①ジョブが認証エラーを検出して復旧手順つきで通知＋`incidents.jsonl` に記録（§8）、②`data/.status` に消えない形で残す、
+  ③`npm run check` が最終記事から `config.freshness.staleDays` 日超で**更新停滞を警告**する（非ブロック）。
+  復旧はターミナルで `claude` を起動し `/login`（OAuth 再認証は対話が必要でヘッドレスジョブからは不可）。
 - 記事の正本は `data/articles.json`。HTML はそこからの派生（いつでも `npm run build` で `dist/` に再生成可能）。
 - **`loadArticles()` は破損時に throw する（握りつぶさない）**: ファイル不在は正常な初回として `[]` を返すが、
   読込/JSON parse 失敗は `throw`。これが `[]` を返すと load→save 経路（`ingestDrafts`／`set-press-image`／
