@@ -2,3 +2,4 @@
 {"ts":"2026-07-16T09:22:31Z","type":"judge_absent","exit":1}
 {"ts":"2026-07-18T09:19:23Z","type":"judge_absent","exit":1}
 {"ts":"2026-07-25T09:00:20.037Z","type":"candidates","total":372,"pool":140,"skippedWeak":7,"skippedIrrelevant":1,"enriched":4}
+{"ts":"2026-07-25T21:00:18.827Z","type":"candidates","total":372,"pool":140,"skippedWeak":7,"skippedIrrelevant":1,"enriched":1}

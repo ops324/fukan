@@ -1,5 +1,424 @@
 [
   {
+    "slug": "20260726-01",
+    "headline": "ニュース組織がAIを活用してジャーナリズムを強化",
+    "lead": "OpenAIの支援で、報道機関がAIを活用した時間短縮と読者体験の向上に取り組んでいます。",
+    "body_markdown": "OpenAIは、ニュース組織がAI技術を活用してジャーナリズムの質を高める取り組みを推進しています。記者やエディターがAIツールを使い、時間のかかるタスクを自動化することで、より深い調査報道に時間を割くことができるようになっています。\n\nAIは複数の領域で活用されています。数十年分の報道をテキスト化して検索可能にすることで、新旧の情報を横断的に活用できます。複雑な情報を複数の言語や形式に変換し、より多くの読者に届けることも可能です。American Journalism Projectなど、信頼できるニュースソースへの支援を通じて、この技術は中小メディアにも広がっています。\n\nニュースルーム、プロダクト、ビジネス部門など、報道機関の全領域でAI統合が進むことで、持続可能な報道体制の構築が進むと期待されています。",
+    "tags": [
+      "AI",
+      "ジャーナリズム",
+      "メディア",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/how-news-organizations-are-using-ai",
+    "importance": 4,
+    "image_query": "journalist laptop newspaper",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4KPHlygXSOVWJHJlSNVU1N/574f3d3fc5309307943d657bd5000a20/how_news_orgs_use_AI_16x9.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:10.964Z",
+    "publishedAt": "2026-07-22T13:00:00.000Z"
+  },
+  {
+    "slug": "20260726-02",
+    "headline": "Googleが Galaxy Unpacked 2026 でGeminiの大幅機能拡張を発表",
+    "lead": "Geminiは40以上のアプリ対応で複雑なタスク自動化が可能に、Galaxy Z Fold 8ではノートブック機能も搭載。",
+    "body_markdown": "GoogleはGalaxy Unpacked 2026でGeminiの機能強化を発表しました。Geminiインテリジェンスは従来より限定的だった対応アプリを40以上に拡大し、買い物や旅行予約、チケット購入まで自動化できるようになります。ユーザーは買い物リストや写真をGeminiに見せるだけで、より複雑な指示が可能です。\n\nGalaxy Z Fold 8シリーズには新機能「Gemini Notebook」が搭載されます。このツールは複数の資料（写真、ドキュメント、ホワイトボード画像、音声録音）を統合でき、スライドデッキやポッドキャスト、クイズ作成に対応。6ヶ月分のGoogle AI Proトライアルが付属します。\n\nウェアラブルとスマートグラスへの展開も進みます。Galaxy Watch 9ではリスト作成でGeminiが起動し、秋発売予定のスマートグラスではジェスチャーコントロール対応により、より自然なAI操作を実現します。",
+    "tags": [
+      "Google",
+      "Gemini",
+      "スマートフォン",
+      "AI助手"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+    "importance": 3,
+    "image_query": "smartphone galaxy android display",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:10.965Z",
+    "publishedAt": "2026-07-22T13:00:00.000Z"
+  },
+  {
+    "slug": "20260726-03",
+    "headline": "Physical AIのシミュレーション技術が急速に進化・民主化する",
+    "lead": "ロボット開発でシミュレーションが実世界のコストと時間を大幅削減、GPUアクセスが民主化加速。",
+    "body_markdown": "Physical AI（ロボットなど物理システムのAI）の開発において、シミュレーション技術が極めて重要な役割を担うようになっています。現実世界でロボットを学習させるのは「遅く、高額で、危険、破壊的」ですが、シミュレーションにより、GPUの並列化を活用して数千時間分のロボット経験を現実世界の一部コストで生成できます。\n\nシミュレーターの用途は広がっています。従来は幾何学的デバッグや動作可視化が中心でしたが、今では知覚データセット生成、強化学習の訓練、デモンストレーション収集、実世界データの拡張、稀有シナリオでのテストなど、モデル開発サイクル全体に組み込まれています。\n\nMuJoCo、Isaac Sim、Newtonなど複数のシミュレーションエンジンが、異なるロボット領域（ヒューマノイド、空中機体、操作タスク）に特化して急速に進化しており、GPU対応で急速にオープンソース化が進むことで、Physical AIの民主化が加速しています。",
+    "tags": [
+      "ロボット",
+      "シミュレーション",
+      "AI開発",
+      "Physical AI"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+    "importance": 3,
+    "image_query": "robot arm simulation technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:10.966Z",
+    "publishedAt": "2026-07-21T20:00:27.000Z"
+  },
+  {
+    "slug": "20260726-04",
+    "headline": "Anthropic、Opus 5を発表・Fable 5より安価で高性能を実現",
+    "lead": "Fable 5を上回る性能を多くのベンチマークで達成しながら、コストと制限の両面でFable 5より優れる。",
+    "body_markdown": "Anthropicは7月24日、新モデル「Claude Opus 5」をリリースしました。Opus 5はFable 5と比べて「より安価で制限が少ない」設計で、ほとんどのユースケースで優先されると見込まれています。\n\n性能面では、複数ベンチマークテストでFable 5を上回ります。特にコーディングと知識作業で顕著で、Frontier-BenchではFable 5を含む全モデルを上回り、Opus 4.8比で2倍以上の性能向上を達成。OSWorld 2.0の汎用コンピュータ操作でもFable 5トップスコアを上回り、コストはおよそ3分の1です。\n\nOpus 5はFable 5より安価。セーフガード分類器もFable 5比で85%少ない頻度で作動し、より柔軟な運用が可能です。Fable 5に課せられた30日データ保持ポリシーの対象外となり、プライバシー重視ユーザーにも有利。日常的な専門業務から複雑なコーディングまで、幅広い用途で優れた選択肢になっています。",
+    "tags": [
+      "AI",
+      "Claude",
+      "Anthropic",
+      "大規模言語モデル"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+    "importance": 4,
+    "image_query": "computer code programming screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8Y29tcHV0ZXIlMjBjb2RlJTIwcHJvZ3JhbW1pbmclMjBzY3JlZW58ZW58MXwwfHx8MTc4NTAxNTY3Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Spiske",
+      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Colorful software or web code on a computer monitor",
+      "description": "Code on computer monitor"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:12.182Z",
+    "publishedAt": "2026-07-24T17:00:00.000Z"
+  },
+  {
+    "slug": "20260726-05",
+    "headline": "送電線の故障がAIデータセンターの電力網問題を露呈",
+    "lead": "31億ワットのデータセンターが同時切断、電圧急上昇で広域停電級の被害。段階的な対応が急務。",
+    "body_markdown": "ワシントンDC近郊での送電線故障は、AI時代の電力網が直面する深刻な脆弱性を浮き彫りにしました。約31億ワットのデータセンターが一斉にバックアップ電源に切り替わった際、グリッド全体で供給過剰による電圧急上昇が発生し、PJM全体で照明がちらつく被害が発生。通常なら数秒で回復する故障が11分以上かかりました。\n\n電力網は供給と需要の完璧なバランスが必須です。高密度データセンター群が同時に切断されると、供給サージでグリッド全体が不安定化します。北バージニアのデータセンター集積地では特に顕著です。\n\n複数の解決策が検討されています。グリッド運用者による段階的な切断・再接続、UPS技術でのバッテリー保護、新規制による「電力変動耐性」要件です。2024年は1.5ギガワットが切断されましたが、今回はその約2倍にあたる3.1ギガワット。2040年までにデータセンターのシェアが6%から24%に拡大予定のため、早急な対策が不可欠です。",
+    "tags": [
+      "電力",
+      "インフラ",
+      "データセンター",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+    "importance": 4,
+    "image_query": "power grid electricity infrastructure",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1646516447226-e2eb0e6e3f36?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxwb3dlciUyMGdyaWQlMjBlbGVjdHJpY2l0eSUyMGluZnJhc3RydWN0dXJlfGVufDF8MHx8fDE3ODUwMTU2NzN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sam LaRussa",
+      "profileUrl": "https://unsplash.com/@samlarussaphoto?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a bunch of power lines that are in the dirt",
+      "description": "A Houston-area power substation this past summer. The Texas power grid is still a subject of political scrutiny after a freeze in early 2021 led to deadly rolling blackouts."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:13.308Z",
+    "publishedAt": "2026-07-25T13:05:00.000Z"
+  },
+  {
+    "slug": "20260726-06",
+    "headline": "NvidiaがSK Hynixと5000億ドル規模のメモリ供給契約を確保",
+    "lead": "AI向けハイバンド幅メモリをNvidiaが長期確保、GPU供給体制の安定化に向け攻略。",
+    "body_markdown": "Nvidiaはエッセンシャル部品となるハイバンド幅メモリ(HBM)の供給確保を積極的に進めています。SK Hynixとの契約により、AI GPUとシステム向けの重要部品を継続的に確保します。\n\nメモリはAIアクセラレーターの最大のボトルネックのひとつです。LLMの学習やデータセンター運用では、高速メモリアクセスが性能を左右します。Nvidiaは複数のメモリベンダーと関係を構築することで、供給パートナーへの依存を分散させています。\n\nこの契約は単なる部品調達ではなく、AI産業の基盤整備です。デジタルインフラの急速な拡大に応じたメモリ供給の逼迫を緩和することで、AI企業全体の安定的な稼働環境を支えています。業界全体の成長加速につながる戦略的投資と言えます。",
+    "tags": [
+      "Nvidia",
+      "半導体",
+      "メモリ",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/25/nvidia-locks-down-memory-from-sk-hynix-as-part-of-500-billion-ai-deal.html",
+    "importance": 4,
+    "image_query": "semiconductor chip circuit board",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1697952431907-8542919a16b3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8c2VtaWNvbmR1Y3RvciUyMGNoaXAlMjBjaXJjdWl0JTIwYm9hcmR8ZW58MXwwfHx8MTc4NTAxNTY3NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Albert Stoynov",
+      "profileUrl": "https://unsplash.com/@albertstoynov?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a black and white photo of a computer motherboard",
+      "description": "PCB of a Graphics Card."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:14.179Z",
+    "publishedAt": "2026-07-25T08:49:00.000Z"
+  },
+  {
+    "slug": "20260726-07",
+    "headline": "単一投与でマウスの自閉症様症状が数時間で改善",
+    "lead": "妊娠中の炎症由来の脳過活動がラパマイシン投与で2時間以内に改善、成人脳の可塑性を示唆。",
+    "body_markdown": "UCLA Healthの研究チームは、自閉症スペクトラムの神経学的基盤について新たな知見を得ました。妊娠中の炎症がマウスの子どもに自閉症様の変化（脳過活動、感覚過敏、反復行動、発作リスク増加）をもたらすことを確認。その後、成体マウスへの単一投与で、これらの症状がほぼすべての測定値で改善されました。\n\n改善は約2時間以内に現れました。物理的な脳構造の再構築には通常より長い時間がかかるため、ラパマイシンが脳機能そのものを変化させたことを示唆しています。メカニズムとしては、「早期発達による構造差ではなく、神経興奮性のバランスを迅速に回復させた」と結論づけられています。\n\n臨床的意義は重大です。成人脳がより適応可能であることを示唆し、治療開発の新方向を指し示しています。ただし効果は一時的で、繰り返し投与では効果が低下し毒性懸念も生じるため、ラパマイシン自体は人間への治療には適さないと明記されています。",
+    "tags": [
+      "神経科学",
+      "自閉症",
+      "脳研究",
+      "医学"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260724061436.htm",
+    "importance": 4,
+    "image_query": "brain neuron science research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxicmFpbiUyMG5ldXJvbiUyMHNjaWVuY2UlMjByZXNlYXJjaHxlbnwxfDB8fHwxNzg1MDE1Njc1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Hal Gatewood",
+      "profileUrl": "https://unsplash.com/@halacious?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "purple and pink plasma ball",
+      "description": "A ball of energy with electricity beaming all over the place."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:15.329Z",
+    "publishedAt": "2026-07-25T15:09:37.000Z"
+  },
+  {
+    "slug": "20260726-08",
+    "headline": "宇宙膨張は光速を超える速度で起きても相対論を破らない",
+    "lead": "空間そのものが拡大するため、光速制限は局所領域に留まり、遠方銀河は光より速く遠ざかる。",
+    "body_markdown": "宇宙論の重要な原理が改めて確認されました。相対性理論の速度制限は、空間を通じた物体の移動にのみ適用されます。空間そのものの膨張は別のメカニズムであり、光速を超える速度で起きることが可能です。\n\n銀河は空間を通じて移動しているのではなく、銀河間の空間そのものが拡大しています。より遠い銀河ほど、より多くの膨張可能な空間が存在するため、より高速で遠ざかります。この構造により、宇宙の年齢は約138億年ですが、空間の膨張により観測可能な宇宙の端は約450億光年の距離に達しています。\n\n最も興味深いのは、ハッブル距離を超えた銀河からの光も観測可能という矛盾です。宇宙論的事象の地平線は現在約170億光年で、これを超えた光は決して到達しません。ダーク・エネルギーによる加速膨張の結果、将来的にはほぼすべての銀河が視界から消える予測もあります。",
+    "tags": [
+      "宇宙論",
+      "物理学",
+      "天文学",
+      "ダークエネルギー"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260724061444.htm",
+    "importance": 4,
+    "image_query": "galaxy space universe astronomy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1765407990623-7c0fcbae38a7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzMHx8Z2FsYXh5JTIwc3BhY2UlMjB1bml2ZXJzZSUyMGFzdHJvbm9teXxlbnwxfDB8fHwxNzg1MDE1Njc2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Steve Busch",
+      "profileUrl": "https://unsplash.com/@sdbusch77?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A spiral galaxy in the vastness of space.",
+      "description": "It is called the \"Phantom Galaxy\" due to its low surface brightness, which makes it one of the most difficult objects for amateur astronomers to observe visually. M74 is classified as a grand-design spiral galaxy, meaning its spiral arms are prominent, symmetrical, and well-defined. Observers on Earth see the galaxy nearly face-on, offering a perfect view of its intricate structure. It is estimated to contain about 100 billion stars and is 32 million light years away in the constellation Pisces"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:16.595Z",
+    "publishedAt": "2026-07-25T13:17:03.000Z"
+  },
+  {
+    "slug": "20260726-09",
+    "headline": "金星は内部から引き裂かれている可能性、地質活動が活発",
+    "lead": "3D シミュレーションで巨大裂け目谷が最近形成・拡大中、従来の「不活発」像を覆す。",
+    "body_markdown": "ETH Zurichの研究チームによる3Dコンピュータシミュレーションが、金星の地質活動についての従来の認識を根本から覆しました。金星は「地質学的に不活発」と長く信じられていましたが、新たな証拠が活発な内部構造を示唆しています。\n\n巨大な裂け目谷は金星の構造的活動を示す最強の証拠です。これらは10,000キロメートル程度まで広がる可能性があり、地球のアフリカ大地溝帯に相当する規模。シミュレーションによれば、年間3～10センチメートルの拡大が起きている可能性があります。これらの裂け目が比較的最近に形成されたことを示唆しています。\n\nこの発見は惑星科学に大きな影響を持ちます。岩石系惑星の進化理解が深まるとともに、太陽系外惑星の検出にも貢献する可能性があります。ESAのEnVision探査機（2030年代初期打ち上げ予定）での詳細調査が今後の重要なステップになります。",
+    "tags": [
+      "金星",
+      "地質学",
+      "惑星科学",
+      "地球外探査"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260724061434.htm",
+    "importance": 4,
+    "image_query": "planet venus space astronomy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1700159915694-4d1e382c637f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxwbGFuZXQlMjB2ZW51cyUyMHNwYWNlJTIwYXN0cm9ub215fGVufDF8MHx8fDE3ODUwMTU2Nzd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "BoliviaInteligente",
+      "profileUrl": "https://unsplash.com/@boliviainteligente?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a blue planet with stars in the background",
+      "description": "planet,space,galaxy,stars,astronomy,universe,outer space,globe,earth,sphere,andromeda,fluid,fluid art,abstract,abstract art,abstract background,abstract dark,texture,texture background,texture wall,texture paper,background,background image,background design,background texture,pattern,pattern background,patterns and textures,wall,wall background,wall art,wall painting,background for pc,background for web,background for website,full hd wallpaper,full screen wallpaper,full hd,full screen,full color,full colour,full colours,sphere,dots,circle"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:17.769Z",
+    "publishedAt": "2026-07-25T03:19:19.000Z"
+  },
+  {
+    "slug": "20260726-10",
+    "headline": "中国が台風Noul接近に340,000人超を避難、最高警報発令",
+    "lead": "広東省で最大風速151-173km/hの台風が上陸予想、全面的な活動停止で対応。",
+    "body_markdown": "中国は台風Noulの接近に対応して、340,000人以上を避難させました。気象当局は台風が日曜日早朝に深圳とハイフェン間の沿岸地域に上陸すると予測しており、最大持続風速は151～173km/hに達する見込みです。\n\n広東省の12都市（広州、東莞、汕頭など）では全面的な対応が取られました。学校、仕事、生産、商業活動、輸送が全面または部分的に停止し、日曜日のすべての鉄道サービスも中止。香港では28カ所の一時避難所を開設しています。中国気象センターは最高レベルの赤色台風警報を発令し、広東省では洪水・台風対策の警戒レベルを3段階に引き上げました。\n\n台風Noulは「深い内陸進出、長期継続、重大な累積降雨量」の特徴を持つとされています。先月の台風マイサクでは39人が死亡しており、今回の対応の重要性が高まっています。",
+    "tags": [
+      "台風",
+      "中国",
+      "自然災害",
+      "気象"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-china-evacuates-people-typhoon-noul.html",
+    "importance": 3,
+    "image_query": "typhoon storm weather natural disaster",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:17.773Z",
+    "publishedAt": "2026-07-25T17:50:01.000Z"
+  },
+  {
+    "slug": "20260726-11",
+    "headline": "GLP-1薬は脳の報酬回路を抑制して食欲を低下させる",
+    "lead": "経口GLP-1薬がドーパミン放出を減らし、食べ物の快感を弱める新メカニズムが判明。",
+    "body_markdown": "新しい研究により、経口型GLP-1薬の作用メカニズムが詳細に解明されました。従来のセマグルチド（オゼンピック）は視床下部と脳幹の食欲制御ネットワークに作用していましたが、新しい経口小分子GLP-1薬（オルフォルグリプロンおよびダヌグリプロン）は異なるアプローチをとります。\n\nマウス実験では、これらの薬が中央扁桃体（欲望と報酬に関わる領域）を活性化させ、摂食中のドーパミン放出を減らすことが確認されました。つまり、単なる物理的な空腹感の抑制ではなく、食べ物の報酬信号を弱める作用です。これにより快楽的摂食（pleasure-driven eating）が減少します。\n\nこの発見は臨床的に重要です。食欲抑制ホルモンの作用経路が複数存在することを示し、同じメカニズムが物質使用障害など他の渇望にも応用できる可能性があります。研究チームは今後、この仮説の検証を進める予定です。",
+    "tags": [
+      "医学",
+      "脳科学",
+      "GLP-1",
+      "肥満治療"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260724061439.htm",
+    "importance": 3,
+    "image_query": "medical research laboratory neuroscience",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:17.779Z",
+    "publishedAt": "2026-07-25T11:34:04.000Z"
+  },
+  {
+    "slug": "20260726-12",
+    "headline": "DRCのエボラ死者1,300人超、10週間で最速拡大・対応に危機感",
+    "lead": "ブンディブギョ型エボラが過去最速で蔓延、医療人材不足と武力紛争が対応を阻害。",
+    "body_markdown": "コンゴ民主共和国（DRC）でのエボラ感染は未曾有の危機に達しました。死亡者数は1,309人を超え、わずか5日間で40%以上増加。確認症例は2,973件に達しています。この流行は「記録された最速のエボラ感染拡大」です。過去最大の流行（2013-2016年）では1,000人の死亡に約8ヶ月を要しましたが、今回は10週間未満で達成されました。\n\n現在広がっているのは「ブンディブギョ型」で、4つの既知変種の中で最も稀。この型には承認されたワクチンや治療法がなく、専門家は「ワイルドファイアのように広がっている」と述べています。対応には深刻な課題があります。医療従事者100人以上が感染し約35人が死亡、防護装備が不足、給与未払いでストライキが発生、東部の武力紛争が対応を阻害しています。\n\nWHOは「今行動しなければ、世界最悪の流行になる」と警告しており、国際社会の即座の支援が求められます。",
+    "tags": [
+      "エボラ",
+      "感染症",
+      "公衆衛生",
+      "コンゴ"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/25/ebola-deaths-in-drc-surge-past-1300-as-virus-spreading-like-a-wildfire",
+    "importance": 4,
+    "image_query": "medical epidemic disease outbreak",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1584168054713-0d212ed95783?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8bWVkaWNhbCUyMGVwaWRlbWljJTIwZGlzZWFzZSUyMG91dGJyZWFrfGVufDF8MHx8fDE3ODUwMTU2Nzh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Spiske",
+      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Coronavirus disease (COVID-19) outbreak – warning alarm message.",
+      "description": "Coronavirus disease (COVID-19) outbreak – warning alarm message. Made with Canon 5d Mark III and analog vintage lens, Leica APO Macro Elmarit-R 2.8 100mm (Year: 1993)"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:18.853Z",
+    "publishedAt": "2026-07-25T18:28:09.000Z"
+  },
+  {
+    "slug": "20260726-13",
+    "headline": "韓国とアメリカが155兆円規模のAI半導体協力を発表",
+    "lead": "韓国大統領がNvidiaやOpenAIなどAI大手に投資呼びかけ、米韓企業による大規模協力。",
+    "body_markdown": "韓国のイ・ジェミョン大統領がアメリカを訪問し、エヌビディアやOpenAIなどのAI関連大手企業のCEOを前に投資を呼びかけました。韓国大統領府によると、米韓企業間の協力は155兆円規模とされています。\n\nこの協力は主に「半導体の生産や供給などの分野」に焦点を当てています。AI時代におけるチップ供給の重要性が高まる中、韓国はサムスンやSK Hynixなどの半導体大手の強みを活かし、アメリカのAI企業との密接な提携を構築しようとしています。\n\nこの発表は、アメリカとアジア太平洋地域の技術同盟強化を象徴しています。中国のAI進出に対抗する側面と、両国の産業競争力維持という二重の戦略的意図が浮かび上がります。",
+    "tags": [
+      "韓国",
+      "AI",
+      "半導体",
+      "国際協力"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015186141000",
+    "importance": 4,
+    "image_query": "semiconductor chip manufacturing technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1543722615-dbf5edf1a00d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMXx8c2VtaWNvbmR1Y3RvciUyMGNoaXAlMjBtYW51ZmFjdHVyaW5nJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg1MDE1Njc5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Laura Ockel",
+      "profileUrl": "https://unsplash.com/@viazavier?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "green and brown abstract painting",
+      "description": "This is a macro of a silicon wafer. Each square is a chip with microscopic transistors and circuits. Ordinarily, wafers like these are diced into their individual chips and the chips go into the processors that power our computers.\r\nSometimes, wafers have flaws and the manufacturers dispose of them instead. That’s how I got mine. After visiting the tech museums in Silicon Valley, I was amazed at the beauty of silicon wafers, so I started collecting and photographing them.\r\nLike fractals and flowers, the closer you get to them, the more amazing details there are to see."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:19.854Z",
+    "publishedAt": "2026-07-25T12:33:03.000Z"
+  },
+  {
+    "slug": "20260726-14",
+    "headline": "Trumpが新関税を発動、ブラジルに25%・カナダに50%",
+    "lead": "Trump政権がブラジルとカナダへの関税を発動、発効と同時に法的異議申し立てが相次ぐ。",
+    "body_markdown": "Trump政権は7月22日より、ブラジルに対する25%の関税を発動させました。この措置はブラジルが米国に対して不公正な貿易慣行を行っているとの主張に基づいています。カナダに対しては50%の関税を宣言し、ホッケースティックとセメント等の特定産品を対象としています。\n\nカナダ関税は30日以内に発効予定です。ヤフー・ファイナンスによると、カナダへの関税は北米自由貿易協定（USMCA）の後継交渉を有利に進めるための圧力として機能しており、「合意を促進するか、合意不成立への報復」と法律専門家は分析しています。\n\nこれはより広範な関税戦略の一部です。2月に米国最高裁が多くのTrump関税を無効化したにもかかわらず、政権は他の権限を使用して貿易アジェンダを再構築しています。80以上の国・地域を対象とした関税計画が数週間以内に発動される見込みです。",
+    "tags": [
+      "関税",
+      "貿易戦争",
+      "Trump",
+      "経済政策"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/24/trump-tariffs-lawsuit-301-ieepa.html",
+    "importance": 3,
+    "image_query": "trade tariff international commerce",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:19.876Z",
+    "publishedAt": "2026-07-25T14:23:53.000Z"
+  },
+  {
+    "slug": "20260726-15",
+    "headline": "物流大手がGLP-1薬ブームに対応、コールドチェーン需要が急増",
+    "lead": "肥満治療薬の急速な普及で医療物流企業が冷蔵管理設備を拡張、ヘルスケア市場の変化加速。",
+    "body_markdown": "UPS、FedEx、DHLなどの大手物流企業は、GLP-1薬（オゼンピック類）の急速な普及に対応するため、温度管理と冷蔵チェーンの設備を大幅に拡張しています。医療物流は医薬品流通の中でも最も利益率が高い分野であり、各社が積極的に投資を進めています。\n\nGLP-1薬は冷蔵保管が必須で、配送時にも一定温度管理が必要です。患者数の急増に伴い、コールドチェーン・温度制御施設の需要が急速に高まっています。これは単なる物流効率化ではなく、医療ビジネスモデルの根本的な変化を反映しています。\n\nヘルスケア物流はパンデミック以降、医薬品配送の重要性が大幅に高まった分野です。各物流企業は、GLP-1薬などの新規医薬品流通に対応することで、成長市場への参入を加速させています。",
+    "tags": [
+      "物流",
+      "医療",
+      "GLP-1",
+      "冷蔵管理"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/25/ups-fedex-dhl-healthare-logistics-glp.html",
+    "importance": 3,
+    "image_query": "logistics warehouse shipping supply",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:19.876Z",
+    "publishedAt": "2026-07-25T12:00:02.000Z"
+  },
+  {
+    "slug": "20260726-16",
+    "headline": "近畿大学がAI利用を入試で認可、情報学部総合型選抜で本格導入",
+    "lead": "2027年度から情報学部の入試でAI活用を許可、虚偽記載のみ不受理。",
+    "body_markdown": "近畿大学は2027年度の情報学部総合型選抜入学試験でAI活用を認めると発表しました。自己PR動画、プレゼンテーション資料、志望理由書などの提出物作成やプレゼン準備でのAI利用が許可されます。\n\nただし重要な制限があります。大学は「虚偽を記載した提出物は受理しない」と明記し、選考では「AIの利用の有無にかかわらず、受験者の能力や思考、独自性を重視する」と述べています。つまり、AIは道具として認めつつ、思考過程と独創性評価の対象は変わらないということです。\n\n実施理由として同大は「生成AIはプログラミングやシステム開発をはじめ、社会のさまざまな分野で活用されており、適切に使いこなす力は情報分野を学ぶ上で必要な能力」と位置づけています。この方針は情報学部のみに適用され、他学部の総合型選抜ではAI利用方針を明記していません。",
+    "tags": [
+      "AI",
+      "教育",
+      "大学入試",
+      "日本"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/24/2000000221/",
+    "importance": 3,
+    "image_query": "university education classroom technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:19.878Z",
+    "publishedAt": "2026-07-24T08:45:19.000Z"
+  },
+  {
+    "slug": "20260726-17",
+    "headline": "改正国民投票法が成立、投票環境を公選法基準に統一",
+    "lead": "立会人要件緩和など、憲法改正国民投票を実施しやすくする改正法が可決。",
+    "body_markdown": "日本の参議院本会議で、改正国民投票法が自民・維新両党と立憲民主党などの賛成多数で可決・成立しました。この改正の主要な内容は「立会人の要件を緩和するなど、投票環境を整備する」ものです。\n\n法改正は「公職選挙法に合わせ投票環境を整備する」ことを目的としており、一般選挙と同様の投票環境を整えることで、国民投票をより実施しやすくするための措置です。立会人要件の緩和により、地方での実施が容易になることが期待されます。\n\n複数の政党による支持を得ての成立は、この改正が一定の共通理解に基づいていることを示しています。憲法改正に向けた国民投票の実施可能性が高まりました。",
+    "tags": [
+      "日本",
+      "政治",
+      "国民投票",
+      "立法"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015185621000",
+    "importance": 3,
+    "image_query": "voting election democracy political participation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T21:41:19.878Z",
+    "publishedAt": "2026-07-24T14:40:22.000Z"
+  },
+  {
     "slug": "20260725-33",
     "headline": "OpenAI、企業向けAIエージェント「Presence」発表",
     "lead": "OpenAIが企業のワークフローで信頼できるAIエージェントを運用するための製品「Presence」を発表しました。",
