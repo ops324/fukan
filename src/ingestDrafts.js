@@ -50,6 +50,27 @@ const createdReviews = []; // created[i] に対応する judge 判定（無け�
 const usedImages = new Set();
 for (const a of store) { const k = imageKey(a.image); if (k) usedImages.add(k); }
 
+// 下書きの sources[] を検証して整える（決定論・LLM 不使用）。
+// writer が拾った出所不明のサイトをそのまま公開しないよう、config.trustedSecondary に
+// 載っているホスト（それ自身 or そのサブドメイン）だけを残す。重複と主出典は除く。
+function normalizeSources(raw, primaryLink) {
+  if (!Array.isArray(raw)) return [];
+  const seenUrl = new Set(primaryLink ? [primaryLink] : []);
+  const out = [];
+  for (const s of raw) {
+    const url = typeof s?.url === 'string' ? s.url.trim() : '';
+    const name = typeof s?.name === 'string' ? s.name.trim() : '';
+    if (!/^https?:\/\//.test(url) || !name || seenUrl.has(url)) continue;
+    let host;
+    try { host = new URL(url).hostname.replace(/^www\./, ''); } catch { continue; }
+    const trusted = (config.trustedSecondary || []).some((d) => host === d || host.endsWith(`.${d}`));
+    if (!trusted) { console.error(`  … 信頼リスト外の参照を除外: ${host}`); continue; }
+    seenUrl.add(url);
+    out.push({ url, name });
+  }
+  return out.slice(0, 4); // 出典欄が長くなりすぎないよう上限
+}
+
 for (const d of drafts) {
   if (!d?.headline || !d?.body_markdown || !d?.link) { console.error('  スキップ（必須欠落）'); continue; }
   if (seen.has(d.link)) { console.error(`  スキップ（重複）: ${d.link}`); continue; }
@@ -107,6 +128,8 @@ for (const d of drafts) {
     if (image) console.error(`  [press] 公式画像を採用: ${d.headline} — 提供: ${image.credit}`);
     else image = await fetchImage(d, created.length, usedImages);
   }
+  // 裏取りに使った2次媒体を検証（信頼リスト外・主出典の重複・壊れた URL を落とす）。
+  const extraSources = normalizeSources(d.sources, d.link);
   // 旧カテゴリは navSections へ正規化（旧ラベルはタグへ退避）。新規の総合カテゴリは素通り。
   const { section, tags } = normalizeSectionTags(
     d.section || 'AI',
@@ -121,6 +144,9 @@ for (const d of drafts) {
     section,
     source: d.source || '',
     link: d.link,
+    // 裏取りに使った2次媒体。読者が検証できるよう記事ページに併記する（templates/article.js）。
+    // 空なら省略してレガシー記事と同じ形にする。
+    ...(extraSources.length ? { sources: extraSources } : {}),
     importance,
     image_query: (d.image_query || '').trim(),
     image,

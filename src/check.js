@@ -96,6 +96,22 @@ function checkSchema(arts) {
       }
     }
     if (!Array.isArray(a?.tags)) fail(`${where}: tags が配列ではありません`);
+    // sources は任意（裏取りに使った2次媒体。レガシー記事には無い＝後方互換）。
+    // あるときは形を検証する: 読者が辿れないリンクを載せると「明示した」ことにならないため。
+    if (a?.sources != null) {
+      if (!Array.isArray(a.sources)) {
+        fail(`${where}: sources が配列ではありません`);
+      } else {
+        a.sources.forEach((s, j) => {
+          if (typeof s?.url !== 'string' || !/^https?:\/\//.test(s.url)) {
+            fail(`${where}: sources[${j}] の url が http(s) の URL ではありません`);
+          }
+          if (typeof s?.name !== 'string' || !s.name.trim()) {
+            fail(`${where}: sources[${j}] に媒体名(name)がありません`);
+          }
+        });
+      }
+    }
     // 公式プレス画像（kind==='press'）は imageUrl とクレジット(credit)を必須にする。
     // 無断・無クレジットの公式画像掲載を公開前に止める（CLAUDE.md の権利配慮）。
     const img = a?.image;

@@ -653,6 +653,11 @@ figure { margin: 0; }
 .callout p { font-size: var(--text-sm); color: var(--ink-1); line-height: 1.7; margin: 0; }
 .callout__link { margin-top: var(--space-sm) !important; }
 .callout__link a { color: var(--accent); font-weight: 500; }
+/* 裏取りに使った2次媒体（sources[]）。主出典より控えめに、しかし必ず読者から辿れるように出す。 */
+.callout__note { margin-top: var(--space-md) !important; color: var(--ink-2) !important; }
+.callout__sources { margin: var(--space-2xs) 0 0; padding-left: 1.2em; }
+.callout__sources li { font-size: var(--text-sm); color: var(--ink-1); line-height: 1.7; }
+.callout__sources a { color: var(--accent); }
 
 /* 関連トピック（タグ） */
 .topics { max-width: var(--measure); margin: var(--space-2xl) auto 0; }
