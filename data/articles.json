@@ -1,5 +1,533 @@
 [
   {
+    "slug": "20260725-33",
+    "headline": "OpenAI、企業向けAIエージェント「Presence」発表",
+    "lead": "OpenAIが企業のワークフローで信頼できるAIエージェントを運用するための製品「Presence」を発表しました。",
+    "body_markdown": "OpenAIが発表した「Presence」は、企業向けのAIエージェント製品で、カスタマーサービスと内部ワークフローの両方で活用されるように設計されています。\n\n企業にとっての課題は、もはやAIエージェントが動作することを証明することではなく、本番環境で高付加価値の仕事を実行するのに十分な信頼性を確保することになっています。Presenceはこの課題に対応するため、モデルの推論能力とポリシー、ガードレール、エスカレーションルールを組み合わせ、精度と性能を検証しながら、エージェントの挙動を製品や方針、ユーザー行動の変化に応じて適応させます。\n\nPresenceは、請求問題の解決、保険請求への対応、従業員向けIT サービス要求の解決など、特定の業務から始まります。エージェントは必要な情報のみを受け取り、会社システムへのアクセス権限や承認されたアクションの実行権限が制限されています。複雑な問題が生じた場合や判断が必要な場合は、自動的に人間にエスカレートします。OpenAIは何年にもわたり企業規模で顧客と協力した経験に基づいており、Presenceはこの実績を活かした製品となっています。",
+    "tags": [
+      "AI",
+      "エンタープライズ",
+      "エージェント",
+      "自動化"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-openai-presence",
+    "importance": 5,
+    "image_query": "business team office AI technology",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6jXxdGYMc8oC9wCBbM59tD/47cd3218b63b068cf3ec2f63b79d5256/OpenAI_Presence_16x9.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/introducing-openai-presence",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:06.408Z",
+    "publishedAt": "2026-07-22T05:30:00.000Z"
+  },
+  {
+    "slug": "20260725-34",
+    "headline": "スペイン・フランスの大規模山火事、20万人超が避難",
+    "lead": "スペインとフランスで同時に発生した山火事が猛威を振るい、計20万人以上が避難を余儀なくされています。",
+    "body_markdown": "スペイン中部とフランス南西部を襲った大規模な山火事は、7月24日から25日にかけて急速に拡大し、両国で200,000人近くが避難しました。スペインではマドリード周辺で発生した巨大な火災が制御不能に陥り、当局が国家非常事態を宣言しています。フランスではボルドー近郊のジロンド県とランド県から141,000人以上が避難し、ジロンド県とランド県の火災は「かつて見たことのないレベルに達した」とセバスチャン・ルコルニュ首相が述べています。\n\nスペイン側では7月24日金曜日、別々に発生していた2つの火災が合体して巨大な炎塊となり、さらに隣接するカスティーリャ・イ・レオン州の火災と結合する危険性も指摘されています。火災の規模は消防隊の対応能力を超えており、制御は困難な状態が続いています。フランスはEU（ヨーロッパ連合）に国際支援を要請し、軍隊も出動して対応にあたっています。\n\nキャップ・フェレ半島では、唯一の脱出道路が火に脅かされ、44,000人以上が避難しました。同地域だけで50軒以上の家屋が焼失しており、被害は増え続けています。両国は高温と乾燥の組み合わせが火災の拡大を加速させたと指摘しており、気候変動の影響が顕著になっています。",
+    "tags": [
+      "自然災害",
+      "環境",
+      "ヨーロッパ",
+      "気候変動"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/25/wildfires-in-spain-and-france-force-evacuation-of-200000-people",
+    "importance": 5,
+    "image_query": "wildfire forest fire smoke",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1667324493978-50ded101038c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMXx8d2lsZGZpcmUlMjBmb3Jlc3QlMjBmaXJlJTIwc21va2V8ZW58MXwwfHx8MTc4NDk3MTgwOXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "OB OA",
+      "profileUrl": "https://unsplash.com/@oboa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a forest with trees and a fire",
+      "description": "This is a controlled fire near Faro, Portugal. The forest owner uses to prevent future fires"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:07.407Z",
+    "publishedAt": "2026-07-25T07:41:43.000Z"
+  },
+  {
+    "slug": "20260725-35",
+    "headline": "フィンランド、世界最大級の砂電池が本格稼働",
+    "lead": "フィンランドが再生可能エネルギーの間歇性対策として、世界最大級の砂電池をポルナイネン町で稼働させました。",
+    "body_markdown": "フィンランドのポルナイネン町に設置された砂電池は、高さ13メートル、幅15メートルの施設内に2,000トンの砕石を使用して、100 MWh（メガワット時）の熱エネルギーを貯蔵できます。この容量は2022年にカンカンペーで稼働した前の砂電池の約10倍であり、商用規模としては世界最大級の施設です。\n\n砂電池は、太陽光発電や風力発電など再生可能エネルギーの出力が不安定になる問題「間歇性」を解決する重要な技術です。ポルナイネンの施設は地域暖房ネットワークに熱を供給し、冬季のエネルギー需要に対応します。本プロジェクトによるCO2排出削減効果は約70%と試算されており、脱炭素化への貢献が期待されています。\n\nさらに、フィンランドではヴァークシー地域に2 MW（メガワット）の出力と250 MWhの貯蔵容量を備える次世代砂電池の建設も計画されており、2027年夏の完成が予定されています。これらのプロジェクトは、再生可能エネルギーの大規模導入を実現するための重要な基盤技術として注目を集めています。",
+    "tags": [
+      "再生可能エネルギー",
+      "環境",
+      "技術革新",
+      "エネルギー貯蔵"
+    ],
+    "section": "サイエンス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/25/finland-sand-battery-renewable-energy-storage.html",
+    "importance": 5,
+    "image_query": "energy storage renewable technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1594818379496-da1e345b0ded?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxlbmVyZ3klMjBzdG9yYWdlJTIwcmVuZXdhYmxlJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg0OTcxODEwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Anders J",
+      "profileUrl": "https://unsplash.com/@aj5photos?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "white and blue solar panels",
+      "description": "Taipei Energy Hill solar park from above."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:08.321Z",
+    "publishedAt": "2026-07-25T05:29:38.000Z"
+  },
+  {
+    "slug": "20260725-36",
+    "headline": "OpenAI、ジョージア州に3.2ギガワットの巨大データセンター計画",
+    "lead": "OpenAIがエフィンガム郡に3.2ギガワット対応の大規模AIデータセンター「Project Camellia」の建設を発表しました。",
+    "body_markdown": "OpenAIが新たに公表した「Project Camellia」は、米ジョージア州エフィンガム郡に建設される大規模データセンター計画です。サバンナから約45分の位置にあるSavannah Gateway Industrial Hubに立地し、OpenAIが自ら設計・建設する初の自社データセンターとなります。\n\n本計画の規模は圧倒的です。ジョージア・パワー・カンパニーとの25年契約により、3.2ギガワット（GW）の電力供給が予定されています。供給は段階的に実施され、2028年に数百メガワット（MW）、2032年に完全な3.2GWがオンラインになる予定です。この電力は約240万世帯の消費電力に相当し、従来のハイパースケールデータセンター（通常100MW）の約32倍の規模です。\n\nプロジェクトの総投資額は最低でも200億ドル、完全な構築時には300億ドル以上に達する見込みです。OpenAIはエフィンガム郡の地域発展基金として8,000万ドル、ジョージア州の大学・高専向けのCodexクレジットとして最大7,100万ドルの提供を公約しています。重要な点として、OpenAIはこのプロジェクトがジョージア州民の電気料金上昇につながらないことを保証しており、同州のGAP（Georgia Public Service Commission）の規則に基づき、追加費用を既存利用者に転嫁することは禁止されています。",
+    "tags": [
+      "データセンター",
+      "AI基盤",
+      "エネルギー",
+      "インフラストラクチャ"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+    "importance": 4,
+    "image_query": "data center server facility",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/2E055Vw112vq9W8h2im5nw/2e610c07e7da2a38a0a77c37ffa562d0/effingham_county_16x9.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:08.532Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-37",
+    "headline": "Paramount/WBD買収、2027年6月まで延期 12州の訴訟で",
+    "lead": "Paramount による110億ドルのWarner Bros Discovery買収が、12州による反トラスト訴訟を受けて2027年6月まで延期されることになりました。",
+    "body_markdown": "Paramount Skydanceは7月24日、Warner Bros Discovery（WBD）の買収を2027年6月1日か判決後5日のいずれか早い方までの延期に同意しました。本買収は110億ドル規模の大型M&Aで、カリフォルニア州が率いる12州による反トラスト訴訟によって阻止の可能性が生じています。\n\n訴訟は北加州連邦地裁に提起され、Clayton Act（クレイトン法）第7条に基づき、本買収がメディア業界における競争を著しく制限したり、寡占を生じさせたりする可能性があると主張しています。同時に業界労働組合であるWriters Guild of America（WGA）も独立した反トラスト訴訟を提起しており、複数の障害が買収完了を困難にしています。\n\n買収条件では、ParamountがWBDの全発行株に対して1株31ドルの現金を支払う予定です。さらに、クロージング前の四半期ごとに1株あたり0.25ドルの追加金が支払われることになっており、6月2027年まで延期された場合、追加費用は約17億ドルに達する可能性があります。本延期によって買収の実現可能性と条件がさらに不透明になっています。",
+    "tags": [
+      "M&A",
+      "メディア",
+      "反トラスト法",
+      "エンタープライズ"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/us-news/2026/jul/24/paramount-warner-bros-merger",
+    "importance": 4,
+    "image_query": "business merger deal",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758599543278-32d9d073941e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8YnVzaW5lc3MlMjBtZXJnZXIlMjBkZWFsfGVufDF8MHx8fDE3ODQ5NzE4MTF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vitaly Gariev",
+      "profileUrl": "https://unsplash.com/@silverkblack?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Two businessmen shaking hands outside modern building",
+      "description": "Businessman in suit and tie is meeting friendly male business partner outside shaking hands smiling talking. Communication, youth and teamwork concept."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:09.437Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-38",
+    "headline": "Meta AI、カレンダー統合・日次ブリーフィング機能追加",
+    "lead": "MetaがMuse Spark 1.1搭載のAIアシスタントに、カレンダー連携と研究機能を追加しました。",
+    "body_markdown": "MetaはMuse Spark 1.1を搭載したMeta AIを更新し、新たな生産性機能を統合しました。本更新により、AI は ユーザーのカレンダーにアクセスして日次ブリーフィングを作成し、二重ブッキングや予定変更の検知など、個人的な予定管理を支援できるようになりました。\n\nMuse Spark 1.1は100万トークンまでのプロンプト対応が可能で、複数のソースからデータを取得して統合的に処理する能力が強化されています。本モデルの活用により、Meta AIは複雑な業務タスク、例えばスライド作成、メール統合、スケジューリング、さらに複数ツールを組み合わせた深い調査にも対応可能になりました。\n\nロールアウトは限定的な市場でWebおよびモバイル版のチャットボットから開始され、数週間以内にWhatsAppのバージョンへの統合も予定されています。Meta CEO Mark Zuckerbergが「個人向け超知能」（Personal Superintelligence）と呼ぶ将来像に向けた段階的な展開です。",
+    "tags": [
+      "AI",
+      "生産性",
+      "Meta",
+      "アシスタント"
+    ],
+    "section": "AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
+    "importance": 4,
+    "image_query": "productivity software calendar planning",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1703300450387-047da16a89c4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8cHJvZHVjdGl2aXR5JTIwc29mdHdhcmUlMjBjYWxlbmRhciUyMHBsYW5uaW5nfGVufDF8MHx8fDE3ODQ5NzE4MTJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "wd toro 🇲🇨",
+      "profileUrl": "https://unsplash.com/@wdtoro?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a calendar on a table",
+      "description": "Blurred view and selective focus of Javanese Indonesian calender page of holiday date of the month exposed by side lighting."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:10.325Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-39",
+    "headline": "Midjourney、占星術アプリ「Co-Star」を買収",
+    "lead": "Midjourneyが月間430万ユーザーを抱える占星術プラットフォーム「Co-Star」を買収。画像生成から社会的なアプリ分野へ拡大。",
+    "body_markdown": "画像・動画生成AI企業Midjourneyは、占星術プラットフォーム「Co-Star」を買収しました。Co-Starは月間430万人のアクティブユーザーを抱える社会的な占星術アプリで、AIと人間のライターが協働して、ユーザーの生まれた時刻や位置から占星術的プロファイル（出生図）を作成し、ユーザー間で共有できるプラットフォームです。ホロスコープ、相性判定、個別占い等を提供しています。\n\nCo-Starは24人のチームを持ち、全員がMidjourneyに参画することになります。Midjourneyの買収発表では具体的な条件が非公開とされており、正確な買収価額は不明です。本買収は、Midjourneyが画像・動画生成を超えて、消費者向けアプリケーション、医療・ウェルネス分野への多角化を進める戦略の一環と見られています。Co-StarのAIと人間の創作能力を融合した実績を活かし、Midjourneyが独自のスタンドアロンアプリ構築に活用する可能性があります。",
+    "tags": [
+      "AI",
+      "スタートアップ",
+      "M&A",
+      "アプリケーション"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
+    "importance": 4,
+    "image_query": "mobile app social platform",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1745848413099-13adc3aaf308?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMHx8bW9iaWxlJTIwYXBwJTIwc29jaWFsJTIwcGxhdGZvcm18ZW58MXwwfHx8MTc4NDk3MTgxM3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "dlxmedia.hu",
+      "profileUrl": "https://unsplash.com/@dlxmedia?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A smartphone displays social media app icons.",
+      "description": "Close-up of a smartphone held in hand, showing a folder titled \"Social Media\" containing icons for popular apps like YouTube, Instagram, Facebook, LinkedIn, TikTok, Gmail, Google Calendar, Google Drive, and Canva. The background has a pinkish glow"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:11.172Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-40",
+    "headline": "台湾野党、11月地方選で統一戦線 2028大統領選へ布石",
+    "lead": "台湾の国民党と民衆党が2026年11月の統一地方選で協力。次の大統領選に向けた体制構築が進む。",
+    "body_markdown": "台湾の最大野党・国民党（KMT）と野党第二党・民衆党（TPP）は、2026年11月28日に実施される統一地方選での協力協定を承認しました。この「九合一選挙」（9カテゴリ同時投票）では、全土22の県市のトップを決める選挙が核となり、ここでの野党勢力拡大が2028年の大統領選に向けた重要な基盤となります。\n\nKMTとTPPは3月18日に合同統治協定を批准し、候補者指名の分工体制と調整メカニズムを確立しました。新北市、嘉義市、宜蘭県を含む特定地域では、両党間で交渉による候補者割り当てが実施される予定です。台湾の多党競争の歴史の中では、このような制度化された事前協力フレームワークは稀であり、野党統一による執政党・民進党（DPP）への対抗姿勢を明確にしています。\n\n本協力は2028年の大統領選に向けた足がかりであり、今回の地方選での成果が統一候補擁立の可能性を高める可能性があります。",
+    "tags": [
+      "台湾",
+      "政治",
+      "選挙",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015185991000",
+    "importance": 4,
+    "image_query": "election voting politics",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1583340806569-6da3d5ea9911?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOHx8ZWxlY3Rpb24lMjB2b3RpbmclMjBwb2xpdGljc3xlbnwxfDB8fHwxNzg0OTcxODE0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "visuals",
+      "profileUrl": "https://unsplash.com/@visuals?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "I voted in the US elections",
+      "description": "I voted #elections"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:12.173Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-41",
+    "headline": "日本、副首都構想法が成立 大規模災害対策強化へ",
+    "lead": "大規模災害時の首都機能代替拠点を整備する法律が7月24日に成立。対象地域の指定を目指す動きが広がる見込み。",
+    "body_markdown": "日本の参議院本会議は7月24日、「副首都構想」に関連する法案を賛成多数で可決・成立させました。正式名称は「国家社会機能継続性確保施策及び副首都の整備に係る施策の推進に関する法律」で、東京が大規模地震や大災害で機能麻痺した場合に、国家の中枢機能を代替できる地域を整備する制度を規定しています。\n\n法律は東京への権力集中を是正し、複数の地域に国家機能の分散拠点を持つことで、国家レジリエンスを強化することを目的としています。副首都の条件として、国家の地方支部機関が多く設置されていること、一定以上の経済規模と人口密度を持つこと、地方行政体制が整備されていることなどが規定されています。\n\n大阪が有力候補とされていますが、北海道、愛知県、福岡県など複数地域が指定を目指す動きを見せています。法案は3月31日にLDP（自民党）と日本維新の会で基本合意され、6月24日に衆議院に提出されました。参議院での採決は123票対121票の僅差での可決となり、立法過程で様々な懸念が残ったままです。",
+    "tags": [
+      "日本政策",
+      "災害対策",
+      "インフラストラクチャ",
+      "都市計画"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015185521000",
+    "importance": 4,
+    "image_query": "urban city planning government",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1760553120209-8e9d5d2493e3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHx1cmJhbiUyMGNpdHklMjBwbGFubmluZyUyMGdvdmVybm1lbnR8ZW58MXwwfHx8MTc4NDk3MTgxNXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "ANOOF C",
+      "profileUrl": "https://unsplash.com/@anoofc?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Architectural model of a modern city district",
+      "description": "Detailed miniature model of a modern city with illuminated buildings, roads, and advanced infrastructure, illustrating urban planning, innovation, green spaces, and smart city concepts."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:12.891Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-42",
+    "headline": "NTT DATA、Codex導入で事故対応を30分に短縮",
+    "lead": "NTT DATAがOpenAI Codexを9,000人の従業員に導入。複雑な障害分析が3日から30分に短縮。",
+    "body_markdown": "日本の大手IT企業NTT DATAは、OpenAI Codexを約9,000人の従業員に導入し、顕著な業務効率化を実現しました。同社はChatGPT Enterpriseの全社導入に続き、Codexの普及を進めています。\n\n最も印象的な成果は、障害分析時間の劇的な短縮です。従来は5名のシニアエンジニアが3日間かけていた複雑なシステム障害の分析が、Codexを用いることで30分で完了するようになりました。この効率化により、エンタープライズ規模でのAIエージェント活用の可能性が実証されました。\n\nNTT DATAは2025年5月にOpenAIと戦略的パートナーシップを締結し、社内にOpenAI Excellence Centerを設立して人材育成を推進しています。「Client Zero」アプローチとして、自らの組織を第一顧客と位置づけ、エンジニアから一般職まで幅広い部門でAI利用を実験・展開しています。内部調査では、96%以上がChatGPT Enterpriseに満足、95%以上が生産性向上を報告しており、エンタープライズAI導入の実例として業界から注目されています。",
+    "tags": [
+      "AI",
+      "エンタープライズ",
+      "日本企業",
+      "業務効率化"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/ntt-data",
+    "importance": 4,
+    "image_query": "enterprise software workplace",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3tNx6GYQXnoc3PTfyzifXI/a8f1a707998709f2ee5d9f6d3130fc71/ntt-data-seo-contentful.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/ntt-data",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:13.106Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-43",
+    "headline": "エジプト発見の類人猿化石、ヒトの進化史を塗り替えか",
+    "lead": "北アフリカから初めて発見された1,700万年前の類人猿化石が、モダン・エイプスの起源仮説を大きく変えるかもしれません。",
+    "body_markdown": "科学者たちが北エジプトのワディ・モグラで発見した1,700万年前の類人猿化石「Masripithecus」が、ヒトを含むモダン・エイプス（現存する類人猿）の起源に関する理解を変える可能性があります。本発見は2026年7月に科学誌『Science』に掲載されました。\n\n従来、モダン・エイプスは東アフリカで進化したと考えられてきました。しかし今回の北アフリカでの化石発見は、類人猿の祖先がより広範な地理的範囲で進化していたことを示唆しています。発見されたのは下顎の一部ですが、当時期の他の類人猿には見られない独特の特徴を備えています。\n\n解剖学的には、異常に大きな犬歯と小臼歯、丸みを帯びた質感のある臼歯、特に頑健な下顎という特徴を持ちます。Masripithecusは全ての現存するエイプス（ゴリラ、チンパンジー、オランウータン、ギボン）と人類の共通祖先に非常に近い位置づけがされており、北アフリカ・中東地域がヒト科動物の起源地の一つである可能性を高めています。",
+    "tags": [
+      "進化生物学",
+      "化石",
+      "人類起源",
+      "自然科学"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260723084852.htm",
+    "importance": 4,
+    "image_query": "fossil evolution paleontology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1737773290444-81c441a1dede?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8Zm9zc2lsJTIwZXZvbHV0aW9uJTIwcGFsZW9udG9sb2d5fGVufDF8MHx8fDE3ODQ5NzE4MTZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "David Clode",
+      "profileUrl": "https://unsplash.com/@davidclode?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A picture of a skeleton sitting on a rock",
+      "description": "Fossil cast of a meat eating kangaroo, Ekaltadeta. Note the large canine teeth, and the relatively large arms (for a kangaroo), possibly to hold on to it's prey. Based on it's teeth, it may have been exclusively carnivorous or possibly omnivorous. About the size of a dog. Replica of a fossil from the Riversleigh fossil site, Queensland, Australia."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:14.120Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-44",
+    "headline": "極冷却腎臓の豚への移植に成功 臓器保存に革新",
+    "lead": "テキサスA&M大学が超冷却により腎臓を氷結させず72時間保存、移植後の機能回復に成功。臓器保存技術に革新。",
+    "body_markdown": "テキサス A&M大学の研究チームが、-4℃（25℉）での超冷却技術を用いて豚の腎臓を保存し、移植後の機能回復に成功しました。本成果は臓器移植の最大の課題である保存期間の拡大に向けた画期的な進歩です。\n\n従来の臓器保存は氷冷保存（約4℃）が標準で、氷結を防ぐため数時間程度が限界でした。研究では豚から取り出した腎臓を血液除去用の標準溶液で洗浄した後、超冷却装置内で24、48、72時間保存されました。24時間保存された腎臓を移植すると、移植直後から尿の産生が確認され、臓器の正常な機能回復を示しました。\n\n超冷却装置は氷結を完全に防ぎながら、臓器を-4℃で保存可能にしています。これにより、臓器移植に要する移送時間が数日に延長され、ドナー臓器の利用可能性が大幅に拡大する可能性があります。臓器不足が深刻な現在、本技術は移植待機患者の救命に直結する重要な開発です。",
+    "tags": [
+      "医療",
+      "バイオテクノロジー",
+      "臓器移植",
+      "医学研究"
+    ],
+    "section": "サイエンス",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/",
+    "importance": 4,
+    "image_query": "medical research laboratory transplant",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1582719366768-de4481b828ce?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMXx8bWVkaWNhbCUyMHJlc2VhcmNoJTIwbGFib3JhdG9yeSUyMHRyYW5zcGxhbnR8ZW58MXwwfHx8MTc4NDk3MTgxN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person in white medical scrub suit standing beside white and blue hospital bed",
+      "description": "DNA Genotyping and Sequencing. A technician validates genetic variants identified through whole-exome sequencing at the Cancer Genomics Research Laboratory, part of the National Cancer Institute's Division of Cancer Epidemiology and Genetics (DCEG)."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:14.939Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-45",
+    "headline": "トランプ、EUのGoogle罰金に報復関税を警告",
+    "lead": "EUがGoogleに8.9億ユーロの罰金を科したことに対し、トランプ大統領が報復関税の警告を発表。",
+    "body_markdown": "ドナルド・トランプ大統領は、EUがAlphabet傘下のGoogleに8.9億ユーロ（約10億ドル）の罰金を科したことに対抗して、EUへの新たな報復関税を警告しました。欧州委員会の罰金は、Googleが検索結果でのランキング操作と不正なステアリング（利用者誘導）によってDigital Markets Actに違反していると判断したものです。\n\nトランプは声明で、この措置を「アメリカ企業と米国民を『略奪する』行為」と表現し、1974年通商法第301条に基づいた調査を発動すると発表しました。同大統領は、この調査によってEUの罰金を「完全に撤回」させ、その結果として「相当な関税」を課すと述べています。\n\n背景として、EUはApple、Meta、Amazonなど複数のアメリカテク企業に対する罰金を相次いで科しており、トランプ政権はこれを不公正な貿易慣行と見なしています。Google罰金は検索結果表示での優遇行為が焦点で、第301条の調査は数ヶ月で結論が出る見通しです。",
+    "tags": [
+      "通商",
+      "規制",
+      "テクノロジー企業",
+      "米欧関係"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/24/trump-tariffs-eu-trade-google-apple-tech.html",
+    "importance": 4,
+    "image_query": "trade tariffs international commerce",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1678716193852-e6ca47a46b4f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8dHJhZGUlMjB0YXJpZmZzJTIwaW50ZXJuYXRpb25hbCUyMGNvbW1lcmNlfGVufDF8MHx8fDE3ODQ5NzE4MTd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Bumgeun Nick Suh",
+      "profileUrl": "https://unsplash.com/@sbg1020?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a black and white photo of a world trade center sign"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:15.852Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-46",
+    "headline": "Roku、ストリーミング機器の価格を最大60%引き上げ",
+    "lead": "Rokuがメモリ不足を理由に、ストリーミングデバイスの価格を50～60%値上げしました。",
+    "body_markdown": "ストリーミングデバイス大手のRokuは、全ラインナップにおいて大幅な値上げを実施しました。理由はAIデータセンターによるメモリ需要の急増に伴う、グローバルなメモリチップ不足です。\n\n具体的な値上げ幅は以下の通りです。Roku Ultraは100ドルから150ドルへ（50%上昇）、Streaming Stick 4Kは49.99ドルから79.99ドルへ（60%上昇）、Streaming Stick Plusは39.99ドルから59.99ドルへ（50%上昇）、エントリーモデルのStreaming Stickは29.99ドルから39.99ドルへ（33%上昇）と、上位機種ほど上昇率が高い傾向を示しています。\n\nメモリ不足は「RAMageddon（ラマゲドン）」と呼ばれる深刻な危機で、2027年を通じて継続する見通しです。AI データセンターが高速メモリへの需要を急増させており、コンシューマー向けデバイスへのリソース割り当てが圧迫されています。",
+    "tags": [
+      "テクノロジー",
+      "サプライチェーン",
+      "AI",
+      "価格上昇"
+    ],
+    "section": "テクノロジー",
+    "source": "Ars Technica",
+    "link": "https://arstechnica.com/gadgets/2026/07/roku-raises-streaming-stick-prices-by-up-to-60-percent/",
+    "importance": 3,
+    "image_query": "technology device streaming",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:15.853Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-47",
+    "headline": "米企業、トランプの追加関税に提訴 効力に疑問",
+    "lead": "米中小企業がトランプ政権の追加関税について、法的効力を巡り連邦裁判所に訴訟を提起。",
+    "body_markdown": "米国の複数の中小企業が、24日に発効したトランプ政権の追加関税（60カ国以上を対象）に対して、米国際貿易裁判所に差し止めと払い戻しを求める訴訟を提起しました。企業側は、政権が1974年通商法第301条を悪用して、先に最高裁で違法とされた関税を実質的に復活させていると主張しています。\n\n日本はこの追加関税の対象に含まれており、特定の非免除製品に対しては、標準的な最恵国待遇関税と合算して10～12.5%の関税が課されることになります。法専門家の間では、第301条の権限行使をめぐり、法的な疑問の声が上がっており、裁判が長期化する可能性があります。\n\nトランプ政権は中国のAI技術や強制労働慣行に対する「国防」を名目にしていますが、先例のない幅広い対象国への適用により、WTO（世界貿易機関）ルールとの整合性も問われています。",
+    "tags": [
+      "通商",
+      "日本",
+      "米国政策",
+      "訴訟"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015185921000",
+    "importance": 3,
+    "image_query": "legal court international trade",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:15.853Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-48",
+    "headline": "愛知県、副首都指定を正式表明 東海地方が一体で推進",
+    "lead": "副首都構想法成立を受け、愛知県知事と名古屋市長が副首都指定を目指すことを正式表明しました。",
+    "body_markdown": "副首都構想関連法が参議院で成立したことを受けて、7月24日、愛知県の大村秀章知事と名古屋市の広沢広司市長が揃って記者会見を開き、愛知県として副首都指定を目指すことを正式表明しました。東海地方が一体となって推進する姿勢を示すかたちでの発表となりました。\n\n法律の成立により、大規模災害時に首都機能を代替する地域の選定プロセスが具体化します。愛知県はNagoya City と周辺地域で日本を代表する経済・産業の中枢を担っており、副首都候補としての条件を満たしています。\n\n大阪が最有力候補と見られていますが、北海道、福岡など複数地域も同様の動きを見せており、今後の指定プロセスにおいて激しい競争が予想されます。愛知県・名古屋市の連携体制は、地方の権力基盤を背景とした戦略的な推進を示唆しています。",
+    "tags": [
+      "日本政策",
+      "災害対応",
+      "地方自治",
+      "愛知県"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015185791000",
+    "importance": 3,
+    "image_query": "city urban government",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:15.854Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-49",
+    "headline": "米国、中国AI規制を検討 オープンウェイト制限に業界反発",
+    "lead": "トランプ政権が中国のオープンウェイトAIモデル規制を検討。Nvidia、Meta等が制限に反対。",
+    "body_markdown": "トランプ政権は、中国のAIモデル（特にMoonshot AIの「Kimi K3」）の米国内での流通規制を検討しており、アメリカの大手テック企業の規制に対する反発が強まっています。\n\n規制推進派は、中国企業がAnthropicなどの米国AIモデルを「蒸留」（より小型なモデルへの能力転移）して競争上の優位を得ている可能性を懸念しており、これを国家安全保障上の脅威と位置づけています。しかし、HuggingFace、Meta、Microsoft、Mistral、NvidiaなどのAI企業は、公開レターでオープンウェイトモデルへの「幅広い制限」に反対を表明しました。\n\nこれらの企業は、不正な蒸留問題への対処は「的を絞った法的・商業的枠組み」を通じるべきで、「性急な広範規制」は産業に悪影響をもたらすと主張しています。法執行の実現可能性も疑問視されており、既に公開されたモデルウェイトの流通をコントロールすることの困難さが指摘されています。",
+    "tags": [
+      "AI政策",
+      "地政学",
+      "規制",
+      "テクノロジー"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+    "importance": 3,
+    "image_query": "policy regulation government",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:15.855Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-50",
+    "headline": "UN事務総長、17年ぶりにシリア訪問 新政権との関係構築へ",
+    "lead": "グテーレスUN事務総長がシリアを訪問。シリア戦争後、UN首脳による初の公式訪問。",
+    "body_markdown": "アントニオ・グテーレスUN事務総長は、シリアをダマスカスに訪問し、先の内戦終結後、UN首脳による初の公式訪問となりました。訪問はシリア・アサド政権の放棄（2024年末）によって権力の空白が埋まり、イスラム主義系の暫定指導部が統治を開始した新局面を反映しています。\n\nグテーレスはシリア大統領アハマド・アル・シャラア、外相アサアド・アル・シャイバーニと会談し、シリア市民社会の代表者らとも接見する予定です。訪問は2009年にバン・キムン前事務総長以来、17年ぶりのUN首脳によるシリア訪問となります。この間、シリアは2011年に始まった内戦により数十万人の死傷者と数百万人の難民を生み出してきました。\n\nグテーレスの訪問は、UNがシリアの戦後復興・和解プロセスに再び関与する意思を示すもので、国際的な正統性回復と経済的支援の道を開く象徴的な意味を持ちます。",
+    "tags": [
+      "国際政治",
+      "シリア",
+      "紛争",
+      "国連"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/25/guterres-arrives-in-syria-in-first-official-visit-by-a-un-chief-in-17-years",
+    "importance": 3,
+    "image_query": "diplomacy international relations",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:15.856Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-51",
+    "headline": "Nunchaku、4ビット拡散モデルをHugging Faceで公開",
+    "lead": "Nunchakuが4ビット量子化した拡散モデルをHugging Faceで公開。コンシューマーハードウェアで高品質画像生成が可能に。",
+    "body_markdown": "MIT Han Labが開発したNunchakuは、4ビット量子化によって拡散モデルを圧縮し、Hugging Face経由で公開しました。この技術により、一般ユーザーが自分のコンピュータで、高性能GPUなしに高品質な画像生成AIを実行できるようになります。\n\nNunchakuのアプローチは、SVDQuant（特異値分解による異常値吸収）技術を用いて外れ値を処理することで、量子化による品質低下を最小限に抑えています。ユーザーはHugging Face Diffusersライブラリと完全互換のPython APIを使用でき、既存のスクリプトやノートブックを少なわずかな変更で活用できます。\n\n公開されているモデルはQwen-Image用の4ビット版、FLUX.1-dev用のNunchaku量子化版など複数種類があります。DiT（Diffusion Transformer）アーキテクチャとUNet（Stable Diffusion系）の両方に対応しており、ユーザーはPythonの親和的なインターフェース経由で、C++/CUDAバックエンドの最適化を活用できます。",
+    "tags": [
+      "AI",
+      "画像生成",
+      "機械学習",
+      "モデル最適化"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/nunchaku-diffusers",
+    "importance": 3,
+    "image_query": "artificial intelligence machine learning",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:15.857Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-52",
+    "headline": "Bluesky、AIアシスタント「Attie」が社会研究ツールに拡張",
+    "lead": "分散型SNS・BlueSkyがAIアシスタント「Attie」の新機能「Quests」を追加。AT Protocolベースの開放型研究を実現。",
+    "body_markdown": "分散型ソーシャルメディアプラットフォーム・BlueSkyは、AIアシスタント「Attie」に新機能「Quests」を追加しました。Questsはユーザーが「Atmosphere」と呼ばれるBluesky全域のソーシャルネットワークに対してオープンエンド質問を投げかけ、リアルタイムで情報やトレンドを取得できる機能です。\n\nAttieは3月にローンチされたBlueSkyのAIアシスタントで、もともとはカスタムアルゴリズム設計やフィードの自動生成機能を提供していました。Questsにより、ユーザーはプログラミングスキルなしに「最近のニュースのトレンド」「特定分野の影響力のあるアカウント」「地域別の動向」などをクエリできるようになります。\n\n重要な点として、Questsは単なるBlueSkyだけでなく、ATプロトコル（BlueSkyの基盤となる分散型プロトコル）に統合した他のアプリケーションも対象としています。Attieは現在ベータ段階で、数週間以内にウェイトリスト経由で展開される予定です。",
+    "tags": [
+      "SNS",
+      "AI",
+      "分散型プラットフォーム",
+      "検索"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
+    "importance": 3,
+    "image_query": "social media platform technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:15.858Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260725-53",
+    "headline": "トランプ政権、AI科学予算に50億ドル投資 「Genesis Mission」始動",
+    "lead": "トランプ政権が「Genesis Mission」として50億ドル以上のAI科学予算を発表。医療、エネルギー、製造業など5分野が優先。",
+    "body_markdown": "トランプ政権は7月24日、科学分野のAI活用に関する国家的取り組み「Genesis Mission」の一環として、50億ドル以上の投資を発表しました。本事業は政府横断的な科学革新イニシアティブであり、マンハッタン・プロジェクト並みの「緊急性と野心」を掲げています。\n\nGenesis Missionの優先分野は医療・慢性疾患研究、エネルギーインフラ・供給安定化、製造業・半導体、科学探査・宇宙データ解析、国家安全保障・生物的脅威対策の5分野です。エネルギー省傘下の国立研究所は、スーパーコンピュータと膨大な科学データを統合し、科学基盤モデルとロボット実験室を開発するクローズドループAI実験プラットフォームの構築を指示されています。\n\n本事業では合計278のプロジェクトが選定され、自動化実験室と自律制御による研究環境の根本的な変革が進められています。エネルギー長官クリス・ライトは「選定された278プロジェクトは、わが国の科学事業の最高峰を示すものだ」とコメントしており、トランプ政権が科学投資に大きな力を注ぐ姿勢を示しています。",
+    "tags": [
+      "科学政策",
+      "AI",
+      "研究開発",
+      "政府投資"
+    ],
+    "section": "AI",
+    "source": "White House",
+    "link": "https://www.whitehouse.gov/releases/2026/07/45502/",
+    "importance": 3,
+    "image_query": "research laboratory science technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-25T09:30:15.859Z",
+    "publishedAt": null
+  },
+  {
     "slug": "20260725-09",
     "headline": "フランス・スペイン山火事、22万人以上が避難",
     "lead": "仏南西部とスペイン中部の山火事で22万人超に避難指示。スペインは国家緊急事態を宣言、仏は軍を動員した。",
