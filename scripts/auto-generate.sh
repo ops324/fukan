@@ -5,7 +5,8 @@
 set -u
 
 PROJECT_DIR="/Users/takimototetsuya/AIニュースサイト"
-CLAUDE_BIN="/Users/takimototetsuya/.local/bin/claude"
+# 既定は固定パス。環境変数で上書きできるようにしてあるのは異常系（認証失敗）の実地テスト用。
+CLAUDE_BIN="${CLAUDE_BIN:-/Users/takimototetsuya/.local/bin/claude}"
 PROMPT_FILE="$PROJECT_DIR/prompts/generate-articles.md"
 REVIEW_PROMPT_FILE="$PROJECT_DIR/prompts/review-drafts.md"
 IMAGE_REVIEW_PROMPT_FILE="$PROJECT_DIR/prompts/review-images.md"
@@ -14,6 +15,12 @@ cd "$PROJECT_DIR" || exit 1
 
 NODE_BIN="/usr/local/bin/node"
 HEALTH_FILE="$PROJECT_DIR/data/.health"
+# 人間が一目で状況を掴むための状態ファイル（最終成功・直近エラー・連続失敗回数）。
+# 通知バナーは集中モード等で抑制され見落とされうるため、消えない形でも残す。gitignore 済み。
+STATUS_FILE="$PROJECT_DIR/data/.status"
+# writer 出力の退避先。認証エラーは終了コードに出ない（CLI は 401 でも exit 0 を返す）ため、
+# 出力そのものを検査する必要がある。gitignore の *.log でカバーされる。
+WRITER_LOG="$PROJECT_DIR/data/_writer.log"
 # 執筆モデル（writer）。要約＋論評タスクなので安価な Haiku で量産する。src/config.js の writerModel が正本、ここは既定値の写し。
 WRITER_MODEL="${WRITER_MODEL:-claude-haiku-4-5-20251001}"
 # 査読モデル（judge）。writer と別モデルにして自己相関を下げる（writer=Haiku のため judge=Sonnet）。src/config.js の judgeModel が正本、ここは既定値の写し。
@@ -36,6 +43,17 @@ LOCK_MAX_AGE=3600   # 秒。これを超える古いロックは異常終了の�
 # macOS 通知ヘルパー（失敗時に気づけるように）
 notify() {
   /usr/bin/osascript -e "display notification \"$1\" with title \"俯瞰 FUKAN\" sound name \"Basso\"" 2>/dev/null || true
+}
+
+# 状態ファイルを書く。通知バナーは集中モード等で抑制されうるので、消えない形でも残す。
+write_status() {
+  {
+    echo "最終実行: $(date '+%Y-%m-%d %H:%M:%S')"
+    echo "状態:     $1"
+    echo "詳細:     $2"
+    echo "連続で新規記事ゼロ: ${STREAK:-0} 回"
+    echo "（自動生成。ログ全文は data/scheduler.log）"
+  } > "$STATUS_FILE" 2>/dev/null || true
 }
 
 # 記事総数を返す（取れなければ -1）
@@ -82,7 +100,8 @@ BEFORE_COUNT="$(count_articles)"
 
 # 前回ジョブの残骸を掃除（古い下書き/査読を今回の成功と誤認しないため）。
 rm -f "$PROJECT_DIR/data/_drafts.json" "$PROJECT_DIR/data/_review.json" \
-      "$PROJECT_DIR/data/_image_review_targets.json" "$PROJECT_DIR/data/_image_review.json"
+      "$PROJECT_DIR/data/_image_review_targets.json" "$PROJECT_DIR/data/_image_review.json" \
+      "$WRITER_LOG"
 
 # 下書き/候補の件数を返すヘルパー（読めなければ 0）。
 drafts_count() {
@@ -102,21 +121,36 @@ candidates_count() {
 DIGEST="$("$NODE_BIN" src/qualityDigest.js 2>/dev/null)"
 rc=1
 DRAFT_COUNT=0
+# 認証切れ(401)は終了コードに出ない（CLI は失敗しても exit 0 を返す実績あり）ため、
+# 出力を検査して立てるフラグ。set -u があるので必ず初期化しておく。
+AUTH_FAILED=0
 for (( try=1; try<=WRITER_MAX_TRIES; try++ )); do
   echo "writer 実行 (試行 ${try}/${WRITER_MAX_TRIES}, model=$WRITER_MODEL, tools制限/MCP無効)"
+  # tee でログに流しつつ退避する（$(...) で丸ごと抱えると数分間ログが無言になり進行が見えない）。
+  # 終了コードは pipestatus で writer 自身のものを取る（tee の 0 に潰させない）。
   "$CLAUDE_BIN" --model "$WRITER_MODEL" --fallback-model "$WRITER_FALLBACK_MODEL" \
     --dangerously-skip-permissions --tools "$WRITER_TOOLS" --strict-mcp-config \
     -p "$(cat "$PROMPT_FILE")${DIGEST:+
 
-$DIGEST}"
-  rc=$?
+$DIGEST}" 2>&1 | tee "$WRITER_LOG"
+  rc=${pipestatus[1]}
   DRAFT_COUNT="$(drafts_count)"
   if [[ "$rc" -eq 0 && "$DRAFT_COUNT" -gt 0 ]]; then
     echo "writer 成功: 下書き ${DRAFT_COUNT} 件"
     break
   fi
+  # 認証切れはリトライしても同じ 401 になるだけ。即中止し、下流で異常として扱わせる。
+  # 候補取得は writer 自身が担うため、認証で即死すると候補 0 件になる——これを下の
+  # 「新着なし」と取り違えて 6 ラン無言停止した事故がある（2026-07-22〜25）。判定順が要。
+  if grep -q "Failed to authenticate" "$WRITER_LOG" 2>/dev/null; then
+    AUTH_FAILED=1
+    rc=1
+    echo "ERROR: claude CLI の認証に失敗しました（401）。リトライせず中止します。"
+    break
+  fi
   CC="$(candidates_count)"
   if [[ "$CC" -eq 0 ]]; then
+    # 認証は生きていて候補も 0 ＝本当に新着が無い日。従来どおり正常終了として扱う。
     echo "候補 0 件（新着なし）→ リトライ不要"
     rc=0
     break
@@ -195,36 +229,67 @@ echo "記事数: ${BEFORE_COUNT} → ${AFTER_COUNT}（追加 ${ADDED} 件）"
 STREAK=0
 [[ -f "$HEALTH_FILE" ]] && STREAK="$(cat "$HEALTH_FILE" 2>/dev/null || echo 0)"
 
-if [[ "$rc" -ne 0 ]]; then
+# 状態ファイル用（set -u があるので必ず初期化）
+STATUS_STATE="不明"
+STATUS_DETAIL="-"
+
+if [[ "$AUTH_FAILED" -eq 1 ]]; then
+  # 認証切れは最優先で分岐する。外形が「新着なし」と同じ（候補0件）ため汎用文言に混ぜると
+  # 気づけない——何をすれば直るかを通知本文そのものに書く。
+  STREAK=$(( STREAK + 1 ))
+  echo "ERROR: claude の認証切れにより記事を更新できませんでした（連続 ${STREAK} 回）"
+  notify "認証が切れています。ターミナルで claude を起動し /login してください。記事は更新されていません。"
+  printf '{"ts":"%s","type":"auth_failed","streak":%s}\n' "$(date -u +%FT%TZ)" "$STREAK" \
+    >> "$PROJECT_DIR/data/quality/incidents.jsonl"
+  STATUS_STATE="認証切れ（要対応）"
+  STATUS_DETAIL="ターミナルで claude を起動し /login して再認証してください。"
+elif [[ "$rc" -ne 0 ]]; then
   echo "ERROR: claude 実行が異常終了 (exit=$rc)"
   notify "執筆ジョブが異常終了しました (exit=$rc)。ログを確認してください。"
+  STATUS_STATE="異常終了 (exit=$rc)"
+  STATUS_DETAIL="data/scheduler.log を確認してください。"
 elif [[ "$AFTER_COUNT" -lt 0 ]]; then
   echo "ERROR: articles.json を読めません"
   notify "articles.json を読めません。データ破損の可能性。"
+  STATUS_STATE="articles.json 読み込み不可"
+  STATUS_DETAIL="データ破損の可能性。data/articles.json を確認してください。"
 elif [[ "$ADDED" -le 0 ]]; then
   STREAK=$(( STREAK + 1 ))
   if [[ "$CAND_COUNT" -gt 0 && "$DRAFT_COUNT" -le 0 ]]; then
     # 候補はあったのに writer が 1 本も書けなかった＝writer 失敗。3回待たず即通知。
     echo "ERROR: 候補 ${CAND_COUNT} 件に対し下書き 0 本（writer 失敗の疑い, 連続 ${STREAK} 回）"
     notify "執筆失敗: 候補 ${CAND_COUNT} 件に対し記事 0 本でした。writer を確認してください。"
+    STATUS_STATE="writer 失敗の疑い"
+    STATUS_DETAIL="候補 ${CAND_COUNT} 件に対し下書き 0 本。data/scheduler.log を確認してください。"
   else
     # 真に新着なし、または下書きは出たが veto/重複で全て公開見送り（品質ゲート作動）＝writer 失敗ではない。
     echo "INFO: 新規記事なし（候補 ${CAND_COUNT}件 / 下書き ${DRAFT_COUNT}件, 連続 ${STREAK} 回）"
+    STATUS_STATE="新規記事なし"
+    STATUS_DETAIL="候補 ${CAND_COUNT} 件 / 下書き ${DRAFT_COUNT} 件。新着が無いか品質ゲートで全て見送り。"
   fi
-  # 3回連続（=約半日以上）新規ゼロは異常の可能性が高いので通知（RSS取得断や認証切れの検知）
+  # 3回連続（=約半日以上）新規ゼロは異常の可能性が高いので通知（RSS取得断の検知）。
+  # 認証切れは上の専用分岐で通知済みなのでここには来ない（二重通知を避ける）。
   if [[ "$STREAK" -ge 3 ]]; then
     notify "新規記事が ${STREAK} 回連続でゼロです。RSS取得や認証を確認してください。"
   fi
 else
   STREAK=0
+  STATUS_STATE="正常"
+  STATUS_DETAIL="記事を ${ADDED} 件追加しました。"
 fi
 echo "$STREAK" > "$HEALTH_FILE"
+write_status "$STATUS_STATE" "$STATUS_DETAIL"
 
 # --- ソース変更ガード ---
 # 作業途中の src/templates 等のコードが、無人ジョブに巻き込まれて自動公開される事故を防ぐ。
 # 生成物・data/ は対象外。ソース系に未コミット変更があれば commit/push をスキップする。
 SRC_DIRTY="$(git status --porcelain -- src templates scripts prompts package.json package-lock.json 2>/dev/null)"
-if [[ -n "$SRC_DIRTY" ]]; then
+if [[ "$AUTH_FAILED" -eq 1 ]]; then
+  # 認証切れ＝記事は 1 本も増えていない。ここで commit すると incidents.jsonl の 1 行だけを抱えた
+  # 「記事を更新」コミットが毎ラン積まれ、Vercel が無意味に再デプロイされる（「自動ジョブのコミットは
+  # 実質 articles.json の差分のみ」という配信モデルも崩れる）。記録は次の正常ランに相乗りさせる。
+  echo "認証切れのため commit/push をスキップします（公開すべき変更なし）"
+elif [[ -n "$SRC_DIRTY" ]]; then
   echo "WARN: ソースに未コミット変更があるため自動コミットを中止します:"
   echo "$SRC_DIRTY"
   notify "ソースに未コミット変更があるため自動コミットを中止しました。手動で整理してください。"

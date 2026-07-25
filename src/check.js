@@ -185,6 +185,22 @@ function checkQuality(arts) {
   });
 }
 
+// --- 5) 更新鮮度チェック（警告のみ・exit に影響しない）---
+// 自動ジョブが無言停止しても articles.json は「壊れていない」ため 1〜4 は全て通る。
+// 最終記事からの経過を見て、パイプライン停止に気づける最後の砦にする。
+// warns に混ぜると記事ごとの品質警告に埋もれるので、独立させて末尾に目立たせる。
+function checkFreshness(arts) {
+  const newest = arts.reduce((max, a) => {
+    const t = Date.parse(a.publishedAt || a.createdAt || '');
+    return Number.isNaN(t) ? max : Math.max(max, t);
+  }, 0);
+  if (!newest) return null; // 日時が1件も読めない＝スキーマ側の担当（ここでは黙る）
+  const days = (Date.now() - newest) / 86400000;
+  if (days < config.freshness.staleDays) return null;
+  return `最終記事から ${days.toFixed(1)} 日経過（しきい値 ${config.freshness.staleDays} 日）。`
+    + ` 自動ジョブが停止している可能性 → data/.status と data/scheduler.log を確認してください。`;
+}
+
 // --- 実行 ---
 let arts;
 try {
@@ -203,6 +219,11 @@ checkQuality(arts);
 if (warns.length) {
   console.warn(`⚠ 品質警告（${warns.length} 件・公開はブロックしません）:`);
   for (const w of warns) console.warn(`  - ${w}`);
+}
+
+const stale = checkFreshness(arts);
+if (stale) {
+  console.warn(`\n⚠ 更新が滞っています: ${stale}\n`);
 }
 
 if (fails.length) {

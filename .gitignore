@@ -37,6 +37,9 @@ data/_image_review_targets.json
 data/_image_review.json
 data/scheduler.log
 data/.health
+# 自動ジョブの状態（最終成功・直近エラー・連続失敗回数）。人間が一目で見るためのローカル状態。
+# 追跡すると毎ラン差分が出て「コミットは実質 articles.json のみ」の配信モデルを壊す。
+data/.status
 # 評価 ledger の退避アーカイブ（有界化で溢れた古い行。履歴はローカル保持・git には載せない）
 data/quality/*.archive.jsonl
 data/.harness.lock/
