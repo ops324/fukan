@@ -400,6 +400,7 @@ allowlist ドメイン判定 `pressAllowlistCredit()` は `pressImage.js` から
 | `imageProvider` / `*Key` | unsplash | 画像API（未設定なら CSS サムネ） |
 | `pressImage` | `enabled:true` / allowlist13件（主要AIラボ＋公式ソース） | 公式ドメインの og:image を取り込み時に自動採用（§6.2）。`allowlist`＝報道用素材を認める一次情報の公式ドメイン。第三者メディアは対象外 |
 | `analytics.token` | 空（`CF_BEACON_TOKEN`） | Cloudflare Web Analytics の beacon トークン。空なら出力しない |
+| `slack` | `webhookUrl`（`SLACK_WEBHOOK_URL`）/ `timeoutMs:5000` / `notifyOnSuccess:true` | 自動ジョブの**異常と実行サマリ**を Slack へ送る（`src/notifySlack.js`・§8）。`notifyOnSuccess:false` にすると異常時のみになる。**未設定・不正 URL・ネットワーク断のいずれでも通知は常に exit 0** で、日次を止めない。Webhook URL は秘密情報なので `.env` にのみ置く（`PUBLIC_ENV_KEYS` に入れない＝値が追跡ファイルに混入すれば `npm run check` が赤） |
 | `thumbVariants` | CSS抽象サムネ6種 | 実写真が無いときのフォールバック（`styles.css` のグラデクラス） |
 | `navSections` | 総合10セクション（AI/テクノロジー/サイエンス/ビジネス/経済・マネー/政治/国際・地政学/カルチャー/エンタメ/ライフ・キャリア） | ナビ生成元。各要素は `slug`（`sections/<slug>.html`）と `hue`（OKLCH 色相）を持つ。総合ニュース化で旧 AI 細分類から再編。`section` 値自体は自由でナビ外でも記事ページは生成 |
 | `summaryFetch` | `enabled:true` / `domains:['openai.com']` / `minSummaryLen:400` / `maxChars:1200` | RSS 要約が薄い候補の**本文を Node 側で取得して `summary` を厚くする**（`src/summaryFetch.js`）。writer/judge の WebFetch は 403 に打つ手がないため、先に読んで候補に載せる。403 のときだけ `pressImage.fallbackUserAgent` で1回再試行（画像取得と同じ手当て）。**`domains` に載せてよいのは robots.txt が明示的に許可したドメインのみ**——拒否しているサイトへの適用は意思の迂回になる（§11）。失敗しても候補は RSS の要約のまま残る |
