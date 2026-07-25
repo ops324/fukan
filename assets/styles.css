@@ -1,8 +1,15 @@
-/* AXIOM AI — 低認知負荷・白基調ミニマル
+/* 俯瞰（FUKAN）— 低認知負荷・白基調ミニマル
  * 設計原則: 競合する信号を減らす（色・罫線・動き）／余白で区切る／型階層で序列を作る。
  * 見出し=セリフ(Fraunces × Noto Serif JP)、本文=サンス(Inter × Noto Sans JP)。
  * アクセントは1色（青）のみ。装飾モーションは持たない。
- */
+ *
+ * 改稿（プレビュー版）の骨子:
+ *   - 日本語組版の精度（palt / auto-phrase / text-spacing-trim / tabular-nums / 和欧の字間分離）
+ *   - 旧 §15 の後付け上書きを各セクションへ統合（同一プロパティの二重定義を解消）
+ *   - レスポンシブを min-width 加算方式へ統一（マークアップ順依存の脆さを解消）
+ *   - 版面マーク（.plate）＝写真の無い記事のための、写真に擬態しない罫線オーナメント
+ *   - skip link / .sr-only / タップ領域 44px
+ * ============================================================ */
 
 /* ============================================================
  * 1. TOKENS
@@ -38,6 +45,7 @@
   --text-xl: 24px;
   --text-2xl: 30px;
   --text-3xl: 40px;
+  --text-4xl: 46px;          /* 主見出しの上限（旧 §15 のハード値 46px をトークン化） */
 
   /* 余白（4pt） */
   --space-2xs: 4px;
@@ -50,10 +58,10 @@
   --space-3xl: 72px;
   --space-4xl: 112px;
 
-  /* レイアウト */
+  /* レイアウト（--gutter は §14 で min-width 加算） */
   --site-max: 760px;
   --site-max-wide: 1120px;    /* トップのみ PC で widen（.page--home） */
-  --gutter: 24px;
+  --gutter: 18px;             /* モバイル既定。600px 以上で 24 → 900px 以上で 32 */
   --measure: 40rem;
 
   --radius: 8px;
@@ -61,7 +69,7 @@
   --dur: 160ms;
 }
 
-/* 落ち着いたダーク（OS が dark のときのみ。トグルは廃止＝設定の競合を減らす） */
+/* 落ち着いたダーク（OS が dark のとき＝既定。トグルは廃止＝設定の競合を減らす） */
 [data-theme="dark"] {
   --paper: #14140f;
   --surface: #1b1b16;
@@ -118,8 +126,48 @@ p { margin: 0; }
 figure { margin: 0; }
 ::selection { background: var(--accent); color: #fff; }
 
-/* 日本語の自然な改行・禁則寄りの折返し */
-:lang(ja), h1, h2, h3, h4 { line-break: strict; overflow-wrap: anywhere; word-break: normal; }
+/* --- 日本語組版 -------------------------------------------------------
+ * 1) line-break: strict … 禁則を厳格に（行頭に「、。」等を置かない）
+ * 2) text-spacing-trim … 行頭の始め括弧の全角アキを詰める
+ * 3) tabular-nums … 日付・時刻・件数の桁を揃え、一覧の縦のリズムを守る
+ * いずれも非対応ブラウザでは従来どおりに落ちる（progressive enhancement）。
+ * -------------------------------------------------------------------- */
+:lang(ja), h1, h2, h3, h4 {
+  line-break: strict;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+:lang(ja) { text-spacing-trim: trim-start; }
+
+time,
+.tagcloud__count,
+.feed-item__time { font-variant-numeric: tabular-nums; }
+
+/* --- 見出し・デッキの組み ---------------------------------------------
+ * palt … 和文プロポーショナルメトリクス。約物（、。「」）のアキを詰める。
+ *        本文には掛けない（長文では窮屈になる）。見出し／デッキ専用。
+ * word-break: auto-phrase … 文節で折り返す。日本語見出しの改行位置が整う。
+ * font-optical-sizing … Fraunces は opsz 9..144 の可変フォント。大サイズで
+ *        ディスプレイ用の字形へ切り替わる（現行は未指定で活かせていない）。
+ * letter-spacing … palt が和文を詰めるぶん、欧文向けの負トラッキングは浅くする。
+ *        深いままだと和文が潰れる（和欧の字間分離）。
+ * -------------------------------------------------------------------- */
+.lead__headline,
+.lead__deck,
+.article-headline,
+.article-lede,
+.page-head__title,
+.secblock__title,
+.feed-item__title,
+.rail-item__title,
+.seccard__title,
+.prose h2,
+.prose h3,
+.brand__mark {
+  font-feature-settings: 'kern', 'liga', 'palt';
+  font-optical-sizing: auto;
+  word-break: auto-phrase;
+}
 
 /* ============================================================
  * 3. LAYOUT
@@ -130,6 +178,42 @@ figure { margin: 0; }
   padding: 0 var(--gutter);
 }
 .container--narrow { max-width: var(--site-max); }
+
+/* スクリーンリーダー専用（視覚的に隠すが読み上げ・フォーカスは残す） */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* 本文へスキップ。フォーカスされたときだけ姿を現す（キーボード/SR の第一到達点） */
+.skip-link {
+  position: absolute;
+  top: var(--space-xs);
+  left: var(--space-xs);
+  z-index: 200;
+  padding: var(--space-xs) var(--space-md);
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--text-sm);
+  color: var(--ink-0);
+  background: var(--surface);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  transform: translateY(-250%);
+}
+/* 出現は :focus で判定する。:focus-visible はブラウザのヒューリスティクス次第で
+   発火しないことがあり、スキップリンクが「出てこない」事故になる。 */
+.skip-link:focus { transform: none; }
+.skip-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
 
 /* カテゴリの中立ラベル（多色チップの置換）。色を持たせない。 */
 .cat {
@@ -163,7 +247,7 @@ figure { margin: 0; }
   font-family: var(--font-serif);
   font-weight: 500;
   font-size: var(--text-xl);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.006em;
   color: var(--ink-0);
 }
 .brand__mark em { font-style: normal; color: var(--accent); }
@@ -174,7 +258,7 @@ figure { margin: 0; }
 .hsearch__input {
   width: 160px;
   max-width: 42vw;
-  height: 36px;
+  height: 40px;
   padding: 0 var(--space-sm);
   font-family: var(--font-sans);
   font-size: var(--text-sm);
@@ -235,20 +319,23 @@ figure { margin: 0; }
 .site-nav__list a:hover { color: var(--ink-0); }
 .site-nav__list a[aria-current="page"] { color: var(--ink-0); border-bottom-color: var(--accent); }
 
-/* 横スクロール可能なことを示す右端フェード（狭幅時） */
-@media (max-width: 640px) {
-  .site-nav::after {
-    content: "";
-    position: absolute;
-    top: 0; right: 0; bottom: 0;
-    width: 32px;
-    background: linear-gradient(90deg, transparent, var(--paper));
-    pointer-events: none;
-  }
+/* 横スクロール可能なことを示す右端フェード。
+   ナビが溢れるかは「ビューポート幅」ではなく「.container の幅」で決まる——
+   記事/セクション頁は PC でも container が 760px なのでナビは溢れる。
+   旧実装は max-width:640px でしか出しておらず、PC の一覧頁で切れ端が
+   予告なく切れていた。paper へのフェードなので溢れていなければ見えない。 */
+.site-nav::after {
+  content: "";
+  position: absolute;
+  top: 0; right: 0; bottom: 0;
+  width: 32px;
+  background: linear-gradient(90deg, transparent, var(--paper));
+  pointer-events: none;
 }
 
 /* ============================================================
  * 5. LEAD（トップ最上段の1本）
+ *   旧 §15-1（ヘッドライン化・デッキ格上げ・ソースのキャプション化）を統合済み。
  * ============================================================ */
 .lead { padding: var(--space-3xl) 0 var(--space-2xl); }
 .lead__media {
@@ -265,45 +352,69 @@ figure { margin: 0; }
   gap: var(--space-sm);
   margin-bottom: var(--space-md);
   font-size: var(--text-xs);
+  letter-spacing: 0.02em;
   color: var(--ink-2);
 }
-.lead__meta time { font-variant-numeric: tabular-nums; }
+/* 主見出し＝特大層。palt が和文を詰めるぶん、負トラッキングは浅く（-0.014 → -0.006）。 */
 .lead__headline {
-  font-size: clamp(var(--text-2xl), 6vw, var(--text-3xl));
-  line-height: 1.28;
-  letter-spacing: 0.002em;
+  font-size: clamp(var(--text-2xl), 6.4vw, var(--text-4xl));
+  line-height: 1.2;
+  letter-spacing: -0.006em;
   margin: 0;
 }
+/* デッキ＝hero と本文の橋渡し。serif で一段持ち上げ、行長は measure に収める。 */
 .lead__deck {
-  font-size: var(--text-md);
-  line-height: 1.7;
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  font-weight: 400;
+  line-height: 1.72;
   color: var(--ink-1);
   margin-top: var(--space-md);
   max-width: var(--measure);
 }
-.lead__source { font-size: var(--text-sm); color: var(--ink-2); margin-top: var(--space-md); }
+/* ソースはキャプション格へ落とす（対比でデッキが立つ） */
+.lead__source {
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+  color: var(--ink-2);
+  margin-top: var(--space-md);
+}
 
 /* ============================================================
  * 6. FEED（最新・行リスト）— スキャン最優先
+ *   旧 §15-2（欄見出しの罫線化・importance 強調）を統合済み。
  * ============================================================ */
 .feed { padding: var(--space-xl) 0; border-top: 1px solid var(--rule); }
+/* 欄見出し: 罫線を引き、右へ細罫を伸ばして新聞の「欄」に見せる */
 .feed__head {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-sm);
   font-family: var(--font-sans);
   font-size: var(--text-sm);
   font-weight: 500;
   letter-spacing: 0.1em;
   color: var(--ink-2);
   margin: 0 0 var(--space-sm);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--rule-strong);
+}
+.feed__head::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--rule);
+  align-self: center;
 }
 .feed-list { list-style: none; margin: 0; padding: 0; }
-/* エブロー型: 上段に小さなメタ「カテゴリ · 日時」、下段に見出し（serif）。
-   余白と極薄罫線・型階層でモダンに（色は青アクセントのみ）。 */
+/* エブロー型: 上段に小さなメタ「カテゴリ · 日時」、下段に見出し（serif）。 */
 .feed-item {
   display: flex;
   flex-direction: column;
   gap: var(--space-2xs);
   padding: var(--space-lg) 0;
   border-top: 1px solid var(--rule);
+  min-width: 0;
 }
 .feed-item:first-child { border-top: 0; }
 .feed-item__meta {
@@ -333,12 +444,10 @@ figure { margin: 0; }
   color: var(--ink-2);
 }
 .feed-item__time {
-  font-variant-numeric: tabular-nums;
   letter-spacing: 0.02em;
   white-space: nowrap;
 }
-/* 一覧（section/tag/archive）の出典行。メタ行の「·」区切りは付けず控えめに。
-   縦積みの行内で内容幅のまま右端へ寄せる。 */
+/* 一覧（section/tag/archive）の出典行。控えめに右端へ。 */
 .feed-item__src {
   align-self: flex-end;
   font-family: var(--font-sans);
@@ -350,12 +459,25 @@ figure { margin: 0; }
   font-family: var(--font-serif);
   font-size: var(--text-md);
   font-weight: 500;
-  line-height: 1.4;
-  letter-spacing: -0.006em;
+  line-height: 1.44;
+  letter-spacing: -0.002em;
   color: var(--ink-0);
   transition: color var(--dur) var(--ease);
 }
 .feed-item__title:hover { color: var(--accent); }
+
+/* importance 強調（テンプレが data-imp を出したときだけ効く・無くても無害）。
+   色は足さず、型・余白・罫だけで序列を作る。 */
+.feed-item[data-imp="5"] .feed-item__title,
+.feed-item--lead .feed-item__title {
+  font-size: var(--text-lg);
+  line-height: 1.4;
+}
+.feed-item[data-imp="5"] .feed-item__time,
+.feed-item--lead .feed-item__time { color: var(--ink-1); }
+/* 目印の罫は足さない。セクション頁は重要度順に並ぶため上位が全て 5 になり、
+   罫が全行で反復して「競合する信号」になる。序列は型の段差だけで示す。 */
+
 .feed__more {
   display: inline-block;
   margin-top: var(--space-lg);
@@ -365,8 +487,8 @@ figure { margin: 0; }
 .feed__empty { color: var(--ink-2); padding: var(--space-lg) 0; }
 
 /* ============================================================
- * 6b. HOME 骨格（トップのみ）— ヒーロー＋トップニュース → 最新グリッド → カテゴリ別ブロック
- *   モバイル先行で1カラム積み。PC（≥1000px）で widen＋多列。色・画像方針は不変。
+ * 6b. HOME 骨格（トップのみ）
+ *   モバイル先行で1カラム積み。PC（≥1000px）で widen＋多列。
  * ============================================================ */
 
 /* --- トップニュース（右レール） --- */
@@ -378,14 +500,15 @@ figure { margin: 0; }
   gap: var(--space-2xs);
   padding: var(--space-md) 0;
   border-top: 1px solid var(--rule);
+  min-width: 0;
 }
 .rail-item:first-child { border-top: 0; }
 .rail-item__title {
   font-family: var(--font-serif);
   font-size: var(--text-base);
   font-weight: 500;
-  line-height: 1.42;
-  letter-spacing: -0.004em;
+  line-height: 1.46;
+  letter-spacing: -0.001em;
   color: var(--ink-0);
   transition: color var(--dur) var(--ease);
 }
@@ -406,7 +529,7 @@ figure { margin: 0; }
   font-family: var(--font-serif);
   font-size: var(--text-lg);
   font-weight: 500;
-  letter-spacing: -0.006em;
+  letter-spacing: -0.002em;
   color: var(--ink-0);
   margin: 0;
 }
@@ -423,55 +546,20 @@ figure { margin: 0; }
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--space-lg) var(--space-2xl);
 }
-.seccard { display: flex; flex-direction: column; gap: var(--space-2xs); }
+.seccard { display: flex; flex-direction: column; gap: var(--space-2xs); min-width: 0; }
 .seccard__title {
   font-family: var(--font-serif);
   font-size: var(--text-md);
   font-weight: 500;
-  line-height: 1.4;
-  letter-spacing: -0.006em;
+  line-height: 1.44;
+  letter-spacing: -0.002em;
   color: var(--ink-0);
   transition: color var(--dur) var(--ease);
 }
 .seccard__title:hover { color: var(--accent); }
-
-/* --- 中間幅（≥680px）：ブロックを2列に --- */
-@media (min-width: 680px) {
-  .secblock__grid { grid-template-columns: repeat(2, 1fr); }
-}
-
-/* --- PC（≥1000px）：widen＋2カラム骨格 --- */
-@media (min-width: 1000px) {
-  .page--home .container { max-width: var(--site-max-wide); }
-
-  /* ヒーロー左・トップニュース右の2カラム */
-  .home__lead {
-    display: grid;
-    grid-template-columns: 1.65fr 1fr;
-    column-gap: var(--space-3xl);
-    align-items: start;
-  }
-  .home__lead > .lead { padding: var(--space-xl) 0 0; }
-  .home__rail {
-    padding: var(--space-xl) 0 0 var(--space-xl);
-    border-top: 0;
-    border-left: 1px solid var(--rule);
-  }
-
-  /* 最新：2列グリッド（上段の2枚は罫線を消して頭を揃える） */
-  .home .feed-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: var(--space-2xl);
-  }
-  .home .feed-list .feed-item:nth-child(2) { border-top: 0; }
-
-  /* カテゴリ別：3列 */
-  .secblock__grid { grid-template-columns: repeat(3, 1fr); }
-}
 
 /* ============================================================
  * 7. SUBSCRIBE / BUTTON
@@ -492,7 +580,9 @@ figure { margin: 0; }
 .btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: var(--space-xs);
+  min-height: 44px;
   padding: 10px var(--space-lg);
   font-size: var(--text-sm);
   font-weight: 500;
@@ -505,14 +595,21 @@ figure { margin: 0; }
 
 /* ============================================================
  * 8. PAGE HEAD（セクション/タグ/アーカイブ/法的ページ）
+ *   旧 §15-3 の page-head 分を統合済み。
  * ============================================================ */
 .page-head { padding: var(--space-2xl) 0 var(--space-lg); }
 .page-head .cat { margin-bottom: var(--space-xs); }
-.page-head__title { font-size: var(--text-2xl); line-height: 1.25; margin: 0; }
+.page-head__title {
+  font-size: var(--text-2xl);
+  line-height: 1.22;
+  letter-spacing: -0.004em;
+  margin: 0;
+}
 .page-head__lead { font-size: var(--text-sm); color: var(--ink-1); margin-top: var(--space-sm); }
 
 /* ============================================================
  * 9. ARTICLE
+ *   旧 §15-3 の article/prose 分を統合済み。
  * ============================================================ */
 .breadcrumb { padding: var(--space-lg) 0 0; font-size: var(--text-xs); color: var(--ink-2); }
 .breadcrumb ol {
@@ -528,18 +625,18 @@ figure { margin: 0; }
   display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-sm);
   font-size: var(--text-xs); color: var(--ink-2); margin-bottom: var(--space-md);
 }
-.article-head__meta time { font-variant-numeric: tabular-nums; }
 .article-headline {
   font-size: clamp(var(--text-2xl), 6vw, var(--text-3xl));
-  line-height: 1.26;
-  letter-spacing: 0.002em;
+  line-height: 1.24;
+  letter-spacing: -0.005em;
   margin: 0;
 }
+/* デッキ格（serif・行長は measure に収める） */
 .article-lede {
   font-family: var(--font-serif);
-  font-size: var(--text-lg);
+  font-size: var(--text-xl);
   font-weight: 400;
-  line-height: 1.65;
+  line-height: 1.56;
   color: var(--ink-1);
   margin-top: var(--space-md);
   max-width: var(--measure);
@@ -551,9 +648,10 @@ figure { margin: 0; }
   font-size: var(--text-sm); color: var(--ink-2);
 }
 .article-byline__by { color: var(--ink-1); }
-.article-share { margin-left: auto; display: flex; gap: var(--space-xs); }
+.article-share { display: flex; gap: var(--space-xs); }
+/* タップ領域 44×44（SPEC の a11y 要件。旧 38px は自ら定めた基準を割っていた） */
 .share-btn {
-  width: 38px; height: 38px; flex: none;
+  width: 44px; height: 44px; flex: none;
   display: inline-flex; align-items: center; justify-content: center;
   border: 1px solid var(--rule-strong); border-radius: var(--radius);
   color: var(--ink-1); background: transparent;
@@ -605,10 +703,23 @@ figure { margin: 0; }
 .prose h2 {
   font-size: var(--text-xl);
   margin-top: var(--space-2xl);
-  line-height: 1.35;
+  line-height: 1.32;
+  letter-spacing: -0.002em;
+}
+/* 節の頭に短い罫（見出しの段差を視覚化） */
+.prose h2::before {
+  content: "";
+  display: block;
+  width: var(--space-lg);
+  height: 2px;
+  background: var(--rule-strong);
+  margin-bottom: var(--space-sm);
 }
 .prose h3 { font-size: var(--text-lg); margin-top: var(--space-xl); }
 .prose p { color: var(--ink-0); }
+/* 和文の太字は 500 で受ける。700 を要求すると擬似ボールド（合成した潰れた太字）に
+   なる——Noto Sans JP は 400/500 しか読み込んでいないため。 */
+.prose strong, .prose b { font-weight: 500; color: var(--ink-0); }
 .prose a { color: var(--accent); border-bottom: 1px solid color-mix(in srgb, var(--accent) 35%, transparent); }
 .prose a:hover { color: var(--accent-press); border-bottom-color: var(--accent-press); }
 .prose ul, .prose ol { padding-left: var(--space-lg); display: grid; gap: var(--space-xs); }
@@ -638,7 +749,7 @@ figure { margin: 0; }
   overflow-x: auto;
 }
 .prose pre code { background: none; border: 0; padding: 0; }
-.prose table { width: 100%; border-collapse: collapse; font-size: var(--text-sm); }
+.prose table { width: 100%; border-collapse: collapse; font-size: var(--text-sm); font-variant-numeric: tabular-nums; }
 .prose th, .prose td { text-align: left; padding: var(--space-xs) var(--space-sm); border-bottom: 1px solid var(--rule); }
 
 /* 出典カード（本文直後・必須） */
@@ -664,7 +775,9 @@ figure { margin: 0; }
 .topics__head { font-size: var(--text-sm); font-weight: 500; color: var(--ink-2); letter-spacing: 0.08em; margin: 0 0 var(--space-sm); }
 .topics ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-xs); }
 .topics li a {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
   padding: 5px var(--space-sm);
   border: 1px solid var(--rule-strong);
   border-radius: var(--radius);
@@ -703,8 +816,8 @@ figure { margin: 0; }
 }
 .site-footer__top {
   display: grid;
-  grid-template-columns: 1.6fr repeat(4, 1fr);
-  gap: var(--space-xl);
+  grid-template-columns: minmax(0, 1fr);   /* モバイル既定。§14 で段階的に増やす */
+  gap: var(--space-lg);
   padding-bottom: var(--space-xl);
   border-bottom: 1px solid var(--rule);
 }
@@ -734,19 +847,144 @@ figure { margin: 0; }
 @view-transition { navigation: auto; }
 
 /* ============================================================
- * 13. RESPONSIVE
+ * 13. PLATE（版面マーク）— 写真の無い記事のための罫線オーナメント
+ *
+ *   全1014記事のうち約48%は出典側の事情で写真を持たない。そこを
+ *   「欠落」ではなく「型」として扱うための装置。
+ *
+ *   設計の縛り:
+ *     - 写真に擬態しない。16/9 を避け、薄い帯で「これは組版だ」と示す
+ *     - 新しい色相を足さない（--rule / --rule-strong / --ink-2 のみ）
+ *     - 幾何はセクションで決まり、変奏は slug のハッシュで決まる（決定的・再現的）
+ *     - アニメーションを持たない
  * ============================================================ */
-@media (max-width: 600px) {
-  :root { --gutter: 18px; }
-  .article-share { margin-left: 0; }
-  .site-footer__top { grid-template-columns: 1fr 1fr; }
+.plate {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin: var(--space-lg) 0 var(--space-xl);
 }
-@media (max-width: 420px) {
-  .site-footer__top { grid-template-columns: 1fr; gap: var(--space-lg); }
+/* 標そのもの。3本の罫の「長さと太さの組み合わせ」がセクションを表す。
+   本文見出しの .prose h2::before（24×2px の短罫）と同じ語彙の拡張であって、
+   新しい装飾言語を持ち込んでいない。 */
+.plate::before {
+  content: "";
+  flex: none;
+  width: var(--plate-w, 56px);
+  height: 16px;
+  background-repeat: no-repeat;
+  background-image:
+    linear-gradient(var(--ink-1), var(--ink-1)),
+    linear-gradient(var(--ink-1), var(--ink-1)),
+    linear-gradient(var(--ink-1), var(--ink-1));
+  background-position: 0 0, 0 7px, 0 14px;
+  background-size: 100% 2px, 60% 2px, 28% 2px;   /* 既定＝desc */
+}
+/* 標から右へ伸びる細罫（欄見出しと同じ処理で、頁の水平線に接続する） */
+.plate::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--rule);
+}
+.plate__label {
+  flex: none;
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+
+/* --- 形1: desc（降順）— 記録系 ---------------------------------------- */
+.plate--desc::before  { background-size: 100% 2px, 60% 2px, 28% 2px; }
+/* --- 形2: asc（昇順）— 情報・計算系 ----------------------------------- */
+.plate--asc::before   { background-size: 28% 2px, 60% 2px, 100% 2px; }
+/* --- 形3: peak（中高）— 観測系 ---------------------------------------- */
+.plate--peak::before  { background-size: 44% 2px, 100% 2px, 44% 2px; }
+/* --- 形4: split（二分）— 表現系 --------------------------------------- */
+.plate--split::before { background-size: 100% 2px, 24% 2px, 100% 2px; }
+/* --- 形5: weight（太さの対比）— 数量系 -------------------------------- */
+.plate--weight::before {
+  background-position: 0 0, 0 6px, 0 13px;
+  background-size: 100% 4px, 100% 1px, 100% 1px;
+}
+/* --- 形6: pair（対）— 技術系 ------------------------------------------ */
+.plate--pair::before {
+  background-position: 0 1px, 0 8px, 0 14px;
+  background-size: 100% 3px, 0 0, 64% 2px;
+}
+
+/* 変奏＝標の全長。slug のハッシュで決まる（3段） */
+.plate--v1 { --plate-w: 40px; }
+.plate--v2 { --plate-w: 56px; }
+.plate--v3 { --plate-w: 76px; }
+
+/* トップのリード枠に置くときは上の余白を詰める */
+.lead .plate { margin: 0 0 var(--space-md); }
+
+/* ============================================================
+ * 14. RESPONSIVE（min-width 加算方式）
+ *   旧実装は max-width 主体で、後段のタブレット帯と打ち消し合っていた。
+ *   ここでは「小さい方が既定、広くなるほど足す」の一方向に統一する。
+ * ============================================================ */
+@media (min-width: 600px) {
+  :root { --gutter: 24px; }
+  .site-footer__top { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .article-share { margin-left: auto; }
+}
+
+@media (min-width: 680px) {
+  .secblock__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (min-width: 900px) {
+  :root { --gutter: 32px; }
+  .site-nav__list { gap: var(--space-xl); }
+  .site-footer__top {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: var(--space-lg);
+    row-gap: var(--space-xl);
+  }
+  .site-footer__brand { grid-column: 1 / -1; }
+}
+
+@media (min-width: 1000px) {
+  .page--home .container { max-width: var(--site-max-wide); }
+
+  /* ヒーロー左・トップニュース右の2カラム */
+  .home__lead {
+    display: grid;
+    grid-template-columns: 1.65fr minmax(0, 1fr);
+    column-gap: var(--space-3xl);
+    align-items: start;
+  }
+  .home__lead > .lead { padding: var(--space-xl) 0 0; }
+  .home__rail {
+    padding: var(--space-xl) 0 0 var(--space-xl);
+    border-top: 0;
+    border-left: 1px solid var(--rule);
+  }
+
+  /* 最新：2列グリッド（上段の2枚は罫線を消して頭を揃える） */
+  .home .feed-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: var(--space-2xl);
+  }
+  .home .feed-list .feed-item:nth-child(2) { border-top: 0; }
+
+  /* カテゴリ別：3列 */
+  .secblock__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+  /* フッターはブランドを左に戻し 1.6fr + 4 等分へ */
+  .site-footer__top { grid-template-columns: 1.6fr repeat(4, minmax(0, 1fr)); }
+  .site-footer__brand { grid-column: auto; }
 }
 
 /* ============================================================
- * 14. MOTION 低減
+ * 15. MOTION 低減
  * ============================================================ */
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; }
@@ -755,94 +993,7 @@ figure { margin: 0; }
 }
 
 /* ============================================================
- * 15. 型階層の強化 ＋ エディトリアル・レイアウト
- * 色は増やさない（青1色のまま）。階層と余白だけで序列を作る。
- * 既存トークンのみ使用（新規 --var なし）。ライト/ダーク両対応。
- * 由来: design-sprint（役割分担エージェントのデザインスプリント）勝者案 B。
+ * 16. ダーク微調整（型階層を保つための罫線コントラスト）
  * ============================================================ */
-
-/* --- 1. LEAD: ヘッドライン化（特大層） --------------------------------- */
-/* clamp 上限を引き上げ、字間を締めて新聞の主見出しに寄せる */
-.lead__headline {
-  font-size: clamp(var(--text-2xl), 6.4vw, 46px);
-  line-height: 1.18;
-  letter-spacing: -0.014em;
-}
-/* デッキ＝リードを一段持ち上げ、本文行長を保ったまま hero と本文の橋渡しに */
-.lead__deck {
-  font-family: var(--font-serif);
-  font-size: var(--text-lg);
-  font-weight: 400;
-  line-height: 1.62;
-  color: var(--ink-1);
-}
-/* ソースは細く・字間を開けてキャプション格に落とす（対比でデッキが立つ） */
-.lead__source {
-  font-size: var(--text-xs);
-  letter-spacing: 0.04em;
-  color: var(--ink-2);
-}
-/* メタ行の区切りを中点で（新聞的な走り） */
-.lead__meta { letter-spacing: 0.02em; }
-
-/* --- 2. FEED: 新聞的な行の情報設計 ------------------------------------ */
-/* 見出し（feed__head）を罫線付きの「欄見出し」に。型は増やさず余白で立てる */
-.feed__head {
-  display: flex;
-  align-items: baseline;
-  gap: var(--space-sm);
-  padding-bottom: var(--space-xs);
-  border-bottom: 1px solid var(--rule-strong);
-}
-.feed__head::after {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: var(--rule);
-  align-self: center;
-}
-/* 行の型階層・余白・hover はエブロー型のベース定義（§6）に集約。
-   ここでは importance 強調のみ残す。 */
-
-/* importance 強調（テンプレが data-imp / 修飾子を出す場合のみ効く・無くても無害） */
-.feed-item[data-imp="5"] .feed-item__title,
-.feed-item--lead .feed-item__title {
-  font-size: var(--text-lg);
-  line-height: 1.4;
-}
-.feed-item[data-imp="5"] .feed-item__time,
-.feed-item--lead .feed-item__time { color: var(--ink-1); }
-
-/* --- 3. PAGE HEAD / PROSE 見出し階層の引き締め ------------------------ */
-.page-head__title { letter-spacing: -0.008em; line-height: 1.2; }
-.article-headline { letter-spacing: -0.012em; }
-/* article-lede をデッキ格として強める（serif・行長維持） */
-.article-lede { font-size: var(--text-xl); line-height: 1.5; }
-/* 本文内見出しの段差を明確化（h2 を一段締めて節の頭を立てる） */
-.prose h2 { letter-spacing: -0.006em; line-height: 1.3; }
-.prose h2::before {
-  content: "";
-  display: block;
-  width: var(--space-lg);
-  height: 2px;
-  background: var(--rule-strong);
-  margin-bottom: var(--space-sm);
-}
-
-/* --- 4. タブレット中間ブレークポイント（680–1024px）------------------- */
-@media (min-width: 680px) and (max-width: 1024px) {
-  :root { --gutter: 32px; }
-  .site-nav__list { gap: var(--space-xl); }
-  .lead { padding: var(--space-2xl) 0 var(--space-xl); }
-  /* footer の窮屈な 1.6fr+4 を 2 行構成に: ブランド全幅 + 4 等分 */
-  .site-footer__top {
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: var(--space-lg);
-    row-gap: var(--space-xl);
-  }
-  .site-footer__brand { grid-column: 1 / -1; }
-}
-
-/* --- 5. ダーク: 罫線コントラストの微調整（型階層を保つ）--------------- */
 [data-theme="dark"] .feed__head { border-bottom-color: var(--rule-strong); }
 [data-theme="dark"] .prose h2::before { background: var(--rule-strong); }

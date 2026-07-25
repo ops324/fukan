@@ -1,15 +1,7 @@
 // AXIOM AI — サイト内検索（追加依存ゼロ・静的）。
 // search-index.json を一度だけ取得し、見出し/リード/タグ/セクションを部分一致で検索する。
-// ヘッダーのテーマトグル絵文字も現在のテーマに合わせて初期化する。
 (function () {
   'use strict';
-
-  // テーマトグルの絵文字を現在の状態に同期
-  var toggle = document.getElementById('theme-toggle');
-  if (toggle) {
-    var cur = document.documentElement.getAttribute('data-theme');
-    toggle.textContent = cur === 'light' ? '☀' : '☾';
-  }
 
   var input = document.getElementById('site-search');
   var box = document.getElementById('site-search-results');
@@ -51,7 +43,11 @@
     });
   }
 
-  function hide() { box.hidden = true; box.innerHTML = ''; activeIdx = -1; current = []; }
+  function hide() {
+    box.hidden = true; box.innerHTML = ''; activeIdx = -1; current = [];
+    input.setAttribute('aria-expanded', 'false');
+    input.removeAttribute('aria-activedescendant');
+  }
 
   function render(raw) {
     var q = norm(raw).trim();
@@ -71,24 +67,33 @@
     if (!results.length) {
       box.innerHTML = '<div class="hsearch__empty">「' + esc(raw) + '」に一致する記事はありません</div>';
       box.hidden = false;
+      input.setAttribute('aria-expanded', 'true');
+      input.removeAttribute('aria-activedescendant');
       return;
     }
 
-    box.innerHTML = results.map(function (it) {
-      return '<a href="' + base + 'articles/' + encodeURIComponent(it.slug) + '.html" role="option">' +
+    box.innerHTML = results.map(function (it, i) {
+      return '<a id="hsearch-opt-' + i + '" href="' + base + 'articles/' + encodeURIComponent(it.slug) + '.html" role="option" aria-selected="false">' +
         '<span class="hsearch__hl">' + esc(it.headline) + '</span>' +
         '<span class="hsearch__meta">' + esc(it.section) + (it.date ? ' · ' + esc(it.date) : '') + '</span>' +
         '</a>';
     }).join('');
     box.hidden = false;
+    input.setAttribute('aria-expanded', 'true');
+    input.removeAttribute('aria-activedescendant');
   }
 
   function setActive(i) {
     var links = box.querySelectorAll('a');
     if (!links.length) return;
     activeIdx = (i + links.length) % links.length;
-    links.forEach(function (a, idx) { a.classList.toggle('is-active', idx === activeIdx); });
+    links.forEach(function (a, idx) {
+      var on = idx === activeIdx;
+      a.classList.toggle('is-active', on);
+      a.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
     links[activeIdx].scrollIntoView({ block: 'nearest' });
+    input.setAttribute('aria-activedescendant', links[activeIdx].id);
   }
 
   input.addEventListener('focus', loadIndex);

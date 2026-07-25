@@ -4,7 +4,7 @@
 import { ticker, header, footer, page, organizationLd, absUrl } from './layout.js';
 import { mdToHtml, esc } from '../src/markdown.js';
 import { config } from '../src/config.js';
-import { tagHref, optimizedUrl, sectionChip } from './cardbits.js';
+import { tagHref, optimizedUrl, sectionChip, plate } from './cardbits.js';
 
 const BASE = '../';
 
@@ -70,7 +70,7 @@ function shareButtons(a) {
 // ヒーロー画像（実写真があるときのみ）。抽象グラデのフォールバックは出さない。
 function heroFigure(a) {
   const img = a.image || {};
-  if (!img.imageUrl) return '';
+  if (!img.imageUrl) return `      ${plate(a)}`;
   const isPress = img.kind === 'press';
   const credit = isPress
     ? `${esc(config.pressCreditLabel)}: ${img.creditUrl ? `<a href="${esc(img.creditUrl)}" target="_blank" rel="noopener">${esc(img.credit)}</a>` : esc(img.credit)}`
@@ -134,7 +134,7 @@ ${extra.map((s) => `              <li><a href="${esc(s.url)}" target="_blank" re
 export function renderArticle(a, related, dateLabel, index = 0, tickerItems = []) {
   const bodyHtml = mdToHtml(a.body_markdown);
 
-  const main = `  <main class="container container--narrow">
+  const main = `  <main id="main" tabindex="-1" class="container container--narrow">
 
       <nav class="breadcrumb" aria-label="パンくず">
         <ol>

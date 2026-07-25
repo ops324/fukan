@@ -3,7 +3,7 @@
 import { ticker, header, footer, page, organizationLd } from './layout.js';
 import { esc } from '../src/markdown.js';
 import { config } from '../src/config.js';
-import { sectionChip, optimizedUrl, isoDate, metaLine } from './cardbits.js';
+import { sectionChip, optimizedUrl, isoDate, metaLine, plate } from './cardbits.js';
 
 const href = (a) => `articles/${a.slug}.html`;
 
@@ -19,7 +19,7 @@ function leadStory(a) {
   const img = a.image || {};
   const figure = img.imageUrl
     ? `        <a class="lead__media" href="${href(a)}" tabindex="-1" aria-hidden="true" style="background-image:url('${esc(optimizedUrl(img.imageUrl, 1200))}')"></a>\n`
-    : '';
+    : `        ${plate(a)}\n`;
   return `      <section class="lead" aria-label="トップ記事">
 ${figure}        <div class="lead__meta">
           ${sectionChip(a.section)}
@@ -54,7 +54,7 @@ function latestList(items, archiveHref = '#') {
       <p class="feed__empty">記事が増えるとここに一覧が表示されます。</p>
     </section>`;
   }
-  const rows = items.map((a) => `        <li class="feed-item">
+  const rows = items.map((a) => `        <li class="feed-item" data-imp="${imp(a)}">
           ${metaLine(a)}
           <a class="feed-item__title" href="${href(a)}">${esc(a.headline)}</a>
         </li>`).join('\n');
@@ -135,7 +135,7 @@ export function renderIndex(featured, latest, dateLabel, archiveCount = 0, ticke
 
   const body = `${ticker(tickerItems)}${header(dateLabel, 'トップ')}
 
-  <main class="container home">
+  <main id="main" tabindex="-1" class="container home">
 
     <div class="home__lead">
 ${leadStory(hero)}
