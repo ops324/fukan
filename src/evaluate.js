@@ -51,6 +51,39 @@ function jaccard(a, b) {
   return inter / (a.size + b.size - inter);
 }
 
+// --- 二重掲載の検出（表記揺れに強い特徴語ベース）---
+// 見出し＋リードから「特徴語」＝英字トークン(3字以上)と数値を取る。固有名詞・型番・序数が残る。
+// 背景: topicTokens の日本語 bigram は**表記揺れに弱い**。同じ Starship 試験飛行を
+// 「スペックス Starship第13次…」と「SpaceX Starship第13次…」で書いた2本の Jaccard は 0.278 しかなく、
+// 警告閾値(0.6)にも届かず二重掲載を許した（2026-07-25）。英数字は表記が揺れないので同一性が残る。
+export function featureTokens(a) {
+  const s = `${a?.headline || ''} ${a?.lead || ''}`;
+  const en = (s.match(/[A-Za-z][A-Za-z0-9]{2,}/g) || []).map((x) => x.toLowerCase());
+  const num = s.match(/\d+/g) || [];
+  return new Set([...en, ...num]);
+}
+
+// a の特徴語が recent のどれか1本にどれだけ含まれるか（**非対称**の包含率）を返す。
+// Jaccard ではなく包含率にするのは、片方の見出しが長くても同一トピックを捕まえたいため
+// （上の実例は Jaccard 0.278 に対し包含率 0.83）。shared も返すのは、特徴語が1〜2語しかない
+// 記事だと包含率が簡単に 1.0 になるため、呼び出し側で「共通語数」の下限も課すため。
+export function maxFeatureContainment(a, recent = []) {
+  const fa = featureTokens(a);
+  if (!fa.size) return { ratio: 0, shared: 0, against: null };
+  let best = { ratio: 0, shared: 0, against: null };
+  for (const r of recent) {
+    const fr = featureTokens(r);
+    let shared = 0;
+    for (const t of fa) if (fr.has(t)) shared++;
+    if (!shared) continue;
+    const ratio = shared / fa.size;
+    if (shared > best.shared || (shared === best.shared && ratio > best.ratio)) {
+      best = { ratio, shared, against: r.slug || r.headline || null };
+    }
+  }
+  return best;
+}
+
 // 画像種別を判定: 'photo'（ストック写真）/ 'press'（公式）/ 'fallback'（CSS抽象）
 function imageKindOf(img) {
   if (img && img.imageUrl) return img.kind === 'press' ? 'press' : 'photo';

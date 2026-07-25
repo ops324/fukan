@@ -10,7 +10,7 @@ import { loadArticles, saveArticles, makeSlug, yyyymmdd, existingLinks, normaliz
 import { fetchImage, imageKey, articleImageTokens, relevanceScore } from './fetchImage.js';
 import { fetchPressImage } from './pressImage.js';
 import { renderSite } from './render.js';
-import { evaluateArticle, appendEvaluation, writeRunSummary } from './evaluate.js';
+import { evaluateArticle, appendEvaluation, writeRunSummary, maxFeatureContainment } from './evaluate.js';
 import { appendVeto } from './vetoLedger.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -78,6 +78,22 @@ for (const d of drafts) {
     } catch (err) {
       console.error(`  WARN: veto の記録に失敗しました（取り込みは継続）: ${err.message}`);
     }
+    continue;
+  }
+  // 同じニュースの二重掲載を止める。link 重複排除は「同一URL」しか捕まえないため、出典違いで
+  // 同じ出来事を書いた下書きは素通りする（2026-07-25 に同じ Starship 試験飛行を2本公開した）。
+  // 母集団に created を含めるのは同一ラン内の重複も止めるため。直近 recentWindow 本に絞るのは
+  // 古い記事との偶然一致を避けるため（続報は正当なので、遠い過去とは比較しない）。
+  const dupPool = [...created, ...store].slice(0, config.qualityThresholds.recentWindow + created.length);
+  const fc = maxFeatureContainment(d, dupPool);
+  const dupSim = evaluateArticle(d, dupPool).metrics.maxDupSim;
+  const qt = config.qualityThresholds;
+  const byFeature = fc.shared >= qt.dupBlockMinShared && fc.ratio >= qt.dupBlockContainment;
+  if (byFeature || dupSim >= qt.dupBlockJaccard) {
+    const why = byFeature
+      ? `特徴語 ${fc.shared} 語一致・包含率 ${fc.ratio.toFixed(2)}${fc.against ? ` ↔ ${fc.against}` : ''}`
+      : `見出し類似度 ${dupSim.toFixed(2)}`;
+    console.error(`  ✗ 二重掲載により破棄: ${d.headline}（${why}）`);
     continue;
   }
   seen.add(d.link);
