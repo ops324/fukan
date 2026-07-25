@@ -1,6 +1,6 @@
 // タグ別の記事一覧ページ（tags/<tag>.html）と全タグ一覧（tags/index.html）。
 // 低認知負荷方針：section.js と同じシンプル行リストに統一。
-import { ticker, header, footer, page } from './layout.js';
+import { header, footer, page } from './layout.js';
 import { esc } from '../src/markdown.js';
 import { config } from '../src/config.js';
 import { tagHref, metaLine, imp } from './cardbits.js';
@@ -18,7 +18,7 @@ function feedList(items) {
 }
 
 // 単一タグのページ
-export function renderTag(tag, articles, dateLabel, tickerItems = []) {
+export function renderTag(tag, articles, dateLabel) {
   const main = `  <main id="main" tabindex="-1" class="container container--narrow">
 
     <nav class="breadcrumb" aria-label="パンくず">
@@ -45,13 +45,13 @@ ${feedList(articles)}
     base: BASE,
     title: `#${tag} の記事 | ${esc(config.siteName)}`,
     description: `「${tag}」に関する最新ニュースを ${esc(config.siteName)} 編集部の要約と論評でお届けします。`,
-    body: `${ticker(tickerItems)}${header(dateLabel, '', BASE)}\n\n${main}\n\n${footer(BASE)}`,
+    body: `${header(dateLabel, '', BASE)}\n\n${main}\n\n${footer(BASE)}`,
     canonicalPath: `/tags/${encodeURIComponent(tag)}.html`,
   });
 }
 
 // 全タグ一覧（タグクラウド）。entries = [tag, count][] を件数降順で渡す。
-export function renderTagsIndex(entries, dateLabel, tickerItems = []) {
+export function renderTagsIndex(entries, dateLabel) {
   const max = entries.length ? entries[0][1] : 1;
   const items = entries.map(([tag, count]) => {
     // 件数で文字サイズを段階化（タグクラウド表現）
@@ -84,7 +84,7 @@ ${items}
     base: BASE,
     title: `タグ一覧 | ${esc(config.siteName)}`,
     description: `${esc(config.siteName)} の記事トピック（タグ）一覧。テーマ別にニュースを辿れます。`,
-    body: `${ticker(tickerItems)}${header(dateLabel, '', BASE)}\n\n${main}\n\n${footer(BASE)}`,
+    body: `${header(dateLabel, '', BASE)}\n\n${main}\n\n${footer(BASE)}`,
     canonicalPath: '/tags/index.html',
   });
 }

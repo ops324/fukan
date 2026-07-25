@@ -145,8 +145,8 @@ AIニュースサイト/
 │   ├── prepareFixRound.js  # 修正リトライの対象抽出とバックアップ（§12.6）
 │   └── mergeFixReview.js   # 修正結果の検証・原状復帰・再査読の統合（決定論の安全装置）
 ├── templates/
-│   ├── layout.js           # header(ナビ・検索)/footer/page 骨格・解析（ticker は空スタブ）
-│   ├── cardbits.js         # 共有: メタ行 metaLine()/isoDate() / 中立カテゴリラベル sectionChip() / tagHref() / optimizedUrl()
+│   ├── layout.js           # skip link/header(ナビ・検索)/footer/page 骨格・解析
+│   ├── cardbits.js         # 共有: メタ行 metaLine()/isoDate() / 中立カテゴリラベル sectionChip() / tagHref() / optimizedUrl() / 版面マーク plate()
 │   ├── index.js            # トップ（ヒーロー＋トップニュース右レール→最新グリッド→カテゴリ別ブロック→購読）
 │   ├── article.js          # 記事詳細（読了時間・共有ボタン[X/LINE/はてブ/コピー＋Web Share]・関連記事）
 │   ├── section.js          # セクション別一覧

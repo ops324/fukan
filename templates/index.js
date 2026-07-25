@@ -1,6 +1,6 @@
 // トップページ。総合ニュースの骨格（ヒーロー＋トップニュース → 最新グリッド → カテゴリ別ブロック → 購読）。
 //   PC は widen（.page--home）で2カラム化、モバイルは1カラムに積む。色は青のみ・テキスト先行（画像はヒーローのみ）。
-import { ticker, header, footer, page, organizationLd } from './layout.js';
+import { header, footer, page, organizationLd } from './layout.js';
 import { esc } from '../src/markdown.js';
 import { config } from '../src/config.js';
 import { sectionChip, optimizedUrl, isoDate, metaLine, plate } from './cardbits.js';
@@ -125,7 +125,7 @@ function sectionBlocks(universe, shown) {
   return blocks.length ? `\n${blocks.join('\n\n')}\n` : '';
 }
 
-export function renderIndex(featured, latest, dateLabel, archiveCount = 0, tickerItems = []) {
+export function renderIndex(featured, latest, dateLabel, archiveCount = 0) {
   const hero = featured[0];
   const topStories = featured.slice(1, 7);
   // ヒーロー＋トップニュースで既出のものは下段から除外して重複を抑える。
@@ -133,7 +133,7 @@ export function renderIndex(featured, latest, dateLabel, archiveCount = 0, ticke
   const latestItems = latest.filter((a) => !shown.has(a.slug)).slice(0, 10);
   const archiveHref = archiveCount > 0 ? 'archive.html' : '#';
 
-  const body = `${ticker(tickerItems)}${header(dateLabel, 'トップ')}
+  const body = `${header(dateLabel, 'トップ')}
 
   <main id="main" tabindex="-1" class="container home">
 

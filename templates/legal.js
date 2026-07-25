@@ -1,6 +1,6 @@
 // 法的・運営ページ（about / contact / privacy / terms / editorial / disclaimer）。
 // ルート直下に出力（base='')。既存の .prose スタイルを流用する。
-import { ticker, header, footer, page } from './layout.js';
+import { header, footer, page } from './layout.js';
 import { esc } from '../src/markdown.js';
 import { config } from '../src/config.js';
 
@@ -9,7 +9,7 @@ const op = config.operator;
 const mail = `<a href="mailto:${esc(op.email)}">${esc(op.email)}</a>`;
 
 // 共通レイアウト（パンくず＋見出し＋本文 prose）
-function legalPage({ slug, title, lead, bodyHtml, dateLabel, tickerItems }) {
+function legalPage({ slug, title, lead, bodyHtml, dateLabel }) {
   const main = `  <main id="main" tabindex="-1" class="container container--narrow">
 
     <nav class="breadcrumb" aria-label="パンくず">
@@ -34,7 +34,7 @@ ${bodyHtml}
   return page({
     title: `${title} | ${esc(config.siteName)}`,
     description: lead,
-    body: `${ticker(tickerItems)}${header(dateLabel, '')}\n\n${main}\n\n${footer()}`,
+    body: `${header(dateLabel, '')}\n\n${main}\n\n${footer()}`,
     canonicalPath: `/${slug}`,
   });
 }
@@ -128,7 +128,7 @@ function disclaimerBody() {
 }
 
 // 全法的ページを生成して { ファイル名: HTML } を返す
-export function renderLegalPages(dateLabel, tickerItems = []) {
+export function renderLegalPages(dateLabel) {
   const defs = [
     { slug: 'about.html', title: '運営者情報', lead: `${config.siteName} の運営者情報とお問い合わせ先。`, body: aboutBody() },
     { slug: 'contact.html', title: 'お問い合わせ', lead: `${config.siteName} へのご連絡・取材・訂正のご依頼はこちら。`, body: contactBody() },
@@ -139,7 +139,7 @@ export function renderLegalPages(dateLabel, tickerItems = []) {
   ];
   const out = {};
   for (const d of defs) {
-    out[d.slug] = legalPage({ slug: d.slug, title: d.title, lead: d.lead, bodyHtml: d.body, dateLabel, tickerItems });
+    out[d.slug] = legalPage({ slug: d.slug, title: d.title, lead: d.lead, bodyHtml: d.body, dateLabel });
   }
   return out;
 }

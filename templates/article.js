@@ -1,7 +1,7 @@
 // 記事詳細ページ。articles/<slug>.html に出力するため base='../'。
 // 低認知負荷方針：3カラム（TOC/著者/関連）を畳み、単一カラムの読み筋に集中。
 // 実写真は規約準拠の帰属付きで表示。出典リンクカードを本文直後に必ず置く。
-import { ticker, header, footer, page, organizationLd, absUrl } from './layout.js';
+import { header, footer, page, organizationLd, absUrl } from './layout.js';
 import { mdToHtml, esc } from '../src/markdown.js';
 import { config } from '../src/config.js';
 import { tagHref, optimizedUrl, sectionChip, plate } from './cardbits.js';
@@ -131,7 +131,7 @@ ${extra.map((s) => `              <li><a href="${esc(s.url)}" target="_blank" re
           </div>`;
 }
 
-export function renderArticle(a, related, dateLabel, index = 0, tickerItems = []) {
+export function renderArticle(a, related, dateLabel) {
   const bodyHtml = mdToHtml(a.body_markdown);
 
   const main = `  <main id="main" tabindex="-1" class="container container--narrow">
@@ -192,7 +192,7 @@ ${relatedList(related)}
     base: BASE,
     title: `${a.headline} | ${esc(config.siteName)}`,
     description: a.lead || a.headline,
-    body: `${ticker(tickerItems)}${header(dateLabel, a.section, BASE)}\n\n${main}\n\n${footer(BASE)}`,
+    body: `${header(dateLabel, a.section, BASE)}\n\n${main}\n\n${footer(BASE)}`,
     canonicalPath,
     ogType: 'article',
     ogImage: img,
