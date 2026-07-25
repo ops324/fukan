@@ -367,6 +367,8 @@ allowlist ドメイン判定 `pressAllowlistCredit()` は `pressImage.js` から
 | `analytics.token` | 空（`CF_BEACON_TOKEN`） | Cloudflare Web Analytics の beacon トークン。空なら出力しない |
 | `thumbVariants` | CSS抽象サムネ6種 | 実写真が無いときのフォールバック（`styles.css` のグラデクラス） |
 | `navSections` | 総合10セクション（AI/テクノロジー/サイエンス/ビジネス/経済・マネー/政治/国際・地政学/カルチャー/エンタメ/ライフ・キャリア） | ナビ生成元。各要素は `slug`（`sections/<slug>.html`）と `hue`（OKLCH 色相）を持つ。総合ニュース化で旧 AI 細分類から再編。`section` 値自体は自由でナビ外でも記事ページは生成 |
+| `summaryFetch` | `enabled:true` / `domains:['openai.com']` / `minSummaryLen:400` / `maxChars:1200` | RSS 要約が薄い候補の**本文を Node 側で取得して `summary` を厚くする**（`src/summaryFetch.js`）。writer/judge の WebFetch は 403 に打つ手がないため、先に読んで候補に載せる。403 のときだけ `pressImage.fallbackUserAgent` で1回再試行（画像取得と同じ手当て）。**`domains` に載せてよいのは robots.txt が明示的に許可したドメインのみ**——拒否しているサイトへの適用は意思の迂回になる（§11）。失敗しても候補は RSS の要約のまま残る |
+| `timeouts.summaryFetchMs` | 8000 | 上記の取得タイムアウト |
 | `trustedSecondary` | 通信社・主要報道・学術系 約40ドメイン | 出典本文を取得できないときに**裏取りへ使ってよい2次媒体**。ここに無いホスト（ブログ・まとめ・SNS・出所不明）は取り込み時に `sources[]` から落とされる。判定は「それ自身 or そのサブドメイン」（`pressImage.allowlist` と同じ規則） |
 | `qualityThresholds.dupBlockContainment` | 0.8 | 二重掲載として**取り込みをブロック**する特徴語の包含率。実測でこの閾値でないと対象ケース（0.83）を逃す |
 | `qualityThresholds.dupBlockMinShared` | 3 | 同時に要求する共通特徴語の数。特徴語1〜2語での誤ブロックを防ぐ |
@@ -488,12 +490,26 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
   `loggedIn: true` で一度誤診しかけた）。
 - **出典の約3割は自動取得できない**（2026-07-25 実測 292/993本）。Guardian(77)・Verge(59)・BBC(37) は bot 拒否、
   openai.com(58)・CNBC(46) は 403、Variety(15) は TollBit の課金ゲートで**ブラウザでも読めない**。
-  いずれも障害ではなく**「AI に読ませたくない」という意思表示**であり、**UA 偽装での回避は取らない**
+  **ただし openai.com だけは例外**——robots.txt の実測で `User-agent: * / Allow: /` であり、**拒否の意思表示が無い**
+  （403 は WAF の誤検知）。他の5社は Claude 系エージェントを名指しで拒否している。この違いは決定的なので、
+  `summaryFetch.domains` は **robots.txt が明示的に許可したドメインだけ**を対象にする（§7）。
+  拒否しているドメインは障害ではなく**「AI に読ませたくない」という意思表示**であり、**UA 偽装での回避は取らない**
   （このサイト自身が `robots.txt` を出す側でもある）。業界標準は ①ライセンス契約 ②RSS の範囲に留める
   ③一次情報を厚くする、の3つで、本サイトの「アグリゲーター型短評」は元々②に一致する。
   対処は §5「出典が読めないときの手順」「複数出典の明示」。
   *背景*: judge はこの3割で出典照合ができず、writer も読めない出典から550〜750字を書いていた。
   veto 理由の21%が「出典にない事実の創作」だったのはこれが一因。
+- **記事間の取り違え（下書き混線）が創作の主因のひとつ**。writer が1セッションで最大25本を書くため、
+  **同じ回の別記事の固有名詞が混入する**事故が繰り返し起きている（veto から7件確認）。実例: 「Etched が
+  50億ドル評価」の記事に、同じ回に書いた EquiLibre の創業者・所在地・従業員数が丸ごと入っていた／
+  Anthropic の記事に OpenAI の製品名が入っていた。**出典の可読性とは無関係**で、似た分野の記事が並んだ回ほど
+  起きやすい。対策は writer の自己批評（§3.5）での1件ずつの突き合わせと、**全下書きを一度に見ている
+  judge による横断チェック**（judge はこれができる唯一の層）。
+- **veto だけを見ると品質を誤読する（検査バイアス）**。出典を読めなかった記事は誤りがあっても検出されず、
+  veto にも上がらない。つまり「取得できないドメインは veto が少ない＝品質が良い」ように見えるが、
+  実際は**検査していないだけ**。これを測るため judge は `sourceFetched`（その `link` を実際に読めたか）を
+  **pass・veto の両方**に記録し、`evaluations.jsonl` / `vetoes.jsonl` の双方へ転記する（§12.4）。
+  「取得不能 → 品質が低い」が成り立つかは、このデータが貯まるまで判断できない。
 - **二重掲載は類似度だけでは捕まらない**。`link` 重複排除は同一URLしか見ず、日本語の文字 bigram による
   話題類似度は**表記揺れに弱い**。同じ Starship 試験飛行を「スペックス Starship第13次…」と
   「SpaceX Starship第13次…」で書いた2本の Jaccard は **0.278** で、警告閾値 0.6 にも届かなかった
@@ -572,7 +588,12 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
   付かず stock に落ちた」件数。累積ではなく**その回の評価分に限定**することで、既存の
   対応見送り分に埋もれず、§6.2 の自動採用が再び silent に失敗し始めた回帰を検知できる）。
 - `calibration.jsonl` … 人間評価。
-- `incidents.jsonl` … 運用イベント（judge 不在 `judge_absent`／画像査読不在 `image_review_absent`／認証切れ `auth_failed`）。日次を止めずに観測性だけ残す。
+- `incidents.jsonl` … 運用イベント（judge 不在 `judge_absent`／画像査読不在 `image_review_absent`／認証切れ `auth_failed`／
+  候補選別の内訳 `candidates`）。日次を止めずに観測性だけ残す。`candidates` を足したのは、`fetchNews` の除外ログが
+  writer の CLI セッション内で消えて**どのログにも残らない**ことを実測で確認したため（除外が効きすぎ/効かなさすぎを
+  検知できない状態だった）。
+- **`sourceFetched`**（`evaluations.jsonl` と `vetoes.jsonl` の両方）… judge がその出典を実際に読めたか。
+  **pass 側にも記録するのが要点**——veto だけでは検査バイアスで品質を誤読する（§11）。
 - `vetoes.jsonl` … **不採用にした下書き**（1件1行。`critique` 原文・`categories`・`fixable`・`stage`・`outcome`）。
   `evaluations.jsonl` と分ける理由: veto 記事は slug 未採番で「1公開記事1行・slug がキー」という契約を壊すうえ、
   veto のバーストが公開記事の retention を押し出すため。`categories` は `critique` から再計算できる派生ビューに

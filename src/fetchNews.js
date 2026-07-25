@@ -1,9 +1,25 @@
 // RSS（主力・キー不要）+ NewsAPI/GNews（任意）から記事候補を集め、
 // 既処理 link を除外して上位 maxArticles 件を返す。
 import Parser from 'rss-parser';
+import { appendFile, mkdir } from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { config } from './config.js';
+import { enrichCandidates } from './summaryFetch.js';
 
 const parser = new Parser({ timeout: config.timeouts.rssMs });
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+
+// 候補選別の内訳を ledger に残す（除外が効きすぎ/効かなさすぎを後から検知するため）。
+// 記録に失敗しても候補取得は止めない＝日次を止めない。
+async function recordCandidateStats(rec) {
+  try {
+    const dir = path.join(ROOT, 'data', 'quality');
+    await mkdir(dir, { recursive: true });
+    const line = JSON.stringify({ ts: new Date().toISOString(), type: 'candidates', ...rec });
+    await appendFile(path.join(dir, 'incidents.jsonl'), `${line}\n`, 'utf8');
+  } catch { /* 記録の失敗で候補取得を止めない */ }
+}
 
 function clean(s = '') {
   return s.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
@@ -149,5 +165,17 @@ export async function fetchNews(existing, limit = config.maxArticles) {
     if (q.length) picked.push(q.shift());
     qi++;
   }
-  return picked.slice(0, limit);
+  const pool = picked.slice(0, limit);
+
+  // RSS 要約が薄い候補の本文を補完する（対象は robots.txt が許可したドメインのみ・§summaryFetch）。
+  // writer/judge の WebFetch は 403 に打つ手がないため、Node 側で先に読んで summary に載せておく。
+  // 失敗しても候補はそのまま残る＝日次を止めない。
+  const { candidates: enrichedPool, enriched } = await enrichCandidates(pool);
+  if (enriched) console.log(`  出典本文で要約を補完: ${enriched} 件`);
+
+  // 除外の観測性: この console.log は writer の CLI セッション内で消え、どのログにも残らない
+  // （2026-07-25 に実測）。効きすぎ／効かなさすぎを後から検知できるよう ledger に残す。
+  await recordCandidateStats({ total: all.length, pool: enrichedPool.length, skippedWeak, skippedIrrelevant, enriched });
+
+  return enrichedPool;
 }
