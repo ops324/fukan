@@ -110,11 +110,24 @@ ${rows}
 }
 
 // 出典リンクカード（最重要・必ず表示）
+// 主出典（link）に加え、裏取りに使った2次媒体（sources[]）があれば必ず併記する。
+// 使ったソースを隠すと「出典を掲げながらそこに無い数値を載せる」状態になり読者が検証できない。
+// sources はレガシー記事に無い（欠落可・後方互換）。
 function sourceCard(a) {
+  const extra = Array.isArray(a.sources)
+    ? a.sources.filter((s) => s && typeof s.url === 'string' && s.url.trim())
+    : [];
+  const extraHtml = extra.length
+    ? `
+            <p class="callout__note">この記事は次の報道も参照して事実を確認しています:</p>
+            <ul class="callout__sources">
+${extra.map((s) => `              <li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name || s.url)}</a></li>`).join('\n')}
+            </ul>`
+    : '';
   return `          <div class="callout">
             <h2 class="callout__head">出典・元記事</h2>
             <p>本記事は下記の一次情報を ${esc(config.siteName)} 編集部が要約・論評したものです。正確な詳細・最新情報は元記事をご確認ください。</p>
-            <p class="callout__link"><a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.source)} の元記事を読む →</a></p>
+            <p class="callout__link"><a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.source)} の元記事を読む →</a></p>${extraHtml}
           </div>`;
 }
 

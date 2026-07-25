@@ -215,6 +215,31 @@ export const config = {
   ],
 
   // CSS抽象サムネのフォールバック候補（styles.css のクラス）
+  // --- 裏取りに使ってよい2次媒体（trustedSecondary）---
+  // 背景: 出典の約3割は自動取得できない（Guardian/Verge/BBC/CNBC は bot 拒否、Variety は有料ゲート）。
+  // 出典本文が読めないとき、writer/judge が「検索で見つけた何か」で埋めると、記事は出典を掲げながら
+  // そこに無い数値を載せることになり、読者が検証できなくなる（2026-07-25 の山火事記事）。
+  // そこで裏取り先をここに列挙した報道機関・学術系に限定し、**使ったソースは必ず記事の sources[] に
+  // 記録して読者に見せる**。隠して使うことだけを禁じ、明示した裏取りは推奨する（複数ソースでの
+  // 確認は報道の標準）。ブログ・まとめ・SNS・出典不明のサイトは対象外。
+  // 判定: 記事URLのホストが「それ自身 or そのサブドメイン」なら一致（pressImage.allowlist と同じ規則）。
+  trustedSecondary: [
+    // 通信社（裏取りの基本）
+    'reuters.com', 'apnews.com', 'afp.com', 'bloomberg.com', 'kyodo.co.jp', 'jiji.com',
+    // 総合報道
+    'bbc.co.uk', 'bbc.com', 'theguardian.com', 'nytimes.com', 'washingtonpost.com',
+    'ft.com', 'wsj.com', 'economist.com', 'aljazeera.com', 'politico.com', 'foreignpolicy.com',
+    'nhk.or.jp', 'asahi.com', 'nikkei.com', 'yomiuri.co.jp', 'mainichi.jp',
+    // テック
+    'techcrunch.com', 'theverge.com', 'wired.com', 'arstechnica.com', 'engadget.com',
+    'technologyreview.com', 'venturebeat.com', 'itmedia.co.jp', 'cnbc.com', 'stackoverflow.blog',
+    // 科学・学術
+    'nature.com', 'science.org', 'sciencedaily.com', 'phys.org', 'spectrum.ieee.org',
+    'quantamagazine.org', 'nasa.gov',
+    // カルチャー・エンタメ
+    'variety.com', 'pitchfork.com', 'hyperallergic.com',
+  ],
+
   thumbVariants: ['thumb--blue', 'thumb--amber', 'thumb--violet', 'thumb--teal', 'thumb--rose', 'thumb--lime'],
 
   // 公式プレス画像（image.kind === 'press'）のクレジット接頭辞。表示は「<label>: <credit>」。
