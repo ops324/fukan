@@ -336,7 +336,7 @@ export const config = {
   // 初回と同一（prompts/_veto-criteria.md を両ラウンドで共有）。fix が失敗しても pass 記事の公開は
   // 妨げない（mergeFixReview.js が原状復帰させる）。異常時は enabled:false の1行で即停止できる。
   fixRound: {
-    enabled: false,   // 初期値 false。Phase A/B を観測してから有効化する（SPEC §12.6）
+    enabled: true,    // 異常時はここを false に戻すだけで即停止できる（SPEC §12.6）
     maxTargets: 8,    // 1ランで修正に回す上限（コストと実行時間の上限）
   },
 
