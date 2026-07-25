@@ -208,7 +208,8 @@ launchctl kickstart -k gui/$(id -u)/com.axiom.generate                          
 - **サイト内検索**: 静的（追加依存ゼロ）。`search-index.json` をクライアントで部分一致検索。
 - **画像最適化**: Unsplash 画像に配信パラメータを付与＋ `images.unsplash.com` を preconnect（CWV 改善）。
 - **パイプライン監視**: `scripts/auto-generate.sh` が異常終了・push 失敗・新規ゼロ連続を検知して macOS 通知。
-- **自己改善ハーネス（MVP）**: 日次フローが **writer → 別モデル査読（出典照合・veto）→ 取り込み** の3段で動き、各記事の評価を `data/quality/` の ledger に蓄積。客観品質は `npm run check` の警告と `npm run evaluate` で可視化、人手評価は `npm run evaluate -- --rate <slug> <1-5>`。詳細は [SPEC.md](SPEC.md) §12。
+- **自己改善ハーネス（MVP）**: 日次フローが **writer → 別モデル査読（出典照合・veto）→ 取り込み** の3段で動き、各記事の評価を `data/quality/` の ledger に蓄積。客観品質は `npm run check` の警告と `npm run evaluate` で可視化、人手評価は `npm run evaluate -- --rate <slug> <1-5>`。
+  下書きは公開前に決定論リント（`npm run lint-drafts`）で「出典を読まずに分かる矛盾」（要約層だけの数値・比率の食い違い・別記事からの語の混入など）を潰す。詳細は [SPEC.md](SPEC.md) §12。
 - **アナリティクス（任意）**: `.env` に `CF_BEACON_TOKEN` を設定すると Cloudflare Web Analytics（Cookieless）を出力。未設定なら無効。
 - **SEO**: 全ページに OGP / Twitter Card / canonical / JSON-LD（NewsArticle・WebSite・Organization）。`sitemap.xml` / `robots.txt` / `feed.xml`（RSS）を生成。共通OG画像 `assets/og-default.jpg`。
 - **法的・運営ページ**: 運営者情報 / お問い合わせ / プライバシーポリシー / 利用規約 / 編集方針 / 免責事項を生成し、フッターに接続。

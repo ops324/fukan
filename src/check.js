@@ -4,6 +4,8 @@
 // 1b) constitution 退行検査 … ロック対象の文言（署名等）が生成記事HTMLに残っているか。
 // 2) スキーマ/不変条件チェック … articles.json の必須項目・importance範囲・slug/link一意を検証。
 // 3) 秘密情報チェック … .env が git 管理外であること、.env の値がトラッキング対象に混入していないこと。
+// 3c) 下書きリント退行検査 … 既知の事故形（別記事からの混入・比率の食い違い等）を合成入力で通し、
+//    src/lintDrafts.js が今も検出できることを確認する（writer の検算が空回りする退行を止める）。
 // 4) 客観品質チェック … 本文長/タグ数/重複話題など。これは「警告のみ」で exit には影響しない
 //    （自己改善 MVP の床。決定的・オフライン・LLM/ネットワーク不使用）。
 // 1〜3 のいずれか失敗で非ゼロ終了。4 は参考情報。
@@ -17,6 +19,7 @@ import { loadArticles } from './store.js';
 import { renderSite } from './render.js';
 import { config } from './config.js';
 import { evaluateArticle } from './evaluate.js';
+import { lintDrafts } from './lintDrafts.js';
 import { mdToHtml } from './markdown.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -190,6 +193,50 @@ function checkSanitizer() {
   }
 }
 
+// --- 3c) 下書きリント退行検査（決定論の検算器が壊れていないか）---
+// 実データ（公開済み記事）はリントを通っているものが多く素通り検知できないため、サニタイザ検査と
+// 同じ方式で「既知の事故そのものの形」を合成入力として通し、検出されることを確認する。
+// 入力は 2026-07-25 に実際に差し戻された下書きの再現（原因の型のみ・本文は最小化）。
+// この検査が落ちるとき、リントは事故を素通りさせている（＝writer の検算が空回りしている）。
+function checkDraftLint() {
+  // 緊急停止（config.draftLint.enabled=false）中は検査対象が存在しない。ここで hard-fail に
+  // すると「安全弁を引いたら check が赤になって公開できない」という逆転が起きるので警告に留める。
+  if (config.draftLint?.enabled === false) {
+    warn('下書きリントが無効化されています（config.draftLint.enabled=false）。writer の検算は効きません');
+    return;
+  }
+  const drafts = [
+    { // 別記事（この後の要素）の固有名詞・数値が紛れ込んだ形
+      headline: 'Trumpが新関税を発動、ブラジルに25%・カナダに50%',
+      lead: 'Trump政権は関税を発動し、Brent原油は100ドル超に上昇した。',
+      body_markdown: 'ブラジルに25%、カナダに50%の関税を課す。対象は自動車と乳製品。',
+      link: 'https://www.cnbc.com/example',
+    },
+    { headline: 'フーシ派がサウジアラムコ石油施設を攻撃、Brent原油100ドル突破',
+      lead: 'Brent原油は100ドルを超えた。',
+      body_markdown: 'Brent原油の先物は100ドルを突破した。Brentの上昇は供給不安による。',
+      link: 'https://www.reuters.com/example',
+    },
+    { // 同一対象を別の比率で書いた形＋全角合成文字
+      headline: 'Opus 5を発表、Fable 5より安価',
+      lead: '価格はFable 5の半値に設定された。',
+      body_markdown: 'コストはおよそ3分の1に下がったとされる。㌦建ての試算もある。',
+      link: 'https://techcrunch.com/example',
+    },
+  ];
+  let results = [];
+  try {
+    results = lintDrafts(drafts);
+  } catch (err) {
+    fail(`下書きリント検査: lintDrafts が例外で停止しました: ${err.message}`);
+    return;
+  }
+  const codes = new Set(results.flatMap((r) => r.findings.map((f) => f.code)));
+  for (const expected of ['summary-only-number', 'crosstalk', 'ratio-conflict', 'composite-char']) {
+    if (!codes.has(expected)) fail(`下書きリント退行: 既知の事故形（${expected}）を検出できません`);
+  }
+}
+
 // --- 4) 客観品質チェック（警告のみ・exit に影響しない）---
 // しきい値（config.qualityThresholds）は「床」であって最大化目標ではない。
 // hard-fail は 2) スキーマ側に任せ、ここは編集の気づき用に warn を出すだけ。
@@ -229,6 +276,7 @@ try {
 await checkRender(arts);
 checkSchema(arts);
 checkSanitizer();
+checkDraftLint();
 await checkSecrets(arts);
 checkQuality(arts);
 
@@ -247,4 +295,4 @@ if (fails.length) {
   for (const f of fails) console.error(`  - ${f}`);
   process.exit(1);
 }
-console.log(`✓ check 通過: ${arts.length} 記事・レンダー完走・スキーマOK・サニタイザOK・鍵混入なし・constitution 維持`);
+console.log(`✓ check 通過: ${arts.length} 記事・レンダー完走・スキーマOK・サニタイザOK・下書きリントOK・鍵混入なし・constitution 維持`);

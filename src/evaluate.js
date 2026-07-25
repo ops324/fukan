@@ -273,7 +273,14 @@ if (isMain) {
     try { drafts = JSON.parse(await readFile(draftsFile, 'utf8')); } catch { process.stdout.write('0'); process.exit(0); }
     if (!Array.isArray(drafts) || !drafts.length) { process.stdout.write('0'); process.exit(0); }
     const arts = await loadArticles();
-    const need = drafts.some((d) => d.tier !== 'primary' || evaluateArticle(d, arts).flags.length > 0);
+    // 決定論リント（lintDrafts）の指摘も「高リスク」の材料にする。数値の食い違いや別記事からの
+    // 語の混入は、まさに独立検証（judge の出典照合）が要る型なので、ここで judge を確実に走らせる。
+    let lintFlagged = 0;
+    try {
+      const { lintDrafts } = await import('./lintDrafts.js');
+      lintFlagged = lintDrafts(drafts, arts).length;
+    } catch { /* リントの失敗で triage を止めない（従来どおり tier とフラグで判定する） */ }
+    const need = lintFlagged > 0 || drafts.some((d) => d.tier !== 'primary' || evaluateArticle(d, arts).flags.length > 0);
     process.stdout.write(need ? '1' : '0');
   } else if (args[0] === '--link-check') {
     const arts = await loadArticles();

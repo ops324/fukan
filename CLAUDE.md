@@ -33,6 +33,13 @@
     **fix が失敗しても pass 記事の公開を妨げない**——`src/mergeFixReview.js` がドラフトを原状復帰させる（SPEC §12.6）。
   - **veto は必ず ledger に残す**（`data/quality/vetoes.jsonl`）。writer が自分の失敗を見られない構造に戻さないこと。
     ただし記録の失敗で取り込みを止めない（try/catch で握る）。
+    **還流（`vetoDigest`）の母集団から「救済された veto」を外さない**——外すと修正リトライが効くほど writer が
+    自分の失敗を見られなくなる（2026-07-25 は 15件中11件が救済され、還流が 4件まで痩せていた）。
+    逆に**救済されたという結果は writer に見せない**（「直してもらえる」と学ばせない）。救済率は stderr のみ。
+  - **決定論リント（`src/lintDrafts.js`）を空回りさせない**（SPEC §12.7）。writer は自己批評でこれを実行し、
+    `auto-generate.sh` も ingest 前に同じ検査を走らせる（プロンプトを飛ばされても消えないための二重化）。
+    すべて警告で公開はブロックしない。指摘の解消を**数値・固有名詞の削除**でやらせないこと（回避であって訂正ではない）。
+    検出力の退行は `npm run check` の `checkDraftLint()` が hard-fail で止める。
 - **出典の扱い（事実忠実性の要）**:
   - **出典の約3割は自動取得できない**（Guardian/Verge/BBC は bot 拒否、CNBC は 403、Variety は課金ゲート）。
     これは障害ではなく「AI に読ませたくない」という**意思表示**なので、**UA 偽装で回避しない**（SPEC §11）。
@@ -91,6 +98,7 @@
 | `npm run migrate-sections` | 旧カテゴリ section を `config.sectionAliases` で navSections へ一括正規化（旧ラベルはタグへ退避・冪等）。実行後 `npm run build` |
 | `npm run evaluate` | 直近記事を客観評価して ledger に記録（`--rate <slug> <1-5> [メモ]` で人手評価）。SPEC §12 |
 | `npm run quality-digest` | writer に注入される品質フィードバックを確認（veto 傾向＋体裁逸脱）。stderr に救済率も出る |
+| `npm run lint-drafts` | 下書き（`data/_drafts.json`）の決定論リント。出典を読まずに分かる矛盾＝要約層だけの数値／比率の食い違い／円換算の疑い／全角合成文字／**別記事からの語の混入**を検出（警告のみ）。SPEC §12.7 |
 | `npm run seed-veto-ledger` | 過去の veto を `scheduler.log` から `vetoes.jsonl` へ遡及投入（既定 dry-run／`-- --apply`）。冪等 |
 | `npm run backfill-images` | 画像の補完／重複解消（画像系を触ったとき） |
 | `npm run refresh-brand-photos` | ブランド写真の索引（`data/brand-photos.json`）を更新。他社ロゴ/UI の写り込み判定に使う。マージ方式＝レート制限に当たっても再実行で続きから育つ。月1回程度 |

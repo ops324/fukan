@@ -32,6 +32,8 @@ dist/
 data/_candidates.json
 data/_drafts.json
 data/_review.json
+# 下書きリントの結果（writer の検算／auto-generate.sh の件数取得に使う一時ファイル）
+data/_lint.json
 # Phase 4 画像一致 LLM 査読の一時ファイル（ingest→査読→applyImageReview が消費。VCS に残さない）
 data/_image_review_targets.json
 data/_image_review.json
