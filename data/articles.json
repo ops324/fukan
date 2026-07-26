@@ -1,5 +1,501 @@
 [
   {
+    "slug": "20260726-18",
+    "headline": "台風ノウル、中国に上陸　715,000人以上が避難",
+    "lead": "中国広東省に上陸した台風ノウルは最大風速時速110キロで、715,000人以上が避難。",
+    "body_markdown": "2026年7月26日、台風ノウル（Noul）が中国広東省恵州市恵東県の沿岸部に上陸した。中国気象当局は「今年中国に上陸した最強の台風」と述べており、中心付近の最大持続風速は時速110キロに達している。\n\n広東省では日曜早朝までに715,000人以上が安全のため移転されたほか、香港では日曜に約350便の航空便がキャンセルされた。台風期間中に少なくとも9人が負傷しており、高層ビルの足場の一部も倒壊している。広東省南部と福建省南東部では週末にかけて大雨と強風が予想されている。\n\n中国気象局は引き続き警戒を呼び掛けており、東南沿岸地域の住民に対して厳重な注意を促している。",
+    "tags": [
+      "台風",
+      "自然災害",
+      "中国",
+      "気象"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/26/typhoon-noul-makes-landfall-in-china-with-hundreds-of-thousands-evacuated",
+    "importance": 4,
+    "image_query": "typhoon landfall china weather",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1775585872847-5cc22dfe951c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8dHlwaG9vbiUyMGxhbmRmYWxsJTIwY2hpbmElMjB3ZWF0aGVyfGVufDF8MHx8fDE3ODUwNTc0MzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Hugo Alexandre Cruz",
+      "profileUrl": "https://unsplash.com/@hugoalexandrecruz?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Coca-cola china filmstad sign on snowy day",
+      "description": "Linkoping in Sweden, 21st of February 2010. Fotografia de Hugo Alexandre"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:10.563Z",
+    "publishedAt": "2026-07-26T05:29:14.000Z"
+  },
+  {
+    "slug": "20260726-19",
+    "headline": "イスラエル、ヨルダン川西岸で約40人を拘束",
+    "lead": "イスラエル軍はヨルダン川西岸で大規模な作戦を実施、パレスチナ人約40人を拘束した。",
+    "body_markdown": "2026年7月26日、イスラエル軍はヨルダン川西岸で作戦を実施し、約40人のパレスチナ人を拘束した。拘束者には女性と元囚人が含まれている。\n\nイスラエル軍がナブルス市を襲撃した際、ジャーナリストに催涙ガスを使用したと報じられており、報道の自由をめぐる懸念も生じている。この襲撃はイスラエル入植者によるパレスチナ村での暴力行為と並行して発生。デイル・イスティヤ村の土地に新しい入植地が建設されるなど、入植活動の拡大が緊張の背景にある。\n\nパレスチナ側は犯罪的な占領政策だと強く反発しており、国際社会からは懸念の声が上がっている。",
+    "tags": [
+      "中東",
+      "イスラエル",
+      "パレスチナ",
+      "人権"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/7/26/israel-raids-west-bank-live-dozens-of-palestinians-detained-during-assault",
+    "importance": 4,
+    "image_query": "west bank israel military",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1620844623056-1b90bb074e23?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHx3ZXN0JTIwYmFuayUyMGlzcmFlbHxlbnwxfDB8fHwxNzg1MDU3NDMzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Levi Meir Clancy",
+      "profileUrl": "https://unsplash.com/@levimeirclancy?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "white truck on brown sand",
+      "description": "West Bank."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:11.579Z",
+    "publishedAt": "2026-07-26T07:55:30.000Z"
+  },
+  {
+    "slug": "20260726-20",
+    "headline": "テック企業AIレイオフ加速、2026年で140,000人削減",
+    "lead": "Amazon、Meta、Microsoftらが相次ぎAI関連を理由にレイオフ。2026年の削減規模は140,000人に達した。",
+    "body_markdown": "2026年初頭から米国テック企業は約140,000人の職を削減しており、Amazon、Oracle、Meta、Microsoftだけで約50,000人の削減を占めている。企業各社がAIを削減の主要因として挙げている。\n\nMonday.comの創業者は「人をAIで置き換えるためではない」と述べながらも、AI中心の新戦略への組織再編を発表。PayPalは4,500人以上（20%削減）、Intuitは3,000人（17%削減）など、業界全体で大規模な人員調整が続いている。\n\n興味深いことに、AIを削減理由として挙げた企業は発表後30営業日でナスダック比で約10%パフォーマンスが低下しており、市場がこの説明を完全には受け入れていない傾向が見られる。",
+    "tags": [
+      "AI",
+      "テック企業",
+      "雇用",
+      "経済"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+    "importance": 4,
+    "image_query": "office workers employment layoff",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1748256622734-92241ae7b43f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8b2ZmaWNlJTIwd29ya2VycyUyMGVtcGxveW1lbnQlMjBsYXlvZmZ8ZW58MXwwfHx8MTc4NTA1NzQzNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "TECNIC Bioprocess Solutions",
+      "profileUrl": "https://unsplash.com/@tecnic?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Office workers are busy working on computers.",
+      "description": "Open-plan office with multiple professionals working on computers, developing technical and design tasks in a collaborative environment."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:12.579Z",
+    "publishedAt": "2026-07-26T01:30:00.000Z"
+  },
+  {
+    "slug": "20260726-21",
+    "headline": "Microsoft・NVIDIA等AI企業、規制に反対声明　約35団体",
+    "lead": "Microsoft、NVIDIAなど約35団体がオープンウェイトAI規制に反対。イノベーション阻害と懸念。",
+    "body_markdown": "Microsoft、NVIDIAなど米国の約35の団体が「Open Weights and American AI Leadership」という共同声明を発表し、オープンウェイトAIモデルへの過度な規制に反対している。\n\n声明では、オープンウェイトモデルは「クローズドモデルと比較して、異なるインフラで実行でき、様々な応用分野で機能する」利点を強調。新規企業や研究者へのアクセス可能性があり、オープンソース伝統の継承が重要だと主張している。クラウド企業のロックインなしにデータとモデルを管理できる点も利点として指摘。\n\nなお、Anthropicは公式な立場を明かしていない。一方、OpenAIはワシントンでロビー活動を行っているとの報道もある。",
+    "tags": [
+      "AI規制",
+      "政策",
+      "テック業界",
+      "イノベーション"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/articles/2607/26/news014.html",
+    "importance": 4,
+    "image_query": "tech policy regulation discussion",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1760346546771-a81d986459ff?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8dGVjaCUyMHBvbGljeSUyMHJlZ3VsYXRpb24lMjBkaXNjdXNzaW9ufGVufDF8MHx8fDE3ODUwNTc0MzV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Bluestonex",
+      "profileUrl": "https://unsplash.com/@bluestonex_apphaus?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Three men in discussion around a table with laptops",
+      "description": "Meeting in progress"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:13.695Z",
+    "publishedAt": "2026-07-25T21:51:00.000Z"
+  },
+  {
+    "slug": "20260726-22",
+    "headline": "Kimi K3不正蒸留疑惑、AIサプライチェーン脆弱性浮き彫り",
+    "lead": "米政府高官がMoonshot AIの不正蒸留指摘。Claude Fable 5から340万回アクセス。",
+    "body_markdown": "ホワイトハウス科学技術政策局（OSTP）が、中国のMoonshot AIが開発したAIモデル「Kimi K3」をめぐる技術的懸念を表明した。\n\nAnthropicのブログでは、Moonshot AIが2026年2月までにClaudeへの340万回を超えるアクセスを行ったことが記録されている。これは小規模なモデルが大規模なモデルから知識を抽出する「不正蒸留攻撃」の可能性を示唆している。\n\n懸念は3つの層から指摘されている。モデルの出所確認、インフラストラクチャの制約（GB300チップの利用可能性が影響）、そしてモデルの相互依存性。あるモデルが利用不可になった場合、別モデルへの移行が課題となるなど、AIエコシステムの透明性と信頼性が問われている。",
+    "tags": [
+      "AI安全保障",
+      "中国",
+      "蒸留",
+      "サプライチェーン"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/24/news054.html",
+    "importance": 4,
+    "image_query": "cybersecurity ai model data",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1584291527908-033f4d6542c8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8Y3liZXJzZWN1cml0eSUyMGFpJTIwbW9kZWwlMjBkYXRhfGVufDF8MHx8fDE3ODUwNTc0MzZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Clay Banks",
+      "profileUrl": "https://unsplash.com/@claybanks?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black flat screen computer monitor",
+      "description": "Coronavirus coverage as of 3/15/2020. Heatmap by the Center for Systems Science and Engineering (CSSE) at John Hopkins University - https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6\n\n(IG: @clay.banks)"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:14.573Z",
+    "publishedAt": "2026-07-24T08:30:00.000Z"
+  },
+  {
+    "slug": "20260726-23",
+    "headline": "インド教育相が辞任、入試問題漏えい疑惑で政治決断",
+    "lead": "インド教育相が辞任表明。学生デモで拡大した政府への不信に決断を促されたか。",
+    "body_markdown": "インドの教育相が2026年7月25日、辞任を表明した。辞任理由は「学生たちが学業に専念できるよう考慮する」とされている。\n\n背景には大学の入試問題漏えい疑惑がある。この事件は試験管理の失態に留まらず、より広範な政府への不信感へと発展。「ゴキブリ人民党」という学生デモ団体が主導する抗議活動が拡大する中での辞任となった。\n\n注目は、デモ主催団体が辞任を受けて抗議活動の収束に向かう可能性を示唆している点。政治的な譲歩によって社会的な緊張緩和につながるかが焦点となる。",
+    "tags": [
+      "インド",
+      "政治",
+      "教育",
+      "学生デモ"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015186321000",
+    "importance": 4,
+    "image_query": "student protest education minister",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1619918456525-7d41ade7300b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8c3R1ZGVudCUyMHByb3Rlc3QlMjBlZHVjYXRpb24lMjBtaW5pc3RlcnxlbnwxfDB8fHwxNzg1MDU3NDM3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mufid Majnun",
+      "profileUrl": "https://unsplash.com/@mufidpwt?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man in yellow suit standing near people during daytime",
+      "description": "the enthusiasm of students to learn, happy national education day"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:15.534Z",
+    "publishedAt": "2026-07-25T22:43:51.000Z"
+  },
+  {
+    "slug": "20260726-24",
+    "headline": "トランプ大統領、Google制裁金へ報復関税を示唆",
+    "lead": "EUがGoogleに日本円で1600億円の制裁金を科したことへの対抗措置として、米国がEUへの関税を検討。",
+    "body_markdown": "トランプ大統領は、EU がアメリカのIT大手Googleに対して日本円で1600億円余りの制裁金を科したことへの対抗措置として、EU に関税を課すと主張した。\n\nホワイトハウスは米国の「通商法301条」に基づいた調査を開始すると明らかにしており、従来の報復関税メカニズムの発動を示唆している。この手法は、米国が不当な通商慣行と判断した相手国への懲罰として使用される。\n\nEUはGoogle に対し、デジタル市場法（DMA）違反による制裁を実施。一方、米国はこれをEU の過度な規制と見なし、双方の立場は対立している。今後の交渉動向が注視される。",
+    "tags": [
+      "米国",
+      "EU",
+      "通商",
+      "Google"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015186361000",
+    "importance": 4,
+    "image_query": "trade negotiation tariff",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1737690974141-c964afbdf986?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHx0cmFkZSUyMG5lZ290aWF0aW9uJTIwdGFyaWZmfGVufDF8MHx8fDE3ODUwNTc0Mzh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jake Banasik",
+      "profileUrl": "https://unsplash.com/@jnbanasik?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A sign that says i trade buy sell trade"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:16.440Z",
+    "publishedAt": "2026-07-25T23:49:14.000Z"
+  },
+  {
+    "slug": "20260726-25",
+    "headline": "ベルリン車突っ込み、1人死亡　LGBTQ+イベント会場",
+    "lead": "ベルリンのLGBTQ+イベント会場に車が突っ込み、1人死亡、16人けが。容疑者に懸念の動き。",
+    "body_markdown": "2026年7月25日、ドイツの首都ベルリンで「性的マイノリティーの人たちの権利向上を呼びかける大規模なイベント」が開催されていた際に、車が人混みに突っ込んだ。\n\n事件により、1人が死亡し、16人がけがをした。警察は容疑者がイスラム主義勢力との関連の可能性を調査中。LGBTQ+の権利向上を掲げるイベントが狙われた可能性が指摘されており、憎悪犯罪の可能性も検討されている。\n\nドイツではヘイトクライムへの警戒が高まっており、当局が詳細な背景調査を進めている。",
+    "tags": [
+      "テロ",
+      "LGBTQ+",
+      "ドイツ",
+      "事件"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015186341000",
+    "importance": 4,
+    "image_query": "berlin event crowd incident",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1663028054421-e56fa5d7418e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOHx8YmVybGluJTIwZXZlbnQlMjBjcm93ZCUyMGluY2lkZW50fGVufDF8MHx8fDE3ODUwNTc0Mzl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Raphael Renter | @raphi_rawr",
+      "profileUrl": "https://unsplash.com/@raphi_rawr?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a crowd of people dancing",
+      "description": "Raphael Renter x Berlin Pride 2022 \"Look Over There!\""
+    },
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:17.065Z",
+    "publishedAt": "2026-07-26T03:49:34.000Z"
+  },
+  {
+    "slug": "20260726-26",
+    "headline": "玉木代表が消費税減税に反対、代替案に給付と住民税減税を提案",
+    "lead": "国民民主党玉木代表、食料品消費税減税をデメリット大きいと反対。別案を主張。",
+    "body_markdown": "国民民主党の玉木代表は、「食料品の消費税減税はデメリットが大きいため行うべきではない」という立場を強調した。超党派で進む消費税減税論議の中で、異なる政策方向を打ち出している。\n\n玉木氏が代替案として提唱するのは、直接的な消費税減税ではなく、より対象を絞った財政支援。具体的には、住民税の減税と給付金による支援を組み合わせた施策により、低所得世帯の負担軽減を図るべきだと主張している。\n\n政府は来月上旬までをめどに消費税減税の方針を決定する予定。党内外で異なる見解が示される中、今後の調整が焦点となる。",
+    "tags": [
+      "日本政治",
+      "消費税",
+      "財政政策",
+      "国民民主党"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015186741000",
+    "importance": 3,
+    "image_query": "japanese parliament politics debate",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:17.066Z",
+    "publishedAt": "2026-07-26T08:52:07.000Z"
+  },
+  {
+    "slug": "20260726-27",
+    "headline": "維新が副首都構想の準備加速、大阪府指定に向け動く",
+    "lead": "関連法成立受け、維新が大阪の副首都指定に向け準備加速。衆議院定数削減も目標。",
+    "body_markdown": "日本維新の会は、副首都構想の関連法が成立したことを受けて、大阪府の「副首都」指定に向けて準備を加速させることを確認した。\n\n今回の法成立により、構想の実現に向けた法的基盤が整備された。維新は大阪府との連携を強化し、指定に必要な具体的な準備作業を進める方針。同時に、維新は次の国会において衆議院議員の定数削減に関する法案の成立を目指す方針も改めて確認している。\n\n副首都構想は大阪の行政権限強化や経済活性化を目指すもので、同党の重要政策。今後の国会日程や関係省庁との調整が進む見通し。",
+    "tags": [
+      "日本政治",
+      "大阪",
+      "地域政策",
+      "維新"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015186131000",
+    "importance": 3,
+    "image_query": "osaka city government politics",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:17.073Z",
+    "publishedAt": "2026-07-25T11:59:34.000Z"
+  },
+  {
+    "slug": "20260726-28",
+    "headline": "Qualcomm9月から価格上昇、ダブルディジット幅で",
+    "lead": "Qualcommが9月1日以降出荷分から二桁の価格上昇を実施。メモリ供給逼迫で。",
+    "body_markdown": "Qualcommはプロセッサーの価格を9月1日以降の出荷分から大幅に引き上げると発表した。値上げ幅はダブルディジット（10%以上）で、複数製品カテゴリーにわたる。\n\nQualcommは値上げの理由として、サプライチェーンコストの上昇を挙げている。「サプライヤーからの高コスト化を吸収できなくなった」とし、代替調達先の模索も効果がなかったと述べた。多くのチップを製造するTSMCも現在、AI データセンター需要による部品不足に直面している。\n\nQualcommはAndroid スマートフォンプロセッサーを支配的に供給し、SamsungやMicrosoft、Metaなど主要企業の製品に搭載される。このため、消費者向け製品全体の価格上昇につながる可能性がある。",
+    "tags": [
+      "テクノロジー",
+      "半導体",
+      "価格",
+      "AI"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2223161/qualcomm-planning-to-raise-its-prices/",
+    "importance": 3,
+    "image_query": "semiconductor chip manufacturing",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:17.074Z",
+    "publishedAt": "2026-07-25T15:44:41.000Z"
+  },
+  {
+    "slug": "20260726-29",
+    "headline": "Meta smart glasses、Conversation Focus制限を撤回",
+    "lead": "MetaがAI機能の有料化制限を一時撤回。ユーザー反発受け「さらに検討」と。",
+    "body_markdown": "Metaは先月導入したAI機能「Conversation Focus」の有料化制限を撤回した。当初の計画では、月3時間まで無料で月20ドルのMeta One Premium購読で月15時間の使用に限定する方針だった。\n\nこの機能は、周囲の音声を増幅してスマートグラス内で会話相手の声を強調するもの。デバイスのみで動作し、インターネット接続が不要なため、有料化に対してユーザーから強い反発があった。\n\nMetaの広報者は「フィードバックを聞いた上で、試験を一時停止している」と述べ、「さらに良いアプローチを模索中」とコメント。ただし、「一部プレミアム機能は今後有料化する」と示唆しており、恒久的な無料提供を約束していない。",
+    "tags": [
+      "テクノロジー",
+      "AR/VR",
+      "Meta",
+      "プライバシー"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2223212/meta-walks-back-rate-limits-for-smart-glasses-conversation-focus/",
+    "importance": 3,
+    "image_query": "smart glasses ai technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:17.075Z",
+    "publishedAt": "2026-07-25T17:08:31.000Z"
+  },
+  {
+    "slug": "20260726-30",
+    "headline": "EU、TikTok に未成年保護の改善を勧告　罰金リスク",
+    "lead": "EUがTikTokの未成年保護不足を指摘。最大年収6%の罰金リスク。",
+    "body_markdown": "欧州委員会はTikTokに対し、未成年ユーザーの安全保護が不十分だと指摘した。デジタルサービス法（DSA）の基準を満たしていないと判断している。\n\n委員会が特に問題視しているのは、14歳未満のユーザーのアカウントがデフォルトで公開設定になっている点と、16～17歳のユーザーのコンテンツがFor You フィード経由で推奨される仕組み。これにより、未成年が不正な接触やサイバーいじめ、肉食系行為にさらされるリスクがあると指摘。\n\n改善案として、委員会は未成年アカウントを友達限定に変更し、未成年者のコンテンツの推奨を停止することを勧告。TikTokが応じない場合、年間売上の最大6%に達する罰金が科せられる可能性がある。",
+    "tags": [
+      "テクノロジー",
+      "規制",
+      "未成年保護",
+      "EU"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2223242/eu-says-tiktok-hasnt-done-enough-to-ensure-minors-safety/",
+    "importance": 3,
+    "image_query": "social media youth safety regulation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:17.076Z",
+    "publishedAt": "2026-07-25T18:19:40.000Z"
+  },
+  {
+    "slug": "20260726-31",
+    "headline": "Cognition がPoke を買収、コーディングAI Devin に統合へ",
+    "lead": "CognitionがPoke買収。会話的なAI性格をコーディングアシスタント Devin に統合。",
+    "body_markdown": "AI開発企業Cognitionが、AIチャットアシスタント Poke の開発元である The Interaction Company of California を買収した。取引額は「低い9桁」（数億ドル規模）と評価される。\n\nCognitionの目標は Poke の会話スタイルと対話モデルをコーディングアシスタント Devin に統合することにある。Poke は「チャットのように友人と話す」スタイルが特徴で、スラングやユーモアを交えた応答をする。Cognition 共同創設者 Scott Wu は、「人々が愛するエージェント：積極的で、ユーザーを知っており、話しやすい」という特性を Devin に持たせたいと述べている。\n\n短期的には Poke は独立して運営を続け、年末までに変更はない。来年から両製品の改善実験が始まる予定。",
+    "tags": [
+      "AI",
+      "スタートアップ",
+      "M&A",
+      "開発ツール"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+    "importance": 3,
+    "image_query": "ai development programming assistant",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:17.080Z",
+    "publishedAt": "2026-07-24T18:07:32.000Z"
+  },
+  {
+    "slug": "20260726-32",
+    "headline": "Ryan Gosling がMarvel Ghost Rider 主演、2028年公開予定",
+    "lead": "Ryan GoslingがGhost Rider映画に主演。監督はShawn Levy、2028年公開予定。",
+    "body_markdown": "Marvel Studios のケビン・ファイジ最高経営責任者が、サンディエゴ・コミック・コン のHall Hステージで、Ryan Gosling がGhost Rider の映画化で主演することを発表した。\n\nこれはGoslingの Marvel Cinematic Universe への初出演となる。映画はShawn Levy が監督を務め、2028年の公開が予定されている。Levy は『Stranger Things』『The Adam Project』などの作品で知られ、大規模な製作陣での経験豊富なクリエイター。\n\nGhost Rider は Marvel の重要キャラクターであり、この配役発表は映画ファンの注目を集めている。",
+    "tags": [
+      "エンタメ",
+      "映画",
+      "Marvel",
+      "キャスティング"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/news/ryan-gosling-ghost-rider-marvel-movie-1236821206/",
+    "importance": 3,
+    "image_query": "action movie superhero film",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:17.081Z",
+    "publishedAt": "2026-07-26T01:07:38.000Z"
+  },
+  {
+    "slug": "20260726-33",
+    "headline": "Black Panther 3 、David Jonsson が T'Challa の息子を演じる",
+    "lead": "Black Panther 3 でDavid Jonsson がT'Challa の息子Prince T'Challa II を演じる。2028年12月公開。",
+    "body_markdown": "Marvel Studios が San Diego Comic-Con で Black Panther 3 のキャスティングを発表した。David Jonsson がPrince T'Challa II を演じることになった。\n\nこのキャラクターは Black Panther: Wakanda Forever で子ども時代に登場していた。今作では成長したT'Challa II が主要な役割を担う。映画は2028年12月15日の公開が予定されており、故Chadwick Boseman のレガシーを継ぐ形での展開となる。\n\nDavid Jonsson の配役は、新世代のBlack Panther としての期待を集めている。",
+    "tags": [
+      "エンタメ",
+      "映画",
+      "Marvel",
+      "Black Panther"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/news/black-panther-3-december-2028-release-david-jonsson-1236083370/",
+    "importance": 3,
+    "image_query": "superhero movie action film",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:17.082Z",
+    "publishedAt": "2026-07-26T01:41:23.000Z"
+  },
+  {
+    "slug": "20260726-34",
+    "headline": "Avengers Doomsday 予告、Robert Downey Jr. がDoctor Doom",
+    "lead": "Marvel Comic-ConでAvengers Doomsday予告公開。Robert Downey Jr.がDoctor Doom役で復帰。",
+    "body_markdown": "Marvel Studios がサンディエゴ・コミック・コン の Hall H で、Avengers: Doomsday の独占映像を公開した。\n\n予告では Robert Downey Jr. が Doctor Doom （ヴィクター・フォン・ドゥーム）として玉座に座る姿が映し出された。Vanessa Kirby 演じるThe Invisible Woman（Sue Storm）が、Doom がどのようにして Avengers、Fantastic Four、X-Men を立ち向かわせるセンチネルの軍勢を集めるのかを説明するシーンが含まれている。\n\nこれにより、MCUの次段階がSentinels とDoom 中心のストーリーラインへ進むことが明らかになった。",
+    "tags": [
+      "エンタメ",
+      "映画",
+      "Marvel",
+      "Avengers"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/news/avengers-doomsday-new-trailer-comic-con-1236817677/",
+    "importance": 3,
+    "image_query": "superhero movie action avengers",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:17.083Z",
+    "publishedAt": "2026-07-26T01:37:06.000Z"
+  },
+  {
+    "slug": "20260726-35",
+    "headline": "Carrie TV化、10月7日Amazon Prime で全配信",
+    "lead": "Stephen King『Carrie』のTVドラマ化、全8話がAmazon Prime Videoで10月7日全配信。",
+    "body_markdown": "Amazon Prime Video が Stephen King の古典ホラー小説『Carrie』をドラマシリーズ化する。全8話が10月7日に一斉配信される。\n\nシリーズは「不適応の高校生Carrie White が隔離生活を送る中で、異能を目覚めさせる」という原作ストーリーを、現代的かつ大胆に再解釈したもの。制作陣による「時宜を得た再想像」（bold and timely reimagining）との説明で、近年のホラー・ドラマの潮流を反映した制作となっている。\n\nホラー小説原作のTVドラマ化は高い視聴者期待があり、本作の成否が注視される。",
+    "tags": [
+      "エンタメ",
+      "ドラマ",
+      "ホラー",
+      "Amazon"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/tv/news/carrie-tv-series-trailer-release-date-mike-flanagan-1236807045/",
+    "importance": 3,
+    "image_query": "horror drama television series",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:17.084Z",
+    "publishedAt": "2026-07-26T00:50:00.000Z"
+  },
+  {
+    "slug": "20260726-36",
+    "headline": "ココア価格は低下も、チョコレート価格はなお高止まり",
+    "lead": "ココア価格低下で利幅減少。チョコレートメーカー、プレミアム戦略で対抗か。",
+    "body_markdown": "ココア価格が低下に転じたものの、チョコレート価格は依然として高止まりしているという矛盾的な状況が続いている。悪天候やイラン戦争による供給逼迫、関税の影響でコスト上昇が続いたからだ。\n\nチョコレートメーカーは値下げ圧力を受ける一方、プレミアム製品への戦略シフトで利益維持を図ろうとしている。企業経営陣からは「ココア価格低下が直ちに小売価格に反映されない」という現状認識も示されている。\n\nNestle、Lindt、Barry Callebaultなど大手チョコレートメーカーも同じ課題に直面。消費者からの値下げ要求との綱引きが続く見通し。",
+    "tags": [
+      "ビジネス",
+      "食品",
+      "価格",
+      "商品戦略"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/26/cocoa-prices-chocolate-lindt-barry-callebaut-nestle.html",
+    "importance": 3,
+    "image_query": "chocolate cocoa product market",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:17.085Z",
+    "publishedAt": "2026-07-26T05:00:01.000Z"
+  },
+  {
+    "slug": "20260726-37",
+    "headline": "ai& Inference、日本企業向けAI推論プラットフォーム開始",
+    "lead": "ai&が日本企業向けに特化したAI推論プラットフォームを開始。Claude・GPT代替で低コスト。",
+    "body_markdown": "ai&が、日本企業向けに設計したAI推論プラットフォーム「ai& Inference」の提供を開始した。\n\nこのサービスはClaudeやGPTなど海外ベンダーのAIに代わる選択肢として位置づけられており、AI利用コストを「大幅に削減できる」とされている。日本国内でのAIデプロイと運用に特化した仕様となっており、データロケーション要件や低遅延化への対応が強調されている。\n\n企業がCloudベースのAI サービスに頼る場合のコスト効率化や、独自スタック構築の手間を削減できる利点がある。ただし、日本企業が海外AIサービスを避ける選択肢が増えることで、海外業者との競争構図が変わる可能性も示唆されている。",
+    "tags": [
+      "AI",
+      "日本企業",
+      "コスト削減",
+      "プラットフォーム"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/24/news052.html",
+    "importance": 3,
+    "image_query": "ai platform data center technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:17.085Z",
+    "publishedAt": "2026-07-24T04:00:00.000Z"
+  },
+  {
+    "slug": "20260726-38",
+    "headline": "開発工数見積もり、AI で効率化へ　明治安田の実験成果",
+    "lead": "明治安田生命がAI エージェントによる開発工数見積もりPoCを検証。効率化実現か。",
+    "body_markdown": "明治安田生命保険がシステム開発工数見積もりの効率化にAI エージェントを活用するPoC（概念実証）の検証結果を示している。\n\nシステム開発では、有識者に頼った工数見積もりが負担となるのが常。AI による自動化がどこまで機能するかが課題だ。明治安田のPoC では、AI エージェントが開発要件から工数を推定するアプローチを試行。見積もりの精度向上と工程の効率化を実現できるかが焦点。\n\nこの取組みは、金融機関のIT導入効率化の先例として注視されており、他業態への拡大可能性も示唆されている。",
+    "tags": [
+      "AI",
+      "ビジネス",
+      "効率化",
+      "システム開発"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/24/news050.html",
+    "importance": 3,
+    "image_query": "ai development project management software",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-26T09:17:17.086Z",
+    "publishedAt": "2026-07-24T04:00:00.000Z"
+  },
+  {
     "slug": "20260726-01",
     "headline": "ニュース組織がAIを活用してジャーナリズムを強化",
     "lead": "OpenAIの支援で、報道機関がAIを活用した時間短縮と読者体験の向上に取り組んでいます。",
