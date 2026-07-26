@@ -68,8 +68,11 @@ for (const a of arts) {
 }
 
 if (replaced) {
-  await saveArticles(arts);
+  // ingestDrafts と同じ規律でレンダーが先・保存が後（詳細はそちらのコメント）。
+  // ここは終了コードを auto-generate.sh が握り潰す（画像査読の失敗で公開を止めない）ため、
+  // 逆順だと描画できない articles.json が rc=0 の「正常」として公開まで通ってしまう。
   const stats = await renderSite(arts);
+  await saveArticles(arts);
   console.log(`✓ 画像査読: ${replaced} 件を差し替え、計 ${stats.articles} 記事を再生成しました。`);
 } else {
   console.log('画像査読: 差し替えは発生しませんでした。');

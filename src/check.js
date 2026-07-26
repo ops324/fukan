@@ -21,6 +21,8 @@ import { config } from './config.js';
 import { evaluateArticle } from './evaluate.js';
 import { lintDrafts } from './lintDrafts.js';
 import { mdToHtml } from './markdown.js';
+import { tagSlug } from './tagSlug.js';
+import { tagHref } from '../templates/cardbits.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const fails = [];
@@ -51,6 +53,7 @@ async function checkRender(arts) {
       }
     }
 
+
     // --- 1b) constitution 退行検査 ---
     // ロック対象の文言（署名表記など）が実際の生成記事HTMLに残っているか。
     // 自己改善や不用意なリファクタで「決めたこと」が消える退行を公開前に止める。
@@ -72,6 +75,16 @@ async function checkRender(arts) {
     fail(`レンダーが例外で停止しました: ${err.message}`);
   } finally {
     await rm(dir, { recursive: true, force: true });
+  }
+
+  // renderSite は assets を複製しない（build.js が cpSync する）。ここが check の
+  // 唯一の死角なので、「check 緑 ⇒ npm run build 緑」を成り立たせるため実在を確かめる。
+  for (const rel of ['assets', path.join('assets', 'styles.css')]) {
+    try {
+      await access(path.join(ROOT, rel));
+    } catch {
+      fail(`ビルド用アセットがありません → ${rel}（npm run build が失敗します）`);
+    }
   }
 }
 
@@ -97,6 +110,12 @@ function checkSchema(arts) {
       if (typeof a.publishedAt !== 'string' || Number.isNaN(Date.parse(a.publishedAt))) {
         fail(`${where}: publishedAt が妥当な日時文字列ではありません (${a.publishedAt})`);
       }
+    }
+    // slug は articles/<slug>.html のファイル名と各ページの URL になる。今は makeSlug() 由来の
+    // YYYYMMDD-NN しか無いが、それは慣習であって保証ではない。手編集や復元で '/' が入れば
+    // タグの 2026-07-26 と同じ形でレンダーごと落ちるため、形式を不変条件として固定する。
+    if (typeof a?.slug === 'string' && !/^\d{8}-\d+$/.test(a.slug)) {
+      fail(`${where}: slug の形式が YYYYMMDD-連番 ではありません (${a.slug})`);
     }
     if (!Array.isArray(a?.tags)) fail(`${where}: tags が配列ではありません`);
     // sources は任意（裏取りに使った2次媒体。レガシー記事には無い＝後方互換）。
@@ -237,6 +256,134 @@ function checkDraftLint() {
   }
 }
 
+// --- 3d) タグ slug 検査（パスに化けるタグでビルドが落ちる退行を止める）---
+// 2026-07-26: タグ 'AR/VR' が dist/tags/AR/VR.html と解釈され render 全体が ENOENT で停止、
+// 同じ npm run build を走らせる Vercel のデプロイも失敗した。
+// (1) 変換器そのものの退行、(2) 変換後の衝突、(3) 実データの危険文字 を見る。
+// 「render/テンプレが tagSlug を呼んでいるか」は checkTagPathWiring() が担当する。
+function checkTagSlugs(arts) {
+  // (1) 変換器の退行検査。合成入力で、パス区切り・親ディレクトリ参照が残らないこと。
+  for (const [input, expected] of [
+    ['AR/VR', 'AR-VR'],
+    ['a:b', 'a-b'],
+    ['x\\y', 'x-y'],
+    ['..', '_'],
+    ['.hidden', 'hidden'],
+    ['  前後  ', '前後'],
+    ['', '_'],
+    // 既存タグは不動点であること（公開済み URL を変えない）
+    ['テクノロジー', 'テクノロジー'],
+    ['Physical AI', 'Physical AI'],
+    ['M&A', 'M&A'],
+    ['GLP-1', 'GLP-1'],
+    ['C#', 'C#'],
+  ]) {
+    const got = tagSlug(input);
+    if (got !== expected) fail(`タグslug退行: tagSlug(${JSON.stringify(input)}) が ${JSON.stringify(got)}（期待 ${JSON.stringify(expected)}）`);
+  }
+  for (const bad of ['AR/VR', '..', 'a\\b']) {
+    const got = tagSlug(bad);
+    if (got.includes('/') || got.includes('\\') || got === '.' || got === '..') {
+      fail(`タグslug退行: ${JSON.stringify(bad)} の変換結果 ${JSON.stringify(got)} がまだパスとして危険です`);
+    }
+  }
+
+  if (!Array.isArray(arts)) return;
+  const tags = [...new Set(arts.flatMap((a) => (Array.isArray(a?.tags) ? a.tags : [])))];
+
+  // (2) 衝突は hard-fail。別タグが同じファイル名に落ちると片方のページが後勝ちで消え、
+  // sitemap が「中身が別タグ」の URL を広告する（読者にも検索エンジンにも誤りが出る）。
+  const bySlug = new Map();
+  for (const t of tags) {
+    const s = tagSlug(t);
+    if (!bySlug.has(s)) bySlug.set(s, []);
+    bySlug.get(s).push(t);
+  }
+  for (const [s, ts] of bySlug) {
+    if (ts.length > 1) fail(`タグ ${ts.map((t) => `「${t}」`).join('・')} が同じファイル名 ${s}.html に衝突します`);
+  }
+
+  // 大文字小文字だけの違いは warn に留める。本番(Linux)は別ファイルとして正しく配信され、
+  // 取り違えが起きるのは大小を区別しない macOS でのローカル生成時だけのため。
+  const byLower = new Map();
+  for (const s of bySlug.keys()) {
+    const k = s.toLowerCase();
+    if (!byLower.has(k)) byLower.set(k, []);
+    byLower.get(k).push(s);
+  }
+  for (const [, ss] of byLower) {
+    if (ss.length > 1) warn(`タグ ${ss.join(' / ')} は大文字小文字しか違いません（macOS のローカル生成では片方が上書きされます）`);
+  }
+
+  // (3) 実データの危険文字は warn。render 側が tagSlug で全域化されたため公開は安全で、
+  // ここで止めると「公開できないデータが日次を無限に塞ぐ」＝今回潰した失敗モードの再生産になる。
+  for (const t of tags) {
+    if (tagSlug(t) !== t) warn(`タグ「${t}」はパスに使えない文字を含むため ${tagSlug(t)}.html として出力されます`);
+  }
+}
+
+// --- 3e) タグ→パス配線の退行検査（4つの適用箇所が実際に tagSlug を通っているか）---
+// 2026-07-26 に壊れたのは tagSlug ではなく「render がそれを呼んでいないこと」だった。
+// ところが取り込み時の正規化（store.js）のおかげで実データの全タグは tagSlug の不動点なので、
+// 実データを描画しても配線が外れたことを検知できない（素通りする）。
+// そこで危険な文字を含む合成タグを1件だけ別の一時ディレクトリへ描画し、
+// ファイル名・記事内リンク・canonical・sitemap の4経路すべてを突き合わせる。
+async function checkTagPathWiring() {
+  const RAW = 'AR/VR';
+  const SLUG = tagSlug(RAW); // 'AR-VR'
+  const art = {
+    slug: '20000101-01',
+    headline: 'タグ配線検査用のダミー記事',
+    lead: '検査用。公開されません。',
+    body_markdown: '検査用のダミー本文です。',
+    tags: [RAW],
+    section: config.navSections[0]?.name || 'AI',
+    source: '検査',
+    link: 'https://example.com/tag-wiring-check',
+    importance: 3,
+    createdAt: new Date().toISOString(),
+    publishedAt: null,
+  };
+  const dir = await mkdtemp(path.join(tmpdir(), 'axiom-tagwire-'));
+  try {
+    await renderSite([art], { outDir: dir });
+  } catch (err) {
+    // '/' を含むタグで落ちる＝ render.js の書き出し名が tagSlug を通っていない。
+    fail(`タグ配線退行: 危険な文字を含むタグでレンダーが停止しました（render.js の書き出し名を確認）: ${err.message}`);
+    await rm(dir, { recursive: true, force: true });
+    return;
+  }
+  try {
+    // ① 書き出し名（src/render.js のタグページ writeFile）
+    try {
+      await access(path.join(dir, 'tags', `${SLUG}.html`));
+    } catch {
+      fail(`タグ配線退行: tags/${SLUG}.html が生成されていません（render.js の書き出し名）`);
+    }
+
+    const expectedHref = `tags/${encodeURIComponent(SLUG)}.html`;
+    // ② 記事ページ内のタグリンク（templates/cardbits.js の tagHref）
+    const articleHtml = await readFile(path.join(dir, 'articles', `${art.slug}.html`), 'utf8');
+    if (!articleHtml.includes(expectedHref)) {
+      fail(`タグ配線退行: 記事HTMLのタグリンクが ${expectedHref} を指していません（cardbits.js の tagHref）`);
+    }
+    // ③ タグページの canonical（templates/tag.js）
+    const tagHtml = await readFile(path.join(dir, 'tags', `${SLUG}.html`), 'utf8');
+    if (!tagHtml.includes(`/tags/${encodeURIComponent(SLUG)}.html`)) {
+      fail(`タグ配線退行: タグページの canonical が /tags/${SLUG}.html を指していません（tag.js）`);
+    }
+    // ④ sitemap（src/render.js）
+    const sitemap = await readFile(path.join(dir, 'sitemap.xml'), 'utf8');
+    if (!sitemap.includes(`/tags/${encodeURIComponent(SLUG)}.html`)) {
+      fail(`タグ配線退行: sitemap.xml が /tags/${SLUG}.html を含みません（render.js）`);
+    }
+  } catch (err) {
+    fail(`タグ配線検査が例外で停止しました: ${err.message}`);
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
+}
+
 // --- 4) 客観品質チェック（警告のみ・exit に影響しない）---
 // しきい値（config.qualityThresholds）は「床」であって最大化目標ではない。
 // hard-fail は 2) スキーマ側に任せ、ここは編集の気づき用に warn を出すだけ。
@@ -277,6 +424,8 @@ await checkRender(arts);
 checkSchema(arts);
 checkSanitizer();
 checkDraftLint();
+checkTagSlugs(arts);
+await checkTagPathWiring();
 await checkSecrets(arts);
 checkQuality(arts);
 

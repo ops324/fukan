@@ -2,6 +2,7 @@
 // 画像クレジットは一覧では出さず、記事ページ本体（article.js の heroFigure）にのみ表示する。
 import { esc } from '../src/markdown.js';
 import { config } from '../src/config.js';
+import { tagSlug } from '../src/tagSlug.js';
 
 // セクション名の中立ラベル。多色チップ（色信号の競合）は撤去し、色を持たない
 // 控えめなカテゴリ表記に統一（認知負荷の低減）。extraClass は任意の追加クラス。
@@ -11,9 +12,10 @@ export function sectionChip(name, extraClass = '') {
   return `<span class="${cls}">${esc(label)}</span>`;
 }
 
-// タグページへのリンク（日本語タグは URL エンコード。ファイル名は生UTF-8で出力）
+// タグページへのリンク（日本語タグは URL エンコード。ファイル名は生UTF-8で出力）。
+// パスに使えない文字は tagSlug で潰す＝ render.js の書き出し名と必ず一致させる。
 export function tagHref(tag, base = '') {
-  return `${base}tags/${encodeURIComponent(tag)}.html`;
+  return `${base}tags/${encodeURIComponent(tagSlug(tag))}.html`;
 }
 
 // 出典発行日時（無ければ取り込み時刻）の ISO 文字列。<time datetime> 用（a11y）。

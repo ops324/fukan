@@ -285,6 +285,35 @@ AFTER_COUNT="$(count_articles)"
 ADDED=$(( AFTER_COUNT - BEFORE_COUNT ))
 echo "記事数: ${BEFORE_COUNT} → ${AFTER_COUNT}（追加 ${ADDED} 件）"
 
+# --- 公開前ゲート（CLAUDE.md §2「npm run check 通過まで push しない」を無人ジョブにも適用）---
+# 2026-07-26: タグ 'AR/VR' でレンダーが落ちたのに、push 判定が git 差分しか見ていなかったため
+# 描画できない articles.json が本番へ出て、同じ npm run build を走らせる Vercel のデプロイが失敗、
+# サイトが半日以上古いまま止まった。check は決定論・オフライン・LLM 不使用なので、
+# 「judge / 通知 / 画像査読の故障で日次を止めない」（＝LLM・ネットワーク依存の評価機構）の対象外。
+# 止めないのではなく「壊れたものを公開しない」側の仕組みとして働かせる。
+#
+# ソースが dirty な回は元々 push しないので走らせない（無関係な理由で赤くして警報を出さないため）。
+# 判定順の都合でここに前倒しする（本来の使用箇所は下の commit/push チェーン）。
+SRC_DIRTY="$(git status --porcelain -- src templates scripts prompts package.json package-lock.json 2>/dev/null)"
+PUBLISH_BLOCKED=0
+if [[ "$AUTH_FAILED" -eq 0 && -z "$SRC_DIRTY" && -n "$(git status --porcelain 2>/dev/null)" ]]; then
+  echo "公開前チェック（node src/check.js）"
+  # 出力は品質警告で数百行になる。成功時は要約だけ、失敗時のみ全文をログへ。
+  if CHECK_OUT="$("$NODE_BIN" src/check.js 2>&1)"; then
+    echo "  ✓ check 通過"
+  else
+    PUBLISH_BLOCKED=1
+    rc=1
+    echo "ERROR: 公開前チェックに失敗しました。commit/push を中止します"
+    echo "$CHECK_OUT"
+    # 通知本文に失敗内容そのものを載せる（認証切れ通知と同じ流儀。見に行かなくても何が起きたか分かる）。
+    CHECK_FAILS="$(printf '%s\n' "$CHECK_OUT" | grep -E '^\s+- ' | head -5)"
+    notify "公開前チェックに失敗したため push を中止しました。本番は前回の内容のままです。$(printf '\n%s' "$CHECK_FAILS")"
+    printf '{"ts":"%s","type":"publish_blocked"}\n' "$(date -u +%FT%TZ)" \
+      >> "$PROJECT_DIR/data/quality/incidents.jsonl"
+  fi
+fi
+
 # 連続「無増加」回数を data/.health に記録（増えたらリセット）
 STREAK=0
 [[ -f "$HEALTH_FILE" ]] && STREAK="$(cat "$HEALTH_FILE" 2>/dev/null || echo 0)"
@@ -303,6 +332,15 @@ if [[ "$AUTH_FAILED" -eq 1 ]]; then
     >> "$PROJECT_DIR/data/quality/incidents.jsonl"
   STATUS_STATE="認証切れ（要対応）"
   STATUS_DETAIL="ターミナルで claude を起動し /login して再認証してください。"
+elif [[ "$PUBLISH_BLOCKED" -eq 1 ]]; then
+  # 記事はローカルで増えているので、下の ADDED 分岐に落ちると「正常」と報告されてしまう。
+  # 実際には本番へ出ていないため専用分岐で先取りする（data/.status と Slack が食い違うのを防ぐ）。
+  # STREAK も進める——ADDED>0 でリセットすると、公開が何日止まっても
+  # 「3回連続ゼロ」の見張りが永久に発火しない。
+  STREAK=$(( STREAK + 1 ))
+  echo "ERROR: 公開前チェック失敗により公開をブロックしました（連続 ${STREAK} 回）"
+  STATUS_STATE="公開ブロック（check 失敗・要対応）"
+  STATUS_DETAIL="記事 ${ADDED} 件はローカルのみ。node src/check.js の指摘を直すか、捨てる場合は git checkout -- data/articles.json。"
 elif [[ "$rc" -ne 0 ]]; then
   echo "ERROR: claude 実行が異常終了 (exit=$rc)"
   notify "執筆ジョブが異常終了しました (exit=$rc)。ログを確認してください。"
@@ -360,7 +398,7 @@ fi
 # --- ソース変更ガード ---
 # 作業途中の src/templates 等のコードが、無人ジョブに巻き込まれて自動公開される事故を防ぐ。
 # 生成物・data/ は対象外。ソース系に未コミット変更があれば commit/push をスキップする。
-SRC_DIRTY="$(git status --porcelain -- src templates scripts prompts package.json package-lock.json 2>/dev/null)"
+# SRC_DIRTY は公開前ゲートの判定でも使うため、上（記事数チェックの直後）で取得済み。
 if [[ "$AUTH_FAILED" -eq 1 ]]; then
   # 認証切れ＝記事は 1 本も増えていない。ここで commit すると incidents.jsonl の 1 行だけを抱えた
   # 「記事を更新」コミットが毎ラン積まれ、Vercel が無意味に再デプロイされる（「自動ジョブのコミットは
@@ -370,6 +408,11 @@ elif [[ -n "$SRC_DIRTY" ]]; then
   echo "WARN: ソースに未コミット変更があるため自動コミットを中止します:"
   echo "$SRC_DIRTY"
   notify "ソースに未コミット変更があるため自動コミットを中止しました。手動で整理してください。"
+elif [[ "$rc" -ne 0 ]]; then
+  # 途中の工程が失敗した回は push しない。2026-07-26 はここが git 差分しか見ていなかったため、
+  # ingestDrafts の失敗（rc=1）を検知して通知まで出していながら、描画できないデータを本番へ送った。
+  # 通知は失敗した工程の側で既に出ているので、ここでは重ねない。
+  echo "異常終了 (exit=$rc) のため commit/push をスキップします"
 # 本番(Vercel)へ自動反映: 変更があれば commit & push。push すると Vercel が自動デプロイ。
 elif [[ -n "$(git status --porcelain 2>/dev/null)" ]]; then
   echo "変更を検出 → git push（Vercel 自動デプロイ）"
