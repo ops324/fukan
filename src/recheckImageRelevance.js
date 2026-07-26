@@ -61,6 +61,7 @@ for (const { a, score } of bad) {
 
 let replaced = 0;
 let unchanged = 0;
+const stillLow = []; // 差し替えたのに、しきい値未満のままだったもの
 if (apply) {
   for (const { a } of bad.slice(0, limit)) {
     const k = imageKey(a.image);
@@ -90,15 +91,39 @@ if (apply) {
     // 適合写真ゼロなら fetchImage は抽象サムネ（{fallbackThumb}）を返す＝誤った写真より安全。
     a.image = img;
     replaced++;
-    console.log(`  → 差し替え: ${a.headline} … ${img.imageUrl ? `「${img.alt}」` : '適合写真なし。抽象サムネへ'}`);
+
+    // 差し替えた結果を**同じ判定器で採点し直す**。写真が入れ替わっただけで
+    // 依然としてしきい値未満なら「直った」とは言えない。ここを見ないと、
+    // 点検して直したつもりのまま不適合が残り続ける（2026-07-27 に実際に踏んだ:
+    // 別の写真には替わったが score 0.15 のままで「✓ 差し替え」と報告された）。
+    // 抽象サムネは「適合写真なし」という正しい結論なので不足には数えない。
+    const newScore = img.imageUrl
+      ? relevanceScore({ alt: img.alt || '', description: img.description || '' }, articleImageTokens(a))
+      : null;
+    if (newScore !== null && newScore < threshold) {
+      stillLow.push({ a, score: newScore });
+      console.log(`  → 差し替えたが依然として関連度不足: ${a.headline} … 「${img.alt}」(score=${newScore})`);
+    } else {
+      console.log(`  → 差し替え: ${a.headline} … ${img.imageUrl ? `「${img.alt}」(score=${newScore})` : '適合写真なし。抽象サムネへ'}`);
+    }
   }
   if (replaced) {
     // ingestDrafts と同じ規律でレンダーが先・保存が後（描画できないデータを残さない）。
     const stats = await renderSite(arts);
     await saveArticles(arts);
-    console.log(`\n✓ ${replaced} 件を差し替え、計 ${stats.articles} 記事を再生成しました。${unchanged ? `（変化なし ${unchanged} 件）` : ''}`);
+    const improved = replaced - stillLow.length;
+    console.log(`\n✓ ${replaced} 件を差し替え（改善 ${improved} / 依然として関連度不足 ${stillLow.length}）`
+      + `${unchanged ? ` / 変化なし ${unchanged}` : ''}、計 ${stats.articles} 記事を再生成しました。`);
   } else {
     console.log(`\n差し替えは発生しませんでした（変化なし ${unchanged} 件）。保存・再生成は行いません。`);
+  }
+  if (stillLow.length) {
+    // 「実行したのに直っていない」を必ず目に入れる。多くは image_query が
+    // 事象名になっていて素材サイトで当たらないケース（地名頼りも同じ）。
+    console.log(`\n⚠ ${stillLow.length} 件は差し替え後もしきい値 ${threshold} 未満のままです:`);
+    for (const { a, score } of stillLow) console.log(`  - ${a.slug} score=${score} query="${a.image_query || '-'}" … ${a.headline}`);
+    console.log('  image_query が「事象名」になっていないか確認してください（例: typhoon landfall → flooded street storm）。');
+    console.log(`  修正後に  npm run recheck-image-relevance -- --apply --slug <slug>  で個別に再実行できます。`);
   }
 } else if (bad.length) {
   console.log('\n※ dry-run。差し替えるには --apply を付けて再実行。');
