@@ -122,6 +122,21 @@ export const config = {
     // 注: tokenize は3字以上のみ拾うため 'ai' は元々脱落する（ここに入れても空振り）。
     genericTokens: ['technology', 'tech', 'artificial', 'intelligence', 'abstract', 'digital',
       'concept', 'background', 'modern', 'future', 'futuristic', 'system', 'device', 'screen', 'view', 'close'],
+    // 地名・国名・国籍。genericTokens と同じ genericWeight まで薄める（除外はしない）。
+    // 理由: 地名は「どこの話か」しか示さず、写真が“その出来事を写しているか”をほとんど保証しない。
+    // 実例（2026-07-26）: 台風が中国に上陸した記事に、スウェーデンで撮られた
+    // 「Coca-cola china filmstad sign on snowy day」が付いた。image_query は
+    // 'typhoon landfall china weather' で、写真側は 'china' の1語だけが一致。
+    // 重み1.0×1語 = しきい値 recheckMinScore(1) に到達し、点検を素通りしていた。
+    // 薄めても被写体語（typhoon/rocket/soldier 等）が一致すれば単独で通るため、
+    // 「中国の街並み」のような正しく地名が効く写真は別の語で拾える。
+    placeTokens: ['china', 'chinese', 'japan', 'japanese', 'tokyo', 'korea', 'korean',
+      'india', 'indian', 'russia', 'russian', 'ukraine', 'ukrainian', 'america', 'american',
+      'usa', 'united', 'states', 'europe', 'european', 'britain', 'british', 'london',
+      'france', 'french', 'germany', 'german', 'israel', 'israeli', 'iran', 'iranian',
+      'gaza', 'taiwan', 'brazil', 'brazilian', 'canada', 'canadian', 'mexico',
+      'africa', 'african', 'asia', 'asian', 'global', 'world', 'international',
+      'national', 'country', 'city', 'york', 'washington', 'california'],
     // 境界ケースのみ LLM 査読に回す（Phase 4）。band 内のスコアだけを対象にしトークンを最小化。
     llmReview: { enabled: false, band: [0, 1] },
   },

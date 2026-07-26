@@ -90,6 +90,11 @@ node src/fetchCandidates.js
   - 資金調達/上場/株 → `stock market finance`
   - 半導体/チップ → `circuit board chip`
   注意: 企業名・人名・ロゴ・画像内テキストは避ける（写真に写らない）。抽象的すぎる語も避け、具体的な被写体にする。
+  注意: **地名・国名を頼りにしない**。写真の説明文は「どこで撮ったか」より「何が写っているか」を書くため、
+  地名は当たっても中身が無関係な写真を引く。2026-07-26 は `typhoon landfall china weather` で
+  「スウェーデンで撮られたコカ・コーラの看板」が選ばれた（`china` の1語だけが一致した）。
+  **事象名ではなく「その事象が起きたら何が写るか」を書く**——`typhoon landfall` ではなく
+  `flooded street storm`、`election result` ではなく `voting ballot box`。
   注意: `image_query` は**ストック写真（Unsplash）用**のキーワードのみ。公式プレス画像（報道対象の公式キービジュアル）は
   権利確認が要るため自動取得せず、必要なら公開後に人手で `npm run set-press-image`（クレジット必須）で登録する。
 

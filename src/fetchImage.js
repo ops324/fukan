@@ -89,8 +89,12 @@ export function articleImageTokens(article) {
   for (const [re, kw] of KW_MAP) if (re.test(hay)) for (const t of tokenize(kw)) add(t, cfg.mapWeight);
   // ③ tags/headline に直接含まれる英字（GPU/IPO/NVIDIA 等の固有・略語）
   for (const t of tokenize(hay)) add(t, cfg.tagWeight);
-  // ④ 汎用語を薄める（消さない）
-  for (const t of m.keys()) if (cfg.genericTokens.includes(t)) m.set(t, cfg.genericWeight);
+  // ④ 汎用語・地名を薄める（消さない）。
+  // 地名は「どこの話か」しか示さず、写真がその出来事を写している保証にならないため
+  // 被写体語と同じ重みで扱ってはいけない（config.placeTokens のコメントに実例）。
+  for (const t of m.keys()) {
+    if (cfg.genericTokens.includes(t) || cfg.placeTokens?.includes(t)) m.set(t, cfg.genericWeight);
+  }
   return m;
 }
 

@@ -14,14 +14,14 @@
     "source": "Al Jazeera",
     "link": "https://www.aljazeera.com/news/2026/7/26/typhoon-noul-makes-landfall-in-china-with-hundreds-of-thousands-evacuated",
     "importance": 4,
-    "image_query": "typhoon landfall china weather",
+    "image_query": "flooded street storm evacuation",
     "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1775585872847-5cc22dfe951c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8dHlwaG9vbiUyMGxhbmRmYWxsJTIwY2hpbmElMjB3ZWF0aGVyfGVufDF8MHx8fDE3ODUwNTc0MzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Hugo Alexandre Cruz",
-      "profileUrl": "https://unsplash.com/@hugoalexandrecruz?utm_source=axiom_ai&utm_medium=referral",
+      "imageUrl": "https://images.unsplash.com/photo-1762624785174-a97cb4fa18f1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxmbG9vZGVkJTIwc3RyZWV0JTIwc3Rvcm0lMjBldmFjdWF0aW9ufGVufDF8MHx8fDE3ODUwOTQzMDl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Richard R",
+      "profileUrl": "https://unsplash.com/@sepro?utm_source=axiom_ai&utm_medium=referral",
       "provider": "Unsplash",
-      "alt": "Coca-cola china filmstad sign on snowy day",
-      "description": "Linkoping in Sweden, 21st of February 2010. Fotografia de Hugo Alexandre"
+      "alt": "Street flooded with water and debris after storm.",
+      "description": "Coastal street flooding on Carolina Beach, NC during king tide."
     },
     "mode": "full",
     "createdAt": "2026-07-26T09:17:10.563Z",
