@@ -14,6 +14,8 @@
 //    正規化済みで tagSlug の不動点になるため、実データを描画しても配線の外れを検知できない。
 // 4) 客観品質チェック … 本文長/タグ数/重複話題など。これは「警告のみ」で exit には影響しない
 //    （自己改善 MVP の床。決定的・オフライン・LLM/ネットワーク不使用）。
+// 4b) ledger 網羅チェック … 直近記事が evaluations.jsonl に残っているか（警告のみ）。
+//    取り込み時の記録は try/catch で握るため、失敗しても記事は正常に見え誰も気づけない。
 // 1〜3e のいずれか失敗で非ゼロ終了。4 は参考情報。
 import { mkdtemp, rm, readFile, access } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -401,6 +403,34 @@ function checkQuality(arts) {
   });
 }
 
+// --- 4b) 品質 ledger の網羅チェック（警告のみ・exit に影響しない）---
+// 公開された記事が evaluations.jsonl に残っているかを見る。ingest の評価記録は try/catch で
+// 握る設計（評価機構の故障で公開を止めない）なので、書き込みが失敗しても誰も気づけない。
+// 2026-07-26 はレンダー落ちで ingest の記録ブロックごと飛び、21本が未記録のまま公開された——
+// 記事は正常に見えるため、人に指摘されるまで発覚しなかった。その「気づけなさ」を埋める。
+//
+// hard-fail にはしない。ledger は評価機構であって公開ゲートではなく、ここで公開を止めると
+// 「評価機構の故障で公開事故/停止を起こさない」という規律（SPEC §12）を破る。
+// 母集団を直近 coverageWindow 件に絞るのは、ledger 導入前のレガシー記事と
+// ローテーションで切り詰められた古い行を誤検知しないため。
+async function checkLedgerCoverage(arts) {
+  if (!Array.isArray(arts) || !arts.length) return;
+  let have;
+  try {
+    const raw = await readFile(path.join(ROOT, 'data', 'quality', 'evaluations.jsonl'), 'utf8');
+    have = new Set(raw.split('\n').filter(Boolean).map((l) => { try { return JSON.parse(l).slug; } catch { return null; } }));
+  } catch {
+    warn('品質 ledger（evaluations.jsonl）を読めません。評価の蓄積が止まっている可能性があります');
+    return;
+  }
+  const recent = arts.slice(0, config.ledger?.coverageWindow ?? 50);
+  const missing = recent.filter((a) => a?.slug && !have.has(a.slug));
+  if (!missing.length) return;
+  warn(`直近 ${recent.length} 件のうち ${missing.length} 件が品質 ledger に未記録です`
+    + `（${missing.slice(0, 5).map((a) => a.slug).join(', ')}${missing.length > 5 ? ' ほか' : ''}）。`
+    + ' 取り込み時の記録が失敗した可能性 → data/scheduler.log の「評価の記録に失敗」を確認してください');
+}
+
 // --- 5) 更新鮮度チェック（警告のみ・exit に影響しない）---
 // 自動ジョブが無言停止しても articles.json は「壊れていない」ため 1〜4 は全て通る。
 // 最終記事からの経過を見て、パイプライン停止に気づける最後の砦にする。
@@ -434,6 +464,7 @@ checkTagSlugs(arts);
 await checkTagPathWiring();
 await checkSecrets(arts);
 checkQuality(arts);
+await checkLedgerCoverage(arts);
 
 if (warns.length) {
   console.warn(`⚠ 品質警告（${warns.length} 件・公開はブロックしません）:`);

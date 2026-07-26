@@ -422,6 +422,7 @@ allowlist ドメイン判定 `pressAllowlistCredit()` は `pressImage.js` から
 | `qualityThresholds.dupBlockMinShared` | 3 | 同時に要求する共通特徴語の数。特徴語1〜2語での誤ブロックを防ぐ |
 | `qualityThresholds.dupBlockJaccard` | 0.78 | 「見出しがほぼ同一」のケース用に併置する従来型の閾値（警告用 `dupJaccardMax`=0.6 より高い） |
 | `freshness.staleDays` | 2 | `npm run check` が「最終記事からの経過日数」を警告するしきい値（非ブロック）。1日2回稼働なので 2日＝4ラン分の空振り。自動ジョブの無言停止に手作業時も気づくための最後の砦（§11） |
+| `ledger.coverageWindow` | 50 | `npm run check` が「直近 N 件が品質 ledger に記録されているか」を警告する母集団（非ブロック）。1ラン最大25本×1日2回なので直近1日ぶんに相当。ローテーション上限（`evalMaxLines`）より十分小さく、切り詰められた古い行を誤検知しない（§11） |
 | `sectionAliases` | 旧7カテゴリ → `AI` | 旧 AI 細分類（産業応用/研究/基盤モデル/規制・倫理/スタートアップ/ハードウェア/開発）を navSections へ正規化。ingest 自動＋`npm run migrate-sections`。旧ラベルはタグへ退避（§編集・運用「カテゴリ正規化」） |
 
 ---
@@ -554,6 +555,14 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
   検知は `npm run check` の `checkTagPathWiring()` が担う——**実データによる検査では配線の外れを捕まえられない**
   （取り込み時の正規化により実データの全タグは `tagSlug` の不動点で、変換を外しても出力が変わらない）ため、
   危険文字を含む合成タグを実際に描画して4つの適用箇所を突き合わせる。
+- **取り込みの記録が飛んでも、記事は正常に見える**（2026-07-26 の副次被害）。上のタグ障害で `renderSite` が
+  落ちたとき、`ingestDrafts` の評価記録ブロックごと実行されず、公開された21本が `evaluations.jsonl` に
+  1行も残らなかった。記事そのものは読めるので**指摘されるまで誰も気づけなかった**。
+  評価の記録は「評価機構の故障で公開を止めない」ため try/catch で握る設計であり、これは維持する。
+  代わりに **`npm run check` が直近 `ledger.coverageWindow` 件の記録漏れを警告する**（非ブロック）。
+  握って黙るのではなく、握った上で**後から気づける**ようにするのが要点。
+  なお現在は「レンダーしてから保存」により、レンダー失敗時はそもそも記事が保存されないため
+  「公開済みなのに未記録」という乖離は構造的に起きない（残るのは記録処理自体の失敗と異常終了の窓）。
 - **本文MarkdownのXSS無害化（多層防御）**: 本文は外部ソース由来の素材から生成されるため、`src/markdown.js` の
   `mdToHtml()` は marked レンダラで**生HTMLトークンをテキスト化**し、リンク/画像の `href`/`src` を**プロトコル許可リスト**
   （`http(s)`／`mailto`／相対／アンカーのみ）で検証する。`javascript:`・`data:`・`vbscript:` 等は `#` に無害化。
