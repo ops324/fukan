@@ -395,7 +395,11 @@ export const config = {
     evalMaxLines: 4000,  // evaluations.jsonl の保持行数（≈24行/日 → 約5ヶ月分）
     runsMaxLines: 2000,  // runs.jsonl の保持行数（≈2行/日 → 約2.7年分）
     vetoMaxLines: 2000,  // vetoes.jsonl の保持行数（≈4行/日 → 約1.4年分）
-    margin: 500,         // これだけ超えてから有界化を実行（有界化の頻度＝git churn を抑える）
+    margin: 500,
+    // 品質 ledger の網羅チェック（npm run check・警告のみ）で見る「直近 N 件」。
+    // 1ラン最大25本 × 1日2回なので、50 は「直近1日ぶんが記録されているか」に相当する。
+    // ローテーション上限（evalMaxLines）よりはるかに小さいので、古い行の切り詰めと衝突しない。
+    coverageWindow: 50,         // これだけ超えてから有界化を実行（有界化の頻度＝git churn を抑える）
   },
 
   // --- veto の還流（vetoDigest）---
