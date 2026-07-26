@@ -622,6 +622,32 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
   `migrate-sections`／`backfill-images`）が**既存記事を空配列で全上書き**してしまうため。破損時は `npm run check` が
   赤、`build`（Vercel）は fail-loud（空サイト公開を防ぐ）になる。`auto-generate.sh` の `count_articles()` は
   `require()` 直読みで破損時 -1 を返し健全性監視が通知する（整合）。
+- **`articles.json` の書き込みは原子的＋楽観的並行制御（CAS）**（2026-07-27 追加）。
+  `articles.json` を「全体読み → 手元で変更 → 全体書き」する経路は7本あり（`ingestDrafts` /
+  `applyImageReview` / `recheckImageBrands` / `recheckImageRelevance` / `backfill-images` /
+  `migrateSections` / `set-press-image`）、自動ジョブ（6:00/18:00）と手動コマンドが重なると
+  後から保存した側が相手の変更を丸ごと消す（**ロストアップデート**。2026-07-27 に再現確認）。
+  - **原子的書き込み**（`src/atomicWrite.js`）: 同一ディレクトリに `<file>.<pid>.tmp` を書いて `rename`。
+    素の `writeFile` は `O_TRUNC` なので**正常時でも書き込み中はファイルが不正**で、
+    `count_articles()` や `npm run check` が中途半端な JSON を読める。rename ならこれが消える。
+    一時ファイル名に PID を入れるのは、固定名だと並行時に「壊れた JSON」ではなく
+    「片方の世界」が静かに確定してしまうため。`data/*.tmp` は **.gitignore 必須**——
+    残骸が `git add -A` で本番へ push され、以後 git status が常に汚れる。
+  - **CAS**（`src/store.js`）: `loadArticles` が読んだ内容の sha1 を保持し、`saveArticles` は
+    書く直前に再読込・再ハッシュして不一致なら**書かずに throw**。`{ force: true }` で明示的に飛ばせる
+    （復旧作業用）。ファイル不在で読んだ場合は「不在のまま」を条件にする（空配列での全上書きを CAS 経由で再発させない）。
+  - **ロックを配らない理由**: 排他ロックは取り残すと**公開が止まる**。しかも `process.on('exit')` は
+    SIGINT/SIGTERM で発火しないため、手動コマンドの Ctrl-C という最も起きやすい中断を拾えない。
+    可逆で可視な障害（ロストアップデートは git 履歴から復元でき差分にも出る）を、不可逆で不可視な
+    障害に変換してしまう。CAS は衝突時に「書かずに中止」＝損失もデッドロックも起こさず、
+    7本すべてが通る1関数で済み、将来の書き手も自動的に守られる。
+    自動ジョブ同士の排他（`data/.harness.lock`）は従来どおり有効。
+  - **限界（正直に）**: 完全な排他ではない。read→hash→rename の数ミリ秒は残る。
+    load→save の間（API 呼び出しを挟むと数分）に比べて桁違いに小さい、というだけ。
+  - ledger の切り詰め（`appendBounded`）も同じ `atomicWrite` を通す。ledger は**git 追跡対象**なので、
+    中途半端な truncate が commit・push されると壊れた行が本番リポジトリに残り、
+    読み手は壊れた行を skip する作りなので静かに件数が減って気づけない。
+    素の `appendFile` は `O_APPEND` の単一 write なので安全（**read-modify-write に変えないこと**）。
 - **コード改善はブランチで**: 自動ジョブの `git push origin main` は `main` 上の未 push コミットも一緒に送るため、
   WIP を `main` に直コミットすると次の自動実行で本番へ出る。改善・機能追加は作業ブランチで行い、検証後に `main` へマージする（[CLAUDE.md](CLAUDE.md) §2）。
 - `makeSlug` は「同日最大連番+1」方式（削除で欠番が出ても衝突しない）。
