@@ -16,7 +16,7 @@
 //    （自己改善 MVP の床。決定的・オフライン・LLM/ネットワーク不使用）。
 // 4b) ledger 網羅チェック … 直近記事が evaluations.jsonl に残っているか（警告のみ）。
 //    取り込み時の記録は try/catch で握るため、失敗しても記事は正常に見え誰も気づけない。
-// 1〜3e のいずれか失敗で非ゼロ終了。4 は参考情報。
+// 1〜3e のいずれか失敗で非ゼロ終了。4 / 4b は警告のみで exit に影響しない（参考情報）。
 import { mkdtemp, rm, readFile, access } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
