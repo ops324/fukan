@@ -74,7 +74,7 @@ AIニュースサイト/
 ├── archive/YYYY-MM.html    # 生成: 月別アーカイブ（1ページ肥大を防ぐ分割）
 ├── articles/<slug>.html    # 生成: 各記事ページ
 ├── sections/<slug>.html    # 生成: ナビ各タブ（セクション別一覧。空でも生成）
-├── tags/<tag>.html         # 生成: タグ別一覧（UTF-8ファイル名）＋ index.html（タグクラウド）
+├── tags/<tagSlug>.html     # 生成: タグ別一覧（UTF-8ファイル名・src/tagSlug.js で整形）＋ index.html（タグクラウド）
 ├── about/contact/privacy/terms/editorial/disclaimer.html # 生成: 法的・運営ページ
 ├── sitemap.xml             # 生成: サイトマップ
 ├── robots.txt              # 生成: クローラ指示（Sitemap 参照）
@@ -102,7 +102,7 @@ AIニュースサイト/
 │   │   ├── evaluations.jsonl # 1記事1評価（客観指標＋judge 結果＋sourceFetched）
 │   │   ├── vetoes.jsonl      # 不採用にした下書き（critique 原文・categories・救済結果）
 │   │   ├── runs.jsonl        # 実行ごとのサイト集計
-│   │   └── incidents.jsonl   # 運用イベント（judge_absent / auth_failed / candidates 等）
+│   │   └── incidents.jsonl   # 運用イベント（judge_absent / auth_failed / publish_blocked / candidates 等）
 │   ├── .health             # 一時: 新規ゼロの連続回数（監視用・git管理外）
 │   ├── .status             # 一時: 最終実行の状態サマリ（人間が読む・git管理外）
 │   ├── _writer.log         # 一時: writer 出力の退避（認証エラー検査用・実行後に掃除）
@@ -418,7 +418,7 @@ allowlist ドメイン判定 `pressAllowlistCredit()` は `pressImage.js` から
 
 | 機能 | 概要 | 実装 |
 |---|---|---|
-| タグページ | `tags/<タグ>.html`（UTF-8名）と `tags/index.html`（件数で大小をつけるタグクラウド）。記事内タグ・パンくずから辿れる。 | `templates/tag.js`, `render.js` |
+| タグページ | `tags/<tagSlug(タグ)>.html`（UTF-8名）と `tags/index.html`（件数で大小をつけるタグクラウド）。記事内タグ・パンくずから辿れる。ファイル名・`tagHref`・canonical・sitemap の4経路すべてが `tagSlug()`（`src/tagSlug.js`）を通り、パスとして壊れる文字（`\ / : * ? " < > \|` と制御文字）を `-` に落とす。タグは取り込み時にも正規化されるため、表示名と slug は一致する（§11）。 | `templates/tag.js`, `render.js`, `src/tagSlug.js` |
 | 関連記事 | タグ／セクションの一致度で「あわせて読みたい」を選出。関連集合内で**被写体（`image_query` キーワード＋画像URL）を分散**させ、同種写真の並びを避ける（関連度は犠牲にしない＝無関係記事は混ぜない）。 | `render.js: relatedFor` / `pickDiverse` / `imgSig` |
 | トップの骨格 | 総合ニュースの定番骨格：**ヒーロー（リード1本）＋「トップニュース」右レール → 「最新」グリッド → カテゴリ別ブロック → 購読**。リードは重要度順（鮮度窓つき）、トップニュース＝`featured[1..6]`（右レール6本）。**カテゴリ別ブロックは `universe` に実在する `section` 値から ≥`sectionBlockMin`(2)本のものを自動生成**（1カテゴリあたり最大 `sectionBlockMax`(4) カード）。表示順は `navSections` 優先（薄いカテゴリも2本あれば見出しを出して固定表示）→`navSections` 外の旧カテゴリは本数降順で末尾。「すべて見る→」は `navSections` 名に一致するときのみ section ページへリンク（リンク切れ回避）。重複抑制のためヒーロー＋トップニュース既出は下段から除外。 | `templates/index.js: renderIndex` / `topRail` / `latestList` / `sectionBlocks` |
 | 重要度で配置 | リード以下の「最新」「トップニュース」「カテゴリ別カード」はいずれも**エブロー型**（上段にメタ「カテゴリ · 日付＋時刻」、下段にセリフ見出し。ブロック内カード／セクションページはカテゴリ重複のため日時のみ＝`metaLine(a,false)`）。**同じ `metaLine()` をセクション/タグ/アーカイブの一覧でも共用**（`cardbits.js`）し全ページで体裁を統一。色や帯による強調は使わず、位置と型階層で序列を示す。日付＋時刻は `displayDateShort`（`MM.DD`）＋`displayTime`（`HH:MM`）で表示（`render.js: decorate`）。 | `render.js: importanceThenRecency` / `decorate`, `templates/cardbits.js: metaLine` |
@@ -462,6 +462,18 @@ allowlist ドメイン判定 `pressAllowlistCredit()` は `pressImage.js` から
   再デプロイされ、「自動ジョブのコミットは実質 `articles.json` の差分のみ」という配信モデルも崩れる。
   *背景*: 候補取得は writer 自身が担うため認証で即死すると候補0件になる。これを「新着なし」と取り違えて
   `rc=0` に上書きしていたため、**6ラン連続ゼロ・3日間を無言で見逃した**（2026-07-22〜25）。判定順が要。
+- **公開前ゲート（push の直前ではなく、状態判定より前）**: 記事数の集計直後に `node src/check.js` を実行し、
+  落ちたら `PUBLISH_BLOCKED=1` / `rc=1` を立てて **commit/push を中止**、失敗内容を本文に載せた通知を出し、
+  `incidents.jsonl` に `publish_blocked` を1行記録する。実行するのは「認証切れでなく、ソースが dirty でなく、
+  git に差分がある」回だけ（無関係な理由で赤くして警報を出さないため）。実測 1052 記事で約1.4秒。
+  **判定順が要**——push 判定の直前に置くと `data/.status` と成功サマリが先に「正常・N件追加」を報告し終えており、
+  ブロックしたのに正常と記録され Slack に矛盾する2通が飛ぶ。状態分岐にも `PUBLISH_BLOCKED` を最優先で入れ、
+  STREAK を**進める**（`ADDED>0` でリセットすると公開が何日止まっても「3回連続ゼロ」の見張りが発火しない）。
+  あわせて push 判定チェーンに `rc≠0` の分岐を入れる。
+  *背景*: 2026-07-26、push 判定が git 差分しか見ておらず、`ingestDrafts` の失敗（`rc=1`）を検知して通知まで
+  出しながら**描画できない `articles.json` を本番へ送り**、Vercel のデプロイが失敗してサイトが半日以上停止した（§11）。
+  **復旧**: `node src/check.js` の指摘を直すか、その回を捨てるなら `git checkout -- data/articles.json`。
+  放置するとローカルにだけ記事が溜まり公開は止まったままになる。
 - **状態ファイル `data/.status`**（git 管理外）: 最終実行時刻・状態・詳細・連続ゼロ回数を毎ラン上書きする。
   通知バナー（`osascript`）は集中モード等で抑制されうるため、**消えない形でも残す**のが目的。
 - **Slack 通知**（`src/notifySlack.js`・`SLACK_WEBHOOK_URL` があるときだけ）: 異常時は `notify()` から、
@@ -517,6 +529,19 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
 
 ## 11. 設計上の既知事項
 
+- **タグ名は writer が自由に書く文字列で、そのままファイルパスにできない**（2026-07-26 の障害）。
+  タグ `AR/VR` の書き出し先が `dist/tags/AR/VR.html` と解釈され、存在しないディレクトリへの書き込みとなって
+  render 全体が ENOENT で停止。Vercel も `buildCommand: npm run build` で同じ経路を走るためデプロイが失敗し、
+  サイトは前回成功版のまま半日以上停止した。事故が本番へ届いた原因は3段階ある:
+  ①`ingestDrafts` が **保存 → レンダー** の順で、レンダーが落ちても `articles.json` は保存済みだった、
+  ②`auto-generate.sh` の push 判定が git 差分しか見ておらず、`rc≠0` を検知・通知しながら push した、
+  ③Vercel が同じ `renderSite` を走らせるため同じ場所で落ちた。
+  対策は4層: **レンダーしてから保存**（`ingestDrafts.js` / `applyImageReview.js`。「保存済み ＝ 描画できる」を
+  構造的な不変条件にする）→ **`tagSlug()` で変換を一点集約**（§7.5）→ **取り込み時に正規化**（`normalizeSectionTags`）
+  → **push 前に `check` を通す**（§8）。
+  検知は `npm run check` の `checkTagPathWiring()` が担う——**実データによる検査では配線の外れを捕まえられない**
+  （取り込み時の正規化により実データの全タグは `tagSlug` の不動点で、変換を外しても出力が変わらない）ため、
+  危険文字を含む合成タグを実際に描画して4つの適用箇所を突き合わせる。
 - **本文MarkdownのXSS無害化（多層防御）**: 本文は外部ソース由来の素材から生成されるため、`src/markdown.js` の
   `mdToHtml()` は marked レンダラで**生HTMLトークンをテキスト化**し、リンク/画像の `href`/`src` を**プロトコル許可リスト**
   （`http(s)`／`mailto`／相対／アンカーのみ）で検証する。`javascript:`・`data:`・`vbscript:` 等は `#` に無害化。
@@ -634,7 +659,7 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
   対応見送り分に埋もれず、§6.2 の自動採用が再び silent に失敗し始めた回帰を検知できる）。
 - `calibration.jsonl` … 人間評価。
 - `incidents.jsonl` … 運用イベント（judge 不在 `judge_absent`／画像査読不在 `image_review_absent`／認証切れ `auth_failed`／
-  候補選別の内訳 `candidates`）。日次を止めずに観測性だけ残す。`candidates` を足したのは、`fetchNews` の除外ログが
+  公開前ゲート赤 `publish_blocked`／候補選別の内訳 `candidates`）。日次を止めずに観測性だけ残す。`candidates` を足したのは、`fetchNews` の除外ログが
   writer の CLI セッション内で消えて**どのログにも残らない**ことを実測で確認したため（除外が効きすぎ/効かなさすぎを
   検知できない状態だった）。
 - **`sourceFetched`**（`evaluations.jsonl` と `vetoes.jsonl` の両方）… judge がその出典を実際に読めたか。

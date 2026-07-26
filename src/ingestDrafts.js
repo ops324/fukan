@@ -167,8 +167,13 @@ if (!created.length) {
   console.log('取り込む新規記事はありませんでした。');
 } else {
   const all = [...created, ...store];
-  await saveArticles(all);
+  // レンダーが先・保存が後。「articles.json に保存されている ＝ レンダーできる」を
+  // 構造的な不変条件にする（renderSite は渡された配列だけを見て articles.json を読まない）。
+  // 逆順だと render の失敗時に描画できないデータが残り、自動ジョブがそれを push して
+  // Vercel のデプロイビルドまで巻き込む（2026-07-26 の事故）。dist/ は gitignore 済みなので
+  // 途中まで書かれた生成物がリポジトリに残ることもない。
   const stats = await renderSite(all);
+  await saveArticles(all);
   console.log(`✓ ${created.length} 件取り込み、計 ${stats.articles} 記事を出力。`);
   for (const a of created) console.log(`  + ${a.headline}`);
 

@@ -4,6 +4,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { config } from './config.js';
+import { tagSlug } from './tagSlug.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_FILE = path.join(__dirname, '..', 'data', 'articles.json');
@@ -36,14 +37,21 @@ export function existingLinks(articles) {
   return new Set(articles.map((a) => a.link));
 }
 
+const dedupe = (tags) => tags.filter((t, i, arr) => t && arr.indexOf(t) === i);
+
 // 旧カテゴリ → navSections 正規化（config.sectionAliases）。エイリアスがあれば section を
-// 寄せ、旧ラベルを先頭タグに退避（重複排除・5件上限）。無ければそのまま返す。
+// 寄せ、旧ラベルを先頭タグに退避（重複排除・5件上限）。無ければ section はそのまま。
 // ingest（取り込み時）と migrate-sections（一括移行）で共用。
+//
+// タグの整形は「置換 → 重複排除 → 5件上限」の順で、**エイリアス有無の分岐より前**に行う。
+// 分岐の後ろに置くと、エイリアス無しの経路（現行の navSections はすべてこちら）が
+// タグを素通しして、パスに使えない文字がそのまま保存される（2026-07-26 の 'AR/VR'）。
+// 置換で 2 つのタグが同じ文字列になることがあるため、重複排除は slice より前が必須。
 export function normalizeSectionTags(name, tags = []) {
+  const clean = dedupe((tags || []).map(tagSlug));
   const aliased = config.sectionAliases?.[name];
-  if (!aliased) return { section: name, tags };
-  const merged = [name, ...tags].filter((t, i, arr) => t && arr.indexOf(t) === i);
-  return { section: aliased, tags: merged.slice(0, 5) };
+  if (!aliased) return { section: name, tags: clean.slice(0, 5) };
+  return { section: aliased, tags: dedupe([name, ...clean]).slice(0, 5) };
 }
 
 // 日付ベースの slug を採番。同日内の既存件数 + offset で連番。

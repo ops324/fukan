@@ -3,7 +3,7 @@
 #
 # 設計メモ:
 # - トリガーは pull_request のみ。push は付けない。
-#   自動ジョブ（launchd・1日3回）は main へ直 push（PR なし）するため、
+#   自動ジョブ（launchd・1日2回）は main へ直 push（PR なし）するため、
 #   push トリガーを付けると自動公開のたびに無駄な CI が走り、巻き込んでしまう。
 # - check は秘密情報もネットワークも不要（src/check.js は一時ディレクトリに描画して
 #   作業ツリーを汚さず、入力 data/articles.json はコミット済み）。

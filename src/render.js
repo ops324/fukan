@@ -11,6 +11,7 @@ import { renderSection } from '../templates/section.js';
 import { renderTag, renderTagsIndex } from '../templates/tag.js';
 import { renderLegalPages } from '../templates/legal.js';
 import { config } from './config.js';
+import { tagSlug } from './tagSlug.js';
 
 // XML 用の最小エスケープ
 const xmlEsc = (s = '') => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -180,9 +181,22 @@ export async function renderSite(rawArticles, { outDir = DIST } = {}) {
       tagMap.get(t).push(a);
     }
   }
+  // 別々のタグが同じファイル名に落ちると、後勝ちで片方のページが消え、sitemap は
+  // 「中身が別タグの URL」を広告してしまう。render は決して止めないので警告のみ出し、
+  // 公開を拒むかどうかは check.js（checkTagSlugs）が判定する。
+  const bySlug = new Map(); // slug -> タグ[]
+  for (const tag of tagMap.keys()) {
+    const s = tagSlug(tag);
+    if (!bySlug.has(s)) bySlug.set(s, []);
+    bySlug.get(s).push(tag);
+  }
+  for (const [s, tags] of bySlug) {
+    if (tags.length > 1) console.log(`  WARN: タグ ${tags.map((t) => `「${t}」`).join('・')} が同じファイル名 ${s}.html になります`);
+  }
+
   for (const [tag, items] of tagMap) {
     items.sort(importanceThenRecency);
-    await writeFile(path.join(outDir, 'tags', `${tag}.html`), renderTag(tag, items, label), 'utf8');
+    await writeFile(path.join(outDir, 'tags', `${tagSlug(tag)}.html`), renderTag(tag, items, label), 'utf8');
   }
   const tagEntries = [...tagMap.entries()]
     .map(([tag, items]) => [tag, items.length])
@@ -239,7 +253,7 @@ async function writeSeoFiles(byRecency, tagMap, legalFiles, archiveMonths = [], 
   for (const a of byRecency) urls.push({ loc: abs(`/articles/${a.slug}.html`), lastmod: lastmod(a) });
   for (const { slug } of config.navSections) urls.push({ loc: abs(`/sections/${slug}.html`), lastmod: now });
   urls.push({ loc: abs('/tags/index.html'), lastmod: now });
-  for (const tag of tagMap.keys()) urls.push({ loc: abs(`/tags/${encodeURIComponent(tag)}.html`), lastmod: now });
+  for (const tag of tagMap.keys()) urls.push({ loc: abs(`/tags/${encodeURIComponent(tagSlug(tag))}.html`), lastmod: now });
   if (archiveMonths.length) {
     urls.push({ loc: abs('/archive.html'), lastmod: now });
     for (const g of archiveMonths) urls.push({ loc: abs(`/archive/${g.ym}.html`), lastmod: now });

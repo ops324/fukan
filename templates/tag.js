@@ -4,6 +4,7 @@ import { header, footer, page } from './layout.js';
 import { esc } from '../src/markdown.js';
 import { config } from '../src/config.js';
 import { tagHref, metaLine, imp } from './cardbits.js';
+import { tagSlug } from '../src/tagSlug.js';
 
 const BASE = '../';
 const href = (a) => `${BASE}articles/${a.slug}.html`;
@@ -46,7 +47,7 @@ ${feedList(articles)}
     title: `#${tag} の記事 | ${esc(config.siteName)}`,
     description: `「${tag}」に関する最新ニュースを ${esc(config.siteName)} 編集部の要約と論評でお届けします。`,
     body: `${header(dateLabel, '', BASE)}\n\n${main}\n\n${footer(BASE)}`,
-    canonicalPath: `/tags/${encodeURIComponent(tag)}.html`,
+    canonicalPath: `/tags/${encodeURIComponent(tagSlug(tag))}.html`,
   });
 }
 

@@ -15,6 +15,13 @@
   - テンプレート（`templates/*.js`）= `esc()` / 本文 Markdown = `mdToHtml()`（ともに `src/markdown.js`）。
     `mdToHtml()` は marked レンダラで**生HTMLをテキスト化**し、リンク/画像の `href`/`src` を**プロトコル許可リスト**（`http(s)`/`mailto`/相対/アンカーのみ）で検証する。`javascript:` 等は `#` に無害化。退行は `npm run check` の `checkSanitizer()` が hard-fail で検知。
   - XML（sitemap/feed）= `render.js` 内の `xmlEsc`
+  - **タグ名 → ファイルパス / URL** = `tagSlug()`（`src/tagSlug.js`）。タグは writer が自由に書く文字列で、
+    そのままファイル名にすると `AR/VR` が `dist/tags/AR/VR.html` と解釈され **render 全体が ENOENT で落ちる**
+    （2026-07-26 の障害。Vercel も同じ `npm run build` を走らせるためデプロイごと停止した）。
+    適用箇所は「書き出し名・sitemap（`render.js`）／`tagHref`（`cardbits.js`）／canonical（`tag.js`）」の4つで、
+    **1つでも外すと URL と実ファイルがずれる**。退行は `npm run check` の `checkTagPathWiring()` が
+    危険文字を含む合成タグを実際に描画して hard-fail で検知する（実データは正規化済みで素通りするため、
+    実データによる検査では配線の外れを捕まえられない）。取り込み時にも `normalizeSectionTags` が同じ変換をかける。
   - 新たに「外部入力 → 出力」の経路を足したら、必ずエスケープ経路を確認する。
 - **秘密情報**: API キー類は `.env`（gitignore 済み）のみ。コード・コミット・ログ・生成物に出さない。新キーは `.env.example` に項目だけ追記。
   - 例外的に `CF_BEACON_TOKEN` / `SITE_URL` は**公開前提の値**（全ページに出てよい）。
@@ -89,9 +96,18 @@
 ## 3. テスト・検証（公開前は必須）
 自動テストは無い。**公開前に必ず `npm run check`**（レンダー完走＋スキーマ/一意性＋鍵混入チェック。作業ツリーは汚さない）。
 
+**自動ジョブも push 前に `check` を通す**（`auto-generate.sh`）。落ちたら commit/push を中止し、Slack へ失敗内容を送り、
+`data/quality/incidents.jsonl` に `publish_blocked` を残す。2026-07-26 は push 判定が git 差分しか見ておらず、
+`ingestDrafts` の失敗を検知して通知まで出していながら描画できないデータを本番へ送った——`rc≠0` の回は push しない。
+- **スコープ境界**: 「失敗しても日次を止めない」のは **judge / 通知 / 画像査読** ＝ LLM・ネットワーク依存の**評価・通知**機構。
+  評価機構の故障で公開事故や停止を招かないための規律であって、`check` のような**決定論の公開ゲートは止める側**。混同しない。
+- **ゲートが赤のときの復旧**: `node src/check.js` の指摘を読み、`data/articles.json` を直す。
+  その回の記事を捨てるなら `git checkout -- data/articles.json`。放置すると**ローカルにだけ記事が溜まり公開は止まったまま**になる
+  （`data/.status` は「公開ブロック」、STREAK も進むので 3 回連続で追加通知が出る）。
+
 | コマンド | 用途 |
 |---|---|
-| `npm run check` | 公開前ゲート（必須）。レンダー完走＋スキーマ/一意性＋鍵混入＋**constitution 退行検査**＋**客観品質警告**（警告は非ブロック） |
+| `npm run check` | 公開前ゲート（必須）。レンダー完走＋スキーマ/一意性＋鍵混入＋**constitution 退行検査**＋**タグ→パス配線の退行検査**＋**客観品質警告**（警告は非ブロック） |
 | `npm run candidates` | RSS 取得の疎通（`data/_candidates.json` 生成） |
 | `npm run build` | `articles.json` から `dist/` に全 HTML ＋ `dist/assets/` を生成（Vercel のデプロイビルドと同一）。ローカル目視はこれ |
 | `npm run render` | `articles.json` から `dist/` に HTML のみ再生成（アセットは複製しない。下書き再描画用） |
