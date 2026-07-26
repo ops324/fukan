@@ -169,11 +169,11 @@ AIニュースサイト/
 
 ```jsonc
 {
-  "slug": "20260613-09",            // YYYYMMDD-連番（最大連番+1で採番）
+  "slug": "20260613-09",            // YYYYMMDD-連番（最大連番+1で採番）。ファイル名・URLになるため形式は check が hard-fail で固定
   "headline": "…",                  // 日本語見出し（40字以内）
   "lead": "…",                      // 要点1文（80字以内）
   "body_markdown": "…",             // 本文（Markdown・目安550〜750字／床450・上限900で警告）
-  "tags": ["…"],                    // 日本語タグ 3〜5個
+  "tags": ["…"],                    // 日本語タグ 3〜5個。取り込み時に tagSlug で整形＋重複排除（パスに使えない文字は '-' へ・§11）
   "section": "AI",                  // セクション（navSections 推奨。旧カテゴリは sectionAliases で正規化）
   "source": "OpenAI",               // 出典名
   "link": "https://…",              // 出典URL（冪等キー）＝主出典
@@ -502,7 +502,7 @@ launchctl kickstart -k gui/$(id -u)/com.axiom.generate
 
 ```sh
 npm install                  # 依存導入（rss-parser / marked / dotenv）
-npm run check                # 公開前ゲート（レンダー完走＋スキーマ/slug・link一意＋鍵混入チェック）
+npm run check                # 公開前ゲート（レンダー完走＋スキーマ/slug・link一意＋タグ→パス配線＋鍵混入チェック。自動ジョブも push 前に実行・§8）
 npm run candidates           # 候補だけ確認（data/_candidates.json）
 zsh scripts/auto-generate.sh # 取材→執筆→反映まで全自動で1回
 npm run build                # articles.json から dist/ に全 HTML ＋ アセットを生成（Vercel と同一・→ §13）

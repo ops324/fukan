@@ -1,14 +1,20 @@
 // 公開前チェック（npm run check）。開発ルール（CLAUDE.md）を「実行可能」にするためのガード。
 // 1) レンダー完走チェック … 一時ディレクトリへお試しレンダーし、全テンプレが壊れていないこと＋
-//    主要生成物が出力されることを確認（作業ツリーは汚さない）。
+//    主要生成物が出力されることを確認（作業ツリーは汚さない）。あわせて assets/ の実在も見る
+//    （renderSite は assets を複製せず build.js が cpSync するため、ここが check の唯一の死角）。
 // 1b) constitution 退行検査 … ロック対象の文言（署名等）が生成記事HTMLに残っているか。
-// 2) スキーマ/不変条件チェック … articles.json の必須項目・importance範囲・slug/link一意を検証。
+// 2) スキーマ/不変条件チェック … articles.json の必須項目・importance範囲・slug の形式/一意・link一意を検証。
 // 3) 秘密情報チェック … .env が git 管理外であること、.env の値がトラッキング対象に混入していないこと。
+// 3b) サニタイザ退行検査 … 既知の悪性入力を mdToHtml に通し、生HTML・危険プロトコルが無害化されるか。
 // 3c) 下書きリント退行検査 … 既知の事故形（別記事からの混入・比率の食い違い等）を合成入力で通し、
 //    src/lintDrafts.js が今も検出できることを確認する（writer の検算が空回りする退行を止める）。
+// 3d) タグ slug 検査 … tagSlug() の変換退行・変換後の衝突（hard-fail）・実データの危険文字（warn）。
+// 3e) タグ→パス配線の退行検査 … 危険文字を含む合成タグを実際に描画し、書き出し名・tagHref・
+//    canonical・sitemap の4経路が tagSlug を通っているかを突き合わせる。実データは取り込み時に
+//    正規化済みで tagSlug の不動点になるため、実データを描画しても配線の外れを検知できない。
 // 4) 客観品質チェック … 本文長/タグ数/重複話題など。これは「警告のみ」で exit には影響しない
 //    （自己改善 MVP の床。決定的・オフライン・LLM/ネットワーク不使用）。
-// 1〜3 のいずれか失敗で非ゼロ終了。4 は参考情報。
+// 1〜3e のいずれか失敗で非ゼロ終了。4 は参考情報。
 import { mkdtemp, rm, readFile, access } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
