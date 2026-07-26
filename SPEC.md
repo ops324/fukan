@@ -524,7 +524,7 @@ launchctl kickstart -k gui/$(id -u)/com.axiom.generate
 
 ```sh
 npm install                  # 依存導入（rss-parser / marked / dotenv）
-npm run check                # 公開前ゲート（レンダー完走＋スキーマ/slug・link一意＋タグ→パス配線＋鍵混入チェック。自動ジョブも push 前に実行・§8）
+npm run check                # 公開前ゲート（レンダー完走＋スキーマ/slug・link一意＋タグ→パス配線＋鍵混入。警告として ledger 網羅・品質・鮮度。自動ジョブも push 前に実行・§8）
 npm run candidates           # 候補だけ確認（data/_candidates.json）
 zsh scripts/auto-generate.sh # 取材→執筆→反映まで全自動で1回
 npm run build                # articles.json から dist/ に全 HTML ＋ アセットを生成（Vercel と同一・→ §13）
@@ -568,7 +568,7 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
   落ちたとき、`ingestDrafts` の評価記録ブロックごと実行されず、公開された21本が `evaluations.jsonl` に
   1行も残らなかった。記事そのものは読めるので**指摘されるまで誰も気づけなかった**。
   評価の記録は「評価機構の故障で公開を止めない」ため try/catch で握る設計であり、これは維持する。
-  代わりに **`npm run check` が直近 `ledger.coverageWindow` 件の記録漏れを警告する**（非ブロック）。
+  代わりに **`npm run check` の `checkLedgerCoverage()` が直近 `ledger.coverageWindow` 件の記録漏れを警告する**（非ブロック）。
   握って黙るのではなく、握った上で**後から気づける**ようにするのが要点。
   なお現在は「レンダーしてから保存」により、レンダー失敗時はそもそも記事が保存されないため
   「公開済みなのに未記録」という乖離は構造的に起きない（残るのは記録処理自体の失敗と異常終了の窓）。
