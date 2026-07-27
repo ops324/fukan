@@ -496,6 +496,29 @@ allowlist ドメイン判定 `pressAllowlistCredit()` は `pressImage.js` から
   出しながら**描画できない `articles.json` を本番へ送り**、Vercel のデプロイが失敗してサイトが半日以上停止した（§11）。
   **復旧**: `node src/check.js` の指摘を直すか、その回を捨てるなら `git checkout -- data/articles.json`。
   放置するとローカルにだけ記事が溜まり公開は止まったままになる。
+- **commit/push の前提条件**（2026-07-27 強化）:
+  - **`main` にいることを確認する**。`git add`/`git commit` は checkout 中のブランチに効くので、
+    作業ブランチのままだと記事はそこに積まれ、`git push origin main` は「変更なしの main」を送って
+    **成功と報告する**（ログは `push 完了`、本番は無風という沈黙した公開失敗）。違えば中止＋通知。
+  - **commit 対象は `data/` だけ**（`git add -- data`）。従来の `git add -A` は `vercel.json` /
+    `.gitignore` / `.github/` / docs / `assets/` まで巻き込み、編集途中のまま 18:00 を迎えると
+    本番のビルド設定が自動 push されうる（`SRC_DIRTY` ガードは `src templates scripts prompts package*.json` しか見ていない）。
+    `data/` 以外の未コミット変更はログに出し、`assets/` に変更があるときだけ通知する
+    （プレス画像を置いたまま放置すると `articles.json` が指す実体が push されず**本番で 404**）。
+  - **ブロック時は退避ブランチへ push する**。公開前ゲートが赤の間、記事はワークツリーにしか無く
+    GitHub にも git の object にも入っていない。しかも案内している `git checkout -- data/articles.json` は
+    **それを破棄する**。`git stash create`（作業ツリーも stash スタックも動かさずコミットだけ作る）で
+    `blocked/<日時>` を作って push しておけば、捨てる判断をしても後から取り戻せる。Vercel は `main` しか見ない。
+- **ロックの同一性は PID ＋ プロセス開始時刻**（2026-07-27 修正）。従来は `kill -0` の生存確認が
+  年齢判定より先に return していたため、**macOS が PID を再利用すると永久にスキップし続けた**。
+  しかも `acquire_lock || exit 0` は `.status` も通知も STREAK も残さず沈黙するので、
+  見え方は 2026-07-22〜25 の3日間停止と区別が付かない。
+  - 保持者が**死んでいれば年齢を待たず即再取得**（死んだプロセスは書込み中ではない。3600秒待つと
+    Ctrl-C の残骸だけで最大1サイクル＝12時間・記事2回分が飛ぶ）。
+  - **生存していても `LOCK_MAX_AGE` 超過はハングとみなして奪う**。
+  - **保持者不明（`info` 未書き込み＝`mkdir` 直後の可能性）は奪わない**——作りかけを奪うと二重実行になる。
+    年齢は `info` が読めないときディレクトリの mtime から取る。
+  - スキップした回は `.status` に残し、連続2回で通知（`data/.lockskip` で数える）。
 - **状態ファイル `data/.status`**（git 管理外）: 最終実行時刻・状態・詳細・連続ゼロ回数を毎ラン上書きする。
   通知バナー（`osascript`）は集中モード等で抑制されうるため、**消えない形でも残す**のが目的。
 - **Slack 通知**（`src/notifySlack.js`・`SLACK_WEBHOOK_URL` があるときだけ）: 異常時は `notify()` から、
