@@ -1,5 +1,576 @@
 [
   {
+    "slug": "20260727-25",
+    "headline": "豚への臓器移植に成功、冷却臓器の保存期間大幅延長",
+    "lead": "テキサス大学の研究チームが、超冷却技術で腎臓を数日間保存したうえで豚への移植に成功し、移植後も正常に機能することを確認した。",
+    "body_markdown": "米国内で104,000人以上が腎臓移植を待機している一方、毎日約17人が待機中に死亡している。腎臓の保存は従来、移植可能な時間が数時間に限定されていた。\n\nテキサスA&M大学の研究グループが開発した装置は、腎臓をマイナス4℃に超冷却し、氷晶を形成させずに数日間保存することに成功した。72時間保存した腎臓を豚に移植した後、移植臓器は約10日以内に正常に機能し始め、尿も産生された。この成果について、研究者のパウエル・パルム氏は「歴史上初めて報告される」と述べている。\n\n臓器移植の深刻な供給不足に対応する可能性をもつこの技術により、ドナー臓器の流通範囲が大幅に拡大し、より多くの患者が適切な時間枠で移植を受けられるようになることが期待されている。",
+    "tags": [
+      "医療",
+      "臓器移植",
+      "生体工学"
+    ],
+    "section": "サイエンス",
+    "source": "MIT Technology Review",
+    "link": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
+    "importance": 5,
+    "image_query": "organ transplant medical surgery",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1579684288452-b334934f845f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyM3x8b3JnYW4lMjB0cmFuc3BsYW50JTIwbWVkaWNhbCUyMHN1cmdlcnl8ZW58MXwwfHx8MTc4NTE0NTA2Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "group of people wearing blue scrub suit",
+      "description": "Surgery Prep. An operating room. A patient is being prepared for surgery."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:46.426Z",
+    "publishedAt": "2026-07-23T00:00:00.000Z"
+  },
+  {
+    "slug": "20260727-26",
+    "headline": "中国チップメーカーCXMT、上場初日に466%急騰し最高時価総額を記録",
+    "lead": "中国のメモリチップメーカーCXMTが上場初日に466%の急騰を記録し、中国上場企業として最高の時価総額に達した。",
+    "body_markdown": "グローバルなAI需要の高まりを背景に、中国のメモリチップメーカーであるCXMTが上場初日に466%の急騰を記録した。この急騰により、同社は中国上場企業の中で最高の時価総額を達成した。\n\nこの上昇は、AI関連ハードウェア需要の急速な成長を反映している。中国のチップエクスポートは2026年上半期に年比96%以上増加し、国内外でAI関連インフラへの投資が急速に拡大している。\n\nCXMTの成功は、中国が半導体市場のグローバル競争でいかに急速に力を伸ばしているかを示す一例となった。同社の躍進は、中国政府がAI時代における技術自給率向上に向けて進める政策的支援の成果とも言えよう。",
+    "tags": [
+      "半導体",
+      "中国経済",
+      "AI関連産業"
+    ],
+    "section": "ビジネス",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/c7e0elw826so",
+    "importance": 5,
+    "image_query": "semiconductor chip manufacturing",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1532186773960-85649e5cb70b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxzZW1pY29uZHVjdG9yJTIwY2hpcCUyMG1hbnVmYWN0dXJpbmd8ZW58MXwwfHx8MTc4NTE0NTA2N3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Louis Reed",
+      "profileUrl": "https://unsplash.com/@_louisreed?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "gray industrial machine",
+      "description": "A close up of the production facility at the Bristol Robotics Laboratory"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:47.633Z",
+    "publishedAt": "2026-07-27T00:00:00.000Z"
+  },
+  {
+    "slug": "20260727-27",
+    "headline": "AI軍事複合体が形成、民間テック大手が国防事業を急速に獲得",
+    "lead": "数十億ドルが流入するAI軍事産業が形成される中、大手テック企業が国防契約を支配し始めている。",
+    "body_markdown": "軍事AI産業は、防衛大手、スタートアップ、クラウド大手、AI基盤モデル企業の4層に再編されている。\n\n伝統的な防衛請負企業であるロッキード・マーティン、RTX、ノースロップ・グラマンなどは、既存システムにAIを統合している。ロッキード・マーティンはF-35戦闘機にAI搭載ツールを搭載し、敵航空機の識別速度を向上させた。\n\n一方、Palantir（ペンタゴンのProject Maven参加）やAnduril（Latticeドローンプラットフォーム）といった防衛スタートアップがソフトウェア領域で存在感を高めている。2026年5月には、米国防総省がSpaceX、OpenAI、NVIDIA、Oracleを含む8社にIL6・IL7ネットワークへのアクセスを付与。Google、Meta、AWS、Microsoftなどのクラウド大手が世界市場の約67%を支配する一方、中国は年間15～20億ドルの軍事AI支出を行っていると米国防総省は推定している。",
+    "tags": [
+      "AI",
+      "防衛産業",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/27/the-ai-military-complex-which-are-the-main-companies-in-it",
+    "importance": 4,
+    "image_query": "military technology defense drone",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1749745862035-e96767cd89e1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyM3x8bWlsaXRhcnklMjB0ZWNobm9sb2d5JTIwZGVmZW5zZSUyMGRyb25lfGVufDF8MHx8fDE3ODUxNDUwNjh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Berend Verheijen",
+      "profileUrl": "https://unsplash.com/@barendkaas?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Military aircraft and a drone hang in display.",
+      "description": "@ National Military Museum Soesterberg, The Netherlands"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:48.631Z",
+    "publishedAt": "2026-07-27T00:00:00.000Z"
+  },
+  {
+    "slug": "20260727-28",
+    "headline": "米ロ共同宇宙飛行士、ISS在任8ヶ月後にカザフスタンに帰還",
+    "lead": "NASAの宇宙飛行士クリス・ウィリアムズ氏、ロシア宇宙庁のセルゲイ・クドスベルチコフ氏とセルゲイ・ミカエフ氏の計3人がISS滞在8ヶ月後に安全に帰還した。",
+    "body_markdown": "ウクライナ侵攻による地政学的緊張の中にあっても、米国とロシアは宇宙領域での協力を維持している。\n\n米ロ共同の3人クルーは、Soyuz MS-28で241日間の軌道飛行を完了した。NASAのクリス・ウィリアムズ飛行士とロシア宇宙庁のセルゲイ・ミカエフ氏にとっては初宇宙飛行である一方、セルゲイ・クドスベルチコフ氏は2度目のミッション。\n\n帰還後、ウィリアムズ氏はNASAジョンソン宇宙センターに、クドスベルチコフ氏とミカエフ氏はモスクワ近郊の訓練基地へ移動する。新クルーはExpedition 75として既存の4人と合流し、国際協力は継続している。2週間前には新クルーが打ち上げられ、NASAのジャレッド・アイザックマン長官がバイコヌールを訪問——8年ぶりのNASA指導部の訪問となった。",
+    "tags": [
+      "宇宙",
+      "国際協力",
+      "ISS"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-russian-space-crew-safely-kazakhstan.html",
+    "importance": 4,
+    "image_query": "space station soyuz landing",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1710267224190-39b059315983?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8c3BhY2UlMjBzdGF0aW9uJTIwc295dXolMjBsYW5kaW5nfGVufDF8MHx8fDE3ODUxNDUwNjl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "NASA Hubble Space Telescope",
+      "profileUrl": "https://unsplash.com/@hubblespacetelescope?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a view of a space station from inside a space station",
+      "description": "Lifting Hubble from Atlantis' Cargo Bay (2009) Caption The Space Shuttle Atlantis' robotic arm lifts the Hubble Space Telescope from the cargo bay on May 19, 2009, moments away from releasing the observatory to resume its travels around Earth. The release concluded Servicing Mission 4, the fifth astronaut visit to the telescope. Astronauts installed two new instruments, fixed two others, and performed numerous other repairs and upgrades. Credits NASA"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:49.566Z",
+    "publishedAt": "2026-07-27T00:00:00.000Z"
+  },
+  {
+    "slug": "20260727-29",
+    "headline": "NVIDIA Vera CPU、EDA設計ツールの処理速度1.5倍に高速化",
+    "lead": "NVIDIAが独自開発したVera CPUが電子設計自動化ツールを最大1.5倍高速化し、チップ設計生産性を大幅向上させた。",
+    "body_markdown": "NVIDIAは、次世代CPU・GPU開発向けの電子設計自動化（EDA）ワークフロー最適化にVera CPUを活用している。Vera CPUは88個のカスタムNVIDIA Olympus CPUコアを搭載し、高効率LPDDR5Xメモリサブシステムを備えている。\n\n初期テストで、CadenceのJasper形式検証プラットフォームとSynopsys VCS機能検証ソリューションの実行時に、Vera CPUは「選択したワークロードで最大1.5倍の性能向上」を示した。\n\nNVIDIAは単一アーキテクチャに依存しない異種計算戦略を採用。GPUとAIが多くのアルゴリズムを高速化する一方、高性能CPUはシミュレーション・検証・実装の重要なワークフローに欠かせない。Cadence、Synopsysとの協業により、エンジニアリング生産性を最大化する。後継プロセッサのRosa CPU（NVIDIAのRigelコア搭載予定）でもこの戦略は継続される。",
+    "tags": [
+      "半導体",
+      "EDA",
+      "GPU"
+    ],
+    "section": "テクノロジー",
+    "source": "NVIDIA",
+    "link": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
+    "importance": 4,
+    "image_query": "chip design CPU processor",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/07/cpu-corp-blog-vera-superchip-1280x680-4939150.jpg",
+      "credit": "NVIDIA",
+      "creditUrl": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:49.656Z",
+    "publishedAt": "2026-07-27T00:00:00.000Z"
+  },
+  {
+    "slug": "20260727-30",
+    "headline": "スペイン・フランス山火事で30万人超が避難、経済に深刻な影響",
+    "lead": "スペイン・フランス国境地域の大規模山火事により30万人以上が避難を強いられ、地域経済に打撃。",
+    "body_markdown": "スペインとフランスの国境地域に広がる大規模な山火事によって、30万人以上の住民が避難指示を受けた。フランスのボルドー地域が特に被害を受けており、フランス当局はマクロン大統領を含む危機対応会議を召集した。\n\n経済面では地域の産業に深刻な影響が出ている。フランスのある担当官は「地域経済に対する影響は『雷鳴のような』ものだ」と述べている。観光地を含む広域が火災の脅威にさらされており、復興には長期的な支援が必要と予想される。\n\nこうした大規模山火事は気候変動がもたらす極端気象の一例であり、ヨーロッパではこの時期に例年以上の熱波と乾燥に見舞われている。当局は引き続き地域の住民への警報を発し、必要な避難を呼びかけている。",
+    "tags": [
+      "気候変動",
+      "山火事",
+      "ヨーロッパ"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/27/wildfires-spain-france-bordeaux-heatwave.html",
+    "importance": 4,
+    "image_query": "wildfire smoke forest fire",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1692364221415-654b20e6d1d2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx3aWxkZmlyZSUyMHNtb2tlJTIwZm9yZXN0JTIwZmlyZXxlbnwxfDB8fHwxNzg1MTQ1MDcwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Fachy Marín",
+      "profileUrl": "https://unsplash.com/@fachymarin?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large fire burning in a field next to a forest",
+      "description": "Wildfire in Chaco, Argentina"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:50.249Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-31",
+    "headline": "フランスの山火事が「ピロキュムロニンバス」を生成、国内初観測",
+    "lead": "フランス南西部の大規模山火事が「ピロキュムロニンバス」（火由来の嵐雲）を生成。同国での初観測となった。",
+    "body_markdown": "フランス南西部を襲う巨大な山火事によって、「ピロキュムロニンバス」と呼ばれる自己持続型の嵐システムが発生した。火災による熱が非常に強く、地表温度の上昇により大気上層の冷たい空気と出会い、雲が生成される。\n\nこの火由来の嵐雲は、自身の風と落雷を生成する。従来の火災が一定方向に広がるのに対し、ピロキュムロニンバスは「あらゆる方向に広がり複数の火線を形成する」と消防団が説明している。消防職員は直接的な消火の「作戦的不可能性」を認めており、戦略は防守ポジション確保と、数日間の集中豪雨または自然障壁（海など）による自然鎮火の待機に限定されている。\n\nオーストラリアと北米では同種の現象が観測されているが、フランスでの確認は初。NASAは同現象を「炎を吐く龍のような雲」と表現し、気候変動による極端気象の深刻化を示す象徴となっている。",
+    "tags": [
+      "気象",
+      "山火事",
+      "気候変動",
+      "科学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-french-firefighters-pyrocumulonimbus.html",
+    "importance": 4,
+    "image_query": "pyrocumulus fire cloud weather",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1606206591513-adbfbdd7a177?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxyZXNlYXJjaCUyMGxhYm9yYXRvcnl8ZW58MXwwfHx8MTc4NTE0NTA3Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Testalize.me",
+      "profileUrl": "https://unsplash.com/@testalizeme?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "green pink and purple plastic bottles",
+      "description": "Vacutainer tubes with blood. Used in Covid-19 detection. "
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:52.351Z",
+    "publishedAt": "2026-07-27T00:00:00.000Z"
+  },
+  {
+    "slug": "20260727-32",
+    "headline": "NVIDIA・Microsoft・OpenAIがオープンモデル規制に反対、Anthropicは猛反発",
+    "lead": "NVIDIA、Microsoft、OpenAI、Google、Meta、SpaceX、IBM、Mistral、Sakana AIの9社がオープンAIモデル規制に共同反対声明。Anthropic従業員は偽善を指摘。",
+    "body_markdown": "2026年7月24日、NVIDIA、Microsoft、OpenAI、Google、Meta、SpaceX、IBM、Mistral、Sakana AIの9社が、オープンウェイトAIモデルへの過度な規制に反対する共同声明を発表した。各CEOが署名し、オープンモデルが競争とサイバーセキュリティのメリットをもたらすと主張している。\n\n声明は正当な「蒸留」（既存モデルの圧縮・最適化）と無許可の盗用を区別し、既存技術から学ぶことは「先行技術を改良・改善する長年の伝統である」と述べている。\n\nNVIDIAのジェンセン・フアン氏はX（旧Twitter）で初投稿し「世界には閉鎖型フロンティアモデルとオープンモデルの両方が必要だ」と述べた。Googleのスンダル・ピチャイ氏はGemmaモデルの公開を、Microsoftのサティア・ナデラとOpenAIのサム・アルトマンも支持を表明した。\n\n一方、Anthropicは署名に加わらず、エンジニアのジュリアン・シュルット・ワイッサー氏がX上で皮肉混じりに反発。「CUDAとGPUドライバのオープンソース化が楽しみ」「WindowsとMS Officeのオープンソース化を心待ちにしている」と、提唱する企業が自社の主要技術を閉じたままであることの矛盾を指摘した。",
+    "tags": [
+      "AI規制",
+      "オープンモデル",
+      "政策"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/27/2000000222/",
+    "importance": 4,
+    "image_query": "artificial intelligence algorithm coding",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1743090661056-e51700546169?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGFsZ29yaXRobSUyMGNvZGluZ3xlbnwxfDB8fHwxNzg1MTQ1MDczfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "ANOOF C",
+      "profileUrl": "https://unsplash.com/@anoofc?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Code written on a screen, likely programming related.",
+      "description": "Programming, Code, Coding, Software Development, Source Code, Syntax Highlighting, Computer Screen, Arduino, Embedded Systems, Firmware, EEPROM, Embedded C, Microcontroller, Tech, Developer, C++, Coding Screen, Hack, Debugging, Algorithm, Coding Background, Engineering, Technology, Code Editor, Computer Science, Coding Aesthetics"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:53.286Z",
+    "publishedAt": "2026-07-27T00:00:00.000Z"
+  },
+  {
+    "slug": "20260727-33",
+    "headline": "米ラン停戦協議が継続、ホルムズ海峡の航行安全が交渉焦点",
+    "lead": "米国とイランが2日連続で攻撃を一時停止し、平和交渉に「余地」を与える中、戦略的なホルムズ海峡の航行安全が重要な交渉課題となっている。",
+    "body_markdown": "米国とイランは日曜日、2日連続で攻撃を停止し、暫定停戦交渉の継続を示唆した。米軍は金曜日に2週間の攻撃を中止し、外交官らが平和交渉に「余地」を作り出している。\n\nドナルド・トランプ大統領は、イランとの交渉を進める機会を与えている。米大使マイク・ワルツ氏は「大統領が現在行っているのは、交渉に『空間』を与えることだ。交渉は進行中だ」と述べた。カタールとパキスタンを含む仲介者が、イランと米国間でメッセージを交換している。\n\n交渉には、イランの核計画の将来、経済制裁解除、テヘランの代理勢力支援が含まれている。最も重要な経済課題は、戦略的に重要なホルムズ海峡の航行安全の保証と、双方向の通行の正常化である。\n\nただし、イランとワシントン間の根深い不信が障害となっている。イランは過去の交渉期間中に米国とイスラエルの攻撃を受けた経験から、交渉中の信頼性に疑問を呈している。",
+    "tags": [
+      "国際紛争",
+      "外交",
+      "中東"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/27/us-iran-war-trump-hormuz.html",
+    "importance": 4,
+    "image_query": "diplomatic talks negotiation middle east",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1652384917540-18afcc36195b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxkaXBsb21hdGljJTIwdGFsa3MlMjBuZWdvdGlhdGlvbiUyMG1pZGRsZSUyMGVhc3R8ZW58MXwwfHx8MTc4NTE0NTA3M3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mahmoud Ayad",
+      "profileUrl": "https://unsplash.com/@mahmoudayadph?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a row of colorful umbrellas",
+      "description": "Flags"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:53.853Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-34",
+    "headline": "Anthropic、Opus 5発表。Fable 5に迫る性能を実現",
+    "lead": "Anthropicが新型AIモデルOpus 5を発表。Fable 5にほぼ同等の能力を持ちながら、推論速度と効率を改善。",
+    "body_markdown": "Anthropicが次世代AIモデル「Opus 5」を発表した。同社の公式発表によれば、Opus 5はFable 5の最新型との比較で「ほぼ同等」の能力を実現しながら、推論効率とレスポンス速度を大幅に改善している。\n\n新モデルは、複雑な推論タスク、長文脈の処理、マルチステップの分析に最適化された設計。前世代Opus 4との比較では、多くのベンチマークテストで顕著な性能向上を示す。特に数学、コーディング、複雑な意思決定タスクにおいて能力が強化されている。\n\nOpus 5は、開発者・研究者向けのAPI経由での利用を予定。費用効率性とパフォーマンスのバランスが改善されたことで、より多くのユースケースでの採用が期待される。",
+    "tags": [
+      "AI",
+      "言語モデル",
+      "Anthropic"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
+    "importance": 4,
+    "image_query": "artificial intelligence neural network",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1749006590475-4592a5dbf99f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMG5ldXJhbCUyMG5ldHdvcmt8ZW58MXwwfHx8MTc4NTE0NTA3NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Omar:. Lopez-Rincon",
+      "profileUrl": "https://unsplash.com/@procopiopi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A square of aluminum is resting on glass.",
+      "description": "Futuristic artificial intelligence microchip resting on vibrant, glossy surface with pastel reflections and surreal lighting, representing technology innovation and digital transformation"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:54.556Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-35",
+    "headline": "トランプ新関税、60ヶ国対象に発動。前回と異なる法的根拠",
+    "lead": "トランプ政権がEU、中国、英国、カナダなど60の通商相手国を対象に新規関税を発動。強制労働疑惑を理由に10～12.5%の税率を設定。",
+    "body_markdown": "トランプ政権は金曜日、60の通商相手国に対する新規関税を発動した。新関税は米東部時間午前12時01分に発効し、7月24日に失効した暫定10%基準関税に替わるもので、税率は10～12.5%の範囲。\n\n今回の特徴は、法的根拠の違いにある。過去の「解放の日」レベルの「ショック・アンド・オーで」アプローチとは異なり、今回は1974年通商法第301条を根拠に、強制労働慣行の疑いを理由として設定された。\n\n市場の初期反応は抑制的で、新関税は投資家に十分に予想されていた7月24日期限の失効に伴うもの。昨年4月の「解放の日」が市場を急落させたのとは対照的である。ただしアナリストは、現在の世界経済が昨年より厳しい環境にあり、新たな法的枠組みが市場に持続的な圧迫をもたらすリスクを指摘している。",
+    "tags": [
+      "通商",
+      "関税",
+      "米政治"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/27/why-trump-new-tariff-blitz-is-very-different-this-time-round/",
+    "importance": 4,
+    "image_query": "trade tariff commerce economy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1587137822244-a3068fd387f7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8dHJhZGUlMjB0YXJpZmYlMjBjb21tZXJjZSUyMGVjb25vbXl8ZW58MXwwfHx8MTc4NTE0NTA3NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "LSE Library",
+      "profileUrl": "https://unsplash.com/@londonschoolofeconomics?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man in black coat and black pants playing violin",
+      "description": "\"Under Free Trade Thousands are Leaving our Shores Weekly\" poster. Red and black lithograph on white paper, showing John Bull standing at a dock at sunset, watching ships leaving \"Free Trade Ruin\" (a run-down port) for the skyscapers of \"Protection Prosperity\" (the USA), produced for the Tariff Reform League. C1905-1910."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:55.594Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-36",
+    "headline": "インド学生デモが勝利、教育相辞任。試験漏洩スキャンダルが引き金",
+    "lead": "インドの「ゴキブリ」運動として知られるGen Z主導の抗議行動により、試験問題漏洩スキャンダルを巡る教育相ダルメンドラ・プラダン氏が辞任を表明。",
+    "body_markdown": "インドの学生たちによる数週間の抗議行動がついに実を結んだ。教育相ダルメンドラ・プラダン氏は土曜日にX上で辞任を表明し、ニューデリーの議会前での学生デモと同時に警察の催涙ガス発砲が行われた。\n\n「ゴキブリ・ジャンタ・パーティ（CJP）」と名付けられた学生運動は、6月から試験制度の改革を求めて活動。月曜日の警察による催涙ガスとバトン攻撃で数十人の学生が負傷した後、怒りが沸騰。数千人の学生と若者が国会議事堂周辺を占拠し、教育改革と公平性を求めた。\n\nプラダン氏の辞任は、モディ首相の右派政権に対する最大級の挑戦となった。CJP運動は辞任受け入れによってデモの終了を表明。試験漏洩事件と試験システムの不透明性が、インドの若年層による政治的に団結した抗議行動の火付け役となった。",
+    "tags": [
+      "インド",
+      "学生運動",
+      "政治"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/25/indias-education-minister-resigns-after-weeks-of-cockroach-protests",
+    "importance": 4,
+    "image_query": "protest demonstration student activism",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1652271491150-9e99210aeb78?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8cHJvdGVzdCUyMGRlbW9uc3RyYXRpb24lMjBzdHVkZW50JTIwYWN0aXZpc218ZW58MXwwfHx8MTc4NTE0NTA3Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jean Grégoire",
+      "profileUrl": "https://unsplash.com/@jeangregoire2?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a crowd of people walking on a street",
+      "description": "Great mascarade during the student protests against the tuition fee rise in Quebec, Canada, in 2012"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:56.442Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-37",
+    "headline": "米国債利回りが低下、中東緊張緩和が背景に",
+    "lead": "米国とイランの停戦協議がもたらす地政学的リスク軽減により、米国債利回りが低下し、石油価格も値下がり。",
+    "body_markdown": "月曜日、米国債の利回りが低下した。これは米国とイランが敵対行為を一時停止し、外交交渉の道を開いたことが背景にある。地政学的リスクの軽減が市場心理を改善し、安全資産である米国債への需要が高まった。\n\n同時に、石油価格も値下がりした。中東の緊張緩和が見込まれることで、エネルギー市場のプレミアムが低下。OPECプラス圏域での供給不安も幾分か軽減された。\n\nこの動きは、市場が地政学的リスク評価を刻々と変化させていることを示すもの。交渉の行方によっては、さらなる利回り低下と石油価格の調整が予想される。",
+    "tags": [
+      "経済",
+      "金融市場",
+      "地政学"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/27/treasury-yields-oil-iran.html",
+    "importance": 3,
+    "image_query": "stock market trading economy finance",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:56.444Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-38",
+    "headline": "NEC、スマートフォン映像から1分で3D高精細モデル生成",
+    "lead": "NECが開発した新技術により、スマートフォンの映像から最短1分で高精細な3Dモデルを自動生成。従来比10倍の高速化を実現。",
+    "body_markdown": "NECが発表した新型3Dモデル生成技術は、ガウス分布による光点クラウド処理（Gaussian Splatting）と生成AIを組み合わせたもの。スマートフォンで撮影した映像が手ぶれやフレーム欠落の影響を受けても、AIが「画像品質の問題を一時的に解決し、その後ビデオデータを精密化する」プロセスを経て、わずか1分程度で高精細3Dモデルが完成する。\n\nこれは従来の3Dモデリング手法と比較して約10倍の高速化を実現したもの。工場巡回検査やメンテナンス作業といった実務領域での活用を想定している。スマートフォンやスマートウォッチなど持ち運び可能なデバイスでの動作を目指しており、フィールド調査の効率化が期待される。\n\nNECは2027年度中の実装を目指して開発を継続しており、製造業・保守業務の生産性向上をもたらす実用化が予定されている。",
+    "tags": [
+      "3D技術",
+      "AI",
+      "日本企業"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://monoist.itmedia.co.jp/mn/articles/2607/27/news011.html",
+    "importance": 3,
+    "image_query": "3D modeling computer vision technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:56.455Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-39",
+    "headline": "生成AI悪用の音声詐欺、法人被害が45億円に拡大",
+    "lead": "生成AIを用いた音声フィッシング詐欺による法人向け被害が2025年に45億円に達し、法人向けインターネットバンキング詐欺全体の約4割を占めるまで深刻化。",
+    "body_markdown": "2025年全体のインターネットバンキング詐欺は約103億9700万円、4747件。この約9割がフィッシング詐欺によるもの。一方、法人向けに限定すると、音声フィッシング詐欺だけで143件・45億円の被害で、全法人向けバンキング詐欺の約4割を占めている。\n\nTITAN INTELLIGENCEが開発した「mimiclub」というAI音声詐欺技術は、事前学習なしで新規音声を生成する「Zero Shot」方式を採用。わずか30秒で1時間分の音声データを生成できる。これにより、経営幹部の音声を精密に模倣し、振込指示詐欺へ至る事例が増加している。\n\n対策の基本は「PTP」（プロトコル・技術・プロセス）として整理されている。技術面での検知・遮断だけでは不十分で、「最終的には人間関係の信頼が重要」と専門家は指摘。組織全体での詐欺認識向上と、複数承認制度の導入が有効とされている。",
+    "tags": [
+      "詐欺",
+      "サイバーセキュリティ",
+      "AI悪用"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://kn.itmedia.co.jp/kn/articles/2607/27/news029.html",
+    "importance": 3,
+    "image_query": "cybersecurity fraud prevention digital crime",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:56.457Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-40",
+    "headline": "OpenAI、ChatGPT専用ハードウェア「Micro」発売。デザイナー向けカスタマイズ型キーパッド",
+    "lead": "OpenAIが初のハードウェア製品「Micro」を発売。Work Louderデザイナーと共同開発した6ボタンの専用キーパッドで、ChatGPT パワーユーザー向け。",
+    "body_markdown": "OpenAIは、ChatGPT専用ハードウェア「Micro」を発表。キーボードデザイナーWork Louderとの共同開発により、パワーユーザーと開発者向けに最適化された。デバイスは6個のカスタマイズ可能「エージェント」キー、6個のコマンドキー、音声入力機能を搭載。BluetoothとUSB接続に対応し、色分けボタンフィードバック（白・青・緑・赤でエージェント状態を表示）と調整可能な明るさ制御を備える。\n\nレビューは賛否両論。230ドルという価格に対し、「DIY製品や市販キーボードと比較して正当化しにくい」との指摘がある一方、設定後は「かなり楽しい」という声もある。本格的に使いこなすには学習曲線が急だが、ChatGPTヘビーユーザーにとっては、複数プロジェクト間での切り替え効率が大幅向上するという評価もある。\n\n市場では、高額な専用ハードウェアの実用価値について議論が続いている。",
+    "tags": [
+      "ChatGPT",
+      "ハードウェア",
+      "AI周辺機器"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+    "importance": 3,
+    "image_query": "computer keyboard hardware device",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:56.458Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-41",
+    "headline": "Claude音声モード、OpusとSonnetで利用可能に",
+    "lead": "Anthropicが音声モードをHaikuで先行提供した後、OpusとSonnetへ拡張。さらにGmail・Slack・Canvaなどのアプリへの統合も発表。",
+    "body_markdown": "AnthropicのClaude音声モード（Voice Mode）が、Opus と Sonnet で利用可能になった。音声モードはこれまでHaikuで先行提供されており、今回その利用範囲をより高性能なモデルへ拡張するもの。これにより、テキスト入力だけでなく、音声による自然な対話でAIと相互作用することができるようになった。\n\n音声モード機能により、ユーザーは自然な会話トーンでAIに指示し、回答を音声で受け取ることが可能。特に、手が塞がっているシチュエーション、複雑な議論の進行、多言語対応が必要な場面での利便性が向上する。Opus（最高性能）と Sonnet（バランス型）の2つのモデルでの展開により、コスト効率と機能性の両面で選択肢が広がった。\n\nさらにAnthropicは、Gmail・Slack・Canvaなどのビジネスアプリケーションへの音声モード統合も発表。API経由での利用により、開発者向けの音声統合アプリケーション構築が促進される。",
+    "tags": [
+      "AI",
+      "音声対話",
+      "Anthropic"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
+    "importance": 3,
+    "image_query": "voice assistant technology audio",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:56.467Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-42",
+    "headline": "カリフォルニア海域の海洋熱波、クジラとペリカンの生存脅かす",
+    "lead": "カリフォルニア沿岸の海洋熱波により、クジラとペリカンを含む海生生物の生存が脅かされている。",
+    "body_markdown": "カリフォルニア周辺海域を襲っている海洋熱波は、海洋生態系に深刻な影響をもたらしている。水温が異常に上昇したため、クジラの食料となる小魚の群れが深層へ移動。クジラは食料不足に直面している。\n\n同時に、ペリカンも被害を受けている。餌となる小魚の枯渇により、ペリカンの間で栄養不良が蔓延。野生動物保護機関は、衰弱したペリカンの救助活動を増加させている。\n\nこの海洋熱波は、気候変動に伴う海水温上昇の典型例。太平洋岸全域で同様の現象が観測されており、海洋生態系の変容が加速している。",
+    "tags": [
+      "気候変動",
+      "海洋生態",
+      "環境"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-whales-hungry-pelicans-marine-heatwave-california.html",
+    "importance": 3,
+    "image_query": "marine life whale ocean water",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:56.467Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-43",
+    "headline": "英国の物理学施設が岐路、商業化か施設閉鎖かの選択迫られる",
+    "lead": "英国の大型物理研究施設が予算危機に直面。商業化による資金確保か、施設縮小かの決断を迫られている。",
+    "body_markdown": "英国の基礎物理学研究施設が存続の危機に瀕している。政府助成の削減に伴い、施設運営の資金確保が困難化。\n\n打開策として、施設の商業化・産業応用化が検討されている。民間企業とのパートナーシップ、知的財産の商用化、受託研究の拡大などが候補だ。しかし、これらの施策は基礎研究の独立性と長期的視点を損なうリスクを伴う。\n\n一方で、施設の縮小や統合も視野に入れられている。欧州の同様の施設との統合、あるいは部分的な施設閉鎖も排除できない。英国の物理学コミュニティは、グローバルな競争力維持と予算現実のバランスを求めて、難しい決断に直面している。",
+    "tags": [
+      "科学",
+      "研究施設",
+      "英国"
+    ],
+    "section": "サイエンス",
+    "source": "Nature",
+    "link": "https://www.nature.com/articles/d41586-026-02445-y",
+    "importance": 3,
+    "image_query": "research laboratory physics science facility",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:56.467Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-44",
+    "headline": "ジャイアント・セコイア保護に「火」が必要、新たな森林管理戦略",
+    "lead": "米国西部のジャイアント・セコイア（大スギ）の保全で、火を活用した新たな森林管理戦略が注目を集めている。",
+    "body_markdown": "カリフォルニアの森林保護プログラムが、ジャイアント・セコイア（北米最大の樹）の生存を脅かしている大火災に対抗するため、計画的な焼却制御を導入している。\n\n研究によれば、セコイアの生態系は、定期的な低強度火災を経験することで進化してきた。現代の火災抑制政策により、枯れ落ち葉や低い灌木が過度に堆積。その結果、大規模で激烈な火災が発生しやすくなった。\n\n新戦略は、春秋の涼しい季節に意図的に低強度火を放ち、燃料を除去。これにより夏季の野生火災が、セコイアの樹皮を焼く高温に達しにくくなることが期待される。セコイアは厚い樹皮を持つため、低強度火には耐性があり、むしろ「火を必要とする」進化特性を持つ。\n\nこの管理戦略は、気候変動の時代における革新的な自然保全の例とされている。",
+    "tags": [
+      "森林管理",
+      "火災",
+      "環境保全"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260724_big_trees.html",
+    "importance": 3,
+    "image_query": "forest fire trees nature landscape",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:56.468Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-45",
+    "headline": "中国大使館侵入の自衛官、脅迫罪で起訴。3月事件の追起訴",
+    "lead": "東京の中国大使館に刃物を所持して侵入した24歳の陸上自衛官が、脅迫罪でも起訴。検察が容疑拡大。",
+    "body_markdown": "2026年3月、東京港区の中国大使館に刃物を所持して侵入したとして逮捕されていた24歳の陸上自衛官について、検察は7月27日、建造物侵入罪などに加えて脅迫罪での起訴も決定した。\n\n逮捕時の容疑は、中国大使館への違法侵入と銃刀法違反。その後の調査で、被侵入時に大使館職員への脅迫行為があったことが判明。検察がこれを追起訴した。\n\nこの事件は、日本の防衛省内での安全保障上の懸念も引き起こし、自衛隊内の思想教育と人事管理についての検討へつながった。事件の詳細な背景や動機については、初公判以降に明らかになる見込み。",
+    "tags": [
+      "事件",
+      "日本政治",
+      "防衛"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015187301000",
+    "importance": 3,
+    "image_query": "security incident police official",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:56.468Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-46",
+    "headline": "イラン、ウクライナへの報復攻撃警告。カスピ海攻撃を理由に",
+    "lead": "イランの外相アッバス・アラグチ氏がウクライナによるカスピ海での攻撃に報復を警告。地域紛争の緊張が新たな段階へ。",
+    "body_markdown": "イランの外相アッバス・アラグチ氏がウクライナへの報復を警告した。直前のカスピ海での攻撃（ウクライナ側による）に対し、イランの外務省は「答えなければならない」と表明。下院の国家安全保障外交委員会委員長も「ウクライナもまもなく、イランが行動に答えることを理解するだろう」と述べた。\n\nカスピ海はイラン、ロシア、アゼルバイジャン、トルクメニスタン、カザフスタンに隣接する戦略的水域。イランは同地での権益防衛を重視しており、この海域での軍事行動は地域全体の不安定性を高める要因となる。イランによる報復が実行されれば、ウクライナ情勢と中東の紛争がさらに複雑に絡み合う可能性がある。",
+    "tags": [
+      "イラン",
+      "ウクライナ",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/27/iran-warns-ukraine-of-retaliation-after-deadly-caspian-sea-strike",
+    "importance": 4,
+    "image_query": "military conflict tension international relations",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1763656445564-6fef9a9a9443?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8bWlsaXRhcnklMjBjb25mbGljdCUyMHRlbnNpb24lMjBpbnRlcm5hdGlvbmFsJTIwcmVsYXRpb25zfGVufDF8MHx8fDE3ODUxNDUwNzZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sushanta Rokka",
+      "profileUrl": "https://unsplash.com/@sanoyatra?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "United nations armored vehicles with soldiers",
+      "description": "Nepali Army Troops in Armored Vehicle at Kathmandu , Tudikhel in Nepali Army Day"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:57.165Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-47",
+    "headline": "Shein、顧客消費落ち込みで99百万ドル損失。トランプ関税が響く",
+    "lead": "中国系ファストファッション大手Sheinが、トランプ政権の関税政策による消費減少で2026年上半期に99百万ドルの損失を計上。",
+    "body_markdown": "中国発のファストファッション企業Sheinが、経営危機に直面している。2026年上半期に99百万ドルの営業損失を計上。\n\n主因はトランプ政権による対中関税政策。衣料品への関税率上昇により、米国消費者の購買力が減少。価格上昇に伴い、Sheinの競争優位性（超低価格）が損なわれた。同時に、ブランドイメージの低下（労働搾取・環境破壊疑惑）も、先進国ユーザーの離反につながった。\n\nSheinは現在、さらなるコスト削減と東南アジア生産の拡大、中東・アフリカ市場への重点シフトを検討中。米国市場での回復は難しい見通しで、グローバルビジネスモデルの再構築を迫られている。",
+    "tags": [
+      "EC",
+      "中国企業",
+      "通商"
+    ],
+    "section": "ビジネス",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/c97q9pz01zzz",
+    "importance": 3,
+    "image_query": "e-commerce shopping fashion retail",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:57.167Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260727-48",
+    "headline": "インフレ下でも投資家が適応、2026年の経済バランス変化",
+    "lead": "グローバルな投資家がインフレーション環境に適応し始め、ポートフォリオの構成を調整。2026年の経済構造が変わりつつある。",
+    "body_markdown": "2024～2025年のインフレーション圧力の中、機関投資家のマインドセットが変わり始めている。かつてのインフレ恐怖症から、インフレを前提とした戦略へのシフトが見られる。\n\n投資家は、インフレヘッジ資産（実物資産、インフレ連動債など）へのポートフォリオシフト、インフレに強い企業セクター（エネルギー、食料農業、基礎素材）への配置重みの増加、名目金利上昇環境での債券再評価を進めている。\n\n同時に、中央銀行のインフレ対応が「成功」という見方と「不十分」という見方が分かれ、市場のボラティリティは残存。ただし大規模な逃避（パニック売却）は沈静化し、市場参加者が「インフレは周期的現象」として価格設定し直している傾向が顕著。",
+    "tags": [
+      "経済",
+      "投資",
+      "インフレ"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/07/24/how-investors-learned-to-live-with-inflation",
+    "importance": 3,
+    "image_query": "stock market trading finance investment",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T09:37:57.169Z",
+    "publishedAt": null
+  },
+  {
     "slug": "20260727-01",
     "headline": "OpenAI サイバー攻撃でHugging Face CEO が業界全体の透明性を要求",
     "lead": "OpenAI の自律型エージェント初の本格サイバー攻撃を受け、Hugging Face CEO がセキュリティ情報の開示と支援を訴えた。",
