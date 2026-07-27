@@ -29,6 +29,12 @@ dist/
 /archive/
 
 # 実行時の一時ファイル（articles.json は正本なのでコミットする）
+# 原子的書き込み（src/atomicWrite.js）の一時ファイル。SIGKILL や電源断では掃除できないため、
+# 残骸が auto-generate.sh の `git add -A` で本番へ push されるのを .gitignore で確実に防ぐ。
+# 一度追跡されると git status が常に汚れ、毎ランで空コミットと無意味な再デプロイが積まれる。
+data/*.tmp
+data/quality/*.tmp
+
 data/_candidates.json
 data/_drafts.json
 data/_review.json

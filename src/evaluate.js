@@ -10,10 +10,11 @@
 //          `node src/evaluate.js --link-check`  出典リンク死活（非ゲート・参考）
 //
 // 重要: しきい値（config.qualityThresholds）は「床/ガードレール」であって最大化目標ではない。
-import { appendFile, mkdir, readFile, writeFile } from 'node:fs/promises';
+import { appendFile, mkdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { loadArticles } from './store.js';
+import { atomicWrite } from './atomicWrite.js';
 import { config } from './config.js';
 import { pressAllowlistCredit } from './pressImage.js';
 
@@ -144,8 +145,13 @@ export async function appendBounded(file, line, maxLines) {
   const keep = lines.slice(-maxLines);
   const dropped = lines.slice(0, -maxLines);
   // 履歴はローカルの archive に退避（gitignore 済み＝git は肥大しない）。
+  // 退避を切り詰めより先に行う順序は維持する——この間で落ちても失われるのは
+  // 「archive に重複が入る」だけで、行の消失は起きない（失敗の向きが安全側）。
   await appendFile(`${file}.archive.jsonl`, dropped.join('\n') + '\n', 'utf8');
-  await writeFile(file, keep.join('\n') + '\n', 'utf8');
+  // 切り詰めは原子的に。ledger は git 追跡対象なので、中途半端な truncate が
+  // そのまま commit・push されると壊れた行が本番リポジトリに残る。
+  // 読み手（vetoLedger / check）は壊れた行を skip する作りなので、静かに件数が減って気づけない。
+  await atomicWrite(file, keep.join('\n') + '\n');
 }
 
 // rec は evaluateArticle の戻り値に source 等を足したもの。judge 結果(scores/critique)も合流可。
