@@ -17,7 +17,7 @@
 // 4b) ledger 網羅チェック … 直近記事が evaluations.jsonl に残っているか（警告のみ）。
 //    取り込み時の記録は try/catch で握るため、失敗しても記事は正常に見え誰も気づけない。
 // 1〜3e のいずれか失敗で非ゼロ終了。4 / 4b は警告のみで exit に影響しない（参考情報）。
-import { mkdtemp, rm, readFile, access } from 'node:fs/promises';
+import { mkdtemp, rm, readFile, readdir, access } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
@@ -414,6 +414,17 @@ function checkQuality(arts) {
 // 母集団を直近 coverageWindow 件に絞るのは、ledger 導入前のレガシー記事と
 // ローテーションで切り詰められた古い行を誤検知しないため。
 async function checkLedgerCoverage(arts) {
+  // ledger 書き込みに失敗した回に退避された judge 出力。放置すると溜まる一方なので、
+  // 「replay して消す」ことを促す。存在自体が「記録に失敗した回があった」証拠。
+  try {
+    const kept = (await readdir(path.join(ROOT, 'data', 'quality')))
+      .filter((f) => f.startsWith('_review-failed-'));
+    if (kept.length) {
+      warn(`judge 出力の退避ファイルが ${kept.length} 件残っています（${kept.slice(0, 3).join(', ')}${kept.length > 3 ? ' ほか' : ''}）。`
+        + ' ledger への記録に失敗した回があります。内容を evaluations.jsonl へ反映したら削除してください');
+    }
+  } catch { /* data/quality が無い＝初回。無視 */ }
+
   if (!Array.isArray(arts) || !arts.length) return;
   let have;
   try {
