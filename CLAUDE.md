@@ -99,6 +99,7 @@
 
 ## 2. Git・コミット・デプロイ
 - **手動開発の具体手順は [CONTRIBUTING.md](CONTRIBUTING.md) を参照**（`work/<topic>` → PR → マージ）。PR は CI（`.github/workflows/check.yml` = `npm run check`）通過を確認してからマージする。
+- **障害対応・復旧の手順は [docs/RUNBOOK.md](docs/RUNBOOK.md)**（articles.json 破損／記事の取り下げ／公開ゲートが赤／ジョブが動かない／作業ブランチのまま時刻を迎えた／画像／定期メンテ／バックアップ対象外の一覧）。
 - **push = 即本番**。`npm run check` 通過 ＋ 目視確認まで `origin main` に push しない。
 - **commit / push は明示依頼があったときだけ**行う。
 - **コード改善・機能追加・リスクある変更は作業ブランチで行う（既定）**。`main` 直コミットは記事内容や軽微な文言／ドキュメント微修正に限る。
@@ -137,7 +138,7 @@
 | `npm run candidates` | RSS 取得の疎通（`data/_candidates.json` 生成） |
 | `npm run build` | `articles.json` から `dist/` に全 HTML ＋ `dist/assets/` を生成（Vercel のデプロイビルドと同一）。ローカル目視はこれ |
 | `npm run render` | `articles.json` から `dist/` に HTML のみ再生成（アセットは複製しない。下書き再描画用） |
-| `npm run migrate-sections` | 旧カテゴリ section を `config.sectionAliases` で navSections へ一括正規化（旧ラベルはタグへ退避・冪等）。実行後 `npm run build` |
+| `npm run migrate-sections` | 旧カテゴリ section を `config.sectionAliases` で navSections へ一括正規化（旧ラベルはタグへ退避・冪等）。**既定 dry-run**（変わるタグと消えるタグ URL を表示）／`-- --apply` で適用 → `npm run build` |
 | `npm run evaluate` | 直近記事を客観評価して ledger に記録（`--rate <slug> <1-5> [メモ]` で人手評価）。SPEC §12 |
 | `npm run quality-digest` | writer に注入される品質フィードバックを確認（veto 傾向＋体裁逸脱）。stderr に救済率も出る |
 | `npm run lint-drafts` | 下書き（`data/_drafts.json`）の決定論リント。出典を読まずに分かる矛盾＝要約層だけの数値／比率の食い違い／円換算の疑い／全角合成文字／**別記事からの語の混入**を検出（警告のみ）。SPEC §12.7 |

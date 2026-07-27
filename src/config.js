@@ -448,6 +448,11 @@ export const config = {
   // 全て通ってしまう。npm run check で「最終記事からの経過日数」を警告し、手を動かすときに
   // 必ず気づける経路を作る。1日2回稼働なので 2日＝4ラン分の空振りを異常の目安とする。
   // 警告のみ（公開はブロックしない）。
+  // sitemap.xml の URL 数がこれを超えたら `npm run check` が警告する（非ブロック）。
+  // sitemaps.org の上限は 1 ファイル 50,000 URL。Vercel の出力ファイル数・サイズより
+  // **こちらが先に効く**（現状 2,830 URL ≒ 記事1本あたり 2.7 URL。SPEC §11）。
+  sitemapWarnUrls: 40000,
+
   freshness: {
     staleDays: 2,
   },
