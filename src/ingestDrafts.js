@@ -1,7 +1,7 @@
 // ヘッドレスClaude執筆フロー用: Claude が書いた data/_drafts.json を取り込み、
 // slug採番・画像取得・重複排除・保存・サイト再生成までを決定的に行う。
 // drafts の各要素: { headline, lead, body_markdown, tags[], section, source, link }
-import { readFile, unlink, writeFile } from 'node:fs/promises';
+import { appendFile, readFile, rename, unlink, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -163,6 +163,9 @@ for (const d of drafts) {
   createdReviews.push(rv || null);
 }
 
+// ledger への記録に何本失敗したか。掃除処理（judge 出力を消してよいかの判断）まで参照する。
+let ledgerFailures = 0;
+
 if (!created.length) {
   console.log('取り込む新規記事はありませんでした。');
 } else {
@@ -179,11 +182,15 @@ if (!created.length) {
 
   // --- 評価を ledger に蓄積（=学習の記憶）---
   // 客観指標（決定的）＋ judge 判定（あれば）を合流して1記事1行で残す。
-  try {
-    const evalsForCreated = [];
-    for (let i = 0; i < created.length; i++) {
-      const a = created[i];
-      const rv = createdReviews[i];
+  //
+  // try/catch は**1記事ごと**に置く。ループ全体を包むと、i 番目で失敗した時点で
+  // i 以降すべての記事の評価と rescue 記録、さらに writeRunSummary までまとめて失われる
+  // （2026-07-26 に21本が丸ごと未記録になった形）。1本の失敗は1本に閉じ込める。
+  const evalsForCreated = [];
+  for (let i = 0; i < created.length; i++) {
+    const a = created[i];
+    const rv = createdReviews[i];
+    try {
       const objective = evaluateArticle(a, store); // 母集団は取り込み前の既存記事
       evalsForCreated.push(objective);
       await appendEvaluation({
@@ -194,29 +201,36 @@ if (!created.length) {
         // 誤読してしまう（実際は検査できていないだけ）。両方揃って初めて比較できる。
         ...(rv?.sourceFetched != null ? { sourceFetched: rv.sourceFetched } : {}),
       });
-      // 一度 veto され、修正リトライで救済された記事。veto ledger にも結果を残し、
-      // 救済率（rescued / (rescued + discarded)）を同じファイルから測れるようにする。
-      // 救済率が100%に張り付くのは「執筆改善」ではなく再査読のゲーム化のシグナル（SPEC §12.6）。
-      if (rv?.fixAttempted) {
-        try {
-          await appendVeto({
-            link: a.link,
-            headline: a.headline,
-            section: a.section,
-            source: a.source,
-            importance: a.importance,
-            critique: rv.initialCritique || rv.critique,
-            scores: rv.scores,
-            overall: rv.overall,
-            stage: 'refix',
-            outcome: 'rescued',
-          });
-        } catch { /* 記録の失敗は公開を妨げない */ }
-      }
+    } catch (err) {
+      ledgerFailures += 1;
+      console.error(`  WARN: 評価の記録に失敗しました（公開は完了済み）: ${a.slug} — ${err.message}`);
     }
+    // 一度 veto され、修正リトライで救済された記事。veto ledger にも結果を残し、
+    // 救済率（rescued / (rescued + discarded)）を同じファイルから測れるようにする。
+    // 救済率が100%に張り付くのは「執筆改善」ではなく再査読のゲーム化のシグナル（SPEC §12.6）。
+    if (rv?.fixAttempted) {
+      try {
+        await appendVeto({
+          link: a.link,
+          headline: a.headline,
+          section: a.section,
+          source: a.source,
+          importance: a.importance,
+          critique: rv.initialCritique || rv.critique,
+          scores: rv.scores,
+          overall: rv.overall,
+          stage: 'refix',
+          outcome: 'rescued',
+        });
+      } catch { /* 記録の失敗は公開を妨げない */ }
+    }
+  }
+  // ラン集計は独立させる。上のループで1本失敗しただけで集計まで消えるのを防ぐ。
+  try {
     await writeRunSummary(all, evalsForCreated);
   } catch (err) {
-    console.error(`  WARN: 評価の記録に失敗しました（公開は完了済み）: ${err.message}`);
+    ledgerFailures += 1;
+    console.error(`  WARN: ラン集計の記録に失敗しました（公開は完了済み）: ${err.message}`);
   }
 
   // --- Phase 4: LLM 画像一致チェックのターゲット抽出（境界スコアのみ・任意）---
@@ -240,6 +254,38 @@ if (!created.length) {
       console.log(`  [image-llm] 境界スコアの画像 ${targets.length} 件を査読対象に書き出し。`);
     }
   }
+}
+
+// ledger への記録に失敗したときは judge 出力を捨てない。
+// scores / overall / critique / suggestions / sourceFetched は **_review.json にしか無く**、
+// evaluations.jsonl へ書けなかった時点でここを消すと**復元不能**になる（客観指標のほうは
+// articles.json から再計算できるが、judge の判定は再現できない）。
+// 2026-07-26 に21本ぶんを復元できたのは、クラッシュ位置が偶然この削除より手前だったから。
+//
+// 退避先を data/quality/ にするのは、そこが git 追跡対象＝バックアップされる唯一の置き場だから
+// （data/ 直下の一時ファイルは gitignore なのでディスクが飛べば消える）。
+// vetoes.jsonl が既に critique / scores を追跡しているので、内容の露出としては新規ではない。
+// **その場に残さない**のが要点: _review.json のまま置くと、次に手動で ingest したときに
+// それが「今回の judge 判定」として読まれ、古い veto が新しい下書きを落としうる。
+if (ledgerFailures > 0 && existsSync(reviewPath)) {
+  const stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\..+/, 'Z');
+  const kept = path.join(ROOT, 'data', 'quality', `_review-failed-${stamp}.json`);
+  try {
+    await rename(reviewPath, kept);
+    console.error(`  judge 出力を退避しました: ${path.relative(ROOT, kept)}（ledger へ ${ledgerFailures} 件書けなかったため）`);
+  } catch (err) {
+    console.error(`  WARN: judge 出力の退避に失敗しました: ${err.message}`);
+  }
+  // 機械可読な運用イベントとしても残す（judge_absent / publish_blocked と同じ流儀）。
+  // 公開は止めない（評価機構の故障で公開事故を起こさない）。ディスク満杯なら
+  // この追記自体も失敗しうるので必ず握る。
+  try {
+    await appendFile(
+      path.join(ROOT, 'data', 'quality', 'incidents.jsonl'),
+      `${JSON.stringify({ ts: new Date().toISOString(), type: 'ledger_write_failed', failures: ledgerFailures })}\n`,
+      'utf8',
+    );
+  } catch { /* noop */ }
 }
 
 // 一時ファイルを掃除（judge の _review.json も含む）。

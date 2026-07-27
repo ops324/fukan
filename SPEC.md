@@ -102,7 +102,7 @@ AIニュースサイト/
 │   │   ├── evaluations.jsonl # 1記事1評価（客観指標＋judge 結果＋sourceFetched）
 │   │   ├── vetoes.jsonl      # 不採用にした下書き（critique 原文・categories・救済結果）
 │   │   ├── runs.jsonl        # 実行ごとのサイト集計
-│   │   └── incidents.jsonl   # 運用イベント（judge_absent / auth_failed / publish_blocked / candidates 等）
+│   │   └── incidents.jsonl   # 運用イベント（judge_absent / auth_failed / publish_blocked / ledger_write_failed / candidates 等）
 │   ├── .health             # 一時: 新規ゼロの連続回数（監視用・git管理外）
 │   ├── .status             # 一時: 最終実行の状態サマリ（人間が読む・git管理外）
 │   ├── _writer.log         # 一時: writer 出力の退避（認証エラー検査用・実行後に掃除）
@@ -572,6 +572,19 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
   握って黙るのではなく、握った上で**後から気づける**ようにするのが要点。
   なお現在は「レンダーしてから保存」により、レンダー失敗時はそもそも記事が保存されないため
   「公開済みなのに未記録」という乖離は構造的に起きない（残るのは記録処理自体の失敗と異常終了の窓）。
+  さらに 2026-07-27 に次の3点を足した:
+  - **try/catch は1記事ごと**（`ingestDrafts.js`）。ループ全体を包んでいたため、i 番目の失敗で
+    **i 以降すべての評価・rescue 記録・`writeRunSummary` までまとめて失われていた**。
+    1本の失敗は1本に閉じ込め、ラン集計は独立した try/catch にする。
+  - **judge 出力を捨てない**。`scores` / `overall` / `critique` / `suggestions` / `sourceFetched` は
+    `_review.json` にしか無く、`evaluations.jsonl` へ書けなかった時点で削除すると**復元不能**になる
+    （客観指標は `articles.json` から再計算できるが、judge の判定は再現できない）。
+    記録に失敗した回は `data/quality/_review-failed-<UTC>.json` へ **rename** する。
+    退避先が `data/quality/` なのは、そこが **git 追跡対象＝バックアップされる唯一の置き場**だから。
+    **その場に残さない**のが要点——`_review.json` のまま置くと、次の手動 ingest がそれを
+    「今回の judge 判定」として読み、古い veto が新しい下書きを落としうる。
+  - **`incidents.jsonl` に `ledger_write_failed`** を残し、`npm run check` は退避ファイルの存在を
+    警告する（replay して消す運用）。公開は止めない。
 - **本文MarkdownのXSS無害化（多層防御）**: 本文は外部ソース由来の素材から生成されるため、`src/markdown.js` の
   `mdToHtml()` は marked レンダラで**生HTMLトークンをテキスト化**し、リンク/画像の `href`/`src` を**プロトコル許可リスト**
   （`http(s)`／`mailto`／相対／アンカーのみ）で検証する。`javascript:`・`data:`・`vbscript:` 等は `#` に無害化。
@@ -715,7 +728,7 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
   対応見送り分に埋もれず、§6.2 の自動採用が再び silent に失敗し始めた回帰を検知できる）。
 - `calibration.jsonl` … 人間評価。
 - `incidents.jsonl` … 運用イベント（judge 不在 `judge_absent`／画像査読不在 `image_review_absent`／認証切れ `auth_failed`／
-  公開前ゲート赤 `publish_blocked`／候補選別の内訳 `candidates`）。日次を止めずに観測性だけ残す。`candidates` を足したのは、`fetchNews` の除外ログが
+  公開前ゲート赤 `publish_blocked`／ledger 書き込み失敗 `ledger_write_failed`／候補選別の内訳 `candidates`）。日次を止めずに観測性だけ残す。`candidates` を足したのは、`fetchNews` の除外ログが
   writer の CLI セッション内で消えて**どのログにも残らない**ことを実測で確認したため（除外が効きすぎ/効かなさすぎを
   検知できない状態だった）。
 - **`sourceFetched`**（`evaluations.jsonl` と `vetoes.jsonl` の両方）… judge がその出典を実際に読めたか。
