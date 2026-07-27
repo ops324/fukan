@@ -61,7 +61,7 @@ launchd（毎日 6:00 / 18:00）
        └─ 実行結果を data/scheduler.log に追記
 ```
 
-> 上図は**自動ジョブ**の経路（`main` へ直 push＝即本番）。**手動開発は PR ベース**で、`.github/workflows/check.yml` が Pull Request 上で `npm run check` を実行する（CI 緑を確認してマージ＝本番反映）。`main` にブランチ保護はかけていない（直 push 禁止にすると自動ジョブが止まるため）。詳細な手順は [CONTRIBUTING.md](CONTRIBUTING.md) を参照。
+> 上図は**自動ジョブ**の経路（`main` へ直 push＝即本番）。**手動開発は PR ベース**で、`.github/workflows/check.yml` が Pull Request 上で `npm run check` を実行する（CI 緑を確認してマージ＝本番反映）。`main` にブランチ保護はかけていない（直 push 禁止にすると自動ジョブが止まるため）。詳細な手順は [CONTRIBUTING.md](CONTRIBUTING.md) を参照。障害時の復旧手順は [docs/RUNBOOK.md](docs/RUNBOOK.md)。
 
 ---
 
@@ -468,9 +468,9 @@ allowlist ドメイン判定 `pressAllowlistCredit()` は `pressImage.js` から
 - スケジュール: 毎日 **6:00 / 18:00**（1日2回）
 - 実行: `scripts/auto-generate.sh`（ollama 不要・claude CLI を使用）
 - ログ: `data/scheduler.log`
-- **二重起動の排他**: `data/.harness.lock`（`mkdir` 原子性）。stale 判定の前に**ロック保持プロセスの生存を
-  `kill -0` で確認**し、生存していれば経過時間に関わらず奪わない（`ingestDrafts` の `articles.json`
-  書込み中の二重実行→破損を防ぐ）。プロセスが死んでいてかつ `LOCK_MAX_AGE`(3600s) 超のときだけ残骸として再取得する。
+- **二重起動の排他**: `data/.harness.lock`（`mkdir` 原子性）。保持者の同一性は **PID ＋ プロセス開始時刻**で判定し、
+  生存＝スキップ／死亡＝即再取得／生存だが `LOCK_MAX_AGE`(3600s) 超＝ハングとみなし奪う／保持者不明＝奪わない、
+  とする（詳細と背景は §11）。スキップした回は `data/.status` に残り、連続2回で通知する。
 - 健全性監視: 実行前後で `articles.json` の件数を比較。**異常終了・articles.json 破損・push 失敗・
   新規ゼロが3回連続**のとき macOS 通知（`osascript`）を出す。連続回数は `data/.health` に記録。
   さらに **候補が1件以上あるのに下書き0本（＝writer 失敗の疑い）** は3回を待たず**即時通知**する
@@ -539,7 +539,8 @@ allowlist ドメイン判定 `pressAllowlistCredit()` は `pressImage.js` から
   （通知は常に exit 0）。Webhook URL は秘密情報なので `.env` にのみ置く（`npm run check` の鍵混入検査の対象）。
 - **ソース変更ガード**: commit 前に `src/ templates/ scripts/ prompts/ package.json` の未コミット変更を検査し、
   あれば **auto-commit/push を中止して通知**する（作業途中コードが無人ジョブで自動公開される事故を防ぐ）。
-  生成物・`data/` は対象外。クリーンな通常時のみ `git add -A` → commit → push する。
+  生成物・`data/` は対象外。クリーンな通常時のみ **`git add -- data`** → commit → push する
+  （commit 対象を `data/` に限定する理由と、`main` 以外のブランチでは中止することは下の「commit/push の前提条件」）。
 
 ```sh
 # 状態 / 停止 / 再開 / 即時実行
