@@ -22,6 +22,8 @@ HEALTH_FILE="$PROJECT_DIR/data/.health"
 # 人間が一目で状況を掴むための状態ファイル（最終成功・直近エラー・連続失敗回数）。
 # 通知バナーは集中モード等で抑制され見落とされうるため、消えない形でも残す。gitignore 済み。
 STATUS_FILE="$PROJECT_DIR/data/.status"
+# ロック競合で連続スキップした回数。沈黙したまま公開が止まるのを防ぐ見張り。
+SKIP_FILE="$PROJECT_DIR/data/.lockskip"
 # writer 出力の退避先。認証エラーは終了コードに出ない（CLI は 401 でも exit 0 を返す）ため、
 # 出力そのものを検査する必要がある。gitignore の *.log でカバーされる。
 WRITER_LOG="$PROJECT_DIR/data/_writer.log"
@@ -78,29 +80,90 @@ fi
 
 # --- 二重起動防止ロック（stale 安全）---
 # クラッシュでロックが残ると両ジョブが無言停止＝記事ゼロになるため、古いロックは再取得する。
+# プロセスの開始時刻。PID だけでは同一性を判定できないため併用する。
+proc_start() { ps -o lstart= -p "$1" 2>/dev/null | tr -s ' ' | sed 's/^ *//;s/ *$//'; }
+
+# ロック情報: "PID 取得時刻(epoch) プロセス開始時刻"。開始時刻は空白を含むので必ず最後。
+write_lock_info() { printf '%s %s %s\n' "$$" "$(date '+%s')" "$(proc_start "$$")" > "$LOCK_DIR/info"; }
+
+# 「ロックを取った本人」が生きているか。開始時刻まで一致して初めて同一とみなす。
+# PID だけで見ると、macOS が PID を再利用した瞬間に無関係なプロセスを「実行中」と誤判定し、
+# **永久にスキップし続ける**（=公開が止まったまま誰も気づけない）。
+proc_alive() {
+  local cur
+  [[ -n "${1:-}" ]] || return 1
+  cur="$(proc_start "$1")"
+  [[ -n "$cur" ]] || return 1
+  [[ -z "${2:-}" ]] && return 0   # 旧形式のロック（開始時刻なし）は PID だけで判断
+  [[ "$cur" == "$2" ]]
+}
+
 acquire_lock() {
   if mkdir "$LOCK_DIR" 2>/dev/null; then
-    echo "$$ $(date '+%s')" > "$LOCK_DIR/info"; return 0
+    write_lock_info; return 0
   fi
-  local age=999999 started pid
-  [[ -f "$LOCK_DIR/info" ]] && pid="$(awk '{print $1}' "$LOCK_DIR/info" 2>/dev/null)"
-  [[ -f "$LOCK_DIR/info" ]] && started="$(awk '{print $2}' "$LOCK_DIR/info" 2>/dev/null)"
-  [[ -n "${started:-}" ]] && age=$(( $(date '+%s') - started ))
-  # ロック保持プロセスが生存していれば、age に関わらず奪わない（書込み中の二重実行→破損を防ぐ）。
-  if [[ -n "${pid:-}" ]] && kill -0 "$pid" 2>/dev/null; then
+  local pid started lstart age
+  if [[ -f "$LOCK_DIR/info" ]]; then
+    pid="$(awk '{print $1}' "$LOCK_DIR/info" 2>/dev/null)"
+    started="$(awk '{print $2}' "$LOCK_DIR/info" 2>/dev/null)"
+    lstart="$(cut -d' ' -f3- "$LOCK_DIR/info" 2>/dev/null | tr -d '\n')"
+  fi
+  # info が無い/壊れている＝mkdir 直後で書き込み前の可能性がある。「無限に古い」と見なすと
+  # 作りかけのロックを奪って二重実行になるため、ディレクトリの mtime を年齢の基準にする。
+  [[ "${started:-}" =~ ^[0-9]+$ ]] || started="$(stat -f %m "$LOCK_DIR" 2>/dev/null || echo 0)"
+  age=$(( $(date '+%s') - started ))
+
+  # 保持者が分からない（info をまだ書いていない＝mkdir 直後の可能性）。
+  # ここで奪うと二重実行になるため、LOCK_MAX_AGE を超えたときだけ残骸とみなす。
+  if [[ -z "${pid:-}" ]]; then
+    if [[ "$age" -ge "$LOCK_MAX_AGE" ]]; then
+      echo "WARN: 保持者不明の古いロック（${age}秒）を再取得します"
+      notify "保持者不明の古いロックを再取得しました。前回の自動ジョブが異常終了した可能性があります。"
+      rm -rf "$LOCK_DIR"
+      mkdir "$LOCK_DIR" 2>/dev/null && { write_lock_info; return 0; }
+    fi
+    echo "INFO: ロック情報を読めません（作成直後の可能性, age=${age}s）。今回はスキップします。"
+    return 1
+  fi
+
+  if proc_alive "$pid" "${lstart:-}"; then
+    # 生存していても LOCK_MAX_AGE を超えていればハングとみなして奪う。
+    if [[ "$age" -ge "$LOCK_MAX_AGE" ]]; then
+      echo "WARN: ロック保持プロセス(PID=$pid)が ${age}秒 終了していません。ハングとみなし再取得します"
+      notify "前回のジョブが ${age}秒 終了していません。ロックを再取得しました。"
+      rm -rf "$LOCK_DIR"
+      mkdir "$LOCK_DIR" 2>/dev/null && { write_lock_info; return 0; }
+    fi
     echo "INFO: 別のジョブが実行中（ロックあり, PID=$pid 生存, age=${age}s）。今回はスキップします。"
     return 1
   fi
-  if [[ "$age" -ge "$LOCK_MAX_AGE" ]]; then
-    echo "WARN: 古いロック（${age}秒）を再取得します（前回ジョブの異常終了の可能性）"
-    notify "古いロックを再取得しました。前回の自動ジョブが異常終了した可能性があります。"
-    rm -rf "$LOCK_DIR"
-    mkdir "$LOCK_DIR" 2>/dev/null && { echo "$$ $(date '+%s')" > "$LOCK_DIR/info"; return 0; }
-  fi
-  echo "INFO: 別のジョブが実行中（ロックあり, age=${age}s）。今回はスキップします。"
+
+  # 保持プロセスが死んでいる＝書込み中ではないので、年齢を待たずに再取得する。
+  # LOCK_MAX_AGE(3600s) を待つ設計だと、異常終了や Ctrl-C の残骸で最大1サイクル
+  # （＝12時間・記事2回分）公開が止まる。死んでいるなら待つ理由がない。
+  echo "WARN: 残骸のロックを再取得します（PID=${pid:-?} は不在, age=${age}s。前回ジョブの異常終了の可能性）"
+  notify "前回の自動ジョブが異常終了した形跡があります（残骸のロックを再取得しました）。" info
+  rm -rf "$LOCK_DIR"
+  mkdir "$LOCK_DIR" 2>/dev/null && { write_lock_info; return 0; }
+  echo "INFO: ロックの再取得に失敗しました（他ジョブと競合）。今回はスキップします。"
   return 1
 }
-acquire_lock || exit 0
+
+if ! acquire_lock; then
+  # スキップは従来**完全に沈黙**していた（status も通知も STREAK も残らず exit 0）。
+  # ロックが恒常的に残るとその見え方は「3日間停止」（2026-07-22〜25）と区別が付かない。
+  LOCK_SKIPS=0
+  [[ -f "$SKIP_FILE" ]] && LOCK_SKIPS="$(cat "$SKIP_FILE" 2>/dev/null || echo 0)"
+  [[ "$LOCK_SKIPS" =~ ^[0-9]+$ ]] || LOCK_SKIPS=0
+  LOCK_SKIPS=$(( LOCK_SKIPS + 1 ))
+  echo "$LOCK_SKIPS" > "$SKIP_FILE"
+  write_status "ロック競合でスキップ（連続 ${LOCK_SKIPS} 回）" "別のジョブが実行中と判断しました。続くようなら data/.harness.lock を確認してください。"
+  if [[ "$LOCK_SKIPS" -ge 2 ]]; then
+    notify "自動ジョブが ${LOCK_SKIPS} 回連続でロック競合によりスキップされました。記事が更新されていません。data/.harness.lock を確認してください。"
+  fi
+  exit 0
+fi
+rm -f "$SKIP_FILE"
 trap 'rm -rf "$LOCK_DIR"' EXIT
 
 BEFORE_COUNT="$(count_articles)"
@@ -311,6 +374,23 @@ if [[ "$AUTH_FAILED" -eq 0 && -z "$SRC_DIRTY" && -n "$(git status --porcelain 2>
     notify "公開前チェックに失敗したため push を中止しました。本番は前回の内容のままです。$(printf '\n%s' "$CHECK_FAILS")"
     printf '{"ts":"%s","type":"publish_blocked"}\n' "$(date -u +%FT%TZ)" \
       >> "$PROJECT_DIR/data/quality/incidents.jsonl"
+
+    # ブロック中の記事はワークツリーにしか無く、GitHub にも git の object にも入っていない。
+    # しかも案内している復旧手順 `git checkout -- data/articles.json` は**それを破棄する**。
+    # 退避ブランチへ commit + push しておけば、捨てる判断をしても後から取り戻せる。
+    # Vercel は main しか見ないので本番には影響しない。
+    # `git stash create` は作業ツリーも stash スタックも動かさずにコミットオブジェクトだけ作る。
+    # それを退避ブランチに指させて push すれば、記事は git の object と GitHub の両方に残る。
+    BLOCKED_SHA="$(git stash create 2>/dev/null || true)"
+    if [[ -n "$BLOCKED_SHA" ]]; then
+      BLOCKED_BRANCH="blocked/$(date '+%Y-%m-%d-%H%M')"
+      if git branch -f "$BLOCKED_BRANCH" "$BLOCKED_SHA" >/dev/null 2>&1 \
+        && git push -q origin "$BLOCKED_BRANCH" 2>/dev/null; then
+        echo "未公開の変更を $BLOCKED_BRANCH へ退避しました（main には影響しないので本番は動きません）"
+      else
+        echo "WARN: 未公開の変更を退避できませんでした。data/articles.json を消さないでください"
+      fi
+    fi
   fi
 fi
 
@@ -399,6 +479,7 @@ fi
 # 作業途中の src/templates 等のコードが、無人ジョブに巻き込まれて自動公開される事故を防ぐ。
 # 生成物・data/ は対象外。ソース系に未コミット変更があれば commit/push をスキップする。
 # SRC_DIRTY は公開前ゲートの判定でも使うため、上（記事数チェックの直後）で取得済み。
+CURRENT_BRANCH="$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo unknown)"
 if [[ "$AUTH_FAILED" -eq 1 ]]; then
   # 認証切れ＝記事は 1 本も増えていない。ここで commit すると incidents.jsonl の 1 行だけを抱えた
   # 「記事を更新」コミットが毎ラン積まれ、Vercel が無意味に再デプロイされる（「自動ジョブのコミットは
@@ -414,9 +495,21 @@ elif [[ "$rc" -ne 0 ]]; then
   # 通知は失敗した工程の側で既に出ているので、ここでは重ねない。
   echo "異常終了 (exit=$rc) のため commit/push をスキップします"
 # 本番(Vercel)へ自動反映: 変更があれば commit & push。push すると Vercel が自動デプロイ。
-elif [[ -n "$(git status --porcelain 2>/dev/null)" ]]; then
+elif [[ "$CURRENT_BRANCH" != "main" ]]; then
+  # ブランチを確認せずに commit すると、記事は**作業ブランチ**に積まれ、
+  # 直後の `git push origin main` は「ローカル main（＝変更なし）」を送って**成功と報告する**。
+  # ログには「push 完了」と出るのに本番には何も出ない、という沈黙した公開失敗になる。
+  # CLAUDE.md の「WIP をブランチに置けば自動ジョブに拾われない」は、この経路では成立しない。
+  echo "WARN: 現在のブランチが main ではありません（$CURRENT_BRANCH）。commit/push を中止します"
+  notify "作業ブランチ（$CURRENT_BRANCH）が checkout されたままのため、記事を公開できませんでした。main に戻してください。"
+  rc=1
+elif [[ -n "$(git status --porcelain -- data 2>/dev/null)" ]]; then
   echo "変更を検出 → git push（Vercel 自動デプロイ）"
-  git add -A
+  # 無人ジョブが commit してよいのは data/ だけ、と**許可リストで**限定する。
+  # `git add -A` だと vercel.json / .gitignore / .github/ / docs / assets まで巻き込み、
+  # 編集途中のまま 18:00 を迎えると本番のビルド設定が自動 push されうる
+  # （SRC_DIRTY ガードは src templates scripts prompts package*.json しか見ていない）。
+  git add -- data
   git commit -q -m "auto: $(date '+%Y-%m-%d %H:%M') 記事を更新
 
 Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>"
@@ -425,6 +518,17 @@ Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>"
   else
     echo "WARN: push 失敗（認証/ネットワークを確認）"
     notify "git push に失敗しました。Vercel に反映されていません。"
+  fi
+  # data/ 以外は commit しない。放置に気づけるようログには出す。
+  OTHER_DIRTY="$(git status --porcelain 2>/dev/null | grep -v ' data/' || true)"
+  if [[ -n "$OTHER_DIRTY" ]]; then
+    echo "INFO: data/ 以外の未コミット変更は commit していません:"
+    echo "$OTHER_DIRTY"
+    # assets/ だけは公開物なので別扱い。手動登録したプレス画像を置いたまま放置すると、
+    # articles.json は /assets/press/... を指しているのに実体が push されず**本番で 404** になる。
+    if printf '%s\n' "$OTHER_DIRTY" | grep -q 'assets/'; then
+      notify "assets/ に未コミットの変更があります。プレス画像なら本番で表示されません。手動で commit してください。"
+    fi
   fi
 else
   echo "変更なし（push スキップ）"

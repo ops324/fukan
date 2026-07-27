@@ -51,6 +51,8 @@ data/_review_fixed.json
 data/_writer.log
 data/scheduler.log
 data/.health
+# ロック競合で連続スキップした回数（ローカルの見張り用）
+data/.lockskip
 # 自動ジョブの状態（最終成功・直近エラー・連続失敗回数）。人間が一目で見るためのローカル状態。
 # 追跡すると毎ラン差分が出て「コミットは実質 articles.json のみ」の配信モデルを壊す。
 data/.status
