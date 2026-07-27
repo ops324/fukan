@@ -70,6 +70,26 @@ count_articles() {
   "$NODE_BIN" -e 'try{console.log(require("./data/articles.json").length)}catch(e){console.log(-1)}' 2>/dev/null
 }
 
+# --- ログのローテーション（同一 inode を保つ）---
+# launchd が StandardOutPath/StandardErrorPath でこのファイルの fd を掴んだまま走るため、
+# `mv` でのローテーションは使えない——launchd はリネーム後の inode に書き続け、
+# scheduler.log は次回起動まで再生成されない。`> "$LOG_FILE"` なら同じ inode を
+# truncate して書き戻すので fd は生き続ける。自分の出力が出る前に済ませる。
+# 実測 6KB/ラン・1日2回＝年5MB 程度なので、通常は何年も発火しない保険。
+LOG_FILE="$PROJECT_DIR/data/scheduler.log"
+LOG_MAX_BYTES=5242880    # 5MB を超えたら
+LOG_KEEP_BYTES=2097152   # 末尾 2MB だけ残す
+if [[ -f "$LOG_FILE" ]] && (( $(stat -f%z "$LOG_FILE" 2>/dev/null || echo 0) > LOG_MAX_BYTES )); then
+  # 退避名は data/*.tmp（gitignore 済み）にする。残骸が commit されないように。
+  if tail -c "$LOG_KEEP_BYTES" "$LOG_FILE" > "$LOG_FILE.tmp" 2>/dev/null; then
+    {
+      printf '===== %s ログを切り詰めました（これより前の行は破棄） =====\n' "$(date '+%Y-%m-%d %H:%M:%S')"
+      cat "$LOG_FILE.tmp"
+    } > "$LOG_FILE"
+  fi
+  rm -f "$LOG_FILE.tmp"
+fi
+
 echo "===== $(date '+%Y-%m-%d %H:%M:%S') Claude執筆ジョブ開始 ====="
 
 if [[ ! -x "$CLAUDE_BIN" ]]; then

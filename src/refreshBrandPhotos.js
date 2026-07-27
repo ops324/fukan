@@ -10,24 +10,47 @@
 // そこまでの成果を保存して終了する → 時間を空けて何度か実行すれば索引が育つ。
 //
 // 使い方: npm run refresh-brand-photos
-import { readFile, writeFile } from 'node:fs/promises';
+import { readFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import { searchCandidates } from './fetchImage.js';
 import { brandQueries, photoSlug } from './imageBrands.js';
+import { atomicWrite } from './atomicWrite.js';
 
-const indexPath = new URL('../data/brand-photos.json', import.meta.url);
+const indexPath = fileURLToPath(new URL('../data/brand-photos.json', import.meta.url));
+const indexLabel = 'data/brand-photos.json';
 
 let slugs = {};
 let done = [];
-try {
-  const prev = JSON.parse(await readFile(indexPath, 'utf8'));
+// 「ファイルが無い＝初回」と「壊れている＝異常」を区別する（store.js の loadArticles と同じ規律）。
+// 一緒くたに catch すると、破損時に索引を空から作り直し → レート制限で途中終了 → その部分索引で
+// **上書き**して、レート制限的に作り直しが高価な 1,700 件超の対応付けを静かに失う。
+if (existsSync(indexPath)) {
+  let raw;
+  try {
+    raw = await readFile(indexPath, 'utf8');
+  } catch (e) {
+    console.error(`✗ ${indexLabel} を読み込めません: ${e.message}`);
+    process.exit(1);
+  }
+  let prev;
+  try {
+    prev = JSON.parse(raw);
+  } catch (e) {
+    console.error(`✗ ${indexLabel} が壊れています（JSON として読めません）: ${e.message}`);
+    console.error('  空から作り直すと既存の索引を失います。git で復元するか、意図的に作り直すならファイルを削除してください:');
+    console.error(`    git checkout -- ${indexLabel}`);
+    process.exit(1);
+  }
   slugs = prev.slugs || {};
   done = prev.doneQueries || [];
   console.log(`既存の索引: ${Object.keys(slugs).length} 件 / 済み検索語 ${done.length} 個\n`);
-} catch { /* 初回 */ }
+}
 
 async function save() {
   const out = { generatedAt: new Date().toISOString(), doneQueries: done, slugs };
-  await writeFile(indexPath, `${JSON.stringify(out, null, 2)}\n`);
+  // 途中終了でも索引が半端な状態で残らないよう原子的に置き換える。
+  await atomicWrite(indexPath, `${JSON.stringify(out, null, 2)}\n`);
 }
 
 const pending = brandQueries.flatMap(({ key, queries }) =>

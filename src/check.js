@@ -79,6 +79,19 @@ async function checkRender(arts) {
         }
       }
     }
+
+    // --- 1d) sitemap の URL 数（警告のみ）---
+    // sitemaps.org の上限は 1 ファイル 50,000 URL。超えると検索エンジンが読まなくなる。
+    // Vercel の出力ファイル数やサイズより**こちらが先に効く**（SPEC §11）。
+    // 増加を牽引するのは記事ではなくタグページ（ユニークタグは記事数の 1.7 倍前後で増える）。
+    try {
+      const sm = await readFile(path.join(dir, 'sitemap.xml'), 'utf8');
+      const urls = (sm.match(/<loc>/g) || []).length;
+      if (urls >= config.sitemapWarnUrls) {
+        warn(`sitemap.xml の URL が ${urls} 件です（上限 50,000）。`
+          + ' sitemap index への分割か、記事数の少ないタグをページ化しない閾値の導入を検討してください');
+      }
+    } catch { /* sitemap 不在は上の expected チェックが検出する */ }
   } catch (err) {
     fail(`レンダーが例外で停止しました: ${err.message}`);
   } finally {

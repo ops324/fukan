@@ -509,6 +509,16 @@ allowlist ドメイン判定 `pressAllowlistCredit()` は `pressImage.js` から
     GitHub にも git の object にも入っていない。しかも案内している `git checkout -- data/articles.json` は
     **それを破棄する**。`git stash create`（作業ツリーも stash スタックも動かさずコミットだけ作る）で
     `blocked/<日時>` を作って push しておけば、捨てる判断をしても後から取り戻せる。Vercel は `main` しか見ない。
+- **ログのローテーション**: `data/scheduler.log` が 5MB を超えたら末尾 2MB を残して切り詰める。
+  launchd が `StandardOutPath`/`StandardErrorPath` でこのファイルの **fd を掴んだまま**走るため、
+  `mv` によるローテーションは使えない（launchd はリネーム後の inode に書き続け、`scheduler.log` は
+  次回起動まで再生成されない）。`> "$LOG_FILE"` で**同一 inode を truncate** して書き戻す。
+  実測 6KB/ラン・1日2回＝年5MB 程度なので、通常は何年も発火しない保険。
+- **`git` のオブジェクト肥大**: 2.4MB の `articles.json` を1日2回コミットするため loose object が溜まる
+  （実測 loose 55.6MiB / pack 5.4MiB。pack は 108 版を 5.4MB に収めており delta 圧縮がよく効く）。
+  既定の `gc.auto=6700` は**オブジェクト数**で判定するため、「少数だが巨大」なこのワークロードでは
+  約230日発火しない。リポジトリに `gc.auto=250` を設定して自動 gc が定期的に効くようにしている
+  （`gc.autoDetach` は既定のまま＝自動ジョブの commit をブロックしない）。
 - **ロックの同一性は PID ＋ プロセス開始時刻**（2026-07-27 修正）。従来は `kill -0` の生存確認が
   年齢判定より先に return していたため、**macOS が PID を再利用すると永久にスキップし続けた**。
   しかも `acquire_lock || exit 0` は `.status` も通知も STREAK も残さず沈黙するので、
@@ -658,6 +668,23 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
   `migrate-sections`／`backfill-images`）が**既存記事を空配列で全上書き**してしまうため。破損時は `npm run check` が
   赤、`build`（Vercel）は fail-loud（空サイト公開を防ぐ）になる。`auto-generate.sh` の `count_articles()` は
   `require()` 直読みで破損時 -1 を返し健全性監視が通知する（整合）。
+- **容量とスケールの見通し**（2026-07-27 実測）。1,076記事・30.4本/日 → 1年後およそ12,000記事。
+  - **最初に効く上限は Vercel ではなく `sitemap.xml` の 50,000 URL**（sitemaps.org の仕様）。
+    現在 2,830 URL＝記事1本あたり 2.7 URL なので、到達はおよそ18,600記事（2028年ごろ）。
+    `npm run check` が `config.sitemapWarnUrls`（40,000）で警告する。対処は sitemap index への分割。
+    ※ Vercel の「100MB」は **CLI アップロード**の制限でビルド出力には適用されない。
+    出力ファイル数も公式に上限は無い（10万件規模でビルドが長くなる、という案内があるだけ）。
+    `dist/` が 43MB・2,828ファイル → 1年後およそ490MB・3万ファイルになるが、これ自体は制約にならない。
+  - **ファイル数を牽引しているのは記事ではなくタグ**。`dist/tags` 1,756ファイル vs `dist/articles` 1,076ファイル。
+    ユニークタグは1,757個（1記事あたり4.5個・**新規タグが1記事あたり1.67個ずつ増える**）で、
+    大半が1記事しか持たない。減らすなら「N記事未満のタグはページを作らない」閾値が最も効く
+    （薄いページの量産は SEO 上も不利）。
+  - **render は線形ではない**。`relatedFor`（`render.js`）が記事ごとに全プールを走査する **O(N²)**。
+    実測 0.76→0.94ms/件（250→1,052件）の上昇がその項で、12,000記事では線形外挿の11秒ではなく
+    **35〜40秒**が見込み。Vercel のビルド上限（45分）には遠いが、「ほぼ線形」と誤解しないこと。
+    改善するならタグの転置索引（`render.js` が既に作っている `tagMap`）で候補を絞る。
+  - `config.retentionTop`（トップ）と `searchIndexMax`（検索索引）は**読者向けの負荷しか制限しない**。
+    ファイル数・`dist/` 容量・`articles.json` サイズ・`.git` の肥大は一切制限しない。
 - **`articles.json` の書き込みは原子的＋楽観的並行制御（CAS）**（2026-07-27 追加）。
   `articles.json` を「全体読み → 手元で変更 → 全体書き」する経路は7本あり（`ingestDrafts` /
   `applyImageReview` / `recheckImageBrands` / `recheckImageRelevance` / `backfill-images` /
