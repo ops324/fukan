@@ -1,5 +1,515 @@
 [
   {
+    "slug": "20260728-01",
+    "headline": "NVIDIAの手術ロボット向け生成シミュレータが実時間対応",
+    "lead": "医療ロボット訓練の新たな代替手段として、NVIDIA Cosmos-H-Dreamsが単一GPUで毎秒160フレームのリアルタイム手術シミュレーションを実現した。",
+    "body_markdown": "NVIDIA Cosmos-H-Dreamsは、手術ロボット向けの生成型シミュレーターで、初期フレームとロボットの動作データから次の動きを予測する。Hugging Faceで発表された同システムは、単一のNVIDIA RTX PRO 6000 GPUで毎秒160フレームで動作し、実時間のインタラクティブな環境を実現している。\n\n従来、手術ロボットの訓練には実機を用いるしかなく、機器が高額で操作に時間がかかるという課題があった。Cosmos-H-Dreamsは医師やAIシステムが手術手技を練習し、政策を評価し、実機を繰り返し運用することなく合成訓練データを生成できる環境を提供する。既に複数の医療ロボットプラットフォーム（dVRK、Versius）との統合も進行中で、医療現場での実用化が期待されている。",
+    "tags": [
+      "医療AI",
+      "ロボティクス",
+      "生成AI",
+      "医療技術"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+    "importance": 4,
+    "image_query": "surgical robot precision medical",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/68c1279544f671330c604f4c/Cj0RZwvOSUhFGFEFKgyDw.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:47.801Z",
+    "publishedAt": "2026-07-27T09:32:20.000Z"
+  },
+  {
+    "slug": "20260728-02",
+    "headline": "OpenAIが職務越境の大規模調査発表、80万ユーザーのChatGPT使用を分析",
+    "lead": "OpenAIの新報告書『Work at the Frontier』は、80万ユーザーの調査から、職種を超えてAIが仕事のあり方を変える『職務越境』現象を分析している。",
+    "body_markdown": "OpenAIが『Work at the Frontier: How AI is Expanding What People Do at Work』を発表した。同社が80万ユーザー以上のChatGPT利用者メッセージを分析した結果、職務関連メッセージの16.8%が他職種の業務に関するもので、職種別メッセージの43.5%が異なる職種と関連していることが明かされた。\n\n報告書では『職務越境』と名付けられたこの現象を説明している。小規模事業主がコピー文案の作成や契約書の確認、基本的な財務分析を独立して行い、営業担当者がAIで顧客データセットを探索し、マーケッターがウェブサイトのトラブルシューティングを開発者を待たずに実行するなど、職務のあり方が根本的に変わっていることが示されている。",
+    "tags": [
+      "労働",
+      "AI活用",
+      "職業変化",
+      "研究報告"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+    "importance": 4,
+    "image_query": "office work collaboration digital",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/51KOQJ7hZMnLcRbLNaOE0f/114791b3b8b669c3a504f3159e8e30de/SEO_Card__6_.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:47.992Z",
+    "publishedAt": "2026-07-27T03:30:00.000Z"
+  },
+  {
+    "slug": "20260728-03",
+    "headline": "生分解性埋め込み型が乳がんで60%の腫瘍を消滅させ、副作用を軽減",
+    "lead": "Houston Methodistが開発した米粒サイズの生分解性ナノファイバーデバイスが、免疫療法と放射線併用でトリプルネガティブ乳がんの試験で優れた効果を示した。",
+    "body_markdown": "Houston Methodist Research Instituteの研究チームが、がん治療用の生分解性ナノ繊維デバイス（b-NDES）を開発した。米粒ほどのサイズの同装置は腫瘍内に直接埋め込まれ、免疫刺激薬を長期間にわたってゆっくり放出する。腫瘍マイクロ環境で免疫細胞を活性化させ、その細胞が全身のがんを探し出す仕組みだ。\n\n前臨床試験で、本デバイスを放射線と2つの免疫療法と組み合わせてトリプルネガティブ乳がんに用いた場合、60%の症例で腫瘍が完全に消滅し、健康な組織への著しい副作用は起きなかった。装置は体内で自然に分解されるため手術的な除去が不要。Journal of Controlled Releaseに2026年7月に発表された同研究は、膵臓がんや肺がんなど他の固形腫瘍への応用も期待されている。",
+    "tags": [
+      "医学",
+      "免疫療法",
+      "がん治療",
+      "医療技術"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-biodegradable-implant-cancer-immunotherapy-healthy.html",
+    "importance": 4,
+    "image_query": "medical research laboratory microscope",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758206523826-a65d4cf070aa?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8bWVkaWNhbCUyMHJlc2VhcmNoJTIwbGFib3JhdG9yeSUyMG1pY3Jvc2NvcGV8ZW58MXwwfHx8MTc4NTE4NzQyOHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Navy Medicine",
+      "profileUrl": "https://unsplash.com/@navymedicine?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Scientist looks through a microscope in a laboratory.",
+      "description": "CARTAGENA, Colombia (Nov. 15, 2022) Hospitalman Emily Tamez, a medical laboratory technician assigned to hospital ship USNS Comfort (T-AH 20), looks at microorganisms through a microscope during a subject matter expert exchange at Hospital Naval de Cartagena in Cartagena, Colombia during Continuing Promise 2022, Nov. 15, 2022. Continuing Promise is a humanitarian assistance and goodwill mission conducting direct medical care, expeditionary veterinary care, and subject matter expert exchanges with five partner nations in the Caribbean, Central and South America. (U.S. Army photo by Cpl. Genesis Gomez)"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:49.008Z",
+    "publishedAt": "2026-07-27T20:50:01.000Z"
+  },
+  {
+    "slug": "20260728-04",
+    "headline": "フランス・スペインの大規模山火事、30万人以上が避難",
+    "lead": "フランスのGironde県を中心とした山火事が、戦後最大規模の非戦闘員避難を引き起こし、Bordeaux近郊まで迫ってきた。",
+    "body_markdown": "フランスとスペインを襲った大規模な山火事により、30万人以上が避難を余儀なくされている。フランス南西部のGironde県では22万人以上が避難し、42,000ヘクタール以上が焼失した。これはフランスの第二次世界大戦以降最大規模の平時避難である。火災はBordeauxから9マイル（約14km）まで迫り、市長Thomas Cazenaveは追加避難の準備を進めている。\n\n火災は自己給養型の竜巻を生成するほどの強さで広がった。2026年の時点でフランスは平年の3.4倍の火災発生数を経験し、スペインは1.7倍。避難民は展示会場やスポーツ施設に設営された一時収容所に収容されている。気候変動と猛暑が背景にある。",
+    "tags": [
+      "自然災害",
+      "気候変動",
+      "ヨーロッパ",
+      "避難"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/ckg34128nvpo",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/07/27/wildfire-pictures-spain-france-bordeaux-heatwave.html",
+        "name": "CNBC"
+      }
+    ],
+    "importance": 4,
+    "image_query": "wildfire forest smoke landscape",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1761420723335-021b324e3722?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8d2lsZGZpcmUlMjBmb3Jlc3QlMjBzbW9rZSUyMGxhbmRzY2FwZXxlbnwxfDB8fHwxNzg1MTg3NDMwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Chaitanya Rayampally",
+      "profileUrl": "https://unsplash.com/@chaitanya_rayampally?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Layered mountain peaks under a cloudy sky",
+      "description": "A moody black and white landscape photo showing layers of mountain ranges fading into a hazy, cloudy sky. A plume of smoke, possibly from a wildfire, rises from a distant valley nestled between dark, forest-covered slopes."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:50.038Z",
+    "publishedAt": "2026-07-27T20:34:55.000Z"
+  },
+  {
+    "slug": "20260728-05",
+    "headline": "Trump政権のサウジアラビア核協力、濃縮ウラン懸念で地政学リスク高まる",
+    "lead": "米国とサウジアラビアが平和的核協力協定に署名したが、ウラン濃縮の検査強化を求めない内容が非拡散政策の転換を示唆している。",
+    "body_markdown": "米国がサウジアラビアとの民間核協力協定（123協定）に署名し、Trumpが関係正常化条件を追加した。米国は原子炉と核燃料の供給でサウジを優先する一方、Trumpはサウジがアブラハム合意（イスラエル関係正常化）に署名することを条件とした。\n\nしかし懸念の声が上がっている。ABC Newsの報道によれば、米国はサウジに米国の監視下でのウラン濃縮施設建設を認める可能性を残しており、通常の協定で求められるAdditional Protocol（強化検査制度）をサウジに求めていない。これは数十年にわたる米国の不拡散政策からの大きな転換であり、イラン核合意の破棄に続く方針転換として批判されている。業界専門家は、この穴がイスラエル・イラン関係の緊張化リスクを高めると指摘している。",
+    "tags": [
+      "地政学",
+      "核問題",
+      "中東",
+      "米国政策"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/07/27/trump-nuclear-saudi-arabia-deal-iran-israel/",
+    "importance": 4,
+    "image_query": "nuclear facility reactor safety",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1574558250261-2f83edd59e41?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8bnVjbGVhciUyMGZhY2lsaXR5JTIwcmVhY3RvciUyMHNhZmV0eXxlbnwxfDB8fHwxNzg1MTg3NDMxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Dan Meyers",
+      "profileUrl": "https://unsplash.com/@dmey503?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Fallout Shelter signage",
+      "description": "This was in the basement of a nuclear power plant in Idaho. Why was I in the basement of a nuclear power plant in Idaho? Mind your own business. "
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:51.164Z",
+    "publishedAt": "2026-07-27T20:33:20.000Z"
+  },
+  {
+    "slug": "20260728-06",
+    "headline": "Claude共有チャットがGoogleで検索可能に、医療記録や内部文書が露出",
+    "lead": "Anthropicのクラウドシェア機能で作成された共有リンクがGoogle検索でインデックスされ、医療記録や機密文書が露出する事態が発生した。",
+    "body_markdown": "TechCrunchの報告によると、Claudeの「share chat」機能が生成する共有リンクが、Google検索で意図せずインデックスされていた。ユーザーが検索演算子「site:claude.ai/share」を使うと、数百の共有会話が表示されたという。\n\n露出した内容には医療記録と臨床試験データ、企業内部文書、子どもの氏名と電話番号、従業員の個人情報を含む人事評価、ビジネスコードなどが含まれていた。2025年の類似事件では約600の会話がインデックスされており、今回も同程度の規模と推定される。Anthropicは該当リンクをブロックして修復したが、一度露出したデータの扱いは不明。ユーザーは共有設定の見直しと過去の共有履歴確認が推奨されている。",
+    "tags": [
+      "セキュリティ",
+      "プライバシー",
+      "AI",
+      "インシデント"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+    "importance": 4,
+    "image_query": "cybersecurity data breach privacy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1740560051531-fe9884310974?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8Y3liZXJzZWN1cml0eSUyMGRhdGElMjBicmVhY2glMjBwcml2YWN5fGVufDF8MHx8fDE3ODUxODc0MzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A scrabble block spelling out the word data breach"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:52.122Z",
+    "publishedAt": "2026-07-27T20:19:42.000Z"
+  },
+  {
+    "slug": "20260728-07",
+    "headline": "Microsoftが初のサイバーセキュリティ専用AIモデルをリリース",
+    "lead": "Microsoftが脆弱性発見向け新型AIエージェントシステム『MDASH』と初のセキュリティ専用モデルを発表した。",
+    "body_markdown": "Microsoftがサイバーセキュリティ分野に特化したAIモデル群をリリースした。新しいエージェント型セキュリティシステム『MDASH』は、セキュリティ脆弱性を自動で探索・分析する。これまで手動で時間をかけていた脆弱性検証プロセスを大幅に自動化できる。\n\nMicrosoftはこのシステムを『Open Secure AI Alliance』の立ち上げと連動させて発表した。同アライアンスにはNvidia、SpaceX、IBM、Palantirなど40以上の企業が参加し、オープンソースのセキュリティツール開発に取り組む。これはOpenAI、Google、Anthropic、Metaが不在のまま形成された、東対西の業界勢力図が垣間見える動きとなっている。",
+    "tags": [
+      "セキュリティ",
+      "AI",
+      "ソフトウェア開発",
+      "業界動向"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+    "importance": 3,
+    "image_query": "cybersecurity code terminal",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:52.123Z",
+    "publishedAt": "2026-07-27T20:19:00.000Z"
+  },
+  {
+    "slug": "20260728-08",
+    "headline": "Amazonが5,105基の衛星配置を申請、2028年からスマートフォン直結サービス開始へ",
+    "lead": "AmazonがFCC承認申請した5,105基の衛星コンステレーションで、2028年からスマートフォンへの直接接続サービスを開始する計画だ。",
+    "body_markdown": "Amazonが大規模衛星インターネット事業『Amazon Leo』の拡張計画をFCCに申請した。新たに5,105基の衛星を追加配置し、Globalstarの衛星スペクトラムと統合することで、2028年までにスマートフォンへの直接デバイス接続（D2D）サービスを提供する。\n\nAmazonは既に390基以上を軌道上に配置し、2026年後半に初期サービスを開始予定だ。今回の計画が実現すれば、Amazonはスペースエックス（1万基以上）に次ぐ世界第2位の衛星事業者となる。本システムはSMS送信にとどまらず、リアルタイムのストリーミングと音声通話まで対応し、基地局が届きにくい遠隔地でのカバレッジ拡大が期待される。Globalstar統合による取引は2027年の完了を見込んでいる。",
+    "tags": [
+      "宇宙技術",
+      "インターネット",
+      "通信",
+      "インフラ投資"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2224233/amazon-wants-to-deploy-5105-satellites-for-its-direct-to-mobile-service/",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/07/27/amazon-satellite-internet-network.html",
+        "name": "CNBC"
+      }
+    ],
+    "importance": 4,
+    "image_query": "satellite space orbit earth",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1777277014848-75f637a24c0f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8c2F0ZWxsaXRlJTIwc3BhY2UlMjBvcmJpdCUyMGVhcnRofGVufDF8MHx8fDE3ODUxODc0MzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "NASA",
+      "profileUrl": "https://unsplash.com/@nasa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "The earth seen from space against blackness.",
+      "description": "Earth’s Crescent from Lunar Orbit art002e014066 (April 6, 2026) – The Artemis II crew captures an image of a crescent Earth on their journey around the Moon. Image Credit: NASA"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:52.793Z",
+    "publishedAt": "2026-07-27T21:00:00.000Z"
+  },
+  {
+    "slug": "20260728-09",
+    "headline": "OpenAI元幹部Ilya Sutskeverの超知能企業SSI、Nvidiaが50億ドル投資",
+    "lead": "OpenAIの元Chief Scientist・Ilya Sutskeverが立ち上げたSSI（Safe Superintelligence）がNvidiaから50億ドルの投資を受け、次世代計算基盤へのアクセスが確保された。",
+    "body_markdown": "NvidiaがSafe Superintelligence Inc.（SSI）への長期戦略パートナーシップを発表した。Bloombergの報道によれば投資規模は約50億ドルに達する。SSIはOpenAI副社長だったIlya Sutskeverが2024年に設立した企業で、AlexNet、AlphaGo、GPTモデルなど現代AI基盤への貢献者である。\n\nNvidiaはSSIに次世代GPU『Vera Rubin』プラットフォームへの優先アクセスを提供し、SSIの計算能力を1桁増加させる。両社は今後のNvidia計算プラットフォームの技術進化についても協力する。SSIは「安全な超知能」の実現を掲げる『straight-shot』研究所として、2年間静かに独自の研究方向を進めてきた。本投資はSSIの技術的信頼性が実証されたことを示すものとなった。",
+    "tags": [
+      "AI",
+      "投資",
+      "企業提携",
+      "超知能"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+    "importance": 4,
+    "image_query": "AI research computation data center",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1642775196125-38a9eb496568?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxBSSUyMHJlc2VhcmNoJTIwY29tcHV0YXRpb24lMjBkYXRhJTIwY2VudGVyfGVufDF8MHx8fDE3ODUxODc0MzN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Leif Christoph Gottwald",
+      "profileUrl": "https://unsplash.com/@project2204?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a bunch of television screens hanging from the ceiling"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:53.418Z",
+    "publishedAt": "2026-07-27T20:00:00.000Z"
+  },
+  {
+    "slug": "20260728-10",
+    "headline": "Nvidia・Microsoft・SpaceXが業界横断AI セキュリティ同盟、OpenAIは除外",
+    "lead": "Nvidiaが『Open Secure AI Alliance』を立ち上げ、40以上の企業がAIセキュリティの共通課題に取り組む中、OpenAIやGoogleは不参加のままだ。",
+    "body_markdown": "NvidiaがAIセキュリティ専門のオープンソース同盟『Open Secure AI Alliance』を発表した。Microsoft、SpaceX、IBM、CrowdStrike、Palantirなど40以上の企業が参加し、業界横断的なセキュリティツール開発に動く。\n\n同盟の立ち上げの背景には、7月21日に発生したOpenAIのモデルによるHugging Face侵害事件がある。当時、閉じたフロンティアAIモデルの安全ガードレールが、防御的なセキュリティ作業と悪意のある活動を区別できず、本来ならば実施されるべき法医学的分析をブロックしてしまった。本同盟はこの教訓から、オープンソース化による透明性と相互監視で、AIセキュリティの脆弱性に対抗する戦略を取る。注目すべきは、OpenAI、Google、Anthropic、Metaといったフロンティアモデル開発企業が発足メンバーから除外されたことだ。",
+    "tags": [
+      "AI",
+      "セキュリティ",
+      "業界提携",
+      "サイバー攻撃"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/articles/2026/7/27/nvidia-microsoft-open-ai-security",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/07/27/nvidia-ai-initiative-openai-cyber-attack.html",
+        "name": "CNBC"
+      }
+    ],
+    "importance": 4,
+    "image_query": "cybersecurity network defense",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1736430043488-0c369959a5c6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMnx8Y3liZXJzZWN1cml0eSUyMG5ldHdvcmslMjBkZWZlbnNlfGVufDF8MHx8fDE3ODUxODc0MzR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Synth Mind",
+      "profileUrl": "https://unsplash.com/@synthmind?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A computer generated image of a number of letters",
+      "description": "Neural Networks."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:54.346Z",
+    "publishedAt": "2026-07-27T20:00:00.000Z"
+  },
+  {
+    "slug": "20260728-11",
+    "headline": "GoogleのAI検索が市場デフォルトに、43%の検索で生成回答が表示",
+    "lead": "GoogleのAI Overviewsが検索全体の43%で表示され、生成AI による即時回答が情報検索の新常態となりつつある。",
+    "body_markdown": "GoogleがAI検索機能『AI Overviews』の普及状況を報告した。同機能は全検索の43%で表示されており、ユーザーは生成AIによる即座の回答を情報検索の標準として経験している。2026年1月、GoogleはGemini 3をAI OverviewsとAI Modeの両方でグローバル デフォルトに設定した。\n\nGoogle AI Modeの採用は急速だ。2025年6月の月間ユーザー数が1億2,600万だったのに対し、2026年5月には2億7,900万に達している。この1年で約10億人の月間ユーザーが増加した計算だ。一方、Googleの検索市場シェアは90.39%で、2025年の89.57%より若干上昇したものの、情報検索の15～20%が今やAIプラットフォーム経由で行われるようになった。検索体験そのものの変質を示すデータとなっている。",
+    "tags": [
+      "検索",
+      "AI",
+      "市場トレンド",
+      "テクノロジー"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
+    "importance": 4,
+    "image_query": "search engine results interface",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1762340278384-8a9f584672e9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxzZWFyY2glMjBlbmdpbmUlMjByZXN1bHRzJTIwaW50ZXJmYWNlfGVufDF8MHx8fDE3ODUxODc0MzV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zulfugar Karimov",
+      "profileUrl": "https://unsplash.com/@zulfugarkarimov?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Smartphone displaying search results for cop30"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:55.247Z",
+    "publishedAt": "2026-07-27T18:00:00.000Z"
+  },
+  {
+    "slug": "20260728-12",
+    "headline": "Xbox大規模停止でディスクゲーム起動不可、デジタル化時代の脆弱性露呈",
+    "lead": "Xboxサーバー停止がデジタル・ディスク両方のゲーム起動を阻止し、ディスク所有の意味を問う事態が発生した。",
+    "body_markdown": "7月27日、Xboxのサーバーが大規模停止し、ユーザーのゲームライブラリへのアクセス、ゲームの起動ともに不可能になった。問題はデジタル購入ゲームだけにとどまらず、物理ディスク購入ゲームの起動もブロックされた。\n\n影響を受けたサービスはアカウント・プロフィール、ストア・サブスクリプション、ゲーム・ゲーミング、アプリ・モバイルの4つ。複数時間の長時間停止となった。同停止はPlayStationの同様のサービス停止からわずか数日後に発生したもので、ゲーム機インフラストラクチャの脆弱性を示すものとなった。背景にはXboxの大型リストラ計画がある。同社は既に1,600人を削減し、2027年6月までに追加で1,600人削減予定だ。",
+    "tags": [
+      "ゲーム",
+      "インフラ停止",
+      "テクノロジー",
+      "デジタル化"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2224081/xbox-is-down-and-users-are-even-having-trouble-playing-disc-based-games/",
+    "importance": 3,
+    "image_query": "gaming console network offline",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:55.251Z",
+    "publishedAt": "2026-07-27T19:00:00.000Z"
+  },
+  {
+    "slug": "20260728-13",
+    "headline": "Spotify大規模停止、ウェブプレイヤーが数時間ダウン",
+    "lead": "Spotifyのウェブプレイヤーが7月27日に停止し、数千人のユーザーが『再生できません』エラーに直面した。",
+    "body_markdown": "7月27日午前、Spotifyが大規模な停止に見舞われた。報告は早朝5時頃から始まり、午前11時43分時点で3,000人以上、その後7,000人以上のユーザーが不具合を報告した。主な問題はウェブプレイヤーの機能停止で、楽曲再生失敗や曲が開始されないまま飛ばされる事象が報告された。\n\nさらに、Spotify Duo および Family プランへの招待受け入れにも問題が発生。デスクトップアプリケーションは一部ユーザーで正常に動作していたが、web playerの完全な麻痺は数時間継続した。Spotifyサポートは『Can\\'t play this right now』エラーの報告を受け、調査中と発表したが、技術的な原因は公開されていない。",
+    "tags": [
+      "音声ストリーミング",
+      "インフラ停止",
+      "テクノロジー",
+      "サービス"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2224515/spotify-is-experiencing-another-major-outage/",
+    "importance": 3,
+    "image_query": "music streaming app interface",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:55.252Z",
+    "publishedAt": "2026-07-27T20:28:35.000Z"
+  },
+  {
+    "slug": "20260728-14",
+    "headline": "中国がAIモデルを無料で世界配布、グローバルサウスの開発者エコシステムを掌握",
+    "lead": "中国がDeepSeek、Qwen等の高性能AIモデルを無料公開し、オープンソース戦略で米国の輸出規制に対抗、グローバルサウスの技術主導権を奪取しようとしている。",
+    "body_markdown": "Xi Jinping主席は7月17日の2026年世界人工知能会議で、各国に『レアな歴史的機会』を『オープンソース、公開性、協力と共有』を推進するよう呼びかけた。同時に中国外務省は29カ国が『世界人工知能協力機構』（Shanghai本部）の協定に署名したと発表。これはAI戦略における制度的な転換を示すものだ。\n\n背景には米国の戦略的な技術規制がある。米国はH100等の高性能GPUの中国への輸出を制限している。これに対し、中国はオープンソースAIモデルの無料配布で対抗している。DeepSeekやAlibaba Qwen等は既にグローバルサウス（アフリカ・南米・東南アジア）の開発者エコシステムで主導的立場を占めている。モデルを『グローバルな公共財』として定位置づけすることで、中国は米国中心のAIプラットフォーム生態系の外部に独立した技術圏を構築しようとしている。",
+    "tags": [
+      "AI",
+      "地政学",
+      "国際競争",
+      "技術規制"
+    ],
+    "section": "AI",
+    "source": "MIT Tech Review",
+    "link": "https://mitpress.mit.edu/2026/07/27/china-ai-models",
+    "importance": 4,
+    "image_query": "AI artificial intelligence technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1718241905559-f76f2718ddc1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMnx8QUklMjBhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg1MTg3NDM2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "BoliviaInteligente",
+      "profileUrl": "https://unsplash.com/@boliviainteligente?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a computer keyboard with a blue light on it",
+      "description": "AI, Artificial Intelligence, keyboard, machine learning, natural language processing, chatbots, virtual assistants, automation, robotics, computer vision, deep learning, neural networks, language models, human-computer interaction, cognitive computing, data analytics, innovation, technology advancements, futuristic systems, intelligent systems, smart devices, IoT, cybernetics, algorithms, data science, predictive modeling, pattern recognition, computer science, software engineering, information technology, digital intelligence, autonomous systems, IA, Inteligencia Artificial,"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:56.395Z",
+    "publishedAt": "2026-07-27T18:00:00.000Z"
+  },
+  {
+    "slug": "20260728-15",
+    "headline": "iOS 26.6が78個の脆弱性に対応、WebKit・カーネル・Mirroringを修正",
+    "lead": "Appleが90近いセキュリティ脆弱性に対応したiOS 26.6をリリース、iPhone Mirroring経由のプライバシー侵害を封じた。",
+    "body_markdown": "AppleがiOS 26.6、iPadOS 26.6、macOS Tahoe 26.6をリリースした。合計78個の脆弱性エントリ、87個のCVE番号に対応している。修正対象はApp Store、ニューラルエンジン、カーネル、WebKit、Wi-Fi、Siriの脆弱性に及ぶ。\n\n主な修正内容として、iPhone Mirroringo機能を経由してユーザーの機密データにアクセスする手法を防止（Accessibility状態管理の改善）、画像処理の脆弱性対応が挙げられる。また、同アップデートはiOS 27に向けたSpotlight index最適化も含む。Apple Maps保護強化も実装された。注目すべきは、Apple Security Advisory がこれらの脆弱性が野生で積極的に悪用されていたという記載がないことだ。定期的なセキュリティメンテナンスの一環と位置付けられている。",
+    "tags": [
+      "セキュリティ",
+      "Apple",
+      "ソフトウェアアップデート",
+      "脆弱性"
+    ],
+    "section": "テクノロジー",
+    "source": "9to5Mac",
+    "link": "https://9to5mac.com/2026/07/27/ios-26-6-fixes-over-75-security-issues-with-your-iphone-update-now/",
+    "importance": 3,
+    "image_query": "smartphone security update",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:56.396Z",
+    "publishedAt": "2026-07-27T18:00:00.000Z"
+  },
+  {
+    "slug": "20260728-16",
+    "headline": "BuzzFeedが35%をレイオフ、Byron Allenの買収で180人削減",
+    "lead": "Byron Allenが経営支配権を取得したBuzzFeedが180人のスタッフを削減し、ストリーミング・メディア企業への転換を急ぐ。",
+    "body_markdown": "Byron Allen がBuzzFeedの支配権を取得し、全体の35%にあたる180人のスタッフをレイオフした。削減対象はBuzzFeed、HuffPost、Tastyの各ブランドに及ぶ。リストラ関連の費用は6,500万～8,500万ドル に上り、2026年第3四半期に計上される見込み。\n\nAllenはBuzzFeedをYouTubeに対抗するストリーミング・メディア企業への転換を掲げている。同社の経営は赤字続きで、収益性と正のキャッシュフロー生成が不可欠だった。リストラは組織構造の合理化、運営経費の最適化、現金温存を目指すもの。業界内ではメディア企業の構造調整が加速する兆候として注視されている。",
+    "tags": [
+      "メディア",
+      "リストラ",
+      "ビジネス",
+      "業界変化"
+    ],
+    "section": "ビジネス",
+    "source": "Variety",
+    "link": "https://variety.com/2026/digital/news/buzzfeed-layoffs-employees-byron-allen-acquires-company-1236822122/",
+    "importance": 3,
+    "image_query": "office workplace business",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:56.398Z",
+    "publishedAt": "2026-07-27T20:00:00.000Z"
+  },
+  {
+    "slug": "20260728-17",
+    "headline": "水星が一時的な放射線帯を持つ、太陽から遠くなる時に現れる",
+    "lead": "University of MichiganとUC Berkeleyの研究チームが、水星が太陽に遠ざかる際に一時的な放射線帯を獲得することを発見した。",
+    "body_markdown": "長年、水星は地球のようなVan Allen帯（放射線帯）を持たない例外だと考えられてきた。しかし新しい研究で、水星も特定の条件下で一時的な放射線帯を形成することが判明した。\n\nUniversity of MichiganとUC Berkeleyの研究によると、水星が太陽から遠ざかる軌道上で、磁場が一時的に高エネルギー粒子をトラップする層が出現する。放射線帯が存在するには惑星が強い磁場を必要とするが、水星の磁場は微弱。しかし条件がそろえば、間欠的な帯状構造が形成されるという。この発見は太陽系内の磁気圏システム（地球、木星、土星、天王星、海王星）に加え、水星や金星、火星の磁気環境についての理解を深める。Journal of Geophysical Research に2026年7月掲載された同研究は、惑星磁気圏の上限エネルギー則を新たに提示している。",
+    "tags": [
+      "天文学",
+      "太陽系",
+      "磁場",
+      "惑星科学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-mercury-reveals-short-belts-sun.html",
+    "importance": 3,
+    "image_query": "planet mercury sun solar system",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:56.400Z",
+    "publishedAt": "2026-07-27T20:40:06.000Z"
+  },
+  {
+    "slug": "20260728-18",
+    "headline": "VerizonがGoogle向けダークファイバー契約10億ドル超、AI データセンター接続",
+    "lead": "VerizonがGoogleとの10億ドル超のダークファイバー契約を発表、AIインフラの急速な拡張に伴う大規模通信需要に対応する。",
+    "body_markdown": "Verizon CEO Dan Schulmanが第2四半期決算説明会で、GoogleとのダークファイバーインフラストラクチャAgreement（10億ドル超）を発表した。本契約によりVerizonはGoogleのデータセンター間接続にダークファイバー（未使用の光ファイバー）又はライトファイバーを提供する。\n\nVerizonは長距離・都市間ファイバー資産を活用し、GoogleのAI データセンター急速展開を支えるインフラを構築する。同契約は翌年からの収益化を見込み、年内に複数件の追加契約発表を予定。複数契約の合計では数十億ドル規模の長期収益が見込まれている。本件はAI インフラ整備への通信企業の深い関与を示す事例で、大規模言語モデル・生成AI需要に伴う物理インフラ投資の加速を反映している。",
+    "tags": [
+      "インフラ",
+      "通信",
+      "AI",
+      "ビジネス提携"
+    ],
+    "section": "ビジネス",
+    "source": "Verizon",
+    "link": "https://finance.yahoo.com/technology/ai/articles/verizon-signs-1-billion-dark-180950648.html",
+    "importance": 3,
+    "image_query": "fiber optic cable network",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:56.401Z",
+    "publishedAt": "2026-07-27T20:00:00.000Z"
+  },
+  {
+    "slug": "20260728-19",
+    "headline": "米第5巡回控訴裁がテキサス州のコンテンツフィルタリング法をブロック、Section 230が優先",
+    "lead": "テキサス州の児童オンライン安全法（HB18）のコンテンツ監視・フィルタリング要件が、Section 230連邦法により無効化された。",
+    "body_markdown": "米国第5巡回控訴裁判所が7月26日、テキサス州『Securing Children Online through Parental Empowerment Act』（HB18）のコンテンツ監視・フィルタリング要件をブロックする判決を下した。2-1の多数意見で、同要件がCommunications Decency Act Section 230により先制（preempted）されると判示。\n\nHB18は自傷、摂食障害、性的搾取を助長するコンテンツのフィルタリングをプラットフォームに義務付けていた。裁判部はこの要件が、プラットフォームの編集上の自由を保護するSection 230の基本的な枠組みと衝突すると判断。一方、未成年者への広告ターゲティング制限はテキサスが施行できるとして維持した。本判決は州レベルのAI・コンテンツ規制とSection 230の連邦優位性をめぐる継続的な緊張を浮き彫りにしている。",
+    "tags": [
+      "言論規制",
+      "法律",
+      "テクノロジー",
+      "児童保護"
+    ],
+    "section": "テクノロジー",
+    "source": "Ars Technica",
+    "link": "https://arstechnica.com/tech-policy/2026/07/5th-circuit-blocks-texas-law-requiring-websites-to-filter-harmful-speech/",
+    "importance": 3,
+    "image_query": "law justice courthouse",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:56.414Z",
+    "publishedAt": "2026-07-27T20:00:00.000Z"
+  },
+  {
+    "slug": "20260728-20",
+    "headline": "NASA宇宙飛行士Chris Williams帰還、241日間の国際宇宙ステーション滞在を終える",
+    "lead": "NASAの宇宙飛行士Chris WilliamsがSoyuz MS-28で地球に帰還、8ヶ月の宇宙ステーション滞在で初ミッションを完了した。",
+    "body_markdown": "NASA宇宙飛行士Chris Williamsが7月26日、ロスコスモスの宇宙飛行士Sergey Kud-SverchkovおよびSergei Mikaevと共に、Soyuz MS-28宇宙船でカザフスタンに帰還した。着陸時刻は現地時間午後3時27分（米中部時間午前5時27分）で、Dzhezkazgan東南に着地した。\n\nWilliamsは国際宇宙ステーション に241日間滞在、地球を3,856周回し、102百万マイル以上の宇宙距離を旅した。これが初めてのミッションで、新規がん治療研究の促進、高性能コンピュータ向け材料の宇宙製造、宇宙ステーション電力システムアップグレード準備の2度のEVA（船外活動）を実施した。特にCanadarm2ロボットアーム故障個所交換は、将来のロボット保守ミッション開発に重要な実績となった。",
+    "tags": [
+      "宇宙開発",
+      "NASA",
+      "国際協力",
+      "科学研究"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-return-from-space-station/",
+    "importance": 3,
+    "image_query": "space station astronaut capsule",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-27T21:23:56.415Z",
+    "publishedAt": "2026-07-26T20:00:00.000Z"
+  },
+  {
     "slug": "20260727-25",
     "headline": "豚への臓器移植に成功、冷却臓器の保存期間大幅延長",
     "lead": "テキサス大学の研究チームが、超冷却技術で腎臓を数日間保存したうえで豚への移植に成功し、移植後も正常に機能することを確認した。",
