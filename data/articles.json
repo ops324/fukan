@@ -1,5 +1,31 @@
 [
   {
+    "slug": "20260728-21",
+    "headline": "Hugging Faceでディープフェイク生成が容易に",
+    "lead": "研究者がHugging Faceのモデルで非合意ヌード画像を簡単に生成できることを検証。プラットフォームは悪用を防ぐ対策を強化する必要に迫られている。",
+    "body_markdown": "AI開発プラットフォーム「Hugging Face」が、明示的な性的ディープフェイク生成ツールをホストしているとの指摘が報告された。研究者チームが同プラットフォームのトップ画像編集モデルをテストしたところ、非合意のヌード画像を容易に生成できることが判明。実用的なテスト結果に基づいた警告だ。\n\n1000件を超える画像編集プロンプトが確認されており、特定の著名人や政治家を対象にした専用ツールも複数存在するという。一部のユーザーは十数の明示的な目的を掲げたツールをホストしており、プラットフォーム上の悪用の規模は想定より深刻だ。ツール群の検出と削除が対応の課題となっている。\n\n推定によれば、性的ディープフェイク被害の99%は女性と女児が対象で、多くは非合意での生成。個人の同意なく作成される画像は尊厳侵害であり、法的問題にもなり得る。Hugging Faceはオープンソース開発を促進する有用なプラットフォームだが、その自由度の高さから悪用する事例が急速に増加している。同社は利用規約の厳格な運用と AI による自動検出・防止メカニズムの強化が求められている。",
+    "tags": [
+      "AI",
+      "セキュリティ",
+      "ディープフェイク"
+    ],
+    "section": "テクノロジー",
+    "source": "WIRED",
+    "link": "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/",
+    "importance": 5,
+    "image_query": "ai model machine learning",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8YWklMjBtb2RlbCUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwxfDB8fHwxNzg1MjMwMjkyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a typewriter with a paper reading machine learning"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-28T09:18:13.034Z",
+    "publishedAt": "2026-07-28T05:30:00.000Z"
+  },
+  {
     "slug": "20260728-01",
     "headline": "NVIDIAの手術ロボット向け生成シミュレータが実時間対応",
     "lead": "医療ロボット訓練の新たな代替手段として、NVIDIA Cosmos-H-Dreamsが単一GPUで毎秒160フレームのリアルタイム手術シミュレーションを実現した。",
