@@ -1,5 +1,517 @@
 [
   {
+    "slug": "20260731-01",
+    "headline": "熊本地震 猛暑下でインフラ復旧加速",
+    "lead": "政府が電源車と給水車を配備し、被災地の避難環境確保に全力で対応中。",
+    "body_markdown": "熊本地震によって停電と断水が続いている被災地に対し、政府は猛暑対策を兼ねた支援を展開している。\n\n電源車の配備と給水車の派遣を急ぎ、避難所の冷房環境と飲料水の確保に努めている。気温がさらに上昇することが予報されており、ライフラインの復旧は急務だ。\n\n自治体および事業者と連携し、民間企業の協力も取り付け、官民一体でのインフラ復旧体制を敷いている。被災地のライフラインの一日も早い完全復旧を目指す。",
+    "tags": [
+      "災害",
+      "インフラ",
+      "日本"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015191441000",
+    "importance": 5,
+    "image_query": "earthquake disaster relief infrastructure",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1677233861443-4aac86420db2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxlYXJ0aHF1YWtlJTIwZGlzYXN0ZXIlMjByZWxpZWYlMjBpbmZyYXN0cnVjdHVyZXxlbnwxfDB8fHwxNzg1NDQ3OTcxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Çağlar Oskay",
+      "profileUrl": "https://unsplash.com/@oskaycaglar?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large pile of rubble sitting on top of a bridge",
+      "description": "İskenderun, Hatay Turkey - February.06,2023: In Iskenderun, one of the places most affected by the 7.7 magnitude earthquake centered in Kahramanmaraş, many buildings were destroyed and people died."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:12.031Z",
+    "publishedAt": "2026-07-30T20:19:30.000Z"
+  },
+  {
+    "slug": "20260731-02",
+    "headline": "USA-イラン 軍事衝突が再エスカレート",
+    "lead": "米軍の大規模攻撃にイラン側が報復、中東情勢が急速に悪化。",
+    "body_markdown": "中東地域の軍事緊張が急激に高まっている。米軍がイランの軍事施設に対し、指揮所など数十ヶ所への大規模攻撃を実施したと報じられている。\n\nこれに対してイランは中東に駐留する米軍への報復攻撃を実行。両国間の軍事的応酬が再び激化し、さらなるエスカレーションの懸念が強まっている。\n\nホルムズ海峡など国際的に重要な海峡の安定性も脅かされており、世界経済への波及効果も懸念される。",
+    "tags": [
+      "イラン",
+      "USA",
+      "地政学",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015191311000",
+    "importance": 5,
+    "image_query": "military conflict Middle East",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1777189979493-f1efe1e84c86?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxtaWxpdGFyeSUyMGNvbmZsaWN0JTIwTWlkZGxlJTIwRWFzdHxlbnwxfDB8fHwxNzg1NDQ3OTcyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Aleksei Filimonov",
+      "profileUrl": "https://unsplash.com/@peace_duck?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A desolate desert landscape with a rocky barrier"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:13.170Z",
+    "publishedAt": "2026-07-30T20:21:04.000Z"
+  },
+  {
+    "slug": "20260731-03",
+    "headline": "EA 550億ドルMBO 成立間近",
+    "lead": "Electronic Artsが550億ドルの非公開化ディールをクローズへ。",
+    "body_markdown": "ゲーム大手Electronic Arts(EA)の非公開化（MBO）が完成段階に入っている。Silver Lake、サウジアラビア政府系ファンド(PIF)、Jared Kusnerの投資ファンドが主導した550億ドル規模のディール。\n\n全ての規制承認を取得済みで、8月4日前後のクローズを予定している。株主は1株210ドルで受け取る。EAはRedwood Cityに本社を置き、Andrew Wilson氏がCEOを務める。\n\nこの規模のLBO(レバレッジド・バイアウト)は歴史上最大級となる。上場企業としての透明性が減少する一方で、長期戦略の実行に自由度が高まる。",
+    "tags": [
+      "M&A",
+      "ゲーム",
+      "テクノロジー",
+      "USA"
+    ],
+    "section": "ビジネス",
+    "source": "Variety",
+    "link": "https://variety.com/2026/gaming/news/electronic-arts-close-55-billion-private-deal-1236824625/",
+    "importance": 5,
+    "image_query": "video game company acquisition deal",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1759700524695-80eea58de687?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8dmlkZW8lMjBnYW1lJTIwY29tcGFueSUyMGFjcXVpc2l0aW9uJTIwZGVhbHxlbnwxfDB8fHwxNzg1NDQ3OTc0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Nahmar Saeed",
+      "profileUrl": "https://unsplash.com/@nahmarsaeed?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Hands holding a game controller playing a video game.",
+      "description": "Playing GOW with Stadia Controller"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:14.432Z",
+    "publishedAt": "2026-07-30T20:41:56.000Z"
+  },
+  {
+    "slug": "20260731-04",
+    "headline": "Hugging Face GPU管理 遊休資源の活用法",
+    "lead": "アイドル状態のGPUを有効活用し、AI計算効率を改善する新指針。",
+    "body_markdown": "Hugging Faceが公開したGPU管理ガイドでは、遊休GPUが航空機の駐機状態に例えられている。計算ジョブが実行されていない期間のGPU電力消費は無駄であり、配置の最適化が急務という認識。\n\nAI企業やデータセンター運営者向けに、GPU割り当ての効率化・スケジューリング・監視の手法を提示。複数のジョブを時間帯で切り替えるなど、ハードウェア投資の回収期間を短縮できる。\n\nグローバルなAI需要の増加に対し、限られた高性能GPU資源をいかに使い切るかが競争力の鍵となっている。",
+    "tags": [
+      "GPU",
+      "インフラ",
+      "効率化",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+    "importance": 4,
+    "image_query": "data center server infrastructure computing",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/69d815b52c6db28cfdfdd422/Ih3Nn6Wc1U_w_QpvEMXRY.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:14.742Z",
+    "publishedAt": "2026-07-30T15:09:09.000Z"
+  },
+  {
+    "slug": "20260731-05",
+    "headline": "Amazon AWS 37%成長 クラウド需要堅調",
+    "lead": "Q2売上42.2B・AI関連が25B超、アナリスト予想大幅上回る。",
+    "body_markdown": "Amazonの第2四半期決算でAWSが37%の成長を達成した。売上は42.2B（予想40.5B）。アナリスト予想31%成長を大幅に上回った。\n\nAI・機械学習関連サービスの売上が25B超に倍増。チップ・インフラ・API サービスが一体となり、企業のAI導入加速が鮮明。営業利益も16.62B（予想13.62B）と好調。\n\n株式は取引延長で9%上昇。企業向けクラウドの景気循環に対する耐性と、AI転換による需要の急伸が両立している。",
+    "tags": [
+      "AWS",
+      "クラウド",
+      "AI",
+      "Amazonビジネス"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+    "importance": 4,
+    "image_query": "cloud computing data center servers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1578410169170-021c8c9c1554?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8Y2xvdWQlMjBjb21wdXRpbmclMjBkYXRhJTIwY2VudGVyJTIwc2VydmVyc3xlbnwxfDB8fHwxNzg1NDQ3OTc1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Erik Mclean",
+      "profileUrl": "https://unsplash.com/@introspectivedsgn?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "empty lighted hallway"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:15.663Z",
+    "publishedAt": "2026-07-30T20:58:55.000Z"
+  },
+  {
+    "slug": "20260731-06",
+    "headline": "Apple Q3 売上過去最高 iPhone・Macが躍進",
+    "lead": "Q3売上109.4B過去最高、iPhone 22%・Mac 29%成長。",
+    "body_markdown": "Appleが2026年度Q3（7月30日終了）で売上109.4B（+16%、過去最高）を達成。iPhone は54.3B（+22%）、Mac は10.35B（+29%）。MacBook Neo(低コストライン)が好調。\n\n総利益29.8B（+27%）も市場予想を上回った。サービス部門は30B（+12%）だが、アナリスト予想を若干下回った。Tim Cook CEO最後のクォーターとなる。\n\nメモリ不足対策としての価格値上げにもかかわらず、販売数量が増加。ハードウェアの実質的な需要が強い状態を示唆している。",
+    "tags": [
+      "Apple",
+      "iPhone",
+      "Mac",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/973430/apple-q3-2026-earnings",
+    "importance": 4,
+    "image_query": "smartphone laptop Apple product",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1656078411660-05f2cf994d33?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxzbWFydHBob25lJTIwbGFwdG9wJTIwQXBwbGUlMjBwcm9kdWN0fGVufDF8MHx8fDE3ODU0NDc5NzZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Amjith S",
+      "profileUrl": "https://unsplash.com/@amjiths?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a cell phone on a table",
+      "description": "Apple Iphone 13 pro Max"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:16.294Z",
+    "publishedAt": "2026-07-30T20:49:32.000Z"
+  },
+  {
+    "slug": "20260731-07",
+    "headline": "Anthropic 供給チェーン規制ラベル却下",
+    "lead": "米連邦地裁がTrump政権の『脅威』認定に根拠不十分と判示。",
+    "body_markdown": "米国の連邦地裁がTrump政権によるAnthropicへの『供給チェーンリスク』ラベル付けに異議を唱えた。政権側が提示した証拠が不十分と判定。\n\nこれまで政権はAnthropicの技術がUSの産業基盤に脅威をもたらす可能性があると主張していたが、裁判所はその根拠の説得力を認めない判断を示した。\n\nAI企業への規制が国家安全保障を名目に行われる一方で、司法による厳格な審査が機能していることを示す判例。",
+    "tags": [
+      "AI",
+      "規制",
+      "USA",
+      "Anthropic"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
+    "importance": 4,
+    "image_query": "artificial intelligence technology policy regulation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1775185172785-4bbd6b0fc8f5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHRlY2hub2xvZ3klMjBwb2xpY3klMjByZWd1bGF0aW9ufGVufDF8MHx8fDE3ODU0NDc5Nzd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Galina Nelyubova",
+      "profileUrl": "https://unsplash.com/@galka_nz?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A name tag with ai written on it",
+      "description": ".AI Questioning. - is a 3D editorial illustration series about the risks, the benefits, and the responsibility in between Not anti-AI. Not pro-AI."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:17.155Z",
+    "publishedAt": "2026-07-30T20:26:38.000Z"
+  },
+  {
+    "slug": "20260731-08",
+    "headline": "Okta Permiso買収 AI脅威検知を強化",
+    "lead": "200M ドル買収で AI エージェント・非人間IDの脅威検知が可能に。",
+    "body_markdown": "Okta が AI セキュリティスタートアップ Permiso を約200Mドルで買収。Permiso は人間・非人間・エージェント型IDの脅威を多クラウド環境で検知・軽減する専門家。\n\nPermiso の技術により、Okta プラットフォームは AI エージェントの不正な権限昇格やマシン ID の乗っ取りを検知できるように。エンタープライズ向けAI導入時のセキュリティリスク低減に寄与。\n\nQ3末（10月末）のクローズを見込む。Permiso は2024年に Series A で8000万ドル評価を受けていた。",
+    "tags": [
+      "セキュリティ",
+      "AI",
+      "M&A",
+      "アイデンティティ"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
+    "importance": 4,
+    "image_query": "cybersecurity data protection identity access",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1768839722988-91767bb82b10?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8Y3liZXJzZWN1cml0eSUyMGRhdGElMjBwcm90ZWN0aW9uJTIwaWRlbnRpdHklMjBhY2Nlc3N8ZW58MXwwfHx8MTc4NTQ0Nzk3OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sasun Bughdaryan",
+      "profileUrl": "https://unsplash.com/@sasun1990?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Padlock and keys resting on a computer keyboard.",
+      "description": "Padlock on computer keyboard. Cyber security and data protection concept."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:18.139Z",
+    "publishedAt": "2026-07-30T16:09:42.000Z"
+  },
+  {
+    "slug": "20260731-09",
+    "headline": "ガラガラヘビ抗毒素 従来の10倍効果",
+    "lead": "ガラガラヘビの血液タンパク 複合使用で蛇毒中和性能が大幅向上。",
+    "body_markdown": "メリーランド大学の研究チームが、ガラガラヘビ自身の血液タンパク質を組み合わせた新型抗毒素を開発。従来の羊由来抗毒素と比べて中和能力が約10倍。\n\nクローズドラボ試験で、ウエスタンダイアモンドバックガラガラヘビの毒を完全に無毒化。さらに複数の危険な蛇毒種に対して広範な効果。\n\n毒蛇咬傷は WHO の推計で年8万～14万人が死亡。特に農村部での治療機会の不足が課題。低コスト製造と安全性の向上が期待される。",
+    "tags": [
+      "医療",
+      "生物工学",
+      "研究",
+      "公衆衛生"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-combined-rattlesnake-proteins-potent-current.html",
+    "importance": 4,
+    "image_query": "medical research antivenom biology laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1605176173609-a0067079b419?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxtZWRpY2FsJTIwcmVzZWFyY2glMjBhbnRpdmVub218ZW58MXwwfHx8MTc4NTQ0Nzk3OXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Myriam Zilles",
+      "profileUrl": "https://unsplash.com/@myriamzilles?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "blue textile on white table"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:19.617Z",
+    "publishedAt": "2026-07-30T20:40:05.000Z"
+  },
+  {
+    "slug": "20260731-10",
+    "headline": "サウジアラビア海上防衛同盟 14ヶ国が署名",
+    "lead": "紅海～ホルムズ海峡の国際航行路を守る多国籍同盟が発足。",
+    "body_markdown": "サウジアラビアが音頭を取り、14ヶ国の海上防衛同盟が結成。署名国はサウジ・クウェート・バーレーン・カタール・パキスタン・トルコ・エジプト・ヨルダン・イエメン・バングラデシュ・コモロ・スーダン・ジブチ・ソマリア。\n\n紅海・バブ・エルマンデブ海峡・アデン湾の戦略的海上回廊を保全し、国際航行の自由とエネルギー供給路を守る。情報共有・共同演習・合同作戦を実施予定。\n\nイスラエル・イラン紛争の激化に伴う海上脅威に対応する動き。43ヶ国が参加した協議にて正式化された。",
+    "tags": [
+      "中東",
+      "海上安全保障",
+      "エネルギー",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/30/saudi-arabia-announces-maritime-defence-alliance-to-secure-vital-waterways",
+    "importance": 4,
+    "image_query": "military naval ship ocean defense",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758656993377-e7be90b57557?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOHx8bWlsaXRhcnklMjBuYXZhbCUyMHNoaXAlMjBvY2VhbiUyMGRlZmVuc2V8ZW58MXwwfHx8MTc4NTQ0Nzk4MHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Navy Medicine",
+      "profileUrl": "https://unsplash.com/@navymedicine?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Divers swim underwater near a large ship",
+      "description": "15-3001-0568 Navy divers in their natural environment. QMC (DV) Terry Miranda (left) and HT2(DV) Bob Bekesz tread the waters near the Seventh Fleet Guided Missile Cruiser USS Sterett (CG-31) in Subic Bay. [Divers][Ship] \"Navy Dive Locker Gives Humanitarian Support\" by PHI T. Salois, USN"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:20.981Z",
+    "publishedAt": "2026-07-30T19:57:43.000Z"
+  },
+  {
+    "slug": "20260731-11",
+    "headline": "ハンガリー原子力発電停止 ドナウ河水位過去最低",
+    "lead": "44年ぶり全基停止 供給電力半減 欧州エネルギー危機が現実化。",
+    "body_markdown": "ハンガリーのパクス原子力発電所（2000MW）が 72 時間以内の全面停止を通達。ドナウ川の水位が過去最低を大幅更新し、冷却水確保が不可能に。\n\n同国電力供給の約半分を担う施設の喪失。ルーマニアも同様の理由で Cernavoda 原発の1基停止。大型産業ユーザー（自動車・電池メーカー）に消費制限要請。\n\n欧州の猛暑と異常低水位がエネルギー危機を実化。電力輸入インフラで 3600-3800MW の補完が可能だが、冬季需要期への不安は拭えない。",
+    "tags": [
+      "エネルギー",
+      "原子力",
+      "ドナウ川",
+      "欧州"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cn0nqv05g0do",
+    "importance": 4,
+    "image_query": "nuclear power plant energy electricity river",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1750074905875-a837f1e9f92e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8bnVjbGVhciUyMHBvd2VyJTIwcGxhbnQlMjBlbmVyZ3klMjBlbGVjdHJpY2l0eSUyMHJpdmVyfGVufDF8MHx8fDE3ODU0NDc5ODF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zoshua Colah",
+      "profileUrl": "https://unsplash.com/@zoshuacolah?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Power plant at dusk, next to water.",
+      "description": "A view of the Ravenswood Generating Station as seen from Roosevelt Island. Located in Long Island City, Queens, this 2,480-megawatt facility is operated by LS Power/Helix Energy Solutions Group. Once coal-powered, the plant has primarily used fuel oil and natural gas since 1971. Known for its towering red-and-white stacks, Ravenswood plays a key role in New York City’s energy grid. Notably, an early proposal included the construction of a nuclear reactor on the site, though it was never realized."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:21.914Z",
+    "publishedAt": "2026-07-30T17:55:24.000Z"
+  },
+  {
+    "slug": "20260731-12",
+    "headline": "LLM 根本的な脆弱性が発見 防御困難",
+    "lead": "プロンプト改変で指示者判別に失敗 全モデル共通の構造欠陥。",
+    "body_markdown": "独立系の研究者チーム(Charles Ye・Jasmine Cui ら)が、大規模言語モデル(LLM)全体に共通する根本的な脆弱性を報告。攻撃者がテキストで役割を詐称すれば、LLM が判別に失敗し安全訓練を迂回。\n\nテスト対象 ChatGPT・Claude なども、コカインの合成方法や航空機ナビゲーションの妨害方法など、本来出力すべきでない情報を提供可能に。\n\nCharles Ye 研究者は『この問題は構造的なため、従来の安全トレーニングでは根本解決困難』と指摘。AI システムの実運用リスク評価に影響を与える知見。",
+    "tags": [
+      "AI",
+      "セキュリティ",
+      "LLM",
+      "脆弱性"
+    ],
+    "section": "AI",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+    "importance": 4,
+    "image_query": "cybersecurity artificial intelligence attack vulnerability",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxjeWJlcnNlY3VyaXR5JTIwYXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGF0dGFjayUyMHZ1bG5lcmFiaWxpdHl8ZW58MXwwfHx8MTc4NTQ0Nzk4Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Spiske",
+      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black and gray laptop computer turned on"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:22.923Z",
+    "publishedAt": "2026-07-30T10:15:19.000Z"
+  },
+  {
+    "slug": "20260731-13",
+    "headline": "LinkedIn 『AI ゴミ投稿』報告ボタン実装",
+    "lead": "41%の長文投稿が AI 生成と推定 プラットフォーム品質対策急ぐ。",
+    "body_markdown": "LinkedIn が『Seems like AI Slop』報告ボタンを全ユーザーに公開。投稿の3点メニューから1クリックで質の低い AI 生成コンテンツをフラグ可能に。\n\n同社の調査では LinkedIn の長文投稿の約41%、短文の約30%が AI 生成の疑い。AI 執筆補助ツールも廃止し、プルーフリーディング機能に切り替え。\n\nプロフェッショナル・ネットワークとしての信頼性維持が急務。ユーザーフィードバックを学習して投稿ランキング改善に反映する仕組み。",
+    "tags": [
+      "SNS",
+      "AI",
+      "コンテンツ品質",
+      "プラットフォーム"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/",
+    "importance": 4,
+    "image_query": "social media content moderation platform",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1657974361095-4d5f3fb381fb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMHx8c29jaWFsJTIwbWVkaWElMjBjb250ZW50JTIwbW9kZXJhdGlvbiUyMHBsYXRmb3JtfGVufDF8MHx8fDE3ODU0NDc5ODN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "hookle.app",
+      "profileUrl": "https://unsplash.com/@hookle?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a calculator",
+      "description": "Social media worlds on the white table. Want to know more about social media marketing? Read on: www.hookle.net/post/what-is-social-media-marketing-and-why-is-it-important-for-small-businesses"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:23.935Z",
+    "publishedAt": "2026-07-30T18:05:21.000Z"
+  },
+  {
+    "slug": "20260731-14",
+    "headline": "Google Chrome バグ修正 1072 件 AI で加速",
+    "lead": "6月だけで過去2年分を超える 1072 件のセキュリティ修正。",
+    "body_markdown": "Google が Chrome 149・150 の2バージョン合計で 1072 件のセキュリティバグ修正を発表。過去 23 バージョン（2年間）の 1036 件を1ヶ月で上回った。\n\nGemini 活用の脆弱性検出エージェントが、Chrome コードベース全体をスキャン。同時に AI で修正案の検証・優先付け・テストを自動化。\n\n6月末の単一パッチは 382 件。クリティカル脆弱性 18 件も含む。AI による検出・修正の自動化がセキュリティリスク低減を加速させている。",
+    "tags": [
+      "セキュリティ",
+      "Chrome",
+      "Google",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
+    "importance": 4,
+    "image_query": "software development cybersecurity patch update",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8c29mdHdhcmUlMjBkZXZlbG9wbWVudCUyMGN5YmVyc2VjdXJpdHklMjBwYXRjaCUyMHVwZGF0ZXxlbnwxfDB8fHwxNzg1NDQ3OTg0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "charlesdeluvio",
+      "profileUrl": "https://unsplash.com/@charlesdeluvio?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person facing computer desktop",
+      "description": "Front-End Development"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:24.753Z",
+    "publishedAt": "2026-07-30T18:57:58.000Z"
+  },
+  {
+    "slug": "20260731-15",
+    "headline": "Diane Abbott 労働党復帰 懲罰終了後の再出発",
+    "lead": "差別論評で1年弱の停止を経て 72 歳の老練議員が復権。",
+    "body_markdown": "英労働党が長年の重鎮 Diane Abbott を正式に復帰承認。2023年の『ユダヤ系は人種差別でなく偏見を受ける』発言、および 2025年7月の再停止から約1年を経た。\n\n独立調査委が両件の調査を終了。Abbott は過去コメントを謝罪。政党懲罰と独立審査プロセスの両立が機能した例。\n\nHackney North・Stoke Newington 選出の 40 年超ベテラン。Burnham 新首相下での復権は、野党内和解の象徴的意味を持つ。",
+    "tags": [
+      "労働党",
+      "英国",
+      "政治",
+      "差別問題"
+    ],
+    "section": "政治",
+    "source": "BBC Politics",
+    "link": "https://www.bbc.co.uk/news/articles/cy5dwd1p374o",
+    "importance": 3,
+    "image_query": "politics parliament government UK",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:24.771Z",
+    "publishedAt": "2026-07-30T20:54:11.000Z"
+  },
+  {
+    "slug": "20260731-16",
+    "headline": "Nscale Anyscale買収 計算スタック統合へ",
+    "lead": "1.65B ドル買収で AI ワークロード管理を一本化 GPU 収益性最適化。",
+    "body_markdown": "英国ネオクラウド Nscale が AI スケーリング Anyscale を 1.65B ドルで買収。LLM 訓練・サービング・推論の大規模ワークロード管理を統合。\n\nAnyscale は Ray フレームワーク創業者チーム発。200 名全員が Nscale へ参加。\n\nNscale は既に GPU インフラ・データセンター・ソフト・エネルギー事業を保有。この買収で上下統合が加速。GPU 時間単位の収益性（AI ワークロード効率）を最大化する戦略。",
+    "tags": [
+      "M&A",
+      "AI",
+      "インフラ",
+      "クラウド"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/",
+    "importance": 3,
+    "image_query": "cloud computing infrastructure technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:24.772Z",
+    "publishedAt": "2026-07-30T15:19:15.000Z"
+  },
+  {
+    "slug": "20260731-17",
+    "headline": "女性彫刻専門庭園 消失危機に直面",
+    "lead": "ロンドン Temple 駅屋上『Artist's Garden』が『VIP 宴会場』化の危機。",
+    "body_markdown": "ロンドン中心部 Temple 地下鉄駅の屋上に 2021 年開設された『Artist's Garden』。世界唯一の女性彫刻家専門庭園として 6000 年の歴史を持つ地に再興。\n\n創設者 Claire Mander 率いる theCoLAB は、テムズ河のパノラマと VIP 宴会スペース化のリスク。『庭園から汎用イベント会場へ』の転換により、芸術的使命を喪失する恐れ。\n\n英国の建造物景観に女性の視点を埋め込む希少な取り組み。公共空間の商業化との葛藤。",
+    "tags": [
+      "アート",
+      "女性",
+      "公共空間",
+      "ロンドン"
+    ],
+    "section": "カルチャー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/artanddesign/2026/jul/30/fight-save-artists-garden-womens-sculpture-park",
+    "importance": 3,
+    "image_query": "sculpture garden art public space",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:24.773Z",
+    "publishedAt": "2026-07-30T10:13:26.000Z"
+  },
+  {
+    "slug": "20260731-18",
+    "headline": "AI 業界 『前線配置エンジニア』が人手不足",
+    "lead": "2000 人限定 enterprise AI 成功の最後1マイル埋める人材が枯渇。",
+    "body_markdown": "高度に専門化した Forward Deployed Engineer(FDE)が AI 業界のボトルネック。研究によると顧客の ROI を生み出せるレベルの FDE は全米で約 2000 人のみ。\n\nPalantir（FDE 発祥）・OpenAI・Anthropic が 70% の企業が FDE 採用計画中。大手コンサル，サービス企業は FDE チーム 20～100 名超の採用を計画。\n\nモデル開発より『実装』『カスタマイズ』『本番運用』の人材が、現在の AI 転換の限界要因。",
+    "tags": [
+      "採用",
+      "AI",
+      "人材",
+      "エンジニア"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession/",
+    "importance": 3,
+    "image_query": "engineering work technology development career",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:24.774Z",
+    "publishedAt": "2026-07-30T15:00:00.000Z"
+  },
+  {
+    "slug": "20260731-19",
+    "headline": "映画のチェロ 感情表現の『Meryl Streep』",
+    "lead": "弦楽器だけが映画主人公に昇華 音色と視覚が一体化する稀有性。",
+    "body_markdown": "映画音楽でチェロが独特な地位を占めている。声帯に近い広大な音域・人間的な呼吸感・奏者の身体的表現性が、スクリーンで感情の『キャラクタ』として機能。\n\n『Devil Wears Prada 2』『Behemoth!』など近作でチェロ奏者が主人公級の扱い。ヴァイオリンやピアノと異なり、弦楽器中でもチェロだけが『感情そのもの』として映画化される傾向。\n\n映像と音響が融合した特異な現象。他楽器では代替不可能な、スクリーン固有の『映画的主人公性』を備える。",
+    "tags": [
+      "映画",
+      "音楽",
+      "チェロ",
+      "アート"
+    ],
+    "section": "カルチャー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/film/2026/jul/30/its-the-meryl-streep-of-the-orchestra-why-cinema-loves-the-cello",
+    "importance": 3,
+    "image_query": "cello musical instrument orchestra classical music",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:24.775Z",
+    "publishedAt": "2026-07-30T14:00:16.000Z"
+  },
+  {
+    "slug": "20260731-20",
+    "headline": "UNESCO West Bank 遺産登録 イスラエル反発",
+    "lead": "Sebastia 遺跡とレバノン城塞が緊急登録 『危機遺産』指定同時に。",
+    "body_markdown": "UNESCO 委員会が West Bank の Sebastia（古代遺跡）とレバノンの Mount Amel Castles をWorld Heritage に登録。紛争地での保全の緊急性を背景に、登録と『危機遺産』指定を同時実施。\n\nSebastia は鉄器時代からイスラム期まで続く層状遺構。パレスチナ側が 2012 年から登録申請中。イスラエルは強く反発。\n\nSebastia が新たに世界遺産として登録される。文化的アイデンティティ保全が法制度で支えられる効果がある一方、地政学的対立の象徴化する側面も。",
+    "tags": [
+      "UNESCO",
+      "遺産",
+      "Palestine",
+      "イスラエル"
+    ],
+    "section": "カルチャー",
+    "source": "Hyperallergic",
+    "link": "https://hyperallergic.com/israel-incensed-as-unesco-adds-lebanese-and-west-bank-sites-to-world-heritage-list/",
+    "importance": 3,
+    "image_query": "archaeology heritage site ancient ruins",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-30T21:46:24.777Z",
+    "publishedAt": "2026-07-30T16:21:37.000Z"
+  },
+  {
     "slug": "20260730-11",
     "headline": "OpenAIがARC-AGI-3ベンチマークでスコア飛躍的改善、2設定で解精度大幅向上",
     "lead": "OpenAIのGPT-5.6 Solが、ベンチマーク評価の設定を変更することで、ARC-AGI-3パズルの解精度を大幅に改善した。",
