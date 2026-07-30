@@ -1,5 +1,263 @@
 [
   {
+    "slug": "20260730-11",
+    "headline": "OpenAIがARC-AGI-3ベンチマークでスコア飛躍的改善、2設定で解精度大幅向上",
+    "lead": "OpenAIのGPT-5.6 Solが、ベンチマーク評価の設定を変更することで、ARC-AGI-3パズルの解精度を大幅に改善した。",
+    "body_markdown": "OpenAIは7月29日、AIモデル「GPT-5.6 Sol」がARC-AGI-3ベンチマークで3倍のスコア改善を達成したと発表した。\n\nARC-AGI-3は、2D形式のパズルゲームを解く能力を測る汎用知能ベンチマーク。公式ハーネスでの評価時、GPT-5.6 Solのスコアは7.8%、GPT-5.5は0.4%に留まっていた。しかしOpenAIが評価方法の設定を見直すと、状況は一変。GPT-5.6 Solは全6段階をクリアし、ベンチマーク上でフロンティアモデル中の唯一のクリアモデルとなった。\n\n改善の鍵は、推論プロセスの保持と圧縮を可能にする新しいハーネスの導入にあった。OpenAIが新ハーネスを用いたところ、公式評価では解けなかった難問も解けるようになった。\n\nOpenAIは「ベンチマークはAIモデルそのものだけでなく、評価方法という見えない選択肢も測定している」と指摘。同じモデルでも、APIの設計やパラメータの設定一つで、実際の能力の引き出し方が大きく異なることを示唆した。これは、汎用AI性能の評価がいかに複雑であるか、業界に警鐘を鳴らす発見。\n\nGPT-5.6 Solは数学の難問や複雑なゲーム攻略でも成果を上げており、パズル評価の改善は、より実用的なAI能力評価モデルの構築に向けた一歩となる可能性がある。",
+    "tags": [
+      "AI評価",
+      "GPT-5.6",
+      "ベンチマーク"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/how-two-settings-tripled-our-scores-on-the-arc-agi-3-benchmark",
+    "importance": 5,
+    "image_query": "artificial intelligence puzzle solving",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1637094408647-0d81d08f81b5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwcHV6emxlJTIwc29sdmluZ3xlbnwxfDB8fHwxNzg1NDAzMjk4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vardan Papikyan",
+      "profileUrl": "https://unsplash.com/@varpap?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a person holding two pieces of a puzzle",
+      "description": "Female hands holding 2 pieces of the puzzle in the background of trees"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T09:21:39.143Z",
+    "publishedAt": "2026-07-29T15:00:00.000Z"
+  },
+  {
+    "slug": "20260730-12",
+    "headline": "Samsungモバイル部門、初の赤字計上 AI需要によるメモリ価格上昇が圧迫",
+    "lead": "Samsungのスマートフォン部門が第2四半期に初の赤字を記録。AI関連の半導体需要増加が部品コストを上昇させた。",
+    "body_markdown": "Samsung Electronics は2026年第2四半期（4～6月）、モバイル部門で初めての赤字を計上した。赤字額は800億ウォン（約5億4400万ドル）。スマートフォン販売自体は堅調だったにもかかわらず、部品コスト上昇に利益が圧倒されたかたちだ。\n\n赤字の主因は、生成AI需要による半導体価格の急騰にある。データセンター向けの高性能メモリ（HBM）需要が記録的に高まり、業界全体のメモリ市場が逼迫。Samsungを含むスマートフォンメーカーは、DRAM、NAND型フラッシュメモリなどの調達コストが著しく増加した状況に直面している。\n\nGalaxy S26 UltraやGalaxy Z Fold 8といった高級モデルは利幅を確保したが、200～500ドル帯の中価格スマートフォンは、元々の薄いマージンがさらに圧迫された。部品原価が予想以上に上昇し、採算割れを余儀なくされたという。\n\nただし、同社の半導体製造部門（DS Division）は恩恵を受けた。四半期売上が56%増加し、歴史的高利益を計上。データセンター向けHBMの需要急増によるもので、社内で利益の源泉が大きく移動している構図が浮き彫りになった。\n\nこの状況は消費者にも波及する見通し。スマートフォン業界全体で価格上昇圧力が高まり、特に低価格帯製品で値上げ幅が大きくなる可能性がある。",
+    "tags": [
+      "Samsung",
+      "スマートフォン",
+      "AI半導体"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2226808/samsung-mobile-division-posts-first-ever-loss-due-to-soaring-memory-prices/",
+    "importance": 4,
+    "image_query": "smartphone manufacturing chip production",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1733741086341-7f1641dae0cc?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxzbWFydHBob25lJTIwbWFudWZhY3R1cmluZyUyMGNoaXAlMjBwcm9kdWN0aW9ufGVufDF8MHx8fDE3ODU0MDMyOTl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "OMAR SABRA",
+      "profileUrl": "https://unsplash.com/@omarsabra64?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A close up of a computer mother board",
+      "description": "A close-up image of a circuit board, showcasing intricate electronic components. The board is dark green with gold-colored traces, and it's populated with various chips, capacitors, resistors, and other electronic components. The image highlights the complexity and precision involved in modern electronics."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T09:21:40.104Z",
+    "publishedAt": "2026-07-30T08:04:28.000Z"
+  },
+  {
+    "slug": "20260730-13",
+    "headline": "GoogleのAI Mode、実生活の課題をリアルタイム解決 スケジュール連携や商品検索に対応",
+    "lead": "GoogleがSearch のAI Mode活用法を5つのシーン別に公開。オフライン生活を効率化する実践的な機能を紹介した。",
+    "body_markdown": "Googleは7月28日、検索の新機能「AI Mode」による実生活への活用方法を5つのシーン別に紹介した。生成AI がオフライン時間をどう豊かにするかを示す事例集となっている。\n\n①カレンダー連携でレッスン探し\nユーザーのカレンダーと連携させれば、「初心者向けテニスレッスンは？」という質問に対し、自分の予定が空いている時間帯に対応したレッスンが提案される。スケジュール調整が自動化される利点がある。\n\n②登山用装備の買い物支援\nハイキングブーツなど特定商品を、条件指定で検索。「近所の」という地理情報を加えることで、近場での在庫確認も同時に行える。実店舗での購入検討が即座に可能になる。\n\n③Canvas機能でゲーム攻略ガイド生成\n「チェスの初心者向け攻略ガイドを作成して」というリクエストで、AIが学習用資料を生成。従来の検索と異なり、カスタマイズされた学習教材が瞬時に得られる。\n\n④イベントチケットの一括検索・予約\n予算や枚数を指定すれば、コンサートやスポーツイベントのチケットを検索・予約まで実行。購買プロセス全体を簡略化する。\n\n⑤パーティー招待状のデザイン生成\nCanva連携で、「2週間後のパーティーフライヤーを作成」と指示するだけで、カスタムデザインが直接生成される。従来、手作業やテンプレート編集が必要だった工程が自動化される。\n\nこれらの事例は、AI がオンライン検索の枠を超え、実際の生活行為（購入、学習、制作）の中に組み込まれていく方向性を示唆している。",
+    "tags": [
+      "Google Search",
+      "AI Mode",
+      "生活効率化"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+    "importance": 4,
+    "image_query": "digital assistant search interface",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.width-1300.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T09:21:40.526Z",
+    "publishedAt": "2026-07-28T13:00:00.000Z"
+  },
+  {
+    "slug": "20260730-14",
+    "headline": "KADOKAWA×はてな、小説執筆支援AI「RIKU」発表 β版テスター募集",
+    "lead": "KADOKAWAとはてながAI小説執筆支援エディタ「RIKU」を公開。プロット作成から校正まで対応する。",
+    "body_markdown": "KADOKAWAとはてなは7月30日、AI小説執筆支援エディタ「RIKU」（リク）を発表し、クローズドβ版テスターの募集を開始した。創作初心者からプロ作家まで、執筆の各段階をAIがサポートする統合エディタとなる。\n\nRIKUは創作の全プロセスをカバー。ユーザーのアイデアを入力すると、ストーリー・キャラクター・世界観の設定作成をAIが支援。執筆中には次の展開について相談でき、完成後は校正・校閲・レビューをAI が担当する。\n\nKADOKAWAは、この機能群を「編集者が長年作家と向き合いながら積み重ねてきた出版社としての営みと経験を、より多くの人へ届ける挑戦」と位置付けている。単なる自動化ツールではなく、人間の創作を補強するパートナーという役割想定だ。\n\nRIKU は「AIはあくまでユーザーをサポートする役割に徹する」と明示。ユーザー作品をAI学習に利用しない方針を採用した。創作者の作品や創作プロセスが外部学習モデルに流用されない安心感が提供される。\n\nテスター募集要項: 対象は18歳以上、募集期限8月17日、クローズドβ版、利用料金は正式リリース時に決定予定。",
+    "tags": [
+      "AI執筆支援",
+      "KADOKAWA",
+      "小説"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/30/2000000306/",
+    "importance": 3,
+    "image_query": "writing text editor interface",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-30T09:21:40.527Z",
+    "publishedAt": "2026-07-30T06:58:31.000Z"
+  },
+  {
+    "slug": "20260730-15",
+    "headline": "日本HPと楽天、ハイブリッドAI搭載PCを発表 ローカルとクラウド統合",
+    "lead": "楽天開発の70億パラメータLLMをHP PCにプリバンドル。オフライン実行と楽天サービス連携を実現。",
+    "body_markdown": "日本HPと楽天は7月29日から、楽天開発AI「Rakuten AI for Desktop」をHP製PCに標準搭載する提供を開始した。70億パラメータの日本語LLM「Rakuten AI 7B ONNX」をローカル環境で実行し、オンデバイス処理とクラウドサービスを融合させるハイブリッドAI戦略となる。\n\nRakuten AI for Desktop は2つのモードで動作。オンデバイスモードでは、PC内蔵のCPU・GPU・NPUでLLMを動作。インターネット接続がなくても文章リライト、要約、翻訳が可能だ。セキュリティ上センシティブなデータの処理に適している。\n\nクラウドモードでは、画像・動画処理と楽天サービスの連携に対応。楽天市場検索、楽天トラベル予約、ポイント確認がシームレスに実行される。個々の用途に応じて、処理場所を使い分ける柔軟性が得られる。\n\n対象はゲーミングPC等を除く国内HP製Windows PC。法人向けは7月29日から既に提供開始。コンシューマー向けは2026年10月以降の予定。他社製PCでも、ホームページからのダウンロード提供が予定されている。\n\nHP岡戸社長は「クラウドAIとオンデバイスAIを融合させた、ハイブリッドAIの重要なマイルストーン」と述べた。プライバシーと利便性のバランスをとるアプローチとして、業界内で注視される動きとなっている。",
+    "tags": [
+      "楽天AI",
+      "HP PC",
+      "ハイブリッドAI"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/30/2000000302/",
+    "importance": 4,
+    "image_query": "laptop computer desktop AI",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1445620466293-d6316372ab59?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMHx8bGFwdG9wJTIwY29tcHV0ZXIlMjBkZXNrdG9wJTIwQUl8ZW58MXwwfHx8MTc4NTQwMzMwMXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "seth schwiet",
+      "profileUrl": "https://unsplash.com/@schwiet?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "silver laptop computer on black table",
+      "description": "Laptop in close-up"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T09:21:41.529Z",
+    "publishedAt": "2026-07-30T05:52:01.000Z"
+  },
+  {
+    "slug": "20260730-16",
+    "headline": "Microsoftが独自AI戦略を加速、OpenAI・Anthropicと競争激化",
+    "lead": "Microsoftが独自AIモデルとセキュリティツールを発表。投資先との関係変化が業界を注視させる。",
+    "body_markdown": "Microsoftは7月29日、投資先であるOpenAIやAnthropicと直接競争する独自AIサービスの展開を加速させると発表。CEO サティア・ナデラは、企業が単一のAIモデルに依存する危険性を警告しながら、Microsoftプラットフォームの採用を促している。\n\nMicrosoftが新たに発表した独自AIファミリー「MAI」は、1万1000以上のモデルカタログを提供。単なる言語モデルに留まらず、画像生成、コード生成など、多様なタスク対応モデルから選択できる設計だ。\n\nMicrosoftが独自開発したシリコン「Maya 200」での実行により、競合比40%以上の電力効率を実現。コスト面でも優位性が生まれている。\n\nセキュリティ分野では「MAI Cyber One Flash」を発表。Mythosなどの競合製品より優れた性能を、半分のコストで提供すると主張している。\n\nGitHub Copilotを含むCopilotシリーズを統合プラットフォーム化。企業がモデルを容易に切り替え可能な設計とし、ベンダーロックインを回避する柔軟性を売りにしている。\n\nナデラは「企業は複数モデルの活用により、単一モデルの失敗に対応すべき」と述べ、Microsoftを信頼できる中立的なプラットフォームと位置付けた。業界では「Microsoftが単なるAI基盤提供者から、AI製品メーカーへと転換しつつある」との観測が強まっている。",
+    "tags": [
+      "Microsoft",
+      "AI競争",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+    "importance": 4,
+    "image_query": "artificial intelligence software platform",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1739036868260-c26b292cd85d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHNvZnR3YXJlJTIwcGxhdGZvcm18ZW58MXwwfHx8MTc4NTQwMzMwMnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Igor Omilaev",
+      "profileUrl": "https://unsplash.com/@omilaev?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A computer chip with the letter ia printed on it"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T09:21:42.424Z",
+    "publishedAt": "2026-07-30T00:21:06.000Z"
+  },
+  {
+    "slug": "20260730-17",
+    "headline": "Google、音楽生成AI「Lyria 3.5」発表 ボーカル表現と制御性を強化",
+    "lead": "Googleが最新音楽生成モデルを公開。ボーカル品質とテンポ・長さ制御が改善され、電子透かし対応。",
+    "body_markdown": "Googleは7月29日、音楽生成モデルの最新版「Lyria 3.5」を発表。音楽生成プラットフォーム「Google Flow Music」で提供を開始した。2023年の初版からの段階的進化の最新形であり、AI音楽制作の実用性が一段と高まる。\n\nLyria 3.5では、ボーカル表現が「より現実的で感情豊かな歌声に進化」。発音精度も改善され、言語的な自然さが増した。プロンプト指示への忠実度が向上し、作曲者の意図がより正確に反映されるようになった。\n\nより複雑で豊かなメロディ構造を自然に生成できるように。楽曲全体の構成把握も向上し、曲としての「完成度」が高まっている。\n\nテンポと曲の長さをより簡単に制御できるようになった。これまでは生成後の編集が必要なケースが多かったが、指示段階でのコントロール性が向上することで、制作効率が大幅に改善される。\n\n生成されたコンテンツには、Googleの電子透かし技術「SynthID」が埋め込まれる。音楽メタデータにAI生成フラグが記録され、人手制作との区別が可能。著作権議論が続く中での責任ある技術選択といえる。\n\nLyriaはGoogle DeepMindが開発。2023年の初版から、2月にLyria 3、3月にLyria 3 Proが順次公開されており、音楽生成機能の段階的拡張が続いている。",
+    "tags": [
+      "Google",
+      "音楽生成",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/30/2000000289/",
+    "importance": 4,
+    "image_query": "music production digital audio",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1781865202550-157c6bc03561?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxtdXNpYyUyMHByb2R1Y3Rpb24lMjBkaWdpdGFsJTIwYXVkaW98ZW58MXwwfHx8MTc4NTQwMzMwMnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mustafa Sheikhmouss",
+      "profileUrl": "https://unsplash.com/@xalo_mustafa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Dark music studio with monitor showing audio editing software."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T09:21:43.020Z",
+    "publishedAt": "2026-07-30T02:35:30.000Z"
+  },
+  {
+    "slug": "20260730-18",
+    "headline": "インドのイスラエル武器売却がガザ紛争と関連、アムネスティが指摘",
+    "lead": "アムネスティがインド製軍事部品がイスラエルに大量供給されていることを報告。ガザでの使用懸念。",
+    "body_markdown": "国際人権団体アムネスティ・インターナショナルは7月30日、インドがイスラエルに供給する軍事部品がガザ紛争での使用に関わる可能性があると指摘。インド製の小火器部品と爆発物関連コンポーネントの大規模な取引を明らかにした。\n\nアムネスティが2023年10月以降の2596件の輸出記録を分析したところ、以下の部品がイスラエルに供給されていた: 小火器部品は39万516個、無人機の弾頭・砲弾など爆発物関連は56万4970個、軍用車両部品は298個。\n\nアムネスティの事務局長は「インドは自社が所有・支配する主要サプライヤー企業を通じて、イスラエルへの兵器部品を製造・供給している」と述べた。国営企業の関与が指摘されており、インド政府の対イスラエル政策と直結する構造になっている。\n\nインドはイスラエルの人権侵害を監視する国際基準の適用に後ろ向きで、民間企業の輸出規制を十分に行っていないとアムネスティは批判。先進国が署名する国際人権条約での遵守水準を下回っていると指摘した。\n\nガザ紛争について国連専門家やNGO は「ジェノサイド（大量殺害）に該当する」と判断。2024年の国際司法裁判所は臨時措置命令でイスラエルに対し人道的配慮を求めている。この中でインドの武器供給継続は、法的責任論議の対象になりうる。",
+    "tags": [
+      "インド",
+      "イスラエル",
+      "ガザ問題"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/30/indias-arms-sale-to-israel-risks-complicity-in-gaza-genocide-amnesty-says",
+    "importance": 4,
+    "image_query": "military weapons arms conflict",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1687726258745-8546ad8030d6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8bWlsaXRhcnklMjB3ZWFwb25zJTIwYXJtcyUyMGNvbmZsaWN0fGVufDF8MHx8fDE3ODU0MDMzMDR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Daniel",
+      "profileUrl": "https://unsplash.com/@dxstub?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a rifle on a person's arm"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T09:21:44.456Z",
+    "publishedAt": "2026-07-30T07:13:24.000Z"
+  },
+  {
+    "slug": "20260730-19",
+    "headline": "銀河系は静かに成長していない、矮小銀河との衝突で形成 100億年前の融合痕跡",
+    "lead": "天文学者が銀河系の成長史を解明。約100億年前の矮小銀河との衝突が現在の構造を形作ったと判明。",
+    "body_markdown": "オランダのフローニンゲン大学の天文学者アミナ・ヘルミ博士は、銀河系がおよそ100億年前に矮小銀河「ガイア・エンケラドス」と衝突・融合したことを発見。銀河考古学の成果として、複数の衝突を経て成長した銀河の進化モデルを示した。\n\nヘルミ博士のチームは、欧州宇宙機関（ESA）のガイア衛星が提供した約15億個の星の運動データを活用。各星の化学組成と軌道情報を分析し、銀河系内の「歴史的な痕跡」を探った。\n\n現在の銀河系の星のハローと膨らんだ円盤は、この太古の衝突イベントで形成されたことが判明。衝突による星同士の相互作用が、銀河全体の構造を大きく塑形していたのだ。\n\nこれまで銀河は緩やかに周囲の小質量系を吸収しながら成長すると考えられていた。しかしヘルミの研究は、実際には大型の衝突イベントが銀河構造の核を決めることを示唆。銀河系は「平穏な進化」ではなく「劇的な融合の歴史」を経ているという。\n\nアミナ・ヘルミ博士はこの発見によりカブリ賞（天体物理学のノーベル賞とも称される）を受賞。100万ドルの賞金とメダルが授与された。現在、銀河系は相対的に静穏な時期にあるとされている。",
+    "tags": [
+      "銀河系",
+      "天文学",
+      "宇宙"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-astronomer-milky-fossils.html",
+    "importance": 4,
+    "image_query": "galaxy milky way space stars",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxnYWxheHklMjBtaWxreSUyMHdheSUyMHNwYWNlJTIwc3RhcnN8ZW58MXwwfHx8MTc4NTQwMzMwNXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Andy Holmes",
+      "profileUrl": "https://unsplash.com/@andyjh07?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "galaxy digital wallpaper",
+      "description": "While I was away on a weeks holiday to Portugal, I decided to take a chance on seeing where the Milky Way and the Moon would be showing in relation to my location. To my surprise, the Moon was always below the horizon when the Milky Way was up. This was my first proper time photographing the Milky Way and I was seriously lucky to have really good conditions to capture it in. Very happy with the outcome."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T09:21:45.634Z",
+    "publishedAt": "2026-07-30T08:30:01.000Z"
+  },
+  {
+    "slug": "20260730-20",
+    "headline": "イラン・米国が軍事衝突再燃、中東情勢が新局面へ 報復応酬が懸念",
+    "lead": "米軍がイランへの攻撃を開始。イランは報復を警告し、両国の軍事エスカレーションが加速する恐れ。",
+    "body_markdown": "米中央軍（CENTCOM）は7月30日、イランが米軍に対して行った攻撃への報復として、イランへの「強力な攻撃」を実行したと発表。中東での米・イラン対立が軍事衝突の段階に入り、地域情勢が新たな危機局面を迎えた。\n\nイランの革命防衛隊は、中東に駐留する米軍に対して攻撃を試みた。その直後、米軍がイランへの報復攻撃を開始。双方が短期間での応酬を繰り返す構図になっている。\n\nイランの革命防衛隊は米国の攻撃後、「侵略者を罰する」と報復を警告。これまで相対的に緊張が緩和されていた時期から、再び軍事衝突への傾斜が強まっている。両国の報復応酬がさらに拡大する可能性が懸念されている。\n\n米・イラン対立の激化は、ホルムズ海峡を通じた海上交易に直結する。既に同海峡での攻撃により、原油価格が上昇し、グローバル経済にも影響が及び始めている。\n\nこのタイミングでの軍事衝突は、中東和平プロセスや国連外交にも制約を加える見通し。地域の安定化に向けた国際的な調整の必要性が急速に高まっている。",
+    "tags": [
+      "イラン",
+      "米国",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo",
+    "importance": 5,
+    "image_query": "military conflict middle east",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1783696625014-1b661886acc8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxtaWxpdGFyeSUyMGNvbmZsaWN0JTIwbWlkZGxlJTIwZWFzdHxlbnwxfDB8fHwxNzg1NDAzMzA2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tommaso Ubezio",
+      "profileUrl": "https://unsplash.com/@tommasoubezio?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A jordanian flag flies proudly on a rocky mountain."
+    },
+    "mode": "full",
+    "createdAt": "2026-07-30T09:21:46.301Z",
+    "publishedAt": "2026-07-30T08:42:17.000Z"
+  },
+  {
     "slug": "20260730-01",
     "headline": "OpenAI、100,000人の研究者にChatGPT無料アクセス",
     "lead": "OpenAIは、100,000人の学術研究者を対象に、frontier モデルへの無制限アクセスを無料で提供するプログラムを発表した。今夏から約10,000人規模で開始し、2027年まで段階的に拡大する。",
