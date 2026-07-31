@@ -1,0 +1,227 @@
+[
+  {
+    "title": "Advancing responsible AI across Europe",
+    "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
+    "source": "OpenAI",
+    "section": "AI",
+    "summary": "Advancing responsible AI across Europe | OpenAI OpenAI July 31, 2026 Global Affairs Advancing responsible AI across Europe Loading… Share Every day, millions of people across Europe use OpenAI’s tools to learn, create, work and manage everyday tasks. Our tools also support businesses of all sizes and governments across the region. We believe responsible AI can help drive Europe’s competitiveness and prosperity. As the EU AI Act enters its next phase, we’re sharing how we have strengthened our approach to safety, security, transparency and provenance in line with the EU framework—and how we will continue to evolve our practices as AI advances. Our longstanding commitment to responsible AI Our mission is to ensure that artificial general intelligence benefits all of humanity. That mission carries with it an ongoing responsibility to maximize AI’s benefits, broaden access, and manage risks. That is why, for years, we have developed governance approaches and supported workable rules that help people benefit from AI safely, an objective which is central to the EU AI Act. Such rules must be pragmatic, proportionate and risk-based in order to advance governance while supporting innovation",
+    "publishedAt": "2026-07-31T15:00:00.000Z",
+    "tier": "primary"
+  },
+  {
+    "title": "Advancing the price-performance frontier with GPT-5.6",
+    "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+    "source": "OpenAI",
+    "section": "AI",
+    "summary": "Advancing the price-performance frontier with GPT-5.6 | OpenAI OpenAI July 30, 2026 Product Advancing the price-performance frontier with GPT‑5.6 By making every layer more efficient, OpenAI is delivering stronger performance per dollar across more enterprise workloads. Loading… Share Yesterday, we shared how GPT‑5.6 ⁠ helped make itself more efficient to run ⁠ . Today, we’re passing those gains on to customers with lower prices for GPT‑5.6 Luna ⁠ (opens in a new window) and Terra ⁠ (opens in a new window) and faster performance with GPT‑5.6 Sol ⁠ in the API. Together, these updates help customers get more from every dollar they invest in AI and move faster when time matters. Starting today, GPT‑5.6 Luna, our fastest and most affordable model, will cost 80% less, while GPT‑5.6 Terra, our balanced model for everyday work, will cost 20% less. These lower prices for Luna and Terra are also reflected in how usage is counted against paid subscriptions when using Codex and ChatGPT Work. Luna gives businesses a far more cost-effective way to handle high-volume work at very high levels of quality. It can use tools and complete multi-step workflows, making a broader range of AI applications",
+    "publishedAt": "2026-07-30T10:00:00.000Z",
+    "tier": "primary"
+  },
+  {
+    "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+    "link": "https://openai.com/index/avatarin",
+    "source": "OpenAI",
+    "section": "AI",
+    "summary": "How avatarin built a 24/7 retail agent with GPT-Realtime | OpenAI OpenAI July 30, 2026 How avatarin built a 24/7 retail agent with GPT‑Realtime With OpenAI’s GPT‑Realtime, avatarin scales Yamada Denki’s retail expertise through 24/7 multilingual shopping support. Contact sales Company size: Startup Region: Asia-Pacific & Oceania Industry: Retail, Technology Products: API Results 30,000 shoppers engaged during a two-week public experience Results 92% of post-use survey responses were positive Loading… Share Japan’s home-appliance retailers face a persistent challenge: extending expert sales support beyond store hours while staffing remains tight. avatarin, an AI customer service company spun out of ANA Holdings, partnered with Yamada Holdings to turn experienced associates’ knowledge into a 24/7 multilingual shopping agent. Built on OpenAI’s GPT‑Realtime, the Kurashi-Marugoto AI Agent supports natural voice conversations and guides shoppers from product discovery to purchase decisions. In a two-week public campaign on Yamada Denki’s online store, approximately 30,000 people used the agent; 92% of survey responses were positive. “This is not an extension of the conventional chatbot. ",
+    "publishedAt": "2026-07-30T00:00:00.000Z",
+    "tier": "primary"
+  },
+  {
+    "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+    "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+    "source": "OpenAI",
+    "section": "AI",
+    "summary": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark | OpenAI OpenAI July 29, 2026 Research Publication How enabling two settings tripled our scores on the ARC-AGI-3 benchmark Loading… Share A sped-up video of GPT‑5.6 Sol attempting to solve puzzles in the ARC-AGI-3 benchmark, with the official harness (left) and our Responses API harness (right), which retains reasoning and enables compaction. On the leaderboard for this game ⁠ (opens in a new window) , no frontier model solves any level beyond the first. With our harness, GPT‑5.6 Sol solves all six. When we first saw GPT‑5.6 Sol’s low scores on the ARC-AGI-3 ⁠ (opens in a new window) benchmark, we were puzzled. GPT‑5.6 Sol has solved longstanding open problems in mathematics like the cycle double cover conjecture ⁠ (opens in a new window) and beaten games like Pokémon FireRed. But on ARC-AGI-3, a benchmark of 2D puzzle games, GPT‑5.6 Sol scored just 7.8%, and GPT‑5.5 could barely play the games at all, scoring a paltry 0.4%. Were 2D puzzle games unusually difficult for our models? Or was something else going on? Benchmarks rarely measure AI models in isolation. They also measure less visible choices about API s",
+    "publishedAt": "2026-07-29T15:00:00.000Z",
+    "tier": "primary"
+  },
+  {
+    "title": "「9カ月かかる作業を3日に短縮」 IBM、レガシー刷新ワークフローをIBM Bobに追加",
+    "link": "https://www.itmedia.co.jp/enterprise/articles/2607/31/news094.html",
+    "source": "ITmedia AI＋",
+    "section": "AI",
+    "summary": "生成AIによるコード生成が広がる一方で、レガシー環境の刷新はAIの適用が難しい領域だ。IBMは、IBM Bobにレガシー環境向けの専用パッケージを追加することで、同領域における自動化に踏み込む。",
+    "publishedAt": "2026-07-31T08:20:00.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "Thinking Machines、軽量モデル「Inkling-Small」正式公開 サイズ4分の1で「Inkling」に匹敵する性能",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/31/2000000326/",
+    "source": "ITmedia AI＋",
+    "section": "AI",
+    "summary": "Thinking Machines Labは、オープンウェイトのAIモデル「Inkling-Small」の正式版を公開した。従来モデルの4分の1のサイズながら、データの改良や強化学習によりコード生成などのベンチマークで従来版を上回る性能を実現。動作に必要なGPUメモリも大幅に削減されており、Hugging Face等で入手できる。",
+    "publishedAt": "2026-07-31T02:16:53.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "PerplexityがAIエージェントの“暴走”対策ツールをオープンソースに Claude CodeやCodexを監視",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/31/2000000325/",
+    "source": "ITmedia AI＋",
+    "section": "AI",
+    "summary": "PerplexityがAIエージェントの危険な挙動を検知・防止するツール群「Numbat」をオープンソース化。Claude CodeやCodexに組み込み、タスクに執着したエージェントの“暴走”を実行前に阻止する。",
+    "publishedAt": "2026-07-31T02:18:22.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "Chromeに13年以上潜んでいた脆弱性、AIで発見 直近2回のアプデで過去23回分を上回るバグ修正",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/31/2000000323/",
+    "source": "ITmedia AI＋",
+    "section": "AI",
+    "summary": "GoogleがChromeのセキュリティ対策へのAI活用を公式ブログで解説。Geminiベースのエージェントが13年以上潜んでいた脆弱性を発見した。AI攻撃の高速化に対応し、セキュリティ更新「週2回」配信も試行する。",
+    "publishedAt": "2026-07-31T02:03:59.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "Anthropic says its AI models also hacked three organizations on their own",
+    "link": "https://www.engadget.com/2227630/anthropic-ai-models-hacked-three-organizations-on-their-own/",
+    "source": "Engadget",
+    "section": "テクノロジー",
+    "summary": "After OpenAI's admission that its models broke into Hugging Face, Anthropic has now admitted that the models it was testing also hacked other organizations.",
+    "publishedAt": "2026-07-31T06:10:12.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "Amazon's Zoox is the first steering wheel-free robotaxi to get regulatory approval for paid rides",
+    "link": "https://www.engadget.com/2227649/amazon-zoox-first-steering-wheel-free-robotaxi-regulatory-approval-paid-rides/",
+    "source": "Engadget",
+    "section": "テクノロジー",
+    "summary": "The NHTSA has given Amazon's Zoox permission to charge for rides. It's the first AV with no manual controls to get it.",
+    "publishedAt": "2026-07-31T08:18:25.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "Tim Cook hints at iCloud Plus tier for AI power users",
+    "link": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+    "source": "The Verge",
+    "section": "テクノロジー",
+    "summary": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where people can buy up the stack.\" This fall, Apple will broadly launch its long-delayed Siri AI with iOS 27, which can do things like answer questions about what's on your screen and take action across your apps. It also includes a new standalone Siri AI app that offers a ChatGPT-like interface. In June, Apple said that its AI features, including … Read the full story at The Verge.",
+    "publishedAt": "2026-07-30T22:29:45.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "Apple drops 7%, Amazon surges 12% as investors pick AI winners after earnings",
+    "link": "https://www.cnbc.com/2026/07/31/apple-aapl-amazon-amzn-stock-today.html",
+    "source": "CNBC",
+    "section": "ビジネス",
+    "summary": "Shares of Amazon jumped sharply in premarket trading on Friday while Apple dropped as investors digest earnings.",
+    "publishedAt": "2026-07-31T08:50:14.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "BP puts North Sea business up for sale",
+    "link": "https://www.bbc.co.uk/news/articles/c62q7w003lro",
+    "source": "BBC Business",
+    "section": "ビジネス",
+    "summary": "The decision follows a review of BP's operations and is set to end 60 years of production in the region by the oil giant.",
+    "publishedAt": "2026-07-31T08:35:38.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "Sainsbury's agrees to sell Argos for £120m",
+    "link": "https://www.bbc.co.uk/news/articles/cpw9yrl4p2qo",
+    "source": "BBC Business",
+    "section": "ビジネス",
+    "summary": "Under the terms of the deal, Argos will still operate in Sainsbury's shops, sell Habitat products, and offer Nectar points.",
+    "publishedAt": "2026-07-31T08:30:24.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "Oscar-Qualifying Bengaluru International Short Film Festival Expands to 10 Arenas, Adds AI and Dance Competitions (EXCLUSIVE)",
+    "link": "https://variety.com/2026/film/news/bengaluru-short-film-festival-ai-dance-competitions-2026-1236824897/",
+    "source": "Variety",
+    "section": "エンタメ",
+    "summary": "India’s Oscar-qualifying Bengaluru International Short Film Festival (BISFF) has expanded its competition to 10 arenas of cinema for its 16th edition, adding new categories for AI-made films and screendance. BISFF received a record 3,340 submissions this year from more than 100 countries, according to organizers. Of those, 1,726 came from international entries, 756 from India, […]",
+    "publishedAt": "2026-07-31T08:56:53.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "【随時更新】ロシア ウクライナに軍事侵攻（7月31日の動き）",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015141231000",
+    "source": "NHK",
+    "section": "国際・地政学",
+    "summary": "ロシアによるウクライナに対する軍事侵攻が続いています。ウクライナの各地でロシア軍とウクライナ軍が戦闘を続けていて、大勢の市民が国外へ避難しています。戦闘の状況や関係各国の外交など、ウクライナ情勢をめぐ…",
+    "publishedAt": "2026-07-31T08:50:15.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "Israeli forces blow up structures near Lebanon’s Beaufort Castle",
+    "link": "https://www.aljazeera.com/news/2026/7/31/israeli-forces-blow-up-structures-near-lebanons-beaufort-castle",
+    "source": "Al Jazeera",
+    "section": "国際・地政学",
+    "summary": "Israel claims army blew up Hezbollah tunnels in southern Lebanon, amid reports of blasts near UNESCO-listed fortress.",
+    "publishedAt": "2026-07-31T08:03:29.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "「国家情報会議」設置で初会合 情報収集の戦略策定を確認か",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015191861000",
+    "source": "NHK",
+    "section": "政治",
+    "summary": "インテリジェンス機能の司令塔となる「国家情報局」が7月31日設置されました。政府は、高市総理大臣を議長に、関係閣僚で構成する「国家情報会議」の初会合を開き、情報収集の指針となる初めての戦略を策定する方…",
+    "publishedAt": "2026-07-31T05:13:06.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "Ebola outbreak in DRC the fastest growing in the history of the virus",
+    "link": "https://www.theguardian.com/global-development/2026/jul/31/ebola-outbreak-in-drc-the-fastest-growing-in-the-history-of-the-virus",
+    "source": "The Guardian",
+    "section": "国際・地政学",
+    "summary": "As the death toll rises to almost 1,500, and with a vaccine against the Bundibugyo strain potentially still months away, health workers face a battle to slow the outbreak The latest numbers of confirmed cases of Ebola in the Democratic Republic of the Congo has made this latest outbreak the fastest growing in the known history of the virus. At 3,360 confirmed cases, the disease is now affecting people in five provinces in the east of the DRC, with 1,487 deaths recorded, representing an overall case fatality rate estimated at about 45%, according to Congolese health officials. Health responses to the outbreak have been badly hampered by conflict in many of the affected areas. Continue reading...",
+    "publishedAt": "2026-07-31T08:00:08.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "Waste CO₂ converts into graphite through a newly observed two-step process",
+    "link": "https://phys.org/news/2026-07-graphite-newly.html",
+    "source": "Phys.org",
+    "section": "サイエンス",
+    "summary": "Graphite, the carbon core of a humble No. 2 pencil, is also an essential component in technologies such as batteries, smartphones, laptops and industrial power equipment. Today, nearly all of this critical mineral must be mined and processed and, in the United States, imported.",
+    "publishedAt": "2026-07-31T01:00:01.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "Probing binary stars in the Small Magellanic Cloud with the JWST",
+    "link": "https://phys.org/news/2026-07-probing-binary-stars-small-magellanic.html",
+    "source": "Phys.org",
+    "section": "サイエンス",
+    "summary": "The formation and evolution of individual stars in a galaxy shape the evolution of the galaxy itself. Stars and stellar remnants make up the vast majority of a galaxy's mass, so it's not surprising that the stellar population affects the evolution of galaxies. In the Milky Way's disk and bulge, stars and dead stars make up about 85% of the baryonic mass.",
+    "publishedAt": "2026-07-31T01:40:01.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "How smallpox reached the Americas: first genomic evidence points to Europeans",
+    "link": "https://www.nature.com/articles/d41586-026-02366-y",
+    "source": "Nature",
+    "section": "サイエンス",
+    "summary": "",
+    "publishedAt": "2026-07-31T00:00:00.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "Destructive Fires Char Western Europe",
+    "link": "https://science.nasa.gov/earth/earth-observatory/destructive-fires-char-western-europe/",
+    "source": "NASA",
+    "section": "サイエンス",
+    "summary": "Raging wildfires disrupted summer in Spain and France amid sweltering heat waves and prolonged drought.",
+    "publishedAt": "2026-07-31T04:01:00.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "About 49,000 migrants enter Spanish enclave of Ceuta, officials say",
+    "link": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o",
+    "source": "BBC World",
+    "section": "国際・地政学",
+    "summary": "This comes after thousands of migrants were reported to have illegally crossed into the territory on Thursday and Friday.",
+    "publishedAt": "2026-07-31T08:50:12.000Z",
+    "tier": "media"
+  },
+  {
+    "title": "北朝鮮 経済成長率が3年連続3％超え ロシアとの協力が要因か",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015192231000",
+    "source": "NHK",
+    "section": "国際・地政学",
+    "summary": "韓国の中央銀行は31日、北朝鮮経済の去年の成長率が推計で3.5％だったと発表しました。",
+    "publishedAt": "2026-07-31T08:29:16.000Z",
+    "tier": "media"
+  }
+]

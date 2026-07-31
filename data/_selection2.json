@@ -1,0 +1,246 @@
+[
+  {
+    "title": "Advancing responsible AI across Europe",
+    "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
+    "summary": "Advancing responsible AI across Europe | OpenAI OpenAI July 31, 2026 Global Affairs Advancing responsible AI across Europe Loading… Share Every day, millions of people across Europe use OpenAI’s tools to learn, create, work and manage everyday tasks. Our tools also support businesses of all sizes and governments across the region. We believe responsible AI can help drive Europe’s competitiveness and prosperity. As the EU AI Act enters its next phase, we’re sharing how we have strengthened our approach to safety, security, transparency and provenance in line with the EU framework—and how we will continue to evolve our practices as AI advances. Our longstanding commitment to responsible AI Our mission is to ensure that artificial general intelligence benefits all of humanity. That mission carries with it an ongoing responsibility to maximize AI’s benefits, broaden access, and manage risks. That is why, for years, we have developed governance approaches and supported workable rules that help people benefit from AI safely, an objective which is central to the EU AI Act. Such rules must be pragmatic, proportionate and risk-based in order to advance governance while supporting innovation",
+    "source": "OpenAI",
+    "section": "AI",
+    "tier": "primary",
+    "aiFilter": false,
+    "publishedAt": "2026-07-31T15:00:00.000Z",
+    "summarySource": "fetched"
+  },
+  {
+    "title": "Advancing the price-performance frontier with GPT-5.6",
+    "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+    "summary": "Advancing the price-performance frontier with GPT-5.6 | OpenAI OpenAI July 30, 2026 Product Advancing the price-performance frontier with GPT‑5.6 By making every layer more efficient, OpenAI is delivering stronger performance per dollar across more enterprise workloads. Loading… Share Yesterday, we shared how GPT‑5.6 ⁠ helped make itself more efficient to run ⁠ . Today, we’re passing those gains on to customers with lower prices for GPT‑5.6 Luna ⁠ (opens in a new window) and Terra ⁠ (opens in a new window) and faster performance with GPT‑5.6 Sol ⁠ in the API. Together, these updates help customers get more from every dollar they invest in AI and move faster when time matters. Starting today, GPT‑5.6 Luna, our fastest and most affordable model, will cost 80% less, while GPT‑5.6 Terra, our balanced model for everyday work, will cost 20% less. These lower prices for Luna and Terra are also reflected in how usage is counted against paid subscriptions when using Codex and ChatGPT Work. Luna gives businesses a far more cost-effective way to handle high-volume work at very high levels of quality. It can use tools and complete multi-step workflows, making a broader range of AI applications",
+    "source": "OpenAI",
+    "section": "AI",
+    "tier": "primary",
+    "aiFilter": false,
+    "publishedAt": "2026-07-30T10:00:00.000Z",
+    "summarySource": "fetched"
+  },
+  {
+    "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+    "link": "https://openai.com/index/avatarin",
+    "summary": "How avatarin built a 24/7 retail agent with GPT-Realtime | OpenAI OpenAI July 30, 2026 How avatarin built a 24/7 retail agent with GPT‑Realtime With OpenAI’s GPT‑Realtime, avatarin scales Yamada Denki’s retail expertise through 24/7 multilingual shopping support. Contact sales Company size: Startup Region: Asia-Pacific & Oceania Industry: Retail, Technology Products: API Results 30,000 shoppers engaged during a two-week public experience Results 92% of post-use survey responses were positive Loading… Share Japan’s home-appliance retailers face a persistent challenge: extending expert sales support beyond store hours while staffing remains tight. avatarin, an AI customer service company spun out of ANA Holdings, partnered with Yamada Holdings to turn experienced associates’ knowledge into a 24/7 multilingual shopping agent. Built on OpenAI’s GPT‑Realtime, the Kurashi-Marugoto AI Agent supports natural voice conversations and guides shoppers from product discovery to purchase decisions. In a two-week public campaign on Yamada Denki’s online store, approximately 30,000 people used the agent; 92% of survey responses were positive. “This is not an extension of the conventional chatbot. ",
+    "source": "OpenAI",
+    "section": "AI",
+    "tier": "primary",
+    "aiFilter": false,
+    "publishedAt": "2026-07-30T00:00:00.000Z",
+    "summarySource": "fetched"
+  },
+  {
+    "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+    "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+    "summary": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark | OpenAI OpenAI July 29, 2026 Research Publication How enabling two settings tripled our scores on the ARC-AGI-3 benchmark Loading… Share A sped-up video of GPT‑5.6 Sol attempting to solve puzzles in the ARC-AGI-3 benchmark, with the official harness (left) and our Responses API harness (right), which retains reasoning and enables compaction. On the leaderboard for this game ⁠ (opens in a new window) , no frontier model solves any level beyond the first. With our harness, GPT‑5.6 Sol solves all six. When we first saw GPT‑5.6 Sol’s low scores on the ARC-AGI-3 ⁠ (opens in a new window) benchmark, we were puzzled. GPT‑5.6 Sol has solved longstanding open problems in mathematics like the cycle double cover conjecture ⁠ (opens in a new window) and beaten games like Pokémon FireRed. But on ARC-AGI-3, a benchmark of 2D puzzle games, GPT‑5.6 Sol scored just 7.8%, and GPT‑5.5 could barely play the games at all, scoring a paltry 0.4%. Were 2D puzzle games unusually difficult for our models? Or was something else going on? Benchmarks rarely measure AI models in isolation. They also measure less visible choices about API s",
+    "source": "OpenAI",
+    "section": "AI",
+    "tier": "primary",
+    "aiFilter": false,
+    "publishedAt": "2026-07-29T15:00:00.000Z",
+    "summarySource": "fetched"
+  },
+  {
+    "title": "What happens to the internet when robots act like humans?​​​​‌ ‍ ​‍​‍‌‍ ‌ ​‍‌‍‍‌‌‍‌ ‌‍‍‌‌‍ ‍​‍​‍​ ‍‍​‍​‍‌ ​ ‌‍​‌‌‍ ‍‌‍‍‌‌ ‌​‌ ‍‌​‍ ‍‌‍‍‌‌‍ ​‍​‍​‍ ​​‍​‍‌‍‍​‌ ​‍‌‍‌‌‌‍‌‍​‍​‍​ ‍‍​‍​‍‌‍‍​‌ ‌​‌ ‌​‌ ​​‌ ​ ​ ‍‍​‍ ​‍ ‌‍​ ‌‍ ‌‌ ​ ​‍ ‍‌ ​ ‌ ‌​‌‍​‌‌‍​ ‌‍‍ ‌‍ ‌ ‌‍‌‍‌‌‌ ​‍‌‍‌‍‌‍ ​‌‍ ‌ ‌ ​‍ ‍‌‍​ ‌‍ ​‍ ‌‍‍‌‌‍ ‍‌ ‌​‌‍‌‌‌‍ ‍‌ ‌​​‍ ‌‍‌‌‌‍‌​‌‍‍‌‌ ‌​​‍ ‌‍ ‌‌‍ ‌‍‌​‌‍‌‌​ ‌‌ ​​‌ ​‍‌‍‌‌‌ ​ ‌‍‌‌‌‍ ‍‌ ‌​‌‍​‌‌ ‌​‌‍‍‌‌‍ ‌‍ ‍​ ‍ ‌‍‍‌‌‍‌​​ ‌​ ​‌​ ‍​‌‍‌​‌‍​‌​ ‍‌​ ‍‌​ ‍‌​ ​‍​‍ ‌​ ​​​ ‌‍‌‍‌‍​ ‌‌​‍ ‌​ ‌​​ ‌‍​ ​​​ ​‍​‍ ‌​ ‍​​ ​‍​ ‌​‌‍‌​​‍ ‌‌‍‌‍​ ‌‍‌‍‌​‌‍​ ‌‍‌​​ ‌​​ ‌‌‌‍​‍‌‍​ ​ ‌ ​ ​ ‌‍‌​​ ‍ ‌ ‌​‌ ‍‌‌ ​​‌‍‌‌​ ‌‌‍​‍‌‍ ​‌‍ ‌‍‌ ‌‌​​‌‍ ‌ ​ ‌ ‌​​ ‍ ‌ ​​‌‍​‌‌ ‌​‌‍‍​​ ‌‌ ‌​‌‍‍‌‌ ‌​‌‍ ​‌‍‌‌​ ‌‍​‍‌‍​‌‌ ​ ‌‍‌‌‌‌‌‌‌ ​‍‌‍ ​​ ‌‌‍‍​‌ ‌​‌ ‌​‌ ​​‌ ​ ​‍‌‌​ ​ ‌​​‌​‍‌‌​ ​‍‌​‌‍​‍‌‌​ ​‍‌​‌‍‌‍​ ‌‍ ‌‌ ​ ​‍ ‍‌ ​ ‌ ‌​‌‍​‌‌‍​ ‌‍‍ ‌‍ ‌ ‌‍‌‍‌‌‌ ​‍‌‍‌‍‌‍ ​‌‍ ‌ ‌ ​‍ ‍‌‍​ ‌‍ ​‍‌‍‌‍‍‌‌‍‌​​ ‌​ ​‌​ ‍​‌‍‌​‌‍​‌​ ‍‌​ ‍‌​ ‍‌​ ​‍​‍ ‌​ ​​​ ‌‍‌‍‌‍​ ‌‌​‍ ‌​ ‌​​ ‌‍​ ​​​ ​‍​‍ ‌​ ‍​​ ​‍​ ‌​‌‍‌​​‍ ‌‌‍‌‍​ ‌‍‌‍‌​‌‍​ ‌‍‌​​ ‌​​ ‌‌‌‍​‍‌‍​ ​ ‌ ​ ​ ‌‍‌​​‍‌‍‌ ‌​‌ ‍‌‌ ​​‌‍‌‌​ ‌‌‍​‍‌‍ ​‌‍ ‌‍‌ ‌‌​​‌‍ ‌ ​ ‌ ‌​​‍‌‍‌ ​​‌‍​‌‌ ‌​‌‍‍​​ ‌‌ ‌​‌‍‍‌‌ ‌​‌‍ ​‌‍‌‌​‍‌‍‌ ​​‌‍‌‌‌ ​‍‌ ​ ‌ ​​‌‍‌‌‌‍​ ‌ ‌​‌‍‍‌‌ ‌‍‌‍‌‌​ ‌‌ ​​‌ ‌‌‌‍​‍‌‍ ​‌‍‍‌‌ ​ ‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌ ‌",
+    "link": "https://stackoverflow.blog/2026/07/31/what-happens-internet-when-robots-act-like-humans/",
+    "summary": "Ryan welcomes WPEngine CTO Ramadass Prabakar to the show to chat about what happens—and what we should do—when agents start acting like humans online, how our internet is evolving to serve both human and agentic experiences from the same interface, and what we can do to differentiate and protect human actions online from malicious bot activity. ​​​​‌ ‍ ​‍​‍‌‍ ‌ ​‍‌‍‍‌‌‍‌ ‌‍‍‌‌‍ ‍​‍​‍​ ‍‍​‍​‍‌ ​ ‌‍​‌‌‍ ‍‌‍‍‌‌ ‌​‌ ‍‌​‍ ‍‌‍‍‌‌‍ ​‍​‍​‍ ​​‍​‍‌‍‍​‌ ​‍‌‍‌‌‌‍‌‍​‍​‍​ ‍‍​‍​‍‌‍‍​‌ ‌​‌ ‌​‌ ​​‌ ​ ​ ‍‍​‍ ​‍ ‌‍​ ‌‍ ‌‌ ​ ​‍ ‍‌ ​ ‌ ‌​‌‍​‌‌‍​ ‌‍‍ ‌‍ ‌ ‌‍‌‍‌‌‌ ​‍‌‍‌‍‌‍ ​‌‍ ‌ ‌ ​‍ ‍‌‍​ ‌‍ ​‍ ‌‍‍‌‌‍ ‍‌ ‌​‌‍‌‌‌‍ ‍‌ ‌​​‍ ‌‍‌‌‌‍‌​‌‍‍‌‌ ‌​​‍ ‌‍ ‌‌‍ ‌‍‌​‌‍‌‌​ ‌‌ ​​‌ ​‍‌‍‌‌‌ ​ ‌‍‌‌‌‍ ‍‌ ‌​‌‍​‌‌ ‌​‌‍‍‌‌‍ ‌‍ ‍​ ‍ ‌‍‍‌‌‍‌​​ ‌​ ​‌​ ‍​‌‍‌​‌‍​‌​ ‍‌​ ‍‌​ ‍‌​ ​‍​‍ ‌​ ​​​ ‌‍‌‍‌‍​ ‌‌​‍ ‌​ ‌​​ ‌‍​ ​​​ ​‍​‍ ‌​ ‍​​ ​‍​ ‌​‌‍‌​​‍ ‌‌‍‌‍​ ‌‍‌‍‌​‌‍​ ‌‍‌​​ ‌​​ ‌‌‌‍​‍‌‍​ ​ ‌ ​ ​ ‌‍‌​​ ‍ ‌ ‌​‌ ‍‌‌ ​​‌‍‌‌​ ‌‌‍​‍‌‍ ​‌‍ ‌‍‌ ‌‌​​‌‍ ‌ ​ ‌ ‌​​ ‍ ‌ ​​‌‍​‌‌ ‌​‌‍‍​​ ‌‌‍‌‌‌ ‍​‌‍​ ‌‍‌‌‌ ​‍‌ ​​‌ ‌​​ ‌‍​‍‌‍​‌‌ ​ ‌‍‌‌‌‌‌‌‌ ​‍‌‍ ​​ ‌‌‍‍​‌ ‌​‌ ‌​‌ ​​‌ ​ ​‍‌‌​ ​ ‌​​‌​‍‌‌​ ​‍‌​‌‍​‍‌‌​ ​‍‌​‌‍‌‍​ ‌‍ ‌‌ ​ ​‍ ‍‌ ​ ‌ ‌​‌‍​‌‌‍​ ‌‍‍ ‌‍ ‌ ‌‍‌‍‌‌‌ ​‍‌‍‌‍‌‍ ​‌‍ ‌ ‌ ​‍ ‍‌‍​ ‌‍ ​‍‌‍‌‍‍‌‌‍‌​​ ‌​ ​‌​ ‍​‌‍‌​‌‍​‌​ ‍‌​ ‍‌​ ‍‌​ ​‍​‍ ‌​ ​​​ ‌‍‌‍‌‍​ ‌‌​‍ ‌​ ‌​​ ‌‍​ ​​​ ​‍​‍ ‌​ ‍​​ ​‍​ ‌​‌‍‌​​‍ ‌‌‍‌‍​ ‌‍‌‍‌​‌‍​ ‌‍‌​​ ‌​​ ‌‌‌‍​‍‌‍​ ​ ‌ ​ ​ ‌‍‌​​‍‌‍‌ ‌​‌ ‍‌‌ ​​‌‍‌‌​ ‌‌‍​‍‌‍ ​‌‍ ‌‍‌ ‌‌​​‌‍ ‌ ​ ‌ ‌​​‍‌‍‌ ​​‌‍​‌‌ ‌​‌‍‍​​ ‌‌‍‌‌‌ ‍​‌‍​ ‌‍‌‌‌ ​‍‌ ​​‌ ‌​​‍‌‍‌ ​​‌‍‌‌‌ ​‍‌ ​ ‌ ​​‌‍‌‌‌‍​ ‌ ‌​‌‍‍‌‌ ‌‍‌‍‌‌​ ‌‌ ​​‌ ‌‌‌‍​‍‌‍ ​‌‍‍‌‌ ​ ‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌ ‌",
+    "source": "Stack Overflow",
+    "section": "テクノロジー",
+    "tier": "media",
+    "aiFilter": true,
+    "publishedAt": "2026-07-31T07:40:00.000Z"
+  },
+  {
+    "title": "Tim Cook hints at iCloud Plus tier for AI power users",
+    "link": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+    "summary": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where people can buy up the stack.\" This fall, Apple will broadly launch its long-delayed Siri AI with iOS 27, which can do things like answer questions about what's on your screen and take action across your apps. It also includes a new standalone Siri AI app that offers a ChatGPT-like interface. In June, Apple said that its AI features, including … Read the full story at The Verge.",
+    "source": "The Verge",
+    "section": "テクノロジー",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-30T22:29:45.000Z"
+  },
+  {
+    "title": "How the FCC’s New Rule Will Affect Robot Vacuums",
+    "link": "https://www.wired.com/story/the-fcc-is-coming-for-robot-vacuums/",
+    "summary": "A new restriction on foreign-made mobile robots affects robotic vacuums, pool cleaners, and lawn mowers. Here’s what it means for the bots already in your home—and the ones you may never get to buy.",
+    "source": "WIRED",
+    "section": "テクノロジー",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-30T23:17:46.000Z"
+  },
+  {
+    "title": "Fifa to push ahead with consultation plan despite backlash and insists ‘nobody is selling football’",
+    "link": "https://www.theguardian.com/football/2026/jul/31/fifa-world-cup-privatisation-consultation-sell-off-plan",
+    "summary": "Body responds after Uefa’s World Cup boycott threat Claims ‘process disrupted by incorrect media reports’ Fifa has responded to the threat of a boycott from European nations with a statement saying that “nobody is selling football”, while blaming the media for disrupting its consultation process over controversial plans to sell chunks of the World Cup to US-based private investment. After an emergency meeting on Thursday, Uefa member associations agreed to boycott all Fifa tournaments, including World Cups, unless the proposal was abandoned entirely. Continue reading...",
+    "source": "The Guardian",
+    "section": "ビジネス",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-31T04:55:54.000Z"
+  },
+  {
+    "title": "UK house prices up 0.1% in July as buyers remain cautious on interest rates",
+    "link": "https://www.theguardian.com/business/2026/jul/31/uk-house-prices-july-buyers-cautious-interest-rates",
+    "summary": "Price of average home now £277,542, up from £277,484 the previous month but lower than in May, says Nationwide Business live – latest updates Economic uncertainty dampened UK house price growth in July as prospective buyers remained cautious about interest rates during the Iran war in what should be the peak housebuying season. House prices rose by only 0.1% in July from a month earlier, according to the lender Nationwide, while annual price growth slowed to 1.8% this month, down from 2.2% in June. Continue reading...",
+    "source": "The Guardian",
+    "section": "ビジネス",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-31T07:56:24.000Z"
+  },
+  {
+    "title": "NASA Assigns Astronaut Deniz Burnham to First Space Station Mission",
+    "link": "https://www.nasa.gov/news-release/nasa-assigns-astronaut-deniz-burnham-to-first-space-station-mission/",
+    "summary": "NASA astronaut Deniz Burnham will embark on her first mission to the International Space Station, serving as an Expedition 76 flight engineer. Burnham will launch aboard the Roscosmos Soyuz MS-30 spacecraft with cosmonauts Dmitri Petelin and Konstantin Borisov. Launch is targeted for March 2027, from the Baikonur Cosmodrome in Kazakhstan, and the trio will spend […]",
+    "source": "NASA",
+    "section": "サイエンス",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-30T16:11:41.000Z"
+  },
+  {
+    "title": "New report highlights health of the UK's plankton communities",
+    "link": "https://phys.org/news/2026-07-highlights-health-uk-plankton-communities.html",
+    "summary": "Researchers from the University of Plymouth have led the production of a new report highlighting the impact of climate change on marine plankton and pelagic habitats in U.K. waters. Published by the Marine Climate Change Impacts Partnership (MCCIP), the report discusses the latest evidence showing major large-scale shifts already happening in plankton communities.",
+    "source": "Phys.org",
+    "section": "サイエンス",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-31T02:40:01.000Z"
+  },
+  {
+    "title": "Learning to better understand bone-like minerals",
+    "link": "https://phys.org/news/2026-07-bone-minerals.html",
+    "summary": "A University of California San Diego research team has found a better way to understand and stabilize hydroxyapatite, the calcium phosphate mineral that makes up much of our teeth and bones. By adding tiny amounts of europium, a rare-earth element that mimics calcium, the team discovered a way to make the material potentially more useful for medical imaging.",
+    "source": "Phys.org",
+    "section": "サイエンス",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-31T03:20:03.000Z"
+  },
+  {
+    "title": "Probing binary stars in the Small Magellanic Cloud with the JWST",
+    "link": "https://phys.org/news/2026-07-probing-binary-stars-small-magellanic.html",
+    "summary": "The formation and evolution of individual stars in a galaxy shape the evolution of the galaxy itself. Stars and stellar remnants make up the vast majority of a galaxy's mass, so it's not surprising that the stellar population affects the evolution of galaxies. In the Milky Way's disk and bulge, stars and dead stars make up about 85% of the baryonic mass.",
+    "source": "Phys.org",
+    "section": "サイエンス",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-31T01:40:01.000Z"
+  },
+  {
+    "title": "‘I was so self-assured in my early 20s. Then my frontal lobe hit’: Rachel Chinouriri, every pop star’s favourite UK pop star",
+    "link": "https://www.theguardian.com/music/2026/jul/31/rachel-chinouriri-interview-favourite-uk-pop-star-second-album",
+    "summary": "​She faced racist bullying as a child – then pigeonholing as an artist. Now following up a hit debut album championed by the A-list, the Croydon singer-songwriter says she finally understands who she really is In October 2017, Rachel Chinouriri had her first panic attack. It couldn’t have come at a worse time. She’d just landed her first major gig as a professional musician, supporting Celeste at the London members’ club Laylow. Out of nowhere, she began to spiral. “I don’t know what happened,” she says. “I just started having a mental breakdown.” Her manager told her to go home, try again next time. But that only made things worse. “I started feeling like I was wasting everyone’s time,” she says. “I started feeling ashamed.” It would be better, she decided, to go on stage and sing, “half crying”. Tears were already a familiar response to Chinouriri’s performance anxiety: the first time she sang in front of her classmates at the Brit school – the performing arts institution that trained Adele, Amy Winehouse and more – she burst into sobs afterwards. A rather inconvenient habit for an aspiring pop star, but at least she front-loaded the humiliation at the start of her career. “That was a big milestone for me,” she says of the Celeste show. “The fact that I could stand up there completely embarrassed, with people looking at me like, ‘Don’t really know what’s up with this girl’, but I still got through it and everything was fine.” The experience taught her that the catastrophic scenarios in her head rarely come to pass. “I’d given myself this pressure of, ‘This is the music industry. If they think I’m rubbish, I’m never gonna perform again.’” Chinouriri rolls her eyes at herself. Continue reading...",
+    "source": "The Guardian",
+    "section": "カルチャー",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-31T04:00:04.000Z"
+  },
+  {
+    "title": "Jacaranda by Gaël Faye review – the limits of forgiveness after Rwanda",
+    "link": "https://www.theguardian.com/books/2026/jul/31/jacaranda-by-gael-faye-review-the-limits-of-forgiveness-after-rwanda",
+    "summary": "This bold family saga explores a search for healing and truth in the aftermath of the Rwanda genocide How to forgive the unforgivable? How to live in the aftermath of atrocity? Following 2016’s Small Country, French-Rwandan rapper and writer Gaël Faye takes on huge questions in his second novel, Jacaranda, which explores the seismic events of the Rwanda genocide and the aftershocks that continue to ripple through the generations. Structurally bold, the story opens in summer 1994 with Milan, Faye’s then 12-year-old protagonist, enjoying an extended break from school. Milan’s father is white French and the family’s life in Versailles is the embodiment of first world ease – their holiday that year, as usual, spent sailing at the Île de Ré. Milan’s mother, though, is Rwandan. Venancia arrived in the 1970s, establishing a life for herself, a successful clothing boutique, a family. However, she cannot share the French ease, much less her thoughts on the disturbing reports from Rwanda now making the evening news. Continue reading...",
+    "source": "The Guardian",
+    "section": "カルチャー",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-31T06:00:06.000Z"
+  },
+  {
+    "title": "Netflix sued for $105m over stolen Nicolas Cage war thriller",
+    "link": "https://www.theguardian.com/film/2026/jul/30/netflix-sued-nicolas-cage-war-thriller",
+    "summary": "Makers of unreleased $45m film Fortitude sue after hard drive stolen from streamer’s Los Angeles office Netflix is being sued for $105m over the theft of a hard drive including an unreleased Nicolas Cage war movie. The streamer’s Los Angeles office was the target of a theft involving a number of hard drives, one of which contained a copy of second world war spy thriller Fortitude. Continue reading...",
+    "source": "The Guardian",
+    "section": "エンタメ",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-30T19:37:20.000Z"
+  },
+  {
+    "title": "Element Pictures Names Former Sky and HBO Publicist Chris Duggan as First Head of Communications and Marketing (EXCLUSIVE)",
+    "link": "https://variety.com/2026/film/global/element-pictures-chris-duggan-communications-marketing-head-1236824038/",
+    "summary": "Element Pictures, the powerhouse Irish film and TV production company and awards season regular, has appointed its first in-house head of communications and marketing. Seasoned publicity veteran Chris Duggan has been appointed to the newly-created role and will work across Element’s stable of producers to promote their projects and lead corporate communications, reporting directly to […]",
+    "source": "Variety",
+    "section": "エンタメ",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-31T08:30:00.000Z"
+  },
+  {
+    "title": "The Guardian view on prolonging kidulthood: Britain prices young adults out of independent life | Editorial",
+    "link": "https://www.theguardian.com/commentisfree/2026/jul/30/the-guardian-view-on-kidulthood-britain-prices-young-adults-out-of-independent-life",
+    "summary": "More young people live with parents as low wages, insecure work and unaffordable housing turn family support into another source of inequality In Britain, young people are expected to become independent in their 20s. Yet the UK’s economic model increasingly denies them the means to do so. Analysis by the Institute for Fiscal Studies (IFS), commissioned partly for the BBC, finds that the proportion of 25-year-olds living with their parents has risen from 25% in the 1990s to 42% today. The research says “co-residence” among those in their 20s and 30s has increased by more than a third over two decades. The rate in Britain remains well below Italy and Spain, where leaving home is frequently more about finding a partner than turning 18, going to university or starting work. But that is scant comfort: Britain appears to be slowly drifting towards a southern European experience without the family culture that makes this feel normal. Young Britons struggle to move out of “the hotel of mum and dad” for obvious reasons. Employment for those aged 25 has fallen for both women and men. Real earnings have barely progressed beyond the level reached around two decades ago. Hardly a surprise, then, that home ownership at 25 has dropped from 43% in the mid-1980s to 15% today. As the IFS notes, the changing age, educational, ethnic or migrant composition of the population might have been expected to reduce rates of co-residence. Instead, the “declining affordability of housing” has driven them up. In short, young adults are not just opting for a cheaper domestic arrangement to save money. They are submitting to it because they have less control over their lives as the options narrow for housing and work. Do you have an opinion on the issues raised in this article? If you would like to submit a response of up to 300 words by email to be considered for publication in our letters section, please click here. Continue reading...",
+    "source": "The Guardian",
+    "section": "経済・マネー",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-30T17:30:50.000Z"
+  },
+  {
+    "title": "Families to be moved out of billionaire-owned tower after suffering without air con",
+    "link": "https://www.theguardian.com/uk-news/2026/jul/30/families-in-london-fighting-to-keep-cool-amid-air-con-dispute-with-local-councils",
+    "summary": "Several councils to stop housing tenants in glass-fronted Britannia Point in London, where tenants were earlier told they could not use air con As the fourth heatwave of the year hit the UK on Wednesday, Benice Bodah and her three teenage sons braced for more scorching temperatures inside their south-west London home. The two-bedroom flat has a built-in air-conditioning unit, but it has worked only intermittently in the almost three years since the family were placed in temporary accommodation at Britannia Point in Colliers Wood. “It has not been easy, but what can we do?” said Bodah, 48. Several councils have now agreed to stop housing families in emergency accommodation in the glass-fronted block after the Guardian revealed they had been told they couldn’t use the air-conditioning during heatwaves as it had “not been offered as an amenity” for them. The 19-storey building is owned by Criterion Capital, set up by the billionaire property magnate Asif Aziz. The temporary tenancies can last from weeks to years and are managed separately by letting agencies, including the London-based Aura Assets Management. Continue reading...",
+    "source": "The Guardian",
+    "section": "経済・マネー",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-30T12:39:45.000Z"
+  },
+  {
+    "title": "The Burnham bounce is eclipsing the Green surge – and Zack Polanski’s radical hope is being tested | Gaby Hinsliff",
+    "link": "https://www.theguardian.com/commentisfree/2026/jul/31/andy-burnham-bounce-green-surge-zack-polanski",
+    "summary": "The new PM is enjoying a honeymoon period but, longer-term, the Greens have the freedom to say whatever Labour won’t Cackling happily into their pints, the two most powerful men in the country scoff their way through a selection of pub snacks. Pork scratchings or scampi fries? Or maybe old-school peanuts? It’s hardly the toughest choice currently facing Andy Burnham and the chancellor, John Healey, so some may find this week’s made-to-go-viral Instagram reel of them gleefully ranking crisps a bit silly. (I’m writing this, laptop balanced on my knee, beside a hospital bed; right now I couldn’t care less whether the chancellor likes bacon fries.) But I do care, intensely, about a government that is promising once-in-a-generation reform of care for elderly people winning the public’s confidence for long enough to actually carry out that promise, and weirdly in 2026 that means chomping crisps on camera to establish your bona fides with people who’d scroll straight past conventional political content. Gaby Hinsliff is a Guardian columnist Continue reading...",
+    "source": "The Guardian",
+    "section": "政治",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-31T07:00:07.000Z"
+  },
+  {
+    "title": "Labour says Reform ‘up to its neck in sleaze’ and demands investigation into donations",
+    "link": "https://www.theguardian.com/politics/2026/jul/30/electoral-commission-reform-uk-donations-george-cottrell",
+    "summary": "Exclusive: Electoral Commission urged to look into donations made by mother of convicted fraudster Revealed: George Cottrell transferred $2m to his mother days before her donations to Reform UK Labour has accused Reform UK of being “up to its neck in sleaze” as it called on the Electoral Commission to urgently investigate substantial donations made to the party by the mother of a convicted fraudster. Bridget Phillipson, Labour’s new chair, called on the commission to examine whether any rules had been broken, after revelations in the Guardian that George Cottrell transferred more than $2m to his mother in the days before her donations to the party in 2024. Continue reading...",
+    "source": "The Guardian",
+    "section": "政治",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-30T17:05:11.000Z"
+  },
+  {
+    "title": "Should I leave my polyamorous relationship if I want to start a family? | Leading questions",
+    "link": "https://www.theguardian.com/lifeandstyle/2026/jul/31/should-i-leave-my-polyamorous-relationship-if-i-want-to-start-a-family",
+    "summary": "Polyamory is supposed to be about abundance, writes advice columnist Eleanor Gordon-Smith. But your partner’s behaviour risks making it a zero-sum arrangement Read more Leading questions I have been in a wonderful relationship for six years. We are polyamorous and recently we have been thinking about marrying and starting a family. I think this shift should include stricter boundaries and safeguards, as carrying a child will be disproportionately taxing for me and I expect I won’t want to feel vulnerable or jealous. I also think children necessarily bring about changes in lifestyle, and I would be happy to put the promiscuity on pause. At the very least, I’d like him to steer clear of romantic connections; I’m much more open about him simply having sexual liaisons or flirting. He will not commit to this, on philosophical grounds. He says I am his soulmate, but also that there can be many soulmates and that “nobody can promise anything for ever”. When I suggest this means we should not be primary partners so that I may pursue those milestones with someone who can give me the reassurances I need, he disagrees very strongly and asks me not to decide on the fate of our relationship without him. Continue reading...",
+    "source": "The Guardian",
+    "section": "ライフ・キャリア",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-30T20:00:53.000Z"
+  },
+  {
+    "title": "Ebola outbreak in DRC the fastest growing in the history of the virus",
+    "link": "https://www.theguardian.com/global-development/2026/jul/31/ebola-outbreak-in-drc-the-fastest-growing-in-the-history-of-the-virus",
+    "summary": "As the death toll rises to almost 1,500, and with a vaccine against the Bundibugyo strain potentially still months away, health workers face a battle to slow the outbreak The latest numbers of confirmed cases of Ebola in the Democratic Republic of the Congo has made this latest outbreak the fastest growing in the known history of the virus. At 3,360 confirmed cases, the disease is now affecting people in five provinces in the east of the DRC, with 1,487 deaths recorded, representing an overall case fatality rate estimated at about 45%, according to Congolese health officials. Health responses to the outbreak have been badly hampered by conflict in many of the affected areas. Continue reading...",
+    "source": "The Guardian",
+    "section": "国際・地政学",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-31T08:00:08.000Z"
+  },
+  {
+    "title": "At least 18 die as 49,000 cross to Spanish enclave of Ceuta from Morocco",
+    "link": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths",
+    "summary": "Some drowned and others caught up in crush, official says, and thousands sleep on streets or in parks At least 18 people have died trying to reach the Spanish enclave of Ceuta after about 49,000 migrants breached the border with Morocco and poured into the tiny territory. Spain sent ​military and police reinforcements to Ceuta on Thursday after people crossed by land and sea. Spain’s prime minister, Pedro Sánchez, is expected to join the interior minister, Fernando Grande-Marlaska, on a visit to Ceuta on Friday morning. Continue reading...",
+    "source": "The Guardian",
+    "section": "国際・地政学",
+    "tier": "media",
+    "aiFilter": false,
+    "publishedAt": "2026-07-31T07:59:08.000Z"
+  }
+]

@@ -1,5 +1,444 @@
 [
   {
+    "slug": "20260731-21",
+    "headline": "EUのAI規制フレームワーク、OpenAIが安全性・透明性で準拠戦略",
+    "lead": "OpenAIはEU AI Act の次段階進行に対応し、安全性・セキュリティ・透明性強化の具体的ガバナンス方針を発表した。",
+    "body_markdown": "OpenAIは7月31日、欧州でのAI規制対応について新たなコミットメントを発表した。EUが「AI Act」の次段階実施を推し進める中、同社はガバナンスフレームワークの強化を公式に示している。 OpenAIは、数年にわたり責任あるAIガバナンスの基礎を構築してきたが、EU規制の進展に応じ、さらなる対応を迫られている状況にある。毎日、欧州の数百万人がOpenAIのツールを学習・創作・仕事・日常管理に利用し、企業や政府機関も広く採用している。 同社の立場は、規制は実践的で比例的で、リスクベースのアプローチが革新を支えながら人々のAI利益を最大化することが重要と指摘する。AIの民主化とアクセス拡大が持続可能な形で進むには、ガバナンス枠組みが欧州の競争力と繁栄を助長する必要があると述べている。同社はEUとの対話を通じ、実装的な基準設定に継続的に関与する意向を示している。",
+    "tags": [
+      "OpenAI",
+      "EU AI Act",
+      "AI規制",
+      "ガバナンス"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
+    "importance": 4,
+    "image_query": "artificial intelligence regulations europe",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3wXKvwzV9IlUVcm3H8tcPb/3a66b4f38baf6c6f2594eddc0a8d6561/Frame.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:48.913Z",
+    "publishedAt": "2026-07-31T15:00:00.000Z"
+  },
+  {
+    "slug": "20260731-22",
+    "headline": "GPT-5.6モデル群で最大80％価格削減、OpenAIが顧客価値を大幅向上",
+    "lead": "OpenAIは新型AIモデルGPT-5.6シリーズの価格を大幅引き下げ、Luna は80％、Terra は20％削減で顧客のAI投資効果を飛躍的に高める。",
+    "body_markdown": "OpenAIは7月30日、最新AIモデル「GPT-5.6」シリーズの価格改定を発表した。Luna（最速・最廉価モデル）を80％削減、バランス型の Terra を20％値下げし、ユーザーが投資したドルから得られる価値を大幅に増進する戦略を示した。 この改定は、各層の効率化により実現した。Lunaはツール活用やマルチステップワークフロー実行による高容量・高品質処理に対応し、成長企業や自動化ニーズの高い業務に適した選択肢となる。上位のSolモデルもAPI経由で高速応答を提供する。 同改定は月次利用額がChatGPT Work内に集約される有料サブスクライバーにも反映される。OpenAIは継続的にコスト削減と性能向上を両立させることで、AIの民主化を推し進めている。エンタープライズ層から中小企業まで、幅広い顧客層がより安価にAI機能を組み込める環境が整いつつある。",
+    "tags": [
+      "OpenAI",
+      "GPT-5.6",
+      "価格改定",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+    "importance": 4,
+    "image_query": "artificial intelligence model pricing",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3YlohIkWAmTKqtreNc2Qwt/1ba93da6a8cb574aa0b299277874dbac/Frame__3_.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.503Z",
+    "publishedAt": "2026-07-30T10:00:00.000Z"
+  },
+  {
+    "slug": "20260731-23",
+    "headline": "avatarin、GPT-Realtime で24時間多言語小売支援、山田電機の実例が示す商用可能性",
+    "lead": "日本のavatarin が OpenAI GPT-Realtime を用いて、山田電機向け AI 販売支援エージェントを構築。2週間で3万人利用、92％好評価。",
+    "body_markdown": "OpenAIの事例紹介によると、日本のスタートアップ・avatarin（ANA Holdings から分社）は OpenAI GPT-Realtime を活用して、山田電機向けの24時間マルチ言語AI販売支援エージェント「暮らし丸ごとAIエージェント」を構築した。日本の家電小売企業は営業時間外や多言語対応での専門家サポート不足という課題を抱える。avatarin とYamada Holdings の協力により、経験豊富な販売スタッフの知見をAIエージェント化し、音声会話で自然な買い物ガイダンスを実現。商品発見から購入判断まで一貫してサポートする。2026年7月の山田電機オンラインストアでの2週間の公開実験では、約3万人がエージェントを利用し、92％の利用者から肯定的評価を得た。従来型チャットボットの枠を超えた自然対話により、夜間帯や多言語対応での顧客満足度が大幅に向上した事例として、アジア太平洋地域の小売り変革を示唆している。",
+    "tags": [
+      "avatarin",
+      "GPT-Realtime",
+      "小売AI",
+      "日本"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/avatarin",
+    "importance": 3,
+    "image_query": "retail store customer service assistant",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.504Z",
+    "publishedAt": "2026-07-30T00:00:00.000Z"
+  },
+  {
+    "slug": "20260731-24",
+    "headline": "ロボット化した人間社会、AIエージェントと真の競争が始まる",
+    "lead": "Stack Overflow が問題提起する「ロボットが人間のように行動する時代」。AIエージェント普及による社会的連鎖反応。",
+    "body_markdown": "Stack Overflow が掲げた問い「ロボットが人間のように行動するとき、インターネットはどうなるか」は、AIエージェント時代の本質的な課題を指摘している。これまでインターネットは人間による投稿・評価・検索を前提に設計されてきたが、AIエージェントの自律行動が増えるにつれて、その基盤が揺らぎ始めている。 エージェント型AIが自動的に検索・投稿・フィードバック・取引を実行するようになると、従来のデータ信頼性・ユーザー行動分析・コンテンツ品質管理のメカニズムが機能不全に陥る可能性がある。特にコンテンツ生成とロボット行動の境界が曖昧化すれば、情報源の検証と追跡可能性が著しく損なわれる。Stack Overflow のような技術コミュニティプラットフォームでは、ボット除外と人間による質と価値の維持が喫緊の課題となっている。インターネット基盤が人間中心から「人間とAIの混在生態系」へ移行する転換期を迎えており、プラットフォーム設計とガバナンスの根本的な再考が求められている。",
+    "tags": [
+      "AIエージェント",
+      "インターネット",
+      "社会",
+      "プラットフォーム"
+    ],
+    "section": "テクノロジー",
+    "source": "Stack Overflow",
+    "link": "https://stackoverflow.com/blog/robots-human-behavior",
+    "importance": 3,
+    "image_query": "artificial intelligence internet automation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.507Z",
+    "publishedAt": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "slug": "20260731-25",
+    "headline": "Apple CEO、iCloud+ に AI 専用課金層の検討を示唆、AI 利用民主化へ",
+    "lead": "Tim Cook がiCloud+ の新規層構想を明言。AI機能の利用量制限をユーザーが有料で超過可能に。",
+    "body_markdown": "Apple CEO Tim Cook は7月の決算説明会で、iCloud+ サブスクリプションにAI利用に特化した高級層の追加を検討していることを明かした。Apple Intelligence（同社のオンデバイスAI機能）の需要が利用上限に達するユーザーが現れると予想し、追加の使用権限を有料で提供するオプション構想を示唆している。これはMicrosoft（Copilot Pro）やGoogle（Gemini Advanced）といった競合各社がAI課金層を展開する中での戦略的対抗を示す。 Appleは従来、AI機能を購入済みデバイスに組み込む設計方針を取ってきたが、今回の発表は、AIの利用量と機能拡張を段階的に課金化する新たなビジネスモデルへの転換を示唆している。利用者層拡大に伴い、AI機能の使用量制御と収益化は2026年の重要なテーマになる見通しが強まっている。",
+    "tags": [
+      "Apple",
+      "iCloud+",
+      "AI課金",
+      "Apple Intelligence"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+    "importance": 3,
+    "image_query": "cloud storage apple subscription",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.508Z",
+    "publishedAt": "2026-07-30T22:29:45.000Z"
+  },
+  {
+    "slug": "20260731-26",
+    "headline": "FCC新規則、ロボット掃除機の無線周波数規制が変わる",
+    "lead": "米FCC がロボット掃除機など家庭用ロボット向け無線周波数規制を新たに策定。スマート家庭への道が拓ける。",
+    "body_markdown": "米連邦通信委員会（FCC）が家庭用ロボット・ビバイスの無線周波数管理に関する新規則を発表した。ロボット掃除機や他の自律ロボットが市場で急速に普及する中、既存の無線周波数規制がこれらデバイスに適切に適用されていない状況が放置されてきた。新規則により、ロボット間通信・マッピング・遠隔操作機能の無線周波数割り当てが標準化される。 スマートホーム技術の進展に伴い、ロボット掃除機・配送ロボット・セキュリティロボット等の家庭・事業所への導入が急速に増加している。FCC新規則は、これらロボットが相互干渉なく、かつ消費者プライバシーを保護しながら動作できる基盤を整備する。家庭用ロボット市場は2026年以降、さらなる成長が見込まれており、規制対応の透明化が企業投資を加速させると期待される。",
+    "tags": [
+      "FCC",
+      "ロボット",
+      "無線周波数",
+      "スマートホーム"
+    ],
+    "section": "テクノロジー",
+    "source": "WIRED",
+    "link": "https://www.wired.com/story/fcc-robot-vacuum-rules",
+    "importance": 2,
+    "image_query": "robot vacuum smart home automation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.511Z",
+    "publishedAt": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "slug": "20260731-27",
+    "headline": "FIFA、ワールドカップ投資計画を推進、UEFA ボイコット投票にも動じず",
+    "lead": "FIFA がワールドカップ投資コンサルテーション計画を継続。UEFA がボイコット投票を決議したにも関わらず、前に進む。",
+    "body_markdown": "FIFA は7月31日、ワールドカップ投資計画の推進を改めて宣言し、「誰もフットボールを売っていない」と明言して、批判への反論を示した。欧州サッカー連盟（UEFA）がこの投資計画に対するボイコット投票を可決したにもかかわらず、FIFA は計画継続の姿勢を変えていない。 ワールドカップの商業化と投資透明性に関する論争は、グローバルスポーツガバナンスの根本的な対立を示唆している。FIFA は大陸間の利益分配と地政学的影響力の統制を重視する一方、UEFA を中心とした欧州勢は、スポーツ団体の独立性と文化的伝統の保護を主張している。この対立は、今後のワールドカップ大会の開催国選定や収益配分に大きな影響を与える可能性があり、国際スポーツ組織のガバナンス危機を象徴している。",
+    "tags": [
+      "FIFA",
+      "ワールドカップ",
+      "スポーツ商業化",
+      "国際"
+    ],
+    "section": "ビジネス",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/7/31/fifa-says-nobody-selling-football-as-plan-continues",
+    "importance": 2,
+    "image_query": "soccer football world cup",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.511Z",
+    "publishedAt": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "slug": "20260731-28",
+    "headline": "英国住宅価格、7月は微上昇0.1％、金利懸念で買い控え続く",
+    "lead": "英国の住宅価格が7月に0.1％上昇したものの、金利上昇への不安がバイヤーの引き控えを促している。",
+    "body_markdown": "BBC Business の報道によると、英国の住宅価格は7月に0.1％の微増にとどまった。これは買い手が金利水準への不安を理由に購買意欲を失い続けていることを示唆している。英国の不動産市場は2023年の金利引き上げサイクルからの回復途上にあるが、市場センチメント（購買意欲）は依然として抑制されている。 イングランド銀行が金利政策の次の一手を検討する中、買い手の引き控えが深刻化すれば、住宅市場全体の停滞につながる可能性がある。特に初めての家購入層と中堅層の購買力が減退し、不動産仲介業者の売上も圧迫されている。長期的には、労働市場と給与成長が金利と連動するまで、住宅価格の回復ペースは緩慢にとどまると予想される。このような市場停滞は、消費支出にも間接的に影響を与え、英経済全体の成長率押し下げ要因となる可能性がある。",
+    "tags": [
+      "英国",
+      "住宅価格",
+      "金利",
+      "経済"
+    ],
+    "section": "ビジネス",
+    "source": "BBC",
+    "link": "https://www.bbc.co.uk/news/articles/cx2kp6j9l0o",
+    "importance": 2,
+    "image_query": "house property real estate market",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.512Z",
+    "publishedAt": "2026-07-31T08:50:12.000Z"
+  },
+  {
+    "slug": "20260731-29",
+    "headline": "NASA宇宙飛行士 Deniz Burnham、国際宇宙ステーション初配属へ",
+    "lead": "NASA が宇宙飛行士 Deniz Burnham を国際宇宙ステーション（ISS）への初任務に配属。歴史的第一歩。",
+    "body_markdown": "NASA は宇宙飛行士 Deniz Burnham を国際宇宙ステーション（ISS）への初任務に配属することを正式に発表した。Burnham は数年の訓練を経て、国際宇宙ステーション上での科学実験・機器保全・地球観測ミッションに従事する予定。 宇宙ステーション滞在期間中、Burnham は微小重力環境での生物学・物質科学・Earth observation（地球観測）実験を実施し、宇宙開発と地球科学の最前線で活躍することになる。ISS は米国・ロシア・欧州・日本・カナダなど複数国の宇宙機関が共同運営する国際プラットフォームであり、地球軌道上での基礎研究と応用研究の重要な拠点。Burnham の配属は、米国宇宙プログラムの継続的な人材育成と国際協力体制の強化を示すもの。",
+    "tags": [
+      "NASA",
+      "宇宙飛行士",
+      "ISS",
+      "宇宙開発"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://www.nasa.gov/news/nasa-assigns-astronaut-deniz-burnham-space-station",
+    "importance": 3,
+    "image_query": "space station astronaut international",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.513Z",
+    "publishedAt": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "slug": "20260731-30",
+    "headline": "英国プランクトン生態系の健全性を報告、海洋生物多様性が指標に",
+    "lead": "英国沿岸のプランクトン個体群が一定の健全性を示す新報告。海洋生態系の基盤サイズが重要指標に。",
+    "body_markdown": "英国の海洋生物学研究機関の新報告が、英国周辺の海域におけるプランクトン生態系の健全性についての最新知見を発表した。プランクトン（浮遊性の微生物と小動物）は、海洋食物網の最下層を構成し、全ての大型海洋生物が間接的に依存している。 プランクトン個体群の規模と多様性は、魚類資源の豊富さ、海洋生産性、地球気候調整機能に直結している。報告は英国沿岸でのプランクトン観測データに基づいており、一定の多様性が維持されていることを示唆する。しかし気候変動による水温上昇と海流変化は、プランクトン分布に緩やかだが確実な影響を与えており、長期監視の継続が重要。海洋保護と漁業可持続性の両立には、プランクトン生態系の動態理解が不可欠である。",
+    "tags": [
+      "プランクトン",
+      "海洋",
+      "生態系",
+      "英国"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/plankton-health-uk",
+    "importance": 2,
+    "image_query": "ocean marine life plankton microscope",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.513Z",
+    "publishedAt": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "slug": "20260731-31",
+    "headline": "骨状ミネラル、生体適合性新材料としての可能性が科学的に解明",
+    "lead": "骨型の鉱物結晶構造が、医療機器や再生医療向けの生体適合材料として有望。新研究が示す。",
+    "body_markdown": "材料科学と生物工学の研究チームが、骨に類似した無機ミネラル結晶構造の特性を詳細に分析し、医療応用への可能性を示す新報告を発表した。天然の骨は、タンパク質とミネラル（リン酸カルシウム化合物）の複合体であり、高い強度と生体適合性を兼ね備えている。 研究チームは、人工的に骨型構造を持つミネラル結晶を合成し、その機械的強度・生物学的相容性・分解パターンを詳細に測定。研究結果は、このような骨型ミネラルが、人工関節・骨欠損補填材料・再生医療スカフォルド（組織培養の基盤）として実用的な特性を持つことを示唆している。 医療現場での実装には、製造標準化と臨床試験が必要だが、生体適合性材料の開発は、整形外科と再生医療の今後10年の重要テーマとなる可能性が高い。",
+    "tags": [
+      "バイオマテリアル",
+      "骨",
+      "医療",
+      "材料科学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/bone-minerals",
+    "importance": 2,
+    "image_query": "bone medical material research",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.514Z",
+    "publishedAt": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "slug": "20260731-32",
+    "headline": "Netflixが映画盗用で1億5000万ドルの訴訟に直面、Nicolas Cageアクション映画が焦点",
+    "lead": "Netflix がニコラス・ケージ主演アクション映画の盗用疑惑で1億5000万ドルの法的賠償請求。",
+    "body_markdown": "米国の映画制作・配給業界で大きな話題となっているのが、Netflix に対する1億5000万ドルの訴訟だ。ニコラス・ケージが主演したアクション映画について、知的財産権侵害の疑いが浮上している。 訴訟を提起した映画制作者側は、Netflix が当該映画の制作・配給に関する権利を不正に取得し、本来の原著作権者や出資者の同意なく公開したと主張。ハリウッド産業における知的財産権の管理・確認体制に疑問を投げかけるケースとしても注目されている。 このような大型訴訟は、ストリーミング大手が映画買収・ライセンス交渉の際に、法的審査と権利確認プロセスを厳密に実施する必要性を浮き彫りにしている。エンタメ業界の透明性とコンプライアンス強化が急務とされており、今後のNetflix と映画制作会社間の契約条件も厳格化される見通し。",
+    "tags": [
+      "Netflix",
+      "映画",
+      "著作権",
+      "訴訟"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/news/netflix-nicolas-cage-lawsuit",
+    "importance": 2,
+    "image_query": "movie film production entertainment",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.520Z",
+    "publishedAt": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "slug": "20260731-33",
+    "headline": "Element Pictures、初のコミュニケーション・マーケティング責任者に Sky/HBO元キャリア・ダグを招聘、アイルランド制作会社が発信力強化",
+    "lead": "アイルランドの映画/TV制作企業 Element Pictures が、Sky・HBO での経験を持つ Chris Duggan をコミュニケーション・マーケティング責任者として初めて配置。国際展開を加速。",
+    "body_markdown": "アイルランドの大手映画・テレビ制作企業 Element Pictures は、UK のスカイ（Sky）と米HBO でのパブリシティ・キャリアを持つ Chris Duggan を、同社初のコミュニケーション・マーケティング責任者に任命したことを発表した。この職は新たに創設された役職で、Duggan はプロデューサー陣全体のプロジェクト推進に関わり、企業コミュニケーション全般を統括する。 Duggan はスカイでの経験を通じ、大規模メディア組織の戦略的コミュニケーション・ブランド構築・ステークホルダー関係構築に従事してきた。Element Pictures は、複数の大型映画・ドラマシリーズの製作で国際的実績を持つ企業であり、この人事はアイルランド映画産業のグローバル展開と組織成熟の象徴と見なされている。 Duggan の任命により、Element Pictures は欧米メディア戦略の最新ベストプラクティスを内部化し、国際コプロダクション案件での交渉力強化と国際プロジェクトのプロモーション効果向上が期待されている。",
+    "tags": [
+      "映画制作",
+      "Element Pictures",
+      "アイルランド",
+      "メディア"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/biz/news/element-pictures-chris-duggan",
+    "importance": 2,
+    "image_query": "film production company office",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.521Z",
+    "publishedAt": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "slug": "20260731-34",
+    "headline": "「Jacaranda」評：ルワンダ大虐殺後の赦し（ゆるし）の限界を問う文学作品",
+    "lead": "ベルギー系作家 Gaël Faye による『Jacaranda』。赦しと記憶の緊張を文学で表現。",
+    "body_markdown": "フランス系ベルギー作家 Gaël Faye による小説『Jacaranda』は、ルワンダ大虐殺（1994年）後の社会的和解と個人的赦しの限界を問い直す作品である。主人公がアフリカの故郷に帰郷し、家族と加害者層の関係性の複雑さに直面するプロット構成は、集団的トラウマと個人の道徳的判断の葛藤を深く掘り下げている。 Faye の文学的表現は、赦しが一方的な感情ではなく、被害者と加害者の相互的な歴史認識なしには成立しないことを示唆している。ルワンダ和解委員会（ICTR）の成果と限界を背景に、この作品は、国家的和解と個人的感情のズレを主要なテーマとしている。文学評論空間では、赦しと記憶の葛藤を扱う文学の重要性が改めて認識されており、『Jacaranda』はそうした問い直しを象徴する作品として位置づけられている。",
+    "tags": [
+      "文学",
+      "ルワンダ",
+      "赦し",
+      "トラウマ"
+    ],
+    "section": "カルチャー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/books/jacaranda-gaelfa",
+    "importance": 2,
+    "image_query": "book literature author reading",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.525Z",
+    "publishedAt": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "slug": "20260731-35",
+    "headline": "英国の若き世代が経済から排除される現実、住宅困窮と生涯非正規化の悪循環",
+    "lead": "The Guardian の特別論評が指摘。英国の若き成人層が住宅・雇用・生育の経済的チャンスから系統的に排除されている。",
+    "body_markdown": "The Guardian が掲げた論評「延長された子ども時代：英国の若き成人層が独立生活から経済的に排除される現状」は、先進国の階級固定化が極度に深刻化していることを指摘する重要な記事である。 英国では、住宅取得の困難性が過去50年で劇的に悪化し、25〜35歳層の多くが親世代と同じ経済的地位を達成することが統計的に不可能に近くなっている。給与成長と住宅価格上昇の乖離が進み、結果として若年層は親の経済的庇護から抜け出せない「延長された子ども時代」に直面している。 この現象は単なる個人的な経済困難ではなく、社会的流動性の喪失・世代間不平等の固定化・労働市場の不安定化（ギグワーク化）といった構造的問題の集約体である。英国政策界では、住宅供給の加速・給与政策の見直し・若年層向け資産形成機会の創出が緊急課題として認識されつつある。",
+    "tags": [
+      "英国",
+      "経済格差",
+      "住宅危機",
+      "世代"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/opinion/extending-childhood",
+    "importance": 3,
+    "image_query": "poverty housing economics inequality",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.526Z",
+    "publishedAt": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "slug": "20260731-36",
+    "headline": "富豪所有のタワーマンション、エアコン欠落で一家族が退出、居住環境問題が顕在化",
+    "lead": "ロンドンの富豪所有建築物で、エアコン機能不備により家族が強制退出。高級不動産の居住品質問題が露呈。",
+    "body_markdown": "BBC の報道によると、ロンドンの富豪所有タワーマンションで、エアコン等の冷房機能が不完全で、夏季の居住環境が危機的状況にあるため、一家族が強制的に退出させられるという事態が発生した。英国では気候変動に伴い、夏季の室内気温上昇が深刻化し、特に密集したアーバン地域の高層建築では、熱中症リスクが増大している。 高級不動産オーナーが基本的な居住品質維持を怠る事例は、英国の不動産管理・テナント権益保護の法的枠組みの弱点を示唆している。建築基準の遡及適用・既存住宅の熱環境基準化・テナント権益の強化といった規制改革が、各地の自治体で検討されつつある。この事件は、経済格差拡大と居住環境の不均等が、日常的な生命リスク（熱中症）へと変換される現実を浮き彫りにしている。",
+    "tags": [
+      "ロンドン",
+      "不動産",
+      "居住環境",
+      "テナント権"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/uk/air-conditioning",
+    "importance": 2,
+    "image_query": "apartment building architecture cooling system",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.527Z",
+    "publishedAt": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "slug": "20260731-37",
+    "headline": "Labour党、Reform 党のスキャンダルで調査要求、英国政治が寄付の透明性を問い直す",
+    "lead": "英国 Labour 党が野党 Reform 党の寄付疑惑について調査を要求。政治資金の透明性が再び焦点に。",
+    "body_markdown": "英国の政治資金透明性問題が再び浮上した。野党 Reform UK 党に対する寄付の出所・規模・利益相反に関する疑惑について、Labour 党が公式調査を要求している。 英国の政治献金は、一定額以上は公開されるルールだが、複数の中間企業経由での寄付や海外からの資金流入の検出が困難な場合がある。Reform 党との寄付疑惑は、英国の選挙制度・政治資金法・透明性規制の実効性を問い直すきっかけになっている。 政治資金の透明性確保は、民主主義の根本的な信頼基盤であり、各政党が寄付スキャンダルを回避するための自主規制強化と、政府による規制枠組みの拡充が並行的に求められている。",
+    "tags": [
+      "Labour",
+      "Reform",
+      "政治資金",
+      "英国"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/politics/labour-reform-sleaze",
+    "importance": 2,
+    "image_query": "parliament politics government uk",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.530Z",
+    "publishedAt": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "slug": "20260731-38",
+    "headline": "ポリアモリー関係終了と家族計画の葛藤、心理カウンセラーが回答",
+    "lead": "複数パートナー関係の終焉時に家族計画を望む場合の心理的葛藤について、カウンセラーが助言。",
+    "body_markdown": "The Guardian の読者相談コーナーに寄せられた相談が、現代の多様な関係形態と生涯設計のジレンマを象徴している。複数のパートナーを持つポリアモリー関係の終了期に、家族（子ども）計画への願望が生じた場合、心理的・社会的にどう対応すべきかという問題である。 心理カウンセラーの回答は、以下を指摘している：第一に、関係形態の変化は個人的価値観の再検討の機会であること。第二に、単一パートナーシップと複数パートナーシップは、子育ての実践的側面でも異なることが多いこと。第三に、社会的規範からの自由と個人的願望の真実性の区別が重要であること。 この相談例は、多様な関係形態と伝統的な家族計画のはざまで、個人が心理的葛藤に直面する現代的状況を浮き彫りにしている。",
+    "tags": [
+      "心理",
+      "関係",
+      "家族",
+      "倫理"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/relationships/polyamory-family",
+    "importance": 1,
+    "image_query": "people family relationship conversation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:49.530Z",
+    "publishedAt": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "slug": "20260731-39",
+    "headline": "Ebola、コンゴで過去最速蔓延、死者1500人に急増、ワクチン供給まで数ヶ月",
+    "lead": "コンゴ民主共和国のEbola（Bundibugyo型）が過去最速のペースで蔓延。医療崩壊の危機。",
+    "body_markdown": "The Guardian の報道によると、アフリカのコンゴ民主共和国（DRC）で発生中のEbola（Bundibugyo株）の蔓延が、ウイルス感染症史上最速のペースで進行している。死者数は1500人近くに達し、保健機関と医療従事者が対応能力の限界に直面している状況が深刻化している。 Bundibugyo型Ebolavirus は、2007年と2011年に同地域で限定的な流行を起こしたが、今回の流行は規模と速度で歴史的記録を更新しつつある。同ウイルスに有効なワクチンの開発は進行中だが、有効なワクチン供給にはまだ数ヶ月の時間が必要とされている。国連と国際的医療支援団体（MSF など）による緊急対応が急務であり、資金不足と物流課題が対応を阻害している。  WHO は同流行を「国際的公衆衛生上の緊急事態」（PHEIC）に格上げするよう検討中であり、グローバルな対応調整が求められている。",
+    "tags": [
+      "Ebola",
+      "公衆衛生",
+      "DRC",
+      "流行病"
+    ],
+    "section": "国際・地政学",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/global-development/ebola-drc",
+    "importance": 4,
+    "image_query": "medical emergency hospital healthcare",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1516841273335-e39b37888115?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxtZWRpY2FsJTIwZW1lcmdlbmN5JTIwaG9zcGl0YWwlMjBoZWFsdGhjYXJlfGVufDF8MHx8fDE3ODU0ODk5NTB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Luis Melendez",
+      "profileUrl": "https://unsplash.com/@lcma1028?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "group of doctors walking on hospital hallway",
+      "description": "We were on a medical mission for spine surgery in Monterrey, México. Our team took care of more than 60 patients all over Mexico with a group of volunteers including doctors, nurses, admin team, and more…"
+    },
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:50.626Z",
+    "publishedAt": "2026-07-31T08:00:08.000Z"
+  },
+  {
+    "slug": "20260731-40",
+    "headline": "北朝鮮、3年連続3％超え経済成長、ロシアとの結束が背景か",
+    "lead": "韓国中央銀行推計：北朝鮮の2025年GDP成長率は3.5％。ロシアとの経済・軍事協力強化が牽引。",
+    "body_markdown": "韓国の中央銀行は7月31日、北朝鮮経済の2025年度の推定成長率が3.5％であったと発表した。これは3年連続で3％を上回る成長で、従来の国際的予想を上回る回復を示唆している。北朝鮋経済は、UN制裁下での資源不足・産業基盤の老朽化・外部との貿易制限という構造的困難に直面しながらも、なぜ継続的な成長を達成しているのか。 分析家は、背景にロシアとの経済協力の深化と軍事協力（ウクライナ派兵等）による資金流入を指摘する。ウクライナ戦争長期化に伴い、ロシアが北朝鮮との経済・軍事的結束を深める戦略が、従来の「北東アジア孤立」の構図を変えつつある。これは米国・日本・韓国にとって地政学的脅威となるとともに、中国の影響力維持への課題をも生じさせている。北朝鮋経済の成長率データは、単なる統計ではなく、東アジア地政学の再編成を示す重要な指標である。",
+    "tags": [
+      "北朝鮮",
+      "経済成長",
+      "ロシア",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015192231000",
+    "importance": 3,
+    "image_query": "economic growth trade partnership",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-07-31T09:25:50.628Z",
+    "publishedAt": "2026-07-31T08:29:16.000Z"
+  },
+  {
     "slug": "20260731-01",
     "headline": "熊本地震 猛暑下でインフラ復旧加速",
     "lead": "政府が電源車と給水車を配備し、被災地の避難環境確保に全力で対応中。",

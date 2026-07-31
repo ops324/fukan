@@ -20,3 +20,4 @@
 {"ts":"2026-07-30T09:10:52Z","type":"draft_lint","flagged":1,"drafts":11}
 {"ts":"2026-07-30T21:00:37.627Z","type":"candidates","total":372,"pool":140,"skippedWeak":5,"skippedIrrelevant":6,"enriched":0}
 {"ts":"2026-07-30T21:11:12Z","type":"draft_lint","flagged":3,"drafts":30}
+{"ts":"2026-07-31T09:00:29.295Z","type":"candidates","total":372,"pool":140,"skippedWeak":6,"skippedIrrelevant":6,"enriched":4}
