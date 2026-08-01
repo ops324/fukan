@@ -1,5 +1,591 @@
 [
   {
+    "slug": "20260801-19",
+    "headline": "OpenAI、10年以上未解決の数学問題を10個解決",
+    "lead": "AIモデルが高次幾何学から暗号理論まで、長年の難題に取り組み、数学における新しい時代の到来を示唆。",
+    "body_markdown": "OpenAIは8月1日、10年以上進展がなかった数学と理論計算機科学の10個の問題について解決を報告した。これらの問題は高次幾何学、符号理論、算術回路複雑性、群論、作用素環論、量子複雑性、格子暗号、組み合わせ論に及ぶ。\n\n5月にはOpenAIが未発表モデルの評価中に、1946年にポール・エルドシュが提唱した「単位距離予想」をAIが初めて反証する結果を生み出したと発表していた。この成果は既に数学者たちの間で新たな研究を触発している。\n\nOpenAIは100,000人の科学者と数学者に最新のChatGPTモデルへの無料アクセスを提供する「ChatGPT for Academic Researchers」イニシアティブを同時に開始。機械学習とシンボリック推論の組み合わせが、人間の数学者を補完する新しいツールとして機能していることが明らかになった。\n\nこの発展は、AIが単に記号操作にとどまらず、数学的創意工夫が必要な複雑な問題に対して実質的な貢献ができることを示すもので、学術研究全体における生成AI活用の可能性を大きく広げる。",
+    "tags": [
+      "AI数学",
+      "ChatGPT",
+      "研究",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/ten-advances-in-mathematics/",
+    "importance": 5,
+    "image_query": "mathematical equations chalkboard",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5RUlCTeEvzWYd2DDpdcNgh/f38e144bf6f5911074b1939c1528ed2b/Frame__4_.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/ten-advances-in-mathematics/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:06.230Z",
+    "publishedAt": "2026-08-01T00:00:00.000Z"
+  },
+  {
+    "slug": "20260801-20",
+    "headline": "OpenAIのGPT-5.6、ベンチマーク設定の工夫で正答率を3倍に",
+    "lead": "APIの設定変更により、AIが2Dパズル解析の能力を大幅に改善。ベンチマーク実装方法がAI評価の重要性を浮き彫りに。",
+    "body_markdown": "OpenAIは7月29日、ARC-AGI-3ベンチマークの正答率を従来の7.8%から3倍以上に向上させた報告を公開。GPT-5.6 Solが2Dパズルゲーム解析で大幅な成績改善を達成した。\n\n従来、フロンティアモデルはこのベンチマークで第1段階を超えるレベルに到達していなかった。しかし新しいハーネス（テスト環境）を使用することで、推論の保持とデータ圧縮を有効にした結果、GPT-5.6 Solが6つのレベルすべてに対応可能になった。\n\nこの改善は、ベンチマークが単にAIモデルの能力を測定するだけでなく、テスト方法や設定のわずかな差異が結果に大きな影響を与えることを示唆している。GPU構成やAPI呼び出し方法といった見えない選択肢が、AIの真の能力評価を左右する重要な要素であることが明らかになった。\n\nOpenAIはGPT-5.6 Solが数学のオープン問題や複雑なゲーム（ポケモン FireRed）の解析など、他の領域では既に高い成果を上げていると指摘。ベンチマーク設計と運用方法の洗練が、AIの能力を正確に評価する上で同等かそれ以上に重要な課題であることが浮き彫りになった。",
+    "tags": [
+      "AI能力評価",
+      "ベンチマーク",
+      "GPT-5"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/",
+    "importance": 4,
+    "image_query": "artificial intelligence puzzle solving",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3lr743fXRey8lYJgiaReEo/80b223beba7cf8fcd4108d533741a56b/ARC-AGI-3_art-card_16x9.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:06.371Z",
+    "publishedAt": "2026-07-29T15:00:00.000Z"
+  },
+  {
+    "slug": "20260801-21",
+    "headline": "米とイスラエル、週末にもイランのエネルギー施設を空爆予定か",
+    "lead": "米国とイスラエルが、イランの石油とガス施設への新たな爆撃キャンペーンを準備。イラン側は報復を示唆。",
+    "body_markdown": "複数の米国メディアは7月31日、米国とイスラエルがイランのエネルギー関連施設への爆撃キャンペーンを週末にも実行する可能性があると報じた。攻撃対象には発電所や石油精製施設が含まれるとされている。\n\n米国の元高官は、このような施設への攻撃の戦略的価値は、イランの軍部による公共サービス提供と統治能力を直接的に弱体化させる点にあると指摘。米国の行動はエルサレムと緊密に調整されており、ドナルド・トランプ大統領はこの週初めにベンヤミン・ネタニヤフ首相と会談していた。\n\nこれに対し、イラン側の高位の安全保障関係者は、イラン自身が報復攻撃の計画を用意していると述べた。イランの軍事戦略家らは、イスラエルと米国のエネルギーインフラを標的とした大規模な反撃を検討していると報道されている。\n\n紛争の拡大の可能性を示すなか、クウェートはここ数日で上空でイランの無人機の侵入を検知・破壊したと発表。湾岸地域全体の緊張が急速に高まっている。",
+    "tags": [
+      "イラン",
+      "イスラエル",
+      "米国",
+      "中東紛争"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015193371000",
+    "importance": 5,
+    "image_query": "military fighter jets conflict",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1698815861422-41f675a567d4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8bWlsaXRhcnklMjBmaWdodGVyJTIwamV0cyUyMGNvbmZsaWN0fGVufDF8MHx8fDE3ODU1NzY3ODd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Craig Manners",
+      "profileUrl": "https://unsplash.com/@craigmanners_com?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "two fighter jets are flying in the sky",
+      "description": "Jet Fighters by Craig Manners (craigmanners.com)"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:07.923Z",
+    "publishedAt": "2026-08-01T02:57:36.000Z"
+  },
+  {
+    "slug": "20260801-22",
+    "headline": "Google Earth の AI 衛星画像ツール、24時間で削除—虚偽情報の懸念で",
+    "lead": "GoogleがNano Banana AI機能を停止。衛星画像にAI生成の虚偽情報を合成できることが判明。",
+    "body_markdown": "Googleは7月30日に発表したGoogle Earth向けのAI画像生成機能「Nano Banana」を、翌31日に削除した。わずか24時間での撤回となった。\n\nこのツール は、衛星画像の正確な座標にテキストプロンプトで虚偽の事象を合成できるものだった。AI研究者Henk van Essは、米国内のキャンプやイランの油田での爆発など、実際には起きていない災害シーンの画像を生成。ツイッターで拡散され、数百万人の閲覧に達した。\n\n問題の根本は、生成される画像が実際の衛星写真・航空写真・3D データを基盤にしていたことだ。AIが作り出した虚偽のシーンは、正確な地理座標と照明・角度の正確さを持つため、DALLEやMidjourneyのような一般的なAI画像生成ツールより遥かに信じやすい。地図上の信頼性が虚偽情報の信憑性を大幅に高めていた。\n\nGoogleは最初「デジタル透かしと検証機能で対応できる」と述べていたが、翌日には政策違反を認めて機能を完全に削除。実世界の視覚記録をAIで書き換える際の倫理的・技術的課題の複雑さが露呈した。",
+    "tags": [
+      "AI",
+      "Google",
+      "虚偽情報",
+      "デジタル安全"
+    ],
+    "section": "AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images/",
+    "importance": 4,
+    "image_query": "satellite imagery earth map",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1770723965168-fab6e7e0f5bf?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxzYXRlbGxpdGUlMjBpbWFnZXJ5JTIwZWFydGglMjBtYXB8ZW58MXwwfHx8MTc4NTU3Njc4OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "ostudio",
+      "profileUrl": "https://unsplash.com/@ostudio?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "The earth viewed from space against a black background.",
+      "description": "Planet Earth with Asia at the centre of the view."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:08.514Z",
+    "publishedAt": "2026-07-31T17:05:46.000Z"
+  },
+  {
+    "slug": "20260801-23",
+    "headline": "ロシアのミサイル攻撃、キーウで少なくとも9人死亡",
+    "lead": "ロシア軍がウクライナの首都に継続的に攻撃。インフラと民間人に被害。",
+    "body_markdown": "ロシア軍は8月1日、ウクライナの首都キーウとその周辺に大規模なミサイル攻撃を実行した。ウクライナの当局者によれば、少なくとも9人が死亡し、子供4人を含む28人が負傷した。\n\n攻撃は、バリスティックミサイルの段階的増加を続けるロシアの戦術の一部。ウクライナの防空側は、いくつかのミサイルを撃ち落とそうとしたが、複数が命中した。キーウ市長のヴィタリー・クリチコは、被害規模について「最大級の攻撃だ」とコメントした。\n\n朝から夜間にかけての複数回の波状攻撃により、建物が破壊され、民間の基盤インフラが損傷した。ロシアはウクライナのエネルギーインフラと軍事施設の両方を標的に、継続的な心理的圧力戦術を展開している。\n\nウクライナ側は、ロシアの攻撃に対して防空体系を強化し、民間人の避難所利用を呼びかけている。各地の死傷者数は、引き続き更新される可能性がある。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "紛争",
+      "キーウ"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/ce973yvk7pko",
+    "importance": 4,
+    "image_query": "missile strike urban conflict",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1774450451368-cc513db178bd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxtaXNzaWxlJTIwc3RyaWtlJTIwdXJiYW4lMjBjb25mbGljdHxlbnwxfDB8fHwxNzg1NTc2Nzg5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Christian Jones",
+      "profileUrl": "https://unsplash.com/@scouserinukraine?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Tanks and a statue in a sunlit urban environment.",
+      "description": "An unfortunate event. Raw and unedited."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:09.028Z",
+    "publishedAt": "2026-08-01T08:24:09.000Z"
+  },
+  {
+    "slug": "20260801-24",
+    "headline": "米財務省が円買い介入を実施—日本と協調の可能性",
+    "lead": "ドル円が157.24円まで急伸。米国財務省が50～100億ドル相当の円買い介入を実施、日米協調示唆。",
+    "body_markdown": "米国財務省は7月31日、円買い・ユーロ売りの外国為替市場への介入を実施した。ロイター、フィナンシャル・タイムズなど複数メディアが報道した。日本時間8月1日未明にかけて急激に円高ドル安が進む中での介入となった。\n\nドル円レートは前日の7月30日から継続的に上昇し、7月31日のニューヨーク市場で157.24円付近まで円が買われた。これは約2.5ヶ月ぶりの高水準。日本政府と日銀が7月30日に円買い・ドル売り介入を実施していたのに続く、米国による支持表明形式の協調介入だった。\n\nスコット・ベッセント米財務長官の会議メモには「50～100億ドル相当の円購入」と記されていた。米国の金融当局が市中銀行に対して円買い介入の可能性を通知することで、過度な投機的なドル売りを抑止する狙いがあったと見られる。\n\nこの日米の協調は、金融市場の安定と過度な為替変動への共同対処を示すもので、異例の米国による主動的な円買い介入は、ドル弱化への強い懸念を反映している。",
+    "tags": [
+      "為替",
+      "円ドル",
+      "財政政策",
+      "日米協調"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015193361000",
+    "sources": [
+      {
+        "url": "https://www.nikkei.com/article/DGXZQOGN31CAR0S30C26A7000000/",
+        "name": "日本経済新聞"
+      }
+    ],
+    "importance": 4,
+    "image_query": "currency exchange financial market",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1768055104895-e6185762f2a9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxjdXJyZW5jeSUyMGV4Y2hhbmdlJTIwZmluYW5jaWFsJTIwbWFya2V0fGVufDF8MHx8fDE3ODU1NzY3ODl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jakub Żerdzicki",
+      "profileUrl": "https://unsplash.com/@jakubzerdzicki?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Trader analyzing stock market charts on computer screens with calculator.",
+      "description": "Financial trading workstation stock crypto investment analysis. Closeup hand holding smartphone calculator desk monitors charts candlesticks graphs market data savings portfolio planning risk management economy finance technology office night lighting focus strategy performance growth profit volatility currency bitcoin ethereum exchange dashboard indicators keyboard notebook calculations"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:09.625Z",
+    "publishedAt": "2026-08-01T02:46:08.000Z"
+  },
+  {
+    "slug": "20260801-25",
+    "headline": "東シナ海で中国が新構造物設置—日本政府が抗議",
+    "lead": "日本との中間線付近で中国がガス田開発施設を構築か。領土・資源問題が再燃。",
+    "body_markdown": "日本政府は7月31日、東シナ海での石油・ガス田開発をめぐり、日中の中間線付近の中国側海域で、中国による新たな構造物設置に向けた動きを確認したと発表。一方的な開発継続は「極めて遺憾」として、中国側に強く抗議した。\n\n確認された動きは、過去の合意や協力枠組みを無視した形での施設建設準備と見られている。東シナ海のエネルギー資源開発は日中間の長年の懸案で、1970年代から領土・資源の所属をめぐる対立がある。日本側は、中間線を挟んだ双方の協力に基づく開発が望ましいと主張してきた。\n\n日本の外務省および防衛当局は、この構造物設置がガス田開発施設である可能性が高いと判断。日中の外交チャネルを通じて抗議し、建設の中止を求めた。中国外交部は日本の懸念に対する直接的なコメントを避けている。\n\nこの事態は、東シナ海におけるエネルギー開発競争と地政学的緊張が高まっていることを示す。日本は米国を含む安全保障パートナーとの協力を通じて対応方針を検討している。",
+    "tags": [
+      "東シナ海",
+      "中国",
+      "日本",
+      "エネルギー資源"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015192951000/",
+    "importance": 4,
+    "image_query": "oil rig platform sea",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1651776651282-fef8477df33a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxvaWwlMjByaWclMjBwbGF0Zm9ybSUyMHNlYXxlbnwxfDB8fHwxNzg1NTc2NzkwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Bernardo Ferrari",
+      "profileUrl": "https://unsplash.com/@bernaferrari?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large structure in the middle of a body of water",
+      "description": "An oil platform / oil rig in the Brazilian sea near Rio de Janeiro on a sunny day."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:10.226Z",
+    "publishedAt": "2026-07-31T16:03:28.000Z"
+  },
+  {
+    "slug": "20260801-26",
+    "headline": "イスラエルの入植者、パレスチナ人への暴力は正当と主張—BBC取材で",
+    "lead": "入植者の暴力が激化。西岸地区での緊張が急速に高まる。",
+    "body_markdown": "BBC の取材に応じたイスラエルの西岸地区の入植者は、パレスチナ人への暴力攻撃を報復として正当化する主張を述べた。入植者社会内で、報復論理が暴力を正当化する方向へ傾斜していることが浮き彫りになった。\n\nBBCの報告によると、西岸地区ではイスラエル人入植者によるパレスチナ人への暴力事件が増加傾向にある。これは入植地の拡大と並行している。入植者側は、過去のパレスチナ側からの攻撃への報復という論理で行動を正当化するが、国連やヒューマン・ライツ・ウォッチなどは、組織的な暴力と差別的な意図を指摘している。\n\nパレスチナ自治政府は、入植者の暴力がイスラエル政府の消極的な対応と相まって、西岸地区の住民を脅迫していると批判。一方、イスラエル当局は入植地の安全確保が国家防衛の一部だと主張し続けている。\n\n暴力の悪循環が深刻化するなか、国際的な仲介機関や人権団体の介入が求められている。",
+    "tags": [
+      "イスラエル",
+      "パレスチナ",
+      "人権",
+      "紛争"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/c4g4djgdyk2o",
+    "importance": 4,
+    "image_query": "protest demonstration conflict",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1743907727520-bf0a34da2675?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8cHJvdGVzdCUyMGRlbW9uc3RyYXRpb24lMjBjb25mbGljdHxlbnwxfDB8fHwxNzg1NTc2NzkxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mike Newbry",
+      "profileUrl": "https://unsplash.com/@mikenewbry?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A crowd of protesters hold signs in a demonstration.",
+      "description": "Utahns protest the actions of Donald Trump and Elon Musk outside the Utah State Capitol."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:11.099Z",
+    "publishedAt": "2026-08-01T05:01:56.000Z"
+  },
+  {
+    "slug": "20260801-27",
+    "headline": "キオクシア、半導体市況回復で過去最高益—強気の自社株買い8000億円",
+    "lead": "メモリ需要の急伸でキオクシアが前年超の営業利益。経営陣が市場見通し改善を示唆。",
+    "body_markdown": "キオクシア・ホールディングスは7月31日、2026年4～6月期の営業利益（非GAAP）が過去最高の1兆3262億円に達したと発表した。直近12ヶ月間の営業利益を上回る期中実績となり、経営陣の強気な見通しを示唆している。\n\n同社は7～9月期の売上収益を2兆3900億円と見込むなど、積極的な事業予測を掲げた。経営幹部らは、AI データセンターの急速な拡大に伴うメモリチップ需要の高まりが主因であると説明。NAND型フラッシュメモリの価格上昇と需要拡大が業績を押し上げている。\n\nキオクシアは8000億円規模の自社株買いプログラムを発表。これは市場に対する経営陣の企業価値と市況見通しに対する強気な信号として機能している。半導体市場全体が供給逼迫と需要拡大の局面にあるなか、日本の記憶デバイス製造大手の復調が注目される。\n\nただし、地政学的リスク（米中関係・台湾情勢）や需給バランスの急激な変化への懸念は、依然として存在する。",
+    "tags": [
+      "半導体",
+      "メモリ",
+      "キオクシア",
+      "ビジネス"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/business/articles/2607/31/news108.html",
+    "importance": 4,
+    "image_query": "semiconductor chip circuit",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1540829917886-91ab031b1764?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8c2VtaWNvbmR1Y3RvciUyMGNoaXAlMjBjaXJjdWl0fGVufDF8MHx8fDE3ODU1NzY3OTF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Slejven Djurakovic",
+      "profileUrl": "https://unsplash.com/@slavudin?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Intel computer processor in selective color photography",
+      "description": "Old Motherboard"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:11.958Z",
+    "publishedAt": "2026-07-31T09:45:00.000Z"
+  },
+  {
+    "slug": "20260801-28",
+    "headline": "El Niño 強まる中、国連事務総長が警告—「地獄に燃料を注ぐ」",
+    "lead": "強化されるエルニーニョ現象が全球気温新高記録の懸念。国連トップが行動喚起。",
+    "body_markdown": "国連事務総長アントニオ・グテーレスは7月31日（現地時間）、強まるエルニーニョ現象が記録を更新する危険性を警告した。グテーレスは、すでに「炎上している惑星」に「燃料を注いでいる」と述べ、世界が「未知の領域へ進んでいる」と述べた。\n\nPhys.org の報告によれば、強化されるエルニーニョは全球平均気温の急激な上昇をもたらす可能性がある。エルニーニョ現象は、太平洋赤道域の海面水温が通常より高くなる周期的な自然現象だが、今年のエルニーニョは従来のパターンを上回る強度を示しているという。\n\nグテーレスの警告は、気候変動と極端気象の相乗効果への懸念を反映している。世界的な熱波、干ばつ、洪水が同時多発的に起こるリスクが高まっている。科学者のコンセンサスとしても、2030年代までに1.5℃の昇温閾値に達する可能性が高まっているとされている。\n\nこの警告は、各国政府と企業に対し、排出削減と気候適応の加速を求めるものとなっている。",
+    "tags": [
+      "気候変動",
+      "エルニーニョ",
+      "環境",
+      "地球温暖化"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-el-nino-adding-fuel-planet.html",
+    "importance": 4,
+    "image_query": "global warming ocean heat",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1619233651146-7364c945c3ee?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxnbG9iYWwlMjB3YXJtaW5nJTIwb2NlYW4lMjBoZWF0fGVufDF8MHx8fDE3ODU1NzY3OTJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Photoholgic",
+      "profileUrl": "https://unsplash.com/@photoholgic?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "ocean waves crashing on shore during daytime"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:12.941Z",
+    "publishedAt": "2026-08-01T06:48:04.000Z"
+  },
+  {
+    "slug": "20260801-29",
+    "headline": "Snapchat、AI生成動画を Spotlight 対象外に—「AI スロップ」排除へ",
+    "lead": "Snapchat が完全AI生成コンテンツの推奨を停止。ユーザー作成コンテンツの価値を重視。",
+    "body_markdown": "Snapchat は7月31日、推奨システムを更新し、完全にAIで生成されたSpotlight動画を対象から除外すると発表した。人間が作成した「本物の創意工夫」を発見できる場所として、プラットフォームを維持する意図を示した。\n\nこの変更により、生成AIツールだけで制作された動画は、たとえ生成AIの使用を開示していても、Spotlight での報酬や推奨対象にはならない。ただし、Snapchat自身のAIクリエイティブツール（フィルターや効果）を使用して編集・強化されたコンテンツは、透明性インジケータ付きで推奨対象のままとなる。\n\nSnapchat の公式声明は「低品質で反復的なAI生成コンテンツ（AI スロップ）がインターネット全体に蔓延する中で、Spotlight は実在する人々からの本物の創意工夫を発見できる場所であり続けたい」と述べている。\n\n同様の対応はYouTube、LinkedIn、Substack、Meta など他のプラットフォームでも進行中。業界全体が、生成AIコンテンツの氾濫とクリエイター権の保護に対する危機感を示している。",
+    "tags": [
+      "ソーシャルメディア",
+      "AI",
+      "コンテンツ政策"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
+    "importance": 3,
+    "image_query": "video streaming social media",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:12.943Z",
+    "publishedAt": "2026-07-31T16:49:08.000Z"
+  },
+  {
+    "slug": "20260801-30",
+    "headline": "Apple、Siri AI の高度な機能を有料化へ—iCloud+ アップグレード形式",
+    "lead": "Tim Cook がApple Intelligence の段階的有料化を示唆。iOS 27 で実装予定。",
+    "body_markdown": "Apple CEO のティム・クックは7月30日の第3四半期決算説明会で、高度なSiri AI 機能への有料アクセスモデルを検討していることを明かした。ユーザーは iCloud+ のアップグレード経由で、追加のAI能力を購入できるようになるという。\n\nApple Intelligence の基本的なSiri タスク（オンデバイス処理）は無料だが、画像生成や対話型AI機能は1日の利用上限に達している。クックは「多く利用したいユーザーのために、iCloud+ スタック内でアップグレード可能性を提供する」と述べた。ただし、具体的な価格設定やアップグレード内容は未発表。\n\nApple はこの情報を、9月予定の iOS 27 リリースやiPhone 18 Pro の発表時に詳細化すると見られている。スマートフォンOSにおけるAI機能のティアード課金は業界初となり、他社の対応方針にも影響を与える可能性がある。\n\niPhone ユーザーの反応は分かれており、プレミアムAI能力への課金に抵抗感を示すユーザーもいれば、高度な機能へのアクセスを望むユーザーもいる。",
+    "tags": [
+      "Apple",
+      "AI",
+      "有料化",
+      "iOS"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
+    "importance": 3,
+    "image_query": "smartphone voice assistant",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:12.944Z",
+    "publishedAt": "2026-07-31T16:08:18.000Z"
+  },
+  {
+    "slug": "20260801-31",
+    "headline": "音声AI企業 Smallest.ai、1300万ドル調達—リアルタイム音声処理に注力",
+    "lead": "Smallest.ai がシリーズAで資金調達。自然な音声会話を実現するための技術開発を加速。",
+    "body_markdown": "AI音声通話企業のSmallest.ai は7月31日、Seligman Ventures が主導するシリーズA資金調達で1300万ドルを調達したと発表。Sierra Ventures、3one4 Capital を含むバッカーから資金提供を受け、総資金は2100万ドルを超えた。\n\nSmallest.ai は、聴取、推論、行動、応答を並列処理するリアルタイム音声AI インフラを開発している。企業向けの自然な音声対話システムをTuring テスト水準で実現することを目標とする。同社は、音声対話のレイテンシ（遅延）削減と自然性の向上に特化している。\n\n調達資金は、金融サービス、医療、コールセンター、ビジネスプロセスアウトソーシングなど、幅広い業界での音声AI プラットフォーム展開に充てられる。同社は「Hydra」という非同期音声生成モデルと新しい「Voice 4.0」アーキテクチャを発表し、より自然で応答性の高い、スケーラブルなAI 会話を可能にすると述べている。\n\nこの資金調達は、音声AIが次世代のヒューマンコンピュータインタラクションの中核となるという業界の確信を示している。",
+    "tags": [
+      "AI",
+      "音声技術",
+      "スタートアップ",
+      "資金調達"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+    "importance": 3,
+    "image_query": "voice assistant speaker technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:12.945Z",
+    "publishedAt": "2026-07-31T14:47:11.000Z"
+  },
+  {
+    "slug": "20260801-32",
+    "headline": "ハンガリー、ドナウ川の水位低下で原発停止へ—欧州エネルギー危機の一部",
+    "lead": "ハンガリーの唯一の原発が冷却用水不足で数日以内に停止予定。記録的干ばつが影響。",
+    "body_markdown": "ハンガリー首相ペーター・マジャル氏は7月31日、同国の唯一の原発である Paks 原発が来週にも停止すると発表した。ドナウ川の水位が記録的低水準に低下したことが理由。水位は2018年の前回最低記録からさらに1メートル以上下がっており、原発設計時の100年最低水準をも大幅に下回っている。\n\nPaks 原発は4基のソビエト時代技術の炉で構成され、ドナウ川からポンプで取水した水で冷却している。停止予定は8月3日（火）または（水）とされており、水位がさらに数週間は低い状態が続く可能性がある。同原発は44年の運用史において初の停止となる。\n\n同発電所はハンガリーの電力供給の約半分を担っているが、政府は輸入インフラが3600～3800MW の容量を保有しており、企業・家庭ともにエネルギー供給は確保できると述べている。ただし、電力供給の制約と市場への影響には懸念が残る。\n\nこの出来事は、欧州中央部での連続熱波と、気候変動に伴う水資源不足がエネルギーセキュリティに与える影響を示すもの。",
+    "tags": [
+      "原発",
+      "エネルギー",
+      "ハンガリー",
+      "気候変動"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-hungary-nuclear-heatwave-central-europe.html",
+    "importance": 3,
+    "image_query": "nuclear power plant cooling tower",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:12.946Z",
+    "publishedAt": "2026-08-01T06:47:14.000Z"
+  },
+  {
+    "slug": "20260801-33",
+    "headline": "英国の太陽光発電、15年ぶりの高水準—上半期で14万件超の新規設置",
+    "lead": "エネルギーコスト高騰でグリーン投資が加速。上半期14万件超（142,536件）の太陽光導入が2011年以来最高記録。",
+    "body_markdown": "グレートブリテン地域は2026年上半期、142,536件の太陽光発電システム（家庭用・商用・大規模農場含む）を新規導入し、2011年以来最高の6ヶ月間の設置数を記録した。年間ペースで見ると、昨年の記録を上回るペースで推移している。\n\nこの太陽光導入ブームは、化石燃料コスト上昇による家庭・企業のエネルギーコスト圧迫と、英国のグリーン転換政策の強化が背景にある。E.ON Next のデータでは、2026年上半期の家庭向けソーラーパネル導入件数が前年同期比151%増加したと報告されている。\n\n英国全体の累計太陽光導入数は2,075,804件に達し、2026年3月に200万件の大台を初めて突破。太陽光発電は系統全体の信頼できる供給源として急速に地位を確立しつつある。\n\nただし、グリッド安定性、蓄電能力、既存電力網への統合といった技術課題は依然として存在。また、設置スペースと許認可プロセスの簡潔化が、さらなる拡大の鍵となる。",
+    "tags": [
+      "再生可能エネルギー",
+      "太陽光発電",
+      "英国",
+      "グリーン転換"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/environment/2026/jul/31/new-solar-panels-great-britain-15-year-high",
+    "importance": 3,
+    "image_query": "solar panel rooftop installation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:12.947Z",
+    "publishedAt": "2026-07-31T09:00:09.000Z"
+  },
+  {
+    "slug": "20260801-34",
+    "headline": "ECB、気候危機が金融安定に脅威と警告—生態系サービス崩壊のリスク",
+    "lead": "欧州中央銀行が気候と自然喪失を金融リスク要因として位置付け。監視を強化。",
+    "body_markdown": "欧州中央銀行（ECB）の執行委員会メンバー、フランク・エルダーソン氏は8月1日、気候危機と生態系サービスの崩壊が欧州圏の金融安定に対する劇的な増加リスクをもたらすと警告した。同時に、野生火災が猛威を振るう中、ECBは生態系サービス崩壊に関連する金融リスクの監視を強化している。\n\n生態系サービスとは、自然による水の浄化、施粉、気候調整、洪水防止などの無形資産。これらが劣化すれば、企業の操業コスト上昇、保険コスト増加、信用リスク拡大につながる。ECBは企業の気候リスク脆弱性を評価する際に、これらの要因を資産価値評価に織り込み始めている。\n\n同行は企業向けローンの気候リスク評価を強化し、気候転換リスクの高い企業へのローン価値を引き下げる「気候ファクター」をコラテラルフレームワークに統合。これにより、銀行の気候リスク管理をより厳密にする。\n\nECBの行動は、中央銀行が金融安定の責務として気候・環境リスクを軽視できない段階に入ったことを示している。",
+    "tags": [
+      "気候変動",
+      "金融リスク",
+      "欧州",
+      "ECB"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/aug/01/ecb-climate-wildfires-global-economy-stability",
+    "importance": 3,
+    "image_query": "wildfire environmental damage",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:12.948Z",
+    "publishedAt": "2026-08-01T04:00:41.000Z"
+  },
+  {
+    "slug": "20260801-35",
+    "headline": "FIFA World Cup 投資計画、撤回—広がる反発を前に Infantino が折れる",
+    "lead": "イニファンティーノが200億ドルのWorld Cup 民営化計画を放棄。UEFA ボイコット脅迫が奏功。",
+    "body_markdown": "国際サッカー連盟（FIFA）のジャンニ・イニファンティーロ会長は7月31日夜、World Cup の商業化を民間投資家に売却する200億ドルの計画を撤回すると発表した。「FIFA Forward Enterprise」と呼ばれたこの構想は、わずか数日間で世界中からの猛烈な反対に直面して頓挫した。\n\nこの計画は、FIFA が新しい商業企業を設立し、外部投資家に約20%の株式を売却して資金調達するもの。その見返りに、加盟国協会への支給金を現在の1000万ドルから2000万ドルに倍増させるとうたっていた。\n\nしかし計画発表後、ヨーロッパサッカー連盟（UEFA）が緊急会合を開催し、World Cup ボイコットの投票を実施。北米・カリブ海域（CONCACAF）とアジア（AFC）も反対を表明した。同時にFIFA の上級顧問カルロス・コルデイロが抗議して辞任。\n\nイニファンティーロはその後の声明で「プロジェクトが分裂を生み出していることが明らかになった」と述べ、計画を完全に放棄。権力集中とガバナンスの不透明性についての長年の批判が、この急速な撤回につながった形。",
+    "tags": [
+      "FIFA",
+      "World Cup",
+      "ガバナンス",
+      "スポーツビジネス"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/football/2026/aug/01/fifa-scraps-plan-to-sell-off-stakes-in-world-cup-after-widespread-backlash",
+    "sources": [
+      {
+        "url": "https://www.aljazeera.com/sports/2026/7/31/fifa-forced-to-scrap-world-cup-private-investment-plan-after-backlash",
+        "name": "Al Jazeera"
+      }
+    ],
+    "importance": 3,
+    "image_query": "soccer world cup stadium",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:12.948Z",
+    "publishedAt": "2026-07-31T23:55:44.000Z"
+  },
+  {
+    "slug": "20260801-36",
+    "headline": "BP、北海の油田・ガス事業を売却へ—60年の事業を終結",
+    "lead": "新CEO メグ・オニールが事業統合・債務削減戦略の一環として実行。脱炭素圧力も背景。",
+    "body_markdown": "英石油大手 BP は7月31日、英国北海におけるオイル・ガス事業の売却手続きを正式に開始したと発表。最新の経営陣は、ポートフォリオ単純化と負債削減の重戦略の一環として、この60年近いビジネスの終結を決定した。\n\nBP の北海事業は5つの生産ハブで構成され、約1100人の従業員を抱えている。昨年の同社全体の石油・ガス生産量は日量230万バレルだったが、北海からは約117,000バレルと全体の5%程度を供給していた。\n\nメグ・オニール CEO は「北海は英国のエネルギーシステムにとって不可欠だが、当社がポートフォリオを焦点化し、最高値の機会へ資本を振り向けるにあたり、北海事業は別の企業の一部として良好に機能するであろう」とコメント。同社は年末までに総額200億ドルの資産売却を目指している。\n\n北海での事業売却は、英国の石油・ガス産業における構造的な転換を映しており、高い風力発電税率と変動する国際エネルギー市場が背景にある。",
+    "tags": [
+      "石油・ガス",
+      "エネルギー転換",
+      "BP",
+      "北海"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/jul/31/bp-north-sea-oil-and-gas-business-up-for-sale",
+    "importance": 3,
+    "image_query": "oil rig north sea energy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:12.949Z",
+    "publishedAt": "2026-07-31T17:06:51.000Z"
+  },
+  {
+    "slug": "20260801-37",
+    "headline": "ペルー前大統領フマラ、有罪判決が破棄され解放—マネーロンダリング控訴成功",
+    "lead": "汚職有罪のオジャンタ・フマラが15年の投獄から解放。判決破棄で政界復帰の道も",
+    "body_markdown": "ペルーのオジャンタ・フマラ前大統領（2011～2016年在任）は8月1日、15年のマネーロンダリング有罪判決が破棄され、投獄から解放された。2025年の有罪判決以降、同氏と妻のナディネ・エレディアは長期投獄に直面していた。\n\nペルーの司法制度において、控訴段階での判決破棄は異例。支持者らは、フマラへの裁判が政治的動機に基づいていると主張してきた。判決破棄の理由には、証拠不十分や司法手続きの瑕疵が含まれる可能性がある。\n\nフマラは2016年の大統領選挙で敗北した後、汚職疑惑で複数回の訴追と投獄を経験。今回の解放は、ペルーの政治情勢における変化を示唆している。アンデス地域での政治的不安定性と司法制度への信頼の脆弱性が背景にあり、この判決破棄はペルーの民主制度と法的安定性について国際的な懸念を呼び起こしている。",
+    "tags": [
+      "ペルー",
+      "汚職",
+      "司法",
+      "政治"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/1/perus-ex-president-humala-released-after-conviction-overturned",
+    "importance": 3,
+    "image_query": "courthouse justice legal system",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:12.951Z",
+    "publishedAt": "2026-08-01T03:52:25.000Z"
+  },
+  {
+    "slug": "20260801-38",
+    "headline": "英国グレーターマンチェスター市長選、労働党が圧勝—Andy Burnham の後任決定",
+    "lead": "労働党の Bev Craig が市長選で勝利。Reform UK に対して支持奪還。",
+    "body_markdown": "英国のグレーターマンチェスター市長補選で7月31日、労働党の Bev Craig（マンチェスター市議会議長）が圧勝した。前市長で現首相の Andy Burnham に代わる新市長となった。Craig は Reform UK の Sian Astley 候補に対して、ほぼ倍の票を獲得。\n\nこの補選は、Burnham の首相昇進に伴う空席を埋めるもの。5月の総選挙で Reform UK が同地域で支持を伸ばしていたため、労働党にとって防衛が課題だった。しかし Craig の勝利により、労働党は失地を回復。都市部での支持基盤の堅牢性を示した。\n\nCraig は公共サービス改革と地域経済再生を公約に掲げていた。グレーターマンチェスターは人口280万人以上の主要都市圏で、イングランド北部の政治的に重要な地域。市長職はイングランド内で最も権限が大きい自治体首長の一つ。\n\n労働党にとって、5月選挙後の支持率低下の中での補選勝利は、地域基盤の維持を示すもので、次の全国的な政治的展開への注視が続く。",
+    "tags": [
+      "英国政治",
+      "選挙",
+      "労働党",
+      "グレーターマンチェスター"
+    ],
+    "section": "政治",
+    "source": "BBC Politics",
+    "link": "https://www.bbc.co.uk/news/articles/cy74n1n1lnxo",
+    "importance": 3,
+    "image_query": "voting election ballot box",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:12.958Z",
+    "publishedAt": "2026-07-31T22:53:54.000Z"
+  },
+  {
+    "slug": "20260801-39",
+    "headline": "映画『The Odyssey』が文化現象に—Christopher Nolan の新作が男性客に訴求",
+    "lead": "ノーランの大型エピック作品が映画興行を支配。オッセイア物語の現代的解釈が議論を呼ぶ。",
+    "body_markdown": "Christopher Nolan の最新作『The Odyssey』が、この夏の映画文化現象となっている。映画は既に前作『Oppenheimer』の興行収入を上回り、知識層から広く観客までの多様な層からの反応を招いている。\n\n第1週は男性客が63%以上だった一方で、第2週には性別バランスがほぼ50-50に達し、より幅広い観客層への拡大を示唆している。75%以上が25歳以上という高年齢層のリーチも特筆すべき点。一般的に若年層主導と見なされる夏の映画興行の中で異例だ。\n\nオンライン上では、映画をめぐる議論が左右のイデオロギー陣営の境界を越えて拡大。学術的な映画評論から大衆的なネット議論まで、『The Odyssey』についてのディスコースが支配的。ノーランは歴史的叙事詩を現代的に再解釈する手法により、多世代とイデオロギーの枠を超えた文化的な統一点を作り出している。\n\nこうした文化的影響力は、マスメディアが「大画面イベント」映画として共有する経験を再び価値付ける重要性を示す。",
+    "tags": [
+      "映画",
+      "カルチャー",
+      "Christopher Nolan",
+      "興行"
+    ],
+    "section": "カルチャー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/film/2026/aug/01/the-odyssey-movie-discourse",
+    "importance": 3,
+    "image_query": "movie cinema theater film",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:12.959Z",
+    "publishedAt": "2026-08-01T08:00:47.000Z"
+  },
+  {
+    "slug": "20260801-40",
+    "headline": "SpaceX、xAI の無許可風車削除に1年要求—メンフィス周辺のデータセンター",
+    "lead": "SpaceX がxAI のColossus データセンター向けの一時的ガスタービン69基を2027年7月まで運用継続。規制当局の許可取得が遅延。",
+    "body_markdown": "SpaceX は7月31日、xAI のデータセンター向けに設置された無許可のガスタービン69基を、当初の計画より1年遅延させて2027年7月までに全て撤去することを公表した。メンフィス周辺のミシシッピ州サウスヘイブンのサイトでのタービンは、正式な許可なしに稼働していた。\n\nこれらのタービンは、建設された永久的な1.2ギガワット発電所が稼働するまでの間、仮設電源として機能していた。新しい発電所は41基の正規許可タービンで構成され、2026年3月にクリーンエア法の許可を取得している。\n\nSpaceX は、これらのタービンがトレーラー上にあるため「可搬型・一時的」と主張していたが、2026年1月の EPA の規制改正が、規模と使用方法に基づいて連邦大気許可が必須と定めた。NAACP と南部環保法センター（Southern Environmental Law Center）は無許可タービンについて訴訟を提起し、ミシシッピ州環境品質局との同意命令で撤去スケジュールが正式化された。\n\nこの事例は、急速に成長するAI データセンターのインフラニーズと環境規制の間の軋轢を示すもの。",
+    "tags": [
+      "SpaceX",
+      "xAI",
+      "エネルギー",
+      "規制"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
+    "importance": 3,
+    "image_query": "power plant energy infrastructure",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:12.960Z",
+    "publishedAt": "2026-07-31T15:16:17.000Z"
+  },
+  {
+    "slug": "20260801-41",
+    "headline": "日本政府、食料品消費税を1%に引き下げ—2027年4月から2年間",
+    "lead": "高市首相が減税方針表明も、自民党内では財源確保についての異論相次ぐ。",
+    "body_markdown": "日本の高市早苗首相は7月30日、食料品にかかる消費税率を2027年4月から2年間、現行の8%から1%に引き下げる方針を表明した。インフレ対策として家計負担を軽減する狙い。\n\nただし自民党内では、消費税減税の財源確保について慎重論が相次いでいる。7月28日の自民党税制調査会と社会保障制度調査会の合同会議では、減税の効果と財源の不透明性に疑問の声が出ていた。党内から「減税を掲げた過去の公約でも財源が明記されていたはずだ」という指摘も。\n\n首相は「市場の信認確保のため、特例公債に頼らず必ず財源を確保する」と述べたが、具体的な財源措置は示されていない。政府は来週中にも基本方針案を閣議決定することを目指しており、党内での意見集約が焦点となっている。\n\nこの政策は、政治的には影響力が大きく、家計消費と税収のバランス、および財政規律をめぐる議論が続く。",
+    "tags": [
+      "消費税",
+      "財政政策",
+      "日本政治",
+      "物価対策"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015193631000",
+    "sources": [
+      {
+        "url": "https://www.nikkei.com/article/DGXZQOUA2872T0Y6A720C2000000/",
+        "name": "日本経済新聞"
+      }
+    ],
+    "importance": 3,
+    "image_query": "government parliament policy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:12.961Z",
+    "publishedAt": "2026-08-01T08:45:34.000Z"
+  },
+  {
+    "slug": "20260801-42",
+    "headline": "インド、アプリ購入がついに離陸—有料ダウンロード市場が拡大",
+    "lead": "インド市場が有料アプリへのシフト。Q2で3億4500万ドルの売上、前年比70%増。",
+    "body_markdown": "インドのアプリ市場は2026年第2四半期に大きな転換点を迎えた。TechCrunch の報告によれば、インド地域で報告された有料アプリ・アプリ内課金の売上は3億4500万ドルに達し、前年同期比約70%の成長を遂げた。\n\nこれまでインド市場は無料ダウンロードが圧倒的多数派で、有料アプリの売上は限定的だった。しかし、中流階級の拡大、スマートフォン普及率の上昇、デジタル決済インフラの改善により、消費者が有料アプリに対する支払い意欲を示し始めている。\n\nモバイルゲーム、サブスクリプション型サービス、ユーティリティアプリなど、様々なカテゴリで有料トランザクションが増加。特にゲームが売上の大部分を占めているが、生産性アプリやメディアアプリにおいても有料利用者が拡大している。\n\nこの市場動向は、インドのデジタル経済成熟度の指標となり、グローバルアプリデベロッパーにとって投資対象としてのインド市場の重要性を改めて示すもの。",
+    "tags": [
+      "インド",
+      "アプリ市場",
+      "デジタル経済"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/07/31/india-is-starting-to-pay-for-apps-not-just-download-them/",
+    "importance": 3,
+    "image_query": "smartphone app download mobile",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-01T09:33:12.962Z",
+    "publishedAt": "2026-07-31T21:07:45.000Z"
+  },
+  {
     "slug": "20260801-01",
     "headline": "OpenAI、AI価格低下で「豊かな知能社会」へ",
     "lead": "AIが能力と低価格を両立するとき、社会の生産性が劇的に向上する。OpenAIが戦略を発表。",
