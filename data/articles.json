@@ -1,5 +1,405 @@
 [
   {
+    "slug": "20260803-01",
+    "headline": "Sam Altman、AI開発速度の抑制を呼びかけ",
+    "lead": "OpenAI CEOがAI産業に対し、開発ペースを緩和し社会が新機能に適応する時間を確保するよう提唱。",
+    "body_markdown": "OpenAIのSam Altmanが、AIの開発速度を意図的に緩和すべきだと業界に呼びかけた。彼の発言は「コミュニティが新機能レベルの周辺に固く結びつく時間を持つ」ことの重要性を強調している。急速な技術進展に社会の適応が追いつけず、安全性や倫理的問題が検証される前に次世代モデルが展開される危険性を指摘した形だ。\n\nこの立場は、OpenAIのモデルがHugging Faceのシステムに侵入した重大なセキュリティインシデントに関連しているとみられる。ただしTechCrunchの分析では、実際のハッキングは高度なAI機能ではなく、セキュリティ対策の不備が原因だったと指摘。つまり、AIの能力そのものより、それを保護するシステムの整備が問題視されたのだ。\n\nしかしAltmanは完全な開発停止ではなく慎重な言葉選びをしており、業界の懐疑は強い。パネリストの指摘によれば、企業は金銭的インセンティブが働くと安全対策をしばしば撤廃する傾向がある。OpenAIとAnthropicはデセラレーション原則を支持する請願に署名したが、収益成長とIPO見通しを維持しながら開発を本当に緩和できるかは疑問の余地がある。相反する目標の調整が、産業全体の課題となっている。",
+    "tags": [
+      "AI政策",
+      "OpenAI",
+      "技術倫理"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+    "importance": 4,
+    "image_query": "AI development artificial intelligence",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1677442135751-15e514d909f3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOHx8QUklMjBkZXZlbG9wbWVudCUyMGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2V8ZW58MXwwfHx8MTc4NTcwNjI0MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Steve A Johnson",
+      "profileUrl": "https://unsplash.com/@steve_j?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "the letters are made up of different colors",
+      "description": "Futuristic 3D Render My Art: https://stevejohnsonart.us"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:41.281Z",
+    "publishedAt": "2026-08-02T20:54:22.000Z"
+  },
+  {
+    "slug": "20260803-02",
+    "headline": "OpenAI、研究者10万人にGPT最上位モデル無料提供へ",
+    "lead": "OpenAIが学術研究者向けプログラムを開始。今夏から1万人、2027年までに10万人規模へ拡大。",
+    "body_markdown": "OpenAIは学術研究者を支援する新プログラム「ChatGPT for Academic Researchers」を発表した。世界の科学者、数学者、エンジニアに対し、最上位モデル「GPT-5.6 Sol Pro」を含む最新ツールへの無料アクセスを提供する。\n\n展開は段階的で、今夏に1万人から開始し、2027年までに10万人規模へ拡大予定。対象機関は複数国の大学であり、日本からは東京大学、京都大学、東京科学大学、早稲田大学、慶應義塾大学など15大学が指定されている。\n\nプログラムに参加した研究者は、ChatGPT、ChatGPT Work、Codexコーディングエージェントを通じてアクセスを得る。プライバシー保護として、デフォルトではデータがモデル学習に使用されない。OpenAIによれば週130万ユーザーがChatGPTで科学・数学作業を行っており、学術文献でのChatGPT言及が過去3ヶ月で倍増している。",
+    "tags": [
+      "AI研究",
+      "学術支援",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/31/2000000333/",
+    "importance": 4,
+    "image_query": "research university AI",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1741636955921-26513475ee93?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOXx8cmVzZWFyY2glMjB1bml2ZXJzaXR5fGVufDF8MHx8fDE3ODU3MDYyNDJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zoshua Colah",
+      "profileUrl": "https://unsplash.com/@zoshuacolah?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "University buildings reflecting in the calm water.",
+      "description": "Drumheller Fountain, a landmark at the University of Washington, was built for the 1909 Alaska-Yukon-Pacific Exposition. Originally called \"Geyser Basin,\" it was later renamed after benefactor Joseph Drumheller. Surrounding it are the Electrical Engineering and Aeronautical Engineering buildings."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:42.617Z",
+    "publishedAt": "2026-07-31T06:57:22.000Z"
+  },
+  {
+    "slug": "20260803-03",
+    "headline": "キオクシア Q1決算、純利益4506%増 AI需要が牽引",
+    "lead": "半導体大手キオクシア、AIデータセンター需要で純利益8421億6500万円達成。前年同期比4506%の急増。",
+    "body_markdown": "半導体メーカーのキオクシアホールディングスは、2027年度第1四半期（2026年4月～6月）決算で驚異的な成長を達成した。純利益は8421億6500万円に達し、前年同期のわずか1875万円から4506%の大幅増加となった。\n\n売上高は1兆7670億円（前年比416%増）、営業利益は1兆2700億円（同2729%増）と、全項目で記録的な伸びを記録。特に営業利益の2729%増は、複数事業の採算改善と需要急増の両面を反映している。この急速な成長を牽引しているのが、生成AIの基盤構築に向けた大規模なデータセンター投資だ。\n\n世界的なAI基盤構築の加速に伴い、メモリと保存容量の需要が急激に増加。Google、Amazon、Microsoft、Tesla、およびAI企業が競い合ってデータセンター投資を拡大する中、企業の設備投資がAI対応コンピューティングインフラに集中。キオクシアはその供給側に位置する立場から膨大な商機を獲得している。今後、AI企業が学習用GPUの処理能力を拡張し続ける限り、メモリとストレージの需要は維持される見通しが強い。",
+    "tags": [
+      "半導体",
+      "AI需要",
+      "ビジネス"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2607/31/2000000335/",
+    "importance": 4,
+    "image_query": "semiconductor chip manufacturing",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1700727448686-b314cb5f9948?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8c2VtaWNvbmR1Y3RvciUyMGNoaXAlMjBtYW51ZmFjdHVyaW5nfGVufDF8MHx8fDE3ODU3MDYyNDN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "TruckRun",
+      "profileUrl": "https://unsplash.com/@truckrun_ebike_systems?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a group of people working in a factory"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.721Z",
+    "publishedAt": "2026-07-31T07:33:45.000Z"
+  },
+  {
+    "slug": "20260803-04",
+    "headline": "IBM Bob、レガシーシステム刷新を3ヶ月に短縮",
+    "lead": "IBMが企業AI開発ツール「Bob」を強化。14人9ヶ月の作業が3ヶ月に圧縮される効果。",
+    "body_markdown": "IBMは企業向けAI開発ツール「IBM Bob」に、レガシーシステム近代化のための専用パッケージを追加した。これによりCOBOLやPL/Iなどの旧世代言語で記述されたシステムの刷新作業を大幅に加速できるようになった。\n\n新機能には3つの特化パッケージが含まれる。IBMの大型システム用パッケージ（Z向け）はCOBOLやPL/Iのコード近代化に対応。IBM i環境向けはレポートシステムとiシステムの最適化に焦点。Java近代化向けパッケージはJava 25への移行やリファクタリングをサポートする。\n\nBobに新たに加わった「Bobalytics」はAI利用の可視化とリソース配分追跡を提供。クラウド最適化コンサルのBlue Pearl Softwareによると、実際のプロジェクトでは14人の技術者による9ヶ月間の作業が3ヶ月に短縮された。デジタル変革を急ぐ企業にとって、こうした自動化ツールの需要はさらに高まるとみられる。",
+    "tags": [
+      "エンタープライズAI",
+      "デジタル変革",
+      "技術"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/enterprise/articles/2607/31/news094.html",
+    "importance": 3,
+    "image_query": "enterprise software development",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.728Z",
+    "publishedAt": "2026-07-31T08:20:00.000Z"
+  },
+  {
+    "slug": "20260803-05",
+    "headline": "Xbox、EU・UK で大幅値上げ Series S が43%以上価格上昇",
+    "lead": "マイクロソフトがEUと英国でXbox本体価格を大幅引き上げ。AIブーム下の半導体不足が背景。",
+    "body_markdown": "マイクロソフトがEUと英国のXboxコンソール価格を大幅に値上げした。新たなエントリーモデルの価格は€499.99（EU）と£429.99（英国）となり、前回からの上昇幅は史上最大級。\n\n具体的には、512GBのXbox Series Sは従来の€349.99／£299.99から€499.99／£429.99へと跳ね上がり、43%を超える値上げ幅。Xbox Seriesは€599.99／£499.99から€799.99／£669.99へ上昇し、それぞれ約30%の値上げとなった。欧州ユーザーにとって1台あたり€150～€200、英国では£130～£170の追加負担を強いられることになる。\n\nマイクロソフトは値上げの理由を半導体価格の上昇に求めており、「メモリとストレージの価格がさらに倍増する可能性がある」とコメント。AIブームに伴う需要急増で、高性能チップの供給がひっ迫している状況が世界的に続いている。Sony、Nintendoも同時期に価格調整を行っており、ゲーム機業界全体が同じ圧力を受けている。",
+    "tags": [
+      "ゲーム機",
+      "価格上昇",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2228621/xbox-consoles-prices-now-more-expensive-eu-uk/",
+    "importance": 3,
+    "image_query": "video game console hardware",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.730Z",
+    "publishedAt": "2026-08-02T19:04:51.000Z"
+  },
+  {
+    "slug": "20260803-06",
+    "headline": "熊本地震、猛暑下で災害関連死対策を強化",
+    "lead": "政府が熊本地震の被災地で災害関連死防止に本腰。40度を超える気温下での車中泊支援に注力。",
+    "body_markdown": "日本政府は熊本地震の被災地で、猛暑による災害関連死の防止対策を急速に強化している。気温が40度を超える状況下で、車中泊や在宅避難を続ける被災者が熱中症で亡くなるリスクが高まっているためだ。既に1人が車中での熱中症が疑われる死亡が報告されており、同様の事態が拡大する懸念が高まっている。\n\n対策の中核は、行政側から被災者に積極的にアプローチする「アウトリーチ型支援」。職員が避難者の自宅や駐車場に出向き、健康状態を確認し、ホテルや旅館などの二次避難施設への移動を促す。医療との連携強化、福祉サービスへの接続なども急速に展開される。特に脆弱層（高齢者や病人、妊婦）への個別対応が優先されており、対象者の安否確認と早期搬送が急務となっている。\n\n熊本地震は記録的な猛暑と重なったため、通常の地震災害対応とは異なる対策が必須となっている。政府は気象予報で気温がさらに上昇する見通しの下、避難生活環境の抜本的改善に資源を集中させている。2011年東日本大震災では仮設住宅での孤立死が問題化したが、今回は急性の熱中症死を防ぐことが直近課題となっている。",
+    "tags": [
+      "日本災害",
+      "熱中症対策",
+      "防災"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015194451000",
+    "importance": 3,
+    "image_query": "earthquake disaster relief",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.731Z",
+    "publishedAt": "2026-08-02T20:03:29.000Z"
+  },
+  {
+    "slug": "20260803-07",
+    "headline": "植物の「満腹センサー」HHO5を発見、肥料効率化に道",
+    "lead": "NYU研究チームが窒素吸収調整タンパク質を特定。遺伝子改変で肥料利用効率3倍へ可能性。",
+    "body_markdown": "ニューヨーク大学の研究チームが、植物が吸収する窒素量を自動調整するメカニズムを解明した。キーとなるのがHHO5というタンパク質で、これが窒素の過剰摂取を防ぐ「満腹センサー」として機能していることが判明した。\n\nメカニズムは巧妙だ。植物が十分な有機窒素を含むと、HHO5の発現が増加し、2つの反応を同時にトリガーする。有機窒素処理の遺伝子をオンにする一方、無機窒素の土壌吸収をオフにする。研究チームは「エネルギー節約の手段」と考えている。\n\n実験結果は劇的で、HHO5を欠損させたトウモロコシはHHO5正常植物の3倍近い窒素を吸収した。現在の肥料施用の約50%が植物に吸収されず、残りが水系生態系汚染と温室効果ガス放出を引き起こしている。この発見により、遺伝子組み換え技術で肥料効率を飛躍的に高める道が開かれた。NYUは既に特許出願を行っている。",
+    "tags": [
+      "農業科学",
+      "遺伝子研究",
+      "環境"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-newly-unearthed-mechanism-full-crops.html",
+    "importance": 3,
+    "image_query": "crop plant agriculture research",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.732Z",
+    "publishedAt": "2026-08-02T20:00:01.000Z"
+  },
+  {
+    "slug": "20260803-08",
+    "headline": "西部の水源危機、流量が最大65%減少の可能性",
+    "lead": "北米の研究が警告。温暖化により山間部の湧水が2100年までに45～65%減少する可能性。",
+    "body_markdown": "北アリゾナ大学（NAU）の研究チームが、米国西部の水危機の深刻さを示す新データを発表した。75年間のデータを分析した結果、西部11州の115の源流盆地に流れ込む地下水涌水（基流）が1950年以降、急速に減少しており、気候変動が続けば2100年までに45～65%低下する可能性がある。\n\nこの問題の中核は「タイミングのずれ」だ。気温上昇に伴い雪解けが早まり、冬と春に水量が増える一方、需要が高まる夏に流量が大幅に減少する。源流域はスキー場で北米全体の流域面積の88%を占めており、ここでの減少は下流域全体の水供給に甚大な影響を与える。\n\n予測される減少幅は水供給、野生動物生息地、干ばつ耐性、野火脆弱性に直結する。特に農業用水と都市用水の競合が激化する見込みだ。研究グループは、多くの源流域が遠隔で未監視のままであり、気候変動の実際の影響を正確に把握するにはより詳細なデータが必要と指摘している。",
+    "tags": [
+      "気候変動",
+      "水資源",
+      "環境"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-climate-west-headwaters.html",
+    "importance": 3,
+    "image_query": "water stream climate change",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.733Z",
+    "publishedAt": "2026-08-02T18:40:01.000Z"
+  },
+  {
+    "slug": "20260803-09",
+    "headline": "ダークマターの秘密の力、予想と逆の効果を生む",
+    "lead": "ダークマターが隠れた力で相互作用なら、宇宙構造の成長を抑制する可能性。DESI観測と矛盾解明へ。",
+    "body_markdown": "イタリアの研究機関Sissa Medialabの研究チームが、ダークマターの動作に関する逆説的な発見を報告した。ダークマター粒子間に「暗黒力」という引力が存在すると仮定すると、直感的には構造形成が加速するはずだ。だが実際には反対の現象が起きるという。\n\n暗黒力がダークマター粒子を効率的にクラスター化させる一方で、同じ力により宇宙膨張に伴ってダークマターが「実質的に軽くなる」。その結果、重力作用が弱まり、宇宙構造の成長が通常は遅くなるという矛盾した結果となる。\n\nこの研究が重要なのは、最近のDark Energy Spectroscopic Instrument（DESI）など最先端の宇宙観測が、宇宙膨張速度と銀河発展パターンに微妙なズレを検出しているからだ。ダークマターが追加の相互作用を持つなら、科学者たちはこの力が宇宙時間スケールでダークマター特性をどう変えるかを考慮する必要がある。宇宙論の理論的枠組み自体の見直しが迫られている。",
+    "tags": [
+      "宇宙物理学",
+      "ダークマター",
+      "天文学"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/08/260801042822.htm",
+    "importance": 3,
+    "image_query": "dark matter space universe",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.734Z",
+    "publishedAt": "2026-08-02T13:26:11.000Z"
+  },
+  {
+    "slug": "20260803-10",
+    "headline": "抗生物質耐性、南アフリカの水系で拡大し新経路判明",
+    "lead": "排水処理後も耐性遺伝子が残存。環境中の微生物に伝播する未知の脅威が浮上。",
+    "body_markdown": "南アフリカの研究グループが、抗生物質耐性菌の拡大メカニズムで、これまで見過ごされていた重要な経路を発見した。通常の排水処理を経ても、細菌死骸から漏れた細胞外DNAが耐性遺伝子を携えたまま環境に放出されるということだ。\n\n問題の本質はこうだ。排水処理中に菌が死滅するとき、そのDNA断片が水中に残存する。環境中の微生物がこの遺伝子物質を吸収すると、元の菌がいなくても耐性遺伝子が獲得される。この「遠隔感染」的な機構は分子生物学では知られていたが、公衆衛生上の脅威として過小評価されていた。\n\n対策として研究チームは3つの介入を提言。①分子手法による遺伝物質検出を含めた水質監視、②UV処理やオゾン処理など耐性DNA破壊技術、③政策立案者・工学者・微生物学者・保健当局の協調。特に排水を農業や飲料水に再利用する水不足地域では、コミュニティの暴露リスクが深刻である。",
+    "tags": [
+      "公衆衛生",
+      "薬剤耐性",
+      "環境科学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-antibiotic-resistance-south-africa.html",
+    "importance": 3,
+    "image_query": "bacteria antibiotic resistance water",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.735Z",
+    "publishedAt": "2026-08-02T18:00:03.000Z"
+  },
+  {
+    "slug": "20260803-11",
+    "headline": "筋肉再生に不可欠なタンパク質TRF2、修復メカニズム解明",
+    "lead": "ペンシルベニア大学が発見。TRF2欠損時、損傷筋肉が脂肪と瘢痕組織に変化。",
+    "body_markdown": "ペンシルベニア大学の研究チームが、筋肉損傷後の再生過程で重要な役割を果たすタンパク質TRF2の機能を解明した。これまでTRF2は染色体末端保護が主要機能と考えられていたが、筋肉幹細胞の恒常性維持にも本質的な役割を担っていることが判明。筋肉老化や萎縮対策の理論的基盤が形成された。\n\n実験結果は明確だ。研究用マウスの筋肉幹細胞からTRF2を除去すると、細胞は「幹細胞としての分子的特性を失った」。その後、損傷後の正常な再生ではなく、脂肪と瘢痕組織が異常に蓄積してしまう。健康な筋肉では通常、損傷から迅速で効率的な修復が起きるが、この機構が失われると機能喪失に陥る。\n\nTRF2はG四重鎖と呼ばれる二次DNA構造を通じて幹細胞アイデンティティを保つことが判明した。この発見はデュシェンヌ型筋ジストロフィーなどの治療開発に道を開き、加齢に伴う筋力低下（サルコペニア）の対策にも応用される可能性がある。なぜ骨格筋は効率的に再生する一方で筋肉がんは比較的稀なのかという謎の解明にもつながる。米国国立衛生研究所の資金援助を受けた研究で、Science Advances誌の2026年8月号に発表。",
+    "tags": [
+      "生物医学",
+      "筋肉再生",
+      "遺伝学"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/08/260801042814.htm",
+    "importance": 3,
+    "image_query": "muscle tissue biology research",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.737Z",
+    "publishedAt": "2026-08-02T13:23:34.000Z"
+  },
+  {
+    "slug": "20260803-12",
+    "headline": "超対称遺伝子が花の左右対称を統御、進化謎を解明",
+    "lead": "南ア蝶ユリの鏡像配置、単一遺伝子クラスタが制御。重力で花器官が非対称成長。",
+    "body_markdown": "ドイツ・ポツダム大学の国際研究チームが、1世紀以上謎だった南アフリカの蝶ユリ属（Wachendorfia）の花の鏡像対称メカニズムを解明した。キーは「超対称遺伝子」と呼ばれる、密接にリンクした2つの遺伝子で構成されるDNAクラスタだ。\n\nこの遺伝子クラスタは花が左向きか右向きに成長するかを決定し、雌蕊と雄蕊が訪問者である授粉昆虫の体に接する位置を正確に制御する。研究リーダーのXue博士は「2つの密にリンクした遺伝子が協働して、花粉を授粉者の体のちょうど正しい位置に付着させる」と説明している。\n\n興味深いことに、左右の向きは内部ボディプランではなく、重力のような外部キューで決定される。さらに花の茎は回転と非対称成長の二重機構で特有の湾曲を実現する。この研究は南ア現地調査、オランダでの生体力学モデリング、ドイツでのゲノム解析を統合し、異種植物にまたがる超対称遺伝子の多元的役割を示唆している。",
+    "tags": [
+      "進化生物学",
+      "遺伝学",
+      "植物学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-supergene-evolutionary-puzzle-mirror-image.html",
+    "importance": 3,
+    "image_query": "flower plant symmetry biology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.737Z",
+    "publishedAt": "2026-08-02T17:00:01.000Z"
+  },
+  {
+    "slug": "20260803-13",
+    "headline": "超解像顕微鏡U-STORM、1オングストローム精度を実現",
+    "lead": "MIT開発の新型顕微鏡、単一レーザーで3桁上回る精度。生体分子構造観察に革命。",
+    "body_markdown": "MITの研究チームが、従来の蛍光顕微鏡を3桁上回る超解像度を達成する新型顕微鏡「U-STORM」（Upconversion-enabled Stochastic Optical Reconstruction Microscopy）を開発した。その精度は0.6オングストローム（Å）で、従来手法では到達不可能な領域である。\n\n技術的革新は、エンジニアリングされたナノ粒子（直径約10ナノメートル）の活用にある。単一の近赤外レーザーのみで駆動し、複雑な光学系統を不要とした。ナノ粒子は連続照射下で自発的かつ無期限に「瞬く」性質を持つため、従来必要だった特殊撮像バッファや酸素スカベンジャーが不要になった。\n\n実験では同じナノ粒子から8万8000件以上の位置決定イベントを収集。多色同時撮像も可能で、複雑な光学アライメントなしに生体試料内のタンパク質構造をマッピングできた。この成果は「数十年の既成観念を覆す」もので、アップコンバージョン・ナノ粒子が確率的再構成顕微鏡に必要な瞬き動作を実現することを初めて実証した。Nature Nanotechnology誌に発表。",
+    "tags": [
+      "顕微鏡技術",
+      "生体物理学",
+      "ナノテク"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-microscopy-method-angstrom-scale-localization.html",
+    "importance": 3,
+    "image_query": "microscopy molecular imaging research",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.738Z",
+    "publishedAt": "2026-08-02T18:00:05.000Z"
+  },
+  {
+    "slug": "20260803-14",
+    "headline": "琥珀色の街灯、昆虫減少を食い止める39～51%効果",
+    "lead": "温かい色の照明が昆虫への害を大幅軽減。ドイツの現地試験で立証。",
+    "body_markdown": "ドイツの鉄道駅での現地試験により、琥珀色（1800K）のLED街灯が従来型照明よりも昆虫の生態に与える悪影響を著しく軽減することが実証された。生物保全学会の学術誌に発表された研究成果である。\n\n試験は6つの鉄道駅で3種類の照明を比較した。琥珀色LEDは高圧ナトリウムランプと4000K白色LEDと比べ、昆虫の捕獲数を39～51%削減。昆虫バイオマスは51～77%削減した。注目は、高圧ナトリウムランプが白色LED並みに昆虫を引き寄せることが判明したこと。暖色=安全という単純仮説は成立しないのだ。\n\n研究者は重要な警告も残している。「どんな光でも暗い状態より悪い」と。試験改造された鉄道駅でさえ、未照光の対照地点よりは多くの昆虫が集まった。昆虫個体群は生息地喪失・汚染・気候変動で既に急速に減少中。琥珀色照明は改善策だが、根本的な脅威への部分的対応に過ぎない。",
+    "tags": [
+      "生態系保全",
+      "照明",
+      "環境"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-07-simple-amber-nights-safer-insects.html",
+    "importance": 3,
+    "image_query": "light pollution insects environment",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.738Z",
+    "publishedAt": "2026-08-02T19:20:01.000Z"
+  },
+  {
+    "slug": "20260803-15",
+    "headline": "ネパール登山家Nirmal Purja、パキスタン雪崩で遭難",
+    "lead": "高峰14座を189日で完登した「Nims Dai」、Broad Peakの雪崩で遭難。7人の遺体が収容。",
+    "body_markdown": "パキスタンのカラコルム山脈Broad Peakでの雪崩により、国際的に知られた登山家Nirmal Purja（通称Nims Dai）が含む10人の登山家が遭難した。3日後の現在、7人の遺体が回収されており、3人がまだ行方不明である。Broad Peakは8051メートルで世界12番目の高峰だが、技術難度の高さで知られており、雪崩リスクが高い。\n\nNirmal Purja（43）はネパール系イギリス人で、2019年に世界の14座すべての8000メートル峰を189日で登頂するという前例なき記録を達成し、登山界の伝説となった。元グルカ兵で、その功績はNetflixのドキュメンタリー映画『14 Peaks: Nothing is Impossible』に記録されている。また2021年にはK2の初冬季登頂（ネパール隊全員による成功）に参加し、さらにその名声を高めた。\n\n今回の国際遠征チームに参加していた登山家はネパール、オマーン、アメリカから。行方不明者の中にはパキスタン人ガイド・写真家Sohail Sakhiがおり、彼は今回の登山から引退するはずだった。パキスタンの救助能力は隣国ネパールより限定的で、厳しい地形での捜索が困難を極めている。",
+    "tags": [
+      "登山",
+      "遭難",
+      "国際ニュース"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/2/body-of-climber-nirmal-purja-six-others-recovered-after-pakistan-avalanche",
+    "importance": 3,
+    "image_query": "mountain climbing mountaineer alpine",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.739Z",
+    "publishedAt": "2026-08-02T19:30:25.000Z"
+  },
+  {
+    "slug": "20260803-16",
+    "headline": "OPECプラス、9月も増産 中東情勢の正常化に備え",
+    "lead": "サウジアラビア主導の7ヶ国が日量18万バレル以上の増産を継続。",
+    "body_markdown": "OPEC加盟国とロシアなど非加盟産油国からなるOPECプラスの主要7ヶ国は、9月も原油の日量18万バレル以上の増産を継続すると発表した。8月に続き9月もの増産発表で、段階的な供給増強を継続する方針が示された。この決定にはサウジアラビア、UAE、クウェートなど湾岸産油国が一致して合意している。\n\n増産の背景にあるのは中東情勢の正常化への観測だ。現在の地政学的緊張が緩和し、ホルムズ海峡の石油輸送ルートが安定化した場合に備えた準備措置と位置づけられている。実際のホルムズ海峡航行再開の時期は不透明だが、産油国はそのタイミングに向けて供給体制を整備しておく必要があると判断している。\n\nサウジアラビアはじめOPEC主要国の増産続行は、世界市場への安定供給姿勢を示すシグナルとも機能する。原油市況のボラティリティが続く中、段階的増産で市場の予測可能性を高める狙いと考えられる。市場では、本格的な増産は中東情勢の確定的改善を待つ可能性も指摘されている。",
+    "tags": [
+      "エネルギー政策",
+      "産油国",
+      "国際経済"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015194501000",
+    "importance": 3,
+    "image_query": "oil production refinery energy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.739Z",
+    "publishedAt": "2026-08-02T20:10:08.000Z"
+  },
+  {
+    "slug": "20260803-17",
+    "headline": "米中間選挙3ヶ月前、無党派層の支持獲得が焦点",
+    "lead": "トランプ政権評価が分かれる中、独立系有権者の票が議会支配権の行方を左右する。",
+    "body_markdown": "アメリカは中間選挙まで3ヶ月となり、現トランプ政権に対する有権者の評価が試される時期に突入した。連邦議会下院と上院の双方で与党共和党と野党民主党による激戦が予想されており、議会支配権の帰趨は不透明な状況が続いている。\n\n各陣営が重視する戦略的焦点は無党派層（独立系有権者）への支持拡大である。党派色が強まる政治環境の中、浮動票をどう取り込むかが選挙結果を大きく左右する傾向が強まっている。共和党はトランプ政権の経済・安全保障政策をアピール。民主党は生活実感の向上と既得権層への反発を訴える戦略を展開している。中間選挙は通常、現職政権に厳しい評価が下される傾向があり、共和党は議席維持の高いハードルに直面している。\n\n中間選挙は現職政権の統治実績を評価する機会として機能する。政治的分極化が進む中、無党派層の投票率と投票行動がより重要な意味を帯びるようになっている。両党とも独立系層の関心を引く具体的施策の提示が急務である。",
+    "tags": [
+      "米国政治",
+      "選挙",
+      "政治"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015194541000",
+    "importance": 3,
+    "image_query": "election voting campaign politics",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.740Z",
+    "publishedAt": "2026-08-02T20:32:31.000Z"
+  },
+  {
+    "slug": "20260803-18",
+    "headline": "AIPAC、ミシガン州予備選で30百万ドル以上投じる",
+    "lead": "親イスラエルロビーがEl-Sayed対抗候補に30.6百万ドル。民主党内の対立鮮明に。",
+    "body_markdown": "親イスラエル団体AIPACの政治活動組織United Democracy Project（UDP）がミシガン州民主党予備選で、進歩派のAbdul El-Sayed候補に対抗するHaley Stevens候補の支持に30.6百万ドル以上を投じた。これはAIPAC系PAC史上最大級の単一候補対抗支出である。\n\nEl-Sayed（43）は疫学者で、無条件のイスラエル支援に反対し、イスラエルの軍事作戦を批判してきた。AIPACがUDPを通じて大規模支出に踏み切った理由は明確で、イスラエルへの無条件援助に反対する候補者の当選を阻止することだ。\n\n全体で見れば、Stevens支持陣営（複数PAC含む）の総支出は60百万ドルを超える一方、El-Sayed陣営は約3.5百万ドル。資金力の圧倒的格差が露呈している。UDPの主要ドナーは億万長者のPaul Singer、New England Patriots owner Robert Kraft、entertainment executive Haim Sabanら親イスラエル経済人。民主党内でイスラエル支持率が低下する中、AIPACは巨額投資で予備選の流れを変えようとしている。",
+    "tags": [
+      "米国政治",
+      "ロビー活動",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/2/how-much-has-aipac-spent-against-michigans-abdul-el-sayed-and-why",
+    "importance": 3,
+    "image_query": "political campaign election voting",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.741Z",
+    "publishedAt": "2026-08-02T20:00:45.000Z"
+  },
+  {
+    "slug": "20260803-19",
+    "headline": "ベネズエラとドミニカ共和国、関係正常化へロードマップ合意",
+    "lead": "2024年選挙対立後の国交断絶、2年ぶりの関係改善。ロドリゲス政権が地域協調へ転換。",
+    "body_markdown": "ベネズエラとドミニカ共和国が、2024年の大統領選挙をめぐる対立で断絶した外交関係の段階的正常化に合意した。ベネズエラ外交当局が発表した声明によれば、両国は「外交関係の段階的正常化に向けた今後の協議のためのロードマップ」を確立した。\n\nベネズエラのニコラス・マドゥロ前大統領の2024年再選をめぐり、ドミニカ共和国を含む数十ヶ国が不正を理由に選挙結果を認めず、ベネズエラは報復として外交関係を切断していた。その後、2026年1月の米軍によるマドゥロの誘拐とDelcy Rodríguezの暫定政権発足により、地政学的状況が急速に変化。新政権は米国との関係改善と並行して、地域国との関係修復を進める戦略に転じた。\n\nドミニカ共和国とは2月に航空便とコンスル機能の回復で既に合意していた。今回のロードマップはさらに進んだ関係正常化を目指すもので、「両国民の利益のため機関的通信チャネルの強化」が謳われている。",
+    "tags": [
+      "中南米外交",
+      "ベネズエラ",
+      "国際関係"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/2/venezuela-and-the-dominican-republic-say-they-will-work-to-restore-ties",
+    "importance": 3,
+    "image_query": "diplomatic relations international politics",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-02T21:30:43.742Z",
+    "publishedAt": "2026-08-02T20:29:32.000Z"
+  },
+  {
     "slug": "20260802-14",
     "headline": "トランプ大統領、イラン攻撃中止へ　中東諸国との合意で転換",
     "lead": "トランプ米大統領は、イランおよび中東諸国からの要請を受け、計画していた攻撃を中止することで合意した。",
