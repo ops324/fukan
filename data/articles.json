@@ -1,5 +1,185 @@
 [
   {
+    "slug": "20260803-20",
+    "headline": "イラン攻撃中止でWTI原油が4.96%急落、交渉再開へ",
+    "lead": "米国がイラン攻撃を中止し交渉再開を表明。WTI原油はバレル当たり$80.47に下落、ホルムズ海峡の地政学的緊張が大幅に緩和された。",
+    "body_markdown": "米国のトランプ大統領は8月2日、イランへの攻撃を中止すると表明し、イランとの交渉を再開すると述べた。イランからの要請と中東諸国の調停により、「交渉の枠組みに合意があった」として、軍事行動を見合わせたという。\n\nこの発表を受け、原油価格は急速に下落した。WTI原油は$80.47まで下落（前日比4.96%安）、ブレント原油は$83.71に低下（同4.80%安）。9月物のWTI先物は$79.57へと約6%の低下を示し、10月物ブレント先物は$83.64まで売られた。\n\n5ヶ月以上続く米イラン紛争の解決見通しが、投資家の地政学的リスク・プレミアムの削減につながった。ホルムズ海峡周辺の緊張緩和により、石油タンカーが波乱で取り残されていたペルシャ湾から通常の航行を再開できると期待されている。原油市場は紛争激化の不確実性が軽減されたと判断し、即座に反応した形だ。\n\nただし、交渉の結果がどう転ぶかは依然不透明で、今後の合意内容が市場の一段の動きを左右しそうだ。",
+    "tags": [
+      "米国外交",
+      "イラン",
+      "原油相場",
+      "地政学的リスク",
+      "エネルギー市場"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
+    "importance": 4,
+    "image_query": "oil refinery barrels energy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1558617867-659c667b6809?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxvaWwlMjByZWZpbmVyeSUyMGJhcnJlbHMlMjBlbmVyZ3l8ZW58MXwwfHx8MTc4NTc0OTQyMnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Atik sulianami",
+      "profileUrl": "https://unsplash.com/@atik1616?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "yellow-and-blue oil barrel lot"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T09:30:22.854Z",
+    "publishedAt": "2026-08-03T08:57:57.000Z"
+  },
+  {
+    "slug": "20260803-21",
+    "headline": "アリババ、Qwen3.8-Max公開—Fable 5・GPT-5.6を一部で上回る",
+    "lead": "アリババクラウドが2.4兆パラメータの新AIモデルを発表。推論能力の一部でClaude・OpenAIの最新型を凌ぐと主張。",
+    "body_markdown": "中国のアリババグループが8月3日、新型AIモデル「Qwen3.8-Max」を正式にリリースした。パラメータ数は2.4兆に及び、特定のベンチマークではAnthropicの「Claude Fable 5」やOpenAIの「GPT-5.6 Sol」を上回る性能を示したと発表している。\n\nQwen3.8-Maxの能力は多岐にわたる。ベンチマークテスト「Terminal Bench 2.1」ではFable 5を超過し、コード生成タスク「SWE-bench Pro」ではGPT-5.6 Solに勝る成績を記録した。一方、「DeepSWE 1.1」ベンチマークでは両競合に及ばず、タスク領域によって得意不得意が分かれている。\n\n実運用面では、自律型コード生成を10日以上にわたって持続できるほか、学術論文の改稿、法務文書の作成、ウェブデザイン業務なども処理可能だ。価格は入力トークン百万個当たり$2、出力トークンは$6で、既存の大型モデルと比較して競争力がある。\n\nさらに注目されるのは、翌週のモデルウェイト公開だ。これはアリババが同規模のモデルをオープンソース化する初めての事例となり、研究機関やスタートアップの研究加速を見込んでいる。",
+    "tags": [
+      "AI",
+      "言語モデル",
+      "アリババ",
+      "オープンソース",
+      "Qwen"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/03/2000000353/",
+    "importance": 4,
+    "image_query": "neural network artificial intelligence computation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1674027444484-cf52149ea050?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxuZXVyYWwlMjBuZXR3b3JrJTIwYXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGNvbXB1dGF0aW9ufGVufDF8MHx8fDE3ODU3NDk0MjN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Growtika",
+      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a computer generated image of a ball of string"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T09:30:23.847Z",
+    "publishedAt": "2026-08-03T03:26:15.000Z"
+  },
+  {
+    "slug": "20260803-22",
+    "headline": "韓国、観測史上最高の42.5℃を記録—気候危機を象徴",
+    "lead": "韓国の南東部で42.5℃（109°F）に達し、1世紀以上の記録を更新。欧州を含む地球規模の猛暑が直面する危機を示唆。",
+    "body_markdown": "韓国は8月3日（現地時間）、観測史上最高気温を更新した。南東部の陽山地方で42.5℃（華氏109度）を記録し、100年以上の気象記録を塗り替えた。気象当局は住民に「即座にすべての屋外活動を中止するよう」警告し、危機的な状況を呼びかけた。\n\n猛暑は社会生活に直結する影響を及ぼした。プロ野球の試合が危険のため中止となり、20以上の自治体が緊急熱波警報を発令。医療機関は熱中症患者の急増に備えた態勢を取った。\n\nより懸念されるのは、韓国の長期気象トレンドだ。気象庁によると、過去5年間の平均猛暑日数は年19日にまで上昇。1970年代は平均8日だったから、わずか50年で2倍以上に増加した。気候学者は、人為的な気候変動による加熱に加え、エルニーニョ現象（太平洋の自然な温暖化サイクル）が重なることで、極端な熱波が頻発する構造を指摘している。\n\n同時期、欧州も40℃を超える気温に見舞われており、山火事や熱中症死が報告されている。地球規模で極端気象が常態化する傾向が、科学界と政策立案者の警戒を招いている。",
+    "tags": [
+      "気候変動",
+      "猛暑",
+      "韓国",
+      "気象記録",
+      "エルニーニョ"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-south-korea-highest-temperature.html",
+    "importance": 4,
+    "image_query": "heat wave thermometer temperature extreme weather",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1641906509242-8620e2b13d38?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxoZWF0JTIwd2F2ZSUyMHRoZXJtb21ldGVyJTIwdGVtcGVyYXR1cmUlMjBleHRyZW1lJTIwd2VhdGhlcnxlbnwxfDB8fHwxNzg1NzQ5NDI0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Daniela Paola Alchapar",
+      "profileUrl": "https://unsplash.com/@paoalchapar?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a thermometer on a red object",
+      "description": "Closeup of the thermometer of a red electric kettle"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T09:30:24.812Z",
+    "publishedAt": "2026-08-03T07:13:28.000Z"
+  },
+  {
+    "slug": "20260803-23",
+    "headline": "日米が15年ぶり協調介入、円買いでは28年ぶり—164円から155円へ急騰",
+    "lead": "米国と日本が為替市場で円買いの協調介入を実施。ドル円が164円から155円台へと急速に円高進行。",
+    "body_markdown": "米国と日本は7月31日から8月1日にかけて、ドル円相場への協調介入に踏み切った。15年ぶりの日米共同為替介入であり、円買いの方向での協調介入は1998年のアジア通貨危機以来、28年ぶりの重大な決定だ。\n\n背景には、ドル円が164円手前まで進む異常な円安があった。この水準は約40年ぶりの歴史的な円安であり、日本の金融・財政環境の不安定化につながっていた。7月30日に日本が単独で介入を開始し、その翌日に米国も参加する形で本格的な協調介入へ移行した。\n\n介入の効果は即座に表れた。ドル円は155円（155.20円前後）まで上昇（円高）し、約3ヶ月ぶりの円高水準を達成。市場参加者の不安心理が後退し、ボラティリティが低下。債券・株式市場も落ち着きを取り戻した。\n\n8月3日、日米政府は共同声明を発表。財務省の片山経済財政担当相は「さらなる実施も躊躇しない」と追加介入の用意を示唆した。円買い協調の背景には、日本銀行の金融引き締めと米国の金利低下期待が重なり、投機的な円売りを招いたと分析される。この介入は、両国の金融市場を守る強い決意を表明した形だ。",
+    "tags": [
+      "為替相場",
+      "ドル円",
+      "協調介入",
+      "日本銀行",
+      "円安"
+    ],
+    "section": "経済・マネー",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015194291000",
+    "importance": 4,
+    "image_query": "stock market finance exchange trading",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1629339942248-45d4b10c8c2f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxzdG9jayUyMG1hcmtldCUyMGZpbmFuY2UlMjBleGNoYW5nZSUyMHRyYWRpbmd8ZW58MXwwfHx8MTc4NTc0OTQyNXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Kanchanara",
+      "profileUrl": "https://unsplash.com/@kanchanara?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person using black and gray laptop computer",
+      "description": "a businessman is trading cryptocurrency on Binance"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T09:30:25.941Z",
+    "publishedAt": "2026-08-03T08:39:00.000Z"
+  },
+  {
+    "slug": "20260803-24",
+    "headline": "日韓世論調査：日本好印象が過去最高、韓国人54.3%が肯定的評価",
+    "lead": "日韓シンクタンクの共同世論調査で、日本に『よい印象』を持つ韓国人が54.3%に上昇。2013年調査開始以来の最高記録。",
+    "body_markdown": "日本と韓国のシンクタンク（東アジア研究院など）が共同実施した世論調査で、日本に対する韓国人の好意度が過去最高を更新した。日本に『よい印象を持っている』と答えた韓国人は54.3%に達し、2013年の調査開始以降、最も高い水準となった。\n\n日本人の韓国に対する評価も上昇している。韓国に『よい印象』を持つ日本人は過去最高の52.4%で、昨年の41.7%から大幅に増加。両国民の相互理解が、この数年で顕著に進展したことを示唆している。\n\n韓国人が日本について評価する内容として上位に挙げられたのは、『親切で秩序を重んじる国民性』（66.9%）と『魅力的な食文化とショッピング・旅行地』（43.9%）。文化的な親近感と観光・消費体験が、好感度上昇の主要因と考えられる。\n\nこうした結果は、両国が経済・文化交流を深める中で、国民感情の障壁が低下していることを示唆する。ただし政治的対立は依然として存在し、この好意度がどの程度の持続性を持つかは、今後の外交動向に左右されそうだ。",
+    "tags": [
+      "日韓関係",
+      "世論調査",
+      "文化交流",
+      "国際関係",
+      "相互理解"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015195081000",
+    "importance": 3,
+    "image_query": "people community cooperation bridge",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-03T09:30:25.944Z",
+    "publishedAt": "2026-08-03T08:52:58.000Z"
+  },
+  {
+    "slug": "20260803-25",
+    "headline": "日本、食料品消費税1%へ引き下げ方針—2027年4月から2年間実施へ",
+    "lead": "自民党が高市首相の食料品消費税減税方針を事実上了承。2027年4月より2年間、税率を現行3%から1%へ引き下げる予定。",
+    "body_markdown": "日本の自民党は8月3日、高市早苗首相が7月末に表明した食料品の消費税減税方針を事実上了承した。党税制調査会と社会保障制度調査会の合同会議で議論が行われ、約2時間半の討議の末、小野寺五典税調会長への対応一任で賛成65・反対10となった。\n\n減税の詳細は以下の通り。2027年4月1日から、食料品（飲食料品全般）の消費税を現行3%から1%に引き下げ、これを2年間継続する。その後、税率がどうなるかは未定。政府は8月上旬中に方針を閣議決定し、秋の臨時国会に関連法案を提出する日程を想定している。\n\nただし党内には異論も残っている。財源の明示がないことや、食料品以外の軽減税率との整合性、さらには社会保障財源への影響を懸念する議員の声が上がった。小林鷹之政調会長は「首相が打ち出した方向性に沿った形で党内をまとめたい」と述べ、異議を踏まえつつも推進する意向を示した。\n\n物価高騰への対抗策として消費者負担軽減を目指す政策だが、法的な実装と財源確保に向けた国会での議論が、今秋以降の焦点となる。",
+    "tags": [
+      "消費税",
+      "減税",
+      "食料品",
+      "日本経済",
+      "自民党"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015194461000",
+    "importance": 3,
+    "image_query": "supermarket grocery food shopping",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-03T09:30:25.952Z",
+    "publishedAt": "2026-08-03T06:30:00.000Z"
+  },
+  {
+    "slug": "20260803-26",
+    "headline": "熊本地震被災地で首相が避難所視察—『ホテル避難』推進へ",
+    "lead": "高市首相が熊本の地震被災地を視察。避難者の声を聞き、ホテル・旅館を活用した『2次避難』の拡充を表明した。",
+    "body_markdown": "高市早苗首相は8月3日、熊本県を訪問し、今回の地震被災地を視察するとともに、避難所で被災者と意見交換を行った。訪問先の避難所では、被災した人々の生活状況を直接聞き取り、今後の支援策への反映を約束した。\n\n視察の中で首相が強調したのが、『2次避難』の推進だ。避難所での生活の長期化を緩和するため、ホテルや旅館を避難先として活用する取り組みを今後、本格的に進める考えを示した。これにより、テント避難や避難所での集団生活のストレスを軽減し、被災者の心身の回復を支援する方針。\n\n熊本の地震による被災者は依然として多く、避難所から転居が進まない状況が続いている。首相の発表は、従来の避難所中心のシステムから、より柔軟で被災者ニーズに応じた支援体制への転換を示唆するもの。ホテル・旅館の利用促進は、関連業界の経営支援にもなり、経済と被災者支援の両面での効果が期待される。",
+    "tags": [
+      "熊本地震",
+      "災害対応",
+      "避難所",
+      "被災地支援",
+      "首相視察"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015194841000",
+    "importance": 3,
+    "image_query": "disaster relief shelter emergency assistance",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-03T09:30:25.954Z",
+    "publishedAt": "2026-08-03T08:49:40.000Z"
+  },
+  {
     "slug": "20260803-01",
     "headline": "Sam Altman、AI開発速度の抑制を呼びかけ",
     "lead": "OpenAI CEOがAI産業に対し、開発ペースを緩和し社会が新機能に適応する時間を確保するよう提唱。",
