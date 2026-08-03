@@ -1,5 +1,603 @@
 [
   {
+    "slug": "20260804-01",
+    "headline": "OpenAI、リアルタイム音声AI「GPT-Live」発表",
+    "lead": "OpenAI が対話型音声システムの新版 GPT-Live を発表、ターンテイクを自動判定し自然な会話を実現。",
+    "body_markdown": "OpenAI は 8月3日、リアルタイム音声会話システム「GPT-Live」を発表した。第3世代となる音声システムで、ターンテイク（発話権の移行）を自動判定し、人間と同じ速さで自然な対話を可能にする。\n\nこれまでの音声AIは、ユーザーの発話終了を検出する「ターンディテクタ」に頼っていた。このディテクタが早く反応するとユーザーが遮られ、遅いとレスポンスが鈍くなるという課題があった。\n\nGPT-Live は、ターンディテクタをシステムから削除し、音声モデル自体を「フルデュプレックス」（同時送受信）対応にした。これにより音声モデルが同時にリッスンとスピークが可能になり、自然な会話フローを実現する。より深い推論やツール利用が必要な場面では、GPT-5.5 などの最先端モデルに相談でき、会話の流れを中断しない。",
+    "tags": [
+      "OpenAI",
+      "音声AI",
+      "GPT-5.5"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+    "importance": 4,
+    "image_query": "voice AI conversation",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/yTlvMCvVXsIfkU2OOi99f/157c83857ebe75544195add9e1f75039/gpt-live-responsive-seo-card.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:00.366Z",
+    "publishedAt": "2026-08-03T07:00:00.000Z"
+  },
+  {
+    "slug": "20260804-02",
+    "headline": "米25州がトランプ関税を提訴、「却下判例の迂回」と主張",
+    "lead": "米民主党系25州がトランプ政権を提訴、60ヶ国・地域への新関税は最高裁で却下済みの政策の復活と主張。",
+    "body_markdown": "米国の25州が 8月3日、トランプ政権が7月24日に発動した最新関税に対する訴訟をニューヨークの国際通商裁判所に提起した。\n\n対象は欧州連合を含む60の取引相手国・地域で、強制労働で生産された商品の輸出抑止が名目とされているが、関税率は10%と12.5%。\n\n訴訟の核心は、政権が「貿易法301条」を悪用して、過去に米最高裁と国際通商裁判所に却下されたのと実質同一の包括的関税を新たな名目で復活させていると主張している点。訴訟団は訴訟による関税の差し止めと既払い関税の返還を求めている。\n\n参加州はニューヨーク、カリフォルニア、ワシントン、オレゴンのほか、マサチューセッツ、ペンシルベニア、イリノイなど民主党系の州が中心。トランプ政権の関税政策は国内産業界でも賛否が分かれており、司法の判断が焦点となる。",
+    "tags": [
+      "トランプ",
+      "関税",
+      "通商戦争"
+    ],
+    "section": "経済・マネー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/03/trump-tariffs-25-states-lawsuit-supreme-court.html",
+    "importance": 4,
+    "image_query": "tariff trade dispute",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1587138051822-ac119c653012?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHx0YXJpZmYlMjB0cmFkZSUyMGRpc3B1dGV8ZW58MXwwfHx8MTc4NTc5MjA2MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "LSE Library",
+      "profileUrl": "https://unsplash.com/@londonschoolofeconomics?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a book",
+      "description": "\"Vote for Tariff Reform\" poster. Lithographs showing Britannia sitting alone in a stagecoach named \"Free Trade; 1846\" on the road to Prosperity, waiting to be joined by the figures representing Germany, France, Austria, USA, Switzerland and Russia which are standing on a hill behind the coach. The accompanying picture shows the foreign nationals sharing a car called \"Protection; 1910\", also on the road to Prosperity, leaving the stagecoach far behind. C1905-1910."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:01.602Z",
+    "publishedAt": "2026-08-03T20:57:02.000Z"
+  },
+  {
+    "slug": "20260804-03",
+    "headline": "ウクライナ新SBU長官にウメロフ氏、無人機協力加速へ",
+    "lead": "ウクライナ大統領がウメロフ氏をSBU（対外情報局）長官に任命、欧米との無人機技術協力推進へ。",
+    "body_markdown": "ウクライナのゼレンスキー大統領は8月3日、対外情報局（SBU）の新長官にウメロフ氏を任命した。ウメロフ氏はロシアとの和平交渉案をめぐる高官協議の委員で、政権内での信頼厚い人物。\n\nウメロフ氏は無人機の技術開発と国際協力を重視する立場を示しており、新職ではこれを推し進める見通し。欧米との間で無人機技術に関する協力を加速させ、ロシアへの軍事的圧力を強化するねらいがあるとみられる。\n\nウクライナはドローン戦術で独自の成果を挙げており、黒海や陸上での作戦で無人機を積極活用している。今回の人事は、技術・装備面での強化を通じて交渉の主導権を保つ狙いが示唆される。",
+    "tags": [
+      "ウクライナ",
+      "対外情報局",
+      "無人機"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015195371000",
+    "importance": 4,
+    "image_query": "military drone technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1731579884309-ecb947ca6144?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMnx8bWlsaXRhcnklMjBkcm9uZSUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4NTc5MjA2Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sergey Koznov",
+      "profileUrl": "https://unsplash.com/@sergeykoznov?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A white and blue military plane on a black background",
+      "description": "This image depicts a close-up view of a military MQ-4 reconnaissance drone. The unmanned aerial vehicle (UAV) has a sleek, aerodynamic design with a large, rounded nose and minimalistic, smooth surface details, emphasizing its advanced technology for surveillance and reconnaissance. It bears markings for the Navy, with caution symbols and maintenance markings along the body. *** If you’ve used my images, please make sure to mention me *** E-mail for collaboration: koznov.sergey@gmail.com *** YONEEKA is a team of the 3D artists who can help you with any 3D Models, we will help you if you need"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:02.861Z",
+    "publishedAt": "2026-08-03T20:55:45.000Z"
+  },
+  {
+    "slug": "20260804-04",
+    "headline": "熊本地震1週間、政府が消費税減税も視野に支援強化",
+    "lead": "発生から1週間を迎えた熊本地震、政府は避難所へのプッシュ型支援と予備費投入で被災地の長期化対応を推進。",
+    "body_markdown": "8月4日で発生から1週間を迎える熊本地震について、日本政府は猛暑の中で避難生活の長期化を見込み、支援を強化する方針を示した。\n\n現在進行中のプッシュ型支援では、被災地に飲料水や簡易型クーラーなどの物資を継続的に供給。政府は4日にも今年度予算の予備費を使って追加予算を確保し、支援規模を拡大する考えを表明した。\n\n並行して政府・自民党は、食料品の消費税を来年4月から2年間、現在の10%から1%に引き下げるなどの経済対策も検討中。5日の閣議決定を目指す動き。記者会見では、長期避難生活と経済的負担の軽減を同時に進める戦略が強調された。",
+    "tags": [
+      "熊本地震",
+      "防災",
+      "政府支援"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015195331000",
+    "importance": 4,
+    "image_query": "earthquake relief supplies",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1769450447533-89747110424b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMnx8ZWFydGhxdWFrZSUyMHJlbGllZiUyMHN1cHBsaWVzfGVufDF8MHx8fDE3ODU3OTIwNjN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Dmytro Koplyk",
+      "profileUrl": "https://unsplash.com/@dkoplyk?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Entrance to earthquake the ride amusement attraction",
+      "description": "Nighttime street scenes in a small American tourist town with illuminated storefronts, benches, pedestrians and urban architecture."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:03.884Z",
+    "publishedAt": "2026-08-03T20:51:29.000Z"
+  },
+  {
+    "slug": "20260804-05",
+    "headline": "SpaceX月面デブリ、月基地建設のリスク「上昇中」",
+    "lead": "SpaceX Falcon第2段が月面衝突、宇宙競争激化で月面デブリ増加、将来基地建設への警告。",
+    "body_markdown": "SpaceX のロケット Falcon の第2段が月面に衝突する事案が報告された。月面着陸ミッション増加で、今後のデブリ衝突リスクが高まっている。\n\n宇宙開発競争が活発化し、月面への着陸・ミッションが急増している。米国のほか中国、民間企業など複数の主体が月面活動を進める中、失敗による残骸や制御不能な機体が月面に蓄積される傾向が見られる。\n\n月面での恒久基地建設が現実化する中、デブリ衝突は機器の損傷や人命リスクとなる。WIRED は、月面基地建設計画に対する警告として、デブリ管理体制の整備が急務だと指摘。宇宙機関が月表面のリスク評価と軌道設計の改善を進める必要があるとしている。",
+    "tags": [
+      "SpaceX",
+      "月面",
+      "宇宙デブリ"
+    ],
+    "section": "テクノロジー",
+    "source": "WIRED",
+    "link": "https://www.wired.com/story/spacex-falcon-moon-crash-warning-for-lunar-bases/",
+    "importance": 4,
+    "image_query": "moon lunar base space debris",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1777277539249-34020e857900?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8bW9vbiUyMGx1bmFyJTIwYmFzZSUyMHNwYWNlJTIwZGVicmlzfGVufDF8MHx8fDE3ODU3OTIwNjR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "NASA",
+      "profileUrl": "https://unsplash.com/@nasa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Cratered lunar surface against a dark sky",
+      "description": "A Terrain of Ancient Impacts art002e012673 (April 6, 2026) – As the Artemis II crew passes the Moon during an observation period, the lunar landscape sharpens into focus: a terrain scattered with craters and shadows stretching beneath the black expanse of space. Image Credit: NASA"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:04.823Z",
+    "publishedAt": "2026-08-03T19:58:23.000Z"
+  },
+  {
+    "slug": "20260804-06",
+    "headline": "中国がAI投資効率で米国を凌駕、低コスト戦略奏功",
+    "lead": "The Economist が分析、中国のAI投資は米国の1/3以下だが、モデル性能の伸びは同等水準に。",
+    "body_markdown": "米経済紙 The Economist の最新分析によると、中国は米国の3分の1以下の投資規模でありながら、AI開発の成果で競争力を保っている。\n\n米国の AI 関連投資は年間200億ドルを超えるのに対し、中国はその3分の1規模。にもかかわらず、中国のモデル開発スピードと性能水準は米国に肩を並べている。理由は開発効率の高さにある。\n\n中国企業は計算リソースの最適利用、人材コストの低さ、国内大規模データセットの活用などを組み合わせ、限られた予算で最大の成果を引き出している。ただし米国側は性能競争ではなく、セキュリティと制度的優位性（データ保護、人権基準）で優位を保つ戦略にシフトしつつあり、今後の AI 覇権は単なる技術競争ではなく、地政学的・経済的な枠組みの中で争われるとみられている。",
+    "tags": [
+      "中国",
+      "AI",
+      "経済競争"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/08/03/how-china-gets-better-bang-for-its-buck-than-america-in-ai",
+    "importance": 4,
+    "image_query": "artificial intelligence research technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1779309487417-6b44e5f4b036?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHJlc2VhcmNoJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg1NzkyMDY1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Asif Al",
+      "profileUrl": "https://unsplash.com/@asif_595?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Complex robot with orange wheels and a robotic arm."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:05.688Z",
+    "publishedAt": "2026-08-03T17:15:13.000Z"
+  },
+  {
+    "slug": "20260804-07",
+    "headline": "Palantir、商用売上150%増でAI需要の熱さ浮き彫り",
+    "lead": "Palantir が Q2決算で米国商用売上が150%近く成長、AI・防衛関連需要の勢いを示唆。",
+    "body_markdown": "データ分析企業 Palantir が8月3日発表した第2四半期決算は市場予想を大きく上回った。特に米国商用部門の売上が前年同期比でほぼ150%の成長を達成し、AI・防衛・インテリジェンス関連ソリューションへの企業需要の旺盛さが如実となった。\n\n同社の株価は決算発表を受け12%上昇。業績予想も引き上げられ、フルイヤーガイダンスが修正された。\n\nPalantir は政府向けのインテリジェンス分析から企業向けのデータプラットフォームへの事業展開を進めており、特に AI による異常検知や予測分析の需要が高まっている状況が、決算数字に反映された格好。米国防総省や情報機関が顧客基盤を占める中、商用部門の成長は同社の経営戦略の多角化が奏功していることを示唆している。",
+    "tags": [
+      "Palantir",
+      "AI",
+      "決算"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/03/palantir-pltr-earnings-q2-2026.html",
+    "importance": 4,
+    "image_query": "data analytics technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1783115259399-3a5a3e0e4592?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOHx8ZGF0YSUyMGFuYWx5dGljcyUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4NTc5MjA2Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Gorilla ROI Data Connector",
+      "profileUrl": "https://unsplash.com/@gorillaroi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Hands typing on a laptop displaying a data spreadsheet.",
+      "description": "Please give credit to Gorilla ROI Data Connector. A person working on a laptop at a modern office desk, with a product inventory spreadsheet displayed on the screen and coworkers in the background. Ecommerce data connector. Amazon, Shopify, Walmart, Meta data pulled straight into your sheet. https://www.gorillaroi.com"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:06.656Z",
+    "publishedAt": "2026-08-03T20:53:16.000Z"
+  },
+  {
+    "slug": "20260804-08",
+    "headline": "Amazon が時価総額3兆ドル突破、クラウド・AI好調で快進撃",
+    "lead": "決算好調を受け Amazon の時価総額が過去最高の $3 trillion を達成、テック大手の競争激化が示唆される。",
+    "body_markdown": "米国 EC大手 Amazon が8月3日、時価総額で過去最高の3兆ドルを突破した。決算後の株価上昇が寄与している。\n\nAmazon は第2四半期決算で売上・利益ともに市場予想を超える好決算を記録。特に Amazon Web Services（AWS）のクラウド事業とAI関連ソリューションの需要が堅調で、営業利益が大幅に増加した。\n\nこれは米テク大手の時価総額競争がさらに激化していることを象徴している。Microsoft、Apple、NVIDIA などとともに、AI 関連需要の波に乗る大手企業の相対的な価値上昇が著しく、S&P 500内でテク企業への投資集中がより顕著になっている。一方で 3 兆ドル超の規模を持つ企業による市場支配への懸念も指摘される。",
+    "tags": [
+      "Amazon",
+      "AWS",
+      "AI事業"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html",
+    "importance": 4,
+    "image_query": "data center cloud servers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1667372283496-893f0b1e7c16?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxkYXRhJTIwY2VudGVyJTIwY2xvdWQlMjBzZXJ2ZXJzfGVufDF8MHx8fDE3ODU3OTIwNjd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Growtika",
+      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a blue and white logo"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:07.624Z",
+    "publishedAt": "2026-08-03T20:02:17.000Z"
+  },
+  {
+    "slug": "20260804-09",
+    "headline": "Apple が英国に法的異議、\"バックドア\"暗号化アクセス要求に対抗",
+    "lead": "Apple がロンドンの独立裁判所に訴訟提起、英国政府の暗号化データへのバックドアアクセス要求に対抗。",
+    "body_markdown": "Apple は先月、英国政府のiCloudデータへのバックドアアクセス要求に対する新たな法的異議を提起した。審理は独立した調査権を持つ監視権裁判所（IPT）に上程された。\n\nこれは1年前に英国Home Office が同様の要求をしたが、Apple が法的チャレンジを行い、政府が一度は要求を撤回した事例の再燃。Home Office が改めて「バックドア」アクセスを要求し、Apple が再度これに異議を唱えた。\n\nApple は、英国情報機関が\"バックドア\"を使ってユーザーデータに直接アクセスできる仕組みは、エンドツーエンド暗号化の原則と矛盾し、全般的なセキュリティと個人のプライバシー保護を損なうと主張。The Guardian の報道では Apple と英国政府の対立が長期化する見通しが示唆されており、世界的な暗号化データへのアクセス要求を巡る争いの象徴的事例として注視されている。",
+    "tags": [
+      "Apple",
+      "暗号化",
+      "プライバシー"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/technology/2026/aug/03/apple-legal-challenge-uk-government-data-access",
+    "importance": 4,
+    "image_query": "cybersecurity encryption technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1740477959006-798042a324aa?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMHx8Y3liZXJzZWN1cml0eSUyMGVuY3J5cHRpb24lMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3ODU3OTIwNjh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A wooden block spelling the word encryption on a table"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:08.589Z",
+    "publishedAt": "2026-08-03T17:35:44.000Z"
+  },
+  {
+    "slug": "20260804-10",
+    "headline": "Hugging Face CEO、中国がオープンモデルで優位と警告",
+    "lead": "Hugging Face の CEO が、中国の AI 企業がオープンソースモデルで米国を凌駕しつつあると分析。",
+    "body_markdown": "AI ハブ Hugging Face の CEO クレメント・デランげ氏は8月3日、中国がオープンソース AI モデルの開発でアメリカを上回っている可能性があると述べた。同氏は、中国の AI モデルが米国と同等かそれ以上のレベルに達するまで、あと数ヶ月から1年程度だと予測している。\n\nHugging Face はオープンソース AI モデルのホスティング・共有プラットフォームで、開発者による利用が多い。同氏の見方では、中国企業は低コストでスケーラブルな開発戦略を採用し、計算インフラの効率化を進めており、クローズドな「フロンティアモデル」による米国の優位がオープンモデル領域では脅かされつつあるという。\n\n同発言は、AI 開発の地政学的競争が、単なる性能競争から、オープンソース生態系の支配権争いへ拡大していることを象徴している。",
+    "tags": [
+      "Hugging Face",
+      "中国",
+      "オープンモデル"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/03/hugging-face-china-ai-race-open-models.html",
+    "importance": 4,
+    "image_query": "machine learning models technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1782700536463-25a16af0bcc2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8bWFjaGluZSUyMGxlYXJuaW5nJTIwbW9kZWxzJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg1NzkyMDY5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brecht Corbeel",
+      "profileUrl": "https://unsplash.com/@brechtcorbeel?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Nikola tesla bust surrounded by digital cubes and glowing grid."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:09.414Z",
+    "publishedAt": "2026-08-03T17:28:17.000Z"
+  },
+  {
+    "slug": "20260804-11",
+    "headline": "EU、AI透明性ルール8月2日発効——チャットボット・ディープフェイク明示義務",
+    "lead": "欧州連合の AI Act 透明性ルールが発効、企業に AI 利用・生成コンテンツ明示を義務付け。",
+    "body_markdown": "欧州連合が策定した AI Act の透明性ルールが8月2日から発効した。プロバイダー（AI システム開発・販売企業）とデプロイ側（プラットフォーム・サービス利用企業）に対し、新たな開示義務が課せられた。\n\n主な内容は、ユーザーがチャットボットや AI モデルと対話していることを明確に告知する義務と、AI で生成・改変されたコンテンツであることを表記する義務。ディープフェイクなど合成メディアの使用にはさらに厳格な透明性要件が課される。\n\nEU は企業が自社ラベル設計に頼るのを避けるため、標準化されたラベルテンプレートを公開した。Meta や SpaceX AI のように、開発と運用の両方を担う企業には二重の義務が課せられる。これにより、個人ユーザーと企業が \"AI による生成か人間による創作か\" を識別しやすい仕組みが整備され、AI の透明性に関する新時代が到来する。",
+    "tags": [
+      "EU",
+      "AI規制",
+      "透明性"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+    "importance": 4,
+    "image_query": "artificial intelligence regulation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1772695648965-1abdf9eb6b85?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwcmVndWxhdGlvbnxlbnwxfDB8fHwxNzg1NzkyMDcwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Nathan Kuczmarski",
+      "profileUrl": "https://unsplash.com/@kucz?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Protestors hold signs against ai and gpt."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:10.425Z",
+    "publishedAt": "2026-08-03T17:38:45.000Z"
+  },
+  {
+    "slug": "20260804-12",
+    "headline": "ロシア、黒海ビーチ無人機攻撃で７人死亡・40人負傷と発表",
+    "lead": "ウクライナの無人機がロシア南部の人気リゾート地を攻撃、女性3人を含む民間人被害が報告。",
+    "body_markdown": "ロシア軍は8月3日、ウクライナ無人機によって黒海南部のビーチが攻撃を受け、7人が死亡、40人が負傷したと発表した。被害者には女性3人を含む民間人が含まれているという。\n\nロシアは、被害者が黒海沿岸のリゾート地にいた民間人であると述べ、ウクライナの \"テロ攻撃\" と非難。一方、ウクライナ側はロシアの軍事施設が攻撃対象であったと反論。\n\nウクライナはドローン戦術を戦争の重要な要素として活用しており、黒海での海上作戦と陸上作戦の両面で無人機を運用。長距離攻撃能力の拡大により、ロシア領土への直接攻撃が可能になっている。この事案は、ウクライナ軍の能力向上とロシア側の防衛態勢の不備が浮き彫りにされた形。今後の戦争の様相を左右する要素として注視される。",
+    "tags": [
+      "ロシア",
+      "ウクライナ",
+      "無人機"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cr7kmnyrdn7o",
+    "importance": 4,
+    "image_query": "military drone warfare",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1777384574910-1b37dc676577?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtaWxpdGFyeSUyMGRyb25lJTIwd2FyZmFyZXxlbnwxfDB8fHwxNzg1NzkyMDcxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Smithsonian",
+      "profileUrl": "https://unsplash.com/@smithsonian?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A military drone with missiles flies against a black background.",
+      "description": "General Atomics Aeronautical Systems, Inc., MQ-1L Predator A Satellite data link system, an Electro-optical/Infrared (EO/IR) stabilized gimbal containing two color video cameras and a forward looking infrared (FLIR) as well as synthetic aperture radar (SAR) Record ID: nasm_A20040180000"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:11.659Z",
+    "publishedAt": "2026-08-03T18:04:30.000Z"
+  },
+  {
+    "slug": "20260804-13",
+    "headline": "イラン、米との核協議否定——オマーン経由の\"対話\" 示唆",
+    "lead": "トランプが交渉再開を表明する中、イランが \"米国との直接協議ない\" と反論、オマーンを仲介役に。",
+    "body_markdown": "トランプ米大統領が核協議再開の可能性を示唆したのに対し、イランは8月3日、米国との直接交渉は行われていないと明言した。BBC の報道では、イランはオマーンを通じた非公式な対話ルートを持つことを示唆している。\n\nイランの外交当局は、オマーンとの関係は進行中だが、米国との正式な交渉はないと強調。この発表はトランプの発言を直接的に否定する形となった。\n\nイランとアメリカの核問題に関する交渉は、JCPOA（イラン核合意）からの米国離脱後、中断状態が続いている。トランプの現政権下での再交渉の可能性はテーブルに上がっているが、イラン側は公式な交渉に踏み切らず、有志国（オマーンなど）を仲介役とする戦術を採っている状況が浮き彫りにされた。",
+    "tags": [
+      "イラン",
+      "核交渉",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/c23579jzv08o",
+    "importance": 3,
+    "image_query": "nuclear diplomacy negotiation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:11.661Z",
+    "publishedAt": "2026-08-03T19:42:55.000Z"
+  },
+  {
+    "slug": "20260804-14",
+    "headline": "スペイン領セウタ、移民危機で数百人の未成年が食料・住居難",
+    "lead": "スペイン・モロッコ国境のセウタで大量移民が渡航、860人以上の未成年が滞留し、食料・住居が枯渇。",
+    "body_markdown": "スペイン北部のモロッコ飛び地セウタで、大規模な移民波が発生した。モロッコから数千人が越境を試みたが、うち3,000～5,000人が滞留。特に深刻なのは、法的保護が必須とされる860人以上の未成年（多くが付き添いなし）の状況だ。\n\nスペイン当局によると、越境時に72人が水中で溺水。モロッコ側報告では追加で11人が死亡したという。越境者の出身国は多様で、スーダンの内戦を逃れた民間人、ガザのパレスチナ人、アフガニスタン人など。\n\nセウタの移民対応施設は定員600人で、既に満杯状態。残る未成年は海浜や周辺の丘陵で野宿を余儀なくされ、食料・生活物資が深刻に不足。スペインは法で未成年の保護を義務付けるが、施設容量の限界が人道的危機を招いている。EU は国境管理の欠陥と受け取り、加盟国間で対応を巡る議論が熱化している。",
+    "tags": [
+      "移民",
+      "スペイン",
+      "難民"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/3/hundreds-of-migrant-minors-stranded-in-ceuta-after-border-crisis",
+    "sources": [
+      {
+        "url": "https://www.washingtonpost.com/world/2026/08/03/spain-migration-ceuta-morocco/2956d54e-8f61-11f1-9fdc-0a725c989a7b_story.html",
+        "name": "The Washington Post"
+      }
+    ],
+    "importance": 4,
+    "image_query": "migrant crisis humanitarian",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1637034132661-4f015591b84a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxtaWdyYW50JTIwY3Jpc2lzJTIwaHVtYW5pdGFyaWFufGVufDF8MHx8fDE3ODU3OTIwNzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Wanman uthmaniyyah",
+      "profileUrl": "https://unsplash.com/@wanman?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a group of people standing around bags of sand",
+      "description": "Womens in Burka in Kunduz City on humanitarian Aid"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:13.019Z",
+    "publishedAt": "2026-08-03T20:24:02.000Z"
+  },
+  {
+    "slug": "20260804-15",
+    "headline": "日本政府、来年4月から食料品消費税1%へ引き下げ——5日閣議決定へ",
+    "lead": "日本政府が来年4月から2年間、食料品の消費税を10%から1%に引き下げる方針、5日にも決定予定。",
+    "body_markdown": "日本政府は食料品の消費税引き下げを経済対策の柱として推し進める。政府の基本方針案では、来年（2027年）4月から2年間、現在10%の消費税率を1%に引き下げるとしている。\n\n自民党の合同会議は対応を小野寺税制調査会長に一任し、政府は8月5日にも閣議で決定する予定。減税による家計負担の軽減が主眼。食料品の購入は頻繁で、低所得世帯への効果が大きいと見込まれている。\n\nただし減税による税収減の規模や、外食・加工食品など定義の曖昧性をめぐり、業界や野党からも意見が出ている。実装には複数の課題が残っており、今後の具体化過程で調整が続くと見通される。並行して、キャッシュレス決済システムの負担軽減策も検討されている。",
+    "tags": [
+      "日本政治",
+      "消費税",
+      "経済対策"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015195321000",
+    "importance": 4,
+    "image_query": "tax policy economic stimulus",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1774362895981-40168c7dd0e6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8dGF4JTIwcG9saWN5JTIwZWNvbm9taWMlMjBzdGltdWx1c3xlbnwxfDB8fHwxNzg1NzkyMDczfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Paul-Christian M",
+      "profileUrl": "https://unsplash.com/@paulchristianmarkovski?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Euro banknotes and inflation blocks",
+      "description": "A thought-provoking still life featuring a rolled 20 euro banknote with its vibrant colors and security details prominently displayed. Below it, rustic wooden blocks spell out the word 'inflation,' creating a striking visual metaphor for the economic forces that impact currency value. The clean white background and soft lighting draw attention to the contrast between the crisp, modern banknote and the raw texture of the blocks—ideal for discussions on finance, economics, or educational content about monetary policy."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:14.084Z",
+    "publishedAt": "2026-08-03T20:49:09.000Z"
+  },
+  {
+    "slug": "20260804-16",
+    "headline": "SNS利用開始が早い子ほど学力低下、6ヶ月分の遅れが報告",
+    "lead": "イギリスの研究、SNS開始時期が11-12歳の子は16歳時の数学・読解テストで有意な低下が報告。",
+    "body_markdown": "イギリスの研究機関による新たな調査で、ソーシャルメディア利用開始時期が早い子ほど、後年の学力が低くなる傾向が報告された。\n\n調査対象は中等教育開始時（11-12歳）にSNS アカウントを開設した生徒と、数年後に開設した生徒。16歳時点での数学と読解テストのスコアを比較した結果、早期開始グループは通常の進度に対して約6ヶ月分の学習遅延に相当するスコア低下が観測されたという。\n\n研究者は、SNS の通知やアップデートの常時チェックが学生の集中力を阻害し、学習に影響すると仮説している。デジタルデバイスの使用時間管理と、学習環境でのスマートフォン制限の重要性が改めて浮き彫りになった。学校や保護者は、SNS利用のペースコントロールを重視する必要があるとされている。",
+    "tags": [
+      "子ども教育",
+      "ソーシャルメディア",
+      "学力"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/science/2026/aug/03/children-using-social-media-younger-age-worse-school-tests",
+    "importance": 3,
+    "image_query": "children social media study",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:14.088Z",
+    "publishedAt": "2026-08-03T15:14:32.000Z"
+  },
+  {
+    "slug": "20260804-17",
+    "headline": "韓国大学、電気でCO₂をエタノール変換する触媒開発",
+    "lead": "成均館大学、CO₂を電気で効率的にエタノールに変換する新触媒を開発、カーボン削減に貢献の可能性。",
+    "body_markdown": "韓国の成均館大学の研究チームが、二酸化炭素を電気化学的にエタノールへ変換する新しい触媒を開発した。\n\n研究成果は学術誌 Applied Catalysis B: Environment and Energy に掲載。新触媒は銅と亜鉛の原子規模での相乗効果により、CO₂ の電気還元反応において高い選択性（エタノールへの転換率）を実現。\n\n大気中の CO₂ を有用な化学品に変える技術は、カーボンニュートラルの実現に向けた重要な手段の1つ。今回の成果は電力さえあれば CO₂ を資源化できる可能性を示唆し、発電所や産業プラント、さらには直接空気回収（DAC）施設での応用が期待される。実用化には費用対効果の改善が課題だが、低炭素エタノール製造の新道を開く基礎研究として位置づけられている。",
+    "tags": [
+      "カーボンニュートラル",
+      "科学技術",
+      "触媒"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-catalyst-ethanol-electricity.html",
+    "importance": 3,
+    "image_query": "chemical reaction laboratory science",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:14.089Z",
+    "publishedAt": "2026-08-03T20:06:14.000Z"
+  },
+  {
+    "slug": "20260804-18",
+    "headline": "Apple Siri、ついに進化——でも AI 革命の波に乗り遅れた感あり",
+    "lead": "Apple が長年待たれた Siri AI 大幅改良を発表、機能面では充実も市場の期待は冷淡。",
+    "body_markdown": "Apple が Siri のエージェント化を実現する大幅 AI オーバーホール版をついに発表した。これまでの音声コマンドのみの Siri から、複合的なタスク自動実行、複数ステップの推論、メディア生成能力を備えた実質的な AI アシスタントに進化する。\n\nただし、複数年の開発遅延を経ての発表となり、市場のタイミングは失われたと指摘される。ChatGPT、Claude、Gemini などのマルチタスク型チャットボットが既に主流となった状況下で、Siri AI は「できるようになったのは良いが、今更感がある」という評価。\n\n長年 Siri の低迷に悩んできた Apple だが、その間に AI の風景そのものが変わった。今後 Siri が競争力を持つには、単に「できる」ことではなく、Apple エコシステムとの統合の深さと、プライバシー重視の姿勢による差別化が鍵になると分析されている。",
+    "tags": [
+      "Apple",
+      "AI アシスタント",
+      "Siri"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
+    "importance": 3,
+    "image_query": "artificial intelligence assistant technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:14.092Z",
+    "publishedAt": "2026-08-03T18:43:43.000Z"
+  },
+  {
+    "slug": "20260804-19",
+    "headline": "Snap 決算好調、10%上昇——広告需要と新サービスが好材料",
+    "lead": "Snap が Q2決算で予想を上回る売上と強気の営業予測、広告プラットフォームの成長が加速。",
+    "body_markdown": "画像SNS Snap が8月3日発表した第2四半期決算は市場予想を上回り、株価は10%上昇した。\n\n売上が分析予想を超え、営業利益も黒字化の方向に向かっている。特に広告プラットフォームの売上が堅調で、AI による広告ターゲティング機能の改良が企業クライアントからの需要を呼んでいるもようだ。\n\nフルイヤーの売上ガイダンスも引き上げられ、Snap の経営陣が成長への自信を示唆している。TikTok など短編動画プラットフォームが広告市場を争っている中、Snap は AR フィルターの機能強化と AI 統合により、差別化を図っている。次四半期の業績も市場の注視対象。",
+    "tags": [
+      "Snap",
+      "決算",
+      "広告プラットフォーム"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/03/snap-q2-earnings-report-2026.html",
+    "importance": 3,
+    "image_query": "social media platform technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:14.095Z",
+    "publishedAt": "2026-08-03T20:55:18.000Z"
+  },
+  {
+    "slug": "20260804-20",
+    "headline": "謎めいた新FRB議長Warsh、米経済危機に直面の公算",
+    "lead": "The Economist が分析、Kevin Warsh のFRB議長就任で AI 株暴落と原油高騰リスクに米経済が直面。",
+    "body_markdown": "米連邦準備制度（FRB）の新議長に就任するケヴィン・ワーシュ氏は、金融市場内で \"謎めいた\" 人物として知られている。The Economist の最新分析は、ワーシュ議長の政策運営が、現在の米経済の構造的脆弱性に直面する可能性を警告している。\n\n特に注視すべき2つのリスクは、AI 関連株の急落と原油価格の急騰。AI 企業群の時価総額が米国 GDP の大きな比率を占める中、テック評価の反転は経済全体に波及する。また、中東情勢や地政学的緊張から原油価格が急騰すれば、インフレ圧力が再燃する恐れもある。\n\nワーシュ議長は金融危機時の当局経験者だが、その経済哲学や金融引き締めへのスタンスは市場では十分に理解されていない。今後数ヶ月の政策姿勢が、市場と米経済にどう影響するか、市場参加者の注目度は高い。",
+    "tags": [
+      "FRB",
+      "金融政策",
+      "経済"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/08/02/what-will-kevin-warsh-do-if-americas-economy-breaks",
+    "importance": 3,
+    "image_query": "federal reserve economic policy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:14.097Z",
+    "publishedAt": "2026-08-02T16:12:02.000Z"
+  },
+  {
+    "slug": "20260804-21",
+    "headline": "トランプのAI保護主義、ロボット産業も標的——アメリカの競争力低下懸念",
+    "lead": "MIT Tech Review が報告、Trump政権のAI保護主義がロボット産業の発展を阻害、米国の技術リードが危機に。",
+    "body_markdown": "トランプ政権の対外的な AI・テクノロジー保護主義が、ロボット産業の発展にも波及している。MIT Technology Review の最新報道では、関税や輸出規制によって、米国のロボット企業がサプライチェーン上の制約に直面し、競争力が損なわれる可能性が指摘されている。\n\nロボット産業は電子部品・材料・ソフトウェアなど、国際的に分散したサプライチェーンに依存している。保護主義的な規制は、これらの調達を複雑にし、開発コストを上昇させる。\n\n同時に、中国やヨーロッパはロボット開発への投資を加速させており、米国の保護政策が逆に技術進展の足を引っ張る構図。業界専門家は、安全保障と自由な技術開発のバランスの取り方が重要だと指摘。過度な保護主義が、最終的には米国産業の長期競争力を損なうリスクが警告されている。",
+    "tags": [
+      "トランプ",
+      "ロボット",
+      "AI規制"
+    ],
+    "section": "AI",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
+    "importance": 3,
+    "image_query": "robot manufacturing technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:14.099Z",
+    "publishedAt": "2026-08-03T18:43:30.000Z"
+  },
+  {
+    "slug": "20260804-22",
+    "headline": "英国南部Torcross、気候変動で海への侵食加速——他の沿岸コミュニティの警告に",
+    "lead": "英国南部の村Torcrossが海岸侵食で孤立、気候変動による海面上昇と嵐の激化が同様の危機を招く。",
+    "body_markdown": "英国南部イングランドのデボン州に位置する村 Torcross は、最近の嵐による海岸侵食で主要道路が崩落し、地域が孤立する事態に見舞われた。6ヶ月を経た今も、コミュニティはその影響から復旧途上にある。\n\n政府は2,000万ポンドの投資を決定し、スラプトン・サンズの海岸に大量の岩を積み上げる防波堤強化プロジェクトを進めている。ただし、気候変動による海面上昇と嵐の激化傾向は続いており、同様の被害が他の沿岸コミュニティでも起こる可能性が高い。\n\nPhys.org の報告では、Torcross の事例が将来の沿岸危機の先触れとして警告されている。世界中の低地沿岸地域が同じリスク下にあり、防災インフラの先制投資と計画的な人口移動戦略が求められる時代に入ったと指摘されている。",
+    "tags": [
+      "気候変動",
+      "海岸侵食",
+      "防災"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-coastal-communities-destined-torcross-footsteps.html",
+    "importance": 3,
+    "image_query": "coastal erosion climate change",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:14.100Z",
+    "publishedAt": "2026-08-03T20:20:04.000Z"
+  },
+  {
+    "slug": "20260804-23",
+    "headline": "光が強誘電体結晶の微細領域を制御、次世代メモリ・センサ技術へ",
+    "lead": "フリンダース大学、光で強誘電体クリスタル内の\"バブル\"領域を操作、省エネメモリ・センサ開発に道。",
+    "body_markdown": "オーストラリアのフリンダース大学の研究チームが、光を使って強誘電体結晶内のナノスケール領域（\"バブル\"ドメイン）を制御する手法を発見した。\n\n強誘電体は分極方向を持つ材料で、メモリ素子やセンサなどの高度な応用が期待されている。従来は電場で領域を制御するが、電力消費が課題。今回の研究は、光という非接触・低消費電力の手段で領域構造を操作できることを示唆した。\n\nこれにより、より省エネでかつ高速応答のメモリデバイス、センサ、将来の量子コンピュータ応用なども可能になる見通し。基礎研究段階だが、デバイス物理の新たな領域として注視されている。",
+    "tags": [
+      "強誘電体",
+      "光制御",
+      "新素材"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-nanoscale-domains-ferroelectric-crystal.html",
+    "importance": 3,
+    "image_query": "crystal lattice microscopy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:14.102Z",
+    "publishedAt": "2026-08-03T20:50:01.000Z"
+  },
+  {
+    "slug": "20260804-24",
+    "headline": "米国、Cyclospora感染で初の2例死亡報告——ミシガン州で確認",
+    "lead": "米公開衛生当局、環境寄生虫 Cyclospora による初の死亡例2件をミシガン州で報告、汚染食品が原因の可能性。",
+    "body_markdown": "米国の衛生当局が、Cyclospora（シクロスポーラ）による初の死亡例2件をミシガン州で報告した。同寄生虫は汚染された食料品や水を通じて感染する。\n\nCyclospora は通常、激しい下痢などの症状を引き起こすが、致死性は低いとされていた。今回の死亡者は基礎疾患を持つ患者だったと当局は述べている。\n\n同じ時期に米国では Cyclospora 感染の集団発生が複数の州で報告されており、食品供給チェーンへの污染の可能性が懸念されている。当局は感染源特定と予防措置の強化を進めている。感染は予防的抗生物質投与で対応可能だが、早期診断が重要。消費者は新鮮な農産物の衛生管理に注意が求められている。",
+    "tags": [
+      "感染症",
+      "公開衛生",
+      "食品安全"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/3/us-announces-first-two-deaths-from-cyclospora-outbreak",
+    "importance": 3,
+    "image_query": "microscope bacteria infection",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:14.104Z",
+    "publishedAt": "2026-08-03T18:35:09.000Z"
+  },
+  {
+    "slug": "20260804-25",
+    "headline": "英裁判所、人身売買被害者のフランス強制送還を取り消し——\"one in one out\" 政策に初判決",
+    "lead": "英国の高等裁判所がHome Office の人身売買被害者強制送還政策を違法と判断、人道的重大問題が浮上。",
+    "body_markdown": "英国の高等裁判所が、人身売買の被害者として声を上げたが、Home Office に認められず、フランスに強制送還された人物の帰国命令を出した。この判断は、政府の \"one in one out\" 移民政策に対する初の司法的否定となる。\n\n\"one in one out\" 政策は、1人の移民の送還について1人の新規受け入れのみを認めるというもの。ただし、人身売買の被害者であることが後発的に判明した場合、国際条約により被害者の保護と国内での再統合支援が義務付けられる。\n\n同裁判所の判断は、人道的保護と移民政策上の数値目標のバランスの取り方に根本的な問いを投げかけた。既に同政策の下で類似の不当送還を受けた者が複数存在する可能性があり、追加の司法的異議も予想される。人権団体は、この判決が政策の全体的見直しにつながることを期待している。",
+    "tags": [
+      "人身売買",
+      "移民政策",
+      "人権"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/uk-news/2026/aug/03/judge-orders-return-of-alleged-victim-of-trafficking-sent-to-france-under-one-in-one-out-scheme",
+    "importance": 3,
+    "image_query": "justice court legal",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-03T21:21:14.105Z",
+    "publishedAt": "2026-08-03T17:52:12.000Z"
+  },
+  {
     "slug": "20260803-20",
     "headline": "イラン攻撃中止でWTI原油が4.96%急落、交渉再開へ",
     "lead": "米国がイラン攻撃を中止し交渉再開を表明。WTI原油はバレル当たり$80.47に下落、ホルムズ海峡の地政学的緊張が大幅に緩和された。",
