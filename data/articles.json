@@ -1,5 +1,646 @@
 [
   {
+    "slug": "20260804-26",
+    "headline": "Apple訴訟はお粗末、OpenAIが反論——名前混同と5ヶ月の沈黙",
+    "lead": "機密情報流出を訴えるAppleに対し、OpenAIは連絡ミスと不十分な予告を指摘。法廷での応酬が白熱している。",
+    "body_markdown": "OpenAIは8月3日、Appleが提起した機密情報流出訴訟への反論を公表した。訴状によると、Appleが従業員Chang Liuの機密情報アクセスを主張する一方で、OpenAIは2月の初期接触で弁護士が「アジア系の名前の混同」によってメールを誤送信したこと、そして総務担当VP（General Counsel）との協議は実現しなかったことを明かした。\n\nAppleは「解決中」と述べながら5ヶ月にわたり沈黙し、その後提訴したという経緯に、OpenAIは疑問を呈している。提訴時にはじめて具体的な法的主張が提示されたとし、適切な予告がなかったと指摘。Apple側の弁護士ミスが法務対応の杜撰さを示唆している。\n\nLiuについては、Appleが「機密情報を不正アクセスした」と主張する一方で、OpenAIはApple側の従業員がLiu自身に連絡を取り、支援を求めたという事実を指摘。どちらが主導的に行動したかが争点となっている。本訴訟は企業間紛争の典型として、法廷での主張と反論の応酬が続くと予想される。",
+    "tags": [
+      "Apple",
+      "OpenAI",
+      "法的紛争",
+      "機密情報",
+      "訴訟"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/apple-is-getting-this-wrong",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+        "name": "TechCrunch"
+      }
+    ],
+    "importance": 4,
+    "image_query": "legal document court lawsuit",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3LMWP6Zq4rgiX3gVyxKiX/667973a65cc5111e602f68338b9f1c87/Frame__13_.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/apple-is-getting-this-wrong",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:46.841Z",
+    "publishedAt": "2026-08-03T22:00:00.000Z"
+  },
+  {
+    "slug": "20260804-27",
+    "headline": "防衛白書、AI・ドローンの新戦術に対応——防衛産業基盤を強化",
+    "lead": "日本の2026年防衛白書が、ウクライナ戦争から教訓を得た『新しい戦い方』への対応を重視。安価ドローンの多群攻撃への備えが急務。",
+    "body_markdown": "日本の2026年版防衛白書は、AI（人工知能）と無人機を活用した『新しい戦い方』への対応を新たに記載した。ロシアによるウクライナ侵攻で顕在化した低コスト無人機の大量投入戦術を詳細に分析している。\n\nウクライナの戦場では、商業由来の安価な小型ドローン（UAV）や水上無人艇（USV）が膨大な数で投入され、従来の高額な防御システムが飽和攻撃で無効化されている。この『低コストな多群アセットによる非対称な戦い方』は、従来の防衛戦略の根本的転換を迫るもの。日本も同じ脅威に直面する可能性があり、防衛産業基盤の強化が急務とされている。\n\n白書は『防衛生産・技術基盤は、いわば防衛力そのもの』と強調し、平素からの備蓄と戦闘継続能力の確保に注力する必要性を指摘。中国や北朝鮮などの周辺国の情勢分析に加え、この新たな脅威への対応が今後の政策の中核となる。",
+    "tags": [
+      "防衛",
+      "AI",
+      "ドローン",
+      "ウクライナ",
+      "日本"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015195621000",
+    "sources": [
+      {
+        "url": "https://www.jiji.com/jc/article?k=2026080400394&g=prk",
+        "name": "時事通信"
+      }
+    ],
+    "importance": 4,
+    "image_query": "drone military defense",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1520870121499-7dddb6ccbcde?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkcm9uZSUyMG1pbGl0YXJ5JTIwZGVmZW5zZXxlbnwxfDB8fHwxNzg1ODM2MDI3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ian Usher",
+      "profileUrl": "https://unsplash.com/@iusher?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black drone on air over cloudy sky at daytime",
+      "description": "Mavic Pro over the fog around Mt Tamalpais"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:48.086Z",
+    "publishedAt": "2026-08-04T08:56:00.000Z"
+  },
+  {
+    "slug": "20260804-28",
+    "headline": "高市首相、消費税1％減税で経済刺激——食料品2年間、新投資枠は上限なし",
+    "lead": "日本の高市政権が大規模な経済対策を発表。食料品の消費税を1％に引き下げ、公民合わせて370兆円の投資枠を設定。",
+    "body_markdown": "日本の高市総理大臣は8月4日、消費税減税を含む大型経済対策を発表した。食料品の消費税を2027年4月から2年間、現在の8％から1％に引き下げることが柱。消費税減税は導入以来初となる。\n\n政府の試算では、食料品税率の引き下げコストは約5兆円。これに加え、2026年度予算で成長投資枠を10兆円増加させ、2030年度までの間、成長投資枠に『予算の上限を設けない』と明言した。公民合わせて370兆円の投資により、経済成長を加速させる狙い。\n\nただし市場の懸念も大きい。日本の国債発行額は既に世界的に高水準であり、これ以上の財政出動は金利上昇や市場信任喪失のリスクをはらむ。政府は『赤字国債に依存しない』と述べているが、特例公債やメカニズムの詳細は今後の税制改正大綱（9月決定予定）の調査待ち。インフレ抑制と成長のバランスが問われている。",
+    "tags": [
+      "日本経済",
+      "消費税",
+      "財政政策",
+      "成長投資"
+    ],
+    "section": "経済・マネー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/04/japan-takaichi-food-tax-cut-jgb-boj.html",
+    "importance": 4,
+    "image_query": "government economic policy finance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1770461846516-b7e5993a8e4f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxnb3Zlcm5tZW50JTIwZWNvbm9taWMlMjBwb2xpY3klMjBmaW5hbmNlfGVufDF8MHx8fDE3ODU4MzYwMjl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "David Vives",
+      "profileUrl": "https://unsplash.com/@davidvives?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "New york stock exchange building with american flags"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:49.379Z",
+    "publishedAt": "2026-08-04T08:36:34.000Z"
+  },
+  {
+    "slug": "20260804-29",
+    "headline": "米国務省が5つの外交拠点の閉鎖を計画——名古屋領事館も対象",
+    "lead": "トランプ政権が米国の外交プレゼンスを縮小。名古屋を含む5ヶ所の領事館・大使館の閉鎖をめぐり、議会への通知が明らかに。",
+    "body_markdown": "米国務省が5つの外交拠点の閉鎖計画を議会に通知した。対象は日本の名古屋領事館、カナダのウィニペグ領事館、インドネシアのメダン領事館、カメルーンのドゥアラ大使館、グレナダのセント・ジョージ大使館。この規模の一括閉鎖は、特定の地政学的事象に限定されない稀な例。\n\nトランプ政権は組織改革（リストラクチャリング）の一環として、米国の海外での人的・財政的足跡を削減する方針を推進している。閉鎖による現地への影響は大きく、特に名古屋は愛知県を中心とした商業活動の支援拠点として機能していた。ビザ申請や米国民向けサービスは今後、隣接する地域の領事館に統合される予定。\n\nこの決定は、米国が対日関係よりも予算効率を優先させたと解釈される可能性もある。外交政策としては『米国ファースト』の一環だが、対象国との関係再構築には時間を要すると見られる。",
+    "tags": [
+      "米国",
+      "外交",
+      "閉鎖",
+      "名古屋",
+      "トランプ政権"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015195911000",
+    "importance": 4,
+    "image_query": "embassy consulate building flag",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1763325088574-509a3624d5dd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8ZW1iYXNzeSUyMGNvbnN1bGF0ZSUyMGJ1aWxkaW5nJTIwZmxhZ3xlbnwxfDB8fHwxNzg1ODM2MDMwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Josh Snader",
+      "profileUrl": "https://unsplash.com/@joshsnader?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "American flag waving on a flagpole near building.",
+      "description": "An American flag flies at half staff in front of a stately government building."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:50.455Z",
+    "publishedAt": "2026-08-04T07:46:47.000Z"
+  },
+  {
+    "slug": "20260804-30",
+    "headline": "25州がトランプ関税に提訴——強制労働名目の措置は違法と主張",
+    "lead": "民主党主導の25州が、60ヶ国を対象とした米国の関税措置を違法と訴える。強制労働対策を名目にした過度な通商権濫用と指摘。",
+    "body_markdown": "民主党主導の25州は、トランプ大統領が施行した大規模な関税措置が違法だと米国国際貿易裁判所に提訴した。対象は60の米国貿易相手国からの輸入品。通商代表部（USTR）が『強制労働』疑惑を理由に実施した関税だが、州側は過度な権限濫用だと主張している。\n\n訴状によると、関税率は10～12.5％で、対象国の輸入額は米国の総輸入の99.4％に及ぶ。州側は『強制労働対策』が名目であり、実質は国際通商法第301条を乱用した一方的な措置だと指摘。トランプ政権は別の機会にほぼ同一の関税を別理由で発令した前例があり、同じプレイブックの再利用という批判がある。\n\nホワイトハウスは、外国がILO基準の労働禁止を遵守しないことが原因であり、合法的権限の行使だと反論。訴訟の行方は米国内の通商政策と国内産業保護のバランスを問う先例となるだろう。",
+    "tags": [
+      "トランプ",
+      "関税",
+      "通商",
+      "訴訟",
+      "米国"
+    ],
+    "section": "ビジネス",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/cy4kp8jd0ppo",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/08/03/trump-tariffs-25-states-lawsuit-supreme-court.html",
+        "name": "CNBC"
+      }
+    ],
+    "importance": 4,
+    "image_query": "tariff trade policy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1740313498505-89024211b126?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx0YXJpZmYlMjB0cmFkZSUyMHBvbGljeXxlbnwxfDB8fHwxNzg1ODM2MDMxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A close up of scrabble tiles spelling the word usa, tarifs"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:51.716Z",
+    "publishedAt": "2026-08-04T08:31:38.000Z"
+  },
+  {
+    "slug": "20260804-31",
+    "headline": "サウジアラムコ利益33％増——イラン戦争で原油高、供給制約を逆転",
+    "lead": "中東最大級の石油企業が2026年Q2で335億ドルの利益。ホルムズ海峡閉鎖も代替パイプラインで対応、供給を維持。",
+    "body_markdown": "サウジアラムコは第2四半期の調整済み純利益が335億ドル（前年同期比33％増）を記録した。アナリスト予想の316億ドルを上回った。\n\nイラン戦争による原油高が主因。実現原油価格は1バレル108ドルに跳ね上がり、前年同期の66.7ドルから大幅上昇。ただし同社の原油・ガス生産量は946万バレル/日と、前四半期（1261万バレル）から低下した。イランがホルムズ海峡を一時閉鎖したことによる減産が影響している。\n\nだが企業の対応力は高い。同社は1200km超の東西パイプライン（紅海へ直結）を活用し、ホルムズ海峡迂回ルートを確保。供給信頼度は98.4％を維持。製油・取引部門の好況（原油と精油製品の価格差が拡大）も利益を支えた。地政学的リスクが一時的な供給制約に留まり、多角化できた事業構造の強さが際立つ。",
+    "tags": [
+      "サウジアラムコ",
+      "原油",
+      "イラン",
+      "地政学",
+      "エネルギー"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/04/saudi-aramco-earnings-2q-oil-iran-war.html",
+    "importance": 4,
+    "image_query": "oil refinery petroleum industry",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1678984239420-43cdc183bce6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxvaWwlMjByZWZpbmVyeSUyMHBldHJvbGV1bSUyMGluZHVzdHJ5fGVufDF8MHx8fDE3ODU4MzYwMzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jakub Pabis",
+      "profileUrl": "https://unsplash.com/@jakubpabis?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a factory with pipes and a sky background",
+      "description": "Oil refinery plant. Petroleum refinery tower building. Trzebinia, Poland."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:52.506Z",
+    "publishedAt": "2026-08-04T08:23:14.000Z"
+  },
+  {
+    "slug": "20260804-32",
+    "headline": "塩野義製薬、生成AIの正答率50→90％——機密データの最適化に成功",
+    "lead": "製薬大手が社内AIモデルの精度を倍増。大量の機密データを安全に活用する手法を確立した。",
+    "body_markdown": "塩野義製薬は、生成AI（ジェネレーティブAI）を社内実務に組み込む過程で、正答率を50％から90％へ大幅に向上させたと発表した。\n\n同社の課題は情報機密性の高さ。製薬企業が保有する大量の社有データ（臨床試験結果、化学構造式、規制文書など）は、外部のクラウドAIサービスに上げることができない。しかし自社内に小型AIモデルを構築しただけでは精度が不足するジレンマがあった。\n\n突破口は『データの最適化』。膨大な機密データから、AIモデルの学習に必要かつ十分な要素を精選し、その『濃い』データで再学習させることで、少量の質の高い学習で高精度を実現した。この手法は、医学文献の照合や統計分析といった実務で即戦力となり、他の機密データ多量企業（金融、防衛、化学など）への応用も期待される。AI導入が『セキュリティの敵』ではなく『生産性の味方』になる事例として注目される。",
+    "tags": [
+      "生成AI",
+      "製薬",
+      "機密データ",
+      "正答率",
+      "日本"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://kn.itmedia.co.jp/kn/articles/2608/04/news033.html",
+    "importance": 4,
+    "image_query": "laboratory pharmaceutical research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1579154204601-01588f351e67?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8bGFib3JhdG9yeSUyMHBoYXJtYWNldXRpY2FsJTIwcmVzZWFyY2h8ZW58MXwwfHx8MTc4NTgzNjAzM3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "woman standing in front of the digital machine",
+      "description": "DNA Genotyping and Sequencing.\nA technician works among a fleet of desktop genomic sequencing machines at the Cancer Genomics Research Laboratory, part of the National Cancer Institute's Division of Cancer Epidemiology and Genetics (DCEG). Creator:\tDaniel Sone"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:53.425Z",
+    "publishedAt": "2026-08-04T01:00:00.000Z"
+  },
+  {
+    "slug": "20260804-33",
+    "headline": "欧州AI規制が始動——生成コンテンツへのラベル・マーク義務、違反で最大1500万ユーロ",
+    "lead": "EU AIアクト第50条の透明性ルールが8月2日から発効。チャットボットの『AI対話』表示義務と、深フェイク・AIテキストへの機械可読マーク必須化。",
+    "body_markdown": "欧州委員会は8月2日、EU人工知能規制法（EU AI Act）の透明性ルール適用を正式開始した。\n\n核となる義務は3つ。第一に、チャットボット等の対話型AIが人間ではなく機械であることを明示し、利用者に通知すること。第二に、生成AIやディープフェイクで作成されたコンテンツに『機械可読マーク』（メタデータ）を埋め込み、自動検出を容易にすること。第三に、公共の関心事に関する深フェイク・AI生成テキストの場合、作成者または提供者の情報を記録すること。\n\nEUはすでに180以上の組織による『AI透明性コード』を公開した。非遵守の場合、最大1500万ユーロまたは売上の3％の制裁金が科される可能性がある。これは世界で最も厳しいAI規制の実装であり、EUで事業する全AI企業に影響。日本やアジア太平洋地域のAI企業もEU進出時にはこの基準に適合する必要がある。",
+    "tags": [
+      "EU",
+      "AI規制",
+      "透明性",
+      "ディープフェイク",
+      "コンプライアンス"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/article/2608/04/2000000366/",
+    "importance": 4,
+    "image_query": "regulation compliance digital law",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1752697589000-9819ed4fc30c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8cmVndWxhdGlvbiUyMGNvbXBsaWFuY2UlMjBkaWdpdGFsJTIwbGF3fGVufDF8MHx8fDE3ODU4MzYwMzR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Krists Luhaers",
+      "profileUrl": "https://unsplash.com/@kristsll?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Books about law are neatly arranged on a shelf."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:54.519Z",
+    "publishedAt": "2026-08-03T23:30:13.000Z"
+  },
+  {
+    "slug": "20260804-34",
+    "headline": "BP利益が倍増——イラン戦争で製油マージン急拡大、4年ぶりの高水準",
+    "lead": "英石油大手BPが第2四半期で57.3億ドルの調整利益。中東紛争による石油取引・製油事業の好況が寄与。",
+    "body_markdown": "英石油企業BPは第2四半期の調整済み利益が57.3億ドル（前年同期より倍増）を記録し、アナリスト予想の50.1億ドルを上回った。これは4年以上ぶりの水準。\n\nイラン戦争による石油相場の急騰が主因ではなく、むしろ石油取引部門と製油事業の好況が目立つ。原油（WTI）と精製油製品の価格差（製油マージン）が異常に拡大し、石油を買い集めて精製・売却する中間業の収益性が跳ね上がった。地政学的混乱に便乗した『裁定取引』環境が生まれた形。\n\n一方で、当期の原油・ガス生産量（置換原価ベース）は前年同期の35億ドルから30億ドルへ低下。ただし配当を4％増額（1株あたり8.66セント）し、営業現金流は109億ドルを確保。トランプ米大統領が『石油企業が金を稼ぎすぎている』と批判する中、BPは地政学リスクの恩恵をフルに享受した形となった。",
+    "tags": [
+      "BP",
+      "石油",
+      "イラン",
+      "取引益",
+      "エネルギー"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/04/bp-2q-earnings-oil-iran-war.html",
+    "importance": 4,
+    "image_query": "oil rig energy petroleum",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1633829131104-e2134f75c6e5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxvaWwlMjByaWclMjBlbmVyZ3klMjBwZXRyb2xldW18ZW58MXwwfHx8MTc4NTgzNjAzNXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Arvind Vallabh",
+      "profileUrl": "https://unsplash.com/@vallabh1?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "an oil rig in the middle of the ocean at sunset",
+      "description": "Huntington Beach oil rig off shore with oil spill"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:55.503Z",
+    "publishedAt": "2026-08-04T08:11:48.000Z"
+  },
+  {
+    "slug": "20260804-35",
+    "headline": "トランプ氏、イラン協議は『最後のチャンス』——ただし交渉状況で米イラン対立",
+    "lead": "トランプ米大統領がイランへの最後通牒。協議は『今進行中』と主張するも、イラン側は交渉を否定し見解が対立。",
+    "body_markdown": "トランプ米大統領は8月3日、イランとの協議が『進行中』であり、『良い合意文書に署名する最後のチャンス』だとイランに警告した。\n\nただしイランとの認識は大きく異なる。米国側は『サウジアラビア、UAE、カタールの要請で協議が行われている』と主張する一方、イラン外務省は『米国との直接交渉は無い。オマーンや地域国、域外国との対話を通じて緊張低下を模索している』と反発。双方が『協議の有無そのもの』で対立している。\n\nトランプ氏は『当初は世界大戦II以来最大級の攻撃を計画していた』が『外交に時間をやる』と述べ、ホルムズ海峡の再開とイラン非核化を最終目標に設定。だが交渉状況が実在するか不透明なまま、双方の主張の乖離は深い。戦況の引き延ばし・外交による出口探り・市場安定化工作が複雑に交錯している。",
+    "tags": [
+      "トランプ",
+      "イラン",
+      "交渉",
+      "ホルムズ海峡",
+      "戦争"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/04/us-iran-war-trump-hormuz.html",
+    "sources": [
+      {
+        "url": "https://www.aljazeera.com/news/2026/8/3/trump-blasts-duplicitous-iran-after-tehran-denies-it-is-in-talks-with-the-us",
+        "name": "Al Jazeera"
+      }
+    ],
+    "importance": 4,
+    "image_query": "diplomatic negotiation international relations",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1772299399273-d71c7fce5da0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8ZGlwbG9tYXRpYyUyMG5lZ290aWF0aW9uJTIwaW50ZXJuYXRpb25hbCUyMHJlbGF0aW9uc3xlbnwxfDB8fHwxNzg1ODM2MDM1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Saifee Art",
+      "profileUrl": "https://unsplash.com/@saifee_art?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Toy soldiers on a map with iran flag."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:56.116Z",
+    "publishedAt": "2026-08-04T07:04:07.000Z"
+  },
+  {
+    "slug": "20260804-36",
+    "headline": "Microsoft Copilot Skill Recorder——PC操作を『AIスキル化』、自動実行可能に",
+    "lead": "マイクロソフトが無料アプリ公開。PC画面操作を記録すると、AIが自動再現できる再利用可能な『スキル』に変換。",
+    "body_markdown": "マイクロソフトは『Skill Recorder』というデスクトップアプリを無料公開した。ユーザーのPC操作（マウス・キー入力・アプリ切り替え）を記録し、AIが『意図』と『実行ステップ』に変換することで、エージェント（AI自動実行システム）が反復可能な『スキル』として再利用できるようにする。\n\n利用流程は単純。ユーザーがShift+Ctrl+Rで記録開始→タスク実行→記録終了。GitHub Copilot CLIが操作内容を解析し、『意図：〇〇を実行する→ステップ1,2,3...』という構造化データに変換。これを『SKILL.md』として保存するか、『自動化』としてスケジュール実行・トリガー発動に対応させられる。\n\n対応先は『Microsoft Scout』『Microsoft Copilot Cowork』『Copilot Studio』の3つのAIエージェントサービス。反復的な書類作成・データ入力・システム連携といった定型業務の自動化が容易になる。UI自動化（Robotic Process Automation/RPA）をAIが自動学習し、属人的な業務の標準化・効率化が加速する。",
+    "tags": [
+      "Microsoft",
+      "Copilot",
+      "自動化",
+      "AI",
+      "生産性"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/04/2000000361/",
+    "importance": 4,
+    "image_query": "computer screen automation software",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1625459201773-9b2386f53ca2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyM3x8Y29tcHV0ZXIlMjBzY3JlZW4lMjBhdXRvbWF0aW9uJTIwc29mdHdhcmV8ZW58MXwwfHx8MTc4NTgzNjAzNnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Carlos Gonzalez",
+      "profileUrl": "https://unsplash.com/@carlgonz?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black flat screen computer monitor",
+      "description": "software development in the C programming language"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:57.036Z",
+    "publishedAt": "2026-08-03T23:00:00.000Z"
+  },
+  {
+    "slug": "20260804-37",
+    "headline": "ウクライナ無人機にAI自動追跡——米国1億ドル取引、5万機が自律目標認識",
+    "lead": "米企業のAI技術が1億ドルの大型取引。ウクライナの安価カミカゼ無人機5万機が自律的に目標を認識・追尾できるように改善。",
+    "body_markdown": "米企業のAI技術がウクライナ無人機に導入され、5万機が自動目標追跡能力を獲得した。1億ドル規模の取引。\n\nウクライナが多用する『ホーネット』ドローンは1機あたり6000ドルの低コスト。従来は人間のオペレーターが遠隔操縦していたが、AI自動追跡により『送り出したら自分で目標を見つけて攻撃する』段階へ進化した。このシステムは、GPS信号不通や敵方の電子妨害（ジャミング）下でも独立して動作でき、ロシア軍の防御効率を大幅に低下させている。\n\n技術的には、小型ドローンに搭載された軽量ニューラルネットワークが低解像度カメラ画像から目標（装甲車・兵員・陣地）を識別し、追尾・接近・攻撃まで自律実行。人間と機械が時間・距離・認知能力の制約から解放されたことで、戦術の多様性と被害最小化が同時に実現される。この『AI無人戦術』の普及は、今後の紛争様式を根本的に変える可能性が高い。",
+    "tags": [
+      "ウクライナ",
+      "AI",
+      "無人機",
+      "軍事",
+      "自動追跡"
+    ],
+    "section": "テクノロジー",
+    "source": "Ars Technica",
+    "link": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
+    "importance": 4,
+    "image_query": "drone aircraft military warfare",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkcm9uZSUyMGFpcmNyYWZ0JTIwbWlsaXRhcnklMjB3YXJmYXJlfGVufDF8MHx8fDE3ODU4MzYwMzd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Karl Greif",
+      "profileUrl": "https://unsplash.com/@karlgreif_media?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black DJI Mavi quadcopter near body of water",
+      "description": "I took this one while flying my Mavic over the James River in Richmond, VA.  The scenery here was amazing and I got some of the best drone footage I’ve recorded yet."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:58.059Z",
+    "publishedAt": "2026-08-03T22:11:39.000Z"
+  },
+  {
+    "slug": "20260804-38",
+    "headline": "通信企業Circlesが、OpenAI活用で顧客体験を個人化——ARPUが22％増加",
+    "lead": "シンガポール発のテレコム『Circles』がOpenAI API導入。会話型AIが顧客支援・推奨を自動実行し、加入者1人あたり収益（ARPU）が大幅向上。",
+    "body_markdown": "通信企業Circlesは、OpenAI APIを組み込んだ『AI Concierge』で顧客体験を刷新した。\n\n課題は通信キャリアの『データ過剰・活用不足』。使用量、請求データ、ネットワーク活動、位置情報など豊富な信号を保有しながら、これをリアルタイムで顧客への個人化提案に変換できていなかった。OpenAIの大規模言語モデルにこれらのデータを注入することで、『何を必要としているか』を自動判断し、最適なサービス・割引・プラン変更を瞬時に提示できるようになった。\n\n成果は数値で明白。シンガポール市場でのARPU（加入者1人あたり月次売上）が22％増加。カスタマーサポートの自動解決率は65％に達し、人間のコールセンターへの負荷が大幅軽減。チャーン率（解約率）も9％低下した。『支援と個人化と即応』の3つをAIが同時実行することで、顧客ロイヤルティと企業収益が両立する事例として注目される。",
+    "tags": [
+      "通信",
+      "AI",
+      "顧客体験",
+      "OpenAI",
+      "個人化"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/circles",
+    "importance": 3,
+    "image_query": "customer service technology communication",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:58.061Z",
+    "publishedAt": "2026-08-03T00:00:00.000Z"
+  },
+  {
+    "slug": "20260804-39",
+    "headline": "米ワシントン州スポーケーン野火——6万5000人が避難、600棟以上が延焼",
+    "lead": "干ばつと猛暑に駆られた大規模野火。北西部スポーケーン地域で数千ヘクタール焼失、鎮火まで数日を要する見込み。",
+    "body_markdown": "米国ワシントン州スポーケーン地域で8月1-2日、『オールドトレイル火災』を含む複数の大規模野火が発生。6万5000人が避難し、600棟以上の構造物が焼失した。\n\n原因は『旱魃と猛暑の組み合わせ』。地面の含水率が危険水準まで低下し、わずかな火源（不明のこともある）で瞬時に火が拡大。北西風によって炎が東へ進み、住宅密集地を直撃した。昼間の気温が体感40°C超に達する環境では、消火能力も著しく制限される。ワシントン州の保健部門は『数日で鎮火するのは難しい』と警告。\n\n地球規模の温暖化がこうした野火の頻度・規模を増幅していることは多くの科学者が指摘する。米国北西部は過去数十年で野火シーズンの長期化と強度増加を経験。コミュニティの回復には数ヶ月～数年を要する。",
+    "tags": [
+      "野火",
+      "自然災害",
+      "温暖化",
+      "米国",
+      "避難"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-northwest-wildfires-spokane-neighborhoods.html",
+    "importance": 3,
+    "image_query": "wildfire forest fire smoke",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:58.062Z",
+    "publishedAt": "2026-08-04T07:20:01.000Z"
+  },
+  {
+    "slug": "20260804-40",
+    "headline": "メトロバンク顧客がClaudeフロード事件で返金戦——詐欺師がAIクレジット購入",
+    "lead": "英銀行メトロバンクのシステム不備により、カード不正利用者がClaudeAIのクレジットを大量購入。14244ポンド被害。",
+    "body_markdown": "英国のメトロバンク顧客・ゾリ・ラッターが、銀行システムのセキュリティ不備で14244ポンド（約185万円）の被害を受けた。詐欺グループが同顧客のカード情報を盗用し、生成AI『Claude』のクレジット購入に充当していた。\n\n被害経路は典型的。銀行が不正取引検知のため『この取引は本人か』とSMSで確認→ラッターが『いいえ』と回答→しかし詐欺師はこれを無視し複数回の少額取引（90～200ポンド）を繰り返し、銀行の検知網をすり抜けた。Anthropic（Claude開発企業）はクレジット購入用に認証済みカード登録を求めるシステムを運用していたが、盗まれたカード情報であっても即座に検証できなかった。\n\nその後、ラッターは一時的にメトロバンクから返金を受け、Anthropicも事態を認識して別途補償を実施。ただし銀行側は『期待するサービス水準に達していなかった』と述べるにとどまり、補償は300ポンド。AI時代のカード詐欺とシステム責任の線引きが問われる事件。",
+    "tags": [
+      "詐欺",
+      "銀行",
+      "Claude",
+      "AI",
+      "セキュリティ"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/money/2026/aug/04/metro-bank-refund-ai-fraud",
+    "importance": 3,
+    "image_query": "cybersecurity fraud protection digital",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:58.065Z",
+    "publishedAt": "2026-08-04T06:00:15.000Z"
+  },
+  {
+    "slug": "20260804-41",
+    "headline": "Palantir CEO、AI産業を『マルキスト的』と批判——10億ドル利益でも警戒感",
+    "lead": "ビッグデータ企業Palantirの CEO が、生成AI企業の『生産手段の独占』戦略を指摘。Q2利益10億ドル達成後も不信を表明。",
+    "body_markdown": "Palantir CEO のアレックス・カープは、生成AI企業（OpenAI等のフロンティアラボ）について『マルキスト的な側面がある』と批判した。同時に同社の第2四半期利益は10億ドルを超えた。\n\nカープは社会理論の博士号を持ち、企業戦略に哲学的視点を持ち込む。彼の主張は『AI企業は（意識的であれ無意識であれ）顧客企業の生産手段を奪おうとしている』というもの。具体的には、企業の貴重なデータやワークフローをAIラボに提供させ、AIラボが学習データとして吸収する一方、顧客企業は限定的な成果しか得られない非対称な構造があると指摘する。\n\nPalantirは『AI自主権』（データとワークフローを企業内に保持し、プロプライエタリなAI用途に最適化する）を掲げ、汎用LLMへの依存を避ける戦略を推進。カープの批判は業界内での立場の違い（プロプライエタリvs.クラウド）と、AI企業間の競争激化を反映している。",
+    "tags": [
+      "Palantir",
+      "AI",
+      "CEO",
+      "戦略",
+      "ビジネスモデル"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
+    "importance": 3,
+    "image_query": "business technology strategy conference",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:58.068Z",
+    "publishedAt": "2026-08-03T23:19:50.000Z"
+  },
+  {
+    "slug": "20260804-42",
+    "headline": "台湾の巨木『天剣』が84.1m——東アジア最高峰を確認、『失われた世界』を発見",
+    "lead": "台湾山岳調査チームが10年超の探索の末、樹高84.1mのスギ科の大木を測定。東アジア第一位、濃密な古生林を確認。",
+    "body_markdown": "台湾の『台湾樹木探索隊』が、大安渓河谷の深い谷に生育する樹高84.1mのタイワニア（スギ科）を測定・確認した。これまでの東アジア最高樹木記録を更新し、俗称『天剣（Heavenly Sword）』と呼ばれている。\n\n探索は2014年から続き、登山家・生態学者・地球物理学者が協力。LiDAR（レーザー測量）と実地登頂を組み合わせることで、雲霧林に隠れた巨木を特定。近傍の調査で同じく樹高70m超のタイワニアが複数確認され、1ヘクタール内に樹高65m超の樹が11本も密生する『失われた世界』を発見した。\n\nこうした古生林は、大気中の炭素を大量に固定する高炭素貯蔵生態系。気候変動への適応・緩和と同時に、台湾の生物多様性保護の重要性を示唆している。ただし同地帯は未だ人間による過度な採取・開発の脅威にさらされており、保護策の強化が急務とされる。",
+    "tags": [
+      "台湾",
+      "樹木",
+      "生態系",
+      "環境",
+      "発見"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/08/260802223431.htm",
+    "sources": [
+      {
+        "url": "https://phys.org/news/2026-06-heaven-sword-crowned-east-asia.html",
+        "name": "Phys.org"
+      }
+    ],
+    "importance": 3,
+    "image_query": "forest trees mountains landscape nature",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:58.069Z",
+    "publishedAt": "2026-08-04T01:18:59.000Z"
+  },
+  {
+    "slug": "20260804-43",
+    "headline": "トラザメがマサチューセッツ沖で捕獲——温暖化で熱帯魚が北上中",
+    "lead": "ケープコッド沖で南米産のサメ種が釣り上げられる。米国東海岸の海水温上昇により、熱帯種の生息域が急速に北上。",
+    "body_markdown": "マサチューセッツ州ファルマスのケープコッド沖で、トラザメ（イタチザメ科）の幼体（体長約150cm）が釣り上げられた。7月23日の出来事。釣った兄弟はこのサメを無傷で放流した。\n\nトラザメは本来、カリブ海など温暖水域の産。米国北東部での出現は『温暖化の指標』として研究者に注視されている。ホホジロザメもグレートホワイト）の北上が近年加速しており、ニューハンプシャーやメイン州沖での目撃も増加。一方、ブラックシーバス等の温温水性魚も同様に北上し、漁業資源配分の再編を強いている。\n\n米国東海岸の海水温は過去20年で上昇傾向。大西洋の湾流の弱化と全球的な温暖化の複合効果により、熱帯種の『領地拡張』が加速している。人間社会にとっては漁場転換・沿岸防衛・生態系バランスの観点から多くの課題をもたらす。",
+    "tags": [
+      "温暖化",
+      "海洋",
+      "気候",
+      "生態系",
+      "米国"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-tiger-shark-caught-massachusetts.html",
+    "importance": 3,
+    "image_query": "shark ocean sea marine life",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:58.071Z",
+    "publishedAt": "2026-08-04T06:45:16.000Z"
+  },
+  {
+    "slug": "20260804-44",
+    "headline": "Design Arena、AIモデル評価に7.9百万ドル調達——530万ユーザーが『好み』判定",
+    "lead": "AI企業向けに人間の『好み』データをスケール提供するプラットフォームが資金調達。530万ユーザーで年間6000万ドルの売上を実現。",
+    "body_markdown": "Design Arenaは、創造的AI評価の人間フィードバック提供プラットフォームとして、7.9百万ドルのシード資金調達を発表。Index Venturesが主導し、複数のVCが参加。\n\n同社は『Intelligence』という企業体として、AI企業が『テキスト・画像・デザイン』の『主観的な質』を評価するのに必要な大規模なヒューマンフィードバックデータを供給。ユーザーはPromptを投入→複数のAI出力を比較→『どれが良いか』を選択することで簡単にデータ提供できる。プラットフォームの『ゲーミフィケーション』により、多くのユーザーが無報酬または微額報酬で参加。\n\n現在のスケールは530万ユーザーに到達。年間売上は6000万ドル（ARR）を達成し、一部報道では当期従業員数が約290人規模とも。ただし売上の源泉は『AI企業からの評価料金』であり、『人間ユーザーからの価値抽出』という倫理的課題も指摘される。生成AIの品質向上に欠かせない『人間の判断』をクラウドソースする新ビジネスモデル。",
+    "tags": [
+      "AI評価",
+      "クラウドソース",
+      "スタートアップ",
+      "ヒューマンフィードバック"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+    "importance": 3,
+    "image_query": "startup technology funding innovation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:58.073Z",
+    "publishedAt": "2026-08-03T19:28:57.000Z"
+  },
+  {
+    "slug": "20260804-45",
+    "headline": "議会の『推し』AIツールはChatGPT——支出の88～96％を占有",
+    "lead": "米国下院のAI支出をCNBCが分析。ChatGPT Plus が約1300万円の支出で全体を支配。Claudeは170万円程度に留まる。",
+    "body_markdown": "CNBC による米国下院のAI支出分析によると、2025年4月～2026年3月の識別可能なAIツール購入について、ChatGPTが全支出の88～96％を占めた。金額では約10万ドル（約1300万円）が ChatGPT Plus ライセンスに費やされた。Anthropic の Claude は1万3000ドル程度（約170万円）に留まり、大きな差が生じた。\n\n理由の1つは『初期配布』。下院デジタルサービス部門が2023年に40名の主要スタッフ向けに ChatGPT Plus ライセンスを一括配布し、その後の使用実績が蓄積されたため。OpenAI は議会職員向けのトレーニングも提供し、利用習慣の形成を進めた。\n\nただし数値は不完全。無料アカウント、Microsoft Copilot（ソフトウェア販売に含まれる）、上院の使用分は記録されていない。それでも主流派は明らかで、議会の政策決定・法案起草にも ChatGPT が浸透していることが伺える。AI規制論の中で『最強の AI ツール』を使うエコシステムの確立が、政策判断に影響する可能性もある。",
+    "tags": [
+      "ChatGPT",
+      "議会",
+      "支出",
+      "AI",
+      "米国"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/08/03/openai-chatgpt-anthropic-congress-house-ai-spending.html",
+        "name": "CNBC"
+      }
+    ],
+    "importance": 3,
+    "image_query": "office technology tools productivity",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:58.074Z",
+    "publishedAt": "2026-08-03T16:40:55.000Z"
+  },
+  {
+    "slug": "20260804-46",
+    "headline": "AIの触媒予測は所詮『予測』——実験で乖離、CO2削減の現実は遠い",
+    "lead": "4つの研究機関が確認。AIが『この触媒でCO2が削減できる』と予測しても、実験すると違う結果に。",
+    "body_markdown": "4つの研究機関による共同検証により、同一のロジウム触媒を用いた『同一実験』でも、機関ごとに異なる結果が得られることが判明した。CO2を有用燃料に変換する触媒開発にAIを活用する動きが活発だが、このばらつきの問題が浮き彫りになった。\n\n構造的課題は『実験条件のばらつき』。撹拌強度や反応器設計の微妙な違いにより、同じ触媒でも研究機関ごとに異なるデータが生成される。AIはこのばらつきを含む不安定な訓練データから学習すると、予測精度が大幅に低下する。つまりAIの限界は『計算の正確性』ではなく『訓練データの再現性の欠如』にある。\n\nこれは AI 活用全域の課題でもある。学習データの信頼性とモデルの一般化能力の間には本質的なギャップがある。触媒開発においても、AI は『有望候補の絞り込み』には有効だが、『確実な成功予測』は過信を招く。実験の標準化と検証の多重化が不可欠。",
+    "tags": [
+      "AI",
+      "触媒",
+      "CO2",
+      "科学",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-labs-experimental-differences-undermine-ai.html",
+    "importance": 3,
+    "image_query": "laboratory research chemistry science",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:58.083Z",
+    "publishedAt": "2026-08-03T23:20:01.000Z"
+  },
+  {
+    "slug": "20260804-47",
+    "headline": "欧州の猛暑・干ばつがオリーブ油価格を再沸騰させる——スペイン・イタリアで火災損失",
+    "lead": "ヨーロッパの異常高温がオリーブ園を直撃。既に記録高値から緩和していた価格が再び上昇。2025～26年収穫は4年ぶりの減産見込み。",
+    "body_markdown": "ヨーロッパ南部が猛暑・干ばつに襲われ、オリーブ油価格の上昇圧力が再燃した。スペインは6月に気温42.7℃を記録、フランスは44℃超。ギリシャ、イタリア、ポルトガルではオリーブ園周辺で野火が多発し、煙・灰の被害も加わっている。\n\n価格推移は劇的。2024年1月の記録高値（1トン1万ドル超）から一度緩和し、2026年6月は6000ドル付近まで低下していた。ただしヨーロッパ連合の2025/26年オリーブ油生産見込みは344万トン——前年比4％減。高温・水不足で収穫量が減り、スペイン産の『標準品』の市場価格は€4.2～4.5/kg に上昇。イタリア産プレミアム品は€6.5～7.0/kg に再上昇した。\n\nグローバルな農産物インフレの一環。オリーブ油は『健康食』ブームで需要も高く、供給減と需要堅調の組み合わせで価格上昇は今後も続く見通し。",
+    "tags": [
+      "オリーブ油",
+      "価格",
+      "ヨーロッパ",
+      "温暖化",
+      "農業"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/aug/04/price-olive-oil-expected-rise-again-european-crops-heat-drought-wildfires",
+    "importance": 3,
+    "image_query": "olive oil agriculture farming harvest",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:58.084Z",
+    "publishedAt": "2026-08-04T04:00:13.000Z"
+  },
+  {
+    "slug": "20260804-48",
+    "headline": "iPaaS市場が年20.7％成長——AI基盤で企業システム連携の需要拡大、日本も成長軌道へ",
+    "lead": "IT市場調査がiPaaS（統合プラットフォーム・サービス）の日本での成長を予測。2030年度の年平均成長率は20.7％。",
+    "body_markdown": "日本のiPaaS（統合プラットフォーム・アズ・ア・サービス）市場は、2025年度に前年度比18％増となり、2026～2030年度の年平均成長率（CAGR）が20.7％に達する見通しだ。\n\niPaaS は『異なるシステム・クラウド・SaaS を統合するミドルウェア』。従来は『面倒な接続作業』という位置づけだったが、AI時代には『企業データの流通基盤』として再評価されている。生成AI やデータ分析を全社的に展開するには、散在したシステムを『つなぐ』ことが前提となるため。\n\n注目される用途は：\n1. **CRM・ERP との連携**：顧客データと製造・財務が統一フローに\n2. **AI エージェント向けのデータ準備**：複数システムのデータを AIが理解しやすい形に標準化\n3. **リアルタイムデータ同期**：意思決定の高速化\n\n日本の成長が年20～21％に達するのは、遅れていた DX 推進が AI 旋風で加速するため。海外SaaS大手の日本法人も参入が進み、国内ベンダーとの競争が激化する。",
+    "tags": [
+      "iPaaS",
+      "クラウド",
+      "AI",
+      "日本",
+      "デジタルトランスフォーメーション"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/enterprise/articles/2608/04/news041.html",
+    "importance": 3,
+    "image_query": "cloud computing technology infrastructure",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:58.084Z",
+    "publishedAt": "2026-08-03T23:00:00.000Z"
+  },
+  {
+    "slug": "20260804-49",
+    "headline": "Salesforce、300のAIエージェントで『4R改革』——従業員とAIの両立管理へ",
+    "lead": "CRM大手が『人とAIの両方を管理する』経営方針を公表。社内で300ものAI自律エージェントが稼働中。",
+    "body_markdown": "Salesforce Japan の高原克彦副社長は、企業の『AI時代の組織改革』フレームワークとして『4R改革術』を提示した。Salesforce 自身が同フレームワークで組織を再構築中という。\n\n『4R』は Reorganize（再構成）/ Reskill（再教育）/ Rebuild（再構築）/ Reimagine（再考）。具体的には：\n\n1. **Re-Organize**: AI エージェント 300個が自律稼働。管理不能な『野良エージェント』を防ぐため、許可・監査の仕組みを整備\n2. **Reskill**: 従業員の役割が『指示・入力』から『エージェント監督・判断』へシフト。新スキル育成が必須\n3. **Rebuild**: ワークフロー・プロセスを『人向け』から『人+AI向け』に再設計。責任と成果の帰属を明確化\n4. **Reimagine**: 『個人の効率化』で終わらず、『組織全体の変革（AX）』へ高める\n\n全社採用率は11％止まり。生成AI は『個人デスクトップの道具』から『企業システムの一部』へ昇格する段階で、組織側の対応が急務。",
+    "tags": [
+      "Salesforce",
+      "組織変革",
+      "AI",
+      "従業員",
+      "経営"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/business/articles/2608/04/news027.html",
+    "importance": 3,
+    "image_query": "business management teamwork office",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-04T09:33:58.085Z",
+    "publishedAt": "2026-08-03T22:00:00.000Z"
+  },
+  {
     "slug": "20260804-01",
     "headline": "OpenAI、リアルタイム音声AI「GPT-Live」発表",
     "lead": "OpenAI が対話型音声システムの新版 GPT-Live を発表、ターンテイクを自動判定し自然な会話を実現。",
