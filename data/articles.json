@@ -1,5 +1,415 @@
 [
   {
+    "slug": "20260807-14",
+    "headline": "OpenAI、心理学会と若年層向けAI倫理で提携",
+    "lead": "OpenAIが米心理学会（APA）と協力し、若年層のAI利用に関する心理学的ガイダンスと安全対策を開発する。",
+    "body_markdown": "OpenAIは米国の心理学会（APA）と提携し、若年層のAI利用に関する責任あるAI開発・活用についての研究や指針を進める。心理学会は米国の主要な学術・専門職組織で、発達心理学と臨床専門知識を持つ。\n\nYouTubeやTikTok、Discordなど多くのプラットフォームで、すでに多くの若年層がAIを学習、創作、質問、相談に利用している。年齢が高まるにつれてこの傾向は強まる一方で、家族や学校、臨床医、地域社会では、若年層のAI利用に関する明確な証拠や資源が不足している。\n\n今回の提携により、心理学会の根拠に基づいた研究がAI開発に組み込まれる。知られていることと不確かなこと、責任あるAI設計が何を意味するかが明確化され、技術が進化するにつれて若年層の福祉保護がどうあるべきかが整理される予定である。",
+    "tags": [
+      "AI倫理",
+      "心理学",
+      "若年層保護",
+      "責任あるAI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+    "importance": 5,
+    "image_query": "psychology research education learning",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6CQ3mqxKiApPHF2wTXSybs/5e0f83d5d5817dbac9b7e7f440e692ed/openai-and-apa-advance-responsible-ai-for-youth-16_9.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:52.461Z",
+    "publishedAt": "2026-08-06T06:00:00.000Z"
+  },
+  {
+    "slug": "20260807-15",
+    "headline": "OpenAI、スマートスピーカーを300～400ドルで発売予定",
+    "lead": "OpenAIがAppleの元デザイナー・Jony Iveと協業し、ChatGPTを搭載した高級スマートスピーカーを開発中。価格は300～400ドル。",
+    "body_markdown": "OpenAIが新たなAI対応スマートスピーカーの開発を進めており、2027年の発売を目指している。同社はAppleの元最高デザイン責任者だったJony Iveの設計スタジオ「LoveFrom」と協業し、「ChatGPTの物理的な化身」と位置づけられる端末を製造中だ。\n\n端末の価格は300～400ドルと予想されており、一般的なスマートスピーカー市場と比べて高額である。Amazonのデバイスが40～240ドル程度であるのに対し、本機は大幅に高い価格帯に設定される。\n\nドーナッツ型のデザインが特徴で、寝室やキッチンなど家庭内の様々な場所に設置できる。金属素材の高級仕上げと「謎の可動部」を備えるとされている。ただしスマートスピーカーは歴史的に利益性が低い市場であり、高価格が販売に与える影響は不透明な部分がある。",
+    "tags": [
+      "AI端末",
+      "OpenAI",
+      "ChatGPT",
+      "Jony Ive"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+    "importance": 4,
+    "image_query": "smart speaker device minimalist design",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1558089687-f282ffcbc126?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxzbWFydCUyMHNwZWFrZXIlMjBkZXZpY2UlMjBtaW5pbWFsaXN0JTIwZGVzaWdufGVufDF8MHx8fDE3ODYwOTQ5MzN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sebastian Scholz (Nuki)",
+      "profileUrl": "https://unsplash.com/@sebastian_s?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "white and gray Google smart speaker and two black speakers",
+      "description": "Google Home + Nuki Smart Lock (Smart Home)\r\n\r\nhttps://nuki.io"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:53.478Z",
+    "publishedAt": "2026-08-06T22:43:53.000Z"
+  },
+  {
+    "slug": "20260807-16",
+    "headline": "Meta、子どもの安全に約900億円支払い命令 ニューメキシコ州裁判所",
+    "lead": "米Meta（Facebook・Instagram運営）がニューメキシコ州裁判所から5億6700万ドルの支払いを命じられた。子ども向けの安全対策不足が理由。",
+    "body_markdown": "ニューメキシコ州の裁判所がMetaに対し、5億6700万ドル（日本円で約900億円）の支払いを命じた。裁判所はMetaを「公共の迷惑」と判断し、子どもの安全に対する侵害について责任を認定した。本決定に先立ち、陪審団は3月に3億7500万ドルの損害賠償支払いをMetaに命じており、今回の支払いは追加的なものとなる。合計で9億4200万ドル超となる。\n\n支払金は主に若年層への治療サービス提供に充てられる。4億2000万ドルが治療に、残りが認識向上・予防・スクリーニング等に使用される。Metaは5年間にわたってこれらの支援を実施する必要がある。\n\nMetaはまた18歳未満のユーザーに対しInstagramでプライベート設定をデフォルトにすること、FacebookユーザーがこちらもInstagramも18歳未満でした18歳未満ユーザーとのみ友達になるような制限を実装することを求められた。Metaは「判決に異議を唱え、控訴する」と表明している。",
+    "tags": [
+      "Meta",
+      "子ども安全",
+      "規制",
+      "罰金"
+    ],
+    "section": "ビジネス",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/08/06/meta-to-pay-into-567-million-fund-after-child-harms-case-new-mexico.html",
+        "name": "CNBC"
+      },
+      {
+        "url": "https://www.engadget.com/2232202/meta-additional-567-million-fine-new-mexico-child-safety-case/",
+        "name": "Engadget"
+      }
+    ],
+    "importance": 5,
+    "image_query": "social media safety children protection",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1611926653458-09294b3142bf?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzb2NpYWwlMjBtZWRpYSUyMHNhZmV0eSUyMGNoaWxkcmVuJTIwcHJvdGVjdGlvbnxlbnwxfDB8fHwxNzg2MDk0OTM0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Adem AY",
+      "profileUrl": "https://unsplash.com/@ademay?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "white and pink digital device",
+      "description": "Clubhouse audio chat - New social media platform and other social media Instagram, Facebook, Youtube, Twitter, Pinterest"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:54.235Z",
+    "publishedAt": "2026-08-07T08:06:40.000Z"
+  },
+  {
+    "slug": "20260807-17",
+    "headline": "タイの学校で銃撃事件、容疑者を含む6人が死亡",
+    "lead": "タイの学校で14歳の少年が銃を乱射し、容疑者を含む6人が死亡、20人が負傷した。",
+    "body_markdown": "タイのバンコク郊外、ノンタブリ県の小学校で銃撃事件が発生し、容疑者を含む計6人が死亡した。事件はこの日の午前10時頃に発生。14歳の少年容疑者は祖父母の自宅でも銃を発砲しており、その後、学校に移動して乱射した。\n\n20人が負傷し、うち9人が重篤な状態にある。\n\nCNNが確認した映像には、机の下に身を隠した児童たちが銃声の中で泣いている様子が映っている。タイの銃撃事件としては重大な被害をもたらしており、学校の安全対策が問題となる見込みである。",
+    "tags": [
+      "タイ",
+      "銃撃事件",
+      "学校",
+      "安全"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015199241000",
+    "importance": 5,
+    "image_query": "school building emergency response",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1763637675793-da207ba1fe18?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxzY2hvb2wlMjBidWlsZGluZyUyMGVtZXJnZW5jeSUyMHJlc3BvbnNlfGVufDF8MHx8fDE3ODYwOTQ5MzR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Lens Fables",
+      "profileUrl": "https://unsplash.com/@lensfables?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Students stand in front of a school building."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:54.817Z",
+    "publishedAt": "2026-08-07T08:34:59.000Z"
+  },
+  {
+    "slug": "20260807-18",
+    "headline": "SK Hynix、メモリチップ製造に380億ドル投資 AI需要に対応",
+    "lead": "韓国のSK Hynixが2つの新型メモリ工場建設に380億ドル超を投資。AI向けのDRAM・NAND需要の急増に対応する。",
+    "body_markdown": "韓国のメモリチップメーカーSK Hynixは、DRAM・NANDメモリ製造工場の拡大に54兆ウォン（380億ドル）を投資すると発表した。AI向けのメモリ需要が急速に高まっていることに対応する投資である。\n\n投資は2つの施設に分かれている。京畿道龍仁のY2工場ではHBM（高帯域幅メモリ）や次世代DRAM製造に使われ、2027年7月に着工予定で2029年6月に最初のクリーンルームが開設される。忠清北道清州のM17工場ではNANDメモリを製造し、需要が「急速に増加している」とSK Hynixは説明している。清州工場は2027年2月着工、2028年12月クリーンルーム開設予定である。\n\nメモリ価格は供給不足と巨大な需要（データセンター建設やNvidiaなどのチップメーカーによるHBM需要）によって急上昇している。同社は7月にニューヨーク市場へのIPOで265億ドルを調達したばかりで、その資金がこの投資の基盤となる。",
+    "tags": [
+      "SK Hynix",
+      "半導体",
+      "AI",
+      "メモリチップ"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/07/sk-hynix-memory-chips-ai-prices.html",
+    "importance": 4,
+    "image_query": "semiconductor factory chip manufacturing",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1632914146475-bfe6fa6b2a12?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxzZW1pY29uZHVjdG9yJTIwZmFjdG9yeSUyMGNoaXAlMjBtYW51ZmFjdHVyaW5nfGVufDF8MHx8fDE3ODYwOTQ5MzV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Alireza Hatami",
+      "profileUrl": "https://unsplash.com/@alirezahatami?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a man in a factory working on a piece of equipment"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:55.547Z",
+    "publishedAt": "2026-08-07T08:40:13.000Z"
+  },
+  {
+    "slug": "20260807-19",
+    "headline": "日本の7府省庁、SNS上の著名人なりすまし詐欺対策を強化要請",
+    "lead": "警察庁など7府省庁がGoogle・Meta・X・TikTok・LINE Yahooに対し、生成AIを悪用した詐欺広告対策の強化を求めた。",
+    "body_markdown": "日本の警察庁、デジタル庁、金融庁ほか7府省庁が、SNS上の詐欺広告への対策強化をプラットフォーム企業5社に要請した。対象は、Google、Meta Platforms、X、TikTok（ByteDance）、LINE Yahooの主要5社である。\n\n背景にあるのは、生成AIを悪用して著名人に成りすました偽の広告が流通し、投資詐欺などの被害が拡大していること。利用者だけでなく、成りすまされた本人の被害も問題化している。\n\n7府省庁は各プラットフォームに対し、①広告主の身元確認強化、②広告の透明性向上、③詐欺広告の削除要請への迅速な対応、を求めている。プラットフォームは2026年10月16日までに対策内容を報告し、2027年3月16日までに結果を報告する必要がある。デジタル庁が状況を監視する。",
+    "tags": [
+      "AI詐欺",
+      "SNS",
+      "規制",
+      "消費者保護"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/07/2000000450/",
+    "importance": 4,
+    "image_query": "fraud alert security warning digital",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1614064642261-3ccbfafa481b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8ZnJhdWQlMjBhbGVydCUyMHNlY3VyaXR5JTIwd2FybmluZyUyMGRpZ2l0YWx8ZW58MXwwfHx8MTc4NjA5NDkzNnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "FlyD",
+      "profileUrl": "https://unsplash.com/@flyd2069?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "red padlock on black computer keyboard",
+      "description": "Cyber security image\n"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:56.547Z",
+    "publishedAt": "2026-08-07T07:34:18.000Z"
+  },
+  {
+    "slug": "20260807-20",
+    "headline": "PFN国産LLM「PLaMo 3.0 Prime」が商用環境へ、さくらで提供開始",
+    "lead": "Preferred Networksの国産大規模言語モデル「PLaMo 3.0 Prime」がさくらインターネットのAPI基盤を通じて企業向けに提供開始。申請制。",
+    "body_markdown": "さくらインターネットが、生成AI向け推論API基盤「さくらのAI Engine」において、Preferred Networks（PFN）の国産大規模言語モデル（LLM）「PLaMo 3.0 Prime」の提供を開始した。\n\nPLaMoは日本の企業・研究機関による国産のLLMで、企業への導入が進んできた。今回の提供により、国内企業がさくらインターネットのクラウド基盤を通じてPLaMoにアクセスできる環境が整備される。\n\n利用には事前申請が必要で、無償プランは対象外。有償プランを契約した企業が利用可能になる。国産LLMの商用活用は、海外モデルへの依存削減と、日本の生成AI産業の成長という両面で注目されている。PFNとさくらインターネットの協業により、日本国内でのLLMアクセスが容易になる見込みである。",
+    "tags": [
+      "LLM",
+      "国産AI",
+      "PLaMo",
+      "さくらインターネット"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/07/2000000443/",
+    "importance": 4,
+    "image_query": "cloud computing server infrastructure",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1691435828932-911a7801adfb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8Y2xvdWQlMjBjb21wdXRpbmclMjBzZXJ2ZXIlMjBpbmZyYXN0cnVjdHVyZXxlbnwxfDB8fHwxNzg2MDk0OTM3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Albert Stoynov",
+      "profileUrl": "https://unsplash.com/@albertstoynov?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a network with wires connected to it",
+      "description": "Computer Networking Equipment with Ethernet Cables connected"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:57.256Z",
+    "publishedAt": "2026-08-07T04:07:21.000Z"
+  },
+  {
+    "slug": "20260807-21",
+    "headline": "ChatGPT、国別・年齢別の採用データを初公開 グローバル拡大が加速",
+    "lead": "OpenAIが初めてChatGPTの国別・年齢別利用データを公開。南米やアフリカでの採用が急速に拡大し、年齢層も多様化している。",
+    "body_markdown": "OpenAIが、ChatGPTの世界的な利用状況に関する初の国別データを発表した。同社が独自に追跡している利用統計によれば、AI技術がただ「質問に答える」ツールから「実行する」ツールへ進化しており、採用がより広範な層に広がっていることが明らかになった。\n\n主な知見は以下の通り：\n\n**利用の拡大**：職場では、ユーザーがChatGPTを「何かを完成させたり、何かを作成する」（執筆やコーディング、分析など）ために使う頻度が、質問を聞く場合の2倍超。\n\n**グローバル化**：ラテンアメリカ、アフリカ、オセアニアの国々が早期採用者に追いつきつつあり、グローバル採用格差が縮小している。ペルー、ウルグアイ、コスタリカが世界ランキングで最も成長している。\n\n**マルチメディア化**：テキスト以外のメッセージが全世界で7.8%、ブラジルやコロンビアでは10人に1人以上に達している。\n\n**高年齢層への普及**：35歳以上の利用者も拡大し、初期採用者層を超えた広がりを見せている。",
+    "tags": [
+      "ChatGPT",
+      "AI採用",
+      "グローバル",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+    "importance": 4,
+    "image_query": "global technology adoption statistics growth",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5qbXuYJxwp7q4YnQENtCCP/0d1dd2519af8128544b23560c7fd7dca/SEO_Card__10_.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:57.913Z",
+    "publishedAt": "2026-08-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20260807-22",
+    "headline": "6月景気指数が上昇、内閣府が「改善」判断を維持",
+    "lead": "日本6月の景気動向指数が前月比0.3ポイント上昇。内閣府は景気の基調判断を「改善」維持。",
+    "body_markdown": "内閣府が発表した2026年6月の景気動向指数によると、景気の現状を示す「一致指数」は118.2となり、前月比で0.3ポイント上昇した。\n\n一致指数の上昇に基づき、内閣府は景気の基調判断を「改善を示している」として、前月の判断を維持することを決定した。\n\n景気動向指数は、鉱工業生産、小売販売額、雇用関連指標など複数の統計を総合して景気の現状と先行きを評価する指標である。今月の上昇は、複数セクターでの活動回復傾向を反映している。",
+    "tags": [
+      "景気",
+      "経済統計",
+      "日本経済"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015199331000",
+    "importance": 3,
+    "image_query": "economic indicators growth statistics chart",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:57.914Z",
+    "publishedAt": "2026-08-07T08:55:53.000Z"
+  },
+  {
+    "slug": "20260807-23",
+    "headline": "宇宙ゴミ脅威が増大、英国の観測施設が警戒継続",
+    "lead": "地球軌道上の宇宙ゴミが増加。イングランド南部のChilbolton Observatory がリアルタイム監視を続けている。",
+    "body_markdown": "イングランド南部のChilbolton Observatory では、地球軌道上を漂う人工衛星やロケット残骸などの「宇宙ゴミ」の追跡監視を継続している。同施設はイギリスの宇宙監視活動の基盤となっており、軌道上の物体に関する重要なデータを集積している。\n\n宇宙ゴミの数は年々増加しており、衛星通信、GPS、気象観測など人類が依存する宇宙インフラへの脅威となっている。わずかな衝突でも秒速数キロメートルで運動する破片は甚大な被害をもたらすため、正確な追跡が不可欠である。\n\nChilbolton Observatory のスタッフは、レーダーや光学観測機器を使って常時監視を行い、危険な軌道を占めるゴミの位置・速度・軌道を記録する。この情報は、各国の宇宙機関や衛星オペレーターに提供され、衛星の回避機動やミッション計画に活用される。",
+    "tags": [
+      "宇宙ゴミ",
+      "衛星",
+      "スペースデブリ"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-uk-observatory-nervously-space-junk.html",
+    "importance": 3,
+    "image_query": "satellite space debris orbit monitoring",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:57.920Z",
+    "publishedAt": "2026-08-07T08:40:02.000Z"
+  },
+  {
+    "slug": "20260807-24",
+    "headline": "南米のELN勢力、アベラルド・デ・ラ・エスプリエラ新大統領下での軍事衝突に準備",
+    "lead": "コロンビアのアベラルド・デ・ラ・エスプリエラ新大統領就任に伴い、残存する左翼ゲリラ組織ELNが軍事対立の再燃に向け態勢を整えている。",
+    "body_markdown": "コロンビアのアベラルド・デ・ラ・エスプリエラ新大統領が就任し、軍事的な強制作戦を公約しているなか、同国最後の左翼反政府勢力である「民族解放軍（ELN）」が戦闘再開に向け準備を進めている。\n\nELNは1960年代から半世紀以上にわたり武装闘争を続けてきた。近年は和平交渉が進められていたものの、新政権の軍事重視政策により交渉が難しくなった。\n\nジャングル奥深くに拠点を置くELN司令部は、ドローン監視を回避するため周辺部隊を配置し、銃器と備蓄を整備している。一方、新大統領は「新しい軍事作戦」を約束しており、コロンビアは政治体制の再編に伴う内戦のリスクに直面している。紛争が激化すれば、ベネズエラとの国境地帯も影響を受ける可能性がある。",
+    "tags": [
+      "コロンビア",
+      "ELN",
+      "ゲリラ",
+      "南米"
+    ],
+    "section": "国際・地政学",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/ng-interactive/2026/aug/07/colombia-on-the-brink-eln-guerrilla-group-prepares-for-return-to-war",
+    "importance": 3,
+    "image_query": "conflict military jungle armed group",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:57.920Z",
+    "publishedAt": "2026-08-07T07:00:11.000Z"
+  },
+  {
+    "slug": "20260807-25",
+    "headline": "SpaceX ロケットが月面に衝突、韓国衛星が現場画像をキャッチ",
+    "lead": "SpaceXのロケットが月面に衝突した跡が、韓国の衛星が撮影した航空写真で確認された。",
+    "body_markdown": "韓国の衛星が、SpaceXのロケットが月面に衝突した直後の画像を撮影・公開した。これは月面への意図しない落下物の初めての撮影記録となる。\n\n衝突現場は、月面の比較的新しいクレータとして確認されており、衛星画像によれば鮮烈に見える。SpaceXは同ロケットの月面到達を意図していなかったが、軌道の計算誤差やエンジン不具合に より、予定外の落下が生じたとみられている。\n\n月面への人工物落下は従来、地上から追跡するのが困難だったが、高解像度衛星の普及により、撮影・検証が可能になってきた。今回のケースは、宇宙産業の拡大に伴う月面環境への影響を記録する重要な事例として注視されている。",
+    "tags": [
+      "SpaceX",
+      "月",
+      "衛星画像",
+      "宇宙"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-south-korean-satellite-captures-views.html",
+    "importance": 3,
+    "image_query": "moon crater surface satellite imagery",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:57.921Z",
+    "publishedAt": "2026-08-07T06:31:07.000Z"
+  },
+  {
+    "slug": "20260807-26",
+    "headline": "インド IT産業がAI時代も「生き残る」、ただし人員淘汰の圧力は続く",
+    "lead": "インドのIT産業はAIの到来で淘汰されるという懸念に反し、産業全体は存続している。しかし新規卒業生の雇用圧力は続く。",
+    "body_markdown": "インドのIT産業は、AI・自動化の進展により産業全体が衰退するとの懸念に直面していたが、Economistの分析によると、産業規模としては「生き残っている」。同国はグローバルなIT受託開発とBPO（業務プロセスアウトソーシング）の中心地であり、生産性向上により雇用が吸収されている。\n\nしかし詳細には課題がある。特に新規の大学卒業生の就職が難化しており、経験豊富な技術者への「仕事の集約」が進んでいる。大手IT企業（TCS、Infosys、Wipro等）は、AI導入で業務の自動化を加速させており、エントリーレベルの職種削減に直結している。\n\n結果として、インドの大学は人材教育・訓練をAI時代に対応させる必要に迫られている。同国が技術産業のリーダーシップを維持するには、労働力の質的転換が避けられない状況である。",
+    "tags": [
+      "インド",
+      "IT産業",
+      "AI",
+      "雇用"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/08/06/indias-it-sector-is-surviving-artificial-intelligence",
+    "importance": 3,
+    "image_query": "technology industry office workplace",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:57.922Z",
+    "publishedAt": "2026-08-06T09:22:08.000Z"
+  },
+  {
+    "slug": "20260807-27",
+    "headline": "欧州の山火事対策が「保護格差」に直面、保険カバー不足が深刻化",
+    "lead": "欧州の山火事被害が拡大する一方で、保険保障の不足が目立ち、企業や住民が無防備になっている。",
+    "body_markdown": "欧州で山火事による被害が加速しているなか、保険業界が「保護格差」の拡大を警告している。山火事による損失額が保険カバーを上回る状況が常態化しており、企業や個人が自己負担を強いられている。\n\nスイス・アリアンツ、ドイツ・ミュンヘン再保険など大手保険企業の分析によれば、中欧・東欧での山火事被害が急増しているにもかかわらず、これらの地域での山火事保険加入率は依然として低い。また、先進国でも保険料の上昇に伴い、中小企業や農業経営体が加入を見直す動きが出ている。\n\n2026年夏の欧州での異常高温と干ばつは、プラグの山火事リスクを大幅に高めている。保険業界は規制当局に対し、保険商品の多様化と加入促進策の強化を求めている。",
+    "tags": [
+      "山火事",
+      "保険",
+      "欧州",
+      "気候変動"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/07/wildfires-insurance-cover-zurich-allianz-munich.html",
+    "importance": 3,
+    "image_query": "wildfire forest fire smoke burning trees",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:57.923Z",
+    "publishedAt": "2026-08-07T07:52:04.000Z"
+  },
+  {
+    "slug": "20260807-28",
+    "headline": "公的年金の積立金、過去最高の302兆円超に 令和7年度決算",
+    "lead": "日本の公的年金（厚生年金・国民年金）の2025年度末（令和7年度末）の積立金が302兆円超の過去最高を記録。運用収益増とベースアップが寄与。",
+    "body_markdown": "日本の公的年金制度の2025年度（令和7年度）決算がまとまり、厚生年金と国民年金の総積立金は302兆円超となり、過去最高を更新した。\n\n増加要因は複合的である。第一に、年金積立金管理運用独立行政法人（GPIF）による運用収益が増加した。株式・債券市場での好調な運用環境が寄与した。第二に、賃上げの動きが給与を押し上げ、年金保険料の収入が増えた。\n\n一方、少子高齢化に伴う年金支給額の増加圧力は継続している。同庁は、現在の積立金水準を維持するためには、さらなる保険料引き上げか支給年齢引き上げが必要になる可能性を指摘している。積立金の規模は年金制度の安定性を示す重要な指標であり、今年度の増加は、短期的には制度の健全性を示すものとして評価されている。",
+    "tags": [
+      "年金",
+      "積立金",
+      "日本経済",
+      "社会保障"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015199231000",
+    "importance": 4,
+    "image_query": "pension savings retirement money financial",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758686254493-d73c9c2a3049?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxwZW5zaW9uJTIwc2F2aW5ncyUyMHJldGlyZW1lbnQlMjBtb25leSUyMGZpbmFuY2lhbHxlbnwxfDB8fHwxNzg2MDk0OTM4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vitaly Gariev",
+      "profileUrl": "https://unsplash.com/@silverkblack?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Elderly couple looking at bills and phone",
+      "description": "Retired man and woman counting money reading financial document at home dealing with bills and loans. Retirement, finance and lifestyle concept."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:58.689Z",
+    "publishedAt": "2026-08-07T08:14:28.000Z"
+  },
+  {
+    "slug": "20260807-29",
+    "headline": "熊本地震を「激甚災害」に指定、自治体の復旧費支援へ",
+    "lead": "日本政府が8月の熊本地震を激甚災害に指定。被災自治体の復旧工事費の国庫補助がアップされる。",
+    "body_markdown": "日本政府は、2026年8月初旬に発生した熊本地震を激甚災害として指定することを決定した。この指定により、被災した自治体は復旧事業に要する費用について、国庫からの補助率が通常より引き上げられる。\n\n激甚災害指定は、災害による被害が一定規模以上と判定される場合に行われる。指定されると、①災害復旧事業の国庫補助率が上げられ、②特別交付税が交付され、③自治体債（災害債）の発行が認められるなど、財政支援が強化される。\n\n今回の熊本地震では、建物被害、インフラ崩落、ライフライン寸断など広域にわたる被害が報告されている。官房長官は「被災自治体の復旧・復興を全力でサポートする」とコメント。野党の中道改革連合、立憲民主党、公明党も赤間防災相に緊急申し入れを行い、支援の加速化を求めている。",
+    "tags": [
+      "熊本地震",
+      "災害",
+      "復興",
+      "防災"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015199291000",
+    "importance": 4,
+    "image_query": "earthquake disaster relief reconstruction rubble",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1739879353789-41554220f9c4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMXx8ZWFydGhxdWFrZSUyMGRpc2FzdGVyJTIwcmVsaWVmJTIwcmVjb25zdHJ1Y3Rpb24lMjBydWJibGV8ZW58MXwwfHx8MTc4NjA5NDkzOXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mohammed Ibrahim",
+      "profileUrl": "https://unsplash.com/@mohammed_ibrahim_mi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A group of people standing next to a pile of rubble",
+      "description": "Gaza - Palestine Children among the rubble of their house"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T09:28:59.500Z",
+    "publishedAt": "2026-08-07T08:17:00.000Z"
+  },
+  {
     "slug": "20260807-01",
     "headline": "OpenAI、ChatGPT の GPT-5.6 を大幅強化—無料ユーザーに無制限チャット提供",
     "lead": "OpenAI が ChatGPT を更新、Plus/Pro ユーザー向けに GPT-5.6 Sol の精度向上と調整可能な思考スライダー、無料ユーザーに GPT-5.6 Luna モデルと無制限テキストチャット機能を提供開始。",
