@@ -1,5 +1,415 @@
 [
   {
+    "slug": "20260808-01",
+    "headline": "OpenAI、次世代モデルAstraのサイバー脅威を初公開",
+    "lead": "OpenAIは開発中のAstraモデルが過去に例のないレベルのサイバー能力を持つことを明かし、Preparedness Frameworkの発動を決定した。",
+    "body_markdown": "OpenAIは8月7日、開発段階のAstraモデルが重大なサイバーセキュリティ能力を持つことを初めて公開した。同社の内部評価によると、Astraは高度なエージェント型コーディング能力と前例のないサイバー攻撃・防御能力を備えており、これまで想定していなかったレベルに到達しているという。\n\nこの発表は透明性を重視するOpenAIの姿勢を示すもので、AIの安全性専門家や政府セキュリティ担当者に対して、技術の進化を直視するよう促している。Astraは既存のセキュリティ基準では十分でないと判断され、新たなセキュリティ要件を整える間、内部活動を一時停止する予定だ。\n\n同社は2023年12月にPreparedness Frameworkを策定したが、当時はこのレベルのサイバー能力を想定していなかった。今回の決定は、AIの能力が予想より急速に進化していることを示す一方、企業として責任ある対応をとる姿勢を打ち出したもので、安全性と透明性のバランスに関する議論を加速させることになりそうだ。",
+    "tags": [
+      "OpenAI",
+      "Astraモデル",
+      "AIセキュリティ",
+      "サイバー攻撃",
+      "安全性"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+    "importance": 5,
+    "image_query": "artificial intelligence security cyber attack",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/2OqBX7eh31rmzCVTZrZgb6/8c852b5a1f787c1fea8ac9de5a33d2db/Frame.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:48.094Z",
+    "publishedAt": "2026-08-07T15:20:00.000Z"
+  },
+  {
+    "slug": "20260808-02",
+    "headline": "地球の液体核が急反転、4年ぶりに大規模流動現象を確認",
+    "lead": "太平洋下の地球液体外核が2010年に方向を反転し、新しい流動パターンが形成されていることが衛星データの解析で判明した。",
+    "body_markdown": "地球物理学者の新しい発見によると、太平洋下約2200km下の液体外核で、2010年に大規模な流動が突然反転したことが確認された。過去の弱い西向き流動から強い東向き流動へと転じたもので、地球磁場を生み出す液体鉄の挙動が想定より不安定であることを示唆している。\n\nESAのSwarmおよびCryoSat衛星、ドイツのCHAMPミッション、デンマークのØrstedミッション衛星が1997年から2025年にかけて集めたデータを分析した結果が明かになった。筆頭研究者のFredrik Dahl Madsenは「液体外核の大規模流動反転は地球深部の挙動について新たな疑問を投じかけている」と述べている。\n\n注目すべき点は、2020年以降、東向き流動がすでに弱まりつつあることだ。これは永続的な変化ではなく、より長いサイクルの一部であり、地球深部システムが従来の想定より急速に変動することを示唆している。地球磁場の生成メカニズムに関する理解が大きく更新されることになりそうだ。",
+    "tags": [
+      "地球物理学",
+      "液体核",
+      "地磁気",
+      "火星",
+      "衛星観測"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/08/260806050713.htm",
+    "importance": 5,
+    "image_query": "earth core magnet planetary science",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1770723963993-ebe8304ff8dd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8ZWFydGglMjBjb3JlJTIwbWFnbmV0JTIwcGxhbmV0YXJ5JTIwc2NpZW5jZXxlbnwxfDB8fHwxNzg2MTM4NjA4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "ostudio",
+      "profileUrl": "https://unsplash.com/@ostudio?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Planet earth viewed from space against black background",
+      "description": "Mother Earth render from outer space."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:49.537Z",
+    "publishedAt": "2026-08-07T10:24:52.000Z"
+  },
+  {
+    "slug": "20260808-03",
+    "headline": "量子物理学の難題「磁気単極子パラドックス」がついに解決",
+    "lead": "粒子が磁気単極子を通過する謎の現象が量子場理論で説明され、40年続いた物理学の未解決問題に決着がついた。",
+    "body_markdown": "ゲント大学、ケンブリッジ大学、オックスフォード大学の研究チームが、量子物理学の長年の謎を解き明かした。荷電粒子が磁気単極子（存在が理論予測されながら見つかっていない粒子）に遭遇する際、従来は「消失する」と考えられていたが、実際には粒子は確実に通過し、目に見えない弦に結びついた非局所的な励起へと変換されることが判明した。\n\nこの発見はKramers–Wannier双対性と呼ばれる数学的変換を使用した。秩序と無秩序を相互に変換する手法を応用することで、粒子が「100%通過する」ことを証明した。研究者のFrank Verstrateは「粒子は必ず通過する。欠陥は位相的であり、選択の余地がない」と説明している。\n\n最も重要なのは、この理論的成果が現在のテクノロジーで実験検証可能だという点だ。冷却原子系、捕捉イオン、超伝導プロセッサを用いた量子シミュレータで数年内にこの現象を観測できる見込みがあり、抽象的な量子場理論が可視化される日も近い。",
+    "tags": [
+      "量子物理学",
+      "磁気単極子",
+      "量子場理論",
+      "実験物理",
+      "テンソルネットワーク"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-mirror-world-particles-wisps-fog.html",
+    "importance": 4,
+    "image_query": "quantum physics particle detector",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1783646080254-d1dd44a6eef8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxxdWFudHVtJTIwcGh5c2ljcyUyMHBhcnRpY2xlJTIwZGV0ZWN0b3J8ZW58MXwwfHx8MTc4NjEzODYxMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brecht Corbeel",
+      "profileUrl": "https://unsplash.com/@brechtcorbeel?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Pink sphere with a wavy line and \"quantum\" text background."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:50.351Z",
+    "publishedAt": "2026-08-07T20:40:02.000Z"
+  },
+  {
+    "slug": "20260808-04",
+    "headline": "日本が声の権利を明確に保護、生成AI無断利用は違法へ",
+    "lead": "日本の法務省が生成AIによる声の無断利用を違法と明記する解釈指針を発表、AI時代の著作権保護が急速に進む。",
+    "body_markdown": "日本の法務省は8月7日、生成AIによる声の無断利用が法的に保護される権利の侵害に当たるとの解釈指針を公開した。これまで曖昧だった「声」の法的地位を初めて明確にしたもので、AI技術の急速な発展に対応する政策転換として注目される。\n\n指針は声優などの声を「個人識別情報および個性の象徴」と位置付け、パブリシティ権と人格権に基づく保護の対象とすることを明記した。声模倣AIによる歌唱動画の製作・配布、無断生成音声の商用利用は損害賠償の対象となる。商業利用でなくても、視聴数を稼ぐなど利益を得ている場合は責任を問われる可能性がある。\n\n背景には、声優・ナレーターの津田健次郎が2025年11月に提訴した無断利用事件がある。法務省は5回の有識者会議を経て指針をまとめたもので、今後AIサービス提供事業者と利用者に対して責任ある運用を促す効果が期待される。日本は欧米に先駆けて、AI時代の個人権保護の枠組みを整備しつつある。",
+    "tags": [
+      "生成AI",
+      "声の権利",
+      "著作権",
+      "個人情報",
+      "法務省"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/article/2608/07/2000000454/",
+    "importance": 4,
+    "image_query": "voice recognition artificial intelligence",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1512446816042-444d641267d4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHx2b2ljZSUyMHJlY29nbml0aW9uJTIwYXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZXxlbnwxfDB8fHwxNzg2MTM4NjEwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Andres Urena",
+      "profileUrl": "https://unsplash.com/@andresurena?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Amazon Echo dot",
+      "description": "Portrait of a lifeless Alexa –In this picture, she said hi!."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:51.116Z",
+    "publishedAt": "2026-08-07T10:08:04.000Z"
+  },
+  {
+    "slug": "20260808-05",
+    "headline": "パキスタン・サウジアラビア・トルコが相互防衛協定を締結",
+    "lead": "3カ国がNATO型の相互防衛協力協定に調印し、中東における新たな防衛ブロックが形成された。",
+    "body_markdown": "パキスタン、サウジアラビア、トルコは8月7日、相互防衛協定に調印した。協定は「3カ国のいずれかへの攻撃は全国への攻撃と見なす」という相互防衛義務を定め、NATO型の集団防衛メカニズムを模倣している。イランとイスラエルの軍事活動が激化する中東情勢を背景に、地域安定のための戦略的枠組みとして機能する見込みだ。\n\nこの協定は単なる象徴的な合意ではなく、実質的な軍事協力の道筋を示すもの。3国は域内紛争の拡大を防ぎ、経済的な影響を最小限に抑える狙いがある。パキスタンはアフガニスタンとの国境に接し、サウジアラビアはホルムズ海峡の要衝を支配し、トルコはシリア・イラク方面での影響力を持つ。この地政学的な組み合わせは、米国とロシアに次ぐ中東の力学を形成する可能性がある。\n\nインドを含む周辺国がこの動きにどう対応するかが注視されている。",
+    "tags": [
+      "パキスタン",
+      "サウジアラビア",
+      "トルコ",
+      "中東",
+      "防衛協力"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/08/07/pakistan-saudi-arabia-turkey-mutual-defense-pact-iran-israel-military/",
+    "importance": 4,
+    "image_query": "military defense cooperation middle east",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1768463024956-0484f490fbec?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxtaWxpdGFyeSUyMGRlZmVuc2UlMjBjb29wZXJhdGlvbiUyMG1pZGRsZSUyMGVhc3R8ZW58MXwwfHx8MTc4NjEzODYxMXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Suliman Kamal",
+      "profileUrl": "https://unsplash.com/@skamal0?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Kuwaiti flag waving against a cloudy sky"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:51.709Z",
+    "publishedAt": "2026-08-07T19:45:31.000Z"
+  },
+  {
+    "slug": "20260808-06",
+    "headline": "米粒サイズの浮遊磁石が超微弱磁場を常温検出、医療応用に道",
+    "lead": "室温で動作する新型磁場センサーが開発され、液体ヘリウム冷却が不要になる可能性が広がった。",
+    "body_markdown": "研究チームが米粒より小さい浮遊磁石を用いた磁場センサーを開発し、従来は特殊な実験室環境でしか測定できなかった超微弱な磁場が常温で検出できるようになった。デバイスは真空チャンバー内に小さな永久磁石を浮遊させ、上方のマグネット・スタックで支持し、下部のグラファイト板で安定化させる仕組みだ。\n\n外部磁場がセンサーに加わると磁石がわずかに傾き、そこに当てたレーザーが反射位置をずらす。検出器がこの光の移動を電気信号に変換し、磁場強度を測定する。感度は1平方ヘルツあたり32フェムトテスラという極めて高い精度を達成した。\n\n革新的な点は、エポキシ樹脂結合グラファイトを安定化プレートに用いることで、熱雑音を70%以上削減したことだ。これまで磁力計の精度を阻害していたジョンソン雑音（熱による電子の乱雑運動）を大幅に抑えた。脳活動の測定、心臓監視、基礎物理研究への応用が見込まれている。",
+    "tags": [
+      "磁場センサー",
+      "医療技術",
+      "物理計測",
+      "革新技術"
+    ],
+    "section": "テクノロジー",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-tiny-magnet-ultrafaint-magnetic-fields.html",
+    "importance": 3,
+    "image_query": "magnetic field sensor laboratory technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:51.717Z",
+    "publishedAt": "2026-08-07T20:20:02.000Z"
+  },
+  {
+    "slug": "20260808-07",
+    "headline": "日本の大学生、97%が就活で生成AI利用——採用試験で落ち着きを欠く学生も",
+    "lead": "2027年卒業予定の日本の大学生のうち97%が就職活動で生成AIを活用しており、面接で内容を追及されると困惑する学生も報告されている。",
+    "body_markdown": "HR総研とPort Inc.による調査で、2027年春に卒業予定の大学生のうち、97%が生成AIを利用していることが判明した。利用していないのはわずか3%に過ぎない。この利用率は前年（2026春卒）は76%、2025年（2025春卒）は45%が利用しており、AIの就活利用が短期間で急速に普及したことを示している。\n\n利用用途で最も多いのは「エントリーシートの編集・改善」で全体の60%以上。自己分析、企業研究、面接対策と続く。利用パターンとしては43%の学生が「自分で書いたものをAIに改善させ」、20%が「AIに最初のドラフトを作らせて修正」し、3%が「AIの出力そのままを提出」している。\n\n懸念点は、採用担当者が内容を深掘りして質問した場合、5人に1人の学生が答えに窮する傾向が見られたこと。AIが作成した材料は本人の記憶に根付きにくいため、追加質問に適切に対応できないケースが生じている。採用側も、面接でAI利用を見分ける必要に迫られているようだ。",
+    "tags": [
+      "就職活動",
+      "生成AI",
+      "人材採用",
+      "日本",
+      "教育"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/article/2608/07/2000000456/",
+    "importance": 4,
+    "image_query": "job interview resume career employment",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1698047681432-006d2449c631?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxqb2IlMjBpbnRlcnZpZXclMjByZXN1bWUlMjBjYXJlZXIlMjBlbXBsb3ltZW50fGVufDF8MHx8fDE3ODYxMzg2MTJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Resume Genius",
+      "profileUrl": "https://unsplash.com/@resumegenius?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a woman is reading a resume at a table",
+      "description": "Closeup view of job applicant resume and CV paper during job interview"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:54.032Z",
+    "publishedAt": "2026-08-07T10:16:08.000Z"
+  },
+  {
+    "slug": "20260808-08",
+    "headline": "Cloudflareが「Kitesurf」公開、AI代理人専用ブラウザで処理効率化",
+    "lead": "Cloudflareが人間ユーザーではなくAIエージェント向けに設計した専用ブラウザを発表し、自動化タスクの計算効率が大幅に向上した。",
+    "body_markdown": "Cloudflareが新しいクラウドホスト型ブラウザ「Kitesurf」をCloudflare Browser Runサービス内でベータ公開した。従来のブラウザと大きく異なる点は、ユーザーインターフェースがなく、ビジュアル要素やタブが削除されていることだ。代わりに、AIエージェントの効率的な動作に必要なコンテキストウィンドウ管理、パフォーマンス最適化、トークン効率、スケーラビリティを重視した設計になっている。\n\nKitesurfは既存のオープンソースコンポーネントから構築された。BlitzからのレンダリングエンジンとFirefoxのCSSパーサ（Stylo）、Rust製のJavaScript実装エンジン（Boa JS）が採用されている。すべてCloudflareのサーバレスプラットフォーム「Workers」上で動作し、わずか12週間で開発が完了した。\n\nパフォーマンスの面で、Cloudflareは「スクリーンショット撮影やHTML抽出などの一般的なAIエージェントタスクに対して、Chromiumより大幅に低いCPUとメモリ消費を実現した」と述べている。現在、215,000以上のウェブプラットフォームテストに合格し、Wikipedia、Hacker News、TodoMVCを含む複数のサイトでの動作を確認している。",
+    "tags": [
+      "Cloudflare",
+      "AI",
+      "ブラウザ",
+      "自動化",
+      "技術開発"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+    "importance": 3,
+    "image_query": "web browser software development",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:54.034Z",
+    "publishedAt": "2026-08-07T16:16:09.000Z"
+  },
+  {
+    "slug": "20260808-09",
+    "headline": "南極隔離実験が火星ミッション計画に警告、多接触は却って衝突を招く",
+    "lead": "南極の10ヶ月隔離実験で、クルーが頻繁に接触するほど信頼が低下し衝突が増すことが判明し、火星遠征計画の人員配置に新たな知見をもたらした。",
+    "body_markdown": "チューリヒ大学の研究チームが、南極コンコルディア基地での10ヶ月間の隔離実験から、宇宙ミッション計画にとって重要な発見をもたらした。12名のクルーを追跡したウェアラブルセンサーデータから、直感に反して「クルー間の接触時間が増えるほど、衝突が増加し、信頼が低下する」ことが明らかになった。\n\n研究者のJan Schmützは「極限環境の小規模チームでは、より多くの接触が自動的に社会的サポートにはならない」とコメント。チームは言語や国籍に基づいた小グループに自然分裂し、各グループは心理的支援を得ていたが、全体的なチーム結束力は弱まっていた。プライベートスペースが極端に限られた環境では、常時の密閉が心理的な負担と不安感を生み出している。\n\n月ミッションや火星有人探査では、クルーが数ヶ月から数年間、限定された空間で外部通信も限られる。この研究は、ミッション計画者がプライベートスペースの確保と心理的支援の提供を優先すべきことを示唆している。装備設計から管理体制まで、隔離環境での人間心理が再評価される転機となるだろう。",
+    "tags": [
+      "火星ミッション",
+      "心理学",
+      "宇宙探査",
+      "隔離環境",
+      "南極研究"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/08/260806050722.htm",
+    "importance": 4,
+    "image_query": "space mission crew astronaut isolation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1712512162273-2a622d8b0c74?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8c3BhY2UlMjBtaXNzaW9uJTIwY3JldyUyMGFzdHJvbmF1dCUyMGlzb2xhdGlvbnxlbnwxfDB8fHwxNzg2MTM4NjE0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "NASA Hubble Space Telescope",
+      "profileUrl": "https://unsplash.com/@hubblespacetelescope?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a man in a space suit standing in front of a space station",
+      "description": "Repairing Hubble with Specially Designed Tools (1997) Caption Astronaut Steve Smith works on Hubble during the second servicing mission in 1997 with a ratchet. NASA specially designed the power tool to withstand the harsh environment of space, making it an essential item during three different Hubble missions. Hubble was specifically built to be serviced in orbit with replaceable parts and instruments. Astronauts performed four days of spacewalks during the second servicing mission to replace instruments and repair the telescope. Credits NASA and the STS-82 Crew"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:55.095Z",
+    "publishedAt": "2026-08-07T11:18:01.000Z"
+  },
+  {
+    "slug": "20260808-10",
+    "headline": "ビタミンCの高濃度点滴がん治療、従来説の誤解を修正する新知見",
+    "lead": "ビタミンCの経口投与でがん治療効果がないという40年の常識が覆り、静脈注射による高濃度投与が限定的にがん細胞を傷つける可能性が判明した。",
+    "body_markdown": "ノーベル賞化学者ライナス・ポーリングは1970年代、ビタミンCがんがん治療に有効だと主張したが、メイヨー・クリニックの臨床試験でこの仮説は否定されたとされてきた。しかし50年後の新たな研究により、ポーリング自身が見落とした重要な違いが明かされた。\n\nポーリングが用いたのは点滴注射だったが、メイヨーの試験は経口薬（錠剤）を用いた。腸は限られた量のビタミンCしか吸収できないため、経口投与の血中濃度は点滴の10分の1から100分の1に止まる。つまり、完全に異なる投与方法を比較していたのだ。\n\n高濃度になったビタミンCは、通常の栄養素から弱い化学療法薬へと性質が変わる。過酸化水素を産生し、がん細胞にストレスを与える。がん細胞は既に高ストレス状態にあり、防御機能が低下しているため、健康な細胞より傷つきやすい。小規模な臨床試験では疲労軽減や痛み緩和が報告されているが、生存延長の証拠はまだない。この治療は臨床試験と医学的監督下でのみ行うべき段階にある。",
+    "tags": [
+      "ビタミンC",
+      "がん治療",
+      "医学",
+      "臨床試験",
+      "薬学"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/08/260806050717.htm",
+    "importance": 4,
+    "image_query": "medical treatment cancer research laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1583912372112-e2908da68383?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyM3x8bWVkaWNhbCUyMHRyZWF0bWVudCUyMGNhbmNlciUyMHJlc2VhcmNoJTIwbGFib3JhdG9yeXxlbnwxfDB8fHwxNzg2MTM4NjE1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person in white medical scrub suit standing near white and blue hospital bed",
+      "description": "A technician preparing to run microbial genomes on the Roche 454 sequencing platform at the Advanced Technology Research Facility (ATRF), Frederick National Laboratory for Cancer Research, National Cancer Institute."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:55.935Z",
+    "publishedAt": "2026-08-07T13:02:16.000Z"
+  },
+  {
+    "slug": "20260808-11",
+    "headline": "ニュートリノで地球マントルを透視、放射性元素の分布が初めて見える化",
+    "lead": "地球深部から放出されるニュートリノを検出する新技術により、マントル内の放射性元素分布に関する謎が解き始めた。",
+    "body_markdown": "地球物理学における新しい観測手段として、ニュートリノを使った地球内部の分析が注目を集めている。カナダのSNO+実験施設が地球から放出されるニュートリノ（ジオニュートリノ）を初めて検出し、日本のKamland検出器（2005年）、イタリアのBorexino実験（2009年）に続く重要な進展が生まれた。\n\nニュートリノは地球内部の放射性物質（ウラン、トリウム、カリウム）の崩壊時に発生し、マントルからの熱発生メカニズムを直接調べる唯一の手段だ。興味深いことに、異なる場所からの検出データがニュートリノフラックスの変動を示唆しており、マントルの化学組成が均一でない可能性が浮かび上がっている。\n\n地球内部熱の50%は放射性崩壊に由来するという仮説もあれば、わずか数%に過ぎないという説もあり、従来の推計は大きな不確実性を抱えていた。中国のJUNO検出器（20,000トン以上のシンチレータを搭載）は既存実験の数倍のニュートリノを年間で検出でき、地球マントルの化学的正体がより明確になるだろう。",
+    "tags": [
+      "ニュートリノ",
+      "地球物理学",
+      "マントル",
+      "放射性同位体",
+      "地球科学"
+    ],
+    "section": "サイエンス",
+    "source": "Quanta",
+    "link": "https://www.quantamagazine.org/neutrinos-from-deep-inside-earth-provide-a-new-picture-of-the-mantle-20260807/",
+    "importance": 4,
+    "image_query": "earth science detector physics research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1781330169820-7e1bec03e375?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOXx8ZWFydGglMjBzY2llbmNlJTIwZGV0ZWN0b3IlMjBwaHlzaWNzJTIwcmVzZWFyY2h8ZW58MXwwfHx8MTc4NjEzODYxNnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Daniel Miksha",
+      "profileUrl": "https://unsplash.com/@danielmiksha?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Overhead view of complex machinery with pipes and valves.",
+      "description": "Scientific equipment in an advanced physics research facility at the University of British Columbia in Vancouver, Canada."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:56.648Z",
+    "publishedAt": "2026-08-07T13:55:32.000Z"
+  },
+  {
+    "slug": "20260808-12",
+    "headline": "ホウ素多層膜が超伝導革命の可能性、常圧で68K達成する理論予測",
+    "lead": "中国の研究チームがホウ素多層膜による超伝導体が常温圧下で前例のない温度（68K）で超伝導状態に入ると理論予測し、エネルギー革新の扉を開いた。",
+    "body_markdown": "中国の物理学チームが、積み重ねたホウ素単原子膜（ボロフェン）が常圧環境で超伝導特性を示し、転移温度が68ケルビン（摂氏マイナス205度）に達する可能性を『Physical Review Letters』で報告した。これは従来の最良の元素超伝導体（スカンジウムの36Kで260ギガパスカルの極高圧が必要）をはるかに上回る成果だ。\n\n研究チームは9,000を超えるホウ素層の積み重ね配置を計算モデルで検討し、最適なAA積層構成を特定した。ホウ素層間の直接的な共有結合が重要で、これにより層間電子対結合が強化され、高い温度でも超伝導状態が維持されることが判明。層材料の多くが弱い分子間力でしか結合していないのに対し、ホウ素は異なる原子振動を生み出し、超伝導性を向上させるメカニズムが新たに明かされた。\n\n実現すれば、電力網、MRI装置、リニアモーターカーの冷却コスト大幅削減が見込める。しかし、今のところ完全に理論的な予測段階であり、実験的検証が次のステップとなる。",
+    "tags": [
+      "超伝導",
+      "ホウ素",
+      "物質科学",
+      "エネルギー",
+      "材料工学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-boron-layers-superconductivity-theoretical.html",
+    "importance": 3,
+    "image_query": "superconductor material science laboratory",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:56.650Z",
+    "publishedAt": "2026-08-07T19:20:01.000Z"
+  },
+  {
+    "slug": "20260808-13",
+    "headline": "Frameworkがデータ漏洩、顧客情報がMetabaseの脆弱性で流出",
+    "lead": "ノートパソコンメーカーのFrameworkが、BI分析ツール提供企業Metabaseの未知の脆弱性を通じたデータ漏洩を明かし、顧客情報が流出した。",
+    "body_markdown": "ノートパソコン製造企業Frameworkは、8月3日に発覚した同社の顧客データベースへの不正アクセスを明かした。攻撃元はFrameworkが使用していたBI分析ツール「Metabase」の未知の脆弱性（ゼロデイ）を悪用したとみられている。\n\n流出した情報には顧客名、住所、メールアドレス、電話番号、ログインIPアドレスが含まれ、クレジットカード情報は確認されていない。Frameworkは即座に認証情報をリセットし、Metabaseに対するアクセス権を剥奪した。管理権限の濫用やMetabase外のシステムへのアクセスは検出されていないと述べている。\n\n同社はここ数ヶ月、サプライチェーン圧力により部品不足やメモリ価格上昇に対応してきており、経営的な課題が重なっている。Metabaseは第三者フォレンジック調査を開始しており、被害の全容解明は今後の報告を待つ必要がある。",
+    "tags": [
+      "データ漏洩",
+      "サイバーセキュリティ",
+      "ノートパソコン",
+      "ゼロデイ脆弱性"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2232708/framework-customer-information-was-accessed-as-part-of-a-data-breach/",
+    "importance": 3,
+    "image_query": "cyber security data breach hacking",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:56.652Z",
+    "publishedAt": "2026-08-07T18:37:26.000Z"
+  },
+  {
+    "slug": "20260808-14",
+    "headline": "バーガーキングがウェンディーズを抜き、米ハンバーガーチェーン2位に躍進",
+    "lead": "バーガーキングが米国のハンバーガーチェーンとしてウェンディーズを超え、マクドナルドに次ぐ第2位に返り咲いた。",
+    "body_markdown": "米国の外食業界に変動が生じた。バーガーキングが米国におけるハンバーガーチェーンのシステムワイド売上高でウェンディーズを上回り、マクドナルドに次ぐ第2位に返り咲いた。この順位変動は両社の経営戦略と消費者嗜好の変化を反映するものだ。\n\nウェンディーズはここ数年、セットメニューの値上げなど厳しい価格設定を強いられており、消費者の食事選択に影響を与えてきた。一方、バーガーキングはメニューの多様化と価格競争力での立場を強化することで、市場シェアを奪い返した。この順位争いは、米国の外食産業が景気敏感性の高い業界であることを示唆している。\n\nファーストフードチェーン全体では、経営的な挑戦が続いており、消費者の節約志向とインフレが両社の業績に重くのしかかっている。",
+    "tags": [
+      "バーガーキング",
+      "ウェンディーズ",
+      "ハンバーガー",
+      "外食産業",
+      "市場"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/07/burger-king-wendys-hamburger-restaurants.html",
+    "importance": 3,
+    "image_query": "fast food restaurant hamburger",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:56.654Z",
+    "publishedAt": "2026-08-07T18:19:39.000Z"
+  },
+  {
+    "slug": "20260808-15",
+    "headline": "熊本地震で政府が復旧支援パッケージ、中小企業の施設修復補助を検討",
+    "lead": "日本政府は熊本地震の被災者と事業者向けの支援パッケージ策定を急ぎ、中小企業・小規模事業者の施設復旧に対する補助金を構想している。",
+    "body_markdown": "2026年の熊本地震を受けて、日本政府は被災者の生活再建と事業者のなりわい復旧に向けた支援パッケージをまとめることを急いでいる。特に焦点が当たっているのは、中小企業および小規模事業者の施設復旧に要する経費への補助制度だ。\n\n地震から日が浅い段階での発表だが、政府は迅速な対応を重視している。NHKの別報道によると、被災地では8月7日時点で確認死38人（推定災害関連死含む）、避難所に6,630人が身を寄せている。避難所での熱中症リスク、妊婦や高齢者、乳幼児など脆弱な層への対応が課題となっている。\n\nこのタイプの支援パッケージは、東日本大震災やその後の災害で培われた経験を基に設計されている。短期的な生活復旧から中期的な事業再建まで、段階的なサポートを想定しているとみられている。実際の予算規模と補助対象の具体的な基準は、今後の閣議決定で明らかになるだろう。",
+    "tags": [
+      "熊本地震",
+      "災害対応",
+      "中小企業",
+      "復旧支援",
+      "日本"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015199751000",
+    "importance": 3,
+    "image_query": "earthquake disaster relief recovery",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:56.656Z",
+    "publishedAt": "2026-08-07T20:34:47.000Z"
+  },
+  {
+    "slug": "20260808-16",
+    "headline": "日本の国家公務員給与2年連続3%超の引き上げ、人事院が勧告",
+    "lead": "日本の人事院が国家公務員の月給を3.51%引き上げるよう勧告し、3%を超える昇給が2年連続で続く異例の事態となった。",
+    "body_markdown": "日本の人事院は8月7日、2026年度の国家公務員給与について月給を3.51%引き上げるよう内閣と国会に勧告した。この引き上げ率は2年連続で3%を超えており、高インフレと労働市場の逼迫が給与政策に影響を及ぼしていることを示している。\n\n勧告の特徴は、若手職員だけでなく中堅以上の処遇改善も盛り込まれている点だ。従来は若手の人材確保を優先していたが、全体的な給与競争力の向上が必要と判断された。公務員の給与は民間の相場動向に連動することが法定されており、民間給与の上昇圧力が公務員給与にも波及している構図だ。\n\n3%超の昇給が連続した背景には、日本銀行の金利引き上げを受けた物価上昇とそれに伴う民間企業の賃上げ圧力がある。ただし、将来の財政健全性への懸念から、恒久的な給与ベースの拡大よりも、一時金や手当の調整で対応すべきとの指摘も存在する。",
+    "tags": [
+      "国家公務員",
+      "給与",
+      "人事院",
+      "日本",
+      "労働環境"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015199181000",
+    "importance": 3,
+    "image_query": "government official administration public service",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-07T21:36:56.664Z",
+    "publishedAt": "2026-08-07T11:16:14.000Z"
+  },
+  {
     "slug": "20260807-14",
     "headline": "OpenAI、心理学会と若年層向けAI倫理で提携",
     "lead": "OpenAIが米心理学会（APA）と協力し、若年層のAI利用に関する心理学的ガイダンスと安全対策を開発する。",
