@@ -1,5 +1,267 @@
 [
   {
+    "slug": "20260808-17",
+    "headline": "OpenAI、次期モデル「Astra」開発を一時停止",
+    "lead": "独立型のサイバー攻撃能力を獲得した可能性から、OpenAIが「Astra」の一部開発を中断。",
+    "body_markdown": "OpenAIは8月7日、開発中の次期モデル「Astra」が自社の安全基準で最上位の「Critical」級に相当するサイバー能力に達する可能性を否定できないと発表し、より厳しいセキュリティ要件を満たすまで関連開発を一時停止する方針を示した。\n\nCritical級とは「ゼロデイ脆弱性を突く実用的なエクスプロイトを特定・開発できる能力」「高度な攻撃戦略を一貫して立案・実行できる能力」と定義される。内部評価でAstraのエージェント型コーディング能力とサイバーセキュリティ能力が大幅に向上したことを受けた判断で、外部専門家の評価も懸念を示したという。\n\nOpenAIは能力そのものの抑制ではなく、政府機関やAI安全組織との協力、リアルタイム監視、第三者による独立検証の強化に注力する方針。Anthropic、Metaも同様のセキュリティ上の懸念を公表しており、高性能AI開発に伴う安全性管理がAI業界全体の課題として浮き彫りになった。",
+    "tags": [
+      "生成AI",
+      "セキュリティ",
+      "OpenAI",
+      "Astra",
+      "安全対策"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI+",
+    "link": "https://www.itmedia.co.jp/news/article/2608/08/2000000459/",
+    "importance": 4,
+    "image_query": "artificial intelligence security computer",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1718241905916-1f9786324de9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHNlY3VyaXR5JTIwY29tcHV0ZXJ8ZW58MXwwfHx8MTc4NjE4MDcxM3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "BoliviaInteligente",
+      "profileUrl": "https://unsplash.com/@boliviainteligente?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a computer keyboard with a blue light on it",
+      "description": "AI, Artificial Intelligence, keyboard, machine learning, natural language processing, chatbots, virtual assistants, automation, robotics, computer vision, deep learning, neural networks, language models, human-computer interaction, cognitive computing, data analytics, innovation, technology advancements, futuristic systems, intelligent systems, smart devices, IoT, cybernetics, algorithms, data science, predictive modeling, pattern recognition, computer science, software engineering, information technology, digital intelligence, autonomous systems, IA, Inteligencia Artificial,"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-08T09:18:33.937Z",
+    "publishedAt": "2026-08-07T22:11:46.000Z"
+  },
+  {
+    "slug": "20260808-18",
+    "headline": "Anthropic Fable 5、生物学の過度な保護を緩和",
+    "lead": "生物学関連の誤検知を約85%削減し、健康・教育への回答を大幅改善。",
+    "body_markdown": "Anthropicは8月7日、AI安全に配慮した次世代モデル「Claude Fable 5」の生物学分野における過度な安全ガードを緩和すると発表した。\n\n安全性を重視するあまり、無害な質問を危険と誤判定して下位モデルに自動切り替える「フォールバック」が多発していた。新バージョンではこの誤検知を約85%削減し、Claude.aiで67%、Claude Coworkで55%の削減を達成。検査結果の解釈や症状理解など日常的な健康・教育用途での利便性が大幅向上した。\n\n同社が分類ルールを数週間かけて書き直すことで、一般向けアクセスを拡大。ただし、ウイルス学や創薬といった専門的デュアルユース研究には引き続きアクセス制限を維持し、信頼できる経路を通じた段階的対応を進める。生物学だけでなく他分野でも同様の取り組みが進む見通し。",
+    "tags": [
+      "生成AI",
+      "安全性",
+      "Claude",
+      "Anthropic",
+      "アルゴリズム"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI+",
+    "link": "https://www.itmedia.co.jp/news/article/2608/08/2000000460/",
+    "importance": 3,
+    "image_query": "neural network machine learning",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-08T09:18:33.939Z",
+    "publishedAt": "2026-08-07T22:57:07.000Z"
+  },
+  {
+    "slug": "20260808-19",
+    "headline": "Chrome「Skills」でAIプロンプト保存が可能に",
+    "lead": "Gemini搭載Chromeでプロンプトをワンクリック再実行。日々の定型作業効率化へ。",
+    "body_markdown": "GoogleはChromeブラウザの新機能「Skills in Chrome」を公開。Gemini統合により、ユーザーが作成したAIプロンプトを「Skill」として保存し、ワンクリックで再実行できるようになった。\n\nプロンプトを毎回手打ちせず、保存済みスキルから選択・実行することで、定型業務の効率化が可能。ユーザーが内容に応じて編集したり、新規スキル作成も容易。Chromeデスクトップで利用でき、パーソナライズされた作業フロー構築に対応する。\n\nGemini in Chromeと同じセキュリティ基準を適用し、カメラやマイクのアクセス確認も実施。複雑な手順をスキル化することで、AI活用の敷居を大幅に低下させる試み。Google検索との組み合わせで、従来のブラウザ作業の在り方を変えうる機能になりそう。",
+    "tags": [
+      "Google Chrome",
+      "生成AI",
+      "効率化",
+      "Gemini",
+      "ブラウザ機能"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI+",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/08/news011.html",
+    "importance": 3,
+    "image_query": "browser interface computer screen",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-08T09:18:33.940Z",
+    "publishedAt": "2026-08-08T04:00:00.000Z"
+  },
+  {
+    "slug": "20260808-20",
+    "headline": "太陽光から量子エンタングルメント生成に成功",
+    "lead": "レーザー不要な量子技術。太陽光で94%の精度で実現、衛星通信へ応用へ。",
+    "body_markdown": "科学者チームが太陽光から直接、量子エンタングルメント（量子もつれ）を生成することに成功した。従来はレーザー光源が必須とされていたが、自然光を活用した低エネルギー代替技術の実現が示唆された。\n\n研究チームは太陽光を強く偏光させ、コーン型集光器で非線形結晶に集中。自発パラメトリックダウンコンバージョン(SPDC)を利用することで、エンタングルメント状態にある光子ペアを生成した。屋外実験で約94%の忠実度を達成し、理想状態に近い結果を得た。\n\n従来技術は高度に干渉性のあるレーザーが必要だったが、太陽の無干渉光でも偏光を通じてエンタングルメント実現が可能。衛星による暗号化通信、低エネルギー量子コンピュータ、超精密センシングなど、次世代量子技術の応用が期待される。",
+    "tags": [
+      "量子コンピュータ",
+      "科学",
+      "光学",
+      "量子物理",
+      "再生可能"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/08/260807035133.htm",
+    "importance": 4,
+    "image_query": "quantum physics light experiment",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1703635463405-fc8e285bb5a2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyM3x8cXVhbnR1bSUyMHBoeXNpY3MlMjBsaWdodCUyMGV4cGVyaW1lbnR8ZW58MXwwfHx8MTc4NjE4MDcxNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "BoliviaInteligente",
+      "profileUrl": "https://unsplash.com/@boliviainteligente?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a group of red and blue lights in the dark",
+      "description": "fluid,fluid art,abstract,abstract art,abstract background,abstract dark,texture,texture background,texture wall,texture paper,background,background image,background design,background texture,pattern,pattern background,patterns and textures,wall,wall background,wall art,wall painting,background for pc,background for web,background for website,full hd wallpaper,full screen wallpaper,full hd,full screen,full color,full colour,full colours,sphere,dots,circle,spiral,cubes,spiral,Rik Oostenbroek,Oostenbroek style,fiesta,3d,galaxy,stars,andromeda,particles,blur,lights"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-08T09:18:34.784Z",
+    "publishedAt": "2026-08-08T03:49:26.000Z"
+  },
+  {
+    "slug": "20260808-21",
+    "headline": "ウェアラブルパッチがREM睡眠を43分短縮",
+    "lead": "超音波デバイスで医薬品なしにREM促進。臨床試験で睡眠の質向上を実証。",
+    "body_markdown": "テキサス大学オースティン校の研究チームが開発したウェアラブル超音波パッチ「NEUSLeeP」が、臨床試験でREM睡眠を大幅に改善することを実証した。28人の参加者でREM段階に到達するまでの時間が平均43分短縮され、その段階に約16分長くとどまったという。\n\n非侵襲的な超音波刺激と脳活動記録機能を組み合わせたデバイスは、脳の深部領域に直接働きかけられる。悪影響は最小限で安全性が確認され、心拍変動増加やストレス対応能力の向上といった心身への好影響も観察された。脳画像検査では感情関連回路の変化も検出。\n\nPTSD、うつ病、慢性不眠症への効果検証が計画中。医薬品に頼らない睡眠最適化の新道が開かれ、今後の大規模試験で実用化が加速する可能性が高い。",
+    "tags": [
+      "医療技術",
+      "睡眠",
+      "デバイス",
+      "脳科学",
+      "治療"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/08/260806050709.htm",
+    "importance": 3,
+    "image_query": "sleep medical device wearable",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-08T09:18:34.786Z",
+    "publishedAt": "2026-08-07T07:31:52.000Z"
+  },
+  {
+    "slug": "20260808-22",
+    "headline": "氷晶なしで降雨？浅い積雲の謎を解明",
+    "lead": "液滴が局所集中することで雨粒成長。従来理論を覆す観測結果。",
+    "body_markdown": "Max Planck研究所の科学者チームが、氷晶を含まない浅い積雲で降雨が発生するメカニズムを解明。高度な観測プラットフォーム「CloudKite」による調査から、従来の仮説を覆す発見がもたらされた。\n\n従来は液滴が均等に分布していると考えられていたが、実際には数メートル以下の範囲で局所的に集中し、そこで液滴同士の衝突確率が飛躍的に高まることが判明。これにより液滴が成長して雨粒化する様子が初めて直接観測された。\n\nこの知見は気候予測モデルの精度向上に直結。従来の大規模シミュレーションでは氷晶形成を前提としていたが、実際の大気プロセスはより複雑で多様なパターンがあることが示唆された。気候変動研究と天気予報の両面で影響大きい。",
+    "tags": [
+      "気象学",
+      "気候変動",
+      "大気科学",
+      "雲",
+      "観測技術"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-hidden-anatomy-clouds-reveals-ice.html",
+    "importance": 3,
+    "image_query": "cloud weather atmosphere",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-08T09:18:34.787Z",
+    "publishedAt": "2026-08-07T21:40:02.000Z"
+  },
+  {
+    "slug": "20260808-23",
+    "headline": "ロシアのミサイル攻撃でキーウ州3人死亡",
+    "lead": "ウクライナはロシア内陸部の物流インフラへの反撃を継続。長期化する戦闘。",
+    "body_markdown": "ウクライナのキーウ州では8月7日から8日にかけて、ロシアによるミサイル攻撃が相次ぎ、3人の死亡が報告された。ウクライナ側によると、ロシアは引き続き民間インフラを狙った広範な攻撃を展開している。\n\nウクライナはロシア内陸部の物流インフラをターゲットとした報復攻撃を継続。ゼレンスキー大統領は以前、ウクライナのミサイル迎撃システムの供給が尽きかけていると警告しており、防空態勢の脆弱化が懸念される。\n\nミサイル不足の中での防戦が続く情勢で、西側からの軍事支援のタイミングと規模が一層重要に。市民被害は増える傾向にあり、国際社会の対応を含め長期化戦争の深刻化が示唆されている。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "戦争",
+      "軍事",
+      "国際関係"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015200231000",
+    "importance": 4,
+    "image_query": "war conflict military",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1772299399361-626d99d9b85e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMHx8d2FyJTIwY29uZmxpY3QlMjBtaWxpdGFyeXxlbnwxfDB8fHwxNzg2MTgwNzE1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Saifee Art",
+      "profileUrl": "https://unsplash.com/@saifee_art?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Toy soldiers on a world map with iranian flag."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-08T09:18:35.465Z",
+    "publishedAt": "2026-08-08T07:10:48.000Z"
+  },
+  {
+    "slug": "20260808-24",
+    "headline": "子どものSNS利用規制、年末までに方針決定へ",
+    "lead": "来年通常国会に法案提出。世界的な規制拡大に対応。",
+    "body_markdown": "高市首相は子どもに対するSNS利用の規制について、年末までに基本方針をまとめるよう黄川田こども政策担当大臣に指示した。来年の通常国会での法案提出を目指す。\n\n各国で子どものSNS使用制限が拡大する中での動き。オーストラリア、イギリスなどで年齢制限法の導入・検討が相次いでおり、日本も国際的な流れへの対応を急いでいる。詳細な規制内容はまだ未定だが、年齢確認、利用時間制限、アルゴリズムの透明性強化などが論点になる見通し。\n\nこども本人の成長段階に応じた適切なインターネット環境の実現と、プライバシー・表現の自由とのバランスが課題。法案骨子がどの程度の規制実装を想定するかが焦点となる。",
+    "tags": [
+      "子ども",
+      "SNS",
+      "規制",
+      "法律",
+      "デジタル政策"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015199571000",
+    "importance": 3,
+    "image_query": "social media children smartphone",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-08T09:18:35.466Z",
+    "publishedAt": "2026-08-07T13:31:16.000Z"
+  },
+  {
+    "slug": "20260808-25",
+    "headline": "声の無断利用は権利侵害。法務省が明示",
+    "lead": "AIカバーやものまねも対象。パブリシティー権で保護。",
+    "body_markdown": "法務省は、生成AIの普及に伴う声の無断利用問題について、既存の法的枠組みで保護できるとの見解を明示した。声優や歌手の声はパブリシティー権と人格権で守られるべき対象だと整理。\n\n「本人の声を模したAI音声によるカバー音源をSNS公開して収益を得る」といった行為はパブリシティー権侵害になりうるとした。ただし「ものまねや声まね」は基本的に同権を侵害しないとの区分も示され、状況による判断の必要性が指摘された。\n\n2023年頃からAI音声技術の普及により、声の無断利用トラブルが多発。これまで声に特化した法律がなく、権利保護の曖昧さが問題だった。今回の見解により、権利侵害か否かの判断基準がより明確に。今後、SNSプラットフォームの利用規約やAI規制法の設計にも影響を及ぼす可能性がある。",
+    "tags": [
+      "AI",
+      "音声",
+      "知的財産",
+      "法律",
+      "生成AI"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI+",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/07/2000000452/",
+    "importance": 3,
+    "image_query": "voice technology microphone",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-08T09:18:35.467Z",
+    "publishedAt": "2026-08-07T12:19:15.000Z"
+  },
+  {
+    "slug": "20260808-26",
+    "headline": "Airbnb新AI検索が開発スピード60%短縮",
+    "lead": "自然言語検索テスト中。サポートコスト16%低下も実現。",
+    "body_markdown": "Airbnbは自然言語に対応したAI検索機能をテスト運用中。従来のフィルター方式と切り替え可能なトグル設計で、ユーザー体験を大幅改善。CEOは「コンセプトから立ち上げまでの期間が60%短縮された」と述べており、6ヶ月間で出荷機能が80%増加したという。\n\nユーザーの自然言語入力に対応したAI検索結果はビジュアル形式で表示。従来の複数フィルター操作が不要になり、直感的な宿泊施設発見が可能。カスタマーサービスAIも45%の問い合わせを人的介入なしで解決し、予約当たりのサポートコストは前年比16%低下。\n\nAirbnbは検索、ユーザー登録、支払い処理など複数領域でAI導入を加速。AI技術による開発効率化と顧客体験向上の両立モデルとして業界に示唆を与えている。",
+    "tags": [
+      "AI",
+      "検索",
+      "ビジネス",
+      "顧客体験",
+      "テクノロジー"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+    "importance": 3,
+    "image_query": "search interface website booking",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-08T09:18:35.473Z",
+    "publishedAt": "2026-08-07T14:22:49.000Z"
+  },
+  {
+    "slug": "20260808-27",
+    "headline": "竹島周辺EEZ内で韓国が無断海洋調査か",
+    "lead": "日本が強く抗議。領土問題と絡み対立激化の懸念。",
+    "body_markdown": "島根県竹島の西方、日本の排他的経済水域(EEZ)内で韓国の調査船が日本側の同意なく海洋調査とみられる活動を行っていることが確認された。日本政府は外交ルートを通じて韓国に強く抗議した。\n\n竹島の領有権は日韓間の長年の懸案。EEZ内での活動についても両国は相互に異なる立場を有しており、周辺海域の資源利用や海洋調査をめぐる対立が繰り返されてきた。今回の事案も領土主権と海洋権益の相互不信を象徴。\n\n国際海洋法上、沿岸国はEEZ内での他国の海洋調査に対して許可・拒否権を持つとの解釈が一般的。韓国側の立場がEEZ境界確定前を主張しているとすれば、対立の根は深い。地政学的な東アジアの緊張が象徴的に表れた事例。",
+    "tags": [
+      "日韓関係",
+      "領土問題",
+      "EEZ",
+      "国際法",
+      "外交"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/na-k10015199831000",
+    "importance": 3,
+    "image_query": "map ocean maritime boundary",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-08T09:18:35.475Z",
+    "publishedAt": "2026-08-07T16:43:08.000Z"
+  },
+  {
     "slug": "20260808-01",
     "headline": "OpenAI、次世代モデルAstraのサイバー脅威を初公開",
     "lead": "OpenAIは開発中のAstraモデルが過去に例のないレベルのサイバー能力を持つことを明かし、Preparedness Frameworkの発動を決定した。",
