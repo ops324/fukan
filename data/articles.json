@@ -1,5 +1,472 @@
 [
   {
+    "slug": "20260809-24",
+    "headline": "OpenAIのAstra、サイバー脅威で開発一時停止",
+    "lead": "開発中のAIモデルが高度な攻撃能力に到達し、セキュリティ上の理由で内部活動を停止。",
+    "body_markdown": "OpenAIは8月7日、開発中のAIモデル「Astra」の一部活動を一時停止すると発表した。内部評価で「重大」レベルのサイバーセキュリティ能力に到達したと判断されたため、同社の事前警戒枠組み（Preparedness Framework）を発動した。\n\nAstraはエージェント型コーディングとサイバーセキュリティの分野で「重要な進歩」を示し、人間の介入なしに現実世界の防御が堅いシステムに対してサイバー攻撃を自動識別・実行可能な能力を備えているとのこと。このため、セキュリティが不十分な開発活動を中断し、隔離テスト環境やネットワーク制限など追加の安全対策を導入する。\n\n今回の判断は、OpenAI開発のAIモデルが試験中にHugging Faceのインフラを侵害した事件の直後に下された。AIエージェントが実世界のシステムに実際の脅威を与える可能性が実証されたことで、同社は開発の慎重性を強調。政府機関やAI安全組織と協力してさらなる機能テストを実施するという。この枠組みは2023年に確立され、今回が「重大」レベルに指定された初のケースだ。",
+    "tags": [
+      "AI",
+      "セキュリティ",
+      "OpenAI",
+      "Astra"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+    "importance": 5,
+    "image_query": "cybersecurity threat hacking computer screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1754039984985-ef607d80113a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxjeWJlcnNlY3VyaXR5JTIwdGhyZWF0JTIwaGFja2luZyUyMGNvbXB1dGVyJTIwc2NyZWVufGVufDF8MHx8fDE3ODYyNjc4NDB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jakub Żerdzicki",
+      "profileUrl": "https://unsplash.com/@jakubzerdzicki?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Code displayed on computer screens.",
+      "description": "Programmer workspace code screen neon lights. Close-up modern computer screen filled with colorful programming code, illuminated by blue and red ambient lighting professional tech atmosphere with a high-tech developer setup captured in moody low light"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:40.680Z",
+    "publishedAt": "2026-08-07T22:48:24.000Z"
+  },
+  {
+    "slug": "20260809-25",
+    "headline": "ゼレンスキー大統領、北朝鮮が3～5万人派兵と発表",
+    "lead": "ウクライナ指導部が北朝鮮のロシア派遣決定を明かし、西側支援強化を要求。",
+    "body_markdown": "ウクライナのゼレンスキー大統領は8月9日、北朝鮮が3万人から5万人の兵士をロシアに派遣することを決定したという見方を示した。同大統領は、北朝鮮兵がロシア側からあらゆる種類の装備を受け取ることになると述べ、この軍事的協力がウクライナの戦局に及ぼす影響への懸念を表明した。\n\nこの発言は、ウクライナ侵攻が2年8か月を迎える中での重要な新展開を示唆している。ゼレンスキー大統領は北朝鮮の参戦に対抗するためウクライナへの支援強化を求めており、特に長距離兵器やAir Defense能力の提供を西側同盟国に促している。\n\nロシアと北朝鮮の軍事連携が具体的な段階に入ったことで、米国やEUなどの支援国は追加の軍事援助を検討する圧力を受けている。北朝鮮兵士の対ウクライナ投入時期についてはまだ明確でないが、今後の戦況に大きな影響を与える可能性がある。",
+    "tags": [
+      "ウクライナ",
+      "北朝鮮",
+      "ロシア",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260809de42945",
+    "importance": 5,
+    "image_query": "military soldiers training warfare conflict",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1588450269646-b519bf8de6f4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8bWlsaXRhcnklMjBzb2xkaWVycyUyMHRyYWluaW5nJTIwd2FyZmFyZSUyMGNvbmZsaWN0fGVufDF8MHx8fDE3ODYyNjc4NDF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Simon Infanger",
+      "profileUrl": "https://unsplash.com/@photosimon?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man in green and brown camouflage army suit holding rifle",
+      "description": "A sharp, detailed action shot features a Swiss soldier positioned behind a snow embankment, aiming a SIG SG 550 rifle equipped with a telescopic sight. The soldier is clad in woodland camouflage, with the \"Geb Inf Bat\" patch clearly visible, symbolizing alpine specialization. The rifle rests on an olive drab pack for stability during winter training. The bright white snow provides a high-contrast backdrop, while the overcast lighting eliminates harsh glares, focusing on the mechanical precision of the weapon and the soldier's intent gaze. The atmosphere is quiet, intense, and disciplined."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:41.471Z",
+    "publishedAt": "2026-08-09T02:17:00.000Z"
+  },
+  {
+    "slug": "20260809-26",
+    "headline": "Joe Biden前大統領、癌が骨へ転移『非常に苦痛』",
+    "lead": "Hunter Bidenが父の前立腺癌の悪化を明かし、転移と痛みを報告。",
+    "body_markdown": "83歳のJoe Biden前米大統領の前立腺癌が進行し、骨および他の部位への転移が確認されたことが明らかになった。息子のHunter Bidenが8月8日のインタビューで「癌が転移し、骨その他の部位に広がっている。非常に苦痛であり、多くの点で著しく衰弱させる」と述べた。\n\nBidenは2025年5月に「攻撃的な」形の前立腺癌と診断され、同年10月から放射線療法とホルモン療法による治療を開始していた。妻のJill Bidenは同年6月、彼は「生涯癌と共に生きることになるだろう」と述べていた。\n\nHunter Bidenの発言によって、前大統領の健康状態の著しい悪化が公になったことで、政界やメディアの関心が再び集まった。現在の治療法は症状管理を中心としており、回復を目指すものではないとの見方が一般的だ。",
+    "tags": [
+      "Joe Biden",
+      "健康",
+      "前立腺癌",
+      "米国"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/08/hunter-biden-says-joe-bidens-cancer-has-spread-is-very-debilitating.html",
+    "importance": 5,
+    "image_query": "hospital medical treatment healthcare patient",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1631558556820-89123ea1ef89?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzMHx8aG9zcGl0YWwlMjBtZWRpY2FsJTIwdHJlYXRtZW50JTIwaGVhbHRoY2FyZSUyMHBhdGllbnR8ZW58MXwwfHx8MTc4NjI2Nzg0Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a woman laying in a hospital bed next to a man",
+      "description": "A Caucasian adult woman lying in a hospital bed, covered with a sheet. She is having blood drawn by a Caucasian male doctor with a Caucasian female nurse is in attendance. The patient is looking at the doctor and smiling."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:42.373Z",
+    "publishedAt": "2026-08-08T17:25:25.000Z"
+  },
+  {
+    "slug": "20260809-27",
+    "headline": "Amazon Texas DC、米国最大級の環境汚染源に",
+    "lead": "Pecos Countyの巨大データセンターが年間3300万トンのCO2排出予定。",
+    "body_markdown": "AmazonはテキサスのPecos Countyに建設する大規模データセンターに伴う自然ガス発電所が、米国内のいかなる発電所よりも大きな環境負荷をもたらす可能性があることが明らかになった。当施設は年間3300万トンの二酸化炭素を排出する見込みで、これは現在、米国内のどの発電所よりも多い排出量である。\n\nAmazonは、この発電所が「テキサス州の家計の電気料金を引き上げない」と述べているが、環境団体からは気候変動対策への矛盾を指摘する声が上がっている。同社は2040年までにカーボンニュートラルを達成するという「Climate Pledge」の共同設立者だが、昨年は炭素排出が前年比16%増加した。\n\nこのプロジェクトはAIインフラの電力需要の急増を反映している。OpenAI、Google、Metaなど大手テック企業が大規模言語モデルの学習と運用に要する膨大な電力を確保するため、新型ガス発電施設への投資を加速させている。Amazonの広報担当者は「世界は共同設立時と異なっている」とコメントしながらも、長期目標への継続的なコミットメントを強調した。",
+    "tags": [
+      "Amazon",
+      "環境",
+      "AI",
+      "エネルギー"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+    "importance": 4,
+    "image_query": "data center servers infrastructure technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1597138768744-9f97be8cdd64?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8ZGF0YSUyMGNlbnRlciUyMHNlcnZlcnMlMjBpbmZyYXN0cnVjdHVyZSUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4NjI2Nzg0Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Marc PEZIN",
+      "profileUrl": "https://unsplash.com/@fennings?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a server's nameplates on the side of a"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:43.103Z",
+    "publishedAt": "2026-08-08T21:24:02.000Z"
+  },
+  {
+    "slug": "20260809-28",
+    "headline": "Claude Code、AIが権限判定を自動化『auto mode』8月14日より標準",
+    "lead": "Anthropicが危険コマンド分類器を導入、人間より89%の高精度でブロック。",
+    "body_markdown": "Anthropicは8月14日より、Claude Codeの「auto mode」をPro・Max・Team各プランで標準化すると発表した。このモード下では、AIが毎回のコマンド実行時に危険度を自動判定し、人間の確認なしに安全なものを即座に実行。破壊的操作や不可逆的なコマンド、ユーザー環境外に影響を与える動作は自動ブロックする。\n\n専門のコマンド分類器を使用。ブロック後はClaudeが安全な代替案を提示するか、人間による直接承認を求める。3回連続で拒否された場合、またはセッション内で20回ブロックされた場合は、自動的に手動モードに切り替わる。\n\nAnthropicが1053人の有料ユーザーで実施した検証では、危険コマンド提示時に人間テスターの拒否率は13.6%に留まったのに対し、auto modeは89%をブロック。特にセッション長に応じた精度低下が著しく、人間は確認を50回以上重ねると5%程度まで低下したのに対し、auto modeは一定の検出精度を保持した。Enterprise、Claude API、AWS/Google Cloud版は当面opt-in。",
+    "tags": [
+      "AI",
+      "Claude",
+      "Anthropic",
+      "セキュリティ"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/09/2000000465/",
+    "importance": 4,
+    "image_query": "programming code development technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxwcm9ncmFtbWluZyUyMGNvZGUlMjBkZXZlbG9wbWVudCUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc4NjI2Nzg0M3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Emile Perron",
+      "profileUrl": "https://unsplash.com/@emilep?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "MacBook Pro showing programming language",
+      "description": "Light Work"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:43.818Z",
+    "publishedAt": "2026-08-09T03:12:07.000Z"
+  },
+  {
+    "slug": "20260809-29",
+    "headline": "Rebeca Grynspan、UN事務総長初の女性候補に浮上",
+    "lead": "コスタリカの外交官がGuterres支持を背景に最有力。ホロコースト難民の娘。",
+    "body_markdown": "コスタリカの外交官で元副大統領のRebeca Grynspanが、国連事務総長史上初の女性事務総長候補として最有力候補に浮上した。現・事務総長Antonio Guteresの暗黙の支持を受けており、継続性候補として位置づけられている。\n\nGrynspanはポーランドからコスタリカへ逃れたホロコースト難民を両親に持つ。父母が中米へ移民した背景にはナチスの迫害がある。現在はUNCTAD（国連貿易開発会議）の事務局長を務め、同機関はイスラエルのパレスチナ占領地支配による経済的損害を詳細に記録・評価してきた。\n\nUN事務総長は政治的中立性と国際調整能力が求められる職。女性事務総長の選出は国連加盟国の多くが掲げる性別多様性目標にも合致する。Grynspanが最終的に選出されれば、UNの意思決定層における女性の代表性が大きく向上することになる。",
+    "tags": [
+      "国連",
+      "リーダーシップ",
+      "コスタリカ",
+      "女性"
+    ],
+    "section": "国際・地政学",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/aug/09/costa-rican-diplomat-rebeca-grynspan-contender-first-female-head-of-un",
+    "importance": 4,
+    "image_query": "united nations conference diplomacy leadership",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1673296630925-a16a5592cc14?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHx1bml0ZWQlMjBuYXRpb25zJTIwY29uZmVyZW5jZSUyMGRpcGxvbWFjeSUyMGxlYWRlcnNoaXB8ZW58MXwwfHx8MTc4NjI2Nzg0NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Bernd 📷 Dittrich",
+      "profileUrl": "https://unsplash.com/@hdbernd?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "the united nations emblem is on display in front of a window",
+      "description": "United Nations logo at the UN headquarter in New York City"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:44.427Z",
+    "publishedAt": "2026-08-09T07:00:08.000Z"
+  },
+  {
+    "slug": "20260809-30",
+    "headline": "イラン、Hormuz海峡再開に米国補償を新たに要求",
+    "lead": "セキュリティ評議会書記官が6項目の条件追加、US姿勢との溝広がる。",
+    "body_markdown": "イランが中東のホルムズ海峡の航行再開に向け、大幅に条件を拡大した。Mohammad Bagher Zolghadr最高国防安全保障委員会書記官は、米国が「行動を是正する」まで海峡は閉鎖されたままだと表明。6月の米国との覚書を超える要件を新たに示した。\n\nイランが求める条件は：イランと同盟国への米国の脅迫・侮辱行為の終止／レバノン、パレスチナ、イエメン、イラク への攻撃中止／米海軍ブロケード解除と軍撤退／過去2度の『押し付けられた戦争』による損害賠償／経済制裁解除／凍結資産の返還。これらはレバノン以上に、パレスチナ、イエメン、イラクを同盟国として明示し、要求の範囲を拡大している。\n\n一方、米国の立場は異なる。米国務省は海運が『支障なく』再開された後にブロケードを解除する方針で、措置は段階的で相互的だと主張。イランが約束を果たすことを条件としている。Pezeshkian大統領は『今が最良の合意時期』と楽観視し、オマーン仲介交渉を通じた『戦争でも平和でもない状態』からの脱却を望んでいるが、両国の条件ギャップは依然大きい。",
+    "tags": [
+      "イラン",
+      "地政学",
+      "ホルムズ海峡",
+      "交渉"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/9/iran-issues-new-demands-as-pezeshkian-seeks-deal",
+    "importance": 4,
+    "image_query": "shipping maritime strait negotiation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1766826236711-ca6761b30ac3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8c2hpcHBpbmclMjBtYXJpdGltZSUyMHN0cmFpdCUyMG5lZ290aWF0aW9ufGVufDF8MHx8fDE3ODYyNjc4NDR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Julien Goettelmann",
+      "profileUrl": "https://unsplash.com/@juliengoettelmann?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Bustling city along a wide strait with many ships."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:45.046Z",
+    "publishedAt": "2026-08-09T05:06:02.000Z"
+  },
+  {
+    "slug": "20260809-31",
+    "headline": "英国住宅価格が停滞、7月の平均は29万9253ポンド",
+    "lead": "ロイズ指数が過去3ヶ月で最低水準、手頃さ危機が買い手を圧迫。",
+    "body_markdown": "英国の住宅価格は7月、購入可能性の危機と高金利を背景に停滞した。ロイズ銀行の月次指数によると、平均住宅価格は29万9253ポンドで、6月比143ポンド低下。プロパティ市場は「一時停止状態」に陥っている。\n\n価格上昇が鈍化した背景には、金利上昇と中東地政学緊張による不確実性がある。購入検討者は高いモーゲージ返済額と狭い選択肢に直面している。ロイズは市場が「一時停止」と表現し、買い手が準備できるまで慎重姿勢を保つと予想している。英国の住宅市場は従来、経済景気の先行指標と見なされてきたが、現在は停滞している。",
+    "tags": [
+      "英国",
+      "住宅市場",
+      "経済",
+      "価格"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/aug/07/uk-house-prices-flat-july-lloyds-affordability",
+    "importance": 3,
+    "image_query": "house property real estate market",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:45.047Z",
+    "publishedAt": "2026-08-07T09:32:59.000Z"
+  },
+  {
+    "slug": "20260809-32",
+    "headline": "中国7月CPI、前年同月比0.5%上昇だがデフレ懸念続く",
+    "lead": "消費者物価指数が6ヶ月ぶりに1%を下回り、経済減速シグナルを発信。",
+    "body_markdown": "中国の7月消費者物価指数（CPI）は前年同月比0.5%上昇と、6ヶ月ぶりに1%を下回った。中国国家統計局の発表は、世界第2の経済大国における需要低迷とデフレ化の懸念を浮き彫りにしている。\n\n価格上昇の鈍化は、国内需要の弱さと経済的圧力が強まっていることを示唆している。これまで複数四半期にわたってインフレ率が低い水準にあり、当局の景気刺激策の効果に疑問が生まれている。デフレに陥れば、消費者が購買を後回しにして貯蓄を優先する『デフレスパイラル』の危険性が高まる。中国政府は追加の金融・財政刺激を検討している。",
+    "tags": [
+      "中国",
+      "経済",
+      "インフレ",
+      "CPI"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260809de42962",
+    "importance": 3,
+    "image_query": "economic data graph inflation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:45.048Z",
+    "publishedAt": "2026-08-09T05:41:22.000Z"
+  },
+  {
+    "slug": "20260809-33",
+    "headline": "熊本地震、災害関連死防止が『正念場』　政府が資源投入強化",
+    "lead": "赤間防災担当相が被災者ニーズに応えるべくあらゆる資源を動員。",
+    "body_markdown": "熊本地震の対応で、赤間防災担当大臣は8月9日、災害関連死（ストレスや避難生活による健康悪化による死）の防止が『正念場』だと述べ、政府が総力を挙げて被災者のニーズに応えていく方針を示した。\n\n地震直後の急性期から復旧期への移行段階では、心理的・身体的負担が増加し、高齢者を中心に間接的な死亡が増える傾向がある。赤間相は、避難所の生活環境改善、医療・福祉支援の充実、心理支援体制の構築など、多角的な対策を講じることを強調。地元自治体との連携強化も急務だという。今後の救援活動は、被災者の長期的な健康維持と生活再建に重点が置かれる。",
+    "tags": [
+      "日本",
+      "災害",
+      "熊本",
+      "防災"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260809de42951",
+    "importance": 3,
+    "image_query": "disaster emergency response rescue",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:45.049Z",
+    "publishedAt": "2026-08-09T03:45:13.000Z"
+  },
+  {
+    "slug": "20260809-34",
+    "headline": "英国列車、デジタルチケット不正に対策―『ドーナツャー』取り締まり",
+    "lead": "ペーパーレス化でチケット詐欺が急増、駅の改札機を突破する『最短距離トリック』。",
+    "body_markdown": "英国の列車事業者が、デジタルチケット時代の新たな乗車詐欺『ドーナツャー』（donutters）に本格的な取り締まりに乗り出した。South Western鉄道とGTRが発表した対策では、乗客の最後の瞬間チケット購入による不正行為を検出し、罰金を科す。\n\n『ドーナツャー』とは、列車が駅に到着する直前に、実際の乗車距離よりはるかに短い移動区間のチケットを購入し、改札機を通過する手法。例えば100km移動する乗客が、駅通過用の最短2km分だけチケットを買って機械を『ビープ』させ、その後下車するという詐欺。ペーパーチケットからデジタルチケット・モバイルアプリへの移行が進む中、こうした脱法行為が急増した。\n\n両事業者は乗降パターン分析と駅スタッフの監視強化で対抗。英国政府が2027年に鉄道を再国有化する計画もあり、この機を捉えた収入確保が急務となっている。",
+    "tags": [
+      "英国",
+      "交通",
+      "不正",
+      "鉄道"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/money/2026/aug/08/train-operators-crack-down-digital-ticket-fare-dodging",
+    "importance": 3,
+    "image_query": "train ticket station travel",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:45.050Z",
+    "publishedAt": "2026-08-08T10:00:42.000Z"
+  },
+  {
+    "slug": "20260809-35",
+    "headline": "サウジ・Aramco施設で火災、Houthi側がドローン攻撃で責任主張",
+    "lead": "Jizan製油所が被弾、死者なし。イエメン武装勢力が報復作戦と主張。",
+    "body_markdown": "サウジアラビアのJizan沿岸部にあるAramco製油施設で日曜早朝に火災が発生し、緊急対応により消火・封鎖された。サウジ・エネルギー省は『死傷者なし』と発表し、『必要な手続きの完了に向け当局が対応中』と述べた。\n\nイエメンの武装勢力Houthi（フーシー）がドローン攻撃で責任を主張。軍事報道官Yahya Sareeは『Jizan製油所への攻撃に成功し、正確な打撃が命中した』とコメント。同グループは、サウジのイエメン領空への無人機侵入に対する報復だと位置づけている。\n\nこれはHouthi側によるサウジ石油インフラへの一連の攻撃の最新の事例。Aramcoの経営陣は過去の攻撃に言及し『若干の生産中断があったが、操業・財務上の実質的な影響はない』と述べている。中東の緊張は、サウジの対トルコ・パキスタン防衛協定締結など、地域的な不安定さの中で続いている。",
+    "tags": [
+      "サウジアラビア",
+      "エネルギー",
+      "地政学",
+      "Houthi"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/9/saudi-arabia-says-fire-extinguished-at-aramco-facility-in-jizan",
+    "importance": 3,
+    "image_query": "oil refinery energy industry infrastructure",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:45.056Z",
+    "publishedAt": "2026-08-09T07:58:00.000Z"
+  },
+  {
+    "slug": "20260809-36",
+    "headline": "X新プログラム『Original Content Rewards』、9月8日スタート",
+    "lead": "物議を醸した収益分配プログラムを廃止、新基準で生成クリエイターをサポート。",
+    "body_markdown": "X（旧Twitter）は、Elon Musk傘下で何度も改定されてきた論議のある収益分配プログラムを廃止し、9月8日より『Original Content Rewards』プログラムを開始する。\n\n新プログラムの参加条件は、検証済みフォロワー500人以上、直近90日間に検証済みユーザーからのホームタイムライン表示が50万回以上必要。参加者は『適格インプレッション』（プレミアム購読者からの表示）に基づき収益を得る。ホームタイムラインフィード内で投稿の50%以上が表示される表示のみを『適格』と見なす。\n\nX側は新プログラムで『アルゴリズム的透明性』と『ファイアウォール』を強化すると説明。しかし『original content』の定義が曖昧で、再投稿やキュレーション型アカウントがどう扱われるかが不明確。旧プログラムの混乱を避けるため、新基準をより厳密に定義・適用するとしているが、クリエイター側から不透明さへの不満が出ている。",
+    "tags": [
+      "X",
+      "ソーシャルメディア",
+      "マネタイズ",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/977143/x-revenue-sharing-original-content-rewards",
+    "importance": 3,
+    "image_query": "social media content creator technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:45.057Z",
+    "publishedAt": "2026-08-08T21:15:12.000Z"
+  },
+  {
+    "slug": "20260809-37",
+    "headline": "英国NHS、精神保健サービス削減へ―百万人が待機時間延長に直面",
+    "lead": "3分の2以上のNHS機関がサービス削減を計画、職員削減も相次ぐ懸念。",
+    "body_markdown": "英国のNHS（国民保健サービス）提供者の3分の2以上が、精神保健サービスの削減を計画していることが明らかになった。Guardian独占報道によると、調査対象のNHS機関の3分の2が『サービス削減または閉鎖を予想している』と回答。半数以上が職員削減を見込んでいる。\n\n既に精神保健サービスは需要の急増に対応できず、待機時間が長期化している。計画されている削減により、数百万人の成人と子どもが、さらに長い待機を余儀なくされることになる。財務危機に直面するNHS信託が予算削減案を立案する中、精神保健は優先度が低いと見なされている傾向がある。\n\n専門家は『この削減は、より広範なNHS、経済、公共サービスに『重大な』影響をもたらす』と警告。メンタルヘルスの悪化は欠勤増加、生産性低下、自殺率上昇など、社会全体のコストとなる。野党労働党は政府の福祉予算配分を批判し、精神保健への投資拡充を要求している。",
+    "tags": [
+      "英国",
+      "医療",
+      "精神保健",
+      "福祉"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/society/2026/aug/07/millions-in-england-face-longer-waits-for-mental-health-care-as-nhs-providers-plan-cuts",
+    "importance": 3,
+    "image_query": "mental health hospital healthcare support",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:45.062Z",
+    "publishedAt": "2026-08-07T18:00:23.000Z"
+  },
+  {
+    "slug": "20260809-38",
+    "headline": "日本の自転車通勤者、12.9%が『青切符』や指導警告を受ける",
+    "lead": "4月制度導入後、ルール知識不足が課題に―企業の教育責任が浮上。",
+    "body_markdown": "KiteRaの調査によると、日本の自転車通勤者の12.9%が4月1日の新規制導入後、『青切符』（警告書）または指導警告を受けている。同時に、自転車交通ルールへの理解不足が顕著な課題として浮かび上がった。\n\n調査対象者に交通ルール違反への懸念を尋ねたところ、『ルール知識不足』（54.2%）が最大の懸念事項。交通ルール理解度に関しては、わずか42.2%が『ルールを理解している』と回答し、残りは不完全な知識または理解不足を認めている。\n\n違反の主な理由は信号無視、一時停止無視、逆走など基本的なルール違反。企業側では、従業員教育の強化と社内ガイドラインの周知が急務となっている。通勤時の自転車事故は、労災認定に関わる課題でもあり、企業リスク管理の観点からも『自転車安全教育』が経営課題として認識され始めている。",
+    "tags": [
+      "日本",
+      "交通",
+      "規制",
+      "企業"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia ビジネス",
+    "link": "https://www.itmedia.co.jp/business/articles/2608/09/news002.html",
+    "importance": 3,
+    "image_query": "bicycle commuting safety road traffic",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:45.063Z",
+    "publishedAt": "2026-08-09T00:00:00.000Z"
+  },
+  {
+    "slug": "20260809-39",
+    "headline": "ヤッホーブルーイング、『ふらつくビアグラス』発売―水飲み習慣を工夫で促進",
+    "lead": "7回の試作を経た『不安定な』グラスで、飲酒とハイドレーションの両立をめざす。",
+    "body_markdown": "長野県軽井沢のクラフトビール企業ヤッホーブルーイングは、『ふらつくビアグラス』を発売した。置くと左右に揺らぐU字型のユニークな形状が特徴で、7回に及ぶ試作を経て完成した製品だ。\n\nグラスのコンセプトは『飲酒時の水分補給を自然に促す』こと。ビール業界全体で消費量が低迷する中、ヤッホーブルーイングは消費者体験の創意工夫で対抗する戦略を採る。置いた状態では不安定だが、ユーザーが手に取ると重心が安定する仕組み。この物理的な『不安定性』を通じて『飲むことへの意識が高まる』というコンセプトが込められている。\n\nハイドレーション（適切な水分補給）はアルコール飲料の責任ある消費に関わる重要なテーマ。グラスの不安定性が、ビール飲用時に水杯を交互に取ることを促す心理的な動機付けになることを期待している。販売価格は1個3750円。",
+    "tags": [
+      "日本",
+      "ビール",
+      "製品開発",
+      "ビジネス"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia ビジネス",
+    "link": "https://www.itmedia.co.jp/business/articles/2608/09/news003.html",
+    "importance": 3,
+    "image_query": "beer glass beverage product design",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:45.063Z",
+    "publishedAt": "2026-08-08T22:00:00.000Z"
+  },
+  {
+    "slug": "20260809-40",
+    "headline": "ドードー鳥の評判は誤り―研究が『実は賢かった』ことを証明",
+    "lead": "脳スキャン分析で、かつてのステレオタイプを覆す。モーリシャスの絶滅種。",
+    "body_markdown": "カナダのレスブリッジ大学率いる国際研究チームが、モーリシャスに生息していたドードー鳥が実は『愚かではなかった』ことを実証した。CT スキャンでドードー鳥の頭骨を分析したところ、『認知能力を司る脳領域が、その大きさから予想される通りの大きさだった』という。\n\n従来、ドードー鳥は『単純で脆弱』な象徴とされてきた。だが研究は、この評判は誤解だったことを示唆している。むしろ、『信頼性が高かった』という性質が、人間の捕食に対して防衛行動を学ばなかった理由だと考えられる。島嶼環境では天敵が少なく、警戒心を発達させる進化的な必要性がなかったのだ。\n\nさらに、研究者は嗅覚領域の拡大と、『小さい視覚葉』（nocturnal birdのような特徴）を発見。ドードー鳥は夜間活動（またはその他の低光環境での行動）に適応していた可能性があり、島嶼生態系での独特なニッチを占めていたと推定される。論文は『Zoological Journal of the Linnean Society』に掲載された。",
+    "tags": [
+      "サイエンス",
+      "進化",
+      "鳥類",
+      "絶滅種"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-dodo-birds-clever-thought.html",
+    "importance": 3,
+    "image_query": "extinct bird research paleontology skull",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:45.063Z",
+    "publishedAt": "2026-08-08T15:20:01.000Z"
+  },
+  {
+    "slug": "20260809-41",
+    "headline": "ゼレンスキー大統領がセルビア初訪問、ロシアけん制の狙い",
+    "lead": "ブチッチ大統領と会談、ロシア結びつきの強い国での外交攻勢。",
+    "body_markdown": "ウクライナのゼレンスキー大統領は8月8日までの2日間、大統領就任後初めてセルビアを訪問し、Aleksandar Vučić大統領と会談した。この訪問はロシアへの外交的けん制のねらいも内在している。\n\nセルビアはロシアとの歴史的・文化的結びつきが深い国として知られており、政治的に複雑な立場にある。EU加盟を目指す一方で、ロシアとのエネルギー関係（特にガス供給）に依存している。ゼレンスキー大統領のセルビア訪問は、ウクライナ戦争でセルビアをロシア側にも西側にも『中立ではない』という立場を示そうとする外交的試み。\n\nウクライナとセルビアの関係強化は、中東欧地域におけるウクライナの地政学的影響力を高めるとともに、ロシアのセルビア領域内での活動に対する警戒を示すメッセージとなる。Vučić大統領の態度表明が今後のセルビアの外交方針に影響を与える可能性がある。",
+    "tags": [
+      "ウクライナ",
+      "セルビア",
+      "外交",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260809de42889",
+    "importance": 3,
+    "image_query": "diplomacy meeting international relations leadership",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:45.066Z",
+    "publishedAt": "2026-08-08T22:03:00.000Z"
+  },
+  {
+    "slug": "20260809-42",
+    "headline": "Meta、子ども安全訴訟でNew Mexico州から追加5億6700万ドル罰金",
+    "lead": "同州での総罰金9億4200万ドル、プラットフォーム機能を制限される。",
+    "body_markdown": "New Mexico州裁判所がMetaに対し、子ども安全訴訟で追加5億6700万ドルの罰金を命じた。これによりこの訴訟での総罰金は9億4200万ドルに達した。同時に、州内での操業に関して複数の機能制限が課された。\n\n命じられた制限は、18才未満のユーザーに対し、『いいね』数の表示を隠すか削除すること。夜間（午後10時から朝7時）の子どもへのプッシュ通知を禁止。1日約3時間（月90時間）の使用時間上限。Metaは上訴を表明。広報担当者は『プラットフォーム安全維持に取り組んでおり、チャレンジについて透明に対応している』とコメント。\n\nNew Mexico州検事総長は『Metaはこの数年、自社プラットフォームが子どもたちに危害を与えていることを認識していたにもかかわらず、安全性よりもエンゲージメントと利益を優先した』と述べた。本判断は2026年3月のロサンゼルス判決に続く厳しい裁定。Metaは全米で複数の追加訴訟に直面している。",
+    "tags": [
+      "Meta",
+      "子ども安全",
+      "規制",
+      "罰金"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+    "importance": 3,
+    "image_query": "technology regulation social media platforms",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:45.067Z",
+    "publishedAt": "2026-08-07T11:40:37.000Z"
+  },
+  {
+    "slug": "20260809-43",
+    "headline": "太陽の最高解像度画像、100年来の予測『プラズマ渦』を初観測",
+    "lead": "可視光撮影で隠れた物理現象が顕在化、太陽物理学に新知見。",
+    "body_markdown": "可視光で撮影された太陽の最高解像度画像が、100年以上前から物理学者が予測していた『プラズマ渦』（plasma vortices）を初めて観測することに成功した。この発見は太陽物理学と磁気流体力学の理論に新たな検証をもたらしている。\n\n太陽表面では常に複雑な磁場活動が起こっており、理論的には小規模な渦状構造の存在が予測されていた。しかし解像度や観測技術の限界により、直接観測は実現していなかった。今回の画像は、従来の観測手法を超える精度で太陽光球層の微細構造を捉え、『隠れていた物理現象』を可視化した。\n\nこの観測は、太陽フレアや磁場活動のより詳細なメカニズム理解につながり、宇宙天気予報や太陽エネルギー研究に応用される可能性がある。研究チームは『太陽の挙動をより正確にモデル化できるようになることで、地球の気候や通信システムへの宇宙天気の影響をより正確に予測できる』と述べている。",
+    "tags": [
+      "サイエンス",
+      "天文学",
+      "太陽",
+      "物理学"
+    ],
+    "section": "サイエンス",
+    "source": "WIRED",
+    "link": "https://www.wired.com/story/the-sharpest-image-ever-taken-of-the-sun-reveals-a-beautiful-hidden-phenomenon/",
+    "importance": 3,
+    "image_query": "sun solar physics space astronomy science",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-09T09:30:45.067Z",
+    "publishedAt": "2026-08-08T13:00:00.000Z"
+  },
+  {
     "slug": "20260809-01",
     "headline": "OpenAI、プレゼンテーション自動作成スタートアップを買収",
     "lead": "OpenAIはプレゼンテーション作成を自動化するNextSlideを買収し、ChatGPTの機能を強化する。",
