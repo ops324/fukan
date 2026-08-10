@@ -1,5 +1,45 @@
 [
   {
+    "slug": "20260810-21",
+    "headline": "Hugging Face、Basetenを統合してモデル推論プロバイダを拡大",
+    "lead": "AI インフラプラットフォームのBasetenが、Hugging Face Hubの推論プロバイダとして統合。開発者がモデルアクセスの選択肢を自由に選べるエコシステムが広がる。",
+    "body_markdown": "Hugging Faceのオープンモデルエコシステムが、外部インフラ企業との連携を深化させている。\n\nサーバーレス型のAI インフラプラットフォーム「Baseten」が、Hugging Face Hubの推論プロバイダとして正式に統合された。今後、ユーザーはモデルページから直接Basetenで推論を実行できるようになる。\n\nBasetenが対応するのは現在、対話型（Conversational）とテキスト生成（Text Generation）タスク。DeepSeek V4 Flash、Kimi K3、GLM-5.2といった主要なオープンウェイトモデルがすぐに利用可能だ。今後、さらに多くのタスク種別への対応が予定されている。\n\n利用方法は柔軟だ。Hugging FaceのウェブUI上で直接実行、Python・JavaScriptのSDKで統合、エージェントハーネスへの組み込みなど、複数の手段が選べる。課金方式も選択肢がある。Basetenの直接API認証を使えばBasetenへの課金、Hugging Face経由で利用すればHFクレジット（PROユーザーは月額無料額付き）での決済となる。\n\n同発表の背景にあるのは、Hugging Faceが推論インフラの多層化を積極的に進める戦略だ。かつてのように単一プロバイダに依存する構造から脱却し、開発者が複数の選択肢の中から自分のニーズに合ったプロバイダーを選べるエコシステムへの転換。これにより、ベンダーロックインのリスクが減り、競争を通じたイノベーション加速が期待される。",
+    "tags": [
+      "Hugging Face",
+      "AI インフラ",
+      "モデルデプロイ"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/baseten",
+    "importance": 3,
+    "image_query": "cloud computing infrastructure servers",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-10T09:20:55.399Z",
+    "publishedAt": "2026-08-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20260810-22",
+    "headline": "米FCC、以前承認した LiDAR搭載ドローン販売禁止を提案",
+    "lead": "米連邦通信委員会（FCC）が安全保障上の懸念からDJI製などのLiDAR搭載ドローンの販売禁止を提案。既存ユーザーに影響はないが、市場への影響は大きい。",
+    "body_markdown": "米国の無人機規制が急速に転換している。\n\n連邦通信委員会（FCC）が、LiDAR（光検出・測距）搭載ドローンの販売禁止を提案した。対象にはDJIのAir 3S やMini 5 Proなど実績あるモデルが含まれている。驚くべきは、これらが以前FCCに承認されていたという点。米政府が「軍事能力があるまたは特定の安全保障上の懸念を生じさせる」と判定し、方針転換を図っている。\n\nLiDARは、レーザーパルスを使って物体までの距離を正確に測定する技術。民間用途では測量・ロボティクス・自動運転などで活用される。一方、この技術が持つ精密な環境認識能力は、軍事・偵察用途でも高い価値がある。米防衛・情報機関は、敵対的な国家がドローンLiDARを「偵察ツール」として利用することを懸念している。\n\n既購入ユーザーには朗報がある。禁止は今後の販売に限定されており、既存オーナーは継続して使用・保有が認められる。法的なペナルティもない。\n\n市場への打撃は実質的だ。新規販売禁止により、将来の部品供給の途絶やソフトウェア更新の停止といったリスクが生じる。禁止対象はLiDARに留まらず、サーマルイメージング機能、エアロゾル散布機能、スウォーム機能、ドッキング基地など多岐にわたる。\n\nDJIは「180度の方針転換」と強く反発。FCCは9月2日までパブリックコメントを受け付けている。",
+    "tags": [
+      "ドローン規制",
+      "安全保障",
+      "DJI"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2233213/the-fcc-wants-to-ban-drones-with-lidar-that-it-previously-approved/",
+    "importance": 3,
+    "image_query": "drone technology aerial",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-10T09:20:55.400Z",
+    "publishedAt": "2026-08-10T07:35:58.000Z"
+  },
+  {
     "slug": "20260810-01",
     "headline": "OpenAI、開発中の強力なAIモデル「Astra」の開発を一時停止",
     "lead": "OpenAIはセキュリティ上の懸念から、ゼロデイ脆弱性を識別できるAIモデル「Astra」の内部活動を一時停止し、新たなセキュリティ基準を設定する。",
