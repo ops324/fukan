@@ -1,5 +1,547 @@
 [
   {
+    "slug": "20260812-01",
+    "headline": "コロンビア地震で180人以上が死亡、新大統領が初の危機に直面",
+    "lead": "コロンビアで大規模地震が発生し、180人以上が死亡。8月7日に就任したばかりのアベラルド・デ・ラ・エスプリエラ大統領の初の重大危機となっている。",
+    "body_markdown": "コロンビアで発生した大規模地震により、180人以上の死亡が確認された。火曜日には複数の余震が続き、瓦礫や倒壊した建物に閉じ込められた生存者の救出活動が進行中だ。\n\n新大統領のアベラルド・デ・ラ・エスプリエラは8月7日に就任したばかりで、就任から4日後の大災害となる。国家的な危機管理能力が問われることになり、今後の復旧・復興の推進が大きな課題となる。コロンビア当局は被害全体の把握と救助活動の加速を急いでいる。",
+    "tags": [
+      "コロンビア",
+      "地震災害",
+      "南米"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o",
+    "importance": 5,
+    "image_query": "earthquake disaster rescue rubble",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1702024249908-3d04f2c22d71?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxlYXJ0aHF1YWtlJTIwZGlzYXN0ZXIlMjByZXNjdWUlMjBydWJibGV8ZW58MXwwfHx8MTc4NjQ4MzU3OXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Emad El Byed",
+      "profileUrl": "https://unsplash.com/@emad_el_bayed?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large pile of rubble next to a dirt road",
+      "description": "Scenes of the devastation suffered by the besieged city of Gaza after it was bombed by the State of Israel in its war since October 7, 2023, which lasted for more than 63 days of genocide and continues until now."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:19.402Z",
+    "publishedAt": "2026-08-11T19:09:52.000Z"
+  },
+  {
+    "slug": "20260812-02",
+    "headline": "ChatGPTとGeminiが各10億ユーザーを突破、AI チャットボット急成長時代へ",
+    "lead": "OpenAIの ChatGPT とGoogleの Gemini が相次いで月間10億ユーザーを達成。AI チャットボット市場が急速に拡大している。",
+    "body_markdown": "Google が Gemini アプリで月間10億ユーザーを達成したと発表した。これにより Gemini は Google の14番目のプロダクトとなり、同社 CEO のスンダル・ピチャイが X で明らかにした。\n\nこれは OpenAI の ChatGPT が6月に同じ10億ユーザーを達成してから数ヶ月後のニュース。Gemini の成長は顕著で、音声利用が約63%、1日当たり1億5000万枚の画像生成、iOS での月間アクティブユーザーが1億を超えるなど、多方面での浸透が進んでいる。また Google は Gemini 3.5 Flash という新モデルもリリースし、コーディングと自動エージェント機能の向上を図っている。両社のチャットボットが競い合うなか、生成 AI 市場は一般ユーザー向けにも飛躍的に拡大している。",
+    "tags": [
+      "AI",
+      "チャットボット",
+      "Google",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+    "importance": 4,
+    "image_query": "AI chatbot interface screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1681460590033-67b0d1413550?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8QUklMjBjaGF0Ym90JTIwaW50ZXJmYWNlJTIwc2NyZWVufGVufDF8MHx8fDE3ODY0ODM1ODB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sanket Mishra",
+      "profileUrl": "https://unsplash.com/@sanketgraphy?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a cell phone with a text message",
+      "description": "Webpage of ChatGPT, a prototype AI chatbot, is seen on the website of OpenAI, on a smartphone. Examples, capabilities, and limitations are shown."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:20.240Z",
+    "publishedAt": "2026-08-11T18:49:12.000Z"
+  },
+  {
+    "slug": "20260812-03",
+    "headline": "Googleの医療AI「AMIE」が動画診療デモを実施、臨床現場への展開へ",
+    "lead": "Google が医療専用AI「AMIE」のリアルタイム動画診療機能を初めてデモンストレーション。実際の医療現場での活用に向けて前進している。",
+    "body_markdown": "Google Research は医療向け AI システム「AMIE」が、シミュレーション環境でリアルタイム臨床動画診療を実現できることを実証した。医療 AI の実装は診断精度と同じく、患者とのコミュニケーション能力が重要であり、AMIE はこの両面での改善を示している。\n\nGoogle が公式ブログで発表した本研究は、AI が医療の接近性と効率性をどう改善するかの重要な事例となる。動画形式での診療対応は、特に地域医療や遠隔診療の可能性を広げるもので、医療資源が限定される地域でのニーズにも応える可能性がある。今後は実際の医療機関での試験導入への道が期待される。",
+    "tags": [
+      "医療AI",
+      "Google",
+      "遠隔医療"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+    "importance": 4,
+    "image_query": "medical AI doctor consultation",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIME_SIZZLE_THUMBNAIL.Aug10.max-1440x810.jpg",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:20.723Z",
+    "publishedAt": "2026-08-11T17:00:00.000Z"
+  },
+  {
+    "slug": "20260812-04",
+    "headline": "Anthropic の AI が数学の最大難問「リーマン予想」の解法に進展をもたらす",
+    "lead": "Anthropic の未公開モデルが、150年以上未解決の「リーマン予想」の下限を大幅に引き上げることに成功。AI による数学研究の新しい可能性を示唆している。",
+    "body_markdown": "Anthropic の研究チームが、会社の未公開 AI モデルを使ってリーマン予想の解法に大きな進展をもたらしたと報告した。100万ドルの懸賞がかかる世界最大級の未解決問題に対し、数学の専門訓練を受けていない Anthropic スタッフが AI に「本気で挑戦してみてくれ」と指示したところ、36時間にわたる自動推論を通じて650の異なるアプローチを試し、60の並列サブエージェントが協働した。\n\nそのうち2つの重要な数学的アイデア、13の補助的アイデア、13の検証アシスタント、そして論文執筆支援を含む複雑な分業が実現された。二人の所属数学者がこの成果を検証し、Lean 証明アシスタントで形式化された。この事例は AI による数学研究の新しい可能性を切り開く一方で、AI 支援による研究の著者性をめぐる学界での議論も浮き彫りにしている。",
+    "tags": [
+      "AI",
+      "数学",
+      "Anthropic",
+      "研究"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
+    "importance": 4,
+    "image_query": "mathematics equation research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1509228468518-180dd4864904?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxtYXRoZW1hdGljcyUyMGVxdWF0aW9uJTIwcmVzZWFyY2h8ZW58MXwwfHx8MTc4NjQ4MzU4MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Antoine Dautry",
+      "profileUrl": "https://unsplash.com/@antoine1003?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "mathematics computation",
+      "description": "System of equations"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:21.487Z",
+    "publishedAt": "2026-08-11T16:25:20.000Z"
+  },
+  {
+    "slug": "20260812-05",
+    "headline": "ビットコイン採掘企業Riot Platforms、Anthropic と90億ドル・20年コンピュート契約",
+    "lead": "仮想通貨採掘大手 Riot Platforms が Anthropic と90億ドルの長期コンピュート供給契約を締結。マイナー企業の AI インフラ企業への転身が加速している。",
+    "body_markdown": "ビットコイン採掘企業の Riot Platforms が、AI 企業 Anthropic と90億ドルの20年間コンピュート供給契約を結んだと発表。これは CNBC が報道した。同契約により、Riot は自社の GPU リソースを Anthropic の AI モデル学習・推論に充当し、仮想通貨採掘から AI インフラサービスへのビジネスシフトを本格化させる。\n\n暗号資産市場の不確実性が高まるなか、マイナーが保有する膨大なコンピュート資源を AI 企業に売却・賃貸することで、安定した収入源を確保する戦略が広がっている。Riot の動きは業界全体のトレンドを示唆しており、GPU 供給の逼迫と AI インフラ需要の急増がこの転換を推し進めている。",
+    "tags": [
+      "ビジネス",
+      "AI",
+      "インフラ",
+      "仮想通貨"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/11/riot-platforms-signs-anthropic-deal-as-miners-shift-to-ai-infrastructure-.html",
+    "importance": 4,
+    "image_query": "data center servers GPU",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1680992046626-418f7e910589?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8ZGF0YSUyMGNlbnRlciUyMHNlcnZlcnMlMjBHUFV8ZW58MXwwfHx8MTc4NjQ4MzU4Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tyler",
+      "profileUrl": "https://unsplash.com/@tylergm?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a rack of electronic equipment in a dark room"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:22.208Z",
+    "publishedAt": "2026-08-11T19:08:16.000Z"
+  },
+  {
+    "slug": "20260812-06",
+    "headline": "xAI 創業者が立ち上げた「River AI」が11億ドル調達、個人向け AI エージェント構想",
+    "lead": "xAI の共同創業者イゴール・バブシュキンが率いる River AI が11億ドルを調達。「ガーディアンエンジェル」のような個人向けエージェント構想を打ち出している。",
+    "body_markdown": "xAI 共同創業者のイゴール・バブシュキンが立ち上げた AI スタートアップ River AI が、General Catalyst と AMP PBC が主導した11億ドルの資金調達を完了した。Nvidia、AMD Ventures、Y Combinator、Temasek も参加している。\n\nRiver AI はワーカー代替ではなく、「あなたの味方で静かに傍らにいる守護天使」のような個人向けエージェントの構築を目指している。開発者が開放型モデルを強化学習と低ランク適応技術で微調整できるAPI を提供し、大規模な強化学習タスクを15～20分で実行、コスト削減を実現するとしている。個人がAI をコントロールする需要の高まりを背景に、今後の市場形成が注目される。",
+    "tags": [
+      "AI",
+      "スタートアップ",
+      "資金調達",
+      "エージェント"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
+    "importance": 4,
+    "image_query": "startup funding investors tech",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1553484771-0a615f264d58?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzdGFydHVwJTIwZnVuZGluZyUyMGludmVzdG9ycyUyMHRlY2h8ZW58MXwwfHx8MTc4NjQ4MzU4Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Austin Distel",
+      "profileUrl": "https://unsplash.com/@austindistel?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person holding Foundr book",
+      "description": "Model: @Austindistel\r\nhttps://www.instagram.com/austindistel/\r\n\r\nPhotographer: @breeandstephen\r\nhttps://www.instagram.com/breeandstephen/"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:22.942Z",
+    "publishedAt": "2026-08-11T17:41:22.000Z"
+  },
+  {
+    "slug": "20260812-07",
+    "headline": "CoreWeave、Q2 収益が前年比で倍増、AI インフラ需要の急騰を映す",
+    "lead": "GPU クラウド企業 CoreWeave が Q2 決算で収益が2倍に増加。一方、負債は350億ドルと膨大で、急速な成長の陰に財務リスクが潜んでいる。",
+    "body_markdown": "GPU クラウドインフラ企業の CoreWeave が決算報告で、第2四半期の収益が前年同期比で2倍になったと明かした。AI モデル学習・推論需要の爆発的増加を背景に、企業利用が急伸している。一方で、同社は350億ドルの債務を抱えており、高い成長率と財務的な脆弱性が同居している状況だ。\n\nコア・ウィーブの株価は決算発表後12%上昇したが、巨額の負債は今後の事業継続リスクや利子負担の課題をもたらす可能性がある。AI インフラベンダーは成長市場で急速な拡大を目指す一方、金融の健全性と成長性のバランスが問われ始めている。",
+    "tags": [
+      "ビジネス",
+      "AI",
+      "インフラ",
+      "決算"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
+    "importance": 4,
+    "image_query": "stock market trading finance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1707761918029-1295034aa31e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxzdG9jayUyMG1hcmtldCUyMHRyYWRpbmclMjBmaW5hbmNlfGVufDF8MHx8fDE3ODY0ODM1ODN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jakub Żerdzicki",
+      "profileUrl": "https://unsplash.com/@jakubzerdzicki?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "smartphone calculator on desk with financial charts behind",
+      "description": "Currencies and finance. Stock exchange. Calculator on the table"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:23.395Z",
+    "publishedAt": "2026-08-11T20:59:12.000Z"
+  },
+  {
+    "slug": "20260812-08",
+    "headline": "ロシア、ウクライナで4600超の文化遺産を破壊・損傷、国家的損失が深刻化",
+    "lead": "ウクライナ文化省の発表によると、ロシア軍による攻撃で4615の文化遺産が破壊・損傷。141の博物館・美術館が被害を受け、文化的な国家損失が加速している。",
+    "body_markdown": "ウクライナの文化省が2026年7月31日時点で、ロシア軍の攻撃により4615の文化施設が破壊または損傷したと報告した。内訳は1990の文化遺産施設と2625の文化インフラ施設。ウクライナ国立美術館やオデーサ国立美術館を含む141の博物館・美術館、196の芸術教育機関が被害を受けた。\n\nさらに、ウクライナ全体の約1/4の地域で文化施設が影響を受け、コミュニティ文化センターの約半数が被害を被っている。UNESCO 世界遺産に登録された遺跡も含まれており、戦争による文化破壊の規模は計り知れない。この大規模な文化遺産喪失は、ウクライナの歴史的・文化的アイデンティティに対する直接的な攻撃であり、戦後復興の長期課題となる。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "文化遺産",
+      "戦争犯罪"
+    ],
+    "section": "国際・地政学",
+    "source": "Hyperallergic",
+    "link": "https://hyperallergic.com/russia-has-damaged-or-destroyed-over-4-500-cultural-sites-in-ukraine/",
+    "importance": 4,
+    "image_query": "destroyed building ruins war",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1634646767489-745580df1cbf?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMHx8ZGVzdHJveWVkJTIwYnVpbGRpbmclMjBydWlucyUyMHdhcnxlbnwxfDB8fHwxNzg2NDgzNTg0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ümit Yıldırım",
+      "profileUrl": "https://unsplash.com/@umityildirim?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a very old building with a very big window",
+      "description": "Ghost Town Kayaköy / Livissi. \nWith origins in the 14th century, Kayaköy was forcefully abandoned at the end of the Greco-Turkish War when a population exchange meant that Muslims and Christians were exchanged between Greece and Turkey so that each country could claim one major religion in the path toward ethnic and national homogeneity.\nToday Kayaköy village serves as a museum and is a historical monument. Around 500 houses remain as ruins and are under the protection of the Turkish government.\n\nSources: Wikipedia, theculturetrip.com"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:24.431Z",
+    "publishedAt": "2026-08-11T20:27:32.000Z"
+  },
+  {
+    "slug": "20260812-09",
+    "headline": "米国の対イラン封鎖を突破しようとした貨物船に米ヘリが砲撃、ホルムズ海峡が再び緊迫",
+    "lead": "米中央軍が、米国の対イラン封鎖を突破しようとしたパナマ船籍の貨物船に対してヘリコプターから砲撃を実施。湾岸地域の地政学的緊張が再び高まっている。",
+    "body_markdown": "米中央軍が、米国の対イラン海上封鎖を突破しようとしたパナマ船籍の貨物船「ベラ・ノバ」にヘリコプターから砲撃を行ったとアルジャジーラが報道した。エンジンルームを狙った攻撃で、船舶の航行を無力化したとみられる。\n\n船舶はイランの港へ向かうために米国の対イラン封鎖に違反しようとしており、米中央軍がこれを軍事力で阻止した形となる。米国がこれを軍事力で対抗する形が続いており、外交的な解決が見通せないまま軍事衝突のリスクが高まっている。湾岸地域の商業航行に対する脅威と、米イラン関係の膠着が長期化する様相を見せている。",
+    "tags": [
+      "国際",
+      "地政学",
+      "イラン",
+      "米国"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade",
+    "importance": 4,
+    "image_query": "cargo ship military vessel ocean",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1682636150538-1180181f9fa6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxjYXJnbyUyMHNoaXAlMjBtaWxpdGFyeSUyMHZlc3NlbCUyMG9jZWFufGVufDF8MHx8fDE3ODY0ODM1ODV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jacob Fryer",
+      "profileUrl": "https://unsplash.com/@jacobfryer?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large cargo ship in the middle of the ocean",
+      "description": "A cargo-ship sailing on Scottish waters. Taken on Sony a6400 @jacobfryers on instagram"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:25.228Z",
+    "publishedAt": "2026-08-11T19:58:12.000Z"
+  },
+  {
+    "slug": "20260812-10",
+    "headline": "OpenAI幹部ブラッド・ライトキャップが退社、新たな事業構想へ",
+    "lead": "OpenAI の COO 兼特別プロジェクト責任者ブラッド・ライトキャップが、8年間の在籍を経て退社を発表。次のステップへの意図は明らかになっていない。",
+    "body_markdown": "OpenAI の長年の幹部であるブラッド・ライトキャップが退社を発表した。特別プロジェクト責任者および前 COO として8年間の勤務を終え、「何か新しいことを始める」とX で述べた。ライトキャップは内部メモで「ここ数ヶ月、次の地平線と何がミッション成功を妨げるかに注力してきた。この次の時期に世界が実現する必要があることが、いくつかあると信じている」とコメント。\n\nOpenAI では近年、経営層の離職が増えており、組織の変動が続いている。ライトキャップの次のキャリア展開や起業の可能性は業界内で注目を集めており、彼がどのような新しい企業や事業に関わるかが注目される。",
+    "tags": [
+      "AI",
+      "OpenAI",
+      "人事",
+      "経営"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
+    "importance": 3,
+    "image_query": "office meeting corporate",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:25.229Z",
+    "publishedAt": "2026-08-11T17:50:01.000Z"
+  },
+  {
+    "slug": "20260812-11",
+    "headline": "Meta、州による1兆4千億ドル規模の訴訟を止められず、セクション230弁護が通用しない判定",
+    "lead": "米裁判所が、セクション230は Meta の免責を保証しないと判定。1兆4千億ドル規模の州訴訟が裁判に進む可能性が高まった。",
+    "body_markdown": "米国の複数州が Meta に対して1兆4千億ドル（$1.4 trillion）の訴訟を起こしたなか、連邦判事は Meta がセクション230の盾として使用できないと判定した。セクション230は通常、ソーシャルメディア企業がユーザー生成コンテンツについて責任を負わないことを保護するネット通信品位法の条項だ。\n\n判事は、セクション230 が弁護ではあるが「訴訟却下の根拠にはならない」と述べた。つまり、Meta が完全に法的責任から逃れることはできず、訴訟が裁判にまで進む可能性が高まったことを意味する。これは Big Tech 企業に対する州政府の規制的圧力が強まる中での重要な判決であり、プラットフォーム企業の法的責任についての今後の指標となる。",
+    "tags": [
+      "テクノロジー",
+      "法律",
+      "Meta",
+      "セクション230"
+    ],
+    "section": "テクノロジー",
+    "source": "Ars Technica",
+    "link": "https://arstechnica.com/tech-policy/2026/08/meta-cant-stop-states-1-4-trillion-lawsuit-from-going-to-trial/",
+    "importance": 3,
+    "image_query": "courtroom law legal judgment",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:25.231Z",
+    "publishedAt": "2026-08-11T20:27:16.000Z"
+  },
+  {
+    "slug": "20260812-12",
+    "headline": "Apple、iPhone写真の真正性証明システムを開発、ディープフェイク対策へ",
+    "lead": "Apple が iOS 27 ベータで「Reference Image」機能を開発中。iPhone カメラで撮影した写真の真正性を検証でき、AI 生成画像との判別が可能になる見込みだ。",
+    "body_markdown": "Apple は iOS 27 ベータのコード内に「Apple Reference Image」システムへの言及を含めた。このシステムは、iPhone カメラで撮影した時点で写真に出所情報を組み込み、ユーザーが後から真正性を証明できるようにするもの。9to5Mac の報道によると、機能は初期段階では無効化され、ユーザーが Settings > Camera > Reference Image > Reference Mode で有効化する形式を想定している。\n\nこのアプローチは、ディープフェイクやAI生成画像による詐欺や情報操作に対抗する重要な防衛手段となり得る。写真が本当に iPhone で撮影されたものであることを暗号化されたメタデータで証明することで、デジタル信頼の基盤を強化しようとしている。",
+    "tags": [
+      "テクノロジー",
+      "セキュリティ",
+      "Apple",
+      "ディープフェイク"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata",
+    "importance": 3,
+    "image_query": "smartphone camera photography",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:25.233Z",
+    "publishedAt": "2026-08-11T16:19:15.000Z"
+  },
+  {
+    "slug": "20260812-13",
+    "headline": "Zoom画面共有の脆弱性が深刻、AI で20未満のプロンプトから遠隔操作が可能に",
+    "lead": "Zoom の画面共有機能に重大なセキュリティ脆弱性が発見。AI を使えば20未満のプロンプトで他人のデバイスを完全に制御できることが判明、直ちにパッチが適用された。",
+    "body_markdown": "セキュリティ研究者が、Zoom の画面共有機能に重大な脆弱性「Zoomsday」を発見したと The Verge が報道した。同脆弱性を使えば、会議の参加者が他の参加者のデバイスに対して悪意あるコードを実行でき、カメラやマイクの制御、データ窃取、マルウェアのインストールが可能になる。\n\n最も懸念される点は、攻撃者が公開 AI モデルで20未満のプロンプトを試すだけで この脆弱性を発見・悪用できることだ。Zoom のアノテーション機能（ユーザーが画面上に描画できる機能）が攻撃入口となり、リモートコード実行を可能にしていた。Zoom はただちにパッチをリリースし、企業ユーザーにはこの脆弱性への対応を強く勧奨している。",
+    "tags": [
+      "セキュリティ",
+      "Zoom",
+      "脆弱性",
+      "AI"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack",
+    "importance": 3,
+    "image_query": "video conference screen vulnerability",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:25.234Z",
+    "publishedAt": "2026-08-11T14:45:44.000Z"
+  },
+  {
+    "slug": "20260812-14",
+    "headline": "Spotify、AI 生成アーティスト・プロフィールにラベル付け・推奨から除外",
+    "lead": "Spotify が「AI Persona」ラベルを導入。AI 生成アーティストの楽曲を、デフォルトで編集・アルゴリズム・パーソナライズ推奨から除外する措置を取る。",
+    "body_markdown": "Spotify が音楽ストリーミング上で「AI Persona」ラベルを付けるアーティスト・プロファイルを区別する機能を導入すると発表した。AI 生成アイデンティティによるアーティストプロフィールは、デフォルトで編集キュレーション、アルゴリズム推奨、およびパーソナライズ推奨から除外される。\n\nこの措置は、AI によって生成されたアーティストの楽曲が不正に拡散することを防ぎ、人間のアーティストへのプラットフォーム上での可視性と機会を守るものだ。音楽業界は AI 生成コンテンツの拡大に対応する一方で、創作者の権利保護と聴者の信頼維持に向けて、プラットフォーム側の区別と透明化を求め始めている。",
+    "tags": [
+      "音楽",
+      "AI",
+      "Spotify",
+      "プラットフォーム"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/",
+    "importance": 3,
+    "image_query": "music streaming app interface",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:25.237Z",
+    "publishedAt": "2026-08-11T13:00:00.000Z"
+  },
+  {
+    "slug": "20260812-15",
+    "headline": "ガザの天幕暮らしの寡婦たち、戦争による孤立と貧困に直面",
+    "lead": "ガザの避難民キャンプで生存者を失った寡婦たちが、社会的孤立と経済的困窮に苦しんでいる。女性の二重の困難が浮き彫りになっている。",
+    "body_markdown": "Al Jazeera の報道によると、ガザの避難民キャンプに暮らす寡婦たちが、夫を失った喪失感だけでなく、社会的な孤立と生活苦に直面している。キャンプ内での生活は食料確保から身の安全まで日々の課題であり、一家の大黒柱を失った女性たちは限定された雇用機会と社会からの支援不足の中で生き延びている。\n\n家父長制の社会構造とともに、戦争による破壊が女性の脆弱性をさらに深刻化させている。子どもたちの教育や健康管理、住居確保など、寡婦が一人で担わなければならない責任は極めて重い。人道的支援は急務となり、女性とりわけ寡婦への専門的サポートと経済的自立支援が国際社会の重要な課題となっている。",
+    "tags": [
+      "国際",
+      "人道支援",
+      "ガザ",
+      "女性"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/11/in-gazas-tents-widows-face-wars-harshest-realities-alone",
+    "importance": 3,
+    "image_query": "refugee tent camp humanitarian",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:25.238Z",
+    "publishedAt": "2026-08-11T20:30:11.000Z"
+  },
+  {
+    "slug": "20260812-16",
+    "headline": "OpenAI、ChatGPT デスクトップアプリを Linux に対応、Windows/Mac に続き",
+    "lead": "OpenAI が、ChatGPT 専用デスクトップアプリを Linux 向けにようやくリリース。Windows と macOS に続く、主要 OS への完全対応が実現した。",
+    "body_markdown": "OpenAI は ChatGPT デスクトップアプリケーションの Linux 版をリリースしたと TechCrunch が報道した。これまで Windows と macOS には専用アプリが提供されていたが、Linux ユーザーはブラウザ版に頼らざるを得なかった。Linux 版リリースにより、開発者やテック企業の多くが使用する OS でもネイティブアプリの体験が可能になる。\n\n専用アプリは、ブラウザよりもスムーズなパフォーマンス、ローカル統合、および常時利用可能なアクセスを提供する。Linux コミュニティは長らく OpenAI の Linux 対応を要求していたため、この提供は開発者層から好意的に受け取られている。主要 OS への対応完了は、ChatGPT の普及拡大と、エンタープライズ向け関心の高さを示唆している。",
+    "tags": [
+      "AI",
+      "OpenAI",
+      "ChatGPT",
+      "Linux"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+    "importance": 3,
+    "image_query": "computer software application screen",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:25.240Z",
+    "publishedAt": "2026-08-11T19:15:35.000Z"
+  },
+  {
+    "slug": "20260812-17",
+    "headline": "Abbott、Google Health と連携して AI 血糖値モニタリングシステムを開発",
+    "lead": "医療機器大手 Abbott が Google Health と協力し、AI による継続的な血糖値管理システムの開発を発表。糖尿病患者の自己管理が革新される可能性がある。",
+    "body_markdown": "Engadget の報道によると、医療機器メーカー Abbott が Google Health と提携し、AI を使った血糖値モニタリングシステムの開発を進めている。このシステムは、患者の血糖レベルをリアルタイムで追跡し、AI が個人の食事・運動・医療パターンに基づいて管理提案を提供する。\n\n糖尿病患者の多くは日々の血糖管理を手動で行う必要があり、その負担は大きい。AI による自動管理と予測分析は、患者の生活の質向上と、入院・合併症のリスク低減をもたらす可能性がある。大手テック企業と医療機器企業の連携は、医療 AI の実装化を加速させ、慢性疾患管理の形を変えつつある。",
+    "tags": [
+      "医療",
+      "AI",
+      "Google",
+      "健康管理"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2234851/abbott-partners-with-google-health-for-ai-powered-glucose-monitoring/",
+    "importance": 3,
+    "image_query": "medical device health monitoring",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:25.241Z",
+    "publishedAt": "2026-08-11T18:35:34.000Z"
+  },
+  {
+    "slug": "20260812-18",
+    "headline": "CME、AI コンピュート能力を商品化、先物市場が10月開設へ",
+    "lead": "米シカゴマーカンタイル取引所（CME）が、AI コンピューティング能力を取引可能な資産クラスとして商品化。10月から先物契約を開始する計画を発表した。",
+    "body_markdown": "CME は Silicon Data と提携し、AI コンピューティング能力を取引対象にする先物商品を10月5日の取引開始を目指して準備中だ。規制当局の認可を前提に、2つのコンピューティング先物契約がローンチされる。\n\nこの動きは、GPU リソースと AI インフラがコモディティ化しつつあることを示唆している。企業は物理的な GPU 保有ではなく、先物を通じてコンピューティング能力の価格変動をヘッジできるようになり、AI インフラのコスト管理が金融市場で一層複雑化する。商品化により、AI インフラコストの透明性と流動性が大幅に高まることが期待される。",
+    "tags": [
+      "ビジネス",
+      "先物",
+      "AI",
+      "コモディティ"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/11/ai-computing-power-becomes-a-tradable-asset-class-as-cme-starts-futures.html",
+    "importance": 3,
+    "image_query": "stock market trading exchange",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:25.242Z",
+    "publishedAt": "2026-08-11T18:09:08.000Z"
+  },
+  {
+    "slug": "20260812-19",
+    "headline": "ロシア、人道的配慮で抑留米兵を解放、トランプ大統領が人道外交を表現",
+    "lead": "ロシアが、2022年から抑留していた米国の退役海兵 Robert Gilman を解放。トランプ大統領が人道的配慮による外交勝利と表現している。",
+    "body_markdown": "BBC World の報道によると、ロシアが米国の退役海兵 Robert Gilman を人道的配慮により解放したと発表した。Gilman は 2022 年にロシアで逮捕されて以来、カタトニア様の状態で抑留されていたとされている。トランプ大統領はこの解放を人道外交の成果として表現し、米ロ関係の部分的な改善を示唆している。\n\nロシアによる米国人抑留者の解放は、米ロ関係の緊張緩和の試みと解釈される一方、ウクライナ戦争など根本的な対立は継続中だ。単一の人道的決定が大きな地政学的現象に直接変化をもたらすことはないが、両国間でわずかな交渉チャネルが開かれている可能性を示唆している。",
+    "tags": [
+      "国際",
+      "地政学",
+      "ロシア",
+      "米国"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cvgj4m8e1ryo",
+    "importance": 3,
+    "image_query": "prisoner release diplomatic meeting",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:25.242Z",
+    "publishedAt": "2026-08-11T17:02:22.000Z"
+  },
+  {
+    "slug": "20260812-20",
+    "headline": "菌類から抽出した「キチン」が医療用ハイドロゲルの強度を大幅向上、医療機器革新へ",
+    "lead": "米オークリッジ国立研究所が、菌由来のキチンを使用した新型ハイドロゲルを開発。医療機器と軟性ロボットの耐久性が飛躍的に改善される見込み。",
+    "body_markdown": "米国エネルギー省傘下のオークリッジ国立研究所（ORNL）とテネシー大学ノックスビル校の研究チームが、菌の細胞壁由来の天然物質「キチン」を使用した新しいハイドロゲル材料を開発したと Phys.org が報道した。このハイドロゲルは従来型よりも顕著に強度と柔軟性が高く、医療機器、生体コーティング、軟性ロボットなど複数分野での応用が期待される。\n\nハイドロゲルは医療デバイス、ドラッグデリバリー、組織工学の基材として重要だが、強度と柔軟性のバランスが課題だった。キチンの導入により、これらの性能が革新される可能性がある。生体適合性と天然由来の安全性を兼ねるこの材料は、医療技術の次世代を切り開く基盤技術となる可能性を秘めている。",
+    "tags": [
+      "サイエンス",
+      "医療",
+      "材料科学",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-fungal-chitin-route-tougher-hydrogels.html",
+    "importance": 3,
+    "image_query": "laboratory research microscope",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:25.242Z",
+    "publishedAt": "2026-08-11T21:00:05.000Z"
+  },
+  {
+    "slug": "20260812-21",
+    "headline": "バーナム英首相、PC ハーパー殺人犯の早期釈放阻止に「ますます自信がある」と表明",
+    "lead": "英国のアンディ・バーナム首相が、獄中釈放スキームの改正により、警察官 Andrew Harper 殺人犯が来年の早期釈放を免れると主張。獄舎収容危機と司法判断の間での困難な決定が続く。",
+    "body_markdown": "BBC Politics の報道によると、バーナム首相は獄舎過剰収容を緩和する新スキーム下でも、Albert Bowers と Jessie Cole（Andrew Harper 警察官の殺人犯で 2020 年に懲役 13 年判決）が来年の早期釈放対象から除外される可能性が高まったと述べた。首相は司法相に、獄舎収容数増加のための一連の対策を急速に推し進めるよう指示している。\n\n獄舎過剰収容という深刻な危機の中で、社会的関心が高い重大犯罪者の早期釈放を阻止する決定は政治的に難しい。バーナムは複数の獄舎拡張オプションを検討しており、その実現可能性と財政的負担が今後の課題となる。",
+    "tags": [
+      "政治",
+      "司法",
+      "英国",
+      "犯罪"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/politics/2026/aug/11/andy-burnham-justice-secretary-early-release-scheme-pc-andrew-harper-killers",
+    "importance": 3,
+    "image_query": "courtroom prison gavel",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:25.243Z",
+    "publishedAt": "2026-08-11T11:09:37.000Z"
+  },
+  {
+    "slug": "20260812-22",
+    "headline": "ペルセウス流星群、2026年は特に好条件、8月12～13日に見頃を迎える",
+    "lead": "ペルセウス流星群が 8 月 12～13 日にピークを迎える。2026 年は月明かりが少なく、天文観測に最適な好条件が揃っている。",
+    "body_markdown": "WIRED の報道によると、ペルセウス流星群が 8 月 12～13 日に見頃を迎える。今年は月齢が流星観測に有利で、暗い空で最大数百個の流星が期待される。観測の条件は地域によって異なり、都市部の光害の少ない場所が最適だ。\n\n流星群は毎年繰り返される現象だが、月の位置や天気など複数の要因によって観測条件が変わる。2026 年のペルセウス流星群は特に天文愛好家にとって理想的な観測環境となり、北半球からの観測が有利だ。夜間に肉眼で観測可能で、特別な機器を必要としないため、一般向けの天文イベントとしても人気が高い。",
+    "tags": [
+      "天文",
+      "自然",
+      "科学",
+      "イベント"
+    ],
+    "section": "サイエンス",
+    "source": "WIRED",
+    "link": "https://www.wired.com/story/how-and-when-to-view-the-perseid-meteor-shower-august-2026/",
+    "importance": 3,
+    "image_query": "meteor shower night sky stars",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:25.243Z",
+    "publishedAt": "2026-08-11T19:15:40.000Z"
+  },
+  {
+    "slug": "20260812-23",
+    "headline": "アイスランド・スペイン、皆既日食見物客で沸く、ホテル客室が通常の2倍に値上がり",
+    "lead": "ヨーロッパで初となる今世紀の皆既日食を前に、観光地のホテル料金が急騰。アイスランド・レイキャビクでは通常の2倍の価格設定に。",
+    "body_markdown": "The Guardian が報道したところによると、ヨーロッパ大陸での初となる今世紀の皆既日食を見学するため、観光客が殺到し、ホテル料金が急上昇している。アイスランドの首都レイキャビクでは、客室料金が通常の 2 倍に跳ね上がっており、スペインも高い宿泊需要を記録している。\n\n皆既日食は数十年に一度という天文現象で、見学地の観光施設に大きな経済効果をもたらす。一方で、宿泊費の急騰は低予算の観光客を締め出し、格差を拡大させる側面もある。天文イベントによる観光経済の変動は、地域の観光インフラと価格設定戦略に大きな影響をもたらす。",
+    "tags": [
+      "観光",
+      "ビジネス",
+      "天文",
+      "ヨーロッパ"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/travel/2026/aug/11/hotel-prices-europe-total-solar-eclipse-iceland-spain-bookings",
+    "importance": 3,
+    "image_query": "eclipse solar phenomenon sky",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T21:26:25.244Z",
+    "publishedAt": "2026-08-11T10:50:12.000Z"
+  },
+  {
     "slug": "20260811-24",
     "headline": "NVIDIA多言語音声AI「Magpie TTS」低遅延で公開",
     "lead": "NVIDIAが12言語対応の音声合成モデルを開発。フレームスタッキングで低遅延を実現し、エージェント会話の応答性が向上。",
