@@ -1,5 +1,544 @@
 [
   {
+    "slug": "20260811-24",
+    "headline": "NVIDIA多言語音声AI「Magpie TTS」低遅延で公開",
+    "lead": "NVIDIAが12言語対応の音声合成モデルを開発。フレームスタッキングで低遅延を実現し、エージェント会話の応答性が向上。",
+    "body_markdown": "NVIDIAは364Mパラメータのオープンウェイト音声合成モデル「Magpie TTS」を発表した。英語、スペイン語、フランス語、ドイツ語、イタリア語、ベトナム語、標準中国語、ヒンディー語、日本語、アラビア語、韓国語、ブラジルポルトガル語の12言語に対応する。\n\n音声エージェント構築の課題は応答遅延にある。従来型の音声合成は処理時間がボトルネックになり、自然な会話を実現できなかった。Magpieは「フレームスタッキング」技術により、デコーダが1ステップで2フレームの音声を予測し、ローカルトランスフォーマーで推論時間を短縮する。B200ハードウェア上で単一ストリームの場合32ms、64並行ストリームでも239msの音声出力開始時間を達成した。\n\n展開制御もポイントだ。NVIDIAのNIMコンテナで自社インフラに配置でき、データレジデンシー要件への対応やレイテンシー最適化がカスタマイズできる。男性・女性声の両対応と、ヒンディー語・日本語のコードスイッチング機能も備えた。会話型AIシステムでは音声処理が全体パフォーマンスの足を引っ張らないため、Magpieのような低遅延モデルは実用性に直結する。",
+    "tags": [
+      "NVIDIA",
+      "音声合成",
+      "AI",
+      "多言語"
+    ],
+    "section": "テクノロジー",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+    "importance": 4,
+    "image_query": "voice speech synthesis audio",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/68127936de624fb6f57d9989/Ol-uDBWtBtVDbowXgP-Un.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:44.556Z",
+    "publishedAt": "2026-08-10T16:25:36.000Z"
+  },
+  {
+    "slug": "20260811-25",
+    "headline": "OpenAI、サイバー防御「Daybreak」を赤青2階層に展開",
+    "lead": "OpenAIがサイバー防御者向けプログラムDaybreakを2つのアクセス階層で拡張。ゼロデイ脆弱性検出専用のGPT-5.6-Cyberを投入。",
+    "body_markdown": "OpenAIはサイバー防御イニシアティブ「Daybreak」を拡張し、認可された防御者向けに2つのアクセス層を導入した。「Daybreak Blue」は汎用高度モデル「GPT-5.6 Sol」へのアクセスを提供し、脆弱性発見・安全なコード査読・マルウェア分析・インシデント対応・パッチ検証など防御作業に最適化された安全措置を備える。\n\n「Daybreak Red」はサイバーセキュリティ特化型モデルへアクセスでき、認可される脆弱性研究とエクスプロイト検証・セキュリティテストといったより高リスク防御活動に対応する。新たに開発した「GPT-5.6-Cyber」はDaybreak Redの専用モデルで、ゼロデイ脆弱性検出やエクスプロイトチェーン開発といった敏感な防御タスクに対応し、デュアルユース要求の拒否を削減している。\n\n性能差は顕著だ。GPT-5.6-Cyberは高度サイバー防御タスクで95.0%の完了率を達成、GPT-5.6 Solが1.5%、前世代モデルが57.3%だったのと比較して大幅な向上だ。OpenAIは攻撃者がAI駆動の全規模攻撃を展開する前に、信頼できる防御者に最先端能力を届ける必要があると述べている。",
+    "tags": [
+      "OpenAI",
+      "サイバーセキュリティ",
+      "AIモデル"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/article/2608/11/2000000496/",
+    "importance": 4,
+    "image_query": "cybersecurity hacker code",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxjeWJlcnNlY3VyaXR5JTIwaGFja2VyJTIwY29kZXxlbnwxfDB8fHwxNzg2NDQwMTA1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mika Baumeister",
+      "profileUrl": "https://unsplash.com/@kommumikation?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "flat screen computer monitor displaying white and black screen",
+      "description": "Someone programming a website in HTML. But also a photo suitable for hackers. ;) "
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:45.510Z",
+    "publishedAt": "2026-08-11T02:48:40.000Z"
+  },
+  {
+    "slug": "20260811-26",
+    "headline": "ウォール街6社がNvidia に500億ドル投資、AI基盤整備加速",
+    "lead": "Apollo・BlackRock・ゴールドマン・KKRら大手6社がNvidiaと協力し、データセンター・チップ工場・電力網へ500億ドル超を注入。",
+    "body_markdown": "Nvidia最高経営責任者Jensen Huang氏は、ウォール街大手6社との提携により500億ドル超の資金調達枠組みを発表した。Apollo Global Management、BlackRock、ゴールドマン・サックス、KKR、State Street、Carlyle Groupが関与する。\n\nAI基盤の資本集約性が深刻化する中での決定だ。データセンターの構築・運用・冷却には莫大な資金が必要で、AI学習・推論を支えるチップ積層構造は何マイルもの規模に達する。この資金は主にデータセンター、半導体工場、電力網といったAI急需を支える物理インフラに充てられる。\n\nHuang氏はX(旧Twitter)で「NvidiaとAI産業にとって大きな転機だ」と投稿。ウォール街とテックのリーダーが笑顔で親指を立てる写真を添えた。ジェネレーティブAIの商用化競争は、ハードウェア・電力・冷却といった基盤設備争いに収斂しつつあり、この500億ドル超枠組みは業界の構造転換を象徴している。",
+    "tags": [
+      "Nvidia",
+      "AI投資",
+      "データセンター",
+      "ウォール街"
+    ],
+    "section": "ビジネス",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/c78gr0jv0mdo",
+    "importance": 5,
+    "image_query": "data center servers infrastructure",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1594915440248-1e419eba6611?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8ZGF0YSUyMGNlbnRlciUyMHNlcnZlcnMlMjBpbmZyYXN0cnVjdHVyZXxlbnwxfDB8fHwxNzg2NDQwMTA2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Kirill Sh",
+      "profileUrl": "https://unsplash.com/@kirill2020?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "green and white electric device",
+      "description": "Optic-fiber telecommunication equipment in rack"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:46.535Z",
+    "publishedAt": "2026-08-11T08:44:52.000Z"
+  },
+  {
+    "slug": "20260811-27",
+    "headline": "シリア 旧大統領アサド死刑判決、戦争犯罪初の有罪確定",
+    "lead": "ダマスカス刑事裁判所がシリア前大統領アサド、政治保安部長ナジブに死刑判決。2011年の人道に対する罪を認定。",
+    "body_markdown": "ダマスカスの刑事裁判所は8月11日、シリア前大統領バシャール・アル・アサド氏と、ダラア州政治保安部長アテフ・ナジブ氏に死刑判決を下した。\n\nアサド氏は「殺人罪」で有罪とされ、ナジブ氏は「殺人罪および拷問罪」に問われた。裁判所の判断は重大だ。同席判断により「2011年にダラア州でアサド政権が実行した犯罪は人道に対する罪に該当する」と認定された。ダラア州は2011年3月、シリア内戦の引火点となり、子どもたちが反政権スローガン落書きで逮捕・拷問された場所だ。\n\nこれはシリア和平後の初の本格的戦争犯罪裁判である。独立的な国際機構ではなく、ダマスカス刑事裁判所による判決だけに、国際法上の解釈や実行可能性については議論があるが、シリア民間人社会や紛争被害者からは画期的な進展と受け止められている。2011年以来15年にわたる内戦で数十万人が殺害され、百万人以上が難民化した。この判決が司法的区切りとなるか、今後の展開が注視される。",
+    "tags": [
+      "シリア",
+      "戦争犯罪",
+      "国際法"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/11/bashar-al-assad-atef-najib-sentenced-to-death-in-landmark-syria-trial",
+    "importance": 5,
+    "image_query": "court law justice",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1772096168169-1b69984d2cfc?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8Y291cnQlMjBsYXclMjBqdXN0aWNlfGVufDF8MHx8fDE3ODY0NDAxMDd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sasun Bughdaryan",
+      "profileUrl": "https://unsplash.com/@sasun1990?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Lady justice and gavel on a blue background",
+      "description": "law theme, mallet of the judge and scales of justice on a blue background"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:47.183Z",
+    "publishedAt": "2026-08-11T08:27:57.000Z"
+  },
+  {
+    "slug": "20260811-28",
+    "headline": "コロンビア M7.4地震で111人死亡、21世紀最大規模",
+    "lead": "8月10日、コロンビア西部でマグニチュード7.4地震。111人が死亡、1600棟以上の建物被害。",
+    "body_markdown": "南米コロンビアで8月10日現地時間7時34分、マグニチュード7.4の地震が発生した。震源は西部チョコ州サンホセデルパルマル付近で、ボゴタから約400km西方。\n\n被害は深刻だ。少なくとも111人が死亡し、87人が負傷。約1600棟の建物が損傷し、少なくとも61棟が完全倒壊した。第3の都市カリ、ペレイラ、キイブド、マニサレスなど複数の大都市が揺れに襲われ、震動はエクアドル・パナマにも波及した。\n\nコロンビア地質調査所は「21世紀最大」と確認。太平洋火山帯上に位置する地質的に活発な地域で、複数の余震が相次いだ。緊急事態宣言がアベラルド・デ・ラ・エスプリエラ大統領により発令され、米国は1550万ドルの援助を約束。エルサルバドル、メキシコ、チリを含む複数のラテンアメリカ諸国が支援を申し出た。\n\n被災地では倒壊建物の下からの救出作業が進行中である。",
+    "tags": [
+      "地震",
+      "自然災害",
+      "コロンビア"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-magnitude-quake-western-colombia-people.html",
+    "importance": 5,
+    "image_query": "earthquake disaster collapsed building",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1677233859838-be47b0ab6c4a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxlYXJ0aHF1YWtlJTIwZGlzYXN0ZXIlMjBjb2xsYXBzZWQlMjBidWlsZGluZ3xlbnwxfDB8fHwxNzg2NDQwMTA3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Çağlar Oskay",
+      "profileUrl": "https://unsplash.com/@oskaycaglar?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a couple of cars that are parked in front of a building",
+      "description": "İskenderun, Hatay Turkey - February.07,2023: In Iskenderun, one of the places most affected by the 7.7 magnitude earthquake centered in Kahramanmaraş, many buildings were destroyed and people died."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:47.977Z",
+    "publishedAt": "2026-08-11T06:36:14.000Z"
+  },
+  {
+    "slug": "20260811-29",
+    "headline": "トランプ氏、ホルムズ海峡「全支配宣言」、イランに賠償要求",
+    "lead": "トランプ米大統領がホルムズ海峡の完全支配宣言。イランへの賠償要求で緊張高まる。米・イラン交渉膠着状態深刻化。",
+    "body_markdown": "トランプ米大統領は、戦略的要衝ホルムズ海峡に対する「完全支配」を宣言し、イランに賠償金の支払いを要求した。米・イラン間の地域紛争は交渉膠着状態へ突入。\n\nワシントンとテヘランが打ち出した相互立場は、依然として大きな隔たりを示している。トランプ大統領の発言は、地域緊張を一層高める可能性を秘める。ホルムズ海峡は世界石油輸送量の約30%が通過する要衝で、米国とイランの対立激化は国際石油市場にも直接波及する。\n\n両国がイラク軍事紛争の部分的緩和を協議していたものの、トランプ氏の「支配宣言」とイランへの賠償要求は、交渉の継続可能性に疑問を投げかける。中東地域で米国とイランの軍事的対立再燃への懸念が広がっている。",
+    "tags": [
+      "トランプ",
+      "イラン",
+      "ホルムズ海峡",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/11/us-iran-war-trump-hormuz-control-reparation-talks-.html",
+    "importance": 4,
+    "image_query": "oil tanker strait shipping",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1582517378602-f109b395ce40?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxvaWwlMjB0YW5rZXIlMjBzdHJhaXQlMjBzaGlwcGluZ3xlbnwxfDB8fHwxNzg2NDQwMTA4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Venti Views",
+      "profileUrl": "https://unsplash.com/@ventiviews?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "aerial view of city buildings beside body of water during daytime",
+      "description": "A red oil tanker shot from directly above. "
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:48.649Z",
+    "publishedAt": "2026-08-11T08:24:22.000Z"
+  },
+  {
+    "slug": "20260811-30",
+    "headline": "トランプ氏、トルコ上空で秘密機転換、イラン脅威で脱出",
+    "lead": "トランプ米大統領がNATO会合後、トルコで航空機を秘密転換。イラン系武装勢力の脅威に対応し、老朽ボーイング747から小型C-32Aへ。",
+    "body_markdown": "トランプ米大統領は7月8日、トルコ・アンカラでの北大西洋条約機構(NATO)首脳会談後、飛行中の航空機を秘密裏に転換した。ホワイトハウス関係者によると、イラン系武装勢力による信頼性の高い脅威が理由だった。\n\nトランプ氏は搭乗予定だった老朽ボーイング747ではなく、給仕用コンテナに隠し運ばれ、小型のC-32A軍用機に移乗された。老朽ボーイング747は誘い出し目的で運用され、同時にトランプ氏は小型機でイギリスに向かった。随行記者団は窓を閉めるよう指示され、警備上の懸念が募った。\n\nホワイトハウス通信部長は「トランプ大統領には多くの米国の敵がおり、我々は利用可能なあらゆる手段でそうした脅威に対応している」と述べた。英国到着後、トランプ氏はメディアに姿を見せ、その後、カタール寄贈の新型エアフォースワンでワシントンDCへ飛行した。",
+    "tags": [
+      "トランプ",
+      "イラン",
+      "セキュリティ"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/11/iran-threat-prompted-secret-trump-flight-from-turkiye-reports",
+    "importance": 3,
+    "image_query": "aircraft military jet airplane",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:48.652Z",
+    "publishedAt": "2026-08-11T08:18:08.000Z"
+  },
+  {
+    "slug": "20260811-31",
+    "headline": "ゼレンスキー警告、プーチン北朝鮮軍事装備投入へ",
+    "lead": "ウクライナのゼレンスキー大統領がプーチン露大統領による北朝鮮軍事装備導入を警告。露による攻撃激化の兆候。",
+    "body_markdown": "ウクライナのウラジミール・ゼレンスキー大統領は、ロシアのウラジミール・プーチン大統領が北朝鮮から軍事装備を導入し、攻撃をエスカレートさせる準備を進めていると警告した。深夜にかけて複数の露軍による襲撃がウクライナの複数都市を襲った直後の発言だ。\n\n北朝鮮からの武器・装備の導入は、ロシアの軍事力増強戦略の新局面を示唆している。露軍による空爆・ドローン・砲撃は日増しに激化し、ウクライナ軍の防空ミサイル在庫は急速に枯渇している。ゼレンスキー氏の警告は、東部戦線での戦況悪化とロシア側の軍事的優位拡大を反映している。\n\nウクライナは西側からのミサイル・防空システム供給を急務としており、米国・欧州との防衛協力が存続の鍵を握っている。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "北朝鮮"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/11/ukraine-war-zelenskyy-russia-putin-north-korea.html",
+    "importance": 4,
+    "image_query": "military conflict warfare",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1772980218106-882a80df9993?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8bWlsaXRhcnklMjBjb25mbGljdCUyMHdhcmZhcmV8ZW58MXwwfHx8MTc4NjQ0MDEwOXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Saifee Art",
+      "profileUrl": "https://unsplash.com/@saifee_art?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Toy soldiers and jets face off on map."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:49.332Z",
+    "publishedAt": "2026-08-11T08:20:02.000Z"
+  },
+  {
+    "slug": "20260811-32",
+    "headline": "Intelが株式公開増発、200億ドル調達、AI需要追い風",
+    "lead": "Intelが株式公開増発規模を200億ドルに拡大。1株95ドル。AI基盤整備の資本需要に応える。",
+    "body_markdown": "Intelは株式の自社公開増発(secondary offering)の規模を200億ドルに拡大した。価格は1株95ドル。当初計画から大幅拡大した背景には、AIデータセンター・チップ工場建設に向けた資本需要がある。\n\nテック大手は数兆ドル規模でAI基盤への投資を加速させている。GPU、TPU、カスタムシリコンの開発・製造が競争軸になり、Intelは従来のCPU市場での立場を脅かされながら、AIチップ事業での巻き返しを図っている。200億ドル増発はそうした経営戦略の表現だ。\n\n1株95ドルでの増発は市場評価を反映したもので、Intelは調達資金をファウンドリー(受託製造)・研究開発・製造設備に充てる見通し。AI需要の激増に応える供給能力の強化が急務になっている。",
+    "tags": [
+      "Intel",
+      "株式",
+      "AI",
+      "半導体"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/10/intel-intc-stock-offering-ai.html",
+    "importance": 4,
+    "image_query": "stock market finance trading",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1691643158804-d3f02eb456a3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8c3RvY2slMjBtYXJrZXQlMjBmaW5hbmNlJTIwdHJhZGluZ3xlbnwxfDB8fHwxNzg2NDQwMTA5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Yashowardhan Singh",
+      "profileUrl": "https://unsplash.com/@ysdnsingh?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a computer screen with a bunch of data on it",
+      "description": "Analysis and charting"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:50.015Z",
+    "publishedAt": "2026-08-11T07:17:00.000Z"
+  },
+  {
+    "slug": "20260811-33",
+    "headline": "Meta、ローカル動作モデル「Muse Glimmer」公開、296億パラメータ",
+    "lead": "MetaがローカルAI実行に特化した多言語画像生成モデルを公開。Apache 2.0ライセンス。Mac・PC単一GPUで動作。",
+    "body_markdown": "MetaのAI研究部門はオープンウェイト多言語AIモデル「Muse Glimmer」を発表した。約296億パラメータを搭載し、同社の大規模モデル「Muse Spark」から蒸留したもの。Apache 2.0ライセンスで提供される。\n\nローカル環境での実行性が設計の中心だ。コンテクスト窓は131,072トークンを超え、4ビット量子化により言語部分は20GB VRAM以内に収納される。フルシステム(KVキャッシュと画像エンコーダ含む)でも24GB〜32GBのVRAMで動作。Mac・PCの単一GPUで「常時動作ローカルエージェント」に対応し、計画・ツール呼び出し・エラー復旧といったエージェント機能を備える。\n\nマルチモーダルに対応し、テキスト・画像入力、テキスト出力をサポート。ジェマ4-31B・Qwen3.6-27Bといった競合モデルと同等の性能を保持しながら、ローカルエージェント処理に最適化。Hugging Faceでウェイトが配布され、エコシステムへの統合が進む見通し。",
+    "tags": [
+      "Meta",
+      "AIモデル",
+      "ローカル実行"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/11/2000000493/",
+    "importance": 4,
+    "image_query": "artificial intelligence neural network",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1761740533449-b8d4385e60b0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzMHx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMG5ldXJhbCUyMG5ldHdvcmt8ZW58MXwwfHx8MTc4NjQ0MDExMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "majed swan",
+      "profileUrl": "https://unsplash.com/@majedswan?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Abstract geometric shape with glowing red center and blue ring",
+      "description": "3d render in blender"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:50.671Z",
+    "publishedAt": "2026-08-10T22:11:40.000Z"
+  },
+  {
+    "slug": "20260811-34",
+    "headline": "気象予報の理論限界129日、量子ノイズが障壁",
+    "lead": "新研究が気象予報の物理的限界を特定。129日が理論上限。太陽放射の量子ノイズが時間とともに大気全体に伝播。",
+    "body_markdown": "気象学者は数十年にわたり数値予報の根本的限界について疑問を持ってきた。新たな研究はその答えを示した。理論的には129±7日が気象予報スキルの上限だ。\n\n従来は14日程度が実用的な予報精度の限界とされてきたが、この研究は理論的ポテンシャルを示す。現在の5日レベルの予報スキルは理論的には約62日まで延伸可能で、その後も限定的な情報提供が続く。\n\n限界の原因は大気エネルギー力学にある。太陽放射に含まれる光子位相の量子スケール不確定性が、大気に継続的に導入される。この量子ノイズは時間とともに大気全体に伝播し、「エネルギー転換点」に達するまでに初期状態の記憶が消去されるというメカニズムだ。研究者たちは太陽エネルギーが大気全体の分子に到達した時点で、さらなる予報は物理的に不可能になると指摘している。気象学はまだこの理論限界に近づいていないが、長期予報改善に向けた実験的な進展余地は著しい。",
+    "tags": [
+      "気象",
+      "科学",
+      "量子力学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-weather-theoretical-day-ceiling.html",
+    "importance": 3,
+    "image_query": "weather forecast meteorology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:50.674Z",
+    "publishedAt": "2026-08-11T06:32:13.000Z"
+  },
+  {
+    "slug": "20260811-35",
+    "headline": "科学急速進歩なのに信頼は低下、デジタル化が両刃剣",
+    "lead": "ゲノム編集・量子コンピュータなど科学は加速する一方で、公衆の科学への信頼が崩落。アルゴリズムと政治化が主因。",
+    "body_markdown": "科学の進歩は加速している。ゲノム編集、量子コンピュータ、AI応用が続々と登場し、人間寿命も過去にない水準に延長した。しかし一方で、科学への公衆信頼は劇的に低下している。この矛盾をいかに理解するか。\n\nダリウス・ジェミエルニアク氏によれば、デジタル化が両刃剣だ。テクノロジーは知識への民主化アクセスを約束したが、虚偽へのアクセスも民主化した。ソーシャルメディアアルゴリズムは扇動的な情報を増幅し、エコーチェンバーが信念を強化する。\n\n複雑性も障壁だ。現代科学は極度に専門化し、科学者さえ他分野を理解できず、信頼への依存が生じた。人間の脳は物語で理解するため、「ワクチン接種後に自閉症になった」という個人的な話が、数千件の統計分析より感情的に響く。気候変動やワクチン安全性といった科学問題が政治的アイデンティティのマーカーになれば、証拠に基づく更新は社会的コストを負う。科学進歩と信頼喪失の乖離は構造的だ。",
+    "tags": [
+      "科学",
+      "信頼",
+      "社会"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-scientific-advancement-prolific-science-plummeted.html",
+    "importance": 4,
+    "image_query": "science research laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1583911860205-72f8ac8ddcbe?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxzY2llbmNlJTIwcmVzZWFyY2glMjBsYWJvcmF0b3J5fGVufDF8MHx8fDE3ODY0NDAxMTF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "woman in white long sleeve shirt holding silver and black metal tool",
+      "description": "Chanelle Case Borden, Ph.D., a postdoctoral fellow in the National Cancer Institute's Experimental Immunology Branch, pipetting DNA samples into a tube for polymerase chain reaction, or PCR, a laboratory technique used to make multiple copies of a segment of DNA."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:51.290Z",
+    "publishedAt": "2026-08-10T23:40:03.000Z"
+  },
+  {
+    "slug": "20260811-36",
+    "headline": "2028年にSOC人手対応30%削減へ、AI攻撃常態化",
+    "lead": "ガートナー予測によると、AI駆動攻撃の常態化でセキュリティ運用センターの人手対応が2028年に30%削減される。",
+    "body_markdown": "ガートナーのセキュリティ分析によると、セキュリティ運用センター(SOC)における人間による対応が2028年には30%削減されるという予測だ。AI駆動サイバー攻撃の急速な常態化が背景にある。\n\n脅威環境は質的変化を遂げている。従来は人間の攻撃者が時間をかけて侵入を進めたが、現在はAIエージェントが自律的に脆弱性を特定し、ネットワークを横展開し、データを抽出する。速度と規模の両面で人間対応は追いつかなくなった。\n\nガートナーは企業が競争優位を保つため、3つの優先事項を挙げた。第一は予測的脅威検知、第二は自動化の拡大、第三は人的リソースの焦点化だ。つまり、データ分析とオートメーションで「やれる部分」をマシンに任せ、人間は戦略的判断・上級調査・インシデント対応といった高次機能に集中する必要があるということだ。AIが攻撃と防御の両面で浸透する時代、企業の適応速度が生存を左右する。",
+    "tags": [
+      "サイバーセキュリティ",
+      "AI",
+      "企業"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/enterprise/articles/2608/10/news078.html",
+    "importance": 3,
+    "image_query": "cybersecurity monitoring dashboard",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:51.292Z",
+    "publishedAt": "2026-08-10T23:00:00.000Z"
+  },
+  {
+    "slug": "20260811-37",
+    "headline": "インドネシア大規模山火事、10万ヘクタール焼失、学校閉鎖",
+    "lead": "インドネシアで山火事が広がり10万ヘクタール超を焼失。スマトラ・ボルネオ6州に影響。空中雲播種で対応。",
+    "body_markdown": "インドネシアでの山火事が拡大を続け、スマトラとボルネオ地域の6州に影響を及ぼしている。焼失面積は10万ヘクタール超に達した。対応にあたり、50万人近い消防士が動員され、十数機以上の航空機と43台のヘリコプターが空中雲播種(クラウドシーディング)作業を実施している。\n\n大気汚染の深刻さから、西カリマンタン州をはじめ複数地域で学校閉鎖が指示された。当局者の述べたところでは「気象条件が火災を巨大化させるリスクを高める」という。同州市長は学童に対し「大気質が改善するまで」の在宅学習を命じた。\n\nエルニーニョ現象が乾燥条件をもたらしており、2023年の対応時期と比べ、2026年1月〜6月の山火事被害地は110%増加した。火災を巻き込んだボルネオ山域では、ブロモテンゲル・セメル国立公園の火災規模を900ヘクタールから約2ヘクタールまで削減するため、150人以上の地上部隊が精力的に消火活動を実施している。",
+    "tags": [
+      "インドネシア",
+      "自然災害",
+      "環境"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/11/indonesian-officials-race-to-contain-wildfires-as-dozens-of-schools-shut",
+    "importance": 3,
+    "image_query": "wildfire forest fire smoke",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:51.293Z",
+    "publishedAt": "2026-08-11T08:08:13.000Z"
+  },
+  {
+    "slug": "20260811-38",
+    "headline": "Wigner結晶、光学手法で動きが初解明、量子物理の謎",
+    "lead": "バーゼル大学と技術大学ミュンヘンの研究が、エキゾチック量子状態Wigner結晶の内部ダイナミクスを光学的に可視化。",
+    "body_markdown": "バーゼル大学とミュンヘン工科大学の研究チームが、物質科学の難問を解き明かした。「Wigner結晶」と呼ばれるエキゾチック量子状態の内部ダイナミクスを、光学的手法によって初めて観測したのだ。\n\nWigner結晶とは、電子同士の相互作用が強い二次元系で自然に形成される秩序立った電子配列だ。物質の結晶構造ではなく、電子間相互作用だけから生じる。これまで存在は知られていたが、内部の動きは極めて観測困難だった。\n\n研究チームは極低温(絶対零度近傍)でタングステン・ジセレナイド単層を照射し、反射光を測定することで「Wigner結晶ポーラロン」と呼ぶハイブリッド粒子を検出した。光で生じた励起(エキシトン)が、秩序立った電子配列と相互作用して形成される粒子だ。このポーラロンが敏感な光学プローブとして機能し、電子群がいかに集団的に移動・相互作用するかを明かす。\n\n研究主導者によれば、この手法は「従来では極めて困難だった強相関電子結晶の集団励起を研究する強力な新ツール」になるという。量子物質科学への道が一段と開けた。",
+    "tags": [
+      "量子物理",
+      "結晶",
+      "光学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-optical-method-reveals-internal-dynamics.html",
+    "importance": 3,
+    "image_query": "quantum physics crystal lattice",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:51.295Z",
+    "publishedAt": "2026-08-11T09:00:03.000Z"
+  },
+  {
+    "slug": "20260811-39",
+    "headline": "Google広告・アナリティクスにAIツール新搭載、マーケ効率化",
+    "lead": "GoogleがAds・Analyticsに新AI機能投入。マーケティング自動化・ワークフロー簡素化で企業支援強化。",
+    "body_markdown": "Googleは広告・マーケティング分析プラットフォームの両社にAI機能を新たに搭載すると発表した。Google Ads・Google Analyticsの統合機能拡張で、企業マーケティング部門の効率化を狙う。\n\n新機能はマーケティング自動化の次段階だ。キャンペーン最適化、メニュー構成、顧客分析といった基幹タスクをAIが自動処理し、マーケター人間は戦略・創造性・顧客理解に注力できるようになる。特にGoogle Adsの新AI機能は「キャンペーン作成から実行・最適化まで」の自動化を進める。\n\nGoogle Analyticsの側は、データ解析の膨大な計算を引き受け、経営層に即座に洞察を届ける仕組みだ。企業がデータ活用の門戸をさらに広げ、営業・マーケ・企画の垂直統合が加速する見通し。",
+    "tags": [
+      "Google",
+      "マーケティング",
+      "AI"
+    ],
+    "section": "テクノロジー",
+    "source": "Google AI",
+    "link": "https://blog.google/products-and-platforms/products/ads-commerce/google-ads-analytics-ai-updates/",
+    "importance": 3,
+    "image_query": "digital marketing analytics data",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:51.296Z",
+    "publishedAt": "2026-08-10T14:30:00.000Z"
+  },
+  {
+    "slug": "20260811-40",
+    "headline": "ヒースロー、欧州最多旅客失墜、イスタンブルに抜かれ",
+    "lead": "ロンドン・ヒースロー空港がイスタンブル空港に欧州最多旅客の座を失った。7月の利用者数で786万対815万。",
+    "body_markdown": "ロンドン・ヒースロー空港は、欧州最多旅客空港の地位をイスタンブール空港に奪われた。英国当局発表によると、7月の旅客数はヒースロー側が786万人、対するイスタンブール側が815万人だった。\n\nヒースロー経営陣は「拡張の必要性がかつてなく明確だ」と主張している。西ロンドン空港は4つのターミナルを擁しながら、容量制約に直面し、便数増加が不可能な状態だ。一方、イスタンブール空港は比較的新しい施設で、容量に余裕がある。\n\nロンドン・ガトウィック空港は第3位、パリ・シャルル・ド・ゴール空港が第4位という序列の中で、ヒースロー失墜は英国航空業界にとって象徴的な転換点だ。ヒースロー拡張論は高コスト・環境懸念・地域住民反発で一貫して難航してきた。",
+    "tags": [
+      "航空",
+      "空港",
+      "英国"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/uk-news/2026/aug/11/heathrow-expansion-not-europe-busiest-airport-istanbul",
+    "importance": 3,
+    "image_query": "airport aircraft plane terminal",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:51.298Z",
+    "publishedAt": "2026-08-11T08:02:59.000Z"
+  },
+  {
+    "slug": "20260811-41",
+    "headline": "英消費者信頼感2年高水準、ワールドカップ・国内休暇が後押し",
+    "lead": "英国の消費者信頼感が7月に2年近い高値に達した。男子サッカーワールドカップ終盤と英国内休暇が購買心理を改善。",
+    "body_markdown": "英国の消費者信頼感は7月、およそ2年間で最も高い水準に達した。バークレイズ銀行の調査によると、景気感が大幅に改善し、消費者は雇用の安定感とさらなる支出余裕を感じ始めた。\n\n背景には複数の心理的要因がある。第一は男子サッカーワールドカップの終盤が国民的盛り上がりを生み出したこと。第二は英国内での休暇者増加が夏季支出を促したことだ。さらに6月の中東地域での一時的な停戦と、ロンドンの新首相交代による政治的不確実性の軽減も寄与した。\n\nしかし基礎的には労働市場の堅さが信頼を支えている。失業率が低く、給与も上昇傾向にあり、消費者は「非必需品支出」への心理的ゆとりを取り戻した。その一方で、インフレ鈍化による買物カゴの改善も実感される。英国内消費が緩やかな回復局面に入ったとの見方が強まっている。",
+    "tags": [
+      "英国",
+      "経済",
+      "消費"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/aug/11/consumer-confidence-world-cup-uk-holidaying-lift-summer-spending-barclays-survey",
+    "importance": 3,
+    "image_query": "shopping consumer retail",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:51.299Z",
+    "publishedAt": "2026-08-11T06:00:06.000Z"
+  },
+  {
+    "slug": "20260811-42",
+    "headline": "トランプメディア2億38百万ドル赤字、Truth Social展開が重荷",
+    "lead": "トランプ大統領傘下のトランプメディア・テクノロジーが第2四半期2億38百万ドル赤字計上。Truth Social投資が経営圧迫。",
+    "body_markdown": "ドナルド・トランプ米大統領が支配するトランプメディア・テクノロジー・グループは、2026年第2四半期(4〜6月)に2億38百万ドルの赤字を計上した。6月末終了の決算報告で明らかになった。\n\n新CEO Kevin McGurnは、オンラインベッティング・暗号資産など多角化事業に約1年間取り組んだが、成果不十分として撤退を発表。今後はソーシャルメディア事業に注力する方針に転換した。Truth Social利用者の低迷が根底にあり、収益化が難航している。\n\nただし同社は先ごろ、企業投資家向けに有料サービス「プレミアムアクセス」を導入。投資家が月最大10万ドルを支払うことでトランプ大統領の投稿への高速アクセスを得る仕組みだ。既に10以上の企業が登録。赤字圧縮への経営施策が多角化している。",
+    "tags": [
+      "トランプ",
+      "メディア",
+      "Truth Social"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/us-news/2026/08/10/trump-media-company-loss",
+    "importance": 3,
+    "image_query": "social media platform technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:51.301Z",
+    "publishedAt": "2026-08-11T00:54:00.000Z"
+  },
+  {
+    "slug": "20260811-43",
+    "headline": "モロッコ・スペイン緊迫、セウタ移民危機が地政学示唆",
+    "lead": "スペイン領北アフリカのセウタをめぐるモロッコとスペインの対立。移民問題から地政学的転換へ。",
+    "body_markdown": "スペイン領北アフリカの小領土セウタをめぐるモロッコとスペインの関係が一層緊迫している。移民危機が単なる人道問題ではなく、地政学的な圧力手段へと変質している。\n\nセウタはスペイン領だが、モロッコ領土に囲まれた飛び地だ。両国間には歴史的対立があり、最近の移民流入急増はモロッコが意図的に圧力をかけている兆候と見る専門家も多い。地中海を隔てた欧州への移民ルートとしてセウタが機能し始め、スペインは受け入れキャパシティを超える状況に直面。\n\nマドリッドの地政学的立場は一層脆弱化している。NATO加盟としての北大西洋防衛義務、移民管理、北アフリカ安定という3つのジレンマを同時に抱える。モロッコ側の圧力如何によっては、スペインの対外政策に深刻な影響を及ぼす可能性がある。",
+    "tags": [
+      "スペイン",
+      "モロッコ",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/08/11/morocco-spain-ceuta/",
+    "importance": 3,
+    "image_query": "border migration crossing",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:51.302Z",
+    "publishedAt": "2026-08-11T04:01:44.000Z"
+  },
+  {
+    "slug": "20260811-44",
+    "headline": "トランプ大統領、小児用ワクチン限定令署名、MMR分割支援",
+    "lead": "トランプ米大統領がワクチン接種方針変更の大統領令に署名。麻疹ワクチン分割推奨、自閉症関連付け。医学界から批判。",
+    "body_markdown": "ドナルド・トランプ米大統領は、小児用ワクチン接種方針の大幅な見直しを定める大統領令に署名した。同令は推奨ワクチンの種類を削減し、三種混合(麻疹・風疹・おたふく風邪)ワクチンの分割投与を支援する。\n\nトランプ氏は三種混合ワクチンを「かなり致命的」と述べ、ワクチン接種と自閉症の因果関係に言及した。しかし米国小児科学会は即座に「その勧告は危険だ」と反論。自閉症とワクチンの関連は科学的に否定されており、分割接種は予防効果を減少させるリスクがある。\n\n同令は麻疹撲滅の成果を揺るがし、予防接種率低下による麻疹流行再発を招く懸念が高い。医学専門家コミュニティから強烈な批判が相次ぎ、州レベルでの対抗措置検討も噂される。",
+    "tags": [
+      "トランプ",
+      "ワクチン",
+      "公衆衛生"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo",
+    "importance": 4,
+    "image_query": "vaccine medical injection health",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1611689102033-7f9e0a8eb851?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHx2YWNjaW5lJTIwbWVkaWNhbCUyMGluamVjdGlvbiUyMGhlYWx0aHxlbnwxfDB8fHwxNzg2NDQwMTExfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Diana Polekhina",
+      "profileUrl": "https://unsplash.com/@diana_pole?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person holding clear glass bottle",
+      "description": "The doctor's hand in a white medical glove holds a syringe with a yellow medicine on a blue background. The medicine. Place for an inscription. Vaccine. Covid 19. Coronavirus."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:51.942Z",
+    "publishedAt": "2026-08-11T02:43:01.000Z"
+  },
+  {
+    "slug": "20260811-45",
+    "headline": "2000年前のローマ沈没船、イタリア沖で発見、遺物満載",
+    "lead": "イタリア沖でダイバーが約2000年前のローマ船を発見。陶製容器で満載。最近年の考古学上重要な発見と評価。",
+    "body_markdown": "イタリア沖の海底で、約2000年前のローマ帝国期の沈没船が発見された。遺物の豊富さから「最近年の最も重要な水中考古学的発見」と称賛されている。\n\n船内には大量の陶製容器(アンフォラ)が積まれており、古代商業ネットワークの実態を示す一級資料だ。陶器職人の銘や産地情報から、船の航路・積み荷の構成・交易パターンが明らかになる可能性が高い。沈没から二千年、海底の嫌気環境により有機物が良好に保存されていた。\n\n発掘チームは注意深く調査を進めており、船体・帆・綱といった構造物の3D記録も進行中。ローマ期地中海交易システムの解明へ向けて、この発見は革新的なステップになるだろう。",
+    "tags": [
+      "考古学",
+      "イタリア",
+      "ローマ"
+    ],
+    "section": "カルチャー",
+    "source": "Hyperallergic",
+    "link": "https://hyperallergic.com/divers-stumble-upon-2-000-year-old-roman-shipwreck-in-italy/",
+    "importance": 3,
+    "image_query": "ancient shipwreck archaeology underwater",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:51.944Z",
+    "publishedAt": "2026-08-10T21:36:28.000Z"
+  },
+  {
+    "slug": "20260811-46",
+    "headline": "親がAI子供利用の理由「勉強役立つ」ではなく「遅れたくない」",
+    "lead": "シカゴ大学など研究によると、親が子供にAI使わせる動機は学習効果より競争心。2000人調査で判明。",
+    "body_markdown": "米国シカゴ大学などの研究チームが、親が子どもに生成AIを使わせる判断について調査論文「保護者の教育的選択における人工知能の社会動学」をPNASに発表した。対象は2000人以上の保護者だ。\n\n調査の主要発見は予想外だった。多くの親は「AIが子どもの学習に役立つ」という理由ではなく、「うちの子だけは遅れさせたくない」という競争心がAI利用を促している、というのだ。つまり、教育効果への信念ではなく、社会的圧力・相対的剥奪感が動機である。\n\nこの心理メカニズムは「軍拡競争」型へと展開する。親Aが「子どもにAIを使わせている」と知ると、他の親も同様に採用し始める。結果、集団全体がAI依存度を上げる。個々の親にとっては「使わないと不利」という圧力が強まり、実質的な学習効果とは独立した採用が進む。同論文は、この社会動学がいかに教育テクノロジー導入を加速させるかを示唆している。",
+    "tags": [
+      "AI",
+      "教育",
+      "社会"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/article/2608/11/2000000474/",
+    "importance": 3,
+    "image_query": "education learning student classroom",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-11T09:21:51.947Z",
+    "publishedAt": "2026-08-10T22:00:00.000Z"
+  },
+  {
     "slug": "20260811-01",
     "headline": "コロンビア西部でM7.4地震、111人以上が死亡",
     "lead": "南米コロンビア西部で8月10日、マグニチュード7.4の地震が発生し、111人以上の死亡が確認された。",
