@@ -1,5 +1,372 @@
 [
   {
+    "slug": "20260813-01",
+    "headline": "エンタープライズAIが「補助」から「実行」へ転換",
+    "lead": "OpenAIの報告書が示すように、フロンティア企業のAI活用が急速に深まり、トークン生成量で平均企業との差が8.3倍に開いている。",
+    "body_markdown": "OpenAIが新たに発表した2つの研究報告書によれば、エンタープライズAI（企業向けAI）の活用形態が大きく変わり始めている。データ分析や補助作業にとどまっていたAIが、いま反復可能なワークフロー、エージェント、意思決定を社内システムと連携させる「実行型」へシフトしている。\n\nフロンティア企業（月間AI利用トップ10%）と平均的企業の差は顕著だ。フロンティア企業は月あたり1ユーザーあたり8.3倍もの出力トークンを生成している。これは単なる利用量の差ではなく、AIをどこまで深く活用しているかの指標だ。\n\nエージェントAI（自律的に判断・実行するAI）がこの転換を牽引している。会社の文脈、外部ツール、社内システムと連携したエージェントが、人間の介入を減らしながら業務を進める構造が広がりつつある。OpenAIの「Enterprise Signals」レポートと経営論文は、この業界規模の変化を数字で証明する一方、採用のペースは企業によってばらばら。テック企業や金融で先行し、従来型産業での導入はまだ緒についたばかりだ。",
+    "tags": [
+      "エンタープライズAI",
+      "AIエージェント",
+      "デジタル変革"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+    "importance": 4,
+    "image_query": "business meeting ai technology",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/2If00wbX68BibN4DuBTlxC/32dc95f1c054f1c46a91179fef80b55c/Frame.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:36.984Z",
+    "publishedAt": "2026-08-12T06:00:00.000Z"
+  },
+  {
+    "slug": "20260813-02",
+    "headline": "AIコーディング企業Cognition、3ヶ月で14億ドル上昇評価",
+    "lead": "Cognitionが40億ドル評価での資金調達を協議中。5月の26億ドル評価からわずか3ヶ月で大幅な企業価値上昇を達成した。",
+    "body_markdown": "AI コーディング分野で注目される Cognition が、新たな資金調達ラウンドで40億ドル評価を目指しているという報道が出た。同社の評価は5月の26億ドル（収益ランレート4.9億ドル）から、わずか3ヶ月で14億ドル上昇する計算だ。\n\nこの急速な成長は、Cognition の AI コーディング・アシスタント「Devin」の採用急伸に支えられている。前回の資金調達時、企業顧客による Devin の利用が月50%で成長していたと同社が報告した。その後の3ヶ月でこの成長がさらに加速した可能性が高い。\n\nCognition は5月に10億ドルのシリーズB調達を実施し、当時は月次経常収益（ARR）が492百万ドルだった。今回の40億ドル評価は、ARR がすでに10億ドル近くに達している可能性を示唆している。AI コーディング分野では GitHub Copilot や同等の競争製品が広がる中、Cognition は実務的な自動化の深さで差異を示し始めている。",
+    "tags": [
+      "AIコーディング",
+      "スタートアップ",
+      "資金調達"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+    "importance": 4,
+    "image_query": "programming code laptop screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1759661990336-51bd4b951fea?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8cHJvZ3JhbW1pbmclMjBjb2RlJTIwbGFwdG9wJTIwc2NyZWVufGVufDF8MHx8fDE3ODY1NzAyNDJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jakub Żerdzicki",
+      "profileUrl": "https://unsplash.com/@jakubzerdzicki?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Computer screens displaying code with neon lighting.",
+      "description": "Programming workspace computer code developer notes design process. Modern software developer workstation with multiple screens displaying code"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:38.196Z",
+    "publishedAt": "2026-08-12T18:19:12.000Z"
+  },
+  {
+    "slug": "20260813-03",
+    "headline": "OpenAI支援のThrive、20億ドル調達でエンタープライズAI実装加速",
+    "lead": "Thrive Holdingsが20億ドルの新規資金を調達し、規制インフラなど3番目の事業部門への拡大を宣言した。",
+    "body_markdown": "OpenAI が出資する Thrive Holdings が、SoftBank、D1 Capital Partners、Altimeter Capital などから20億ドルの資金調達を実施した。調達後の企業評価は120億ドル。Thrive は AI を導入する既存企業のプラットフォーム企業で、現在70社以上を管理している。\n\nThrive の戦略は「伝統的ビジネスに AI を統合する」というアプローチ。現在は会計プラットフォーム「Current」（50社以上・2000人以上の専門家が参加）と IT プラットフォーム「Shield」（約20企業）を運営している。今回の資金は、3番目の垂直領域である「規制インフラサービス」（物理資産の許認可・構築・認証・運用）への展開に充てられる。\n\n実績も出始めている。税務申告 AI ツールは7000件以上の確定申告を98%の精度で処理した。IT ヘルプデスクの問題解決時間は36倍高速化。こうした具体的な効率化が、大型資金調達を呼び込む要因になっている。",
+    "tags": [
+      "エンタープライズAI",
+      "資金調達",
+      "デジタル化"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+    "importance": 4,
+    "image_query": "office technology workspace",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1783538771515-78a987fcdbbf?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMHx8b2ZmaWNlJTIwdGVjaG5vbG9neSUyMHdvcmtzcGFjZXxlbnwxfDB8fHwxNzg2NTcwMjQzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Gorilla ROI Data Connector",
+      "profileUrl": "https://unsplash.com/@gorillaroi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Young man typing on laptop in a modern office.",
+      "description": "A focused professional working on a laptop inside a modern open office, with coworkers active in the background. The scene includes glass office partitions, warm wood accents, desk plants, a printer, notebook, and clean corporate workspace details. Useful for business, startup, ecommerce, productivity, remote work, office culture, corporate operations, technology, and workplace content. Ecommerce data connector. Amazon, Shopify, Walmart, Meta data pulled straight into your sheet. https://www.gorillaroi.com"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:38.796Z",
+    "publishedAt": "2026-08-12T17:41:29.000Z"
+  },
+  {
+    "slug": "20260813-04",
+    "headline": "メルカリが Claude Code 全社展開、セキュリティ管理で新課題も",
+    "lead": "メルカリは5月に Claude Code・Claude Cowork の全社導入を開始。ローカルファイル操作できるエージェント型 AI の採用は、ガバナンスと運用の課題をもたらしている。",
+    "body_markdown": "フリマアプリで知られるメルカリが、5月に Anthropic の Claude Code と Claude Cowork を組織全体に展開させた。従来の対話型 AI（ChatGPT、Gemini など）と異なり、Claude Code は「エージェントが前に出て自動実行する」アプローチ。ローカルPC のファイル操作から OS コマンド実行まで可能な高機能ツールだ。\n\n利点は大きい。開発プロセスの自動化、ドキュメント生成、ルーチン業務の削減。しかしセキュリティと運用管理が新たな課題になった。ローカルファイル・OS コマンド へのアクセスは、機密情報漏洩のリスクを高める。ツールの急速なアップデートに対応する複雑さも増す。\n\nメルカリの対応は MDM（モバイルデバイス管理）と IDP（アイデンティティプロバイダー）を統合した「Managed Config」による段階的なパッチ適用ポリシー。全社導入の「AIを使わない選択がリスク」という判断と、運用面での綱渡り状態の両方が透けて見える実例だ。",
+    "tags": [
+      "AI導入",
+      "セキュリティ",
+      "エンタープライズ"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/04/news002.html",
+    "importance": 3,
+    "image_query": "office computer technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:38.798Z",
+    "publishedAt": "2026-08-12T20:00:00.000Z"
+  },
+  {
+    "slug": "20260813-05",
+    "headline": "アジア象の遺伝子脆弱、保全に警鐘 Bornean は 65% 近親交配",
+    "lead": "DNA分析から、アジア象4亜種の遺伝的健全性に大きなばらつきが判明。Bornean 象の遺伝的多様性は深刻な危機的状態だ。",
+    "body_markdown": "81頭のアジア象の全ゲノム解析から、4亜種の遺伝的健全性に顕著な格差が浮かび上がった。Wageningen University & Researchらの研究で、国際誌『Genome Biology and Evolution』に発表された。\n\nもっとも深刻なのは Bornean 象。DNAの約65%が両親から同一遺伝子を受け継ぐ、極度の近親交配状態にある。Sumatran 象は約35%で中程度だが、Mainland と Sri Lanka の個体群は10～11%で相対的に健全だ。近親交配は遺伝的多様性を失わせ、病気への抵抗力低下や繁殖障害をもたらす。\n\nただし希望の光もある。全4亜種が「元々の遺伝的多様性の大部分をなお保持している」という分析結果だ。これは genetic rescue（遺伝的に健全な個体群からの遺伝子導入）による回復の可能性を示唆する。研究者は、個体群ごとの適応的遺伝子を失わないよう注意深い保全計画の必要性を強調している。",
+    "tags": [
+      "保全生物学",
+      "遺伝子研究",
+      "野生動物"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-dna-highlights-genetic-vulnerability-asian.html",
+    "importance": 3,
+    "image_query": "elephant wildlife nature",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:38.800Z",
+    "publishedAt": "2026-08-12T20:50:02.000Z"
+  },
+  {
+    "slug": "20260813-06",
+    "headline": "1342年の大洪水、連続する極端気象の前兆 千年の歴史から読む",
+    "lead": "ヨーロッパ最大の中世洪水『聖マグダラ洪水』は孤立した事象ではなく、連続する16の大洪水の一部だった。気候システムの歴史的変動パターンが明かされた。",
+    "body_markdown": "伝統的に『聖マグダラ洪水』と呼ばれる1342年7月の大洪水は、ヨーロッパ中欧における「千年来の最大規模洪水」と見なされてきた。しかしリバプール大学を中心とした新研究が、実際には1341年後期から1343年にかけて16の大洪水が相次いでいた事実を明らかにした。\n\n重要なのは、これらの洪水が独立した現象ではなく、背後にある共通の気候変動要因で連鎖していたということだ。火山噴火、太陽活動の低下、北極海氷の変動が組み合わさることで、連続的な極端気象が生じうる。1342～43年の災害は数千人が直接被害と、その後の飢饉・疫病で死亡。プラハでは被害があまりに甚大で、より大きな流量を想定した Charles Bridge の建造を促した。\n\nこの中世の事例は、現代の気象・気候リスク予測に教訓をもたらす。単発の『最大洪水』ではなく、システムレベルの変動が連続的な極端現象を生む可能性を、歴史が教えている。",
+    "tags": [
+      "気候変動",
+      "自然災害",
+      "歴史気象"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-europe-worst-medieval-highlights-successive.html",
+    "importance": 3,
+    "image_query": "flood water river",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:38.801Z",
+    "publishedAt": "2026-08-12T20:50:04.000Z"
+  },
+  {
+    "slug": "20260813-07",
+    "headline": "10ドルの土壌テストキット、スマートフォンで精密農業を民主化",
+    "lead": "MacEwan大学発の Agrilo は、スマートフォンカメラで土壌栄養を測定する廉価システム。VR訓練で小規模農家の採用障壁も低下させている。",
+    "body_markdown": "精密農業（肥料投与を土壌情報に基づき最適化）のボトルネックは、検査の高コスト。MacEwan 大学（カナダ）の研究チームが開発した Agrilo は、この構造を変える。1回の検査わずか10ドル。スマートフォンカメラが土壌サンプルの色変化を読み込み、窒素・リン・カリウムなどの栄養濃度を推定する「比色分析法」だ。\n\nプロトコルは7段階の標準化手順。商用検査室と同等の精度と再現性を確保しながら、農家が自分でできる設計になっている。採用の障壁はコスト以上に、正確さへの不安と技術的複雑さにあった。そこで VR トレーニング「Agrilo VR」を用意。農家や現地作業者が資材消費なしに操作を何度も練習でき、自信を持って現地検査に臨める。\n\n結果、小規模農家も定期的な土壌診断が可能になり、施肥タイミングと施肥量を科学的根拠に基づいて判断できる。途上国の食糧生産効率向上に、低技術バリアのツールが貢献し始めている。",
+    "tags": [
+      "精密農業",
+      "農業技術",
+      "途上国開発"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-soil-global-virtual-reality-farmers.html",
+    "importance": 3,
+    "image_query": "farming agriculture field",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:38.802Z",
+    "publishedAt": "2026-08-12T21:00:06.000Z"
+  },
+  {
+    "slug": "20260813-08",
+    "headline": "北米の野鳥分布、極端気象が新たな予測要因に 平均値だけでは不十分",
+    "lead": "Yale 大学の研究が示すように、猛暑・寒波・干ばつなどの極端気象が鳥類の生息範囲を決定する。従来の平均気候データ予測は過大評価している。",
+    "body_markdown": "北米500種以上の野鳥の生息分布は、従来想定されてきた「平均的な気候」では説明できない。猛暑、厳寒、旱魃といった極端気象イベントが、むしろ生息可能な境界線を引いている。Yale 大学 Jeremy Cohen らの大陸規模研究から判明した。\n\n平均気候データだけで分布予測を作ると、冬の生息範囲は約10%、夏は約6%過大に推定される。これが特に深刻なのが大平原と southwestern U.S. では、さらに大きなズレが生じる。個別種で見ると、Hooded Oriole は 30% 近く範囲を過大評価、Eastern Phoebe は 20%、Varied Thrush は 10%。\n\nこれらの種が「その地域では冬を越せない」という絶対的な気象閾値が、平均値には隠れている。気候変動に伴い極端気象が増頻・増強する今、野生動物の分布や個体数の長期予測には、季節平均だけでなく「極端条件が何日続くか」「どこまで極端か」というデータが不可欠だ。保全計画の精度向上と、絶滅リスク評価の再構築が急がれている。",
+    "tags": [
+      "野生動物",
+      "気候変動",
+      "生態系"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-severe-weather-key-predictor-bird.html",
+    "importance": 3,
+    "image_query": "bird wildlife nature",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:38.802Z",
+    "publishedAt": "2026-08-12T20:40:06.000Z"
+  },
+  {
+    "slug": "20260813-09",
+    "headline": "Lakers 買収額 125 億ドルで NBA 過去最高、Iger と Kushner 兄弟",
+    "lead": "Josh Kushner と Bob Iger がロサンゼルス Lakers を 125 億ドルで買収。前所有者 Mark Walter から3ヶ月で転売される形になり、北米スポーツ特許の記録更新。",
+    "body_markdown": "ロサンゼルス Lakers がベンチャー投資家 Josh Kushner（Jared Kushner 実弟）と元 Disney CEO Bob Iger に買収された。買収額は125億ドル。北米スポーツフランチャイズ史上最高額だ。\n\nMark Walter は1年未満の所有期間で売却。Walter は2025年に Lakers の経営支配権を獲得したばかりだったが、Kushner と Iger による買収オファーに応じた。Iger は Disney CEO として 2005～2020、2022～2026 年に在任し、Disney+ などのストリーミング戦略を推進した経歴がある。Josh Kushner は Google・Meta などへ投資したベンチャーキャピタリスト。\n\n125億ドル評価は、NBA の商業価値拡大を反映している。直近のスポーツ放映権増額、ビジネス特許化戦略の進展を背景に、チーム評価が急速に上昇し続けている。NBA コミッショナーは買収の最終承認が必要だが、ジョイント・ベンチャーの構図から許可見通しは前向きとされている。",
+    "tags": [
+      "スポーツビジネス",
+      "買収",
+      "NBA"
+    ],
+    "section": "ビジネス",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/sports/2026/8/12/josh-kushner-bob-iger-buying-los-angeles-lakers-for-record-12-5bn",
+    "importance": 4,
+    "image_query": "basketball arena sports",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1560553814-060afcd8904a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxiYXNrZXRiYWxsJTIwYXJlbmElMjBzcG9ydHN8ZW58MXwwfHx8MTc4NjU3MDI0M3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Adam Bouse",
+      "profileUrl": "https://unsplash.com/@adambouse?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "empty basketball court",
+      "description": "An empty Mackey Arena, home of the Purdue Boilermakers basketball teams."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:39.390Z",
+    "publishedAt": "2026-08-12T20:04:24.000Z"
+  },
+  {
+    "slug": "20260813-10",
+    "headline": "米国 7月予算赤字 4,323 億ドル、2021 年 3 月以来の高水準",
+    "lead": "米国の 7 月単月赤字は 4,323 億ドル、対前年比で 48% 増加。歳出増加と関税歳入の低迷が重石。会計年度累計は 1.799 兆ドルで 2025 年度通年を既に上回った。",
+    "body_markdown": "米国財務省が発表した 7 月予算統計によれば、単月赤字は 4,323 億ドルに達し、2021 年 3 月の新型コロナ対策関連赤字（6,600 億ドル）以来の高水準だ。前年同月比では 48% の増加。歳出が記録を更新する 7,660 億ドルに達し、歳入が関税納付減などで圧迫された。\n\nより深刻なのは年度累計だ。2026 会計年度（10 月～9 月）の 10 ヶ月累計赤字が 1.799 兆ドルに達し、2025 会計年度の通年赤字をまだ 2 ヶ月を残して超えてしまった。うち 990 億ドルは月初が日曜日だったため 8 月給付を 7 月に前払いした特殊要因だが、それを控除しても赤字トレンドは上昇線をたどっている。\n\n背景は歳出の構造的増加（国防・社会保障）と、関税政策の財政効果の限定性。景気が堅調なうちに赤字削減のカジを切らない場合、金利上昇局面で連邦債務管理が困難化する可能性が論じ始められている。",
+    "tags": [
+      "財政赤字",
+      "経済政策",
+      "米国"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/12/us-budget-deficit-surged-in-july-to-highest-level-since-march-2021.html",
+    "importance": 3,
+    "image_query": "office document finance",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:39.392Z",
+    "publishedAt": "2026-08-12T18:56:15.000Z"
+  },
+  {
+    "slug": "20260813-11",
+    "headline": "Greenland 油田掘削を延期、Trump 政権の圧力でも本国の主権行使",
+    "lead": "Greenland 政府が Trump 系 U.S. 石油企業の掘削を強制延期。未許可の装備搬入に強硬警告を発し、北極圏への支配権争いが表面化している。",
+    "body_markdown": "Greenland の政府は、Trump 政権と関係のある米国石油企業による掘削準備を延期するよう強制した。同企業は先月、許可なく掘削装備を東 Greenland の Jameson Land へ搬入していたが、Greenland 政府は「資源採掘関連の活動は事前に許可取得が必須」と厳格警告を発した。\n\nGreenland Energy という同企業は、イギリス企業 80 Mile から譲受けた探鉱権に基づき作業を開始した。だが権益譲渡には Greenland 政府の認可が必要で、いまだ承認されていない。Greenland は 2021 年以降、環境懸念から新規油田ライセンスを発行していない方針を堅持している。\n\nこの事案は Biden 時代と異なる Trump の Greenland 領土編入威嚇という文脈で深刻化している。米国が圧力を高める一方、Greenland（デンマーク領）の主権意識と環境政策の堅持が衝突。北極圏資源の地政学的角逐が、小規模島嶼領土の政治決定として表面化する局面だ。",
+    "tags": [
+      "エネルギー政策",
+      "地政学",
+      "北極圏"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/aug/12/trump-greenland-oil",
+    "importance": 3,
+    "image_query": "oil drilling industrial",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:39.400Z",
+    "publishedAt": "2026-08-12T18:00:41.000Z"
+  },
+  {
+    "slug": "20260813-12",
+    "headline": "Mexico 元知事、43人学生失踪事件で初の高官起訴 12 年後の司法",
+    "lead": "Guerrero 州元知事 Ángel Aguirre が、2014 年の Ayotzinapa 学生失踪事件で正式起訴。強制失踪と証拠隠滅（監視映像破棄命令）の罪。",
+    "body_markdown": "メキシコの Ángel Aguirre 元 Guerrero 州知事が 8 月 6 日に逮捕され、Ayotzinapa の 43 人学生失踪事件に関わる強制失踪と司法妨害（obstruction of justice）の罪で起訴された。失踪から 12 年後の司法判断だ。\n\n2014 年 9 月 26 日、Ayotzinapa 師範学校の学生 43 人が警察に拘束されたまま消息を絶つ事件が発生。Aguirre は知事在任中（2011～2014 年）に失踪の責任があると指摘され、特に「事件当時の監視映像を破棄するよう命令した」という具体的な隠蔽行為が訴因だ。\n\nメキシコのカルテル暴力と政府の沈黙を象徴する事件として、国内と国際社会で長く注視されてきた。Aguirre の起訴は国家として司法機構が動き始めたシグナルだが、同時に 12 年の遅れが、メキシコの司法効率と冤罪・未解決事件の膨大な蓄積を浮き彫りにしている。前検察官 Jesús Murillo Karam も同様に強制失踪など複数罪で追訴中。",
+    "tags": [
+      "人権",
+      "司法",
+      "ラテンアメリカ"
+    ],
+    "section": "国際・地政学",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/aug/12/former-mexican-governor-charged-in-case-of-43-students-who-vanished-in-2014",
+    "importance": 4,
+    "image_query": "protest demonstration",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1760829120248-0b72e77b7766?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8cHJvdGVzdCUyMGRlbW9uc3RyYXRpb258ZW58MXwwfHx8MTc4NjU3MDI0NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mike Newbry",
+      "profileUrl": "https://unsplash.com/@mikenewbry?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Crowd of people with american flags and signs",
+      "description": "No Kings protest in Salt Lake City, Utah"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:40.020Z",
+    "publishedAt": "2026-08-12T18:46:30.000Z"
+  },
+  {
+    "slug": "20260813-13",
+    "headline": "Ukraine-Russia 戦闘激化、北朝鮮ミサイル・兵力投入が本格化",
+    "lead": "Ukraine が Black Sea 要塞を無人機で襲撃する一方、Russia は北朝鮮製ミサイルで Zaporizhzhia など都市部を集中砲火。双方の火力競争が新段階へ。",
+    "body_markdown": "Ukraine-Russia 戦争で攻撃が激化している。Ukraine の無人機部隊が Black Sea 艦隊の Novorossiysk 要塞を夜間襲撃。長距離無人機 Palianytsia、Neptune 巡航ミサイル、海上無人艇を使い、軍事インフラと油田施設に火を放った。衛星画像が大火を捉えている。\n\n一方 Russia は北朝鮮から供給されたミサイルで反撃。Zaporizhzhia など southeastern Ukraine の都市に北朝鮮製弾道・巡航ミサイルを投下。Ukraine の Patriot 迎撃ミサイル在庫が逼迫している状況を exploited した集中砲火だ。\n\nより懸念される動きは、北朝鮮の兵力投入。Zelensky 大統領は北朝鮮がさらに 5 万人の追加派兵を検討していると示唆。すでに North Korea の兵士が drone 操作・砲撃指示に従事しているという報告がある。Russia-North Korea の軍事協力が、単なる兵器供給から人力統合へ進んでいる。戦争の激度と地政学的な複雑さが、同時に増している。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "北朝鮮"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/08/12/ukraine-russia-black-sea-strikes-north-korea-missiles-lebanon-death-penalty/",
+    "importance": 4,
+    "image_query": "military conflict war",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1772303142665-b79cb36ab2c6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8bWlsaXRhcnklMjBjb25mbGljdCUyMHdhcnxlbnwxfDB8fHwxNzg2NTcwMjQ1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Saifee Art",
+      "profileUrl": "https://unsplash.com/@saifee_art?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Toy soldiers and iranian flag on map"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:40.660Z",
+    "publishedAt": "2026-08-12T19:26:39.000Z"
+  },
+  {
+    "slug": "20260813-14",
+    "headline": "日本、国旗損壊処罰法が施行 不快感・嫌悪感を示す行為に罰則",
+    "lead": "8 月 13 日、日本の国旗（日の丸）を故意に損壊する行為に対する処罰法が施行された。著しく不快・嫌悪感を催させる方法での破損が対象。",
+    "body_markdown": "日本の国旗損壊を罰する法律が 8 月 13 日に施行された。正式には「国旗及び国歌に対する敬意の表明の推進に関する法律」（仮称）。国旗を「著しく不快感や嫌悪感を催させる方法」で公然と損壊する行為に対し、刑事罰が科せられる。\n\n法務省は「法律の趣旨や対象となる行為の範囲」をあらためて周知する予定だが、具体的な罰則水準（罰金・懲役期間）は同省の詳細指針で示される見通し。これまで日本では国旗の法的保護が限定的だったため、この立法は象徴性と実効性の両面で社会的な議論の対象となっている。\n\n国旗敬礼義務化の是非は民主主義社会で分かれるテーマだが、立法府の判断は施行された。施行後の司法判断と運用がどのような解釈基準になるか、また国際的な表現の自由観との関係が注視されている。",
+    "tags": [
+      "日本政治",
+      "法律",
+      "憲法"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260812de43520",
+    "importance": 4,
+    "image_query": "japanese flag",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1652584128432-65d244493913?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxqYXBhbmVzZSUyMGZsYWd8ZW58MXwwfHx8MTc4NjU3MDI0NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tong Su",
+      "profileUrl": "https://unsplash.com/@tongsu?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a group of people standing around each other",
+      "description": "On May 14, 2022, Japan Day organized the first-ever Japan Parade in New York City. The parade started from Manhattan Central Park West 81 st to 70 st. The Japan Parade is the first parade in New York to honor the Japanese people and their heritage. A girl with American flag and Japanese flag in her bunches."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:41.243Z",
+    "publishedAt": "2026-08-12T20:12:33.000Z"
+  },
+  {
+    "slug": "20260813-15",
+    "headline": "英国、焚火禁止検討 干ばつ中の野火リスク対策",
+    "lead": "Andy Burnham 首相が、現在の厳しい干ばつ下で使い捨て焚火の販売禁止を検討へ。野火多発に対応、大手スーパーも自主的に販売停止。",
+    "body_markdown": "英国の Andy Burnham 首相は、使い捨て焚火（disposable barbecue）の販売禁止を検討する方針を示した。ここ数週間、異常な干ばつと高温で英国全域で野火が相次いでおり、焚火の炭火が引火原因と指摘されている。\n\n7 月だけで英・ウェールズの消防機関が野火対応に 393 件出動。イングランド 4 分の 3 とウェールズ全域が公式に干ばつ状態にある。乾いた草地・落ち葉・泥炭地に炭火が飛散すると、瞬く間に火が広がる。世論調査では 56% の国民が焚火販売禁止を支持している。\n\nすでに Tesco や Sainsbury など大手スーパーは自主的に焚火の販売を停止。National Fire Chiefs Council も夏季の販売を控えるよう呼びかけている。英首相は「販売の制限・禁止」と「使用場所の限定」の両方を政策ツールとして検討中。気候変動で極端気象（熱波と干ばつ）が常態化する中、単一の対症療法ではなく、社会インフラの干ばつ耐性強化も同時に求められている。",
+    "tags": [
+      "野火",
+      "気候変動",
+      "公共政策"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/society/2026/aug/12/burnham-to-consider-ban-on-disposable-barbecues-as-wildfires-rage-in-uk",
+    "importance": 3,
+    "image_query": "fire wildfire landscape",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:41.247Z",
+    "publishedAt": "2026-08-12T15:13:45.000Z"
+  },
+  {
+    "slug": "20260813-16",
+    "headline": "Death Note ザ・ミュージカル、Barbican で漫画ファン熱狂の舞台化",
+    "lead": "日本の人気漫画『Death Note』がロンドン West End の舞台化。コスプレファンの登場で話題を呼び、複雑な心理戦を音楽劇で再構成している。",
+    "body_markdown": "日本の漫画 Death Note（2003 年連載開始）が、ロンドン Barbican の舞台ミュージカルで 2 度目の上演を迎えた。初演は 2023 年だったが、今回の上演は当時以上の注目を集めている。\n\n観客の特徴は、制服や装飾を凝らしたコスプレ。圧倒的多数の若い世代ファンが、元の漫画・アニメの熱心な支持層だ。舞台化は、元々の複雑な原作の「迂回」を避け、道徳的ジレンマと権力の葛藤に焦点を絞った脚本構成。パワーバラード系の音楽スコアが、内的葛藤を増幅させている。\n\n原作は「ノートに名前を書かれた者は死ぬ」という超能力と、それを隠し持つ少年・主人公の精神的変容を描く。舞台化では、このメタフィジカルな（超越的な）サスペンスが、生と死・正義と権力の問い直しにシフトしている。日本の漫画・アニメ文化のグローバルな浸透と、英国ミュージカル劇場の国際化が交わる事例として注目される。",
+    "tags": [
+      "舞台作品",
+      "漫画適応",
+      "エンタメ"
+    ],
+    "section": "カルチャー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/stage/2026/aug/12/death-note-the-musical-review-wildly-popular-manga-mystery-is-a-killer-night-out",
+    "importance": 3,
+    "image_query": "theater stage performance",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T21:30:41.258Z",
+    "publishedAt": "2026-08-12T15:42:10.000Z"
+  },
+  {
     "slug": "20260812-24",
     "headline": "ChatGPTが広告展開、8月から英日を含む5地域で開始",
     "lead": "OpenAIは8月11日、ChatGPTで広告の展開をUK・メキシコ・ブラジル・日本・韓国で開始。無料ユーザーをサポートする広告モデル。",
