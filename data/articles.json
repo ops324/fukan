@@ -1,5 +1,441 @@
 [
   {
+    "slug": "20260812-24",
+    "headline": "ChatGPTが広告展開、8月から英日を含む5地域で開始",
+    "lead": "OpenAIは8月11日、ChatGPTで広告の展開をUK・メキシコ・ブラジル・日本・韓国で開始。無料ユーザーをサポートする広告モデル。",
+    "body_markdown": "OpenAIは8月11日、ChatGPTで有料広告の展開を英国・メキシコ・ブラジル・日本・韓国で開始した。広告は無料ユーザーに表示され、有料プランのユーザーには表示されない。\n\n同社は早期から「広告がChatGPTの回答を変えない」「ユーザー信頼を損なわない」という原則を掲げ、広告はUIの邪魔にならない位置に配置される。\n\n広告の収益は、AIインフラの維持と無料アクセスの拡大に充てられる。OpenAIは7月22日に「Advertise in ChatGPT」の自動広告マネージャーを開設し、Best Buy・Lowe's・VistaPrintなど大手企業がキャンペーンを開始している。\n\n今後、さらに多くの国への拡大を計画中。広告形式も進化しており、複数の商品を1つの広告枠に表示するカルーセル形式も導入されている。",
+    "tags": [
+      "ChatGPT",
+      "AI経営",
+      "広告収益モデル"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/testing-ads-in-chatgpt",
+    "importance": 4,
+    "image_query": "AI chatbot interface screen",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/21TdmlEzFwgoo7ZER7SNCV/001b3d542fd4d025a2dcd1a5ab9417fe/OAI_AdsTest_Blog_OpenGraph_1200x630.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/testing-ads-in-chatgpt",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:22.941Z",
+    "publishedAt": "2026-08-11T10:00:00.000Z"
+  },
+  {
+    "slug": "20260812-25",
+    "headline": "OpenAI、Daybreak サイバー防御モデルがAWS Bedrockで利用可能に",
+    "lead": "OpenAIはAmazonと提携し、Daybreak BlueとDaybreak Redをアマゾンのベッドロック経由で提供開始。サイバー専門モデルも登場。",
+    "body_markdown": "OpenAIは8月10日、Daybreakのサイバー防御機能をAmazon Bedrockで利用可能にしたと発表。企業は既存のAWS環境内でOpenAIのフロンティア水準のサイバーセキュリティモデルにアクセスできるようになった。\n\nDaybreak Blueは、GPT-5.6 Solを含む汎用フロンティアモデルに防御者向けセーフガード付きでアクセスを提供。一方、Daybreak Redは脆弱性研究・エクスプロイト検証・セキュリティテスト向けに特化した「GPT-5.6 Cyber」を提供する。GPT-5.6 Cyberはゼロデイ脆弱性の発見やエクスプロイトチェーンの開発に特化している。\n\n両モデルともチップレベルでゼロオペレータアクセスを強制。推論中はプロンプトと補完が完全に保護され、AWSオペレータであっても閲覧不可。\n\n実績として、セキュリティ研究者がGPT-5.6 Cyberで、Chromeで使用されるJavaScript エンジンV8の未知の脆弱性2件を発見。1件はCVE-2026-15903として修正・公開済み。Accenture・IBM・CrowdStrike・Cisco・Sophos・Cloudflareがパートナーとして参加。",
+    "tags": [
+      "OpenAI",
+      "AWS",
+      "サイバーセキュリティ",
+      "AI防御"
+    ],
+    "section": "テクノロジー",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+    "importance": 4,
+    "image_query": "cybersecurity defense network",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6RITuNETzGy8qYTRq0ePqm/e2efee656f610e90b2b2713625aa0de1/SEO.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:23.193Z",
+    "publishedAt": "2026-08-11T10:00:00.000Z"
+  },
+  {
+    "slug": "20260812-26",
+    "headline": "Grok Bot、24時間稼働のAIエージェント正式化。クラウド環境で業務自動化",
+    "lead": "SpaceXAIのGrok Botがβ版提供開始。ユーザーが眠っている間も働く常時稼働型AI同僚。Cursor連携で月120ドル。",
+    "body_markdown": "SpaceXAIとCursorは8月11日、Grok Bot（β版）をmacOS・iOS・Windows・Linuxで公開開始。クラウドベースのLinux VM上で24/7動作する常時稼働型のAIエージェント。料金は月120ドル。\n\nGrok Botは、ユーザーがタスクを指示すると、複数のアプリやWebサイトにサインインし、人間と同じ手順で画面を操作して仕事を完遂する。複数のボットが並列稼働でき、ボット間でコンテキストを共有可能。各ボットは独立した計算環境を持ち、ユーザーのパソコンをオフにしても動作継続。仕事の完了時や承認が必要な時点でアラートが入る。\n\n初期段階ではSuperGrok Heavy・Cursor Ultra・Cursor Teams Premium購読者に限定提供。企業向けの待機リストも募集中。\n\nこの動きはOpenAIやAnthropicとの競争の一環。Elon Muskが率いるSpaceXAIは、エージェント型AIの実装で業務効率化の新フロンティアを切り開こうとしている。",
+    "tags": [
+      "AI エージェント",
+      "SpaceXAI",
+      "業務自動化",
+      "Grok"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/article/2608/12/2000000506/",
+    "importance": 4,
+    "image_query": "AI assistant interface workflow automation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1718241905450-a26e6c964239?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOXx8QUklMjBhc3Npc3RhbnQlMjBpbnRlcmZhY2UlMjB3b3JrZmxvdyUyMGF1dG9tYXRpb258ZW58MXwwfHx8MTc4NjUyNjk2NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "BoliviaInteligente",
+      "profileUrl": "https://unsplash.com/@boliviainteligente?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a keyboard with a blue light on it",
+      "description": "AI, Artificial Intelligence, keyboard, machine learning, natural language processing, chatbots, virtual assistants, automation, robotics, computer vision, deep learning, neural networks, language models, human-computer interaction, cognitive computing, data analytics, innovation, technology advancements, futuristic systems, intelligent systems, smart devices, IoT, cybernetics, algorithms, data science, predictive modeling, pattern recognition, computer science, software engineering, information technology, digital intelligence, autonomous systems, IA, Inteligencia Artificial,"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:24.355Z",
+    "publishedAt": "2026-08-12T06:33:57.000Z"
+  },
+  {
+    "slug": "20260812-27",
+    "headline": "Geminiが10億MAUを突破、Googleで14番目の大台到達。ChatGPTに並ぶ",
+    "lead": "Googleが8月11日、Geminiアプリの月間アクティブユーザーが10億人を超えたと発表。同社史上最速の成長ペース。",
+    "body_markdown": "GoogleのSundar Pichai CEOは8月11日、Geminiアプリが10億月間アクティブユーザー（MAU）を突破したことを表明。Googleで10億ユーザーを達成した14番目の製品となり、OpenAIのChatGPTと同レベルのマイルストーン。\n\n成長速度は同社の過去製品を上回る。2月時点で7億5000万ユーザーだったGeminiは、7月時点で9億5000万、わずか1ヶ月で10億を突破した。Androidアクセス・Google統合・画像生成・特別オファーが急速な利用者拡大を牽引。\n\nユーザー構成は、iOSユーザーが1億人以上。macOS版ユーザーはその他デバイスと比較して約2倍の利用頻度を示す。ボイス機能で直接会話する利用者は63%に達し、Geminiは1日1億5000万枚以上の画像生成を実施。\n\nChatGPTが6月に10億ユーザーに到達した直後の発表で、AI市場での激烈な競争を象徴する。",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI市場",
+      "ユーザー獲得"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/article/2608/12/2000000500/",
+    "importance": 4,
+    "image_query": "mobile app user growth statistics",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1617608408920-cedf61782cbb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxtb2JpbGUlMjBhcHAlMjB1c2VyJTIwZ3Jvd3RoJTIwc3RhdGlzdGljc3xlbnwxfDB8fHwxNzg2NTI2OTY1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Spiske",
+      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black android smartphone displaying google search",
+      "description": "Mobile device neo-broker smart stock trading app"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:25.188Z",
+    "publishedAt": "2026-08-12T00:21:15.000Z"
+  },
+  {
+    "slug": "20260812-28",
+    "headline": "ノルウェー主権基金が過去最高1840億ドルの利益。SpaceX保有初めて明示",
+    "lead": "世界最大の主権基金（2.34兆ドル）が2026年上期の利益を発表。Tesla・NVIDIA・SpaceX保有を初公開。",
+    "body_markdown": "ノルウェーの政府年金基金グローバル（Norges Bank Investment Management）は8月12日、2026年上期の利益が過去最高の1840億ドルに達したと発表。\n\n同基金の規模は2.34兆ドル。60ヶ国以上、7000社以上に投資する世界最大級の主権基金。今回の発表で初めてSpaceXへの保有を明らかにし、Tesla・NVIDIA・Appleなど主要IT企業への大規模投資を裏付けた。\n\nSpaceXはElon Muskが率いる民間宇宙企業で、衛星通信サービスStarlinkや宇宙輸送での急速な事業拡大が評価され、基金の投資対象となった。AI関連銘柄への重点投資姿勢が鮮明で、NVIDIA保有のさらなる増加が予想される。\n\nこの発表は、地政学的な米国テック企業への投資が引き続き世界的な資金流入を吸収していることを示唆する。",
+    "tags": [
+      "ノルウェー基金",
+      "SpaceX",
+      "投資",
+      "NVIDIA"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/12/norway-sovereign-wealth-fund-spacex-nvidia-apple-nbim.html",
+    "importance": 4,
+    "image_query": "financial investment wealth fund",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBpbnZlc3RtZW50JTIwd2VhbHRoJTIwZnVuZHxlbnwxfDB8fHwxNzg2NTI2OTY1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Towfiqu barbhuiya",
+      "profileUrl": "https://unsplash.com/@towfiqu999999?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a person stacking coins on top of a table"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:25.965Z",
+    "publishedAt": "2026-08-12T08:45:20.000Z"
+  },
+  {
+    "slug": "20260812-29",
+    "headline": "赤海での攻撃で6人が死亡、1年以上ぶりの人的被害。地政学リスク再燃",
+    "lead": "赤海でコンテナ船への攻撃が増加。米国が反撃する一方、Houthi勢力は継続的な脅威を示唆。",
+    "body_markdown": "赤海とオマーン湾でここ数日、貨物船とコンテナ船が相次いで攻撃を受けた。CNBC報道によれば、赤海での攻撃による人的被害は1年以上ぶりで6人が死亡。米国は反撃を実施している。\n\nイランを支援するHouthi勢力は、紅海での継続的な攻撃を予告。国際海運の重要な航路が不安定化する中、企業の物流コストと保険料が上昇。Global Shipping のコンテナ運賃指数は過去数ヶ月で20%以上上昇している。\n\nこの不安定性は、中東の地政学的緊張の深刻化を示唆。各国の海軍が監視活動を強化する一方、民間船舶の航行リスクは高まったままとなっている。\n\nサプライチェーン再編の動きが加速し、インド洋・太平洋ルートの利用が増加する可能性が高まっている。",
+    "tags": [
+      "赤海",
+      "地政学",
+      "国際航運",
+      "Houthi"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/12/us-iran-war-trump-hormuz-houthi-attack-blockade-.html",
+    "importance": 4,
+    "image_query": "shipping container vessel sea",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1617952739760-1dcae19a1d93?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzaGlwcGluZyUyMGNvbnRhaW5lciUyMHZlc3NlbCUyMHNlYXxlbnwxfDB8fHwxNzg2NTI2OTY2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "John Simmons",
+      "profileUrl": "https://unsplash.com/@ouch_media?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "cargo ship on sea under blue sky during daytime",
+      "description": "Melbourne Shipping"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:26.597Z",
+    "publishedAt": "2026-08-12T06:30:07.000Z"
+  },
+  {
+    "slug": "20260812-30",
+    "headline": "台湾Foxconn、営利利益が35%増。AI需要が牽引",
+    "lead": "世界最大の受託電子機器製造企業が2026年第2四半期、AI需要で大幅な利益増。NVIDIAやAppleからの受注拡大が成長を主導。",
+    "body_markdown": "台湾の電子機器受託製造大手Foxconn（鴻海精密工業）は8月12日、2026年第2四半期（4月～6月）の営利利益が前年同期比35%増に達したと発表。世界最大規模の受託製造企業が経験する急速な成長。\n\nAI関連サーバーの受託製造需要が急増し、NVIDIAやAppleなどの大手企業からの大型受注が増加。特にデータセンター向けGPUサーバーの製造が経営改善を主導。\n\nFoxconnはApple・Microsoft・Meta・Amazonなど大手ハイテク企業の主要な製造パートナー。AI時代への転換で、これらの顧客がデータセンター構築に巨額投資する中、受託製造業の需要が急速に高まっている。\n\nAI需要が急速に拡大する限り、Foxconnなどアジアの電子部品サプライチェーンは需要が減速する見込みは低い。",
+    "tags": [
+      "Foxconn",
+      "AI",
+      "製造業",
+      "台湾"
+    ],
+    "section": "ビジネス",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/economy/2026/8/12/taiwans-foxconn-reports-35-percent-rise-in-profit-on-ai-demand",
+    "importance": 4,
+    "image_query": "electronics manufacturing factory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1730584476141-232435a40c32?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8ZWxlY3Ryb25pY3MlMjBtYW51ZmFjdHVyaW5nJTIwZmFjdG9yeXxlbnwxfDB8fHwxNzg2NTI2OTY3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Cemrecan Yurtman",
+      "profileUrl": "https://unsplash.com/@cmrcn_?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A man welding a piece of metal in a factory",
+      "description": "a factory worker welding"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:27.269Z",
+    "publishedAt": "2026-08-12T07:58:04.000Z"
+  },
+  {
+    "slug": "20260812-31",
+    "headline": "ヨーロッパで皆既日食、数百万人が天体ショーを観測。スペイン北部が中心",
+    "lead": "8月12日、ヨーロッパの広域で皆既日食が発生。アイスランド西部からスペイン北部にかけて昼間が暗くなる現象。",
+    "body_markdown": "8月12日、ヨーロッパの広大な地域で皆既日食が観測される。西アイスランドと北スペイン（アストゥリアス地方）が観測のピークゾーン。ヨーロッパ北部では数百万人が夜間の暗さを経験する稀な天文現象。\n\n皆既日食は太陽が月に完全に隠れる現象で、昼間でも太陽のコロナ（外層大気）が可視化される。この地域では2000年以上前の古代にも皆既日食が記録されており、今回は21世紀に入ってからの重要な天体イベント。\n\n北米は2024年4月に皆積日食を経験したばかり。今回のヨーロッパでの観測は、太陽活動の極大期にあたり、コロナ観察の絶好の機会。各地で天文学者やアマチュア観測者が集中。\n\nスペインで次の皆既日食が見られるのは2027年8月で、南スペインと北アフリカ地域を横断する予定。それまでの約1年間、この地域で同規模の現象は起こらない。",
+    "tags": [
+      "天文学",
+      "皆既日食",
+      "ヨーロッパ",
+      "科学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-total-solar-eclipse-spellbind-europe.html",
+    "importance": 4,
+    "image_query": "solar eclipse astronomy sky",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1712624863325-902124b19f03?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGVjbGlwc2UlMjBhc3Ryb25vbXklMjBza3l8ZW58MXwwfHx8MTc4NjUyNjk2N3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Daniel Gomez",
+      "profileUrl": "https://unsplash.com/@naturelensephotographer?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a solar eclipse is seen in the dark sky",
+      "description": "We were lucky to get a clear view of the solar eclipse in 2024!! This photo is soo satisfying to be able to see and capture the different phases of the eclipse!"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:27.832Z",
+    "publishedAt": "2026-08-12T08:40:01.000Z"
+  },
+  {
+    "slug": "20260812-32",
+    "headline": "GoogleのAI責任者が交代、Koray Kavukcuoglu就任。OpenAI・Anthropicとの競争激化",
+    "lead": "GoogleがDeepMindの新リーダーを発表。OpenAI・Anthropicに対抗するGemini強化が課題。",
+    "body_markdown": "GoogleはKoray Kavukcuogluを新Google DeepMind責任者に任命。2012年からDeepMindに在籍し最高技術責任者（CTO）を務めていた人物で、ニューヨーク大学でコンピュータサイエンスの博士号をYann LeCunの指導下で取得している。AI推論の効率性に関する論文を複数発表し、「小型で高速なモデル」の設計で知られる。\n\nKavukcuogluは、OpenAI・Anthropicに対抗するため、Geminiの競争力強化が最優先課題。ChatGPT・Claude 3・Grok（SpaceXAI）などとの機能・速度・コストで対抗するため、Google DeepMindの研究体制を刷新する方針。\n\nGoogle DeepMindは過去2年で複数の責任者交代を経験。AI市場でのGoogleのシェア維持が経営層の最重要課題となっており、Geminiアプリが8月に10億ユーザーを超えたばかりの中での人事刷新。\n\nLLMのコスト削減が業界課題になる中、小型で効率的なモデル開発に定評のあるKavukcuogluの起用は、Google DeepMindの新方向を象徴する人選となった。",
+    "tags": [
+      "Google",
+      "DeepMind",
+      "Gemini",
+      "AI競争"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html",
+    "importance": 4,
+    "image_query": "technology leadership innovation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1704969723938-0c310608d6c1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHx0ZWNobm9sb2d5JTIwbGVhZGVyc2hpcCUyMGlubm92YXRpb258ZW58MXwwfHx8MTc4NjUyNjk2OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "scrabble tiles spelling the word innovation on a wooden surface"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:28.695Z",
+    "publishedAt": "2026-08-12T05:00:01.000Z"
+  },
+  {
+    "slug": "20260812-33",
+    "headline": "ChatGPTがLinux対応。Windows・macOS・iOSに続く4つ目のプラットフォーム",
+    "lead": "OpenAIがChatGPTデスクトップアプリのLinux版をベータ公開。完成度が高く、Mac版キャンセルの価値ありと評価。",
+    "body_markdown": "OpenAIはChatGPTデスクトップアプリをLinuxでベータ提供開始。Windows・macOS・iOSに続く4プラットフォーム対応となり、Linux ユーザーも24時間アクセス可能に。\n\nLinux版の完成度は高く、ITメディアの評価では「MacBook購入をキャンセルしても惜しくない」水準。ネイティブ統合・レスポンス・UIが洗練されており、ベータ版とは思えないクオリティが実現。\n\nLinuxコミュニティはChatGPTアクセスを長く待望。開発者・エンジニアの多くはLinuxを主要開発環境とするため、公式アプリの提供は生産性を大幅に向上させる。特に継続的な開発作業では、システムの深い統合が有利に働く。\n\nWindows・macOS・iOS・Linuxの4プラットフォーム対応により、ChatGPT は事実上のユニバーサルデバイスプラットフォームを実現。Android版の提供時期も推測されている。",
+    "tags": [
+      "ChatGPT",
+      "Linux",
+      "デスクトップアプリ",
+      "OpenAI"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/12/2000000504/",
+    "importance": 3,
+    "image_query": "computer screen software interface",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:28.697Z",
+    "publishedAt": "2026-08-12T04:53:41.000Z"
+  },
+  {
+    "slug": "20260812-34",
+    "headline": "NVIDIA、30億パラメータのオープンモデル『Nemotron』公開。エージェント向け設計",
+    "lead": "NVIDIAが軽量なオープンソースAIモデルを開発。「gpt-oss-120b」相当の性能を4分の1の規模で実現。",
+    "body_markdown": "NVIDIAは『Nemotron 3.5 Lightning』という30億パラメータのオープンソースAIモデルを公開。OpenClaw など常時稼働型エージェント向けに設計された軽量モデル。\n\nNemotron の特徴は、120億パラメータクラスの大型モデル（gpt-oss-120b）と同等の推論性能を、わずか30億パラメータで実現する効率性。消費電力・メモリ使用量・推論コストが大幅に削減でき、エッジデバイスやローカルデプロイに適している。\n\nエージェント型AIの普及に伴い、常時稼働する小型モデルの需要が急増。NVIDIAは自社のGPU向けに最適化したモデル提供で、企業のAI推論コスト削減を後押しする戦略を展開。\n\nこのオープンソース戦略は、エージェント市場でOpenAI・Anthropicに対抗する動き。推論効率の向上は、企業のAI導入コスト低下につながり、大型言語モデルの民主化を加速させる。",
+    "tags": [
+      "NVIDIA",
+      "オープンソース",
+      "軽量モデル",
+      "エージェント"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/12/2000000503/",
+    "importance": 3,
+    "image_query": "AI neural network technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:28.699Z",
+    "publishedAt": "2026-08-12T03:55:52.000Z"
+  },
+  {
+    "slug": "20260812-35",
+    "headline": "ChatGPT Businessに『プレミアム席』、月125ドルで5倍の使用量。企業向けアップグレード",
+    "lead": "OpenAIが企業用ChatGPTに新プラン投入。スタンダード席（月25ドル）に対し、プレミアム席は5倍の使用枠と時間制限廃止。",
+    "body_markdown": "OpenAIは8月10日、ChatGPT Business向けに『プレミアム席』を発表。スタンダード席（月25ドル）の上位プランとして、月125ドルで利用可能に。\n\nプレミアム席の特徴は、スタンダード席の5倍以上の月間使用額を提供し、従来の「5時間利用制限」を廃止。大型プロジェクト・複雑なタスク・頻繁なアクセスが必要な部門に対応。年払いなら月100ドルに割引。\n\nChatGPT Businessは2024年に立ち上がった法人向けプランで、企業は複数ユーザーで共有チームスペース・管理機能・メッセージの非保存設定などにアクセス可能。プレミアム席の追加により、使用頻度に応じた柔軟な価格帯が実現。\n\nOpenAIは企業顧客の需要拡大を受け、段階的な価格体系を構築。スタンダード席とプレミアム席の選択肢提供により、中小企業から大規模企業まで対応する戦略。",
+    "tags": [
+      "ChatGPT",
+      "法人向け",
+      "価格改定",
+      "サブスクリプション"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/premium-seats-chatgpt-business",
+    "importance": 3,
+    "image_query": "business software subscription pricing",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:28.702Z",
+    "publishedAt": "2026-08-10T00:00:00.000Z"
+  },
+  {
+    "slug": "20260812-36",
+    "headline": "Manus AI、Metaから独立。ユーザーデータ削除の懸念も",
+    "lead": "中国発エージェント『Manus』がMetaから分離独立。23日からユーザーデータ削除予定。中国政府の買収反発が背景か。",
+    "body_markdown": "Metaから独立する中国発AIエージェント『Manus』は8月11日、独立企業としての運営を再開すると発表。Meta傘下での運営から分離される。\n\nManusは、一部ユーザーのデータを8月23日から削除する予定を告知。ユーザーに事前バックアップを呼びかけている。背景には、中国政府によるMeta傘下での持続的な買収に対する反発があるとされる。\n\n米国のプラットフォーム企業によるAI企業の買収・統合に対し、中国当局が自国企業の独立性維持を求めた一例。データ主権・規制環境の不確実性から、Metaが経営方針を転換。\n\nManusはクラウドベースのエージェント型AIで、ユーザーのタスク処理を支援。Metaとの分離は、地政学的な米中テックの競争激化を象徴している。独立後の開発・資金調達の行方が注視される。",
+    "tags": [
+      "Meta",
+      "中国AI",
+      "エージェント",
+      "地政学"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/article/2608/12/2000000508/",
+    "importance": 3,
+    "image_query": "technology startup innovation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:28.704Z",
+    "publishedAt": "2026-08-12T06:09:00.000Z"
+  },
+  {
+    "slug": "20260812-37",
+    "headline": "日航機墜落41年、ボーイングが修理ミスの記述削除。日航に謝罪",
+    "lead": "520人が犠牲になった日航123便事故。ボーイング社がWebサイトの修理ミス説明を削除し、日航に『混乱を招いた』と謝罪。",
+    "body_markdown": "1985年8月12日の日本航空123便墜落事故（乗客乗員520人犠牲）について、米ボーイング社は修理ミスの原因説明を自社Webサイトから削除。日本航空（JAL）に『混乱を招いた』として謝罪した。\n\n同事故は、修理ミスにより与圧隔壁が破壊され、油圧系統が喪失。操縦不可能な状態で墜落した。修理は1978年に同社で実施された。\n\nボーイングは当初、修理ミスの具体的内容をサイトで公開していたが、説明が日本航空や事故被害者遺族の理解と異なる部分が存在。記事削除と謝罪は、41年前の歴史的事故に対する対応の重要性を改めて示した。\n\n事故は、航空安全と企業責任の問題を提起し続けている。ボーイングは2024年の定期検査不備で再度信頼を失った背景を踏まえ、歴史的責任を改めて認識。",
+    "tags": [
+      "日航123便",
+      "ボーイング",
+      "航空安全",
+      "企業責任"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia ビジネス",
+    "link": "https://www.itmedia.co.jp/business/articles/2608/12/news087.html",
+    "importance": 3,
+    "image_query": "aircraft maintenance engineering",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:28.705Z",
+    "publishedAt": "2026-08-12T07:04:00.000Z"
+  },
+  {
+    "slug": "20260812-38",
+    "headline": "日本で地震と猛暑が複合、救助活動が二重の困難に。気候危機が災害リスク加速",
+    "lead": "九州地震で、気温40℃超の猛暑下での救助活動。熱中症と疲弊が二重リスクに。",
+    "body_markdown": "九州地方の地震により、救助隊員が記録的な猛暑下での作業を強いられた。気温が40℃を超える環境で、瓦礫除去・被災者捜索・医療活動を継続。熱中症リスク増加で、通常の災害対応以上の困難に直面。\n\n気象研究によれば、地震などの自然災害と極端気象が同時発生する可能性が気候変動で急速に高まっている。従来は分離されていた災害シナリオが、複合化・連鎖化する傾向。\n\n日本では毎夏の猛暑が常態化する一方、地震の発生確率は年3%程度で変わらず。統計的には「夏季の地震」の確率も上昇。既存のインフラ・医療・物流体制は、複合災害への対応を想定しておらず、社会的脆弱性が露呈。\n\n自衛隊・地方自治体は、猛暑下での救助体制強化・冷却施設の確保・作業時間の工夫を急ぐ必要がある。気候危機が災害リスクを質的に変わらせている現実。",
+    "tags": [
+      "地震",
+      "気候危機",
+      "猛暑",
+      "防災"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-japan-earthquake-extreme-disaster.html",
+    "importance": 3,
+    "image_query": "disaster relief emergency response",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:28.706Z",
+    "publishedAt": "2026-08-12T01:20:01.000Z"
+  },
+  {
+    "slug": "20260812-39",
+    "headline": "ウクライナ、ロシアの『Wildberries』に大規模サイバー攻撃。国内産業に戦争を『持ち帰らせる』戦略",
+    "lead": "Amazonに相当するロシアのEコマースプラットフォームがウクライナの攻撃対象に。戦争の『内地化』を意図。",
+    "body_markdown": "ウクライナ軍がロシアの大手Eコマースプラットフォーム『Wildberries』（ロシアのAmazon相当）に大規模サイバー攻撃を実施。同社は連日のダウンタイムと機能障害に見舞われた。\n\nAl Jazeera報道では、この攻撃が「前線の戦闘とは無関係」であり、戦争を『ロシアの日常生活・経済に持ち帰る』戦略との位置付け。Wildberries はロシア国内の大手企業で、数百万人の利用者を抱える。\n\nウクライナの攻撃は、単なる軍事目標に限定されず、ロシア社会・経済基盤に直接ダメージを与える戦略へ転換。テロや脅迫ではなく、戦争責任の『責任転嫁』を国民に突きつける意図。\n\nこの動きは、長期戦化する紛争の中での非対称戦争戦術の進化を示す。サイバー攻撃が戦争の新フロンティアとなり、民間セクターへの波及が加速している。",
+    "tags": [
+      "ウクライナ",
+      "サイバー攻撃",
+      "ロシア",
+      "電子戦争"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/12/ukraines-strikes-on-russias-wildberries-arent-about-the-front-line",
+    "importance": 3,
+    "image_query": "cybersecurity attack computer network",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:28.707Z",
+    "publishedAt": "2026-08-12T08:19:05.000Z"
+  },
+  {
+    "slug": "20260812-40",
+    "headline": "イスラエル政府、入植者によるパレスチナ人追い出しに『共謀』と指摘。Jericho地区の家屋破壊",
+    "lead": "国際人権団体がイスラエル政府を批判。Jericho近郊の家屋破壊で、パレスチナ難民家族が避難を強制される。",
+    "body_markdown": "Al Jazeera報道によれば、イスラエル入植者がJericho地区でパレスチナ人の家屋を破壊。避難民の女性や子ども含む複数世帯が住まいを失った。\n\n国際人権組織はイスラエル政府の『共謀』を指摘。治安部隊が入植者の行動を黙認ないし助長している疑いを提示。入植地の拡大政策と連動する、組織的な人口追い出し戦術との見方。\n\nパレスチナ自治政府は国際司法裁判所への提訴を検討。2024年の南アフリカによるイスラエル提訴（ジェノサイド疑い）に続く法的対抗。\n\nこの紛争は長期化する一方、占領地での人口動態の急速な変化により、和平交渉の基盤も変容。定住者追い出し・入植の加速は、国際的非難が高まっている。",
+    "tags": [
+      "イスラエル",
+      "パレスチナ",
+      "入植地",
+      "人権"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/12/israeli-government-accused-of-complicity-as-settlers-demolish-jericho-homes",
+    "importance": 3,
+    "image_query": "refugee displacement shelter",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:28.709Z",
+    "publishedAt": "2026-08-12T08:07:33.000Z"
+  },
+  {
+    "slug": "20260812-41",
+    "headline": "Farage、Clacton再選挙で圧倒的優位。Reform UK、英国全体での政治力に課題",
+    "lead": "30年来の悲願達成から数ヶ月後、Farageがスキャンダルで議席を失う再選挙に直面。勝利確実も支持基盤は脆弱。",
+    "body_markdown": "英国Clacton地区の再選挙でNigel Farage率いるReform UK は圧倒的優位を保つ。2024年の一般選挙で30年来の悲願の議員当選から8ヶ月、Farage は泰国資産家からの寄付疑惑で議席を辞職。再選挙で勝利濃厚も、政治的信頼は低下。\n\nAl Jazeera報道では「Farage は町を制するが、国全体を制するか」と指摘。Clacton は離脱派（Brexit）支持層が厚く、Farage の最強支持基盤。一方、全国世論調査ではReform UKの支持率は20-25%で、労働党政権の足元ながら、全国的な政治勢力化は未確定。\n\n主要野党がClacton再選挙を逆説的にボイコット。Count Binface（ユーモア候補）ら計33名の対立候補がいるにもかかわらず、実質的にはFarage一強状態。\n\nこの勝利は、Farage 個人のカリスマと支持層の根強さを示す一方、Reform UK 全体の組織化・政策深化の遅さを浮き彫りにしている。",
+    "tags": [
+      "英国政治",
+      "Farage",
+      "Reform UK",
+      "選挙"
+    ],
+    "section": "政治",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/12/clacton-reform-farage-elections",
+    "importance": 3,
+    "image_query": "political rally election campaign",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-12T09:29:28.709Z",
+    "publishedAt": "2026-08-12T08:14:07.000Z"
+  },
+  {
     "slug": "20260812-01",
     "headline": "コロンビア地震で180人以上が死亡、新大統領が初の危機に直面",
     "lead": "コロンビアで大規模地震が発生し、180人以上が死亡。8月7日に就任したばかりのアベラルド・デ・ラ・エスプリエラ大統領の初の重大危機となっている。",
