@@ -1,5 +1,342 @@
 [
   {
+    "slug": "20260813-17",
+    "headline": "プーチン氏、北方領土を初訪問——実効支配を誇示",
+    "lead": "ロシアのプーチン大統領が北方領土・択捉島を初めて訪問し、水産加工工場を視察した。",
+    "body_markdown": "ロシアのプーチン大統領が北方領土の択捉島を訪問したことが8月13日に明らかになった。現職大統領の北方領土訪問は2010年のメドベージェフ前大統領の国後島訪問以来16年ぶりとなる。\n\nプーチン氏は択捉島の水産加工工場を視察し、ロシアの実効支配を強調する狙いとみられている。日本の茂木敏充外相は「択捉島を含む北方四島は、歴史的にも国際法上もわが国固有の領土」と述べ、訪問に強く抗議する声明を発表した。ウクライナ侵攻で国際的孤立が深まるロシアが、極東領土の統治を誇示する動きと位置付けられている。",
+    "tags": [
+      "地政学",
+      "日本・ロシア関係",
+      "領土紛争",
+      "国際政治"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260813de43566",
+    "sources": [
+      {
+        "url": "https://www.nikkei.com/article/DGXZQOCB132DJ0T10C26A8000000/",
+        "name": "日本経済新聞"
+      },
+      {
+        "url": "https://www.jiji.com/jc/article?k=2026081300526&g=int",
+        "name": "時事通信"
+      }
+    ],
+    "importance": 5,
+    "image_query": "putin leader political speech",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1646005995482-c1b65bd42d3b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxwdXRpbiUyMGxlYWRlciUyMHBvbGl0aWNhbCUyMHNwZWVjaHxlbnwxfDB8fHwxNzg2NjEzNjI3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tong Su",
+      "profileUrl": "https://unsplash.com/@tongsu?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a group of people holding flags and signs",
+      "description": "Sunday, February 27, 2022, Protesters gathered outside of Russian Consulate in uptown New York City to protest Russian's invasion in Ukraine. A protester holding a sign reads \"STOP PUTIN!\""
+    },
+    "mode": "full",
+    "createdAt": "2026-08-13T09:33:47.385Z",
+    "publishedAt": "2026-08-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260813-18",
+    "headline": "NAND市場で中国YMTC躍進——Kioxiaが4位に後退",
+    "lead": "第2四半期のNAND出荷ビットシェアで中国企業が初めてトップ3入り。Kioxiaを抜いた。",
+    "body_markdown": "NAND型フラッシュメモリ市場における勢力図が急速に変わっている。2026年第2四半期（4～6月）の出荷ビットシェアで、中国の長江存儲科技（YMTC）が14%で初めてトップ3に入り、日本のKioxiaが4位に後退した。首位はSamsung（25%）、2位はSK hynix（22%）。Kioxiaの順位は13%前後で5位のMicronの直後。\n\nAI需要の拡大に伴うメモリ供給不足が、低価格帯を強みとする中国メーカーに追い風となった。YMTCの躍進は中国半導体産業の存在感が急速に高まっていることを象徴している。設計・マスク技術で日本・台湾が優位を保つ一方、単価競争でのアジア勢間の主導権が移りつつある。",
+    "tags": [
+      "半導体",
+      "NAND",
+      "メモリ市場",
+      "中国産業"
+    ],
+    "section": "テクノロジー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/",
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/jp/news/articles/2026-08-13/TJOUI4T9NJLT00?srnd=jp-homepage",
+        "name": "Bloomberg Japan"
+      }
+    ],
+    "importance": 3,
+    "image_query": "semiconductor chip circuit board",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-13T09:33:47.387Z",
+    "publishedAt": "2026-08-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260813-19",
+    "headline": "日本の大手SI3社がAnthropicと相次ぎ提携——Claude導入で42万人が利用へ",
+    "lead": "NEC、日立製作所、富士通がAnthropicと戦略提携を発表。3社合計約42万人がClaudeを利用可能に。",
+    "body_markdown": "日本を代表するシステムインテグレーター（SI）3社が、米国のAI企業Anthropicと相次ぎ戦略的パートナーシップを締結した。NEC（4月23日発表）がAnthropic Global Partnerとなり、ClaudeをDX支援パッケージ「BluStellar Scenario」に統合し、グループ従業員約30,000人への導入を計画。日立製作所（5月19日）と富士通（5月27日）も同様に提携を発表している。\n\n3社合計で約42万人がClaudeを使用可能になるこの提携は、日本企業のAI時代への大型転換を象徴している。Anthropicの法人向けモデルが日本の基幹企業に本格採用される初の事例となり、エンタープライズAI市場でのAnthropicの地位が日本でも急速に高まりつつある。",
+    "tags": [
+      "AI企業提携",
+      "Anthropic",
+      "企業AI導入",
+      "デジタル変革"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia ビジネスオンライン",
+    "link": "https://www.itmedia.co.jp/business/articles/2608/13/news025.html",
+    "importance": 4,
+    "image_query": "office workers technology meeting",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758518730083-4c12527b6742?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyM3x8b2ZmaWNlJTIwd29ya2VycyUyMHRlY2hub2xvZ3klMjBtZWV0aW5nfGVufDF8MHx8fDE3ODY2MTM2Mjh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vitaly Gariev",
+      "profileUrl": "https://unsplash.com/@silverkblack?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Business professionals collaborating in a modern office meeting.",
+      "description": "Businesswoman talking with male and female colleagues sitting at the table in modern office indoors"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-13T09:33:48.137Z",
+    "publishedAt": "2026-08-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260813-20",
+    "headline": "Twitch、デフォルトでAmazonのAI訓練対象に——ストリーマーが反発",
+    "lead": "TwitchがAmazonへのAI訓練を自動的に許可する方針を導入。ストリーマーはオプトアウト設定で拒否可能。",
+    "body_markdown": "TwitchはAmazonの生成AIモデル訓練にストリーマーのコンテンツを使用する新方針を8月12日に発表した。デフォルトでは全ストリーマーが対象で、コンテンツ利用を拒否する場合は各自でオプトアウト設定を変更する必要がある。除外対象となるのは、配信映像・VOD・クリップ・チャットテキスト・画像など。\n\nただしAmazonが過去のコンテンツをすでに訓練に使用したかどうかや、オプトアウト後のポリシーは不明確なままだ。Twitchコミュニティから強い反発が起きており、デフォルト許可方式への批判が続いている。AI訓練のための同意取得が、テック企業の標準的な課題として浮き彫りになった。",
+    "tags": [
+      "知的財産権",
+      "生成AI",
+      "ストリーミング",
+      "プライバシー"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
+    "sources": [
+      {
+        "url": "https://www.engadget.com/2235647/twitch-streamers-can-now-refuse-to-let-amazon-train-its-gen-ai-models-on-their-content/",
+        "name": "Engadget"
+      }
+    ],
+    "importance": 4,
+    "image_query": "live streaming broadcast content",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1607968565043-36af90dde238?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxsaXZlJTIwc3RyZWFtaW5nJTIwYnJvYWRjYXN0JTIwY29udGVudHxlbnwxfDB8fHwxNzg2NjEzNjI4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Libby Penner",
+      "profileUrl": "https://unsplash.com/@libby_penner?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black smartphone taking photo of yellow round fruits",
+      "description": "a church service live-streamed from home 2020"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-13T09:33:49.029Z",
+    "publishedAt": "2026-08-12T00:00:00.000Z"
+  },
+  {
+    "slug": "20260813-21",
+    "headline": "Anthropic、Claudeが人間の励ましでリーマン予想に挑戦継続——過小評価の仮説も",
+    "lead": "AIが苦戦後、人間からの励ましを受けて計算を続けた結果、数学的進展を達成したことが判明。",
+    "body_markdown": "Anthropicが公開したClaudeのリーマン予想への挑戦プロセスは、AI時代の学習メカニズムを示唆する事例となった。初期段階で650回近い試行が失敗に終わった後、Anthropicスタッフから「諦めないで」という励ましを受けたClaudeは、計算を続行。結果、関連する数学問題で従来より大幅な進展を達成した。\n\nこの展開について、Anthropicは「AIも自身を過小評価しているのではないか」という仮説を提示。AIモデルが確度低下や探索放棄の判定を行う際、その判定基準や学習が必ずしも最適ではない可能性を示唆している。数学的成果そのものより、人間の社会的介入がAIの行動を変え、新たな結果をもたらしたプロセスが、より大きな発見として位置付けられている。",
+    "tags": [
+      "AI研究",
+      "数学",
+      "機械学習",
+      "Anthropic"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI+",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/13/2000000511/",
+    "importance": 3,
+    "image_query": "artificial intelligence thinking algorithm",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-13T09:33:49.030Z",
+    "publishedAt": "2026-08-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260813-22",
+    "headline": "Google表参道に米国外初の直営店オープン——Pixel 11を体験可能に",
+    "lead": "Googleが東京・表参道に初となる直営旗艦店をオープン。Pixel最新機種の体験やサポートを提供。",
+    "body_markdown": "GoogleがGoogle Store 表参道を2026年8月13日に東京・表参道の東急プラザ表参道オモカドにオープンした。米国外で初となるGoogle直営旗艦店で、日本初のフルスタック体験が可能になる。\n\n店内には製品知識に精通した専任スタッフが常駐し、最新のPixel 11シリーズを実際に試すことができるほか、購入後の技術サポート、Pixel端末の店頭修理、初期設定のヘルプなど、顧客ニーズに対応したサービスを展開する。今後、製品活用術を学べるワークショップも開催予定。オープン記念として先着1000人に限定ノベルティを配布。Apple Storeに続く、テック企業の小売戦略が日本でも本格化する兆候を示している。",
+    "tags": [
+      "Google",
+      "Pixel",
+      "小売戦略",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia Mobile",
+    "link": "https://www.itmedia.co.jp/mobile/articles/2608/10/news092.html",
+    "importance": 3,
+    "image_query": "retail store technology shop",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-13T09:33:49.132Z",
+    "publishedAt": "2026-08-13T14:00:00.000Z"
+  },
+  {
+    "slug": "20260813-23",
+    "headline": "BTSのV、聴力低下を初告白——右耳は30%程度に減少",
+    "lead": "BTS所属のV（テテ）が、2年半前から右耳の聴力が30%程度に低下していることを初めて明かした。",
+    "body_markdown": "K-POPグループBTSのメンバーV（テテ）が、8月12日のWeverse配信で右耳の聴力低下を初めて公表した。左耳を100とした場合、右耳は30程度にまで聴力が減少していると述べ、現在は病院で治療中で薬を服用していることを明かした。\n\n聴力の低下は約2年半前から始まったが、兵役中に症状が悪化したという。当初は心理的な問題だと考えていたが、医学的な検査により聴力低下が判明したとのこと。Vは「他人と比較しないでほしい」とファンへのメッセージも残しており、持病と向き合いながら活動を継続する姿勢を示している。世界的なアイドルのヘルスイシュー公表は、エンタテインメント業界における健康啓発の事例として注目されている。",
+    "tags": [
+      "エンタメ",
+      "健康",
+      "K-POP",
+      "音楽"
+    ],
+    "section": "カルチャー",
+    "source": "STARNEWS",
+    "link": "https://www.starnewskorea.com/ja/star/2026/08/13/2026081308021788308",
+    "importance": 3,
+    "image_query": "concert performance artist stage",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-13T09:33:49.132Z",
+    "publishedAt": "2026-08-12T00:00:00.000Z"
+  },
+  {
+    "slug": "20260813-24",
+    "headline": "RingCentral、ChatGPT WorkとCodexで開発加速——AI導入で全社のDX推進",
+    "lead": "米国の通信企業RingCentralがOpenAIのChatGPT WorkとCodexを全従業員に提供し、製品開発を高速化している。",
+    "body_markdown": "年間売上26億ドル超（約2,600億円）の米企業RingCentralが、OpenAIのChatGPT WorkとCodexを企業全体に導入し、AI時代の組織変革を実践している。ChatGPT WorkとCodexを全従業員に提供することで、エンジニアリング経験のない社員でも変革的な製品・インフラを構築できる環境を実現した。\n\n同社は音声AI、ビデオAI、コンテンツAI（AIR・AVA・ACE）からなる「Agentic Voice AI」ポートフォリオの開発にこれらのツールを活用している。ChatGPTを全員に配置することで「会社全体がプロダクト組織になる」とRingCentralは述べており、アイデアから機能リリースまでの距離を圧縮できているという。エンタープライズAI導入の先行事例として、日本企業にも示唆を与えている。",
+    "tags": [
+      "AI導入",
+      "ChatGPT",
+      "開発効率",
+      "エンタープライズAI"
+    ],
+    "section": "テクノロジー",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/ringcentral",
+    "importance": 3,
+    "image_query": "office team collaboration meeting",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-13T09:33:49.133Z",
+    "publishedAt": "2026-08-12T00:00:00.000Z"
+  },
+  {
+    "slug": "20260813-25",
+    "headline": "OpenAI、サイバーセキュリティ向けAIモデルを全パートナーに提供——Daybreak Cyber Program拡大",
+    "lead": "OpenAIが最先端のサイバーセキュリティAIモデルをセキュリティ企業に供給し、脆弱性発見・修正を高速化する。",
+    "body_markdown": "OpenAIがサイバーセキュリティ企業向けの「Daybreak Cyber Partner Program」を拡大し、最先端のサイバーセキュリティモデルをセキュリティパートナーに提供開始した。これにより、より多くの組織がOpenAIのフロンティアモデルを自社の製品・サービス・セキュリティオペレーション・センターに統合できるようになる。\n\n攻撃者がマシンスピードで脆弱性を発見・開発・侵害するスピードに対し、ディフェンダーは対応が追いつかない状況が続いている。OpenAIのサイバーセキュリティモデルは、深刻な脆弱性の特定から修復優先度判定まで高速化する。セキュリティ人材の不足と脅威スピードの加速という業界課題に、AIが直接対抗する形で市場が進化しつつある。",
+    "tags": [
+      "サイバーセキュリティ",
+      "AI",
+      "脅威対応",
+      "OpenAI"
+    ],
+    "section": "テクノロジー",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+    "importance": 3,
+    "image_query": "cybersecurity shield protection",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-13T09:33:49.133Z",
+    "publishedAt": "2026-08-10T10:00:00.000Z"
+  },
+  {
+    "slug": "20260813-26",
+    "headline": "Model ML、GPT-5.6でファイナンス自動化——PowerPoint作成が1時間から5分に",
+    "lead": "フィンテック企業Model MLがOpenAIのGPT-5.6を活用し、ファイナンス分析作業を大幅に自動化した。",
+    "body_markdown": "金融分析スタートアップのModel MLが、OpenAIのGPT-5.6を導入し、ファイナンシャル分析ワークフローを劇的に短縮している。従来は約1時間を要していたPowerPointデッキ作成が、わずか5分に。Excelワークブック作成も同様に大幅な効率化を実現。\n\nModel MLは、生成されたファイルをクライアント検証や決裁者への提出に備え、編集可能なPowerPoint・Excelで出力。精度では、Fable 5比で21%のトークン削減、Opus 5を大幅に上回る36%のトークン削減、プロフェッショナル完成度でOpus 5比16.6ポイントの優位性を実現している。金融アナリストの最後のマイル（レビューと実装）をAIが補助することで、人間はより戦略的な判断に注力できる環境が整いつつある。",
+    "tags": [
+      "ファイナンステック",
+      "生成AI",
+      "業務自動化",
+      "GPT-5.6"
+    ],
+    "section": "テクノロジー",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/model-ml",
+    "importance": 3,
+    "image_query": "financial analysis spreadsheet chart",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-13T09:33:49.134Z",
+    "publishedAt": "2026-08-10T12:00:00.000Z"
+  },
+  {
+    "slug": "20260813-27",
+    "headline": "Google、広告・アナリティクスにAIエージェント機能——マーケティング自動化進む",
+    "lead": "GoogleがGoogle Ads・Google Analyticsに新AI機能を追加。マーケティング業務の自動化が加速する。",
+    "body_markdown": "GoogleはGoogle AdsとGoogle Analyticsに新しいAIおよびエージェント機能を統合し、マーケティングワークフロー全体の簡素化を進めている。新機能により、キャンペーン設定から分析まで、AIが営業チームの判断を支援・自動化する形へ進化している。\n\nこれらの機能は、デジタルマーケティングにおける人間と機械の役割分担を再定義する。単なる「自動最適化」から、戦略立案支援への移行を示唆しており、マーケッターの業務がより高度な意思決定に集中できる環境が整いつつある。実装済みの企業から、効率性と効果測定の向上が報告されている。",
+    "tags": [
+      "マーケティング",
+      "Google広告",
+      "AI自動化",
+      "デジタルマーケティング"
+    ],
+    "section": "テクノロジー",
+    "source": "Google AI",
+    "link": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+    "importance": 3,
+    "image_query": "marketing analytics data dashboard",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-13T09:33:49.135Z",
+    "publishedAt": "2026-08-10T14:30:00.000Z"
+  },
+  {
+    "slug": "20260813-28",
+    "headline": "OpenAIのCodex、1500万ユーザー突破——開発効率革命が本格化",
+    "lead": "OpenAIのコード生成AI「Codex」がユーザー1500万人に到達。開発者向けAI活用が急速に拡大。",
+    "body_markdown": "OpenAIが開発したコード生成AI「Codex」のユーザー数が1500万人に達したことを明らかにした。プログラマーの生産性向上ツールとしての位置付けが、エンタープライズレベルで確立されつつあることを示唆している。1500万人という利用規模は、開発ツール市場におけるAI統合の加速を示す指標となっている。\n\n1500万人ユーザーを抱えるCodexはプログラミング言語の理解と多言語コード生成を可能にし、開発サイクルを大幅に短縮する。同社は利用制限をリセットし、より多くのユーザーがアクセス可能にした。開発生産性の向上は、スタートアップから大企業まで広く恩恵を受けており、ソフトウェア開発産業全体の効率化が加速している。",
+    "tags": [
+      "Codex",
+      "コード生成AI",
+      "開発効率",
+      "OpenAI"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI+",
+    "link": "https://www.itmedia.co.jp/aiplus/articles/2608/13/",
+    "importance": 3,
+    "image_query": "programming code screen laptop",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-13T09:33:49.135Z",
+    "publishedAt": "2026-08-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260813-29",
+    "headline": "英国経済、4～6月期にプラス成長も課題山積——専門家は先行き警戒",
+    "lead": "英国GDP成長率が予想を上回ったが、専門家は今後の経済課題の深刻さを指摘している。",
+    "body_markdown": "英国統計局が4～6月期のGDP成長が前四半期比でプラスとなったことを発表した。一時的な経済指標改善により市場では若干の楽観論が出ているが、専門家からは懸念の声が上がっている。エネルギー価格の高騰、労働力不足、供給チェーン脆弱性など、構造的な課題が依然として解決されていない。\n\n農業分野では干ばつによる穀物減収が深刻化し、食料自給率低下への危機感が高まっている。労働市場の賃金圧力と物価上昇のスパイラル、そして政府支出削減圧力の中での経済運営が求められ、短期的成長の先に中期的な停滞リスクが存在する。今後数四半期の動向が、英国経済の方向性を大きく左右する局面にある。",
+    "tags": [
+      "英国経済",
+      "GDP",
+      "インフレ",
+      "政策"
+    ],
+    "section": "経済・マネー",
+    "source": "BBC Business",
+    "link": "https://www.bbc.com/news/business",
+    "importance": 3,
+    "image_query": "economy finance market chart",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-13T09:33:49.136Z",
+    "publishedAt": "2026-08-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260813-30",
+    "headline": "NASA、月面基地建設へ向け商業パートナーと連携——資源採掘計画が進展",
+    "lead": "NASAが月面資源の採掘・利用を目指し、民間企業Lunar Station Corpと協力。探査データを提供。",
+    "body_markdown": "NASAが月面開発の民間化を加速させている。貧困な月面環境に存在する水・鉱物（鉄・チタンなど）の採掘・処理計画に向け、民間企業Lunar Station Corpに衛星データと探査情報を提供し、採掘可能地点の特定支援を開始した。\n\n月面資源の有効活用は、将来の有人月面基地の持続可能性を左右する重要要素。採掘・処理設備の着陸地点選定には、資源分布図の精度が決定的となる。政府と民間の役割分担により、月面経済圏の創出が現実化しつつある。同時にルーン進出に伴う国際競争の激化も予想され、宇宙開発政策の枠組みも変わりつつある。",
+    "tags": [
+      "月面開発",
+      "NASA",
+      "宇宙資源",
+      "民間宇宙開発"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://www.nasa.gov/",
+    "importance": 3,
+    "image_query": "moon lunar surface spacecraft",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-13T09:33:49.137Z",
+    "publishedAt": "2026-08-13T00:00:00.000Z"
+  },
+  {
     "slug": "20260813-01",
     "headline": "エンタープライズAIが「補助」から「実行」へ転換",
     "lead": "OpenAIの報告書が示すように、フロンティア企業のAI活用が急速に深まり、トークン生成量で平均企業との差が8.3倍に開いている。",
