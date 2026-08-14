@@ -71,3 +71,5 @@
 {"ts":"2026-08-13T21:07:13Z","type":"judge_absent","exit":1}
 {"ts":"2026-08-14T09:26:20.852Z","type":"candidates","total":372,"pool":140,"skippedWeak":7,"skippedIrrelevant":5,"enriched":2}
 {"ts":"2026-08-14T09:35:06Z","type":"draft_lint","flagged":3,"drafts":22}
+{"ts":"2026-08-14T21:00:22.963Z","type":"candidates","total":372,"pool":140,"skippedWeak":11,"skippedIrrelevant":3,"enriched":2}
+{"ts":"2026-08-14T21:09:00Z","type":"draft_lint","flagged":5,"drafts":10}

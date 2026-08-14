@@ -1,5 +1,146 @@
 [
   {
+    "slug": "20260815-01",
+    "headline": "オープンモデル時代、中国が大規模化で主導権―夏レポ",
+    "lead": "HuggingFaceの報告書が示す: 中国のAIラボが米国を出し抜く",
+    "body_markdown": "AI業界の勢力図が変わりつつある。Hugging Faceが発表した「オープンモデルの夏2026」レポートは、中国のAIラボが米国を圧倒していることを明らかにした。\n\n2026年を通じて、中国のラボが発表した最大で最高性能のモデルは、ほぼ毎月、米国ラボが公開したものを上回った。中国モデルは754億から2.78兆パラメータに達した一方、米国は月ベースでほぼ1300億パラメータ以下に留まった。\n\nもっとも注目すべきは、実際の利用パターンの変化だ。「All-MiniLM-L6-v2」というモデルは15億5000万ダウンロードを記録したが、Hugging Face内の「いいね」は5156にすぎない。コミュニティの関心（いいね）と実インフラへの依存（ダウンロード）のギャップは埋まらず、業界が何を実際に使っているかは見えにくい。\n\n一方、Qwenモデルファミリーが圧倒的な地位を占めた。同プラットフォーム上に15万1448個の派生リポジトリを持つQwenは、Metaの全体の2.6倍、Llamaの4.7倍である。日々180～210の新しい派生リポジトリが生まれている。\n\n実用的には、10億パラメータ以下のモデルが歴史的ダウンロードの83%を占める。100億を超えるモデルは1%に過ぎない。つまり、ニッチな大規模モデルより、実際に動く小モデルの方が、産業価値は圧倒的に高い。",
+    "tags": [
+      "AI",
+      "モデル",
+      "中国",
+      "開発"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+    "importance": 4,
+    "image_query": "AI model training neural network",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://huggingface.co/blog/assets/state-of-open-models-summer-2026/thumbnail.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-14T21:20:02.920Z",
+    "publishedAt": "2026-08-14T00:00:00.000Z"
+  },
+  {
+    "slug": "20260815-02",
+    "headline": "天然ガス価格3倍化で懸念―AI データセンター経営難へ",
+    "lead": "米国の一部で$10/MMBtu超へ、ハイパースケーラーの電力コスト急騰か",
+    "body_markdown": "米国でAIデータセンターの黄信号が点灯した。エネルギー分析企業Norevaの予測では、米国の一部地域で天然ガス価格が最大3倍に跳ね上がる可能性がある。現在、2～4.5ドル/MMBtuの価格が、10ドル/MMBtuを超える地域が出現するという。\n\n背景には三つの要因がある。まず、新規鉱井の掘削コストが上昇し、生産成長率が鈍化している。次に、液化天然ガス（LNG）輸出が増加し、国内市場がグローバル価格に連動する。そして何より、AIの爆発的需要がデータセンターの消費を増やしている。\n\n発電所の電力コストの約半分は燃料費。天然ガス価格が倍数十倍になれば、ハイパースケーラー（AWS、Google、Meta など）の電力費は膨大に上昇する。とくに「bring your own power」戦略でデータセンター敷地内に発電施設を持つ企業に打撃が大きい。\n\nその結果、三つのシナリオが起こる。トークンあたりのAI推論コストが跳ね上がり、サービス料金が上昇する。ハイパースケーラーがグリッドに接続する割合を増やし、一般家庭の電力価格も連動して上昇する。消費者の不安はすでに高く、米国民の80%がデータセンターが光熱費に与える影響を懸念している。「電気代が上がる」という圧力が政治化する可能性も残る。",
+    "tags": [
+      "天然ガス",
+      "エネルギー",
+      "データセンター",
+      "AI"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
+    "importance": 4,
+    "image_query": "data center power consumption",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1507333199169-84fd735371fb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxkYXRhJTIwY2VudGVyJTIwcG93ZXIlMjBjb25zdW1wdGlvbnxlbnwxfDB8fHwxNzg2NzQyNDA1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "imgix",
+      "profileUrl": "https://unsplash.com/@imgix?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a bunch of wires in a rack",
+      "description": "Racked Mac Minis"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-14T21:20:03.972Z",
+    "publishedAt": "2026-08-14T14:05:00.000Z"
+  },
+  {
+    "slug": "20260815-03",
+    "headline": "熱帯雨林400万ヘクタール消失―野火2001年以降",
+    "lead": "保護区の森林喪失、2016年から年間9倍に加速",
+    "body_markdown": "2001年以降、保護された熱帯雨林400万ヘクタール以上が野火によって消失した。これはウェールズの面積の2倍に相当する。Phys.orgが報告した研究が明かした。\n\n地理的に見ると、破壊の89%はトロピカル・アメリカ地域に集中。そのうちブラジルが約3分の2を占める。インドネシア、ボリビアも大きな被害を受けた。\n\nさらに懸念すべきは加速化だ。2016年以降、保護区内で焼失する年間面積は、それ以前の約9倍に跳ね上がった。とりわけ2024年は、24年間の合計の3分の1をたった1年で失ったという。気候変動による乾燥化と林火事件の相互作用が、保護区すら守り切れない状態に陥っている。\n\n野火は単なる自然災害ではなく、地球規模の炭素サイクルと生物多様性喪失に直結する。熱帯雨林は大気中のCO2を大規模に吸収し、地球の肺として機能してきた。その消失は地球温暖化を加速させ、さらなる乾燥と野火を招く悪循環を生む。研究チームは、保護区の実効性を高める対策と、根本的な気候変動対策の両者が急務だと警告している。",
+    "tags": [
+      "野火",
+      "環境",
+      "生物多様性"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-wildfires-destroyed-area-tropical-forest.html",
+    "importance": 4,
+    "image_query": "wildfire forest smoke",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1617917197067-5de504d8518e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHx3aWxkZmlyZSUyMGZvcmVzdCUyMHNtb2tlfGVufDF8MHx8fDE3ODY3NDI0MDZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Chris LeBoutillier",
+      "profileUrl": "https://unsplash.com/@chrisleboutillier?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "silhouette of trees under cloudy sky during daytime"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-14T21:20:04.686Z",
+    "publishedAt": "2026-08-14T20:00:01.000Z"
+  },
+  {
+    "slug": "20260815-04",
+    "headline": "癌細胞の同期パルシングが長い―悪性度の新指標か",
+    "lead": "MITが発見、上皮細胞の集団波動で腫瘍の危険性を予測",
+    "body_markdown": "MIT の研究チームが、上皮細胞の驚くべき性質を発見した。健康な上皮細胞は、移動時に集団で同期して「パルシング」（膨張と収縮の繰り返し）する。周期は約1時間。細胞が波のように明確なリズムで動く。\n\nこの発見の中核は、悪性細胞の振る舞いだ。癌細胞は、健康な細胞の約2倍の長さ、この同期パルシングを維持する。研究者は「本当に危険な癌細胞は時間とともにチームを組み、持続的な振動を起こす」と指摘した。\n\n上皮細胞は身体の保護盾。発生時に成長・分裂し、傷の治癒や臓器形成で移動する。この集団運動には秩序があり、各細胞の行動は隣接細胞と同期する。ところが悪性化すると、細胞間の接着が変わり、この同期が異常に続く。医学的には、この異常持続が腫瘍の攻撃性や転移性と相関する可能性がある。\n\n臨床応用は二つ。第一に、薬剤投与後の同期パルシングが崩れるなら、その治療が有効である兆候となる。第二に、喘息治療で、上皮細胞の同期の破壊を標的にした新薬開発も検討されている。病理組織の顕微鏡観察が、単なる静止画像から、動的リズムの読み取りへと進化する可能性を示唆している。",
+    "tags": [
+      "癌",
+      "研究",
+      "細胞生物学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-cells-pulse-malignant-longest.html",
+    "importance": 3,
+    "image_query": "cancer cell microscopy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-14T21:20:04.688Z",
+    "publishedAt": "2026-08-14T20:40:01.000Z"
+  },
+  {
+    "slug": "20260815-05",
+    "headline": "太陽嵐を12時間前に予測―NASAが新AI技術",
+    "lead": "COFFIES、音波パターンの機械学習で宇宙天気をつかむ",
+    "body_markdown": "NASAの研究チーム（COFFIES：太陽の場と流れの結果 Consequence Of Fields and Flows in the Interior and Exterior of the Sun）が、太陽嵐の予報精度を飛躍させる技術を開発した。太陽表面で活動領域が出現する12時間前に検知できる。\n\nトランスフォーマー（深層学習アーキテクチャ）の一種「sliding-window transformer」を用い、太陽内部の微細な磁場変動と音波パターンの変化を捉える。従来は、黒点が目に見えるまで検知できなかった。この新手法は「目に見えない予兆」を拾い出す。\n\nチームの説明によれば、太陽深部を通う音波の微細な乱れが、活動領域の出現数時間前に変わる。磁場も同時に変動する。これらの「間接的シグナル」をAIが読み取り、黒点が表面に現れる直前に警告を発する。\n\n実用的な応用は宇宙ミッション保護だ。月面基地や火星探査機、宇宙ステーションの乗員は太陽嵐で被曝リスクが高まる。事前警告があれば、シェルターに入る時間が稼げる。衛星やインフラも放射線から保護できる。\n\nただし、モデルはまだ運用段階ではない。さらなる太陽現象での検証を経て、本格的な予報ツール化を目指す段階にある。数年内の実装が期待される。",
+    "tags": [
+      "太陽",
+      "宇宙天気",
+      "AI"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "importance": 3,
+    "image_query": "solar flare sun activity",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-14T21:20:04.689Z",
+    "publishedAt": "2026-08-14T17:00:23.000Z"
+  },
+  {
+    "slug": "20260815-06",
+    "headline": "南海電鉄、人工力で計画を1週間に―量子風アニーリング",
+    "lead": "数ヶ月かかった乗務員運用計画が日立CMOSで自動化",
+    "body_markdown": "南海電気鉄道と日立製作所が、鉄道運用計画の自動化を開始する。これまで熟練者の手作業に数ヶ月要していた乗務員・車両配置の計画が、1週間で完了するという。背景にあるのは、日立独自の「CMOSアニーリング」技術だ。\n\nアニーリングは、量子コンピュータが解く最適化問題の一種。日立は、従来シリコンロジックで動作するCMOS回路を用いて、量子的なプロセスを疑似再現する。莫大な組み合わせから、ほぼ最適な解を数十秒で見つけられる。\n\n鉄道業界の課題は複雑だ。数百～数千の乗務員、車両、勤務シフト、乗車率予測、メンテナンススケジュール、法定休息時間など、多数の制約をすべて満たすような配置を手で作ると、経験とセンと作業時間が必要になる。\n\nCMOSアニーリングを適用すると、この計算が数分～数時間で実行される。業務負荷が激減し、計画精度も向上する。削減できた人員を、より価値の高い業務（例えば顧客サービス向上や新サービス企画）に転配置できる。\n\n南海電鉄のような大規模鉄道網では、日々の計画変更（急病欠勤、車両故障、天候対応など）にもアジャイルに対応できるメリットがある。同社は今後、このシステムを他の鉄道網にも展開する可能性を検討している。",
+    "tags": [
+      "量子コンピュータ",
+      "最適化",
+      "交通"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/14/news043.html",
+    "importance": 3,
+    "image_query": "railway train transportation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-14T21:20:04.704Z",
+    "publishedAt": "2026-08-13T23:00:00.000Z"
+  },
+  {
     "slug": "20260814-18",
     "headline": "ICML 2200論文を再現実験、AI査読の限界と人間協働の価値が判明",
     "lead": "Hugging Faceのコミュニティが2200の学術論文を再現実験。4分の1の論文に不備が見つかり、人間とAIの協働査読が最も効果的と示唆された。",
