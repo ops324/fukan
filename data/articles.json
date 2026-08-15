@@ -1,5 +1,477 @@
 [
   {
+    "slug": "20260815-07",
+    "headline": "ロシア・ウクライナ戦争の最前線（8月15日更新）",
+    "lead": "ロシア軍とウクライナ軍が東部・南部で継続的に激しい戦闘を繰り広げている。",
+    "body_markdown": "ロシア侵攻から2年以上が経つウクライナ情勢は、依然として激戦状態が続いている。8月15日時点でロシア軍とウクライナ軍は東部の前線各地で戦闘を繰り広げており、特に東部での砲撃戦が激しい。\n\nドローン技術を活用した無人偵察が両軍の作戦効率を高めている一方、民間人への被害も増加している。ウクライナは西側からの軍事支援を継続的に受けており、防衛力の維持に力を入れている。\n\nこの紛争は国際的にも波紋を広げ続けており、経済制裁による両国経済への影響も深刻化している。戦況の推移が今後の欧州情勢に大きな影響を与える要因となっている。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "地政学",
+      "国際紛争"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260815de44259",
+    "importance": 5,
+    "image_query": "war battlefield soldiers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1683480678692-5b6bdfb53147?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHx3YXIlMjBiYXR0bGVmaWVsZCUyMHNvbGRpZXJzfGVufDF8MHx8fDE3ODY3ODYwNTR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Library of Scotland",
+      "profileUrl": "https://unsplash.com/@natlibraryofscotland?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a black and white photo of a man with a gun",
+      "description": "Soldier's comrades watching him as he sleeps, Thievpal, France, during World War I Soldiers are standing in a very deep, narrow trench, the walls of which are entirely lined with sandbags. At the far end of the trench a line of soldiers are squashed up looking over each others' shoulders at the soldier asleep. The sleeping soldier is lying on a narrow ledge in an uncomfortable position but looks so relaxed and deeply asleep. His rifle is lying to hand and he is still fully equipped. His comrades in the background all appear to be smiling. Everyone is covered in dust and wearing muddy boots."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:34.657Z",
+    "publishedAt": "2026-08-15T00:00:00.000Z"
+  },
+  {
+    "slug": "20260815-08",
+    "headline": "OpenAI、GPT-5.6の価格を最大80%削減―エージェント構築が低コスト化",
+    "lead": "OpenAI がGPT-5.6の価格を大幅に引き下げ、特に小規模モデルLunaは80%の値下げを実施。スタートアップ向けのエージェント開発がより実現しやすくなる。",
+    "body_markdown": "OpenAI が8月13日、GPT-5.6ファミリーの価格引き下げを発表した。小規模モデル「Luna」は1100万トークンあたりの入力価格を0.20ドル、出力を1.20ドルに設定―実に80%の削減である。中規模の「Terra」も20%値下げを実施した。\n\n同時にパフォーマンスも向上。Luna は BrowseComp テストで1.33ドル（前世代は33.27ドル）で84%の精度を達成―25倍のコスト削減だ。最上位の Sol も価格据え置きながら、API内での推論速度が2.5倍に高速化された。\n\nこの戦略の背景には、推論コストの削減が使用量を拡大し、それが次世代モデル開発への投資を支える経済モデルがある。スタートアップが「スマートなモデル選択」「マルチエージェント・オーケストレーション」「プログラマティックなツール呼び出し」を駆使して低コストで高性能なエージェントを構築できる環境が整う。",
+    "tags": [
+      "AI",
+      "LLM",
+      "OpenAI",
+      "エージェント"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html",
+        "name": "CNBC"
+      }
+    ],
+    "importance": 4,
+    "image_query": "AI model neural network",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4BXdV1bAQE16SMC7CjzCyn/a4bb2a0a0433b2b449b6cf9bce7b7fda/the-builders-guide-to-gpt-5-6-option-075-open-graph.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:35.740Z",
+    "publishedAt": "2026-08-13T11:00:00.000Z"
+  },
+  {
+    "slug": "20260815-09",
+    "headline": "インドネシア・Flores島沖でM7.7の地震―津波警報で数州が警戒",
+    "lead": "インドネシアの東ヌサ・トゥンガラ州沖でM7.7の地震が発生。津波警報が発令され、住民が高台への避難を指示された。",
+    "body_markdown": "インドネシアの東ヌサ・トゥンガラ州Flores島沖で、M7.7の強い地震が発生した。震源はEnde市の北西約68km、深さ10kmの浅い位置にある。\n\nインドネシア気象庁は直ちに津波警報を発令し、東ヌサ・トゥンガラ州、西ヌサ・トゥンガラ州、南スラウェシ州、東南スラウェシ州の住民に高台への避難を指示した。深さ10kmという浅い震源と高いマグニチュードから、津波の危険性が高い状況が懸念されていた。\n\n広大な島嶼国インドネシアは環太平洋火山帯に位置し、頻繁に地震に襲われる。今回の地震は多くの人命が関わる可能性があり、当局は被害状況の把握に当たっている。",
+    "tags": [
+      "地震",
+      "津波",
+      "インドネシア",
+      "自然災害"
+    ],
+    "section": "国際・地政学",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-magnitude-earthquake-coast-indonesia-tsunami.html",
+    "importance": 4,
+    "image_query": "earthquake tsunami waves",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1712238319063-ac65028ba74a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxlYXJ0aHF1YWtlJTIwdHN1bmFtaSUyMHdhdmVzfGVufDF8MHx8fDE3ODY3ODYwNTZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Eric Prouzet",
+      "profileUrl": "https://unsplash.com/@eprouzet?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a painting of a large wave in the ocean",
+      "description": "Powerful Waves Crashing on a Stormy Ocean - A powerful wave crashes against the shore on a stormy day. The ocean is a deep blue, with whitecaps and spray from the waves. The sky is a dark gray, with clouds gathering overhead. The scene is both beautiful and ominous, showcasing the raw power of nature."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:36.480Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-10",
+    "headline": "イスラエル、レバノン南部を集中攻撃―7人死亡、停戦後最大規模",
+    "lead": "イスラエル軍がレバノン南部を空爆し、Nabatieh郡で7人が殺害。6月の停戦合意以降、最も激しい軍事衝突となった。",
+    "body_markdown": "イスラエル軍がレバノン南部を大規模に空爆し、Nabatieh郡Ansar郊外の民間建築が破壊され、7人が殺害されたと現地メディアが報じた。イスラエル軍は「セキュリティゾーン内のHezbollah施設」への対抗措置だと主張している。\n\n8月15日未明の攻撃は、Ali al-Taher Ridgeやさらに南方のAnsar・Zarariyeh間の渓谷を含む広大な地域に及んだ。特に重要なのは、この攻撃が6月の停戦合意以降、同地域への攻撃がこれほど南に達したのは初めてという点である。停戦の破綻の危険性が増している。\n\nイスラエルとHezbollah の衝突は、シリア情勢とも絡み合い、中東全体の不安定化を招いている。",
+    "tags": [
+      "イスラエル",
+      "レバノン",
+      "紛争",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/15/israeli-strike-kills-seven-in-south-lebanon-as-attacks-intensify",
+    "importance": 4,
+    "image_query": "military airstrike conflict",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1772303142856-7b8e054ffd91?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8bWlsaXRhcnklMjBhaXJzdHJpa2UlMjBjb25mbGljdHxlbnwxfDB8fHwxNzg2Nzg2MDU3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Saifee Art",
+      "profileUrl": "https://unsplash.com/@saifee_art?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Toy soldiers and fighter jets arranged on a map."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:37.250Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-11",
+    "headline": "トランプ大統領「イラン戦争終了後、ホルムズ海峡を米領と宣言」―地政学的波紋",
+    "lead": "トランプ大統領がイラン戦争終結後にホルムズ海峡を米領と宣言する計画を明かし、イランが強く反発。国際法上の問題が浮上。",
+    "body_markdown": "トランプ大統領は8月14日、ニューヨーク州Garden Cityの集会で「イラン戦争に勝利した後、ホルムズ海峡を米国の領土と宣言する」と述べた。この発言は現在進行中の米・イラン紛争が終結した場合の方針を示唆している。\n\nホルムズ海峡は世界の海運にとって重要な地点であり、イランとオマーンが共同で管理している。イラン副外相は即座に反発し、「トランプが敗北後にホルムズ海峡を米領と宣言する」と風刺的に応じた。国際海洋法（UNCLOS）の観点からも、一方的な領土宣言は國際的な反発を招く可能性が高い。\n\nこの発言は、現在の米国と湾岸地域の微妙な外交バランスに大きな不確実性をもたらしている。",
+    "tags": [
+      "トランプ",
+      "地政学",
+      "イラン",
+      "海峡"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/14/trump-says-he-will-declare-strait-of-hormuz-a-us-territory",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/08/15/",
+        "name": "CNBC"
+      }
+    ],
+    "importance": 4,
+    "image_query": "strait water geopolitics map",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1742415105376-43d3a5fd03fc?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxzdHJhaXQlMjB3YXRlciUyMGdlb3BvbGl0aWNzJTIwbWFwfGVufDF8MHx8fDE3ODY3ODYwNTd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Community Archives of Belleville and Hastings County",
+      "profileUrl": "https://unsplash.com/@communityarchives?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Map of the world showing continents and oceans",
+      "description": "2023-036-05 Canada Department of Mines and Resources Map of the World. One of a series of seven maps taken from the walls of the one-roomed schoolhouse of School Section #15, Blessington Road, Tyendinaga Township when it closed in around 1963. Donated by David McAvoy in April 2023."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:37.879Z",
+    "publishedAt": "2026-08-14T00:00:00.000Z"
+  },
+  {
+    "slug": "20260815-12",
+    "headline": "ロシア経済、隠れた亀裂が深刻化―油・ガス収入は64%減、銀行危機の兆し",
+    "lead": "ロシアの2026年成長率は0.4%に留まり、油ガス収入が急減。不良債権が10%に跳ね上がり、銀行システムが不安定化の兆候を見せている。",
+    "body_markdown": "ロシア経済が表面の安定を保つ一方、構造的な危機が深刻化している。2026年の成長率は0.4%に留まり、2025年の1%からさらに減速。2026年上半期の油・ガス収入は2年前の同期比で64%に落ち込んだ。一方、ウクライナ戦争に伴う過度な軍事費が赤字を倍増させ、2025年の2倍に達する見込みだ。\n\n最も懸念される指標は銀行セクターだ。欧州情報機関の報告では、ロシアの不良債権が約10%に急上昇―2024年より大幅に増加している。銀行危機の前兆である可能性がある。\n\nウクライナドローンによる製油所攻撃と西側制裁の強化が重なり、長期成長戦略のない軍事支出は短期的にGDPを押し上げるが、生産性向上や資産形成には寄与しない。ロシア経済は「見かけの繁栄」から実質的な衰退へ向かっている。",
+    "tags": [
+      "ロシア",
+      "経済",
+      "制裁",
+      "銀行"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/15/ukraine-war-russia-economy-putin-oil.html",
+    "importance": 4,
+    "image_query": "economy financial crisis decline",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1757955881880-17b0ba2947cd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxlY29ub215JTIwZmluYW5jaWFsJTIwY3Jpc2lzJTIwZGVjbGluZXxlbnwxfDB8fHwxNzg2Nzg2MDU4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jakub Żerdzicki",
+      "profileUrl": "https://unsplash.com/@jakubzerdzicki?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Stacked chairs and tables at an outdoor cafe.",
+      "description": "Closed restaurant terrace chairs empty crisis shutdown. Outdoor dining area with overturned chairs symbolizing economic collapse business closure seasonal decline financial hardship deserted patio scene autumn atmosphere"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:38.678Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-13",
+    "headline": "Waymo、Sacramento・San Diegoでの自動運転タクシー運行許可を取得",
+    "lead": "Waymoが米カリフォルニア州公益委員会（CPUC）から、Sacramento・San Diego等18県での自動運転タクシー拡大許可を取得。段階的展開を開始。",
+    "body_markdown": "自動運転タクシー企業Waymoが、カリフォルニア州公益委員会（CPUC）から大規模な地域拡大を承認された。これまでサンフランシスコ湾岸とロサンゼルス周辺に限定されていたサービスが、Sacramento、San Diego、および追加の複数郡に拡張される。\n\nCPUC承認は18県を対象とし、Waymoは既存のJaguar I-Pace と新型Ojai（Zeekr製の自動運転ミニバン）を投入する。Sacramento拡大は2月に発表された計画の実現であり、San Diegoではすでに7月時点で安全運転手なしの実験が進められていた。\n\n展開は段階的で、Waymoの安全基準に基づいた慎重な始まりになるという。米国における自動運転商用化は、テスラの自動運転技術とWaymoの無人運行の2つの路線で競われており、Waymoは地域拡大により市場シェアを拡大させる。",
+    "tags": [
+      "自動運転",
+      "Waymo",
+      "カリフォルニア",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2237530/waymo-receives-permission-to-offer-rides-in-sacramento-and-san-diego/",
+    "importance": 3,
+    "image_query": "autonomous vehicle car taxi",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:38.680Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-14",
+    "headline": "Qwen3.8-27Bがウェイト公開―一部でOpus 4.6 Max超え、Apache 2.0で商用可",
+    "lead": "Alibaba系Qwenが27Bパラメータの新モデルを公開。ソフトウェア開発ベンチマークでOpus 4.6 Maxを上回り、商用ライセンスで即座に利用可能。",
+    "body_markdown": "Alibaba が開発する大規模言語モデル「Qwen3.8」の27Bパラメータ版のウェイトを公開した。ローカル実行やクラウド統合に適したこのモデルは、複数の専門分野ベンチマークでAnthropicのOpus 4.6 Maxを上回る性能を示している。\n\nSWE-bench Pro（ソフトウェア開発タスク）で61.7、LiveCodeBench v6（競技プログラミング）で90.3を記録―いずれもOpus 4.6 Maxの性能を超える。一方、科学的推論や複雑な問題解決ではOpusに後れを取っている。\n\nの決定的な違いはライセンスだ。Qwen3.8-27Bは Apache 2.0 で公開され、商用利用に制限がない。16GB以上のVRAM があれば量子化版が実行でき、262K トークンのコンテキスト（最大1Mに拡張可能）と「思考」モード（3段階の推論深さを選択可能）を搭載。開発者にとって導入の敷居が大幅に低い。",
+    "tags": [
+      "AI",
+      "LLM",
+      "Qwen",
+      "オープンソース"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI+",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/15/2000000554/",
+    "importance": 3,
+    "image_query": "neural network AI model",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:38.682Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-15",
+    "headline": "小泉防衛相ら4閣僚が靖国神社参拝―高市首相は玉串料を納める",
+    "lead": "小泉純一郎防衛相を含む高市内閣の4人の閣僚が靖国神社に参拝。首相は直接参拝を見送り、玉串料を自費で奉納した。",
+    "body_markdown": "小泉純一郎防衛相を筆頭に、高市内閣の4人の閣僚が靖国神社を参拝した。高市早苗首相は直接参拝を見送る方針を示す一方、自民党総裁として玉串料を自費で納める決定をした。鈴木幹事長を通じた間接的な形での敬意表示である。\n\n終戦の日を前後した靖国参拝は、日本国内の政治的立場を示すシンボルであり、同時に中国・韓国からは敏感な反応がもたらされる外交課題でもある。複数の閣僚が参拝する一方で首相が直接参拝を避ける判断は、国内の政治的バランスと国際的配慮の両立を狙ったものと見られる。\n\n参拝した他の3人の閣僚の名前は記事では特定されていないが、高市内閣は保守色が強いとされており、今後の参拝動向が注視される。",
+    "tags": [
+      "政治",
+      "靖国神社",
+      "高市首相",
+      "日本"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260815de44238",
+    "importance": 3,
+    "image_query": "shrine temple building Japan",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:38.685Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-16",
+    "headline": "終戦の日、超党派議員89人が靖国神社参拝―小野田経済安保相も",
+    "lead": "8月15日の終戦記念日に、超党派の議員連盟メンバー89人が靖国神社を参拝。小野田経済安全保障担当大臣も参加した。",
+    "body_markdown": "8月15日（終戦の日）、超党派の議員連盟に所属する89人の国会議員が靖国神社に参拝した。小野田紀美経済安全保障担当大臣も参拝に加わった。\n\n同時期に高市内閣の複数の閣僚も参拝を行うなど、終戦記念日は各政治勢力が慰霊と追悼の意を示す重要な日程となっている。超党派による参拝は、戦没者追悼に関する議員間の共通理解を示すものである一方、靖国神社の歴史的位置づけや参拝の政治的意味については、依然として日本国内外で異なる評価がある。\n\n高市首相が直接参拝を見送る決定と対比すると、閣僚および超党派議員による参拝は、高市内閣の対応の多層性を反映している。",
+    "tags": [
+      "靖国神社",
+      "終戦の日",
+      "政治",
+      "超党派"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260815de44247",
+    "importance": 3,
+    "image_query": "shrine memorial ceremony Japan",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:38.686Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-17",
+    "headline": "高市首相「終戦の日」靖国参拝を見送りへ―玉串料は納める",
+    "lead": "高市早苗首相は8月15日の終戦の日に靖国神社の直接参拝を見送ると表明。一方、自民党総裁として玉串料を自費で奉納する。",
+    "body_markdown": "高市早苗首相は、8月15日（終戦の日）の靖国神社参拝を見送る方針を明確にした。閣僚や超党派議員が参拝を行う中での首相の判断は、国内外の政治的配慮を反映している。\n\nただし、首相は自民党総裁として玉串料を自費で奉納する決定をした。直接参拝の回避と玉串料奉納という二段構えの対応は、戦没者への敬意を保ちながら、国際的な懸念（特に中国・韓国）への配慮を示すバランス戦略と考えられる。\n\n近年、日本の首相の靖国参拝は国際的な政治問題化する傾向が続いており、高市内閣のこうした慎重な対応は、外交リスクと国内保守勢力のニーズの板挟み状況を示唆している。",
+    "tags": [
+      "靖国神社",
+      "高市首相",
+      "終戦の日",
+      "外交"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260815de44251",
+    "importance": 3,
+    "image_query": "ceremony temple building",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:38.687Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-18",
+    "headline": "オランダ、歴史的干ばつに直面―水管理を「排水型」から「保水型」へ転換",
+    "lead": "オランダが記録的干ばつに見舞われ、伝統的な排水中心の水管理を根本的に見直す。気候変動への適応戦略が急務に。",
+    "body_markdown": "オランダがこの夏、歴史的な干ばつに見舞われている。ライン川は南部と東部で記録的な低水位を記録し、船舶の大型化が困難になるなど、内陸水運が深刻な打撃を受けている。\n\n干ばつの連鎖的な影響は、塩水化（海水がライン川遡上により淡水供給を脅かす）、建築基礎の沈下（泥炭地の乾燥で建物が損傷）、農業・工業用水の不足など、多岐にわたる。歴史的に、オランダの水管理は「洪水から国を守り、余った水を海へ排出する」ことが中心だった。\n\nしかし、気候変動により干ばつと洪水の両極端が増す中、Rijkswaterstaat（オランダ公共事業局）は戦略を転換している。水を「排出」ではなく「保持」するシステムへの移行だ。灌漑制限とロック操作の最適化により、塩水化を防ぎ、淡水を蓄える新しいアプローチが始まっている。",
+    "tags": [
+      "水管理",
+      "気候変動",
+      "オランダ",
+      "干ばつ"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-historic-drought-dutch-rethink.html",
+    "importance": 3,
+    "image_query": "river drought dry water",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:38.688Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-19",
+    "headline": "Google、Gemini生成コンテンツの可視ウォーターマークを削除可能に",
+    "lead": "Googleがユーザーに可視ウォーターマーク削除機能を提供。SynthID・C2PAメタデータは残留させ、透明性を保つ。",
+    "body_markdown": "Googleは、Gemini、Omni、Nanoなどのモデルで生成された画像・動画・音楽から、表示されるウォーターマークを削除できる機能をロールアウトする。ユーザーは設定メニューの「Media Watermark」切り替えで、可視マーク表示/非表示を自由に選択可能だ。\n\n重要な点は、可視ウォーターマークは削除できるが、目に見えないSynthID（Google独自の埋め込み識別子）と C2PA（Coalition for Content Provenance and Authenticity）メタデータは残留するということだ。\n\nこれにより、プロフェッショナルなコンテンツ利用時に「AI生成」の表記が邪魔にならず、同時にGeminiやSearchを通じた追跡は可能という二層構造が成立する。Anthropic の最近のウォーターマーク推進イニシアティブとは異なるアプローチであり、利便性と透明性のトレードオフを示している。",
+    "tags": [
+      "AI",
+      "Google",
+      "Gemini",
+      "ウォーターマーク"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+    "importance": 3,
+    "image_query": "watermark digital image",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:38.689Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-20",
+    "headline": "Kia EV3、米国で$31,000以下の価格設定―市場最安級の電動車",
+    "lead": "Kia EV3が米国市場に投入。Light FWDベースモデルは約$30,000と、米国における最安価の量産電動車競争に新たな基準を設定。",
+    "body_markdown": "韓国のKiaが米国市場に投入する2027年型EV3は、Light FWDベースが$29,450（目的地料金$1,495含むと約$31,000）と極めてアクセスしやすい価格帯を実現した。\n\nLight トリムは201馬力前輪駆動、58.3 kWh バッテリで221マイルの航続距離を提供。DC高速充電は350kW で対応し、NACS（テスラ規格）プラグを採用している。上位グレード（Wind/Land/GT-Line/GT）は最大321マイルの航続距離と全輪駆動オプションを提供し、価格は$31,385〜$47,385。\n\n米国でのEV価格競争が激化する中、EV3はこれまで高かった電動車購入のハードルを大幅に低下させる。Kiaは電動化戦略で急速に市場シェアを拡大しており、今回の価格設定はその戦略的投資を示している。",
+    "tags": [
+      "電動車",
+      "EV",
+      "Kia",
+      "米国"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2237429/kia-ev3-will-start-under-31-000-in-the-us/",
+    "importance": 3,
+    "image_query": "electric car charging vehicle",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:38.690Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-21",
+    "headline": "Frozen 3、アナ・クリストフの結婚が中心プロット―新しい悪役も登場",
+    "lead": "Disneyが Frozen 3 の映画化作品群の初制作を発表。アナとクリストフの結婚式がストーリーの軸となり、新しい悪役が乱入する。",
+    "body_markdown": "Disneyが Frozen 3 の映画化第3部のストーリー概要を D23 展示会で披露した。メインのプロットは、アナとクリストフの結婚式。姉エルサが側に控える中、婚礼の準備が進むが、謎めいた岩（または氷の欠片）の発見が登場人物たちを新たな冒険へ導く。\n\n新しい女性悪役が登場することが確認されており、ウォルトディズニーアニメーション・スタジオは新たな対立軸を仕掛けている。一方、オラフは恋愛相手「Samantha」を得ることが示唆され、キャラクター群の関係が複雑化する。\n\n公開予定は2027年11月24日。Kristen Bell（アナ）、Idina Menzel（エルサ）、Jonathan Groff（クリストフ）、Josh Gad（オラフ）の主要な声優陣が続投。Frozen フランチャイズの経済的成功から、Disneyは計画的に続編を続けるロードマップを敷いている。",
+    "tags": [
+      "エンタメ",
+      "Disney",
+      "Frozen",
+      "アニメ"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/news/frozen-3-first-details-anna-kristoff-married-olaf-love-1236822955/",
+    "importance": 3,
+    "image_query": "animated movie character",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:38.690Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-22",
+    "headline": "Nvidia、SpaceX への$21B投資を公開―xAI買収経由でロケット企業の株主に",
+    "lead": "NvidiaがSpaceX株$21B保有を開示（2026年Q2末時点）。AI戦略による xAI 投資が経由となり、Elon Musk 企業への深い関係を形成。",
+    "body_markdown": "半導体大手 Nvidia が、SpaceX 株約$21B（約1.228億株）を保有していることを明らかにした。これは Nvidia の2番目に大きな株式保有であり（Intel $22Bが最大）、SpaceX における6番目の投資家ポジションに相当する。\n\nこの投資経路は複雑だ。Nvidia は2026年1月、Elon Musk の AI企業 xAI に$10B を投資した。その直後の2月、SpaceX が xAI を買収し、その過程で Nvidia の xAI 株式は自動的に SpaceX 株に転換されたのだ。\n\n戦略的な側面から見ると、SpaceX は Nvidia AI チップを専有的に利用することをコミットしており、両企業の連携は深い。SpaceX 株価の下落（$170→$140）により、Nvidia の持分価値は $21B から $17.2B に減少しているが、Nvidia-Musk企業ネットワーク内での AI インフラ統合は進展している。",
+    "tags": [
+      "Nvidia",
+      "SpaceX",
+      "投資",
+      "AI"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html",
+    "importance": 3,
+    "image_query": "rocket spacecraft launch",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:38.691Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-23",
+    "headline": "シロナガスクジラ・ナガスクジラが southeast Atlantic で回復、保全の成果か",
+    "lead": "商業捕鯨終結から40年以上、世界最大の2つのクジラ種が southeast Atlantic で増加傾向。ただし脅威は残存。",
+    "body_markdown": "商業捕鯨が終焉を迎えて40年以上、southeast Atlantic に おいてシロナガスクジラ（Antarctic blue whale）とナガスクジラ（fin whale）の個体数が緩やかな回復を示唆する観測データが蓄積されている。\n\n個体数の現状：シロナガスクジラは捕鯨前の約3%程度まで減少したが、現在は年5-8%の速度で増加中。国際自然保護連盟（IUCN）は現在も「Critically Endangered」と分類している。ナガスクジラは捕鯨前の30%以上まで回復し、年4-5%で増加―「Vulnerable」ステータス。\n\nただし、克服すべき課題は多い。船舶衝突、漁網絡み、水中騒音汚染、気候変動に伴う海洋生態系の変化が引き続き脅威である。southeast Atlantic はかつてクジラの重要な産卵・育児海域だったと推定されており、この地域での回復は保全実験の成功を示すサインとなりえる。",
+    "tags": [
+      "クジラ",
+      "保全",
+      "生態系",
+      "海洋"
+    ],
+    "section": "サイエンス",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/15/after-commercial-whaling-nearly-erased-them-blue-and-fin-whales-are-slowly-reclaiming-the-southeast-atlantic",
+    "importance": 3,
+    "image_query": "whale ocean marine life",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:38.692Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-24",
+    "headline": "ワークマン、作業服1000円値下げで利益5割増―「加工貿易」で中間業者排除",
+    "lead": "作業服の上下セットを4400円から3400円に値下げしながら、Workman は利益を50%増加させた。中国調達・東南アジア縫製による垂直統合が奏功。",
+    "body_markdown": "日本の作業服・カジュアルウェア店舗 Workman が戦略的な価格引き下げを実行した。これまで4400円で販売していた上下セット作業服を3400円（1000円値下げ）に設定しながら、利益5割増（50%増加）を達成した。この一見矛盾する成果を実現させたのが「加工貿易」モデルだ。\n\nWorkman は中国で生地・ファスナー・ボタンなどの素材をまとめ仕入れ、これを無償で東南アジア（ベトナム・カンボジア等）の縫製工場に支給する。工場には「縫製作業代のみ」を支払うという仕組みだ。従来型の国際取引では、各段階の業者が中間マージンを取るため、流通コストが膨張する。Workman の垂直統合により、この中間層を排除し、コスト削減を実現している。\n\nまた Workman は「本業回帰」により、ファッション高級化から機能性作業着への戦略転換も同時に行っており、経営成績は過去最高に達している。",
+    "tags": [
+      "ワークマン",
+      "小売",
+      "サプライチェーン",
+      "日本"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia ビジネス",
+    "link": "https://news.infoseek.co.jp/article/itmedia_bizmakoto_20260815003/",
+    "importance": 3,
+    "image_query": "clothing factory production",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:38.693Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-25",
+    "headline": "Heart Aerospace、世界最大電動航空機 X1 の初飛行に成功―$5の電力で27分飛行",
+    "lead": "Heart Aerospace が開発した X1 は、バッテリー駆動の最大級商用航空機として初飛行を実現。電力コストはわずか$5。",
+    "body_markdown": "Heart Aerospace が開発する X1 が、2026年8月12日にニューヨーク州 Plattsburgh International Airport で初飛行に成功した。全長76フィート、翼幅106フィート、最大離陸重量25000ポンドの X1 は、バッテリー駆動航空機として過去最大級だ。\n\n27分間のミッション中、X1 は高度1100フィート（地上335m）に到達し、1メガワット以上の電力を出力する全電動推進システムで飛行した。電力消費はわずか約$5―現在の全球的な燃料価格と比較して、その効率の高さが際立つ。\n\nこの X1 は、Heart の戦略的目標である「ES-30」―30座席のハイブリッド電動地域輸送機（2031年サービス開始予定）の開発検証プラットフォームである。United Airlines・Air Canada・JSX からの受注が既に入っており、電動航空による次世代地域航空の夜明けが近づいている。",
+    "tags": [
+      "電動航空機",
+      "Heart Aerospace",
+      "テクノロジー",
+      "航空"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2236248/the-largest-battery-electric-plane-ever-made-has-flown-for-the-first-time/",
+    "importance": 3,
+    "image_query": "airplane aircraft flight sky",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:38.693Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20260815-26",
+    "headline": "Trump 一族のクリプト企業 World Liberty、銀行チャーター予備承認を取得",
+    "lead": "Trump一族が出資する World Liberty Financial が、米通貨監督庁（OCC）から国家信託銀行チャーターの条件付き予備承認を獲得。USD1ステーブルコイン発行に向けて前進。",
+    "body_markdown": "Trump大統領とその息子たちが関わるクリプト企業 World Liberty Financial Inc. が、米通貨監督庁（OCC）から国家信託銀行（National Trust Bank）チャーターの条件付き予備承認を受けた。承認は2026年8月14日付けで発表された。\n\nこの承認により、World Liberty Trust Company はステーブルコイン「USD1」の発行・管理、および機関投資家向けのデジタル資産保管を行うことが可能になる見込みだ。ただし最終承認ではなく、条件を満たす必要がある。求められる条件は、資本金$20M 以上の維持と、そのうち少なくとも50%の流動性確保。\n\n一方、制限もある。FDIC保険付き預金の受け入れと従来型銀行融資は認められない。Trump一族のクリプト戦略の一歩であり、政策面での「デジタル資産の正統化」を意図したものと見られる。",
+    "tags": [
+      "クリプト",
+      "銀行",
+      "Trump",
+      "ステーブルコイン"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/14/world-liberty-trump-occ-bank-charter-stablecoin.html",
+    "importance": 3,
+    "image_query": "cryptocurrency blockchain technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T09:27:38.694Z",
+    "publishedAt": null
+  },
+  {
     "slug": "20260815-01",
     "headline": "オープンモデル時代、中国が大規模化で主導権―夏レポ",
     "lead": "HuggingFaceの報告書が示す: 中国のAIラボが米国を出し抜く",
