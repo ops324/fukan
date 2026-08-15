@@ -1,5 +1,420 @@
 [
   {
+    "slug": "20260816-01",
+    "headline": "OpenAI、テキサス州でAIインフラ開発の責任あるアプローチを発表",
+    "lead": "OpenAIが米テキサス州知事に宛てた書簡で、責任あるAIインフラ開発への取り組みを表明し、地域社会との協力体制を構築する方針を示した。",
+    "body_markdown": "OpenAIはアメリカのテキサス州知事に向けて公開書簡を発表し、同州でのAIインフラ開発に対する責任あるアプローチを示した。書簡では、州や自治体、電力企業、地域コミュニティと協力してAIインフラを整備し、テキサスの人々に有意義な利益をもたらす方針を強調している。\n\nこの発表は、データセンターやAI学習に必要な膨大な電力需要に対応する上での課題に対処する動きの一環。OpenAIは、AIインフラ投資がもたらす経済効果と地域への影響バランスを取ることの重要性を認識。これまでカリフォルニア州やその他の地域でのAI施設開発でも同様の地域対話の枠組みを進めており、今回のテキサス州への公開発表で、責任あるAI開発が各州・地域での信頼構築の鍵になることを示唆している。",
+    "tags": [
+      "AI",
+      "インフラ",
+      "米国政治"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
+    "importance": 4,
+    "image_query": "data center servers infrastructure",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/2uFbydWeRIYgmgAqjUVskz/f2672582154a6c597e42e7319059adbc/gov_abbott_letter_9x16.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:00.470Z",
+    "publishedAt": "2026-08-10T14:00:00.000Z"
+  },
+  {
+    "slug": "20260816-02",
+    "headline": "Anthropicが生成テキストの透かし技術を詳述、EU規制対応で段階的展開へ",
+    "lead": "AnthropicがClaudeの生成テキストに対する無形の透かし技術を明かし、編集への耐性や実装の詳細を公表した。",
+    "body_markdown": "AnthropicはClaudeが生成するテキストに対する透かし技術（ウォーターマーク）の詳細を公表した。これはEUのAI法（EU AI Act）の透明性規約に対応するもので、AI生成コンテンツの識別を可能にする仕組みだ。\n\n同社が採用するのはGoogle DeepMindの「SynthID-Text」と呼ばれる方式。Claudeが「overcast」と「grey」といった複数の選択肢から任意に単語を選ぶ際に、読み手に察知されない微妙なパターンが埋め込まれる。この透かしは、暗号鍵を持つ者には検出可能だが、通常の読者には検知できないという特性を持つ。\n\n重要な点は、軽微な編集程度では透かしが残存すること。ただし、全文を書き直されると検出不可能になる。同社はこうした特性から「徹底的に書き換えられたテキストが本当にAI生成か判定できるか」という哲学的な問いを投げかけている。コード生成ではコメント部分にのみ透かしが入るなど、機能要件とのバランスも設計されている。Anthropicは透かし検証APIの公開も予定しており、業界全体での導入が進む見通し。",
+    "tags": [
+      "AI",
+      "規制",
+      "透かし技術"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+    "importance": 4,
+    "image_query": "digital security watermark technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1675627453084-505806a00406?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8ZGlnaXRhbCUyMHNlY3VyaXR5JTIwd2F0ZXJtYXJrJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg2ODI5MjIxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Steve A Johnson",
+      "profileUrl": "https://unsplash.com/@steve_j?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a computer monitor with a lot of code on it",
+      "description": "3D render My Art: https://stevejohnsonart.us"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:01.263Z",
+    "publishedAt": "2026-08-15T18:58:39.000Z"
+  },
+  {
+    "slug": "20260816-03",
+    "headline": "GPT-5.6 Sol、「超高速モード」で推論大幅加速——品質維持を両立",
+    "lead": "CerebrasとOpenAIが共同で高速推論モード「Ultrafast」を発表。標準版比で14倍の速度向上を実現し、Fable 5との性能比でも11倍高速。",
+    "body_markdown": "CerebrasとOpenAIは、大規模言語モデル「GPT-5.6 Sol」の高速推論モード「Ultrafast mode」を発表した。標準的な推論モードと比べて最大14倍の高速化を実現しながら、出力品質を維持できるのが特徴だ。\n\n新モードでは毎秒最大750トークン出力が可能になり、AnthropicのClaude「Fable 5」と比べて約11倍の高速化を達成する。ベンチマークテスト「Humanity's Last Exam」では、Fable 5と同等の精度を1/7の計算時間（11時間対78.5時間）で達成できるという。\n\nこうした高速化は、Cerebrasが開発した特殊ハードウェア「単一ウェーハプロセッサ」によって実現している。このチップは44GBの高速SRAMを搭載し、モデルの重みパラメータをウェーハ上に直接保存することで、従来のボトルネックであるデータ転送遅延を排除。現在はOpenAIのAPIで限定プレビュー段階にあり、処理能力の拡大に応じて段階的に利用可能ユーザーが増える予定。",
+    "tags": [
+      "AI",
+      "推論",
+      "高速化"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/14/2000000545/",
+    "importance": 4,
+    "image_query": "computer chip processor performance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1678957949479-b1e876bee3f1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8Y29tcHV0ZXIlMjBjaGlwJTIwcHJvY2Vzc29yJTIwcGVyZm9ybWFuY2V8ZW58MXwwfHx8MTc4NjgyOTIyMXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "D koi",
+      "profileUrl": "https://unsplash.com/@dkoi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a computer chip with the word gat printed on it",
+      "description": "GPT 4 Computer artificial intelligence board circuit image."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:02.125Z",
+    "publishedAt": "2026-08-14T07:32:48.000Z"
+  },
+  {
+    "slug": "20260816-04",
+    "headline": "SpaceX、AIコード支援ツールCursorを公式買収——GPU世界最大規模へアクセス",
+    "lead": "SpaceXがAI開発企業Cursorの買収を完了。GPU処理能力を持つCursorの統合で、コード開発効率化が加速する。",
+    "body_markdown": "SpaceXが開発支援AI企業Cursorの買収を正式に完了した。4月の提携発表から約4ヶ月で買収に至った。Cursorは開発者向けのAI駆動コーディングツールで、ソフトウェア開発プロセスにAIを組み込むプラットフォームを提供している。\n\nSpaceXがCursorを獲得する理由は、同社が保有する膨大なGPU資源へのアクセス権にある。SpaceXは「世界最大のGPUフリートを保有」しており、これまでAnthropicやGoogleなどの企業にGPU計算能力をレンタルしてきた。CursorはこのGPU資源を活用して「Cursorが有用な1つの場所になるだろう」とSpaceXが述べるように、AI駆動コーディング能力の大幅な強化が期待されている。\n\nこの買収はSpaceXが保有するAIインフラを、実際のアプリケーション開発へ展開する戦略的な動きを示している。ロケット開発やAI関連事業を縦統合することで、SpaceXのテック企業としての立場を一層強化するもの。",
+    "tags": [
+      "スタートアップ",
+      "AI開発",
+      "買収"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+    "importance": 4,
+    "image_query": "software development code computer",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8c29mdHdhcmUlMjBkZXZlbG9wbWVudCUyMGNvZGUlMjBjb21wdXRlcnxlbnwxfDB8fHwxNzg2ODI5MjIyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mohammad Rahmani",
+      "profileUrl": "https://unsplash.com/@afgprogrammer?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black samsung flat screen computer monitor",
+      "description": "“A computer is like a violin. You can imagine a novice trying ﬁrst a phonograph and then a violin. The latter, he says, sounds terrible. That is the argument we have heard from our humanists and most of our computer scientists. Computer programs are good, they say, for particular purposes, but they aren’t ﬂexible. Neither is a violin, or a typewriter, until you learn how to use it.”\n― Marvin Minsky"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:02.810Z",
+    "publishedAt": "2026-08-15T16:30:00.000Z"
+  },
+  {
+    "slug": "20260816-05",
+    "headline": "月探査はAIロボットの自律性が鍵——NASAが三つの協働ローバーで実験へ",
+    "lead": "NASAが月面で稼働する3台の小型ローバーをリーダーシップを自ら決めて自律運用する実験を計画。",
+    "body_markdown": "NASAは月面でのロボット自律性テストを予定している。CADRE（Cooperative Autonomous Distributed Robotic Exploration）プロジェクトで、2026年後半に3台の小型ローバーを月面に投入する。\n\nこのローバーチームの特筆すべき点は、人間の指示を必要とせず独立行動が可能という設計だ。月面到達後、ローバーたちは「自分たちの中からリーダーを選出」し、集団で目標設定・実行する。障害や電力低下の際には「グループで計画を立て直し」対応。あるローバーのバッテリー残量が危機的になれば「チーム全体で一旦停止」してそのローバーが追いつくのを待つなど、協働意識を持った行動をする。\n\n従来のローバー運用は地球とのリアルタイム通信に頼っていたが、月面の地形障害により通信遮断が頻繁に生じる。自律的に動作できれば、待機時間によるエネルギー損失を避け、太陽光充電の機会が少ない月環境で効率的に探査を進められる。このプロジェクトは、将来の月面資源採掘やステーション運用に必要な技術基盤を検証するもの。",
+    "tags": [
+      "NASA",
+      "ロボット",
+      "月探査"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-exploring-moon-require-rovers.html",
+    "importance": 4,
+    "image_query": "moon rover exploration lunar surface",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1777276516248-9de8ee545a84?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMnx8bW9vbiUyMHJvdmVyJTIwZXhwbG9yYXRpb24lMjBsdW5hciUyMHN1cmZhY2V8ZW58MXwwfHx8MTc4NjgyOTIyM3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "NASA",
+      "profileUrl": "https://unsplash.com/@nasa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "The surface of the moon with craters",
+      "description": "Orientale Basin at the Edge of Light art002e020686 (April 6, 2026) – A portion of the Moon’s farside is seen along the terminator—the boundary between lunar day and night—where low-angle sunlight casts long shadows across the surface. A section of Orientale Basin is visible along the upper right portion of the lunar disk, its structure subtly revealed under grazing illumination. This lighting enhances contrast across the cratered terrain, highlighting variations in surface features and providing insight into the Moon’s geologic history. Credit: NASA Image Credit: NASA"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:03.368Z",
+    "publishedAt": "2026-08-15T18:00:01.000Z"
+  },
+  {
+    "slug": "20260816-06",
+    "headline": "家畜の健康で温暖化ガス削減——農業システムの生産性向上で排出集約度低下",
+    "lead": "ケニア・タンザニアの研究が示す通り、牛の健康改善はメタンス排出を食い止める効果を持つ。",
+    "body_markdown": "東アフリカでの研究が、健全な家畜飼育が温暖化ガス削減に寄与することを示した。ケニアとタンザニアの牧場データを分析した結果、牛の疾病予防や流産・子牛死亡率の低下が、単位当たりのメタン排出量削減につながることが判明した。\n\n仕組みは単純だ。健康な牛はより多くの乳や肉を生産する。牛の消化で発生するメタンは一定量だが、その排出量を多くの生産物で割ることで、キログラムやリットル当たりの「排出集約度」を低下させられるという理屈だ。タンザニアの研究では、品種によって流産がメタン排出を4～15%増加させることが判明。ケニアでは子牛死亡率の低下がビーフの排出集約度を3.2%削減した。\n\nただし研究は留保条件も示唆している。子牛の生存率が高まり群れのサイズが増えれば、集約度は改善しても大気中のメタン総量は増加する可能性があるということだ。研究チームはHalow技術プラットフォームで多様な健康介入効果を横断的に測定し、本当の削減につながる施策を特定する取り組みを続けている。",
+    "tags": [
+      "農業",
+      "温暖化ガス",
+      "家畜"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-healthier-farm-animals-greenhouse-gas.html",
+    "importance": 3,
+    "image_query": "farm cattle livestock pasture",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:03.370Z",
+    "publishedAt": "2026-08-15T20:40:02.000Z"
+  },
+  {
+    "slug": "20260816-07",
+    "headline": "腸内細菌が食物繊維不足で粘膜食べ始める——健康食で防ぐ可能性",
+    "lead": "食物繊維が不足すると、腸内微生物が自分の保護膜から蛋白質を摂取し始める。新研究が防止方法を示唆。",
+    "body_markdown": "食物繊維の欠乏時に腸内微生物が何をするかを明かす研究がLudwig Institute for Cancer Research（プリンストン大学等との共同研究）から発表された。食物繊維が足りなくなると、腸内細菌が栄養源を食べ物から腸粘膜の保護層へシフトさせてしまうということだ。\n\nLudwig Institute for Cancer Researchの研究チームは、腸粘膜の蛋白質を細菌が分解することで有害なフェノール代謝産物が生じることを発見した。特に、食物繊維が豊富な食事はこの粘膜破壊プロセスを抑制するとのこと。代わりに消化されない植物蛋白質（研究ではPrifと称す）を与えると、腸内微生物は有益な代謝産物を増やしながら有害なフェノールを減らす。\n\n健康への意味は大きい。十分な食物繊維と植物ベースの食が、腸バリア機能を維持し、癌、腎臓病、炎症性腸疾患などの疾患予防につながる可能性があるということだ。研究成果は食事面での疾患管理や治療的栄養学の精度向上に道を開いている。",
+    "tags": [
+      "医学",
+      "腸内環境",
+      "栄養"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/08/260814235842.htm",
+    "importance": 3,
+    "image_query": "gut bacteria digestion health",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:03.371Z",
+    "publishedAt": "2026-08-15T14:30:28.000Z"
+  },
+  {
+    "slug": "20260816-08",
+    "headline": "大気CO2上昇で人間の血液成分が変化——20年間で重炭酸塩が7%増",
+    "lead": "米国20年間の追跡データで、大気CO2増加が血液化学成分の変化と強く関連していることが判明。",
+    "body_markdown": "米国の大規模健康追跡データが、大気中CO2濃度の上昇が人間の血液成分に測定可能な影響を与えていることを示唆している。1999年から2020年にかけてNHANES調査で約7000人の血液サンプルを分析した研究から、驚くべき関連性が浮かび上がった。\n\nもっとも顕著な変化は血液中の重炭酸塩（bicarbonate）だ。この21年間で平均値が約7%上昇した。重炭酸塩は体内の酸塩基平衡を保つ働きを担う。現在のペースが続けば、今後50年以内に重炭酸塩が健康範囲の上限に接近する可能性があるという。同時にカルシウムとリンの血中濃度は低下傾向にあり、こちらも今世紀中に健康範囲の下限に達する恐れがある。\n\n研究チームが指摘する点は、人間は280～300ppmのCO2環境で進化したが、現在は420ppmを超えていることだ。人体がこうした濃度変化に適応できていない可能性が示唆されている。ただし研究は相関関係を示すにとどまり、因果関係はまだ証明されていない。",
+    "tags": [
+      "環境",
+      "健康",
+      "気候変動"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/08/260814235845.htm",
+    "importance": 3,
+    "image_query": "blood test laboratory science",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:03.375Z",
+    "publishedAt": "2026-08-15T14:39:32.000Z"
+  },
+  {
+    "slug": "20260816-09",
+    "headline": "インドネシア地震で47人死亡、救助活動続く——マグニチュード7.7の大型地震",
+    "lead": "インドネシア東部フローレス島沖で15日にマグニチュード7.7の地震が発生。当局は依然として建物に閉じ込められた人がいる可能性があると見て捜索を続行中。",
+    "body_markdown": "インドネシア東部フローレス島付近を震源とするマグニチュード7.7の大型地震が15日に発生し、インドネシア政府は47人の死亡を確認した。地震直後から当局は大規模な救出作業を展開しており、建物内に取り残された人がいる可能性があるため、捜索活動が継続している。\n\nこの地域は地震帯に位置する東南アジアの地震多発地帯で、インドネシアはしばしば大規模地震に見舞われている。フローレス島はインドネシアを構成する島の中でも相対的に人口密度が低い地域だが、家屋倒壊による被害や土砂崩れなどの二次災害が予想される。地域の基盤整備が不十分な場所が多いため、被害が拡大する懸念もある。当局は国際的な支援要請も含めて対応を検討している。",
+    "tags": [
+      "地震",
+      "インドネシア",
+      "災害"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260816de44335",
+    "importance": 4,
+    "image_query": "earthquake disaster building collapse",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1682616577491-a5cc99bf06ba?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8ZWFydGhxdWFrZSUyMGRpc2FzdGVyJTIwYnVpbGRpbmclMjBjb2xsYXBzZXxlbnwxfDB8fHwxNzg2ODI5MjIzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "A. Hoogenboom",
+      "profileUrl": "https://unsplash.com/@albrtn?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a very tall building with a bunch of birds flying around it",
+      "description": "The top part of a demolished building against a blue sky"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:04.035Z",
+    "publishedAt": "2026-08-15T20:52:55.000Z"
+  },
+  {
+    "slug": "20260816-10",
+    "headline": "イスラエル軍がレバノン南部を空爆、11人死亡——ヘズボラ関連施設が標的",
+    "lead": "イスラエル軍がレバノン南部で空爆を実施し、当局は11人の死亡を報告。イスラエルは「ヘズボラの恐怖インフラ」を狙ったと述べている。",
+    "body_markdown": "イスラエル軍がレバノン南部への空爆を実施した。レバノン当局は11人の死亡を報告している。イスラエル軍報道官は、この空爆は先の自軍兵士への行動に対する報復として行われたもので、「ヘズボラのテロインフラ」を標的にしたと述べた。\n\nこの軍事行動はイスラエル・ヘズボラ間の緊張関係の一環である。パレスチナ問題を巡る地域の不安定性が続く中、イスラエルはシリアやレバノン領域からのミサイル攻撃の脅威に対応する形で、継続的な軍事作戦を展開している。今回の空爆がさらなる報復を招く可能性もあり、中東情勢の悪化が懸念されている。",
+    "tags": [
+      "紛争",
+      "中東",
+      "イスラエル"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo",
+    "importance": 3,
+    "image_query": "military conflict warfare news",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:04.037Z",
+    "publishedAt": "2026-08-15T20:21:14.000Z"
+  },
+  {
+    "slug": "20260816-11",
+    "headline": "セウタへの移民突破試み、モロッコ警察が111人逮捕——SNS呼びかけに対応",
+    "lead": "モロッコ警察がセウタへの移民侵入を試みた111人を逮捕。ソーシャルメディアでの大規模越境呼びかけに対応した警備強化。",
+    "body_markdown": "モロッコ警察は15日、スペイン領北アフリカ領土セウタへの越境を試みた111人を逮捕したと報告した。この出来事は2週間前の大規模移民越境事件（72000人以上がセウタへ押し寄せ、96人以上が海上で死亡）の直後に発生した。\n\n両国当局は、ソーシャルメディア上で新たな大規模越境を呼びかけるポストが広がったことを受け、両側の国境警備を強化していた。セウタはスペイン領ながら北アフリカ側に位置するため、モロッコからの移民圧力が継続的に存在する。今回の逮捕劇は、対岸から越境を志す移民と警備当局のいたちごっこが続いていることを象徴している。EUは移民政策をめぐる地域的緊張の高まりに関心を払っており、反移民政党の台頭にも波及している。",
+    "tags": [
+      "移民",
+      "モロッコ",
+      "スペイン"
+    ],
+    "section": "国際・地政学",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta",
+    "importance": 3,
+    "image_query": "border patrol migration security",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:04.038Z",
+    "publishedAt": "2026-08-15T18:08:21.000Z"
+  },
+  {
+    "slug": "20260816-12",
+    "headline": "ジンバブエ船舶転覆、死者72人に——過積載と悪天候が原因か",
+    "lead": "ジンバブエのカリバ湖で転覆した渡船の死者が72人に増加。警察は船が定員の1.7倍超の153人を乗せていたと指摘。",
+    "body_markdown": "ジンバブエ当局によれば、カリバ湖（ザンビアとの境界上）で転覆した渡船から回収された遺体がさらに26体追加され、死者は72人に達した。事故は火曜日に発生し、過去数日間の救助活動で遺体が次々と引き揚げられている。\n\n警察の調査によれば、転覆の直接的な原因は船舶の著しい過積載だったと見られている。公式な最大乗船定員は90人だったが、実際には153人が乗船していた（定員の1.7倍超）。乗客の多くが厳しい風浪によって船が浸水し始めたことに気づき、船長に戻港を促したが、船長は進行を続けたという。その直後に船舶は転覆した。\n\nこの事故はアフリカの水運における安全管理の問題を浮き彫りにしている。資源の限界や規制の緩さから、過積載や不十分な安全装備のまま運行する船舶が存在する。",
+    "tags": [
+      "災害",
+      "ジンバブエ",
+      "海難"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/15/death-toll-from-zimbabwe-ferry-disaster-rises-to-69",
+    "importance": 3,
+    "image_query": "ship boat accident water disaster",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:04.040Z",
+    "publishedAt": "2026-08-15T19:10:06.000Z"
+  },
+  {
+    "slug": "20260816-13",
+    "headline": "英国最大のEV電池工場、拡張計画を延期——ジャガー・ランドローバーとの交渉行き詰まり",
+    "lead": "中国系AESC社がサンダーランド工場の生産能力拡張を延期。ジャガー・ランドローバーとの供給契約交渉が進展せず。",
+    "body_markdown": "英国のEV用電池製造能力を担うAESC社（中国系）は、サンダーランド拠点での生産能力拡張計画を一時延期すると発表した。この決定は、日産傘下の工場への供給実績が期待を下回ったこと、そしてジャガー・ランドローバー（JLR）との電池供給契約交渉が停滞していることが背景にある。\n\nAESC社は現在、同じサンダーランド地域の日産工場に電池を供給している。しかし日産の需要が予想より低く推移し、加えて大型顧客であるJLRとの交渉も不調に終わったため、工場の生産増強投資を見送ることになったわけだ。\n\nこうした動きはEV産業全体での需要鈍化を示唆している。英国はEVシフトへの投資を強調してきたが、バッテリー製造という基幹産業での成長停滞が明らかになった。地政学的な中国依存や、競争激化による価格圧力が、EV産業の成長を制約し始めている。",
+    "tags": [
+      "EV",
+      "自動車産業",
+      "製造業"
+    ],
+    "section": "ビジネス・経済",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/aug/15/uk-ev-battery-gigafactory-aesc-jaguar-land-rover-nissan",
+    "importance": 4,
+    "image_query": "electric vehicle battery manufacturing",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1721816436045-b1e437357de5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyM3x8ZWxlY3RyaWMlMjB2ZWhpY2xlJTIwYmF0dGVyeSUyMG1hbnVmYWN0dXJpbmd8ZW58MXwwfHx8MTc4NjgyOTIyNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "All good",
+      "profileUrl": "https://unsplash.com/@allgood123?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "An electric car being charged at a charging station",
+      "description": "https://www.vremtglobal.com/solutions/electric-drive-system/solution-drive-electric?utm_source=SEO&utm_medium=SEO&utm_campaign=SEO&utm_id=SEO&utm_term=eds"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:04.828Z",
+    "publishedAt": "2026-08-15T11:00:54.000Z"
+  },
+  {
+    "slug": "20260816-14",
+    "headline": "バークシャー、アルファベット株を170億ドル追加購入——テック企業への投資倍増",
+    "lead": "ウォーレン・バフェット率いるバークシャー・ハサウェイがGoogle親会社アルファベットへの投資を170億ドル増。同社最大3位の保有株に。",
+    "body_markdown": "バークシャー・ハサウェイがGoogleの親会社アルファベット・インクへの株式投資を170億ドル追加購入した。これによりアルファベットはバークシャーのポートフォリオで3番目に大きな保有銘柄となった。\n\nこの購入決定は、テック業界への信頼を示唆している。バークシャーのCEOウォーレン・バフェットは長年、テック企業への投資に慎重だったが、近年その姿勢を転換させており、今回の大型投資はその方針転換の加速を示すもの。アルファベットはAI検索、クラウドサービス、アンドロイドOSなど多角的事業を展開しており、長期的成長が期待されている。\n\nこの投資はアルファベット株が堅調な評価を受けていることを反映するとともに、大手機関投資家による値動きの影響も注視される。",
+    "tags": [
+      "投資",
+      "テック企業",
+      "金融"
+    ],
+    "section": "ビジネス・経済",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/15/berkshire-adds-17-billion-to-alphabet-stake.html",
+    "importance": 4,
+    "image_query": "stock market investment finance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1642052502780-8ee67e3bf930?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxzdG9jayUyMG1hcmtldCUyMGludmVzdG1lbnQlMjBmaW5hbmNlfGVufDF8MHx8fDE3ODY4MjkyMjV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "PiggyBank",
+      "profileUrl": "https://unsplash.com/@piggybank?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a person holding up a cell phone with a stock chart on it",
+      "description": "Robinhood: Zero Commission mobile stock and crypto trading\n\n"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:05.546Z",
+    "publishedAt": "2026-08-15T12:50:41.000Z"
+  },
+  {
+    "slug": "20260816-15",
+    "headline": "失業者向けAIブートキャンプがスタート、3週間で就業スキル育成へ",
+    "lead": "英国がAIツール活用による就職支援プログラムをパイロット実施。失業中の若者3週間で実職対応スキルを習得。",
+    "body_markdown": "英国政府が失業中の若年層向けにAIスキルを活用した就職支援プログラム「AIブートキャンプ」を試験的に開始する。3週間の集中トレーニングで、参加者がAIツールを駆使して実務に対応できるスキルを獲得することを目標にしている。\n\nこのプログラムはNEET危機（無業・無学・無職の若年層）に対処する政府の最新施策の一環だ。生産性向上と雇用創出の両面で課題を抱える英国は、テクノロジー導入による労働力再教育に注力している。ただしプログラムが実際に失業者の就職につながるかどうかは、まだ成果検証段階にある。\n\n興味深いのは、多くの人がAIを雇用の脅威と見なしているのに対し、政府はAIスキル習得そのものが雇用へのゲートウェイだと位置付けている点だ。現実には、単なるAIツール操作スキルだけでは充分な就職保障にならない可能性もあり、教育内容の実質性が試される。",
+    "tags": [
+      "雇用",
+      "AI教育",
+      "スキル"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/society/2026/aug/14/unemployed-young-people-to-join-ai-boot-camps-to-get-job-ready",
+    "importance": 3,
+    "image_query": "education training technology computer",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:05.548Z",
+    "publishedAt": "2026-08-13T23:01:10.000Z"
+  },
+  {
+    "slug": "20260816-16",
+    "headline": "英国首相、使い捨てバーベキュー禁止令を発令——林野火災対応で軍も動員",
+    "lead": "バーナム首相が「火薬庫化」する英国で使い捨てバーベキューの販売を一時禁止。軍隊を投入して火災対応に当たる。",
+    "body_markdown": "英国が記録的な高気温と乾燥条件の中、野火対策として使い捨てバーベキューグリルの販売を一時禁止する政令を発令した。バーナム首相は「火薬庫化した英国」と警告し、官民を挙げた対応を強調した。\n\nウェスト・ミッドランズ地域だけでも8件の火災が発生し、19人が病院に搬送された。こうした事態を受け、政府は軍隊の一部を動員して消火活動と防火活動を支援することを決定した。気候変動による夏季高温化が常態化する中、過去にはありえなかった対応が今後の標準になりつつある。\n\nこの禁止令は一時的な措置だが、使い捨てグリル販売企業への影響は大きい。同時に、英国の気象リスク認識が高まったことを示すものでもある。",
+    "tags": [
+      "環境",
+      "気候変動",
+      "災害対応"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/environment/2026/aug/14/burnham-temporary-ban-barbecues-tinderbox-britain",
+    "importance": 3,
+    "image_query": "wildfire fire smoke emergency",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:05.549Z",
+    "publishedAt": "2026-08-14T14:50:35.000Z"
+  },
+  {
+    "slug": "20260816-17",
+    "headline": "日本銀行が円買い介入——危険な円キャリートレードを巻き戻す",
+    "lead": "円相場が下落傾向にある中、日銀が円買い介入に踏み切った。金融市場の過剰レバレッジを解消する狙い。",
+    "body_markdown": "日本銀行が円買い介入を実施した。これは円が下落局面にある中での介入で、「危険なキャリートレード」の巻き戻しを促進する狙いがある。円キャリートレードとは、低金利の円を借り入れて海外資産に投資する取引手法で、市場に過剰なレバレッジをもたらす。\n\n円売りが続く背景には、金融引き締め傾向にある米国との金利差拡大がある。米FRBが利下げを慎重に進める中、日銀は段階的な金利引き上げを進めており、その結果として円キャリーが再び拡大した。今回の日銀介入は、こうした金融市場の不均衡を是正する信号を発している。\n\nアナリストの多くは、こうした介入は手ぬるいと批評している。より大規模で継続的な円買い介入が必要だという見方もある一方で、市場歪みの解消が金融安定につながるとの評価もある。",
+    "tags": [
+      "為替",
+      "金融政策",
+      "日本"
+    ],
+    "section": "ビジネス・経済",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/08/13/when-japan-buys-yen-it-unwinds-a-dangerous-trade",
+    "importance": 3,
+    "image_query": "forex currency trading finance",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:05.552Z",
+    "publishedAt": "2026-08-13T08:49:36.000Z"
+  },
+  {
+    "slug": "20260816-18",
+    "headline": "中国の債務処理機関が危機に——「爆弾」化する融資リスク",
+    "lead": "中国が抱える信用危機に対応する国有企業が窮地に陥りつつある。本来の役割が逆に金融リスクを拡大させている。",
+    "body_markdown": "中国の債務危機対応専門企業が経営難に陥りつつある。これらの企業は、高リスク融資や不動産セクターの問題を吸収するために設立されたが、その後の経済鈍化によって抱える資産価値が劣化し、企業自体が新たなリスク源となっている。\n\n中国の経済成長率が減速し、デフォルト企業が増加する中、これら「債務処理機関」は自らも返済能力の低下に直面している。本来は社会的セーフティネットとして機能すべき機関が、むしろシステミックリスクの震源地になりかねない状況だ。\n\n中国政府は複数の対応策を模索しており、融資追加や資本注入を検討している。しかし根本的な問題は、過去の過度な信用拡大がもたらした「返済困難資産」の絶対量にあり、単なる管理手法の改善では対処しきれない可能性が高い。",
+    "tags": [
+      "中国経済",
+      "金融リスク",
+      "債務"
+    ],
+    "section": "ビジネス・経済",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/08/13/is-chinas-debt-bomb-squad-about-to-blow-up",
+    "importance": 3,
+    "image_query": "business finance risk investment",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-15T21:27:05.554Z",
+    "publishedAt": "2026-08-13T08:37:46.000Z"
+  },
+  {
     "slug": "20260815-07",
     "headline": "ロシア・ウクライナ戦争の最前線（8月15日更新）",
     "lead": "ロシア軍とウクライナ軍が東部・南部で継続的に激しい戦闘を繰り広げている。",
