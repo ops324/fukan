@@ -1,5 +1,458 @@
 [
   {
+    "slug": "20260817-01",
+    "headline": "Stripe が AI ゲートウェイ OpenRouter を 70 億ドルで買収へ",
+    "lead": "米 Stripe がエンジニア向け AI モデルアクセスプラットフォーム OpenRouter を 70 億ドル以上で買収予定。AI 決済基盤の統合を強化。",
+    "body_markdown": "決済プラットフォーム Stripe が、複数の AI モデルへのアクセスを一元化するスタートアップ OpenRouter を 70 億ドル以上で買収することが報道された。OpenRouter の CEO は同社を「Stripe for AI」と称しており、AWS・Google Cloud・Azure などの AI サービスから、オープンソースモデルまで 400 以上のモデルへのアクセスを 800 万人のグローバルユーザーに提供している。\n\nOpenRouter は 2026 年 5 月にシリーズ B ラウンドで 1 億 1,300 万ドルを調達した時点で評価額は 13 億ドル。Sequoia、Andreessen Horowitz、Menlo Ventures など有力 VC が支援してきた。\n\nこの買収により Stripe は、決済処理に AI 関連のワークロードを統合できる。複数の AI モデルを横断する決済や利用料金管理が一元化され、開発者の利便性が向上する。AI スタートアップやエンタープライズが異なるモデルを使い分けながらコスト最適化する流れが加速する見通し。",
+    "tags": [
+      "AI",
+      "スタートアップ買収",
+      "決済"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+    "importance": 4,
+    "image_query": "payment gateway technology servers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1739989934265-b46240484890?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8cGF5bWVudCUyMGdhdGV3YXklMjB0ZWNobm9sb2d5JTIwc2VydmVyc3xlbnwxfDB8fHwxNzg2OTE1MzYxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "SumUp",
+      "profileUrl": "https://unsplash.com/@sumup?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A person holding a credit card in front of a computer",
+      "description": "A close-up of a SumUp payment device on a bar counter, ready to accept card payments. A reliable and user-friendly solution for businesses."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:41.842Z",
+    "publishedAt": "2026-08-16T20:57:04.000Z"
+  },
+  {
+    "slug": "20260817-02",
+    "headline": "火星衛星サンプル採集で日本が中国と競争へ",
+    "lead": "日本の火星衛星探査機 MMX がフォボスからサンプル回収を目指す一方、中国の天問 3 号も 2028 年の打上げを予定。帰還競争が激化。",
+    "body_markdown": "日本の宇宙航空研究開発機構（JAXA）が進める火星衛星探査機 Martian Moons eXploration（MMX）は、火星の衛星フォボスから最低 10 グラム以上のサンプルを採集し、2031 年に地球へ帰還させる計画。この任務には フランス、ドイツ、NASA、ESA が国際協力で参加する。\n\nサンプルの科学的意義は高く、火星と衛星がどのように形成されたのかを解明する手掛かりになる。「巨大衝突説」と「捕捉説」の二つの仮説を検証できる。太陽系内部へ水と有機化合物がどう到達したかの理解は、生命発生の謎解きにも直結する。\n\nただし、同じ目標で競う中国の天問 3 号は 2028 年打上げを予定しており、帰還時期が日本より早くなる可能性がある。中国は 2021 年に祝融ローバーを火星着陸させた実績があり、技術面での優位が危ぶまれている。日本のはやぶさ 2 は 2020 年に小惑星サンプル 5.4 グラムを回収した実績を持つが、火星領域での競争は新局面を迎える。",
+    "tags": [
+      "宇宙",
+      "火星探査",
+      "国際協力"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-japan-aims-moons-mars.html",
+    "importance": 4,
+    "image_query": "rocket launch spacecraft",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1518364538800-6bae3c2ea0f2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxyb2NrZXQlMjBsYXVuY2glMjBzcGFjZWNyYWZ0fGVufDF8MHx8fDE3ODY5MTUzNjJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Bill Jelen",
+      "profileUrl": "https://unsplash.com/@billjelen?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "space shuttle",
+      "description": "The first launch of the SpaceX Falcon Heavy rocket."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:42.510Z",
+    "publishedAt": "2026-08-16T19:05:17.000Z"
+  },
+  {
+    "slug": "20260817-03",
+    "headline": "遺伝子編集で犬アレルギーの根本解決へ",
+    "lead": "CRISPR で犬アレルゲン Can f 1 を除去した編集ビーグルが誕生。世界人口の 15% が犬アレルギーを持つ中、革新的な治療法に。",
+    "body_markdown": "遺伝子編集技術 CRISPR-Cas9 を使用して、犬のアレルゲンを完全に除去したビーグル犬が誕生した。従来、犬アレルギーは人口の約 15% が抱える問題で、免疫療法や回避戦略に頼るしかなかった。\n\n研究では、犬の唾液に含まれるアレルゲンタンパク質 Can f 1 をコードする遺伝子を精密に編集し、体細胞核移植（クローン技術）で受精卵に導入。結果として、編集されたビーグルの唾液、毛、フケから Can f 1 が完全に検出されなかった。従来の「低アレルギー」犬種でも痕跡が残っていたのに対し、根本的な解決を実現。\n\n臨床的意義は大きく、アレルギー症状の治療から根本原因の排除へと転換できる。ただし商用化には、長期安全性の確認、動物福祉の評価、規制当局の承認が必要。数年以内の実用化は見込めない。",
+    "tags": [
+      "遺伝子編集",
+      "CRISPR",
+      "医療"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-gene-beagles-major-dog-allergen.html",
+    "importance": 4,
+    "image_query": "laboratory genetic research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1637929476734-bd7f5f78e40a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxsYWJvcmF0b3J5JTIwZ2VuZXRpYyUyMHJlc2VhcmNofGVufDF8MHx8fDE3ODY5MTUzNjN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Warren Umoh",
+      "profileUrl": "https://unsplash.com/@warrenumoh?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a chain link fence"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:43.161Z",
+    "publishedAt": "2026-08-16T18:00:01.000Z"
+  },
+  {
+    "slug": "20260817-04",
+    "headline": "100 年前の心臓薬、入院率 25% 削減の新知見",
+    "lead": "低用量ジゴキシンが心不全患者の入院を 25% 削減。1 日 10 セント未満の安価な薬が再評価される。",
+    "body_markdown": "数世紀前から使用されている強心薬ジゴキシン（ジギタリス）が、低用量で心不全患者の入院を平均 25% 削減することが新たな研究で確認された。オランダの 3 つの医療機関が主導した大規模研究で、1,000 人を平均 3 年間追跡調査した結果、心血管死亡と心不全の悪化も 19% 減少した。\n\n驚くべきは治療費。1 日 10 セント未満という低コストで、現代の新型心臓治療薬の 1 日数ユーロと比較して圧倒的に廉価。治療を中止した患者は最初の 6 週間で重大な悪化（入院または死亡）が 288 人中 14 人に上り、薬の効果が明確に示された。\n\n研究結果は医学誌『Nature Medicine』と『JAMA』に発表されており、低用量が高用量よりも効果的であることも確認。グローバルサウス・低所得国での心不全治療の革新になる可能性が高い。製薬企業の新薬ほどの利益がないため過去 50 年間注目されなかった、\"古い薬の再発見\"の典型例。",
+    "tags": [
+      "医療",
+      "ジゴキシン",
+      "心不全"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/08/260814235858.htm",
+    "importance": 4,
+    "image_query": "medicine pharmaceutical heart health",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1719319330788-70ce2c0c6130?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxtZWRpY2luZSUyMHBoYXJtYWNldXRpY2FsJTIwaGVhcnQlMjBoZWFsdGh8ZW58MXwwfHx8MTc4NjkxNTM2M3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Gizem Nikomedi",
+      "profileUrl": "https://unsplash.com/@gnikomedi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A heart made out of pills on a blue background",
+      "description": "Heart shape made by medicines"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:43.829Z",
+    "publishedAt": "2026-08-16T12:22:32.000Z"
+  },
+  {
+    "slug": "20260817-05",
+    "headline": "陽子内に隠れたグルーオン構造を発見",
+    "lead": "ブルックヘブン研究所が陽子内の Y 字形グルーオン接合部を初検出。物質の基本的な安定性の理解が一変。",
+    "body_markdown": "粒子物理学で根本的な発見がもたらされた。ブルックヘブン国立研究所の研究チームが、陽子内に従来認識されていなかった「Y 字形のグルーオン接合部」構造を発見。陽子を構成する基本粒子の役割分担に関する教科書的な理解が覆された。\n\n従来、陽子のバリオン数（物質の基本的性質）は 3 つのクォークが等しく 1/3 ずつ担うと説明されてきた。だが実際には、クォークを接続するグルーオン自体が構造的にバリオン数の輸送に関与していることが判明。この発見は陽子の驚異的な安定性（宇宙の年齢よりも長い寿命）を説明する上で極めて重要。バリオン数保存則が物質存在の根幹を支えていることが、より詳細に理解できるようになった。\n\nRHIC 衝突実験のデータから得られた成果で、今後の物理学教科書改訂は必至。基礎物理の認識刷新は、素粒子間相互作用の理解深化へとつながる。",
+    "tags": [
+      "物理学",
+      "素粒子",
+      "基礎研究"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/08/260815064805.htm",
+    "importance": 4,
+    "image_query": "particle physics laboratory detector",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1781330189305-d92d518dc28d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxwYXJ0aWNsZSUyMHBoeXNpY3MlMjBsYWJvcmF0b3J5JTIwZGV0ZWN0b3J8ZW58MXwwfHx8MTc4NjkxNTM2NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Daniel Miksha",
+      "profileUrl": "https://unsplash.com/@danielmiksha?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Complex scientific machinery and wiring in a laboratory setting.",
+      "description": "Scientific equipment in an advanced physics research facility at the University of British Columbia in Vancouver, Canada."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:44.605Z",
+    "publishedAt": "2026-08-16T09:55:45.000Z"
+  },
+  {
+    "slug": "20260817-06",
+    "headline": "US-Iran 和平合意、8 月 18 日に失効へ",
+    "lead": "Trump-Pezeshkian が署名した 60 日間の停戦合意が満期。双方が違反と主張し、再交渉の可能性は不透明。",
+    "body_markdown": "米国とイランが 6 月 17 日に署名した停戦覚書（MoU）が 8 月 18 日に満期を迎えようとしている。3 ヶ月以上続いていた両国の武力紛争を終わらせるべく、Donald Trump 大統領とイランの Masoud Pezeshkian 大統領が Pakistan 仲介で合意していた。\n\nだが合意は既に事実上破綻。6 月 27 日、イランの攻撃直後に Trump は「愚かな違反」と指摘。7 月 7 日には「合意は終わった」と一方的に宣言。合意では米国が 30 日以内に海上封鎖を終了し、制裁を解除し、イランに最低 3,000 億ドルの復興支援を提供することになっていたが、実行されなかった。イラン側は米国がホルムズ海峡の機雷撤去に協力せず、通路支配権が曖昧なまま残ったと主張。\n\nイラン外相 Abbas Araghchi は「米国との再交渉を決定していない」とコメント。イランの安保指導部が刷新され、より強硬な交渉姿勢へシフト。米国側も「前代未聞の経済措置」を警告しており、8 月 19 日以降の軍事的緊張再燃のリスクが高まっている。",
+    "tags": [
+      "地政学",
+      "米国",
+      "イラン"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/16/us-iran-mou-is-set-to-expire-what-to-know",
+    "importance": 5,
+    "image_query": "diplomacy international conflict negotiation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1772303142641-03e14187ae4a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8ZGlwbG9tYWN5JTIwaW50ZXJuYXRpb25hbCUyMGNvbmZsaWN0JTIwbmVnb3RpYXRpb258ZW58MXwwfHx8MTc4NjkxNTM2NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Saifee Art",
+      "profileUrl": "https://unsplash.com/@saifee_art?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Toy soldiers, flags, and jet on map"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:45.373Z",
+    "publishedAt": "2026-08-16T20:28:21.000Z"
+  },
+  {
+    "slug": "20260817-07",
+    "headline": "インドネシア東部、M 7.7 地震で 53 人死亡",
+    "lead": "8 月 15 日発生の地震で 200 棟以上の建物被害。食料・水確保が急務の被災地支援が課題。",
+    "body_markdown": "インドネシア東部で 8 月 15 日、マグニチュード 7.7 の大規模地震が発生。これまでに 53 人の死亡が確認され、住宅 200 棟以上が被害を受けた。被災地では食料と飲料水の確保が最も緊急の課題となっており、復旧に向けた物資支援が急務。\n\nインドネシアは環太平洋火山帯に位置し、地震活動が活発な地域。今回の規模は 2004 年インド洋大地震（M 9.1）以来の大型地震であり、東南アジア地域の地震リスク管理が問われている。現地の交通・通信インフラも損傷し、支援活動の展開に遅延が生じているとの報告。国連や ASEAN 各国による支援体制の構築が急がれている。",
+    "tags": [
+      "自然災害",
+      "インドネシア",
+      "地震"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260816de44411",
+    "importance": 5,
+    "image_query": "earthquake disaster rescue relief",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1694153015229-5d22f7ba3d54?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8ZWFydGhxdWFrZSUyMGRpc2FzdGVyJTIwcmVzY3VlJTIwcmVsaWVmfGVufDF8MHx8fDE3ODY5MTUzNjZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Frederick Shaw",
+      "profileUrl": "https://unsplash.com/@dropfastcollective?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "two men standing on top of a pile of wood"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:46.382Z",
+    "publishedAt": "2026-08-16T11:45:21.000Z"
+  },
+  {
+    "slug": "20260817-08",
+    "headline": "AI エージェント急増で CPU 需要が復活",
+    "lead": "自立型 AI システムが生み出した新たなボトルネック。AWS が CPU サイクル節約を指示、半導体企業が供給拡大に動く。",
+    "body_markdown": "AI エージェントの急速な普及が、クラウドインフラの CPU 需要に新たな危機をもたらしている。Amazon Web Services は、CPU サーバー容量の待機時間が急増したため、エンジニアに「あらゆる手段で CPU サイクルを節約する」よう指示。\n\n従来、AI ブームは GPU やメモリ需要に焦点が当たっていた。しかし AI エージェント・システムは、LLM の推論（GPU で実行）と、ツール呼び出し（CPU で実行）のサイクルを何度も繰り返す。Moor Insights & Strategy のアナリストは「単一企業で数百のエージェントが生成され、それを企業全体に展開すれば、数十万から数百万のエージェントになる」と指摘。Intel と AMD の研究チームは「現実的なエージェント AI パイプラインの 7～8 段階のうち 7 段階が完全に CPU で実行される」と述べている。\n\n特にトークン化（テキストを数値に変換する処理）がボトルネックになっており、CPU コア数を 5 個から 32 個に増やすと、レイテンシが約 4.45 倍削減される。Intel は年末まで供給逼迫、AMD は需要予測を倍増させており、GPU バッチ不足に続く CPU 不足時代の到来が現実味を帯びている。",
+    "tags": [
+      "AI",
+      "インフラ",
+      "半導体"
+    ],
+    "section": "テクノロジー",
+    "source": "IEEE Spectrum",
+    "link": "https://spectrum.ieee.org/ai-cpu-comeback",
+    "importance": 4,
+    "image_query": "computer server data center",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1782338938900-a15304523070?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxjb21wdXRlciUyMHNlcnZlciUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4NjkxNTM2Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brecht Corbeel",
+      "profileUrl": "https://unsplash.com/@brechtcorbeel?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Green circuit board with a central processor and glowing components."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:46.917Z",
+    "publishedAt": "2026-08-16T13:00:01.000Z"
+  },
+  {
+    "slug": "20260817-09",
+    "headline": "ChatGPT が行動を記録、プライバシー懸念が浮上",
+    "lead": "macOS 版 ChatGPT に Computer History 機能。クリックやキーストロークを追跡し AI 訓練に利用。",
+    "body_markdown": "OpenAI が macOS デスクトップ版 ChatGPT に新機能「Computer History」を追加。ユーザーのクリック、キーストローク、操作履歴を記録し、AI が学習データとして利用する仕組み。プライバシー懸念が急速に広がっている。\n\nこの機能は、ChatGPT がユーザーの作業パターンを理解し、ワークフロー自動化を提案したり、中断したタスクを再開したりするために設計。ただし記録対象は包括的で、個人的な操作履歴まで収集される。OpenAI は「opt-in 方式」（デフォルトでオフ）としており、特定アプリやウェブサイトを除外できる。プライベート・シークレットブラウジング は自動除外。\n\n懸念点は、除外設定が限定的であること、および訓練データとしての再利用である。OpenAI の Ari Weinstein は「Computer History は自動的にシークレット内容を無視する」と述べたが、通常ブラウジングの全履歴が学習対象になることは変わらない。プライバシー意識の高いユーザーは機能オフを推奨される。",
+    "tags": [
+      "AI",
+      "プライバシー",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+    "importance": 4,
+    "image_query": "privacy security computer screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1767817099805-d79e31fb968c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8cHJpdmFjeSUyMHNlY3VyaXR5JTIwY29tcHV0ZXIlMjBzY3JlZW58ZW58MXwwfHx8MTc4NjkxNTM2N3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Harshit Katiyar",
+      "profileUrl": "https://unsplash.com/@harshitkatiyar?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Computer code on a dark screen with line numbers.",
+      "description": "close up of a computer monitor with code writter in it"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:47.773Z",
+    "publishedAt": "2026-08-16T14:56:40.000Z"
+  },
+  {
+    "slug": "20260817-10",
+    "headline": "Anthropic CEO が AI 不信の根本原因を語る",
+    "lead": "Dario Amodei が警告トーン批判に反論。「信頼危機と実績不足が問題」と述べ、規制路線を支持。",
+    "body_markdown": "Anthropic の CEO Dario Amodei が AI 技術への公衆的反発について論じ、自身の警告が原因ではなく、より深い信頼危機にあると指摘。\n\nAmodei は「一般の人々は企業、政府、技術業界全体を信頼していない」と述べ、この問題は「数十年にわたって形成されてきた」と強調。AI 産業の悲観的な声明が AI 懐疑論を助長しているとの批判に対し、根本的な原因は別にあると反論。\n\nより重要な指摘は実績不足。「がんを治すと約束するだけでは足りない。実際にがんを治すことが必要だ」と述べ、AI 企業が具体的な利益をまだ実現していないことが、公衆の不信に直結していると分析。\n\n規制に関しては開放的で、「適切な規則」がリスク対策と企業権力の制約を同時に達成できると主張。多くのテック企業が規制回避を目指す中、Anthropic は異なるスタンス。AI 業界内でも信頼構築の方法論に関する議論が深まっている。",
+    "tags": [
+      "AI",
+      "AI安全性",
+      "規制"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+    "importance": 4,
+    "image_query": "trust technology ethics discussion",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1640030104754-0a33c686c533?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHx0cnVzdCUyMHRlY2hub2xvZ3klMjBldGhpY3MlMjBkaXNjdXNzaW9ufGVufDF8MHx8fDE3ODY5MTUzNjh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ronda Dorsey",
+      "profileUrl": "https://unsplash.com/@thirtyspoke?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "trust spelled with wooden letter blocks on a table",
+      "description": "scrabble tiles spelling trust"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:48.714Z",
+    "publishedAt": "2026-08-16T16:53:51.000Z"
+  },
+  {
+    "slug": "20260817-11",
+    "headline": "ウクライナ・ロシア、互いの首都を激しく攻撃",
+    "lead": "ウクライナが無人機でモスクワ近郊を攻撃、ロシアはキーウへミサイル報復。応酬の激化が加速。",
+    "body_markdown": "ウクライナとロシアが、互いの首都に対する直接攻撃を激化させている。ウクライナ軍はモスクワ近郊の物流倉庫や軍事施設を無人機で攻撃する一方、ロシア軍はウクライナの首都キーウ、およびその周辺地域にミサイルによる報復攻撃を継続。\n\n応酬の激しさが増しており、戦闘のエスカレーション傾向が明確になっている。ウクライナ側の遠距離攻撃能力の向上（英国製ドローンの活用など）が、これまでロシアの後方基地が相対的に安全だという前提を覆しつつある。\n\nロシア側も報復の頻度と規模を拡大させており、双方の軍事的衝突が激化する局面に入ったと見られる。国際的な和平交渉の見通しが不透明な中、この激化パターンが継続するリスクが高まっている。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "軍事"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260816de44402",
+    "importance": 4,
+    "image_query": "military warfare conflict drone",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1664431398786-aaffcf1c0cee?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxtaWxpdGFyeSUyMHdhcmZhcmUlMjBjb25mbGljdCUyMGRyb25lfGVufDF8MHx8fDE3ODY5MTUzNjl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Frederick Shaw",
+      "profileUrl": "https://unsplash.com/@dropfastcollective?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a person holding a drone",
+      "description": "Militia member holds commercial DJI drone for take off."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:49.464Z",
+    "publishedAt": "2026-08-16T11:31:47.000Z"
+  },
+  {
+    "slug": "20260817-12",
+    "headline": "ブラジル大統領選、Lula が第 4 期キャンペーン開始",
+    "lead": "80 歳の Lula が歴史的な 4 選を目指し、遠右派 Bolsonaro の子息と対決。10 月投票予定。",
+    "body_markdown": "ブラジルの左派大統領 Luiz Inácio Lula da Silva が、歴史的な 4 期目のキャンペーンを正式に開始。政治キャリアの出発点であるサンベルナルド・ド・カンポで数万人の支持者に演説し、「右派の恥ずべき支配」をもたらさないと誓った。\n\n80 歳の Lula は、2018～22 年の前任者 Jair Bolsonaro の任期中に起きた「混乱と暴力」を再び引き合いに出し、有権者に警告。今回の対戦相手は Bolsonaro の長男 Flávio Bolsonaro で、10 月の大統領選で Lula と直接対決する予定。\n\nFlávio Bolsonaro は支持者に「このシステムと戦う」と述べており、右派陣営の結集を表明。ブラジルの政治分断は依然として深く、この選挙戦は社会的な鮮烈な対立を反映することになりそう。Lula の 4 選実現は、ラテンアメリカの民主主義内での権力交代パターンにも影響を与える。",
+    "tags": [
+      "ブラジル",
+      "選挙",
+      "政治"
+    ],
+    "section": "国際・地政学",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/aug/16/lula-brazil-president-fourth-term-jair-flavio-bolsonaro",
+    "importance": 5,
+    "image_query": "election campaign political rally",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1775594899196-ee3d9f882c48?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8ZWxlY3Rpb24lMjBjYW1wYWlnbiUyMHBvbGl0aWNhbCUyMHJhbGx5fGVufDF8MHx8fDE3ODY5MTUzNzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mohamed Afthab P P",
+      "profileUrl": "https://unsplash.com/@ppafthab?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "People holding red flags with che guevara's face",
+      "description": "kerala election campaign photo"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:50.128Z",
+    "publishedAt": "2026-08-16T18:44:41.000Z"
+  },
+  {
+    "slug": "20260817-13",
+    "headline": "Renaissance の名画 4 点、イタリア美術館から盗難",
+    "lead": "アラーム無視で盗出された『傑作』クラスの絵画 4 点。プロの犯行と見られ、盗難品の追跡調査が始まる。",
+    "body_markdown": "イタリアの美術館から Renaissance の傑作 4 点が盗難被害に遭った。盗出手口の巧妙さから、組織的で専門的な犯行が疑われている。警報装置が作動しなかったことから、犯人グループは美術館のシステムを熟知していた可能性が指摘されている。\n\n被害絵画は European art market でも高く評価される作品群。盗難は美術品密売ネットワークへの流入の可能性が高く、国際的な捜査が展開。Interpol や国家文化財庁が追跡を開始。\n\nこのような大型美術品盗難は、高額な保険金請求の舞台裏での贓品取引や、プライベート・コレクターへの横流しが常態化している。今回の盗難の捜査を通じて、European art crime network の実態解明が進む可能性がある。",
+    "tags": [
+      "美術",
+      "盗難",
+      "ヨーロッパ"
+    ],
+    "section": "カルチャー",
+    "source": "BBC Arts",
+    "link": "https://www.bbc.co.uk/news/articles/cqjxx2gzd9qo",
+    "importance": 4,
+    "image_query": "art museum painting renaissance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1753363754464-58a41b3b954b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxhcnQlMjBtdXNldW0lMjBwYWludGluZyUyMHJlbmFpc3NhbmNlfGVufDF8MHx8fDE3ODY5MTUzNzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Yağız Can Özen",
+      "profileUrl": "https://unsplash.com/@ycanozen?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "People view a famous painting in a museum.",
+      "description": "The Metropolitan Museum of Art"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:50.828Z",
+    "publishedAt": "2026-08-16T13:34:38.000Z"
+  },
+  {
+    "slug": "20260817-14",
+    "headline": "台湾新幹線 N700ST が高雄港に到着",
+    "lead": "日本の東海道新幹線ベースの新型車両が台湾へ到着。日本の高速鉄道技術が海外事業化を強化。",
+    "body_markdown": "日本の新幹線技術をベースにした台湾高速鉄道（台湾高鉄）向けの新型車両「N700ST」が、8 月 15 日に台湾南部・高雄港に到着。日本企業による国際技術提供の成功事例として注目を集めている。\n\n車両は東海道新幹線 N700S をベース に、台湾の気候・運用条件に合わせてカスタマイズ。台湾高鉄は 2008 年開業以来、日本の新幹線技術を採用して運用されてきたが、今回の新型導入により老朽化車両の置き換えと輸送能力の向上が実現。\n\n式典では台湾当局が「台湾発展への一助」と謝辞を述べ、日本の高い技術水準と信頼性を評価。日本国内の鉄道メーカーにとって、新幹線技術の海外事業化は重要な事業柱。アジア・太平洋地域での高速鉄道需要が高まる中、日本の技術優位性の維持が急務。",
+    "tags": [
+      "台湾",
+      "日本",
+      "インフラ"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia ビジネス",
+    "link": "https://www.itmedia.co.jp/business/articles/2608/16/news011.html",
+    "importance": 3,
+    "image_query": "train railway transport infrastructure",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:50.831Z",
+    "publishedAt": "2026-08-15T23:00:00.000Z"
+  },
+  {
+    "slug": "20260817-15",
+    "headline": "中央銀行のジレンマ、インフレと成長の綱渡り",
+    "lead": "FRB・ECB・イングランド銀行が金利判断に苦慮。インフレ上昇懸念の中、景気減速のリスク回避が課題。",
+    "body_markdown": "米連邦準備制度（FRB）、欧州中央銀行（ECB）、イングランド銀行が、インフレーションと景気成長のバランス判定に直面している。中東戦争リスクによる石油価格上昇の可能性が、両立困難な選択を迫っている。\n\n過去の教訓がある。2022 年、欧米中央銀行はインフレに対応し遅れ、その後の過度な引き締めで景気悪化を招いた。英国とユーロ圏ではインフレが 10% を超え、米国でも 9% に達した。当時の「様子見」判断が批判されて以来、中央銀行は防衛的な姿勢を強めている。\n\n現在の課題は、落ち着きつつあるインフレ傾向に対し、中東情勢の不確実性が石油供給危機のリスクをもたらすこと。イランと米国の関係悪化も含まれる。引き上げすぎると経済成長に打撃、引き上げ不足ならインフレが再燃。政策当局間の足並みの不揃いも懸念される。",
+    "tags": [
+      "経済",
+      "金利",
+      "インフレ"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/aug/16/interest-rate-dilemma-for-central-banks-as-inflation-rises-but-growth-slows",
+    "importance": 4,
+    "image_query": "stock market finance economics",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1649003515353-c58a239cf662?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8c3RvY2slMjBtYXJrZXQlMjBmaW5hbmNlJTIwZWNvbm9taWNzfGVufDF8MHx8fDE3ODY5MTUzNzF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tötös Ádám",
+      "profileUrl": "https://unsplash.com/@toti1996?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a screenshot of a video game"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:51.508Z",
+    "publishedAt": "2026-08-16T14:00:27.000Z"
+  },
+  {
+    "slug": "20260817-16",
+    "headline": "英国製ドローン、初めてロシア本土を攻撃",
+    "lead": "ウクライナが英国から供与されたドローンを使用してロシア本土を攻撃。軍事戦力の変化を示唆。",
+    "body_markdown": "英国製ドローンがウクライナによって初めてロシア本土に対して使用され、軍事目標と産業施設を攻撃した。これまで遠距離攻撃能力が限定的だったウクライナ軍が、西側供与兵器により戦略的な打撃能力を獲得したことを示す転換点。\n\nドローン攻撃はロシア領内の物流倉庫や軍事施設を標的にした攻撃が初めてとなる。従来、ロシア領土内は比較的安全と見なされてきたが、この転変がロシアの後方戦略に変化をもたらす。英国と米国をはじめとする NATO 加盟国の兵器供与が、ウクライナの反攻能力を段階的に向上させている。\n\n長射程ミサイルシステムの供与に続き、ドローン技術の提供もウクライナ側の戦力バランスを大きく変える。ロシア側の報復攻撃は一層激化することが予想され、戦闘のエスカレーション局面が続く。",
+    "tags": [
+      "ウクライナ",
+      "英国",
+      "兵器"
+    ],
+    "section": "政治",
+    "source": "BBC Politics",
+    "link": "https://www.bbc.co.uk/news/articles/c5ywwv2pp44o",
+    "importance": 3,
+    "image_query": "military drone warfare conflict",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:51.510Z",
+    "publishedAt": "2026-08-16T12:22:25.000Z"
+  },
+  {
+    "slug": "20260817-17",
+    "headline": "英国がパブを守る計画法改革、住宅転換を規制へ",
+    "lead": "housing secretary Rayner がパブを商業保護対象に指定。開発業者に保存証明を義務づけ。",
+    "body_markdown": "英国の housing secretary Angela Rayner が、パブの保護を計画法改革に組み込む方針を発表。全てのパブが建築・住宅・事務所への転換から法的に守られることになる。\n\n背景には、英国全域でパブが急速に消滅しており、コミュニティの文化的・社会的中核が失われている危機感がある。開発業者は今後、パブを他用途に転換する際に「代替施設が不可能であることの証明」を提供する必要がある。\n\nRayner は 1.5 百万戸の住宅建設計画を並行して進める中での調整であり、開発促進と文化保護の両立を目指す。英国の pub culture は観光資源としても重要で、この法改革は経済、社会、文化を複層的に考慮した政策判断。月内の詳細法案公開が予定されている。",
+    "tags": [
+      "英国",
+      "都市計画",
+      "文化"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/politics/2026/aug/16/angela-rayner-pubs-developers-houses-offices-planning-shakeup",
+    "importance": 3,
+    "image_query": "traditional pub building architecture",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:51.511Z",
+    "publishedAt": "2026-08-16T10:09:09.000Z"
+  },
+  {
+    "slug": "20260817-18",
+    "headline": "Samsung Galaxy Z Fold8、折り畳み端末が成熟へ",
+    "lead": "Samsung の折り畳みスマートフォンが第 9 世代。初期の課題を克服し、実用性が大幅向上。",
+    "body_markdown": "Samsung の Galaxy Z Fold8 が発表され、折り畳み端末技術の実用的な成熟を示唆する評価が寄せられている。2017 年初代 Galaxy Fold の発表から約 9 年を経て、ようやく技術的な課題が大幅に解消。\n\n主な改善点は、画面の耐久性向上、折り畳み線の目立たなさ、そして Ultra バージョンの登場による差別化。従来は「革新的だが実用的でない」との批判を受けていたが、今世代は「日常的に使える形状」との評価が主流。\n\nスマートフォン市場の成熟化の中で、折り畳み端末は「次の成長領域」として認識されつつある。Apple や Google も同技術への参入を検討しており、今後 3～5 年で市場が拡大する見込み。Samsung の長年の開発投資が報われる段階に入った。",
+    "tags": [
+      "スマートフォン",
+      "Samsung",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "WIRED",
+    "link": "https://www.wired.com/review/samsung-galaxy-z-fold8-and-z-fold8-ultra/",
+    "importance": 3,
+    "image_query": "smartphone technology mobile device",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-16T21:22:51.512Z",
+    "publishedAt": "2026-08-16T11:00:00.000Z"
+  },
+  {
     "slug": "20260816-19",
     "headline": "ロボット学習の完全パイプライン、Hugging Faceが提供",
     "lead": "AmazonのStrands Agents、LeRobot、Hugging Face Storage Bucketsが連携。ロボット訓練の記録から展開まで一括化。",
