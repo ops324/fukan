@@ -1,5 +1,428 @@
 [
   {
+    "slug": "20260816-19",
+    "headline": "ロボット学習の完全パイプライン、Hugging Faceが提供",
+    "lead": "AmazonのStrands Agents、LeRobot、Hugging Face Storage Bucketsが連携。ロボット訓練の記録から展開まで一括化。",
+    "body_markdown": "Hugging Faceがロボット学習の統合プラットフォームを発表した。Amazon Strands AgentsとLeRobotを組み合わせ、Hugging Face Storage Bucketsで一元管理できるようになった。\n\nこのパイプラインの最大の特徴は、ロボットが自動で記録したデータをそのままクラウドに同期し、ダウンロードなしにリアルタイムで訓練できることだ。データのストリーミング訓練により、GPU側はダウンロード中から訓練を開始できる。\n\nStorage Bucketsはデータ圧縮技術（Xet）を採用し、更新時に差分のみアップロード。ネットワーク帯域の節約になる。同じコードベースで、シミュレーション環境と実機の両方に対応でき、パラメータ一つの変更で展開ロボットへ即座に反映される。\n\nこれにより、ロボット企業は連続的な学習ループを実現できる。デモンストレーション記録→訓練→新しいモデルの実機反映が自動化され、イテレーション速度が大幅に向上する。オープンソース形式での提供により、研究者や小規模企業でも高度なロボット学習が可能になった。",
+    "tags": [
+      "ロボット",
+      "機械学習",
+      "Hugging Face",
+      "AI",
+      "オープンソース"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+    "importance": 4,
+    "image_query": "robot training machine learning",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6a1dc0f2b4238bb17ff94794/St00mBynNYpgz93MpL17G.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T09:20:28.001Z",
+    "publishedAt": "2026-08-13T17:16:04.000Z"
+  },
+  {
+    "slug": "20260816-20",
+    "headline": "衛星画像を自在に処理、OlmoEarth埋め込み公開",
+    "lead": "地球観測データを数値ベクトルに変換。複数の衛星ソースと解像度に対応し、下流分析が簡単に。",
+    "body_markdown": "Allen AIがOlmoEarth埋め込みを発表。衛星画像を数値ベクトル表現に変換する技術で、大規模な地球観測データの処理を大幅に簡素化する。\n\nOlmoEarth Studioというプラットフォームで、ユーザーは任意の地域を指定し、カスタム埋め込みをエクスポートできる。モデルサイズはNano（128次元）からBase（768次元）まで三段階。解像度は10m～80m/ピクセルで選択でき、時間スパンは1～12か月間。\n\nSentinel-2衛星の光学画像とSentinel-1のレーダーデータの両方に対応。エクスポート形式はCloud-Optimized GeoTIFFで、標準的な地理情報ツールとの互換性がある。符号付き8ビット整数形式で軽量化され、共有やアーカイブが容易。\n\nこのアプローチは、地球観測分野の大きな課題「ラベル付けの手間」を回避できる。気候変動監視、農業分析、都市計画など、教師なし学習で新たな知見を引き出す用途に向いている。",
+    "tags": [
+      "衛星データ",
+      "地球観測",
+      "機械学習",
+      "リモートセンシング",
+      "環境"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+    "importance": 4,
+    "image_query": "satellite earth observation imagery",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/u9KR_QjSYF7mJIbRE3Ni8.jpeg",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T09:20:28.395Z",
+    "publishedAt": "2026-08-12T16:14:36.000Z"
+  },
+  {
+    "slug": "20260816-21",
+    "headline": "エッジデバイス向けVLM、LFM2.5-VL-3B登場",
+    "lead": "Liquid AIが3.1B軽量モデル発表。UI理解と画像推論が可能で、クラウド不要。",
+    "body_markdown": "Liquid AIがビジョン言語モデル（VLM）LFM2.5-VL-3Bを公開した。31億パラメータの軽量設計で、スマートフォン・ラップトップ・タブレットなどエッジデバイスでの動作を想定。\n\n得意な4つの機能は、デジタル画面の理解（UI/スクリーン認識）、物体検出・グラウンディング、複数画像の推論、テキスト・画像両方での関数呼び出し。メモリ要件が約3GBと低く、MacBook M5 MaxではGPUで毎秒228トークン生成できる。\n\nローカル処理が可能なため、プライバシー考慮が必要な用途や、レイテンシ重視の実時間アプリケーションに適している。ドキュメント分析、スクリーンショット解析、高スループットな推論デプロイメントが選択肢になる。\n\nクラウドAPI依存の脱却が重要な課題の中、エッジで動作するVLMの登場は、デバイスメーカーやアプリ開発者にとって大きな選択肢となり、AI活用の民主化を加速させる可能性がある。",
+    "tags": [
+      "VLM",
+      "エッジAI",
+      "軽量モデル",
+      "オンデバイスAI",
+      "モバイル"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+    "importance": 4,
+    "image_query": "machine learning model training",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/apldbDPIJWZeODX1g9iFV.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T09:20:28.640Z",
+    "publishedAt": "2026-08-12T14:00:51.000Z"
+  },
+  {
+    "slug": "20260816-22",
+    "headline": "LLMエージェントの推論コスト4割削減、ALTK-Evolve",
+    "lead": "IBMが自動学習システム発表。エージェントの失敗から戻ったレッスンを効率的に活用。",
+    "body_markdown": "IBMがALTK-Evolveを発表。LLMエージェントが過去のタスク失敗を学習し、推論時に動的に適用することで大幅なトークン削減を実現。\n\nACE（Agentic Context Engineering）と比較すると、従来は全記憶を毎回注入していたが、ALTK-Evolveでは最も関連性の高い「レッスン」だけを選別。より強力なモデルで約40%、弱いモデルで約1/7のトークン削減を達成した。\n\n仕組みは「プレイブック」と呼ぶ構造化メモリで、API使用法やツール操作のコツを項目化。各エントリの出現頻度を追跡し、一般化による ニュアンス喪失を防ぐ。エージェントは失敗時に自動でこのプレイブックを更新し、次の同様タスクに活かす。\n\nこのアプローチは、コンテキストウィンドウの制限やコスト制約が厳しい状況で有効。エージェント型AIの実用化加速と、企業レベルのAI導入の経済効率向上に貢献する技術だ。",
+    "tags": [
+      "LLM",
+      "エージェント",
+      "推論最適化",
+      "コスト削減"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+    "importance": 4,
+    "image_query": "machine learning training optimization",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/G2z5bU66FNnhBf_UhSNij.jpeg",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T09:20:28.881Z",
+    "publishedAt": "2026-08-11T13:37:10.000Z"
+  },
+  {
+    "slug": "20260816-23",
+    "headline": "大型モデル圧縮、メモリ15倍削減で実現可能に",
+    "lead": "Multiverse Computingが知識蒸留の高速化技術発表。インフラ節約で小企業も実験できる。",
+    "body_markdown": "Multiverse ComputingがLLM蒸留の効率化技術を発表。大規模な教師モデルを小さな学生モデルに圧縮する際のメモリ消費を劇的に削減。\n\n従来は教師・学生両方を同時にメモリに展開する必要があったが、新手法では教師の結果をキャッシュしておき、学生訓練時のみ利用。また「Fused Chunked KL損失」という計算最適化で、メモリスパイクを回避。32K トークンのコンテキスト下では、メモリ使用量が85.2GBから5.45GBへ低下。約15倍の削減だ。\n\n実際の導入事例では、4個のGPUノードが必要だった蒸留プロジェクトが、1個ノードで5倍高速化して完了。開発期間短縮と設備投資削減の両立を実現した。\n\nLLMの爆発的な成長により、インフラコストが導入障壁になっていた中、この技術は中小企業でも高度なモデル開発を可能にする。スタートアップから大企業まで、AI開発の民主化を加速させる意義がある。",
+    "tags": [
+      "蒸留",
+      "モデル圧縮",
+      "LLM",
+      "効率化",
+      "メモリ最適化"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+    "importance": 4,
+    "image_query": "data processing computing",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/nB5NK4bdfr7AY1IAO14Gh.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T09:20:29.200Z",
+    "publishedAt": "2026-08-10T10:05:36.000Z"
+  },
+  {
+    "slug": "20260816-24",
+    "headline": "OpenAI、CRO辞任——経営陣相次ぐ離脱",
+    "lead": "Denise Dresser が退職。Slackから転職してから8か月余りでの退任。",
+    "body_markdown": "The Vergeが報じたところ、OpenAIの最高収益責任者（CRO）Denise Dresserが退職を表明。Slackの前CEO職を経て昨年12月にOpenAIに加わったばかりだが、数週間以内に離脱する。\n\nDresserは「他の機会を追求するため」とLinkedInで述べたのみで、詳細理由は明かされていない。後任にはWizのプレジデント兼COO、Dali Rajicが就任予定。\n\nこの発表は、同じ週のもう一人の主要退職者Brad Lightcap（COO兼特別プロジェクト責任者）に続くもの。LightcapはかつてのプロジェクトをDresserに引き継いでいた。さらに遡れば、元AGI責任者Fidji Simoと元CMOも退職済み。\n\nOpenAIは急速な成長下でも経営陣の流動が相次ぐ。AI業界全体が競争激化する中、企業文化やキャリアパス構築の課題が改めて浮き彫りになった形。",
+    "tags": [
+      "OpenAI",
+      "経営",
+      "人事",
+      "離職"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
+    "importance": 5,
+    "image_query": "business executives office",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758518731706-be5d5230e5a5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxidXNpbmVzcyUyMGV4ZWN1dGl2ZXMlMjBvZmZpY2V8ZW58MXwwfHx8MTc4Njg3MjAzMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vitaly Gariev",
+      "profileUrl": "https://unsplash.com/@silverkblack?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Diverse business team collaborating in a modern office.",
+      "description": "Businessman discussing future business project with male and female colleagues sitting at the table in modern office indoors"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T09:20:30.281Z",
+    "publishedAt": "2026-08-16T09:00:00.000Z"
+  },
+  {
+    "slug": "20260816-25",
+    "headline": "英国、新たな生活費危機——エネルギー高騰で物価上昇",
+    "lead": "7月のインフレ率、2.9%に上昇予測。イラン戦争が世界エネルギー市場を圧迫。",
+    "body_markdown": "The Guardianが報じたところ、英国は新たな生活費危機に直面している。政府が今週発表する7月インフレ率統計は、イラン戦争による世界的なエネルギー価格上昇の影響を映す見通し。\n\n経済学者の予測では、英国の見出しインフレ率が2.9%まで上昇する見込み。ガス・電気料金の急騰が主因で、多くの家計が来月からの請求書に直面する。\n\nこのタイミングで政権交代を迎えた英国の新しい首相は、家計への圧力を緩和することが喫緊の課題。エネルギー補助制度の拡充や税制調整が検討される一方、中央銀行の金利政策との調整も困難。\n\nイラン戦争は、スエズ運河やホルムズ海峡を通じた石油・ガス供給に潜在的な脅威をもたらす。英国だけでなく、欧州全域でエネルギー価格インフレが再燃する懸念が高まっている。",
+    "tags": [
+      "英国",
+      "インフレ",
+      "エネルギー",
+      "経済"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/aug/16/new-uk-cost-of-living-crisis-looms-rising-energy-bills-inflation",
+    "importance": 5,
+    "image_query": "energy crisis power station",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758797899821-46e9aa667409?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxlbmVyZ3klMjBjcmlzaXMlMjBwb3dlciUyMHN0YXRpb258ZW58MXwwfHx8MTc4Njg3MjAzMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Gabriela",
+      "profileUrl": "https://unsplash.com/@gabigi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Industrial power plant emitting smoke under a clear blue sky."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T09:20:30.816Z",
+    "publishedAt": "2026-08-16T08:42:16.000Z"
+  },
+  {
+    "slug": "20260816-26",
+    "headline": "ハリケーン・ララ、ハワイを直撃か——34年ぶりの脅威",
+    "lead": "ハワイ上陸時、過去34年で初の直撃ハリケーン。強風と豪雨の警報が発令。",
+    "body_markdown": "BBC Worldが報じたところ、ハリケーン・ララが太平洋を北西に進み、ハワイへの上陸が間近に迫っている。上陸時には、ハワイ州が過去34年間で初めて直撃を受ける見通し。\n\n気象当局が強風と豪雨に関する警報を発令。ハワイの複数の島で、倒木や停電、洪水のリスクが高まっている。観光業が重要な産業のハワイにとって、ハリケーン通過は経済へも大きな影響をもたらすが、住民の安全確保が最優先。\n\n気候変動によって、太平洋のハリケーン発生と強度が変化しており、従来の予測モデルが外れることが増加している。ハワイの防災インフラ整備は十分か、避難体制は円滑か、といった課題が問われている。\n\nこのハリケーンは、米国本土への上陸リスクも含め、北米大陸全域の気象監視を強化させている。",
+    "tags": [
+      "ハリケーン",
+      "ハワイ",
+      "気象",
+      "災害"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo",
+    "importance": 4,
+    "image_query": "hurricane storm weather",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1457327289196-f38b88d97147?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxodXJyaWNhbmUlMjBzdG9ybSUyMHdlYXRoZXJ8ZW58MXwwfHx8MTc4Njg3MjAzMXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "NASA",
+      "profileUrl": "https://unsplash.com/@nasa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Hurricane as seen from space",
+      "description": "Giant Hurricane Space"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T09:20:31.450Z",
+    "publishedAt": "2026-08-16T08:49:32.000Z"
+  },
+  {
+    "slug": "20260816-27",
+    "headline": "欧州、熱波で経済1800億ユーロ喪失——インフラ停止多発",
+    "lead": "ドイツの河川運輸停滞、フランスの原発停止。GDP減少の規模は過去最大級。",
+    "body_markdown": "The Guardianが報じたところ、2026年の欧州熱波が経済に前代未聞のダメージを与えている。オランダの銀行Triodosの分析では、EU全体で最大1800億ユーロのGDP喪失が見込まれる。\n\nドイツではライン川の低水位が貨物船の航行を阻止。フランスではセーヌ川の水温上昇と水位低下で、原子力発電所が冷却水不足から発電を停止。イタリア、スペイン、ポーランドでも同様の電力危機が発生。\n\n英国の環境シンクタンク・Verdantによれば、7月末時点で英国経済は既に44億ポンドの損失を被った。農業の減収、工場生産の遅延、観光業の業績悪化が重なる。\n\n気候変動による極端気象の常態化が、欧州の産業基盤と生活水準に直結する危機へと転化。政府のインフラ投資とカーボンニュートラル対応の迅速化が、経済的サバイバルの条件として浮上した。",
+    "tags": [
+      "熱波",
+      "欧州",
+      "気候変動",
+      "経済損失",
+      "インフラ"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/aug/16/tourism-power-generation-productivity-europe-economic-cost-heatwaves",
+    "importance": 4,
+    "image_query": "heat wave drought climate",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1786302467549-908f735f35c6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8aGVhdCUyMHdhdmUlMjBkcm91Z2h0JTIwY2xpbWF0ZXxlbnwxfDB8fHwxNzg2ODcyMDMyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Veronica White",
+      "profileUrl": "https://unsplash.com/@veronicaa_white?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A wooden fence post in a dry, golden field under a pale sky.",
+      "description": "Devon fields during the summer 2026 drought"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T09:20:32.159Z",
+    "publishedAt": "2026-08-16T08:00:19.000Z"
+  },
+  {
+    "slug": "20260816-28",
+    "headline": "Anthropic、テキスト透かし実装——EU AI法への対応",
+    "lead": "生成テキストに統計的署名を埋め込み。検出APIで真正性確認可能に。",
+    "body_markdown": "EngadgetとAnthropicの公式声明から、Claudeが生成するテキストに「見えない透かし」（watermark）を埋め込む技術が実装されたことが判明。EU AI法への適応が目的。\n\n仕組みは、秘密鍵を用いた乱数生成を通じて、単語選択に統計的パターンを付与。「灰色」と「曇天」といった同義語の間で、わずかな確率差を作り出し、それがClaude由来であることを示す。生成速度やコストに影響なし。\n\nDetection APIで構造化テキストを検証すれば、AI生成確度を定量的に得られる。ただし、コードや数式のような「選択肢が限定される記述」では透かしが入りにくい。完全な書き直しをされると消失するため、「人間による重大編集の痕跡」と AI原作の区別は難しい。\n\nEU AI法第52条で、AI生成コンテンツに開示要求が出される中、透かし技術は法的コンプライアンスの第一歩。今後、他企業の採用や国家レベルの規制標準化が重要になる。",
+    "tags": [
+      "AI",
+      "透かし",
+      "検証",
+      "EU AI法"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/anthropic-watermarking-claude-eu-ai-act/",
+    "importance": 4,
+    "image_query": "digital watermark authentication",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1759984782117-4f333f6efe50?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8ZGlnaXRhbCUyMHdhdGVybWFyayUyMGF1dGhlbnRpY2F0aW9ufGVufDF8MHx8fDE3ODY4NzIwMzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Julio Lopez",
+      "profileUrl": "https://unsplash.com/@juliolopez?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Person connecting external hard drive to card reader"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T09:20:32.915Z",
+    "publishedAt": "2026-08-16T09:00:00.000Z"
+  },
+  {
+    "slug": "20260816-29",
+    "headline": "Claude透かし技術、詳細メカニズム公開——完全書き直しで消失",
+    "lead": "Anthropicが統計的パターン技術を解説。日本語メディアでも関心集まる。",
+    "body_markdown": "ITmedia AI＋がAnthropicの透かし技術をレポート。秘密鍵と前後文脈から乱数を生成し、文章中の同義語選択に微細な確率差を埋め込む仕組み。生成品質や速度に影響がないことが重要。\n\nこの透かしは、簡潔な事実述べ（「ニュートンの最高傑作は『プリンキピア』」など）では効きにくい。語の選択肢が限定される文脈だからだ。プログラムコードも同様。コメント部分など曖昧性がある箇所のみ有効。\n\n「完全な書き直し」をされると透かしは消失することが明示された。軽編集では保持するが、大規模改変をされるとAI痕跡が消える。このため、人間による重大改変とAI原作の区別が困難になる可能性が残る。\n\nEU AI法対応の実装として、他企業への波及や国際的な標準化が注目される。一方で、技術的限界を認める透明性が、規制と企業責任のバランスを取る上で重要。",
+    "tags": [
+      "Claude",
+      "Anthropic",
+      "透かし",
+      "AI法",
+      "検証"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/article/2608/16/2000000555/",
+    "importance": 4,
+    "image_query": "digital security technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1760553120296-afe0e7692768?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8ZGlnaXRhbCUyMHNlY3VyaXR5JTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzg2ODcyMDMzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "ANOOF C",
+      "profileUrl": "https://unsplash.com/@anoofc?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A futuristic security robot with flashing lights on display.",
+      "description": "Autonomous security robot vehicle showcased at a technology exhibition, highlighting robotics innovation, smart surveillance systems, and advanced mobility solutions in a modern expo setting."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T09:20:33.700Z",
+    "publishedAt": "2026-08-15T22:58:11.000Z"
+  },
+  {
+    "slug": "20260816-30",
+    "headline": "グローバル教育危機、AI不正と試験混乱——複数国で同時",
+    "lead": "インド・ポルトガル・メキシコなど各地で学生デモ。背景に「デジタル不正」と採点ミス。",
+    "body_markdown": "The Guardianが報じたところ、複数国で試験不正と評価ミスをめぐる学生抗議が同時多発。特にAI技術を用いたカンニングや、デジタル試験導入の失敗が問題の中心。\n\nメキシコではの大学入試で約6万人がカンニング容疑で再受験を強いられ、全国抗議に拡大。ポルトガルではAIを使った採点デジタル化が大失敗し、数千件の採点エラーが判明。インドでも同様に学生による官公庁占拠が相次ぐ。\n\nこれらは、デジタル化の急速な推進が、十分な検証や教育現場の準備なしに行われた結果。AI導入は「効率化」を名目にされるが、検証不十分なまま本運用に移ると、大規模な不具合と不公正が生まれる。\n\nグローバルな教育危機の背景には、雇用市場での競争激化があり、学生は成績を極度に気にする。その心理につけ込む不正と、当局の杜撰な対応が問題を深刻化させている。",
+    "tags": [
+      "教育",
+      "AI",
+      "試験",
+      "不正",
+      "グローバル"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/global-development/2026/aug/16/ai-cheating-leaked-papers-marking-errors-how-exam-protests-went-global",
+    "importance": 4,
+    "image_query": "education school exam testing",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1779358296802-715fc9fbc152?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8ZWR1Y2F0aW9uJTIwc2Nob29sJTIwZXhhbSUyMHRlc3Rpbmd8ZW58MXwwfHx8MTc4Njg3MjAzNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vishnu Mehra",
+      "profileUrl": "https://unsplash.com/@sanskritiuni?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Students attending a lecture in a modern classroom.",
+      "description": "Sanskriti University is emerging as a leading university for computer applications and IT education in Mathura. The MCA course focuses on technical innovation, software development skills, and practical implementation of modern technologies. Students receive career-focused education with opportunities for internships, workshops, and industry exposure. The university’s advanced infrastructure and placement assistance help students prepare for successful careers in software companies, startups, and multinational organizations. Admissions Open 2026 for future-ready MCA aspirants."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T09:20:34.336Z",
+    "publishedAt": "2026-08-16T07:00:19.000Z"
+  },
+  {
+    "slug": "20260816-31",
+    "headline": "神経科学者、学校のスクリーン使用削減を主張——認知能力低下の懸念",
+    "lead": "Jared Cooney Horvathが警告。デジタル教育ツール導入の弊害が明らかに。",
+    "body_markdown": "The Guardianが報じたところ、神経科学者Jared Cooney Horvathが、学校教育における画面利用を削減すべきと主張。著書『The Digital Delusion』で、デジタルツール导入が児童の学習能力と脳発達を害していると指摘。\n\n彼の研究によれば、スマートフォン禁止や社会メディア制限が各地で広がる中、学校内での教育技術（EdTech）の役割が問われている。タブレットやノートパソコンでの学習は、紙と鉛筆の従来法より劣位である傾向が複数の研究で示唆されている。\n\nHorvathは元教師で、教育現場で実際に子どもの変化を観察してきた。注意散漫、読解力低下、対人スキル低下が、スクリーン多用と相関しているという。この主張は、テック企業による教育市場への進出と対峙する立場。\n\n教育のデジタル化は必要だが、発達段階に応じた適切な使用・制限が不可欠。単に技術導入することではなく、子どもの認知成長を中心に据えた設計が求められている。",
+    "tags": [
+      "教育",
+      "神経科学",
+      "デジタル",
+      "子ども",
+      "認知発達"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/education/2026/aug/16/neuroscientist-screen-use-schools-educational-technology-jared-cooney-horvath",
+    "importance": 4,
+    "image_query": "children education classroom learning",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1759755486391-d7bd120924f3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8Y2hpbGRyZW4lMjBlZHVjYXRpb24lMjBjbGFzc3Jvb20lMjBsZWFybmluZ3xlbnwxfDB8fHwxNzg2ODcyMDM0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sushanta Rokka",
+      "profileUrl": "https://unsplash.com/@sanoyatra?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Ranger teaching children in a classroom",
+      "description": "Teacher Engaging with Students During Interactive Learning Session in Rural Classroom"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T09:20:34.923Z",
+    "publishedAt": "2026-08-16T07:00:20.000Z"
+  },
+  {
+    "slug": "20260816-32",
+    "headline": "ファージがAIで進化、抗生物質耐性菌を脅かす",
+    "lead": "数十億年の進化に学ぶ。バクテリオファージとAIで未来の治療開く。",
+    "body_markdown": "Phys.orgが報じたところ、バクテリオファージ（細菌をターゲットにするウイルス）の研究がAIにより加速。抗生物質耐性菌（AMR）対策の新たな希望が生まれている。\n\n地球上には、あらゆる他の生物体より多くのバクテリオファージが存在する。数十億年の進化の過程で、これらは細菌の防御機構を打ち破るあらゆる戦略を獲得。このダイバーシティをAIが読み解く。\n\nAlphaFoldなどのAIツールが、ファージ遺伝子のタンパク質構造を予測し、未知の機能を明らかに。どのファージがどの細菌を感染させるか、どのタンパク質で細菌防御を突破するか、AIが認識できない複雑なパターンを検出できる。\n\nスタンフォード大学の研究では、AIで設計したファージが実際に機能するウイルスとして成立。ファージセラピーは、多剤耐性菌対策の最後の砦になる可能性がある。",
+    "tags": [
+      "ファージ",
+      "AI",
+      "抗生物質",
+      "医学",
+      "バイオテクノロジー"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-nature-spent-billions-years-bacteria.html",
+    "importance": 4,
+    "image_query": "bacteriophage virus microscopic",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxiYWN0ZXJpb3BoYWdlJTIwdmlydXMlMjBtaWNyb3Njb3BpY3xlbnwxfDB8fHwxNzg2ODcyMDM1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Fusion Medical Animation",
+      "profileUrl": "https://unsplash.com/@fusion_medical_animation?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Visualization of the coronavirus causing COVID-19",
+      "description": "New visualisation of the Covid-19 virus"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T09:20:35.630Z",
+    "publishedAt": "2026-08-16T00:00:01.000Z"
+  },
+  {
+    "slug": "20260816-33",
+    "headline": "コソボ家族の社会ドラマ、サンダンス受賞作が公開",
+    "lead": "Visar Morina監督『Shame and Money』。生存競争の苦さを映す。",
+    "body_markdown": "Varietyが報じたところ、2026年サンダンス映画祭でグランプリを獲得した『Shame and Money』がサラエボ映画祭でも上映。監督はVisar Morina。アルバニアの映像作家として国際評価を高めている。\n\n物語の舞台はコソボ。貧困家族の生存戦と社会的尊厳の喪失を描く。家族が崩壊に向かう過程を、容赦なく映し出す社会ドラマ。観客にとって辛い内容だが、現実の圧倒的な力が画面に迫力をもたらす。\n\nMorinaは声明で、「過去への内省であり、未来への警告」とこの作品を位置づけた。バルカン地域の経済的格差と、社会的分断がテーマ。ヨーロッパの周辺地域における「見落とされた貧困」を国際社会に告発する作品。\n\nサンダンスの最高賞受賞は、インディペンデント映画の価値と国際的影響力を示唆。映画祭での評価が、配信プラットフォームとの配信化へつながり、より広い観客に到達する展開が期待される。",
+    "tags": [
+      "映画",
+      "サンダンス",
+      "ドラマ",
+      "コソボ",
+      "社会"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/global/shame-and-money-sundance-social-drama-kosovo-1236834517/",
+    "importance": 4,
+    "image_query": "film cinema movie award",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1717903775083-8ad2a38483a5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxmaWxtJTIwY2luZW1hJTIwbW92aWUlMjBhd2FyZHxlbnwxfDB8fHwxNzg2ODcyMDM2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Declan Sun",
+      "profileUrl": "https://unsplash.com/@declansun?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a sign that says movie movie on it",
+      "description": "A huge number 3 on a metal plate"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-16T09:20:36.246Z",
+    "publishedAt": "2026-08-16T08:33:36.000Z"
+  },
+  {
     "slug": "20260816-01",
     "headline": "OpenAI、テキサス州でAIインフラ開発の責任あるアプローチを発表",
     "lead": "OpenAIが米テキサス州知事に宛てた書簡で、責任あるAIインフラ開発への取り組みを表明し、地域社会との協力体制を構築する方針を示した。",
