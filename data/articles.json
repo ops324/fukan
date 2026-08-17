@@ -1,5 +1,437 @@
 [
   {
+    "slug": "20260818-01",
+    "headline": "OpenAI、オハイオ州に80億ワット超のAIキャンパス——35,000の建設雇用予定",
+    "lead": "OpenAI と NVIDIA が SB Energy と共同でオハイオ州ピーク郡に超大規模 AI データセンターを開発、2032年までに35,000人の建設雇用を創出する計画。",
+    "body_markdown": "OpenAI は8月17日、オハイオ州ピーク郡の PORTS-Pike Technology Campus に約80億ワット-IT の電力を確保する契約を締結したと発表した。NVIDIA と SB Energy、米国エネルギー省と協力するプロジェクトで、2032年を通じた6年間の建設期間に35,000人の建設雇用、2,500人の長期的な運用雇用を予想している。\n\nOpenAI は地域への投資として4,000万ドルのコミュニティ助成基金を設立。SB Energy の既発表分4,000万ドルに加える形となる。さらに8,400万ドル相当の Codex クレジット（ChatGPT 経由）を約84万4,000人のオハイオ州内のカレッジ・コミュニティカレッジ・技術学校の学生に提供する。\n\nこのプロジェクトは AI モデルの計算需要の急速な増加に応える米国のインフラ競争の一環。NVIDIA のファイナンシング支援により、2028年から運用開始予定とされる。",
+    "tags": [
+      "AI",
+      "データセンター",
+      "インフラ投資",
+      "OpenAI",
+      "アメリカ"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/openai-joins-ports-pike-project",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
+        "name": "CNBC"
+      }
+    ],
+    "importance": 4,
+    "image_query": "data center servers computing facility",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7lncHUlLeigB0CzEnnpkvX/79fb3bd6db518d2946417c35a981d973/openai-joins-ports-pike-project-seo-v001.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/openai-joins-ports-pike-project",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:07.513Z",
+    "publishedAt": "2026-08-17T05:00:00.000Z"
+  },
+  {
+    "slug": "20260818-02",
+    "headline": "Anthropic の年換算売上、650億ドルに到達——7倍成長、IPO 準備進行",
+    "lead": "AI モデル Claude を開発する Anthropic が年換算売上 650億ドルに達した。前年同期比7倍の急成長で、IPO（新規公開株式）の準備が進行中。",
+    "body_markdown": "Anthropic が投資家へ通知した情報により、同社の年換算売上が7月時点で650億ドルに達したことが明らかになった。これは前年同期比で約7倍の成長率。2026年第2四半期の速報値は115億ドルで、前年比14倍増。同社は過去に5月の run rate が470億ドル、2025年通年の売上が約100億ドルであったことを報告していた。\n\nこの高い成長率は Claude の世界中での利用拡大を反映している。同社は6月に米国証券取引委員会（SEC）に秘密裏に有価証券届出書（prospectus）を提出済みで、上場準備が着々と進んでいる。具体的な IPO 時期は公開されていないが、関係者は秋冬の上場可能性を指摘している。\n\n年換算売上が650億ドルに達する企業は、主流な上場ソフトウェア企業の大半を上回る規模であり、ChatGPT で知られる OpenAI と市場で競合する立場を強化している。",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI",
+      "ビジネス",
+      "IPO"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html",
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-08-17/anthropic-revenue-run-rate-surpasses-65-billion-ahead-of-ipo",
+        "name": "Bloomberg"
+      }
+    ],
+    "importance": 4,
+    "image_query": "office startup growth business",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxvZmZpY2UlMjBzdGFydHVwJTIwZ3Jvd3RoJTIwYnVzaW5lc3N8ZW58MXwwfHx8MTc4NzAwMjMyOHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "krakenimages",
+      "profileUrl": "https://unsplash.com/@krakenimages?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man in white dress shirt sitting beside woman in black long sleeve shirt",
+      "description": "Two middle age business workers smiling happy and confident. Working together with smile on face hand giving high five at the office"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:08.755Z",
+    "publishedAt": "2026-08-17T20:56:54.000Z"
+  },
+  {
+    "slug": "20260818-03",
+    "headline": "OpenAI、14の独立プロジェクトに助成金——『知能の時代』の政策立案支援",
+    "lead": "OpenAI が AI の経済社会的影響を研究する世界中の組織 14 団体に計200万ドル以上を助成。回復力と機会創出の推進が目的。",
+    "body_markdown": "OpenAI は8月17日、独立した14の組織が主導するプロジェクトに資金を授与すると発表した。各プロジェクトは100万ドルの助成金に加え、OpenAI モデルの使用クレジット（最大100万ドル相当）を受け取り、計200万ドル以上の資金が配分される。\n\n受給組織には、米国の超党派シンクタンク（American Enterprise Institute、Progressive Policy Institute など）のほか、欧州・ブラジル・シンガポール・韓国の団体が含まれる。対象プロジェクトは AI がもたらす経済・社会的機会と課題を研究し、具体的な政策提案や実施支援を行う。\n\nこの助成プログラムは、OpenAI が2026年4月に発表した「Industrial Policy for the Intelligence Age（知能の時代の産業政策）」に基づいており、AI による社会的混乱に対処し、利益が広く行き渡る構造を構築することを目指している。ChatGPT は世界で10億人以上に利用されており、政策立案と社会適応の急速な進展が重要課題とされている。",
+    "tags": [
+      "OpenAI",
+      "政策",
+      "AI",
+      "シンクタンク",
+      "助成"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+    "importance": 4,
+    "image_query": "policy meeting conference discussion",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3ui6fuXDbnmCfn6AqK9xkn/b8f4d1d81779680070c147b1ae685c9f/new-policy-ideas-for-the-intelligence-age--seo-v001.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:09.756Z",
+    "publishedAt": "2026-08-17T03:15:00.000Z"
+  },
+  {
+    "slug": "20260818-04",
+    "headline": "Groq、3億5,000万ドル調達——AI チップから neocloud へのピボット加速",
+    "lead": "AI 推論専門企業 Groq が Series A で3億5,000万ドル調達、35億ドル評価。NVIDIA がラウンドに参加し、クラウド基盤事業への転換を支援。",
+    "body_markdown": "AI 推論企業の Groq は8月17日、Series A ラウンドで3億5,000万ドルの資金調達を完了し、評価額は35億ドルに達した。Disruptive Asset Management が主導し、NVIDIA も参加する。ただし、昨年9月の評価額69億ドルからの下降である。Groq の広報担当者は「下落ラウンドではなく、NVIDIA 提携後の Groq の新評価を反映している」と述べている。\n\nGroq は AI チップメーカーからの大きな転換を遂行中。NVIDIA の CEO Jensen Huang が同社の創業者で CEO の Jonathan Ross と複数の幹部を引き抜き、200億ドルのライセンス契約を結んだ後の再編である。現在は「neocloud」と呼ぶ AI 推論クラウド基盤事業に注力し、企業向けに高性能な GPU とインフラを提供する戦略へシフトしている。\n\n新調達資金は neocloud 事業の拡大と NVIDIA 提供 GPU を活用したデータセンター拠点の拡張に充てられる予定。AI 推論市場での競争構図が変化する中での重要な戦略転換。",
+    "tags": [
+      "Groq",
+      "AI",
+      "スタートアップ",
+      "クラウド",
+      "推論"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+    "importance": 4,
+    "image_query": "startup office technology meeting",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1572021335469-31706a17aaef?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8c3RhcnR1cCUyMG9mZmljZSUyMHRlY2hub2xvZ3klMjBtZWV0aW5nfGVufDF8MHx8fDE3ODcwMDIzMzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jud Mackrill",
+      "profileUrl": "https://unsplash.com/@judmackrill?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "four coworkers smiling around laptop at table",
+      "description": "Design review in startup office with macbook and artwork. Man wearing Apple Watch. Joyful team working together and laughing."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:10.566Z",
+    "publishedAt": "2026-08-17T16:15:12.000Z"
+  },
+  {
+    "slug": "20260818-05",
+    "headline": "インドネシア東部で地震、68人死亡——1,300以上の家屋被害、救助活動続く",
+    "lead": "インドネシア東部フローレス島沖でマグニチュード7.7の地震。68人が死亡し、地滑りと余震が救助活動を妨害。",
+    "body_markdown": "インドネシア東部で8月にマグニチュード7.7の地震が発生し、死亡者が68人に達した。震源はフローレス島の東側、エンデ市から北北西へ約68キロメートルの地点。東ヌサ・トゥンガラ州が最も被害を受けた。\n\n被害は甚大で、1,300戸以上の家屋が損壊、200人以上が負傷した。約12,800人が避難を余儀なくされた。救助チームには3,500人以上の軍警察関係者が配置され、マンガライ地区など最も被害の大きい地域で瓦礫撤去を優先している。ただし、地震に伴う1,300以上の余震と複数の地滑りが、被災地への道路封鎖と救助活動の遅延を招いている。\n\n地元当局は引き続き瓦礫の下に埋もれている可能性がある人物の捜索と救出に当たっており、さらなる犠牲者が発見される懸念も残っている。インドネシアは太平洋火山帯に位置し、地震活動が頻繁な地域。",
+    "tags": [
+      "インドネシア",
+      "地震",
+      "災害",
+      "救助",
+      "東部"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/gallery/2026/8/17/photos-search-for-indonesia-earthquake-victims-continues",
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-08-16/indonesia-rescue-operation-continues-as-quake-death-toll-hits-53",
+        "name": "Bloomberg"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2026/8/17/thousands-await-aid-after-deadly-indonesia-quake-as-rescue-work-conducted",
+        "name": "Al Jazeera"
+      }
+    ],
+    "importance": 5,
+    "image_query": "earthquake disaster rescue rubble",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1650638727175-347f9f3a83c8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxlYXJ0aHF1YWtlJTIwZGlzYXN0ZXIlMjByZXNjdWUlMjBydWJibGV8ZW58MXwwfHx8MTc4NzAwMjMzMXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "mohammed al bardawil",
+      "profileUrl": "https://unsplash.com/@mhmedbardawil?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a group of people standing next to a collapsed building"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:11.356Z",
+    "publishedAt": "2026-08-17T19:22:54.000Z"
+  },
+  {
+    "slug": "20260818-06",
+    "headline": "ジンバブエでフェリー転覆、92人死亡——定員90人に169人が乗船",
+    "lead": "ジンバブエのカリバ湖で Mbuya Nehanda フェリーが転覆。92人が死亡し、子供18人を含む。過積載が原因。",
+    "body_markdown": "ジンバブエのカリバ湖でフェリーが転覆し、92人が死亡した。8月11日に発生した事故で、8月17日に死亡者数が確定した。Mbuya Nehanda という名のフェリーは、カリバ町からチャララ漁業キャンプへ向かう航路上で沈没。定員90人に対し、少なくとも169人が乗船していた。\n\n生存者77人が救出されたが、検視官が92の遺体を確認。うち子供は少なくとも18人。多くの遺体はまだ回収されておらず、捜索活動が継続されている。乗客らは出航前に天候悪化を懸念し、引き返すか一時避難を求めていたが、要求は却下された。\n\nジンバブエ共和国警察が船舶の過積載を確認し、船長と所有者に対する調査を開始している。警察長官は2隻の大型ボートと2隻の小型ボート、40名以上の潜水要員を配備して捜索活動を統括している。カリバ湖はジンバブエとザンビアの国境をなし、交通が重要な水域。",
+    "tags": [
+      "ジンバブエ",
+      "海難事故",
+      "フェリー",
+      "転覆",
+      "アフリカ"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/17/death-toll-from-capsized-ferry-in-zimbabwe-rises-to-92",
+    "importance": 5,
+    "image_query": "boat water accident ferry disaster",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1772588598733-e2b508a6dde3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxib2F0JTIwd2F0ZXIlMjBhY2NpZGVudCUyMGZlcnJ5JTIwZGlzYXN0ZXJ8ZW58MXwwfHx8MTc4NzAwMjMzMXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Carol Gauthier",
+      "profileUrl": "https://unsplash.com/@carolgauthier?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A white ferry boat speeds through choppy blue water",
+      "description": "Hydrofoil Boat"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:12.095Z",
+    "publishedAt": "2026-08-17T19:12:19.000Z"
+  },
+  {
+    "slug": "20260818-07",
+    "headline": "NVIDIA、OpenAI データセンター向け15億ドル投資——オハイオ州プロジェクトに参加",
+    "lead": "NVIDIA が SB Energy 傘下のデータセンター開発企業に15億ドルを投資。OpenAI のオハイオ州 AI キャンパス計画を支援。",
+    "body_markdown": "NVIDIA は8月17日、SB Energy 傘下のデータセンター開発企業に15億ドルを投資することを発表した。この投資により、NVIDIA は OpenAI が推進するオハイオ州 PORTS-Pike Technology Campus プロジェクトへの関与を深める。\n\nNVIDIA の投資は単なる資本提供ではなく、同社の AI 加速器チップ（GPU）がこのデータセンターの中核となることを保証するもの。データセンターは計画当初から NVIDIA の計算機を搭載し、OpenAI のモデル学習・推論基盤として機能する。NVIDIA は GPU 需要の高まりを背景に、戦略的に大型クラウド・インフラ企業への投資を行っており、今回もその一環。\n\nこのプロジェクトは2028年の運用開始を予定し、段階的に段階的に2032年まで建設が続く。OpenAI、SB Energy、U.S. Department of Energy とともに、AI インフラの国家的競争が激化する中での重要な戦略的一手となっている。NVIDIA にとっても、長期的な GPU 供給の確保という意味で重要な投資。",
+    "tags": [
+      "NVIDIA",
+      "OpenAI",
+      "投資",
+      "データセンター",
+      "AI"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
+        "name": "CNBC"
+      }
+    ],
+    "importance": 4,
+    "image_query": "data center servers hardware infrastructure",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1594915854088-2128db6a8db5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8ZGF0YSUyMGNlbnRlciUyMHNlcnZlcnMlMjBoYXJkd2FyZSUyMGluZnJhc3RydWN0dXJlfGVufDF8MHx8fDE3ODcwMDIzMzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Kirill Sh",
+      "profileUrl": "https://unsplash.com/@kirill2020?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "yellow and green electric wires",
+      "description": "WDM equipmet for optic networks"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:12.735Z",
+    "publishedAt": "2026-08-17T15:16:24.000Z"
+  },
+  {
+    "slug": "20260818-08",
+    "headline": "Google Gemini、5つの世界的サッカークラブとパートナーシップ——ファン体験を向上",
+    "lead": "Google が AI 基盤 Gemini と Pixel スマートフォンを活用し、グローバルサッカークラブ5チームと協力、ファン向けマッチデー体験を強化。",
+    "body_markdown": "Google は8月17日、Gemini AI と Pixel デバイスを活用したサッカーファン向け体験プログラムを、世界的な大型クラブ5チームと共同展開すると発表した。両企業のパートナーシップにより、スタジアム内および遠隔観戦時のファン体験が拡張される。\n\nプログラムでは、Pixel スマートフォンの Gemini 機能を通じ、ファンがリアルタイムで選手統計、試合分析、文脈情報をアクセス可能になる。マッチデー（試合当日）の体験が Gemini の提案機能によって個人化され、各ファンの関心に応じた情報が推奨される。また、スタジアム内での画像認識機能により、ピッチ上の瞬間を Pixel で撮影した際、試合コンテキストをリアルタイムで分析・説明するなど、没入型の体験が実現する。\n\nこのパートナーシップは Google の AI 技術をスポーツエンタメント業界に浸透させる戦略の一環。世界的なサッカーの人気度とファン規模を踏まえ、Gemini のユースケース拡大に注力している。",
+    "tags": [
+      "Google",
+      "Gemini",
+      "Pixel",
+      "スポーツ",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+    "importance": 3,
+    "image_query": "football stadium crowd sports fans",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:12.745Z",
+    "publishedAt": "2026-08-17T08:00:00.000Z"
+  },
+  {
+    "slug": "20260818-09",
+    "headline": "Wispr、2億8,000万ドル調達——音声認識 AI、企業12.5万社で採用",
+    "lead": "音声入力スタートアップ Wispr が Series B で2億8,000万ドル調達、評価額20億ドル。新モデル Canto はエラー率を 30% から 10% 未満に低減。",
+    "body_markdown": "音声テキスト化企業 Wispr は8月17日、Series B ラウンドで2億8,000万ドルの資金調達を完了し、評価額は20億ドルに達した。Menlo Ventures が主導し、既存投資家の Notable Capital、NEA、Neo Ventures、8VC、MVP Ventures のほか、新規投資家 Acrew、Forerunner、Goodwater、Peak XV、Together Fund、PLUS Capital が参加。総資金調達は3億6,100万ドル以上となった。\n\nWispr は音声ディクテーション（音声→テキスト）でシェア獲得していたが、この調達資金で新分野（会議記録アシスタント）への進出を加速させる。新型モデル「Canto」はテキスト化エラー率を従来の30%から10%未満に削減。月間数百万ユーザーが利用し、12万5,000社（12.5万社）以上で採用。四半期ごとの売上成長率は150%を4期連続で超えており、市場での急速な普及が続いている。\n\nAI ベースの音声認識がビジネス効率化の中核ツールとして定着する中、Wispr のような専門企業への投資が加速している。",
+    "tags": [
+      "Wispr",
+      "音声AI",
+      "スタートアップ",
+      "ディクテーション",
+      "投資"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+    "importance": 3,
+    "image_query": "office meeting microphone recording",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:12.746Z",
+    "publishedAt": "2026-08-17T13:10:05.000Z"
+  },
+  {
+    "slug": "20260818-10",
+    "headline": "ABC News、「Searched」番組で検索トレンド放映——リアルタイム話題をニュース化",
+    "lead": "ABC News がライブストリーミング番組「Searched」で、Google・SNS の検索トレンドから注目話題をまとめて配信。4月からの定期放映。",
+    "body_markdown": "ABC News は、検索エンジンとソーシャルメディア（SNS）のトレンドデータを使い、その日の人気話題をニュース化するライブストリーミング番組「Searched」を展開している。番組は4月より ABC News Live（Disney+ と Hulu で配信）で放映中。ホストは「Good Morning America」週末共同キャスターの Gio Benitez と ABC News 記者 Ashan Singh。\n\nプログラムはリアルタイムで Google 検索エンジンと Twitter、Facebook などの大手プラットフォーム上の検索・投稿データを取得し、視聴者が最も関心を持つ話題を抽出する。最近の放映では、Taylor Farms 農場の cyclospore アウトブレイク、ワシントン DC の Reflecting Pool の藻大量発生、Britney Spears に関する話題など、多様なトピックを扱った。\n\nABC News の試みは、新聞社がニュース価値を判断していた従来モデルから、リアルタイムな市民関心を数値化して配信する放送形態へのシフトを示している。",
+    "tags": [
+      "ABC News",
+      "ストリーミング",
+      "メディア",
+      "トレンド",
+      "テレビ"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/streaming/981209/abc-news-searched-livestreamed-show",
+    "sources": [
+      {
+        "url": "https://variety.com/2026/tv/news/abc-news-twist-live-stream-tv-news-gio-benitez-1236836209/",
+        "name": "Variety"
+      }
+    ],
+    "importance": 3,
+    "image_query": "news studio broadcast television",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:12.747Z",
+    "publishedAt": "2026-08-17T20:59:23.000Z"
+  },
+  {
+    "slug": "20260818-11",
+    "headline": "Reddit、投稿のビデオ・オーディオ版を実験——文字から映像・音声へ",
+    "lead": "Reddit がテキスト投稿を動画・音声に自動変換する機能をテスト。プラットフォーム上での対話の多様化を狙う。",
+    "body_markdown": "Reddit は8月17日、テキスト投稿をビデオおよびオーディオ版に自動変換する実験機能の開発を明かした。ユーザーが掲示板上の会話を動画視聴や音声再生で楽しむことを可能にするもの。\n\n従来、Reddit はテキストベースの掲示板プラットフォームとして機能してきたが、ショート動画（TikTok、YouTube Shorts）や音声メディア（Podcast）の人気上昇を受け、複数メディアフォーマット対応へシフトしている。実験では、既存の投稿を自動読み上げ（TTS: Text-to-Speech）と動画キャプション化する技術を活用。ユーザーの通勤・作業中など「ながら」での会話参加を促進する戦略。\n\n同様の施策は他プラットフォーム（Twitter/X、Medium など）でも進行中。メディア企業にとって、複数フォーマットでのコンテンツ利用が当たり前となりつつある。",
+    "tags": [
+      "Reddit",
+      "動画",
+      "メディア",
+      "音声",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2238585/reddit-is-experimenting-with-video-and-audio-versions-of-posts/",
+    "importance": 3,
+    "image_query": "video screen audio podcast recording",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:12.755Z",
+    "publishedAt": "2026-08-17T19:31:57.000Z"
+  },
+  {
+    "slug": "20260818-12",
+    "headline": "人類とチンパンジーの最後の共通祖先、樹木登頂能力をもつ——新研究",
+    "lead": "人類とチンパンジーの最後の共通祖先は垂直登頂を得意とする樹上採食型だった。オハイオ州立大学の研究が新説を提示。",
+    "body_markdown": "オハイオ州立大学の研究チームは、人類とチンパンジーの最後の共通祖先（LCAH: Last Common Ancestor of Humans）が垂直登頂能力を備えた樹上生活者だったことを示唆する新たな証拠を提示した。8月17日、 phys.org に掲載された研究によると、共通祖先の足の特性がどのようなものであったかにかかわらず、それは木登りを行う霊長類だったという。\n\nこれまでの人類進化論では、直立二足歩行への移行過程について複数の仮説があったが、今回の研究は分子進化・骨格形態学などのマルチディシプリナリ分析に基づいている。共通祖先がどの程度森を離れて地上生活を始めたかについては議論が続いているが、樹木登頂という基礎的な行動は維持されていたと考えられる。\n\nこの発見は、人類の起源と初期進化の理解を深め、霊長類全体の適応戦略の理解にも寄与する。",
+    "tags": [
+      "進化",
+      "人類学",
+      "研究",
+      "チンパンジー",
+      "科学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-common-ancestor-humans-chimpanzees-vertical.html",
+    "importance": 3,
+    "image_query": "primate climbing tree evolution nature",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:12.756Z",
+    "publishedAt": "2026-08-17T20:10:01.000Z"
+  },
+  {
+    "slug": "20260818-13",
+    "headline": "バッタの脳、PFAS（有機フッ素化学物質）を検出——環境汚染モニタリングに応用へ",
+    "lead": "ミシガン州立大学が発見：バッタの脳ニューロンは複数種類の PFAS を区別・検出可能。環境汚染の携帯型センサー開発へ。",
+    "body_markdown": "ミシガン州立大学の研究者らは、バッタの脳神経細胞が永遠化学物質 PFAS（Per- and Polyfluoroalkyl Substances、いわゆる「フォーエバーケミカル」）を環境適合濃度レベルで識別・検出できることを発見した。特に一般的な PFAS である PFOS を含む複数の化合物を区別認識する能力があることが判明。\n\nPFAS は自然分解されず環境に蓄積する有害物質で、飲料水汚染、産業排水、防火布地などに広く含まれる。従来のラボ級の検査機器は大規模で高額であり、現地でのリアルタイム測定が困難だった。バッタの嗅覚神経系を活用することで、低コスト・携帯型の PFAS センサー開発が可能になる見通しが開けた。\n\nこの成果は生物工学・環境計測の境界領域での応用例であり、昆虫の感覚能力を人間の環境モニタリングに活かす新たな枠組みを示唆している。",
+    "tags": [
+      "PFAS",
+      "環境",
+      "バッタ",
+      "センサー",
+      "科学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-locust-neurons-pfas-environmentally-relevant.html",
+    "importance": 3,
+    "image_query": "insect microscope laboratory research",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:12.757Z",
+    "publishedAt": "2026-08-17T20:30:02.000Z"
+  },
+  {
+    "slug": "20260818-14",
+    "headline": "植物、ジャンピング遺伝子を選別的に沈黙化——本質的遺伝子を保護する仕組み",
+    "lead": "東京科学大学の研究：植物は自身のゲノム内のジャンピング遺伝子を選別的に抑制しながら、機能的遺伝子を保全する機構を持つ。",
+    "body_markdown": "東京科学大学の研究チームは、植物がゲノム内のトランスポゾン（ジャンピング遺伝子）を標的化・沈黙化する仕組みを解明した。ヒストン変異体（chromosome 関連タンパク質）が DNA メチル化を特異的にトランスポゾン領域に指向し、その沈黙化を達成。同時に、その沈黙化が本質的な機能遺伝子へ拡がることを防ぐメカニズムが働いていることが示された。\n\nトランスポゾンはゲノム上で移動・増殖する因子で、放置されるとゲノムの不安定化を招く。一方で、その移動を完全に抑止しすぎると、必要な遺伝子の発現まで阻害される。植物はこの微妙なバランスを、精密な epigenomic（エピゲノム）制御で実現している。この知見は将来の作物改良・疾患研究への応用につながる可能性を持つ。\n\n本研究は、単細胞から複雑な多細胞生物に至るまで、ゲノム安定化の基本原理を理解する上で重要な貢献となっている。",
+    "tags": [
+      "植物",
+      "遺伝子",
+      "ゲノム",
+      "研究",
+      "農業"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-silence-genes-essential.html",
+    "importance": 3,
+    "image_query": "dna laboratory research microscope",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:12.757Z",
+    "publishedAt": "2026-08-17T20:40:03.000Z"
+  },
+  {
+    "slug": "20260818-15",
+    "headline": "Supreme Court、Verizon の FCC 罰金返還要求を棄却——位置情報販売規制を支持",
+    "lead": "米最高裁が Verizon の FCC 罰金（4,700万ドル）返還訴訟を却下。携帯キャリアによる顧客位置情報販売規制が有効との判断。",
+    "body_markdown": "米国最高裁判所は8月17日、Verizon が FCCからの罰金4,700万ドルの返還を求めた訴訟を却下した。通信大手は、顧客の許可なく位置情報データを第三者に販売した行為について、2015年に FCC から罰金を受けていた。Verizon は「この罰金は違法」と主張し返還を求めていたが、最高裁はこれを棄却。\n\nVerizon は引き続き「位置情報販売そのものが違法ではない」と主張しており、規制当局との対立を続ける意向を示している。ただし最高裁の判断は、FCC が個人データ保護を理由に通信事業者への規制権を有することを支持した形。\n\nこの判例は、スマートフォン時代における顧客プライバシーと通信企業の商用データ活用をめぐる重要な法的判断であり、規制政策に影響を与える可能性がある。",
+    "tags": [
+      "Verizon",
+      "最高裁",
+      "プライバシー",
+      "法律",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "Ars Technica",
+    "link": "https://arstechnica.com/tech-policy/2026/08/supreme-court-rejects-verizon-bid-for-47-million-refund-of-fcc-fine/",
+    "importance": 3,
+    "image_query": "phone location data privacy technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:12.757Z",
+    "publishedAt": "2026-08-17T20:00:20.000Z"
+  },
+  {
+    "slug": "20260818-16",
+    "headline": "物理学生、ChatGPT・Google Gemini で物理問題を検索——生成AI 学習ツール化",
+    "lead": "Bar-Ilan 大学の研究：世界中の物理学科学生が AI 生成モデルで物理問題の回答を得ている。教育への影響が焦点。",
+    "body_markdown": "Bar-Ilan 大学（イスラエル）の研究者による新調査により、世界中の物理学生が ChatGPT や Google Gemini などの生成 AI モデルを活用して物理問題の回答を検索・習得していることが明かされた。8月17日、 phys.org に掲載。\n\nAI が迅速かつ詳細な説明を提供することで、従来の教科書やオンライン教育サイトの代替手段として機能するようになった。学生は complex な物理現象の説明、公式の導出過程、問題解答のステップバイステップを AI から得られる。一方で、教育界からは「思考プロセスの短縮化」「理解の浅さ」への懸念も指摘されている。\n\nこの傾向は物理学に限定されず、数学・化学・生物など理系全般に広がっており、学習方法と評価方法の根本的な見直しを促す課題となっている。",
+    "tags": [
+      "AI",
+      "教育",
+      "ChatGPT",
+      "物理学",
+      "学習"
+    ],
+    "section": "AI",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-google-chatgpt-physics-students-conversational.html",
+    "importance": 3,
+    "image_query": "student learning computer screen education",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-17T21:32:12.758Z",
+    "publishedAt": "2026-08-17T20:40:01.000Z"
+  },
+  {
     "slug": "20260817-19",
     "headline": "OpenAI、AIリスク評価チームを解散　IPO前に組織再編",
     "lead": "OpenAIが独立したリスク評価チームを解散し、責任を各部門へ分散。AI安全体制の後退を懸念する声が上がる。",
