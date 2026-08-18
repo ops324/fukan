@@ -1,5 +1,618 @@
 [
   {
+    "slug": "20260818-17",
+    "headline": "NVIDIA、OpenAI のオハイオ AI データセンターに最大 105B ドル保証",
+    "lead": "NVIDIA が OpenAI のオハイオ州データセンター構想に最大 105 億ドルの債務保証を提供、2028 年運用開始予定。",
+    "body_markdown": "NVIDIA は OpenAI とソフトバンクグループ傘下の SB Energy が進める、米オハイオ州ポーク郡のデータセンター「PORTS-Pike Technology Campus」に対し、最大 105 億ドルの債務保証を提供すると発表した。\n\n同プロジェクトは SB Energy が建設・所有・運営し、OpenAI がテナントとなる 20 年間の長期リース形式。NVIDIA は土地、電力、建物基盤を確保する。初期段階では 4.25GW の計算容量を備え、段階的に 3.75GW まで拡張可能。2028 年から段階的に運用開始、同年中に既存送電網を活用した初期 800MW が稼動予定。\n\nSB Energy とソフトバンクは 10GW 超の新規電力発電設備を構築し、オハイオ州の送電インフラに最低 42 億ドルを投資。NVIDIA も SB Energy へ 15 億ドルを出資する。\n\n雇用効果は 6 年建設期間で 3 万 5000 人の建設雇用と 2500 人の恒久雇用を見込む。OpenAI はコミュニティファンドに 4000 万ドルを拠出し、オハイオ大学の約 84 万 4000 人の学生向けに Codex クレジット最大 8400 万ドル相当を提供予定。",
+    "tags": [
+      "AI インフラ",
+      "データセンター",
+      "NVIDIA",
+      "OpenAI",
+      "米国"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/article/2608/18/2000000572/",
+    "importance": 5,
+    "image_query": "data center servers processors",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1711721399281-02806b65d91b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxkYXRhJTIwY2VudGVyJTIwc2VydmVycyUyMHByb2Nlc3NvcnN8ZW58MXwwfHx8MTc4NzA0NTIzMXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mark Zeller",
+      "profileUrl": "https://unsplash.com/@datamaze?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a computer motherboard with many components",
+      "description": "Picture the PCIe slots of a server and its extension cards"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:11.436Z",
+    "publishedAt": "2026-08-17T21:55:32.000Z"
+  },
+  {
+    "slug": "20260818-18",
+    "headline": "OpenAI 年次防衛ウィンドウで AI 時代のサイバー脅威を警告",
+    "lead": "OpenAI が脅威者の AI 能力進化を分析、組織への「今こそが行動時」と促す。",
+    "body_markdown": "OpenAI は公式ブログで『The Defender's Window』と題するセキュリティ分析を発表。同社最高経営責任者グレッグ・ブロックマンが、AI モデルがサイバー攻撃の一部自動化を可能にする中、防御側にも新たな機会が生まれていると指摘。\n\n従来は数十年放置されてきたソフトウェアのバグ忘れられた権限設定といった基本的セキュリティの脆弱性が、今後数カ月で AI 能力を備えた典型的な脅威アクターに容易に悪用される見通しを示した。同時に、組織が基本強化と AI による防御力向上に迅速に対応すれば「インターネット史上最も安全な状態」を実現できるとも述べる。\n\nブロックマン氏は複数の企業との対話を通じ「企業は前例ない速度でサイバー防衛を高める必要」という認識が共通していると報告。具体的なステップとして、基礎のセキュリティ要件改善と AI によるチームの能力強化を挙げた。\n\n背景には OpenAI とハギングフェイス間のセキュリティインシデントがあり「サイバー防衛のターニングポイント」となったと位置付けた。",
+    "tags": [
+      "サイバーセキュリティ",
+      "AI脅威",
+      "防衛戦略",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/the-defenders-window",
+    "importance": 4,
+    "image_query": "cybersecurity network protection",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/yYqBqvM2uvc7B9HulIW4O/a3fa616ce523411cc59534295c4e6ec9/the-defenders-window-seo.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/the-defenders-window",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:12.411Z",
+    "publishedAt": "2026-08-17T05:30:00.000Z"
+  },
+  {
+    "slug": "20260818-19",
+    "headline": "Anthropic 年間売上が 650 億ドルに急騰、わずか 2 か月で 180 億ドル増加",
+    "lead": "Anthropic の売上が 5 月の 470 億ドルから 7 月末に 650 億ドルへ、異常な成長速度で拡大。",
+    "body_markdown": "AI 企業 Anthropic の年間売上が 7 月末時点で 650 億ドルに達した。わずか 2 カ月前の 5 月時点では 470 億ドル、さらに遡って 2025 年末は 90 億ドルだったため、この半年間での急速な拡大が顕著。\n\nこの 180 億ドルの 2 カ月間の増加は、OpenAI の年間売上 400 億ドル（売上が 2 倍になった）との比較でも Anthropic の成長ペースが大幅に上回ることを示唆している。\n\n投資家の予測では、Anthropic は 2026 年通年で 1000 億～1200 億ドルの売上達成も見込まれており、業界内でも異例の伸び率を記録中。同社の IPO 予定時点での企業価値は 2 兆ドル超に達する見通しもあり、これは米国史上最大規模の上場となる可能性。\n\nこの成長の背景には、Claude モデルの急速な採用と、エンタープライズ向け API サービスの拡大が指摘される。投資家コミュニティからも Anthropic の加速成長は注目を集めており、AI 企業の競争図式が急速に再編されている局面を象徴している。",
+    "tags": [
+      "AI企業",
+      "収益成長",
+      "Anthropic",
+      "ビジネス"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+    "importance": 5,
+    "image_query": "business growth chart success",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758518729829-162d6bf27b5e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8YnVzaW5lc3MlMjBncm93dGglMjBjaGFydCUyMHN1Y2Nlc3N8ZW58MXwwfHx8MTc4NzA0NTIzM3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vitaly Gariev",
+      "profileUrl": "https://unsplash.com/@silverkblack?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Team discussing charts during a business meeting",
+      "description": "Angry businessman disappointed with company financial reports and scolding employees sitting at the table in meeting room indoors"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:13.109Z",
+    "publishedAt": "2026-08-17T23:56:26.000Z"
+  },
+  {
+    "slug": "20260818-20",
+    "headline": "Google Pixel、2027 年から中国生産を全廃しベトナム・インドへ移管",
+    "lead": "Google が Pixel 全製品の中国生産を終了、ベトナムとインドで生産体制を転換。",
+    "body_markdown": "Google は Pixel スマートフォン、スマートウォッチ、イヤバッドの全製品について、2027 年から中国での製造を中止し、ベトナムとインドへの生産移管を決定した。既にサプライチェーン企業に通達済み。\n\n背景には、Google が中国でスマートフォンを公式販売していないため生産地の柔軟性が高いという事情がある。Google はシャープの既存ベトナム製造能力を活用でき、ベトナムではサムスンのスマートフォン生産拠点が確立されているため、スケーリング対応が容易。\n\nこの戦略転換は、Apple を含む主要テック企業が進める供給チェーン中国依存の縮小トレンドに沿うもの。Apple も類似の転換を進めているが、Google はより単純な操業構造（中国での販売がない）を活かした迅速な移管が可能という。\n\nGoogle は Pixel スマートフォンの出荷を 2025 年の計画から 800 万～1000 万ユニット増加させ、1200 万ユニットを目指す方針。Gemini AI の普及拡大を消費者層へ加速させるための戦略。",
+    "tags": [
+      "テクノロジー",
+      "Google",
+      "サプライチェーン",
+      "地政学"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2238895/google-reportedly-planning-move-pixel-production-out-of-china/",
+    "importance": 4,
+    "image_query": "smartphone manufacturing factory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1748944079305-8d2a86e7ad32?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMnx8c21hcnRwaG9uZSUyMG1hbnVmYWN0dXJpbmclMjBmYWN0b3J5fGVufDF8MHx8fDE3ODcwNDUyMzN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "EqualStock",
+      "profileUrl": "https://unsplash.com/@equalstock?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Factory workers oversee production in a modern factory"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:13.907Z",
+    "publishedAt": "2026-08-18T08:00:00.000Z"
+  },
+  {
+    "slug": "20260818-21",
+    "headline": "トルコがイラン外交継続をトランプに促す、中東和平仲介へ動く",
+    "lead": "エルドアン大統領がトランプ大統領と電話会談、ホルムズ海峡巡る米イラン協議の継続を要請。",
+    "body_markdown": "トルコのレジェップ・タイップ・エルドアン大統領は、米国のドナルド・トランプ大統領と電話会談を実施。ホルムズ海峡を巡る米国とイランの協議が停滞する中、外交努力と協議の継続を強く促した。\n\nトルコは地政学的に中東の要衝であり、イスラム世界との関係も深いため、中東和平交渉の仲介役として独自の立場を有する。トルコ大統領府がこの電話会談の実施を公表したことから、仲介外交を公開的に進める意思を示唆。\n\n同時期、ホルムズ海峡周辺の緊張が高まっていた。トランプ大統領はイランに対し強硬姿勢を示していたが、エルドアン大統領の働きかけは対話路線の維持を促すもの。トルコの地域影響力と外交手腕が、中東情勢の安定化に向けた重要な役割を果たしている。\n\n歴史的背景として、オスマン帝国時代からトルコは中東外交の枢要な担い手。現在も地域安全保障と紛争解決における重要なプレイヤーとして機能している。",
+    "tags": [
+      "外交",
+      "中東",
+      "イラン",
+      "米国"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260818de44773",
+    "importance": 4,
+    "image_query": "diplomacy meeting negotiation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758518727707-b023e285b709?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOHx8ZGlwbG9tYWN5JTIwbWVldGluZyUyMG5lZ290aWF0aW9ufGVufDF8MHx8fDE3ODcwNDUyMzR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vitaly Gariev",
+      "profileUrl": "https://unsplash.com/@silverkblack?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Four professionals in a modern office meeting space",
+      "description": "Group of business partners discussing agreement whilesitting on couch in modern office hall with panoramic windows indoors"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:14.840Z",
+    "publishedAt": "2026-08-18T08:40:41.000Z"
+  },
+  {
+    "slug": "20260818-22",
+    "headline": "英国製ドローン初めてロシア本土攻撃、モスクワが報復警告",
+    "lead": "ウクライナが英国企業製ドローンでロシア本土深くに初攻撃。モスクワが英国への報復を示唆。",
+    "body_markdown": "ウクライナ軍が英国企業製の 2 社のドローンを使用し、ロシア本土への直接攻撃を初めて実行したと複数報道が伝えた。日曜紙が報じたところによると、英国防省はこの事実を確認し「ウクライナが自衛のため必要な装備を提供することに英国は責任を持つ」と声明を発表。\n\nロシア外務省はこれに猛反発し、英国に対し「結果には耐えるべき」と暗に報復を示唆。ロシアの外交的反発は、従来の警告レベルを超え、実際の軍事的対抗措置の可能性を示唆するトーンと解釈できる。\n\n背景にはウクライナの「深奥部攻撃作戦」がある。従来は国境近くの目標に限定されていた攻撃が、英国製ドローンの導入により、ロシア本土深くの軍事・防衛施設を射程に入れることとなった。攻撃範囲の拡大は、戦況を大きく変える要因になると軍事専門家は指摘。\n\n英国とウクライナの軍事援助関係の深化を示す事例として注視される。同時にモスクワの警告の実現可能性も、英国とその同盟国にとって重要な検討課題となっている。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "英国",
+      "ドローン",
+      "国際紛争"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/aug/18/moscow-warns-uk-over-reports-ukraine-using-british-drones-to-attack-russia",
+    "importance": 4,
+    "image_query": "military drone warfare",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1578681715158-f7f1c53458af?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8bWlsaXRhcnklMjBkcm9uZSUyMHdhcmZhcmV8ZW58MXwwfHx8MTc4NzA0NTIzNXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "matthew deltoro",
+      "profileUrl": "https://unsplash.com/@delt2234?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "gray flying drone in macro photography",
+      "description": "Drone over Downtown"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:15.588Z",
+    "publishedAt": "2026-08-18T07:34:24.000Z"
+  },
+  {
+    "slug": "20260818-23",
+    "headline": "英国の求人空席 5 年ぶり最低水準、中小企業が採用抑制へ",
+    "lead": "英国の職業空席数が 5 年間で最も低い水準に低下、中小企業が労働費用削減で採用を控え。",
+    "body_markdown": "英国の国家統計局（ONS）発表データによると、仕事の求人空席数が過去 5 年間で最も低い水準に落ち込んだ。同データは労働市場の冷却化を示唆。中小企業が労働コストと運営経費の上昇を理由に採用を縮小している実態が明確に。\n\n失業率が比較的安定している一方で、新規求人数の減少は企業の雇用意欲が著しく低下していることを意味する。特に中小企業セクターでは、人件費圧力に直面する中での採用抑制判断が顕著。\n\n背景には、英国の賃金上昇圧力と企業利益率の圧迫がある。インフレーション水準の高止まり、エネルギー価格の上昇、供給チェーン不安定性といった複合要因が、企業の投資・雇用判断を慎重にさせている。\n\n労働市場の冷え込みは、若年層の雇用機会減少にも直結。失業率統計には出現しない「求人がない」という隠れた失業圧力が高まっている。政策当局は労働市場活性化への対応を求められる局面にあり、企業の採用促進支援や職業訓練投資の拡充検討が急務とされている。",
+    "tags": [
+      "雇用",
+      "労働市場",
+      "英国",
+      "経済"
+    ],
+    "section": "ビジネス",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/cn9nwx090v9o",
+    "importance": 3,
+    "image_query": "job employment hiring interview",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:15.589Z",
+    "publishedAt": "2026-08-18T08:59:28.000Z"
+  },
+  {
+    "slug": "20260818-24",
+    "headline": "マイク・アシュレー、ドイツ高級ファッションブランド Hugo Boss 買収進展",
+    "lead": "英国の小売王マイク・アシュレーが Hugo Boss 株式 48% を取得、経営権掌握へ一歩前進。",
+    "body_markdown": "英国の小売帝国フレーザーズ・グループを率いるマイク・アシュレーは、ドイツの高級ファッションブランド Hugo Boss の株式比率を 48% まで引き上げた。6 月に提示された買収提案は経営陣に拒否されたが、8 月の段階では株主の 17.6% が 1 株当たり 38 ユーロのアシュレーの提案を受け入れ。\n\nフレーザーズ・グループは先週、英国の高級百貨店チェーン Harvey Nichols を 4000 万ポンドで買収。アシュレーの戦略的な大型買収ラッシュが続いている。\n\nアシュレーの Hugo Boss 株式引き上げは「経営権掌握に向けた確実な一歩」と投資家分析は指摘。現在の 48% は過半数に到達していないが、筆頭株主として Hugo Boss の経営判断に実質的影響力を行使できる立場を確保した。Hugo Boss 経営陣は当初、アシュレーの提案を「過小評価」と判断し拒否していた。\n\n欧州のファッション業界では、経営統合による効率化やグローバル販売網の再編が加速。アシュレーの買収戦略は英国小売業の再構築を象徴している。",
+    "tags": [
+      "M&A",
+      "ファッション",
+      "英国",
+      "小売",
+      "ビジネス"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/aug/18/sports-direct-mike-ashley-hugo-boss-frasers-group-harvey-nichols",
+    "importance": 3,
+    "image_query": "business fashion retail brand",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:15.591Z",
+    "publishedAt": "2026-08-18T08:49:21.000Z"
+  },
+  {
+    "slug": "20260818-25",
+    "headline": "シリア法廷、アサド一族構成員に死刑判決―戦後初の身柄拘束での裁判",
+    "lead": "ダマスカス法廷がワッシーム・アル・アサドに死刑判決、アサド一族初の被拘束者による裁判。",
+    "body_markdown": "シリアの首都ダマスカスの第 4 刑事法廷は、バッシャール・アル・アサド前体制の親族であるワッシーム・アル・アサドに死刑判決を言い渡した。殺人を伴う拷問罪及び人道に対する罪、戦争犯罪として認定。\n\nファクル・アッディン・アル・アリアン判事は判決理由で「拷問と残虐性を伴う殺人は人道に対する罪、戦争犯罪に分類される」と述べた。本判決は、バッシャール・アル・アサドとその弟マーヘルがロシア亡命中に欠席裁判で死刑判決を受けたのに対し、アサド一族の構成員として初めて身柄を拘束した上での裁判形式となった。\n\nワッシームは 2011 年以降、武装民兵組織を組織・統率し、東ゴータ地域の民間人地域への軍事作戦に参加した罪で起訴されていた。麻薬密売罪については証拠不十分として無罪。シリアの長さ 14 年間に及ぶ紛争後の復興・正義回復プロセスの一環として位置付けられている。\n\nこの判決はシリア戦後処理における重要なマイルストーン。戦争犯罪人の国内裁判による処罰が、和解と社会再建へ向けた象徴的ステップとなるかが注視されている。",
+    "tags": [
+      "シリア",
+      "戦争犯罪",
+      "司法",
+      "中東",
+      "人権"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/18/syrian-court-sentences-wassim-al-assad-to",
+    "importance": 4,
+    "image_query": "court justice law tribunal",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1602189831128-7732a9398d83?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjb3VydCUyMGp1c3RpY2UlMjBsYXclMjB0cmlidW5hbHxlbnwxfDB8fHwxNzg3MDQ1MjM1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Gabriella Clare Marino",
+      "profileUrl": "https://unsplash.com/@gabiontheroad?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "cars parked in front of brown building",
+      "description": "The exterior of the historic building hosting the Juvenile Court in Rome, Italy"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:16.038Z",
+    "publishedAt": "2026-08-18T08:23:59.000Z"
+  },
+  {
+    "slug": "20260818-26",
+    "headline": "トマトの「ゴールデンアワー」、干ばつに強い品種育成へ道開く",
+    "lead": "イスラエル研究、朝の水吸収タイミングがトマトの干ばつ耐性を左右することを発見。",
+    "body_markdown": "ヘブライ大学の研究チームは、トマトが朝間早く水を吸収する生理的タイミングが、干ばつ耐性を決める重要要因だと発見。単なる水使用量ではなく、その使用タイミングが農業生産性の維持に決定的な影響を与えることを示唆。\n\n研究は植物科学誌に掲載。高性能品種は日中の強い日射を受ける朝間に気孔を開き、ピーク時の熱と乾燥の前に光合成を最大化する戦略を採用していた。対照的に低性能品種は気孔開口のタイミングが遅く、日中の水分損失が増大。\n\n従来の干ばつ対策研究は、葉裏の気孔密度など植物の解剖学的特性に焦点が当たっていた。本研究は「植物の日周リズムが構造特性より重要」という新知見を示した。一日を通じた水調節の動的監視が、単一時点測定より干ばつ耐性予測に優れていることが実証された。\n\n農業への応用として、同手法で干ばつ耐性品種育成の開発サイクルを短縮可能。気候変動下での食糧安全保障強化に向け、他の農作物への応用も検討されている。",
+    "tags": [
+      "農業",
+      "サイエンス",
+      "気候変動",
+      "育種",
+      "干ばつ"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-tomato-golden-hour-crops-survive.html",
+    "importance": 3,
+    "image_query": "agriculture plants farming research",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:16.044Z",
+    "publishedAt": "2026-08-18T08:50:05.000Z"
+  },
+  {
+    "slug": "20260818-27",
+    "headline": "米西部最大貯水池が記録的低水位、水危機の深刻化を直視",
+    "lead": "米国のレイク・ミード、レイク・パウエルが過去最低を更新。コロラド川流域 4000 万人が危機的。",
+    "body_markdown": "米国西部の深刻な干ばつにより、アメリカ最大級の 2 つの貯水池がいずれも記録的低水位に到達した。レイク・ミードは海抜 1039.70 フィートに、レイク・パウエルは 3519.80 フィートにそれぞれ低下。\n\nこの危機的な水位低下は、コロラド川に依存する約 4000 万人の水供給と、ホーバーダム・グレンキャニオンダムの水力発電に直結。特に水力発電は「電力生産に支障が出る閾値に危ぐ危ない状態」。\n\nトランプ政権は 7 月末、カリフォルニア、アリゾナ、ネバダ 3 州に対し、2036 年までに最大 37 億立方メートルの削減を求める水管理計画を提示。一方、コロラド州、ユタ州、ワイオミング州、ニューメキシコ州は大幅削減から除外。この不均衡な配分はアリゾナ州の法的異議申し立て準備につながっている。\n\nコロラド川流域の 7 州は独自合意に到達できず、気候変動による継続的な降水減が状況を悪化させている。水資源の再配分とインフラ革新が急務。",
+    "tags": [
+      "水資源",
+      "干ばつ",
+      "環境",
+      "米国",
+      "気候変動"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-largest-reservoirs-lows-western-drought.html",
+    "importance": 4,
+    "image_query": "water reservoir drought landscape",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1649428813922-1f81bf1226ee?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8d2F0ZXIlMjByZXNlcnZvaXIlMjBkcm91Z2h0JTIwbGFuZHNjYXBlfGVufDF8MHx8fDE3ODcwNDUyMzZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "SANDY HIBBARD",
+      "profileUrl": "https://unsplash.com/@sandyhibbard?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a body of water surrounded by mountains under a cloudy sky",
+      "description": "Low water at a reservoir that is usually ready for kayakers...  but they still showed up!"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:16.811Z",
+    "publishedAt": "2026-08-18T08:50:01.000Z"
+  },
+  {
+    "slug": "20260818-28",
+    "headline": "ハイゼンベルク予言 90 年後、量子効果の直接証拠",
+    "lead": "中性子星の磁場から「空っぽではない真空」の証拠、量子物理学の根本仮説が実証へ。",
+    "body_markdown": "スウィンバーン工科大学の研究チームは、中性子星（マグネター）1E 1547.0-5408 が放つ X 線を分析し、ハイゼンベルクが 1930 年代に予言した真空複屈折（vacuum birefringence）の兆候を検出したと報告。\n\nハイゼンベルクの理論によれば、完全な真空は本当に「空」ではなく、仮想粒子が瞬間的に出現・消滅する量子活動の場。強力な磁場はこうした仮想粒子に影響を与え、光の伝播経路を変える。\n\n研究は NASA の X 線偏光計 IXPE と豪州のパークス電波望遠鏡を使用。検出した証拠は 2 つ：①マグネターからの X 線に異常高レベルの偏光、②その偏光方向が磁場に連動する理論予測と一致するパターン。マグネター磁場は地球磁場の 1 兆倍を超え、この極限環境でのみ観測が可能。\n\nマルクス・ロウア博士は「この検出には地上で生成できる磁場の 1 億倍超の強さが必要」と述べた。今後の観測と計算シミュレーション進展により、ハイゼンベルクの 100 年前の理論が量子物理学の基盤確認へ向かっている。",
+    "tags": [
+      "物理学",
+      "量子論",
+      "宇宙",
+      "サイエンス"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/08/260815065007.htm",
+    "importance": 4,
+    "image_query": "physics quantum neutron star",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1710268470131-90841411e634?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8cGh5c2ljcyUyMHF1YW50dW0lMjBuZXV0cm9uJTIwc3RhcnxlbnwxfDB8fHwxNzg3MDQ1MjM3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "NASA Hubble Space Telescope",
+      "profileUrl": "https://unsplash.com/@hubblespacetelescope?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "an artist's impression of a black hole in space",
+      "description": "Superluminal Motion Relativistic Jet Caption This is an artist's impression of two neutron stars colliding. The smashup between two dense stellar remnants unleashes the energy of 1,000 standard stellar nova explosions. In the aftermath of the collision a blowtorch jet of radiation is ejected at nearly the speed of light. The jet is directed along a narrow beam confined by powerful magnetic fields. The roaring jet plowed into and swept up material in the surrounding interstellar medium. Credits Artwork Elizabeth Wheatley (STScI)"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:17.529Z",
+    "publishedAt": "2026-08-18T06:08:04.000Z"
+  },
+  {
+    "slug": "20260818-29",
+    "headline": "アインシュタインの「最大誤り」、現代宇宙論の中心へ",
+    "lead": "放棄された宇宙定数が 1998 年の再発見後、現代宇宙論の中心に。加速膨張する宇宙の謎。",
+    "body_markdown": "アインシュタインは 1917 年、一般相対性理論に宇宙定数（ラムダ）を導入し、重力に抗して静的宇宙を維持しようとした。エドウィン・ハッブルが宇宙膨張を発見すると、アインシュタイン自身「人生最大の誤り」と呼んだ。\n\n転機は 1998 年。2 つの天文学チームが驚愕の発見を報告：宇宙膨張は減速していない。加速していた。この観測がアインシュタインの放棄した宇宙定数を復活させた。\n\n宇宙定数は今、「暗黒エネルギー」として再命名され、LCDM 宇宙論（ラムダ・冷たい暗黒物質）の中核に。背景放射から銀河形成まで幅広い観測を説明する現代宇宙論の最強モデル。\n\nしかし論文は逆説を指摘。LCDM は「科学史上最も徹底的に研究・検証された理論」であり同時に「ほぼ確実に誤っている」可能性がある。これは暗黒エネルギーの本質と宇宙の究極的構造について、更なる深い謎が残されていることを示唆。物理学の最前線は「正しい観測に基づく、間違った理論」の矛盾に直面している。",
+    "tags": [
+      "宇宙論",
+      "物理学",
+      "サイエンス",
+      "暗黒エネルギー"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/08/260816044835.htm",
+    "importance": 4,
+    "image_query": "universe cosmos space astronomy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1487111094912-921182c44b79?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8dW5pdmVyc2UlMjBjb3Ntb3MlMjBzcGFjZSUyMGFzdHJvbm9teXxlbnwxfDB8fHwxNzg3MDQ1MjM4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Adam Birkett",
+      "profileUrl": "https://unsplash.com/@abrkett?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "dark blue skies with stars",
+      "description": "How big is the universe? How much is out there? I guess il never know for sure but it doesn’t stop me from spending my time wondering about it."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:18.241Z",
+    "publishedAt": "2026-08-18T05:58:07.000Z"
+  },
+  {
+    "slug": "20260818-30",
+    "headline": "スイス・アルプス、永凍土融解で岩盤崩壊の危機―村落避難も視野",
+    "lead": "スイス・カンダーシュテーク村上、1500～2000 万立方メートルの岩石が落下危機に。",
+    "body_markdown": "スイス・アルプスのカンダーシュテーク村を脅かす危険な岩塊「シュピッツェ・シュタイ」が、気候変動による永凍土融解で崩落のリスクを高めている。推定される岩塊の質量は 1500 万～2000 万立方メートル。\n\n気候変動が加速化する中で、永凍土が「セメント」の役割を失いつつある。気候学者マルクス・シュテッフェルによれば「氷が溶けると山斜面は不安定化する」。永凍土融解がアルプス地域全体の地盤安定性を蝕んでいる状況を象徴している。\n\n先例がある。2025 年 5 月、隣接するブラッテン村は同様の岩石・氷堆積物の崩落を経験。避難した村はその後、泥・岩片で覆われた。\n\nカンダーシュテーク（人口 1300 人）では当局が予防措置を講じている。専門家の見方では、急激な一度の崩落より段階的崩壊が想定される。監視体制と避難計画は既に策定済み。気候温暖化が続く限り、ヨーロッパの山岳地域は同様の危機に直面する。禁止的に高い防止インフラ投資なしには、一部アルプス地域が居住不可能化する可能性も指摘されている。",
+    "tags": [
+      "気候変動",
+      "環境",
+      "サイエンス",
+      "自然災害"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-looming-collapse-threatens-swiss-village.html",
+    "importance": 3,
+    "image_query": "mountain geology alpine landscape",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:18.244Z",
+    "publishedAt": "2026-08-18T08:02:39.000Z"
+  },
+  {
+    "slug": "20260818-31",
+    "headline": "ロシア経済学者が戦争の経済的代償を警告して罷免される",
+    "lead": "ロシア国営開発銀行 VEB の首席経済学者がウクライナ戦争の経済的コスト警告で更迭。",
+    "body_markdown": "ロシア国営開発銀行（VEB）の首席経済学者アンドレイ・クレパッチが、ウクライナ戦争が露国にもたらす経済的負担について公開警告した後、8 月に罷免された。\n\nクレパッチは 5 月の演説で「ロシアは米国、中国だけでなく、ウクライナにさえ競争で負けている」と述べ、戦争継続による経費増加が社会危機を引き起こすと予警。所得不平等の拡大、GDP 成長率の西側比での低下、統治品質悪化を指摘。\n\n2014 年から VEB トップ経済学者を務めたクレパッチは、ロシアの国営金融機構が公開的に戦争コストの否定的評価を示した珍しい事例。罷免後、ロイターに罷免を認めた。\n\nこの人事異動は象徴的。ロシア中央銀行も同月、経済が低迷する可能性を示唆していた。クレパッチの罷免は、政権が戦争経済への批判的見解を統制する姿勢を示唆。一方で、戦争コストについての政策立案層内での認識ズレが深刻化していることをも暗示している。",
+    "tags": [
+      "ロシア",
+      "ウクライナ戦争",
+      "経済",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/8/18/top-russian-economist-ousted-after-warning-of-growing-costs-of-ukraine-war",
+    "importance": 3,
+    "image_query": "economics finance banking institution",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:18.253Z",
+    "publishedAt": "2026-08-18T08:05:42.000Z"
+  },
+  {
+    "slug": "20260818-32",
+    "headline": "日本企業、真の AI 主権を目指す―さくら・Sakana AI が示す現実的な道",
+    "lead": "純国産 AI は現実的でない、さくらとSakana AI が戦略的依存管理による「ソブリン AI」を提唱。",
+    "body_markdown": "日本の AI 企業 2 社のリーダーが、真の AI 主権の現実的な定義を提案。さくらインターネット CEO と Sakana AI が語ったのは「純国産 AI は不可能。戦略的依存管理による独立」という発想転換。\n\n従来のソブリン AI 議論は、完全な国内自給を前提としていた。しかし両社の見方は異なる。データソブリンティ（国内保管）、運用主権（インフラ決定権）、技術主権（開発能力）、の 3 層を戦略的に分離し、どの層にどの程度の国内化が必要かを判断する。\n\nさくらの戦略：国内インフラに適した小～中規模モデルをデプロイ。重要は「データが学習に使用されるか」という制御。物理的場所より情報管理の主権が優先。\n\nSakana AI のアプローチ：優秀なオープンソースモデルを国際的に活用しつつ、学習後の微調整（ポストトレーニング）で日本的価値観・正確性を組み込み「Namazu」化。単一サービス依存の突然中断に備えるバックアップ戦略。\n\n両社とも強調するのは「ソブリンティは国籍ではなく制御」という定義。他者への依存を前提に、代替手段の確保と多層化が真の自立につながるという発想である。",
+    "tags": [
+      "AI",
+      "日本",
+      "テクノロジー",
+      "産業政策"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/18/2000000544/",
+    "importance": 3,
+    "image_query": "technology artificial intelligence computer",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:18.257Z",
+    "publishedAt": "2026-08-17T23:00:00.000Z"
+  },
+  {
+    "slug": "20260818-33",
+    "headline": "ZEALS ヒューマノイド D1、市場相場の半額 500 万円で実現へ",
+    "lead": "ZEALS が二足歩行を放棄、中国製パーツ活用で市場相場の半額を実現。",
+    "body_markdown": "ロボット企業 ZEALS が発表したコンパクトヒューマノイド「D1」は、市場相場の半額となる 1 台 500 万円の価格を掲げる。米中が開発スピードで先行する中、ZEALS が取った戦略は「設計思想の根本的転換」。\n\n従来のヒューマノイドの常識である「二足歩行」を捨て、台車構造を採用。これにより脚部の複雑な機構を排除し、開発コストを削減。同時に、手部に中国製パーツを組み込む「準国産」アプローチで、完全な純国産より現実的な価格実現を狙う。\n\nCEO 清水正大は「ユースケース先進国」を目指すと述べた。米中の「能力競争」の後塵を拝するのではなく、介護・医療・保険・商社を巻き込んだ 4 領域アライアンスを構築し、実用的な運用体制を整備。\n\n高い安全性設計と組織的導入体制を武器に、個別企業の技術競争ではなく「市場創造」を優先。AI エージェント「Omakase.ai」を搭載し、看護ケア・ホスピタリティなど人間中心タスクに特化。\n\n価格と実用性のバランスで、グローバル競争に日本発の現実的ソリューションをもたらす戦略である。",
+    "tags": [
+      "ロボット",
+      "AI",
+      "日本",
+      "テクノロジー",
+      "ビジネス"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/business/articles/2608/17/news051.html",
+    "importance": 3,
+    "image_query": "robot humanoid technology artificial",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:18.258Z",
+    "publishedAt": "2026-08-17T22:00:00.000Z"
+  },
+  {
+    "slug": "20260818-34",
+    "headline": "Cursor AI 無制限エディタが「Origin」コード内保管サービスをベータ公開",
+    "lead": "Anysphere の AI コードエディタ Cursor が GitHub と双方向同期できるコード保管「Origin」提供開始。",
+    "body_markdown": "AI コーディングツール Cursor（開発元 Anysphere）は、新たなコード保管・ホスティングサービス「Origin」のアーリーベータ提供を、有料プラン利用者向けに 8 月 17 日から開始。GitHub との双方向同期機能を備える。\n\nOrigin の主機能は、リポジトリ管理、プルリクエスト処理、コード閲覧。GitHub リポジトリをインポートして Cursor 上で管理でき、PR コメントは双方向で即座に反映。GitHub の返信や反応が Cursor 内に秒単位で更新される。\n\n外部連携として Vercel による プレビュー自動デプロイ、Depot・Buildkite による CI/CD 統合に対応。AI エージェント規模の開発環境構築を想定した設計。\n\nOrigin は 6 月に発表され、秋の本格ローンチが予定されていた。SpaceX による 8 月 14 日の Anysphere 買収直後の提供開始は、Elon Musk の AI/リモートプログラミング戦略の一環と解釈できる。Cursor は既に月 2000 万ユーザーを超え、AI ネイティブ開発環境として市場定着。GitHub 依存を緩和し、自社プラットフォーム内での統合的開発環境を実現するステップ。",
+    "tags": [
+      "AI",
+      "開発ツール",
+      "GitHub",
+      "テクノロジー"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/18/2000000575/",
+    "importance": 3,
+    "image_query": "programming code computer development",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:18.260Z",
+    "publishedAt": "2026-08-17T23:40:47.000Z"
+  },
+  {
+    "slug": "20260818-35",
+    "headline": "子ども心理療法、幼少期の批判的記憶を「上書き」して失敗恐怖を軽減",
+    "lead": "画像心理療法がカテゴリー批判に由来する失敗恐怖を改善、6ヶ月後効果が継続。",
+    "body_markdown": "ポーランド SWPS 大学の研究チームは、イメージトレーニング型心理療法が幼少期の批判的経験に由来する「失敗恐怖」を効果的に軽減できることを明らかにした。180 人の若年成人が 2 週間で 4 セッションのセラピーを受け、その後 6 ヶ月の追跡調査を実施。\n\n3 つの治療アプローチが試験されたすべてが改善をもたらした：①イメージ露出療法（IE）：不安を呼び起こす場面を想起、②イメージ・リスクリプティング（ImRs）：支持者が自分の批評家に立ち向かうシーン想像、③遅延検索イメージ・リスクリプティング（ImRs-DSR）：同アプローチに 10 分間の遅延を加え効果強化。\n\n結果は顕著。参加者は恐怖、罪悪感、悲しみの低減を報告。生理的ストレス反応も批判的経験の想起時に軽減。キー要素は「期待と現実のギャップ」が治療的変化をもたらすこと。\n\n痛みを伴う記憶は感情的に固定されていないという発見。幼少期の内面化された批判は、適切な心理的介入で可塑性を取り戻す可能性を示唆。職業選択、創造的チャレンジ、人間関係構築で失敗恐怖に縛られていた人に対する治療的希望をもたらしている。",
+    "tags": [
+      "心理学",
+      "医学",
+      "研究",
+      "サイエンス"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/08/260815064833.htm",
+    "importance": 3,
+    "image_query": "psychology therapy mental health",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:18.261Z",
+    "publishedAt": "2026-08-18T05:06:35.000Z"
+  },
+  {
+    "slug": "20260818-36",
+    "headline": "温暖化 1 度で 10 億人が 1 ヶ月の熱波危機",
+    "lead": "スタンフォード研究、高齢者は青年基準の熱耐性仮説が誤り、暖化リスク大幅低評価と判明。",
+    "body_markdown": "スタンフォード大学が牽引した国際研究チームは『ランセット・プラネタリー・ヘルス』で発表した論文で、気候変動がもたらす熱波の脅威を従来推定より大幅に上方修正。各温度上昇 1 度につき、約 10 億人が耐えがたい熱の恐怖に少なくとも 1 ヶ月間晒されると予測。\n\n従来の熱耐性基準は、若く健康な成人の生理指標（ウェットバルブ温度）に基づいていた。この手法は高齢者の脆弱性を過度に楽観視。60 歳以上の人口は発汗機能低下、心臓機能低下、既往症保有率の高さで若年層とは根本的に異なる熱耐性を持つ。\n\n同研究によれば、摂氏 1.5 度の温暖化シナリオでも、全世界の 60 歳以上の 22% が毎年少なくとも 1 ヶ月間、危険な熱に晒される。3 度の温暖化では、南アジア・湾岸地域の高齢者は「昼夜不断で 3 ヶ月間の耐えがたい熱」を経験する可能性も。\n\n最も脆弱な地域はインド、パキスタン、バングラデシュ、ミャンマー、ニジェール。貧困と冷房インフラの不足が死亡リスクを増大。研究は排出削減と屋内冷房アクセス拡大の急務を強調。気候移民圧力が国境を超える可能性も指摘。",
+    "tags": [
+      "気候変動",
+      "高齢化社会",
+      "環境",
+      "公衆衛生"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-degree-month-intolerable-billion-people.html",
+    "importance": 4,
+    "image_query": "heat wave weather climate temperature",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1545955413-209e03defb1f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxoZWF0JTIwd2F2ZSUyMHdlYXRoZXIlMjBjbGltYXRlJTIwdGVtcGVyYXR1cmV8ZW58MXwwfHx8MTc4NzA0NTIzOHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Luis Graterol",
+      "profileUrl": "https://unsplash.com/@iguanaphoto?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "sunset"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:18.918Z",
+    "publishedAt": "2026-08-18T08:16:44.000Z"
+  },
+  {
+    "slug": "20260818-37",
+    "headline": "インドネシア、人工降雨でエル・ニーニョ火災を追い詰める――限界と根本課題",
+    "lead": "インドネシアが雲の種付けで 252 回の作戦実施、El Niño 火災に対抗だが効果は限定的。",
+    "body_markdown": "インドネシアは 2021 年～ 8 月 2026 年間に 252 回の人工降雨（雲の種付け）作戦を実施。2010 年代の 10 年間は 85 回に留まったため、近年の作戦頻度が大幅増。背景には El Niño 条件下でのボルネオ島の熱帯雨林火災危機。\n\n気象学者サフィッラ・アンギー・ワフユニは人工降雨の原理を説明「気象改変は雲を生成しない。降雨をもたらす可能性を持つ雲を最適化する」。銀ヨウ化物や塩化ナトリウム粒子を雲に散布し、降水をトリガー。\n\n公式統計では 2026 年上半期で 10 万ヘクタール超が焼失。独立系監視では実焼失面積が 28 万 5000 ヘクタール超（ジャカルタ面積より大）と把握。\n\n限界も明白。ハイドロクライマトロジー講師は「乾季に雲が不足すると効果は極めて低い」と指摘。人工降雨の有効性は限定的で、環境・コスト面での懸念も。政策当局は根本解決として熱帯雨林転換や泥炭地開発の抑制を求める声もある。短期的対症療法と長期的根本対策の乖離が課題。",
+    "tags": [
+      "気象改変",
+      "環境",
+      "火災",
+      "インドネシア"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-indonesia-clouds-stem-el-nio.html",
+    "importance": 3,
+    "image_query": "weather clouds rain meteorology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:18.920Z",
+    "publishedAt": "2026-08-18T08:20:01.000Z"
+  },
+  {
+    "slug": "20260818-38",
+    "headline": "古代エジプト墓が 450 年の埋葬様式の変化を証言――死者の扱い、身分から共有へ",
+    "lead": "テーベネクロポリス岩窟墓が第 25 王朝から プトレマイオス期、埋葬儀礼の進化を記録。",
+    "body_markdown": "スペインの研究チームがルクソール対岸のテーベネクロポリスの 1 つの岩窟墓（TT209 の第 3 室）を研究。第 25 王朝（紀元前 754～656 年）から プトレマイオス時代（紀元前 305～30 年）の約 450 年間の埋葬慣行の変化を再構築。\n\n早期埋葬は高位人士を棺に納め、副葬品として豪奢な遺物を配置。「遺体は棺に収められ、埋葬網とお守りがあり、費用をかけた副葬品一式が伴われた」と研究。\n\n後期には劇的転換。ペルシャ期頃から埋葬が密集化。遺体は垂直に積み重ねられ、棺不要に。ただし丁寧なミイラ化は維持。身体配置が変化。初期の仰向け腕伸展から、腕を折り曲げた形、オシリス位置（腕を交差）へ。\n\n興味深い発見：ミイラ化した犬 1 頭が人間の遺体上に置かれていた。心理ポンプ（死後の旅の導き手）か親密な絆の象徴か、解釈は複数。\n\nハレド・カルバロ博士は「従来『無秩序』と見なされた堆積層が、再解釈によって意図的な儀礼構造を示唆する」と指摘。埋葬慣行の段階的進化は、社会経済的地位や宗教観の変化を反映。",
+    "tags": [
+      "考古学",
+      "エジプト",
+      "歴史",
+      "文化"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-ancient-egyptian-tomb-burial-trends.html",
+    "importance": 3,
+    "image_query": "ancient tomb archaeology excavation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:18.924Z",
+    "publishedAt": "2026-08-18T04:00:01.000Z"
+  },
+  {
+    "slug": "20260818-39",
+    "headline": "バーナム首相、障害者にバス 24 時間無料化――2027 年 4 月から全英展開",
+    "lead": "グレーターマンチェスター先行政策を全国化、障害者の移動アクセス革新へ。",
+    "body_markdown": "英国のアンディ・バーナム首相は 8 月 18 日、身体障害者向けの無料バスパスが 2027 年 4 月 1 日から全国に 24 時間対応となることを発表。従来は平日 9 時 30 分～23 時に制限されていた時間帯制限が廃止される。\n\nこの政策転換は、バーナムがグレーターマンチェスター市長時代に 2026 年 3 月に導入した先行実験が好評だったこと反映。地方分権とトップダウン政策の統合モデルとなる。\n\n対象は全英の身障者パス保有者（約 200 万人推定）。平日日中のみ無料という制限が撤廃され、夜間・休日の移動も可能に。仕事、教育、訓練、その他機会へのアクセス拡大を見込む。\n\n支援団体からの評価は高い。生活費圧迫下での移動自由度向上は、障害者の社会参加・雇用機会に直結。福祉政策としての実効性のみならず、労働市場参加による経済的自立促進も期待。\n\nバーナム政権は「生活費危機を緩和し、国民の懐にお金を戻す」スローガンで推進。障害者向けの大型政策転換は、社会的包摂の象徴。",
+    "tags": [
+      "社会政策",
+      "障害者支援",
+      "英国",
+      "福祉"
+    ],
+    "section": "政治",
+    "source": "GOV.UK",
+    "link": "https://www.gov.uk/government/news/free-bus-travel-247-for-disabled-people-as-prime-minister-takes-further-action-to-ease-cost-of-living",
+    "importance": 4,
+    "image_query": "public transport bus accessibility disability",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1752659554976-a1f59f1da425?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8cHVibGljJTIwdHJhbnNwb3J0JTIwYnVzJTIwYWNjZXNzaWJpbGl0eSUyMGRpc2FiaWxpdHl8ZW58MXwwfHx8MTc4NzA0NTIzOXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Bildstockru Master",
+      "profileUrl": "https://unsplash.com/@bildstockru?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A bus shows accessibility features",
+      "description": "Санкт-Петербург, трамвай, общественный транспорт, Достоевский"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:19.685Z",
+    "publishedAt": "2026-08-17T21:30:05.000Z"
+  },
+  {
+    "slug": "20260818-40",
+    "headline": "日本が子ども自殺対策で臨時相談窓口開設――夏休み明けの前後 10 日間",
+    "lead": "8 月 26 日から 10 日間、18 歳以下向けの無料相談窓口を全国開設。",
+    "body_markdown": "日本政府は、夏休み明けの前後で子どもの自殺が増える傾向を踏まえ、2026 年 8 月 26 日から 10 日間、18 歳以下を対象とした臨時の無料相談窓口を全国に開設することを決定。\n\n時期的背景：例年、新学期開始前後に思い悩む子どもからの相談・自殺が増加する傾向が観察されている。学校環境、友人関係、いじめ、家庭事情など複合的要因が重なる時期。\n\n窓口の特徴は「相談しやすさ」に重点。専門トレーニングを受けたカウンセラーが 24 時間体制で対応予定（電話・チャット両対応検討）。「話を聴く」に徹し、強制的な介入や報告は最小限。\n\nこの政策転換は、厚生労働省とメンタルヘルス関連団体の連携を反映。子ども自殺予防は急務で、休暇前後の「危機時点」での即応体制の構築が重要と認識。アクセシビリティ面でも、匿名・無料を徹底し、発信障壁を最小化。\n\n相談統計と継続支援体制の構築も重要課題。臨時窓口が常設化する可能性も検討中。",
+    "tags": [
+      "児童福祉",
+      "メンタルヘルス",
+      "日本",
+      "社会政策"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260818de44779",
+    "importance": 3,
+    "image_query": "mental health counseling support helpline",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:19.687Z",
+    "publishedAt": "2026-08-18T07:21:00.000Z"
+  },
+  {
+    "slug": "20260818-41",
+    "headline": "英国ギグワーカー 400 万人、「虚偽的自営」で基本権剥奪状態に",
+    "lead": "労働党内からも批判、偽装自営雇用で育児休暇・雇用不当解雇保護を失う労働者。",
+    "body_markdown": "英国のアンディ・バーナム首相に対し、キャンペーン団体とシンクタンク（フェービアン協会・ジョセフ・ラウントリー基金）が、400 万人のギグエコノミー労働者を搾取から保護するよう緊急要求。\n\nギグエコノミー労働者の多くが「虚偽的自営」（bogus self-employment）分類下に置かれ、法定権利を剥奪されている。対象は：育児休暇、解雇手当、不当解雇からの保護、傷病手当など。\n\n労働党が秋 2026 に予定する「雇用権利法案」でさえ、ギグワーカーへの保護を十分に盛り込んでいないと団体は指摘。代わりに政府の公正労働庁（4 月発足）に対し、虚偽的自営を行う企業への民事訴訟権の行使を要求。\n\nコンサルテーション予定で「単一労働者ステータス」改革を 2025 年末までに検討するとされているが、現行の 3 階級システム（従業員/労働者/自営）を簡略化する実現性は不透明。政府の雇用権利改革全体が、ギグエコノミー労働者の根本的保護から後退していると批判。\n\n国際労働機関（ILO）基準との乖離も指摘。労働搾取の公式的追認状態に陥りつつある英国労働市場。",
+    "tags": [
+      "労働問題",
+      "ギグエコノミー",
+      "英国",
+      "雇用権"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/aug/16/andy-burnham-gig-economy-companies-employment-rights",
+    "importance": 3,
+    "image_query": "labor employment workers rights",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-18T09:27:19.692Z",
+    "publishedAt": "2026-08-16T11:29:41.000Z"
+  },
+  {
     "slug": "20260818-01",
     "headline": "OpenAI、オハイオ州に80億ワット超のAIキャンパス——35,000の建設雇用予定",
     "lead": "OpenAI と NVIDIA が SB Energy と共同でオハイオ州ピーク郡に超大規模 AI データセンターを開発、2032年までに35,000人の建設雇用を創出する計画。",
