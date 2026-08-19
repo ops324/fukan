@@ -1,5 +1,378 @@
 [
   {
+    "slug": "20260820-01",
+    "headline": "OpenAI、プライバシー重視の新機能を発表",
+    "lead": "OpenAI、API顧客向けに「Zero Data Retention」など新機能を発表。企業データの保護が強化される。",
+    "body_markdown": "OpenAI は8月19日、フロンティアモデルに対する新しいデータ保護機能を発表しました。「Zero Data Retention（ZDR）」と呼ばれるこの機能により、適格なAPI顧客は明確な保証を得られます：OpenAI はプロンプトとモデルレスポンスをリクエスト処理後に保持しないということです。\n\n顧客コンテンツは OpenAI 職員による確認対象にならず、エンタープライズ顧客のデータは明示的な同意がない限りモデル学習に使用されません。同時に、「Private Safety Processing」という新機能もプレビュー段階で提供開始されます。この機能は複数の相互作用を横断してパターンを検出し、リスクを識別するために設計されていますが、OpenAI 職員は基礎となるコンテンツにアクセスできません。\n\nZDR 導入時、顧客コンテンツは顧客が管理するインフラ上に保存されます。また、OpenAI インフラ上にコンテンツを保存する方式も開発中で、顧客が管理する暗号化キーが使用される予定です。\n\n**なぜ重要か**：企業がAI を機密情報や本番環境に組み込む際、データプライバシーは最大の懸念事項です。OpenAI がプライバシー重視の選択肢を用意したことで、金融・医療・法務などの機密部門での AI 導入が加速するでしょう。",
+    "tags": [
+      "AI",
+      "プライバシー",
+      "OpenAI",
+      "セキュリティ"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+    "importance": 4,
+    "image_query": "privacy secure data center",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4bH42IUP1LSYL5WNIs0ya1/ed6b0e324c8f142d964229474d7ee601/codex-seo-private-intelligence-v3-1787157696296.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-19T21:16:32.105Z",
+    "publishedAt": "2026-08-19T19:00:00.000Z"
+  },
+  {
+    "slug": "20260820-02",
+    "headline": "Google Search、学習支援機能を拡張",
+    "lead": "Google は Search と Gemini に学習支援ツール5つを追加。スタディスキルを向上させる新機能。",
+    "body_markdown": "Google は8月19日、学習者向けの機能5つを Search と Gemini に追加すると発表しました。これらはスタディ習慣を改善し、理解を深めるために設計されています。\n\n新機能は、試験勉強やクラスの予習復習における具体的なニーズに対応しています。Google は、検索結果と AI 生成コンテンツを組み合わせることで、従来の教科書や参考書では得られない、対話的で個別化された学習体験を実現しようとしています。\n\n具体的な機能内容については記事の要約では限定的ですが、Google は学習者が概念をより効果的に定着させられるようなツール群を投入する方針です。この取り組みは、特に学年が上がるにつれて自習の重要性が増す環境において有用と考えられます。\n\nGoogle の教育向け AI 展開は、競合する Microsoft・Meta などとの競争も激化させています。学習支援機能の充実は、特に学生が使用するデバイス・プラットフォーム選択に影響を与えるでしょう。\n\n**なぜ重要か**：教育テクノロジーは今後も成長セクターです。Google が検索と AI の統合により教育体験を高度化させることで、他の教育プラットフォームにも波及効果をもたらし、学習支援ツールの進化が加速する見込みです。",
+    "tags": [
+      "AI",
+      "教育",
+      "Google",
+      "検索"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+    "importance": 3,
+    "image_query": "student learning study",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-19T21:16:32.108Z",
+    "publishedAt": "2026-08-19T19:00:00.000Z"
+  },
+  {
+    "slug": "20260820-03",
+    "headline": "Replit、GPT-5.6 Luna で無料プログラミング環境を実現",
+    "lead": "Replit が OpenAI の GPT-5.6 Luna を活用した無料モード「Replit Free Mode」を開始。プログラミング学習の敷居をさらに下げる。",
+    "body_markdown": "Replit と OpenAI は8月19日、ソフトウェア開発の民主化を推し進める新機能を発表しました。Replit Free Mode は GPT-5.6 Luna で駆動し、ユーザーは トークンコスト を気にせず、アイデアを動作するソフトウェアに変えられます。\n\nAI モデルの性能向上と価格低下が同時進行する中、Replit は OpenAI の価格改善を即座にユーザーに還元する戦略をとりました。これにより、プログラミング経験がない人でも、自然言語で要件を入力すれば実装コードが得られるようになります。\n\nReplit は GPT-3 の初期段階から OpenAI と協業してきた企業で、現在 GPT-5.6 シリーズの性能と経済性が「誰でもアイデアからビルドできる距離を短縮した」と評価しています。エンタープライズ向けのコードアシスタンスはすでに有料層に浸透していますが、このフリーティアの充実は、プログラミング学習市場にも大きな影響をもたらすでしょう。\n\n**なぜ重要か**：プログラミングスキルの民主化は、IT産業における人材不足と育成コストの課題を軽減する可能性があります。無料で高度な開発支援が受けられれば、個人の自己学習や非技術職からの転職も加速するでしょう。",
+    "tags": [
+      "AI",
+      "プログラミング",
+      "OpenAI",
+      "ソフトウェア開発"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/replit",
+    "importance": 4,
+    "image_query": "programming code development",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4613fXufQuf1JibaxyPveS/165050780487162a64929413fdfedd79/replit-customer-story-seo-16x9.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/replit",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-19T21:16:32.757Z",
+    "publishedAt": "2026-08-19T07:00:00.000Z"
+  },
+  {
+    "slug": "20260820-04",
+    "headline": "トカゲの産卵から胎生への進化メカニズムを解明",
+    "lead": "科学者がトカゲの産卵から胎生への進化プロセスを初めて明らかに。動物の生殖戦略の進化を理解する重要な知見。",
+    "body_markdown": "自然界最大の生殖革新の一つを研究する科学者たちが、トカゲが産卵から胎生（生きた子供を産むこと）へと進化した仕組みを初めて解明しました。この研究は、トカゲだけでなく哺乳動物を含む他の動物種がどのようにして胎生に進化したのかについても、ユニークな洞察をもたらします。\n\n生殖戦略の進化は、種の存続戦略に直結しており、単なる学術的関心にとどまりません。胎生への移行には、体温調節・栄養供給・産仔のタイミング など多くの生理的適応が必要とされます。今回の研究は、これらの複雑な変化がどのような環境圧力と遺伝的メカニズムのもとで生じたのかを明らかにしました。\n\nトカゲという比較的単純な脊椎動物でこのプロセスが追跡できることは、哺乳動物の進化研究にも応用可能です。特に、初期哺乳類が胎生を獲得した過程の理解が深まるでしょう。\n\n**なぜ重要か**：進化生物学の基本問題である「複雑な適応がどのようにして段階的に獲得されるのか」を解く手がかりになります。また、環境変化への適応能力を理解することは、気候変動時代の生物多様性保全にも役立つ知見です。",
+    "tags": [
+      "サイエンス",
+      "進化生物学",
+      "トカゲ",
+      "生殖"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-evolutionary-birth-lizards-uncovered.html",
+    "importance": 4,
+    "image_query": "lizard reptile biology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1700044136066-c50842b3b0d3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8bGl6YXJkJTIwcmVwdGlsZSUyMGJpb2xvZ3l8ZW58MXwwfHx8MTc4NzE3NDE5M3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Anthony",
+      "profileUrl": "https://unsplash.com/@inspiredimages?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a lizard's head with a blurry background",
+      "description": "A close-up portrait of a Chinese green water dragon lizard. Beautiful reptile wildlife photography. Small donations can be made on my profile page. Thanks for visiting, hope my work is useful to you : )"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-19T21:16:33.786Z",
+    "publishedAt": "2026-08-19T21:00:04.000Z"
+  },
+  {
+    "slug": "20260820-05",
+    "headline": "米国政府債務が初の40兆ドルを突破、10年で倍増",
+    "lead": "米国の政府債務が初めて40兆ドルを超えた。10年間でほぼ倍増しており、財政収支の深刻化が顕著。",
+    "body_markdown": "米国政府の総債務が初めて40兆ドルを突破しました。これは、わずか10年間で約倍増したことを意味します。財政赤字と社会保障・医療支出の増加が主因とされており、長期的な米国経済への懸念が高まっています。\n\n40兆ドルという数字は、年間 GDP（約27〜28兆ドル）を上回る規模です。つまり、米国は国家年間産出額を超える借金を抱えている状態です。この債務比率（Debt-to-GDP ratio）の上昇は、インフレ圧力・金利上昇・財政の柔軟性喪失をもたらします。\n\n特に懸念されるのは、利払い費の膨張です。利率が上昇すれば、毎年の利息支払いが急増し、社会保障や インフラ投資などの裁量的支出を圧迫します。既に利払い費は予算の中で急速に増加しており、今後の財政運営の余地が縮小していることが分かります。\n\n**なぜ重要か**：米国の財政状況は世界経済全体に波及します。米国債の価値が揺らぎ、金利が上昇すれば、他国の借入コストも上がり、グローバルな金融引き締めにつながります。また、米国の政治的分裂が増す中、与野党の合意形成による財政改革は難しく、状況がさらに深刻化する可能性があります。",
+    "tags": [
+      "経済・マネー",
+      "米国",
+      "財政危機",
+      "政府債務"
+    ],
+    "section": "経済・マネー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/19/us-government-debt-passes-40-trillion-mark-for-the-first-time.html",
+    "importance": 5,
+    "image_query": "stock market economy finance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1734503937317-3b88a42ac50c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8c3RvY2slMjBtYXJrZXQlMjBlY29ub215JTIwZmluYW5jZXxlbnwxfDB8fHwxNzg3MTc0MTk0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jakub Żerdzicki",
+      "profileUrl": "https://unsplash.com/@jakubzerdzicki?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A tablet displaying a rising stock market graph on a desk with a keyboard",
+      "description": "tablet display stock cryptocurrency exchange market"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-19T21:16:34.569Z",
+    "publishedAt": "2026-08-19T20:57:51.000Z"
+  },
+  {
+    "slug": "20260820-06",
+    "headline": "ウクライナ前国防相が大統領選挙実施を要求",
+    "lead": "国民から高く評価されていたフェドロフ前国防相がビデオ演説で大統領選挙の実施を要求。戦争継続下での民主的正統性が焦点に。",
+    "body_markdown": "ウクライナでロシアの軍事侵攻が継続する中、事実上解任されたフェドロフ前国防相がビデオ演説で大統領選挙の実施を求めました。ゼレンスキー大統領は戦時下の選挙実施を見送ってきており、この要求は政治的な緊張を高めています。\n\nフェドロフ氏は国民の間で評価が高く、特に防衛戦略の立案と実行において信頼を集めていました。その離職と今回の公式要求は、ウクライナ指導部内における方針の相違が深刻化していることを示唆しています。戦争遂行能力と民主的正統性のバランスをどうとるのかは、今後のウクライナ政治の重要課題です。\n\n民主主義国家として、戦時中であっても定期的な選挙を通じた権力の民意の確認は理想ですが、同時に戦争遂行に必要な指導部の安定性も求められます。このジレンマは、他の戦時下の民主主義国家でも繰り返し問われてきた問題です。\n\n**なぜ重要か**：ウクライナの勝敗と長期的な復興は、国家の統一性と民主的正統性によって左右されます。現在の政治的分裂が深まれば、国際支援の結束にも影響を与える可能性があります。また、戦時下の民主主義の課題は、今後の国際秩序形成において参考になる事例となるでしょう。",
+    "tags": [
+      "国際・地政学",
+      "ウクライナ",
+      "民主主義",
+      "ロシア"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260820de45192",
+    "importance": 5,
+    "image_query": "ukraine military conflict",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1771340591847-5e9283a57432?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8dWtyYWluZSUyMG1pbGl0YXJ5JTIwY29uZmxpY3R8ZW58MXwwfHx8MTc4NzE3NDE5NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Olek Buzunov",
+      "profileUrl": "https://unsplash.com/@olek_bznv_photo?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Woman in embroidered dress with sunflowers, man in military uniform",
+      "description": "A Ukrainian rally unfolds in downtown Manhattan, where community members, NYC officials, and uniformed police gather in solidarity. A woman draped in a blue and yellow flag stands solemnly among the crowd, while a young attendee holds a folded Ukrainian flag during a formal civic ceremony. The event reflects unity, patriotism, and public support for Ukraine in the heart of New York City. Captured by Olek Buzunov @buzunov.photoart, documenting moments of resilience and civic engagement."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-19T21:16:35.159Z",
+    "publishedAt": "2026-08-19T20:47:09.000Z"
+  },
+  {
+    "slug": "20260820-07",
+    "headline": "Meta 内部告発者、ザッカーバーグのチャイルドセーフティ関連発言を証言",
+    "lead": "訴訟に参加した Meta 内部告発者がザッカーバーグが児童安全に対する懸念を「嘘をついた」と証言。規制当局の追及が続く。",
+    "body_markdown": "Meta とザッカーバーグに対する歴史的な訴訟において、同社の内部告発者がザッカーバーグが児童安全に対する懸念を誠実でなかったと証言しました。この証言は、プラットフォームの児童保護責任についての議論を一層激化させています。\n\n規制当局と擁護団体は長年、Meta（Facebook、Instagram）が児童ユーザーのメンタルヘルスと安全性リスクを過小評価してきたと主張してきました。内部告発者の証言は、会社指導部がこれらのリスクを認識しながら対応を後回しにした可能性を示唆しています。\n\n児童オンライン安全法制（特に米国の COPPA など）では、プラットフォーム企業に児童ユーザーの保護義務があります。Meta は既に多額の和解金を支払ってきましたが、現在の訴訟はさらに根本的な責任を問うものとなっています。\n\n**なぜ重要か**：大手テック企業の責任と規制の枠組みが問われています。この訴訟の結果は、全デジタルプラットフォーム企業の児童保護ポリシーに影響を与え、業界全体のコンプライアンス基準を引き上げる可能性があります。また、規制当局の執行力の強さを示す判断例となるでしょう。",
+    "tags": [
+      "ビジネス",
+      "Meta",
+      "児童安全",
+      "規制"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/technology/2026/aug/22/zuckerberg-lied-about-concern-for-child-safety-meta-whistleblower-testifies",
+    "importance": 4,
+    "image_query": "social media children safety",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1663836657800-39ab390d80b9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxzb2NpYWwlMjBtZWRpYSUyMGNoaWxkcmVuJTIwc2FmZXR5fGVufDF8MHx8fDE3ODcxNzQxOTZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Shutter Speed",
+      "profileUrl": "https://unsplash.com/@shutter_speed_?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A grid of colorful three-dimensional social media icons on a white dotted background"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-19T21:16:35.922Z",
+    "publishedAt": "2026-08-19T20:15:00.000Z"
+  },
+  {
+    "slug": "20260820-08",
+    "headline": "Google Gemini、学生向けハブ機能を追加",
+    "lead": "Google は Gemini AI に学生向けの専用ハブを追加。スタディリソース へのアクセスを一元化。",
+    "body_markdown": "Google は Gemini AI アシスタントに学生向けの専用ハブ機能を追加しました。このハブは、課題サポート・概念説明・試験対策など、学生のニーズに特化したリソースと機能を一元管理します。\n\nGemini のハブ機能により、学生は単一のインターフェースから、数学問題の解法過程・歴史的事象の説明・エッセイのアウトラインなど、多様な学習支援を受けられます。Google は、このアプローチによって学習効率が向上し、学生の自信につながると考えています。\n\n教育分野への AI 導入は、特にパーソナライズされた学習が可能になることが利点です。Gemini の学生向けハブは、個々の学習スタイルと進度に合わせた支援を提供することを目指しており、従来のワンサイズフィッツオール型の教育リソースとは異なるアプローチです。\n\n**なぜ重要か**：教育テクノロジーの進化が、特に学習格差の縮小に有効か否かが試される局面です。Google の投資により、高度な学習支援が広く利用可能になれば、教育機会の民主化が進む一方で、デジタルディバイド（アクセスできない層の出現）への対策も求められます。",
+    "tags": [
+      "AI",
+      "教育",
+      "Google",
+      "学生"
+    ],
+    "section": "AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/2026/8/19/google-gemini-student-hub",
+    "importance": 3,
+    "image_query": "student learning ai education",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-19T21:16:35.924Z",
+    "publishedAt": "2026-08-19T18:30:00.000Z"
+  },
+  {
+    "slug": "20260820-09",
+    "headline": "量子コンピューティング研究が「ネガティビティ」の秘密を発見",
+    "lead": "量子コンピューティング研究者が、計算能力の鍵となる「ネガティビティ」という性質の役割を解明。理論と実装のギャップを埋める可能性。",
+    "body_markdown": "量子コンピューティング分野の研究者たちが、量子計算における「ネガティビティ」と呼ばれる性質が、古典コンピュータを超える計算能力の秘密であることを示唆する成果を発表しました。この発見は、量子優位性の理論的基盤を強化します。\n\n量子コンピューティングは、スーパーポジション（重ね合わせ）とエンタングルメント（量子もつれ）を利用して計算を高速化します。しかし、これらの性質がどのメカニズムで古典的手法を上回る計算速度をもたらすのかについては、理論的な解明が進んでいませんでした。「ネガティビティ」という量子状態の性質が、その鍵であることが今回明らかになりました。\n\nこの理解が深まることで、量子アルゴリズムの設計・ハードウェアの最適化・エラー補正戦略がより効果的になる可能性があります。また、どの問題が本当に量子コンピュータで加速可能なのかを予測する手段も得られるでしょう。\n\n**なぜ重要か**：量子コンピューティングはいまだに実用化の初期段階にあり、理論と実装のギャップは大きいです。この研究により、量子チップ設計・ソフトウェア最適化・応用領域の絞り込みが科学的根拠のもとで進む可能性があります。",
+    "tags": [
+      "サイエンス",
+      "量子コンピューティング",
+      "物理学",
+      "テクノロジー"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-magic-secret-quantum-computing-negativity.html",
+    "importance": 4,
+    "image_query": "quantum computer technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1752451399417-eb6e072269bb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxxdWFudHVtJTIwY29tcHV0ZXIlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3ODcxNzQxOTZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Logan Voss",
+      "profileUrl": "https://unsplash.com/@loganvoss?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A luminous, spiraling design against black",
+      "description": "Quantum Intelligence | Blender 3D"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-19T21:16:36.625Z",
+    "publishedAt": "2026-08-19T15:20:00.000Z"
+  },
+  {
+    "slug": "20260820-10",
+    "headline": "Moderna・Merck の癌ワクチン、後期臨床試験で有望な結果",
+    "lead": "Moderna と Merck が開発した mRNA 癌ワクチンが後期臨床試験で好成績。両社株は急上昇。",
+    "body_markdown": "Moderna と Merck は、共同開発した mRNA 癌ワクチン（personalized neoantigen therapy）の後期臨床試験（フェーズ3）で良好な結果を報告しました。このワクチンは、患者個別のがん変異に対応する個別化治療として設計されており、従来の抗がん剤では困難だった多くのがん種への効果が期待されています。\n\n臨床試験の詳細結果は医学雑誌で発表される予定ですが、市場の反応は即座でした。Moderna とMerck の株価は大幅に上昇し、投資家は mRNA 技術ががん治療領域でも有用であることの証拠と評価しました。\n\nこの成功は、COVID-19 パンデミック後の mRNA プラットフォーム技術の医学的応用の拡大を象徴しています。インフルエンザ・RSV などの感染症だけでなく、がん免疫療法の領域でも mRNA 技術が有効であることが臨床的に示されました。\n\n**なぜ重要か**：個別化ワクチンによるがん治療は、従来の一括的な抗がん剤より副作用が少なく効果が高い可能性があります。この技術が実用化・保険適用されれば、がん患者の生存率向上と QOL 改善に直結します。また、Moderna・Merck の成功は、日本を含む他国の製薬企業の mRNA 研究開発を加速させるでしょう。",
+    "tags": [
+      "ビジネス",
+      "医療",
+      "ワクチン",
+      "mRNA"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/19/cancer-vaccine-moderna-merck-late-stage-trial.html",
+    "importance": 4,
+    "image_query": "medical vaccine cancer research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1612277795511-39caabca8185?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMXx8bWVkaWNhbCUyMHZhY2NpbmUlMjBjYW5jZXIlMjByZXNlYXJjaHxlbnwxfDB8fHwxNzg3MTc0MTk3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "CDC",
+      "profileUrl": "https://unsplash.com/@cdc?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "woman in blue button up shirt holding orange fruit",
+      "description": "In this 2020 photograph, captured inside a clinical setting, a health care provider and patient, consult on influenza vaccine options. The best way to prevent seasonal flu illness is to get vaccinated every year. Centers for Disease Control and Prevention (CDC) recommends everyone 6-months of age and older get a flu vaccine every season. There are many vaccine options to choose from, but the most important thing, is for all people 6-months and older, get an influenza vaccine every year."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-19T21:16:37.280Z",
+    "publishedAt": "2026-08-19T14:45:00.000Z"
+  },
+  {
+    "slug": "20260820-11",
+    "headline": "英国インフレ率2.9%に上昇、イラン情勢が要因",
+    "lead": "英国のインフレ率が4ヶ月ぶりの高水準である2.9%に上昇。中東緊張がエネルギー価格を押し上げ。",
+    "body_markdown": "英国の消費者物価指数（CPI）が 2.9% に上昇しました。これは過去4ヶ月間で最も高い水準であり、金融政策への影響が懸念されています。上昇の主要因は、中東地政学的緊張（特にイランに関連する要因）に伴うエネルギー価格の急騰です。\n\n石油・天然ガス価格の上昇は、直接的に家計の光熱費負担を増加させるだけでなく、輸送・製造・流通コストの上昇を通じて、広範な商品価格に波及します。既に英国の家計は賃金伸び率の低迷でインフレに追いつけず、実質購買力が低下しています。\n\n英国中央銀行（イングランド銀行）は金利を段階的に引き下げてきましたが、このインフレの再加速は、利下げペースの減速や据え置きの可能性を示唆しています。同時に、低所得層への生活保障政策も急務となっています。\n\n**なぜ重要か**：英国経済は既に低成長と高インフレの「スタグフレーション」傾向を見せており、政策当局のジレンマが深刻化しています。エネルギー価格は地政学リスクに左右され、コントロール不可能な要因です。このような状況では、家計支援・産業政策・エネルギー多角化が同時進行で求められます。",
+    "tags": [
+      "経済・マネー",
+      "インフレ",
+      "英国",
+      "エネルギー"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/aug/19/uk-inflation-rises-energy-iran",
+    "importance": 4,
+    "image_query": "energy bills inflation economic",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1663609476830-8c247515c1db?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxlbmVyZ3klMjBiaWxscyUyMGluZmxhdGlvbiUyMGVjb25vbWljfGVufDF8MHx8fDE3ODcxNzQxOTh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Arthur Lambillotte",
+      "profileUrl": "https://unsplash.com/@artlambi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "text"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-19T21:16:38.244Z",
+    "publishedAt": "2026-08-19T10:20:00.000Z"
+  },
+  {
+    "slug": "20260820-12",
+    "headline": "アフリカ、気候変動への対抗戦略を加速",
+    "lead": "アフリカ各国が極端な気象現象への対応策を強化。適応・災害対策・グリーンエネルギーへの転換が進行中。",
+    "body_markdown": "アフリカ大陸は干ばつ・豪雨・気温上昇など、気候変動の最前線にあります。各国政府と国際機関は、これらの脅威に対抗するための多層的な戦略を展開しています。農業・水資源・エネルギーセクターにおける急速な転換が見られます。\n\n農業生産性の維持は、アフリカの食糧安全保障と経済成長の鍵です。干ばつ耐性作物の開発・灌漑インフラの改善・気象予報技術の導入により、農民は気候リスクに対応しやすくなっています。同時に、再生可能エネルギー（特に太陽光・風力）へのシフトが、エネルギー供給の安定化とコスト削減をもたらしています。\n\n国際的な気候資金とパートナーシップも重要な役割を果たしています。アフリカ開発銀行・世界銀行・国連 UNEP は、各国の適応計画策定と資金供給を支援しています。ただし、必要な投資額に比べて実際の資金は依然として不足しており、民間セクターの参加拡大が急務です。\n\n**なぜ重要か**：アフリカの気候対応は、グローバル な経済・食糧・難民問題に波及します。アフリカが気候ショックに適応できなければ、農業崩壊・大規模移民・地政学的不安定化のリスクが高まります。逆に、アフリカの適応成功は、再生可能エネルギー・スマート農業技術の世界的展開を加速させるモデルケースになるでしょう。",
+    "tags": [
+      "国際・地政学",
+      "気候変動",
+      "アフリカ",
+      "環境"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/08/19/africa-climate-change-strategy",
+    "importance": 4,
+    "image_query": "climate change weather africa",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1734470919440-2a04e887880c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxjbGltYXRlJTIwY2hhbmdlJTIwd2VhdGhlciUyMGFmcmljYXxlbnwxfDB8fHwxNzg3MTc0MTk4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mohamed Fsili",
+      "profileUrl": "https://unsplash.com/@mfsili?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A man walking through a field with palm trees in the background",
+      "description": "A person wearing traditional Djerbian attire walking through the fog among palm trees in a natural landscape in Djerba, Tunisia."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-19T21:16:38.855Z",
+    "publishedAt": "2026-08-19T12:00:00.000Z"
+  },
+  {
+    "slug": "20260820-13",
+    "headline": "Stripe、OpenRouter を買収して AI 決済統合を強化",
+    "lead": "決済大手 Stripe が AI インフラ企業 OpenRouter を買収。AI 企業向けの決済・コスト管理サービスを統合。",
+    "body_markdown": "決済プラットフォーム大手の Stripe は、AI インフラレイヤー企業の OpenRouter を買収することを発表しました。この買収により、Stripe は AI スタートアップ・企業向けのより統合的なソリューション提供が可能になります。\n\nOpenRouter は、複数の LLM プロバイダ（OpenAI・Anthropic・Google など）への一元的なアクセスと、API コスト管理・レート最適化を提供するプラットフォームです。一方 Stripe は、課金・請求・サブスクリプション管理のデファクトスタンダードです。両者の統合により、AI 企業は単一プラットフォームで「モデル選択」から「顧客請求」まで完結できるようになります。\n\nこの買収は、Stripe が単なる決済ゲートウェイから、AI 企業向けのエンドツーエンドビジネスプラットフォームへシフトしていることを示します。AI 企業の成長に伴い、複雑な決済・コスト管理・顧客アナリティクスの需要が急速に高まっており、Stripe はそのニッチを狙っています。\n\n**なぜ重要か**：AI 企業の資本効率性が業界の競争力を左右する時代に、Stripe のような統合型ソリューションの出現は産業構造を変える可能性があります。また、Stripe の AI ビジネス部門強化により、決済インフラ大手が AI エコシステムの中核プレイヤーとしての地位を確立します。",
+    "tags": [
+      "ビジネス",
+      "AI",
+      "決済",
+      "スタートアップ"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/19/stripe-openrouter-acquisition",
+    "importance": 4,
+    "image_query": "payment technology business finance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxwYXltZW50JTIwdGVjaG5vbG9neSUyMGJ1c2luZXNzJTIwZmluYW5jZXxlbnwxfDB8fHwxNzg3MTc0MTk5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jonas Leupe",
+      "profileUrl": "https://unsplash.com/@jonasleupe?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "woman holding Android smartphone",
+      "description": "Mobile Payment using Payment Terminal. Picture taken by Jonas Leupe (www.brandstof.cc) for In The Pocket (www.inthepocket.com)"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-19T21:16:39.663Z",
+    "publishedAt": "2026-08-19T09:15:00.000Z"
+  },
+  {
+    "slug": "20260820-14",
+    "headline": "OpenAI CFO、2027年以降の上場を示唆",
+    "lead": "OpenAI の CFO フライア氏が従業員に対し、同社が 2027年以降に公開企業化される可能性があると述べた。既に評価額は$80B超。",
+    "body_markdown": "OpenAI の CFO Sami Friar は、従業員向けのコミュニケーションにおいて、同社が「2027年以降に上場企業になるだろう」という見通しを示しました。これは、年内または年明けの IPO という市場予測とは異なり、実装のタイムラインをより現実的に評価する発言として注目されています。\n\nOpenAI は現在、プライベート市場での評価額が $80B を超え、一部では $100B に近づいていると言われています。ただし、急速な成長に伴い、ガバナンス・規制対応・監査準備など上場に向けた体制整備が複雑化しています。特に生成 AI に対する規制環境の不確実性が、上場タイミングの決定に影響を与えていると考えられます。\n\nIPO が 2027年以降となれば、OpenAI は未公開企業のまま数年間、さらに競争激化と技術革新を経験することになります。その間に営利化戦略・コスト構造・競争力の実証が進み、上場時の評価妥当性判定がより厳格になるでしょう。\n\n**なぜ重要か**：OpenAI の上場は、AI 業界の成熟度を示す象徴的なイベントです。上場延期は、現在の AI 産業が依然として評価・規制・技術面での不確実性が高いことを意味します。一方で、OpenAI が株式市場での資金調達を急がないことは、既存投資家からの資本調達に困っていないことも示唆しており、業界のパワーバランスを反映しています。",
+    "tags": [
+      "ビジネス",
+      "OpenAI",
+      "IPO",
+      "AI業界"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/19/openai-ipo-2027-cfo-friar.html",
+    "importance": 5,
+    "image_query": "stock market business investment",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1745270917449-c2e2c5806586?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8c3RvY2slMjBtYXJrZXQlMjBidXNpbmVzcyUyMGludmVzdG1lbnR8ZW58MXwwfHx8MTc4NzE3NDIwMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Arturo Añez",
+      "profileUrl": "https://unsplash.com/@americanaez225?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Stock market chart showing upward trend"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-19T21:16:40.523Z",
+    "publishedAt": "2026-08-19T08:30:00.000Z"
+  },
+  {
     "slug": "20260819-18",
     "headline": "OpenAI、欧州31ヵ国でChatGPT広告配信を開始",
     "lead": "OpenAI が米国での広告テスト成功を受け、ドイツ、フランス、スペイン、イタリアなど欧州31ヵ国で ChatGPT Ads を展開すると発表した。",
