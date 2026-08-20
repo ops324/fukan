@@ -1,5 +1,525 @@
 [
   {
+    "slug": "20260820-15",
+    "headline": "Sentence Transformers がトークンレベルの検索を実現",
+    "lead": "Hugging Face の新バージョン v6 では、テキスト全体を1ベクトルに圧縮せず、トークンごとの埋め込みで粒度を保つ MultiVectorEncoder が搭載される。",
+    "body_markdown": "検索エンジンの精度が大きく上がりそうだ。テキスト全体を1つのベクトルに圧縮する従来の密埋め込み手法では、クエリの複数の要件が混在するとき、または視覚的なドキュメント（写真）では精度が落ちていた。新手法「MultiVectorEncoder」は「トークンごとに1つのベクトル」を保持し、MaxSim 演算子で各クエリトークンが document トークンのいずれかと示す最大類似度を集計する——「live」と「inhabit」の意味的な近さ（0.94）を数値で捉え、字面の一致に頼らないマッチングが可能になった。\n\nインデックスサイズは約42倍になるという代価はあるが、NanoBEIR ベンチマークでは 13 データセット中 9 で密モデルを上回り、特に視覚ドキュメント検索（OCR なしで画像ページを扱う）では最先端。Qdrant、Weaviate、Vespa などのベクトル DB に対応し、テキスト・画像・動画・音声を統一 API で扱える。テキスト検索の新たな標準になる可能性がある。",
+    "tags": [
+      "検索エンジン",
+      "埋め込みモデル",
+      "機械学習"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/multi-vector-encoder",
+    "importance": 4,
+    "image_query": "neural network abstract data",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://huggingface.co/blog/assets/multi-vector-encoder/st-hf-lighton-thumbnail.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/multi-vector-encoder",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:14.326Z",
+    "publishedAt": "2026-08-18T00:00:00.000Z"
+  },
+  {
+    "slug": "20260820-16",
+    "headline": "Liquid AI、量子化で小型 LLM の精度回復率 97% 達成",
+    "lead": "4ビット圧縮時に失われる精度の 97% を蒸留で取り戻す QAD 技術で、MacBook・Raspberry Pi でも高精度推論が可能に。",
+    "body_markdown": "小型 LLM のデバイス展開がいよいよ実用段階だ。従来、モデルを 4 ビットに圧縮すると精度が大きく低下し、テキスト生成の質が劣化していた。Liquid AI の Quantization-Aware Distillation（QAD）は、高精度の教師モデルから量子化生徒モデルへの知識蒸留により、失った精度の 97% を復帰させた。\n\nリリースされたモデルは LFM2.5-230M から LFM2.5-2.6B までの 4 種。推論タスク・指示追従・ツール利用で標準量子化を大幅に上回り、より高精度な変種と同等以上のスループットを維持。MacBook Pro、NucBox、Samsung Galaxy S26 Ultra、Raspberry Pi 5 で実測したところ、従来の量子化法より 3～33% 高い復号スループットを達成した。Hugging Face で公開済みで llama.cpp との互換性もあり、エッジ環境での推論障壁が一気に下がった。",
+    "tags": [
+      "量子化",
+      "小型モデル",
+      "エッジコンピューティング"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/LiquidAI/qad",
+    "importance": 4,
+    "image_query": "computer chip processor board",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/PYy1cufo9frwFjiHZLq2S.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/LiquidAI/qad",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:14.576Z",
+    "publishedAt": "2026-08-19T13:48:49.000Z"
+  },
+  {
+    "slug": "20260820-17",
+    "headline": "日本精工とロボットスタートアップ Atom が連携、国産人型ロボ開発へ",
+    "lead": "精密部品メーカー NSK がスタートアップ Atom の人型ロボット開発を支援。アクチュエーター開発と Physical AI 学習データの取得で国産化を推進する。",
+    "body_markdown": "日本のロボット産業に新しい連携モデルが生まれた。NSK（日本精工）とロボット AI スタートアップ Atom が戦略的パートナーシップの基本合意書を 8 月 20 日に締結した。\n\nAtom は東京拠点の スタートアップで 2025 年 11 月創業。自動運転企業 Turing の共同創業者・青木俊介氏が代表で、Physical AI と人型ロボット開発に注力している。NSK が何を提供するのか。精密駆動装置（アクチュエータ）の開発と検証だ。同時に Atom がロボットを NSK の製造施設に持ち込み、実場景での Physical AI 学習データを集める——つまり「AI と精密機械工学の融合」で国産ロボット産業の内製化を狙ったもの。NSK 会長・市井昭俊氏は「精密部品供給は我が社の使命」とコメント。",
+    "tags": [
+      "ロボット",
+      "人工知能",
+      "日本の産業"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/20/2000000655/",
+    "importance": 4,
+    "image_query": "robotic arm manufacturing factory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1531837404483-bdbd0d209ec1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxyb2JvdGljJTIwYXJtJTIwbWFudWZhY3R1cmluZyUyMGZhY3Rvcnl8ZW58MXwwfHx8MTc4NzIxNzk3NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Franck V.",
+      "profileUrl": "https://unsplash.com/@possessedphotography?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "gray metal machine stand"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:15.375Z",
+    "publishedAt": "2026-08-20T07:47:56.000Z"
+  },
+  {
+    "slug": "20260820-18",
+    "headline": "中国 Unitree CEO、ロボットの「ChatGPT モーメント」は 2～5 年で到来と予想",
+    "lead": "人型ロボット企業 Unitree の CEO が、不慣れな環境での自律タスク遂行が可能になる転換点が近いと述べた。",
+    "body_markdown": "ロボット業界が大きな転換点を迎えそうだ。中国の人型ロボットメーカー Unitree の CEO・王興新氏は、北京で開かれた世界ロボット大会でロボットの脳が「LLM がもたらした ChatGPT のような転換点」に向かっていると述べた。\n\n同氏によると、ロボットが不慣れな環境で音声やテキストの指示だけでタスクを遂行する能力が、楽観シナリオで 2～3 年以内、遅くても 5～10 年以内に実現される可能性があるという。見知らぬ家庭でロボットが音声指示の約 80% を成功できるようになると期待——LLM が自然言語を劇的に改善したように、Physical AI がロボットの脳を変える瞬間が「業界で間近に迫っている」と指摘した。政策支援と投資マネーが集中する中国で、このような見通しが出てくることの意味は大きい。",
+    "tags": [
+      "ロボット",
+      "人工知能",
+      "Business"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/20/2000000656/",
+    "importance": 4,
+    "image_query": "humanoid robot artificial intelligence",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1786539861480-de22c575043c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8aHVtYW5vaWQlMjByb2JvdCUyMGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2V8ZW58MXwwfHx8MTc4NzIxNzk3NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Enchanted Tools",
+      "profileUrl": "https://unsplash.com/@enchantedtools?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "An orange humanoid robot with a digital cat face and pointed ears",
+      "description": "Meet the Mirokaï: humanoid robots designed to assist, engage, and inspire. Blending utility with wonder, they bring AI to life through seamless interactions, making everyday moments more magical and meaningful."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:16.072Z",
+    "publishedAt": "2026-08-20T08:08:10.000Z"
+  },
+  {
+    "slug": "20260820-19",
+    "headline": "日本の従業員、AI で生産性向上を実感する割合は 57%——世界平均 81% に大きく遅れ",
+    "lead": "アクセンチュアの調査で、AI 導入効果を実感する日本の従業員が世界平均より 24 ポイント低い。組織としての AI 定着が課題。",
+    "body_markdown": "日本企業の AI 導入は数字では進んでいるが、実感が伴わない。アクセンチュアが 20 カ国・19 業種で実施した調査で、AI による生産性向上を実感する日本の従業員は 57%。これに対し世界平均は 81%——実に 24 ポイントの差が開いている。\n\nより詳しく見ると、仕事の満足度が「向上した」という回答は日本 48% に対し世界 71%。日本の従業員の 50% が「AI スキル習得は自力」と答えており、組織的サポートの不足がうかがえる。経営層の「成果実現」もまちまちだ。「持続的な成果を既に実現できている」という日本の経営層は 13%（世界平均 23%）。投資姿勢は堅調で「今後 12 カ月で AI 投資を拡大」と答えた日本の経営層は 78%（世界平均 82%）だが、導入と成果の間に大きなギャップがある。",
+    "tags": [
+      "AI導入",
+      "生産性",
+      "日本経済"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/20/2000000641/",
+    "importance": 4,
+    "image_query": "workplace productivity office",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1718220268527-4477fd170775?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx3b3JrcGxhY2UlMjBwcm9kdWN0aXZpdHklMjBvZmZpY2V8ZW58MXwwfHx8MTc4NzIxNzk3Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Bernd 📷 Dittrich",
+      "profileUrl": "https://unsplash.com/@hdbernd?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a room with a table, chairs, and potted trees",
+      "description": "The image shows a modern office lobby or waiting area with a contemporary design. The space features large floor-to-ceiling windows that allow natural light to flood the area, creating a bright and airy atmosphere. The seating arrangement includes round tables surrounded by green chairs, and stylish planters with lush indoor plants. The planters have unique, ribbed designs that add an architectural element to the space. The decor is minimalistic, with a focus on functionality and comfort. The office lobby provides a welcoming environment, combining modern aesthetics with natural elements."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:16.697Z",
+    "publishedAt": "2026-08-20T03:09:23.000Z"
+  },
+  {
+    "slug": "20260820-20",
+    "headline": "エイベックス松浦会長、note の連載をほぼ AI で作成——60 年分のデータ学習",
+    "lead": "音楽レーベル会長がほぼ全自動 AI 執筆による連載を公開。「入力はパスワードだけ」と実証。",
+    "body_markdown": "業界の長老が AI 生成の「実証」を自ら行った。エイベックスの松浦勝人会長が note に投稿した連載「松浦勝人の人生哲学」が、ほぼ 90～95% AI で生成されていたことを自身の X で明かした。\n\n8 月 13 日から投稿を開始した連載は、松浦氏が行ったのは「パスワード入力くらい」。AI が独立してアカウント生成、記事作成、自動投稿を実行し、8 月 20 日までに 4 本が公開されて 5 万「いいね」を超えた。松浦氏は「60 年分のデータを入力した」ことで、出力は「本当にあった話」だと強調——つまり、自分の人生経験を大規模に AI に学習させ、その記憶から記事を自動生成させたという実験。音楽業界の有力者による AI 活用の具体例として注目される。",
+    "tags": [
+      "AI執筆",
+      "自動化",
+      "コンテンツ生成"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/20/2000000644/",
+    "importance": 3,
+    "image_query": "writing computer keyboard digital content",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:16.697Z",
+    "publishedAt": "2026-08-20T04:28:40.000Z"
+  },
+  {
+    "slug": "20260820-21",
+    "headline": "Stripe が AI モデル・ゲートウェイ OpenRouter を 75 億ドルで買収",
+    "lead": "決済インフラ企業が 400+ の AI モデルを管理するプラットフォームを買収。モデル選択の中立性を保証。",
+    "body_markdown": "決済企業が AI インフラの統括権を握った。Stripe が AI モデル・ゲートウェイの OpenRouter を 75 億ドルで買収することで合意した。\n\nOpenRouter は「モデルの中立的なマーケットプレイス」として機能する。80+ のプロバイダーから 400 超のモデルを単一 API で選択・切り替え可能で、日次 10 兆トークン処理、1000 万+ のデベロッパー/企業が利用している。買収後も「ミッション・名前・ロードマップは変わらず、ルーティング判定は特定モデル・プロバイダ・親会社に影響されない」と中立性を宣言。Stripe CEO・パトリック・コリソン氏は「トークンは AI 企業の基軸通貨」と位置づけ、インフラ強化を加速する戦略だ。",
+    "tags": [
+      "買収",
+      "AI基盤",
+      "インフラ"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/article/2608/20/2000000639/",
+    "importance": 4,
+    "image_query": "cloud computing infrastructure network",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1667372283536-a832e74401c2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxjbG91ZCUyMGNvbXB1dGluZyUyMGluZnJhc3RydWN0dXJlJTIwbmV0d29ya3xlbnwxfDB8fHwxNzg3MjE3OTc3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Growtika",
+      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a blue and white logo"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:17.350Z",
+    "publishedAt": "2026-08-20T01:43:52.000Z"
+  },
+  {
+    "slug": "20260820-22",
+    "headline": "NASA、Swift 宇宙望遠鏡の救出ミッションを中止——10 月に大気再突入へ",
+    "lead": "22 年間ガンマ線観測を続けた Swift が、制御不能な救出機の問題で救済されず、秋の再突入が予定される。",
+    "body_markdown": "宇宙の名物観測機が幕を閉じる。NASA は 22 年間にわたりガンマ線バーストと恒星爆発を観測してきた Swift Space Observatory の救出ミッションを 8 月 20 日に中止すると発表した。\n\nSwift は 2004 年打ち上げで、現在高度 214 マイル（345 km）まで降下。太陽活動の活発化による大気抵抗で予想より速く低下している。Katalyst Space が手がけた救出機 Link がスピン・回転に見舞われ、制御復帰できず。NASA は救出試行に 3000 万ドルを投じたが——「望まなかった結果だが、この試みの価値に変わりはない」（NASA 長官イサックマン）。Swift は 10 月 2026 年以降に大気再突入・焼却予定。一方、Link は今後も近傍で作戦運用能力の実証を継続する。",
+    "tags": [
+      "宇宙望遠鏡",
+      "NASA",
+      "観測機器"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-mission-nasa-aging-swift-space.html",
+    "importance": 4,
+    "image_query": "space telescope satellite orbit",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1710267224163-0ee7e0d7a7ce?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxzcGFjZSUyMHRlbGVzY29wZSUyMHNhdGVsbGl0ZSUyMG9yYml0fGVufDF8MHx8fDE3ODcyMTc5Nzd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "NASA Hubble Space Telescope",
+      "profileUrl": "https://unsplash.com/@hubblespacetelescope?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a satellite in orbit with the earth in the background",
+      "description": "Hubble From Behind (2009) Caption The Space Shuttle Atlantis moves away from Hubble after the telescope's release on May 19, 2009 concluded Servicing Mission 4. The Soft Capture Mechanism, a ring that a future robotic mission can grapple in order to de-orbit the telescope, is visible in the center. Credits NASA"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:18.075Z",
+    "publishedAt": "2026-08-20T08:17:08.000Z"
+  },
+  {
+    "slug": "20260820-23",
+    "headline": "イラン暫定合意中、ペルシャ湾の油流量が 3 倍に増加——3.74 億バレル流出",
+    "lead": "米イラン MoU 期間中に日量 610 万バレルまで回復。しかし戦前水準の 40% にとどまる。",
+    "body_markdown": "ペルシャ湾の油流量が一時的に急増した。米イラン暫定合意（MoU）期間中（6 月 17 日～8 月 18 日）、石油流量がほぼ 3 倍に増加。60 日間で計 3 億 7400 万バレル（3.74 億バレル）が湾外に流出した。\n\nMoU 前（4 月～6 月中旬）は日量 230 万バレル、MoU 中は日量 610 万バレルに跳ね上がった——しかし戦前水準（日量 1500 万バレル）の 40% にしか戻らない。ホルムズ海峡経由の石油供給は世界全体の 1/5 を占めるため、安定性は国際エネルギー市場に直結する。パキスタン仲介の一時合意が 8 月 18 日に失効し、今後の供給見通しが不透明に。",
+    "tags": [
+      "エネルギー",
+      "石油",
+      "国際関係"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/economy/2026/8/20/oil-flows-nearly-tripled-before-us-iran-mou-expired",
+    "importance": 4,
+    "image_query": "oil tanker shipping Gulf",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1623547307792-88834597b794?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOHx8b2lsJTIwdGFua2VyJTIwc2hpcHBpbmclMjBHdWxmfGVufDF8MHx8fDE3ODcyMTc5Nzh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Leora Winter",
+      "profileUrl": "https://unsplash.com/@paperfrost?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "red and blue boat on water during daytime",
+      "description": "A row of bright, colourful fishing boats on the Gulf of Saint Lawrence in August 2020. "
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:18.621Z",
+    "publishedAt": "2026-08-20T07:38:22.000Z"
+  },
+  {
+    "slug": "20260820-24",
+    "headline": "ミツバチ、晩夏のネクタル採蜜に苦労——研究チームが初実測",
+    "lead": "英国の実地調査で、ミツバチが 7～8 月に最も採蜜効率が低いことを確認。晩夏雑草の保全が解決策。",
+    "body_markdown": "ミツバチが夏の「食料危機」にあることを実測で証明した。英国の研究チーム（サセックス大学）が直接調査で、ミツバチが晩夏に最も採蜜に苦労していることを確認した。\n\n1217 頭を追跡し 1426 個の花から採蜜を測定。晩夏に「咲いている花が減り、競争するポーリネーター（受粉昆虫）が増加」することが主因——春は採蜜効率が最高だが、夏の食料危機は実在する。対策は単純で、「晩夏に咲く花の植栽、刈り遅れ許容、アザミ・ヨモギなど雑草保全」。英国生態学会の査読誌 Functional Ecology に掲載された。気候変動下での生態系支援として注目される。",
+    "tags": [
+      "ミツバチ",
+      "生態系",
+      "環境"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-honeybees-struggle-nectar-august-reveal.html",
+    "importance": 3,
+    "image_query": "honeybee flower pollination nature",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:18.623Z",
+    "publishedAt": "2026-08-20T04:10:01.000Z"
+  },
+  {
+    "slug": "20260820-25",
+    "headline": "ISS で溶融金属実験——超硬質金属ガラスの高精度データ取得へ",
+    "lead": "ドイツの研究チームが国際宇宙ステーション上で、1700℃のニッケル合金液滴の物性測定。微重力の優位性を活かす。",
+    "body_markdown": "微重力が材料科学の新可能性を切り拓く。ザールラント大学の研究チームが 2026 年 8 月 31 日～9 月 4 日、国際宇宙ステーション（ISS）でニッケル・ニオブ合金の電磁浮遊実験を実施予定だ。\n\n1700℃の液滴について、表面張力・粘度・熱膨張・過冷却・振動・熱容量を測定し、超硬質金属ガラス材料の高精度データを取得する。これらのデータは航空宇宙部品・医療機器・省エネモータへの応用が期待される。微重力環境が地上実験より優れた計測を実現——対流や重力の影響を受けないため、より長期間かつ正確な測定が可能になる。ESA・ドイツ航空宇宙センター（DLR）と共同で推進。",
+    "tags": [
+      "宇宙実験",
+      "材料科学",
+      "ISS"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-levitating-molten-metal-iss-refine.html",
+    "importance": 3,
+    "image_query": "metal alloy materials laboratory",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:18.626Z",
+    "publishedAt": "2026-08-20T03:20:01.000Z"
+  },
+  {
+    "slug": "20260820-26",
+    "headline": "オーストラリア、ペンギンの大規模 H5N1 ワクチン接種を開始",
+    "lead": "野生動物への大規模ワクチン接種は世界初。フィリップ島の約 5000 頭のフェアリーペンギンが対象。",
+    "body_markdown": "野生動物への大規模ワクチン接種が史上初めて実行される。オーストラリアが H5N1 鳥インフルエンザに対し、ペンギンの大規模ワクチン接種作戦を開始した。\n\n対象はフィリップ島に生息する「フェアリーペンギン」（世界最小種、生息数約 4 万頭）で約 5000 頭にワクチン。2 週間～1 ヶ月間隔で 2 回接種予定。豪州チーフ生物多様性官 James Todd は「世界規模で野生動物へのこのような接種は前例がない」とコメント。6 月のオーストラリア初 H5N1 検出以来、野生生物の死亡報告が相次いでおり、ペンギンの局所的絶滅を防ぐための緊急措置。",
+    "tags": [
+      "野生動物",
+      "ワクチン",
+      "感染症"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-australia-shield-penguins-h5n1-bird.html",
+    "importance": 3,
+    "image_query": "penguin bird wildlife ocean",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:18.633Z",
+    "publishedAt": "2026-08-20T08:50:03.000Z"
+  },
+  {
+    "slug": "20260820-27",
+    "headline": "北極圏クジラの「食べ物ボーナス」——気候変動で食物連鎖が再編成",
+    "lead": "グリーンランド東沖で、バレーンクジラ 1 万 6000 頭が集結。温暖化による冷水魚（カペリン）の北上が原因。",
+    "body_markdown": "気候変動が北極海の食物連鎖を劇的に再編成している。グリーンランド東方沖で、3 種のバレーンクジラ計約1万6000頭（ザトウクジラ約 4000 頭、ナガスクジラ約 6000 頭、コモンミンク約 6000 頭）が夏場に大量集合している現象が観測された。\n\n原因は海水温の上昇だ。1990 年代比で約 2℃の温暖化により、アイスランド北方の高水温から南下した冷水魚・カペリンが Greenland Sea に移動——かつて稀だった 70°N 北緯での鯨類の目撃が今や通常になった。生態学的には大きな転換だ。従来は氷依存種のナルワルと温帯クジラが同じ海域を共有する「生態系転換」が進行中。Mads Peter Heide-Jørgensen 教授は「3 種のバレーンクジラが東グリーンランド沿岸に夏場に集まるのは、主にカペリンを食べるため」と指摘。",
+    "tags": [
+      "気候変動",
+      "北極圏",
+      "海洋生態系"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-summer-frenzies-whales-greenland.html",
+    "importance": 3,
+    "image_query": "whale ocean arctic nature",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:18.634Z",
+    "publishedAt": "2026-08-20T04:00:01.000Z"
+  },
+  {
+    "slug": "20260820-28",
+    "headline": "キーウ大規模空爆で 13 人死亡——ウクライナ防空能力の逼迫続く",
+    "lead": "ロシア軍による「最大級の攻撃」で首都の住宅・施設が破壊。Patriot ミサイル枯渇が背景。",
+    "body_markdown": "ウクライナの首都キーウにロシア軍の大規模空爆が相次いでいる。8 月 20 日の攻撃で少なくとも 13 人が死亡——アパート、倉庫が破壊され、大型小売業者 Epicentr K と配送企業 Nova Post の施設が損傷した。同月上旬の空爆でも 17 人が殺害されており、連続的な空襲の様相を呈している。\n\nロシアはこの戦域で明らかに優位を保っている。ウクライナの防空システムが逼迫し、米国製 Patriot システムの迎撃ミサイル枯渇が続いているのが実態だ。ロシアは弾道ミサイル・無人機で都市を攻撃する余裕を保つ。米ウクライナの空戦が激化するなか、防空能力の充実がウクライナの喫緊の課題になっている。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "戦争"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/c98vzmden5yo",
+    "importance": 4,
+    "image_query": "city destruction conflict war",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1735767236197-16079434555f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8Y2l0eSUyMGRlc3RydWN0aW9uJTIwY29uZmxpY3QlMjB3YXJ8ZW58MXwwfHx8MTc4NzIxNzk3OXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mircea Solomiea",
+      "profileUrl": "https://unsplash.com/@mirceadrian?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A burned out area with buildings in the background",
+      "description": "An environmental disaster has occurred near Bucharest's IOR Park, where hundreds of trees, including pines, poplars, ashes, and oaks, have dried up after being intentionally drilled, likely with a power drill. This 12-hectare area, formerly part of the park, was retroceded in 2005 and is now privately owned. Environmental volunteers and local authorities suspect that this deliberate destruction aims to clear the land for potential real estate developments."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:19.378Z",
+    "publishedAt": "2026-08-20T08:39:26.000Z"
+  },
+  {
+    "slug": "20260820-29",
+    "headline": "台湾防衛予算、初めて 1 兆 NT$ 超——2027 年度 1.1 兆で自衛力強化",
+    "lead": "対中国を意識した防衛費大幅増。しかし野党がドローン開発予算を全額削除。",
+    "body_markdown": "台湾が防衛予算で歴史的な決定を下した。2027 年度防衛予算が初めて 1 兆超（1.1 兆 NT$、約 341 億米ドル）に達する——台湾 GDP の 3% を上回る水準。前年度 NT$9495 億（前年比 22.9% 増）からさらに大幅な積み上げだ。\n\n予算構成は防衛省本体 NT$806 億に加え、沿岸警備・退役軍人・装備調達の特別費 NT$240 億。地政学的な懸念の表れだが、政治的には複雑な事情がある。5 月に野党・国民党・台湾人民党が特別予算 NT$1.25 兆から 40% 削減（NT$780 億）し、国内ドローン開発予算を全額削除したばかりだ。自衛力強化と政党間の意見の相違が、予算編成に反映されている。",
+    "tags": [
+      "台湾",
+      "防衛",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Taipei Times",
+    "link": "https://www.taipeitimes.com/News/front/archives/2026/08/09/2003862174",
+    "importance": 4,
+    "image_query": "military defense equipment",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1763656445404-a7ec6d1a9241?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8bWlsaXRhcnklMjBkZWZlbnNlJTIwZXF1aXBtZW50fGVufDF8MHx8fDE3ODcyMTc5Nzl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sushanta Rokka",
+      "profileUrl": "https://unsplash.com/@sanoyatra?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Soldiers operate anti-aircraft guns in a military parade",
+      "description": "Nepali Army Troops in Armored Vehicle at Kathmandu , Tudikhel in Nepali Army Day"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:20.066Z",
+    "publishedAt": "2026-08-20T08:20:00.000Z"
+  },
+  {
+    "slug": "20260820-30",
+    "headline": "英国インフレ 2.9% に上昇——エネルギー価格キャップで家計圧迫",
+    "lead": "6 月の 2.6% から上昇。Ofgem が電気・ガス代を年 £221 引き上げ。イラン戦争の影響。",
+    "body_markdown": "英国のインフレーションが上昇に転じた。7 月の消費者物価指数（CPI）が 2.9% に上昇。6 月の 2.6% からの上昇で、4 ヶ月ぶりの高水準だ。\n\n根因はエネルギー価格。英国の電力・ガス規制機関 Ofgem がエネルギー価格キャップを 13% 引き上げ、平均家庭の年間ガス・電気代が £221 増加して年 £1862 に跳ね上がった。なぜか。中東のイラン戦争に伴う供給逼迫——ノルウェー・湾岸地域産ガスの価格上昇が連鎖的に転嫁されたものだ。英当局は表向き「政策発表」として処理するが、エネルギー危機が家計圧迫・インフレ加速のシナリオを現実化させた。",
+    "tags": [
+      "インフレーション",
+      "エネルギー",
+      "英国"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/aug/19/uk-inflation-rise-iran-war-energy-consumer-prices-index-interest-rates",
+    "importance": 4,
+    "image_query": "energy bill electricity meter",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1605688688509-2d0af3946fc5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8ZW5lcmd5JTIwYmlsbCUyMGVsZWN0cmljaXR5JTIwbWV0ZXJ8ZW58MXwwfHx8MTc4NzIxNzk4MHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Alexander Schimmeck",
+      "profileUrl": "https://unsplash.com/@alschim?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "white and black electric meter",
+      "description": "Electricity meter on a house wall"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:20.706Z",
+    "publishedAt": "2026-08-19T07:25:26.000Z"
+  },
+  {
+    "slug": "20260820-31",
+    "headline": "トランプ、議会に暗号資産 Clarity Act 成立を促促——ビットコイン・イーサが急騰",
+    "lead": "米大統領がコイン規制枠組みの法案化を求め、業界が政治的追い風を感じ相場上昇。",
+    "body_markdown": "トランプ大統領がコイン業界に「規制透明性」獲得の機会を与えた。同氏が議会に「暗号資産規制枠組みを確立する法案」（Clarity Act）の成立を促し、業界の「合法産業化」実現を目指す発言をしたとたん、ビットコイン・イーサが市場で急騰。\n\n背景は政治的信号だ。トランプ政権は規制ポジティブな姿勢を示しており、コイン業界が「米国での規制道筋が開かれる」と投資家心理に作用した。Clarity Act が成立すれば、暗号資産企業の事業展開が容易になり、機関投資家の参入も加速する可能性がある。金融市場の政治依存の典型事例。",
+    "tags": [
+      "暗号資産",
+      "ビットコイン",
+      "政治"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/20/cryptocurrencies-trump-bitcoin-ethereum.html",
+    "importance": 4,
+    "image_query": "bitcoin cryptocurrency digital money",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1516245834210-c4c142787335?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxiaXRjb2luJTIwY3J5cHRvY3VycmVuY3klMjBkaWdpdGFsJTIwbW9uZXl8ZW58MXwwfHx8MTc4NzIxNzk4MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "André François McKenzie",
+      "profileUrl": "https://unsplash.com/@silverhousehd?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "selective focus photo of Bitcoin near monitor",
+      "description": "After watching my portfolio in usd drop by over 50% in one day I realized it wasn’t usd that is important, it is the btc ratio. You see, I’m holding all altcoins, which help me gain more bitcoin as they rise in price. End of the day, I believe Bitcoin is king. This photo represents Bitcoins ratio to altcoins (seen in the trading chart behind)."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:21.291Z",
+    "publishedAt": "2026-08-20T05:29:50.000Z"
+  },
+  {
+    "slug": "20260820-32",
+    "headline": "中国不動産大手 Evergrande 創業者に終身刑——産業危機を象徴",
+    "lead": "許家印氏が不動産詐欺で終身刑。かつてアジア随一の富豪も、産業崩壊で司法の対象に。",
+    "body_markdown": "中国不動産産業の危機が司法の場で象徴化した。不動産大手 Evergrande の創業者・許家印（Hui Ka-yan）氏が終身刑を言い渡された。かつてのアジア随一の富豪も、産業崩壊で激変を余儀なくされた。\n\nEvergrande は 2021 年のピーク時、総資産 2300 億米ドル超で業界の巨人だった。しかし負債膨張、工事遅延、投資家損失で破綻。許家印氏は公判で詐欺罪などで有罪判決を受け、終身刑となった。判決は中国の不動産セクター信用危機の「終焉」を象徴する。政府による不動産規制強化と市場崩壊が、個人の人生と企業の存続を左右する現実を示す。",
+    "tags": [
+      "中国",
+      "不動産",
+      "経済危機"
+    ],
+    "section": "ビジネス",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/cd0x9mjjmgjo",
+    "importance": 4,
+    "image_query": "real estate construction development",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1597974380476-fbf652dfe188?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8cmVhbCUyMGVzdGF0ZSUyMGNvbnN0cnVjdGlvbiUyMGRldmVsb3BtZW50fGVufDF8MHx8fDE3ODcyMTc5ODF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Troy Mortier",
+      "profileUrl": "https://unsplash.com/@troyscanon?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a construction site with trucks and construction equipment",
+      "description": "Industrial Estate Construction."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:22.018Z",
+    "publishedAt": "2026-08-20T06:08:02.000Z"
+  },
+  {
+    "slug": "20260820-33",
+    "headline": "OpenAI がプライバシー技術で反撃——Anthropic の 30 日保持要件に対抗",
+    "lead": "Zero Data Retention を保ちながら複数相互作用から悪用を検知する新機構を発表。9 月展開予定。",
+    "body_markdown": "OpenAI がプライバシー競争で新カード を切った。同社は「Private Safety Processing」という新安全機構を発表——顧客データを保持せずに、複数の相互作用から悪用パターンを検知する技術だ。\n\nこれは Anthropic への直接的な対抗措置だ。Anthropic は自社の Mythos モデルで顧客プロンプト・出力の 30 日保持を要求し、同様に悪用検知を行っている。一方、OpenAI は「インフラは顧客管理、暗号化キーも顧客保有」という徹底した Zero Data Retention（ZDR）を保ちながら、「限定信号のみ」で活動シグナルから濫用を判定する方針。顧客データの秘密性を優先する企業姿勢の違いが、AI 業界での競争軸になりつつある。9 月より展開予定。",
+    "tags": [
+      "プライバシー",
+      "AI",
+      "セキュリティ"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2608/20/2000000638/",
+    "importance": 4,
+    "image_query": "data security privacy protection",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1762330465065-af76f23809db?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8ZGF0YSUyMHNlY3VyaXR5JTIwcHJpdmFjeSUyMHByb3RlY3Rpb258ZW58MXwwfHx8MTc4NzIxNzk4Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zulfugar Karimov",
+      "profileUrl": "https://unsplash.com/@zulfugarkarimov?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Linkedin data privacy settings on a smartphone screen"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:22.838Z",
+    "publishedAt": "2026-08-20T00:39:01.000Z"
+  },
+  {
+    "slug": "20260820-34",
+    "headline": "北朝鮮が弾道ミサイル発射、日本 EEZ 外に落下",
+    "lead": "北朝鮮からの弾道ミサイル発射。日本の排他的経済水域外に落下と政府関係者が確認。",
+    "body_markdown": "北朝鮮がミサイル発射を実施した。複数の政府関係者によると、北朝鮮から発射された弾道ミサイルの可能性があるものが、日本の EEZ（排他的経済水域）外に落下したとみられるという。防衛省が詳細を確認中だが、日本周辺での危機感が継続。\n\nこの試射は東アジア情勢の緊張を示唆している。米・日・韓の防衛協力の必要性が高まるなか、北朝鮮の兵器開発は一向に止まらない状況が続いている。",
+    "tags": [
+      "北朝鮮",
+      "ミサイル",
+      "安全保障"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk.jp/newsweb/na/nd-20260820de45335",
+    "importance": 4,
+    "image_query": "missile military weapons",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1707236586044-384c2e781b5f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8bWlzc2lsZSUyMG1pbGl0YXJ5JTIwd2VhcG9uc3xlbnwxfDB8fHwxNzg3MjE3OTgzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Snap Wander",
+      "profileUrl": "https://unsplash.com/@passimage?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a group of military missiles sitting on top of a field",
+      "description": "Les guerres sont l'apanage de quelques-uns, au détriment du bien-être de tous."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:23.634Z",
+    "publishedAt": "2026-08-20T08:46:14.000Z"
+  },
+  {
+    "slug": "20260820-35",
+    "headline": "Starmer 首相の元補佐官 Sue Gray 氏、職場環境を「耐えられない」と批判",
+    "lead": "政権内の信頼喪失が露呈。Gray 氏は会話の録音・リーク懸念を指摘。",
+    "body_markdown": "英国政府の権力構造に亀裂が走った。Keir Starmer 首相の前補佐官・Sue Gray 氏が、首相官邸での職場環境は「耐えられない」（unbearable）と批判し、職員による会話の録音・メディア漏洩への懸念を表明した。\n\nGray 氏は 2024 年に最高権力の補佐官から辞任しており、その理由には人事と情報管理の問題が絡んでいるという。発言は政権内の信頼喪失と、首相官邸の管理体制に対する疑問を示唆する。英国政治の舞台裏での権力闘争が表面化した事例として注目される。",
+    "tags": [
+      "政治",
+      "UK",
+      "政権"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/politics/2026/aug/20/working-in-keir-starmer-no-10-unbearable-says-sue-gray",
+    "importance": 3,
+    "image_query": "office politics workplace",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T09:26:23.635Z",
+    "publishedAt": "2026-08-20T06:00:44.000Z"
+  },
+  {
     "slug": "20260820-01",
     "headline": "OpenAI、プライバシー重視の新機能を発表",
     "lead": "OpenAI、API顧客向けに「Zero Data Retention」など新機能を発表。企業データの保護が強化される。",
