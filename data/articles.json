@@ -1,5 +1,470 @@
 [
   {
+    "slug": "20260821-01",
+    "headline": "OpenAI、戦略研究チーム「AI Futures」を立ち上げ",
+    "lead": "OpenAI が AI の長期的な社会的影響を研究する専門チームを設立し、政策提言へ向けた取り組みを本格化させた。",
+    "body_markdown": "OpenAI は8月20日、戦略研究チーム「AI Futures」を正式に立ち上げたと発表した。Dean Ball を責任者とする同チームは、自由民主主義社会が生成型 AI の急速な発展に対応する方法を研究する。\n\n同チームが取り組む主要課題は、権力の集中、労働市場への影響、自動改善能力の管理、そして政府や市民社会との関係構築の4つ。James Madison の思想を引用しながら、AI 時代における個人の権利と自由をいかに守るかが問題設定の中心にある。\n\nOpenAI は既に4月に「Industrial Policy for the Intelligence Age」という産業政策論文を公開しており、この新チームはそれを具体化する役割を担う。同時に、政策研究を支援する14のプロジェクトへ計200万ドル相当（資金100万ドル＋API利用枠100万ドル）の助成を決定。来年の IPO を控えるなか、政策と技術的リーダーシップの両面から、AI 業界の規範形成を主導する方針を示している。",
+    "tags": [
+      "OpenAI",
+      "AI政策",
+      "戦略研究"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-ai-futures",
+    "importance": 4,
+    "image_query": "AI policy research lab",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6WlY42vdkXE14U0aa8nt0V/cd49d61e13eca65e29063d298ca8cec8/introducing-ai-futures-seo-ocean-blue-1920x1080.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/introducing-ai-futures",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:43.388Z",
+    "publishedAt": "2026-08-20T07:00:00.000Z"
+  },
+  {
+    "slug": "20260821-02",
+    "headline": "日本、火星の衛星からサンプル採取へ 10月打上げ予定",
+    "lead": "JAXA の火星探査機が10月20日に打ち上げられ、火星の衛星フォボスからサンプルを採取して2031年に帰還する。",
+    "body_markdown": "日本宇宙航空研究開発機構（JAXA）は8月20日、火星探査機の打上げが10月20日午前4時41分（日本時間）に決定したと発表した。種子島宇宙センターから H3 ロケットで打ち上げられる。\n\n本ミッションの目標は、火星とその衛星の形成過程を解明し、太陽系と地球生命の起源を理解することにある。着陸予定地は火星の衛星フォボス。フランス製の IDEFIX ローバーを使って表面からサンプルを採集する。最低10グラムの採取を目指す。\n\n帰還カプセルに積まれた試料は2031年にオーストラリアへの着陸が計画されている。成功すれば、火星衛星からのサンプルリターンは世界初となり、将来の有人火星探査に向けた重要なデータベースになる。約5年間の長期ミッションを通じて、太陽系の謎解きの一翼を担う。",
+    "tags": [
+      "火星探査",
+      "JAXA",
+      "サンプルリターン"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-japan-probe-mars-moons-october.html",
+    "importance": 4,
+    "image_query": "rocket launch spacecraft",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1636819488537-a9b1ffb315ce?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxyb2NrZXQlMjBsYXVuY2glMjBzcGFjZWNyYWZ0fGVufDF8MHx8fDE3ODcyNjA5NjR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Andy Hermawan",
+      "profileUrl": "https://unsplash.com/@kolamdigital?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a red and white toy rocket on a blue background",
+      "description": "3D Rendering Rocket Space Launching Illustration"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:44.403Z",
+    "publishedAt": "2026-08-20T21:00:05.000Z"
+  },
+  {
+    "slug": "20260821-03",
+    "headline": "Greg Brockman、OpenAI での権力を一段と拡大",
+    "lead": "OpenAI の共同設立者で現在の会長 Greg Brockman が、CEO 以外の主要職務をほぼ掌握する体制になった。",
+    "body_markdown": "OpenAI の会長兼共同設立者 Greg Brockman が、同社の最重要経営職を統合する立場に置かれている。Fidji Simo 前プロダクト責任者が慢性疾患により退任した後、Brockman がその役務を引き継ぎ、今後も従事する。\n\nBrockman は2015年の創業時からサム・アルトマン CEO と共に会社を率いてきた。2023年にアルトマン CEO が一時的に解任された際、Brockman も連帯して退社を宣言したことで知られる。その後の復帰以来、会社の中核事業の多くが彼の監督下に集約されてきた。\n\n同社は2026年の計算機インフラに500億ドルを投じる計画で、Brockman はその戦略実行の最前線にいる。彼は「GDP 成長は各国が利用可能な計算資源の量に左右される時代が来ている」と述べており、AI 覇権競争における米国の戦略立案を担う最有力人物として機能しているとみられる。",
+    "tags": [
+      "OpenAI",
+      "CEO人事",
+      "AI経営"
+    ],
+    "section": "AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/07/10/openai-power-consolidates-under-co-founder-greg-brockman-ahead-of-ipo.html",
+        "name": "CNBC"
+      }
+    ],
+    "importance": 4,
+    "image_query": "office executive leadership",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1746021375246-7dc8ab0583f0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8b2ZmaWNlJTIwZXhlY3V0aXZlJTIwbGVhZGVyc2hpcHxlbnwxfDB8fHwxNzg3MjYwOTY1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Deliberate Directions",
+      "profileUrl": "https://unsplash.com/@deliberatedirections?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A bright and modern office space with glass walls",
+      "description": "This private office at Deliberate Directions combines clean design with natural light and greenery. Glass walls create openness while maintaining focus, and a tall stack of colorful business books signals a commitment to learning and leadership. Potted plants, modern furniture, and a view of downtown Boise complete the welcoming and professional atmosphere."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:45.286Z",
+    "publishedAt": "2026-08-20T15:45:55.000Z"
+  },
+  {
+    "slug": "20260821-04",
+    "headline": "米国、イラン経済制裁を最大規模に強化へ",
+    "lead": "米財務長官 Scott Bessent が、イラン経済に前例のない圧力をかける新制裁を発表し、同盟国に参加を迫った。",
+    "body_markdown": "米国財務長官 Scott Bessent は8月20日、イランに対する経済制裁を大幅に強化する計画を明らかにした。「歴史上類を見ない経済孤立」と称する制裁を複数段階で発動するとした。\n\n米国はすでに海上封鎖によってイランの石油輸出を制限しており、これまで約48億ドルの収入喪失をもたらした。今回は「一国に対する最もタフな制裁」とも言える措置を追加予定。Bessent は、イランとの取引に関わる国と企業に対し、「米国につくか、対抗するか、どちらかを選べ」と圧力をかけ、金銭移動、石油取引、海運などすべての経路を対象にする構え。\n\nトランプ政権は当初、イラン戦争で大規模な軍事再開を検討していたが、Bessent は経済的圧力で十分だと表明している。ただし、過度な経済制裁が米国経済にも跳ね返る懸念は存在する。",
+    "tags": [
+      "イラン制裁",
+      "経済戦争",
+      "米国外交"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/20/bessent-economy-iran-war-trump.html",
+    "importance": 4,
+    "image_query": "sanctions policy economic",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1668706971199-37e30a4e6298?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzYW5jdGlvbnMlMjBwb2xpY3klMjBlY29ub21pY3xlbnwxfDB8fHwxNzg3MjYwOTY1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jon Tyson",
+      "profileUrl": "https://unsplash.com/@jontyson?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a sign on a wall"
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.104Z",
+    "publishedAt": "2026-08-20T17:19:03.000Z"
+  },
+  {
+    "slug": "20260821-05",
+    "headline": "欧米諸国、イスラエルの入植地拡張を非難",
+    "lead": "英国、フランス、ドイツ、イタリア、カナダ他7カ国が共同声明を発表し、イスラエルのヨルダン川西岸における E1 地区入植計画の中止を求めた。",
+    "body_markdown": "イスラエルが占領下のヨルダン川西岸において、E1 地区への大規模入植プロジェクトを推し進めている。同地区はイェルサレムと違法入植地マアレ・アドゥミム間の戦略的要衝で、今回は 1200 以上の住宅建設入札が公開された。総計 3400 戸の入植が計画されている。\n\n英国、フランス、ドイツ、イタリア、オランダ、ノルウェー、カナダの7カ国首脳は8月20日、共同声明でこの計画に強く反発した。同地域への入植は「パレスチナ領土の連続性を破壊し、二国家解決を不可能にする」と警告。さらにヨルダン川西岸での開拓民による民間人への暴力が過去最高水準に達しており、入植拡張はこうした不安定性を深刻化させると懸念している。\n\n国際法上、イスラエル占領下の入植は違法。国連安全保障理事会もこの立場を再確認している。",
+    "tags": [
+      "イスラエル",
+      "入植地",
+      "パレスチナ"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/c998evlgz8ko",
+    "importance": 4,
+    "image_query": "settlement construction dispute",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1640101086894-7d70c3e70179?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxzZXR0bGVtZW50JTIwY29uc3RydWN0aW9uJTIwZGlzcHV0ZXxlbnwxfDB8fHwxNzg3MjYwOTY2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Fons Heijnsbroek",
+      "profileUrl": "https://unsplash.com/@fonsheijnsbroek_amsterdam_photos?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a group of construction workers standing around a construction site",
+      "description": "Construction site with workers on the concrete bottom, fixing the steel wire construction ground of the excavation site;. Then the concrete can be poured. This becomes an underground parking place for circa 8000 bicycles in front of Central Station, Amsterdam. The rusty pile sheeting wall is necessary to keep the construction pite safe and dry, because of the wet soggy bottom of Amsterdam city. Free urban photo of Amsterdam constructions - Dutch city photography of work by Fons Heijnsbroek, Netherlands."
+    },
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.893Z",
+    "publishedAt": "2026-08-20T18:55:14.000Z"
+  },
+  {
+    "slug": "20260821-06",
+    "headline": "Hugging Face、推論速度を最大3.18倍に高速化するモデル",
+    "lead": "Liquid AI の新技術 LFM2.5-DSpark により、LLM の推論が GPU で最大3.18倍、モバイルで最大2.87倍高速化される。",
+    "body_markdown": "Liquid AI と Hugging Face が開発した LFM2.5-DSpark は、大規模言語モデル（LLM）の推論パフォーマンスを大幅に向上させる新技術である。NVIDIA H100 GPU での動作で最大3.18倍の高速化を実現し、モバイルデバイス（Apple M4 Max）でも最大2.87倍の改善を達成した。また関数呼び出しのレイテンシーは LFM2.5-2.6B で平均57%削減。\n\n同技術は「推測デコーディング」と呼ばれる手法を採用している。軽量ドラフトモデルが複数の候補トークンを生成し、メインモデルが単一の順伝播ですべてのトークンを同時検証する仕組み。重要な点は、出力の意味的正確性は基本的な貪欲デコーディングと完全に同一であること。\n\nメモリ使用量はわずかに増えるが、メモリへのボトルネック（DRAM から SRAM へのウェイトストリーミング）を効率化することで、総合的な速度向上を実現。クラウド環境から個人デバイスまで、様々な環境でのLLM推論の実用性が大きく向上する。",
+    "tags": [
+      "LLM推論",
+      "Liquid AI",
+      "性能最適化"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+    "importance": 3,
+    "image_query": "neural network computation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.895Z",
+    "publishedAt": "2026-08-20T16:52:57.000Z"
+  },
+  {
+    "slug": "20260821-07",
+    "headline": "Slack、AI コーディング専用チャンネル「Slack Code」開始",
+    "lead": "Slack が AI エージェント（Claude や Devin など）との協働開発を専用チャンネルで実現する「Slack Code」を発表。",
+    "body_markdown": "Slack は8月20日、AI エージェントとチーム開発を行うための専用チャンネル機能「Slack Code」を正式リリースした。Claude（Anthropic）や Devin（Cognition）など複数の AI コーディング エージェントに直接タスクを指示でき、議論をワンプレイスに統一できる。\n\nSlack Code の主な機能は：ユーザーがアイデアを投稿するとエージェントが専用チャンネルを立ち上げコード作成を開始、メンバーはプロジェクト固有タブで進捗追跡、コード差分の比較機能、HTML 出力のプレビュー機能などを備える。\n\nこれにより、新機能開発、ウェブページ更新、バグ修正といった開発タスクが、Slack を離れずに AI との協働で進行可能になる。従来は GitHub、IDE、Slack などツール間を往き来する必要があったが、ワークフローの一元化により、開発チームの効率性が大幅に高まると期待される。",
+    "tags": [
+      "Slack",
+      "AI開発",
+      "コード生成"
+    ],
+    "section": "AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+    "importance": 3,
+    "image_query": "code editor collaboration",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.897Z",
+    "publishedAt": "2026-08-20T12:00:00.000Z"
+  },
+  {
+    "slug": "20260821-08",
+    "headline": "Google、出版社向けの AI トラフィック対策新機能",
+    "lead": "Google が Discover や Google News での表示優位性を与える「お気に入りソース」機能を拡大し、出版社の AI サーチ時代への対抗を支援。",
+    "body_markdown": "Google は AI 検索の普及に伴い、出版社が被るトラフィック減を緩和する新たな施策を講じた。ウェブサイト上に設置できる「Preferred Sources（お気に入りソース）」ボタンで、読者がそのメディアを優先表示対象として設定できる機能を拡充。\n\nユーザーが当該ボタンをクリックすると、Google Search、Discover、Google News での検索結果や提案において、そのサイトが優先的に表示されるようになる。Google の調査では、ユーザーがお気に入りソースをクリックする確率は通常時の2倍に達するという。5月の導入以降、すでに34万5000 以上のユニークソースが設定されている。\n\nこのほか、Google は Discover フィードをテキスト指示で自然にカスタマイズできる機能も開始。読者が3ドットメニューからトピックを直接指示でき、フィードがリアルタイムで調整される。AI サーチの台頭で経営難に陥る出版社を支援する姿勢を示す一連の施策である。",
+    "tags": [
+      "Google検索",
+      "出版社支援",
+      "AI対策"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+    "importance": 3,
+    "image_query": "search results interface",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.900Z",
+    "publishedAt": "2026-08-20T19:18:21.000Z"
+  },
+  {
+    "slug": "20260821-09",
+    "headline": "Walmart、売上成長が6年ぶりの低迷で株価急落",
+    "lead": "Walmart が 2Q 決算で国内比較売上高が期待外の2.6%増に留まり、通期見通しも失望売りを招いた。",
+    "body_markdown": "米小売大手 Walmart は8月20日、第2四半期（fiscal Q2）決算を発表した。調整後1株あたり利益は81セント（予想74セント）と上振れしたものの、肝心の国内比較売上高は2.6%増に留まり、アナリスト予想の3.7% 増に届かず。同日の株価は9.5%急落し、2022年5月以来の最悪の日中跌落率を記録した。\n\n通期ガイダンスの上方修正も期待を下回った。Q3 の調整後 EPS を62〜64セント（予想68セント）に設定。インド子会社 Flipkart のビッグセール開催時期の変更で、今後1ポイント以上の成長が押し下げられる影響。\n\nWalmart の株価は PER 40倍と市場の期待値が極めて高い水準にあり、市場が「ほぼ完璧な成長」を織り込んでいた。わずかな減速シグナルでも売りが誘発される状態。消費者の支出減速と高ガス価格の影響で、小売業界全体が厳しい環境に直面している。",
+    "tags": [
+      "Walmart",
+      "決算",
+      "小売業績"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html",
+    "importance": 3,
+    "image_query": "retail store sales",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.901Z",
+    "publishedAt": "2026-08-20T20:01:49.000Z"
+  },
+  {
+    "slug": "20260821-10",
+    "headline": "Hyundai、米国で初の大型 EV SUV「GV90」を投入",
+    "lead": "Hyundai が米国向け初の3列シート フル EV「GV90」を公開し、260億ドルの米国投資計画の一環として 2028 年までに大型車の生産能力を大幅拡大予定。",
+    "body_markdown": "Hyundai の高級ブランド Genesis は、米国市場向けの初となるフル電動大型 SUV「GV90」を発表した。3列シートを持つプレミアム EV として設計され、業界内でも最先端の設計や機能を備えている。特筆すべきは「Neolun Arch Gate」と名付けられた、B ピラーが消えるコーチドア設計。前後のドアが外側に開き、広大な開口部を実現する。\n\nHyundai はこの新型車をはじめ、米国での電動化投資を加速させている。CNBC 報道によると、同社は 2028 年までに米国に 260 億ドルの投資を計画。新型 GV90 はジョージア州の既存工場での生産能力を拡張する一環を担う。米国の EV シフトを先導する中国や欧州メーカーに対し、現地製造により競争力を確保する戦略。\n\nGenesis は欧州高級車ブランドと同等のプレミアムポジショニングを目指しており、革新的な EV デザインでそのブランドイメージを高める狙い。",
+    "tags": [
+      "Hyundai",
+      "電動SUV",
+      "米国投資"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/20/hyundai-georgia-metaplant-us-production.html",
+    "sources": [
+      {
+        "url": "https://www.theverge.com/transportation/982910/genesis-gv90-ev-suv-coach-door-heated-floor",
+        "name": "The Verge"
+      }
+    ],
+    "importance": 3,
+    "image_query": "electric SUV luxury vehicle",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.903Z",
+    "publishedAt": "2026-08-20T20:18:07.000Z"
+  },
+  {
+    "slug": "20260821-11",
+    "headline": "Micron、ボイシ工場に 500 億ドル投資で地域経済が転換",
+    "lead": "半導体大手 Micron が米アイダホ州ボイシでの 500 億ドル規模の工場拡張投資により、地元の人口と物価が急増し、地域の同一性変容を招いている。",
+    "body_markdown": "米半導体メーカー Micron Technology は、米国でのメモリチップ製造能力を大幅に拡張している。アイダホ州ボイシでの投資規模は 500 億ドルに上り、新しい工場建設と既存施設の大規模改造が進行中。AI ブームがメモリ需要を押し上げ、同社の拡張戦略の主駆動力となっている。\n\nこの投資がもたらす経済波及効果は甚大だ。ボイシへの就職機会増加に伴い人口流入が加速、地域の住宅不足と価格上昇を招いた。地元の交通量増加も著しく、かつての小規模工業都市から急速に「テックハブ」への変貌が進んでいる。\n\nCNBC の報道では、Micron の進出が地域経済に活力と雇用をもたらす一方で、既存住民の生活環境悪化や地域アイデンティティの喪失への懸念も指摘されている。米国内での半導体自給率向上と地域経済格差解消の重要な事例として注目されている。",
+    "tags": [
+      "Micron",
+      "半導体工場",
+      "米国投資"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/08/20/micron-boise-chip-fab-expansion.html",
+    "importance": 3,
+    "image_query": "semiconductor chip fab factory",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.903Z",
+    "publishedAt": "2026-08-20T16:07:24.000Z"
+  },
+  {
+    "slug": "20260821-12",
+    "headline": "代替 mRNA 修飾で翻訳速度が倍近くに向上、医療応用へ道",
+    "lead": "Johns Hopkins Medicine の研究チームが、標準的な mRNA 療法より 2 倍近い速度で翻訳する新型 mRNA プラットフォームを開発。ワクチンと治療の効率化に期待。",
+    "body_markdown": "Johns Hopkins Medicine の研究チームは、新しい mRNA 修飾技術により、翻訳速度を従来比で最大2倍近く向上させるプラットフォームを開発した。成果は医学誌『Nature』に掲載されている。\n\n既存の mRNA 療法は感染症ワクチンから がん免疫療法まで広がるが、体内で翻訳されるまでの速度が課題だった。今回の代替修飾技術により、単位時間あたりのタンパク質生産量が大幅に増加。これは患者の体内での治療効果の発現が高速化することを意味し、投与量削減や治療期間短縮の可能性をもたらす。\n\n研究チームは、感染症ワクチン、がん治療、自己免疫疾患の治療といった複数の応用領域での展開を想定している。コロナ禍で mRNA ワクチンが世界的に認知されたが、次世代型のさらなる高速化・高効率化により、医療全体における mRNA 利用の拡大が期待される。",
+    "tags": [
+      "mRNA治療",
+      "ワクチン",
+      "生命科学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-alternative-mrna-modification-ribosomes-fast.html",
+    "importance": 3,
+    "image_query": "DNA research laboratory",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.904Z",
+    "publishedAt": "2026-08-20T20:30:01.000Z"
+  },
+  {
+    "slug": "20260821-13",
+    "headline": "アルプスで記録的ロックフォール、気候変動が地盤崩壊を加速",
+    "lead": "異常気象の影響で今夏のアルプスでは過去最多のロックフォールが発生。科学者は大多数を気候危機と結びつけている。",
+    "body_markdown": "スイス・アルプスでの夏季ロックフォール（岩壁崩落）が記録的水準に達している。地質学者 Ludovic Ravanel による調査では、今夏のアルプス全域での崩落事例は過去最高を更新。死傷事故も複数発生しており、登山者の安全がかつてない脅威にさらされている。\n\nRavanel 氏は「大多数のロックフォールが気候危機に直結している」と指摘。異常高温による永久凍土（パーマフロスト）の融解が、岩壁の内部結合力を弱め、大規模崩落を誘発するメカニズムが明らかになってきた。特に夜間気温が平年を大きく上回る日が続く時期に崩落リスクが急増する傾向。\n\n従来のアルプス登山は岩盤の安定性を前提としてルート設定されてきたが、気候変動に伴う地盤不安定化により、登山難易度が急速に上昇している。今後、高山生態系と地形そのものの急速な変貌が避けられないとの警告も強まっている。",
+    "tags": [
+      "気候変動",
+      "自然災害",
+      "地質"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-summer-triggers-rockfalls-alps-scientist.html",
+    "importance": 3,
+    "image_query": "mountain rockfall avalanche",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.904Z",
+    "publishedAt": "2026-08-20T20:40:06.000Z"
+  },
+  {
+    "slug": "20260821-14",
+    "headline": "海草の炭素吸収能、海水温上昇で大幅低下のおそれ",
+    "lead": "海温上昇がアマモなど海草の炭素吸収能力を著しく低下させる可能性が、新研究で明らかになった。",
+    "body_markdown": "海洋の温暖化が進む中、世界各地の海草草地（シーグラス）による炭素吸収能力が低下する恐れが出てきた。Communications Earth & Environment 誌の論文では、ドイツの Leibniz Centre for Tropical Marine Research による調査結果が報告されている。\n\n研究チームは、海水温の上昇が水中植物の長期炭素貯蔵能力を著しく低下させることを実証。従来、海草は大気中の CO2 を吸収する「ブルーカーボン」として気候変動対策の重要な役割を担うとされてきたが、気温上昇に伴い、その機能が反転しうる可能性が示唆される。\n\nシーグラス群落は広大な面積で存在し、世界的な炭素循環の一部を成している。もし温暖化によってこうした吸収能力が失われれば、気候フィードバック・ループがより悪化する恐れもある。海洋生態系と気候システムの相互依存性を改めて示す重要な警告である。",
+    "tags": [
+      "海洋生態",
+      "気候変動",
+      "環境"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-08-ocean-temperatures-natural-carbon-storage.html",
+    "importance": 3,
+    "image_query": "seagrass ocean water",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.905Z",
+    "publishedAt": "2026-08-20T20:40:01.000Z"
+  },
+  {
+    "slug": "20260821-15",
+    "headline": "US-カナダ通商戦争の時間が迫る、関税交渉が佳境へ",
+    "lead": "トランプ政権が発動予定の 50% 関税に対抗するため、カナダ高官が米国との協議を加速させている。",
+    "body_markdown": "米国とカナダ間の通商戦争の危機が高まっている。トランプ政権が過去に提唱した 50% の対カナダ関税実現が、改めて現実味を帯びた状況にある。一連の関税脅迫により、カナダの上級政府関係者は米国側との交渉を緊急加速させている。\n\nカナダ経済はエネルギーと農業で米国に依存しており、高率関税は直接的な打撃をもたらす。特に鋼材、アルミニウム、木材といった主要産業が最大の打撃を受けるリスク。Foreign Policy の報道では、カナダは合意達成に向けた「ロードマップ」の提示を含む、包括的な交渉スキームを模索している。\n\nトランプ政権による対中国関税と並行して、米国の保護主義的通商政策が各国に波及しており、北米統合経済の基盤が揺らいでいる。交渉期限は迫りつつあり、双方の譲歩が必要な段階に入っている。",
+    "tags": [
+      "通商戦争",
+      "関税",
+      "北米経済"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/08/20/us-canada-trade-talks-tariffs-steel-aluminum-autos-lumber/",
+    "importance": 3,
+    "image_query": "trade tariffs negotiation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.905Z",
+    "publishedAt": "2026-08-20T20:15:50.000Z"
+  },
+  {
+    "slug": "20260821-16",
+    "headline": "ボリビア、リチウム資源の豊富さが経済化できない矛盾",
+    "lead": "世界のリチウム埋蔵量の 20% を占めるボリビアが、採掘と精製技術で他国に劣り、供給の 1% 未満しか提供できない現状にある。",
+    "body_markdown": "ボリビアは世界でも有数のリチウム資源国である。同国のウユニ塩湖周辺に埋蔵される資源量は世界の 20% に相当するが、実際の供給量は世界の 1% 未満に留まっている。この大きなギャップ背景には、採掘・精製技術と設備投資の遅れがある。\n\nリチウムは EV とバッテリー産業の急速な拡大に伴い、戦略的資源として急騰している。オーストラリアやチリなど他国は、先進的な採掘技術と国際資本を活用して生産を加速させてきた。対しボリビアは国内資本と技術の制約で、資源が「絵に描いた餅」の状態が続いている。\n\nボリビア前大統領 Carlos Mesa が提言した「グリーン産業化」戦略も進展せず、隣国チリとのリチウム獲得競争で後塵を拝している。世界の脱炭素化が加速する中、豊富な資源を持ちながら産業化できない貧困国の構造的矛盾を象徴する事例。Foreign Policy は「Economic opportunity と技術移転なしの資源国家像」の改善を促している。",
+    "tags": [
+      "ボリビア",
+      "リチウム",
+      "資源経済"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/08/20/bolivia-paz-lithium-economy-crisis-mining/",
+    "importance": 3,
+    "image_query": "mining lithium salt flat",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.906Z",
+    "publishedAt": "2026-08-20T18:45:18.000Z"
+  },
+  {
+    "slug": "20260821-17",
+    "headline": "日本とイギリス、次期戦闘機共同開発で安保協力強化へ",
+    "lead": "高市総理がイギリスのバーナム首相と初会談、防衛装備協力や経済安全保障の連携を推進することで一致した。",
+    "body_markdown": "日本の高市総理大臣は、イギリスのバーナム首相との間で初の電話会談を実施した。会談では両国の安全保障分野や経済安全保障分野における協力の強化を確認。特に注目される合意は、次期戦闘機の共同開発における日英の協力推進である。\n\n次期戦闘機プロジェクトは、日本とイギリス、イタリアの3国による共同開発イニシアティブの一部。北大西洋条約機構（NATO）との連携強化を背景に、同盟国間での最先端防衛技術の相互補完が急加速している。会談では、防衛装備産業での人材・技術交流も議題となった。\n\nこの会談は、中国の軍事拡張と北東アジアでの不安定化に対し、民主主義国家間の防衛・経済協力体制を深化させるメッセージとなっている。両首脳は、自由で開かれたインド太平洋（FOIP）の実現に向けた共通のビジョンを共有したとみられる。",
+    "tags": [
+      "日本外交",
+      "戦闘機共同開発",
+      "安全保障"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260820de45372",
+    "importance": 3,
+    "image_query": "military fighter jet aircraft",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.906Z",
+    "publishedAt": "2026-08-20T18:23:58.000Z"
+  },
+  {
+    "slug": "20260821-18",
+    "headline": "オマーン、ホルムズ海峡の国際協議が不可欠と日本に主張",
+    "lead": "日本の茂木外相とオマーン外相が会談、ホルムズ海峡の通航問題について国際社会全体での議論の必要性を確認。",
+    "body_markdown": "日本の茂木敏充外務大臣は、イランとの仲介交渉を続けるオマーンのバドル・アルボサイディ外相と会談を実施した。主題はホルムズ海峡の通航をめぐる米国とイランの緊張関係である。\n\n同海峡は世界の原油輸送の約 35% が通過する国際的に極めて重要な航路。イラン戦争の激化に伴い、通航の自由と安全が脅威にさらされている。茂木外相とバドル外相は、「ホルムズ海峡のあり方は、沿岸国のみならず利用国を含めた国際社会全体で議論することが不可欠」との立場で一致。\n\nオマーンは伝統的に米国とイランの間で中立的仲介者の役割を果たしており、日本もエネルギー安全保障の観点からこうした多国間対話の重要性を強調している。日本の経済は中東への原油依存度が依然として高く、ホルムズ海峡の安定化は国策の最優先課題である。",
+    "tags": [
+      "ホルムズ海峡",
+      "日本外交",
+      "エネルギー"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260820de45423",
+    "importance": 3,
+    "image_query": "strait shipping vessel",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.907Z",
+    "publishedAt": "2026-08-20T15:01:00.000Z"
+  },
+  {
+    "slug": "20260821-19",
+    "headline": "北朝鮮 Kim Yo Jong、米韓の「主従関係」発言で対話姿勢示唆",
+    "lead": "北朝鮮の Kim Jong Un 総書記の妹 Kim Yo Jong が、米韓合同演習の縮小に関連してコメントを発表、対米対話の可能性を暗示している。",
+    "body_markdown": "北朝鮮の Kim Yo Jong 女史は、米国と韓国の合同軍事演習が米側の要求で規模を縮小したことを受けて談話を発表した。同女史は米韓関係を「主従関係」と表現し、その関係性を揶揄するトーンで発言。一方で、米国の政策転換に反応する形で、対話の可能性を間接的に示唆しているとみられる。\n\nトランプ政権は 2026 年に入り、韓国との連携姿勢を柔軟化させており、合同演習の規模縮小はその一環。北朝鮮がこれを政治的利得として解釈し、対米交渉への素地が形成されつつあるの分析される。\n\nKim Yo Jong は体制内で対外交渉を統括する権力者であり、その発言は北朝鮮指導部の意思表示として重要視される。米朝間の膠着状態が若干の変化を見せており、朝鮮半島の安定化に向けた外交活動の展開が注視されている。",
+    "tags": [
+      "北朝鮮外交",
+      "米朝交渉",
+      "朝鮮半島"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260821de45428",
+    "importance": 3,
+    "image_query": "political diplomacy negotiation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.908Z",
+    "publishedAt": "2026-08-20T19:48:22.000Z"
+  },
+  {
+    "slug": "20260821-20",
+    "headline": "HBO Max「Lanterns」、DC ドラマ最高の初週視聴数を記録",
+    "lead": "DC Studios の新ドラマシリーズ「Lanterns」が HBO Max で初週 930 万視聴数を達成、DC 作品としての初週最高記録を更新した。",
+    "body_markdown": "DC Studios が HBO Max で配信するドラマシリーズ「Lanterns」のシリーズプレミアが、公開から3日間で 930 万の視聴数を記録した。これは DC Studios 作品の初週視聴数としての最高記録である。\n\n「Lanterns」はゆかりのあるコミック原作のテレビシリーズ化。Green Lantern のキャラクターをテレビドラマとして本格化させた初の試みで、映画ではなくシリーズ展開を通じた長期的なナラティブの構築を目指している。初週の好調な視聴数は、スーパーヒーロー作品への視聴者の需要が依然として高いことを示す。\n\nワーナー・ブラザースは、失敗に終わった過去の DC プロジェクトの教訓を踏まえ、「Lanterns」では脚本と製作に高い品質基準を設定。初週成功は、DC ユニバースの再構築が観客の支持を獲得しつつあることを示唆している。今後のシーズン継続と関連作品の展開が期待される。",
+    "tags": [
+      "HBO Max",
+      "DCドラマ",
+      "ストリーミング"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/tv/news/lanterns-premiere-viewership-9-3-million-hbo-max-1236839414/",
+    "importance": 3,
+    "image_query": "television series drama",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.909Z",
+    "publishedAt": "2026-08-20T20:23:33.000Z"
+  },
+  {
+    "slug": "20260821-21",
+    "headline": "Apple Music、AI 生成曲に「Made With AI」ラベルを貼付へ",
+    "lead": "Apple Music が年内に、AI 生成音楽に対する「Made With AI」ラベル表示を開始し、曲の素性を明確化する。",
+    "body_markdown": "Apple Music は、プラットフォーム上の AI 生成楽曲に対して「Made With AI」ラベルを付与するルールを導入することを明らかにした。該当対象は、「a material portion」が AI により生成された楽曲とされている。\n\n同ラベル制度は、2026 年内の導入が予定されており、レコード会社やディストリビューター（配信仲介業者）が個別に対象楽曲をタグ付けする責任を負う。Apple は業界パートナーに対し、AI 生成音楽の取扱いに関する明確なガイドラインを提示した。\n\nこれは、AI 音楽生成ツール（MusicLM や、クローン音声ジェネレーターなど）の急速な普及に対応する措置。一方で、楽曲の「何%が AI か」といった法的定義や検証方法については、業界全体での合意がまだ形成されていない課題も残る。Spotify など競合ストリーミング・サービスも同様の施策を検討中とみられる。",
+    "tags": [
+      "Apple Music",
+      "AI音楽",
+      "ラベリング"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/music/news/apple-music-to-label-ai-made-tracks-1236839371/",
+    "importance": 3,
+    "image_query": "music streaming audio",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-08-20T21:22:46.910Z",
+    "publishedAt": "2026-08-20T19:39:34.000Z"
+  },
+  {
     "slug": "20260820-15",
     "headline": "Sentence Transformers がトークンレベルの検索を実現",
     "lead": "Hugging Face の新バージョン v6 では、テキスト全体を1ベクトルに圧縮せず、トークンごとの埋め込みで粒度を保つ MultiVectorEncoder が搭載される。",
