@@ -119,3 +119,4 @@
 {"ts":"2026-09-02T09:00:11Z","type":"auth_failed","streak":25}
 {"ts":"2026-09-02T21:00:10Z","type":"auth_failed","streak":26}
 {"ts":"2026-09-03T09:00:10Z","type":"auth_failed","streak":27}
+{"ts":"2026-09-03T21:00:20.288Z","type":"candidates","total":365,"pool":140,"skippedWeak":8,"skippedIrrelevant":5,"enriched":8}

@@ -1,5 +1,370 @@
 [
   {
+    "slug": "20260904-01",
+    "headline": "OpenAI、$10億の資金で最前線労働者にAIサイバー能力を提供",
+    "lead": "OpenAIは「Daybreak for Frontline Defenders」と銘打った全球イニシアティブを発表し、米国および国際的に重要インフラ保護に当たる職員に$10億分の補助金付きアクセスを提供する。",
+    "body_markdown": "OpenAIは9月3日、インフラ防衛に従事する職員向けのグローバルイニシアティブ「Daybreak for Frontline Defenders」の発表を通じて、$10億の補助金付きアクセス、トレーニング、技術サポート、およびパートナーシップのコミットメントを発表した。\n\n本イニシアティブは米国および国際的に水道、電力、地方自治体、銀行システムなどの重要インフラの保護を支援することを目的としている。Daybreak Defense Networkを通じて35以上のエンタープライズ製品とパートナー運用サービスが展開される予定だ。同社はMulti-State Information Sharing and Analysis Center（MS-ISAC）との新しいパイロットも発表した。\n\nCybersecurity における生成AIの役割が急速に高まる中、OpenAIは最前線の防衛官に最先端のツールを広く行き渡らせることで、組織的な防衛能力の底上げを狙う。ただし、強力なサイバー能力を持つAIの拡散には、悪用リスクも伴う。同社は適切な監督体制の構築と並行して提供する構えだ。",
+    "tags": [
+      "OpenAI",
+      "サイバーセキュリティ",
+      "AI防衛"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/daybreak-for-frontline-defenders",
+    "importance": 5,
+    "image_query": "cybersecurity infrastructure protection",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/lvizepLUAiputffdSjtue/f89a11ed639405a45b491f70c882f0de/SEO_Card___short_copy_example__1_.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-03T21:26:29.259Z",
+    "publishedAt": "2026-09-03T13:15:00.000Z"
+  },
+  {
+    "slug": "20260904-02",
+    "headline": "ネパール大規模土砂災害で1200人以上が死亡、5500人以上が行方不明",
+    "lead": "ネパールと中国の国境付近で発生した大規模土石流により、1200人以上が死亡し、5500人以上が行方不明となり、水力発電所で多くの作業員が取り残されている。",
+    "body_markdown": "ネパール国内で重大な自然災害が発生した。国境地域で起きた大規模な土砂災害により、これまでに1200人以上が死亡し、5500人以上の行方がわからなくなっている状況だ。\n\n水力発電所では多くの作業員が行方不明となっており、現場では生存者が残されている可能性が指摘されている。ネパール政府は早急な捜索・救助活動を展開する一方、今後の対策として早期警報システムの整備を進める方針を示している。\n\n日本の警察も対応に乗り出し、9月4日の報道によると、死者の身元特定などにあたる警察官5人がネパール政府からの要請に基づき派遣されることが決定した。気候変動による豪雨が南アジア地域での土砂災害を増加させており、地域全体における防災体制の強化が課題となっている。",
+    "tags": [
+      "ネパール",
+      "自然災害",
+      "土砂災害"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260904de48070",
+    "importance": 5,
+    "image_query": "landslide disaster rescue",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1694153015289-160bbcbd29a2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxsYW5kc2xpZGUlMjBkaXNhc3RlciUyMHJlc2N1ZXxlbnwxfDB8fHwxNzg4NDcwNzkwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Frederick Shaw",
+      "profileUrl": "https://unsplash.com/@dropfastcollective?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a group of people standing on top of a pile of rubble"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-03T21:26:30.296Z",
+    "publishedAt": "2026-09-03T20:53:48.000Z"
+  },
+  {
+    "slug": "20260904-03",
+    "headline": "フェミニズムの象徴Gloria Steinem、92歳で逝去",
+    "lead": "ウーマンリブを率いたジャーナリスト・活動家Gloria Steinemが9月3日、ニューヨークの自宅で92歳で亡くなった。同誌Ms.マガジンの共同創立者として50年間にわたり女性の権利を発信し続けた。",
+    "body_markdown": "フェミニズム運動の象徴的存在だったジャーナリスト・活動家Gloria Steinemが9月3日にニューヨークで亡くなった。彼女の周囲への声明によると「彼女は愛する者たちに囲まれて安らかに息を引き取った」という。\n\nSteinemは1969年に「After Black Power, Women's Liberation」の記事でフェミニズムの象徴的人物として確立され、1971年にはMs.マガジンを共同設立した。1963年には「A Bunny's Tale」の企画でPlayboy Bunnyに扮して職場での搾取を告発し、Roe v. Wadeの支持と妊娠中絶の権利確保に尽力した。2013年には大統領自由勲章を受章している。\n\nSteinemの遺産は単なる女性権の主張にとどまらず、ジェンダーロール規範が人間全体を縛ると指摘し、フェミニズムが「すべての人の完全な人間性」を実現する運動だと主張した点にある。新著『An Unexpected Life』は彼女の逝去から数週間後に出版予定。",
+    "tags": [
+      "Gloria Steinem",
+      "フェミニズム",
+      "女性の権利"
+    ],
+    "section": "カルチャー",
+    "source": "BBC",
+    "link": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o",
+    "importance": 5,
+    "image_query": "women rights activism feminism",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1583971663176-dd7180de1b76?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHJpZ2h0cyUyMGFjdGl2aXNtJTIwZmVtaW5pc218ZW58MXwwfHx8MTc4ODQ3MDc5MHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Natalie Hua",
+      "profileUrl": "https://unsplash.com/@nataliehua_?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "3 women holding brown cardboard box",
+      "description": "International women’s day"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-03T21:26:30.903Z",
+    "publishedAt": "2026-09-03T18:04:34.000Z"
+  },
+  {
+    "slug": "20260904-04",
+    "headline": "GoogleがAIセキュリティプログラム「Fairwind」で脆弱性対応を自動化",
+    "lead": "Google AIはセキュリティパートナーと政府向けの限定プログラム「Fairwind」を発表し、650以上の参加機関がGemini Cyberを用いた脆弱性検出と自動修復をリアルタイムで実施できるようにした。",
+    "body_markdown": "GoogleはAI駆動型のサイバー防衛ツールを政府と信頼できるパートナー向けに提供する限定プログラム「Fairwind」を9月2日に公表した。現在650以上のパートナー機関が参加しており、重要インフラ、政府機関、金融・医療セクターなどが対象だ。\n\n同プログラムが提供する主要ツールは2つ。ひとつは「Gemini 3.8 Flash Cyber」というセキュリティ特化型のAIモデルで、コード修正を作成・検証する際の推論能力を提供する。もうひとつは「CodeMender」という統合ツールで、脆弱性の発見、検証、修正を自動スケールで行える。従来は数週間かかる手作業を数分で実行できるという。\n\nプログラム参加機関には厳格な操作基準が求められ、アクセス制限と多要素認証の実装が必須だ。GoogleはAIのサイバー防衛能力が高まる一方で、その能力を悪用されるリスクも認識しており、アクセス管理を通じた安全性確保を重視している。",
+    "tags": [
+      "Google",
+      "サイバーセキュリティ",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "Google",
+    "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+    "importance": 4,
+    "image_query": "cybersecurity artificial intelligence defense",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__blog__header__1.width-1300.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-03T21:26:31.423Z",
+    "publishedAt": "2026-09-02T15:40:00.000Z"
+  },
+  {
+    "slug": "20260904-05",
+    "headline": "GoogleのAI気象モデル「WeatherNext 3」が時間単位・5km精度で予測",
+    "lead": "GoogleはAI気象予測モデル「WeatherNext 3」の公開を発表し、従来比5倍の空間解像度（5km）と1時間単位の更新でリアルタイム衛星データを活用した予測を可能にした。降水予報の精度が50%向上したという。",
+    "body_markdown": "Google DeepMindとGoogle Researchは9月3日、全球AI気象予測モデル「WeatherNext 3」を発表した。Google検索、Geminiアプリ、Google Map、Google Earth Engineに統合される予定だ。\n\nWeatherNext 3は地表気温・湿度を5キロ単位で、風速などの大気変数を25キロ単位で予測する。従来モデル（WeatherNext 2）の25キロ・6時間単位の予測と比べ、空間解像度は約5倍向上した。モデルは衛星データをリアルタイムで取り込み、従来の数値予報システムの6時間のデータ遅延を回避する。\n\n独立評価機関Brightbandの検証によると、降水予報の精度が最大50%向上し、特に従来の予報が不正確だった地域で改善が著しいという。気候変動に伴う極端気象の増加を背景に、より正確で高速なAI気象予測への社会的需要が高まっており、本発表はその需要に応えるものだ。",
+    "tags": [
+      "Google",
+      "AI気象予報",
+      "DeepMind"
+    ],
+    "section": "AI",
+    "source": "Google",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+    "importance": 4,
+    "image_query": "weather forecast storm rain satellite",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WeatherNext3_Title.width-1300.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-03T21:26:31.849Z",
+    "publishedAt": "2026-09-03T15:00:00.000Z"
+  },
+  {
+    "slug": "20260904-06",
+    "headline": "Adobe、CEO後継者にAnil Chakravarthyを指名 12月に就任予定",
+    "lead": "Adobeは2026年9月3日、18年間のトップを務めたShantanu Narayenに代わるCEOにAnil Chakravarthyを指名。Chakravarthyはカスタマー体験オーケストレーション部門の会長で、12月1日に就任予定だ。",
+    "body_markdown": "ソフトウェア大手Adobeは9月3日、Anil Chakravarthyを次期CEOに指名すると発表した。Chakravarthyはこれまでカスタマー体験オーケストレーションおよび世界営業部門の会長を務めており、12月1日付でCEO職に就任予定。Adobeの取締役会にも就任する。\n\nShantanu Narayenは1998年の入社以来、18年間CEOを務めており、3月に退任方針を表明していた。退任後は会長職に留任し、Chakravarthyとの経営移行をサポートする予定だ。Narayenの支配下ではAdobe GenAIのような生成AI統合機能の導入など、同社の戦略転換が進められてきた。\n\nChakravarthyはSAPやOracle、Amazon Web Servicesなどでの営業・カスタマー経営経験を持つ。業界予測では、彼のテクノロジー企業経営経験がAdobeのエンタープライズ向けAI製品の推進に生かされるとみられている。",
+    "tags": [
+      "Adobe",
+      "CEO交代",
+      "経営"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/03/adobe-anil-chakravarthy-ceo.html",
+    "importance": 4,
+    "image_query": "business corporate leadership",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758518729685-f88df7890776?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxidXNpbmVzcyUyMGNvcnBvcmF0ZSUyMGxlYWRlcnNoaXB8ZW58MXwwfHx8MTc4ODQ3MDc5Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vitaly Gariev",
+      "profileUrl": "https://unsplash.com/@silverkblack?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Four professionals in a business meeting around a table",
+      "description": "Top view of group of business people in suits discussing financial graphs in lobby of business center"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-03T21:26:32.608Z",
+    "publishedAt": "2026-09-03T20:52:23.000Z"
+  },
+  {
+    "slug": "20260904-07",
+    "headline": "Thinking Machines、Mira Murati率いるAI企業が$10億の資金調達で$400億評価に",
+    "lead": "OpenAI元CTO Mira Murati が設立したAIスタートアップ「Thinking Machines」が、Accel主導の資金調達ラウンドで$10億を調達し、評価額が$400億に達した。年間経常利益は1億ドルを超えるという。",
+    "body_markdown": "OpenAI元CTO（最高技術責任者）Mira Murati が2025年初に立ち上げたAIラボ「Thinking Machines」が、$10億の資金調達交渉を進めている。Accel主導で、同社の評価額は$400億に達する見通しだ。これは初期段階での$20億ラウンド時の$120億評価から大幅上昇であり、競合VC からの強い関心を示すものだ。\n\nThinking Machinesは「Inkling」というオープンウエイト言語モデルを開発し、ユーザーが独自データで自社向けAIを調整する際の利用料金で収益を得ている。年間経常利益が1億ドルを超えており、高い利益率での資金調達となる。一方、Lilian WengやLuke Metzといった主要共同創立者がOpenAIに戻ったことで、経営チームの落ち着きが注視されている。\n\nMuratyはOpenAIを離れた際、生成AI企業間での人材流出の象徴として見なされた。同社はCEOや技術者の処遇をめぐって競争が激化する業界の縮図となっている。",
+    "tags": [
+      "Thinking Machines",
+      "AIスタートアップ",
+      "資金調達"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+    "importance": 4,
+    "image_query": "startup funding investment artificial intelligence",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1591522810896-cb5f45acb9a1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOHx8c3RhcnR1cCUyMGZ1bmRpbmclMjBpbnZlc3RtZW50JTIwYXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZXxlbnwxfDB8fHwxNzg4NDcwNzkzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "white and black typewriter on white table"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-03T21:26:33.354Z",
+    "publishedAt": "2026-09-03T19:36:29.000Z"
+  },
+  {
+    "slug": "20260904-08",
+    "headline": "Lululemon、第2四半期決算で15%株価下落 売上鈍化を受けて",
+    "lead": "スポーツウェア大手Lululemonは9月3日、第2四半期の決算が市場予想を下回り、15%の株価下落に見舞われた。同社は事業再建に向けた経営の舵取りに苦労している。",
+    "body_markdown": "スポーツウェアメーカーのLululemonは9月3日、第2四半期決算を発表した。同社の決算は市場予想を下回り、売上成長の鈍化と利益率の低下が報告されたため、株価は15%下落した。同社はかつての高成長期の勢いを失いつつある状況だ。\n\nスポーツブランド業界は供給過剰と顧客需要の変動に直面しており、Lululemonも例外ではない。オンライン販売比率の上昇に伴う体質改善や、新製品カテゴリ展開による収益性向上が急務となっている。同社の経営陣は商品ラインアップの最適化と顧客体験の改善に注力しており、回復軌道への転換を急いでいる。",
+    "tags": [
+      "Lululemon",
+      "小売",
+      "決算"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/03/lululemon-lulu-q2-2026-earnings.html",
+    "importance": 4,
+    "image_query": "retail fashion sportswear",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1637666598369-31b8863c63b8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8cmV0YWlsJTIwZmFzaGlvbiUyMHNwb3J0c3dlYXJ8ZW58MXwwfHx8MTc4ODQ3MDc5M3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Craig Lovelidge",
+      "profileUrl": "https://unsplash.com/@craigology?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a clothing store display with mannequins and shirts",
+      "description": "Retail shoot at the Nike store, Mall of The Netherlands for Wulverhorst Construction (Woerden)"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-03T21:26:33.976Z",
+    "publishedAt": "2026-09-03T20:52:03.000Z"
+  },
+  {
+    "slug": "20260904-09",
+    "headline": "中国、不動産低迷の政策転換で建設・雇用への影響懸念",
+    "lead": "中国政府は不動産市場の落ち込みを緩和するための新政策を打ち出したが、建設業と雇用への副作用を懸念する声が上がっている。",
+    "body_markdown": "中国は過去10年間の不動産投資バブルを背景に、2024年から市場の深刻な調整に直面している。政府は政策金融や開発企業への支援を通じた救済を試みているが、その効果は限定的であり、不動産購入意欲は回復していない。\n\n国内外のエコノミストは、政府の新たな政策転換が短期的には建設業の雇用削減につながると予測している。不動産セクターは建設労働者、建設資材供給、金融仲介など広範な産業と連結しており、その縮小は連鎖的な経済影響を招く可能性が高い。同時に金融システムへの影響も懸念されており、不動産開発企業の債務不履行が銀行セクターに波及するリスクが存在する。",
+    "tags": [
+      "中国",
+      "不動産",
+      "経済"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/09/03/china-tries-to-look-past-the-property-slump",
+    "importance": 4,
+    "image_query": "real estate construction market",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxyZWFsJTIwZXN0YXRlJTIwY29uc3RydWN0aW9uJTIwbWFya2V0fGVufDF8MHx8fDE3ODg0NzA3OTR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Scott Blake",
+      "profileUrl": "https://unsplash.com/@sunburned_surveyor?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "seven construction workers standing on white field"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-03T21:26:34.898Z",
+    "publishedAt": "2026-09-03T09:35:32.000Z"
+  },
+  {
+    "slug": "20260904-10",
+    "headline": "メキシコ、投資家の信認奪回に苦戦 Sheinbaumの政策に懐疑",
+    "lead": "メキシコの債券市場は Claudia Sheinbaum大統領の経済政策への投資家不信を反映し、イールド上昇と通貨安で打撃を受けている。市場は改革の実効性を疑問視している。",
+    "body_markdown": "メキシコのSheinbaum大統領が2024年10月に就任して以来、債券市場はボラティリティの高い状態が続いている。投資家は彼女の社会支出拡大と貿易政策に対する懸念から、メキシコ国債利回りを押し上げている。ペソ相場も下げ圧力を受けており、資本流出が続いている状況だ。\n\n市場の不信は、大統領の改革発表後も回復していない。メキシコのビジネス環境の不透明性、司法制度の改革への政治的抵抗、北米自由貿易協定（NAFTA）再交渉を巡る米国との緊張が、中長期的な景気展望の重しになっている。中央銀行が金利を据え置く選択肢を失いつつあり、インフレ対策と景気支援のバランスが崩れつつある。",
+    "tags": [
+      "メキシコ",
+      "債券市場",
+      "経済"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/09/03/mexico-is-struggling-to-win-over-bond-markets",
+    "importance": 4,
+    "image_query": "financial market bond trading",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1737301214226-3f959016436f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8ZmluYW5jaWFsJTIwbWFya2V0JTIwYm9uZCUyMHRyYWRpbmd8ZW58MXwwfHx8MTc4ODQ3MDc5NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jakub Żerdzicki",
+      "profileUrl": "https://unsplash.com/@jakubzerdzicki?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A laptop computer sitting on top of a desk",
+      "description": "businessman table global finance and cryptocurrency markets"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-03T21:26:35.613Z",
+    "publishedAt": "2026-09-03T09:35:43.000Z"
+  },
+  {
+    "slug": "20260904-11",
+    "headline": "英国住宅ローン金利の上昇懸念 スワップレートが3年ぶり高値",
+    "lead": "英国の住宅ローン金利が上昇圧力を受けている。銀行がローン金利の設定に使用するスワップレートが3年ぶりの高値に達し、世界的な債券市場の混乱が経済を揺さぶっている。",
+    "body_markdown": "英国の住宅ローン市場は大きな転機を迎えている。銀行がモーゲージ金利の参考にするスワップレートが3年ぶりの高値に到達し、数百万の借り手が今後数カ月で金利引き上げの対象になる可能性が高い。\n\nこの上昇の背景には、原油価格上昇がインフレ圧力を招き、利上げ見通しが高まったことがある。同時に世界的な債券市場の売却圧力が英国国債利回りを押し上げており、経済の不確実性が増す中で家計は借入コスト上昇に直面することになる。英中央銀行（BOE）の利下げ方針とは反対の方向に市場が動いており、政策当局者の意図と市場の力学のズレが顕著だ。\n\n住宅ローンの滞納増加と家計の可処分所得圧迫が懸念され、小売やサービス業などの消費関連産業への悪影響も予想されている。",
+    "tags": [
+      "英国",
+      "住宅ローン",
+      "金利"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/money/2026/sep/03/uk-mortgage-borrowers-brace-for-rate-jump-global-bond-sell-off",
+    "importance": 4,
+    "image_query": "mortgage real estate housing market",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1754039985021-5c50d180d7cd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxtb3J0Z2FnZSUyMHJlYWwlMjBlc3RhdGUlMjBob3VzaW5nJTIwbWFya2V0fGVufDF8MHx8fDE3ODg0NzA3OTZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jakub Żerdzicki",
+      "profileUrl": "https://unsplash.com/@jakubzerdzicki?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Real estate investment shown with houses and money",
+      "description": "Real estate investment property prices finance. Conceptual close-up hand arranging miniature house models among euro banknotes, charts, calculator, and house key. Symbol of home ownership, renting, mortgage, and real estate market dynamics"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-03T21:26:36.557Z",
+    "publishedAt": "2026-09-03T17:21:57.000Z"
+  },
+  {
+    "slug": "20260904-12",
+    "headline": "副大統領Vance、FRBに金利引き下げを要求 あと2週間で決定へ",
+    "lead": "米国副大統領J.D. Vanceは9月3日、連邦準備制度理事会（FRB）に対して金利引き下げを要求。2週間以内の金融政策委員会での決定が控えている。",
+    "body_markdown": "米国副大統領J.D. Vanceは9月3日、金融引き締めの影響を受けている企業と労働者への支援として、FRBが金利を引き下げるべきだと主張した。彼は「何か支援があるといいのだが」と述べ、政権の経済戦略に対する支持の欠如を示唆した。\n\nVanceの発言は連邦公開市場委員会（FOMC）の9月中旬の会合を控えてのもの。市場では金利据え置きと利下げの見通しが交錯しており、政治的な圧力がFRBの独立性に影響を与える可能性が指摘されている。同時に物価上昇率がなお上昇圧力を示しており、金融当局者の判断は難しい局面だ。\n\nトランプ政権は減税と支出削減を軸とした経済政策を進める一方で、金利についてはより低い水準を求める傾向を示しており、この圧力がFRBの政策決定にどう影響するかが注視されている。",
+    "tags": [
+      "FRB",
+      "金利",
+      "経済政策"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/03/vance-fed-interest-rates-trump-bond-yields.html",
+    "importance": 4,
+    "image_query": "federal reserve monetary policy finance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1669224282624-b1c195068ed4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8ZmVkZXJhbCUyMHJlc2VydmUlMjBtb25ldGFyeSUyMHBvbGljeSUyMGZpbmFuY2V8ZW58MXwwfHx8MTc4ODQ3MDc5N3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Andrew Dawes",
+      "profileUrl": "https://unsplash.com/@9andrewd?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "text",
+      "description": "Close up of dollar bill"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-03T21:26:37.174Z",
+    "publishedAt": "2026-09-03T19:18:59.000Z"
+  },
+  {
+    "slug": "20260904-13",
+    "headline": "ロンドン初の自動運転タクシー運行開始 東京でも年内試験予定",
+    "lead": "配車サービス大手のUberとイギリスのスタートアップが、ロンドンで初の自動運転タクシー運行を開始。両社は東京でも2026年内の試験運行を予定している。",
+    "body_markdown": "Uberとイギリスのスタートアップは9月3日、ロンドンで初の自動運転タクシー運行を正式に開始した。同サービスは限定地域での乗客ピックアップを皮切りにしており、安全性と技術の信頼性を確認したうえで、サービス地域の拡大を計画している。\n\nUberは世界各地での自動運転モビリティへの投資を加速しており、今回のロンドン展開は欧州での重要なマイルストーンだ。同社は東京での試験運行を2026年内に実施予定で、日本市場への参入も視野に入れている。自動運転技術の実装には規制当局の承認が不可欠であり、東京での試験実施は日本政府の許可取得を示す動きだ。\n\n自動運転タクシーの普及は都市交通のDXに大きな波紋をもたらす一方で、ドライバーの雇用喪失や安全基準の不透明性など、社会的課題も抱えている。",
+    "tags": [
+      "自動運転",
+      "タクシー",
+      "Uber"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260904de48065",
+    "importance": 4,
+    "image_query": "autonomous vehicle taxi transportation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1544842413-05944bc01da2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8YXV0b25vbW91cyUyMHZlaGljbGUlMjB0YXhpJTIwdHJhbnNwb3J0YXRpb258ZW58MXwwfHx8MTc4ODQ3MDc5N3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "CJ Dayrit",
+      "profileUrl": "https://unsplash.com/@cjred?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "timelapse photography of black vehicle at night",
+      "description": "K Taxi"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-03T21:26:37.738Z",
+    "publishedAt": "2026-09-03T20:16:50.000Z"
+  },
+  {
+    "slug": "20260904-14",
+    "headline": "ベネズエラ野党指導者、トランプの油田取引に反発 政権の正当性を否定",
+    "lead": "ベネズエラ野党指導者María Corina Machadoは、トランプ政権がMaduro暫定政府と結んだ「世紀の石油取引」について、同政権は「非嫡出的」であり交渉権がないと主張した。",
+    "body_markdown": "ベネズエラの野党指導者María Corina Machadoは9月3日、ドナルド・トランプ米大統領が発表した「世界最大規模の石油取引」に対する公式見解を述べた。彼女はベネズエラの天然資源は「非嫡出的な政権」に属しておらず、民主的な政府の同意なしに外国と取引されるべきではないと主張している。\n\nMachadoの立場は複雑だ。トランプとの関係に配慮しながらも、野党としてMaduro体制の交渉権を否定する必要がある。ベネズエラの政治は長年の独裁体制と国内対立により分断されており、石油資源の国家主権問題が国内的・国際的な論争の中心になっている。\n\nトランプがベネズエラ油田への投資と採掘権を得る計画は、米国のエネルギー戦略と矛盾する利益を巡る複雑な地政学的状況を浮き彫りにしている。",
+    "tags": [
+      "ベネズエラ",
+      "石油",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/sep/03/venezuelan-opposition-leader-questions-us-oil-deal-with-illegitimate-regime",
+    "importance": 3,
+    "image_query": "oil energy geopolitics",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-03T21:26:37.752Z",
+    "publishedAt": "2026-09-03T16:17:29.000Z"
+  },
+  {
     "slug": "20260821-01",
     "headline": "OpenAI、戦略研究チーム「AI Futures」を立ち上げ",
     "lead": "OpenAI が AI の長期的な社会的影響を研究する専門チームを設立し、政策提言へ向けた取り組みを本格化させた。",
