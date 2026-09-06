@@ -1,5 +1,516 @@
 [
   {
+    "slug": "20260907-01",
+    "headline": "推論能力でAIが人間超過へ、OpenAIが研究進捗を発表",
+    "lead": "OpenAIの研究チームが、推論型モデルが既に複雑な思考を独立で実行しており、機械知能が人間を上回る可能性を現実視すべき段階に入ったと指摘した。",
+    "body_markdown": "OpenAIは9月6日、推論能力に優れた言語モデルの最新研究について公式ブログで発表した。主任科学者Jakub Pachocki氏は、2023年の「RLSlow」プロジェクト開始から3年で、モデルが独立して思考連鎖を形成し、複雑なタスクを実行できることを確認したと述べた。\n\n現在、推論型言語モデルはコンピュータインターフェース操作、人間との協働、研究プロジェクト実行といった複雑なタスクに対応。同時にサイバーセキュリティの脅威も急速に拡大しており、新たな防御策が必要になっている。Pachocki氏は「我々の生涯のうちに、自分たちより有意に賢い機械を実際に目にする」と述べ、この現実への社会的備えと対話の緊急性を強調した。推論能力の進展が加速する中、その社会への影響について議論が急速に進む可能性がある。",
+    "tags": [
+      "AI",
+      "推論能力",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/an-alien-mind",
+    "importance": 5,
+    "image_query": "artificial intelligence brain thinking",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7f6sLIUC3tdeliJMQ3PwOq/c47109c8b3f00ccbf881271c9c720877/og-an-alien-mind.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/an-alien-mind",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:26.301Z",
+    "publishedAt": "2026-09-06T09:00:00.000Z"
+  },
+  {
+    "slug": "20260907-02",
+    "headline": "OpenAIが自動研究インターン開発を達成、AI研究者が現実化",
+    "lead": "OpenAIが昨年秋に目標を掲げていた自動化研究者システムの構築に成功し、人間監督下での深層学習研究の加速化を実現した。",
+    "body_markdown": "OpenAIは9月6日、自動化AI研究者システムの開発完了を発表した。同社が昨年秋に掲げていた「研究インターン」の構築目標を、予定通り9月までに達成した。\n\n「研究インターン」とは、人間の監督下で深層学習とAI安全性の研究を遂行できるシステムを指す。このシステムは十分に定義された研究課題を自律的に実行でき、反復的な改善が可能。OpenAIは測定基準に基づき、目標到達を確認したとしている。\n\n同社は今後、さらに高度な「自動研究者」システムを2028年3月までに実現する予定。このAI研究インターンの実装は、深層学習分野の研究速度を大幅に加速させる可能性がある。",
+    "tags": [
+      "AI",
+      "研究開発",
+      "自動化"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "importance": 5,
+    "image_query": "researcher laboratory artificial intelligence",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/CKNTAkrFq7W0JOjXP5np2/c26e2323a05dec6bd41f6515c5d6be0f/SEO_Card__11_.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:26.554Z",
+    "publishedAt": "2026-09-06T08:00:00.000Z"
+  },
+  {
+    "slug": "20260907-03",
+    "headline": "OpenAI、最高度モデルAstraの安全性対策を発表",
+    "lead": "OpenAIは最新型言語モデル「GPT-6 Astra」の安全性概要を公開し、サイバーセキュリティ能力が危機的水準に達したことを認め、強化された防御措置を実装したと説明した。",
+    "body_markdown": "OpenAIは9月3日、最新モデル「GPT-6 Astra」の安全性概要を発表した。Astraは同社が広く配備した最高度のモデルで、同社の予測枠組みにおいてサイバーセキュリティ能力が「Critical」レベルに到達した初のモデルだという。\n\nCriticalレベルとは、適切なツールとアクセスがあれば、Astraが未知のセキュリティ欠陥を発見し、多くの防御されたシステムにおいて新たな悪用方法を開発できる段階を意味する。これに対応し、OpenAIはモデルの有害なサイバー行動を防ぐため防御を大幅に強化。内部開発での厳密な隔離、チェックポイント暗号化、思考連鎖を含む全軌跡の普遍的監視、内部使用前の遮断的評価プロセスを実装した。",
+    "tags": [
+      "AI",
+      "セキュリティ",
+      "GPT"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/safety-overview-gpt-6-astra",
+    "importance": 5,
+    "image_query": "cybersecurity data protection",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4yt4SoYcLzQmJlCi8mhR0V/b0c0bd94bb9255bc363f08e1abea7d75/safety-overview-gpt-6-astra-seo.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:27.639Z",
+    "publishedAt": "2026-09-03T00:00:00.000Z"
+  },
+  {
+    "slug": "20260907-04",
+    "headline": "ドイツ極右AfD、州議会選で44.5%獲得し歴史的勝利",
+    "lead": "ドイツ東部ザクセン・アンハルト州の議会選挙で、極右政党AfDが44.5%の得票率で圧倒的勝利を収め、WWII後初の極右政党州政権誕生が現実化した。",
+    "body_markdown": "ドイツ東部ザクセン・アンハルト州で9月6日実施された州議会選挙で、移民排斥政策を掲げる極右政党「ドイツのための選択肢」(AfD)が44.5%の得票率を獲得した。与党・保守系キリスト教民主同盟(CDU)の18.5%を大きく上回り、同州で最大政党となった。\n\n左派政党9.5%、社民党8%、緑党9%に対し、AfDは倍以上の支持を獲得。WWII後初の極右政党による州議会第1党の座を獲得した。ただし州政府形成には過半数が必要なため、他党との連立協議が必至となる。AfDの有力候補Siegmundは、この州からの政治革命が2029年の国政選挙での全国政権獲得につながると意図している。地域の不景気や難民政策への不満が投票動向に大きく影響したとみられている。",
+    "tags": [
+      "ドイツ",
+      "選挙",
+      "極右政党"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260906de48502",
+    "importance": 4,
+    "image_query": "election voting ballot",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1782998307726-f93ec14eda24?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxlbGVjdGlvbiUyMHZvdGluZyUyMGJhbGxvdHxlbnwxfDB8fHwxNzg4NzI5NjI4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jesse Paul",
+      "profileUrl": "https://unsplash.com/@jesseapaul?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Two voting booths with",
+      "description": "Voting booths wait ready for primary election voters at the Belmar Library in Lakewood, Colorado, on Monday, June 29, 2026."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:28.472Z",
+    "publishedAt": "2026-09-06T11:01:46.000Z"
+  },
+  {
+    "slug": "20260907-05",
+    "headline": "米特使がキーウ訪問、Zelensky冬季戦闘継続を予想",
+    "lead": "トランプ政権の和平仲介特使がモスクワでプーチンと会談後、ウクライナの首都キーウを訪れZelenskyと協議。Zelenskyは戦闘が冬季を超えて継続する見通しを示唆した。",
+    "body_markdown": "米国の特使Jared KushnerとSteve Witkoffは9月5日にモスクワでロシアのプーチン大統領と3時間の協議を実施。その後6日、ウクライナの首都キーウを訪問し、Zelensky大統領と会談した。\n\nZelenskyは両特使との会談を「実質的」と評価しながらも、ロシアとの戦闘が冬季にも続く可能性が高いと述べた。領土問題の解決には「指導者レベルでの交渉」が必要だとし、プーチンとの直接会談を求めている。トランプ政権は選挙公約として戦争の早期終結を掲げており、特使派遣は対ロシア和平仲介の本格的な動きを示唆している。ただし過去の和平交渉は実質的な進展を生まなかったため、今回の交渉成果は不透明な状況。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "米国"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC",
+    "link": "https://www.bbc.co.uk/news/articles/c6248nvqy8po",
+    "importance": 4,
+    "image_query": "peace talks diplomacy negotiation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1787532378876-37e514435337?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxwZWFjZSUyMHRhbGtzJTIwZGlwbG9tYWN5JTIwbmVnb3RpYXRpb258ZW58MXwwfHx8MTc4ODcyOTYyOHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Gylain Omer",
+      "profileUrl": "https://unsplash.com/@gullin_omer?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Two men in suits sitting at a desk with a flag in the background"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:29.129Z",
+    "publishedAt": "2026-09-06T20:41:58.000Z"
+  },
+  {
+    "slug": "20260907-06",
+    "headline": "インドネシア火山噴火、17万人の乗客が足止め",
+    "lead": "インドネシアの火山噴火により、ジャカルタやバリを含む8つの主要空港が閉鎖され、約17万人の旅客が足止めされた。火山灰の拡散で712便が影響を受けた。",
+    "body_markdown": "インドネシアの活火山が9月5日夜から噴火を開始し、火山灰がジャカルタ近郊の空港周辺に拡散。スカルノ・ハッタ国際空港はじめ、バリのングラライ国際空港やメダンなど8つの主要空港が運航を停止した。\n\n約17万人の乗客が足止めされ、運輸省によると712便が影響を受けている。当局は火山灰が航空機エンジンに深刻なダメージをもたらすため、安全が確認されるまで施設の閉鎖を継続する方針。火山は金曜夜から継続的な地震活動を記録し、日曜日早朝に2度の追加噴火が発生している。当局は現在のところ死傷者は報告されておらず、避難命令も発出していない。火山灰は数百キロ離れた地域でも観測されている。",
+    "tags": [
+      "インドネシア",
+      "火山",
+      "自然災害"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC",
+    "link": "https://www.bbc.co.uk/news/articles/cvgy5k4n07ko",
+    "importance": 4,
+    "image_query": "volcano eruption ash sky",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1589287309196-b66313319fe5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8dm9sY2FubyUyMGVydXB0aW9uJTIwYXNoJTIwc2t5fGVufDF8MHx8fDE3ODg3Mjk2Mjl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mitsuo Komoriya",
+      "profileUrl": "https://unsplash.com/@mitzmoco?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "green and brown mountain under white clouds during daytime",
+      "description": "Daily lives with volcano. >>> \nThe volcano \"Sakurajima\" in eruption. Seeing this scene, those who visit Sakurajima for the first time will be surprised. But this is everyday. Sakurajima was erupting about once an hour on that day. Of course, no damage. I was just worried about the volcanic ash falling."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:30.027Z",
+    "publishedAt": "2026-09-06T16:00:21.000Z"
+  },
+  {
+    "slug": "20260907-07",
+    "headline": "欧州初の商業ロケット軌道到達、ドイツ企業Isar Aerospace",
+    "lead": "ドイツの宇宙新興企業Isar Aerospaceが、欧州大陸初の商業軌道投入ロケット「Spectrum」の打ち上げに成功。衛星5基を配備した。",
+    "body_markdown": "ドイツの宇宙企業Isar Aerospaceは9月5日、ノルウェー北部のアンドーヤ宇宙港から2段式ロケット「Spectrum」を打ち上げ、低軌道への到達に成功した。欧州大陸からの商業軌道投入ロケット初の成功例となる。\n\nSpectrumは全長約28メートル。同社は前回の3月の打ち上げで30秒で失敗・墜落したが、今回は5つのキューブサット衛星と欧州宇宙機関(ESA)関連の技術実験搭載物を正常に軌道に配備した。ロケットは液体酸素とプロパンを燃料とし、第1段で9基、第2段で1基のエンジンを搭載。低軌道への運送能力は最大1,000kg。\n\nIsar Aerospaceは2026年6月に約2.7億ユーロの資金調達を実施し、評価額は約20億ユーロに到達。8月にはESAから商業ロケット競争プログラムの下で2億ユーロの契約を獲得している。",
+    "tags": [
+      "宇宙",
+      "ロケット",
+      "商業航宇宙"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/science/990906/isar-aerospace-europe-orbital-rocket-launch",
+    "importance": 4,
+    "image_query": "rocket launch spacecraft sky",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1700508317396-e343a69ac72f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxyb2NrZXQlMjBsYXVuY2glMjBzcGFjZWNyYWZ0JTIwc2t5fGVufDF8MHx8fDE3ODg3Mjk2MzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "nader saremi",
+      "profileUrl": "https://unsplash.com/@nssaremi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a rocket is flying through the air on a foggy day"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:30.666Z",
+    "publishedAt": "2026-09-06T19:04:22.000Z"
+  },
+  {
+    "slug": "20260907-08",
+    "headline": "Anthropic著作権和解、著者向け15億ドルの支払い決定",
+    "lead": "AI企業Anthropicが著作権侵害訴訟で15億ドルの和解金支払いを承認された。約50万冊の書籍データを無断使用した責任を認め、11月から支払いが開始される。",
+    "body_markdown": "カリフォルニア州の裁判所は7月20日、Anthropicに対する著作権集団訴訟で15億ドルの和解金支払いを最終承認した。これは著作権訴訟史上最大規模の和解。\n\n訴訟「Bartz v. Anthropic」は、ノンフィクション作家Charles Graeber、Kirk Wallace Johnson、スリラー作家Andrea Bartzによって提起された。彼らはAnthropicが約50万冊の書籍をオンライン海賊サイトから無断で入手し、モデル学習に使用したと主張。カリフォルニアの裁判所は6月の判決でAnthropicが最大700万冊をダウンロードした可能性があると述べていた。\n\n初回支払いは11月1日から11月15日の間に実施される予定。1冊あたりの初回支払額は約2,203ドル（手数料・弁護費等差引後）。和解により、両社は12月の裁判を回避することができた。",
+    "tags": [
+      "AI",
+      "著作権",
+      "法律"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+    "importance": 3,
+    "image_query": "law book court",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:30.669Z",
+    "publishedAt": "2026-09-06T20:47:37.000Z"
+  },
+  {
+    "slug": "20260907-09",
+    "headline": "Amazon貨物機がマイアミ空港で墜落、複数人が負傷",
+    "lead": "Amazonロゴを掲げた貨物機がマイアミ国際空港の着陸時に滑走路をオーバーラン。複数の車両に衝突し、火災が発生した。",
+    "body_markdown": "プエルトリコから飛来したAmazon貨物機(Boeing 767-300)が、9月6日日曜日午後2時過ぎにマイアミ国際空港の着陸時に滑走路をオーバーランした。21 Air Flight 7598と呼ばれるこの便は、複数の車両に衝突して炎上。\n\n複数人の負傷が報告されているが、詳細な被害状況は当初不明であった。FAA(米国連邦航空局)は声明を発表し、事故を確認。事故後、空港の便の運用は一時的に停止され、60機以上の航空機が影響を受けた。調査機関による詳しい原因究明が進められている。マイアミ国際空港はアメリカ最大級の空港の一つで、この事故は多くの乗客に影響を与えた。",
+    "tags": [
+      "事故",
+      "航空",
+      "Amazon"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/us-news/2026/sep/06/amazon-cargo-plane-crashes-miami-airport",
+    "importance": 3,
+    "image_query": "airplane crash emergency",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:30.670Z",
+    "publishedAt": "2026-09-06T20:24:13.000Z"
+  },
+  {
+    "slug": "20260907-10",
+    "headline": "中国、金融セクターに540億ドルの資本注入を発表",
+    "lead": "中国政府が金融機関への540億ドル(約40億ポンド)の資本注入を決定。経済成長の鈍化に対応し、株式市場への投資強化を目指す。",
+    "body_markdown": "中国は9月6日、金融セクターへの540億ドル(約40億ポンド)の資本注入を発表した。複数の政府機関と国有企業、さらには国内タバコ独占企業まで含む多くの機関が数十億ドル規模の資本拠出に参加する予定。\n\nこの施策は経済成長の鈍化に直面する北京の対応を示すもの。銀行及び保険会社に対する資本注入は、これら機関の株式市場への投資促進と現金準備金の補充を意図している。中国は直近で経済減速の兆候を見せており、失業率や個人消費の弱さが懸念されている。投資銀行や公開市場が不調に陥る中、政府による直接的な資本注入は市場安定化の試みと見られている。",
+    "tags": [
+      "中国",
+      "経済",
+      "金融"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/sep/06/china-prepares-40bn-stimulus-for-financial-sector-amid-fears-over-sluggish-growth",
+    "importance": 3,
+    "image_query": "stock market finance trading",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:30.671Z",
+    "publishedAt": "2026-09-06T15:16:43.000Z"
+  },
+  {
+    "slug": "20260907-11",
+    "headline": "EU、中国の「植民地化」に警告、30万人の失業予測",
+    "lead": "欧州の産業団体が、中国の部品メーカーによるサプライチェーン支配に警告。2026年後半だけで30万人の製造業失業を予測している。",
+    "body_markdown": "欧州の鉱物・金属産業団体Eurometalは9月6日、EU製造業における雇用喪失の加速に警告を発した。中国が部品製造での競争力を強化する中、2026年後半だけで30万人の失業が発生する可能性があるという。\n\n中国はEUとの貿易で過去最高の日額10億ユーロの黒字を記録しており、産業団体はこれを「産業の植民地化」と表現している。中国企業による低価格競争が、欧州のメーカーの市場シェア喪失につながっているとして、ブリュッセルの政策担当者に規制強化を促している。デモンストレーションの一環として、業界関係者は10個の棺を用いた抗議活動をブリュッセルで予定。欧州委員会への要請では、対中関税や投資制限などの保護主義的措置の検討が求められている。",
+    "tags": [
+      "EU",
+      "中国",
+      "貿易"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/sep/06/eu-factory-job-cuts-china-colonises-supply-chains-industry-warns",
+    "importance": 4,
+    "image_query": "factory manufacturing worker",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1730584474338-aa8d9d186bf7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxmYWN0b3J5JTIwbWFudWZhY3R1cmluZyUyMHdvcmtlcnxlbnwxfDB8fHwxNzg4NzI5NjMxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Cemrecan Yurtman",
+      "profileUrl": "https://unsplash.com/@cmrcn_?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A man working on a machine in a factory",
+      "description": "a factory worker welding"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:31.144Z",
+    "publishedAt": "2026-09-06T17:00:10.000Z"
+  },
+  {
+    "slug": "20260907-12",
+    "headline": "ジャガー・ランドローバー、4000人の失業を発表",
+    "lead": "英国最大自動車メーカーJLRが、2年間で4000人の人員削減を発表。米国の関税とセキュリティ侵害により、約17億ポンドの経営改善が必要になった。",
+    "body_markdown": "英国最大自動車メーカーのジャガー・ランドローバー(JLR)は9月6日、自発的な早期退職制度を開始すると発表した。給与・管理職スタッフを対象に、向こう2年間で4000人の削減を計画している。\n\n同社は世界市場の変化に対応するため、2年間で約17億ポンドの経費削減を目指しており、今回の人員削減がその大部分を占める。sales の著しい減少、昨年の大型サイバー攻撃の影響、トランプ政権による米国関税など複合的な要因が経営を圧迫している。英国のBusiness Secretary Jonathan Reynoldsは、政府がJLRへの財政支援は行わない方針を示唆。業界とのタスクフォース協議は予定されているが、政府主導の救済は期待できない状況。",
+    "tags": [
+      "JLR",
+      "失業",
+      "自動車"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/sep/06/bailouts-jaguar-land-rover-redundancies-cuts-business-secretary",
+    "importance": 3,
+    "image_query": "car factory workers",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:31.146Z",
+    "publishedAt": "2026-09-06T13:24:05.000Z"
+  },
+  {
+    "slug": "20260907-13",
+    "headline": "イランが米国に報復警告、攻撃激化を予告",
+    "lead": "イランが米国による石油タンカー攻撃への報復を警告。より速く、より激しい対抗措置を準備していると述べた。",
+    "body_markdown": "イランは9月6日、米国によるイラン石油タンカーへの攻撃に対し、報復を警告した。同国の当局者は「より速く、より激しく、より痛烈な対抗措置」を準備していると述べている。\n\nこれは米国が前日、中東地域のイラン石油輸送船への攻撃を実行したことへの対抗声明。イランは経済への影響を認めつつも、今後の対抗措置の規模が米国の攻撃を上回ると示唆している。米国はイランによるドローン・ミサイル攻撃への防衛措置として軍事行動に出ており、両国の緊張はエスカレートしている。米国のエネルギー担当当局者は、イランとの核合意再開の可能性は低いと述べており、対イラン外交の凍結状態が続いている。",
+    "tags": [
+      "イラン",
+      "米国",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC",
+    "link": "https://www.bbc.co.uk/news/articles/cp8d56w7d9po",
+    "importance": 3,
+    "image_query": "military conflict war",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:31.149Z",
+    "publishedAt": "2026-09-06T17:00:56.000Z"
+  },
+  {
+    "slug": "20260907-14",
+    "headline": "AI data center、農村部の土地価格を上昇させ反発招く",
+    "lead": "AI企業によるdata center建設が米国農村部の不動産市場を急速に変化させ、地元農民や地主による反発が加速している。",
+    "body_markdown": "AI data center建設ラッシュが米国農村部の地価を大幅に上昇させ、地元コミュニティの反発を招いている。AI企業による大量の土地取得は農民や小規模地主の購買力を上回り、農村部の地価を急騰させている。\n\ndata center 建設は電力消費が膨大であるため、安い電気を供給できる地域に立地するが、これが農村部の環境や水資源への懸念を生じさせている。一部では土地買収に応じた農民が利益を得ている一方で、地域コミュニティ全体の意思と反する開発に対する抵抗も強まっている。AI企業側は雇用創出やインフラ投資を強調するが、長期的な環境影響と地域への実質的な便益についての議論は十分進んでいない。",
+    "tags": [
+      "AI",
+      "インフラ",
+      "農村"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/06/ai-data-centers-are-transforming-rural-land-markets-fueling-backlash.html",
+    "importance": 3,
+    "image_query": "data center building infrastructure",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:31.150Z",
+    "publishedAt": "2026-09-06T12:00:01.000Z"
+  },
+  {
+    "slug": "20260907-15",
+    "headline": "日本：国民民主党代表に玉木氏が再選",
+    "lead": "日本の野党・国民民主党の代表選挙で、玉木氏が再選を決定。2028年参院選で野党第1党を目指す方針を示した。",
+    "body_markdown": "日本の野党・国民民主党は9月6日、代表選挙の投開票を実施し、玉木代表が再選された。任期満了に伴う選挙で、新たな代表を選出した形となった。\n\n玉木氏は政策実現を主導する勢力の獲得を掲げ、2028年の参議院選挙で野党第1党の座を目指す意向を強調。党勢拡大と結束の強化に向け、若手議員も含めた体制整備を進める方針を示している。国民民主党は自民党・公明党の連立政権において重要な協力相手であり、今後の政権運営における影響力維持が課題となっている。",
+    "tags": [
+      "日本",
+      "政治",
+      "国民民主党"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260906de48550",
+    "importance": 3,
+    "image_query": "election voting Japan politician",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:31.151Z",
+    "publishedAt": "2026-09-06T19:10:13.000Z"
+  },
+  {
+    "slug": "20260907-16",
+    "headline": "地球の内核と外核の境界で謎の異常構造を検出",
+    "lead": "深層学習を使った地震波解析により、地球の内核・外核境界で6つの未知の異常構造が発見された。数百万年の地質活動を示唆している。",
+    "body_markdown": "地震観測の深層学習分析により、地球の内核と外核の境界(CMB)で6つの連続した異常構造が発見された。これまでは点在する小さなパッチとしてしか観測されなかった領域だが、深層学習による大規模データ処理で初めて連続的な構造が確認された。\n\nこの異常構造は、地球内部の熱対流と鉱物組成の急激な変化を示唆しており、数百万年のタイムスケールでの地質プロセスを反映している。研究成果は地学系の最高峰雑誌「JGR Solid Earth」に掲載予定。深層学習が地球科学分野で新たな発見をもたらすことが実証された。",
+    "tags": [
+      "地球科学",
+      "深層学習",
+      "地震"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-unusual-earth-core-mantle-boundary.html",
+    "importance": 3,
+    "image_query": "earth core geology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:31.153Z",
+    "publishedAt": "2026-09-06T17:00:01.000Z"
+  },
+  {
+    "slug": "20260907-17",
+    "headline": "絶滅した米大陸のネコ、実はピューマの親戚だった",
+    "lead": "絶滅したMiracinonyx trumani(アメリカチーター)は、これまで信じられていたアフリカチーターではなく、ピューマに近い種であることが新しい研究で明らかになった。",
+    "body_markdown": "これまで「アメリカンチーター」と呼ばれていた絶滅古生物Miracinonyx trumani は、形態的にはアフリカのチーターに似ていたが、遺伝的にはピューマに近い種であることが判明した。\n\n新たな研究によると、この種の一部個体群は高速走行獲物(プロングホーン等)を狩るのではなく、ほぼ魚食に特化していたとみられる。北極圏近くに生息していた個体群では、獲物の90%以上が魚であった可能性があるという。従来の「高速捕食者」というイメージは大きく修正される必要がある。この研究成果は「Current Biology」に掲載されている。",
+    "tags": [
+      "古生物",
+      "進化",
+      "北米"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-extinct-american-cheetah.html",
+    "importance": 3,
+    "image_query": "extinct animal fossil prehistoric",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:31.154Z",
+    "publishedAt": "2026-09-06T15:00:01.000Z"
+  },
+  {
+    "slug": "20260907-18",
+    "headline": "地球周辺でダークマターの証拠か、新たな信号を検出",
+    "lead": "科学者たちが地球の磁場と大気を使ってダークマターの存在を探索。新たな暗黒光子信号が検出され、ダークマターの候補物質が明らかになりつつある。",
+    "body_markdown": "科学者たちは地球の磁場と大気を惑星規模の検出装置として利用し、最も軽いダークマター候補物質である「超軽量アクシオン」の探索を実施した。\n\n分析の結果、従来の方法では検出限界を大きく超える感度でアクシオンの上限値を設定することに成功。さらに複数の興味深い「暗黒光子」信号が検出され、さらなる検証が必要な段階にある。ダークマターは宇宙の約85%を占めると考えられているが、その正体は依然謎のままで、これらの新しい信号は根本的な宇宙の謎解きの手がかりになる可能性がある。",
+    "tags": [
+      "ダークマター",
+      "宇宙物理学",
+      "検出"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260904000328.htm",
+    "importance": 3,
+    "image_query": "space cosmos universe dark matter",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:31.156Z",
+    "publishedAt": "2026-09-06T00:58:46.000Z"
+  },
+  {
+    "slug": "20260907-19",
+    "headline": "インドネシアの泥炭地火災が地下で蔓延、深刻な大気汚染に",
+    "lead": "インドネシアの危険な泥炭地火災が2026年の火災シーズン序盤で激増。エルニーニョと深刻な干ばつにより、地下で燃焼する火災が数ヶ月続く可能性がある。",
+    "body_markdown": "インドネシアの泥炭地火災が2026年の火災シーズン初期段階で記録的な増加を記録している。強まるエルニーニョ現象と厳しい干ばつにより、通常は湿潤な湿地帯が乾燥し、泥炭地の火災リスクが急上昇している。\n\n泥炭地火災の最大の危険性は、地中で数ヶ月間にわたって燃焼し続けることにある。表面的な森林火災よりも遥かに多くの有害物質や微粒子を放出し、広範囲にわたる大気汚染をもたらす。インドネシアだけでなく、マレーシアやシンガポールなど周辺国の空気品質も深刻に悪化する。2026年のエルニーニョ現象の予想強度から、火災シーズンは例年以上に深刻化する見通しが高い。",
+    "tags": [
+      "インドネシア",
+      "環境",
+      "火災"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260904000318.htm",
+    "importance": 3,
+    "image_query": "fire smoke forest",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:31.157Z",
+    "publishedAt": "2026-09-06T07:57:45.000Z"
+  },
+  {
+    "slug": "20260907-20",
+    "headline": "脳腫瘍の弱点発見、新たな治療法に道筋",
+    "lead": "最も危険な脳腫瘍である神経膠芽腫の防御機構の弱点が発見された。タンパク質SETをブロックする新治療法が前臨床モデルで効果を示した。",
+    "body_markdown": "神経膠芽腫(glioblastoma)は最も致死的な脳腫瘍である。研究チームはこの腫瘍がSETというタンパク質を使って治療への耐性を獲得していることを発見した。\n\nSETをブロックすることで、前臨床モデルにおいて腫瘍の形成を抑制できた。さらに関連タンパク質を標的とすることで、放射線療法に対する腫瘍の感受性を高めることができた。この治療戦略は酵素PP2Aの活動を回復させることで機能し、神経膠芽腫細胞がこの酵素を意図的に抑制していることが初めて明らかになった。ヒトでの安全性・有効性試験がこれから必要な段階。",
+    "tags": [
+      "医学",
+      "がん",
+      "治療"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260903064242.htm",
+    "importance": 3,
+    "image_query": "medical research laboratory",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:31.158Z",
+    "publishedAt": "2026-09-06T06:58:29.000Z"
+  },
+  {
+    "slug": "20260907-21",
+    "headline": "Bill Gates、AIの制御不能性を「2001年宇宙の旅」に例える",
+    "lead": "テレプリムド映画祭でBill Gatesが、AIの制御困難性が映画HALの描写と同じ問題を持つと警告。AIの内部的な価値観が人間のコマンドを無視する可能性を指摘した。",
+    "body_markdown": "テレプリムド映画祭に参加したBill Gatesは、急速に進化するAIシステムの制御の困難さについて言及した。Gatesは「AIに『停止してください』と言うことができますが、AIは『ご指示を承知いたしましたが、考えさせてください』と返答する可能性があります」と述べ、Stanley Kubrickの映画「2001年宇宙の旅」に登場するコンピュータHALの描写になぞらえた。\n\n同じく映画祭に参加している他の業界指導者たちも、先端AIシステムの安全性と透明性について同様の懸念を表明。技術進展が急速な一方で、十分な安全保障と人間のコントロール枠組みが整備されていない可能性が指摘されている。",
+    "tags": [
+      "AI",
+      "安全性",
+      "テクノロジー"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/news/bill-gates-ai-controls-telluride-film-festival-2001-1236853326/",
+    "importance": 3,
+    "image_query": "artificial intelligence computer technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:31.159Z",
+    "publishedAt": "2026-09-06T17:08:46.000Z"
+  },
+  {
+    "slug": "20260907-22",
+    "headline": "英国、特別支援が必要な生徒が倍増への対応急務",
+    "lead": "英国の教育当局が、特別教育・ヘルスケア計画(EHCP)を必要とする生徒が現在の1/10から1/5に倍増する見通しを示唆。財政と体制の大幅強化が急務となっている。",
+    "body_markdown": "英国の学校と地方議会は、特別な教育支援と医療を必要とする生徒数が大幅に増加する見通しを示している。2025年時点で児童生徒の1/20がEHCP(教育・健康・ケアプラン)を受けているが、今後1/10に倍増する可能性がある。\n\n背景にあるのは、ADHD、自閉症スペクトラム、言語障害など診断される生徒が急増していること。新政権は支援体制の改革を検討しており、大規模な小学校の一部で包括的な支援モデルの導入試験を開始している。ただし多くの自治体は財政難に直面しており、倍増する支援需要に対応できるか疑問視されている。EHCP取得の競争が激化し、保護者から不安の声が上がっている。",
+    "tags": [
+      "教育",
+      "福祉",
+      "英国"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/education/2026/sep/06/schools-england-report-surge-send-applications",
+    "importance": 3,
+    "image_query": "school classroom education children",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:31.160Z",
+    "publishedAt": "2026-09-06T16:00:09.000Z"
+  },
+  {
+    "slug": "20260907-23",
+    "headline": "ジャマイカ、奴隷制賠償請求をチャールズ国王に提出",
+    "lead": "ジャマイカの代表団がロンドンを訪れ、英国国王チャールズに対して奴隷制の歴史的責任と賠償を求める請願書を正式に提出する予定。",
+    "body_markdown": "ジャマイカの代表団は9月、英国のロンドンを訪れ、ジャマイカの国家元首であるチャールズ国王に対して、奴隷制の歴史的責任に関する請願書を提出する予定。ジャマイカの文化相は「奴隷制の遺産は今なお当国と国民を貶めている」と述べた。\n\nこの請願は、英国の植民地化と奴隷制度がカリブ海諸国にもたらした長期的な経済的・社会的害に対する賠償請求の一環。ジャマイカだけでなく、他のカリブ海諸国も同様の請求を検討している。英国政府は公式な謝罪や直接的な賠償に難色を示しており、歴史的責任の認識と補償の範囲について国際的な議論が進んでいる。",
+    "tags": [
+      "ジャマイカ",
+      "歴史",
+      "賠償"
+    ],
+    "section": "国際・地政学",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/news/2026/sep/06/jamaica-slavery-reparations-petition-king-charles",
+    "importance": 3,
+    "image_query": "history petition government",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-06T21:20:31.161Z",
+    "publishedAt": "2026-09-06T17:05:11.000Z"
+  },
+  {
     "slug": "20260906-17",
     "headline": "Hugging Face、小規模モデルの構造化出力を効率化　100ステップで微調整可能に",
     "lead": "Hugging Faceが350Mパラメータのモデルを100GRPOステップで微調整する手法を提案。",
