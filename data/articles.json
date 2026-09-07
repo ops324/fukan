@@ -1,5 +1,586 @@
 [
   {
+    "slug": "20260908-01",
+    "headline": "OpenAIがウクライナの独立メディア育成へ",
+    "lead": "OpenAIとWAN-IFRA、ウクライナのメディア団体が協力し、AI活用による報道サポート事業を開始。",
+    "body_markdown": "OpenAI、国際新聞協会（WAN-IFRA）、ウクライナ独立地方紙出版社協会（AIRPPU）は9月7日、ウクライナのニュース発行者を支援する共同イニシアティブを発表した。\n\n戦闘が続く中、同国の独立メディアを維持・強化するため、「Newsroom AI Masterclass Series」と「Newsroom AI Catalyst」という2つのプログラムで、AIの実践的な活用と革新能力の育成を進める。対象はウクライナの独立系新聞社で、持続性、効率性、回復力を高めるための支援が狙いだ。\n\nAI導入による記者の業務効率化や報道品質の向上が期待される。紛争下で独立メディアが対外発信を続けることの重要性が増す中、先進国からの技術支援は情報環境の維持に貢献する施策として注目される。",
+    "tags": [
+      "AI",
+      "メディア",
+      "ウクライナ"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+    "importance": 3,
+    "image_query": "journalism newspaper office",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:33.320Z",
+    "publishedAt": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20260908-02",
+    "headline": "米国の若手研究者、1/3がアカデミア離れ検討",
+    "lead": "学界志望の若手研究者の33%が進路変更を検討。米国での就業意思も大幅低下。",
+    "body_markdown": "ハーバード・ビジネス・スクールなどの研究チームが実施した調査で、米国のバイオメディカル系若手研究者の進路志向が大きく変わったことが明らかになった。2025年春の調査対象は770の研究室の916人で、学界志望の3分の1が進路変更を検討している。\n\nアカデミアでのキャリア志向は66%から44%に22ポイント低下。米国での就業を望む比率も93%から72%へ低下した。博士号取得の満足度も92%から76%に下がっている。\n\n政府の科学予算や留学生政策の不透明性が、特に博士課程の大学院生の不安を増幅したと見られる。研究者たちは「政策変化が自分たちの決断に影響を与えている」と語っており、米国の研究基盤を支える人材流出の懸念が深刻化している。アカデミアセクターは、若手人材確保のための抜本的な施策が急務だ。",
+    "tags": [
+      "アメリカ",
+      "科学研究",
+      "キャリア"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-survey-young-future-science.html",
+    "importance": 4,
+    "image_query": "laboratory researcher science",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1707944745860-4615eb585a41?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8bGFib3JhdG9yeSUyMHJlc2VhcmNoZXIlMjBzY2llbmNlfGVufDF8MHx8fDE3ODg4MTYzOTR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Institute of Allergy and Infectious Diseases",
+      "profileUrl": "https://unsplash.com/@niaid?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a man in a lab wearing safety goggles",
+      "description": "NIAID Laboratory of Allergic Diseases A scientist in the NIAID Laboratory of Allergic Diseases prepares DNA from a specimen. Credit: NIAID https://www.flickr.com/photos/niaid/8435266719/"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:34.411Z",
+    "publishedAt": "2026-09-07T21:00:03.000Z"
+  },
+  {
+    "slug": "20260908-03",
+    "headline": "ロシア・北朝鮮の初の車両用橋が完成",
+    "lead": "国境の川に初めての車両橋が開通。両国は軍事・経済分野での協力強化を表明。",
+    "body_markdown": "ロシアと北朝鮮の国境を流れる川に、両国を結ぶ初の車両用橋が完成した。式典では双方の首相が出席し、軍事面での協力強化に続いて経済分野での協力拡大に期待を示した。\n\n両国の物資輸送の効率化が見込まれ、特に軍事面での連携がより円滑になるとの分析もある。北朝鮮はロシアのウクライナ戦争に部隊派遣を支援していると報じられており、これまで以上に両国の結びつきが深まる可能性がある。\n\n東アジアの地政学的な緊張が高まる中での橋の開通は、ロシア・北朝鮮・中国の連携強化を象徴する動きとして注視される。",
+    "tags": [
+      "ロシア",
+      "北朝鮮",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260908de48892",
+    "importance": 5,
+    "image_query": "bridge infrastructure border",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1705575468304-de4fb558a575?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8YnJpZGdlJTIwaW5mcmFzdHJ1Y3R1cmUlMjBib3JkZXJ8ZW58MXwwfHx8MTc4ODgxNjM5NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vizag Explore",
+      "profileUrl": "https://unsplash.com/@vizagexplore?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large bridge spanning over a large body of water",
+      "description": "It is Asia’s largest oldest railway bridge crossing over the beautiful River Godavari located in Rajahmundry, Andhra Pradesh. The bridge is 3.9km long and was commissioned by British Railways in 1900 and Decommissioned in 1997 by Indian Railways. On the Right is New Bridge constructed in 1996. Now it is a Landmark for Selfies and Beautiful decorated with Lights during Night. One can Watch the Indian Railway Express Train Passing on the Marvel Engineering Masterpiece Godavari Bridge with Squeezing it's Horn and Crossing the River Godavari."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:35.011Z",
+    "publishedAt": "2026-09-07T20:38:59.000Z"
+  },
+  {
+    "slug": "20260908-04",
+    "headline": "トランプ、カナダ企業ボンバルディアの米販売禁止示唆",
+    "lead": "トランプ大統領が航空機メーカーに対し、米国での製造を要求。カナダは報復関税を予告。",
+    "body_markdown": "ドナルド・トランプ米大統領は、カナダ航空機メーカーのボンバルディアに対し、米国での製造を条件に米国市場での販売を許可する方針を示した。\n\nトランプ氏は「ボンバルディアは米国の収益の50%以上を得ている。米国の買い手と米国の企業に依存しながら、米国を『金づる』のように扱っている」と述べ、米国での生産なしには販売を認めないという立場を強調した。この発言は、200億ドル相当の報復関税を予告するカナダとの貿易戦争の最中に出された。\n\nボンバルディアは大型プライベートジェット市場の大手。ネットジェッツなど大規模顧客を持つため、米国市場からの排除は同社に大きな打撃となる。トランプ政権のアメリカ・ファースト政策が産業政策としてどこまで機能するか注視される。",
+    "tags": [
+      "アメリカ",
+      "カナダ",
+      "貿易戦争"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/07/trump-bombardier-cant-sell-in-us-unless-canada-aerospace-giant-builds-there.html",
+    "sources": [
+      {
+        "url": "https://www.aljazeera.com/news/2026/9/7/trump-threatens-to-block-canadas-bombardier-sales-unless-planes-made-in-us",
+        "name": "Al Jazeera"
+      }
+    ],
+    "importance": 4,
+    "image_query": "airplane aircraft cockpit",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1694698555485-209165020925?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxhaXJwbGFuZSUyMGFpcmNyYWZ0JTIwY29ja3BpdHxlbnwxfDB8fHwxNzg4ODE2Mzk1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Joao",
+      "profileUrl": "https://unsplash.com/@zymot?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "the cockpit of an airplane with many controls"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:35.623Z",
+    "publishedAt": "2026-09-07T18:52:24.000Z"
+  },
+  {
+    "slug": "20260908-05",
+    "headline": "英国、イスラエルの入植地貿易禁止を表明",
+    "lead": "ミリバンド外相が英国とイスラエルの関係リセットを宣言。違法入植地からの輸入禁止へ。",
+    "body_markdown": "イギリスのエド・ミリバンド外務・英連邦大臣は、英国とイスラエルの関係を大きく転換する方針を発表した。違法と見なされるイスラエル入植地の産品に対して、英国は貿易禁止措置を実施する。\n\nこの決定はパレスチナ人の権利と2国家解決策への英国の支持を再確認する形であり、米国とイスラエルから激しい反発を招く見通しが報じられている。英国政府は、イスラエル政策において一層能動的にパレスチナ側を支援する立場を打ち出すことで、国際舞台における英国の独立性を示そうとしている。\n\nこれまで以上に対イスラエル的な政策転換は、英国・米国関係にも影響を与える可能性がある。",
+    "tags": [
+      "イスラエル",
+      "パレスチナ",
+      "英国"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/politics/2026/sep/07/ed-miliband-reset-uk-relations-israel-palestine",
+    "importance": 4,
+    "image_query": "government parliament politics",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1637102134162-7dc2c4995c22?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxnb3Zlcm5tZW50JTIwcGFybGlhbWVudCUyMHBvbGl0aWNzfGVufDF8MHx8fDE3ODg4MTYzOTZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Gerda",
+      "profileUrl": "https://unsplash.com/@gerdadesign?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large room with rows of chairs and a podium",
+      "description": "In Australia's capital city, Canberra, stands the Parliament House. Inside, there are the two colored rooms for each governing body. The colours of the rooms are based on British Parliament, with red for the Senate and green for the House. "
+    },
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:36.134Z",
+    "publishedAt": "2026-09-07T18:34:37.000Z"
+  },
+  {
+    "slug": "20260908-06",
+    "headline": "ドイツ極右AfD、州議選で第1党に躍進",
+    "lead": "ザクセン・アンハルト州でAfDが第1党。メルツ首相は州政府形成で不協力姿勢。",
+    "body_markdown": "ドイツ東部ザクセン・アンハルト州の州議会選挙で、極右政党「ドイツのための選択肢」（AfD）が第1党に躍進した。同党は過激主義団体として公式に指定されている政治勢力だ。\n\nフリードリヒ・メルツ首相は選挙結果を受け入れる姿勢を示しつつも、州政府の形成にはAfDと協力しない方針を強調した。同党が単独過半数を獲得していないため、他の政治勢力による州政府形成が進行することになる。\n\nメルツ政権と主要政党はAfDとの「防疫ライン」（Cordon Sanitaire）を維持し、極右勢力の権力獲得を防ぐ構えだ。この選挙結果は、ドイツの民主主義における政治分極化の深刻さを示すとともに、戦後のコンセンサスが揺らぎつつあることを象徴している。",
+    "tags": [
+      "ドイツ",
+      "選挙",
+      "極右"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260908de48914",
+    "importance": 5,
+    "image_query": "election voting ballot box",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1638501479049-de7a4100b4a4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxlbGVjdGlvbiUyMHZvdGluZyUyMGJhbGxvdCUyMGJveHxlbnwxfDB8fHwxNzg4ODE2Mzk2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Oxana Melis",
+      "profileUrl": "https://unsplash.com/@oksdesign?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a sign on a sidewalk in front of a building"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:36.529Z",
+    "publishedAt": "2026-09-07T20:11:54.000Z"
+  },
+  {
+    "slug": "20260908-07",
+    "headline": "ドイツ極右勝利が連邦政府に圧力、アナリスト警告",
+    "lead": "ザクセン・アンハルト州でのAfD躍進は『戦後最大級の州選挙結果』。経済政策にも影響。",
+    "body_markdown": "ドイツ東部の州議会選挙でのAfD第1党勝利について、経済アナリストは「戦後最も重要な州選挙結果となりうる」と分析している。この政治的変化がドイツの経済政策と対欧州連合関係に大きな影響を与える可能性がある。\n\nAfDの躍進は主流政党への不満、特に経済的不安定さと移民政策への反発を反映している。連邦政府はメルツ首相のもと、AfD抑止のための政治的団結を模索している一方、極右勢力の台頭による政治的分極化が深まることで、ドイツの内政が不安定化するリスクが高まっている。\n\n2026年後半のドイツ経済見通しと欧州統合の進展が、この政治的転換点の影響を受ける可能性が指摘されている。",
+    "tags": [
+      "ドイツ",
+      "政治",
+      "経済"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/07/afd-germany-economy-merz.html",
+    "importance": 5,
+    "image_query": "politics parliament government",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1637102173777-3fc90f21d89f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8cG9saXRpY3MlMjBwYXJsaWFtZW50JTIwZ292ZXJubWVudHxlbnwxfDB8fHwxNzg4ODE2Mzk2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Gerda",
+      "profileUrl": "https://unsplash.com/@gerdadesign?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large room filled with lots of wooden furniture",
+      "description": "In Australia's capital city, Canberra, stands the Parliament House. Inside, there are the two colored rooms for each governing body. The colours of the rooms are based on British Parliament, with red for the Senate and green for the House. "
+    },
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:37.057Z",
+    "publishedAt": "2026-09-07T18:52:00.000Z"
+  },
+  {
+    "slug": "20260908-08",
+    "headline": "原油価格、6週間ぶり高値 イランと米国の衝突背景",
+    "lead": "イラン・米国間の報復応酬と、サウジアラムコの施設被害が油価上昇を牽引。",
+    "body_markdown": "原油価格が6週間ぶりの高値まで上昇した。イランと米国の間で続く軍事的な応酬に伴い、中東地域の情勢が緊迫化している。\n\n報道によればサウジアラビアの石油大手アラムコの施設が被害を受けたとされ、原油供給への懸念が価格押し上げにつながった。中東地域における地政学的リスクの高まりが、エネルギー市場に直結する形で反映されている。\n\n原油価格上昇は世界経済に対するインフレ圧力を高めるため、先進国の金融政策決定に影響を与える要因となる。今後のイラン・米国関係の推移と、サウジアラムコを含む中東石油施設への物理的リスクが、エネルギー市場の主要な変動要因として作用することが予想される。",
+    "tags": [
+      "原油",
+      "イラン",
+      "地政学"
+    ],
+    "section": "経済・マネー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/07/oil-prices-rise-to-6-week-high-after-iran-and-u-s-trade-blows-saudi-aramco-facilities-reportedly-hit.html",
+    "importance": 4,
+    "image_query": "oil refinery energy industry",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxvaWwlMjByZWZpbmVyeSUyMGVuZXJneSUyMGluZHVzdHJ5fGVufDF8MHx8fDE3ODg4MTYzOTd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Patrick Hendry",
+      "profileUrl": "https://unsplash.com/@worldsbetweenlines?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "factories with smoke under cloudy sky",
+      "description": "Took a walk on lunch break to create a collection of industry and “gas punk” type photos. "
+    },
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:37.666Z",
+    "publishedAt": "2026-09-07T18:52:24.000Z"
+  },
+  {
+    "slug": "20260908-09",
+    "headline": "インフレが世界的に復活、各国中央銀行が利上げ",
+    "lead": "世界中で物価上昇が再燃。先進国の中央銀行が金利引き上げに舵を切る局面。",
+    "body_markdown": "インフレーションが世界各地で再び火を吹いている。コロナ禍の異常な低成長期を脱した世界経済が、新たな物価上昇局面に入りつつある。\n\n主要先進国の中央銀行は、インフレ抑制のために金利の引き上げ局面に突入している。米国連邦準備制度、欧州中央銀行、日本銀行を含む各国当局が、段階的な金融引き締めを実施しており、これが世界の金融市場や為替相場に大きな影響を及ぼしている。\n\nサプライチェーン混乱、労賃上昇、そして中東情勢に伴う原油価格の不安定性がインフレ圧力を加速させている。各国の金利上昇政策が過度に進めば、経済成長の鈍化リスクが高まる。インフレとデフレーションのバランスを取りながら、世界経済は微妙な調整局面を迎えている。",
+    "tags": [
+      "インフレ",
+      "金融政策",
+      "世界経済"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/09/06/inflation-is-back-around-the-world-as-is-the-fight-against-it",
+    "importance": 4,
+    "image_query": "central bank finance economy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1569979230536-b3415317a681?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8Y2VudHJhbCUyMGJhbmslMjBmaW5hbmNlJTIwZWNvbm9teXxlbnwxfDB8fHwxNzg4ODE2Mzk4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Justin Ortega",
+      "profileUrl": "https://unsplash.com/@asapxjayoh?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "First National Bank building",
+      "description": "Stone Bank Building Face"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:38.793Z",
+    "publishedAt": "2026-09-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20260908-10",
+    "headline": "EU、グリーンランドに2億ユーロ投資発表",
+    "lead": "フォンデアライエン委員長が訪問。トランプの領有野心に対抗する狙い。",
+    "body_markdown": "欧州連合（EU）のウルズラ・フォンデアライエン委員長は、デンマーク自治領のグリーンランドを訪問し、総額2億ユーロの投資パッケージを発表した。\n\nEUの戦略的投資は、米国トランプ政権がグリーンランドの領有に意欲を示す中での対抗措置として機能している。グリーンランドは北極圏の地政学的に重要な位置にあり、気候変動に伴う資源価値の上昇に加えて、米国・ロシア間の北極戦略競争の舞台となっている。\n\nEUがグリーンランドへの経済支援を強化することで、この領域をデンマーク・EU圏に繋ぎ止め、大西洋を挟んだ米欧関係の亀裂をさらに深める可能性もある。",
+    "tags": [
+      "EU",
+      "グリーンランド",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260908de48905",
+    "importance": 4,
+    "image_query": "arctic glacier ice landscape",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1750526927596-654bdccacc3c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8YXJjdGljJTIwZ2xhY2llciUyMGljZSUyMGxhbmRzY2FwZXxlbnwxfDB8fHwxNzg4ODE2Mzk5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Elvis Liang",
+      "profileUrl": "https://unsplash.com/@vegie_photo?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A snow-covered mountain and glacier",
+      "description": "A dramatic view of towering snow-covered mountains and the massive tidewater glacier flowing into the bay in Glacier Bay National Park, Alaska. This untouched wilderness captures the raw beauty of the Arctic and the ever-changing landscape shaped by ice."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:39.303Z",
+    "publishedAt": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20260908-11",
+    "headline": "Gartner 2026版ハイプサイクル発表、新技術が早速ピークに",
+    "lead": "2026年度版でエージェント型AIが進展。初登場の新技術が『過度な期待』に到達。",
+    "body_markdown": "調査研究会社Gartnerが2026年版のハイプサイクル（技術成熟度曲線）を発表した。前年に『黎明期』だったエージェント型AIが進展を遂げている。\n\n注目すべきは、これまで掲載されてこなかった新しい技術が、初登場にもかかわらず『過度な期待』のピークに到達していることだ。この段階では、技術の実用的な実績以上に市場の期待が膨らみやすく、続く『幻滅期』への転落が大きな落差となる。\n\nハイプサイクルは新技術の現実的な評価をガイドする指標として機能する。初登場で高い期待値に置かれた技術がいかなる現実的価値を示すのか、来年の予測において注視される。Gartnerの分析は、AI関連技術が急速に期待値と実績のギャップに直面していることを示唆している。",
+    "tags": [
+      "AI",
+      "テクノロジー",
+      "予測"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI+",
+    "link": "https://www.itmedia.co.jp/enterprise/articles/2609/07/news043.html",
+    "importance": 4,
+    "image_query": "technology innovation future",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1749006590324-d6b2e90ab1c0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8dGVjaG5vbG9neSUyMGlubm92YXRpb24lMjBmdXR1cmV8ZW58MXwwfHx8MTc4ODgxNjM5OXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Omar:. Lopez-Rincon",
+      "profileUrl": "https://unsplash.com/@procopiopi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Ai chip illustration for technological advancement",
+      "description": "Futuristic artificial intelligence microchip resting on vibrant, glossy surface with pastel reflections and surreal lighting, representing technology innovation and digital transformation"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:39.814Z",
+    "publishedAt": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20260908-12",
+    "headline": "シリア、アサド時代の原子炉が核兵器用に構成と判明",
+    "lead": "IAEA調査で、2007年に空爆された施設が兵器用に設計されていたことが確認。",
+    "body_markdown": "国際原子力機関（IAEA）は、シリアのアサド政権時代の核施設が兵器製造を目的に設計されていたことを確認した。デイル・アッ・ゾール核施設は2007年にイスラエルの空爆で破壊され、その後シリア政府によって更地にされていた。\n\nIAEA事務局長ラファエル・グロッシ氏は、施設が「核兵器に直結する可能性のある物質生産に非常に効率的」であったと述べた。アサド政権崩壊後の新政権は、IAEA調査に協力し、隠蔽されていた核物質を発見させた。\n\n現在、この施設の核物質はIAEAの監視下に置かれ、カメラによる監視が行われている。シリアの核兵器プログラムの遺産は、新政権下で国際的な監視と検証の対象となっている。",
+    "tags": [
+      "シリア",
+      "核兵器",
+      "安全保障"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/7/syrias-assad-era-reactor-configured-for-nuclear-weapons-iaea",
+    "importance": 4,
+    "image_query": "nuclear facility reactor",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1772376920820-4fb715c21e79?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxudWNsZWFyJTIwZmFjaWxpdHklMjByZWFjdG9yfGVufDF8MHx8fDE3ODg4MTY0MDB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Energie-portal.sk",
+      "profileUrl": "https://unsplash.com/@energie_portal_sk?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Nuclear power plant with cooling towers emitting steam",
+      "description": "Wide landscape view of the Jaslovské Bohunice Nuclear Power Plant in Slovakia, with cooling towers releasing water vapor above a green field under a clear blue sky."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:40.215Z",
+    "publishedAt": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20260908-13",
+    "headline": "イラン、国内武装勢力の脅威に警戒強化",
+    "lead": "クルド系、バルーチ系勢力が外国支援を受け活動。イランの内部脅威が深刻化。",
+    "body_markdown": "イラン当局と専門家は、国内の民族系武装勢力が外部支援を受けながら脅威度を高めていることに警戒を強めている。\n\nクルド系勢力では、クルディスタン自由生命党（PJAK）やイランクルディスタン民主党（PDKI）など複数の組織が、イラク北部のクルド自治区を拠点に活動。報告によれば5000～8000人の戦闘員が越境作戦の準備を進めているとされている。南東部ではバルーチ系の分離勢力ジャイシュ・アッダルが警察とイラン革命防衛隊（IRGC）要員に対する散発的な攻撃を続けている。\n\nアナリストは、外国による支援がこれら民族勢力を『決定的』な脅威に高める可能性を警告している。イランはこうした動きを、体制を揺さぶるハイブリッド戦争として認識しており、内部治安が急速に複雑化している。",
+    "tags": [
+      "イラン",
+      "クルド",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/7/the-domestic-armed-threat-facing-iran",
+    "importance": 4,
+    "image_query": "military conflict security",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1772303142560-00dc147c3197?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOHx8bWlsaXRhcnklMjBjb25mbGljdCUyMHNlY3VyaXR5fGVufDF8MHx8fDE3ODg4MTY0MDB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Saifee Art",
+      "profileUrl": "https://unsplash.com/@saifee_art?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Toy soldiers advancing across a map"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:40.680Z",
+    "publishedAt": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20260908-14",
+    "headline": "シアトルタイムズなど、OpenAI・Microsoft提訴",
+    "lead": "新聞社2社がAI学習への無許可利用を主張。NYT訴訟に続く集団提訴の動き。",
+    "body_markdown": "シアトル・タイムズとニューズデイは、OpenAIおよびMicrosoftを相手に訴訟を提起した。両社は、自社のジャーナリズムが無許可でAIモデルの学習データとして利用されたと主張している。\n\nこの訴訟は、ChatGPTやCopilotなどの生成AIが大規模言語モデルの訓練に膨大な報道記事を利用しながら、新聞社に対する補償や許可がなされてこなかったことを問題視している。新聞各社は、AI企業による『貪欲な消費者』的な利用が、ジャーナリズムそのものを『修復不可能なほど破壊する』ことになりかねないと警告している。\n\n注目すべきは、MicrosoftとOpenAIが過去にシアトル・タイムズのジャーナリズムプロジェクトに資金提供していたという経緯があることだ。この訴訟は2023年のNYT訴訟に続く、メディア業界とAI企業間の本格的な法的対立を象徴している。",
+    "tags": [
+      "AI",
+      "メディア",
+      "知的財産"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+    "importance": 4,
+    "image_query": "newspaper journalism legal court",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxuZXdzcGFwZXIlMjBqb3VybmFsaXNtJTIwbGVnYWwlMjBjb3VydHxlbnwxfDB8fHwxNzg4ODE2NDAxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "AbsolutVision",
+      "profileUrl": "https://unsplash.com/@codzilla_swiss?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Business newspaper article",
+      "description": "Business newspaper pages"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:41.196Z",
+    "publishedAt": "2026-09-05T00:00:00.000Z"
+  },
+  {
+    "slug": "20260908-15",
+    "headline": "日本の自民党、役員人事と内閣改造を検討中",
+    "lead": "高市総理、来週の実施調整へ。臨時国会の法案審議に備える方針。",
+    "body_markdown": "日本の高市総理大臣は、自民党の役員人選と内閣改造の時期と人事を本格化させている。調整状況から見て、来週中の実施も視野に進められている。\n\n改造の目的は政権の骨格を維持しながら、臨時国会での法案審議に備えるというもの。内閣改造は政権の新たな意思表示として機能し、政治日程と国会対応のリズムを調整する政治的な通過儀礼として機能している。\n\n日本の政治日程は秋の臨時国会召集を控えており、政権としては重要法案の成立に向けた体制整備が急がれている。",
+    "tags": [
+      "日本",
+      "政治",
+      "自民党"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260908de48893",
+    "importance": 3,
+    "image_query": "government politics parliament",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:41.198Z",
+    "publishedAt": "2026-09-07T20:44:38.000Z"
+  },
+  {
+    "slug": "20260908-16",
+    "headline": "地下水素の採掘探索が加速、ゼロカーボン燃料の可能性",
+    "lead": "地殻内の水素ガスに注目。推定数兆トンの資源が眠る可能性。",
+    "body_markdown": "世界各地で地球の地殻に眠る水素ガスの探査が加速している。ビル・ゲーツが支援するKolomaなどのスタートアップは、米国中西部の古い海底由来の岩石層から自然発生的に生成される水素に目をつけている。\n\n研究によれば、地球の地殻内で生成される水素は数兆トンに及ぶ可能性があるとされている。仮にその一部を抽出できれば、世界の水素需要を数世紀にわたってまかなえるほどの規模だ。ただし、商業的に利用可能な水素貯蔵庫は現在のところ報告されていない。\n\nゼロカーボン燃料としての水素の潜在能力は大きいが、実用化には技術的課題が残っている。成功すれば、長期的なエネルギー転換の選択肢となり得る。",
+    "tags": [
+      "エネルギー",
+      "水素",
+      "カーボンニュートラル"
+    ],
+    "section": "AI",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/",
+    "importance": 3,
+    "image_query": "energy geology underground",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:41.199Z",
+    "publishedAt": "2026-09-07T12:10:00.000Z"
+  },
+  {
+    "slug": "20260908-17",
+    "headline": "アフリカ研究、幼少期5年が人生を左右することが判明",
+    "lead": "サハラ以南で77%の子どもが就学前教育にアクセス不可。親の関与が成果を左右。",
+    "body_markdown": "複数のアフリカ諸国（ガンビア、ガーナ、ケニア、マラウイ、モザンビーク）の6つの就学前教育プログラムを対象にした研究が、幼少期5年の教育が子どもの人生を決定づけることを示している。\n\nプレイベースの学習を含むプログラムは認知能力と社会感情スキルを有意に改善した。特に重要なのは親の関与である。マラウイで実施された教員訓練と親向けグループセッションを組み合わせたプログラムは、言語発達と社会行動面で特に大きな成果を上げた。\n\nサハラ以南アフリカでは77%の子どもが就学前教育へのアクセスを欠いており、これが長期的な教育・雇用・経済成果の格差につながっている。米国データから見ても、幼少期への投資は社会的リターンが大きい。質の高い就学前教育拡充が、アフリカの人的資本開発の重要課題である。",
+    "tags": [
+      "アフリカ",
+      "教育",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-child-years-life-african-explores.html",
+    "importance": 3,
+    "image_query": "education children classroom learning",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:41.200Z",
+    "publishedAt": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20260908-18",
+    "headline": "日本発、AI搭載の国産四足歩行ロボが公開",
+    "lead": "東大発スタートアップHighlanders、HLQ EDGEの動作デモ。段差昇降に成功。",
+    "body_markdown": "ロボット開発企業Highlanders（東京大学発スタートアップ）は、国産の四足歩行ロボット『HLQ EDGE』を発表した。同社が公開したデモ動画では、段差の昇降や床のギャップ越えなど、複雑な地形での動作能力を披露している。\n\nHLQ EDGEは、独自のAIで『ワールドモデル』を構築し、地形を認識してリアルタイムで脚配置と全身姿勢を自動調整する。距離計測カメラで周囲を認識し、NVIDIA Jetson Orin NXで処理される。3時間の連続稼働が可能で、60kg の積載能力を持つ。\n\n産業用途向けにロボットアームやセンサなど各種装備の拡張が可能で、設計・製造・サポートが国内で行われる。日本のロボット開発における基盤技術の進展を示す事例として注目される。",
+    "tags": [
+      "ロボット",
+      "AI",
+      "日本企業"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI+",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2609/07/2000001223/",
+    "importance": 3,
+    "image_query": "quadruped robot technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:41.202Z",
+    "publishedAt": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20260908-19",
+    "headline": "Word文書を介するAI『ウイルス』が感染拡大の懸念",
+    "lead": "Copilot経由で社内全体に増殖するAI脅威。生成AI活用企業が警戒強化。",
+    "body_markdown": "Microsoft Copilotを業務導入する企業の間で、新たな種類のセキュリティ脅威が報告されている。Word文書を介して感染が広がるAI関連の脅威が見つかった。\n\nこの『AIウイルス』の特徴は、従来のマルウェアとは異なり、Copilotなどの生成AIを悪用して感染を拡大させることにある。社内全体のWord文書がこのメカニズムによって影響を受ける可能性があり、大規模な業務システムで採用されている場合、その波及範囲は組織全体に及ぶ。\n\n生成AIの業務導入が急速に進む中、従来型のセキュリティ対策では対応できない新しい脅威が出現している。企業は既存のセキュリティ体制を再検討し、生成AIを悪用したサイバーリスクに対する防御体制の整備が急務である。",
+    "tags": [
+      "AI",
+      "セキュリティ",
+      "ビジネス"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI+",
+    "link": "https://kn.itmedia.co.jp/kn/article/2609/04/2000001139/",
+    "importance": 3,
+    "image_query": "cybersecurity computer network",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:41.203Z",
+    "publishedAt": "2026-09-04T00:00:00.000Z"
+  },
+  {
+    "slug": "20260908-20",
+    "headline": "2026年夏の映画興行、過去最高興収を突破",
+    "lead": "5月から9月7日で47億6000万ドル。コロナ後の映画人気が本格復活。",
+    "body_markdown": "米国の今夏の映画興行収入が過去最高を記録した。5月1日から9月7日のレイバーデー（労働者の日）までの期間で、国内チケット売上は47億6000万ドルに達した。\n\nコロナ禍で映画産業が受けた打撃から、観客は本格的に劇場に戻ってきた。この記録は2020年のパンデミック以降、最高の成績であり、映画産業の復活が数字で示されている。\n\n大型映画公開のラインアップ充実と、映画館での体験への需要の高まりが、この記録を支えている。エンタメ産業の好調さは、コンテンツ・テーマパーク関連の広がりを見せており、社会全体のレクリエーション需要の回復を反映している。",
+    "tags": [
+      "映画",
+      "興行",
+      "エンタメ"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/box-office/summer-box-office-breaks-all-time-record-1236854175/",
+    "importance": 3,
+    "image_query": "movie theater cinema audience",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:41.226Z",
+    "publishedAt": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20260908-21",
+    "headline": "福島県庁、AI活用で『逆張り戦略』の成功例",
+    "lead": "M365 Copilot配布後も利用に二極化。全庁6000人への展開を敢行。",
+    "body_markdown": "福島県庁は、M365 Copilotの有償アカウント100件と研修を用意したものの、利用が二極化する状況を経験した。しかし、その後も全職員6000人への全庁展開を決断して実行した。\n\nこのアプローチは、従来の『提供すれば使われる』という期待値とは異なり、むしろ『日常的な利用環境の構築』に軸足を置いている。喜多方ラーメンが毎日の食べ物として根付くように、生成AIを職員が日々使う存在に変えることが狙いだ。\n\n二極化した利用パターンを認識した上での全庁展開は、組織内のAI活用に対する現実的なアプローチとして参考になる。教育と技術導入のバランス、そして組織文化の変化プロセスが、AI導入の成功を左右する重要な要素であることが示唆される。",
+    "tags": [
+      "AI",
+      "行政",
+      "デジタル化"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI+",
+    "link": "https://kn.itmedia.co.jp/kn/article/2609/07/2000000807/",
+    "importance": 3,
+    "image_query": "office workspace technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:41.227Z",
+    "publishedAt": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20260908-22",
+    "headline": "水素結合が銅を抑える、金属選別に新展開",
+    "lead": "KAIST研究、安定性ランキングで銅を逆転。触媒・物質分離の新応用へ。",
+    "body_markdown": "韓国科学技術院（KAIST）の研究チームが、弱い水素結合を調整することで、銅が数十年にわたって支配していた金属安定性ランキングを逆転させた。原子直結結合を変えずに、周囲の水素結合のみを制御するアプローチで実現した。\n\n研究成果は米国化学会誌に掲載された。銅は従来、複雑化学物質の中で最も安定した金属結合を形成するとみなされていた。この新知見は、選択的な金属分離、金属認識、触媒設計における新たな可能性を開く。\n\n従来の金属化学の常識を覆す発見であり、材料科学における基礎理論の更新を促すものである。実用化には時間がかかるが、将来の産業応用に向けた基盤研究として注目される。",
+    "tags": [
+      "化学",
+      "金属",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-weak-hydrogen-bonds-dethrone-copper.html",
+    "importance": 3,
+    "image_query": "chemistry laboratory research science",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:41.228Z",
+    "publishedAt": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20260908-23",
+    "headline": "Uber創業者カランニック、Atoms がロボタクシー事業へ",
+    "lead": "トラビス・カランニック、『未完成のビジネス』完結に意欲。Atoms がロボタクシーに参入。",
+    "body_markdown": "Uber創業者のトラビス・カランニックが率いるAtoms社が、ロボタクシー（自動運転タクシー）事業への参入を検討していることが報じられた。\n\nカランニックは、この動きを自分の『未完成のビジネス』を完結させることと位置づけている。Uberは配車サービスとしてライドシェア革命を起こしたが、自動運転化という次の段階への取り組みは十分ではなかったという認識が背景にある。\n\nAtoms は既にロボット技術の研究開発を手がけており、この基盤を活かしてロボタクシー分野に進出する戦略が伺える。カランニック流の起業家精神が、次の産業革新に向かっている。",
+    "tags": [
+      "Uber",
+      "ロボタクシー",
+      "スタートアップ"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+    "importance": 3,
+    "image_query": "autonomous vehicle taxi car",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:41.235Z",
+    "publishedAt": "2026-09-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20260908-24",
+    "headline": "ジャガー・ランドローバー、2年で4000人削減へ",
+    "lead": "英国高級車メーカー、大規模なリストラ計画を発表。経営再編を加速。",
+    "body_markdown": "英国の自動車大手ジャガー・ランドローバー（JLR）は、今後2年間で4000人の人員削減を実行する計画を発表した。同社は構造的な経営再編に着手しており、電動化への転換に対応するための組織改革が進行している。\n\n自動車産業全体が内燃機関から電動車へのシフトを余儀なくされる中、高級車メーカーもこの転換に適応するための投資と人員調整を進めている。JLRのリストラは、英国製造業の雇用環境の厳しさを反映している。\n\n削減規模は労働力の相当部分に及び、英国の地域経済に影響を与える。自動車産業の構造転換と産業政策、そして労働市場の課題が集約された事例として注目される。",
+    "tags": [
+      "自動車",
+      "リストラ",
+      "英国"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/sep/07/jaguar-land-rover-confirms-plan-to-cut-4000-jobs-over-two-years",
+    "importance": 4,
+    "image_query": "car factory manufacturing automobile",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1626626213286-c1bb54f66e6a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8Y2FyJTIwZmFjdG9yeSUyMG1hbnVmYWN0dXJpbmclMjBhdXRvbW9iaWxlfGVufDF8MHx8fDE3ODg4MTY0MDF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "adriaan venner scheepers",
+      "profileUrl": "https://unsplash.com/@venner?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a car is parked in an empty warehouse",
+      "description": "Car driving in an abandoned warehouse."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-07T21:26:41.763Z",
+    "publishedAt": "2026-09-07T00:00:00.000Z"
+  },
+  {
     "slug": "20260907-24",
     "headline": "Hugging Face、インド言語の音声認識に対応 グローバル南方を包摂",
     "lead": "Hugging Face の Open ASR Leaderboard が初めてインドの言語を追加。5億人超が話すヒンディー語の音声認識を実装し、言語データの不平等を是正する動き。",
