@@ -1,5 +1,417 @@
 [
   {
+    "slug": "20260909-01",
+    "headline": "OpenAI、90年来の未解決数学問題を解決と発表",
+    "lead": "OpenAIは、Navier–Stokes方程式の存在と滑らかさの問題をAIで解決したと発表。NYU数学者の研究進捗の漏洩疑惑で批判の声も。",
+    "body_markdown": "OpenAIは9月8日、数学の七大未解決問題（ミレニアム賞問題）の一つであるNavier–Stokes存在と滑らかさの問題に対する解決案を発表した。この問題は約90年間にわたって数学者を悩ませてきた。\n\n同社が開発した、GPT-6 Astraより高性能な未発表モデルを使用。最大10,000の並行エージェントを動員し、わずか88時間で証明に到達したという。流体運動を記述するNavier–Stokes方程式が、有限時間内に特異点（速度が無限大に発散する）を発展させられることを示す内容だ。OpenAIはLean形式で数学的証明も公開している。\n\nただし解決には、数学界からの検証が必要。NYU数学者トリスタン・バックマスターはTechCrunchに対し、自身と同僚Levent Alpögeが進めていた研究進捗がOpenAIに事前に渡されたと指摘。OpenAIがCodexツールを通じ、彼らの研究データにアクセスして先行発表したと批判している。さらにOpenAIはAlpögeのクレジット削除を求めたと報じられており、論争に発展している。",
+    "tags": [
+      "AI",
+      "数学",
+      "OpenAI",
+      "論文"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/navier-stokes-solution",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
+        "name": "TechCrunch"
+      }
+    ],
+    "importance": 5,
+    "image_query": "mathematics equations chalkboard",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7hiHADoMhgN0iDcje9Xdei/2dae059c10a0dfa3e2814ebb522e9df2/navier-stokes-og.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/navier-stokes-solution",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:38.580Z",
+    "publishedAt": "2026-09-08T10:00:00.000Z"
+  },
+  {
+    "slug": "20260909-02",
+    "headline": "Meta、個人用AI エージェント「Muse」を発表",
+    "lead": "Metaが個人用AI エージェント「Muse」を発表。メール送信や旅行予約など複雑なタスクを自動実行するが、プライバシー懸念も。",
+    "body_markdown": "Metaは、個人用AI エージェント「Muse」を米国で開始した。Muse Spark AIを搭載し、ユーザーに代わってメール送信、旅行予約、買い物、予定管理といった複雑なデジタルタスクを自動実行できる。\n\nウェブ、iOS、Androidに対応し、$20/月（Power）と$100/月（Maximum）の有料プランと無料版を提供。GoogleWorkspaceやTicketmaster、Spotifyなど外部サービスと連携可能だ。Metaは、デリケートな操作（メール送信や購入）にはユーザー承認を要求し、プライバシー保護のため「Secure VM」で隔離すると主張している。\n\nただしMetaは過去にFTC和解を複数回経験（2011、2019、2023年）し、2026年8月には180億ドルの多州和解に応じたばかり。Cambridge Analytica事件も記憶に新しく、消費者が金融・個人情報へのアクセスを許可するか懐疑的な見方も多い。",
+    "tags": [
+      "AI",
+      "Meta",
+      "エージェント",
+      "プライバシー"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+    "importance": 5,
+    "image_query": "artificial intelligence assistant robot",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1685391896546-9abaf50bfc99?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMHx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGFzc2lzdGFudCUyMHJvYm90fGVufDF8MHx8fDE3ODg5MDI3Mzl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sieuwert Otterloo",
+      "profileUrl": "https://unsplash.com/@sieuwert?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a white robot holding a tablet in its hand",
+      "description": "Experimental robot at Utrecht University of Applied Sciences. The robot answers questions from visitors."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:39.630Z",
+    "publishedAt": "2026-09-08T19:00:00.000Z"
+  },
+  {
+    "slug": "20260909-03",
+    "headline": "Mistral、AI研究で欧州主導権を握る",
+    "lead": "€3B調達でMistralが欧州AI の独立性を象徴。米国企業依存から脱却する「ソーバリンAI」戦略が加速。",
+    "body_markdown": "Mistral の大型調達は、欧州がAI開発で米国依存から脱却する動きを象徴している。Samsung、Luxembourg、Adventなど多国籍投資家から€3Bを確保し、€21Bの評価に到達。これは単なる資金ではなく、欧州発AIの国際競争力を示す実績だ。\n\nOpenAI（米国）、Anthropic（米国）、Google（米国）といった米企業がAI 市場を支配する中、Mistral はフランスの技術自立を象徴する企業として位置づけられている。「ソーバリンAI」とはEU域内でのデータ・アルゴリズム・モデル開発を意味し、GDPRやDMA といった規制から逃げるだけでなく、技術主権を確立する意図を含む。\n\nこの成功は、欧州VC やtech企業（NVIDIA、Salesforce、BlackRock）が欧州AIの成長を信じ始めたことを示す。ただし、AIの計算効率やモデル性能では米国企業に一定の差がある実態は変わらず、Mistral の真価は今後の成果で問われる。",
+    "tags": [
+      "Mistral",
+      "ソーバリンAI",
+      "欧州",
+      "AI競争"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+    "importance": 4,
+    "image_query": "artificial intelligence technology innovation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1716436329836-208bea5a55e6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHRlY2hub2xvZ3klMjBpbm5vdmF0aW9ufGVufDF8MHx8fDE3ODg5MDI3NDB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "BoliviaInteligente",
+      "profileUrl": "https://unsplash.com/@boliviainteligente?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a computer chip with the letter ai on it",
+      "description": "chip, chipset, AI, artificial intelligence, microchip, technology, innovation, electronics, computer hardware, circuit board, integrated circuit, AI chip, machine learning, neural network, robotics, automation, computing, futuristic, tech, gadget, device, component, semiconductor, electronics component, digital, futuristic tech, AI technology, intelligent system, motherboard, computer, intel, AMD, Ryzen, Core, Apple M1, Apple M2, CPU, processor, computing platform, hardware component, tech innovation, IA, inteligencia artificial, microchip, tecnología, innovación, electrónica"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:40.343Z",
+    "publishedAt": "2026-09-08T14:17:48.000Z"
+  },
+  {
+    "slug": "20260909-04",
+    "headline": "Google、AI Mode で旅行検索の新機能実装",
+    "lead": "GoogleがSearch AI Modeに航空券価格追跡とホテル統合予約を追加。航空会社やホテルのマイル・ポイント検索も。",
+    "body_markdown": "GoogleはSearch AI Mode向けに3つの旅行計画機能を追加した。ユーザーは「このフライト価格を追跡して」と指示すれば価格変動時にメール通知を受け取れる。対応航空会社はアラスカ航空、アメリカン航空など主要5社で、追加予定はAccor、Hyatt、LATAMなど。\n\n次に、マイル・ポイントの利用コストを表示。ホテルと航空会社のロイヤリティプログラム特典を一括比較できる。さらにホテル予約も統合、Booking.com、Expedia、Marriott等と直結し、会話形式で検索から予約まで完結する。\n\nAI Modeは対話インターフェースで旅行ニーズを述べると、複数パートナーから数百の選択肢をリアルタイムで提示する。OpenAIのChatGPTやAnthropicのClaudeなど競合AI が進む中、GoogleはSearch の日常用途での統合を深める戦略を示している。",
+    "tags": [
+      "Google",
+      "AI",
+      "旅行",
+      "Search"
+    ],
+    "section": "テクノロジー",
+    "source": "Google AI",
+    "link": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+    "importance": 4,
+    "image_query": "travel booking flight hotel",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Travel_Blog_Hero_8.27.width-1300.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:40.888Z",
+    "publishedAt": "2026-08-27T16:00:00.000Z"
+  },
+  {
+    "slug": "20260909-05",
+    "headline": "Google Chrome、セキュリティ強化で2週間ごとアップデート",
+    "lead": "GoogleがChromeのリリースサイクルを4週から2週に短縮。AIの脅威増加と「N-day」脆弱性窓を狭めるため。",
+    "body_markdown": "GoogleはChrome の更新頻度を月1回から2週間ごとへ加速する。理由はAI時代のセキュリティ脅威の急速化だ。自動AI ツールとコミュニティ報告により脆弱性報告が増加し、修正パッチの配信速度が急務となった。\n\n特に重視されるのは「N-day ギャップ」。これは脆弱性が公知化してから修正がユーザーに届くまでの期間で、この間に攻撃者が悪用する。2週ごとのアップデートで、公開コードベースへの修正から実ユーザー到着までの時間を劇的に短縮し、悪用可能な窓を閉じる。\n\nGoogle上級副社長によれば「AI由来の脅威も含め、より速く動く脅威は修正公開とエンドユーザー配信の間隔を狭める方が効果的」と述べた。副作用として新機能やAI強化機能の導入も加速し、OpenAI、Anthropic等との競争でも戦略的な意味がある。",
+    "tags": [
+      "Chrome",
+      "セキュリティ",
+      "Google",
+      "AI"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/",
+    "importance": 4,
+    "image_query": "security vulnerability software update",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1762340915398-000c216e7cd6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxzZWN1cml0eSUyMHZ1bG5lcmFiaWxpdHklMjBzb2Z0d2FyZSUyMHVwZGF0ZXxlbnwxfDB8fHwxNzg4OTAyNzQxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zulfugar Karimov",
+      "profileUrl": "https://unsplash.com/@zulfugarkarimov?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Software updater with refresh arrows icon and update icons"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:41.573Z",
+    "publishedAt": "2026-09-08T15:04:09.000Z"
+  },
+  {
+    "slug": "20260909-06",
+    "headline": "Google Cloud、Accenture と1000名エンジニア配置へ",
+    "lead": "GoogleCloudがAccentureと協業、1000名のエンジニアを企業へ派遣。Gemini Enterprise導入支援で追い上げ。",
+    "body_markdown": "GoogleCloudはコンサルティング大手Accentureと「Accenture Gemini Enterprise Business Group」を立ち上げた。Accentureの最大1000名の前線エンジニア（FDE: Forward-Deployed Engineer）を企業に配置し、Google Gemini Enterpriseの導入・カスタム開発を支援する。\n\nFDE は単なる技術者ではなく、事業理解とAI技術を兼ねた「ガイド」として機能。企業がコスト削減だけでなく収益向上まで実現するAI活用を助言する。背景には、企業がAIツール導入で期待値を達成できない「導入ボトルネック」がある。OpenAI、Anthropic、Microsoftも同様の前線展開を進めており、Google は後塵を拝していた。\n\nこの協業により、GoogleはEnterprise 市場でのプレゼンス拡大を目指す。部署統合（Business Group）という形式は、Accentureの影響力を通じた市場浸透を意図している。",
+    "tags": [
+      "GoogleCloud",
+      "AI",
+      "企業",
+      "導入支援"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
+    "importance": 4,
+    "image_query": "enterprise technology deployment",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1588178471436-e4923e93db95?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8ZW50ZXJwcmlzZSUyMHRlY2hub2xvZ3klMjBkZXBsb3ltZW50fGVufDF8MHx8fDE3ODg5MDI3NDJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "tekimax",
+      "profileUrl": "https://unsplash.com/@tekimax?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man in blue crew neck t-shirt standing beside woman in blue t-shirt"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:42.279Z",
+    "publishedAt": "2026-09-08T16:20:31.000Z"
+  },
+  {
+    "slug": "20260909-07",
+    "headline": "ブラジル最高裁で政治対立　警察長を職務停止",
+    "lead": "ブラジル最高裁の左右対立が深刻化。ボルソナーロ派の判事が連邦警察長を停止、選挙前の権力闘争が激化。",
+    "body_markdown": "ブラジル最高裁判所内の政治対立が深刻化している。右派のアンドレ・メンドンサ判事（ボルソナーロ政権任命）は、連邦警察長を職務停止に追い込んだ。理由は同長が司法官憲の違法報告書を作成・配布したとの主張。一方、中道派のアレクサンドル・デモラエス判事（テメル政権任命）は逆にメンドンサの権力乱用を調査するよう要求した。\n\nメンドンサはデモラエスを破産者と関連した報告書で圧迫。デモラエスはこれに対抗、連邦警察報告を盾に同僚を非難。ルイス・イナシオ・ルーラ左翼政権の閣僚は「選挙臭がする」と政治利用を懸念した。10月の選挙を控え、最高裁がボルソナーロ派からの反クーデタ訴追事件の判断を控える中、裁判所の信頼性が揺らいでいる。",
+    "tags": [
+      "ブラジル",
+      "政治",
+      "最高裁",
+      "権力闘争"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/8/brazil-supreme-court-rift-deepens-as-justice-suspends-federal-police-chief",
+    "importance": 4,
+    "image_query": "courthouse justice law judicial",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxjb3VydGhvdXNlJTIwanVzdGljZSUyMGxhdyUyMGp1ZGljaWFsfGVufDF8MHx8fDE3ODg5MDI3NDJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sebastian Pichler",
+      "profileUrl": "https://unsplash.com/@pichler_sebastian?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "low angle photography of beige building"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:42.752Z",
+    "publishedAt": "2026-09-08T20:43:16.000Z"
+  },
+  {
+    "slug": "20260909-08",
+    "headline": "韓国美容医療アプリ、日本ユーザー4.8万人の情報流出",
+    "lead": "韓国の美容医療アプリ「カンナムオンニ」がデータ流出。日本の利用者約4.8万人を含む約22万人が影響。",
+    "body_markdown": "韓国の美容医療情報アプリ「カンナムオンニ」を運営する企業は、日本を含む約22万人の利用者個人情報が流出したと発表した。日本ユーザーだけで約4.8万人が対象だという。\n\nカンナムオンニは東アジアで人気の高い美容医療ガイドアプリで、整形外科・皮膚科クリニック情報や利用者レビューを集約している。今回の流出は、医学的記録、氏名、連絡先、クレジットカード情報など機密性の高い個人データを含むと見られている。\n\nこの事案は、外国企業による個人情報管理の脆弱性を示すと同時に、医療・美容ジャンルのアプリが高度に機密な情報を扱うリスクを露呈させた。GDPR や個人情報保護法の規制下でも、多国籍アプリの管理体制は十分でない実態が明らかになった形だ。",
+    "tags": [
+      "セキュリティ",
+      "データ流出",
+      "韓国",
+      "プライバシー"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260909de49197",
+    "importance": 4,
+    "image_query": "data security privacy cyber",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1569087682520-45253cc2e0ee?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8ZGF0YSUyMHNlY3VyaXR5JTIwcHJpdmFjeSUyMGN5YmVyfGVufDF8MHx8fDE3ODg5MDI3NDN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Chris Yang",
+      "profileUrl": "https://unsplash.com/@chrisyangchrisfilm?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "silhouette photography of man"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:43.256Z",
+    "publishedAt": "2026-09-08T20:34:46.000Z"
+  },
+  {
+    "slug": "20260909-09",
+    "headline": "Google、EU罰金回避で検索結果を「意図的に低下」",
+    "lead": "GoogleがEU独占禁止法遵守名目で欧州検索を意図的に劣化。DMA違反で€890M罰金を受けた報復対応。",
+    "body_markdown": "GoogleはEU規制対応として、ヨーロッパ地域の検索結果を意図的に低下させると発表した。背景には、欧州委員会からの€890M（約11億ドル）の罰金がある。Googleが自社サービス（Google Flights等）を検索結果で競合より優遇していたとされた。\n\nEUのDigital Markets Actは「大型プラットフォームが自社サービスを第三者より優遇してはならない」と規定。Google はこれに従い、Expedia や Hotels.comなど専門検索サイトをより高位に、競合情報をより低位に配置する改革に転じた。\n\nGoogleのニック・フォックスシニアVPは「これは欧州利用者の検索体験を低下させる。オンライン仲介業者を優遇し、地域事業者を打撃する」と批判。過去のDMA対応で欧州ビジネスへのダイレクト予約が30%減少した事例から、同様の下落を懸念している。欧州規制が事業者の努力を損なうという逆説的結果だ。",
+    "tags": [
+      "Google",
+      "EU",
+      "規制",
+      "検索"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2253229/google-will-degrade-search-in-europe-to-avoid-eu-fines/",
+    "importance": 4,
+    "image_query": "search engine technology regulation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1704177094034-46a04b901bed?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMXx8c2VhcmNoJTIwZW5naW5lJTIwdGVjaG5vbG9neSUyMHJlZ3VsYXRpb258ZW58MXwwfHx8MTc4ODkwMjc0M3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "William Warby",
+      "profileUrl": "https://unsplash.com/@wwarby?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up view of a jet engine",
+      "description": "Jet Engine"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:43.921Z",
+    "publishedAt": "2026-09-08T19:40:27.000Z"
+  },
+  {
+    "slug": "20260909-10",
+    "headline": "ChatGPT Images 2.5、生成速度50%高速化",
+    "lead": "OpenAIが画像生成モデルを更新。より詳細で正確な編集、高速化を実現。週30億画像利用の実績から次世代へ。",
+    "body_markdown": "OpenAIはChatGPT Images 2.5を発表。毎週30億枚がChatGPT ImageとAPI版で生成されている中での大型アップデートだ。従来のImages 2.0比で画像生成レイテンシを最大50%削減、より詳細で正確な編集を実現した。\n\n新機能「Sketch」が追加された。ユーザーはChatGPT内で手描きのラフスケッチを描き、それを参考画像として指示すると、AIがフォトリアルな完成イメージに変換する。複数ターン編集でも精度を保つという。テクスチャーが豊か、照明が自然、参考写真の被写体の保持性も向上した。\n\nこの改善は、Adobe Firefly や Midjourney との競争が背景。企業・クリエイターが実用的な画像生成ツールとして信頼できるレベルへの到達を目指している。",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "画像生成",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
+    "importance": 4,
+    "image_query": "AI image generation art",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6J668sj93QnQ8PWP7epUDv/3dbd2d2350053d96b03477d0fdb2e2c6/images2point5_16-9c.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:44.355Z",
+    "publishedAt": "2026-09-08T11:30:00.000Z"
+  },
+  {
+    "slug": "20260909-11",
+    "headline": "スペイン女性選手、卵子凍結費用を国負担に",
+    "lead": "スペインサッカー連盟が女性選手・審判を対象に IVF・卵子凍結の医療費をサポート。妊娠・出産と選手キャリアの両立支援。",
+    "body_markdown": "スペインサッカー連盟は女性選手と女性審判を対象に、不妊治療（IVF）と卵子凍結の医療費をサポートする新プログラムを開始する。スペイン代表候補に2回以上選出された女性選手が対象で、生殖医学専門クリニックと提携して実施される。\n\nこの施策の背景には、女性アスリートが妊娠・出産と競技キャリアの継続に直面する構造的課題がある。生物学的に出産適齢期と競技ピークが重なり、キャリアと家族計画の両立が難しい実態がある。スペインの施策は、選手が出産後にスポーツに戻る際の身体的・経済的ハードルを下げるもの。\n\nこのような支援は、女性スポーツの包括性と選手保護をめぐる国際的な議論を反映している。ただし、医療アクセスの格差はなお存在し、全世界的な標準化にはまだ距離がある。",
+    "tags": [
+      "スペイン",
+      "女性",
+      "サッカー",
+      "医療"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/sports/2026/9/8/spanish-fa-launches-fertility-support-for-female-players-and-referees",
+    "importance": 3,
+    "image_query": "female athlete sports empowerment",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:44.357Z",
+    "publishedAt": "2026-09-08T19:48:21.000Z"
+  },
+  {
+    "slug": "20260909-12",
+    "headline": "ネパール土石流、温暖化対策強化を求める声",
+    "lead": "ネパール・中国国境の大規模土石流から2週間。被災地では捜索継続、気候変動対策の国際支援を呼びかけ。",
+    "body_markdown": "ネパールと中国の国境付近で発生した大規模土石流は9月9日で発生から2週間。被災地ではいまも行方不明者の捜索が続く。ネパール政府は、今回の災害の一因と指摘される地球温暖化への対策強化と、国際的な気候変動対応の加速を求めている。\n\n土石流は山岳地帯の融氷や降水量増加が引き金。ネパールはヒマラヤに位置し、気候変動の影響を世界的に見ても受けやすい地形にある。今回の犠牲者は数百人に達し、重大な環境災害として記録される見込みだ。\n\nネパールは低開発国として国際支援に依存する立場にあり、先進国のCO2削減や適応基金への貢献を求める声が強まっている。これは、気候正義と災害対応のジレンマを浮き彫りにしている。",
+    "tags": [
+      "ネパール",
+      "気候変動",
+      "自然災害",
+      "国際協力"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260908de49138",
+    "importance": 3,
+    "image_query": "landslide mountain disaster weather",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:44.358Z",
+    "publishedAt": "2026-09-08T20:31:29.000Z"
+  },
+  {
+    "slug": "20260909-13",
+    "headline": "若者とAIの発達への影響を研究、OpenAIが500万ドル助成",
+    "lead": "OpenAIが13〜17歳の若者とAIの相互作用が発達に与える影響に関する独立研究へ500万ドルを助成。",
+    "body_markdown": "OpenAIは独立研究機関に対し、13〜17歳の若者とAIの相互作用が及ぼす影響に関する独立研究へ計500万ドルを助成すると発表した。生成AIが思春期の発達に与える影響の根拠を強化するプログラムだ。\n\n調査対象は、若者がAIを学習・創作・助言求めで使う方式と、年齢層や文脈による利用パターンの違い。安全機能の有効性や個人差も対象となる。研究成果はポリシーメーカーや業界にフィードバックされ、AIとティーン層の相互作用に関する業界全体の理解を深める。\n\nOpenAI は既に ChatGPT Edu で教育機関への無償提供を進めており、本助成はその延長。ただし自社製品による影響研究であるため、客観性への懸念を払拭するため独立したPI（研究代表者）の採用を重視している。",
+    "tags": [
+      "OpenAI",
+      "思春期",
+      "AI",
+      "研究助成"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/teen-development-research-grants",
+    "importance": 3,
+    "image_query": "youth education learning technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:44.359Z",
+    "publishedAt": "2026-09-08T09:00:00.000Z"
+  },
+  {
+    "slug": "20260909-14",
+    "headline": "米ロ首脳が電話協議、ウクライナ戦闘の早期終結に関心",
+    "lead": "トランプ米大統領とプーチン露大統領が電話会談。ウクライナ紛争の早期解決と仲介役の活動を協議。",
+    "body_markdown": "ロシアとウクライナの和平協議が停滞する中、トランプ米大統領とプーチン露大統領が電話会談を実施した。会談は、米国の仲介特使がロシア・ウクライナを訪問した後のもの。トランプ大統領はウクライナでの戦闘の早期終結に強い関心を示したと見られている。\n\n背景には、米国内での対外支出の圧力とウクライナ支援の疲労感がある。トランプは選挙戦で「戦争終結」を公約しており、実行の意思を示そうとしている。ただし、ウクライナ側は領土奪還が和平の前提であり、露側は逆に領土保有を要求するなど、根本的な隔たりは残っている。\n\nこの協議は、今後の米国外交の転換を示唆するもの。欧州やNATO同盟国の対露政策とも齟齬が生じる可能性がある。",
+    "tags": [
+      "米国",
+      "ロシア",
+      "ウクライナ",
+      "外交"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260909de49200",
+    "importance": 4,
+    "image_query": "diplomacy political negotiation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1722706731912-dde6e451e59f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8ZGlwbG9tYWN5JTIwcG9saXRpY2FsJTIwbmVnb3RpYXRpb258ZW58MXwwfHx8MTc4ODkwMjc0NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Marvin Cheung",
+      "profileUrl": "https://unsplash.com/@marvincheung?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A book sitting on top of a tree stump",
+      "description": "\"5 Ideas from Global Diplomacy: System-wide Transformation Methods to Close the Compliance Gap and Advance the 2030 Sustainable Development Goals\" (Ground Zero Books LLC) by Marvin Cheung"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:45.250Z",
+    "publishedAt": "2026-09-08T20:19:30.000Z"
+  },
+  {
+    "slug": "20260909-15",
+    "headline": "Suno、大手レーベルと戦略的パートナーシップ",
+    "lead": "AI音楽生成Sunoが仏Believe Music と提携。Warner Music、BMG に続く3社目の大手レーベル連携。",
+    "body_markdown": "AI音楽生成プラットフォームSunoは、独立系音楽企業Believe（フランス本社）との戦略的パートナーシップを発表した。パートナーにはTuneCoreも含まれる。これでWarner Music、BMG（世界3〜4位のレーベル）に続く、3社目の大手レーベルとの正式提携となる。\n\nSunoは生成AIで楽曲を自動作成するサービス。著作権と音楽家の報酬について業界から批判を受けていたが、大手レーベルとのライセンス契約により正当性を獲得しつつある。Believe はSpotifyやApple Musicといったストリーミング配信へのルート確保もあり、Sunoが生成楽曲の配信流通を確立することを意味する。\n\nただし、独立アーティスト・小規模レーベルからのSuno利用の懸念は残る。生成AIの台頭で音楽制作の民主化と既得権層の再編が同時進行している。",
+    "tags": [
+      "AI",
+      "音楽",
+      "生成",
+      "ライセンス"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/digital/news/suno-believe-strategic-partnership-1236855137/",
+    "importance": 3,
+    "image_query": "music production audio technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:45.252Z",
+    "publishedAt": "2026-09-08T20:21:07.000Z"
+  },
+  {
+    "slug": "20260909-16",
+    "headline": "スミソニアン所長が退任、トランプ政権の圧力背景に",
+    "lead": "米スミソニアン博物館のロニー・バンチ所長が退任表明。トランプ政権による歴史描写への攻撃が背景。",
+    "body_markdown": "米国の主要美術館ネットワーク、スミソニアン博物館のロニー・バンチ所長が退任すると発表した。バンチは「誇りと悲しみを持って去る」と述べ、スミソニアン機関の「完全性を守り続ける」決意を示唆した。背景には、トランプ政権による米国史描写への批判と圧力がある。\n\nトランプ政権は、スミソニアンの展示が「米国の負の側面」（奴隷制度、先住民虐待など）を強調しすぎると批判。米国例外主義的な歴史叙述への転換を求めている。バンチは多様性と包括的歴史の重要性を掲げる立場で、政権方針との対立が決定に至った。\n\nこの退任は、公式文化機関の歴史叙述をめぐる権力闘争を象徴している。学術・芸術の自由と政治的圧力のバランスが問われている。",
+    "tags": [
+      "米国",
+      "博物館",
+      "歴史",
+      "政治"
+    ],
+    "section": "カルチャー",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/8/head-of-smithsonian-museums-announces-he-will-be-stepping-down",
+    "importance": 3,
+    "image_query": "museum history culture institution",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-08T21:25:45.253Z",
+    "publishedAt": "2026-09-08T20:32:52.000Z"
+  },
+  {
     "slug": "20260908-25",
     "headline": "OpenAI、GPT-6 Astra発表 ベンチマークで99.9%達成",
     "lead": "次世代AIモデルは PC自律操作とコーディング能力を大幅強化、セキュリティ脆弱性の検出精度も大幅向上。",
