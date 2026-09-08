@@ -1,5 +1,334 @@
 [
   {
+    "slug": "20260908-25",
+    "headline": "OpenAI、GPT-6 Astra発表 ベンチマークで99.9%達成",
+    "lead": "次世代AIモデルは PC自律操作とコーディング能力を大幅強化、セキュリティ脆弱性の検出精度も大幅向上。",
+    "body_markdown": "OpenAIは9月3日、新型大規模言語モデル「GPT-6 Astra」を発表した。同モデルは推論能力、コーディング、セキュリティ対応など複数領域で大幅な性能向上を実現している。\n\n推論ベンチマーク「ARC-AGI-3」で99.9%のスコアを達成。コンピュータ操作機能を備え、キーボードやマウス操作、Webフォーム入力、CRMツールのデータ更新が可能。Webアプリケーション開発や3D設計支援も強化され、Blenderで3Dモデルを作成し、Unreal Engine 5のシミュレーション環境での変換も可能になった。\n\nセキュリティ脆弱性の発見精度は前モデル比で大きく向上。「ExploitBench」で既知脆弱性100個中100個を特定し、前モデルの78.5%から飛躍した。PC操作タスク「OSWorld 2.0」では前モデル比47%の性能向上、コーディング「Mind2Web」では1.9倍の効率向上を実現。\n\nOpenAIは潜在的な悪用リスク対策として「OpenAI Daybreak」プログラムを通じ、開発者や研究機関に脆弱性対応機能を提供。セキュリティ研究の加速と同時に、防御側の強化を図っている。",
+    "tags": [
+      "OpenAI",
+      "GPT",
+      "AI",
+      "コーディング"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/08/news035.html",
+    "importance": 5,
+    "image_query": "computer code artificial intelligence",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8Y29tcHV0ZXIlMjBjb2RlJTIwYXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZXxlbnwxfDB8fHwxNzg4ODU5NzIyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Pankaj Patel",
+      "profileUrl": "https://unsplash.com/@pankajpatel?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "display monitor turning on",
+      "description": "Read more at https://time2hack.com/2018/01/execute-javascript-code-inside-es6-templates/"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T09:28:42.640Z",
+    "publishedAt": "2026-09-08T08:00:00.000Z"
+  },
+  {
+    "slug": "20260908-26",
+    "headline": "日本、2027年4月から食料品の消費税を1%に減税へ",
+    "lead": "自民党が大綱案を了承、食料品の税率を8%から1%に引き下げ、来月中に税制大綱決定。",
+    "body_markdown": "自民党税制調査会は9月8日の幹部会合で、食料品の消費税減税にまつわる制度設計を盛り込んだ大綱案を了承した。党内の意見集約を進め、来月中に与党税制大綱を決定する見通しだ。\n\n新たな施策では、2027年4月から食料品（酒類・外食を除く）の消費税率を現在の軽減税率8%から1%に引き下げる。さらに6月以降は、その1%に相当する額を中低所得の働き世代に所得に応じて給付する予定。政府は地方の減収分を特例交付金で全額補てんする検討も進めている。\n\n高市首相は「来月税制大綱決定し法案提出に万全を期する」とコメント。消費者の食料品購入負担を軽減しつつ、財政面では段階的な措置によって対応する方針となっている。",
+    "tags": [
+      "政治",
+      "消費税",
+      "経済政策"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260908de49049",
+    "importance": 4,
+    "image_query": "shopping food grocery store",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1670684684445-a4504dca0bbc?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzaG9wcGluZyUyMGZvb2QlMjBncm9jZXJ5JTIwc3RvcmV8ZW58MXwwfHx8MTc4ODg1OTcyM3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jack Lee",
+      "profileUrl": "https://unsplash.com/@jack19992011?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a grocery store aisle filled with lots of food",
+      "description": "Selves of snacks in a supermarket. London, UK."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T09:28:43.176Z",
+    "publishedAt": "2026-09-08T08:54:12.000Z"
+  },
+  {
+    "slug": "20260908-27",
+    "headline": "日本、ネパール土石流災害に300万ドルの緊急支援表明",
+    "lead": "茂木外務大臣が無償資金協力を発表、中国との国境付近での土砂災害に対応。",
+    "body_markdown": "茂木外務大臣は9月8日、ネパールと中国の国境付近で発生した土石流災害への支援として、300万ドルの緊急無償資金協力を実施すると発表した。\n\n同地域は自然災害の多い山岳地帯で、土砂災害による被害が深刻化している。日本の支援は災害復旧・復興支援の一環として提供される見通しだ。\n\n日本はこれまでもネパールの防災インフラ整備やウェザーステーション設置などで協力実績があり、今回の支援は関係強化の一層の表れとなる。",
+    "tags": [
+      "国際",
+      "支援",
+      "自然災害"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260908de49052",
+    "importance": 4,
+    "image_query": "landslide debris mountain",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1766832142169-83f8960f6e55?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8bGFuZHNsaWRlJTIwZGVicmlzJTIwbW91bnRhaW58ZW58MXwwfHx8MTc4ODg1OTcyM3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Varsha Prakash",
+      "profileUrl": "https://unsplash.com/@varshap?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Rocky mountain slope with gravel and debris",
+      "description": "A peaceful view of the Himalayas captured in natural light."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T09:28:43.820Z",
+    "publishedAt": "2026-09-08T08:38:18.000Z"
+  },
+  {
+    "slug": "20260908-28",
+    "headline": "TSMC・Samsung、ASML最新EUV機器を採用 AI チップ製造を加速",
+    "lead": "次世代リソグラフィ「High NA EUV」導入で、より小型で複雑な半導体製造が可能に。",
+    "body_markdown": "TSMC と Samsung は、ASML の次世代半導体製造装置「High NA EUV」（高開口数極端紫外線リソグラフィ）の採用を表明した。AI チップ需要の急増に対応するため、より小型で複雑な半導体の製造が急務となっている。\n\nHigh NA EUV は 1nm 世代の半導体製造に向けた革新的な技術で、従来の EUV マシンより解像度が大幅に向上し、チップの集積度を高められる。1 台約 4 億ドルと極めて高額だが、生産効率の向上で長期的なコスト削減につながる。\n\nTSMC は 2030 年からの本格採用を計画、Samsung は 2028 年の DRAM 製造で先行導入する見通し。両社は ASML とともに、従来の 6 インチから 12 インチへの大型フォトマスク技術開発にも参加。生産性向上と製造コスト削減を同時に実現する狙いだ。",
+    "tags": [
+      "半導体",
+      "AI",
+      "テクノロジー"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/08/tsmc-samsung-asml-high-na-euv-machine-ai-chips.html",
+    "importance": 4,
+    "image_query": "semiconductor chip manufacturing factory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1607398027609-fbd1a06fb5d4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxzZW1pY29uZHVjdG9yJTIwY2hpcCUyMG1hbnVmYWN0dXJpbmclMjBmYWN0b3J5fGVufDF8MHx8fDE3ODg4NTk3MjR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Glsun Mall",
+      "profileUrl": "https://unsplash.com/@glsun?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man in blue jacket wearing blue mask",
+      "description": "GLSUN is a optical solution company, offer its customers low-cost, reliable optical products with superior performance in volume, GLSUN strives to develop innovative solutions leveraging III-V semiconductor laser chip technology to interconnect the world for the future. "
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T09:28:44.305Z",
+    "publishedAt": "2026-09-08T08:32:02.000Z"
+  },
+  {
+    "slug": "20260908-29",
+    "headline": "Xiaomi 18 Fold発表、折りたたみスマートフォンで軽量化実現",
+    "lead": "219g の軽さ、7.68インチディスプレイ、200MP Leica カメラ搭載、約 1,640 ドルから。",
+    "body_markdown": "Xiaomi は IFA 2026 で新型折りたたみスマートフォン「Xiaomi 18 Fold」を発表した。本体重量は 219g と同社の折りたたみモデルで最軽量を実現、業界内でも競争力の高い仕様を備えている。\n\n内側に 7.68インチのフォーク可能なディスプレイ、外側に 5.38インチのスクリーンを搭載。両画面ともアスペクト比 A4 で、スクリーン切り替え時の一体感を高めた。独自チップ「XRING 03」（3nm プロセス、10 コア CPU／16 コア GPU）を搭載、前世代比で NPU オン機デコード性能が 45% 向上している。\n\nカメラは Leica 監修の 3 眼構成。200MP メインセンサー（1/1.56インチ）と 50MP ペリスコープ望遠レンズを備える。シリコンカーボン電池で大容量を実現しつつ軽さを保ち、67W 有線・50W ワイヤレス充電対応。中国での販売開始予定で、10,999 元（約 1,640 ドル）から。",
+    "tags": [
+      "スマートフォン",
+      "Xiaomi",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2252401/xiaomi-18-fold-hands-on-ifa-2026/",
+    "importance": 3,
+    "image_query": "foldable smartphone display screen",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-08T09:28:44.307Z",
+    "publishedAt": "2026-09-08T07:16:20.000Z"
+  },
+  {
+    "slug": "20260908-30",
+    "headline": "中国の遺伝子治療実験で6歳女児が死亡、Nature誌が倫理的問題を指摘",
+    "lead": "医療機関が試験登録を怠った、治療関連の先行死亡事例が開示されず、安全性管理の空白を露呈。",
+    "body_markdown": "中国で実施された遺伝子治療の臨床試験で、6歳の女児が治療後 1 週間以内に死亡したことが Nature 誌による調査で明かされた。同女児は数兆個のウイルス粒子を含む治療液を投与され、治療直後に高熱と炎症が生じて急死した。\n\nゲノム編集治療の臨床試験で、事前の動物試験では投与群のサルすべてが中程度から重度の肝障害を発症し、高用量動物は腎障害も併発していた。にもかかわらず、人体試験が強行され、さらに同じ疾患を持つ別の小児への先行投与で死亡事例があったことが公開時に開示されなかった。\n\nN ature に掲載された論文は、これらの重大な背景情報を記載していなかった。医療機関は死因を「血栓性微小血管障害」と特定しながら、臨床試験の商業スポンサーシップを当局データベースに登録せず、試験監視の義務も果たしていなかった。後に同医療機関は約 3,600 ドル相当の罰金に処せられている。Nature は論文に編集者注を付し、問題の調査を表明した。",
+    "tags": [
+      "医療",
+      "倫理",
+      "遺伝子治療"
+    ],
+    "section": "サイエンス",
+    "source": "Nature",
+    "link": "https://www.nature.com/articles/d41586-026-02497-2",
+    "sources": [
+      {
+        "url": "https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public",
+        "name": "Science"
+      }
+    ],
+    "importance": 4,
+    "image_query": "genetics dna laboratory research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1582719366950-f23838e207e7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8Z2VuZXRpY3MlMjBkbmElMjBsYWJvcmF0b3J5JTIwcmVzZWFyY2h8ZW58MXwwfHx8MTc4ODg1OTcyNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "white plastic bottles on black shelf",
+      "description": "DNA Genotyping and Sequencing. Vials containing DNA samples from studies of the genetic risk for cancer at the Cancer Genomics Research Laboratory, part of the National Cancer Institute's Division of Cancer Epidemiology and Genetics (DCEG)."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T09:28:44.954Z",
+    "publishedAt": "2026-09-08T04:00:00.000Z"
+  },
+  {
+    "slug": "20260908-31",
+    "headline": "英国、ウクライナに 1 億ポンドの防空支援を供給 冬季の対空防御を強化",
+    "lead": "Patriot ミサイルと防御インターセプターを供給、露軍による冬季空爆に対抗。",
+    "body_markdown": "英国は 9 月 8 日、ウクライナの空中防御を強化するため、1 億ポンド規模の軍事装備支援パッケージをウクライナに供給すると表明した。NATO 優先度リストに基づいた支援で、露軍による冬季の空爆攻撃に対する抵抗力を向上させる狙い。\n\n支援内容は Patriot ミサイル、防御インターセプター、大口径砲弾、および無人偵察機を含む。露軍による継続的な空爆によってウクライナの Patriot 弾薬備蓄が減少している現状に対応、供給不足の補填を目指す。\n\nこれまでウクライナへの軍事支援は西側各国から継続的に行われてきたが、冬季はとくに空中戦の激化が予想される。英国は NATO 枠組みでの支援ニーズリストに沿う形で、段階的な援助を実施する方針を示唆している。",
+    "tags": [
+      "ウクライナ",
+      "軍事",
+      "国防"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/politics/2026/sep/08/uk-commits-100m-bolster-ukraine-air-defences-russia-war",
+    "importance": 4,
+    "image_query": "military defense missile system",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1756929131023-a79206b1fdde?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8bWlsaXRhcnklMjBkZWZlbnNlJTIwbWlzc2lsZSUyMHN5c3RlbXxlbnwxfDB8fHwxNzg4ODU5NzI1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Gabriel Vasiliu",
+      "profileUrl": "https://unsplash.com/@gabimedia?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Military missile launcher system with radar",
+      "description": "Bias 2025 Bucharest, Romania, impressive aerial demonstrations"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-08T09:28:45.485Z",
+    "publishedAt": "2026-09-08T07:24:17.000Z"
+  },
+  {
+    "slug": "20260908-32",
+    "headline": "GMO AI & ロボティクス、人型ロボ向け「救急車」サービス開始",
+    "lead": "ロボットの故障対応や修理、代替機提供を一元管理、世界の救急車両をデザイン参考に。",
+    "body_markdown": "GMO AI & ロボティクス商事は、人型ロボット向けの緊急対応・修理サービス「GMO ヒューマノイド救急車」を導入すると発表した。ロボットの故障やトラブル発生時に、診断・修理・代替機提供などを一元的に対応するサービスで、ロボット産業化の進展に伴う新たな需要に対応する。\n\nサービスの設計には、消防車・救急車など世界の緊急対応車両を参考にした。ロボット利用企業がトラブル報告を受けた際、迅速に修理チームを派遣し、機器の交換・修復を実施。代替機の手配により、ユーザーのダウンタイムを最小化する構想。\n\n日本国内での人型ロボット導入が進む中、運用支援インフラの整備が事業化の鍵となる。本サービスは製造業・物流・施設管理など、ロボット活用分野の拡大を後押しする基盤となる見込みだ。",
+    "tags": [
+      "ロボット",
+      "AI",
+      "サービス"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001279/",
+    "importance": 3,
+    "image_query": "humanoid robot artificial intelligence",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-08T09:28:45.487Z",
+    "publishedAt": "2026-09-08T07:58:18.000Z"
+  },
+  {
+    "slug": "20260908-33",
+    "headline": "イラン、燃料価格を段階的引き上げ 110 リットル超で倍額負担に",
+    "lead": "月間消費量に応じた価格制度で、高消費層は 1 リットルあたり 100,000 リアルの負担に。",
+    "body_markdown": "イラン政府は 9 月 8 日、燃料価格の新たな価格設定を発表した。月間消費量が 110 リットルを超えた場合、従来より倍額の 100,000 リアル/リットルでの販売を実施する。\n\n新施策では、低消費層（月 110 リットル以下）には従来価格を維持しつつ、それを超える消費者に段階的な価格上昇を適用。月間消費量に応じた価格体系により、燃料消費の抑制を促す狙い。消費超過分の単価が倍になることで、実質的な負担増が生じる構想だ。\n\nイランは OPEC 加盟国で、エネルギー価格政策は国家財政と国民生活に直結する重要課題。政府による価格管理は、限定的な石油精製能力と国際制裁下での経済的制約に対応するための施策で、今後の国民生活コストや産業競争力への影響が注視される。",
+    "tags": [
+      "イラン",
+      "エネルギー",
+      "経済"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/8/as-fuel-prices-rise-again-irans-government-urges-citizens-to-cut-back",
+    "importance": 3,
+    "image_query": "fuel gas station energy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-08T09:28:45.508Z",
+    "publishedAt": "2026-09-08T08:15:29.000Z"
+  },
+  {
+    "slug": "20260908-34",
+    "headline": "小鵬汽車、人型ロボット「IRON」の生産ラインを稼働 2027年に海外市場へ",
+    "lead": "中国 EV メーカーが人型ロボット量産化へ移行、2026 年内に生産開始、2027 年には国内外での販売予定。",
+    "body_markdown": "中国の電動車メーカー小鵬汽車（シャオペン）は、人型ロボット「IRON」の生産ラインを稼働させたと発表した。量産化への移行で、2026 年内に本格生産を開始し、2027 年には中国および海外市場への供給を計画している。\n\n「IRON」は自社開発の汎用人型ロボットで、製造業・物流・施設管理など複数の応用分野を想定。同社はこれまで試作機の運用実績を通じ、実環境での耐久性・作業精度を検証してきた。「人の中に人がいるのでは」と疑われるほどの動作精度が話題になり、業界内での注目度も高い。\n\nEV メーカーが人型ロボット事業へ舵を切る動きは、中国テック企業の多角化戦略を象徴している。自動運転技術やセンサー技術の蓄積が、ロボット開発基盤として機能する側面もあり、今後の国内産業への波及効果が注視される。",
+    "tags": [
+      "ロボット",
+      "AI",
+      "中国"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2609/08/2000001276/",
+    "importance": 3,
+    "image_query": "humanoid robot manufacturing production",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-08T09:28:45.515Z",
+    "publishedAt": "2026-09-08T07:58:18.000Z"
+  },
+  {
+    "slug": "20260908-35",
+    "headline": "オーストラリアの10代、教室混乱が世界で最悪水準 読み書き・算数で国際平均下回る",
+    "lead": "OECD PISA 2025 調査で、授業中の騒音・混乱が 41% に達し、学習効果が損なわれている実態が浮き彫りに。",
+    "body_markdown": "OECD の国際学力調査「PISA 2025」の結果から、オーストラリアの学校における教室環境の深刻さが露呈した。15 歳の生徒 41% が授業中に騒音や混乱があると報告し、OECD 平均（31%）を大きく上回った。\n\nオーストラリアは過去 PISA で理科と読み書きで国際平均上位を維持していたが、今回は読み書き・算数で国際平均を下回る結果に。生徒の約 21% が「授業中にほとんどの時間、まともに学習できない」と回答。教室の規律維持の国際ランキングでは 80 カ国中 69 位と極めて低く、学習時間の約 3 分の 1 が生徒の問題行動で失われている実態が指摘されている。\n\nスマートフォンなどデジタルデバイスの講義中の使用が問題行動を誘発する要因として報告されており、教育当局は「デジタルデトックス」的な対策検討を迫られている。",
+    "tags": [
+      "教育",
+      "オーストラリア",
+      "PISA"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/australia-news/2026/sep/08/australia-pisa-2025-test-score-results-national-decline-reading-maths",
+    "importance": 3,
+    "image_query": "classroom students learning school",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-08T09:28:45.516Z",
+    "publishedAt": "2026-09-08T07:30:30.000Z"
+  },
+  {
+    "slug": "20260908-36",
+    "headline": "インドネシア、火山灰で閉鎖の 5 空港を再開 34 万人の乗客が影響",
+    "lead": "アナック・クラカタウ火山の噴火で一時途絶した航空交通、灰の影響が軽減され運用再開へ。",
+    "body_markdown": "インドネシアの火山噴火で閉鎖されていたジャカルタなど 5 つの空港が再開された。9 月 6 日のアナック・クラカタウ火山の大規模噴火により、約 34 万人の乗客と 2,900 便近くが影響を受けていた。\n\nジャカルタのスカルノ・ハッタ空港をはじめ、ハリム・ペルダナクスマ空港、バンドン地域のフサイン・サストラネガラ空港などが閉鎖されていたが、9 月 8 日朝に運用を再開。火山灰が風によって拡散し、滑走路の灰の量が安全運用水準まで低下した。\n\nジャカルタ空港では約 178 機が着地困難で駐機されており、当局が飛行性能の再検査を実施中。アナック・クラカタウはジャワ島とスマトラ島の海峡に位置し、火山活動が継続している。今後の風向きと火山灰放出状況により、航空交通のさらなる制限が生じる可能性があり、監視が続いている。",
+    "tags": [
+      "インドネシア",
+      "火山",
+      "航空"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/8/indonesia-airports-reopen-after-volcanic-ash-disrupts-thousands-of-flights",
+    "importance": 3,
+    "image_query": "volcano ash eruption mountain",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-08T09:28:45.517Z",
+    "publishedAt": "2026-09-08T08:31:01.000Z"
+  },
+  {
+    "slug": "20260908-37",
+    "headline": "ノバルティス、臨床試験失敗で株価 10% 下落 過去最悪の一日に",
+    "lead": "3 件の医薬品治験の不成功が発表され、投資家の信頼が揺らぎ大型株価下げ。",
+    "body_markdown": "スイスの製薬大手ノバルティスは 9 月 8 日、3 件の医薬品臨床試験が失敗したことを発表し、株価は 10% 近くまで下落した。同社の株価は過去最悪の下落率を記録し、投資家からの売り圧力が強まっている。\n\n失敗した試験の中には、del-desiran（自社開発の遺伝子治療薬）の主要な後期段階の試験が含まれている。試験結果が投資家の事前期待を大きく下回り、売上予想の下方修正につながると懸念されている。\n\nノバルティスはこれまで複数の医薬品開発パイプラインを推進してきたが、治験失敗による経営リスクが顕在化。同社は今後の戦略見直しと開発ポートフォリオの効率化を迫られる見込みだ。",
+    "tags": [
+      "医薬品",
+      "臨床試験",
+      "ビジネス"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/08/novartis-novn-del-desiran-drug-trial.html",
+    "importance": 3,
+    "image_query": "pharmaceutical drug testing laboratory",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-08T09:28:45.518Z",
+    "publishedAt": "2026-09-08T08:39:10.000Z"
+  },
+  {
+    "slug": "20260908-38",
+    "headline": "ルノー、Dacia Spring EV を欧州で製造 補助金拡大を狙う",
+    "lead": "Dacia Spring のヨーロッパ生産化で、地域補助金の要件を満たし販売競争力を強化。",
+    "body_markdown": "ルノーは低価格電動車「Dacia Spring」のヨーロッパ地域での製造化を決定した。従来は中国での製造が主流だったが、欧州での地域補助金制度拡大に対応し、地元産基準を満たす狙い。\n\nDacia Spring は 17,900 ユーロ（約 19,000 ドル）から提供される手頃な価格の EV で、欧州での需要が高まっている。ヨーロッパ生産化により、EU や各加盟国の電動車購入補助金の要件（地域付加価値率など）をクリアしやすくなり、消費者層への販売が促進される見通し。\n\nSpring は外観もリデザインされスポーティーなイメージが強化された。ルノーは今後の EV 市場の拡大に対応し、低価格帯セグメントでの競争力を高める戦略を加速している。",
+    "tags": [
+      "EV",
+      "自動車",
+      "欧州"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2252406/renault-building-dacia-spring-ev-in-europe-to-qualify-for-local-subsidies/",
+    "importance": 3,
+    "image_query": "electric car EV charging",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-08T09:28:45.519Z",
+    "publishedAt": "2026-09-08T07:39:11.000Z"
+  },
+  {
     "slug": "20260908-01",
     "headline": "OpenAIがウクライナの独立メディア育成へ",
     "lead": "OpenAIとWAN-IFRA、ウクライナのメディア団体が協力し、AI活用による報道サポート事業を開始。",
