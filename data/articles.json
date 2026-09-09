@@ -1,5 +1,353 @@
 [
   {
+    "slug": "20260910-01",
+    "headline": "ポール・クリスティアーノ氏、OpenAI 財団理事会に参加",
+    "lead": "NIST AI 安全研究所の上級技術顧問が OpenAI Foundation の安全・セキュリティ委員会に就任。政府機関の AI リスク評価を主導してきた専門家。",
+    "body_markdown": "OpenAI は 9 月 9 日、ポール・クリスティアーノ氏が OpenAI Foundation Board（財団理事会）に参加すると発表した。クリスティアーノ氏は米商務省傘下の国立標準技術研究所（NIST）内で設置された AI 安全・イノベーション・センター（CAISI）の上級技術顧問。\n\n理事会内の「安全・セキュリティ委員会」（SSC）にも就任し、同委員会の委員長・ジコ・コルター氏と協力。SSC は OpenAI Group PBC を含む全 OpenAI 組織の安全・セキュリティ実践に関するガバナンスを提供する。\n\nクリスティアーノ氏は CAISI での経歴を通じ、国家安全保障上の意味合いを持つ最先端 AI モデルの能力評価、および関連するセキュリティ・安全リスク対策に従事。政府と民間企業間の AI ガバナンス連携が深まる動きの一環。",
+    "tags": [
+      "AI安全",
+      "ガバナンス",
+      "OpenAI",
+      "米政府"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+    "importance": 4,
+    "image_query": "technology policy government",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/182NzFWut4sS5hBGtIVsq5/c2620026fe60121fe6543a992c7477ea/paul-christiano-joins-openai-foundation-board--seo-v001.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-09T21:18:54.874Z",
+    "publishedAt": "2026-09-09T17:00:00.000Z"
+  },
+  {
+    "slug": "20260910-02",
+    "headline": "イラン、IAEA から国連安保理に付託される 核査察拒否で",
+    "lead": "IAEA 理事会がイランの核非準拠で国連安保理への付託を決定。米イスラエルの軍事攻撃以降、核査察官のアクセスが遮断されたまま。",
+    "body_markdown": "国際原子力機関（IAEA）理事会は 9 月 9 日、イランの核非準拠を理由に国連安保理への付託を決定した。米国、ドイツ、フランス、英国が主導した決議で、23 ヶ国以上が賛成。ロシア、中国、ニジェールが反対票を投じた。\n\n決議の背景は、2025 年 6 月の米・イスラエル軍事攻撃以降、IAEA の査察官がイランの核施設 3 箇所へのアクセスを拒否され、国際的な監視が機能していない状況。IAEA は、イランが約 400kg の濃縮ウランを保有していると懸念。この量は核兵器に転用される危険がある。\n\n付託決議は 20 年ぶりの異例の措置だが、安保理での強制措置は困難が予想される。ロシアと中国は常任理事国として拒否権を保有し、イランの主要同盟国であるため。イラン側は「米イスラエルの犯罪的侵略行為が査察を妨害した」と反発している。",
+    "tags": [
+      "イラン",
+      "核問題",
+      "中東地政学",
+      "国連"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/9/iaea-board-resolves-to-report-iran-to-security-council-over-nuclear-program",
+    "sources": [
+      {
+        "url": "https://www.bbc.co.uk/news/articles/ckgwj4kl5lno",
+        "name": "BBC World"
+      }
+    ],
+    "importance": 5,
+    "image_query": "nuclear power plant facility",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1772376920750-dac1470b1bad?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxudWNsZWFyJTIwcG93ZXIlMjBwbGFudCUyMGZhY2lsaXR5fGVufDF8MHx8fDE3ODg5ODg3MzV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Energie-portal.sk",
+      "profileUrl": "https://unsplash.com/@energie_portal_sk?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Cooling towers emitting steam against a clear blue sky"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-09T21:18:55.683Z",
+    "publishedAt": "2026-09-09T20:23:34.000Z"
+  },
+  {
+    "slug": "20260910-03",
+    "headline": "原油バレル 100ドルを初回超 イラン戦争激化で供給懸念",
+    "lead": "ブレント原油が 7 月以来初めて 100 ドルを超える。中東の米イラン紛争が激化し、ホルムズ海峡経由の油送が阻害される。",
+    "body_markdown": "国際原油ベンチマークのブレント原油が 9 月初旬、バレルあたり 100 ドルを突破した。米国のイラン対応がエスカレートし、イランを支持する反政府勢力の攻撃がサウジアラビアの石油施設を標的にしたことが主因。\n\n米海軍司令部によると、米軍はイラン勢による対艦ミサイル攻撃に対抗して、イラン関係のタンカー 5 隻を撃沈。これに対してイラン支持の民兵勢力はサウジアラビアの石油施設に報復攻撃を実施した。\n\n世界の石油供給の約 5 分の 1 が経由するホルムズ海峡の通行がほぼ停止状態に陥っており、船舶運航業者は迂回ルートの確保と運送コストの急増に直面している。石油価格は 2 月から米国とイスラエルがイランとの戦争を開始して以来、上昇傾向を続けている。",
+    "tags": [
+      "エネルギー",
+      "原油",
+      "中東紛争",
+      "経済"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/sep/09/oil-prices-rise-iran-war-brent-crude-inflation-higher-interest-rates",
+    "importance": 4,
+    "image_query": "oil refinery industrial",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1726731782158-fcf6822b6ca4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxvaWwlMjByZWZpbmVyeSUyMGluZHVzdHJpYWx8ZW58MXwwfHx8MTc4ODk4ODczNnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Christian Harb",
+      "profileUrl": "https://unsplash.com/@c7arb?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A factory with a lot of red and white pipes"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-09T21:18:56.182Z",
+    "publishedAt": "2026-09-09T19:09:13.000Z"
+  },
+  {
+    "slug": "20260910-04",
+    "headline": "Apple が折り畳み iPhone「Duo」を発表 1,999 ドル",
+    "lead": "Apple 新 CEO ジョン・テルナス氏が初発表で、2007 年以来の iPhone 大刷新。パスポート型の折り畳み画面で 7.6 インチに拡張。",
+    "body_markdown": "Apple は 9 月の新商品イベントで、初めての折り畳み型 iPhone「iPhone Duo」を発表した。新 CEO ジョン・テルナス氏による初めての大きな新製品発表で、iPhone 誕生以来の大規模な設計変更。\n\niPhone Duo の価格は 1,999 ドル。10 月 23 日から販売開始で、10 月 16 日からプリオーダー受付予定。本体は折り畳まれた状態ではパスポートサイズで、開くと 7.6 インチの水平表示ディスプレイに拡張。Apple は「ポケットに入るサイズ、開くとタブレット級の生産性」と位置付けた。\n\nチタニウムボディと新型ヒンジ設計により、展開時に業界最薄の iPhone を実現。マルチタスクに対応し iPad のような使い方も可能。iPhone は Apple の売上の 50% 以上（年 2,096 億ドル）を占める主柱であり、新セグメント開拓のために高価格設定を選択した戦略が注目される。",
+    "tags": [
+      "Apple",
+      "スマートフォン",
+      "折り畳みディスプレイ",
+      "新製品"
+    ],
+    "section": "テクノロジー",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/economy/2026/9/9/apple-debuts-1999-passport-shaped-foldable-phone-called-duo",
+    "importance": 4,
+    "image_query": "smartphone device display",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1596742578443-7682ef5251cd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMnx8c21hcnRwaG9uZSUyMGRldmljZSUyMGRpc3BsYXl8ZW58MXwwfHx8MTc4ODk4ODczNnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "The Average Tech Guy",
+      "profileUrl": "https://unsplash.com/@the_average_tech_guy?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black android smartphone displaying home screen",
+      "description": "Team google."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-09T21:18:56.913Z",
+    "publishedAt": "2026-09-09T20:00:35.000Z"
+  },
+  {
+    "slug": "20260910-05",
+    "headline": "IBM、時系列予測の基盤モデル「Granite」をリリース",
+    "lead": "IBM が 3.85 億パラメータの時系列予測モデル「Granite Time Series」を公開。オープンライセンス採用で商用利用障壁を削減。",
+    "body_markdown": "IBM は、時系列予測に特化した基盤モデル「Granite Time Series PatchTST-FM-r2」を Hugging Face で公開した。約 3.85 億パラメータのモデルで、需要予測、エネルギー消費監視、価格予測など多様な応用に対応。\n\n同モデルは GIFT-Eval ベンチマークで最高スコアを獲得。特に「permissive ライセンス採用のモデルでは最高順位」と IBM は強調している。Zero-shot 学習に対応し、タスク固有のファインチューニングなしに複数領域へ即座に適用できるのが特徴。\n\n技術的には、Conformer ブロックと overlapping patches を採用。長期的な時系列パターンと局所的な変動の両方を捉える。コンテキスト長は最大 8,192 トークン、不確実性定量化用に 99 分位点予測にも対応。Apache 2.0 と OpenMDW 1.0 のデュアルライセンスで、開発者の採用障壁を引き下げた。Confluent Cloud などのストリーミングプラットフォームとの統合により、リアルタイムデータの予測・異常検知を可能にしている。",
+    "tags": [
+      "AI",
+      "時系列予測",
+      "IBM",
+      "基盤モデル",
+      "オープンソース"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+    "importance": 3,
+    "image_query": "data analysis charts graphs",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-09T21:18:56.915Z",
+    "publishedAt": "2026-09-09T15:36:24.000Z"
+  },
+  {
+    "slug": "20260910-06",
+    "headline": "Google DeepMind、AI で 70 年の夫婦の青年時代を映像化",
+    "lead": "ドキュメンタリー短編「Love, Rendered」が、生涯結婚を祝う高齢カップルの未撮影の過去を AI で再構成。回想療法への応用を実証。",
+    "body_markdown": "Google DeepMind と Academy Award ノミニーの監督 Liz Garbus は、短編ドキュメンタリー「Love, Rendered」を発表した。70 年以上の結婚生活を送る夫婦・Burt と Ethelle Shatz が、初めて出会った瞬間（撮影されたことがない）を AI で再現するプロジェクト。\n\nプロジェクトは 2 段階の技術を結合。第 1 に、生成 AI による画像復元で、青年時代の夫婦の白黒写真から高忠実度の復元画像を製作。第 2 に、Performance Capture により、現在の 2 人の動きや表情の細部（Burt の頭の傾き、Ethelle の目尻のしわ）を青年時代の姿に重ね合わせ、本人たちの本質を保持した再現を実現。\n\n認知機能の低下に伴う記憶喪失への対抗手段として「reminiscence therapy（回想療法）」への応用を示唆。Ethelle が再現の詳細を検証し修正に関与することで、感情的な真実性を担保。AI が人間の創意工夫と感情知能に導かれる形での、メモリ保全と世代間の絆強化を実例化した。",
+    "tags": [
+      "AI",
+      "映像生成",
+      "回想療法",
+      "Google",
+      "ドキュメンタリー"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+    "importance": 4,
+    "image_query": "elderly couple family memories",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LOVE_RENDERED_HERO_BLOG_SANS_LOGOS_2784x1566.width-1300.jpg",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-09T21:18:57.371Z",
+    "publishedAt": "2026-09-09T16:00:00.000Z"
+  },
+  {
+    "slug": "20260910-07",
+    "headline": "ドイツ州議選で極右「ドイツのための選択肢」が躍進、移民政策を厳しく批判",
+    "lead": "AfD が州議会で議席を大きく増やし、連邦議会で初の党首演説。極右勢力の政治的影響力が拡大傾向。",
+    "body_markdown": "ドイツで極右勢力として認定された政党「ドイツのための選択肢」（AfD）が最近の州議会選挙で議席を大幅に増やした。党首は州選挙での成功後、連邦議会で初めての演説に臨み、政府の移民政策を強く批判。\n\nAfD は政治・移民管理における独自の立場を主張し、特に難民受け入れと多文化主義政策を標的に。連邦議会での発言により、党の政治的認知度と影響力が顕著に上昇している。\n\n報道によれば、ドイツではさらに 9 月中に 2 つの追加的な地方選挙が予定されており、この地政学的な政治シフトが継続的な注視対象となっている。AfD の躍進は欧州全体の政治動向とも連動。中東紛争や経済的緊張の中での排外主義的潮流を反映している。",
+    "tags": [
+      "ドイツ政治",
+      "極右",
+      "移民政策",
+      "欧州"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260909de49405",
+    "importance": 4,
+    "image_query": "parliament government meeting",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1750872310330-80191a871b36?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8cGFybGlhbWVudCUyMGdvdmVybm1lbnQlMjBtZWV0aW5nfGVufDF8MHx8fDE3ODg5ODg3Mzd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Martine Mussies",
+      "profileUrl": "https://unsplash.com/@martinemussies?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "The houses of parliament stand under a cloudy sky",
+      "description": "The Palace of Westminster, commonly known as the Houses of Parliament, located in London, England"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-09T21:18:57.838Z",
+    "publishedAt": "2026-09-09T19:26:33.000Z"
+  },
+  {
+    "slug": "20260910-08",
+    "headline": "Blizzard 従業員、初の組合契約を批准 1,900 人を代表",
+    "lead": "通信労働組合（CWA）とゲーム大手 Blizzard が 2 年交渉後、初の正式な労働協約に合意。AI 職場利用の強制交渉条項を含む。",
+    "body_markdown": "ゲーム開発大手 Blizzard Entertainment の約 1,900 人の従業員が、米国通信労働組合（Communications Workers of America, CWA）代表として初めての正式な組合契約を批准した。World of Warcraft、Overwatch、Diablo などの開発チームとクオリティアシュアランス部門の労働者が代表。\n\n契約内容は、賃金引き上げ、正式な苦情処理手続き、週 3 日のオフィス出勤ハイブリッド勤務、「正当な理由のない解雇禁止」（Just Cause）保護、リモートワークと障害者対応、解雇時に 4 週間の追加手当、および職場における人工知能利用に関する強制交渉条項を含む。特に注目される条項は、レイオフ発表後 14 ヶ月以内の再雇用権。\n\nゲーム業界は近年大量レイオフを経験。本契約はゲーム産業労働組織化の重要なマイルストーン。交渉委員会メンバーは「勝ち取った前向きな変化がゲーム業界全体に波及し、労働者とプレイヤーの両者にとってより良い環境をつくるだろう」とコメント。",
+    "tags": [
+      "労働運動",
+      "ゲーム業界",
+      "Blizzard",
+      "組合"
+    ],
+    "section": "ビジネス",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2254332/blizzard-employees-have-ratified-their-first-union-contracts/",
+    "importance": 3,
+    "image_query": "office workplace meeting",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-09T21:18:57.839Z",
+    "publishedAt": "2026-09-09T20:47:33.000Z"
+  },
+  {
+    "slug": "20260910-09",
+    "headline": "黄色ブドウ球菌、硫黄源を切り替えて栄養源を確保 感染治療への道開く",
+    "lead": "MRSA の原因菌が、免疫系による栄養枯渇作戦に適応。硫黄源の多様な取得メカニズムが明らかに。",
+    "body_markdown": "ミシガン州立大学の研究者が、黄色ブドウ球菌（Staphylococcus aureus）がいかに栄養源を柔軟に切り替えて生き残るかを解明した。成果は Journal of Bacteriology に掲載。\n\n人体は黄色ブドウ球菌感染に対し、タンパク質構成に必須の硫黄を奪う戦略で対抗するが、細菌はこれに適応。シスチン、グルタチオン、チオサルフェートなど複数の硫黄供給源を利用できる。CymR という制御タンパク質が硫黄取得遺伝子を統制し、硫黄が枯渇すると数百の遺伝子が活性化し、鉄取得と酸化ストレス防御の経路も起動。\n\nグルタチオンは栄養を提供しつつ、免疫系が用いる有毒な鉄化合物と過酸化水素からも細菌を保護する二重機能。研究者は「硫黄源へのアクセスを遮断することで、感染を免疫系や抗生物質で排除しやすくする可能性がある」と指摘。薬剤耐性の急増のなか、新しい治療経路開拓の足がかりになる。",
+    "tags": [
+      "微生物学",
+      "感染症",
+      "MRSA",
+      "薬剤耐性"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-bacteria-diet-survive-body.html",
+    "importance": 3,
+    "image_query": "laboratory bacteria microscope",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-09T21:18:57.841Z",
+    "publishedAt": "2026-09-09T20:50:01.000Z"
+  },
+  {
+    "slug": "20260910-10",
+    "headline": "AI で生物学の状態遷移を模型化「Flow Matching」で創薬加速",
+    "lead": "ミズーリ大学の研究チームが Nature Machine Intelligence で発表。生体システムの動的変化を模型化し、薬剤開発と精密医療を高速化。",
+    "body_markdown": "ミズーリ大学工学部の研究チームが、生物学における新興 AI 手法「Flow Matching」の包括的レビューを Nature Machine Intelligence に発表した。同手法は、分子・細胞・組織レベルにわたって生物システムが時間とともに状態遷移する過程を計算機で模型化。\n\nジアンリン・チェン教授によれば、Flow Matching は「コンピュータが生物学がある状態から別の状態へいかに変わるかを学ぶ」ことを可能にする。従来の手法が孤立した時点の分析に留まるのに対し、Flow Matching は変化の経路全体を捉える。\n\n応用は多岐。分子レベルではタンパク質折り畳みパターンを予測し医薬品開発を支援。細胞レベルでは条件変化への細胞応答をシミュレート。組織レベルでは細胞変化から全身的な影響へとつながりを追跡。研究者は数百万の生物学的データセットから人間が認識できないパターンを抽出できる。\n\n創薬と精密医療の加速に加え、長期的には「仮想細胞」（生体プロセスの完全なデジタル模型）実現が視野に。動物・人間実験に頼らず、計算機で仮説検証を行える世界へ。",
+    "tags": [
+      "AI",
+      "創薬",
+      "精密医療",
+      "バイオテック",
+      "生物学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-ai-powered-biomedical-discoveries.html",
+    "importance": 4,
+    "image_query": "medical research laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1768498950658-87ecfe232b59?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOXx8bWVkaWNhbCUyMHJlc2VhcmNoJTIwbGFib3JhdG9yeXxlbnwxfDB8fHwxNzg4OTg4NzM4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Navy Medicine",
+      "profileUrl": "https://unsplash.com/@navymedicine?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Two medical professionals in lab coats examine a test tube",
+      "description": "U.S. Navy Petty Officer 2nd Class Sarah Williams, hospital corpsman, Naval Hospital Guam, teaches the different blood collection vials to Petty Officer 2nd Class, Caleb Fraizer, hospital corpsman, Headquarters Company, Marine Corps Base Camp Blaz, at Naval Hospital Guam, Guam, Jan. 8, 2026. Corpsmen from MCB Camp Blaz participated in on-the-job training at different military medical clinics across the island in preparation to increase capabilities on Camp Blaz. (U.S. Marine Corps photo by Lance Cpl. Afton Smiley)"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-09T21:18:58.341Z",
+    "publishedAt": "2026-09-09T20:40:05.000Z"
+  },
+  {
+    "slug": "20260910-11",
+    "headline": "米、中国の AI 企業 6 社が米モデル大規模コピー「ユーザー切り替え戦略」勧告",
+    "lead": "米政府が中国企業による frontier AI モデルの積極的複製を警告。秘密裏のユーザー振り分け対策を提案。",
+    "body_markdown": "米政府が、中国の AI 企業 6 社が米国の frontier AI モデル（最先端モデル）を積極的にコピーしていると指摘。Ars Technica が報道。\n\nAI 企業向けの勧告では、米政府は企業に対し中国ユーザーを特定してから、機能制限版のモデルへ秘密裏に切り替える戦略を推奨。これは「ユーザーの知らないうちに違うバージョンを与える」という事実上の差別戦略。\n\n背景には、中国企業が OpenAI や Google など米国の frontier モデルの能力・重みの分布を逆エンジニアリングし、独自開発と見せかけてコピー版を配布している事実がある。知的財産侵害のスケールが大きく、米政府が直接介入する異例の対応。\n\nただしこの勧告実行には法的・倫理的な課題も。透明性の原則との軋轢や、ユーザーの信頼への影響も考慮が必要。AI 地政学における米中対立の一局面として注視される。",
+    "tags": [
+      "AI安全保障",
+      "中国",
+      "知的財産",
+      "米国"
+    ],
+    "section": "テクノロジー",
+    "source": "Ars Technica",
+    "link": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/",
+    "importance": 3,
+    "image_query": "technology artificial intelligence",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-09T21:18:58.343Z",
+    "publishedAt": "2026-09-09T20:06:28.000Z"
+  },
+  {
+    "slug": "20260910-12",
+    "headline": "Apple Watch 新機能の常時リスニング、プライバシー懸念を引き起こす",
+    "lead": "Apple Watch Series 12・Ultra 4 が新 AI 機能を搭載。音声自動文字起こし・環境音声要約で利便性向上も、プライバシー論争。",
+    "body_markdown": "Apple が 9 月イベントで発表した新型 Apple Watch「Series 12」「Ultra 4」には、新しい AI 搭載音声機能が統合。Siri AI Audio Intelligence により、ユーザーの最近の音声を文字に起こしたり、周囲の会話要約を提供したりする能力を追加。\n\nApple は「生音声は専用ハードウェア内で処理され、ファイルとして保存されず、OS やアプリ、Apple 自体がアクセスできない」と強調。独立計算チップの Secure Exclave（S11 チップ搭載）で処理。\n\nただし、テクノロジー専門家と消費者団体からは懸念も。「常時リスニング可能な装置」というコンセプト自体が、同意と知らぬ間の記録の線引きに関する根本的な問いを喚起。特に医療機器としての Watch の位置付けを考えると、センシティブなデータ（病状・会話内容）の扱いにより一層の透明性が求められる。プライバシーと利便性のバランスが問われる局面。",
+    "tags": [
+      "プライバシー",
+      "AI",
+      "Apple",
+      "ウェアラブル"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
+    "importance": 3,
+    "image_query": "smartwatch wearable technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-09T21:18:58.345Z",
+    "publishedAt": "2026-09-09T20:24:48.000Z"
+  },
+  {
+    "slug": "20260910-13",
+    "headline": "国連で日本寄贈「平和の鐘」を鳴らす式典、事務総長が行動喚起",
+    "lead": "ニューヨーク国連本部で日本からのギフト「平和の鐘」の鳴鐘式典。グテーレス事務総長、世界停戦と平和構築を各国指導者に呼びかけ。",
+    "body_markdown": "ニューヨークの国連本部で、国際平和デーを前に日本が寄贈した「平和の鐘」の鳴鐘式典が開催された。9 月 21 日の国際平和デーを控え、世界的な停戦と平和の構築を訴える行事。\n\nアントニオ・グテーレス国連事務総長は式典で、各国の指導者に対し平和構築に向けた具体的行動を呼びかけた。日本による同鐘の寄贈は、戦後日本の平和主義的アイデンティティと国連への貢献を象徴する象徴的なジェスチャー。\n\n国際平和デーは 1981 年に国連総会で制定された国際日。核兵器廃絶、紛争解決、持続的平和への国際的コミットメントを再確認する機会。今年は中東紛争（イラン・米国の応酬）、ウクライナ情勢の継続、アフリカにおける局地的紛争など多くの課題が存在する中での開催。日本による「平和の鐘」は、各国が対話と外交による解決を優先する姿勢への呼びかけと解釈される。",
+    "tags": [
+      "国連",
+      "平和",
+      "日本外交",
+      "国際関係"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260910de49412",
+    "importance": 3,
+    "image_query": "united nations building peace",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-09T21:18:58.347Z",
+    "publishedAt": "2026-09-09T20:23:25.000Z"
+  },
+  {
+    "slug": "20260910-14",
+    "headline": "中道改革連合が分裂へ 立民・公明出身者が別々に 統一会派で連携維持",
+    "lead": "日本の中道改革連合が結成 8 ヶ月で分裂。立憲民主党と公明党出身者が分かれるも、国会での統一会派は継続。",
+    "body_markdown": "日本の政治グループ「中道改革連合」が分裂へ向かうことが明かになった。同連合は立憲民主党と公明党からの出身者で構成されていたが、分党の方針を決定。\n\n分裂後も、双方は国会の衆議院において統一会派を組む方針で、政治的な連携を維持する予定。これにより、野党勢力の主要グループとしての存在感を保ちながらも、それぞれが独立した政治組織として活動する体制へ移行。\n\n同連合は、安倍政権以後の保守層と進歩層の政治的接近を象徴する試みだったが、政治的アジェンダの相違と組織運営の課題が浮上。分裂は日本の政治再編が継続していることを示し、次の総選挙に向けた各党の戦略的再構成が加速している。",
+    "tags": [
+      "日本政治",
+      "立民",
+      "公明党",
+      "政治再編"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260909de49377",
+    "importance": 3,
+    "image_query": "parliament debate meeting",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-09T21:18:58.348Z",
+    "publishedAt": "2026-09-09T20:02:33.000Z"
+  },
+  {
     "slug": "20260909-17",
     "headline": "OpenAI、数学の難問「ナビエ・ストークス方程式」をAIが解決と発表",
     "lead": "100年近く未解決の数学の大問題をAIが88時間で解いたとOpenAIが発表。100万ドルの懸賞賞金対象。",
