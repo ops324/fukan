@@ -1,5 +1,255 @@
 [
   {
+    "slug": "20260909-17",
+    "headline": "OpenAI、数学の難問「ナビエ・ストークス方程式」をAIが解決と発表",
+    "lead": "100年近く未解決の数学の大問題をAIが88時間で解いたとOpenAIが発表。100万ドルの懸賞賞金対象。",
+    "body_markdown": "OpenAIは、数学の難問「ナビエ・ストークス存在性と平滑性問題」を、AIが88時間で解決したと発表した。この問題は、7つのミレニアム懸賞問題の1つで、各100万ドルの懸賞金が付いている。\n\n解決方法は、約10,000個のAIエージェントを使用して問題に取り組み、プルーフそのものはOpenAI内部の言語モデルによって生成された。結果は、渦巻きが益々速く回転する現象「有限時間爆発」を発見するもので、流体のエネルギーは常に有限に保たれるという配置を記述している。\n\nこのプルーフは、プログラミング言語「Lean」で正式に検証された。これにより、数学者たちにこの結果が正しいことへの確信を与えている。\n\nただし、この潜在的に歴史的なブレークスルーは、他の数学者からの未発表研究を巡る疑問で影が落ちている。特に競争相手組織の数学者の中には、関連の問題に既に取り組んでいたと主張する者もいる。",
+    "tags": [
+      "OpenAI",
+      "数学",
+      "ナビエ・ストークス",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/09/openai-navier-stokes-math-problem-solved.html",
+    "importance": 5,
+    "image_query": "mathematics equation mathematical proof",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1754304342501-54bad0a6d195?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8bWF0aGVtYXRpY3MlMjBlcXVhdGlvbiUyMG1hdGhlbWF0aWNhbCUyMHByb29mfGVufDF8MHx8fDE3ODg5NDU5MzN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Bozhin Karaivanov",
+      "profileUrl": "https://unsplash.com/@bkaraivanov?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Mathematical equations are written on a page",
+      "description": "School science book close-up."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-09T09:25:33.628Z",
+    "publishedAt": "2026-09-09T08:34:55.000Z"
+  },
+  {
+    "slug": "20260909-18",
+    "headline": "Anthropic研究者が退社——AI開発ペースの加速に警鐘",
+    "lead": "27歳の研究者Jacob Coxonが、AI業界の急速な開発競争に懸念を示し、Anthropicを退社。年末には制御不能になる可能性を指摘。",
+    "body_markdown": "Anthropic の研究者Jacob Coxonが、AI産業全体が自己改善が可能なAIシステム構築へ向かう急速な競争に参加したくないとして、企業を退社した。数学を専攻した27歳の英国人研究者は、業界の同僚らが「クランチタイム」や「エンドゲーム」といった表現を使って、自己改善モデルへの軌跡を描写していると述べている。\n\nCoxonはX（旧Twitter）への投稿で、業界が「自己改善する超知能へ真っすぐレースをしており、我々の命を賭けにしている」と述べた。ウォール・ストリート・ジャーナルとのインタビューでは、Anthropicの安全性への取り組みは誠実だが、競争が妥協を避けられなくしていると指摘。「年末までには、多くの最も攻撃的なシナリオが現実となり、既に制御不能な状態になっている可能性がある」とコメントしている。\n\nまた、Anthropicの安全保障研究者Evan Hubinger は、今後10年以内にAIが全人類を殺す可能性は10%以上あると述べており、業界内でAI安全性を巡る懸念が高まっている。",
+    "tags": [
+      "Anthropic",
+      "AI安全性",
+      "OpenAI",
+      "AI倫理"
+    ],
+    "section": "AI",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/09/anthropic-researcher-quits-ai-safety.html",
+    "importance": 4,
+    "image_query": "artificial intelligence safety research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1784073829327-76999d522e45?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHNhZmV0eSUyMHJlc2VhcmNofGVufDF8MHx8fDE3ODg5NDU5MzR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brett Wharton",
+      "profileUrl": "https://unsplash.com/@brettwharton?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A laptop displaying openai 4.0 chatbot interface",
+      "description": "Claude AI displaying a \"Switched to Opus 4.8\" notice on a laptop screen, after Fable 5's safeguards flagged a routine question about hormones. Anthropic's message concedes the safeguards are intentionally broad and may flag safe coding, cybersecurity, or biology work. Shot in July 2026, weeks after the US Commerce Department's export-control directive took Fable 5 and Mythos 5 offline worldwide."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-09T09:25:34.495Z",
+    "publishedAt": "2026-09-09T03:29:01.000Z"
+  },
+  {
+    "slug": "20260909-19",
+    "headline": "Google、フィンランドにAI基盤施設へ150億ドル投資——欧州最大級",
+    "lead": "GoogleがAI向けデータセンターなどに€13B（150億ドル）を投資。欧州での単一投資としては最大規模。",
+    "body_markdown": "Alphabet傘下のGoogleは、人工知能インフラ向けにフィンランドで2027〜2028年にかけて少なくとも€13B（約150億ドル）を投資すると発表した。同社が欧州で行う単一案件としての投資規模としては過去最大だ。\n\n投資内容は、新たに3箇所以上のデータセンター建設、および南東部都市ハミナの既存データセンター拡張で、送電網改善やクリーン・エネルギー、バッテリー・プロジェクトも含まれる。これらのインフラはGemini、検索、Maps、YouTubeなどのサービスに電力を供給する。\n\nフィンランドがAI向けデータセンターの磁石となっているのは、寒冷な気候がデータセンター運用時の発熱対策コストを低減し、低炭素化の電力が豊富にあるためだ。MicrosoftやTikTok親会社のByteDanceも同地でのデータセンター施設を進めている。\n\nこの投資の経済効果は建設段階で約36億ドルをフィンランドのGDPに寄与し、稼働後は年間約7000人の雇用を支える見通しだ。",
+    "tags": [
+      "Google",
+      "AI基盤",
+      "投資",
+      "データセンター"
+    ],
+    "section": "テクノロジー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/09/google-finland-ai-infrastructure-investment.html",
+    "importance": 4,
+    "image_query": "data center servers technology infrastructure",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1680992044138-ce4864c2b962?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8ZGF0YSUyMGNlbnRlciUyMHNlcnZlcnMlMjB0ZWNobm9sb2d5JTIwaW5mcmFzdHJ1Y3R1cmV8ZW58MXwwfHx8MTc4ODk0NTkzNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tyler",
+      "profileUrl": "https://unsplash.com/@tylergm?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a server in a server room"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-09T09:25:35.048Z",
+    "publishedAt": "2026-09-09T08:19:24.000Z"
+  },
+  {
+    "slug": "20260909-20",
+    "headline": "Cognition、AI開発企業として480億ドル評価——Devinの成功で投資家の信頼集める",
+    "lead": "AI開発支援ツール「Devin」を手掛けるCognitionが20億ドル調達。評価額が半年で倍増、年間売上9億ドル超に成長。",
+    "body_markdown": "ソフトウェア開発向けAIスタートアップCognitionが、新たな資金調達ラウンドで20億ドルを調達し、評価額が480億ドルに跳ね上がった。Andressen Horowitz、Accel、Founders Fund、General Catalyst、Avenirが主導した本ラウンドは、5月時点の260億ドル評価からほぼ倍増している。\n\nCognitionが提供するフラッグシップ製品「Devin」は、高度な要件から単純なプロンプトではなく、タスク計画、コード作成、テスト、デバッグ、デプロイを含むソフトウェア工学業務を端から端まで処理できるAIエージェントだ。\n\n同社によると、5月の前回調達以降、年間換算売上は4億9200万ドルから9億ドルへと成長した。投資家の間ではAIコーディングが勝者総取りの市場ではなく、複数の企業が共存できると考えられていることが、本投資規模の拡大に表れている。",
+    "tags": [
+      "Cognition",
+      "Devin",
+      "AI開発",
+      "スタートアップ"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market",
+    "importance": 4,
+    "image_query": "programming code development software",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8cHJvZ3JhbW1pbmclMjBjb2RlJTIwZGV2ZWxvcG1lbnQlMjBzb2Z0d2FyZXxlbnwxfDB8fHwxNzg4OTQ1OTM1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ferenc Almasi",
+      "profileUrl": "https://unsplash.com/@flowforfrank?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Svelte code displayed on a dark computer screen in a code editor",
+      "description": "Svelte code example"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-09T09:25:35.561Z",
+    "publishedAt": "2026-09-08T08:00:00.000Z"
+  },
+  {
+    "slug": "20260909-21",
+    "headline": "Suno v6、音楽業界大手とのライセンス契約で主流進出へ——ダウンロード制限は既に実施",
+    "lead": "AI音楽生成企業Sunoが、Warner Music GroupとBMGのライセンス契約に基づくv6モデルを計画。Pro利用者のダウンロードを月20曲に制限。",
+    "body_markdown": "AI音楽生成企業Sunoが、ワーナー・ミュージック・グループ、BMG、Believeとのライセンス契約に基づいた音楽生成モデル「v6」の発表に向けて動いている。ただし、9月5日時点ではまだリリースされていない。\n\n同社は2025年11月のワーナーとの和解契約、2026年8月のBMGとのライセンス契約を通じて、音楽業界との関係を強化してきた。これらの契約は、Sunoが従来の音楽業界との衝突を乗り越えて主流メディア企業として認識されることを目指す動きとなっている。\n\nその一方で、9月3日から実施された変更により、Suno Proのユーザーは月20曲のダウンロード制限を受け、Premier利用者は60曲が上限となった。この制限は、AI生成音楽の大量製造・配布に対抗するための施策とされている。v6モデルリリース時には、先行モデルが非推奨とされると予告されている。",
+    "tags": [
+      "Suno",
+      "AI音楽",
+      "ライセンス",
+      "v6"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/music/news/suno-new-label-backed-model-v6-1236855351/",
+    "importance": 4,
+    "image_query": "music production audio wave sound",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1509310202330-aec5af561c6b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxtdXNpYyUyMHByb2R1Y3Rpb24lMjBhdWRpbyUyMHdhdmUlMjBzb3VuZHxlbnwxfDB8fHwxNzg4OTQ1OTM1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ivan Jermakov",
+      "profileUrl": "https://unsplash.com/@ivanjermakov?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "photo of black digital audio mixer",
+      "description": "Music production workflow"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-09T09:25:36.184Z",
+    "publishedAt": "2026-09-09T09:00:00.000Z"
+  },
+  {
+    "slug": "20260909-22",
+    "headline": "GPT-5.6がMITの量子実験を加速——研究者が実験設計に専念可能に",
+    "lead": "OpenAIの「GPT-5.6 Sol」が、MIT工学部の量子コンピューター実験における定型測定業務を自動化。実験効率を大幅改善。",
+    "body_markdown": "OpenAIが発表した事例によると、「GPT-5.6 Sol」とCodexの組み合わせが、MIT工学部の量子システム研究グループにおいて、量子実験ワークフローの効率化に成功した。\n\nMITのEngineering Quantum Systems Group（EQuS）に所属する博士課程学生のBeatriz Yankelevichは、GPT-5.6 Solを活用して、量子チップの定型測定を自動化する実験を実施した。従来は数ヶ月を要し、数百から数千の予備測定が必要だった量子実験の準備・実行業務が、AIの支援により大幅に削減された。\n\nMIT研究グループが研究対象とする超伝導量子ビットは、絶対零度近くまで冷却される希釈冷凍庫内で動作する。このような高度な設備での実験では、ルーチン作業の自動化が研究者の負担を減らし、より高度な実験設計とデータ分析に専念することが可能になる。本事例は、AIが基礎科学研究の生産性向上に直結する実例を示すものだ。",
+    "tags": [
+      "OpenAI",
+      "GPT-5.6",
+      "量子コンピューティング",
+      "MIT"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/codex-quantum-computing-experiments",
+    "importance": 4,
+    "image_query": "quantum computing laboratory research",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/53pCremlimLBTRxuMEnPyB/41f2eb372bada1bc3b0f7b721e671c9a/SEO-Card.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/codex-quantum-computing-experiments",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-09T09:25:37.417Z",
+    "publishedAt": "2026-09-08T17:00:00.000Z"
+  },
+  {
+    "slug": "20260909-23",
+    "headline": "OpenAIがジャーナリズム支援プログラムを拡大——大学や報道機関へツール無償提供",
+    "lead": "OpenAIが、CUNY・Northwestern大学の新聞学部にChatGPT Eduを400コース提供。報道業界との連携を強化。",
+    "body_markdown": "OpenAIは、ジャーナリズム業界全体を支援するための大規模な多面的イニシアティブをスタートした。新世代の記者を育成する大学、現役のジャーナリスト、ニュース組織に対し、ツール、トレーニング、パートナーシップ、共有学習、実践的支援を提供する取り組みだ。\n\n2026〜2027年度の開始に向け、OpenAIはCUNY Newmark J-Schoolのジャーナリズム将来研究センターおよびNorthwestern Medill School の Knight Labと密に協力する。同国における journalism と technology の最前線にある両機関に対し、400以上のChatGPT Edu購読資格を提供する。\n\nAIが公式記者、編集者、ビジネスチームに分析能力を与え、公式記録をより迅速に分析し、より広い読者層への物語翻訳、ストーリー創作の初期案作成を支援している。OpenAIは、ニュース業界が最も流動的で困難な時期を迎える中、次世代の記者育成にAIツールが果たす役割を強調している。",
+    "tags": [
+      "OpenAI",
+      "ジャーナリズム",
+      "ChatGPT",
+      "教育"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+    "importance": 3,
+    "image_query": "journalism newspaper writing reporting",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-09T09:25:37.419Z",
+    "publishedAt": "2026-09-08T00:00:00.000Z"
+  },
+  {
+    "slug": "20260909-24",
+    "headline": "1Password、AIコーディングツールで生産性21%向上——エンジニアの効率を大幅改善",
+    "lead": "パスワード管理企業1Passwordが、OpenAIのCodexを導入。エンジニアリング生産性が21%、プルリクエスト審査時間が11%削減。",
+    "body_markdown": "1Passwordの技術者が、OpenAIのCodexを活用してソフトウェア開発ライフサイクル全体に統合し、計画から本番環境までの時間を圧縮している。同社のコア利用者グループにおいて、エンジニアリング生産性は21%改善、中央値プルリクエスト審査時間は11%削減され、本番環境での複雑な多層問題の調査時間はほぼ90%削減されたという。\n\n1PasswordのCodex活用実績から推定される年間エンジニアリング容量価値は約80万ドルと見積もられている。これらの結果に基づき、1Passwordの経営層はCodexへのアクセスを金融やマーケティングなどの他部門にも拡大し、これらのチームが独自のツール開発を可能にしようとしている。\n\nこの事例は、AIコーディングツールが単なる新機能開発にとどまらず、本番環境での緊急対応や既存コードの最適化など、エンジニアリング業務全般の効率化に貢献することを示している。",
+    "tags": [
+      "1Password",
+      "Codex",
+      "AI開発",
+      "生産性"
+    ],
+    "section": "テクノロジー",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/1password",
+    "importance": 3,
+    "image_query": "software development programming code",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-09T09:25:37.420Z",
+    "publishedAt": "2026-09-08T00:00:00.000Z"
+  },
+  {
+    "slug": "20260909-25",
+    "headline": "TechCrunch報道——Claude API tokens盗難、サブスクライバーから盗まれる",
+    "lead": "Anthropic の Claude API トークンが盗難被害に遭っていることが報道される。ユーザー認証の重要性が浮き彫りに。",
+    "body_markdown": "TechCrunchの報道によると、Claude API の認証トークンが盗難の対象となっており、サブスクライバーの認証情報が悪用されるケースが増えているという。\n\nAPI トークンは、Anthropic のサービスへのアクセス権を持つ機密情報であり、これが盗まれるとアカウント乗っ取りや不正使用が可能になる。攻撃者がこれらのトークンを入手すれば、ユーザーの代わりにAPIを呼び出し、大規模な計算リソースを消費させたり、プライベートなデータにアクセスしたりできる。\n\nこの事象は、API キーの管理と保護がセキュリティの重要な課題であることを改めて浮き彫りにしている。開発者に対しては、トークンの安全な保管、定期的なローテーション、不正使用の監視が重要である。",
+    "tags": [
+      "セキュリティ",
+      "Claude",
+      "API",
+      "盗難"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers",
+    "importance": 3,
+    "image_query": "security password authentication cyber",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-09T09:25:37.432Z",
+    "publishedAt": "2026-09-09T06:00:00.000Z"
+  },
+  {
+    "slug": "20260909-26",
+    "headline": "中国、銀行資本増加540億ドルは焦点外——改革が進まず市場は懐疑的",
+    "lead": "中国政府が銀行向けに540億ドルの資本注入を発表も、融資拡大への直結を疑問視される。",
+    "body_markdown": "中国政府が銀行セクターの安定化を目的に約540億ドルの資本増加を発表したが、市場関係者からは実質的な融資拡大には結びつかないという懐疑的な見方が出ている。\n\n中国の銀行業界は、不動産セクターの低迷や企業債務の増加により、バランスシートの悪化に直面している。政府の資本注入は、規制要件への適合や株主価値の維持には役立つと見られるが、融資供給の根本的な拡大には直結しない見方が強い。\n\n市場の懸念は、銀行が新規融資よりも既存の不良債権処理や資本配置の最適化を優先する可能性があることだ。この場合、経済成長を支援するための融資拡大という政策目標は達成されず、中国経済の成長鈍化がさらに深刻化する恐れがある。",
+    "tags": [
+      "中国",
+      "経済",
+      "銀行",
+      "資本"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/09/08/chinas-54bn-capital-boost-for-banks-falls-far-short",
+    "importance": 3,
+    "image_query": "finance banking economy stock market",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-09T09:25:37.433Z",
+    "publishedAt": "2026-09-08T16:18:35.000Z"
+  },
+  {
     "slug": "20260909-01",
     "headline": "OpenAI、90年来の未解決数学問題を解決と発表",
     "lead": "OpenAIは、Navier–Stokes方程式の存在と滑らかさの問題をAIで解決したと発表。NYU数学者の研究進捗の漏洩疑惑で批判の声も。",
