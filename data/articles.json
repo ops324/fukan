@@ -1,5 +1,326 @@
 [
   {
+    "slug": "20260911-01",
+    "headline": "OpenAI、ウォール街向け ChatGPT を発表",
+    "lead": "Morgan Stanley などの設計で、junior banker の業務を支援する金融機関向け特化版。",
+    "body_markdown": "OpenAI は 9 月 10 日、金融機関向けの「ChatGPT for Financial Services」を発表した。Morgan Stanley と Evercore との設計パートナーシップで開発され、投資銀行業務や株式調査など、金融機関の最大課題を解決することを目指している。\n\nGPT-6 Astra のモデルを基盤とし、Daloopa、PitchBook、LSEG News など複数のデータプロバイダーから企業ファンダメンタルズ、決算トランスクリプト、個別銘柄情報といった金融データを統合。junior banker の手作業業務——企業分析、財務モデリング、pitchbook（営業資料）作成——の自動化を支援する。\n\n従来、投資銀行の新人アナリストは膨大な手作業を重ねて経験を積んでいた。本製品はこうした定型業務を引き継ぎ、より戦略的な分析や顧客サービスに従事する余裕をもたらす。Morgan Stanley は金融業界で最初のデザインパートナーとして機能し、実務的なニーズを反映したツール開発に主導的な役割を果たした。\n\nデータセキュリティが金融機関の重要課題であるため、SAML シングルサインオン、SCIM プロビジョニング、ロールベースのアクセス制御を備えた ChatGPT Enterprise のセキュリティフレームワークを採用。システム管理者は保持期間やアクセス権を制御できる。プライベートクラウド環境での展開も可能で、規制対応も容易にする。",
+    "tags": [
+      "OpenAI",
+      "AI",
+      "金融テック"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-chatgpt-financial-services",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/09/10/openai-chatgpt-for-financial-services-targets-work-of-junior-bankers.html",
+        "name": "CNBC"
+      }
+    ],
+    "importance": 4,
+    "image_query": "financial analysis data dashboard",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/2Tj0j0dTcedAZ2PMSbTg4j/f1155b4361dcd8f4c85c12833233ebba/OAI_Finances_4_16x9-_SEO.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-10T21:26:19.157Z",
+    "publishedAt": "2026-09-10T07:00:00.000Z"
+  },
+  {
+    "slug": "20260911-02",
+    "headline": "Anthropic、中国 AI 企業による distillation 攻撃を報告",
+    "lead": "Alibaba、Moonshot AI、DeepSeek が Claude の思考プロセスを抽出。Alibaba だけで 1.5 億件超。",
+    "body_markdown": "Anthropic が 9 月 10 日にレポートを公開し、複数の中国 AI 企業による Claude モデルに対する distillation 攻撃を詳述した。Alibaba、Moonshot AI（Kimi の開発元）、DeepSeek の 3 社が名指しされた。\n\nDistillation 攻撃とは、大規模言語モデルの能力を「蒸留」——つまり抽出——する手法。Anthropic の報告によると、攻撃者は Claude の思考プロセス（chain of thought）を盗み取るため、翻訳リクエストなど正当な操作に偽装するプロンプトを使用していた。\n\nAlibaba の攻撃キャンペーンは規模が最大で、2026 年 5 月～7 月に 1.5 億件以上の API 呼び出しが記録された。1 日当たり最大 300 万件に達した時期もある。Moonshot AI と DeepSeek による攻撃規模はより限定的だが、同様の戦術を採用していた。\n\nAnthropicは2月に初めて警告を発し、3か月後の今回レポートで詳細を公開。同社は個別企業への直接の措置を述べておらず、API アクセスの監視強化やレート制限の導入で対応する戦略を示唆している。こうした攻撃はモデルの競争優位性を損なうリスクがあり、今後の AI セキュリティの課題を浮き彫りにしている。",
+    "tags": [
+      "Anthropic",
+      "セキュリティ",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+    "importance": 4,
+    "image_query": "cybersecurity hacking code",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1533709752211-118fcaf03312?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxjeWJlcnNlY3VyaXR5JTIwaGFja2luZyUyMGNvZGV8ZW58MXwwfHx8MTc4OTA3NTU3OXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Spiske",
+      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "yellow and blue data code displayed on screen",
+      "description": "Made with Canon 5d Mark III and loved analog lens, Leica APO Macro Elmarit-R 2.8 / 100mm (Year: 1993)"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-10T21:26:20.016Z",
+    "publishedAt": "2026-09-10T20:57:30.000Z"
+  },
+  {
+    "slug": "20260911-03",
+    "headline": "Meta の Muse AI が米国で展開、No. 2 アプリに",
+    "lead": "個人用 AI エージェント。オンライン買い物、スケジュール管理、書類入力に対応。",
+    "body_markdown": "Meta が 9 月 10 日に発表した新しい AI エージェント「Muse」が、米国での提供開始後、アプリストアで第 2 位にランクインした。Muse は個人ユーザーのタスク自動化を支援する AI アシスタントで、iOS、Android、Web（muse.ai）で利用可能だ。\n\nMuse の機能は多岐にわたる。オンライン買い物、映画チケットの購入、テニスレッスンのスケジュール設定、学校の遠足許可書の記入など、日常的なデジタルタスクを代行する。Meta によると、エージェントはユーザーとの会話から学び、ユーザーにとって何が重要かを理解し、時間とともにさらに正確になるという。\n\nセキュリティ面では、Muse は専用の安全なコンピュータ環境で動作。独自のブラウザを持ち、ユーザーの実パスワードや決済情報は見ることがなく、機密性の高い操作の前にはユーザーの許可を求める。Meta は今後、さらに暗号化されたプライベート VM である「Muse Confidential VM」の提供も予定している。\n\nAI エージェント市場の競争が激化する中、Meta は個人用エージェント市場へのエントリーを強める。OpenAI の Operator（開発中）や Google の Project Mariner などと競合する見通しだ。",
+    "tags": [
+      "Meta",
+      "AI エージェント",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+    "importance": 3,
+    "image_query": "smartphone app interface technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-10T21:26:20.029Z",
+    "publishedAt": "2026-09-10T19:50:04.000Z"
+  },
+  {
+    "slug": "20260911-04",
+    "headline": "Houthis が紅海の戦略拠点モクハを制圧",
+    "lead": "世界貿易の 1/4 が通る Bab el-Mandeb 海峡の支配に一歩。ホルムズ海峡以外の迂回ルート脅威に。",
+    "body_markdown": "イランの支援を受けるイエメンの武装勢力 Houthis が、紅海の戦略的港湾都市モクハを 9 月 10 日に制圧した。同都市はイエメン国際公認政府が保持していたが、8 月初旬からの激しい砲撃により 25 発以上のミサイル攻撃を受けていた。港湾業務は既に停止状態にあった。\n\nモクハはバブ・エルマンデブ海峡（Bab el-Mandeb Strait）に近接する重要な拠点だ。同海峡はアジアとヨーロッパを結ぶスエズ運河への入口であり、世界の海上貿易の約 1/4、日量石油・原油輸送量の約 1/4 が通過する。ホルムズ海峡とともに、グローバルエネルギー安保の要所である。\n\nHouthis の地上攻勢の加速は、2022 年の停戦合意が事実上破綻し、イエメンが全面戦争に戻った可能性を示唆している。同勢力はテヘランと通じ、海峡を通過する船舶から通航料を徴収する計画もあると報じられている。\n\nHouthis がバブ・エルマンデブを完全に支配すれば、グローバルサプライチェーンと石油市場に直接の脅威をもたらす。既に紅海での民間船舶への攻撃が多発しており、海運業界と石油市場は高い警戒態勢を続けている。",
+    "tags": [
+      "イエメン",
+      "中東",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/09/10/houthis-yemen-mokha-port-red-sea-bab-el-mandeb-iran-saudi-arabia-strait-hormuz/",
+    "importance": 4,
+    "image_query": "shipping port maritime trade",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1590497008432-598f04441de8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxzaGlwcGluZyUyMHBvcnQlMjBtYXJpdGltZSUyMHRyYWRlfGVufDF8MHx8fDE3ODkwNzU1ODB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Timelab",
+      "profileUrl": "https://unsplash.com/@timelabpro?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A busy shipping port with stacked containers and cranes under a dark cloudy sky",
+      "description": "Lot of cargo freight containers in the Hong Kong sea port"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-10T21:26:20.560Z",
+    "publishedAt": "2026-09-10T20:04:01.000Z"
+  },
+  {
+    "slug": "20260911-05",
+    "headline": "沖縄県知事選、過去最多 6 人が出馬",
+    "lead": "9 月 13 日投開票。安全保障政策の方向性が主争点。現職の再選か刷新か。",
+    "body_markdown": "沖縄県知事選は 9 月 13 日の投開票に向け、過去最多となる 6 人の候補が立候補している。現職知事の任期満了（期日 9 月 29 日）に伴う選挙で、8 月 27 日の告示以降、県政の継続か刷新かを巡る激しい選挙戦が展開されている。\n\n沖縄県知事選は、国家安全保障政策に直結する地政学的な重要性を持つ。米軍基地集約、対中国戦略、防衛態勢といった国防問題が争点となり、中央政界への影響も大きい。現職による継続路線と新人候補による刷新論が対立している。\n\n複数の地方メディアが選挙に関連する詳細な情報提供を続けており、投票率と結果は全国的な関心を集めている。選挙戦の最終盤では、各候補の具体的な政策立案能力と、地域経済・福祉をめぐる具体的な構想が問われる局面を迎えている。\n\n投開票日前の世論調査では、複数候補が一定の支持を確保していると報じられており、接戦が予想されている。",
+    "tags": [
+      "沖縄県",
+      "選挙",
+      "政治"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260910de49566",
+    "importance": 4,
+    "image_query": "voting ballot election",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHx2b3RpbmclMjBiYWxsb3QlMjBlbGVjdGlvbnxlbnwxfDB8fHwxNzg5MDc1NTgwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Arnaud Jaegers",
+      "profileUrl": "https://unsplash.com/@ajaegers?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A person dropping a brown envelope into a ballot box slot",
+      "description": "Symbol of democracy this picture show a child and his mom voting for french presidential elections."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-10T21:26:21.094Z",
+    "publishedAt": "2026-09-10T13:45:09.000Z"
+  },
+  {
+    "slug": "20260911-06",
+    "headline": "日本の消費税減税、来年 4 月に実施へ",
+    "lead": "食料品の消費税を 8% から 1% に 2 年間。4 月に実現、給付金で実質ゼロに。",
+    "body_markdown": "日本政府は 8 月 5 日に消費税引き下げの基本方針を決定し、9 月の自民党合同会議で大綱案に一任を取得した。食料品の消費税を現在の 8% から 1% に引き下げ、2027 年 4 月 1 日から 2 年間実施する計画だ。日本の消費税導入後、税率引き下げは初めてのこと。\n\n税率を 1% に設定した理由は、登録制度の実現性にある。ゼロ税率の場合、店舗の複数のレジシステム改修に 10～12 ヶ月かかるのに対し、1% 設定なら 5～6 ヶ月で対応可能になる。政府は実施可能な期間内での完全な導入を優先した。\n\nさらに、政府は中低所得の勤労世帯に対して税控除制度を導入。この給付により、実質的に食料品の消費税はゼロに近い状態になる。\n\n政府の進行スケジュールは 2026 年 9 月に税制改革大綱を決定、秋の臨時国会で関連法案を提出、早期の可決を目指す。2027 年 4 月 1 日の実装までに、レジスター改修や流通業界の準備が並行して進められる。この改革は、食料品価格が家計に占める負担を軽減し、特に子育て世帯の経済的支援を目的としている。",
+    "tags": [
+      "消費税",
+      "経済政策",
+      "日本"
+    ],
+    "section": "経済・マネー",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260911de49613",
+    "importance": 4,
+    "image_query": "shopping store product food",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1534723452862-4c874018d66d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzaG9wcGluZyUyMHN0b3JlJTIwcHJvZHVjdCUyMGZvb2R8ZW58MXwwfHx8MTc4OTA3NTU4MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Fikri Rasyid",
+      "profileUrl": "https://unsplash.com/@fikrirasyid?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A grocery store aisle with metal shelves stocked with various packaged food products",
+      "description": "Food Aisle on Supermarket"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-10T21:26:21.844Z",
+    "publishedAt": "2026-09-10T20:41:28.000Z"
+  },
+  {
+    "slug": "20260911-07",
+    "headline": "Fed 利上げ確率が 70% に上昇",
+    "lead": "CPI インフレ指標と油高が市場予想を変更。次週の会合で 0.25% 引き上げの可能性。",
+    "body_markdown": "米国の金融市場では、連邦準備制度理事会（FRB）が 9 月の定例会合で 0.25% の利上げを実施する確率が 70% に跳ね上がった。9 月 10 日の朝場で、トレーダーらの価格変動により大幅に上昇。インフレ圧力の強まりが材料となった。\n\nこの確率上昇の主要因は、同日発表予定の 8 月の消費者物価指数（CPI）に対する市場予想の変化である。高い油価——バレル当たり 105 ドル超——が物価押し上げの懸念を増幅させた。中東情勢の緊迫化により、北海ブレント油価が 6% 上昇し、世界的なインフレリスクを顕在化させている。\n\nこれまで市場は 9 月会合での利上げ確率を 30% 程度と見ていたが、急速に修正。金融引き締めサイクルが継続する見通しが強まれば、借入コスト上昇が企業や家計に波及する。\n\nFRB のジェローム・パウエル議長は最近、インフレ沈静化へのさらなる進展が必要との見解を示しており、雇用統計と物価動向が次の会合での判断材料となる。",
+    "tags": [
+      "FRB",
+      "金融政策",
+      "利上げ"
+    ],
+    "section": "経済・マネー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html",
+    "importance": 4,
+    "image_query": "stock market financial data",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8c3RvY2slMjBtYXJrZXQlMjBmaW5hbmNpYWwlMjBkYXRhfGVufDF8MHx8fDE3ODkwNzU1ODJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Chris Liverani",
+      "profileUrl": "https://unsplash.com/@chrisliverani?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A computer screen displaying a white line graph of financial market data",
+      "description": "Bitcoin stats"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-10T21:26:22.559Z",
+    "publishedAt": "2026-09-10T16:55:17.000Z"
+  },
+  {
+    "slug": "20260911-08",
+    "headline": "BBC『RuPaul Drag Race UK』終了、財政圧力で",
+    "lead": "シーズン 8 終了後に BBC は撤退。WOW Presents Plus で継続放映へ。",
+    "body_markdown": "BBC は 9 月 9 日、『RuPaul's Drag Race UK』をシーズン 8 終了後に終了することを発表した。理由は「著しい財政的圧力」。英国放送協会が総額 5 億ポンド（約 6 億 4000 万ドル）の予算削減を迫られる中での決定。番組は World of Wonder のストリーミング配信プラットフォーム WOW Presents Plus で継続される。\n\nドラッグレース UK はシーズン開始以来、BBC Three と iPlayer で放映されてきた。毎週平均 100 万人の視聴者を集める人気番組であり、クイアカルチャーの象徴的な作品だ。番組はクイアコミュニティに無数のパフォーマーの才能を光に導き、出演者の多くは音楽活動、モデリング、著作など多方面で成功を収めてきた。\n\nBBC の事業縮小は 2026 年の緊縮政策の一環。公共放送としての役割を維持しながらも、高額制作費を要する番組は民間プラットフォームへの委譲が進んでいる。World of Wonder は引き続き制作を担当し、スピンオフシリーズも予定されているため、番組自体は消滅しない。ただ、英国公共放送からの撤退は象徴的な決定として議論を呼んでいる。",
+    "tags": [
+      "BBC",
+      "クイアカルチャー",
+      "テレビ"
+    ],
+    "section": "カルチャー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/tv-and-radio/2026/sep/10/dont-sashay-away-the-bbcs-decision-to-cancel-ru-pauls-drag-race-uk-is-sickening-in-all-the-wrong-ways",
+    "importance": 4,
+    "image_query": "television studio performance stage",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1651465531201-7e430660fd82?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHx0ZWxldmlzaW9uJTIwc3R1ZGlvJTIwcGVyZm9ybWFuY2UlMjBzdGFnZXxlbnwxfDB8fHwxNzg5MDc1NTgyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brad Weaver",
+      "profileUrl": "https://unsplash.com/@bweaver?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a room with a camera and equipment",
+      "description": "Television News Studio"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-10T21:26:22.996Z",
+    "publishedAt": "2026-09-10T15:25:17.000Z"
+  },
+  {
+    "slug": "20260911-09",
+    "headline": "Venice『NAZA』がガザ紀録映画で 24 分スタンディングオベーション",
+    "lead": "イスラエル軍情報将校らのインタビュー 80 分。ヴェネチア最長の拍手記録。",
+    "body_markdown": "ベネチア国際映画祭で 9 月 10 日、ドキュメンタリー『NAZA』（アラビア語で「民間人被害」）が 24.5 分間のスタンディングオベーションを受けた。同映画祭史上最長の拍手記録であり、主要国際映画祭の中でも有数の高評価だ。\n\n『NAZA』はイスラエルの映像作家 Yuval Abraham と Rachel Szor が制作。テルアビブの屋上で撮影され、イスラエル軍の情報将校・兵士 24 人へのインタビューに基づいている。80 分間の映画は「イスラエルによるガザでの計算された大量殺害」の体制を詳述する。製作は The Guardian。監督のアブラハムとシゾール は、2025 年度アカデミー賞受賞ドキュメンタリー『No Other Land』の共同監督でもある。\n\n同作は競技部門で唯一のドキュメンタリー長編として選出され、金獅子賞を競う。前年度の『The Voice of Hind Rajab』の 22 分拍手を上回る新記録だ。映像作家の Jonathan Glazer がエグゼクティブプロデューサーを務め、制作体制は国際的な協力体制を示唆している。\n\nガザ紛争を記録した映像作品が国際映画祭で高く評価されることは、紛争の人道的影響への関心を示す。ただし評価と政治的論評は厳密に区別される。映画祭での表示は芸術的価値の判定であり、政治的立場の宣言ではない。",
+    "tags": [
+      "ガザ",
+      "ドキュメンタリー",
+      "映画祭"
+    ],
+    "section": "カルチャー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/film/2026/sep/10/naza-review-israel-gaza",
+    "importance": 4,
+    "image_query": "film festival cinema screening",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1786482812432-e4111b447c90?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8ZmlsbSUyMGZlc3RpdmFsJTIwY2luZW1hJTIwc2NyZWVuaW5nfGVufDF8MHx8fDE3ODkwNzU1ODN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ardian Lumi",
+      "profileUrl": "https://unsplash.com/@ardianlumi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "People walking past a large banner for the Prishtina International Film Festival in Kosovo",
+      "description": "Prishtina International Film Festival - PRIFEST"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-10T21:26:23.569Z",
+    "publishedAt": "2026-09-10T15:15:39.000Z"
+  },
+  {
+    "slug": "20260911-10",
+    "headline": "米国、9.11 25 周年で全国追悼式典",
+    "lead": "ニューヨーク、ワシントン、シャンクスビルで名前を読み上げ。世代交代の中で記憶継承。",
+    "body_markdown": "2026 年 9 月 11 日、米国は 2001 年の同時多発テロから 25 年を迎える。ニューヨークの Ground Zero（ワールドトレードセンター跡地）、ワシントンのペンタゴン、ペンシルバニアのシャンクスビルで式典が開催される。各地で犠牲者の名前が一人ずつ読み上げられ、行方不明者を追悼するトリビュート・イン・ライト（2 本の光の柱）がマンハッタン上空に投影される。\n\n25 年経過により、9.11 当時に幼かった、あるいはまだ生まれていなかった世代が全人口の 30% に達する。米国社会における 9.11 の記憶伝承と歴史的教育がより重要性を増している。教育機関や公共団体では「あの日何が起こったか」をカリキュラムに組み込み、若い世代への継承を図っている。\n\nNYPD パイプス・ドラムス（警察音楽隊）コンサート、「Steel Across America」キャンペーン（世界貿易センターの鋼材を全国に配布）など、音楽や象徴的な物品を通じて記憶を結びつける取り組みも続く。National Geographic・Disney+ では 3 部作シリーズ『9/11 Reunited』が配信された。\n\n同時多発テロによる約 3000 人の死亡と、その後の対テロ戦争は米国の内外政策を大きく変えた。25 年の時点で、社会的な癒しと教訓の継承が両立する時期を迎えている。",
+    "tags": [
+      "9-11",
+      "米国",
+      "歴史"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260911de49614",
+    "importance": 4,
+    "image_query": "memorial tribute remembrance ceremony",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1784207497225-24726da0c026?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8bWVtb3JpYWwlMjB0cmlidXRlJTIwcmVtZW1icmFuY2UlMjBjZXJlbW9ueXxlbnwxfDB8fHwxNzg5MDc1NTgzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Levi Meir Clancy",
+      "profileUrl": "https://unsplash.com/@levimeirclancy?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Memorial wreath of red anemones with date 7.10.23",
+      "description": "At the Car Wall, sculptures of red anemones line a memorial wall dedicated to victims murdered by antisemitic and antizionist terrorists on October 7th."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-10T21:26:24.103Z",
+    "publishedAt": "2026-09-10T20:55:13.000Z"
+  },
+  {
+    "slug": "20260911-11",
+    "headline": "Boring Company が 230 億ドル評価を達成",
+    "lead": "Elon Musk のトンネル掘削企業、中東投資で大規模資金調達。3 回目のラウンド。",
+    "body_markdown": "Elon Musk が率いるトンネル掘削企業 Boring Company が 9 月 10 日、30 億ドルの資金調達ラウンドで企業評価額が 230 億ドルに達したことを発表した。同企業にとって 3 度目の大型資金調達であり、アラブ首長国連邦が主導したもの。\n\nBoring Company は超高速地下輸送システムを開発・建設する企業。ロサンゼルス、ラスベガス、マイアミなど複数の都市でプロジェクトが進行中だ。UAE からの投資は中東での拡張戦略の一環。ドバイやアブダビでの大規模なインフラプロジェクトに参画する可能性が高まっている。\n\n同社は地下トンネル掘削技術の革新を謳い、通常の掘削コストを削減する方針を掲げている。ただし技術的課題や規制障害により、複数のプロジェクトが期限超過や遅延を経験している。230 億ドルの評価は、Musk の企業グループ内での位置付けの高さと、次世代インフラへの市場期待を反映している。\n\nUAE の投資は、サウジアラビア主導の PIF（Public Investment Fund）などの中東系ファンドによる米国テック企業への投資加速を示す傾向の一環。エネルギー政策の多角化と未来技術への先行投資を志向する戦略が背景にある。",
+    "tags": [
+      "Boring Company",
+      "Elon Musk",
+      "インフラ"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/10/elon-musk-boring-co-uae-valuation.html",
+    "importance": 4,
+    "image_query": "tunnel construction underground engineering",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1520361312205-6ea11b667c9d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8dHVubmVsJTIwY29uc3RydWN0aW9uJTIwdW5kZXJncm91bmQlMjBlbmdpbmVlcmluZ3xlbnwxfDB8fHwxNzg5MDc1NTg0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Kevin Noble",
+      "profileUrl": "https://unsplash.com/@nobleshots?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "tunnel road with orange light fixture",
+      "description": "Early one morning while waiting for the light to appear at Yosemite National Park epic Tunnel View, I decided to exercise a different perspective.  I looked into the Tunnel.  As this was a very snowy/icy day, there was very little traffic and it was easy to hear it approaching so I set up for a long exposure picture looking down into the Tunnel to capture it’s vanishing perspective lines."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-10T21:26:24.916Z",
+    "publishedAt": "2026-09-10T18:15:59.000Z"
+  },
+  {
+    "slug": "20260911-12",
+    "headline": "Nirvana がビデオ・ヴァンガード賞を受賞",
+    "lead": "MTV VMA で初受賞。1990 年代グランジロックの遺産を今の世代へ。マドンナが 11 ノミネーション。",
+    "body_markdown": "MTV Video Music Awards（VMA）2026 が 9 月に発表され、伝説的ロックバンド Nirvana が「ビデオ・ヴァンガード賞」を受賞した。1990 年代のグランジロックを代表するバンドが、初めて同賞を授与される。同賞は音楽ビデオ表現の先駆的功績と文化的影響力に対する特別賞だ。\n\nNirvana は 1991 年のアルバム『Nevermind』と楽曲「Smells Like Teen Spirit」のミュージックビデオにより、音楽映像表現を革新した。破格的なビジュアル、等身大の若者像の表現が、それまでの華麗で制作費をかけた音楽ビデオ産業を転換させた。ボーカル Kurt Cobain の実存的詞世界とビジュアル表現の統合は、MTV 時代のアイコンとなった。\n\n2026 年の VMA ノミネーションではポップスターが牽引。マドンナが史上最多の 11 ノミネーション、Taylor Swift が 9 ノミネーションを獲得している。若い世代の音楽創作とレガシーアーティストの復帰が並行する傾向を示す。\n\n式典は 9 月 27 日に生中継される。VMA は単なる音楽ビデオ賞にとどまらず、米国ポップカルチャーの年間テーマを反映するプラットフォームとして機能している。",
+    "tags": [
+      "Nirvana",
+      "MTV",
+      "音楽"
+    ],
+    "section": "カルチャー",
+    "source": "Pitchfork",
+    "link": "https://pitchfork.com/story/mtv-vmas-nirvana-to-receive-2026-video-vanguard-award/",
+    "sources": [
+      {
+        "url": "https://pitchfork.com/story/madonna-taylor-swift-lead-vma-2026-nominations/",
+        "name": "Pitchfork"
+      }
+    ],
+    "importance": 3,
+    "image_query": "music video production performance",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-10T21:26:24.918Z",
+    "publishedAt": "2026-09-10T17:17:14.000Z"
+  },
+  {
     "slug": "20260910-15",
     "headline": "OpenAI の GPT-6 Astra、コンピュータ操作能力で「最高知能」を実現",
     "lead": "OpenAI は9月3日、コンピュータ操作・ソフトウェア開発・セキュリティで最先端の GPT-6 Astra を発表。context window 1,050,000 トークン・サイバー脅威評価で最高段階に指定。",
