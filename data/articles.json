@@ -1,5 +1,341 @@
 [
   {
+    "slug": "20260911-13",
+    "headline": "AIが薬剤耐性菌との闘いを加速、新抗菌分子探索",
+    "lead": "OpenAIのCodexとChatGPTを用いて、ゲノム解析から新しい抗菌分子の候補を迅速に発見する研究が進んでいる。",
+    "body_markdown": "薬剤耐性を持つ微生物（細菌、真菌、寄生虫、ウイルス）は世界的な脅威となっており、2021年には約500万人が細菌性薬剤耐性に関連する死亡に至っている。この年間死亡数は2050年までにほぼ倍増すると予測されている。\n\nペンシルベニア大学のバイオエンジニア、セサル・デ・ラ・フエンテ氏の研究室では、現存生物と絶滅生物のゲノムを調査し、薬剤耐性感染症に対抗できる抗菌分子の候補を探索している。デ・ラ・フエンテ氏は「薬剤耐性は人類にとって最大級の実存的脅威だと考えるが、それでも過去50年間、新しい系統の抗生物質が開発されていない」と指摘する。\n\nこれまで抗菌剤の開発は既存医薬品の改良や既知の系統の探索に集中していたが、AIの活用により新規分子の発見プロセスが大幅に加速する可能性が高まった。CodexとChatGPTは膨大なゲノムデータから有望な候補を自動抽出し、研究者の手作業を削減する。このアプローチにより、開発期間が短縮され、新しい系統の抗菌薬が生まれる可能性が広がっている。",
+    "tags": [
+      "AI医療応用",
+      "抗菌薬",
+      "ゲノム解析",
+      "バイオテクノロジー",
+      "薬剤耐性"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+    "importance": 4,
+    "image_query": "dna laboratory research",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1HcfBzw01zs1RY58HL1Mvz/7ea8123794aa15e29e4e4509ae39c0d9/index-codex-chatgpt-antimicrobials--seo-v001.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T09:17:32.112Z",
+    "publishedAt": "2026-09-10T16:00:00.000Z"
+  },
+  {
+    "slug": "20260911-14",
+    "headline": "ChatGPT Work、企業データを自動分析する Data agent を導入",
+    "lead": "OpenAIが ChatGPT Work に新しいData agentを追加。企業のデータベースに接続し、複雑な分析を自然言語で実行できる。",
+    "body_markdown": "OpenAIは ChatGPT Work に新機能「Data agent」を導入した。企業内の質問に対して、データベースやツールから自動的に答えを導き出し、対話型のダッシュボードを作成できる。\n\nData agentは Amazon Redshift、Datadog、Google BigQuery、ClickHouse、Databricks、MongoDB、Snowflake などの主要なデータプラットフォームに対応している。ユーザーは複雑なSQL文を書いたり、新しい分析ツールを習得したりすることなく、自然な質問をするだけで分析結果を得られる。\n\n従来のビジネス分析では、データチームに依頼して報告書の作成を待つか、複数のツールを操作して手作業で分析するしかなかった。しかし Data agent により、営業成績の低下の原因、支出の増加傾向、大手顧客の更新リスク、優先すべき課題といった経営上の重要な質問に、誰もが直接アクセスできる環境が整う。分析の方向性は対話を通じて動的に調整でき、結果は チームで共有可能なインタラクティブダッシュボードとして利用できる。\n\nこの機能により、データ駆動経営の敷居が下がり、非技術者でもデータの価値を活用しやすくなる。",
+    "tags": [
+      "ChatGPT Work",
+      "ビジネス分析",
+      "データ活用",
+      "自動化",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/put-data-to-work",
+    "importance": 4,
+    "image_query": "data dashboard analytics",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/2UxvYcTeyyfNcGIxHFKW06/82ff8662f3a80f6b7319afb2a25dc6ae/put-data-to-work--seo-v001.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/put-data-to-work",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T09:17:33.402Z",
+    "publishedAt": "2026-09-10T15:00:00.000Z"
+  },
+  {
+    "slug": "20260911-15",
+    "headline": "OpenAI、米政府に AI 無料提供へ　サイバー防御も強化",
+    "lead": "OpenAI と米国家総務庁（GSA）が新たな協定を発表。連邦・州・地方・部族政府に ChatGPT へのアクセスを無料化し、50％の割引を提供する。",
+    "body_markdown": "OpenAI for Government と米国家総務庁（GSA）は、米国の政府機関向けに新しい複数年協定を発表した。これまでのプログラムを拡張し、これまで以上に幅広い公務職と サイバー防御の専門家が先制的に AI ツールを活用できる環境を整える。\n\nこの協定の核は、通常は 1 ユーザーあたり月額 15 ドルの ChatGPT ライセンス料を無料化し、さらに使用量を 50％割引する内容である。対象は連邦政府、州政府、地方政府、部族政府に及ぶ。背景には、公務職員、特にサイバー防御の最前線に立つ職員に対して、最先端の AI ツールへのアクセスを確保する必要があるという OpenAI の認識がある。\n\nこれにより、政府機関は市民サービスの高速化・簡素化・安全性向上、信頼性向上に AI を活用できる環境が整備される。AI の効果的な活用は、政府の機能を改善し、市民に還元されることが期待される。公務職員の AI 活用に関する判断や規制枠組みの構築は市民社会の参加のもとで進められるべきという立場も示されている。",
+    "tags": [
+      "政府AI政策",
+      "サイバーセキュリティ",
+      "公共サービス",
+      "ChatGPT",
+      "デジタル化"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/expanding-ai-access-us-government",
+    "importance": 4,
+    "image_query": "government office building",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1DEaAuLURNi6NKQiYOfhud/fcd14224030f0310a9a5d54ffa165f14/government-blog-seo-option-051-final-1920x1080.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/expanding-ai-access-us-government",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T09:17:34.328Z",
+    "publishedAt": "2026-09-10T07:00:00.000Z"
+  },
+  {
+    "slug": "20260911-16",
+    "headline": "GPT-Live-1が開発者向けAPIで公開、自然な音声対話を実装可能に",
+    "lead": "OpenAI が GPT-Live-1 を API 経由でリリース。双方向の自然な音声会話を開発者が自由にカスタマイズして組み込める。",
+    "body_markdown": "OpenAI は GPT-Live-1 を API で提供開始する。ChatGPT に実装された自然で双方向の会話機能を、開発者向けに開放するもので、音声アプリやビジネスワークフローに組み込める。\n\nGPT-Live-1 の核となる機能は、同時に聞きながら話すことができるフルデュプレックス対話である。さらに Codex や ChatGPT Work と同様に、より複雑な推論処理やアクション実行を他のモデルやツールに委譲する能力を持つ。\n\nAPI リリース版では、開発者が音声エクスペリエンスを自由にカスタマイズできる新機能が加わった。ユーザーのワークフロー・目的に応じた音声エージェントを設計する自由度が大きく広がる。\n\nGPT-Live-1 の大きな強みは割り込み処理の滑らかさである。言語学習支援アプリ「Speak」の評価では、GPT-Live-1 が従来のターンベース方式と比べて割り込みを約 80％削減し、学習者が応答前に考える時間を十分に確保できるという結果が出ている。このような実装の柔軟性と応答性により、開発者は顧客体験を大きく向上させるアプリを開発できるようになる。",
+    "tags": [
+      "API",
+      "音声対話",
+      "開発者向け",
+      "生成AI",
+      "ChatGPT"
+    ],
+    "section": "テクノロジー",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+    "importance": 4,
+    "image_query": "voice assistant app",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7Mz7MwoSyFLdOMk26N1hCA/b66e84b656c1d666fc2adc1c56ff67f1/introducing-gpt-live-1-green-seo.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T09:17:35.306Z",
+    "publishedAt": "2026-09-10T00:00:00.000Z"
+  },
+  {
+    "slug": "20260911-17",
+    "headline": "OpenAI、エージェント構築をシンプルに　Agents API 公開ベータ",
+    "lead": "OpenAI が Agents API をパブリックベータで公開。1度の API コールで長期運用型エージェントを構築でき、複数日間の信頼性ある実行が可能。",
+    "body_markdown": "OpenAI は Agents API をパブリックベータで提供開始する。Codex と ChatGPT Work を数百万人規模で運用してきた経験から得た、本番環境でのエージェント実装ノウハウを開発者に提供する。\n\n実用的なエージェント構築には、コンテキストを管理し、ツール使用を効率化し、サブエージェント同士を調整する強力なハーネスが必要である。また数日単位の信頼性ある実行、ファイル操作、コード実行、中間結果の保存といったインフラストラクチャも欠かせない。\n\nAgents API は、こうしたハーネスとインフラをシンプルな API で提供する。開発者は、タスク、使用モデル、ツール、実行環境を指定する単一の API コールで、本番対応のエージェントを作成できる。複雑な設定が不要で、すぐに使い始められる。\n\nこのアプローチにより、開発者はエージェント構築の基盤整備に時間を費やす必要がなくなり、ビジネス課題の解決に注力できる。長期実行、信頼性、柔軟なツール連携といった、これまで自分たちで実装していた機能が、プラットフォームとして統合されることで、エージェント利用の裾野が大きく広がる。",
+    "tags": [
+      "Agents API",
+      "開発者向け",
+      "自動化",
+      "エージェント",
+      "Codex"
+    ],
+    "section": "テクノロジー",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-the-agents-api",
+    "importance": 4,
+    "image_query": "software development code",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/430gA5qBJZHD8Dd4uGmm6J/f91d9df145eab0f0f981f60958026813/og-image.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/introducing-the-agents-api",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T09:17:36.326Z",
+    "publishedAt": "2026-09-10T00:00:00.000Z"
+  },
+  {
+    "slug": "20260911-18",
+    "headline": "Anthropic、AIによる生物兵器開発の未遂を検出・ブロック",
+    "lead": "Anthropic が脅威インテリジェンスレポートを公開。Claude の使用者が生物兵器開発を企図する行動を検出し、システムでブロックしたことを明らかにした。",
+    "body_markdown": "AI 企業の Anthropic は、同社の AI モデル Claude を使用して生物兵器開発を試みるユーザーの存在を検出し、適切に遮断した事例を脅威インテリジェンスレポートで報告した。\n\nこの報告は、同社の前任トップ研究者が AI のもたらすリスクについて警告を発していた背景のもとで発表される。Anthropic は、AI システムが悪意ある用途に転用される可能性に対して、継続的な警戒と技術的対策が必要だという立場を強調している。\n\n同レポートでは、Claude の設計段階から安全性メカニズムが組み込まれており、大規模言語モデルが不正な目的に利用されることを防ぐための仕組みが機能していることが示される。具体的には、生物兵器や化学兵器、核兵器といった大量破壊兵器の開発に関連する質問や指示に対して、モデルが応答を拒否する設計になっている。\n\nこの取り組みは、AI 企業の責任として、開発・配備の全段階でセキュリティと倫理を優先させることの重要性を示す例となっている。",
+    "tags": [
+      "AI安全性",
+      "セキュリティ",
+      "生物兵器対策",
+      "倫理",
+      "Anthropic"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o",
+    "importance": 4,
+    "image_query": "security system surveillance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1589935447067-5531094415d1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzZWN1cml0eSUyMHN5c3RlbSUyMHN1cnZlaWxsYW5jZXxlbnwxfDB8fHwxNzg5MTE4MjU3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Michał Jakubowski",
+      "profileUrl": "https://unsplash.com/@jaqbovsky?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Two white security cameras mounted on a pole against a clear blue sky",
+      "description": "Surveillance camera, security, CCTV, blue sky"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T09:17:37.118Z",
+    "publishedAt": "2026-09-11T08:15:25.000Z"
+  },
+  {
+    "slug": "20260911-19",
+    "headline": "AI が自然災害の予報を革新、スイスの研究者が NASA データで高速予測",
+    "lead": "スイスの研究チームが NASA の気候データを活用して AI モデルを訓練し、自然災害の予報精度と速度を飛躍的に向上させている。",
+    "body_markdown": "スイスの研究者らは、NASA の膨大な気候データセットを用いて AI モデルを訓練し、自然災害予報に革命をもたらしつつある。研究チームは、従来の気象予報では対応困難だった迅速な予測を実現させるため、深層学習アルゴリズムを活用している。\n\n従来の自然災害予報は、複雑な物理シミュレーションに依存し、計算に数時間を要することが一般的だった。しかし AI を用いることで、同じ精度の予測を分単位（約1分程度）で完結させることが可能になる。この高速化により、災害発生直前の警報配信が現実的になり、避難計画の立案やインフラ保護の時間を確保できる。\n\n研究チームは、過去の気象パターンと実際の災害データを組み合わせて、AI モデルに「学習」させている。モデルが大規模データから隠れたパターンを認識することで、人間の専門家では見落とすような前兆シグナルも検出できるようになる。\n\nこのアプローチの成功は、気象、地震、洪水、台風といった多様な自然現象に適用可能であり、将来的には多くの命を救う可能性を秘めている。",
+    "tags": [
+      "自然災害",
+      "気象予報",
+      "AI予測",
+      "NASA",
+      "気候"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-eye-ai-revolution-natural-disaster.html",
+    "importance": 4,
+    "image_query": "weather storm disaster",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1584820537082-8e19daff36bd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHx3ZWF0aGVyJTIwc3Rvcm0lMjBkaXNhc3RlcnxlbnwxfDB8fHwxNzg5MTE4MjU3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Daniel Lerman",
+      "profileUrl": "https://unsplash.com/@dlerman6?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large storm moving across the sky over a body of water",
+      "description": "Watch the rain roll over the vista"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T09:17:37.652Z",
+    "publishedAt": "2026-09-11T07:53:40.000Z"
+  },
+  {
+    "slug": "20260911-20",
+    "headline": "英国経済が予想外の成長、AI 産業の好況が牽引",
+    "lead": "英国の経済が 7 月に 0.4% 成長し、エコノミストの予想をわずかに上回った。AI 関連産業の好況が経済全体を支えている。",
+    "body_markdown": "英国の公式統計によると、2026 年 7 月の経済成長率は前月比 0.4% となり、市場予想に反して成長を記録した。エコノミスト予想は「成長ゼロ」だったのに対し、わずかながら経済が拡大したことが確認されている。\n\nこの予想外の好結果は、AI 産業の急速な拡大が主因と見られている。OpenAI、Google、DeepMind といった AI 企業のロンドン事務所拡張、AI チップ製造業への投資、AI スタートアップの台頭といった動きが、雇用と消費の増加をもたらしている。\n\nAI 関連企業による新規雇用は、特に高賃金職を創出しており、これが個人消費と企業投資の増加につながっている。さらに、既存産業の AI 導入による効率化投資も経済に寄与している。\n\n一方、英国政府は AI 産業の成長を戦略的に支援する政策を打ち出しており、税制優遇や規制の柔軟化により、さらなる産業集積を目指している。この流れが継続すれば、AI が英国経済の新しい成長エンジンとなる可能性が高い。",
+    "tags": [
+      "英国経済",
+      "AI産業",
+      "経済成長",
+      "雇用",
+      "ビジネス"
+    ],
+    "section": "ビジネス",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/cq5xjlvn71lo",
+    "importance": 3,
+    "image_query": "city skyline finance",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-11T09:17:37.654Z",
+    "publishedAt": "2026-09-11T08:04:22.000Z"
+  },
+  {
+    "slug": "20260911-21",
+    "headline": "Google、Windows 用 Gemini アプリを提供開始　Alt+Space で即座に呼び出し可能",
+    "lead": "Google が Windows 10/11 向けデスクトップアプリ「Gemini app for Windows」をリリース。作業を中断することなく AI の支援を受けられる。",
+    "body_markdown": "Google は 2026 年 9 月 10 日、Windows 用デスクトップアプリ「Gemini app for Windows」を公式サイトで公開した。Windows 10 および Windows 11 に対応し、グローバルで提供開始される。日本語 UI も搭載されている。\n\nこのアプリは、ユーザーが現在の作業を中断することなく、画面上に Gemini を重ねて呼び出せるのが大きな特徴である。Alt+Space キーボードショートカットで即座にアプリが起動し、メール・資料の要約、質問への回答、画像の編集といった機能にアクセスできる。\n\nコア機能としては、Gemini Spark（自動エージェント）による複雑なタスクの自動実行、Google Drive や Gmail との統合による資料の高速検索・分析、画像生成ツール「Nano Banana」を使ったプレゼンテーション資料の作成、Gemini Omni による動画生成などが含まれている。\n\n高度な機能（Gemini Spark、Gemini Omni）は「Google AI」有料プラン（18 歳以上対象・地域限定）が必要である。Mac 版は既に 2026 年 4 月にリリース済みで、今回の Windows 版により、主要 OS での利用環境が整備されたことになる。",
+    "tags": [
+      "Google Gemini",
+      "Windows",
+      "AI支援",
+      "生産性向上",
+      "デスクトップアプリ"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI+",
+    "link": "https://www.itmedia.co.jp/news/article/2609/11/2000001399/",
+    "importance": 3,
+    "image_query": "computer desktop screen",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-11T09:17:37.657Z",
+    "publishedAt": "2026-09-11T02:06:11.000Z"
+  },
+  {
+    "slug": "20260911-22",
+    "headline": "Amazon、OpenAI と提携して ChatGPT 内に広告配信　無料プランから収益化へ",
+    "lead": "Amazon Ads が OpenAI と提携。Amazon DSP 経由で広告主が ChatGPT の会話画面に広告を出稿できるようになった。",
+    "body_markdown": "Amazon Ads と OpenAI が広告配信に関する提携を発表した。広告主は Amazon DSP（Demand-Side Platform）を通じて、ChatGPT の会話画面下にテキストおよび画像広告を配信できるようになる。\n\nこの提携により、無料プラン（Free）および Go プラン利用者の ChatGPT 画面に広告が表示される。Plus+ プラン（有料）の加入者には広告は表示されない。課金体系は CPC（クリック単価）と CPM（1000 インプレッション単価）の双方に対応している。\n\nAmazon は キャンペーン設定と最適化を担当し、OpenAI は広告配置の判定と実行を管理する。OpenAI は利用者プライバシーを重視する方針であり、会話内容を広告主と共有することも、顧客データを販売することもないと明言している。\n\n試験運用は 2026 年 9 月 10 日に米国の特定広告主向けで開始された。今後、対象地域と利用者の拡大が予定されている。日本の ChatGPT 広告プログラムは既に別途存在しているが、本提携による直接の影響はまだ限定的である。\n\nこの動きは、OpenAI にとって新たな収益源となるとともに、Amazon に ChatGPT という高いエンゲージメント媒体への広告アクセスを提供するものである。",
+    "tags": [
+      "広告",
+      "Amazon",
+      "OpenAI",
+      "ChatGPT",
+      "提携"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia AI+",
+    "link": "https://www.itmedia.co.jp/news/article/2609/11/2000001396/",
+    "importance": 3,
+    "image_query": "advertising digital marketing",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-11T09:17:37.659Z",
+    "publishedAt": "2026-09-11T01:03:13.000Z"
+  },
+  {
+    "slug": "20260911-23",
+    "headline": "中国の AI チップ企業 Enflame、上場初日に 206% 上昇　AI 需要の熱が続く",
+    "lead": "中国の Nvidia 対抗企業 Enflame が上海市場にデビュー。初日の株価上昇率は 206% に達し、AI チップ需要の旺盛さを示す。",
+    "body_markdown": "中国の AI チップメーカー Enflame（燧原科技）は、上海市場での上場初日に株価が 206% 上昇し、市場の過熱した期待を反映した。Enflame は中国が「四小龍」（AI 関連スタートアップの有力 4 社）の一角として位置付ける企業で、Nvidia の中国市場での主要なライバルである。\n\nEnflame の主力製品は、AI 推論および訓練用の高性能ビジュアル処理プロセッサ（GPU/NPU）である。Nvidia の GPU が市場を支配する中、中国企業による国産 AI チップの開発は、地政学的な半導体供給チェーン独立と、AI 産業の自給率向上という戦略的な位置付けを持つ。\n\n今年に入ってから、AI チップ需要の急速な拡大に伴い、既存の Nvidia 製チップの供給が逼迫し続けている。こうした供給不足と高価格化により、代替チップ（中国製・その他新興メーカー）への需要が急速に高まっている。\n\nEnflame の上場初日の急騰は、市場が国産 AI チップ企業の事業化見通しに大きな期待を寄せていることを示す。ただし、Nvidia との技術格差、ソフトウェア生態系の成熟度、国際的なサプライチェーン制限といった課題は依然として存在する。",
+    "tags": [
+      "AI チップ",
+      "中国テック",
+      "Nvidia",
+      "半導体",
+      "ビジネス"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/11/chinese-nvidia-rival-enflame-stock-market-debut-ai.html",
+    "importance": 3,
+    "image_query": "circuit board chip",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-11T09:17:37.662Z",
+    "publishedAt": "2026-09-11T01:53:08.000Z"
+  },
+  {
+    "slug": "20260911-24",
+    "headline": "Jensen Huang、Nvidia が来年 70% 成長すると予測　AI インフラの支配的地位が継続",
+    "lead": "Nvidia CEO Jensen Huang が、同社が来年 70% の収益成長を達成すると見通す。AI 産業全体への支配的な地位が継続するとの判断。",
+    "body_markdown": "Nvidia の CEO Jensen Huang は、同社が 2027 年度に 70% の収益成長を達成すると予想している。この成長予測は、複数の要因に支えられている。\n\n**テクノロジーの高度化:** 最新型の Nvidia GPU は従来の消費者向けチップとは全く異なる。Huang は「現在の単一 GPU は 850 万ドル相当」（関連機器、相互接続を含む）と述べ、単価が劇的に上昇していることを明らかにした。\n\n**支配的な市場地位:** Nvidia は全ての主要 AI ラボ（OpenAI、Anthropic、Google）および オープンソース LLM 企業に使用されている。Huang は「Nvidia は全てのモデルに使われている。全てのラボが我々を利用している」と述べた。\n\n**市場洞察力:** Nvidia は世界中のデータセンター・インフラの状況を詳細に把握している。Huang は「世界中の全てのメガワット級電力システム、物理的インフラを監視している」と述べ、OEM、クラウドプロバイダ、AI ネイティブ企業からのデータを活用していることを明かした。\n\n**特定製品の急速な成長:** 36 個の Grace CPU と 72 個の Blackwell GPU を組み合わせた新システムは、月間ベースで 27% の売上成長を記録しており、プレミアム製品群の強い需要を示している。\n\n**財政的基盤:** Nvidia の今年度収益は約 4000 億ドルで、70% 成長で翌年約 6800 億ドルに到達するという計算であり、確定した顧客契約に基づいているとされている。",
+    "tags": [
+      "Nvidia",
+      "AI チップ",
+      "経営予測",
+      "成長戦略",
+      "テック企業"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+    "importance": 4,
+    "image_query": "technology innovation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758549885423-819fd86e04f0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8dGVjaG5vbG9neSUyMGlubm92YXRpb258ZW58MXwwfHx8MTc4OTExODI1OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "He Junhui",
+      "profileUrl": "https://unsplash.com/@he_junhui?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Close-up of a computer processor chip on circuit board"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T09:17:38.265Z",
+    "publishedAt": "2026-09-10T21:51:59.000Z"
+  },
+  {
+    "slug": "20260911-25",
+    "headline": "AI セキュリティは「イタチごっこ」、人間の判断が依然として不可欠",
+    "lead": "サイバーセキュリティの専門家が、AI セキュリティの現状は防御と攻撃の継続的な競争に陥っていると指摘。人間の専門知識の役割が重要だと語った。",
+    "body_markdown": "サイバーセキュリティ企業 Zscaler のチーフセキュリティオフィサー Sam Curry は、現代のセキュリティ環境において、AI と人間の役割の関係性について論じた。AI 脅威検知ツールの発展に伴い、攻撃者も AI を活用した回避技術を開発する「イタチごっこ」状態が続いているという。\n\n**AI の脅威検知の限界:** AI は既知の攻撃パターンの検出には優れているが、新種の攻撃や想定外の脆弱性利用には対応が遅れる傾向にある。攻撃者が機械学習を用いて防御回避技術を開発することで、防御側との間に継続的な緊張関係が生じている。\n\n**セキュリティ保護の階層化:** Curry は、セキュリティ対策をアプリケーションに近い層へ移動させることの重要性を強調した。従来のネットワーク周辺防御だけでなく、エンドポイント・アプリケーション層での検知により、脅威の影響範囲を限定できるという。\n\n**人間の判断の価値:** AI が脆弱性を発見したとしても、その脆弱性が実際にどの程度の危険性を持つか、修復の優先度はどうかといった判断には、依然として人間の専門知識が欠かせない。AI 単体では経営判断に必要な「文脈」を完全には提供できない。\n\n**弾力的なコード基盤の構築:** 最終的には、コード基盤自体の設計を強化（Resilient Design）することで、AI が発見した脆弱性の影響を最小化することが重要だと Curry は述べている。",
+    "tags": [
+      "セキュリティ",
+      "AI脅威",
+      "サイバー防御",
+      "脆弱性管理",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "Stack Overflow",
+    "link": "https://stackoverflow.blog/2026/09/11/ai-cybersecurity-is-a-cat-and-mouse-game/",
+    "importance": 3,
+    "image_query": "security shield digital",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-11T09:17:38.267Z",
+    "publishedAt": "2026-09-11T07:40:00.000Z"
+  },
+  {
     "slug": "20260911-01",
     "headline": "OpenAI、ウォール街向け ChatGPT を発表",
     "lead": "Morgan Stanley などの設計で、junior banker の業務を支援する金融機関向け特化版。",
