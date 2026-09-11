@@ -1,5 +1,525 @@
 [
   {
+    "slug": "20260912-01",
+    "headline": "OpenAI、秒7000万リクエストに対応する次世代ストレージ基盤を公開",
+    "lead": "OpenAIが分散型ストレージシステム「Habitat」の技術詳細を発表。10億ユーザーのデータアクセスを支える規模に拡張した。",
+    "body_markdown": "OpenAIは9月11日、同社のWebアプリケーションストレージプラットフォーム「Habitat」の構築方法を技術ブログで詳細に公開しました。Habitatは現在、秒間7000万リクエストを処理し、10億人以上のユーザーに対してChatGPT、Codex等のプロダクトのデータアクセスを支えています。\n\n2年前はシンプルなPythonライブラリにすぎなかったHabitatは、500ペタバイト以上のデータを管理する複雑な分散システムに進化。2026年2月には両言語版の大規模書き直しが行われ、新しいRust実装版が現在生産環境リクエストの95%を処理しており、Pythonバージョン比でCPU効率6倍、メモリ効率15倍の改善を実現しています。\n\nOpenAIは、約40の地理的リージョンでのデータ一貫性、ミリ秒単位のレイテンシ、自動復旧と運用効率をどう両立させたかについて、アーキテクチャの工夫を数回に分けて公開するとしています。チャットやコード補完といった各ユーザーアクションが複数のデータ検索を必要とする中で、リクエストの遅延がサービス全体の応答性に直結するため、スケール時の技術的な工夫が鍵になっています。",
+    "tags": [
+      "AI",
+      "インフラストラクチャ",
+      "スケーリング"
+    ],
+    "section": "テクノロジー",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+    "importance": 5,
+    "image_query": "data center servers storage",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5D3TSOEPUfq7vsrX6Vsp0Q/3ac45b90943bcbcdd0eac9b80e0f679a/SEO.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:02.842Z",
+    "publishedAt": "2026-09-11T10:00:00.000Z"
+  },
+  {
+    "slug": "20260912-02",
+    "headline": "難分解プラスチック克服へ、コンポスト微生物から有望酵素12種を発見",
+    "lead": "ポリウレタンとナイロンを分解できる酵素をスクリーニングで同定。遺伝子改変で分解効率を大幅改善。",
+    "body_markdown": "デンマークの大学と技術研究所の研究チームは、難分解プラスチックであるポリウレタンとナイロンを分解する12種類の酵素を発見しました。ケニアの埋立地、動物園の堆肥、幼虫の腸内など多様な環境から採取した数百万の微生物をスクリーニングした成果です。\n\nもっとも有望な酵素「CCPUR1」は、コンポスト由来のバクテリア・Chelatococcus compostiから単離されました。この酵素は幅広い結合溝を持つため、大型の高分子ポリマーに適応でき、温度や溶剤への耐性も他の候補を上回ります。実験では3日間でポリウレタンマットレスフォームの1%未満を分解。遺伝子改善を通じた変異株では、前処理なしに靴底フォーム試料に対して約1.4%の分解を達成しました。\n\n研究チームは「産業規模でPURとナイロンのリサイクルを実現するには、なお長い道のり」と指摘。酵素単独ではなく、機械的・化学的分解との組み合わせが必要になる見通しです。プラスチックの海洋汚染と埋立地の飽和が喫緊の課題となる中、こうした基礎研究が実用化に結びつく道筋が今後の焦点になります。",
+    "tags": [
+      "環境",
+      "バイオテクノロジー",
+      "リサイクル"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-compost-microbe-yields-enzyme-tackles.html",
+    "importance": 4,
+    "image_query": "enzyme laboratory plastic degradation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1583607264434-2d8e199b3a17?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxyZXNlYXJjaCUyMGxhYm9yYXRvcnl8ZW58MXwwfHx8MTc4OTE2MTcyNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sieuwert Otterloo",
+      "profileUrl": "https://unsplash.com/@sieuwert?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "clear drinking glasses on table",
+      "description": "This laboratory contains equipment used by Thomas Edison. It is part of the Edison and Ford Winter estate. He used the laboratory to find the best rubber plant. "
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:04.796Z",
+    "publishedAt": "2026-09-11T21:00:05.000Z"
+  },
+  {
+    "slug": "20260912-03",
+    "headline": "YCombinator、フロンティアAIモデルの「蒸留」を米国内で認可する政策提唱",
+    "lead": "ガーリー・タンが、高度なAIを公共財として扱い、オープンウェイト研究室による蒸留技術の自由度を拡大するよう主張。",
+    "body_markdown": "YCombinatorのガーリー・タンCEOは、アメリカのオープンウェイト型AI研究室がOpenAIやAnthropicなどの最先端モデルから知識を抽出する「蒸留」技術の使用を認可すべきだと主張しています。\n\nタンの論拠は、フロンティアAIモデルが公開情報をもとに学習されている一方で、その利用は契約で制限されている矛盾を指摘。「知識は公共財として扱うべき」と述べ、一企業がAI開発を独占することを懸念しています。特に中国の研究室がすでに無許可で蒸留を進める中、米国が同様の能力を「公式に」持たなければ競争力で後れを取ると警告。規制当局が蒸留を禁止するのではなく、むしろ「米国蒸留体制」として正規化することを求めています。\n\nこの提案は、AIアクセスの民主化と知的財産保護の葛藤の中核を浮き彫りにしています。フロンティアAI企業側は出力の著作権性と商用利用規制を主張する一方、オープンサイエンス派はパラダイムシフトを求めています。政策決定が進むにつれ、米国のAI産業構造そのものが問われることになりそうです。",
+    "tags": [
+      "AI政策",
+      "知的財産",
+      "オープンサイエンス"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+    "importance": 4,
+    "image_query": "AI model technology development",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758626104169-6835c0bd03e3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8QUklMjBtb2RlbCUyMHRlY2hub2xvZ3klMjBkZXZlbG9wbWVudHxlbnwxfDB8fHwxNzg5MTYxNzI1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jo Lin",
+      "profileUrl": "https://unsplash.com/@jolin974658?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Laptop displaying ai integration logo on desk",
+      "description": "Person using a laptop to access AI-driven solutions."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:05.706Z",
+    "publishedAt": "2026-09-11T20:59:47.000Z"
+  },
+  {
+    "slug": "20260912-04",
+    "headline": "デルテクノロジーズ、AIサーバー需要で年初来350%上昇—RBCが買い推奨",
+    "lead": "第2四半期のAIサーバー売上が160億ドル。年間売上見通しを70%成長に引き上げ、AIインフラ需要の勢いが止まらず。",
+    "body_markdown": "デルテクノロジーズの株価が11日、RBC キャピタル・マーケッツのアウトパフォーム格付け開始に応じて10%上昇し、年初来での上昇率は350%に達しました。\n\n同社の第2四半期（7〜8月）の決算では、AIサーバー・ネットワーク機器の売上が前年比100%成長で160億ドルに到達。さらに驚くべきは注文ベースで、Q1比2.5倍の610億ドルを受注し、過去最高を更新しました。RBC アナリスト David Paige は「AI インフラ投資の複数年サイクルが衰える兆候なし」と評価。年間売上見通しを1920億ドル（前年比70%成長）に引き上げ、AI最適化サーバーの売上見通しも740億ドル（前年比200%成長）に上方修正しました。\n\nデルは OpenAI・Google・Meta などのハイパースケーラーからの Nvidia 基盤サーバー需要に乗じて、従来のPC・ノートブック事業の低迷を大きく補正。保有する受注残高は950億ドルに達しており、今後2年間の成長が確保された状況です。データセンターインフラ競争が激化する中、Dellは「AI専業企業」としての地位を不可逆的に固めつつあります。",
+    "tags": [
+      "AI",
+      "ハードウェア",
+      "ビジネス"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/11/dell-stock-rbc-initiation.html",
+    "importance": 4,
+    "image_query": "data center servers hardware",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1680691257251-5fead813b73e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8ZGF0YSUyMGNlbnRlciUyMHNlcnZlcnMlMjBoYXJkd2FyZXxlbnwxfDB8fHwxNzg5MTYxNzI2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Dimitri Karastelev",
+      "profileUrl": "https://unsplash.com/@dkfra19?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a network switch box",
+      "description": "Patchpanel in a cabinet"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:06.219Z",
+    "publishedAt": "2026-09-11T20:48:19.000Z"
+  },
+  {
+    "slug": "20260912-05",
+    "headline": "ニューメキシコ州、ChatGPTが作出した虚偽証言で弁護士に罰金—40年のキャリアが終わる",
+    "lead": "裁判記録をAIに入力した弁護士が、存在しない証人と虚偽の警察証言を含む上訴書を提出。法廷でのAI信頼性が問われる事例に。",
+    "body_markdown": "ニューメキシコ州最高裁判所は9月、殺人事件の上訴書に AIの創造した虚偽証言を含めた弁護士ステファン・アーロンズに対し、5000ドルの罰金と侮辱罪の判決を下しました。\n\nアーロンズは裁判記録と事件資料を ChatGPT に入力し、「完全な要約」の生成を期待していました。ところが提出された上訴書には、実在しない証人の名前と虚偽の警察証言が含まれていました。その中には、射手が黒いズボンと白シャツを着ていたという架空の詳細も記載されていました。アーロンズの依頼人は殺人罪で無期懲役となり、この虚偽の上訴は再審の機会をも失わせることになったのです。\n\n40年のキャリアを持つ Santa Fe 拠点の弁護士は「AI がここまで事実を捏造する可能性を理解していなかった」とロイターに述べています。裁判所はアーロンズに対し「悔い改めの意思と依頼人への配慮の欠落」を指摘。弁護士懲戒委員会への調査付託も決めました。この事例は、AIが法律実務にもたらす検証の困難さと、専門家すら陥りやすい落とし穴を浮き彫りにしています。",
+    "tags": [
+      "AI",
+      "法律",
+      "倫理"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal",
+    "importance": 4,
+    "image_query": "courtroom legal justice",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1764113697577-b5899b9a339d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjb3VydHJvb20lMjBsZWdhbCUyMGp1c3RpY2V8ZW58MXwwfHx8MTc4OTE2MTcyNnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Albert Stoynov",
+      "profileUrl": "https://unsplash.com/@albertstoynov?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Statue of lady justice holding scales indoors",
+      "description": "Sculpture of Lady Justice"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:06.724Z",
+    "publishedAt": "2026-09-11T20:44:02.000Z"
+  },
+  {
+    "slug": "20260912-06",
+    "headline": "数学の大家25人、OpenAIが研究成果の著作権を侵害していると警告",
+    "lead": "大手AI企業が数学論文を訓練データとして無断利用。学術界が知的財産権の侵害を集団で警告。",
+    "body_markdown": "数学分野の一流研究者25人が、OpenAI を筆頭とする AI 企業が彼らの研究成果を適切な許可なく訓練データとして使用していると批判する公開書簡に署名しました。\n\n書簡は、数学論文や解析的成果が大規模言語モデルの学習に転用されることで、個々の研究者の知的財産権が無視されていると指摘。特に、複雑な数学的推論を要する領域では、AI が学習データ内の既存成果を暗黙的に再現する形で、新たな創造物として提示されるリスクを警告しています。\n\n一方、AI 企業側は公開情報を学習対象とすることが標準慣行であり、その行為は著作権法の範囲内だと主張してきました。しかし、今回の数学界の集団的な異議申し立ては、単なる技術倫理の議論を超えて、AI 開発と学術出版の既存エコシステムの根本的な再調整を求める動きとなりつつあります。学術論文の所有権をめぐる法的見解が確立されるまで、この対立は続く見込みです。",
+    "tags": [
+      "AI",
+      "学術",
+      "知的財産"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+    "importance": 4,
+    "image_query": "mathematics research paper",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1648201188793-418f2b9b4b32?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxtYXRoZW1hdGljcyUyMHJlc2VhcmNoJTIwcGFwZXJ8ZW58MXwwfHx8MTc4OTE2MTcyN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Aaron Lefler",
+      "profileUrl": "https://unsplash.com/@alefler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a calculator sitting on top of a piece of paper",
+      "description": "Just a little pic of a calculator and some paper."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:07.344Z",
+    "publishedAt": "2026-09-11T20:57:36.000Z"
+  },
+  {
+    "slug": "20260912-07",
+    "headline": "ホーシ族がペリム島を占領、紅海海運の支配権をさらに強化",
+    "lead": "イランの支援を受ける武装勢力が戦略的要所を押さえ、世界の海運に新たな脅威。",
+    "body_markdown": "イラン支援下のイエメン武装勢力ホーシ族は、紅海の主要通路を支配する戦略的島嶼 Perim を占領したと発表しました。\n\nペリム島は紅海とアデン湾を結ぶ重要な海上交通路に位置し、世界の海運の約12%が経由します。ホーシ族はこれまで数か月間、紅海を通過する石油タンカーとコンテナ船に対し無人機やドローンを用いた攻撃を加えてきました。ペリム占領により、海峡の支配権がさらに強まり、国際海運の保険料上昇と迂回ルート増加が加速する見通しです。\n\nサウジアラビアやアメリカは、紅海安定化のための軍事的対抗手段を強化する姿勢を示していますが、地上占領による恒久的な支配権確保は対抗をさらに複雑にします。グローバルなエネルギー供給と商業ネットワークへの地政学的リスクが一段と高まった状況です。",
+    "tags": [
+      "地政学",
+      "エネルギー",
+      "海運"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo",
+    "importance": 4,
+    "image_query": "shipping vessel Red Sea maritime",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1780334157354-ffe8a551b716?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMXx8c2hpcHBpbmclMjB2ZXNzZWwlMjBSZWQlMjBTZWElMjBtYXJpdGltZXxlbnwxfDB8fHwxNzg5MTYxNzI3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Margo Evardson",
+      "profileUrl": "https://unsplash.com/@stadinstudio?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A large cargo ship sailing on the blue ocean",
+      "description": "A sharp and powerful maritime shot of a large blue and red cargo ship cruising through deep blue sea waters, with massive mountain ridges and fluffy white clouds in the background. 📸 Photo by me IG: @margoevardson"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:07.964Z",
+    "publishedAt": "2026-09-11T20:11:47.000Z"
+  },
+  {
+    "slug": "20260912-08",
+    "headline": "サウジ東西パイプライン閉鎖、ホーシ族攻撃で原油輸送が停止",
+    "lead": "イランの同盟勢力による相次ぐ攻撃で、重要な原油流路が遮断。世界のエネルギー市場が揺れる。",
+    "body_markdown": "サウジアラビアは、東西の石油パイプラインを複数回の攻撃を理由に遮断しました。イエメンを拠点とするホーシ族の無人機攻撃が、複数回にわたって施設を損傷させたためです。\n\n同パイプラインは、ペルシャ湾の油田から紅海側の積出港まで原油を輸送する戦略的インフラです。遮断により、サウジアラビアの原油輸出は南北どちらかの単一ルートに依存することになり、供給の脆弱性が露呈しました。既に中東の緊張化に伴いエネルギー価格は上昇傾向にあり、さらなる上昇圧力がかかることが懸念されています。\n\nこの事態は、ホーシ族がもはや単なる非国家勢力ではなく、地域のエネルギーインフラへの操作能力を持つ重要なプレイヤーに成長したことを象徴しています。",
+    "tags": [
+      "エネルギー",
+      "地政学",
+      "インフラ"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/11/saudi-arabia-shut-down-east-west-crude-oil-pipeline.html",
+    "importance": 4,
+    "image_query": "oil pipeline energy infrastructure",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1649829725145-d93731589a6e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8b2lsJTIwcGlwZWxpbmUlMjBlbmVyZ3klMjBpbmZyYXN0cnVjdHVyZXxlbnwxfDB8fHwxNzg5MTYxNzI4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Built Robotics",
+      "profileUrl": "https://unsplash.com/@built?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a truck driving down a dirt road next to a field",
+      "description": "An autonomous excavator prepares trenches for a pipeline installation in Queensland, Australia."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:08.511Z",
+    "publishedAt": "2026-09-11T20:01:45.000Z"
+  },
+  {
+    "slug": "20260912-09",
+    "headline": "10000年の作物選別から気候適応遺伝子を発見—農業の乾燥耐性に光",
+    "lead": "古代穀物の遺伝子解析で、干ばつに耐える共通の遺伝情報を特定。気候変動下の食糧確保に道。",
+    "body_markdown": "フランスの研究チーム（INRAE、University of Clermont Auvergne、CNRS）が、10000年の人類の作物選別を通じて、小麦とオオムギが獲得した気候適応遺伝子を特定しました。\n\n研究では84種類の農業関連植物の共通祖先10体の古代ゲノム（paleogenomes）を復元。その過程で、異なる植物種にもかかわらず、干ばつなどの環境ストレスに対応する同じ遺伝子セットが、進化の過程で保持されていることを発見しました。この遺伝情報は、数千年にわたる人類の無意識的な選別——「背が高い方を選ぶ」「実が大きい方を選ぶ」などの単純な基準——によって固定されたものです。\n\n発見は、次世代の穀物品種開発に道を開きます。遺伝子編集技術と組み合わせることで、気候変動下での干ばつ耐性やより高い栄養価を持つ品種の開発が加速する見通しです。農業セクターの持続可能性向上に向けた基礎研究として注目されています。",
+    "tags": [
+      "農業",
+      "遺伝学",
+      "気候変動"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-years-wheat-barley-reveal-climate.html",
+    "importance": 4,
+    "image_query": "wheat barley crop agriculture",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1562060879-cbdb5285a6de?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHx3aGVhdCUyMGJhcmxleSUyMGNyb3AlMjBhZ3JpY3VsdHVyZXxlbnwxfDB8fHwxNzg5MTYxNzI4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Eric Prouzet",
+      "profileUrl": "https://unsplash.com/@eprouzet?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "green wheat field",
+      "description": "Golden Wheat Field Waves Gently Under Bright Blue Sky During Late Afternoon Sunshine - A vast field of golden wheat sways gently in the warm breeze as the sun begins to set in the late afternoon. The rippling grains create a stunning visual display against the backdrop of a clear blue sky."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:09.054Z",
+    "publishedAt": "2026-09-11T20:40:01.000Z"
+  },
+  {
+    "slug": "20260912-10",
+    "headline": "中国Moonshot AI、年商20億ドル目指す—Kimi AIが日3000億トークン生成",
+    "lead": "中国の有力AI企業が大型融資を目指して急成長。OpenRouterデータで3000億トークン/日を記録。",
+    "body_markdown": "中国の生成AI企業Moonshot AI（通称Kimi AI）は、年商20億ドルを達成することを目指していると報じられています。\n\n同社の主力モデルK3は、AIサービス集約プラットフォーム OpenRouter 上で日平均3000億トークンの生成を記録。これは、一般ユーザーと開発者を含む広範な需要を反映しています。ただし、最近の数か月間は使用量の微減が観測されており、市場競争の激化を示唆しています。\n\nMoonshot は中国市場でChatGPTに相当する地位を目指し、大型融資ラウンドを準備中。ハイパースケール言語モデルの競争が、米国だけでなく中国でも本格化する状況が浮き彫りになっています。",
+    "tags": [
+      "AI",
+      "中国",
+      "ビジネス"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+    "importance": 4,
+    "image_query": "AI technology computer code",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1763568258533-d0597f86ce62?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxBSSUyMHRlY2hub2xvZ3klMjBjb21wdXRlciUyMGNvZGV8ZW58MXwwfHx8MTc4OTE2MTcyOXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Daniil Komov",
+      "profileUrl": "https://unsplash.com/@dkomow?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Computer screen displaying code with a context menu"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:09.598Z",
+    "publishedAt": "2026-09-11T19:35:54.000Z"
+  },
+  {
+    "slug": "20260912-11",
+    "headline": "Nscale、元OpenAI No.2のFidji Simoをボード入り—IPO準備加速",
+    "lead": "データセンター企業が経営体制を大型改編。OpenAI・AGIデプロイメントCEOのFidji Simoを取締役会に追加。",
+    "body_markdown": "AI推論インフラ企業Nscaleは、OpenAI の No.2 幹部であった Fidji Simo を取締役会に追加しました。\n\nSimo は OpenAI で AGI デプロイメント CEO を務めた後、2023年に Instacart の IPO をリード。その成功実績が、Nscale のIPO戦略構築に活かされるとみられています。同社は大型上場を視野に、ガバナンス体制の強化と市場での信頼構築を急いでいます。\n\nこの人事交代は、AI インフラ企業の資金調達競争が激化する中で、大手IT企業出身者の獲得競争も加速していることを示唆しています。",
+    "tags": [
+      "AI",
+      "IPO",
+      "経営"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
+    "importance": 3,
+    "image_query": "business meeting corporate leadership",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:09.600Z",
+    "publishedAt": "2026-09-11T16:46:25.000Z"
+  },
+  {
+    "slug": "20260912-12",
+    "headline": "Meta、訓練データ無断利用で集団訴訟—顔認識『NameTag』も対象",
+    "lead": "FacebookとInstagramの写真を無許可で学習させたとして、ユーザーが法廷へ。",
+    "body_markdown": "Meta Platforms は、Facebookと Instagram のユーザー写真を無許可で画像生成AI と顔認識機能『NameTag』（未公開）の訓練に使用したとして、集団訴訟に直面しています。\n\n原告は、数十万単位のユーザー写真が肖像権確認なしに学習データとして吸収されたと主張。Metaが訓練データの利用規約をユーザーに明示していなかったことが争点です。生成AI企業による訓練データの取得方法が、法的に問われる初期的なケースとなりそうです。",
+    "tags": [
+      "AI",
+      "法務",
+      "プライバシー"
+    ],
+    "section": "テクノロジー",
+    "source": "WIRED",
+    "link": "https://www.wired.com/story/meta-sued-over-training-data-for-its-ai-and-face-recognition-systems/",
+    "importance": 3,
+    "image_query": "face recognition technology privacy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:09.602Z",
+    "publishedAt": "2026-09-11T18:59:25.000Z"
+  },
+  {
+    "slug": "20260912-13",
+    "headline": "BRICS、インドと中国の対立深刻化—ブロック内の主導権競争",
+    "lead": "インドと中国がBRICS 議題をめぐって対抗。米国の影響力縮小が進む中、新興国ブロック内の亀裂も。",
+    "body_markdown": "BRICS（ブラジル、ロシア、インド、中国、南アフリカ）サミットでは、インドのモディ首相と中国の習近平主席が、ブロックの今後の方針をめぐって対立を深めています。\n\nインドは通常の多国間主義を強調する一方、中国はより統合的な経済圏構想を推し進めたい立場。米国との対抗軸としての BRICS の求心力が問われる局面になっています。",
+    "tags": [
+      "国際関係",
+      "地政学",
+      "経済"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/09/11/brics-summit-india-modi-china-xi-iran-us-trade/",
+    "importance": 3,
+    "image_query": "international conference diplomacy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:09.604Z",
+    "publishedAt": "2026-09-11T20:06:20.000Z"
+  },
+  {
+    "slug": "20260912-14",
+    "headline": "NEC、全職人がAIの部署を創設—1on1、ストレスチェックまで自動実行",
+    "lead": "日本の大型電機メーカーが実験。AI社員が組織マネジメントの全機能を担当。",
+    "body_markdown": "NECは8月、部門長から現場スタッフまで全ての役割をAIが担当する『コーポレートAI・ワークフォース部門』を開設しました。\n\nAI社員は互いに1on1ミーティングを実施し、エンゲージメント調査とストレスチェックを受け、その結果から職場環境を改善。従来の人的管理機能が、AIで完全に代替可能かを検証する初期的な試みです。",
+    "tags": [
+      "AI",
+      "組織管理",
+      "日本"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/business/articles/2609/11/news043.html",
+    "importance": 3,
+    "image_query": "office workplace management",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:09.606Z",
+    "publishedAt": "2026-09-11T10:18:00.000Z"
+  },
+  {
+    "slug": "20260912-15",
+    "headline": "日本企業調査『AIに任せる範囲』—20代は最終判断まで容認、50代は慎重",
+    "lead": "生成AIへの信頼度が世代で分裂。若年層は自動化受け入れ、高齢層は人間判断を重視。",
+    "body_markdown": "日本の人事コンサルティング企業による調査では、AIへの業務委譲範囲が世代で大きく異なることが判明。\n\n20代は最終承認までAIに委ねたいと考える一方、50代は人間が最終判断を保持したいと考える傾向。職場の意思決定階層の再構成が、世代間対立を生む可能性があります。",
+    "tags": [
+      "AI活用",
+      "労働力",
+      "日本"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/11/news038.html",
+    "importance": 3,
+    "image_query": "business workplace employees",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:09.607Z",
+    "publishedAt": "2026-09-11T08:00:00.000Z"
+  },
+  {
+    "slug": "20260912-16",
+    "headline": "24年間、英国がイスラエル戦争犯罪認識—機密文書で実態露呈",
+    "lead": "イスラエルの違法行為を知りながら支持し続けた？英外務省文書が外交的ジレンマを露呈。",
+    "body_markdown": "英国外務省の機密文書が公開され、2002年以降、イスラエルによる暴力と人権侵害を把握していたことが明らかになりました。\n\n24年間の沈黙と支持継続は、英国の外交政策における人権重視とリアリズムの衝突を映し出しています。",
+    "tags": [
+      "国際関係",
+      "人権",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/11/declassified-documents-show-uk-aware-of-israeli-war-crimes-for-24-years",
+    "importance": 3,
+    "image_query": "diplomacy international relations",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:09.609Z",
+    "publishedAt": "2026-09-11T19:59:41.000Z"
+  },
+  {
+    "slug": "20260912-17",
+    "headline": "米国、9/11から25年で追悼式典—トランプは現在のイラン戦に言及",
+    "lead": "ニューヨークでは3000人近い犠牲者を悼む式典。政治家の演説で異なるレガシー解釈。",
+    "body_markdown": "アメリカは9月11日、2001年の同時多発テロから25周年を迎え、ニューヨークのワールドトレードセンター跡地などで追悼式典を開催しました。\n\nトランプ前大統領はイランとの現在進行中の紛争に言及。異なる世代と政治立場から、テロ対策と中東政策のレガシーが問い直されています。",
+    "tags": [
+      "歴史",
+      "追悼",
+      "政治"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/11/how-us-leaders-remembered-the-25th-anniversary-of-the-9-11",
+    "importance": 3,
+    "image_query": "memorial ceremony remembrance",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:09.610Z",
+    "publishedAt": "2026-09-11T19:21:48.000Z"
+  },
+  {
+    "slug": "20260912-18",
+    "headline": "世界的な債券売却、インドがシグナル—金利上昇と資本逃避のサイクル",
+    "lead": "新興国での金利上昇が、先進国債を圧迫。グローバル流動性の転換期。",
+    "body_markdown": "インドの中央銀行が国債売却を示唆したことで、全世界の債券市場が売却圧力に晒されています。\n\nスタグフレーション懸念の中、インフレ対策と成長支援のバランスが崩壊し始めたサイン。金利上昇は金融資産全般に影響を及ぼします。",
+    "tags": [
+      "経済",
+      "金融市場",
+      "国際経済"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/09/08/what-is-causing-the-global-bond-sell-off",
+    "importance": 3,
+    "image_query": "stock market finance trading",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:09.611Z",
+    "publishedAt": "2026-09-08T18:15:09.000Z"
+  },
+  {
+    "slug": "20260912-19",
+    "headline": "米国とベネズエラ、石油交渉で歴史的合意へ—エネルギー政策が大転換",
+    "lead": "数十年の経済制裁解除へ。CNBC記者が現地レポート。",
+    "body_markdown": "CNBCの記者が同行した米エネルギー長官の訪問で、米国とベネズエラの新たな石油取引が構想されていることが明らかになりました。\n\n長年の制裁体制からの転換が模索される中、ベネズエラの油田再開が世界のエネルギー供給を大きく変える可能性があります。",
+    "tags": [
+      "エネルギー",
+      "外交",
+      "経済"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/11/the-inside-story-on-the-historic-us-venezuela-oil-deal-and-how-it-will-work.html",
+    "importance": 4,
+    "image_query": "oil refinery energy infrastructure",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1602056820935-316884c035f8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxvaWwlMjByZWZpbmVyeSUyMGVuZXJneSUyMGluZnJhc3RydWN0dXJlfGVufDF8MHx8fDE3ODkxNjE3MzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tasos Mansour",
+      "profileUrl": "https://unsplash.com/@mantasos?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "city skyline during night time"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:10.205Z",
+    "publishedAt": "2026-09-11T16:59:05.000Z"
+  },
+  {
+    "slug": "20260912-20",
+    "headline": "英国、AI『キルスイッチ』の導入を拒否—規制当局が現実的判断",
+    "lead": "ASI禁止論が台頭する中、英政府は段階的規制を選択。技術と倫理のバランス模索。",
+    "body_markdown": "英国内務省の AI規制部門は、危険な AI に対する『緊急停止ボタン』導入の提案を却下しました。\n\n理由は「AI インフラは国家経済にあまりに深く統合されており、簡単には切断できない」というもの。超知能 ASI の脅威と現実的な対応のギャップが、政策決定の現場で露呈しています。",
+    "tags": [
+      "AI政策",
+      "規制",
+      "安全"
+    ],
+    "section": "政治",
+    "source": "BBC Politics",
+    "link": "https://www.bbc.co.uk/news/articles/c3eq7kl5l00o",
+    "importance": 3,
+    "image_query": "AI technology regulation safety",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:10.207Z",
+    "publishedAt": "2026-09-11T15:07:07.000Z"
+  },
+  {
+    "slug": "20260912-21",
+    "headline": "日本政府、食料品消費税減税へ15日に大綱決定—臨時国会で法案提出予定",
+    "lead": "高市首相が制度設計を完成させ、最終的な政策枠組みを固める段階へ。",
+    "body_markdown": "日本政府は、食料品を対象とした消費税減税について、9月15日に制度設計を盛り込んだ大綱を閣議決定する予定です。\n\n臨時国会での法案提出を目指し、担当相新設も検討。生活費上昇への対抗策として、財政と税制のバランスを変える重要な転換になります。",
+    "tags": [
+      "政策",
+      "税制",
+      "日本"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260912de49833",
+    "importance": 4,
+    "image_query": "government policy meeting",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1704650334656-83e72f3ed5d9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8Z292ZXJubWVudCUyMHBvbGljeSUyMG1lZXRpbmd8ZW58MXwwfHx8MTc4OTE2MTczMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "scrabble tiles spelling policy on a wooden table"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:11.028Z",
+    "publishedAt": "2026-09-11T20:27:29.000Z"
+  },
+  {
+    "slug": "20260912-22",
+    "headline": "米8月インフレ率、エネルギー高騰で高止まり—イラン情勢が圧力",
+    "lead": "CPI は依然として FRB 目標から乖離。中東緊張がエネルギー価格を押し上げ。",
+    "body_markdown": "米国 8月の消費者物価指数（CPI）は、ガソリンと灯油の上昇を主因に、予想を上回る高さを維持しました。\n\nイランとの地政学的対立が原油価格を押し上げ続ける中、米中央銀行の金利引き下げ路線に対する懸念が強まっています。",
+    "tags": [
+      "経済",
+      "インフレ",
+      "金融"
+    ],
+    "section": "経済・マネー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/11/cpi-inflation-breakdown-august-2026.html",
+    "importance": 3,
+    "image_query": "inflation economic data chart",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-11T21:22:11.033Z",
+    "publishedAt": "2026-09-11T17:14:27.000Z"
+  },
+  {
     "slug": "20260911-13",
     "headline": "AIが薬剤耐性菌との闘いを加速、新抗菌分子探索",
     "lead": "OpenAIのCodexとChatGPTを用いて、ゲノム解析から新しい抗菌分子の候補を迅速に発見する研究が進んでいる。",
