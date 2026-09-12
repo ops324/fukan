@@ -1,5 +1,140 @@
 [
   {
+    "slug": "20260912-23",
+    "headline": "Perplexityが検索AIを刷新、生成AIで本番システムの自動制御に成功",
+    "lead": "サーチエンジンPerplexityはOpenAIの最新モデル「Astra」を導入し、本番システムの自動管理をより精密に実現。",
+    "body_markdown": "検索サービスを手がけるPerplexityが、OpenAIの最新大規模言語モデル「GPT-6 Astra」を採用し、本番システムの運用を自動化している。\n\nPerplexityによると、同社はAstraを使用して顧客向け通信の作成、ソフトウェアの変更管理、本番環境の監視を行っており、前世代のモデルと比べて人手による確認の頻度を大幅に減らせるようになったという。Perplexityの創業者で戦略責任者のJohnny Ho氏は、「モデルがコード生成の精度を上げるたびに、Perplexityの検索エンジン全体の精度も向上する。より良いプログラムを書けるようになるからだ」とコメント。\n\nAstraはOpenAIが9月初頭に発表した同社最強のモデルで、単独でコンピュータ操作を実行できるのが特徴。Perplexityのほか、自律型ソフトウェアエンジニアを提供するCognitionも、テスト業務を効率化するためAstraを統合している。\n\n生成AIの実運用への統合が進む中、Perplexityのような先進的な利用例は、AIが開発から運用まで企業のワークフロー全体を変えようとしている様子を示す。",
+    "tags": [
+      "AI",
+      "OpenAI",
+      "Astra",
+      "Perplexity",
+      "生成AI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+    "importance": 4,
+    "image_query": "ai system automation software",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/2ONJEXhA8M9IGON14JgHTc/4450550ce2d8b38c7fe2e7825839c92a/og.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-12T09:14:39.238Z",
+    "publishedAt": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "slug": "20260912-24",
+    "headline": "自律ソフトウェア開発ツール「Devin」がAstraで進化、コード審査を効率化",
+    "lead": "Cognitionの自動エンジニア「Devin」がGPT-6 Astraを統合。テスト生成とコード検証の精度が大幅に向上。",
+    "body_markdown": "自律型ソフトウェアエンジニアリングツール「Devin」を手がけるCognitionが、OpenAIの最新モデル「GPT-6 Astra」を統合し、テスト自動化とコード検証の能力を大幅に強化する。\n\nDevinはもともと、エンジニアの代わりにコードを自動生成し、ソフトウェアプロジェクトを管理するツール。Astraの統合により、生成したコードの自動テスト能力が向上し、テストレポートの品質も改善される。Cognitionのテストによると、Astraはテストを検証するベンチマークで同社内で新たな最高記録を達成。より包括的なテストケース生成が可能になり、テスト結果のレポートもより明確になったという。\n\n具体的には、DevinはiPhoneゲームのテストを実行する際、シミュレーター内でのゲーム実行動画を返し、各テストの成功と未テスト箇所を特定。エンジニアはこのビデオとレポートを確認し、残された検証項目を理解できるようになった。\n\nCognitionによれば、FrontierCode 1.1ベンチマークではAstraはFable 5より0.4ポイント低い同程度の性能を維持しながら、コスト面では64%安くなっているという。エンジニアが手作業でコード審査する時間を減らし、生産性を高めることが目標。",
+    "tags": [
+      "AI",
+      "ソフトウェア開発",
+      "自動化",
+      "Devin",
+      "テスト"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/cognition-devin-testing-with-astra",
+    "importance": 4,
+    "image_query": "code testing software development",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3lud5ZFEQSmggpw69KBl6l/07c5d333914a26516ca5470c72a214e9/cognition-seo-image-option-b.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-12T09:14:39.649Z",
+    "publishedAt": "2026-09-11T16:00:00.000Z"
+  },
+  {
+    "slug": "20260912-25",
+    "headline": "スウェーデン選挙、移民問題が焦点に　極右が初の政権入り可能性",
+    "lead": "9月13日の投票を控え、スウェーデンは移民制度の在り方を問う選挙戦に突入。極右政党が初めて政権に加わる可能性もある。",
+    "body_markdown": "スウェーデンが13日の議会選挙投票を前に、移民と治安が主要争点となっている。中道右派のモデラート党を率いるUlf Kristersson首相と、極右のスウェーデン民主党（SD）の連立政権を望む有権者と、左派連合との構図が対立している。\n\n極右政党SDが初めて政権に組み込まれる見通しが現実味を帯びている。現在、Kristersson首相は少数与党政権を率いており、SDが野党から支持している形だが、今回の選挙でSDが本格的に政権内に入る可能性がある。\n\nこの背景には、2022年以降のスウェーデンの移民政策の急速な変化がある。同国は難民受け入れを大幅に制限し、強制送還を増やし、難民への永住許可制度を廃止するなど、厳格な政策へかじを切ってきた。SDはこうした強硬姿勢を一層推し進める公約を掲げている。\n\nただ医療への関心も高く、有権者の64%が医療を重要課題と考えている。スウェーデンの選挙結果は、ヨーロッパ全域での移民・治安政策の動向にも影響を与える可能性がある。極右勢力がメインストリーム保守と連立を組むことが、ヨーロッパ全体の政治地図をどう変えるかが注視される。",
+    "tags": [
+      "スウェーデン",
+      "選挙",
+      "移民",
+      "極右",
+      "ヨーロッパ"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/12/sweden-heads-to-the-polls-whats-at-stake-in-the-knife-edge-election",
+    "importance": 4,
+    "image_query": "election voting ballot",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1540908390241-82158ab62887?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxlbGVjdGlvbiUyMHZvdGluZyUyMGJhbGxvdHxlbnwxfDB8fHwxNzg5MjA0NDgwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Element5 Digital",
+      "profileUrl": "https://unsplash.com/@element5digital?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Voted printed papers on white surface"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-12T09:14:40.257Z",
+    "publishedAt": "2026-09-12T08:42:28.000Z"
+  },
+  {
+    "slug": "20260912-26",
+    "headline": "ロボット学習データ企業Mecka AIが5億ドル評価に、Sequoia出資",
+    "lead": "ロボット向け学習データ収集のMecka AIがSequoia Capitalの出資で新規資金調達。人形ロボット産業の加速を背景に。",
+    "body_markdown": "ロボット向けの学習データを収集・提供するスタートアップMecka AIが、Sequoia Capitalの出資による新規資金調達ラウンドで、約5億ドルの企業評価を獲得した。同社は2024年に設立されたばかりながら、急速に成長する産業内での重要性が認識されている。\n\nMecka AIは、クラウドワーカーに計測センサーとスマートフォンを配付し、コーヒー淹れや自動車修理などの日常的な動作を記録させる。こうした「一人称視点」（エゴセントリック）の人間行動データは、人型ロボットや他のロボティクス企業が学習モデルの訓練に利用している。\n\n今回の資金調達は、Mecka AIが6月時点で年間1億ドルのランレートで2026年を終える見込みを示してから、わずか3ヶ月後に実現した。同社は3ヶ月前の6月にはFramework Venturesらから6000万ドルの資金調達を発表したばかり。急速な成長軌道を示す企業と判断される。\n\nロボット産業全体が生産性向上と自動化への期待で活況を呈する中、Mecka AIのようなデータ供給企業の重要性が急速に高まっている。人間の行動パターンをAIに学習させることが、実用的なロボット開発の鍵になるという認識が広がっている。",
+    "tags": [
+      "AI",
+      "ロボット",
+      "スタートアップ",
+      "資金調達",
+      "データ"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+    "importance": 4,
+    "image_query": "robot training data humanoid",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1786539861527-9741097fdfff?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8cm9ib3QlMjB0cmFpbmluZyUyMGRhdGElMjBodW1hbm9pZHxlbnwxfDB8fHwxNzg5MjA0NDgwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Enchanted Tools",
+      "profileUrl": "https://unsplash.com/@enchantedtools?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Two circular speaker grilles on the orange torso of a humanoid robot",
+      "description": "Meet the Mirokaï: humanoid robots designed to assist, engage, and inspire. Blending utility with wonder, they bring AI to life through seamless interactions, making everyday moments more magical and meaningful."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-12T09:14:40.858Z",
+    "publishedAt": "2026-09-11T22:58:17.000Z"
+  },
+  {
+    "slug": "20260912-27",
+    "headline": "日本のAI企業Sakana AIが新モデル「Fugu Ultra」を発表、複数モデル統合で高性能実現",
+    "lead": "複数のAIモデルを組み合わせるSakana AIが最新版「Fugu Ultra v2」「Fugu Max」を公開。一部でAstraやFable超えを主張。",
+    "body_markdown": "日本のスタートアップSakana AIが、複数の異なるAIモデルを連携させて複雑なタスクをこなす「Sakana Fugu」の最新バージョン「Fugu Ultra v2」「Fugu Max」を発表した。\n\nSakana AIのアプローチは、単一の巨大モデルではなく、複数の専門的なAIモデルを組み合わせることで、特定のタスクに最適化されたパフォーマンスを実現する。最新版では、一部のベンチマークでOpenAIの「GPT-6 Astra」やAnthropicの「Fable 5.1」を超える性能を達成していると同社は主張する。\n\nただし、SakanaはAstraやFable 5.1の両モデルを自社連携先には含めていないと明示。つまり、Fugu Ultraはこれらのモデルそのものではなく、他の複数モデルの組み合わせで高性能を実現している。\n\nこのアプローチは「モデル融合」や「マルチモデルアンサンブル」として注目されている。単一モデルの規模追求ではなく、複数の軽量モデルを高度に統合することで、効率性と性能のバランスを取る戦略だ。Sakana AIのような日本の新興企業の動きは、グローバルなAI競争の中でも独自の位置づけを示しているといえる。大規模な資本力を持つ米国企業との競争の中で、異なるアプローチを示す戦略として注視される。",
+    "tags": [
+      "AI",
+      "Sakana",
+      "日本",
+      "モデル融合",
+      "生成AI"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI+",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001405/",
+    "importance": 3,
+    "image_query": "artificial intelligence model machine learning",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-12T09:14:40.859Z",
+    "publishedAt": "2026-09-11T04:11:32.000Z"
+  },
+  {
     "slug": "20260912-01",
     "headline": "OpenAI、秒7000万リクエストに対応する次世代ストレージ基盤を公開",
     "lead": "OpenAIが分散型ストレージシステム「Habitat」の技術詳細を発表。10億ユーザーのデータアクセスを支える規模に拡張した。",
