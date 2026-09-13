@@ -1,5 +1,512 @@
 [
   {
+    "slug": "20260914-01",
+    "headline": "沖縄県知事選で古謝氏当選、辺野古移設推進へ",
+    "lead": "沖縄県知事選挙で自民・維新推薦の新人・古謝玄太氏が初当選。政府与党は米軍普天間基地の辺野古移設推進を掲げる。",
+    "body_markdown": "9月13日に投票が行われた沖縄県知事選挙で、自民党・維新の会・国民民主党など6党から推薦を受けた新人の古謝玄太氏が、現職の玉城デニー氏らを抑えて初めての当選を果たした。同氏は県政経験が浅いながら、多数党の支援を集めた。\n\n古謝氏の当選により、政府と与党は米国軍普天間基地の名護市辺野古への移設計画を「着実に進める」方針を表明した。同時に沖縄経済の振興に向けて県政を後押しするとしている。この結果は防衛政策の中核である基地移設計画の推進に大きな弾みをつけることになる。\n\nこの選挙は、自民党と維新の会が新たに連立体制を組む下での初の大型地方選となり、両党の政治的結集を示すものとして注目されていた。古謝氏の当選は、連立政権の地方での求心力を示す結果となった。",
+    "tags": [
+      "沖縄",
+      "防衛政策",
+      "辺野古移設",
+      "政治"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260914de50006",
+    "importance": 4,
+    "image_query": "voting ballot election",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1730808822974-b21a29d64055?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHx2b3RpbmclMjBiYWxsb3QlMjBlbGVjdGlvbnxlbnwxfDB8fHwxNzg5MzM0ODI2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Dmitrii Vaccinium",
+      "profileUrl": "https://unsplash.com/@vaccinium?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A box with a piece of paper sticking out of it"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:06.474Z",
+    "publishedAt": "2026-09-13T20:30:41.000Z"
+  },
+  {
+    "slug": "20260914-02",
+    "headline": "オバマ前大統領、民主党に AI 規制を中心課題に据えよと促す",
+    "lead": "オバマ前大統領が民主党の資金調達イベントで、AI 政策を中央の議題とし明確な計画を立てるよう呼びかけた。",
+    "body_markdown": "オバマ前大統領は民主党向けの資金調達イベントで、下院多数派奪還時に人工知能を「中央の議題」とし、「非常に明確な計画を立てる」必要があると述べた。同氏は「このテクノロジーは民間企業の手で急速に進展しており、対応しなければ危険になる可能性がある」と警告し、適切に対応すれば医薬品開発の加速など有益な側面もあると指摘している。\n\nオバマ氏は「非常に公開的な会話のための枠組みをまとめる」必要があると強調。業界幹部との相談役として機能していることも報じられている。これに対し民主党のハキーム・ジェフリーズ下院少数党指導者は、共和党が AI 規制責任を放棄していると批判し、オバマの見解を支持する声明を発表した。AI 規制は 2026 年秋の中間選挙に向けた民主党の重要政策争点となる見込みだ。",
+    "tags": [
+      "AI",
+      "政治",
+      "規制",
+      "米国"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+    "importance": 4,
+    "image_query": "government policy technology regulation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1546375570-2ae6a397bbcd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxnb3Zlcm5tZW50JTIwcG9saWN5JTIwdGVjaG5vbG9neSUyMHJlZ3VsYXRpb258ZW58MXwwfHx8MTc4OTMzNDgyN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Andy Feliciotti",
+      "profileUrl": "https://unsplash.com/@someguy?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "white concrete building at nighttime",
+      "description": "Caution Tape at the United States Capitol in Washington D.C."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:07.286Z",
+    "publishedAt": "2026-09-13T16:30:00.000Z"
+  },
+  {
+    "slug": "20260914-03",
+    "headline": "Tesla、第2世代 Roadster を10月正式発表へ",
+    "lead": "Tesla が10月10日に第2世代 Roadster を正式発表予定。0-60秒間2秒未満のハイパーカー。",
+    "body_markdown": "Tesla は X（旧 Twitter）で、第2世代 Roadster を10月10日に正式発表すると発表した。同モデルは 2017年にプロトタイプが公開されて以降、複数の延期を経験しており、ようやく公式発表にこぎつけることになる。\n\n2017年時点での仕様によると、0-60mph加速は2秒未満、最高速度は時速250マイル超、航続距離は600マイル以上の全電動ハイパーカーとなる。ベースモデルの価格は20万ドル、Founder's Edition は25万ドル。SpaceX モデルには冷却ガススラスターが搭載される可能性があると報告されており、「flying car」機能も示唆されている。\n\nただし飛行機能の実現可能性については不明。また、予約者の中には、長年の延期によって予約をキャンセルした著名人が含まれている。OpenAI の Sam Altman も当初の予約者の一人だとされている。",
+    "tags": [
+      "Tesla",
+      "電動車",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2256966/teslas-second-gen-roadster-is-finally-getting-a-debut-nearly-a-decade-later/",
+    "importance": 4,
+    "image_query": "car automotive electric vehicle",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1567409378873-888d6fa7debc?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxjYXIlMjBhdXRvbW90aXZlJTIwZWxlY3RyaWMlMjB2ZWhpY2xlfGVufDF8MHx8fDE3ODkzMzQ4Mjd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Andrew Roberts",
+      "profileUrl": "https://unsplash.com/@studiodenley?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black vehicle",
+      "description": "Electric car charging in Birmingham City Centre"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:07.894Z",
+    "publishedAt": "2026-09-13T20:00:00.000Z"
+  },
+  {
+    "slug": "20260914-04",
+    "headline": "水星の収縮、従来予測の40％大きかったことが判明",
+    "lead": "北海道大学主導の研究が、水星の収縮量は従来の約40％大きい約11.6km であることを発見。",
+    "body_markdown": "北海道大学を中心とした国際研究チームが、惑星水星の内部冷却に伴う収縮量が従来の推定より著しく大きいことを発見した。新しい研究は Quaternary Research に掲載予定。\n\n水星の表面には、数十億年にわたる内部冷却で岩盤が圧縮され、短縮構造（尾根と崖）が形成されている。科学者たちは従来、これら地形的特徴から収縮量を計算してきたが、今回の研究で観測データに大きな欠落があることが判明した。隕石衝突で飛び散った物質（エジェクタ）が古い地質構造を覆い隠すため、観測される痕跡は不完全だという。\n\n従来の推定では水星の半径は約8.3km 縮小とされていたが、修正後の推定値は約11.6km 縮小と、従来予測の約40％大きく修正された。実際の収縮はさらに大きい可能性もある。今後 BepiColombo 探査機による観測で、より正確なデータが得られると期待されている。",
+    "tags": [
+      "水星",
+      "惑星科学",
+      "地質"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-masked-tectonic-mercury-visible-scars.html",
+    "importance": 3,
+    "image_query": "planet space astronomy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:07.896Z",
+    "publishedAt": "2026-09-13T19:30:01.000Z"
+  },
+  {
+    "slug": "20260914-05",
+    "headline": "AI が細胞膜マッピングを自動化、作業時間が数週間から数時間に短縮",
+    "lead": "MemBrain v2 AI ツール、細胞膜の3D 構造分析を従来の数週間から数時間に短縮。",
+    "body_markdown": "ドイツの Helmholtz Munich、ミュンヘン工科大学（TUM）、バーゼル大学の研究チームが、細胞膜解析を大幅に高速化する AI ツール「MemBrain v2」を開発した。成果は学術誌『Nature Methods』に掲載された。\n\n細胞膜と膜内タンパク質は多くの重要な生物学的プロセスと疾患に関わっているが、3D 画像での解析には従来、週単位の手作業を要していた。MemBrain v2 は3つの機能を統合する。膜を自動検出する「MemBrain-seg」、タンパク質の位置特定を行う「MemBrain-pick」（91%の精度を実現）、空間的配置を測定する「MemBrain-stats」。\n\n開発チームは、AI が「従来は手作業で時間を要していた領域を数時間で処理できる」ことを実証した。オープンソース化されたこのツールは、世界中の研究機関でセルロース光合成タンパク質の配置など新たな生物学的発見に貢献している。",
+    "tags": [
+      "AI",
+      "生物学",
+      "細胞膜",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-ai-automates-3d-membrane-manual.html",
+    "importance": 3,
+    "image_query": "laboratory microscope research biology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:07.898Z",
+    "publishedAt": "2026-09-13T18:00:06.000Z"
+  },
+  {
+    "slug": "20260914-06",
+    "headline": "AI で原子間力顕微鏡の解釈を自動化、研究を民主化",
+    "lead": "Oak Ridge National Lab が開発した SimuScan、AI フレームワークで AFM 顕微鏡の自動特性検出と最適スキャン誘導を実現。",
+    "body_markdown": "米国の Oak Ridge National Laboratory 研究者が、原子間力顕微鏡（AFM）の利用を大幅に民主化する AI フレームワーク「SimuScan」を開発した。従来、AFM の解釈には専門家の判断が必須で、AI 学習データが著しく不足していた。\n\nSimuScan は合成 AFM 画像を自動生成して学習データを作成する。重要な点は、合成データに現実の欠陥（先端効果、ノイズ、汚染）を意図的に含めることで、実験室の過酷な条件下での認識を可能にすること。初期低解像度調査で特徴を特定し、AI がターゲットの関連性をランク付けし、顕微鏡が自動的に有望領域に焦点を当てるというクローズドループ処理が可能だ。\n\nテスト結果は、合成データから実画像への転移学習の成功を示した。ナノ構造、DNA アセンブリ、細菌細胞の観察で有効性が確認されている。これにより高度な顕微鏡専門知識を持たない材料科学者も高度な分析が可能になり、「結果を探す」から「結果を解釈する」へのシフトが実現した。",
+    "tags": [
+      "AI",
+      "顕微鏡",
+      "科学",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-ai-microscopes-nanoscale-features-sample.html",
+    "importance": 3,
+    "image_query": "microscope laboratory research technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:07.899Z",
+    "publishedAt": "2026-09-13T20:00:01.000Z"
+  },
+  {
+    "slug": "20260914-07",
+    "headline": "高市首相、維新・中司幹事長を入閣調整、内閣改造へ",
+    "lead": "高市総理は今週中に自民党役員人事と内閣改造を実施。連立相手・維新から中司幹事長を入閣させる方向で調整。",
+    "body_markdown": "高市総理大臣は、今週中に自民党の役員人事と内閣改造を実施する方針を示した。新たに連立を組む日本維新の会から中司幹事長を「入閣させる方向で調整に入った」。同時に村井英樹氏を国対委員長に起用する調整も進められている。\n\n高市政権の発足からほぼ1年が経過するタイミングでの人事刷新となる。維新との連立体制は、2022 年の参議院選挙後に本格化し、政権安定化の重要な軸となっている。中司氏の入閣は連立相手への政治的配慮と、政権運営体制の強化を意図したものと考えられる。\n\n国対委員長への村井氏の起用は、国会対策の要職を自民党内で刷新することで、多数派工作の効率化を狙ったもの。両人事は自民党と維新の会の協力体制をより緊密化させ、政権の求心力を高める狙いが反映されている。",
+    "tags": [
+      "日本政治",
+      "内閣改造",
+      "維新の会"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260914de50001",
+    "importance": 4,
+    "image_query": "government politics parliament",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1760416284277-d6f1c4dad180?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOXx8Z292ZXJubWVudCUyMHBvbGl0aWNzJTIwcGFybGlhbWVudHxlbnwxfDB8fHwxNzg5MzM0ODI4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jonathan Lim",
+      "profileUrl": "https://unsplash.com/@jonathankslim?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Historic parliament buildings under a cloudy sky",
+      "description": "West wing of Canadian Parliament"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:08.515Z",
+    "publishedAt": "2026-09-13T20:12:35.000Z"
+  },
+  {
+    "slug": "20260914-08",
+    "headline": "BRICS 首脳会議閉幕、習主席がグローバルサウスとの団結訴え",
+    "lead": "BRICS 首脳会議が閉幕。習近平国家主席が途上国・新興国との結集強化を強調。",
+    "body_markdown": "中国、ロシア、インド、ブラジル、南アフリカで構成される BRICS ブロックの首脳会議が 9 月 13 日に閉幕し、共同宣言を採択した。習近平国家主席は会議での演説で「広くグローバルサウスと団結しなければならない」と強く訴えた。\n\n同演説は、発展途上国および新興国が国際政治経済における影響力向上を図る中での、重要な声明となった。習主席の発言は、西側先進国に対抗する形で、アジア・アフリカ・ラテンアメリカなど広域の発展途上国地域との連携強化を意図したものと解釈される。\n\nBRICS はここ数年、加盟国を大幅に拡大しており、アラブ首長国連邦、サウジアラビア、イラン、エジプト、エチオピアなどの参加を受け入れた。この会議は、西側主導の国際秩序への代替軸となる新興国連携の強化を示すものとなった。",
+    "tags": [
+      "中国",
+      "BRICS",
+      "国際政治",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260913de49984",
+    "importance": 5,
+    "image_query": "government politics international conference",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1778876088510-15c5099de4d2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOXx8Z292ZXJubWVudCUyMHBvbGl0aWNzJTIwaW50ZXJuYXRpb25hbCUyMGNvbmZlcmVuY2V8ZW58MXwwfHx8MTc4OTMzNDgyOHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ufoma Ojo",
+      "profileUrl": "https://unsplash.com/@ladyufoma001?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Speaker addressing attendees at a health conference on a stage"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:09.128Z",
+    "publishedAt": "2026-09-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260914-09",
+    "headline": "塩水浸水、農作物の多様性を脅かす。イングランド東部で損失拡大",
+    "lead": "塩分が土壌に蓄積し、イングランド東部の主要作物に大打撃。農業の利益構造が根本的に変わる可能性。",
+    "body_markdown": "イングランド東部の農業地帯で、塩水浸水による農作物損失が深刻化している。研究によると、地域の主要農作物すべてが塩分増加により損失を被り、特にジャガイモへの影響が大きい。ジャガイモは栽培コストが高いため、収量減少時に利益が急速に消滅する。ビートと油糧種子も大幅な減少が見られ、穀類もまた影響を免れない。\n\n塩分は土壌に蓄積し、数年間にわたって生産性を静かに低下させる。研究チームは農業の利益構造が根本的に変わる可能性を指摘した。通常条件では明確な勝者と敗者が存在するが、塩分により、ほとんどの作物が低リターン・高リスク状況に集約されるという。冬小麦は比較的耐性が強く、他の作物より悪条件に強いとされている。\n\n長期的には、塩性条件に耐える限定的な作物への転換が予想され、農業の多様性低下が懸念される。これは食糧生産とその強靭性全体に大きな影響を及ぼす可能性がある。",
+    "tags": [
+      "気候変動",
+      "農業",
+      "環境",
+      "食糧"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-saltwater-radically-crops-worth.html",
+    "importance": 4,
+    "image_query": "farm agriculture field crop",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1573119798379-011dfedae008?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8ZmFybSUyMGFncmljdWx0dXJlJTIwZmllbGQlMjBjcm9wfGVufDF8MHx8fDE3ODkzMzQ4Mjl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Clay LeConey",
+      "profileUrl": "https://unsplash.com/@clayleconey?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "photography of green-leafed plants field during daytime",
+      "description": "Infinity field of crops on a foggy day on Long Island."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:09.740Z",
+    "publishedAt": "2026-09-13T20:00:00.000Z"
+  },
+  {
+    "slug": "20260914-10",
+    "headline": "AI コーディングコスト爆発。人を雇う方が安い時代到来か",
+    "lead": "AI コーディング活用でトークン浪費。企業の 85％がコスト削減を期待するも、実現は 14％にとどまる。",
+    "body_markdown": "企業における AI コーディングツールの使用で、トークン浪費が深刻な課題となっている。言語モデルごとにトークン消費パターンが異なり、同じタスクでも選択モデルで必要トークン数が大きく変動する。\n\n実測では、日本語での処理が英語比で言語モデルによって異なる効率を示す。例えば、ある大型モデルは日本語で 1.73 倍のトークンを消費する一方、別の軽量モデルは 1.39 倍に留まるなど、モデル間で顕著な差異が生じている。Gartner の調査では、企業の 85％が AI でコスト削減できると考えているが、実現できているのは 14％にとどまるという現実が明かされている。\n\n対策としては、タスク特性に応じた適切なモデル選定、不要情報の排除と効率的なプロンプト設計、リアルタイムモニタリング、段階的な導入が重要とされている。トークン消費を事前に評価するツール活用も有効。予算超過を避けるには、AI ツール選択時に慎重な検討が欠かせない。",
+    "tags": [
+      "AI",
+      "コスト",
+      "テクノロジー",
+      "企業"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/13/news005.html",
+    "importance": 3,
+    "image_query": "programming code screen computer",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:09.742Z",
+    "publishedAt": "2026-09-13T20:00:00.000Z"
+  },
+  {
+    "slug": "20260914-11",
+    "headline": "アルツハイマー病、ゲノムの3D 構造異常が新原因に",
+    "lead": "研究者、患者脳細胞の DNA 3D 配置が変化していることを発見。従来説の補完に。",
+    "body_markdown": "南カリフォルニア大学などの研究チームが、アルツハイマー病患者の脳細胞における DNA の3次元的配置の異常を発見した。この構造的変化が、既知のアミロイドベータタンパク質やタウタンパク質以外の新しい病理メカニズムを示唆している。\n\nゲノムの3D 構造は、DNA 配列から遺伝子活動への橋渡しを助ける基本的な制御層である。通常、ゲノムの大領域は活性領域と非活性領域に明確に区別されているが、患者細胞ではこの「コンパートメント領域の境界がより不明瞭」になり、構造が乱れていた。\n\nこの構造的乱れにより、神経細胞やシナプスの活動、代謝機能、細胞ストレス応答の低下が観察された。研究チームは、AI モデル「Hicformer」を開発し、ゲノム構造が細胞の行動に及ぼす影響を調査。この発見は、アルツハイマー病の治療標的の多様化につながる可能性がある。",
+    "tags": [
+      "アルツハイマー",
+      "遺伝学",
+      "医学研究",
+      "脳科学"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260912220051.htm",
+    "importance": 4,
+    "image_query": "dna laboratory research science",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1582719471216-d2e7e332e19c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8ZG5hJTIwbGFib3JhdG9yeSUyMHJlc2VhcmNoJTIwc2NpZW5jZXxlbnwxfDB8fHwxNzg5MzM0ODMwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "white and teal printer on white desk",
+      "description": "DNA Genotyping and Sequencing. Automated DNA chip loading at the Cancer Genomics Research Laboratory, part of the National Cancer Institute's Division of Cancer Epidemiology and Genetics (DCEG)."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:10.344Z",
+    "publishedAt": "2026-09-12T22:00:51.000Z"
+  },
+  {
+    "slug": "20260914-12",
+    "headline": "ロボット工場、学習データ自動生成。フィジカル AI の進化加速",
+    "lead": "習志野の J-HRTI データファクトリーで 35 台のロボット、学習データを大量生成中。VR 遠隔操作で作業記録。",
+    "body_markdown": "千葉県習志野市の「J-HRTI 関東データファクトリー」では、35 台のヒューマノイドロボットが学習データを生成している。医薬品・物流・リース・専門商社の 5 社コンソーシアムで運営される同施設は、フィジカル AI 育成の新しいモデルを示している。\n\nデータ生成プロセスは3段階。まずオペレーターが VR ゴーグルと専用コントローラーでロボットを遠隔操作。折りたたみコンテナから商品を移す、樹脂ペレットをすくってバケツに入れるなど複数タスクが並列実行される。次に各ロボットの頭部と両手首に装着された3台カメラが、作業動作を同時記録。最後にアノテーション処理で映像をタイムラインごとに分割し、英語ラベルを付与する。\n\n重要な工夫は失敗データも含める点。自力で復旧できる失敗は教材として残し、拾えない失敗のみ除外。現場実装後も稼働データを回収し、モデルを継続更新する循環システムが構築されている。",
+    "tags": [
+      "ロボット",
+      "AI",
+      "データ",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001402/",
+    "importance": 3,
+    "image_query": "robot factory automation technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:10.346Z",
+    "publishedAt": "2026-09-11T00:00:00.000Z"
+  },
+  {
+    "slug": "20260914-13",
+    "headline": "量子コンピュータと電子顕微鏡を統合、微細観察の精度向上",
+    "lead": "オーストリア研究チームが、量子コンピュータで電子顕微鏡画像の精度を飛躍的に向上させる新技術を開発。",
+    "body_markdown": "オーストリアの研究チームが、電子顕微鏡と量子コンピュータを統合する新型顕微鏡を開発した。従来、電子顕微鏡は電子を数えて画像を形成していたが、新システムは「各電子が運ぶ量子情報を活用し、通常は失われていた情報を処理する」。\n\n具体的には、電子が閉じ込められたイオンと相互作用し、「量子エンタングルメントを生成して電子と量子コンピュータが共有の量子状態を形成」する。複数の電子から得た情報を量子演算により最適に組み合わせることで、より強力な信号抽出が可能になる。\n\n主な利点は3つ。より少ない電子で同じ情報が得られるため、生体試料など繊細なサンプルへの損傷が減る。ランダムノイズと区別できなかった情報が明確な信号に変わる可能性がある。量子物理により従来の電子顕微鏡を制約する統計的限界を超えられる期待がある。",
+    "tags": [
+      "量子コンピュータ",
+      "顕微鏡",
+      "技術革新"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260912220038.htm",
+    "importance": 3,
+    "image_query": "quantum computer laboratory research",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:10.348Z",
+    "publishedAt": "2026-09-12T22:00:38.000Z"
+  },
+  {
+    "slug": "20260914-14",
+    "headline": "量子光学で新発見。光が原子と相互作用する時にズレが発生",
+    "lead": "レーザー光が原子と相互作用する際、光学マグヌス効果で強い相互作用がビーム中心ではなく側面で起きることが判明。",
+    "body_markdown": "研究者たちが、集束したレーザー光が原子と相互作用する際に、従来の理論予測と異なる現象が起きることを初めて実験的に実証した。「光学マグヌス効果」と名付けられたこの現象では、最も強い相互作用がビーム中心ではなく「わずかに側面にずれた場所で起こる」。\n\n発見名の「Curveball」は、スピンを与えたピンポン球が軌道を曲げる物理現象に由来している。量子の世界でも同じ原理が作用しており、レーザー光の複雑な電磁場構造によってこのズレが生じるのだ。実用的には二つの側面がある。懸念点として、量子コンピュータのキュービット制御時にこのズレを無視するとエラーが生じる可能性がある。\n\n一方、利点として、生成される力を活用してキュービット同士を結合させ、より複雑な計算が可能になるという応用可能性も秘めている。研究チームはカルシウムイオンを微小なプローブとして、この現象を数百ナノメートルレベルで測定することに成功した。",
+    "tags": [
+      "量子物理",
+      "光学",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260912220025.htm",
+    "importance": 3,
+    "image_query": "quantum light physics laboratory",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:10.349Z",
+    "publishedAt": "2026-09-12T22:00:25.000Z"
+  },
+  {
+    "slug": "20260914-15",
+    "headline": "温暖化が海洋循環を激変。インド太平洋の 400 年の気候リンクが断裂",
+    "lead": "インド洋と太平洋が数世紀にわたり連動してきた気候が、地球温暖化で独立した行動へ転換。",
+    "body_markdown": "ウッズホール海洋学研究所の研究チームが、インド洋と太平洋の気候関係が根本的に変化していることを発見した。両洋は 400 年近くの間、密接に連動していたが、現在その関係が崩壊している。研究によると「地球温暖化と人間の排出物が太平洋のインド洋への自然な影響を圧倒している」。\n\n1980 年代以降、インド洋の気候が太平洋の条件から予想される通常の反応を示さなくなった。古代気候記録と気候モデルを組み合わせた分析で「最近の変化は極めて異例である」ことが明らかになった。海盆間の関係が弱まる場合、過去の行動に基づいた予測がより信頼性を失う可能性がある。\n\nインド洋は巨大な熱貯蔵庫として機能しており、太平洋と独立した行動をとり始めている。この変化は、季節予報精度の低下にもつながる可能性があり、農業や水資源管理に影響を及ぼしかねない。",
+    "tags": [
+      "気候変動",
+      "海洋",
+      "環境"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260912220029.htm",
+    "importance": 4,
+    "image_query": "ocean sea climate global warming",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1508624217470-5ef0f947d8be?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxvY2VhbiUyMHNlYSUyMGNsaW1hdGUlMjBnbG9iYWwlMjB3YXJtaW5nfGVufDF8MHx8fDE3ODkzMzQ4MzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Andrzej Kryszpiniuk",
+      "profileUrl": "https://unsplash.com/@kryszpin?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "bird's-eye view of sea waves",
+      "description": "Ocean"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:10.864Z",
+    "publishedAt": "2026-09-12T22:00:29.000Z"
+  },
+  {
+    "slug": "20260914-16",
+    "headline": "バイオテク革新者 35 歳以下が業界を変える",
+    "lead": "MIT Technology Review、35 歳以下のバイオテク革新者 9 名を選出。遺伝子編集から再生医療まで。",
+    "body_markdown": "MIT Technology Review は、35 歳以下のバイオテクノロジー分野の革新者 9 名が分野を変革していると報告した。彼らの成果は多岐にわたる。視力喪失を逆転させる「再プログラミング」療法開発、日本美術に触発された小型脳電極設計、稀な遺伝病を持つ赤ちゃん向けの個人化遺伝子編集治療、生成 AI を用いた新規ウイルス設計（医療または環境浄化用途）など。\n\nクリーンスチール技術の分野では、Hertha Metals 創業者 Laureen Meroueh が鉄鋼産業を革新している。彼女の新炉は、一段階でアイアンオアを精製済み液体スチールに変換。石炭を天然ガスに置き換え、排出量を少なくとも 50％削減しながら従来製鋼比で 25％のコスト削減を実現する。\n\nこれらの成果は、次世代がバイオテク・材料科学・エネルギー転換の最前線で、従来型の限界を打破しつつあることを示している。環境負荷軽減と経済性の両立を実現する革新が加速している。",
+    "tags": [
+      "バイオテクノロジー",
+      "イノベーション",
+      "科学"
+    ],
+    "section": "サイエンス",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/",
+    "importance": 3,
+    "image_query": "laboratory science research technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:10.866Z",
+    "publishedAt": "2026-09-11T00:00:00.000Z"
+  },
+  {
+    "slug": "20260914-17",
+    "headline": "スウェーデン選挙で中道左派がリード。右翼台頭の中での重要な結果",
+    "lead": "スウェーデン選挙で中道左派野党連合が 51％超でリード。欧州の右翼勢力台頭に対抗。",
+    "body_markdown": "スウェーデンの選挙で、マグダレーナ・アンダーソン社会民主党率いる中道左派野党連合が 51.3％の得票率で領先している。右翼ブロックは 46.8％と予測されており、競争が激化していた最終週を経て、左派が優位を保持した。\n\n選挙の背景には、年初の世論調査で野党連合が約 10 ポイントのリードを保有していたものの、キャンペーン最終週では 2～3 ポイントまで縮小し、競争が激化していたという経緯がある。欧州で右翼・極右政党が台頭する中で、左翼陣営の勝利は重要な結果となった。\n\nもし右翼連合が勝利していた場合、ネオナチ運動に根ざす「スウェーデン民主党」が初めて政府入りする可能性があった。同党は移民政策に対する強硬姿勢で知られている。今回の結果は、欧州における左派と右派のバランスを示す象徴的な選挙となった。",
+    "tags": [
+      "スウェーデン",
+      "選挙",
+      "政治",
+      "欧州"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/13/centre-left-opposition-bloc-leads-in-swedish-vote-poll-shows",
+    "importance": 3,
+    "image_query": "voting ballot election democracy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:10.867Z",
+    "publishedAt": "2026-09-13T20:00:00.000Z"
+  },
+  {
+    "slug": "20260914-18",
+    "headline": "スウェーデン選挙で中道左派が優位。右翼台頭の中での重要な結果",
+    "lead": "バングサモロ自治区初の議会選挙。2018 年設立以来、平和合意の実現を問われる重要な選挙。",
+    "body_markdown": "フィリピン南部のバングサモロ自治区（BARMM）の議会選挙は、2018 年の設立以来初めての選挙である。数十年の武力紛争と交渉の成果を象徴する選挙であり、モロ人の自決権獲得への道のりを示すターニングポイントとなる。\n\n本選挙は暫定政府の過渡期を終わらせ、最初の民選議会を樹立するもの。「フィリピン政府の平和プロセスへの約束とイスラム解放戦線（MILF）の民主的プロセスへの約束を試す」ものとなる。ただ懸念される課題も多い。モロイスラム解放戦線内の分裂（2 つの派閥に分かれている）、過去の選挙での買収や暴力・詐欺操作の蔓延、軍隊配備による緊張の高まり。\n\n選挙結果が本当にバングサモロの人々の意思を反映するかどうかが、今後の平和と安定の鍵となる。国際社会の注視の中、フィリピンの平和プロセスが問われる重要な局面を迎えている。",
+    "tags": [
+      "フィリピン",
+      "平和",
+      "選挙",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/opinions/2026/9/13/bangsamoros-parliamentary-election-is-a-turning-point",
+    "importance": 3,
+    "image_query": "voting election ballot democracy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:10.870Z",
+    "publishedAt": "2026-09-13T20:00:00.000Z"
+  },
+  {
+    "slug": "20260914-19",
+    "headline": "プラスチック廃棄物を食べるクッキー開発。NASA 深宇宙食糧計画から",
+    "lead": "南イリノイ大学、改造酵母でプラスチック廃棄物と農業廃棄物から食料を生成。宇宙食用から地球へ応用。",
+    "body_markdown": "南イリノイ大学カーボンデール校の研究チームが、NASA の深宇宙食糧チャレンジプログラムの支援を受け、プラスチック廃棄物から食べられるクッキー「µBites（マイクロバイツ）」を開発した。宇宙飛行士が地球からの定期的な食糧補給に頼れない深宇宙探査環境での食糧生産を目指したもの。\n\n製造プロセスは3段階。まず遺伝子工学で改造された酵母を使い、PET プラスチックと農業廃棄物を「酸化加水分解」で処理。高温・高圧の水と酸素で難分解性物質を微生物が利用可能な化合物に変換する。次に改造酵母がこれらをタンパク質、脂肪、ビタミン、バニラフレーバーなど食品成分に変換。最後に3D プリンターでクッキーを成形する。\n\n環境応用は3つ。ペットボトル用 PET 樹脂のリサイクル、2050 年までに世界食糧需要が 35～56％増加する予想への対応、潜水艦・災害地域・月面・火星での人間入植地での食糧供給。数年以内の一般消費向け製品化を目指している。",
+    "tags": [
+      "NASA",
+      "プラスチック",
+      "食糧",
+      "環境"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260912220033.htm",
+    "importance": 3,
+    "image_query": "food laboratory science technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:10.873Z",
+    "publishedAt": "2026-09-12T22:00:33.000Z"
+  },
+  {
+    "slug": "20260914-20",
+    "headline": "重力波分析で「ブラックホール偽装物」を識別。新しい宇宙観測手法",
+    "lead": "研究チーム、重力波信号からボソン星などの異種コンパクト天体を区別。スピン誘起四重極モーメント測定で新展開。",
+    "body_markdown": "国際的な研究チームが、重力波分析を通じて真正なブラックホール合併と、類似の信号を持つボソン星などの「偽装ブラックホール」（black hole impostors）を区別する方法を開発した。\n\n識別手法の鍵は「スピン誘起四重極モーメント」の測定。これは回転がコンパクト天体の質量分布をいかに歪ませるかを説明する特性である。回転するケルブラックホールでは質量とスピンで完全に決定されるが、ボソン星などの異種天体では異なる値を示す。\n\n2024 年 10 月検出の重力波イベント「GW241011」について、研究チームは巨大な天体のスピン誘起四重極モーメントを「前例のない精度で測定」し、四重極自己相互作用を持つ回転ボソン星を除外。ただ十分にコンパクトな異種天体の可能性は残存している。この研究は、理論と観測データの統合で「偽装天体の指紋」検出する新しい方法を実現した。",
+    "tags": [
+      "重力波",
+      "ブラックホール",
+      "天文学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-gravitational-analysis-narrows-black-hole.html",
+    "importance": 3,
+    "image_query": "space black hole astronomy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:10.875Z",
+    "publishedAt": "2026-09-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260914-21",
+    "headline": "魚が抗うつ薬に敏感。水環境汚染が生態系を脅かす",
+    "lead": "抗うつ薬など医薬品が下水から環境水へ。魚の脳化学が人間用医薬品に反応。",
+    "body_markdown": "医薬品の水環境汚染が新たな懸念として浮上している。抗うつ薬などの医薬品は、人体から排出されても生物学的に活性のままで、下水に残留し最終的に河川や海などへ流入する。\n\n魚は人間と同じセロトニン、ドーパミン、ノルエピネフリンなどの神経伝達物質を使用するため、人間用に設計された医薬品が魚の生物学的プロセスに干渉する可能性がある。研究チームの発見によると、「魚の SERT（セロトニン再吸収トランスポーター）は、人間の同等物に影響を与える濃度の 10 倍以上低い濃度でしばしば反応する」という結果が得られた。\n\n重要なことに、抗うつ薬が汚染水路で既に測定されている濃度と、実験室での阻害濃度が重なっていた。複数の魚種で共通した感度パターンが観察されたため、抗うつ薬への脆弱性が魚類全体に及ぶ可能性を示唆しており、水生生態系全体への潜在的リスクを示している。",
+    "tags": [
+      "環境汚染",
+      "医薬品",
+      "生態系",
+      "水"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-fish-highly-sensitive-antidepressants.html",
+    "importance": 3,
+    "image_query": "fish water environment nature",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:10.876Z",
+    "publishedAt": "2026-09-13T00:00:00.000Z"
+  },
+  {
+    "slug": "20260914-22",
+    "headline": "マンモット遺跡の年代を大幅に修正。160～232万年前だった",
+    "lead": "南ダコタのマンモット・サイト、従来の26000年から160～232万年前へ。新しい年代測定法で判明。",
+    "body_markdown": "米国サウスダコタ州のマンモット・サイトで、革新的な年代測定により大幅な修正がなされた。この遺跡は 1974 年に偶然発見され、北米最大級のコロンビアマンモス 60 頭以上を含む。\n\n現場は古い地下陥没で、地下水が岩を溶かして形成された 4～5 メートルの深さの穴。気温 32～35℃の温泉環境で、急勾配で滑りやすい壁によりマンモスが逃げられなくなった。ここには他の氷河期巨大動物（熊、ラクダ、狼、コヨーテ）も閉じ込められている。\n\n従来の放射性炭素年代測定は約 26000 年前と結論づけていた。しかし新しい蛍光年代測定（Quaternary Research に発表）では約 160000～232000 年前と判明（Quaternary Research に発表）で「約 160000～232000 年前」と判明。マンモスは従来予測より 100000 年以上古かった。原因は、地下水が骨の化学性状を変えたため放射性炭素データが信頼性を欠いていたこと。研究チームは、周囲の長石堆積物を蛍光測定し（放射線被曝以来の鉱物粒の露出時間を測定）、複数実験室による確認で信頼性が向上した。",
+    "tags": [
+      "古生物学",
+      "マンモット",
+      "考古学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-luminescence-dating-age-south-dakota.html",
+    "importance": 3,
+    "image_query": "excavation archaeology fossil ancient",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-13T21:27:10.878Z",
+    "publishedAt": "2026-09-13T00:00:00.000Z"
+  },
+  {
     "slug": "20260913-14",
     "headline": "Anthropic CEO、AI開発ペース減速を提言 第三者評価者制度構想",
     "lead": "Anthropic のダリオ・アモデイCEOは、AIの能力向上ペースそのものを落とす必要があると主張し、第三者の常駐評価者導入を提案。OpenAI・アルトマン氏も同調。",
