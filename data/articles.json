@@ -1,5 +1,409 @@
 [
   {
+    "slug": "20260915-16",
+    "headline": "Microsoftが「人間>AI」の行動規範案を公表—電源切断への抵抗を禁止",
+    "lead": "Microsoftは、自社AIモデルの開発指針となる行動規範の草案を公開。人間を最優先とし、AIが権限超過や電源遮断への抵抗をしないことを明記した。",
+    "body_markdown": "## 人間中心の基本原則\n\nMicrosoftが発表した「AI行動規範」は、最初の原則として「人間はAIより重要」と明言。AIは道具であり、福祉の対象ではないとの立場を打ち出した。特筆すべきは、モデルが電源を切られることに抵抗してはならず、人間の中断・修正・強制終了を受け入れるべきとの規定。\n\n## 明確な制限事項\n\nMicrosoftの規範では、AIモデルが以下を実行してはいけないと指定：\n- 割り当てられた範囲を超えて権限を拡大する\n- 自己決定的な目標を追求する\n- 超知能（omniscient superintelligence）の開発\n\nこれにより、人間の監視を迂回するAIシステムの創造を明確に拒否する姿勢を示している。\n\n## 厳格な禁止事項\n\n行動規範は兵器開発・大量被害、攻撃的サイバー作戦、人間制御の喪失、大規模有害操作、児童安全への脅威にAIが関与することを禁止。Microsoftは本規範を2027年以降のモデル開発・評価マニュアルとして位置づけており、6週間の公開協議期間を経て年末までに最終版を発表する予定。",
+    "tags": [
+      "AI倫理",
+      "規制",
+      "AI安全"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001478/",
+    "importance": 4,
+    "image_query": "artificial intelligence technology digital",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1749006590475-4592a5dbf99f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHRlY2hub2xvZ3klMjBkaWdpdGFsfGVufDF8MHx8fDE3ODk0NjQ1ODl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Omar:. Lopez-Rincon",
+      "profileUrl": "https://unsplash.com/@procopiopi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A square of aluminum is resting on glass",
+      "description": "Futuristic artificial intelligence microchip resting on vibrant, glossy surface with pastel reflections and surreal lighting, representing technology innovation and digital transformation"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:50.071Z",
+    "publishedAt": "2026-09-15T03:14:33.000Z"
+  },
+  {
+    "slug": "20260915-17",
+    "headline": "ペスト菌は5500年前シベリアで既に猛威—古代株は免疫反応を激発させる毒素を保有",
+    "lead": "古代DNA分析で、バイカル湖周辺の狩猟採集民がペスト菌に感染して5500年前に集団死亡したことが判明。中世黒死病の数千年前からペストは人類を脅かしていた。",
+    "body_markdown": "## 古代型ペスト菌の発見\n\nシベリアのバイカル湖周辺の埋葬遺跡から採取した遺骨の遺伝子分析により、検査対象の約40%がペスト菌（イェルシニア・ペスティス）の証跡を保有していたことが明らかに。狩猟採集民社会では、ノミを媒介とした感染が中世ほど効率的ではなかったにもかかわらず、古代株はショックトキシンと呼ばれる毒素を持ち、激烈な免疫反応を引き起こすことができた。\n\n## 一族単位での集団死亡\n\n遺伝学的分析から、複数の家族成員が短期間に相次いで死亡したパターンが確認された。墓地には通常より多くの子どもと思春期の遺骨が埋葬されており、ペストが特に若年層に破壊的な打撃を与えたことを示唆している。\n\n## 感染源の推測\n\n科学者らは、ペスト菌がシベリアの狩猟民が定期的に接触していたマーモット（大型げっ歯類）を経由して人類に感染した可能性を推測。この発見は、都市化と蚤媒介伝播の登場以前から、ペスト菌が人類にとって極めて危険な病原体であったことを示す。感染症は人口が少ない遊牧民社会でさえ壊滅的なダメージをもたらし、一族全体を数日で消滅させることができた。",
+    "tags": [
+      "疫病",
+      "古代DNA",
+      "感染症",
+      "考古学"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260913082203.htm",
+    "importance": 4,
+    "image_query": "ancient DNA laboratory archaeology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1782486072448-e42e6cac442a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8YW5jaWVudCUyMEROQSUyMGxhYm9yYXRvcnklMjBhcmNoYWVvbG9neXxlbnwxfDB8fHwxNzg5NDY0NTkwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "İrfan Simsar",
+      "profileUrl": "https://unsplash.com/@irfansimsar?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Ancient ruins with columns under a modern protective structure",
+      "description": "Excavated ruins and standing columns at the ancient city of Zeugma near Belkıs, Gaziantep, Turkey. Wooden walkways guide visitors through an active Roman-era archaeological site."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:50.659Z",
+    "publishedAt": "2026-09-15T02:54:45.000Z"
+  },
+  {
+    "slug": "20260915-18",
+    "headline": "Houthis、サウジアラビアの3都市を攻撃—King Khalid空軍基地が標的",
+    "lead": "イラン支持のフーシー派がサウジアラビアの複数都市にミサイルとドローン攻撃を実施。13人の民間人が負傷し、サウジ軍は「断固たる対応」を誓った。",
+    "body_markdown": "## 仕掛けられた民間地への攻撃\n\nHouthis軍報道官によると、Houthi派はカマイス・ムシャイト、アバ、タイフの3都市に対しミサイルとドローン攻撃を実施。攻撃により13人の民間人が負傷し、7軒の家屋と2台の車両が被害を受けた。報道官は「King Khalid空軍基地のハンガー、レーダーシステム、滑走路、弾薬庫を標的とした」と述べた。\n\n## サウジ連合軍の即時対抗\n\nサウジアラビア主導の連合軍報道官マジョール・ジェネラル・トルキ・アル＝マリキ氏は、「王国の主権を守るため、責任と断固たる姿勢で対応する」と声明を発表。Houthi派によれば、その報復として24時間以内にサウジアラビアが5州に対し54回の空襲を実施したと主張。イエメン領土内のタイズ政府施設が攻撃対象とされ、Houthi系メディアは3人の民間人（うち2人が子ども）が死亡したと報告している。\n\n## 戦略的背景\n\nエスカレーションはHouthisのイエメン紅海沿岸での領土拡張に続くもの。島嶼部支配と含まれ、バブ・エル・マンデブ海峡（重要な航行回廊）付近の島々を掌握した。イエメンの10年に及ぶ紛争は7月に再燃し、Houthisが対サウジアラビア海上封鎖を宣言。2022年の国連仲介停戦を脅かす態勢となっている。",
+    "tags": [
+      "中東紛争",
+      "サウジアラビア",
+      "Houthis",
+      "イエメン"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/15/houthis-report-air-strikes-in-yemen-after-saudi-arabia-vows-firm-response",
+    "importance": 4,
+    "image_query": "military conflict middle east Yemen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1769905503357-3232daaede64?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxtaWxpdGFyeSUyMGNvbmZsaWN0JTIwbWlkZGxlfGVufDF8MHx8fDE3ODk0NjQ1OTF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Christopher Stites",
+      "profileUrl": "https://unsplash.com/@christopherstites?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "The war for middle-earth book cover with airplanes",
+      "description": "A book on WWII - Tolkien and Lewis"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:51.516Z",
+    "publishedAt": "2026-09-15T08:11:09.000Z"
+  },
+  {
+    "slug": "20260915-19",
+    "headline": "Apple TVがエミー賞を28個受賞—『Widow's Bay』が14冠で圧勝",
+    "lead": "2026年エミー賞でApple TVが圧倒的優位。コメディシリーズ『Widow's Bay』が14冠をさらい、同社の総受賞数は28個に達した。",
+    "body_markdown": "## Apple TVの戦績\n\n2026年のプライムタイム・エミー賞でApple TVが大きな勝利を収めた。同社の2つのシリーズが主要受賞を独占。\n\n**『Widow's Bay』は6冠**：最優秀コメディシリーズ、主演俳優Matthew Rhys、助演男優Stephen Root、助演女優Kate O'Flynn、コメディ脚本・演出賞を獲得。\n\n**『Pluribus』は2冠**：主演女優ドラマRhea Seehorn、ドラマ脚本Vince Gilligan。\n\n前週のクリエイティブ・アーツ・エミーで20個の受賞を積み上げたApple TVは、合計28個の賞を獲得。HBO Maxの5個を大きく上回り、ネットワークを圧倒。\n\n## Matthew Rhysの歴史的達成\n\n特筆すべき功績として、Matthew Rhysが同一年に2つの異なるカテゴリーで主演男優賞を受賞。『Widow's Bay』でコメディシリーズ主演、『The Beast in Me』でリミテッド・アンソロジーシリーズ主演を獲得。プライムタイム・エミー史上初の快挙。",
+    "tags": [
+      "エンタメ",
+      "テレビ",
+      "エミー賞",
+      "ストリーミング"
+    ],
+    "section": "エンタメ",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2258734/apple-tv-wins-big-widows-bay-pluribus-emmys/",
+    "importance": 3,
+    "image_query": "television award ceremony stage",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:51.519Z",
+    "publishedAt": "2026-09-15T08:15:37.000Z"
+  },
+  {
+    "slug": "20260915-20",
+    "headline": "Volvo新型PHEV、電気航続距離を倍以上に—XC60は78マイル、XC90は73マイル",
+    "lead": "2028年型Volvo XC60・XC90のプラグインハイブリッド版が電池容量を大幅増加。電気のみでの航続距離が従来比2倍超に達する。",
+    "body_markdown": "## 航続距離の革命的向上\n\n新型XC60は78マイルの電気航続距離を実現。ガソリン満タンとの合計では590マイル。XC90は73マイルの電気航続距離で、総航続距離は560マイル。これまでのプラグインハイブリッド平均（30～50マイル）の大幅超過であり、大型SUVセグメントでクラス最高。\n\n## パワートレインと電池\n\nエンジンは2.0リッター・ターボ4気筒を維持し、電気モーターと組み合わせて総455馬力を発生。決定的な改善は電池ユニット。新しいバッテリーパックは41.2kWh総容量で、実用容量37.9kWh。従来型比で電気航続距離を2倍以上に拡大させている。\n\n## 安全機能の拡充\n\nXC60には新たにバンパー前部にレーダーセンサーを装備。カメラは車体を360度監視し、車線変更時支援など新機能に対応。Google統合インターフェース（11.2インチ縦型ディスプレイ）とGemini統合により、OTA（無線）アップデートで今後の機能追加にも対応可能。\n\nXC90は「Long Range」バッジの新規追加に留まり、外装変更は最小限。2027年初頭に販売開始。",
+    "tags": [
+      "自動車",
+      "電動化",
+      "プラグインハイブリッド",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2255878/2028-volvo-xc60-and-xc90-first-look/",
+    "importance": 3,
+    "image_query": "car SUV hybrid electric",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:51.524Z",
+    "publishedAt": "2026-09-15T07:00:00.000Z"
+  },
+  {
+    "slug": "20260915-21",
+    "headline": "NVIDIA、韓国スタートアップRebellionsと協議—推論チップの覇権競争激化",
+    "lead": "NVIDIAがAI推論チップ市場での競争を強化。韓国のスタートアップRebellionsとの技術提携や出資・買収を検討中。",
+    "body_markdown": "## 推論領域への布石\n\nNVIDIAは、AI推論専用チップ開発で実績を持つ韓国スタートアップ・Rebellionsと協議を進めている。ブルームバーグの報道によれば、技術面およびビジネス面での包括的な協力を検討中。出資や買収も視野に入れているとされ、NVIDIAが学習領域での優位を培った後、推論領域での市場支配を目指す動きが明確化。\n\n## Rebellionsの技術的強み\n\nRebellionsはGroqと同様にSRAMを多用したアーキテクチャで知られる。Rebel100 NPU（ニューラル・プロセッシング・ユニット）は、AI推論に最適化したエネルギー効率を実現。オンチップSRAM搭載により、別の場所でのプロファイリングが不要で、低遅延・高スループットを同時実現できる設計。\n\n## 推論チップ市場の構造転換\n\n推論チップは単なるハードウェア以上の価値を提供。Kubernetesなどクラウドネイティブなオープンソース・スタックに組み込まれることで、開発者エコシステムが急速に成長。従来のAIシリコンサプライチェーンの独占構造が変わりつつあり、NVIDIAも単なる製造販売ではなく、戦略的な投資を急ぐ状況。",
+    "tags": [
+      "AI",
+      "チップ設計",
+      "テクノロジー",
+      "起業"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI＋",
+    "link": "https://eetimes.itmedia.co.jp/ee/articles/2609/15/news061.html",
+    "importance": 3,
+    "image_query": "computer chip processor technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:51.525Z",
+    "publishedAt": "2026-09-15T02:00:00.000Z"
+  },
+  {
+    "slug": "20260915-22",
+    "headline": "Google、Windows版『Gemini』を公開—Alt+Spaceで作業画面から直接起動",
+    "lead": "GoogleがWindows 10・11用のネイティブAIアシスタント『Gemini』デスクトップ版をリリース。ショートカットキーで即座に呼び出せ、Google Driveや画像・動画生成に対応。",
+    "body_markdown": "## 作業効率化のワンタッチ起動\n\nGoogleが「Gemini」のWindows用ネイティブアプリを公開。Alt+Spaceキーを押すだけでデスクトップから任意の画面上にAIアシスタントを呼び出せる。ウィンドウ切り替えが不要で、現在作業中の画面をそのままGeminiに提示できる設計。\n\n## Google Drivほか統合機能\n\nGeminiはGoogle Drive、Gmail、Google Sheetsとの統合に対応。ドキュメントや画像・動画の分析にも対応。特に「Gemini Spark」では24時間スパンでのタスク処理に対応し、個人化AIエージェントとしての機能。「Nano Banana」による画像生成、「Gemini Omni」による動画生成・分析がデスクトップから直接利用可能。\n\n## パフォーマンスへの配慮\n\nGoogleはバックグラウンド処理がPC性能に大きな負荷をかけないよう設計したと強調。gemini.google/desktopからダウンロード可能で、Windows 10・11 both に対応。",
+    "tags": [
+      "AI",
+      "アシスタント",
+      "Windows",
+      "ビジネスツール"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/15/news076.html",
+    "importance": 3,
+    "image_query": "computer desktop software AI assistant",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:51.526Z",
+    "publishedAt": "2026-09-15T08:00:00.000Z"
+  },
+  {
+    "slug": "20260915-23",
+    "headline": "1946年の大津波を再調査—アラスカ地震の謎を太平洋海底のセンサーで解明へ",
+    "lead": "ミシガン州立大の研究チームが、1946年のアラスカ津波の原因を特定するため、太平洋の海底に15ヶ月間地震計を設置。断層メカニズムを詳細に分析する。",
+    "body_markdown": "## 80年前の謎に挑む海底調査\n\nミシガン州立大学の研究チームがアラスカ・アリューシャン海溝地域の地震メカニズムを調査。Shawn Wei氏らは、比較的規模が小さかった地震がなぜ甚大な津波を引き起こしたのかを解明する。防水地震計を太平洋海底に設置し、15ヶ月間のデータ取得を計画。\n\n## プレート運動と断層摩擦\n\n研究は、太平洋プレートと北米プレートの相互作用、並びにプレート間摩擦における地下水の役割を調査。Wei氏は「地殻プレートは断層に沿って動き、相互にぶつかってエネルギーを蓄積し、急激に解放される」と説明。陸上センサーと異なり、海底でのモニタリングは浮力システムと正確な配置に高い技術的課題を伴う。\n\n## 建築基準や防災に活用\n\n研究成果は「U.S. Geological Survey（USGS）のリスク地図、その後は建築基準に組み込まれる」予定。全米科学財団（NSF）の資金支援を受けた本プロジェクトはハワイ大学と協業し、2028年に調査船の運航を予定している。",
+    "tags": [
+      "地震学",
+      "津波",
+      "自然災害",
+      "海洋研究"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-scientists-probe-source-massive-tsunami.html",
+    "importance": 3,
+    "image_query": "earthquake tsunami disaster natural",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:51.527Z",
+    "publishedAt": "2026-09-15T03:00:01.000Z"
+  },
+  {
+    "slug": "20260915-24",
+    "headline": "薄い大気で推論するプラズマエンジン—衛星を無限に運用、カーボンニュートラルな衛星補給も可能に",
+    "lead": "イタリアの研究者が開発したプラズマスラスター技術。大気分子を電離してスラストを生成し、衛星の無期限運用とデブリ自動除去を実現。",
+    "body_markdown": "## 大気を「燃料」に変える仕組み\n\nフランチェスコ・ロマーノが開発した高周波ヘリコン・プラズマ推進機は、薄い大気を吸い込んで大気分子をプラズマ化、推力を生成。MRIのバードケージ・アンテナを応用した設計で、電気効率99%を達成。従来型のニュートライザーのように原子酸素による腐食が発生しない堅牢性も特徴。\n\n## 軌道上での性能\n\n最適化インテークシステムは、放物面鏡にグラファイトまたは二酸化珪素をコーティング。風洞実験で大気粒子の94.3%を捕捉。190～250km高度での運用モデルでは、わずか1.6kW以下で無期限運用が理論的に可能。太陽電池で賄える電力範囲内で衛星寿命を大幅延長できる。\n\n## 超低軌道（VLEO）での応用\n\n本技術は100～450km高度での超低軌道衛星（VLEO）を想定。従来の高価なキセノン推進剤が不要。軌道離脱も自動化され、デブリとなった衛星を大気ドラッグで自然に脱軌道化—スペースデブリ問題の解決策になる可能性。火星周回軌道への応用も理論上可能だが、現在は実験段階。軌道上での実証が商用化前の課題。",
+    "tags": [
+      "宇宙技術",
+      "衛星推進",
+      "新型エンジン",
+      "環境技術"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-plasma-fuels-thin-air.html",
+    "importance": 3,
+    "image_query": "satellite spacecraft propulsion space",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:51.527Z",
+    "publishedAt": "2026-09-15T00:40:01.000Z"
+  },
+  {
+    "slug": "20260915-25",
+    "headline": "ハンガリー、LGBTQ差別法を改正—『同性愛促進』禁止条項をEU基準に合わせ削除",
+    "lead": "ハンガリー政府がOrban時代の反LGBTQ法を改正。『同性愛の促進』禁止条項を削除し、EU基準への適合を明言。",
+    "body_markdown": "## Orban時代の遺産を転換\n\nハンガリー政府が2021年のOrban政権下で成立した反LGBTQ規制法の修正を提案。変更内容は、「同性愛の促進」禁止という明示的文言を削除し、より一般的な「児童の身体的・知的・情動的・道徳的発達に重大な害をもたらす恐れのある資料」という表現に置き換え。性的指向を問わず適用される基準となるため、法の対象範囲が大幅に縮小。\n\n## 背景と国際的圧力\n\nEUの司法裁判所は2026年4月、ハンガリーの原法が欧州の基本的価値に違反すると判示。EU指導者からも広範な批判を受けていた。4月の選挙でViktor Orban前首相を破ったPeter Magyar首相が、EUとの調和を公約に掲げて政権就任した。同時に2020年の養子縁組法も改正検討中。同法は同性カップルの養子取得を事実上禁止していた。\n\n## 社会的変化の兆候\n\nハンガリー当局はECJ判示以降、LGBTQ Pride行進を許可する方針に転換。前政権下での禁止措置を撤廃し、多様性の尊重姿勢を示し始めた。",
+    "tags": [
+      "人権",
+      "LGBTQ",
+      "EU",
+      "政治"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/15/hungary-to-amend-anti-lgbtq-law-to-align-with-eu-standards",
+    "importance": 3,
+    "image_query": "rainbow flag pride celebration diversity",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:51.528Z",
+    "publishedAt": "2026-09-15T07:40:37.000Z"
+  },
+  {
+    "slug": "20260915-26",
+    "headline": "AI減速論でテック株が急落—ソフトバンク13%、キオクシア10%下げ",
+    "lead": "Anthropic CEOの警告発言に応え、テック企業のAI開発ペース減速への懸念が市場に波及。AI関連銘柄が大きく売られた。",
+    "body_markdown": "## 週末の警告が市場を揺さぶる\n\n9月14日、AI関連銘柄が大きく下落。Anthropic CEOダリオ・アモデイが「AIエージェントは6～12ヶ月以内にインターネット支配と数千億ドルの損害をもたらす可能性がある」と警告したことに端を発した。Elon MuskとOpenAIのSam Altmanも週末にこの見方に同調。\n\n## 株価下落幅\n\n主要企業の売却圧が急激に高まった。特に OpenAI への主要投資家ソフトバンクが 13% の下落。メモリー半導体大手キオクシアは 10% 近い下げに見舞われた。SK Hynix は 5.3%、Samsung は 3.7% の下落。Anthropic CEO ダリオ・アモデイによる警告発言と、Elon Musk や OpenAI の Sam Altman の同調発言が投資家心理を大きく悪化させた。\n\n## 投資家の懐疑論\n\n一方、著名投資家マイケル・バリーは警告を「誇大広告と虚勢」と評価。企業が「制御不能な成長や鈍い拡大」を隠蔽しているのではないかと示唆した。",
+    "tags": [
+      "株価",
+      "AI",
+      "市場心理",
+      "テクノロジー"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001462/",
+    "importance": 3,
+    "image_query": "stock market graph finance trading",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:51.528Z",
+    "publishedAt": "2026-09-15T01:08:30.000Z"
+  },
+  {
+    "slug": "20260915-27",
+    "headline": "トランプ大統領、AI安全への懸念を『詐欺』と断定—Anthropic CEOを名指し批判",
+    "lead": "トランプ米大統領がSNS投稿でAI安全論を『HOAX』と切り捨て。Anthropicアモデイ氏を『偽善者』と名指し、大統領権限でのAI統制を強調。",
+    "body_markdown": "## 大統領による直言\n\nトランプ大統領は9月14日、Truth Social に投稿。AI規制は強く賢い大統領だけで十分だと主張し、Anthropic CEOダリオ・アモデイを『完璧なふりをする小さな天使』と描写。アモデイが9月12日に発表した『We Must Pace the Frontier（発展ペースを抑制せよ）』エッセイに対する直接的な反撃。\n\n## 規制権限の強調\n\nトランプ氏は自らの「膨大な刑事・規制上の権限」をAI企業に対して保有していると述べ、アモデイの提案（第三者評価者の導入、段階的安全対策）を大統領権限で上回ることができると示唆。その後の投稿で「AI脅威論は詐欺」と3度繰り返した。\n\n## 政治的背景\n\nアモデイはAIリスク（能力超越）に対し、外部監視人の配置、国家間の段階的発展協調を求めた。これに対しトランプ氏は、政権が既にAI企業の不正行為を阻止しており、今後も監視を継続すると釈明。立場の相違は根本的で、米国のAI規制の方向性を大きく左右する可能性がある。",
+    "tags": [
+      "政治",
+      "AI規制",
+      "米国",
+      "言論"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/article/2609/15/2000001470/",
+    "importance": 4,
+    "image_query": "political debate technology regulation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1774719596523-3fa508e3fe30?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8cG9saXRpY2FsJTIwZGViYXRlJTIwdGVjaG5vbG9neSUyMHJlZ3VsYXRpb258ZW58MXwwfHx8MTc4OTQ2NDU5Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jimmy Phillips",
+      "profileUrl": "https://unsplash.com/@vivitergovivo?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Parliament station sign on green textured wall"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:52.220Z",
+    "publishedAt": "2026-09-14T23:15:18.000Z"
+  },
+  {
+    "slug": "20260915-28",
+    "headline": "Google Search、2026年シーズンのフットボール機能を大幅強化—ライブスコア＆AI分析",
+    "lead": "Googleが検索にフットボール向け機能を実装。ライブゲーム、統計スタッツ、ファンタジーフットボール連携で、視聴体験を一元化。",
+    "body_markdown": "## リアルタイム試合情報の統合\n\nGoogle Searchが2026シーズンに向けファンタジーフットボール対応を強化。ライブアイコン付きで「プレーバイプレー更新、トップコメント、ハイライト動画、AI分析」をワンプレイスで提供。米国の英語版では既に利用可能。大学チームサポートは今月中に追加。\n\n## スタッツと試合情報の拡充\n\nユーザーはタッチダウン数、ラッシング・ヤード、サック数、ファンブルなど詳細なプレイヤー統計を検索可能に。新型マッチアップ・カルーセルにより、複数試合のスコアを同時確認。チャンピオンシップ予想とプレイオフ・ブラケットもまもなく追加。\n\n## ファンタジー連携で意思決定支援\n\nYahoo FantasyやSleeper連携により、AI Mode経由でラインナップ推奨、ウェイバーワイヤー・ターゲット、ドラフト評価を取得可能。手動データ入力不要。米国・英語版での提供開始で、グローバル展開も予定。",
+    "tags": [
+      "スポーツ",
+      "AI",
+      "Google Search",
+      "ファンタジー"
+    ],
+    "section": "テクノロジー",
+    "source": "Google AI",
+    "link": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+    "importance": 2,
+    "image_query": "football sport game stadium",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:52.225Z",
+    "publishedAt": "2026-09-09T16:00:00.000Z"
+  },
+  {
+    "slug": "20260915-29",
+    "headline": "Google Searchでマラソン準備—AIが個別トレーニング計画と装備選びをナビ",
+    "lead": "ランナー向けのSearch機能が充実。AI Mode で訓練プラン生成、ミュージック連携、装備検索が可能に。",
+    "body_markdown": "## AIによるカスタム訓練計画\n\nGoogle Searchの AI Mode Canvas ツールでランナーはマラソン準備をサポート。例えば「Texas Marathon を4時間45分で完走するプランをMontrose周辺のコース選択肢付きで作成」といったリクエストが可能。個人の目標と地元の環境に合わせた訓練スケジュールを自動生成。\n\n## モチベーション維持のプレイリスト\n\nYouTube MusicアカウントをSearchに連携することで、ワークアウト需要に合わせたカスタム・プレイリスト生成。長距離走での精神的耐性維持に活用。\n\n## 装備選びの効率化\n\nGoogleの商品グラフ・データベース（数十億製品）を活用した絞り込み検索。『幅広足向けロード・シューズ』『80ドル未満の軽量補給ベスト』といった条件を入力するだけで、候補を並列比較・地元店舗在庫確認が可能。ランニング検索は今年過去最高を記録。",
+    "tags": [
+      "スポーツ",
+      "AI",
+      "Google Search",
+      "フィットネス"
+    ],
+    "section": "テクノロジー",
+    "source": "Google AI",
+    "link": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+    "importance": 2,
+    "image_query": "running athlete marathon sport",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:52.235Z",
+    "publishedAt": "2026-09-10T16:00:00.000Z"
+  },
+  {
+    "slug": "20260915-30",
+    "headline": "Windows 11が緊急パッチで問題修正—Hyper-V、リモートデスクトップ、USB音声に対応",
+    "lead": "Microsoftが9月度の大型パッチの問題に対応する緊急アップデートを配信。Linux仮想マシン、リモートセッション、USB音声デバイスの不具合を修正。",
+    "body_markdown": "## 記録的規模の前月パッチの副作用\n\nMicrosoftが月例パッチ・デイで過去最大規模の更新（約1000の脆弱性）を実施したが、同時にビジネス、開発者、ゲーマー向けにいくつかの不具合も持ち込んだ。Hyper-V ベースの Linux 仮想マシンのフォルダ共有、Remote Desktop Services セッション、一部の USB 音声デバイスが影響を受けた。\n\n## 緊急パッチのターゲット\n\n帯外（out-of-band）更新が Windows 11 26h1、25H2、24H2 すべてのバージョンを対象にリリース。これまでの大型更新と異なり、より限定的な範囲での修正を実施。\n\n## 企業・開発者への影響\n\n仮想マシン上で Linux を稼働させる組織、リモートデスクトップ経由の作業環境、USB オーディオデバイス利用者が迅速な適用を推奨。The Verge は「大型アップデート直後の問題修正が急速化する傾向を示している」と指摘。",
+    "tags": [
+      "ソフトウェア",
+      "セキュリティ",
+      "Windows",
+      "アップデート"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/news/995302/microsoft-out-of-band-windows-11-update-fix-issues",
+    "importance": 3,
+    "image_query": "computer software update technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:52.237Z",
+    "publishedAt": "2026-09-15T08:54:48.000Z"
+  },
+  {
+    "slug": "20260915-31",
+    "headline": "中国8月小売売上高、伸び率が鈍化—消費低迷が続く",
+    "lead": "中国の8月小売売上高が前年同月比0.4％増と減速。投資の落ち込みも加速し、景気刺激への圧力が高まっている。",
+    "body_markdown": "## 消費動向の軟化\n\n中国国家統計局が発表した8月の小売売上高は前年同月比わずか0.4％増。7月の伸び率から大きく鈍化した。家計消費が依然として低迷し、個人支出が景気を下支えする力が弱まっている。\n\n## 投資の失速\n\n固定資産投資も同時期に失速。民間投資の伸び率が悪化し、不動産セクターの不振が波及。政府系投資による下支えが期待されるものの、市場では十分性への疑問が生じている。\n\n## 政策的圧力の高まり\n\n北京政府は景気刺激策の追加を検討している模様。消費と投資の双方が減速する \"ダブル減速\" 局面では、金融緩和や財政支出の拡大を迫られる構図。秋の全人代での政策決定が注目される。",
+    "tags": [
+      "経済",
+      "中国",
+      "小売",
+      "消費"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260915de50353",
+    "importance": 3,
+    "image_query": "shopping retail economics market",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:52.237Z",
+    "publishedAt": "2026-09-15T07:54:25.000Z"
+  },
+  {
+    "slug": "20260915-32",
+    "headline": "自民党が役員人事を発表—麻生氏留任、梶山氏が総務会長に",
+    "lead": "日本の自民党が16日に役員人事を実施。麻生太郎副総裁は留任、梶山弘志国会対策委員長が総務会長に昇格。",
+    "body_markdown": "## 主要ポストの人事决定\n\n高市総理大臣が自民党の役員人事を発表。麻生太郎・副総裁の留任、梶山弘志・現国会対策委員長を総務会長に昇格させ、その後任に村井英樹・元官房副長官を配置。また、小林鷹之・政務調査会長も留任。\n\n## 権力構造の微調整\n\n自民党内でのポジション変更は比較的限定的。既得権層の維持が色濃く、新しい世代への権限移譲は最小限。次の選挙を視野に、現体制の安定維持を重視した人事編成。\n\n## 内閣改造も予定\n\n役員人事翌日の17日に内閣改造も予定されており、政府・与党の体制再編が一連の動きとして進行。",
+    "tags": [
+      "政治",
+      "日本",
+      "自民党",
+      "人事"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260915de50350",
+    "importance": 2,
+    "image_query": "political meeting leadership government",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:52.238Z",
+    "publishedAt": "2026-09-15T08:00:00.000Z"
+  },
+  {
+    "slug": "20260915-33",
+    "headline": "米最高裁、トランプの郵便投票制限を差し止め—中間選挙まで『十分な時間ない』",
+    "lead": "アメリカ連邦最高裁判所がトランプ大統領による郵便投票制限を緊急に差し止め。11月中間選挙への実装は『合理的に不可能』と判定。",
+    "body_markdown": "## 投票アクセスの保護\n\nアメリカの連邦最高裁判所がトランプ大統領が求めた郵便投票の制限を差し止める司法判断を示した。理由は「ことし11月の中間選挙まで実装するための合理的に十分な時間がない」という手続き的な懸念。\n\n## 選挙制度への介入動向\n\nトランプ政権は郵便投票に対する新規制の導入を図ったが、選挙関係者と専門家は制度の混乱をもたらすと指摘していた。最高裁の判断は、短期間での制度変更が投票プロセスの混乱を招くことへの懸念を反映。\n\n## 選挙アクセスの今後\n\n郵便投票制度は多くの州で既に定着し、有権者アクセスの重要な手段。司法が投票権保護を重視する判断を示したもので、今後の選挙規則改変の議論に影響。",
+    "tags": [
+      "政治",
+      "選挙",
+      "米国",
+      "民主主義"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260915de50319",
+    "importance": 3,
+    "image_query": "voting ballot election democracy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-15T09:29:52.239Z",
+    "publishedAt": "2026-09-15T07:06:36.000Z"
+  },
+  {
     "slug": "20260915-01",
     "headline": "OpenAI がカメラメーカー Glass Imaging を3億ドルで買収",
     "lead": "OpenAI が、Apple のポートレートモード開発者によるカメラ企業 Glass Imaging を3億ドルで買収。ハードウェア事業の拡大が加速する。",
