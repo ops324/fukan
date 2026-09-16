@@ -1,5 +1,594 @@
 [
   {
+    "slug": "20260917-01",
+    "headline": "FRB0.25％利上げ 約3年ぶり",
+    "lead": "米FRBが約3年ぶりに利上げを決定。インフレ抑制に向け、0.25％引き上げ。",
+    "body_markdown": "米国のFRB（連邦準備制度理事会）は16日、0.25％の利上げを決定した。2023年7月以来、約3年2ヶ月ぶりの利上げとなる。政策委員会は全員一致で引き上げを承認し、ベンチマーク金利を3.75～4.0％の範囲に設定した。\n\nこの決定は、なかなか低下しないインフレ率に対処するための措置だ。ウォーシュFRB議長はインフレが依然として高水準であることに懸念を示している。長期金利も上昇に転じ、10年物国債利回りは5.0％を超えた。\n\n市場は利上げを予想していたものの、トランプ大統領が1％以下への低下を要求するなど、政治的な圧力が高まっている。ウォーシュ議長とトランプ大統領は金融政策をめぐって対立する可能性がある。",
+    "tags": [
+      "米国",
+      "金融政策",
+      "インフレ",
+      "中央銀行"
+    ],
+    "section": "ビジネス",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260916de50687",
+    "sources": [
+      {
+        "url": "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates",
+        "name": "The Guardian"
+      }
+    ],
+    "importance": 5,
+    "image_query": "stock market interest rates bonds",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1579407364450-481fe19dbfaa?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8c3RvY2slMjBtYXJrZXQlMjBpbnRlcmVzdCUyMHJhdGVzJTIwYm9uZHN8ZW58MXwwfHx8MTc4OTU5NDEyNXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Compagnons",
+      "profileUrl": "https://unsplash.com/@sigmund?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a computer screen with numbers on it",
+      "description": "Arcade machine high score board in a rainbow pattern."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:46.084Z",
+    "publishedAt": "2026-09-16T19:12:00.000Z"
+  },
+  {
+    "slug": "20260917-02",
+    "headline": "北朝鮮、ウクライナ戦で数万人規模の兵力投入か",
+    "lead": "ゼレンスキー大統領がNHKの単独インタビューで、北朝鮮がロシア戦に参戦し現代戦経験を獲得していると指摘。",
+    "body_markdown": "ウクライナのゼレンスキー大統領がNHKのインタビューに応じ、北朝鮮が数万人規模の軍隊をロシア側として戦闘に参加させているとの見方を示した。北朝鮮軍兵士たちは現在、ウクライナの激戦地で実戦経験を積んでいるという。\n\nゼレンスキー大統領は「北朝鮮は安い値段で現代戦を経験している」と述べた。つまり、実際の戦闘を通じて最先端の戦術や兵器システムを学ぶ絶好の機会になっているということだ。このような国際的な軍事協力は、冷戦後の最大級の地政学的転換を示唆している。\n\nインタビューは日本の安全保障にも触れており、地域の安定に向けた日本の役割を強調するものとなっている。北朝鮮の軍事的な進化は、東アジア地域全体に新たな脅威をもたらす可能性がある。",
+    "tags": [
+      "ウクライナ",
+      "北朝鮮",
+      "ロシア",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260917de50707",
+    "importance": 5,
+    "image_query": "military soldiers combat warfare",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1541513982013-5dc4f56697f9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtaWxpdGFyeSUyMHNvbGRpZXJzJTIwY29tYmF0JTIwd2FyZmFyZXxlbnwxfDB8fHwxNzg5NTk0MTI2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Specna Arms",
+      "profileUrl": "https://unsplash.com/@specna_arms_4s?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A person in camouflage tactical gear and a helmet walking along a dirt path",
+      "description": "Let’s go, play some Airsoft!"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:47.551Z",
+    "publishedAt": "2026-09-16T20:19:35.000Z"
+  },
+  {
+    "slug": "20260917-03",
+    "headline": "イランの米軍基地攻撃で広範な被害、写真で判明",
+    "lead": "BBC と CBS ニュースが入手した写真から、イランが米軍基地に与えた被害の全容が明らかに。",
+    "body_markdown": "イランが中東の米軍基地を攻撃した際の被害を撮影した写真がメディアに公開された。BBC とそのパートナーであるCBS ニュースが入手した画像には、破壊された空軍機と建物の瓦礫が映っている。\n\nこの攻撃は中東における米国とイランの軍事的対立の激化を象徴している。両国の緊張は、地域全体の不安定性を深刻化させており、予測不可能な衝突リスクが高まっている。\n\n米国は報復措置を検討しており、さらなる軍事衝突のリスクが懸念されている。イランの地域的な軍事行動の拡大は、中東における米国の影響力と戦略的バランスの再構築を迫るものとなっている。",
+    "tags": [
+      "イラン",
+      "米国",
+      "中東",
+      "軍事衝突"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno",
+    "importance": 5,
+    "image_query": "military damage destruction war",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1764758009546-5f7437489be0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxtaWxpdGFyeSUyMGRhbWFnZSUyMGRlc3RydWN0aW9uJTIwd2FyfGVufDF8MHx8fDE3ODk1OTQxMjh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mohammed Ibrahim",
+      "profileUrl": "https://unsplash.com/@mohammed_ibrahim_mi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Damaged buildings and rubble in a city",
+      "description": "Gaza - Palestine With sunrise and sunset, destruction dominates everything in Gaza City."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:48.170Z",
+    "publishedAt": "2026-09-16T18:36:16.000Z"
+  },
+  {
+    "slug": "20260917-04",
+    "headline": "AI データセンターの電子廃棄物が急増、2050年までに2300万個のコンテナ規模に",
+    "lead": "AI ブームに伴う e-waste がこれまでの推定を大きく上回ることが判明。サーバー以外のインフラも含めた試算で危機感が高まる。",
+    "body_markdown": "AI 産業の膨張に伴い、大量の電子廃棄物（e-waste）が発生する問題が顕在化してきた。非営利団体のバーゼル・アクション・ネットワークが発表した報告書によると、AI 関連の e-waste は従来の推定を大きく超える規模になるという。\n\n試算では、2050年までに AI インフラから出る廃棄物が、2300万個の 40 フィートコンテナ分に相当する量に達すると予測されている。これは地球を6周できるほどの長さになる。従来の研究がサーバーだけに注目していたのに対し、新しい報告書はデータセンター全体のインフラ—電源設備、冷却装置、配線など—を含めて計算した。\n\nAI技術は無形に見えるが、その背後にある物理的インフラが持つ環境負荷は甚大だ。リサイクル不可能な廃棄物の大量発生は、気候変動対策と相反する状況になりつつある。",
+    "tags": [
+      "AI",
+      "環境問題",
+      "電子廃棄物",
+      "サステナビリティ"
+    ],
+    "section": "AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
+    "importance": 4,
+    "image_query": "recycling waste electronic garbage",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1585896452718-89b5b66a5a6f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8cmVjeWNsaW5nJTIwd2FzdGUlMjBlbGVjdHJvbmljJTIwZ2FyYmFnZXxlbnwxfDB8fHwxNzg5NTk0MTI4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Spiske",
+      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "white and black vintage tv on green grass during daytime",
+      "description": "Defect TV – Illegal garbage dump – pollution of the environment"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:48.764Z",
+    "publishedAt": "2026-09-16T20:40:46.000Z"
+  },
+  {
+    "slug": "20260917-05",
+    "headline": "AI インフラの材料革新が急務—半導体・データセンターの限界に直面",
+    "lead": "AI 需要の急増により、半導体やデータセンターの物理的限界が顕在化。先端材料の開発が AI 普及の鍵に。",
+    "body_markdown": "AI 産業の拡大に伴い、材料科学が次の経営課題として浮上している。半導体やデータセンターは、発熱管理、電気効率、信頼性で物理的な限界に直面しているからだ。従来の考え方では、アルゴリズムの進化に目が向かいがちだったが、その基盤となるインフラ自体の性能向上が不可欠になった。\n\n材料メーカーの Syensqo は「高温、純粋性、電気性能、化学耐性、プラズマ耐性、長期安定性をすべて満たす材料」を求める「and, and, and 原則」が業界の現状だと指摘する。つまり、複数の相互に矛盾する要件を同時に満たす材料が必要になっているのだ。\n\nAI 自体が材料候補の探索を加速させており、数百万の分子から有望な候補を特定する作業が効率化している。同時に、電気自動車バッテリー向けに開発された材料がデータセンター冷却に応用されるなど、異業種間での知見の流通も活発化している。",
+    "tags": [
+      "AI",
+      "半導体",
+      "材料科学",
+      "テクノロジー"
+    ],
+    "section": "AI",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+    "importance": 4,
+    "image_query": "semiconductor chip circuit board",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1555589228-135c25ae8cf5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOHx8c2VtaWNvbmR1Y3RvciUyMGNoaXAlMjBjaXJjdWl0JTIwYm9hcmR8ZW58MXwwfHx8MTc4OTU5NDEyOHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Magnus Engø",
+      "profileUrl": "https://unsplash.com/@magnusengo?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "green and white circuit board",
+      "description": "Macro of a Intel motherboard"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:49.107Z",
+    "publishedAt": "2026-09-16T12:47:34.000Z"
+  },
+  {
+    "slug": "20260917-06",
+    "headline": "Apple が サーバー市場に復帰、2029年にも AI 向け新製品投入へ",
+    "lead": "Apple がサーバー事業の再開を検討。Mac Mini の AI 開発者向け人気を受け、Nvidia と協業する可能性も。",
+    "body_markdown": "Apple が企業向けサーバー市場に復帰する計画を進めているという。情報筋によると、同社は Nvidia と組んで AI 専用サーバーの開発を進めており、2029年の投入を目指しているという。\n\nApple は 2011年に Xserve ラインを廃止し、その後はサーバー市場から事実上撤退していた。しかし Mac Mini と Mac Studio が AI 開発者の間で高い人気を獲得し、供給不足が深刻化したことから、事業再開に踏み切る判断に至ったと考えられる。\n\nApple の ARM ベースの M シリーズプロセッサは電力効率が高く、データセンター運用のコスト削減につながる可能性がある。AI 需要の急増で計算能力への需要が急伸する中、従来とは異なるアプローチを提供できるプレイヤーが市場機会を得られる状況が生まれている。",
+    "tags": [
+      "Apple",
+      "サーバー",
+      "AI",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
+    "importance": 4,
+    "image_query": "server computer data center",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1684661893103-aad19c0173c5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxzZXJ2ZXIlMjBjb21wdXRlciUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc4OTU5NDEyOXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "selcuk sarikoz",
+      "profileUrl": "https://unsplash.com/@funnyturkishdude?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "an empty train station with two doors open"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:49.560Z",
+    "publishedAt": "2026-09-16T17:20:29.000Z"
+  },
+  {
+    "slug": "20260917-07",
+    "headline": "10年物国債利回りが5.0％突破、FRB利上げで金融市場が反応",
+    "lead": "Fed の利上げ決定を受け、長期金利が上昇。インフレ懸念が市場心理を支配。",
+    "body_markdown": "米 Federal Reserve による利上げ決定の直後、10年物国債の利回りは 5.0％を超えた。ウォーシュ議長がインフレの根強さを指摘したことで、市場は今後も金利の上昇が続くと予想している。\n\n債券市場の動きは、実体経済への波及効果を示唆している。住宅ローン金利や企業の借入コストが上昇し、消費や投資に冷や水を浴びせかける可能性がある。一方、株式市場ではテクノロジー企業など高成長銘柄への圧力が高まる傾向にある。\n\nトランプ大統領がさらなる利下げを求めているのに対し、Fed の独立性を守るため、ウォーシュ議長はインフレ対策を最優先する姿勢を示している。両者の対立は今後の金融政策の方向を大きく左右する可能性がある。",
+    "tags": [
+      "金融市場",
+      "長期金利",
+      "インフレ",
+      "米国"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html",
+    "importance": 4,
+    "image_query": "stock market finance bonds",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1534469589579-86bd01bc003a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8c3RvY2slMjBtYXJrZXQlMjBmaW5hbmNlJTIwYm9uZHN8ZW58MXwwfHx8MTc4OTU5NDEzMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Aditya Vyas",
+      "profileUrl": "https://unsplash.com/@aditya1702?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man's eye view of mansion",
+      "description": "The Stock Exchange"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:50.230Z",
+    "publishedAt": "2026-09-16T20:10:01.000Z"
+  },
+  {
+    "slug": "20260917-08",
+    "headline": "ハイパースケーラー企業の債務が警告信号、Apollo がリスク指摘",
+    "lead": "AI データセンター投資に必死のテック大手の借金が急増。信用コストも上昇し、金融市場が不安視。",
+    "body_markdown": "AI インフラへの膨大な投資に伴い、ハイパースケーラー企業（大規模クラウド企業）の債務が急速に膨れ上がっている。投資会社 Apollo Global Management は、これらの企業の信用スプレッド（利回りスプレッド）が上昇していることに警告を鳴らしている。\n\nつまり、市場がこれらの企業の償還能力に懸念を抱き始めたということだ。データセンター建設やチップ購入に数十億ドルを投じる企業の財務基盤が傷つくと、AI ブーム全体に影響を与える可能性がある。\n\n利上げ環境では借入コストが上昇し、企業の利益性が圧迫される。また、AI 投資が期待通りのリターンをもたらさない場合、負債の持続可能性に疑問符が付く懸念も出ている。金融市場はテック企業の過度な楽観主義に対する警戒心を強めている。",
+    "tags": [
+      "ハイパースケーラー",
+      "債務",
+      "金融リスク",
+      "AI"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/16/hyperscaler-debt-signals-warning-sign-apollo-cautions.html",
+    "importance": 4,
+    "image_query": "stock market finance corporate",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1638481826540-7710b13f7d53?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8c3RvY2slMjBtYXJrZXQlMjBmaW5hbmNlJTIwY29ycG9yYXRlfGVufDF8MHx8fDE3ODk1OTQxMzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "m.",
+      "profileUrl": "https://unsplash.com/@m_____me?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a computer screen with a red line on it"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:51.201Z",
+    "publishedAt": "2026-09-16T19:29:18.000Z"
+  },
+  {
+    "slug": "20260917-09",
+    "headline": "マウスの脳皮質を人間の細胞で置き換え—神経科学の新たな倫理的課題",
+    "lead": "スタンフォード大学が脳の約半分を人間の神経細胞で置き換えたマウスを作製。認知機能の改善と倫理的懸念の両立。",
+    "body_markdown": "スタンフォード大学の神経科学者セルジウ・パシャ教授らは、マウスの脳皮質と海馬のほぼ全域を人間の脳オルガノイド（脳組織の縮小版）で置き換える実験に成功した。その結果、人間の神経細胞を移植されたマウスは、通常のマウスより記憶タスクでより優れた成績を示した。\n\nこの実験は神経病学や脳損傷治療への応用の可能性を示唆する一方、深刻な倫理的問題も提起している。パシャ教授は「霊長類でこの実験をするのは明確な一線を越えること」と述べ、サルのような高等動物に人間の脳組織が大量に形成される可能性に強い懸念を示している。\n\nこうした懸念から、同研究室は昨年、倫理専門家を集めて影響を検討し、詐欺的な治療法や動物の意識に関する問題を掘り下げている。脳科学の進歩と動物福祉のバランスをどう取るか、社会的合意が求められている。",
+    "tags": [
+      "脳科学",
+      "神経",
+      "倫理",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/",
+    "importance": 4,
+    "image_query": "brain research laboratory science",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1576670159805-622729b5b9eb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8YnJhaW4lMjByZXNlYXJjaCUyMGxhYm9yYXRvcnklMjBzY2llbmNlfGVufDF8MHx8fDE3ODk1OTQxMzF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "grayscale photo of people inside laboratory",
+      "description": "Generic laboratory shot circa 1950 - researchers garbed with full mask and head covering and laboratory equipment."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:51.792Z",
+    "publishedAt": "2026-09-16T15:00:00.000Z"
+  },
+  {
+    "slug": "20260917-10",
+    "headline": "EU が 15 歳未満の子どもの SNS 利用を制限する法案を提案へ",
+    "lead": "フォンデアライエン EU 委員長が施政方針演説で、子ども向けの厳格な SNS 規制を発表。",
+    "body_markdown": "EU の執行機関である欧州委員会の委員長ウルスラ・フォンデアライエン氏が、15 歳未満の児童による SNS 利用を制限する新たな法案を近く加盟国に提案する方針を明らかにした。この法案は、オンライン安全性と児童保護を重視した EU の戦略的転換を示している。\n\nデジタル技術に依存した現代の子どもたちは、ネットいじめ、詐欺、プライバシー侵害などの脅威に直面している。特に低年齢の児童は認知発達の段階にあり、SNS の有害な内容に対する耐性が不十分だ。\n\nEU は GDPR（一般データ保護規則）に続く包括的なデジタル規制の構築を進めており、今回の提案はその延長線上にある。個別国家でなく、EU 全体が統一的に子ども保護基準を設定することで、多国籍テック企業に対する実質的な規制効果を狙っている。",
+    "tags": [
+      "EU",
+      "SNS",
+      "子ども保護",
+      "デジタル規制"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260917de50700",
+    "importance": 4,
+    "image_query": "social media smartphone children",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1675352161865-27816c76141a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBtZWRpYSUyMHNtYXJ0cGhvbmUlMjBjaGlsZHJlbnxlbnwxfDB8fHwxNzg5NTk0MTMyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Shutter Speed",
+      "profileUrl": "https://unsplash.com/@shutter_speed_?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a cell phone with social media icons on it"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:52.606Z",
+    "publishedAt": "2026-09-16T20:26:26.000Z"
+  },
+  {
+    "slug": "20260917-11",
+    "headline": "NATO 事務総長が過去1世代最悪の安全保障環境を警告",
+    "lead": "マーク・ルッテ NATO 事務総長が英国訪問時に、欧米の防衛態勢強化を要求。",
+    "body_markdown": "NATO の事務総長マーク・ルッテ氏は英国訪問時、西側が直面する安全保障環境が「1世代で最も危険かつ複雑」だと警告した。ロシアのウクライナ侵攻、中国の軍事膨張、イランの地域的台頭など、複数の脅威が同時に顕在化している状況を指しているとみられる。\n\nルッテ氏はアンディ・バーナム英首相との会談で、英国が NATO の防衛支出目標達成への公約を称賛しつつ、「より多くの英国とより多くの欧州」が必要だと述べた。つまり、防衛力の継続的な強化なくして、地政学的な安定は見込めないという認識だ。\n\n特に欧州は米国への依存を減らし、独立的な防衛能力を高める必要に迫られている。ウクライナでの出血と中東の不安定化、そして太平洋地域での緊張が同時進行する中、NATO 加盟国の連携と軍事負担の公平な分担が戦略的に重要性を増している。",
+    "tags": [
+      "NATO",
+      "防衛",
+      "地政学",
+      "欧州"
+    ],
+    "section": "国際・地政学",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/sep/16/nato-leader-warns-of-most-dangerous-and-complex-security-environment-in-a-generation",
+    "importance": 4,
+    "image_query": "military defense soldiers uniforms",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1763656445217-f747a2b194d2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8bWlsaXRhcnklMjBkZWZlbnNlJTIwc29sZGllcnMlMjB1bmlmb3Jtc3xlbnwxfDB8fHwxNzg5NTk0MTMyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sushanta Rokka",
+      "profileUrl": "https://unsplash.com/@sanoyatra?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Soldier photographs marching military parade with red flags",
+      "description": "Nepali Army Soldier Capturing Photo of Marching Soldiers at Kathmandu , Tudikhel in Nepali Army Day"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:53.220Z",
+    "publishedAt": "2026-09-16T18:46:30.000Z"
+  },
+  {
+    "slug": "20260917-12",
+    "headline": "Macklemore が Ed Sheeran ツアー出演料 100 万ドルをパレスチナ支援に寄付",
+    "lead": "Macklemore がパレスチナ支援の政治的主張でツアーから降ろされた後、出演料の全額寄付を宣言。音楽と政治的表現の葛藤が再燃。",
+    "body_markdown": "ラッパーの Macklemore は、Ed Sheeran の Loop ツアーで得た出演料約 100 万ドルをパレスチナ支援団体に寄付すると発表した。Macklemore は先週、ステージ上で「Free Palestine」と発言したことでツアーから外され、その後 Robert Kraft へ「献金のマッチ」を呼びかけた。\n\nこの動きに応じて、Finneas（Billie Eilish の兄）、Lukas Graham、Aaron Rowe、および Sheeran のアイリッシュ・バッキングバンド Beoga が相次いでツアーから撤退。複数のアーティストが Macklemore への支持と検閲への抗議を表明した形だ。\n\nEd Sheeran は「異なるアプローチでも変化は起きる」と政治的中立を主張したが、他のアーティストたちは実質的な行動で意見表明の自由を守る必要性を示した。音楽業界における政治的表現の自由は、依然として対立と妥協の場となっている。",
+    "tags": [
+      "音楽",
+      "言論自由",
+      "パレスチナ",
+      "検閲"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/music/news/macklemore-donating-ed-sheeran-tour-salary-palestine-support-1236864698/",
+    "importance": 4,
+    "image_query": "concert music stage performance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1571435763834-4d6fbb550bb7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8Y29uY2VydCUyMG11c2ljJTIwc3RhZ2UlMjBwZXJmb3JtYW5jZXxlbnwxfDB8fHwxNzg5NTk0MTMzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Alex Bracken",
+      "profileUrl": "https://unsplash.com/@alexbracken?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "people on the concert photograph",
+      "description": "Crowd at a concert with their hands up. This was taken at Alive 2019, a Christian Music Festival during Bethel Music's perform. With hearts full of worship, the crowd raised their hands and created a beautiful moment I was able to capture"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:53.940Z",
+    "publishedAt": "2026-09-16T20:26:19.000Z"
+  },
+  {
+    "slug": "20260917-13",
+    "headline": "AI が労働者の職務を変革—タスク横断型の利用が常態化へ",
+    "lead": "OpenAI の新研究で、労働者が AI を使って職業境界を越えた業務に従事する傾向が判明。",
+    "body_markdown": "OpenAI の最新研究によると、労働者たちが AI を活用して、本来の職業カテゴリーに属さないタスクに取り組む「タスク横断型」の利用が急速に常態化していることが分かった。同社が 2026年4月から7月にかけて分析した 150万件以上の職務関連 ChatGPT メッセージから、この傾向が浮き彫りになったという。\n\n従来であれば、営業職は営業業務に、エンジニアはコード作成に従事するのが一般的だった。しかし AI ツールの出現により、労働者は自分の本来の職能を超えた領域で AI に頼ることが増えている。例えば、データ分析が必要な業務や文章作成、プロジェクト管理など、職種間の境界線が曖昧化している。\n\nこの変化は雇用主に新たな課題をもたらす。AI アクセスの在り方や、職業訓練の設計、給与体系の再構築など、組織の人事戦略全体に影響を与える。労働者のスキルセット拡大は企業の効率性を高める一方、職責と権限の明確化が急務になっている。",
+    "tags": [
+      "AI",
+      "労働",
+      "雇用",
+      "テクノロジー"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/unlocking-new-ways-of-working",
+    "importance": 3,
+    "image_query": "office work computer desk",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:53.943Z",
+    "publishedAt": "2026-09-16T09:00:00.000Z"
+  },
+  {
+    "slug": "20260917-14",
+    "headline": "Anthropic が Claude のチャットと Cowork を統合インターフェースへ",
+    "lead": "Claude の AI チャットと協業ワークスペース Cowork が同一プラットフォームで利用可能に。",
+    "body_markdown": "Anthropic は Claude のユーザーインターフェースを大幅に刷新し、従来別々だったチャット機能と Cowork（協業ツール）を単一インターフェースに統合した。この統合は Pro および Max プラン購読者から段階的に提供される。\n\nユーザーは一つのプラットフォーム内で、対話型の AI 支援とドキュメント管理、チーム協業を同時に行えるようになる。これにより、複数ツール間の切り替え手間が削減され、ワークフローの効率性が向上する。\n\nテキスト生成 AI の実用化が進む中、企業向けプロダクトは単なる「回答エンジン」から「業務プラットフォーム」へと進化している。OpenAI の ChatGPT Work や Google Workspace 統合と競合する中、Anthropic はユーザー体験の統一性を武器に市場でのポジション確保を図っている。",
+    "tags": [
+      "AI",
+      "プロダクト",
+      "협業",
+      "Anthropic"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+    "importance": 3,
+    "image_query": "software interface computer screen",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:53.945Z",
+    "publishedAt": "2026-09-16T16:30:00.000Z"
+  },
+  {
+    "slug": "20260917-15",
+    "headline": "Google が AI エージェントの Google Home 制御機能を提供開始",
+    "lead": "Claude や ChatGPT などの AI エージェントが Google Home デバイスを自然言語で操作可能に。",
+    "body_markdown": "Google は AI エージェント向けの MCP（Model Context Protocol）サーバーの提供を開始した。これにより Claude、ChatGPT、その他の AI モデルが Google Home に統合され、スマートホームデバイスを自然言語で操作できるようになる。\n\nユーザーは「寝室の照明をつけて」や「カメラの映像をまとめて」といった指示を AI に与えるだけで、複数のスマートデバイスが連動して応答する。カメラのサマリー確認、スマートホーム活動ログへのアクセスなども可能だ。\n\nこの統合は、スマートホーム制御の民主化を意味している。従来は Google の独自 AI だけが Google Home を制御していたが、これからはどの AI エージェントも対応できるようになることで、ユーザーの選択肢と利便性が飛躍的に高まる。",
+    "tags": [
+      "AI",
+      "スマートホーム",
+      "Google",
+      "自動化"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+    "importance": 3,
+    "image_query": "smart home automation voice control",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:53.947Z",
+    "publishedAt": "2026-09-16T17:00:00.000Z"
+  },
+  {
+    "slug": "20260917-16",
+    "headline": "高市首相が内閣改造、政権の骨格を維持",
+    "lead": "高市総理が 17 日、内閣改造を実施。主要ポストは留任で政策継続の意図を示す。",
+    "body_markdown": "高市総理大臣は 17 日、内閣改造を実施した。木原官房長官、片山財務大臣、茂木外務大臣、小泉防衛大臣といった主要ポストの留任を決定し、政権の骨格維持の方針を示した。\n\n内閣改造は通常、新しいメンバーの登用を通じて政策的な刷新や人事の活性化をもたらす。しかし今回の改造は、既存の方針継続と安定性を優先する戦略的判断と考えられる。重要政策の推進に向けた体制強化が掲げられており、現在の政治環境に対応する指導体制の構築が狙いだ。\n\nまた維新からの中司氏が初入閣する予定とされており、連立体制への配慮も反映されている。経済再生や防衛力強化といった喫緊の課題に対し、政治的安定を背景に取り組む意図が読み取れる。",
+    "tags": [
+      "日本政治",
+      "内閣",
+      "政策"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260917de50695",
+    "importance": 3,
+    "image_query": "government politics cabinet meeting",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:53.948Z",
+    "publishedAt": "2026-09-16T19:59:08.000Z"
+  },
+  {
+    "slug": "20260917-17",
+    "headline": "中道改革連合が分裂、立民出身者が新党「民主改革の会」届け出へ",
+    "lead": "わずか8ヶ月で分裂した中道改革連合。立憲民主党出身議員17人が新党結成を届け出る予定。",
+    "body_markdown": "中道改革連合が分裂した。立憲民主党と公明党出身の議員あわせて 48 人が離党し、わずか 8 ヶ月で統治体制が瓦解する事態となった。このうち立憲民主党出身の 17 人は 17 日、新党「民主改革の会」の設立を届け出る予定だという。\n\n中道改革連合は、既存政党からの離脱組が新たな政治的中道勢力を構築する試みだった。しかし内部の方針対立や求心力の低下により、わずかな期間での瓦解に至った。政局の流動性が高まっており、各議員が自らの政治的立場と将来展望を再構築し始めたことを示唆している。\n\n臨時国会が迫る中、これらの政治的な再編成は与野党勢力図に影響を与える可能性がある。野党の求心力の低下は、政権の安定性を相対的に高める効果をもたらす一方、統治体制の脆弱性も露呈している。",
+    "tags": [
+      "日本政治",
+      "政治再編",
+      "野党"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260917de50705",
+    "importance": 3,
+    "image_query": "government parliament politics debate",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:53.950Z",
+    "publishedAt": "2026-09-16T20:05:05.000Z"
+  },
+  {
+    "slug": "20260917-18",
+    "headline": "Meta がカメラレス眼鏡の販売を検討、プライバシー懸念を払拭へ",
+    "lead": "Meta が「盗撮眼鏡」批判を受け、カメラ非搭載モデルの開発を進める。",
+    "body_markdown": "Meta は自社のスマートグラス Ray-Ban に対する「盗撮眼鏡」との批判を受け、カメラを搭載しないバージョンの開発を進めているという。プライバシー懸念の払拭と市場拡大の両立を狙った戦略的な決定と考えられる。\n\nスマートグラスはウェアラブルテクノロジーの重要な発展領域だ。しかし目に装着するデバイスに搭載されたカメラは、周囲の人々のプライバシーを侵害する懸念を招きやすい。法的な規制や社会的なスティグマを回避するため、企業は設計段階でこうした懸念に向き合う必要がある。\n\nカメラレスモデルなら音声認識や AR 機能を提供しつつ、プライバシー問題を大幅に軽減できる。市場の多様なニーズに対応する製品ラインアップの構築は、テック企業にとって競争力を高める手段となっている。",
+    "tags": [
+      "Meta",
+      "眼鏡",
+      "プライバシー",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/",
+    "importance": 3,
+    "image_query": "glasses eyewear technology wearable",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:53.952Z",
+    "publishedAt": "2026-09-16T20:12:00.000Z"
+  },
+  {
+    "slug": "20260917-19",
+    "headline": "ロボティクス産業が「ChatGPT モーメント」を待つ—Nvidia が指摘",
+    "lead": "ロボット業界がブレークスルーを迎えるには、シンプルで実用的な AI 統合が不可欠。",
+    "body_markdown": "Nvidia の Les Karpas は TechCrunch Disrupt 2026 で、ロボティクス業界が AI による革新の「ChatGPT モーメント」が訪れるのを待っている状況を指摘した。ロボット技術は数十年の歴史を持つが、AI によるユースケースの急速な民主化はまだ実現していないという。\n\nChatGPT が言語モデルの実用性を大衆的に認識させたように、ロボティクスにも同様の転機が必要だ。実装が複雑で、コスト効率が低く、使用例が限定的だったロボット産業に、シンプルで高性能な AI インターフェースが組み込まれると、産業全体が急速に展開する可能性がある。\n\nスマートホーム、産業自動化、医療現場など、ロボットが活躍する領域は多岐にわたる。ただし、AI と物理的なロボティクスの統合には、安全性、コスト、法的責任など、テクノロジーだけでは解決できない課題が山積している。",
+    "tags": [
+      "ロボット",
+      "AI",
+      "自動化",
+      "Nvidia"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
+    "importance": 3,
+    "image_query": "robot automation artificial intelligence",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:53.953Z",
+    "publishedAt": "2026-09-16T15:00:00.000Z"
+  },
+  {
+    "slug": "20260917-20",
+    "headline": "AI ラボが社内監査人の配置を模索—セキュリティと透明性の両立",
+    "lead": "AI 安全性への懸念が高まる中、企業が独立した監査機能の構築を検討。",
+    "body_markdown": "AI 開発企業が自社に監査人を配置する動きが広がっている。AI システムの想定外の動作や倫理的な課題への対応が企業責任になりつつあるなか、内部の監視機能の強化が求められている背景だ。\n\nただし、監査体制の実効性は運用方法に大きく左右される。企業内設置の監査人は開発チームからの独立性を保つことが困難で、利益相反が生じやすい。真の透明性を求めるなら、外部の独立した評価機関による定期的な査察が必要不可欠だ。\n\nAI 業界では規制機関の設置が遅れており、企業の自主規制に依存する状況が続いている。しかし利益最適化を目指す企業が、自らの行為の正当性を客観的に判定できるかは疑問の余地がある。産業界の自浄能力と外部監視のバランスをどう取るかは、AI 安全保障政策の重要な課題だ。",
+    "tags": [
+      "AI",
+      "安全性",
+      "監査",
+      "倫理"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+    "importance": 3,
+    "image_query": "security audit compliance oversight",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:53.954Z",
+    "publishedAt": "2026-09-16T18:25:25.000Z"
+  },
+  {
+    "slug": "20260917-21",
+    "headline": "サウジアラビア、紅海経由の原油積み出しが停止—フーシ攻撃の影響",
+    "lead": "ホルムズ海峡回避ルートの紅海パイプラインが攻撃を受け操業停止。エネルギー市場への波及懸念。",
+    "body_markdown": "サウジアラビアが紅海経由で原油を輸出するためのパイプラインが攻撃を受け、一時操業停止に陥った。ホルムズ海峡の混雑と地政学的リスクを回避するため、同国が整備した代替ルートだ。イエメン南部を拠点とするフーシ派によるとみられる攻撃が原因とみられている。\n\nこのパイプラインは同国の石油戦略において極めて重要だ。ホルムズ海峡経由ルートへの依存を低減させ、イランの海上封鎖リスクを減らす狙いがあった。しかし紅海をめぐる地政学的緊張が高まる中、複数のエネルギー輸送ルートが脅威にさらされている。\n\n石油市場は供給途絶への懸念から価格が変動しやすい状態にある。中東情勢の不安定化が長期化すれば、グローバルなエネルギー価格の上昇圧力が増すことになり、世界経済に波及効果をもたらす可能性がある。",
+    "tags": [
+      "中東",
+      "エネルギー",
+      "紅海",
+      "サウジアラビア"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260917de50693",
+    "importance": 3,
+    "image_query": "oil refinery pipeline energy infrastructure",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:53.955Z",
+    "publishedAt": "2026-09-16T20:43:09.000Z"
+  },
+  {
+    "slug": "20260917-22",
+    "headline": "シリア、アサド政権下の「テロ対策」裁判所を廃止—クルド勢力との緊張続く",
+    "lead": "シリアの新政権が独裁体制の遺構を撤去。ただしクルド少数民族との対立は継続。",
+    "body_markdown": "シリアが独裁者バッシャル・アル・アサド政権下で設置されていた「テロ対策」裁判所を廃止した。アハメド・アル・シャラ大統領のもとで、人権侵害の温床となっていた司法機関の解体が進められている背景だ。\n\nシリアは 14 年間の紛争終結後、国家再建の初期段階にある。旧政権の統制機構や監視機関の廃止は、民主化と国民和解の重要なステップとなる。しかし同時に、長年の紛争で分断が深刻化した社会の統一は容易ではない。\n\nその象徴がクルド問題だ。北部地域ではクルド系自治政府が独立的に統治してきた経緯があり、シリア新政権との関係構築が難航している。民族的・宗教的な分裂を修復し、包括的な国民国家を再構築することは、シリア指導部にとって長期的で困難な課題となるだろう。",
+    "tags": [
+      "シリア",
+      "中東政治",
+      "クルド",
+      "人権"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/16/syria-abolishes-al-assad-era-terrorism-court-as-kurdish-tensions-flare",
+    "importance": 3,
+    "image_query": "government politics conflict Syria",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:53.956Z",
+    "publishedAt": "2026-09-16T20:08:50.000Z"
+  },
+  {
+    "slug": "20260917-23",
+    "headline": "ロシア、反戦政治家をさらに排除—State Duma 選前に民主的言論を圧殺",
+    "lead": "ロシアがウクライナの全面侵攻後初の State Duma 選挙を前に、最後の反戦声を徹底的に抑圧。",
+    "body_markdown": "ロシアがウクライナへの全面侵攻後、最初となる State Duma（国家院）選挙を控える中、残存する反戦政治家をさらに排除している。かつて平和主義的な立場を表明した議員たちが選挙から事実上排除される状況が広がっており、民主的な多元性が極限まで縮小している。\n\nプーチン政権はウクライナ戦争を国家的大義として位置付け、異なる見方を許容しない政治体制を一層強化している。この過程で、憲法的な言論の自由は形骸化し、政権への批判や戦争への疑問を公式に表明することは実質的に不可能になりつつある。\n\n国家院選挙は民主主義的正統性を国内外に示すための手段として機能してきたが、その前提となる複数候補の競争と選択の自由が失われている。ロシアの政治体制は権威主義的な集約化の道を急速に進みつつあり、国際的孤立とともに体制変化の長期的リスクを抱え込むことになる。",
+    "tags": [
+      "ロシア",
+      "ウクライナ",
+      "民主主義",
+      "政治"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/09/16/russia-state-duma-elections-anti-war-candidate-purge/",
+    "importance": 3,
+    "image_query": "government parliament politics debate",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:53.958Z",
+    "publishedAt": "2026-09-16T18:59:52.000Z"
+  },
+  {
+    "slug": "20260917-24",
+    "headline": "Mozart の天才性が数学的に実証—米国の高校生が音楽学の新解析手法",
+    "lead": "少年の音響分析論文が、Mozart の作品がなぜ独特かを数値で説明。音楽学の従来的認識を更新。",
+    "body_markdown": "米国の少年学生 Linus Chen-Plotkin が、古典音楽の巨匠 Mozart の作品に潜む数学的な特異性を発見する研究論文を発表した。4人の作曲家（Mozart、Beethoven、Bach、Chopin）の楽曲を分析した結果、Mozart の音楽が最も予測不可能な構造を持つことが明らかになった。\n\n従来、Mozart の天才性は直感的な理解と美的経験によってのみ認識されてきた。しかし定量分析により、彼の作曲技法が構造的に他の巨匠と異なることが示唆された。つまり、一見自由奔放でありながら高度に計算された音構成が、リスナーの期待を繰り返し上回る効果を生み出しているのだ。\n\nこの研究は音楽学の範囲を超え、人間の認知や美的判断の本質に迫る知見を提供している。科学的手法が人文学領域に浸透しつつある中、「天才」という概念さえも定量化・可視化の対象になりつつある。",
+    "tags": [
+      "音楽",
+      "科学",
+      "Mozart",
+      "分析"
+    ],
+    "section": "カルチャー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/music/2026/sep/16/the-secret-of-mozarts-genius-unlocked-has-a-teenager-succeeded-where-generations-of-musicologists-have-failed",
+    "importance": 3,
+    "image_query": "music classical orchestra symphony",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-16T21:28:53.959Z",
+    "publishedAt": "2026-09-16T15:06:03.000Z"
+  },
+  {
     "slug": "20260916-22",
     "headline": "SpaceX、Starship初の軌道飛行へ 衛星配備でリユーサビリティ目標",
     "lead": "SpaceX が Starship の初軌道飛行試験を実施予定。Starlink 衛星 26 個を配備しながら、再利用可能なロケット実現を目指す。",
