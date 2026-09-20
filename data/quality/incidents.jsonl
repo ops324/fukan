@@ -178,3 +178,5 @@
 {"ts":"2026-09-19T21:00:18.691Z","type":"candidates","total":365,"pool":140,"skippedWeak":4,"skippedIrrelevant":4,"enriched":2}
 {"ts":"2026-09-20T09:00:20.192Z","type":"candidates","total":365,"pool":140,"skippedWeak":6,"skippedIrrelevant":4,"enriched":0}
 {"ts":"2026-09-20T09:08:08Z","type":"draft_lint","flagged":3,"drafts":21}
+{"ts":"2026-09-20T21:00:13.984Z","type":"candidates","total":365,"pool":140,"skippedWeak":6,"skippedIrrelevant":4,"enriched":0}
+{"ts":"2026-09-20T21:09:42Z","type":"draft_lint","flagged":1,"drafts":16}
