@@ -1,5 +1,177 @@
 [
   {
+    "slug": "20260922-01",
+    "headline": "OpenAI、100以上の数学難題を解明",
+    "lead": "新型AIが数学の最高難度問題「ナビエ・ストークス方程式」を含む100以上の長年未解決問題を解き、数学界に衝撃を与えた。",
+    "body_markdown": "OpenAIは2026年8月28日に訓練を開始した新型AIが、数学史上の難問であるナビエ・ストークス方程式に関する「ミレニアム賞金問題」を含む100以上の長年にわたって未解決だった数学問題を解明したと発表した。この速度の進展は、同社内部の数学者らも予想外だったという。\n\nナビエ・ストークス方程式は流体力学の基本方程式であり、2000年にクレイ数学研究所が解くと100万ドルの賞金を掲げた「ミレニアム賞金問題」のひとつ。航空力学、気象予測、海洋学など広範な分野で応用される基礎的な問題である。新型AIが示した証明により、3次元ナビエ・ストークス方程式が有限時間内に特異点を発生させる可能性が示唆された。\n\nこの成果は数学という基礎科学にAIが著しく貢献し得ることを実証する極めて重要な事例だが、同時に反論も出ている。競合企業Anthropicの研究者を含む複数の数学者が、この結果が自分たちの先行研究から取られた可能性を指摘。OpenAIは責任を持った展開を重視しており、広汎なAI数学能力の展開方法について慎重に検討中だという。\n\n数学は基礎科学であり、その進展は医学発見から経済成長まで広範な応用をもたらす可能性があるとOpenAIは強調。同時に、数学コミュニティとの対話を通じて、高度なAI能力の責任ある発展を推進していく姿勢を示している。",
+    "tags": [
+      "AI数学",
+      "OpenAI",
+      "ミレニアム問題"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+    "importance": 5,
+    "image_query": "mathematics equation ai",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/11yqmSO7D1dfYveBnOdmJt/e451277f37f82f51d6d20f2b86826590/advisory-group-on-mathematics-and-artificial-intelligence-seo.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T21:33:20.764Z",
+    "publishedAt": "2026-09-21T12:00:00.000Z"
+  },
+  {
+    "slug": "20260922-02",
+    "headline": "台風杜鵑、日本直撃160万人に避難指示",
+    "lead": "強い勢力の台風杜鵑が日本列島を直撃、東京周辺で160万人以上に避難が呼びかけられ、交通インフラへの大きな影響が生じた。",
+    "body_markdown": "強い勢力の台風杜鵑が9月21日から22日にかけて日本を直撃した。東京都庁が発表した警報によれば、関東地方を中心に160万人以上の住民に避難指示が出された。ただし、日本の避難勧告は強制力を持たず、これは自発的な避難を促す呼びかけである。\n\n台風は東京近郊のカツウラ市南方130キロの海上にある段階で、時速144キロ（時速89マイル）の風速を記録していた。気象庁は東京、千葉、神奈川、静岡の各県に土砂災害警報を発令。東京では前夜から火曜日にかけての総雨量が、通常9月の月間降雨量の平均値を上回る記録的大雨となると予想された。\n\n交通機関への影響は甚大だった。日本航空は135便、全日本空輸は140便をそれぞれキャンセル。東京及び周辺都市の鉄道事業者は複数路線での運行を一時中止した。停電も発生し、東京周辺の9000世帯以上が電力供給を失った。\n\n被害も報告された。千葉県と神奈川県では土砂崩れによる洪水で2人が死亡し、9棟の家屋が台風による被害を受けた。一方、業界イベントへの影響も生じた。世界最大級のコンピュータゲーム見本市「東京ゲームショウ」は、最終日の営業を9月21日に打ち切りを余儀なくされた。",
+    "tags": [
+      "台風",
+      "自然災害",
+      "日本"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cm3wj2lexl97o",
+    "importance": 5,
+    "image_query": "typhoon storm weather",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1768293528649-531aad843525?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8dHlwaG9vbiUyMHN0b3JtJTIwd2VhdGhlcnxlbnwxfDB8fHwxNzkwMDI2NDAxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Raymond Yeung",
+      "profileUrl": "https://unsplash.com/@optiny?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Workers clean up debris after storm damage in a park",
+      "description": "In the wake of Typhoon Ragasa, a crew of workers undertakes the somber task of removing a beloved 50-year-old Indian Rubber Tree that was uprooted by the storm. The scene is cordoned off by red and white caution tape, with a worker in a reflective vest standing prominently in the foreground while an excavator and team clear the scatter of green leaves and branches. Set against the pastel facade of a public housing estate and a nearby children's playground, the image captures a moment of loss and recovery for the local community."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T21:33:21.794Z",
+    "publishedAt": "2026-09-21T20:26:41.000Z"
+  },
+  {
+    "slug": "20260922-03",
+    "headline": "ロシア国会選挙、プーチン党が圧倒的勝利",
+    "lead": "ロシアの下院選挙でプーチン支持の統一ロシア党が58%以上の票を獲得し、4分の3以上の議席を確保した。",
+    "body_markdown": "ロシアは9月19〜21日の国会（下院）選挙で、プーチン大統領が率いる統一ロシア党が58%以上の投票率を獲得し、下院の4分の3以上の議席を確保した。この結果は、プーチンの政治的地位を強化し、ウクライナとの戦争継続に対する国内の政治的支持を示すものとなった。\n\n選挙の結果、他に議席を得た政党は、共産党（40議席）、ロシア自由民主党（25議席）、新しい人々（20議席）だけ。登録された反戦政党であるヤブロコは全国レベルでの議席を獲得できず、投票用紙から除外されていた。\n\nクレムリン当局にとって、この勝利は国防関連の施策、特にウクライナ戦争への継続的支援を正当化する強力な政治的基盤を提供するものと見なされている。モスクワ政治分析家のタチアナ・スタノバヤは、この選挙結果は「ウクライナに関する行為を支持する国民の支持を示すもの」としてクレムリンに受け止められると指摘した。\n\nしかし専門家の間では、この選挙結果が国民感情の正確な反映かについて疑問の声も上がっている。カーネギー・ロシア・ユーラシア・センターの専門家スタノバヤは、「戦争終結への要求が増えている」と警告し、今後の動員や軍事的エスカレーション懸念について言及した。",
+    "tags": [
+      "ロシア",
+      "選挙",
+      "プーチン"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/21/pro-putin-party-wins-supermajority-amid-ramped-up-ukrainian-attacks",
+    "importance": 5,
+    "image_query": "voting ballot election",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1598802777393-751e5387ecd1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHx2b3RpbmclMjBiYWxsb3QlMjBlbGVjdGlvbnxlbnwxfDB8fHwxNzkwMDI2NDAyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Cyrus Crossan",
+      "profileUrl": "https://unsplash.com/@cys_escapes?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black and white love print crew neck shirt",
+      "description": "“Elections belong to the people. It's their decision. If they decide to turn their back on the fire and burn their behinds, then they will just have to sit on their blisters.” - Abraham Lincoln"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T21:33:22.328Z",
+    "publishedAt": "2026-09-21T20:17:39.000Z"
+  },
+  {
+    "slug": "20260922-04",
+    "headline": "カリフォルニア、AI データセンター規制",
+    "lead": "カリフォルニア州がAIデータセンターの電力・水道コスト負担と環境基準遵守を義務付ける7本の法案に署名した。",
+    "body_markdown": "カリフォルニア州知事Gavin Newsom は9月21日、AI・データセンター業界に対する包括的な規制パッケージとなる7本の法案に署名した。これにより、データセンターはこれまで住宅利用者が負担していた電力インフラの接続・供給コストを直接負担する義務が生じる。\n\n新法には以下の主要な内容が含まれる：3本の法案はデータセンターへの電力インフラコスト転嫁を規定し、3本は水使用量などのリソース利用状況の開示を義務付け、残る1本はデータセンターを環境影響評価の一括免除対象から除外する。カリフォルニア公益事業委員会は、データセンター向けの新しい電気料金を設定する責務を負う。\n\nこれは特に、Newsom州知事の方針転換を示している。同知事は過去、カリフォルニアのAI産業優位性を語り、産業の競争力への懸念から昨年は水使用報告義務法を拒否していた。しかし公民・環境団体からの圧力が高まり、州民のAIデータセンターの急速な拡大に伴う水・電力資源への負担懸念が社会的課題となったことを受け、規制の強化に転じた。\n\nEUの規制デジタル戦略と相互補完的に、世界的にはデータセンターと気候問題・資源問題の関係が重要課題として認識されるようになった。カリフォルニア州の今回の措置は、北米におけるAIインフラの環境・資源への影響に対する最初の包括的な規制枠組みとなる。",
+    "tags": [
+      "カリフォルニア州",
+      "規制",
+      "AI規制"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+    "importance": 4,
+    "image_query": "data center servers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1746893737268-81fe686e6a51?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxkYXRhJTIwY2VudGVyJTIwc2VydmVyc3xlbnwxfDB8fHwxNzkwMDI2NDAyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Avi Waxman",
+      "profileUrl": "https://unsplash.com/@aviosly?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Overhead view of rooftop machinery and a road"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T21:33:22.620Z",
+    "publishedAt": "2026-09-21T20:29:45.000Z"
+  },
+  {
+    "slug": "20260922-05",
+    "headline": "NASA火星古代、複数の水循環を発見",
+    "lead": "NASAの火星探査機Perseveranceが、火星の古い岩石から3度にわたる水との相互作用の痕跡を確認し、火星の水文史の複雑性が明かされた。",
+    "body_markdown": "NASA火星探査機Perseveranceが、ジェゼロ・クレーター内の「マージン・ユニット」と呼ばれる地質地域から採取した岩石の分析結果を発表した。この地域は古代火星の湖岸に沿って位置しており、複数の時期にわたる水システムの相互作用の証跡が見つかった。\n\n研究チームは、岩石が堆積岩ではなく火成岩であることに驚いた。岩石内の鉱物結晶が異なる水化学環境下で形成された複数の層状構造を示しており、少なくとも3つの異なる時期の水循環イベントが識別されたのだ。\n\n具体的には、以下の3つのエピソードが確認された：1. 二酸化炭素を含む地下水がかんらん石と反応し、炭酸塩に富んだ亀裂を形成した期間。2. 古代クレーター湖に関連する可能性のある水がシリカ沈着物を残した時期。3. 加熱された地下水系が、硫酸カルシウムと蛍石を含む鉱脈を生成した後期の熱水現象。\n\nLead researcher Candice Bedfordは、「この場所は異なる水性システムの交差点となっていた」とコメント。火星の早期段階において、複雑で変動に富んだ水地球化学的環境が存在していたことが示唆される。\n\nこの発見は、火星の過去の生命居住可能性の理解を深め、今後の火星探査の指針となる。",
+    "tags": [
+      "火星",
+      "NASA",
+      "水"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars/",
+    "importance": 4,
+    "image_query": "mars landscape rocks",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://www.nasa.gov/wp-content/uploads/2026/09/1-pia26815-mastcam-z-360-turquoise-bay-sols933-944-l0-natural-copy.jpg",
+      "credit": "NASA",
+      "creditUrl": "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T21:33:22.713Z",
+    "publishedAt": "2026-09-21T16:54:43.000Z"
+  },
+  {
+    "slug": "20260922-06",
+    "headline": "失読症の定義、20年ぶり更新",
+    "lead": "国際失読症協会が失読症の定義を初めて大幅改訂し、IQ検査廃止と多言語対応を実現、早期発見を改善する。",
+    "body_markdown": "国際失読症協会（IDA）は2026年9月、失読症の定義を2002年以来初めて実質的に改訂した。この変更は、失読症スクリーニングと診断方法に国際的な影響を及ぼす重要な決定である。\n\n改訂の主要な変更点は3つである。第1に、従来の定義では、IQスコアと読字能力テストの間に15ポイント以上の乖離を必須とした。しかし、テキサス・エー・アンド・エム大学の研究者Dr. Joshiは、「読字テストを施行する方が、IQテストを施行するより生産的」と指摘。新定義では、読字正確性と流暢性といった読字構成要素に直接的に焦点を当てる。\n\n第2に、従来の研究は西欧のアルファベット言語に集中していた。改訂版は、中国語、日本語、ヘブライ語、アラビア語における失読症研究の知見を統合。異なる文字体系を持つ言語圏での診断精度を向上させた。\n\n第3に、2002年版では2年生または3年生での検査開始を推奨していた。新定義は「教育初期段階における言語・読み書き支援が特に効果的」と強調し、初期兆候が見られた時点での早期支援を促している。\n\n専門家によれば、これらの変更により、学習支援が必要な生徒のより正確な特定が可能になり、従来は適格性基準で除外されていた生徒も支援を受けられるようになる。",
+    "tags": [
+      "失読症",
+      "教育",
+      "診断"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-definition-dyslexia-years.html",
+    "importance": 3,
+    "image_query": "education reading literacy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-21T21:33:22.715Z",
+    "publishedAt": "2026-09-21T20:00:04.000Z"
+  },
+  {
+    "slug": "20260922-07",
+    "headline": "跳躍遺伝子、進化の協力者へ",
+    "lead": "遺伝子工学研究により、ゲノムの半分を占める「跳躍遺伝子」が単なる寄生的DNA ではなく、進化のパートナーとなっていることが明かされた。",
+    "body_markdown": "トランスポゾン（「跳躍遺伝子」）に関する研究は、これらの移動可能なDNA断片が単なる遺伝子寄生物から、生物進化の重要な協力者へとその評価を大きく変えている。ヒトゲノムの約50%を占めるトランスポゾンは、これまで長らく「ジャンク DNA」と見なされていた。\n\nトランスポゾンは、環境条件が有利な場合に新しい特性を急速に生成できる。例として、コショウムシ（ペッパードモス）の工業暗化を挙げられる。トランスポゾンがcortex遺伝子に挿入され、暗い翅を生成する形質を作り出し、工業汚染の影響下で即座に自然選択の対象となった。\n\n研究により、トランスポゾンが脊椎動物の眼進化と免疫システムの発達に関与していることが判明。さらに、哺乳類を定義する特性である胎盤発達にも寄与している可能性が示唆されている。胎盤を持つことで、胎児の長期発達が可能になり、哺乳類の繁栄が実現した。\n\nトランスポゾンは、生物がトランスポゾンを沈黙させるために進化させた「エピジェネティック沈黙化メカニズム」をもたらした。その後、生物はこの制御機構を一般的な遺伝子発現制御へと転用。結果として、より複雑な生物学的規制が可能になった。\n\n研究者らは、ホストゲノムとトランスポゾンの関係は単なる寄生ではなく、相互依存的な共進化だと指摘。トランスポゾン産物の一部は、ゲノムが依存する本質的機能を果たしており、この関係は感染症ではなく共生に近い。",
+    "tags": [
+      "遺伝学",
+      "進化",
+      "DNA"
+    ],
+    "section": "サイエンス",
+    "source": "Quanta",
+    "link": "https://www.quantamagazine.org/how-virus-like-jumping-genes-became-our-partners-in-evolution-20260921/",
+    "importance": 3,
+    "image_query": "dna genetic evolution",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-21T21:33:22.718Z",
+    "publishedAt": "2026-09-21T14:12:36.000Z"
+  },
+  {
     "slug": "20260921-17",
     "headline": "トランプ大統領がAI政策の新部門「AI Force」創設を表明",
     "lead": "トランプ大統領が新しいAI担当部門「AI Force」を創設すると発表、AIの安全性懸念を「でっちあげ」と切り捨てた。",
