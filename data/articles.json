@@ -1,5 +1,347 @@
 [
   {
+    "slug": "20260921-17",
+    "headline": "トランプ大統領がAI政策の新部門「AI Force」創設を表明",
+    "lead": "トランプ大統領が新しいAI担当部門「AI Force」を創設すると発表、AIの安全性懸念を「でっちあげ」と切り捨てた。",
+    "body_markdown": "アメリカのトランプ大統領は、Space Force（宇宙軍）に倣った新組織「AI Force」の創設をSNSで公表した。大統領は「IQが高い者のみが応募できる」と述べ、AI皇帝（AI Czar）と呼ぶ新職を設置する方針を示している。\n\nこの発表でトランプ大統領は、AI が人類を脅かす可能性について警告を発するアメリカの研究者や企業幹部の声を強く否定。AI脅威論を「でっちあげだ」と表現し、「強力で賢明な大統領のみがAIの適切な監督を提供できる」と述べた。\n\nAnthropicのCEO ダリオ・アモデイなど複数の企業指導者がAI開発のペース調整や安全性確保を求める中、トランプ政権はAI産業の成長を「大切にし、支援し、育てる」という方針を示唆している。組織の具体的な予算や権限、実装時期についての詳細は明らかにされていない。",
+    "tags": [
+      "AI政策",
+      "トランプ政権",
+      "アメリカ"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI+",
+    "link": "https://www.itmedia.co.jp/news/article/2609/21/2000001666/",
+    "importance": 5,
+    "image_query": "artificial intelligence technology policy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1763788427851-e329a047356b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyM3x8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHRlY2hub2xvZ3klMjBwb2xpY3l8ZW58MXwwfHx8MTc4OTk4MjQ2NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Amos K",
+      "profileUrl": "https://unsplash.com/@tychicus?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Robot arm playing chess against a human opponent",
+      "description": "Playing chess against a robot"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T09:21:06.082Z",
+    "publishedAt": "2026-09-21T00:45:19.000Z"
+  },
+  {
+    "slug": "20260921-18",
+    "headline": "ロシア選挙 プーチン与党が57.86%で圧倒的勝利、360万人のオンライン投票",
+    "lead": "ロシア議会選挙でプーチンの与党 United Russia が57.86%で圧勝。初めてのオンライン投票は360万人超。",
+    "body_markdown": "ロシアが2026年9月19～21日に開いた下院選挙で、ウラジーミル・プーチン大統領の与党 United Russia が57.86%の得票率で圧倒的優位を確保した。下院議席も225議席（政党別）を獲得している。\n\n投票率は57%未満に留まるなか、初めてオンライン投票が導入され、360万人超が電子投票で投じた。注目すべきは、この数字にロシアが併合したウクライナ領土（クリミアなど）の住民票が含まれていること。国連はこれらの領土の露領有を認めていない。\n\n野党勢力では、共産党（CPRF）が13.84%、自由民主党（LDPR）が8.9% を獲得。ベルリンの智库 NEST は、これらの野党への投票を「戦争とその経済的な影響に対する無言の抗議」と分析。政権は満場一致でなく、国民に不安と不満が蓄積していることを示唆していると指摘した。",
+    "tags": [
+      "ロシア政治",
+      "選挙",
+      "プーチン"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/21/russia-election-results-show-putins-party-winning-what-we-know",
+    "importance": 5,
+    "image_query": "election voting ballot",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1603032813605-2c91e257e2ae?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxlbGVjdGlvbiUyMHZvdGluZyUyMGJhbGxvdHxlbnwxfDB8fHwxNzg5OTgyNDY2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Glen Carrie",
+      "profileUrl": "https://unsplash.com/@glencarrie?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "brown wooden letter t-letter"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T09:21:06.574Z",
+    "publishedAt": "2026-09-21T08:47:06.000Z"
+  },
+  {
+    "slug": "20260921-19",
+    "headline": "米国とイランが外交危機へ、ペゼシュキアン大統領がNY国連会議へ　トランプは警告",
+    "lead": "イラン大統領が国連総会に向かう中、トランプ大統領が経済制裁または指導部排除を警告し、米イラン関係が緊張。",
+    "body_markdown": "ペゼシュキアン・イラン大統領がニューヨークの国連総会に出席予定の中、トランプ大統領は同氏に対し、米国の提案を受け入れなければ「経済的に腐敗させるか、壊滅させる」と警告した。\n\nトランプ大統領はテレビインタビューで、ペゼシュキアン大統領との会談に「前向き」という一方で、強硬な姿勢も示唆。一方、イラン軍は米国の新規攻撃があれば、中東の米軍基地や同盟国に対して「持続的な報復」を行うと警告を返した。\n\nペゼシュキアン大統領は国連の演壇で、ウクライナ侵攻に伴う経済的打撃や国際的孤立の中、欧米との核問題を終結させる用意があることを表明する方針。外交交渉と軍事的緊張が交錯する状況の中、両国の駆け引きが激化している。",
+    "tags": [
+      "米国",
+      "イラン",
+      "外交危機",
+      "核問題"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/21/us-iran-war-trump-hormuz.html",
+    "importance": 5,
+    "image_query": "international diplomatic summit",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1633095975779-fd354aa0dc95?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8aW50ZXJuYXRpb25hbCUyMGRpcGxvbWF0aWMlMjBzdW1taXR8ZW58MXwwfHx8MTc4OTk4MjQ2N3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Saj Shafique",
+      "profileUrl": "https://unsplash.com/@saj_shafique?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a bunch of flags that are flying in the air",
+      "description": "World flags at Dubai Expo 2020"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T09:21:07.288Z",
+    "publishedAt": "2026-09-21T08:58:46.000Z"
+  },
+  {
+    "slug": "20260921-20",
+    "headline": "Nvidia CEO が AI 滅亡説を否定「2030年に世界が終わる確率は 0%」",
+    "lead": "Nvidia の Jensen Huang CEO が、AI による人類滅亡に関する警告を「根拠のない報告」と批判し、開発ペース調整の必要性を否定した。",
+    "body_markdown": "Nvidia の CEO ジェンセン・ファン（Jensen Huang）は、AI が人類を脅かす可能性について警告する研究者やCEOの言説を強く否定。CBS Sunday Morning のインタビューで「2030年に世界が終わる確率は0%」と明言した。\n\nハンは、Anthropic の元研究員ジェイコブ・コックスが示唆した「AI が10年以内に超知能化し人類を排除する」という主張や、Anthropic と OpenAI の経営陣によるAI開発ペース調整の呼びかけを「『人々を怖がらせるのは不必要であり無責任だ』と指摘。こうした警告は「科学に基づいていない」と述べた。\n\nハンはまた、AI の規制やガイドライン策定の必要はないとも主張。Nvidia は AI チップ市場で圧倒的優位にあり、AI産業の成長がハウの利益に直結することから、安全性よりも開発推進を優先する姿勢を示している。",
+    "tags": [
+      "AI安全性",
+      "Nvidia",
+      "CEO言論"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic",
+    "importance": 4,
+    "image_query": "business executive interview",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758518730250-9fde74eb4757?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOHx8YnVzaW5lc3MlMjBleGVjdXRpdmUlMjBpbnRlcnZpZXd8ZW58MXwwfHx8MTc4OTk4MjQ2N3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vitaly Gariev",
+      "profileUrl": "https://unsplash.com/@silverkblack?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Woman in suit interviews man at desk",
+      "description": "HR businesswoman having job interview with young man in suit and watching his resume application in modern office indoors"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T09:21:07.925Z",
+    "publishedAt": "2026-09-21T08:27:17.000Z"
+  },
+  {
+    "slug": "20260921-21",
+    "headline": "Hugging Face が分散強化学習「Async GRPO with LoRA」を発表、3.9倍高速化を実現",
+    "lead": "Hugging Face が LoRA アダプタを使った非同期強化学習手法を開発、NCCL を不要にして大幅な性能向上を達成。",
+    "body_markdown": "Hugging Face は、分散機械学習向けの新しい強化学習アルゴリズム「Async GRPO with LoRA」を発表した。従来の分散訓練では複雑なネットワーク通信（NCCL）が必要だったが、この手法はそれを回避している。\n\n核心的な工夫は、モデル全体（3GB）の代わりに、LoRA アダプタと呼ぶ小さな適応層（数MB）のみを同期させること。複数のマシン間で訓練と推論を分離し、クラウドストレージをファイルシステムとして共有し、プロキシサーバーでリクエストを調整する。\n\n性能テストでは、強化学習はランク1のLoRAでも完全な微調整に匹敵することが知られており、このアーキテクチャを正当化している。実験では、500ステップの訓練時間を3時間27分から53分に短縮（3.9倍高速化）を達成。逐次的な最適化（バッチのトークン予算化、勾配チェックポイント無効化）により、ボトルネックを訓練から生成に移し、効率性を大幅に改善した。",
+    "tags": [
+      "機械学習",
+      "強化学習",
+      "Hugging Face"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+    "importance": 4,
+    "image_query": "machine learning training algorithm",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://huggingface.co/blog/assets/asyncgrpo-lora-hfjobs/thumbnail.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T09:21:08.467Z",
+    "publishedAt": "2026-09-10T00:00:00.000Z"
+  },
+  {
+    "slug": "20260921-22",
+    "headline": "iPhone 値上げ「RAMageddon」、メモリーチップ不足で本体 100ポンド上昇",
+    "lead": "AI データセンター需要がメモリー需給を逼迫、iPhoneをはじめ電子機器全般が値上げされた。",
+    "body_markdown": "Apple が iPhone の価格を最大 100ポンド（約160ドル）引き上げた背景に、メモリーチップの世界的な供給不足「RAMageddon」がある。AI業界の爆発的な成長に伴い、大規模データセンター建設がメモリーチップの需要を一手に吸収しているのだ。\n\nこの不足は数十年続いた「電子機器が年々安くなる」というトレンドを逆転させた。スマートフォンだけでなく、パソコン、タブレット、その他のコンシューマー製品まで、メモリーを含む重要部品の逼迫で総じて価格上昇を余儀なくされている。\n\nAI 需要が一部の産業（テクノロジー大手）に集中する一方で、その副作用が広く消費者に波及する形となっている。オルドスタイルの電子業界が直面する課題として、AI 時代への再編圧力が消費者負担として現れている。",
+    "tags": [
+      "テクノロジー",
+      "AI需要",
+      "半導体不足"
+    ],
+    "section": "テクノロジー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/money/2026/sep/21/ramageddon-apple-iphone-price-increase-chip-shortage",
+    "importance": 4,
+    "image_query": "technology manufacturing semiconductor",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1631376178637-392efc9e356b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8dGVjaG5vbG9neSUyMG1hbnVmYWN0dXJpbmclMjBzZW1pY29uZHVjdG9yfGVufDF8MHx8fDE3ODk5ODI0Njh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vishnu Mohanan",
+      "profileUrl": "https://unsplash.com/@vishnumaiea?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a printed circuit board",
+      "description": "A set of unassembled PCBs with ENIG (Gold Finish). The PCBs are for Mitayi Pico RP1 development board based on Raspberry Pi RP2040 microcontroller. It was designed in KiCad by CIRCUITSTATE Electronics. The project is open source."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T09:21:09.031Z",
+    "publishedAt": "2026-09-21T06:00:37.000Z"
+  },
+  {
+    "slug": "20260921-23",
+    "headline": "食品添加物8種類が高血圧・心臓病と関連、11万2000人フランス調査で判明",
+    "lead": "フランスの11万2000人超を7～8年間追跡した調査で、8種類の食品防腐剤が高血圧と心疾患のリスク上昇に関連。",
+    "body_markdown": "フランスの研究チームが 11万2000人以上の長期健康データを分析し、8種類の一般的な食品防腐剤が高血圧と心臓病のリスク増加に関連していることを発表した。調査対象は 7～8年間追跡されている。\n\n問題の防腐剤はソルビン酸カリウム（E202）、メタ重亜硫酸カリウム（E224）、亜硝酸ナトリウム（E250）、アスコルビン酸（E300）ほか。非酸化型防腐剤の高摂取は高血圧リスクを 29%、心疾患リスクを 16% 上昇させた。酸化型防腐剤（ローズマリーエキスなど）でも 22% の高血圧リスク上昇が見られた。\n\nただし、この調査は観察研究であり、因果関係を直接証明するものではない。世界人口の99.5%が少なくとも1種の防腐剤を摂取しており、完全な回避は極めて困難。研究者は、加工度の低い食品を優先し、不要な添加物を避けることを推奨している。",
+    "tags": [
+      "健康",
+      "食品安全",
+      "科学研究"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260920031905.htm",
+    "importance": 4,
+    "image_query": "food safety health research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxmb29kJTIwc2FmZXR5JTIwaGVhbHRoJTIwcmVzZWFyY2h8ZW58MXwwfHx8MTc4OTk4MjQ2OXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Walter Otto",
+      "profileUrl": "https://unsplash.com/@mio6556?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "three people inside factory wearing masks and coats",
+      "description": "Chocolate Factory"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T09:21:09.685Z",
+    "publishedAt": "2026-09-20T12:43:41.000Z"
+  },
+  {
+    "slug": "20260921-24",
+    "headline": "死海文書の謎 2000年ぶりに解明、Qumran 教団は 364日暦を実際に使用していた",
+    "lead": "イスラエル研究者が、Qumran 宗教コミュニティが 364日間の完全循環暦を実際に運用していたことを示唆する証拠を発見。",
+    "body_markdown": "テルアビブ大学の研究チームが、2000年前の死海文書（Dead Sea Scrolls）に記された謎を部分的に解明した。Qumran 教団が実際に採用していたとされる 364日暦についての長年の議論に、新たな光が当たった。\n\n364日という期間は 7で完全に割り切れるため、毎年ちょうど 52週間となり、宗教的祭日は常に同じ曜日に落ちるという理想的な構成。研究によれば、この暦は初期段階では実際に宗教生活の中で使用され、エルサレム宗教指導部との分裂の中心的争点だった。\n\nしかし、364日は実際の太陽年（365.25日）より短いため、時間経過とともに季節と暦がズレていくという構造的な欠陥があった。政治情勢の変化（Hasmonean 指導部への接近）と相まって、やがて放棄された。この研究成果は、聖書考古学における重要な謎の一角を解き明かし、古代ユダヤ教の信仰実践を理解するのに役立つ。",
+    "tags": [
+      "考古学",
+      "歴史",
+      "宗教"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260919031035.htm",
+    "importance": 4,
+    "image_query": "archaeology ancient scrolls discovery",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1742754496141-d1549386b61e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8YXJjaGFlb2xvZ3klMjBhbmNpZW50JTIwc2Nyb2xscyUyMGRpc2NvdmVyeXxlbnwxfDB8fHwxNzg5OTgyNDcwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ali Gündoğdu",
+      "profileUrl": "https://unsplash.com/@gundogduali?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Ancient roman ruins with a tall pillar",
+      "description": "Tripolis, located near Buldan, Denizli, Turkey, was an important ancient city at the intersection of Lydia, Phrygia, and Caria regions. Founded in the Hellenistic period, it flourished during the Roman and Byzantine eras as a major trade center. The city features well-preserved structures such as a theater, agora, Roman bath, and a columned street. Due to frequent earthquakes, it was eventually abandoned. Today, ongoing excavations continue to reveal its historical significance."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T09:21:10.217Z",
+    "publishedAt": "2026-09-20T11:58:13.000Z"
+  },
+  {
+    "slug": "20260921-25",
+    "headline": "韓国軍 DMZ 爆発事故で3人負傷、地雷が原因の可能性",
+    "lead": "韓国軍将校3人が非武装地帯の爆発で負傷、地雷の関与が疑われている。",
+    "body_markdown": "韓国の合同参謀本部は、非武装地帯（DMZ）西部で月曜に爆発が発生し、軍人3人が負傷したと発表した。2人がヘリコプターで、1人は陸路で搬送され、ソウル近郊の軍病院に収容された。\n\n爆発原因は未確定だが、地元メディアは地雷の可能性を報道。DMZ は 248km にわたり約 200万発の地雷が埋設されているとされ、爆発事故は定期的に起きている。北朝鮮の直接的な関与を示す証拠は報告されていないが、最近の北朝鮮軍の活動活発化に関する警戒の中での事故となった。\n\nDMZ は過去75年間の冷戦遺産として、依然として世界で最も軍事的に敏感な地帯の一つ。こうした事故は、朝鮮半島の一触即発の緊張状態を象徴している。",
+    "tags": [
+      "韓国",
+      "北朝鮮",
+      "軍事",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/21/three-south-korean-officers-wounded-in-border-explosion",
+    "importance": 4,
+    "image_query": "military border conflict",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1588449575852-6c8d64fce3c7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtaWxpdGFyeSUyMGJvcmRlciUyMGNvbmZsaWN0fGVufDF8MHx8fDE3ODk5ODI0NzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Simon Infanger",
+      "profileUrl": "https://unsplash.com/@photosimon?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black car on road during daytime",
+      "description": "A compelling composition featuring a high-security military perimeter in a wintry Swiss landscape. The foreground is dominated by the sharp, metallic textures of a wire fence and cable ties in crisp focus, leading the eye toward a blurred, olive-drab Swiss military truck parked on a desolate mountain road. The overcast lighting and shallow depth of field create a moody, restricted atmosphere, emphasizing themes of protection and surveillance. Set against a backdrop of snow-dusted slopes and dark pines, the image captures the quiet tension of a high-altitude strategic outpost during a seasonal"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T09:21:10.636Z",
+    "publishedAt": "2026-09-21T07:45:12.000Z"
+  },
+  {
+    "slug": "20260921-26",
+    "headline": "高市首相 台風25号の影響で米国出発を4時間遅延、国連総会に参加へ",
+    "lead": "日本の高市首相がニューヨーク国連総会参加のため米国へ向かう予定だが、台風25号の接近で出発を遅延。",
+    "body_markdown": "高市総理大臣がニューヨークで開催される国連総会への参加のため米国に向かう予定だったが、台風25号の接近に伴う気象条件の悪化により、羽田空港からの出発時間を当初予定より 4時間遅延させることとなった。\n\n台風25号は関東地域に最接近しており、交通機関全体に影響が広がっていた時期。首相官邸は安全性を最優先に、出発の見合わせを決断した。\n\n高市首相は予定通り国連総会で演説を行い、日本の外交政策と国際貢献方針を発表する予定。台風による若干の遅延はあるものの、総会参加に支障はない見通し。",
+    "tags": [
+      "日本政治",
+      "国連",
+      "気象災害"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260921de51630",
+    "importance": 3,
+    "image_query": "weather typhoon transportation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-21T09:21:10.640Z",
+    "publishedAt": "2026-09-21T05:04:34.000Z"
+  },
+  {
+    "slug": "20260921-27",
+    "headline": "国民民主党 玉木代表がウクライナ訪問、日本の支援方針を表明",
+    "lead": "野党・国民民主党の玉木代表がキーウを訪問し、ウクライナ政府指導部とのウクライナ支援について協議する。",
+    "body_markdown": "日本の野党・国民民主党の玉木雄一郎代表が、ウクライナ訪問を公式に表明した。同代表は現地の政府高官と会談し、ロシアのウクライナ侵攻に対する日本の支援政策と外交的な後押しについて直接意見交換する予定。\n\nこの訪問は、野党指導部がウクライナ情勢の一線で日本の政策立案に関与し、超党派的な支援姿勢を示す意図を反映している。玉木代表はウクライナとの関係深化と、今後の日本の対ウクライナ支援の拡大について議論する見込み。\n\nウクライナはロシアの侵攻から3年以上が経過し、国際的な支援維持が重要な課題となっている。日本の野党指導者がキーウを訪問することで、日本の継続的な支援と国際的な団結意志が示されることになる。",
+    "tags": [
+      "日本政治",
+      "ウクライナ",
+      "国際支援"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260921de51643",
+    "importance": 4,
+    "image_query": "diplomatic visit international relations",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1781901758416-579353c94e12?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxkaXBsb21hdGljJTIwdmlzaXQlMjBpbnRlcm5hdGlvbmFsJTIwcmVsYXRpb25zfGVufDF8MHx8fDE3ODk5ODI0NzF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Stefan Szankowski",
+      "profileUrl": "https://unsplash.com/@3scph?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Men in coats walk on red carpet near private jet",
+      "description": "President Nelson Mandela visited Copenhagen, Denmark, in March 1999 as part of a state visit, which also served as his final official European tour before stepping down as president. Accompanied by his wife, Graça Machel, his trip centered on thanking the Danish government for their steadfast support against apartheid."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T09:21:11.122Z",
+    "publishedAt": "2026-09-21T06:20:00.000Z"
+  },
+  {
+    "slug": "20260921-28",
+    "headline": "米国とイランが国連サミット前に AI 安全対話、米国が通報メカニズム提案",
+    "lead": "米国とイランがニューヨークで AI 安全に関する協議を実施、米国財務長官が通報メカニズム構築を提起。",
+    "body_markdown": "米国のベッセント財務長官と中国の何立峰副首相がニューヨークで会談し、今週予定されている米中首脳会談に先立ち AI に関する協議を実施した。ベッセント長官は、AI 関連の懸念事項に関する通報メカニズムの構築を中国側に提案したと述べた。\n\nこの協議は、米中間の AI 開発と安全性に関する対話の一環。トランプ政権は AI を国家戦略上の重要課題と位置付けており、中国との競争と協調の両立を模索している。\n\n一方、中国側も同様にAI技術発展と国際的な規制枠組みについて関心を示している。通報メカニズムの具体的内容や実装時期は明記されていないが、両国間の緊張緩和と信頼醸成を目的とした交渉が展開されている。",
+    "tags": [
+      "米国",
+      "中国",
+      "AI政策"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260921de51614",
+    "importance": 4,
+    "image_query": "international summit diplomacy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1761723818201-2b86e46e8cc7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxpbnRlcm5hdGlvbmFsJTIwc3VtbWl0JTIwZGlwbG9tYWN5fGVufDF8MHx8fDE3ODk5ODI0NzF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ligio Pereira",
+      "profileUrl": "https://unsplash.com/@ligio_pereira?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Two signs with \"together we rise\" text and logos"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T09:21:11.510Z",
+    "publishedAt": "2026-09-21T04:38:37.000Z"
+  },
+  {
+    "slug": "20260921-29",
+    "headline": "イラン軍がアメリカの攻撃準備を警告、新規攻撃なら報復行動を実行",
+    "lead": "イラン軍がアメリカによる新規攻撃の可能性を警告し、報復として中東の米軍基地と同盟国を標的にすると警告。",
+    "body_markdown": "イラン軍の報道官が、米国がイランに対する新規軍事攻撃を準備していると警告を発した。攻撃が実施された場合、イランは中東地域の米軍基地およびアメリカの同盟国を標的とした「持続的な報復」を行うと明言している。\n\nこの警告は、米国のトランプ大統領がイラン大統領に対して「経済破壊または指導部排除」の脅迫的発言をした数日後に発せられた。イランはイスラム革命以来、米国との敵対的関係が基本構図だが、現在の言説エスカレーションは直接的な軍事衝突の可能性を示唆している。\n\nカタールを含む調停国は、米国とイランの間の外交チャネル再開を模索しており、核問題交渉再開の道筋を探っている状況。しかし、双方の強硬発言は戦争リスクを一層高めている。",
+    "tags": [
+      "イラン",
+      "米国",
+      "軍事脅威"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/21/irans-military-says-us-preparing-to-resume-strikes",
+    "importance": 4,
+    "image_query": "military conflict international tension",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1772299399416-69260ac0f2b7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8bWlsaXRhcnklMjBjb25mbGljdCUyMGludGVybmF0aW9uYWwlMjB0ZW5zaW9ufGVufDF8MHx8fDE3ODk5ODI0NzF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Saifee Art",
+      "profileUrl": "https://unsplash.com/@saifee_art?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Toy soldiers and jet on map with flags"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-21T09:21:12.098Z",
+    "publishedAt": "2026-09-21T05:21:41.000Z"
+  },
+  {
     "slug": "20260921-01",
     "headline": "ハイチ大統領暗殺事件、18容疑者が米国へ身柄送還",
     "lead": "2021年の殺害事件に関与した容疑者が米フロリダで連邦裁判へ。国際的な陰謀網が浮かび上がる。",
