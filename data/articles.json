@@ -1,5 +1,592 @@
 [
   {
+    "slug": "20260924-01",
+    "headline": "AnthropicのClaudeが新型酵素システムを自動発見、CRISPRに匹敵",
+    "lead": "Anthropicのバイオラボ、生成AIが初めて科学的発見を達成。21時間で950のClaudeエージェントが2億1,000万トークンを処理して新規酵素を検出。",
+    "body_markdown": "Anthropicが立ち上げたウェットラボで、AI生成モデル「Claude」が新型酵素システムを「自動発見」したと発表した。この発見は遺伝子編集ツールCRISPRに類似した機能を持つとして比較されている。\n\nClaudeは莫大なDNA配列データベースを検索した結果、通常は見落とされるような繰り返しパターンを検出。Anthropicによると、科学者の関与は初期プロンプトと実験室での検証に限定され、発見そのものはAIが21時間かけて行った。この過程でほぼ950個のClaudeエージェントが合計2億1,000万トークンを処理したという。\n\nこれはAnthropicが新設したバイオラボの初の成果であり、同社が春の上場を前に、AIが科学研究に貢献できる実例を示した意義は大きい。ただし、この発見が実際の医療応用に至るまでには、さらなる検証と開発が必要となる。CRISPRのような既存技術との比較検討も進むと見られる。",
+    "tags": [
+      "AI",
+      "バイオテクノロジー",
+      "科学",
+      "遺伝子編集"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr",
+    "importance": 5,
+    "image_query": "dna laboratory microscope",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1614308456595-a59d48697ea8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxkbmElMjBsYWJvcmF0b3J5JTIwbWljcm9zY29wZXxlbnwxfDB8fHwxNzkwMTk4ODc5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Logan Gutierrez",
+      "profileUrl": "https://unsplash.com/@photosoflogan?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black and silver espresso machine"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-23T21:27:59.413Z",
+    "publishedAt": "2026-09-23T18:00:00.000Z"
+  },
+  {
+    "slug": "20260924-02",
+    "headline": "トランプ政権、プーチンをG20サミットに招待・ウクライナ停戦協議の場に",
+    "lead": "米国務長官がプーチン大統領をマイアミG20に正式招待。穀物・エネルギー停戦協議の場として機能させる狙い。",
+    "body_markdown": "トランプ政権は、ロシアのプーチン大統領を12月にマイアミで開催予定のG20サミットに招待すると発表した。国務長官マルコ・ルビオは記者会見で、プーチンが「他の世界指導者と関わる機会」を持つことが重要だと述べた。\n\nこれはウクライナへの軍事侵攻以来、ロシアが国際的に孤立させられている状況からの大きな転換である。招待背景には、トランプ政権のウクライナ戦争終結への意欲がある。ルビオはウクライナとロシアが「穀物とエネルギーに関する限定的な停戦」に関心を示していると述べ、G20の場が実質的な協議の場となり得ると示唆した。\n\nただしウクライナのゼレンスキー大統領は、ロシアが和平交渉に真摯に向き合わないと懐疑的な見方を示している。また、ウクライナやEU諸国からも懸念の声が上がる可能性が高い。米国がロシアとの対話を重視する姿勢は、国際連携の複雑性を浮き彫りにしている。",
+    "tags": [
+      "国際政治",
+      "ウクライナ",
+      "ロシア",
+      "米国"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/23/trump-administration-invites-putin-to-attend-g20-summit-in-miami",
+    "importance": 5,
+    "image_query": "political summit diplomacy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1715002493594-3e861c799a7d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyM3x8cG9saXRpY2FsJTIwc3VtbWl0JTIwZGlwbG9tYWN5fGVufDF8MHx8fDE3OTAxOTg4Nzl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Norbu GYACHUNG",
+      "profileUrl": "https://unsplash.com/@norbuw?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a group of people standing on top of a stage",
+      "description": "Tibetans and supporters protest in Paris against the brutality and the human rights violations in Tibet by the Chinese government."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:00.067Z",
+    "publishedAt": "2026-09-23T20:23:31.000Z"
+  },
+  {
+    "slug": "20260924-03",
+    "headline": "習近平主席がアメリカに到着、トランプと2回目の首脳会談へ",
+    "lead": "中国の習主席が米国到着、AI・貿易・台湾問題を協議。米中関係の転機となる可能性。",
+    "body_markdown": "中国の習近平国家主席が9月24日、アメリカに到着した。滞在中にトランプ大統領との首脳会談が行われる予定で、これは2026年2回目となる。\n\n今回の会談では、経済・貿易分野、生成AI・人工知能分野、そして地政学的な課題である台湾問題やイラン情勢について、実質的な協議が見込まれている。米中間の対立が深まる中での首脳会談は、両国関係の転機となる可能性がある。\n\nトランプ政権は関税引き上げによる通商交渉を進める一方で、AI分野での協力の可能性も探索されている。台湾問題をめぐっては、米国の台湾支援の継続と中国の統一志向の間で、どのような妥協点が見いだせるか注目される。北京とワシントン間の外交戦は、アジア太平洋地域の安定性に大きな影響を及ぼす。",
+    "tags": [
+      "中国",
+      "米国",
+      "首脳会談",
+      "台湾"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260924de52079",
+    "importance": 5,
+    "image_query": "diplomatic handshake leaders",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1591453214154-c95db71dbd83?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxkaXBsb21hdGljJTIwaGFuZHNoYWtlJTIwbGVhZGVyc3xlbnwxfDB8fHwxNzkwMTk4ODgwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Constantin Wenning",
+      "profileUrl": "https://unsplash.com/@conniwenningsimages?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man and woman holding hands",
+      "description": "handshake sales"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:00.799Z",
+    "publishedAt": "2026-09-23T19:40:05.000Z"
+  },
+  {
+    "slug": "20260924-04",
+    "headline": "ChatGPTが2024年選挙で誤情報・Biden再出馬を3ヵ月後にも主張",
+    "lead": "OpenAIの研究で判明、ChatGPTが選挙日10日前もバイデン再出馬を誤って主張。",
+    "body_markdown": "OpenAIの研究チームは、ChatGPTが2024年米大統領選挙に関して多くの誤情報を提供していたことを報告した。最も顕著な事例は、Kamala Harrisが民主党候補に指名されてから3ヵ月以上たった10月25日になっても、ChatGPTが「ジョー・バイデンが大統領の再選を目指して出馬している」と述べていたことだ。\n\nその他の誤りには、ノースカロライナ州知事Roy Cooperが「再選に立候補している」という主張が含まれていた。実際には同知事は任期制限により再選立候補は不可能だった。さらに市町村レベルの選挙では、学校教育委員候補について「作り上げた政策綱領」を生成し、異なる候補者に対して「ほぼ同じ文言」の政策を割り当てていたという。\n\nこの研究は592件の選挙関連の検証可能な主張を調べたもので、そのうち約10%が不正確だった。ChatGPTは「DEI採用」といった政治用語の意味の変化も理解しておらず、Kamala Harrisを攻撃する政治的スローガンとしての使われ方を見落としていた。生成AIの選挙情報の信頼性問題は、今後の民主的プロセスに対する重要な課題を提示している。",
+    "tags": [
+      "AI",
+      "選挙",
+      "誤情報",
+      "民主主義"
+    ],
+    "section": "AI",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-chatgpt-false-election.html",
+    "importance": 4,
+    "image_query": "election voting ballot",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1604451372323-158c45058d10?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxlbGVjdGlvbiUyMHZvdGluZyUyMGJhbGxvdHxlbnwxfDB8fHwxNzkwMTk4ODgxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Manny Becerra",
+      "profileUrl": "https://unsplash.com/@mannyb?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person holding white and blue round plastic container"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:01.202Z",
+    "publishedAt": "2026-09-23T21:00:09.000Z"
+  },
+  {
+    "slug": "20260924-05",
+    "headline": "進化酵素が結核新薬の製造効率化・低所得国へのアクセス改善へ",
+    "lead": "Caltech研究、酵素進化技術で結核新薬の有効成分を選択的に生産。廃棄物削減で製造コスト低下。",
+    "body_markdown": "カリフォルニア工科大学（Caltech）の研究チームは、遺伝的に進化させた酵素を用いて結核治療薬の有効成分を選択的に生産する方法を開発した。Nobel賞受賞技術「directed evolution」を応用したもので、医薬品製造の効率化と途上国での医療アクセス向上に貢献する可能性がある。\n\n結核の新規治療薬に含まれる5-(S)-aminomethyl oxazolidinoneは、通常、「鏡像異性体」として存在する。有効なS型と無効なR型が1：1で生じ、現在の製造プロセスではバッチの半分が廃棄されている。開発された酵素は、S型のみを選択的に生産することで、この廃棄を完全に解消する。\n\n低・中所得国では80%以上のTB患者が集中しており、薬剤耐性菌の増加によって新薬需要が高まっている一方で、高い製造コストが課題だった。廃棄物削減により生産効率が向上すれば、価格低下を通じて先進国の治療法が最も必要な地域に到達しやすくなる。ただし研究チームは、この概念実証から大量生産段階までにはまだ長い道のりが残っていると強調している。",
+    "tags": [
+      "医学",
+      "バイオテクノロジー",
+      "結核",
+      "医療アクセス"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-evolved-enzymes-tuberculosis-antibiotic-ingredient.html",
+    "importance": 3,
+    "image_query": "laboratory medicine research",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:01.204Z",
+    "publishedAt": "2026-09-23T21:00:05.000Z"
+  },
+  {
+    "slug": "20260924-06",
+    "headline": "セントロメアの機能が20億年で保持、急速な遺伝子変化にも耐性",
+    "lead": "植物の研究で判明、セントロメアは大規模な遺伝子変化にもかかわらず細胞分裂機能を維持。",
+    "body_markdown": "独・ハインリヒ・ハイネ大学デュッセルドルフの研究チームは、セントロメア（染色体の中央領域）が約20億年にわたって機能を保ち続けながら、その遺伝子配列は極めて急速に変化していることを発見した。この「セントロメア逆説」は、進化生物学において長く謎とされていた現象である。\n\nモデル生物Arabidopsis thalianaの分析では、セントロメアに見られる点突然変異の発生速度が他の染色体領域の約10倍に達することが示された。さらに挿入・欠失は通常、数百から数千の遺伝子コードを含む大規模なものだが、興味深いことに「ほぼ常に完全なリピート単位を追加・削除する」パターンが認められた。つまり構造的安定性を保ちながら変異が蓄積されているのだ。\n\nコンピュータシミュレーションによって、数千世代にわたり蓄積した比較的小さな変異が、数百万の遺伝子文字に及ぶ巨大なDNA領域へと進化する可能性を示唆している。この発見は、世代ごとの微細な変異が、種間で観察される劇的な遺伝子差異へとつながるメカニズムを解明するもので、ゲノム進化の基本原理を深める成果である。",
+    "tags": [
+      "遺伝子",
+      "進化",
+      "生物学",
+      "細胞"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-ancient-genome-function-persists-frequent.html",
+    "importance": 3,
+    "image_query": "dna chromosome biology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:01.206Z",
+    "publishedAt": "2026-09-23T20:40:01.000Z"
+  },
+  {
+    "slug": "20260924-07",
+    "headline": "Enveda、AI新薬開発で3億1,100万ドル調達・評価額20億ドルに倍増",
+    "lead": "AI創薬スタートアップEnveda、Series E で3億1,100万ドル調達。皮膚疾患とGLP-1後の体重維持薬を臨床試験中。",
+    "body_markdown": "AI を活用した創薬スタートアップEnveda は、Series E ラウンドで3億1,100万ドルの資金調達を発表した。ラウンドはCatalio Capital Managementが主導し、Iconiq らが参加。この調達によりEnvedaの企業評価額は20億ドルに達し、前年比で倍増した。\n\nEnvedaは2019年にViswa Colluruによって設立され、植物と微生物から天然由来医薬品を発見するAI技術に特化している。合成医薬品ではなく、自然界に存在する物質から有効成分を見つけるアプローチが特徴だ。\n\n同社は現在、複数の候補医薬品を人体臨床試験の段階に進めている。具体的には重症皮膚疾患を対象とした薬剤と、GLP-1受容体作動薬（ダイエット薬など）の中止後に体重減少を維持するための薬剤を開発中だ。ただし業界全体として「AIが生み出した医薬品でまだFDA承認を取得したものはない」(記事)状況であり、Envedaの候補も臨床段階にとどまっている。今回の大型資金調達は、AI創薬の商業化への投資家の期待を反映している。",
+    "tags": [
+      "AI",
+      "医薬品",
+      "バイオテク",
+      "資金調達"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
+    "importance": 4,
+    "image_query": "pharmaceutical research drug development",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1630094539386-280edfb5d46a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8cGhhcm1hY2V1dGljYWwlMjByZXNlYXJjaCUyMGRydWclMjBkZXZlbG9wbWVudHxlbnwxfDB8fHwxNzkwMTk4ODgxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Melany @ tuinfosalud.com",
+      "profileUrl": "https://unsplash.com/@melany_tuinfosalud?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "white and red medication pill blister pack",
+      "description": "blister pack with pills and medicine. Prescription drugs. Meds. Health & Wellness. Prescription medication. Pharmacy. Medical Drug. Pharmacological. Medication."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:02.044Z",
+    "publishedAt": "2026-09-23T19:31:28.000Z"
+  },
+  {
+    "slug": "20260924-08",
+    "headline": "ChatGPT携帯版、音声ベースのエージェント機能を拡張",
+    "lead": "OpenAIがChatGPT モバイルに仕事タブを追加。音声コマンドで文書・メール作成・Slack要約が可能に。",
+    "body_markdown": "OpenAIはChatGPT携帯アプリに、音声起動型のワークフロー機能を新たに搭載した。Plus/Pro サブスクライバーは、スマートフォンの「Work」タブから文書作成、メール起草、Slackメッセージの要約などを音声指令で実行できる。\n\n新機能の範囲は幅広い。文書・メール・要約以外にも、ウェブサイト構築、プレゼンテーション作成、クラウドブラウザアクセス、財務管理機能へのアクセスが可能になる。一方、Free/Go ユーザーはプラグイン・連携アプリへのアクセス権が限定される。\n\n特に有用な点として、音声会話をモバイルで開始した後、デスクトップマシンで継続できるシームレスな統合が実現した。これまでChatGPTの音声機能はデスクトップに限定されていたが、この拡張により移動中のユーザーもAIアシスタントの対話型タスク実行を享受できる。ChatGPTの音声出力はこれまでのオーディオに加え、テキストも並行して表示される。",
+    "tags": [
+      "AI",
+      "モバイル",
+      "音声",
+      "生産性ツール"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
+    "importance": 3,
+    "image_query": "mobile phone application screen",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:02.046Z",
+    "publishedAt": "2026-09-23T17:00:00.000Z"
+  },
+  {
+    "slug": "20260924-09",
+    "headline": "YouTubeがGemini AIでカスタムフィード機能を実装・ユーザーが動画キュレーション可能に",
+    "lead": "YouTubeの新機能、ユーザーが説明文を入力するとGemini AIが200億本の動画から個人向けフィードを自動生成。",
+    "body_markdown": "YouTubeは、Google Gemini AIを活用した新しいカスタムフィード機能を発表した。ユーザーが希望するコンテンツを自然言語で記述すると、AIが200億本以上のYouTube動画データベースから最適な動画を自動選別してフィード化する。\n\nユーザーは「30分の通勤中に見るビデオポッドキャスト」、「落ち着くための解説動画」といった具体的なリクエストをテキストボックスに入力可能。Geminiはこれらの詳細な説明を処理し、コンテンツの優先順位付けや除外条件なども含めた複合的なキュレーションを実行する。複数のカスタムフィードを作成して個別タブで固定することもできる。\n\nこの機能はYouTubeのメインレコメンデーションフィードに代わるものではなく、個別のニッチなニーズに対応するものだ。Web とモバイル双方で来月からのロールアウトが予定されている。Bluesky・Threads・Instagram・X・Spotifyなど複数のプラットフォームが同様の AI キュレーション機能を試験中だが、YouTubeは圧倒的な動画量とGeminiの能力を活かした差別化を狙う。",
+    "tags": [
+      "AI",
+      "YouTube",
+      "動画",
+      "キュレーション"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/",
+    "importance": 3,
+    "image_query": "video streaming platform interface",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:02.048Z",
+    "publishedAt": "2026-09-23T14:30:00.000Z"
+  },
+  {
+    "slug": "20260924-10",
+    "headline": "茂木外相がUN海洋サミットで「ホルムズ海峡の国際的議論」を強調",
+    "lead": "日本外務大臣、ニューヨークの外相会合でホルムズ海峡の安定議論を提案。中国の現状変更に牽制。",
+    "body_markdown": "茂木敏充外務大臣は、国連総会の開催に合わせてニューヨークで開催された「海洋の安定」をテーマとした外相会合に出席し、ホルムズ海峡の平和的管理について「国際社会全体で議論する必要性」を強調した。\n\nホルムズ海峡は世界的に重要な石油輸送ルートであり、エネルギー資源を海外に依存する日本にとって戦略的に極めて重要な水域である。茂木大臣の発言の背景には、中国の南シナ海・東シナ海での「現状変更」の試みに対する懸念があるとみられる。これらの海域での領土的な一方的な行動拡大を国際的に牽制する狙いだ。\n\n自由で開かれたインド太平洋（FOIP）戦略の下で、日本はこれまで海洋法の遵守と紛争の平和的解決を国際社会に訴えてきた。ホルムズ海峡の議論提案は、この継続線上にあり、エネルギー供給ルートの安全保障をめぐる国際的な秩序構築の重要性を示唆している。",
+    "tags": [
+      "外交",
+      "海洋安全保障",
+      "ホルムズ海峡",
+      "国際関係"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260924de52081",
+    "importance": 3,
+    "image_query": "international diplomacy conference",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:02.049Z",
+    "publishedAt": "2026-09-23T20:05:58.000Z"
+  },
+  {
+    "slug": "20260924-11",
+    "headline": "NY外為市場で円が158円台へ・3週間ぶりの円安、米経済指標強気が要因",
+    "lead": "ニューヨーク外為市場、米景況感指標が予想上回りドル買い加速。米長期金利も19年ぶり高水準。",
+    "body_markdown": "ニューヨーク外国為替市場で円相場が大きく値下がりし、1ドル＝158円台前半の水準まで進行した。これは約3週間ぶりの円安水準である。\n\n円売りドル買いが加速した主因は、米国の景況感を示す経済指標が市場予想を大きく上回ったことだ。この強い経済データを受けて、投資家の間でドル建て資産への需要が拡大。一方で相対的に利回りの低い円は売られやすくなり、円安圧力が強まった。\n\n同時に米国の長期金利も上昇し、19年ぶりの高水準に達している。この金利上昇もドル高・円安要因として機能している。経済堅調さと金利上昇が相まって、強いドル相場が形成されている局面といえる。今後の米国の金融政策動向と経済統計の発表がドル・円相場の方向性を左右することになりそうだ。",
+    "tags": [
+      "経済",
+      "為替相場",
+      "米国",
+      "金利"
+    ],
+    "section": "経済・マネー",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260924de52083",
+    "importance": 3,
+    "image_query": "financial market chart",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:02.050Z",
+    "publishedAt": "2026-09-23T19:56:44.000Z"
+  },
+  {
+    "slug": "20260924-12",
+    "headline": "OpenAIがウクライナに「Daybreak」サイバー防衛ツール提供・民間インフラ保護へ",
+    "lead": "OpenAI、ウクライナにサイバー防衛プログラム「Daybreak」を無料提供。脆弱性検出・修正スピード向上。",
+    "body_markdown": "OpenAIは、ウクライナ政府に対してサイバー防衛プログラム「Daybreak」へのアクセスを提供すると発表した。国連総会の開催に合わせ、ウクライナのドミトロ・クシュネルク駐サンフランシスコ総領事とOpenAIの国家安全保障政策担当責任者Sasha Bakerが発表した。\n\nDaybreakはAIを活用してソフトウェアの脆弱性を特定し、修正案の開発と検証を高速化するツールである。ウクライナのサイバー防衛チームはこれにより、民間インフラの防御能力を著しく強化できる見通しだ。特に病院システム、エネルギーセクター、通信インフラといった生命線的なサービスは、ロシアからの持続的なサイバー攻撃に晒されている。\n\nウクライナの国家サイバー対応チーム「CERT-UA」は2025年だけで約6000件のサイバーインシデントに対応した。この状況下でのOpenAIのツール提供は、インフラ保護と国民生活の維持に直結する支援である。開発元企業による技術支援は、ウクライナの防衛態勢強化において戦略的な意義を持つ。",
+    "tags": [
+      "サイバーセキュリティ",
+      "ウクライナ",
+      "AI",
+      "国家防衛"
+    ],
+    "section": "国際・地政学",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+    "importance": 4,
+    "image_query": "cybersecurity network defense",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5TR3Q7ZcZJbqxGHYfksNSt/de1f57d45927c818631c58ffedb01346/openai-extends-cyber-access-to-ukraine-for-civilian-defense-seo.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:03.059Z",
+    "publishedAt": "2026-09-23T13:00:00.000Z"
+  },
+  {
+    "slug": "20260924-13",
+    "headline": "NVIDIA Warp + MjWarpでロボット学習の並列シミュレーション高速化",
+    "lead": "NVIDIA、GPU上で数千個のロボット環境を同時シミュレート。強化学習の訓練データ生成を大幅加速。",
+    "body_markdown": "NVIDIAは、高性能GPU計算フレームワーク「Warp」と物理エンジン「MuJoCo」を統合した「MjWarp」を発表した。これにより、ロボット学習ワークフローの効率が劇的に向上する。\n\nWarpはPythonで記述された計算集約的なコードをCUDA（GPU言語）にコンパイルし、GPU上で高速実行するフレームワークだ。MjWarpはこの上にMuJoCoの物理エンジンを実装し、互換性のあるロボットモデルを「バッチ」形式でGPU上で並列実行できるようにした。\n\n重要な利点は、単一の物理シミュレーションの速度ではなく、複数環境の「総スループット」である。数千個のロボット環境を同時にGPU上で動作させることで、強化学習アルゴリズムの訓練に必要な膨大な体験データの生成が飛躍的に高速化する。例えば2048個のロボットシミュレーション環境を並列実行する場合、従来のCPU逐次処理と比べて訓練時間を大幅に短縮できる。\n\nHugging Faceのドキュメントによると、既存のMuJoCoモデル（MJCF形式）はそのままMjWarpで動作するため、開発者はCPUで正確性を検証してからGPU並列版へ移行できる。",
+    "tags": [
+      "ロボティクス",
+      "GPU計算",
+      "AI",
+      "シミュレーション"
+    ],
+    "section": "テクノロジー",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+    "importance": 3,
+    "image_query": "robot arm technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:03.061Z",
+    "publishedAt": "2026-09-23T18:41:40.000Z"
+  },
+  {
+    "slug": "20260924-14",
+    "headline": "Google Beamが6ヶ国に拡大、HPと協力して没入型テレプレゼンス展開",
+    "lead": "Google、遠隔会議ツール「Beam」を米加英仏独日に拡張。Industriousの拠点で利用可能に。",
+    "body_markdown": "Googleは、没入型テレプレゼンス技術「Google Beam」の展開を大幅に拡大すると発表した。これまで限定的だった提供地域が、米国、カナダ、英国、フランス、ドイツ、日本の6ヶ国に広がる。\n\nGoogle Beamは専用ハードウェアを使用して、遠隔参加者が物理的に同じ空間にいるような臨場感を実現する技術である。Googleの内部テストでは、Beamを使用したチーム間で「相互接続性が50%向上」し、「後続打ち合わせの必要性が21%削減」されたと報告されている。Netflix、Bain & Company、Capital Groupといった大企業はすでに導入を進めている。\n\nハードウェアパートナーはHP（「HP Dimension with Google Beam」ブランド）で、Google MeetとZoomの両方に対応。チャネルパートナーとして18の音声映像統合業者が世界的に展開を支援する。特に注目すべきは、Industriousとのパートナーシップで、プレミアム共有オフィス運営企業のIndustrious が10月からアトランタ、シカゴ、ニューヨーク、パロアルト拠点でBeamユニットをレンタルスペース利用者に提供する予定だ。これにより小規模企業やスタートアップでもBeam技術を試験利用できるようになる。",
+    "tags": [
+      "テレプレゼンス",
+      "Google",
+      "働き方",
+      "技術"
+    ],
+    "section": "テクノロジー",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+    "importance": 4,
+    "image_query": "video conference meeting room",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Beam_hero.width-1300.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:03.524Z",
+    "publishedAt": "2026-09-23T18:00:00.000Z"
+  },
+  {
+    "slug": "20260924-15",
+    "headline": "OpenAI Academy が2年で250以上のイベント開催、400万人が参加",
+    "lead": "OpenAI、実用的AI教育の拡大を発表。新トレーナープログラムで地域へのアクセス深掘り。",
+    "body_markdown": "OpenAIは、2024年9月の立ち上げ以来、「OpenAI Academy」が2年間で250以上のイベントを開催し、400万人以上がアカデミーのコンテンツに関与したことを発表した。教育者、小規模事業主、開発者、非営利団体指導者、コミュニティメンバーが一堂に学習・実践・知見共有する場として機能してきた。\n\n次の段階として、OpenAIは新たな「トレーナープログラム」の展開を開始する。このプログラムは、個人と団体が自分たちのコミュニティでAcademy教材を教えるための訓練と継続的支援を提供する。これにより、AIスキルの教育がOpenAI直接から各地の人々に近い場所で受けられるようになる。\n\nAI技術の利益が広く社会に行き渡るためには、人々がそれを日常的に使いこなすスキルと自信を持つ必要があるという哲学の下、これまでの集中的なイベント開催から、分散型の継続的教育体制へのシフトが進行している。教育と民主化がOpenAIの社会的責任の中核という位置付けが明確化されている。",
+    "tags": [
+      "教育",
+      "AI",
+      "スキル",
+      "コミュニティ"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/two-years-of-openai-academy",
+    "importance": 4,
+    "image_query": "education classroom learning",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6A4AcxrMdo5oOri7Wm8qNg/34228cf221e3af874539412f71b28a44/two-years-of-openai-academy-seo.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/two-years-of-openai-academy",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:04.453Z",
+    "publishedAt": "2026-09-23T16:00:00.000Z"
+  },
+  {
+    "slug": "20260924-16",
+    "headline": "invideo、GPT-6 Astraで動画編集の色補正効率を3倍向上",
+    "lead": "AI動画編集プラットフォームInvideo、Astraにより色補正成功率3倍に。1日で50カスタムエフェクト生成可能。",
+    "body_markdown": "AI駆動の動画編集プラットフォーム「invideo」は、OpenAIのGPT-6 Astraを統合することで、動画編集ワークフローの効率を飛躍的に高めたと発表した。特に色補正・グレーディング処理と複雑なエフェクト生成の精度向上が実現した。\n\n動画編集は次々と決定を迫られるクリエイティブなプロセスだ。ナレーション、トランジション、サウンドデザイン、色補正と、编集者は多くのテクニカル・アーティスティックな判断を下す必要がある。invideo のエージェント型編集ツールは、これらの作業を自動化しつつ、編集者を主導権を保たせる設計になっている。\n\nGPT-6 Astraの統合により、特に複雑な編集の計画と実行がより精密に行え、タイムラインの正確な位置に変更を加えられるようになった。Invideo CEOの Sanket Shahは「Astra が特定の編集をフレームレベルで正確に計画できるのは驚くべき能力」とコメント。同社は既に、色補正・補正成功率を3倍に高め、1日で50個のカスタムエフェクトを生成できるレベルに達したことを報告している。",
+    "tags": [
+      "動画編集",
+      "AI",
+      "クリエイティブ",
+      "効率化"
+    ],
+    "section": "テクノロジー",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+    "importance": 4,
+    "image_query": "video editing production",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7u3JLdLZ5U3DIRSRzYmCvQ/3e3b52a6a13808aa7cf360628410f5f7/og.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:05.415Z",
+    "publishedAt": "2026-09-23T12:00:00.000Z"
+  },
+  {
+    "slug": "20260924-17",
+    "headline": "Ringg AI エージェント、65%のカスタマーコール自動解決・GPT-5.6で",
+    "lead": "インド発のRingg、音声チャットボットで顧客対応の65%を自動化。GPT-4比で90%コスト削減。",
+    "body_markdown": "音声・チャットエージェント企業Ringgは、GPT-5.6を活用した多言語AI エージェントにより、月700万件以上のコール対応を自動化していると発表した。同社のプラットフォームは音声、チャット、WhatsApp、ウェブ経由で顧客対応を行い、最大65%のリクエスト解決を自動エージェントで実現している。\n\nRinggはインドの大規模消費者企業との経験から設立された。これらの企業はコール量の増加に対応する際、単に人員を追加するだけでなく、より効率的なシステムが必要だった。顧客サービス担当者は分断された複数のシステムを使い、保険購入から予約まで多岐にわたるタスクをこなす負荷を強いられていた。\n\nRinggのエージェント型プラットフォームにより、顧客はより複雑なタスク完了が可能になり、同時にコストは削減された。特に注目すべきは、GPT-5.6を使用した場合のコスト効率で、前世代のGPT-4.1に比べ「選定されたワークロードで90%のコスト削減」を達成している。顧客満足度（CSAT）は平均4.8/5を記録しており、自動化と満足度の両立が実現されている。",
+    "tags": [
+      "AI",
+      "カスタマーサービス",
+      "自動化",
+      "コスト削減"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/ringg",
+    "importance": 4,
+    "image_query": "customer service call center",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/773XsnwO9QT1z6x55Ku0BG/678970983193f3c32961714f6eb63320/og.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/ringg",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:06.341Z",
+    "publishedAt": "2026-09-23T12:00:00.000Z"
+  },
+  {
+    "slug": "20260924-18",
+    "headline": "OpenAI、Anthropic CEOがUN で AI 国際協力を提唱・規制強化を示唆",
+    "lead": "OpenAI Altman と Anthropic Amodei、UN 総会でAI協力・安全性強化を呼びかけ。",
+    "body_markdown": "OpenAI の Sam Altman と Anthropic の Dario Amodei は、国連総会の開催に合わせ、世界的な AI 協力と安全性向上の必要性を演説で強調した。両社は業界全体で AI 開発ペースを適切に管理する重要性を主張している。\n\nAltman はこれまで、AI 企業が潜在的リスクを管理するため開発スピードを抑制すべきだと主張してきた論調をさらに展開。一方でトランプ大統領は AI を「全球主義的スキーム」の一部として支配下に置こうとする試みとして批判的立場を示しており、米国とのスタンスの相違が浮き彫りになった。\n\n両CEO の主張は、国家単位ではなく国際的な枠組みでの AI ガバナンスが必要という立場を反映している。ただし政権の国家主義的志向と民間企業の国際協調志向の葛藤は、今後の米国 AI 政策の方向性を大きく左右する可能性がある。",
+    "tags": [
+      "AI",
+      "国際政策",
+      "規制",
+      "安全性"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/23/altman-amodei-un-ai-safety.html",
+    "importance": 4,
+    "image_query": "international conference diplomacy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1777568339513-bfd9af19b619?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8aW50ZXJuYXRpb25hbCUyMGNvbmZlcmVuY2UlMjBkaXBsb21hY3l8ZW58MXwwfHx8MTc5MDE5ODg4Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Smithsonian",
+      "profileUrl": "https://unsplash.com/@smithsonian?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Press badge from bandung, indonesia conference in 1954",
+      "description": "Pin, \"Press Pin 1955\" Wearing this press pass, journalist Ethel L. Payne (1911-1991) witnessed the proceedings of the historic Asian-African Conference, which took place in April 1955 in Bandung, Indonesia. The metal pin’s cream center box declares “Press,” while its blue border bears the conference’s name, date, and location. Record ID acm_1991.0076.0141"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:06.942Z",
+    "publishedAt": "2026-09-23T20:29:20.000Z"
+  },
+  {
+    "slug": "20260924-19",
+    "headline": "Bernie Sanders議員が超知能開発禁止法を提案・違反時は最大20年の実刑",
+    "lead": "Sanders議員、「人類の破壊・転覆」が可能な超知能開発を禁止する法案を議会に提出。",
+    "body_markdown": "バーモント州選出のBernie Sanders上院議員とテキサス州選出のGreg Casar下院議員は、人工超知能（artificial superintelligence）の開発を禁止する新法案「Ban Artificial Superintelligence Act」を議会に提出した。\n\n同法案では、超知能を「人類の破壊または無力化、政府転覆を可能とする技術」と定義し、その開発に関与した者に対し最大20年の懲役を科す規定を含む。さらに高度な AI システムの開発を一時停止する条項も盛り込まれている。ただし同法案における「超知能」や「高度 AI」の具体的な定義は曖昧な部分が多い。\n\nトランプ大統領は公式文書で「AI」の代わりに「superintelligence」という用語使用を命じており、この法案はそうした政策方向の中で提出されたと見られる。AI 業界からは、この法案による innovation 阻害や競争力低下への懸念も表明されている。超知能への規制は一定の支持があるものの、その定義と実行可能性をめぐって政治的議論が続く見通しだ。",
+    "tags": [
+      "AI政策",
+      "規制",
+      "米国議会",
+      "安全性"
+    ],
+    "section": "政治",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act",
+    "importance": 4,
+    "image_query": "government law legislation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1618771623063-6c3faa854a61?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxnb3Zlcm5tZW50JTIwbGF3JTIwbGVnaXNsYXRpb258ZW58MXwwfHx8MTc5MDE5ODg4N3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sasun Bughdaryan",
+      "profileUrl": "https://unsplash.com/@sasun1990?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "judges gavel and open book on table"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:07.474Z",
+    "publishedAt": "2026-09-23T16:23:05.000Z"
+  },
+  {
+    "slug": "20260924-20",
+    "headline": "Meta の AI エージェント Muse、可愛らしいキャラで買い物を代行・実装開始",
+    "lead": "Meta が AI エージェント Muse を発表。ユーザーの買い物タスクを自動処理、クマのキャラで親しみやすく。",
+    "body_markdown": "Meta は新しい AI エージェント「Muse」の試験運用を開始した。愛らしいクマのキャラクターを持つこのエージェントは、ユーザーの買い物や日常的なタスク処理を代行する。\n\n現代生活は絶えず新しいタスクが追加される。庭の木の枝が落ちるたびに処理方法を考え、ゴミ回収業者が突然サービスを取り消すと対応をしなければならない。こうした面倒でありながら避けられないタスクを AI エージェントに委ねるというのがMuse のコンセプトだ。\n\n実装初期段階では買い物支援に焦点があてられているが、今後はより多くのタスク処理能力の拡張が予定されている。親しみやすいキャラクターデザインにより、ユーザーの心理的抵抗感を低減する工夫がなされている点が特徴。ただし企業による自動購入処理には、ユーザーの実質的な意思確認と透明性が必要となる課題も存在する。",
+    "tags": [
+      "AI",
+      "エージェント",
+      "自動化",
+      "消費者"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping",
+    "importance": 3,
+    "image_query": "shopping retail e-commerce",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:07.476Z",
+    "publishedAt": "2026-09-23T19:00:00.000Z"
+  },
+  {
+    "slug": "20260924-21",
+    "headline": "Microsoft Surface Pro 12 と Surface Laptop 13 、Snapdragon X2 Plus 搭載へ",
+    "lead": "Microsoft が 12 インチ以下の Surface シリーズをチップアップグレード。処理性能向上、AI 機能対応。",
+    "body_markdown": "Microsoft は Surface Pro 12 と Surface Laptop 13 の新型に、Qualcomm の最新プロセッサ「Snapdragon X2 Plus」を搭載すると発表した。これまで以上にコンパクトな Surface ラインアップに必要とされていたチップの大幅アップグレードだ。\n\nSnapdragon X2 Plus は前世代チップから処理性能が大幅に向上。AI オンデバイス実行機能（Copilot+ PC 対応）の実装により、クラウド依存性を減らしながらも AI 機能を活用できるようになる。特に 12 インチ以下という限定スペースの中での性能向上は、モバイルユースを重視するユーザーにとって大きな利点だ。\n\nタッチスクリーン・ペンサポート・ハイブリッド機能など Surface プロダクトラインの特性は維持されつつ、プロセッシング能力が強化される。この戦略は、コンパクト型デバイスを求める専門家向けユーザーをターゲットにしたもので、ノートパソコン市場でのポジション再構築を狙ったものと見られる。",
+    "tags": [
+      "ハードウェア",
+      "Microsoft",
+      "AI",
+      "プロセッサ"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2266680/microsofts-new-surface-pro-12-and-surface-laptop-13-feature-snapdragon-x2-plus-chips/",
+    "importance": 3,
+    "image_query": "laptop computer device",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:07.478Z",
+    "publishedAt": "2026-09-23T20:30:00.000Z"
+  },
+  {
+    "slug": "20260924-22",
+    "headline": "NASA が極域赤外線望遠鏡「PRIMA」をミッション選定・宇宙進化を探査",
+    "lead": "NASA、新型ミッション「PRIMA」を承認。宇宙初期から現在までの進化を観測する赤外線天文台。",
+    "body_markdown": "NASA は遠赤外線望遠鏡ミッション「PRIMA（PRobe far-Infrared Mission for Astrophysics）」を次期開発段階に進めることを発表した。PRI MA は新しいミッションクラス「Probe Explorers」の第一号で、長年続く Explorers Program の一環として位置付けられている。\n\nPRIMA は宇宙の歴史と進化を探査することを目的とし、赤外線観測によって銀河や恒星形成の初期段階から現在までのプロセスを観察する。赤外線領域の観測は、光学天文台では困難な暗い天体や遠距離天体の研究に有効だ。\n\n新しい「Probe Explorers」ミッションクラスの設置により、NASA は予算と科学価値のバランスを取った、より機動的なミッション運用体制を構築している。PRI MA の実現により、宇宙の根本的な構造と進化に関する理解が大きく深まると期待される。",
+    "tags": [
+      "宇宙科学",
+      "NASA",
+      "天文学",
+      "観測"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://www.nasa.gov/news-release/nasa-selects-far-infrared-telescope-as-first-in-new-mission-class/",
+    "importance": 3,
+    "image_query": "space telescope astronomy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:07.479Z",
+    "publishedAt": "2026-09-23T20:09:42.000Z"
+  },
+  {
+    "slug": "20260924-23",
+    "headline": "日本の高市首相とトランプ大統領が国連で首脳会談・日米関係を確認",
+    "lead": "高市総理とトランプ大統領が国連総会で会談。日米同盟と中国対策を協議。",
+    "body_markdown": "高市早苗首相とアメリカのドナルド・トランプ大統領は、ニューヨークで開催中の国連総会の場で首脳会談を行った。両首脳は国連総会でそれぞれ演説を行い、その後の会談で日米関係と地域情勢について意見交換した。\n\n迫る米中首脳会談を控える中、日米両国は中国をめぐる認識のすり合わせを行った。トランプ大統領は日本との強固な同盟関係を改めて確認する機会となり、高市総理は米国の対アジア太平洋戦略における日本の位置づけを明確にする狙いもあったと見られる。\n\n会談では、防衛協力、経済・通商関係、インド太平洋の安定維持などが主要議題となった。米中首脳会談で台湾問題やAI、エネルギー供給をめぐる協議が行われる予定の中で、日米同盟がアジア太平洋地域における安定装置として機能することを両首脳が確認した意義は大きい。",
+    "tags": [
+      "外交",
+      "日米関係",
+      "国連",
+      "中国"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260923de52038",
+    "importance": 3,
+    "image_query": "international summit leaders",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:07.480Z",
+    "publishedAt": "2026-09-23T13:05:27.000Z"
+  },
+  {
+    "slug": "20260924-24",
+    "headline": "Bentley の初EV「Torcal」が発表・375マイル航続距離、フェイク音響で中古車グロール継承",
+    "lead": "Bentley、初フルEV「Torcal」を発表。165000ポンドで販売開始。ドラムサウンドトラックでエンジン音を代替。",
+    "body_markdown": "高級自動車メーカーBentleyは、初の完全電動車「Torcal SUV」を発表した。Bentleyの3500万ポンド（約4,000万ユーロ）の英国事業投資の一環として、クルー工場での生産開始が予定されている。\n\nTorcalは価格帯で最廉価なBentley モデルで、165000ポンドからとなる。単一充電での航続距離は375マイル（約600km）に達し、EV SUV セグメントで競争力を持つスペックとなっている。0-62mph加速は3.4秒を実現（Torcal S は2.8秒）。\n\n特筆すべきは、ガソリンエンジンの「グロール音」に代わるサウンド戦略だ。Bentleyはドラムサウンドトラックをシステムに組み込むことで、従来の燃焼エンジン音的な聴覚体験をEVでも提供する工夫をした。クルー工場での4000人の雇用維持を通じて、UK自動車産業への大型投資となる同モデルの上市は、高級EVセグメントでのBentleyの競争力を示す動きである。",
+    "tags": [
+      "自動車",
+      "EV",
+      "電動化",
+      "Bentley"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/sep/23/bentley-launches-first-fully-electric-car-fake-engine-sounds",
+    "importance": 4,
+    "image_query": "electric car automobile",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1663575438786-98c9ac96640e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8ZWxlY3RyaWMlMjBjYXIlMjBhdXRvbW9iaWxlfGVufDF8MHx8fDE3OTAxOTg4ODd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Spiske",
+      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a bicycle with a yellow handlebar",
+      "description": "Electric car charging – electric vehicle charging"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-23T21:28:08.176Z",
+    "publishedAt": "2026-09-23T18:15:55.000Z"
+  },
+  {
     "slug": "20260923-01",
     "headline": "GPT-6 Sol・Lunaが登場、料金は前世代の半額に",
     "lead": "OpenAIが高速・低価格の新モデルGPT-6 Sol・Lunaを発表。Astraの技術を継承しながら、コスト効率で大幅な改善を実現。",
