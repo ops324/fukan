@@ -1,5 +1,366 @@
 [
   {
+    "slug": "20260925-01",
+    "headline": "Harvey、GPT-6 Astraで法務文書作成を強化",
+    "lead": "法律支援AI企業Harveyが、OpenAIのGPT-6 Astraを導入。より複雑で正確な法務文書の自動生成に対応。",
+    "body_markdown": "法律事務所向けAI企業Harveyは9月23日、OpenAIの最新モデル「GPT-6 Astra」を導入したと発表した。同社は訴訟や買収などの複雑な法務業務にAIを活用するプラットフォームを提供しており、GPT-6 Astraの採用により、法務文書の作成精度と構造化度が大幅に向上するという。\n\nHarveyの創業者兼社長ガベ・ペレイラ氏は「より多くの文脈をモデルに与え、より良い構造化出力を生成できるようになった」とコメント。これまでHarveyは膨大な情報（判例、法律事務所の内部文書、事件を形作る各種ソース）から複雑な法律文書を合成・分析するのに使われてきたが、GPT-6 Astraの導入により、弁護士が戦略立案に専念できるよう支援できるようになる。\n\n同社によると、他のモデルと比較して、文書の完全性とフォーマット品質が大幅に向上している。法律業務はドキュメント作成に時間を要することが多く、構造化された高品質な下書きが生成できれば、弁護士の生産性向上に直結する。特に買収契約や訴訟準備など、多数の関連文書を横断的に扱う業務での有効性が期待される。\n\nこれはOpenAIが企業向けAI活用の実例を示す事例として位置付けられる。同社はGPT-6 Astraを通じて、特定業界（法務、医療、金融など）の高度な文脈処理が必要な業務領域での地位を強化している。",
+    "tags": [
+      "生成AI",
+      "法務",
+      "企業活用",
+      "自動化"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+    "importance": 4,
+    "image_query": "legal document business office",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1fGwmofg1NcZrX5mgNL2f2/b88c7bf0b4fc2daeff9ec92264b0afcc/og.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-24T21:18:42.724Z",
+    "publishedAt": "2026-09-23T12:00:00.000Z"
+  },
+  {
+    "slug": "20260925-02",
+    "headline": "OpenAI、メンタルヘルスAI評価ベンチマーク「MentalHealthBench」を公開",
+    "lead": "80人以上の精神保健専門家と開発。AIがメンタルヘルス相談に適切に対応できるか評価する。",
+    "body_markdown": "OpenAIは9月23日、メンタルヘルス領域でのAI評価ベンチマーク「MentalHealthBench」を公開した。80人以上のライセンス取得済み精神保健専門家とともに開発され、AIがメンタルヘルス相談にどう対応するかを現実的な会話シナリオで評価する。\n\nChatGPTは週10億人以上が利用する中、様々な相談——人間関係の悩み、ストレス対処、大切な人へのサポート方法、困難な状況への対応方法——にAIが対応することが増えている。これらの会話には正確性、実践的判断、人の自律性への尊重が必須だ。\n\n従来のAI評価は緊急時対応シナリオに焦点が当たり、広い範囲のメンタルヘルス会話での性能が十分に検証されていなかった。MentalHealthBenchはこのギャップを埋める。複雑で多様な心理的ニーズに対し、AIの応答が専門家の指針とどう合致するかを測定する。\n\n同ベンチマークは学術論文とともに公開され、業界全体がAI安全性の評価と改善に利用できる。特にメンタルヘルス領域のような、人命や生活の質に直接影響する分野では、AIの正確性と倫理性の検証が急務。OpenAIの取り組みは、AIが社会的に重要な役割を担うための基盤構築の一歩を示している。",
+    "tags": [
+      "生成AI",
+      "メンタルヘルス",
+      "評価",
+      "ベンチマーク"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-mentalhealthbench",
+    "importance": 3,
+    "image_query": "mental health counseling conversation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-24T21:18:42.727Z",
+    "publishedAt": "2026-09-23T10:00:00.000Z"
+  },
+  {
+    "slug": "20260925-03",
+    "headline": "ChatGPT Ads、東南アジア・台湾など7カ国に拡大。60カ国以上に対応",
+    "lead": "インドネシア、マレーシア、フィリピン、シンガポール、タイ、ベトナム、台湾での広告配信が開始。",
+    "body_markdown": "OpenAIは9月23日、ChatGPTの広告配信プログラム「ChatGPT Ads」を東南アジア7カ国に拡大すると発表した。インドネシア、マレーシア、フィリピン、シンガポール、タイ、ベトナム、台湾で本日より展開開始。これまでのアジア太平洋地域での展開（オーストラリア、ニュージーランド、日本、韓国、インド）に加え、ChatGPT Adsは60カ国以上で利用可能になった。\n\n企業はOpenAIの広告ソリューションチームやdentsu、Havas Media、Omnicom Media、Publicis Groupe、WPPといった大手広告代理店、および技術パートナーを通じてアクセス可能。対象企業向けには広告マネージャーでのセルフサービス利用も用意されている。\n\nChatGPT Adsは Free プランと Go プランのユーザーに表示される広告のみ。有料の Plus / Enterprise ユーザーには表示されない。OpenAIは「AGIが人類全体に利益をもたらすことを目指し、広告はChatGPTへの無料・低廉アクセスを民主化する」とのコメント。\n\n地域別展開戦略は、アジア太平洋が経済成長・デジタル利用が進む重点地域であることを示唆している。同時にOpenAIにとってChatGPT Adsは、企業向けAPI以外の安定した収益源として位置付けられている。東南アジアでの広告主開拓は、地域のデジタル化投資の加速とも合致する。",
+    "tags": [
+      "生成AI",
+      "ChatGPT",
+      "広告",
+      "東南アジア"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+    "importance": 4,
+    "image_query": "digital advertising market asia",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7FJ6xwUhzfqnyoSn9ciPcS/2f477db82efadb6e10ace70da6498bb3/chatgpt-ads-expands-to-southeast-asia-and-taiwan-seo.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-24T21:18:43.494Z",
+    "publishedAt": "2026-09-23T02:00:00.000Z"
+  },
+  {
+    "slug": "20260925-04",
+    "headline": "米中首脳会談、習主席がトランプに台湾独立反対を要求。地政学的緊張が増す",
+    "lead": "9月24日ホワイトハウスで米中首脳会談。習近平国家主席が台湾問題を重視し、米国の台湾独立支持に懸念を示す。",
+    "body_markdown": "米国のトランプ大統領と中国の習近平国家主席は9月24日、ホワイトハウスで首脳会談を実施した。習主席はトランプ大統領に対し「台湾独立」に反対するよう明確に求めたとされる。米中関係が緊迫する中での会談は、アジア太平洋地域の地政学的緊張を示唆している。\n\n会談は午前から開かれ、その後トランプ大統領はホワイトハウスで習主席を招いた国家晩餐会を開催。儀礼的な敬意を示しながらも、背景には深刻な対立構図がある。議題は貿易、AI技術競争、イラン戦争問題、そして台湾と多岐にわたった。\n\n台湾は米中対立の最大の焦点。中国は台湾を不可分の領土と位置付け、米国による台湾支持を挑発行為とみなしている。トランプ大統領は交易に重点を置く傾向があり、アジア戦略に関心が低いという観測から、台湾の安全保障に関する譲歩が発生する可能性への懸念も指摘されている。\n\n中国専門家は、今回の首脳会談は両国の個人的関係と政策目標に基づいた慎重な形式的会合になるとの見方が多く、主要な成果合意は少ないと予測している。ただし習主席の直接的な台湾問題の提起は、中国がこの問題を重要な外交ツールと位置付けていることを示している。米側がどう応答するかは、東アジア秩序の今後を左右する。",
+    "tags": [
+      "国際関係",
+      "米中関係",
+      "台湾",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260924de52268",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html",
+        "name": "CNBC"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2026/9/24/trump-xi-summit-whats-on-the-agenda-why-it-matters",
+        "name": "Al Jazeera"
+      }
+    ],
+    "importance": 5,
+    "image_query": "diplomatic meeting washington",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1689716661183-faa277e0b00a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8ZGlwbG9tYXRpYyUyMG1lZXRpbmclMjB3YXNoaW5ndG9ufGVufDF8MHx8fDE3OTAyODQ3MjR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Nils Huenerfuerst",
+      "profileUrl": "https://unsplash.com/@nhuenerfuerst?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large white building with a flag on top of it",
+      "description": "The White House Washington D.C."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-24T21:18:44.471Z",
+    "publishedAt": "2026-09-24T20:36:23.000Z"
+  },
+  {
+    "slug": "20260925-05",
+    "headline": "円が159円台に下落、Fed追加利上げ観測で買い需要減。米30年債利回り22年ぶり高水準",
+    "lead": "米国の追加利上げ期待が高まる中、円売り・ドル買いが加速。米30年債利回りは22年ぶりの高水準。",
+    "body_markdown": "9月24日のニューヨーク外国為替市場で円相場は1ドル＝159円台まで値下がりした。背景には、米国連邦準備制度理事会（FRB）による追加利上げの可能性が高まったことによる市場心理の変化がある。\n\n米国30年債利回りが22年ぶりの高水準に達したことが報道される中、市場参加者は将来的な金利上昇をより強く意識し始めた。高い金利は米国資産の利回りを魅力的にするため、円を売却してドルを買う動きが加速。典型的なドルキャリー取引（低利回り通貨を売って高利回り通貨を買う）が進行した形だ。\n\nFRBが追加利上げに踏み切れば、米国債の利回りはさらに上昇する可能性が高く、ドルの買い需要がさらに強まる見通し。一方、日本銀行は慎重な金融政策を維持していることから、金利格差がより鮮明になっている。\n\n円安は日本の輸出企業には追い風だが、インポートコスト増大によるインフレ圧力も同時に作用する。特にエネルギー・食料品など海外依存度の高い商品の価格上昇につながる懸念がある。市場心理の変化如何では、さらなる円安進行も考えられる局面にある。",
+    "tags": [
+      "経済",
+      "為替",
+      "金利",
+      "日本経済"
+    ],
+    "section": "経済・マネー",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260925de52281",
+    "importance": 5,
+    "image_query": "stock market trading financial data",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1589560989620-61bf48e97abb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMHx8c3RvY2slMjBtYXJrZXQlMjB0cmFkaW5nJTIwZmluYW5jaWFsJTIwZGF0YXxlbnwxfDB8fHwxNzkwMTY2NjUzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vladislav Maslow",
+      "profileUrl": "https://unsplash.com/@masloff?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A digital candlestick chart showing cryptocurrency market trends on a dark computer screen",
+      "description": "Training chat "
+    },
+    "mode": "full",
+    "createdAt": "2026-09-24T21:18:44.511Z",
+    "publishedAt": "2026-09-24T20:55:07.000Z"
+  },
+  {
+    "slug": "20260925-06",
+    "headline": "Google、Gemini 3.8でAIに「顔」が付く。リップシンクする Live Avatar 実装",
+    "lead": "リアルタイムで表情やリップシンクするAI対話人格。97言語対応。現在は Enterprise 向け。",
+    "body_markdown": "Googleは Gemini 3.8の新アップデート「Live Avatar」を発表した。ユーザーがAIモデルと会話する際、リアルタイムでアニメーションされたAIペルソナが応答する。アバターは会話中に異なる表情を表現し、話している内容に合わせてリップシンクする。\n\nLive Avatar は現在 Gemini Enterprise 顧客向けのみの提供。Googleによると、Live Avatar は同プラットフォームで対応する97言語間でシームレスに言語を切り替えながら「ビデオ忠実度を低下させたり視覚的なドリフト（ずれ）を導入することなく」遷移できるという。\n\n実演動画では、Live Avatar が英語と日本語で会話し、どちらの言語でも口の動きが話者の音声に正確に一致している様子が示されている。さらに画面上に関連情報も引き出せる機能も備える。\n\n音声と映像のアンマッチは、AI対話システムの没入感を大きく損なう課題だった。Live Avatar の導入により、AIとの対話がより自然で人間らしく感じられるようになる可能性がある。特に企業向けカスタマーサービスやコーチング分野での活用が期待される。言語数の多さは、多国籍企業や国際的な教育プラットフォームでの導入を想定した設計といえる。",
+    "tags": [
+      "生成AI",
+      "Google",
+      "マルチモーダル",
+      "アバター"
+    ],
+    "section": "AI",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+    "importance": 4,
+    "image_query": "ai avatar animation face",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1677428842451-9a415f3b8e3a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8YWklMjBhdmF0YXIlMjBhbmltYXRpb24lMjBmYWNlfGVufDF8MHx8fDE3OTAyODQ3MjV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Stefano Ghezzi",
+      "profileUrl": "https://unsplash.com/@steghe?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a person's face made out of circles"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-24T21:18:45.401Z",
+    "publishedAt": "2026-09-24T19:59:26.000Z"
+  },
+  {
+    "slug": "20260925-07",
+    "headline": "AI で病原菌感染を100万倍に。Wisconsin 大学がファージ療法を加速",
+    "lead": "人工知能がウイルス（ファージ）の変異を設計。抗生物質耐性菌への新たな治療法の可能性。",
+    "body_markdown": "米国ウィスコンシン大学マディソン校の研究チームは、人工知能を用いてバクテリア（細菌）を感染させるウイルス（ファージ）の感染効率を最大100万倍まで向上させることに成功した。この成果は Cell Systems 誌に発表され、抗生物質耐性の上昇に対する新たな治療戦略として注目されている。\n\n研究を主導した生化学教授ヴァツァン・ラマン氏のチームは、大量の実験室データをAIに学習させることで「ファージが進化によって成功を収めるルール」を特定。自然界のファージは数百万年の進化で防御メカニズムを高めた細菌に対抗してきたが、同時に「バクテリア全体を殺すとホストが消滅する」という進化的トレードオフから感染力が制限されている。研究チームはAIの提案した変異をファージに実装し、この進化的制限を工学的に乗り越えた。\n\nさらにAIは単なる感染効率の向上だけでなく、有用な腸内細菌を保存しながら病原体を排除する「標的特異性」も実現した。応用先は尿路感染症、マイクロバイオーム関連疾患、農業の Salmonella など多岐にわたる。\n\nグローバルな抗生物質耐性の上昇は年間100万人以上の死亡をもたらしており、従来の抗菌薬に代わる治療法が急務。ファージ療法は古い技術だが、AI による設計加速により、個別化・高精度な感染症治療へのポテンシャルが大きく拡大した。",
+    "tags": [
+      "生成AI",
+      "医学",
+      "抗生物質耐性",
+      "バイオテクノロジー"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-ai-mutations-viruses-infect-bacteria.html",
+    "importance": 4,
+    "image_query": "virus bacteriophage microscope laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1689136995015-11a19e72015b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHx2aXJ1cyUyMGJhY3RlcmlvcGhhZ2UlMjBtaWNyb3Njb3BlJTIwbGFib3JhdG9yeXxlbnwxfDB8fHwxNzkwMjg0NzI1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Warren Umoh",
+      "profileUrl": "https://unsplash.com/@warrenumoh?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a bunch of purple flowers"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-24T21:18:45.999Z",
+    "publishedAt": "2026-09-24T20:30:01.000Z"
+  },
+  {
+    "slug": "20260925-08",
+    "headline": "Meta Connect 2026、AI エージェント「Muse」とスマートグラス新ライン。100スタイル超を展開",
+    "lead": "Meta CEO マーク・ザッカーバーグが Metaverse から AI へのピボット。携帯・PC なしで AI を操作する「Muse Charm」も。",
+    "body_markdown": "Metaは9月、年次テック企業イベント「Meta Connect 2026」で、個人用AI エージェント「Muse」を中心とした新製品ラインアップを発表した。ザッカーバーグCEOは、Meta が Metaverse 中心から AI 中心への大きな転換を進めていることを強調。Muse はスマートフォン、デスクトップ、AR グラスを超えて展開される。\n\n同時に発表された「Muse Charm」は、携帯やコンピューターなしで AI エージェントが使える小型ガジェット。ホリデーシーズン前の提供を予定しており、ウェアラブルAI デバイスの新カテゴリとして位置付けられている。\n\nAR/VR グラス戦略も大幅に拡大。Ray-Ban、Oakley、Meta Glasses の提携で年末までに100スタイル以上の AI グラスを展開する予定。特に Ray-Ban Meta Audio Glasses（10月13日発売）はオープンイヤー音声、リアルタイム翻訳機能、Muse AI エージェントとの音声統合に対応。\n\nゲーム分野では手追跡技術でコントローラーなしプレイが可能な新タイトルを投入。Beat Saber は大型アップデート「Flux」で高忠実度ハンドトラッキングを導入する。\n\nMetaはハードウェア、AI、ソフトウェアを統合した「日常生活内でのAI アシスタント常在化」を目指している戦略が鮮明。競合企業（Apple、Google、Amazon）も同じ方向性を追求する中、Meta の眼鏡とエージェント連携は差別化要因として機能する見通し。",
+    "tags": [
+      "生成AI",
+      "Meta",
+      "スマートグラス",
+      "ウェアラブル"
+    ],
+    "section": "テクノロジー",
+    "source": "Lifehacker",
+    "link": "https://lifehacker.com/tech/everything-announced-at-meta-connect-2026",
+    "importance": 4,
+    "image_query": "smart glasses augmented reality wearable",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1545579833-0e15a2cdb26b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMXx8c21hcnQlMjBnbGFzc2VzJTIwYXVnbWVudGVkJTIwcmVhbGl0eSUyMHdlYXJhYmxlfGVufDF8MHx8fDE3OTAyODQ3MjZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Bram Van Oost",
+      "profileUrl": "https://unsplash.com/@ort?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black glasses on floor"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-24T21:18:46.724Z",
+    "publishedAt": "2026-09-24T19:30:00.000Z"
+  },
+  {
+    "slug": "20260925-09",
+    "headline": "細胞の DNA 修復メカニズムを解明。乳がん・卵巣がん治療に光",
+    "lead": "Francis Crick Institute の研究。RAD51 タンパク質の組み立て方を特定。20年謎を AI と電子顕微鏡で解く。",
+    "body_markdown": "英国の Francis Crick Institute の研究チームは、細胞が DNA 損傷を修復するメカニズムの核となる「RAD51 paralog」タンパク質の構造を解明した。研究成果は Science（AAAS 刊行）に発表された。\n\nこれまで 20 年間にわたって謎だったこのプロセスは、3 つの先端技術——AI タンパク質予測「AlphaFold3」、cryo-electron microscopy（電子顕微鏡）、single-molecule imaging（単分子イメージング）——を組み合わせることで初めて解明された。\n\nRAD51 paralog は、2 つの関連性の高い複合体を形成し、各複合体は 4 つのサブユニットで構成されている。これらが DNA 修復フィラメントを組み立て、細胞の DNA 損傷を修復する。BRCA1 / BRCA2 遺伝子（乳がん・卵巣がんの重要なリスク遺伝子）と同じ修復経路で機能する。\n\nこの発見は臨床応用に直結する。RAD51 paralog の変異が乳がん、卵巣がん、Fanconi anemia（遺伝性血液疾患）の発症につながることが説明できるようになった。既存のがん治療薬「PARP阻害剤」の設計と投与戦略を改善する可能性も開かれた。\n\n分子生物学は長年、視覚化と計算能力の限界に直面していた。AlphaFold などの AI と新型顕微鏡技術により、従来は観測不可能だったタンパク質レベルの現象が明らかになりつつある。",
+    "tags": [
+      "サイエンス",
+      "DNA",
+      "がん研究",
+      "AI"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-cells-machinery-dna.html",
+    "importance": 3,
+    "image_query": "dna research laboratory microscope",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-24T21:18:46.726Z",
+    "publishedAt": "2026-09-24T20:40:11.000Z"
+  },
+  {
+    "slug": "20260925-10",
+    "headline": "ポーランド Starlink 施設で火災。ロシアのハイブリッド戦か、ウクライナへの通信遮断狙い",
+    "lead": "中央ポーランドの地上通信局が焼失。ポーランド政府がロシアの破壊工作を指摘。ウクライナ軍の通信が影響。",
+    "body_markdown": "9月24日夜、ポーランド中央部 Masovian 州の村 Wola Krobowska にある Starlink 衛星通信局が火災に見舞われた。ポーランド副首相クリストフ・ガヴォフスキ氏はメディアに対し、この火災は「破壊工作により意図的に施設を無効化しようとしたもの」と述べた。\n\n同施設はウクライナを含む地域への衛星インターネット接続を提供する重要インフラ。ガヴォフスキ氏は「多くの兆候がロシアの新しい攻撃教義に適合する」とコメントし、ウクライナ軍を含む複数の公的機関のインターネット通信が遮断される可能性が高いとしている。\n\nこれはハイブリッド戦争戦術の典型例。電力網、通信インフラ、輸送網などの物理的インフラに対する攻撃で、敵国の戦力を削ぐ。ロシアはウクライナ侵攻以降、サイバー攻撃と並行して物理的なインフラ破壊を常習的に実施している。\n\nロシアはこの疑惑に対し否定姿勢を貫いており、Kremlin からの正式な反論はまだない。国際的には、NATO 加盟国ポーランドへの直接的な物理攻撃と解釈されれば NATO 条約 5 条（集団防衛）に抵触する可能性も指摘される。同地域における情報戦と物理的破壊工作の一体化が、新たな地政学的リスクとなりつつある。",
+    "tags": [
+      "国際関係",
+      "ウクライナ",
+      "サイバー攻撃",
+      "インフラ"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20250925de52282",
+    "importance": 4,
+    "image_query": "infrastructure sabotage fire damage",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1776319138122-80b6677ccf86?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8aW5mcmFzdHJ1Y3R1cmUlMjBzYWJvdGFnZSUyMGZpcmUlMjBkYW1hZ2V8ZW58MXwwfHx8MTc5MDI4NDcyN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "David Clode",
+      "profileUrl": "https://unsplash.com/@davidclode?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Ruined house after a devastating wildfire event",
+      "description": "A burnt down house from the bush fire in Steiglitz, Tasmania, in December 2025. Although this is tragic, I have been told that the house was a holiday house and no one was present during the fire. This photo was taken four months later. The fact that so few houses burnt down is a tribute to emergency services people and volunteers."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-24T21:18:47.384Z",
+    "publishedAt": "2026-09-24T20:44:04.000Z"
+  },
+  {
+    "slug": "20260925-11",
+    "headline": "PrismML、Qualcomm スマートグラス上で小型 LLM を実行。4倍圧縮で性能維持",
+    "lead": "Caltech 発スタートアップの圧縮技術。4倍サイズ削減しながら性能維持。AR グラス向けのローカル AI 実行",
+    "body_markdown": "AI スタートアップ PrismML は、Qualcomm Snapdragon Summit で小型言語モデル「1-bit Bonsai LLM」のスマートグラス版を展示した。20 億パラメータながら、標準ベンチマークでより大規模モデルの性能を維持する圧縮技術が特徴。\n\nPrismML は Caltech の研究者により設立。同社の技術は「より大きなモデルを 4 倍圧縮しながら、標準ベンチマークでほぼ全性能を保持する」という点が革新的。これはパラメータ削減を単純に行うのではなく、情報圧縮最適化を通じて実現されている。\n\nスマートグラス向けの 1-bit Bonsai LLM は、ビジョンと言語処理に特化。ユーザーが目の前の物体・状況について質問すると、リアルタイムで応答できる。\n\nQualcomm はこのモデルを Snapdragon AR1 Gen 1 プラットフォームに統合。スマートグラス上でローカル実行できることを実証した。クラウド接続に依存しないため、レイテンシが低く、プライバシーも保護される。\n\nスマートグラス分野は Google、Meta、Ray-Ban が競争を激化させている。これまで AI チップセットはモバイルスマートフォン向けが主流だったが、AR グラスは電力予算がさらに厳しく、PrismML のような圧縮型 LLM 技術がエコシステムの成長を加速させる鍵となる見通し。",
+    "tags": [
+      "生成AI",
+      "スマートグラス",
+      "圧縮",
+      "エッジAI"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/",
+    "importance": 3,
+    "image_query": "smart glasses technology augmented reality",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-24T21:18:47.386Z",
+    "publishedAt": "2026-09-24T19:00:42.000Z"
+  },
+  {
+    "slug": "20260925-12",
+    "headline": "Oracle、ニューメキシコ AI データセンター「Project Jupiter」で force majeure を発動",
+    "lead": "支払い延期の可能性。Stargate プロジェクトの課題が露呈。株価4%下落",
+    "body_markdown": "Oracle は 9 月 24 日、ニューメキシコ州 Doña Ana County で開発中の大規模 AI データセンター「Project Jupiter」について、開発企業 Stack Infrastructure に force majeure（不可抗力）通知を送付した。force majeure は契約当事者が予測不可能な状況下で契約義務を延期・回避できる法的保護。\n\nProject Jupiter は Oracle が最大入居企業として位置付けられている施設で、2028 年の稼働開始が計画されていた。今回の force majeure 通知により、施設完成の遅延が生じた場合、Oracle は契約上の支払い義務を延期できるようになった。\n\nProject Jupiter は OpenAI、SoftBank と共同発表した Stargate という大規模 AI インフラ事業の主要施設。トランプ大統領の第 2 期開始時に発表され、米国の AI インフラ強化の象徴とされていた。ただし施設は地域の規制・地元住民の反対に直面している。\n\nOracle の Vice President Michael Egbert は「プロジェクトは予定通りのスケジュール上にある」とのコメントを発表したが、市場は懐疑的。Oracle の株価は 4 % 以上低下。\n\nForce majeure の発動は、大規模インフラ建設の実行困難さが市場で可視化された信号。AI データセンター競争が加速する中、立地確保・電力確保・地域調整の複雑さが、OpenAI や Meta などの競争企業にも共通の課題として浮かび上がってきた。",
+    "tags": [
+      "ビジネス",
+      "インフラ",
+      "AI",
+      "企業財務"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html",
+    "sources": [
+      {
+        "url": "https://www.techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
+        "name": "TechCrunch"
+      }
+    ],
+    "importance": 3,
+    "image_query": "data center construction infrastructure",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-24T21:18:47.388Z",
+    "publishedAt": "2026-09-24T20:00:31.000Z"
+  },
+  {
+    "slug": "20260925-13",
+    "headline": "ElevenLabs CEO、AI 音声の透明性を主張。「今は開示が必要」",
+    "lead": "AI 音声をカスタマーサービスに使う企業向けメッセージ。人々がまだ AI に慣れていない現段階での透明性。",
+    "body_markdown": "AI 音声技術企業 ElevenLabs の CEO Staniszewski は TechCrunch のインタビューで、カスタマーサービスで AI を導入する企業は「現段階では」顧客に機械であることを明示すべきだと主張した。同社は既に多くの企業のコールセンターに AI 音声を供給しており、業界の透明性基準に関する見方を示す発言として注目される。\n\nStaniszewski の理由は明確。「現在、人々は AI に慣れておらず、一般的なパターンとして『だまされた』と感じたくない。」つまり、顧客が人間と話していると思い込んでから AI だと気づくと信頼を失う。\n\nただし Staniszewski は、この開示要求は「現段階では」という時間的限定を強調。5 年後に AI エージェントが社会で当たり前になれば、「開示の圧力は減る」と予測。人々が AI との対話に慣れ、品質が実証されれば、選り好みしなくなるという論理。\n\n重要な示唆として、顧客が選択肢を持つべきこと。30 分間人間による対応を待つか、AI エージェントの即座な支援を選ぶか。多くはいったん AI の質を経験すれば AI を選ぶ。つまり開示は「一時的な信頼醸成戦略」であって、長期的な必須要件ではないという位置付け。\n\nAI 導入企業の透明性アプローチは、規制当局（FTC など）も注視している課題。一部業界（医療、金融）では既に AI 開示が義務化されている。",
+    "tags": [
+      "生成AI",
+      "ビジネス",
+      "透明性",
+      "カスタマーサービス"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/",
+    "importance": 3,
+    "image_query": "customer service call center communication",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-24T21:18:47.389Z",
+    "publishedAt": "2026-09-24T16:35:13.000Z"
+  },
+  {
+    "slug": "20260925-14",
+    "headline": "Liquid AI、ビジョン・言語モデル LFM2.5-VL を高速化。デコード最大3.13倍",
+    "lead": "推測デコーディングで推論を加速。軽量ドラフトモデル追加で8.9%の負荷に留める。",
+    "body_markdown": "Liquid AI は、ビジョン・言語モデル（VLM）LFM2.5-VL の推論を高速化する技術「DSpark」を発表した。デコード速度を最大 3.13 倍、エンドツーエンド推論で 2.62 倍の改善を実現。GPU（NVIDIA H100）環境ではデコード 2.66 倍、エンドツーエンド 2.27 倍と報告されている。\n\n技術的には「推測デコーディング」手法を採用。隠れ層の特定層をタップして k 個の候補トークンのブロックを生成し、推論を加速する。ドラフトモデルは 280M パラメータを追加する必要があるが、元の 3B モデルに対してわずか 8.9% の増加に留まる。つまり、軽量な追加負荷で大きな速度改善が実現される。\n\n出力品質は変わらずメモリコストは最小限。llama.cpp、MLX-VLM、SGLang といった主流の推論フレームワークで初日からサポートされており、オープンウェイト形式で利用可能。\n\nVLM はテキストと画像を同時に処理するモデルで、ドキュメント分析、医療画像解析、マルチモーダル質問応答など、応用範囲が広い。推論速度の向上は、こうした実務的応用の採算性・ユーザー体験を大きく改善する。クラウドコスト削減にも直結する。",
+    "tags": [
+      "生成AI",
+      "ビジョン言語モデル",
+      "最適化",
+      "推論"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+    "importance": 3,
+    "image_query": "neural network machine learning optimization",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-24T21:18:47.391Z",
+    "publishedAt": "2026-09-24T14:08:57.000Z"
+  },
+  {
     "slug": "20260924-25",
     "headline": "Sam Altman、AIの国際管理を国連演説で提唱",
     "lead": "OpenAI CEOが国連安全保障理事会で演説し、AIシステムの人間による管理と国際協力の重要性を語った。",
