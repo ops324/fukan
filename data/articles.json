@@ -1,5 +1,303 @@
 [
   {
+    "slug": "20260925-15",
+    "headline": "英国AISIとEvalEval、AI評価の再現性向上へ",
+    "lead": "UK AISIとEvalEval Coalitionが協働し、5つのベンチマークの評価結果を統一スキーマで公開、AI評価の透明性を強化している。",
+    "body_markdown": "AI評価結果は現在、多くの異なる形式やプラットフォームで報告されており、それらを再現するための十分な情報が足りないという課題がある。これが、AI技術の信頼性評価を困難にしていた。\n\nUK AI Security Institute（AISI）とEvalEval Coalitionの協働により、この問題に対応する。5つのベンチマーク（HealthBench、FrontierMath、Humanity's Last Examなど）における6つのフロンティアモデルの検証済み結果を、詳細な設定情報とともに公開した。\n\n採用された統一スキーマは「Every Eval Ever」と「Evaluation Cards」プラットフォームを通じて実装される。これにより、評価結果の透明性が向上し、異なる研究機関やモデル開発者が同じベンチマークで比較可能な評価を行えるようになる。\n\nこの取り組みは、AIの急速な進展に伴う評価品質の均一化と、研究成果の再現可能性を確保するための重要なステップである。特に、規制当局や企業がAI能力を適切に評価する際の基盤となり、より信頼性の高い評価科学の実現に向けた重要な基盤を構築する。",
+    "tags": [
+      "AI評価",
+      "ベンチマーク",
+      "透明性",
+      "再現性",
+      "AIセキュリティ"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/evaleval-aisi",
+    "importance": 4,
+    "image_query": "benchmark testing charts data",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://huggingface.co/blog/assets/evaleval-aisi/thumbnail.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/evaleval-aisi",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-25T09:19:23.368Z",
+    "publishedAt": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "slug": "20260925-16",
+    "headline": "Transformers、LLM高速化の llama.cpp サポート追加",
+    "lead": "Hugging Face が GGUF フォーマットに対応し、Python インターフェースでローカルPC上の量子化モデルを実行できるようになった。",
+    "body_markdown": "Hugging Face の Transformers ライブラリが、llama.cpp で開発された量子化モデルを直接サポートするための GGUF フォーマット対応を追加した。これまで、量子化モデルを使用するには別のツールが必要だったが、馴染みのある Transformers API で一元的に扱えるようになる。\n\n最大の利点は、ノートPCやローカル環境で大規模言語モデルを実行する際の利便性向上にある。`from_pretrained` メソッドで Hub から GGUF モデルを読み込み、Python と PyTorch の既存ワークフローで推論を実行できる。\n\nパフォーマンス面でも、llama.cpp で採用されている ggml カーネルを再利用することで、ローカル推論の速度が llama.cpp に近い水準で実現される。ベンチマークでは、複数のモデルで競争力のある結果が示されている。\n\n開発者はモデルの中間活性化を検査したり、既存の評価ワークフローを活用したり、GGUF 変換の検証を簡素化したりできるようになる。初期対応は Apple Silicon 上の Qwen アーキテクチャだが、段階的に拡張予定である。",
+    "tags": [
+      "Transformers",
+      "LLM",
+      "量子化",
+      "ローカル推論",
+      "llama.cpp"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+    "importance": 4,
+    "image_query": "machine learning code programming",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://huggingface.co/blog/assets/transformers_llama_cpp_quants/thumbnail.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-25T09:19:23.623Z",
+    "publishedAt": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "slug": "20260925-17",
+    "headline": "Jun Kim、oMLXの開発サポートとしてHugging Face参画",
+    "lead": "Apple Silicon向け oMLX の作成者 Jun Kim が Hugging Face に参画、プロジェクトが安定した開発体制へ移行する。",
+    "body_markdown": "Jun Kim は、Apple Silicon 上で AI モデルを効率的に実行するためのオープンソースフレームワーク oMLX の作成者であり、メインテナーである。彼が Hugging Face のチームメンバーとして加わることにより、oMLX の開発体制が大きく変わる。\n\nこれまで oMLX はサイドプロジェクトとして開発されていたが、今回の採用により「完全にメンテナンスと資金提供されるプロジェクト」へと昇格する。これにより、より安定した開発サイクルと長期的なビジョンが実現可能になる。\n\nHugging Face は「ローカル AI を実行するためのツールと構成要素の提供」を目指しており、oMLX はこの戦略の重要な要素である。Transformers モデルの定義から MLX 実装への移行プロセスを効率化する予定であり、開発者がより容易に Apple Silicon で高性能な推論を実現できる環境を整備する。\n\nApple Silicon の普及に伴い、ローカルでの高速 AI 実行の需要は急速に拡大している。oMLX プロジェクトがより充実した支援を受けることで、オープンでローカルな AI エコシステムの強化が期待される。",
+    "tags": [
+      "MLX",
+      "oMLX",
+      "Apple Silicon",
+      "オープンソース",
+      "ローカルAI"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/omlx",
+    "importance": 3,
+    "image_query": "programming code software development",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-25T09:19:23.627Z",
+    "publishedAt": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "slug": "20260925-18",
+    "headline": "物理学的手法でLLM圧縮、Llama 3.3で50%高速化実現",
+    "lead": "研究チームが統計物理学の Ising 最適化問題として LLM のブロック削除問題を再構成し、従来手法比で大幅な性能向上を実現した。",
+    "body_markdown": "LLM（大規模言語モデル）の高速化には、不要なネットワークブロックを削除する「プルーニング」が有効だが、どのブロックを削除すべきかの最適化は困難である。新しい研究は、この問題を統計物理学の観点から解決する方法を提案している。\n\n研究チームが採用したアプローチは、トランスフォーマーブロックの削除問題を「制約付き二値最適化問題に再構成」し、物理的には「全相互作用結合を持つ無秩序スピン系」に変換する。各ブロックに二値変数を割り当て（保持=0、削除=1）、ブロック間の相互作用を考慮してエネルギー最小化により最適な削除対象を特定する。\n\n成果は顕著である。Llama-3.3-70B-Instruct で 50% の圧縮（ブロック削除）を行った際、既存手法と比べてほぼ 23 ポイント高い MMLU スコア（言語理解ベンチマーク）を達成した。これは従来のヒューリスティック手法ではブロック間の複雑な相互作用を捉えきれなかったのに対し、物理学的フレームワークがより優れた圧縮構成を発見できたことを示す。\n\nこの手法により、高性能と低遅延を両立する AI システムの構築が現実的になる。",
+    "tags": [
+      "LLM圧縮",
+      "プルーニング",
+      "物理学",
+      "最適化",
+      "モデル効率化"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+    "importance": 4,
+    "image_query": "neural network optimization diagram",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/693c2a4eb0871ba57155b4ed/q4gZV9ENtfFwge7H3Q7YJ.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-25T09:19:23.861Z",
+    "publishedAt": "2026-09-21T13:44:34.000Z"
+  },
+  {
+    "slug": "20260925-19",
+    "headline": "Tokenizers v1、最大30倍の高速化を実現",
+    "lead": "Tokenizers ライブラリが v1 へアップデート、エンコードとデコード性能が 3～30 倍向上、スレッドセーフな並列処理に対応した。",
+    "body_markdown": "テキスト処理の最初のステップであるトークン化は、LLM の推論パイプラインにおいて重要なボトルネックとなることがある。Hugging Face の Tokenizers ライブラリが v1 へのメジャーアップデートで、この問題に根本的に対応した。\n\nv1 は前バージョン（v0.23）と比べて **3～30 倍の高速化**を実現している。最大の改善は GPT2 で見られ、正規表現エンジンの代わりに「Boolean operations over bitstreams」と SIMD 命令を活用し、64 バイト単位で効率的に処理する。\n\n技術的な改善のポイントは複数ある。まず、繰り返される単語の処理結果をスレッドローカルキャッシュに保存し、再計算を回避する。次に、メモリ割り当てを避けプリアロケーションされたバッファ内でインデックス更新のみで操作を完結させる。さらに、複数スレッドが単一トークナイザーを共有できるようになり、8 ワーカーで 76% の線形スケーリングを実現する。\n\nv1 は v0.23 と同じトークン ID を生成し、API、語彙、マージランクは完全に保持されるため、既存コードとの互換性は損なわれない。",
+    "tags": [
+      "Tokenizers",
+      "テキスト処理",
+      "高速化",
+      "Python",
+      "並列処理"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/tokenizers-v1",
+    "importance": 3,
+    "image_query": "text processing data analysis",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-25T09:19:23.863Z",
+    "publishedAt": "2026-09-21T00:00:00.000Z"
+  },
+  {
+    "slug": "20260925-20",
+    "headline": "Google、AI で社会課題を解決するイニシアティブ始動",
+    "lead": "Google が医療、災害予測、教育など5分野に AI を活用し、世界で AI の恩恵を広げる「AI for Societal Impact」を推進している。",
+    "body_markdown": "AI 技術の急速な進展に伴い、理論研究から現実世界への実装への移行が加速している。Google はこうした流れを捉え、複雑な人類的課題の解決に AI を活用する包括的な取り組み「AI for Societal Impact」を立ち上げた。\n\nプロジェクトは5つの重要分野を重点化している。**医療・疾病対策**では、病気の検出、治療、予防を支援する AI システムを展開する。**災害予測**では、野火の追跡、サイクロン予測、洪水予測システムを開発し、地域社会の安全を高める。**教育拡大**では、学習機会を提供できていない地域へのアクセスを改善する。**経済機会**では、より多くの人々に経済的機会をもたらす。**言語対応**では、世界中の言語で AI を利用可能にする。\n\nGoogle の狙いは「すべての人が AI の機会を共有できることを確保する」ことにある。地域社会や研究機関との協働を通じ、科学的発見を加速させ、より広範な層が技術の恩恵を受けられる基盤構築を進める。\n\nこれは、AI の進化が先進国の大企業に限定された価値創造ではなく、グローバルな課題解決に直結する哲学の表現である。",
+    "tags": [
+      "AI",
+      "社会的インパクト",
+      "医療",
+      "教育",
+      "グローバル課題"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+    "importance": 4,
+    "image_query": "global healthcare education community",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Health_Header.max-1440x810.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-25T09:19:24.359Z",
+    "publishedAt": "2026-09-15T16:00:00.000Z"
+  },
+  {
+    "slug": "20260925-21",
+    "headline": "教皇レオ14世、パリで50万人超が参加するミサを開催",
+    "lead": "教皇レオ14世がパリを訪問、9月25～26日に50万人を超える参加者が集まるシャンゼリゼでの大規模ミサがハイライトとなる。",
+    "body_markdown": "教皇レオ14世が 2026 年 9 月 25～28 日のフランス公式訪問の一環として、9 月 25～26 日の両日をパリで過ごす。これは、教皇がパリを訪れるのは初めての重要な外交イベントである。\n\nパリでの日程は、複数の宗教・外交的行事から構成される。教皇は Élysée 宮殿（フランス大統領官邸）を訪問し、UNESCO 本部に立ち寄る。また、ノートルダム大聖堂での儀式、Stade de France（パリ北部）でのユース向けミサなどが予定されている。\n\n特に注目されるのは 9 月 26 日（土曜日）に計画されている大規模ミサである。Place de la Concorde とシャンゼリゼでのこの屋外ミサは、パリ滞在のハイライトであり、BBC の報道によると 50 万人を超える参加者が集まる予定である。\n\n訪問の背景には、フランスにおける宗教的価値観の再検討と、カトリック信仰と社会課題（特に虐待問題）への対話がある。教皇は虐待被害者と個別に面談する予定であり、信仰と現実の課題解決の橋渡しをする姿勢を示している。\n\nフランスでのミサは数十年ぶりの大規模宗教行事であり、欧州におけるカトリック信仰の現在地を示す象徴的なイベントである。",
+    "tags": [
+      "教皇",
+      "宗教",
+      "外交",
+      "フランス",
+      "宗教行事"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cmq8j904212po",
+    "importance": 3,
+    "image_query": "religious procession ceremony crowd",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-25T09:19:24.361Z",
+    "publishedAt": "2026-09-25T08:58:00.000Z"
+  },
+  {
+    "slug": "20260925-22",
+    "headline": "イラン、ホルムズ海峡を7日以内に開放と提案",
+    "lead": "イラン外相アラグチ氏が、米国が条件を受け入れた場合、ホルムズ海峡を 7 日以内に開放し、核開発に関する包括的な協議を開始する提案を表明した。",
+    "body_markdown": "イランとアメリカ、湾岸諸国との地政学的緊張が続く中、イラン外相アラグチ氏が 9 月 24 日、重要な提案を発表した。米国が一定の条件を受け入れた場合、イランは **ホルムズ海峡を 7 日間以内に開放する**ことを約束するという。\n\nホルムズ海峡は世界の原油流通の約 30% を占める極めて戦略的に重要な航路である。同海峡の流通断絶は、グローバルなエネルギー価格と経済に直接的な影響を与えるため、その復旧は米国、サウジアラビア、UAE、イランの各国にとって最優先課題となっている。\n\n提案に含まれるもう一つの要素は、**核開発に関する包括的な協議の開始**である。これは、2015 年の JCPOA（イラン核合意）の復活や新たな枠組みの構築に向けたシグナルと見られている。イランは以前から、ホルムズ海峡問題が解決されれば核協議に応じる用意があると示唆していた。\n\nこの提案の背景には、フーシ派による紅海での攻撃激化、イスラエルとの軍事的緊張の高まりなど、地域全体の不安定化がある。イランの提案が単なる戦術的な譲歩なのか、実質的な交渉への転換なのかは、米国の対応により判断される。",
+    "tags": [
+      "ホルムズ海峡",
+      "イラン",
+      "核交渉",
+      "地政学",
+      "エネルギー"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html",
+    "sources": [
+      {
+        "url": "https://www.aljazeera.com/news/2026/9/25/trump-praises-us-china-friendship-at-state-dinner-with-xi-jinping",
+        "name": "Al Jazeera"
+      }
+    ],
+    "importance": 5,
+    "image_query": "strait ocean shipping maritime",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1693643210220-2070c11b1464?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxzdHJhaXQlMjBvY2VhbiUyMHNoaXBwaW5nJTIwbWFyaXRpbWV8ZW58MXwwfHx8MTc5MDMyNzk2OXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sohan Rayguru",
+      "profileUrl": "https://unsplash.com/@sohan_r?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "three large ships in the ocean with a sky background",
+      "description": "Sentosa Ports"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-25T09:19:25.268Z",
+    "publishedAt": "2026-09-25T08:56:17.000Z"
+  },
+  {
+    "slug": "20260925-23",
+    "headline": "消費税減税法案、臨時国会で成立目指す",
+    "lead": "日本政府が食料品を対象とした消費税減税法案について、10 月 5 日に召集予定の臨時国会で野党の協力を得て可決・成立を目指す方針を確認した。",
+    "body_markdown": "日本の政府与党は、食料品の消費税減税に向けた法案について、10 月の臨時国会での成立を目指す方針を固めた。\n\n木原官房長官と自民党の小野寺税制調査会長が会談し、食料品に関わる消費税減税法案について「10 月 5 日に召集する方針の臨時国会で野党の協力を得て成立を目指す方針を確認」した。\n\n食料品の消費税減税は、生活費上昇に直面する国民の負担軽減を狙いとしている。現在、日本の消費税率は 10% だが、特に食料品やエネルギーコストの上昇が家計圧迫の主要因となっており、これに対応する政策である。\n\n政府与党が野党の協力を明示的に求める姿勢は、法案の成立に一定の政治的合意が形成されていることを示唆している。消費税率引き下げは、景気浮揚と可処分所得の増加に直結するため、与野党を超えた重要政策として位置づけられている。\n\n減税の実現は、特に低所得世帯や子育て世帯の家計負担を軽減する効果が期待される。ただし、減税の範囲（食料品のみか、その他の生活必需品を含むか）、実施時期、財源確保の方法については、今後の臨時国会での議論・調整が必要である。与党と野党の間で基本的な方向性に合意が形成されているとは言え、詳細な政策設計には、さらなる政治交渉が必要になる見通しである。",
+    "tags": [
+      "消費税減税",
+      "食料品",
+      "臨時国会",
+      "政治",
+      "日本"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260925de52412",
+    "importance": 3,
+    "image_query": "parliament government policy economy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-25T09:19:25.270Z",
+    "publishedAt": "2026-09-25T08:27:43.000Z"
+  },
+  {
+    "slug": "20260925-24",
+    "headline": "イラン外相が米国へ7日間でホルムズ開放の提案",
+    "lead": "イラン外相アラグチ氏が、ホルムズ海峡の開放と包括的な核開発協議の開始をセットにした提案をアメリカに提示したと、欧米メディアが報道した。",
+    "body_markdown": "イラン外相アラグチ氏は、アメリカが一定の条件を受け入れた場合、**ホルムズ海峡を 7 日以内に開放**し、**核開発に関する包括的な協議を直ちに開始する**との提案をアメリカに提示したと、欧米メディアが 9 月 24 日に報道した。\n\nこの提案は、イランが地域の安定化と国際協調に向けた意思表示として機能している。ホルムズ海峡はグローバルなエネルギー供給網の要所であり、その流通の平常化は、国際経済と地域安全保障の両方に直結する。\n\n提案に含まれる核開発協議の要素は、過去の JCPOA（2015 年イラン核合意）の枠組み復活、または新たな国際合意の構築に向けた扉を開くものと解釈される。イランが核問題と海峡問題をセットで提案することで、交渉の包括性を強調している。\n\nただし、この提案がアメリカ、特にトランプ政権によってどう受け止められるかが、今後の交渉の鍵となる。湾岐諸国の米国同盟国（サウジアラビア、UAE）の立場も調整が必要である。\n\nフーシ派の紅海での活動激化、イスラエルとの軍事的緊張という背景下での提案であり、イランが多方面の圧力の中で主動的に交渉の道を開こうとする姿勢の表れである。",
+    "tags": [
+      "イラン",
+      "ホルムズ海峡",
+      "核開発",
+      "国際協力",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260925de52362",
+    "importance": 4,
+    "image_query": "international diplomacy negotiation meeting",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1679589164488-ca6dc6746af9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxpbnRlcm5hdGlvbmFsJTIwZGlwbG9tYWN5JTIwbmVnb3RpYXRpb24lMjBtZWV0aW5nfGVufDF8MHx8fDE3OTAzMjc5NzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Salya T",
+      "profileUrl": "https://unsplash.com/@salyastone?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a building with a lot of flags in front of it"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-25T09:19:25.796Z",
+    "publishedAt": "2026-09-25T08:27:00.000Z"
+  },
+  {
+    "slug": "20260925-25",
+    "headline": "トランプ大統領、習近平主席とホワイトハウスで国式晩餐会",
+    "lead": "トランプ大統領がホワイトハウスで習近平主席を迎え、関税休戦を2ヶ月延長し、米中Board of Tradeを創設することで合意した。両首脳は責任ある大国としての行動を強調した。",
+    "body_markdown": "米国と中国の最高指導者が、ワシントンでの国式晩餐会で 9 月 24 日に重要な経済合意を発表した。トランプ大統領は、米国を象徴する白頭鷲の彫刻を習近平主席への贈り物として用意した。\n\n晩餐会では、複数の経済的進展が確認された。まず、両国は先月の関税休戦を 2 ヶ月間延長することで合意。この延長により、より大きな貿易取引に向けた協議を進める時間が確保される。次に、低技術消費財と農産物などの比較的限定的な商品を保護する米中「Board of Trade」の創設が決定した。\n\n習近平主席は、米国と中国が「責任ある大国として行動すべき」であり、両国間の「競争は健全で節度のあるもの」であるべきと述べた。習主席は、中国がアトランタの動物園に 2 頭のジャイアントパンダを送ることも発表した。\n\nこの訪問は習主席のワシントン訪問としては 10 年以上ぶりの重要なイベントである。今年の米中間では 2 度目となる首脳会談であり、米国と中国という世界最大の 2 つの経済大国が、対話のチャネルを保ち続けることの重要性を示している。\n\n課題は多い。両国は台湾、イラン、AI 規制、貿易問題など多くの点で立場を異にしている。特に AI 規制と技術覇権をめぐる競争は、今後の戦略的関係において最も難しい領域である。\n\nゲストリストはシリコンバレーのテック企業幹部（Elon Musk、Tim Cook、Jeff Bezos、Sam Altman、Jensen Huang、Sundar Pichai、Mark Zuckerberg、Michael Dell ら）で埋め尽くされており、米国の政治・経済エリートが中国との関係構築に積極的な姿勢を示している。",
+    "tags": [
+      "米中関係",
+      "トランプ大統領",
+      "習近平",
+      "外交",
+      "貿易"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o",
+    "sources": [
+      {
+        "url": "https://www.aljazeera.com/news/2026/9/25/trump-praises-us-china-friendship-at-state-dinner-with-xi-jinping",
+        "name": "Al Jazeera"
+      }
+    ],
+    "importance": 5,
+    "image_query": "diplomatic summit international relations leaders",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1769798644149-2d99b6a1afb9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8ZGlwbG9tYXRpYyUyMHN1bW1pdCUyMGludGVybmF0aW9uYWwlMjByZWxhdGlvbnMlMjBsZWFkZXJzfGVufDF8MHx8fDE3OTAzMjc5NzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Carlos Gil",
+      "profileUrl": "https://unsplash.com/@carlosgil83?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Speakers on stage at 1 billion followers summit",
+      "description": "Expert exchange session at a global creator summit featuring Carlos Gil in conversation about personal branding, content systems, and monetization paths for creators and founders building sustainable digital businesses."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-25T09:19:26.386Z",
+    "publishedAt": "2026-09-25T00:00:00.000Z"
+  },
+  {
     "slug": "20260925-01",
     "headline": "Harvey、GPT-6 Astraで法務文書作成を強化",
     "lead": "法律支援AI企業Harveyが、OpenAIのGPT-6 Astraを導入。より複雑で正確な法務文書の自動生成に対応。",
