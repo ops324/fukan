@@ -195,3 +195,4 @@
 {"ts":"2026-09-25T09:07:23Z","type":"draft_lint","flagged":2,"drafts":11}
 {"ts":"2026-09-25T21:00:14.809Z","type":"candidates","total":365,"pool":140,"skippedWeak":11,"skippedIrrelevant":8,"enriched":1}
 {"ts":"2026-09-25T21:08:03Z","type":"draft_lint","flagged":3,"drafts":25}
+{"ts":"2026-09-26T09:00:18.118Z","type":"candidates","total":365,"pool":140,"skippedWeak":5,"skippedIrrelevant":8,"enriched":0}

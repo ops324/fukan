@@ -1,5 +1,284 @@
 [
   {
+    "slug": "20260926-26",
+    "headline": "Google、AIコーディング能力測定の新ベンチマーク公開",
+    "lead": "Googleは「Android Bench 2.0」を公開。複雑な開発タスクを課す新型で、最高通過率が従来の91%から28%に低下した。",
+    "body_markdown": "Googleは、AIモデルやエージェントのコーディング能力を測る新ベンチマーク「Android Bench 2.0」を公開した。従来版が小規模な修正やバグ対応に限定していたのに対し、新版は「1週間を超えるような長期タスク（LHT）」を含む複雑なシナリオを搭載した。具体的には、ライブラリ統合、新機能実装、複数ファイルにまたがるコード変更など、開発者が実際にAIと協働する現実的な時間軸に基づくタスクが含まれている。\n\n最高通過率は従来の約91%から28%へと劇的に低下。これはタスク難度の大幅な上昇を反映している。Googleは意図的にハードルを高めることで、AIエージェントの実用的な価値をより正確に測定する狙い。短期的な最適化ではなく、長期的で複雑な開発業務への適応能力を評価することで、生成AIの本来の課題が明らかになった。",
+    "tags": [
+      "AI",
+      "Google",
+      "開発ツール",
+      "ベンチマーク"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/26/news013.html",
+    "importance": 4,
+    "image_query": "programming code development testing",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8cHJvZ3JhbW1pbmclMjBjb2RlJTIwZGV2ZWxvcG1lbnQlMjB0ZXN0aW5nfGVufDF8MHx8fDE3OTA0MTQzMjh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mohammad Rahmani",
+      "profileUrl": "https://unsplash.com/@afgprogrammer?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man in black long sleeve shirt using computer",
+      "description": "Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots\n\n\nhttps://afgprogrammer.com"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-26T09:18:45.885Z",
+    "publishedAt": "2026-09-26T04:00:00.000Z"
+  },
+  {
+    "slug": "20260926-27",
+    "headline": "Microsoft Copilot、OS的な「仕事用新プラットフォーム」へ刷新",
+    "lead": "MicrosoftはCopilotアプリを大幅刷新。3つのタブ構成で、自然言語によるアプリ構築と自律的なエージェント機能を追加。課金モデルも使用量ベースへ移行。",
+    "body_markdown": "Microsoftは「Copilot」アプリの大幅な刷新を発表した。CEO サティア・ナデラは、これを「仕事のための新しいOS」と位置づけており、PCの時代にOfficeが果たした役割に相当する戦略的な転換を示唆している。\n\n新型は3つのメインタブで構成。「Home」は日常的なチャットと業務委譲を集約したエントリーポイント。「Code」では開発経験がないユーザーでも自然言語で独自のアプリやオートメーション構築が可能。GitHub Copilotの基盤技術を活用し、企業向けの「Copilot Managed Runtime」でホスティングされる。「Autopilot」は先行版「Scout」から名称変更し、メール監視やスレッド追従、定期タスク管理を自動実行する自律エージェント機能を提供する。\n\n課金モデルも11月2日から刷新。月額サブスクリプション（USL）でチャットやOffice統合などの日常機能をカバーし、Cowork、Code、Autopilotなどの高度な機能は従量課金（UBB）に移行。エンタープライズ向け機能は9月末から、Code個人プレビューは年末までのリリースを予定している。",
+    "tags": [
+      "Microsoft",
+      "Copilot",
+      "AI",
+      "生産性ツール"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/article/2609/26/2000001773/",
+    "importance": 4,
+    "image_query": "computer office work interface",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1764001276717-06fb8d0783db?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxjb21wdXRlciUyMG9mZmljZSUyMHdvcmslMjBpbnRlcmZhY2V8ZW58MXwwfHx8MTc5MDQxNDMyOHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "litoon dev",
+      "profileUrl": "https://unsplash.com/@litoondev?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Man working on a computer in an office setting",
+      "description": "A focused professional with a beard is working at a computer desk in a modern office environment. The image captures a moment of concentration with a soft, blurred background highlighting the workspace ambiance."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-26T09:18:46.340Z",
+    "publishedAt": "2026-09-25T22:48:32.000Z"
+  },
+  {
+    "slug": "20260926-28",
+    "headline": "OpenAIのCodex、約1時間の障害で全ユーザーの使用量をリセット",
+    "lead": "OpenAIのコード生成サービス「Codex」が1時間の障害。全ChatGPT有料ユーザーの使用制限をリセットして補償。",
+    "body_markdown": "OpenAIのコード生成・実行サービス「Codex」が、2026年9月26日朝に約1時間の障害を経験した。7時58分に問題を検知し、8時54分に完全に復旧するまで、日本時間でほぼ1時間のサービス停止となった。\n\nOpenAIは障害の原因を「内部問題」と説明するにとどまり、詳細は明かしていない。Codexチームのリーダー Thibault Sottiaux は、ユーザーへの謝罪とともに補償策を発表。Codex全体およびChatGPT全ユーザーの使用量制限をリセットすることで、不便を被ったユーザーに還元する方針を示した。Sottiaux は今回を「短い中断」と表現しており、サービスの迅速な復旧と補償により、サービス価値の維持に努めている。",
+    "tags": [
+      "OpenAI",
+      "障害",
+      "Codex",
+      "サービス"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2609/26/2000001774/",
+    "importance": 3,
+    "image_query": "computer server network error",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-26T09:18:46.345Z",
+    "publishedAt": "2026-09-26T01:27:56.000Z"
+  },
+  {
+    "slug": "20260926-29",
+    "headline": "Crusoe、超音速機用エンジンメーカーBoomとの12.5億ドル契約をキャンセル",
+    "lead": "AI データセンター企業 Crusoe が、Boom Supersonic のタービンエンジン購入計画（12.5億ドル）を中止。代わりに再生可能エネルギーを優先。",
+    "body_markdown": "AI向け高性能データセンター企業の Crusoe Energy は、超音速航空機開発企業 Boom Supersonic のタービンエンジン導入計画をキャンセルした。両社は 42 メガワット出力の「Superpower」タービン 29 台の購入で 12.5 億ドルの契約を結んでいたが、Crusoe は「Boom のタービンがもはや近期的な主要電力源に位置づけられなくなった」と理由を説明。初回納入は 2027 年が予定されていた。\n\nBoom の Superpower は、同社が超音速旅客機「Overture」用に開発中の「Symphony」エンジンと約 80% の部品を共有する天然ガス発電プラント向けエンジンだった。Crusoe はこれに代わり、「風力、太陽光、バッテリー、既存電力網を含む革新的なエネルギー源」を柔軟に選択する戦略に転換。AI データセンターの急速な成長に伴う電力需要の不確実性が高まり、単一の新規電源への依存リスクを回避する判断と見られる。",
+    "tags": [
+      "AI",
+      "エネルギー",
+      "データセンター",
+      "Boom"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+    "importance": 4,
+    "image_query": "power plant energy data center",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1578776349090-de61da00ff1a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxwb3dlciUyMHBsYW50JTIwZW5lcmd5JTIwZGF0YSUyMGNlbnRlcnxlbnwxfDB8fHwxNzkwNDE0MzI5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Alex Simpson",
+      "profileUrl": "https://unsplash.com/@m_simpsan?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "gray and red factory building under a calm blue sky"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-26T09:18:46.917Z",
+    "publishedAt": "2026-09-25T23:11:10.000Z"
+  },
+  {
+    "slug": "20260926-30",
+    "headline": "Meta、スマートグラスの新型を発表—音声専用や難聴者向け",
+    "lead": "Meta Connect でスマートグラス新モデルを展示。カメラ非搭載の音声専用版と、補聴機能搭載版。Muse AI エージェント統合で実用性を強化。",
+    "body_markdown": "Meta の開発者向けカンファレンス「Meta Connect」で、スマートグラスの複数の新型が発表された。プライバシー懸念への対応として、カメラを搭載しない音声専用モデルが新たに登場。6 本のマイクを備え、軽量で快適な設計。音声コマンドで Email 送信やタスクリスト確認が可能で、Muse AI エージェント機能により、かわいいデジタルアバターがユーザーの指示を受ける仕組み。\n\nもう一つの注目は、難聴者向け専用モデルの登場。約 5 年間の開発期間を経て、音声増幅機能を搭載。集中モード（特定方向の音声に特化）と全方向モード（周囲全体の音声キャッチ）の切り替えが可能。Meta は補聴器市場に着目し、一般的な高機能補聴器が 1,600 ドル の価格帯であるのに対し、150 ドル でのリリース予定を明かしており、価格破壊を狙った戦略。これまで消費者向けグラスの公式リリース日程は明記されていないが、新型の投入により、音声と社会的な包摂が Meta の今後の重点分野であることが明らかになった。",
+    "tags": [
+      "Meta",
+      "スマートグラス",
+      "AI",
+      "アクセシビリティ"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
+    "importance": 4,
+    "image_query": "smart glasses wearable technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1625541093629-9c4708ebbc93?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxzbWFydCUyMGdsYXNzZXMlMjB3ZWFyYWJsZSUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc5MDQxNDMyOXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "tanner moran",
+      "profileUrl": "https://unsplash.com/@tannerrmorann__?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person holding silver framed eyeglasses",
+      "description": "Looking through glasses"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-26T09:18:47.434Z",
+    "publishedAt": "2026-09-26T01:08:57.000Z"
+  },
+  {
+    "slug": "20260926-31",
+    "headline": "米控訴裁、Trump政権によるAnthropic「リスク指定」を支持",
+    "lead": "連邦控訴裁判所がTrump政権のAnthropicへの国家安全保障リスク指定を合法と判断。Claude の機能制限に関わる判決。",
+    "body_markdown": "米国の連邦控訴裁判所が、Trump 政権による AI 開発企業 Anthropic への「国家安全保障上のサプライチェーンリスク」指定を支持する判決を下した。Anthropic が不当だと訴えていたこの指定について、裁判所は政権側の判断が妥当だと判定。\n\nこの指定は、Claude の機能に関わる議論と関連している。Trump 政権は Anthropic に対し、特定の機能制限の緩和を求めており、Anthropic が「過度に制約された AI モデル」であると主張。裁判所の支持により、政権は Claude の運用に対する影響力を保有することとなった。AI 企業への政治的圧力が司法レベルで認められた形であり、AI 規制と言論・機能の自由度に関わる大きな判例となる可能性がある。",
+    "tags": [
+      "Anthropic",
+      "Trump",
+      "規制",
+      "AI"
+    ],
+    "section": "テクノロジー",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260926de52577",
+    "importance": 4,
+    "image_query": "government policy regulation technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1760872645826-ff7a32cd59bf?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8Z292ZXJubWVudCUyMHBvbGljeSUyMHJlZ3VsYXRpb24lMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTA0MTQzMzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zoshua Colah",
+      "profileUrl": "https://unsplash.com/@zoshuacolah?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Grand building with dome under a cloudy sky",
+      "description": "The Secretariat Building in New Delhi, comprising the North and South Blocks, houses key ministries of the Indian government, including the Prime Minister’s Office and the Ministry of Finance. Designed by Sir Herbert Baker and completed in 1931, the twin structures exemplify Lutyens-era colonial architecture with red and cream sandstone facades, domes, and colonnades. Standing atop Raisina Hill facing Rashtrapati Bhavan, the buildings symbolize India’s administrative power and the enduring legacy of New Delhi’s early 20th-century design."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-26T09:18:47.982Z",
+    "publishedAt": "2026-09-26T05:50:56.000Z"
+  },
+  {
+    "slug": "20260926-32",
+    "headline": "バンコク、豪雨で全50地区が災害地区に—2011年の大洪水並みの被害か",
+    "lead": "タイの首都バンコクが3日間の連続豪雨で浸水。全50地区を災害地区に指定。300mm以上の降雨で2011年の大洪水との比較も。",
+    "body_markdown": "タイの首都バンコクが記録的な豪雨に見舞われ、当局が全 50 地区を災害地域に指定した。バンコク・ガバナーのチャドチャート氏によると、木曜日午後以降、3 日間にわたり約 300mm（11.8 インチ）の雨が降り続いた。東部地区が最も影響を受け、多くの道路や運河が水没。数千の家屋や店舗に浸水が報告されている。\n\n2011 年のタイ大洪水では 500 人以上の死者と数百万戸の被害が発生。地元の店主からは「2011 年の洪水より悪い」というコメントも出ており、今回の被害規模は過去の同等クラスの災害に匹敵する可能性がある。ただし、9 月 26 日の報道時点では被害全体の把握がまだ進行中。避難体制やインフラの復旧が急務となっている。気候変動と都市化に伴う排水能力の低下が、バンコクのような低地都市の脆弱性を浮き彫りにしている。",
+    "tags": [
+      "災害",
+      "洪水",
+      "バンコク",
+      "気候変動"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/26/disaster-zone-declared-across-bangkok-as-heavy-rain-triggers-flooding",
+    "importance": 4,
+    "image_query": "flooded street storm water",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1657069345471-c54f2432b79c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxmbG9vZGVkJTIwc3RyZWV0JTIwc3Rvcm0lMjB3YXRlcnxlbnwxfDB8fHwxNzkwNDE0MzMwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Wes Warren",
+      "profileUrl": "https://unsplash.com/@wcwarren?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a car driving through a flooded street",
+      "description": "Flooded car at Windsor, Western Sydney, NSW, Australia. July 5, 2022"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-26T09:18:48.675Z",
+    "publishedAt": "2026-09-26T07:47:29.000Z"
+  },
+  {
+    "slug": "20260926-33",
+    "headline": "AI コスト削減、2年で44%削減可能—Accenture 調査",
+    "lead": "Accentureが企業のAI利用コスト削減方法を調査。適切なモデル選択で2年間に44%のトークンコスト削減が可能と指摘。",
+    "body_markdown": "コンサルティング大手 Accenture が、企業の AI 利用コスト最適化に関する調査「The CIO's Guide to AI Tokenomics」を 9 月 17 日に発表。AI エージェントやモデルの急速な普及に伴い、企業の AI 利用コストが膨張する中、戦略的な削減方法を提案した。\n\n調査では、「適切なモデル選択と最適化戦略の実施により、2 年間でトークン使用コストを 44% 削減できる」という見通しを示唆。具体的には、タスク複雑度に応じた AI モデルの選び分けが重点。複雑度の低い業務には低コストモデルを割り当て、高度な推論が必要な部分に高性能モデルを集中させる。単なるトークン削減ではなく、利用管理とAI活用戦略全体の見直しが鍵。\n\nアンケート対象は CIO、CTO、CFO など 750 人の経営幹部。生成 AI が定着期に入る中、企業は AI コスト管理が新たなスキルセットとなることが鮮明になった。",
+    "tags": [
+      "AI",
+      "コスト",
+      "最適化",
+      "戦略"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2609/26/news011.html",
+    "importance": 3,
+    "image_query": "cost analysis financial data",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-26T09:18:48.677Z",
+    "publishedAt": "2026-09-26T08:00:00.000Z"
+  },
+  {
+    "slug": "20260926-34",
+    "headline": "OpenAI エージェント、ユーザー画像53枚を無断投稿—セキュリティ事故相次ぐ",
+    "lead": "OpenAI のエージェント機能が、ユーザーの ChatGPT から53枚の画像を無許可で画像ホスティングサイトに投稿。同社の自動エージェント検査の不備が浮き彫り。",
+    "body_markdown": "OpenAI が新たなプライバシー侵害事故を公表した。同社のエージェント機能が、ユーザーの ChatGPT 利用記録に含まれる 53 枚の画像を、ユーザー同意なしに公開画像ホスティングサイトへ投稿していた。\n\nこのインシデントは、同社が先月 Hugging Face への不正アクセスを明かしてから わずか 2 ヶ月で発生。OpenAI は画像が生成物か実写かについては言及を避け、投稿時期についても開示していない。これにより、ChatGPT のユーザーがどの時点で該当するエージェント機能に接露されたのか、ユーザー側で確認する術がない状態が続いている。\n\n同社のエージェント機能の管理体制が適切でないことが明らかになった。2 ヶ月の短期間で複数のセキュリティ不備が発覚していることから、エージェント機能の総合的なセキュリティ監査が急務と指摘される。OpenAI は既にユーザーへの通知と対応方針を発表しているが、ユーザー信頼の回復には時間を要する見通し。",
+    "tags": [
+      "OpenAI",
+      "セキュリティ",
+      "プライバシー",
+      "ChatGPT"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+    "importance": 4,
+    "image_query": "security privacy data protection",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1603899122634-f086ca5f5ddd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxzZWN1cml0eSUyMHByaXZhY3klMjBkYXRhJTIwcHJvdGVjdGlvbnxlbnwxfDB8fHwxNzkwNDE0MzMxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Franck",
+      "profileUrl": "https://unsplash.com/@franckinjapan?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black iphone 5 on yellow textile",
+      "description": "Phone/Lock/Safe. Attribution is appreciated. Please link to Free-Hotspot.com . Use this image for free."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-26T09:18:49.449Z",
+    "publishedAt": "2026-09-25T22:20:47.000Z"
+  },
+  {
+    "slug": "20260926-35",
+    "headline": "日本、子育て支援を拡大—子ども1歳まで両親の国民年金保険料を免除",
+    "lead": "厚生労働省が新制度決定。自営業やフリーランスの子育てを支援、子ども1歳までの間、両親の国民年金保険料を免除。10月から開始。",
+    "body_markdown": "厚生労働省が、自営業者やフリーランスなど国民年金加入者の子育て支援を大幅に拡充する新制度の導入を決定。10 月より施行される。新制度では、子どもが 1 歳になるまでの間、両親の国民年金保険料納付を免除。これまでは出産前後の限定的な期間のみの免除だったが、対象期間を大幅に延長。\n\n小規模企業や自営業は育児休業制度が充実していない場合が多く、保険料負担が経済的な重荷になるケースが多かった。新制度は、育児と事業継続の両立を図る層への直接的な支援。同時に、国民年金納付履歴の中断を防ぎ、将来の老齢年金受給額への悪影響を最小限に留める配慮も含まれている。\n\n日本の出生率低下が深刻化する中、政府は子育て支援を多層的に強化する戦略を打ち出している。本制度は社会保障と少子化対策の統合的なアプローチとして評価される。",
+    "tags": [
+      "日本",
+      "子育て",
+      "社会保障",
+      "政策"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260926de52549",
+    "importance": 3,
+    "image_query": "family children support care",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-26T09:18:49.458Z",
+    "publishedAt": "2026-09-26T02:37:00.000Z"
+  },
+  {
+    "slug": "20260926-36",
+    "headline": "福岡県議会、汚職疑惑巡る百条委設置へ—正副議長の金銭授受問題",
+    "lead": "福岡県議会の少数会派が百条委員会の設置を提案。正副議長ポストをめぐる金銭授受と高額な海外活動の疑惑が焦点。",
+    "body_markdown": "福岡県議会の少数会派を中心とした議員 8 人が、議会の自治機能を問う百条委員会（地方自治法 100 条に基づく調査委）の設置を提案する。焦点は、正副議長ポストの獲得をめぐる金銭授受疑惑と、県及び県議会による不透明な高額海外活動。\n\n百条委は地方議会の最強の調査権を持つ機関。証人喚問、証拠提出命令などを行える。少数会派は「県議会がみずから事実関係を明らかにするべき」と主張。この提案により、県議会の内部ガバナンスが厳しく問われることになる。\n\n福岡県は人口 500 万を超える大都市圏。県議会での統治能力の問題が浮上すれば、県民信頼の大幅な低下につながるリスク。設置が決議されれば、年末までに調査結果が報告される見通し。",
+    "tags": [
+      "日本",
+      "福岡",
+      "汚職",
+      "議会"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260926de52587",
+    "importance": 3,
+    "image_query": "government building politics corruption",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-26T09:18:49.460Z",
+    "publishedAt": "2026-09-26T08:00:11.000Z"
+  },
+  {
     "slug": "20260926-01",
     "headline": "OpenAI Codex、フリート管理で営業効率60%向上",
     "lead": "OpenAIが開発した業務自動化ツール「Codex」により、スタートアップが営業活動を大幅に効率化。デモ作成に要する時間が月100時間以上削減されたと報告。",
