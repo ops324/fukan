@@ -1,5 +1,543 @@
 [
   {
+    "slug": "20260928-01",
+    "headline": "Anthropic CEO、トランプ大統領と初の一対一会談へ",
+    "lead": "AI安全性をめぐる対立の中、Anthropic のアモデイCEOがホワイトハウスでトランプ大統領と初の個別会談を予定。",
+    "body_markdown": "Anthropic の CEO ダリオ・アモデイは、2026年9月27日夜、ホワイトハウスでドナルド・トランプ大統領と初の一対一会談を予定している。この会談は、AI 開発における政治的立場の相違が背景にあり、業界全体の方向性に影響を与える可能性がある。\n\n両者の立場は大きく異なっている。アモデイ率いる Anthropic は AI 開発のペース減速と厳格な安全保障体制の確立を主張しており、一方のトランプ大統領は「AI 反発は民主党のプロパガンダ」と反論し、AI を「スーパーインテリジェンス」へ改名することを提案するなど、規制を見直す姿勢を示している。\n\nAnthropicと政府の関係は複雑だ。今年初め、国防総省は Anthropic をサプライチェーン・リスクとして指定したが、同社はこれに法的対抗措置を取っている。一方、他の政権関係者の中には Anthropic に対し、より友好的な態度を示す者もいるとされている。\n\n本会談は、米国の AI 政策が今後どのような方向へ進むのかを示唆する重要な機会となる。特に AI 開発企業が政治的環境の中でどのようなポジショニングを取っていくのかについて、業界全体の関心が集まっている。",
+    "tags": [
+      "AI",
+      "政策",
+      "トランプ政権",
+      "Anthropic"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+    "importance": 4,
+    "image_query": "office meeting business discussion",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758518730151-cf64fddb4f0a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMHx8b2ZmaWNlJTIwbWVldGluZyUyMGJ1c2luZXNzJTIwZGlzY3Vzc2lvbnxlbnwxfDB8fHwxNzkwNTQ0NDk4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vitaly Gariev",
+      "profileUrl": "https://unsplash.com/@silverkblack?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Business professionals collaborating in a modern office meeting",
+      "description": "🎬 FULL 4K VIDEO for this still is in my bio link! ⬇️ Young businessman talking with male and female colleagues sitting at the table in modern office indoors"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:18.797Z",
+    "publishedAt": "2026-09-27T20:34:28.000Z"
+  },
+  {
+    "slug": "20260928-02",
+    "headline": "セルビア大統領、学生デモ受け辞任へ",
+    "lead": "ヴチッチ大統領が3期目の出馬を諦め、議会選挙で権力保持を目指す。駅の天井崩落から始まった抗議活動が政局を揺さぶる。",
+    "body_markdown": "セルビアのアレクサンダル・ヴチッチ大統領は、憲法の3期制限により、このたび大統領職からの辞任を決断した。同氏は権力を維持するべく、10月25日の議会選挙に向けて首相職への転出を目指しており、政権の継続性を狙っている。\n\nセルビア国内の政治危機の引き金は、2024年11月1日、ノヴィ・サド市の鉄道駅天井の崩落事故だった。この事故で16人が死亡し、学生を中心とした大規模な抗議活動へと発展した。デモ参加者らは政府の腐敗、透明性の欠如、公的機関への政治的な干渉を問題視している。\n\n学生運動は「学生が勝つ」というスローガンで野党を支援し、独自の候補者リスト250名を提示。10月25日の議会選挙が政権交代の転機となるかもしれない。一方、ヴチッチは依然として高い支持を保持しており、選挙結果は不透明だ。\n\nこうした政治的な激変は、バルカン地域全体に波及する可能性がある。セルビアの政治方向が変わることで、ボスニア・ヘルツェゴビナ、モンテネグロ、コソボとの関係が緩和される可能性も指摘されている。",
+    "tags": [
+      "セルビア",
+      "政治",
+      "学生デモ",
+      "選挙"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/27/serbian-president-aleksandar-vucic-resigns-amid-prolonged-protests",
+    "importance": 4,
+    "image_query": "protest rally demonstration crowd",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1591622180684-b96c52ef3908?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8cHJvdGVzdCUyMHJhbGx5JTIwZGVtb25zdHJhdGlvbiUyMGNyb3dkfGVufDF8MHx8fDE3OTA1NDQ0OTl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Clay Banks",
+      "profileUrl": "https://unsplash.com/@claybanks?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large crowd of people holding up signs",
+      "description": "A crowd kneels at the Black Lives Matter protest in Washington DC 6/6/2020 (IG: @clay.banks)"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:19.282Z",
+    "publishedAt": "2026-09-27T20:29:34.000Z"
+  },
+  {
+    "slug": "20260928-03",
+    "headline": "ビル・ゲイツ、AI規制なき開発は「無責任」と警告",
+    "lead": "Microsoft共同創業者が、悪意ある利用者による AI 悪用が最大の脅威だと指摘。規制の必要性を強調。",
+    "body_markdown": "マイクロソフト共同創業者のビル・ゲイツは、NBC ニュースのインタビューで、すべての AI システムに対して安全保障と監視能力の確保を義務付けることなく、発展させることは「完全に無責任だ」と述べた。この発言は、AI 開発の速度と安全性のバランスをめぐる議論の中で、規制重視の立場を明確にしたものだ。\n\nゲイツが指摘する最大の脅威は、理論的な長期的リスクではなく、現在進行形の実害である。悪意ある者たちが現在の AI 技術を悪用することが、「今直面している最も危険なこと」だと強調。具体的には、バイオテロリズムや金融詐欺スキームなどが例として挙げられた。\n\nゲイツは法執行機関や政治指導者を巻き込んだ AI 安全基準と監視体制の構築を支持している。こうした規制は産業に一定の負担を生じさせるものの、開発スピードを劇的に鈍化させることはないと彼は述べている。\n\nこの発言は、カリフォルニア州知事が提案する「キル・スイッチ」機構やAI指導者による開発ペース減速の議論が進む中での主張である。ゲイツのアプローチは、規制と技術進展の両立可能性を示唆するものとして、業界で注視されている。",
+    "tags": [
+      "AI安全",
+      "規制",
+      "ビル・ゲイツ",
+      "セキュリティ"
+    ],
+    "section": "AI",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2270166/bill-gates-says-that-its-completely-irresponsible-for-ai-to-not-have-safeguards/",
+    "importance": 4,
+    "image_query": "computer security cybersecurity protection",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1614064643087-96ce7f0737c8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8Y29tcHV0ZXIlMjBzZWN1cml0eSUyMGN5YmVyc2VjdXJpdHklMjBwcm90ZWN0aW9ufGVufDF8MHx8fDE3OTA1NDQ0OTl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "FlyD",
+      "profileUrl": "https://unsplash.com/@flyd2069?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black and red steering wheel",
+      "description": "Cyber security image\n"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:19.799Z",
+    "publishedAt": "2026-09-27T19:12:29.000Z"
+  },
+  {
+    "slug": "20260928-04",
+    "headline": "BYD、固体電池搭載車を2027年に発表へ",
+    "lead": "中国の電池大手BYDが、固体電池技術の商用化で先行。2027年に初搭載車、2030年ごろから量産予定。",
+    "body_markdown": "中国の電池・自動車大手BYDが、固体電池技術の商用化で業界をリードする立場を固めている。同社は硫化物系の固体電池を開発中であり、液体の電解質を固体に置き換えることで、より高いエネルギー密度を実現しようとしている。\n\nBYDの経営陣は「来年、その技術を搭載した最初のモデルが発表される」と述べており、2027年に初の固体電池搭載車を市場に投入する計画だ。その後、2030年前後から量産を開始する予定とされている。\n\n固体電池は自動車業界における次世代技術として注目を集めており、BYD以外にもトヨタ、メルセデス・ベンツ、ステランティス、ホンダなど複数の大手自動車メーカーが、数年以内の採用を計画している。\n\nこの技術の利点は、より小型・軽量化が可能で、単一充電での航続距離が大幅に向上することにある。さらに従来のリチウムイオン電池に比べて発火リスクが低いという安全面での利点もある。初期段階では高級モデルから採用される見込みで、コスト低減に伴い、より多くのモデルに搭載されるようになると予想されている。",
+    "tags": [
+      "EV",
+      "電池",
+      "BYD",
+      "固体電池"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2265495/byd-new-solid-state-battery-ev-almost-ready-2027/",
+    "importance": 4,
+    "image_query": "electric vehicle car battery",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1593941707874-ef25b8b4a92b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxlbGVjdHJpYyUyMHZlaGljbGUlMjBjYXIlMjBiYXR0ZXJ5fGVufDF8MHx8fDE3OTA1NDQ1MDB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "CHUTTERSNAP",
+      "profileUrl": "https://unsplash.com/@chuttersnap?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "electric vehicle charging cable plugged into car"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:20.441Z",
+    "publishedAt": "2026-09-27T18:30:00.000Z"
+  },
+  {
+    "slug": "20260928-05",
+    "headline": "NTTドコモ、聞き返す AI で顧客対応を革新",
+    "lead": "生成 AI が顧客の意図を対話で確認し、正確な案内を実現。複雑化する通信サービスの問い合わせに対応。",
+    "body_markdown": "NTTドコモが、顧客サービスの改革に向けて、生成 AI を活用した新しい対話システムを導入した。従来の「正しく質問させる」アプローチをやめ、AI 側が顧客と対話を通じて意図を確認するという逆転の発想である。\n\nドコモが直面していた課題は、顧客からの問い合わせが短すぎることだった。「料金変更」など断片的な言葉だけでは意図が明確でなく、従来のシステムでは長大な説明を提供しなければならず、顧客側の負担が増していた。\n\nPKSHA Technology 提供の「PKSHA ChatAgent」を導入したドコモは、生成 AI が顧客のやりとりを通じて状況を整理し、より自然な対応を実現している。重要な特徴は、顧客が専門用語を調べたり、状況を事前に整理したりする必要がなくなったことだ。普段使っている言葉のままで問い合わせられるようになった。\n\n「レスポンス安定化」オプションにより、混雑時の応答速度を確保し、オペレーターは個別相談に注力できるようになった。通信サービスの複雑化に対応しつつ、顧客満足度を高める取り組みとして注目される。",
+    "tags": [
+      "AI",
+      "顧客対応",
+      "NTTドコモ",
+      "生成AI"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://kn.itmedia.co.jp/kn/article/2609/27/2000001764/",
+    "importance": 4,
+    "image_query": "customer service call center support",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1712159018726-4564d92f3ec2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxjdXN0b21lciUyMHNlcnZpY2UlMjBjYWxsJTIwY2VudGVyJTIwc3VwcG9ydHxlbnwxfDB8fHwxNzkwNTQ0NTAwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vagaro",
+      "profileUrl": "https://unsplash.com/@vagaro?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a man wearing a headset sitting in front of a computer",
+      "description": "A customer support representative at Vagaro is assisting a client through a headset, offering support in an office."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:20.846Z",
+    "publishedAt": "2026-09-26T22:00:00.000Z"
+  },
+  {
+    "slug": "20260928-06",
+    "headline": "産業界だけでは不十分、家庭のライフスタイル変革が必須",
+    "lead": "1.5℃目標達成には産業と家庭の双方が変わる必要があり、政府は実現可能な条件を整備すべき。",
+    "body_markdown": "気候変動研究者のステファニー・キャップは、1.5℃以内に気温上昇を抑えるための重要な指摘を行った。産業が急速に持続可能化しても、家庭のライフスタイル変更なくしては目標達成が不可能だという主張だ。キャップは博士論文「すべてが変わらなければならない：産業と家庭全体にわたる1.5℃脱炭素化シナリオ」を10月1日に発表予定である。\n\nキャップの研究が強調するのは、個人の行動と構造的支援の両立の必要性である。政府と企業は、理想的な呼びかけだけでなく、実現可能な条件を整備する責任があると指摘している。\n\n具体的には、公共交通の充実による自動車依存の軽減、就業環境の改革によるライフスタイル変更の実現、化石燃料加熱から排出ゼロ暖房への転換などが必要とされている。\n\n「個人の変化は1.5℃以下に留まるために本質的であり、人々は変化をもたらすことができることを知ることで、力を与えられると感じるべき」とキャップは述べており、個人と社会の両面からのアプローチを強調している。",
+    "tags": [
+      "気候変動",
+      "脱炭素",
+      "1.5℃",
+      "ライフスタイル"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-responsible-limiting-global.html",
+    "importance": 4,
+    "image_query": "renewable energy solar wind power",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1723640103357-cd8e8f0cd10c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMnx8cmVuZXdhYmxlJTIwZW5lcmd5JTIwc29sYXIlMjB3aW5kJTIwcG93ZXJ8ZW58MXwwfHx8MTc5MDU0NDUwMXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Arno Senoner",
+      "profileUrl": "https://unsplash.com/@arnosenoner?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A wind farm with a wind turbine in the background",
+      "description": "Multi energy sources scenario in western Sardinia, Italy: coal, wind and solar power generation in one image – reason for this seemingly unusual setting is that the coal plant is being phased out (there were two of them originally), and the transmission capacity available shall not be wasted but instead used by renewable energy sources."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:21.735Z",
+    "publishedAt": "2026-09-27T21:00:01.000Z"
+  },
+  {
+    "slug": "20260928-07",
+    "headline": "津波が魚に「交雑」起こすも種の壁は堅牢",
+    "lead": "2011年津波後、別々の魚種が混生した池で交雑が発生。だが9年で海生種の遺伝子ほぼ消失。",
+    "body_markdown": "2011年の東日本大震災による津波は、岩手県大槌町で大きな環境変化をもたらし、生物学的な重要な知見を生み出した。海生のニッポンイトヨと淡水生のイトヨという2つの近い関連種が、新たに形成された淡水池で初めて接触し、交雑が起きたのだ。\n\n研究チームが9年間この混合集団を追跡調査した結果、興味深い変化が観察された。2012年には38%の個体が交雑種だったが、その後の世代交代の中で劇的な変化が生じた。2020年までに、海生種由来のゲノム領域はほぼ消失し、集団は淡水種の遺伝子組成に戻ったのだ。世代交代が約1年である同種の場合、この消失は約10世代で完了している。\n\n研究者たちが発見した種の境界維持メカニズムは、2つの主要な要素から成立している。第1に、淡水適応や配偶子選択に関連する領域では、強力な生殖隔離が機能した。第2に、ゲノム全体に分布する多数の弱い遺伝的不適合が、外来ゲノムの継続的な除去に寄与している。\n\nこの研究は、環境変動下における種の保持メカニズムと進化の理解を深める重要な証拠となっている。",
+    "tags": [
+      "進化",
+      "遺伝",
+      "魚類",
+      "東日本大震災"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-japan-tsunami-fish-hybridization-species.html",
+    "importance": 4,
+    "image_query": "fish species water pond biodiversity",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1786274023448-93e48c8a92ef?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8ZmlzaCUyMHNwZWNpZXMlMjB3YXRlciUyMHBvbmQlMjBiaW9kaXZlcnNpdHl8ZW58MXwwfHx8MTc5MDU0NDUwMnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Gabriele Carluccio",
+      "profileUrl": "https://unsplash.com/@gabrielecarluccio_?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A bright orange and black koi fish swimming in clear pond water",
+      "description": "A beautiful, flowing long-tailed Shubunkin goldfish (also known as a Comet-type calico goldfish) swims through murky, greenish pond water. This fish has a stunning calico color pattern of bright red and deep black, with long, delicate, deeply forked tail fins. Captured from above, the image shows the fish's elegant form as it moves, with a textured background of submerged algae and aquatic plants. The natural water visibility highlights the fish's vivid colors."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:22.408Z",
+    "publishedAt": "2026-09-27T20:00:01.000Z"
+  },
+  {
+    "slug": "20260928-08",
+    "headline": "グルコサミン、アルツハイマー進行と関連か",
+    "lead": "膝サプリで人気のグルコサミン摂取が、認知症進行リスク25%上昇と関連。臨床試験での確認が必要。",
+    "body_markdown": "関節の痛みに悩む高齢者に広く使われているグルコサミンサプリメントが、アルツハイマー病の進行を加速させる可能性があることが、フロリダ大学の研究チームによって指摘された。2012年から2024年にかけての12年間、UFヘルス記録を分析した結果である。\n\nこの研究は、軽度認知障害またはアルツハイマー病患者約1,896人および2,750人を追跡調査したもの。グルコサミン使用者は、軽度認知障害がアルツハイマー病へ進行する可能性が25%高かった。さらにアルツハイマー病患者では、グルコサミン使用と25%高い死亡リスクが結びついていた。\n\n研究チームが着目したのは、タンパク質への糖構造の異常な付着プロセスだ。このプロセスはアルツハイマー脳で過度に活発になり、マウスの実験ではグルコサミンが活性を増加させて記憶障害をもたらした。\n\nただし研究者たちは重要な注意喚起をしている。これらの知見は関連性を示すものであり、グルコサミンが実際に害を引き起こすかどうかはまだ証明されていない。人間での臨床試験の実施が必要とされており、サプリ摂取者が直ちに中止する必要はないと考えられている。",
+    "tags": [
+      "グルコサミン",
+      "アルツハイマー",
+      "サプリメント",
+      "認知症"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260927033754.htm",
+    "importance": 4,
+    "image_query": "supplement pills health medicine",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1577368211130-4bbd0181ddf0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxzdXBwbGVtZW50JTIwcGlsbHMlMjBoZWFsdGglMjBtZWRpY2luZXxlbnwxfDB8fHwxNzkwNTQ0NTAyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Volodymyr Hryshchenko",
+      "profileUrl": "https://unsplash.com/@lunarts?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person holding medicine pills",
+      "description": "A pile of multi-colored pills in a male hand. A man holds pills in his hand. The concept of medicine, illness, health"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:23.066Z",
+    "publishedAt": "2026-09-27T13:53:39.000Z"
+  },
+  {
+    "slug": "20260928-09",
+    "headline": "15億年前の化石が複雑生命出現を証明",
+    "lead": "オーストラリアで発見の12,000個以上の真核生物化石が、酸素が生命進化の鍵だったことを示唆。",
+    "body_markdown": "オーストラリア北部で採取された堆積岩コアから、12,000個以上の古い真核生物の化石が発見された。今から15億年以上前のものであり、現在確認されている最古の真核生物だ。これらの化石は、単細胞生物から複雑な生命への進化過程を理解する上で、極めて重要な証拠を提供している。\n\n発見された化石が示す環境は、海岸の干潟から外洋まで、極めて多様だった。これまでの仮説では、酸素なしでも繁栄できる真核生物が存在すると考えられていたが、今回の化学分析が異なる実態を示した。酸素が存在していた環境からのみ真核生物化石が発見され、酸素のない環境では単純な原核生物のみが見られたのだ。\n\nこの発見は、従来の理論に対する有力な証拠となっている。近年の研究では「酸素ははるかに希少だった可能性」という見方も広がっていたが、今回の化石証拠は、酸素が早期真核生物の進化に本質的な役割を果たしたという長年の仮説を強く支持するものである。\n\n複雑生命がどのようにして地球に出現したのかという問いに対し、この研究は酸素という環境要因の重要性を示唆しており、生命進化の理解を大きく前進させるものと評価されている。",
+    "tags": [
+      "化石",
+      "真核生物",
+      "進化",
+      "酸素"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260925005447.htm",
+    "importance": 4,
+    "image_query": "fossil geology paleontology ancient",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1737773375012-82dc765ed0b5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyM3x8Zm9zc2lsJTIwZ2VvbG9neSUyMHBhbGVvbnRvbG9neSUyMGFuY2llbnR8ZW58MXwwfHx8MTc5MDU0NDUwM3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "David Clode",
+      "profileUrl": "https://unsplash.com/@davidclode?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A skeleton of a bird on a rock",
+      "description": "A fossil cast of a Diprotodon, a giant wombat. Diprotodon was the largest marsupial that ever existed, weighing up to 2800 kilos, 1.7m high and 4m long. Replica of a fossil from the Riversleigh fossil site in NW Queensland, Australia (a world heritage site)."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:23.885Z",
+    "publishedAt": "2026-09-27T11:55:50.000Z"
+  },
+  {
+    "slug": "20260928-10",
+    "headline": "キューバ、米軍事行動を「国際的犯罪」と非難",
+    "lead": "トランプの軍事行動示唆に対し、キューバは経済制裁をジェノサイドと表現し強く反発。",
+    "body_markdown": "キューバの副外相カルロス・フェルナンデス・デ・コシオは、C-SPAN のワシントン・ジャーナルで、米国の軍事行動の可能性に対する強い反発を表明した。トランプ大統領が国連演説でキューバへの「自由がやってくる」と示唆し、軍事行動の可能性をほのめかしたことへの対抗姿勢だ。\n\nコシオは、米国のキューバに対する軍事介入があれば、それは「国際的な極悪犯罪」になると断定した。トランプの「失敗国家」というキューバの表現にも反論し、平和なキューバ国への侵攻の正当性を認めない立場を示している。\n\n特に注目すべきは、キューバ側の「ジェノサイド」表現である。コシオは、米国の60年以上にわたる経済制裁について、「国家を威嚇し、飢餓を通じた人口の懲罰、医療アクセスの剥奪、燃料の供給停止」といった行為は「ジェノサイドに等しい」と述べ、強硬な言葉で非難している。\n\n米国がキューバへの燃料禁輸を最近強化し、インフラに広範な被害をもたらしている中での発言である。外交チャネルは開かれているものの、経済的な対抗関係の中で、両国の相互尊重と主権を基本とした交渉の実現には高い障壁が存在している。",
+    "tags": [
+      "キューバ",
+      "米国",
+      "外交",
+      "経済制裁"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/27/atrocious-crime-cuban-official-decries-possibility-of-us-military-action",
+    "importance": 4,
+    "image_query": "diplomacy international relations flags",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1592487501226-7ed5e5dc80f2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkaXBsb21hY3klMjBpbnRlcm5hdGlvbmFsJTIwcmVsYXRpb25zJTIwZmxhZ3N8ZW58MXwwfHx8MTc5MDU0NDUwNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Nick Fewings",
+      "profileUrl": "https://unsplash.com/@jannerboy62?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "multi colored paper on brown cardboard box",
+      "description": "The flags of the 32 countries that made the World Cup Finals in Russia in 2018."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:24.464Z",
+    "publishedAt": "2026-09-27T20:34:09.000Z"
+  },
+  {
+    "slug": "20260928-11",
+    "headline": "火山の結晶から、マグマの移動を読み取る",
+    "lead": "結晶の化学層から マグマ上昇の速度が判明。火山予測の精度向上に期待。",
+    "body_markdown": "火山研究者たちが、火山に含まれる鉱物結晶の化学成分を分析することで、マグマがどのような経路をたどり、どの速度で地表へ向かったのかを追跡する新しい方法を開発している。カナリア諸島ラパルマ島の1712年、1971年、2021年の噴火から採取された溶岩サンプルを調査したもので、クリノピロキセンという鉱物に焦点が当てられた。\n\n研究では、高解像度化学イメージング技術を使用して、鉱物の成長履歴が分析された。樹木の年輪を読むのと同じ原理で、結晶は深部でゆっくり成長する際に、温度や深さ、化学的条件を層状に記録する。\n\n分析結果から、3段階のマグマプロセスが明らかになった。第1に、結晶の中心は地球マントル内18～25km深さの古い冷たいマグマ溜まりを記録している。第2に、噴火の数日～数週間前に、ホットなマグマが上昇してこの領域を再活性化する。第3に、外側の層は地表に向かった急速な上昇を記録している。\n\nこの知見により、地表の監視ネットワークでは検出困難な深部でのマグマ蓄積を理解し、将来の火山活動をより正確に解釈できるようになる可能性がある。",
+    "tags": [
+      "火山",
+      "地質学",
+      "マグマ",
+      "予測"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-volcanic-crystals-black-tracking-magma.html",
+    "importance": 4,
+    "image_query": "volcano magma lava eruption geological",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1516537219851-920e2670c6e3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHx2b2xjYW5vJTIwbWFnbWElMjBsYXZhJTIwZXJ1cHRpb24lMjBnZW9sb2dpY2FsfGVufDF8MHx8fDE3OTA1NDQ1MDR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Marc Szeglat",
+      "profileUrl": "https://unsplash.com/@marcszeglat?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "eruption of volcano",
+      "description": "I shot this pic at Sakurajima volcano on japanese island Kyushu in 2013. After nights of waiting with minor eruptions without lightning, i captured this amazing pic."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:25.011Z",
+    "publishedAt": "2026-09-27T19:00:01.000Z"
+  },
+  {
+    "slug": "20260928-12",
+    "headline": "Meta の Muse、信頼の壁を越えられるか",
+    "lead": "Meta の AI エージェント Muse が、OpenAI・Anthropic と異なる戦略で消費者市場に参入。信頼が鍵。",
+    "body_markdown": "Meta が Connect イベントで発表した個人向け AI エージェント「Muse」が、AI アシスタント市場で注目を集めている。スマートフォンアプリとしてテキスト対話インターフェースを備えた Muse は、未請求資金を見つけて返金請求するなど、実用的な機能を備えている。\n\nただし、OpenAI と Anthropic との戦略的な相違が明らかになっている。OpenAI と Anthropic は高い評価と高い運営コストから、企業向けソリューションで大規模な収益化が必須という圧力に直面している。一方 Meta は、消費者向けのより親しみやすいバージョンに注力し、既存の広告プラットフォームとの統合を活かそうとしている。\n\nしかし、Meta が直面する深刻な障壁は信頼の問題だ。Meta のビジネスモデルは広告販売であり、ユーザー情報へのアクセスを拡大しようとしている。これに対し、Apple の Siri なら「より機密性の高い情報を信頼できる」という評価がある。クレジットカード情報や Gmail へのアクセスを求める Meta が、消費者の信頼を獲得することは非常に困難な見通しとなっている。",
+    "tags": [
+      "AI",
+      "Meta",
+      "Muse",
+      "信頼"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+    "importance": 4,
+    "image_query": "artificial intelligence chatbot app interface",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1788835363012-bcac6ca7a8f7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGNoYXRib3QlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXwwfHx8MTc5MDU0NDUwNXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "MARCO",
+      "profileUrl": "https://unsplash.com/@thephotoandfocus?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A smartphone screen displaying a chat interface with a virtual keyboard on black",
+      "description": "ChatGPT, ChatGPT AI, Code, Prompt, Keyboard, Smartphone, Samsung Galaxy, AI, ChatBot, ChatBot AI, ChatGPT app"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:25.939Z",
+    "publishedAt": "2026-09-27T19:57:30.000Z"
+  },
+  {
+    "slug": "20260928-13",
+    "headline": "太字で読みやすく？ Bionic Reading、科学で検証",
+    "lead": "単語の最初を太字にする読書法は気持ちよさは増すが、読速度向上の証拠は薄い。",
+    "body_markdown": "ロンドン大学の研究チームが、Bionic Reading という読書法の効果を眼球追跡実験で検証した。Bionic Reading は、単語の最初の半分を太字にすることで、読速度と理解度の向上を謳っているトレンド手法だ。研究では90名の熟練読者を対象に、「太字の最初の半分」「太字の中央部」「太字なし」の3条件で画面表示テキストを読ませ、各文後に真偽問題に答えさせた。\n\n結果は予想と異なっていた。太字により長い単語への眼の着地位置は変わったが、単語と文全体の読時間に改善がなかったのだ。理解度測定でも有意な効果は認められず、既に正答率が95%に達していた参加者層では改善の余地そのものがなかった。\n\nただし興味深い個人差も観察された。トレンドオフセット現象として、読むのが「楽に感じられる」効果と「実際に速くなる」効果は別物であることが示唆された。43名が通常テキストを好む一方で、31名は太字版を支持する傾向が見られた。\n\nBionic Reading は体感的には読みやすさを改善する可能性があるが、科学的には読速度や理解度の向上を必ずしも実証していない。読み好みは個人差が大きい可能性が高い。",
+    "tags": [
+      "読書",
+      "認知科学",
+      "テキスト",
+      "研究"
+    ],
+    "section": "テクノロジー",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-bionic-faster-scientists.html",
+    "importance": 3,
+    "image_query": "reading text screen typography font",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:25.941Z",
+    "publishedAt": "2026-09-27T17:40:01.000Z"
+  },
+  {
+    "slug": "20260928-14",
+    "headline": "農業用太陽光発電、土壌保護が持続性の鍵",
+    "lead": "建設時の重機が土を圧縮、根の成長を阻害。農業枠の維持には専門的な土壌管理が必須。",
+    "body_markdown": "農業と再生可能エネルギーを両立させる agri-photovoltaics（農業用太陽光発電）が、持続可能性と土壌保護の課題を抱えていることが、ドイツの Leibniz 農業景観研究センターの研究で明らかになった。\n\n問題は建設時の重機による土壌圧縮だ。測定によると、施工箇所の土壌密度は1.86～1.99g/cm³に達した一方、未圧縮対照地は1.14～1.34g/cm³。この圧縮は植物の根の貫通抵抗を著しく上げ、特に自然回復メカニズムに乏しい砂質土では深刻な影響をもたらす。\n\n同レベルの圧縮では、冬ライ麦の収量が22～43%低下することが報告されている。水の浸透速度が低下し、根の発達が極度に制限されるからだ。圧縮はパネル周辺だけでなく、頻繁な重機往来により「パネル列間の農業地全体」に及んでいることも確認された。\n\n軽減には、施工時の土壌学的監視、車両走行路の制限、接地保護板の使用、降雨時施工の回避などが推奨されている。施工後の生物的復元も可能だが、アルファルファを2～3年栽培するなど、ヘクタール当たり数千ユーロのコストを要する。技術と経済のバランスが、持続可能な agri-photovoltaics の実現の鍵となっている。",
+    "tags": [
+      "太陽光発電",
+      "農業",
+      "土壌",
+      "持続可能性"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-soil-agri-photovoltaics-sustainable.html",
+    "importance": 4,
+    "image_query": "solar panel field renewable energy agriculture",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1626251376234-8bc112f0bcd5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxzb2xhciUyMHBhbmVsJTIwZmllbGQlMjByZW5ld2FibGUlMjBlbmVyZ3klMjBhZ3JpY3VsdHVyZXxlbnwxfDB8fHwxNzkwNTQ0NTA2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Andres Siimon",
+      "profileUrl": "https://unsplash.com/@johnmcclane?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black solar panels on purple flower field during daytime",
+      "description": "Solar panels in the field, field flowers foreground"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:26.653Z",
+    "publishedAt": "2026-09-27T17:00:01.000Z"
+  },
+  {
+    "slug": "20260928-15",
+    "headline": "AI が医療請求を複雑化、保険料に9億4,200万ドル負荷",
+    "lead": "Blue Cross Blue Shield が報告。2年間で9億4,200万ドル追加コスト。不適切なコーディング疑い。",
+    "body_markdown": "Blue Cross Blue Shield Association（BCBSA）の分析が、医療コーディングに使われる AI ツール導入に伴う、深刻なコスト増を報告している。病院が AI を用いて保険請求を提出する過程で、2年間にわたり追加で9億4,200万ドルの医療費支出が発生したというのだ。\n\nコスト増加の原因は、医療コーディングの不適切な使用にある。BCBSA の分析は「複雑な状態を持つと記録された患者の急激な増加」を検出したが、同時に「医療コーディングと実際の治療ケアの間に明らかな断絶」があることを指摘。つまり「提供される治療ケアに対応する変化の証拠がない」ということだ。\n\n保険業界は、病院が AI ツールを悪用して医療請求をより複雑に見せかけることで、実際には提供されていない治療費を請求されていると懸念している。BCBSA の幹部は状況を「完全に一方的な壊滅的な状況」と表現し、「戦争」ではなく保険業界が被害を受けているという見方を示している。\n\nAI 導入による効率化がもたらすはずの利益が、逆に医療システムの信頼を損なう事態となっている。医療コーディングにおける倫理的ガイドラインとチェック体制の強化が急務と判断されている。",
+    "tags": [
+      "AI",
+      "医療費",
+      "保険",
+      "請求"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+    "importance": 4,
+    "image_query": "healthcare hospital medical insurance billing",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1722235625805-ea64de92983d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8aGVhbHRoY2FyZSUyMGhvc3BpdGFsJTIwbWVkaWNhbCUyMGluc3VyYW5jZSUyMGJpbGxpbmd8ZW58MXwwfHx8MTc5MDU0NDUwN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Marek Studzinski",
+      "profileUrl": "https://unsplash.com/@jccards?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A medical id card with medical symbols on it",
+      "description": "4 health cards"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:27.578Z",
+    "publishedAt": "2026-09-26T21:02:06.000Z"
+  },
+  {
+    "slug": "20260928-16",
+    "headline": "道徳的言葉は拡散を促すが、詰め込みすぎは逆効果",
+    "lead": "162万件投稿分析。道徳的内容は共有伸びるも、濃度が高まるとエンゲージメント低下。",
+    "body_markdown": "Twitter、Reddit、8chan にわたり162万件のポストを分析した研究が、ソーシャルメディアでの拡散と道徳的言語の複雑な関係を明らかにした。3つの大学の研究チームは、「Distributed Dictionary Representations」という計算手法を用いて、各投稿がどの程度道徳的観念に関連しているか、また道徳内容がどれほど濃密に盛り込まれているかを測定した。\n\nキーとなる指標は2つある。第1に「道徳負荷」で、投稿に含まれる道徳的観念の程度。第2に「道徳密度」で、単語全体における道徳内容の濃度だ。\n\n結果は微妙な関係を示した。道徳負荷はすべてのプラットフォームで一貫してエンゲージメント増加と相関した。しかし道徳密度は逆の効果を示し、道徳的関連性が変わらないまま密度が上がるとエンゲージメントが低下した。平均して、エンゲージメントは約0.30の道徳密度スコアで最高に達し、その後は飽和に伴い減少した。\n\nただし重要な限界がある。本研究は観察的であり、実験的ではない。つまり相関は示されたが、因果関係については実験的検証が必要である。道徳的言語が拡散を生むのか、拡散しやすい投稿が道徳言語を含むのか、その方向性は依然として不明である。",
+    "tags": [
+      "ソーシャルメディア",
+      "研究",
+      "倫理",
+      "拡散"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-moral-language-doesnt-engagement-online.html",
+    "importance": 3,
+    "image_query": "social media engagement communication online",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:27.580Z",
+    "publishedAt": "2026-09-27T16:10:01.000Z"
+  },
+  {
+    "slug": "20260928-17",
+    "headline": "リウマチ痛、炎症改善後も続く理由",
+    "lead": "睡眠不足・抑うつ・肥満が悪循環を生成。個別化治療で本当のニーズに対応。",
+    "body_markdown": "リウマチ性関節炎の患者が直面する厄介な現象がある。炎症が医学的に改善されても、痛みや疲労が続くケースだ。セメルワイス大学の研究チームは、この謎の背後にある複雑なメカニズムを解明した。\n\n隠れた原因は多数存在する。睡眠障害、抑うつ、肥満、喫煙、その他の健康問題が症状の持続を助長するというのだ。特に重要なのは、これらが悪循環を形成することである。痛みと抑うつが身体活動を減らし、体重増加を招き、その結果として睡眠と気分の両方が悪化し、さらに痛みが激化するという連鎖である。\n\n研究チームが提案する個別化治療アプローチは、医師の視点を変える。炎症マーカーが改善しても患者が苦しむ場合、医師は「何が症状を維持しているのか」を積極的に探すべきとしている。これには慢性疼痛症候群、抑うつ、睡眠障害、肥満の検査が含まれる。\n\n従来の「炎症を抑える」という単一的なアプローチから、患者の複合的なニーズに対応する包括的治療へのシフトが求められている。医師と患者の関係も強化され、実生活における痛みの根本的な軽減が期待できるようになるであろう。",
+    "tags": [
+      "関節炎",
+      "痛み",
+      "医療",
+      "心理社会的要因"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260925093208.htm",
+    "importance": 3,
+    "image_query": "healthcare medical treatment pain relief",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:27.584Z",
+    "publishedAt": "2026-09-27T10:49:13.000Z"
+  },
+  {
+    "slug": "20260928-18",
+    "headline": "香り付きクリーナー、兆個ナノ粒子発生",
+    "lead": "テルペン類とオゾンの反応で数分で数兆個。幹線道路並みの吸入リスク。",
+    "body_markdown": "香り付きクリーナーが、室内で想像以上の数のナノ粒子を発生させていることが、新しい研究によって明らかになった。含まれるテルペン類（ピネン、リモネン、チモール、リナロール）が、室内のオゾンと反応するプロセスだ。\n\nこの化学反応は驚くほど速い。フレグランス化合物は室内の酸化剤、特にオゾンと反応して「ナノ粒子の激しい核生成と成長イベント」を引き起こし、わずか数分で数十億から数兆個のナノ粒子が生成される。屋外の森林環境よりもはるかに速い。\n\n生成されるナノ粒子は極めて小さい（1～30ナノメートル）ため、呼吸器系全体に沈着し、肺の深い領域に到達する可能性がある。健康リスクとしては呼吸器系の刺激と炎症、一部粒子は血流への侵入が挙げられている。\n\n曝露量の評価は衝撃的だ。「幹線道路の近くに立つことと同等か、それ以上の吸入粒子用量」に相当するという。推奨される対策は無香料製品の選択、換気の改善、オゾン発生装置の同時使用を避けることである。家庭内環境の「香り」の代償が、思いのほか大きいことが浮き彫りになっている。",
+    "tags": [
+      "室内環境",
+      "化学",
+      "健康",
+      "ナノ粒子"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260925093152.htm",
+    "importance": 3,
+    "image_query": "indoor air quality pollution particles",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:27.586Z",
+    "publishedAt": "2026-09-26T14:49:45.000Z"
+  },
+  {
+    "slug": "20260928-19",
+    "headline": "デジタルアバター、ジャーナリズム信頼に脅威",
+    "lead": "自分のデジタルクローン制作が可能に。倫理と信頼の課題が浮上。",
+    "body_markdown": "Synthesia のスタジオで、自分自身のデジタルアバターを作成する実験が行われた。複数の写真と2分間の音声録音から、数日で対話型のビデオアバターが完成。音声認識、言語モデル、音声合成、ビデオアニメーションという複数の AI 技術が組み合わされている。\n\n実用的な応用は多い。企業の PR 活動、営業研修での対話型ロールプレイ、従業員スキル練習プラットフォームなど、様々な領域での導入が進んでいる。高度に個別化された学習やトレーニングが可能になった。\n\nしかし倫理的な課題が深刻だ。ジャーナリズムの信頼性について、「ジャーナリズムの最大の要素は信頼であり、それを AI に外注することはできない」という懸念が示されている。記者が AI クローンで取材内容を発信することになれば、読者は誰と対話しているのか確信できなくなる。\n\n非決定論的アバター（チャットボット搭載型）による「AI 精神病」のリスクも言及されている。AI が不正確な情報を確信を持って述べた場合、視聴者はそれが信頼できる情報源からのものと誤認する危険がある。デジタルアバター技術の応用は、メディア信頼の土台そのものを揺るがす可能性を秘めている。",
+    "tags": [
+      "AI",
+      "ジャーナリズム",
+      "信頼",
+      "倫理"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
+    "importance": 3,
+    "image_query": "artificial intelligence avatar digital clone",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:27.588Z",
+    "publishedAt": "2026-09-26T14:00:00.000Z"
+  },
+  {
+    "slug": "20260928-20",
+    "headline": "性差は進化が決めたのか、社会が作ったのか",
+    "lead": "進化心理学の大論争。Stewart-Williams の新著が『自然重視』側を代表。地理的差異が議論を複雑化。",
+    "body_markdown": "進化心理学における性差の起源について、新しい著作が大きな論争を巻き起こしている。心理学者 Steve Stewart-Williams の『A Billion Years of Sex Differences（10億年の性差）』が、男女の心理的違いは主に生物学的要因によって形成されたと主張しているのだ。\n\nStewart-Williams は「自然が支配的な要因」と考え、性的嗜好、パートナー選択、反社会的行動、親子関係において信頼できる差異が存在するとしている。\n\n批評家の Cordelia Fine は、これを科学スペクトラムの「極端な自然重視側」と指摘し、代替フレームワークの「社会役割理論」を支持する。同理論は心理的性差が主として性別役割と階層構造の結果だと論じている。\n\n議論を複雑にするのが、地理的なばらつきだ。思春期の身体的けんかの性差を見ると、チュニジアとスリナムでは男児が女児の8倍だが、ザンビア、トンガ、ベニン、ガーナではほぼ無差別である。このような大きな地理的変動は、単純な生物学的説明では説明困難だ。\n\nホルモン研究やおもちゃへの嗜好など、複数の研究結果の解釈をめぐって両者の見解が対立している。性差の起源は、科学界においても決着の遠い問題として続いている。",
+    "tags": [
+      "進化",
+      "性差",
+      "心理学",
+      "科学論争"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-evolution-men-women-minds-outdated.html",
+    "importance": 3,
+    "image_query": "psychology human behavior social science",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:27.589Z",
+    "publishedAt": "2026-09-27T16:00:01.000Z"
+  },
+  {
+    "slug": "20260928-21",
+    "headline": "中世の墓、DNA が血族関係を否定",
+    "lead": "スウェーデン中世遺跡の142人分析。埋葬は血族より社会的要因で決定か。",
+    "body_markdown": "スウェーデンの中世遺跡から出土した遺骨142人を古代 DNA 分析した結果、埋葬慣行についての従来の想定が覆された。同じ墓に埋葬された成人と子ども、さらには複数の個人が血族関係にあることは、驚くほど稀だったのだ。\n\nStockholm University の研究者たちは、埋葬の決定が「生物学的に近い親族関係以上のもの」によって形作られていたと結論付けている。社会的、宗教的、あるいはコミュニティ的な要因が重要な役割を果たしていた可能性が高い。\n\n興味深い点は性別と埋葬習慣の関係だ。少年少女は成人と同じ埋葬慣行に従っていた。Västerhus遺跡では、男女が墓地の異なる側に埋葬されており、「少年少女はその同じパターンに従った」という。子どもたちが早期に性別に基づく社会的役割の規範を受け入れていたことを示唆している。\n\n特に注目される発見は、ホタテ貝の殻とともに埋葬された女性（Lady 56）だ。この貝はスペイン北西部のサンティアゴ・デ・コンポステーラへの巡礼の象徴であり、彼女が中世ヨーロッパの有名な巡礼路を完成させた可能性を示唆している。古代の埋葬パターンは、意外に複雑な人間関係と社会構造を映し出している。",
+    "tags": [
+      "考古学",
+      "DNA",
+      "中世",
+      "埋葬"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/09/260925005444.htm",
+    "importance": 3,
+    "image_query": "archaeological excavation medieval cemetery",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-27T21:28:27.590Z",
+    "publishedAt": "2026-09-27T02:49:07.000Z"
+  },
+  {
     "slug": "20260927-22",
     "headline": "Microsoft、AI統合アプリ「Copilot」刷新—チャット・コード・エージェント一本化",
     "lead": "Microsoft が9月25日、チャット・コーディング・AI エージェント「Autopilot」を統一した「Copilot super app」を発表。ビジネス向けAI戦略を強化。",
