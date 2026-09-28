@@ -1,5 +1,582 @@
 [
   {
+    "slug": "20260929-01",
+    "headline": "AMD、Fei-Fei Li率いるWorld Labsを82億ドルで買収",
+    "lead": "AMDが空間インテリジェンス企業ワールドラボズを82億ドルで買収し、創業者のFei-Fei Liを最高科学責任者として迎え入れる。",
+    "body_markdown": "AMDは2026年9月、Fei-Fei Li率いるAI企業ワールドラボズを82億ドル（全株式ベース）で買収することを発表した。\n\nワールドラボズはテキスト、画像、動画から対話型の3D環境を生成・シミュレーションする空間インテリジェンス技術を開発している。ロボット学習やシミュレーション技術も手がけ、サンフランシスコに本拠を置く。\n\n買収完了後、Fei-Fei LiはAMDの最高科学責任者（EVP）として、CEO Lisa Suに直属する。AMDのLisa Su CEOは「次世代AIコンピュートプラットフォームの構築には、モデルがどのように進化しているかの深い理解が必要」とコメント。同社は、推論・ロボット・シミュレーションなど新興ワークロードに対応するチップ開発に、ワールドラボズの知見を活かす考えだ。\n\n取引は2026年末までの完了を予定。AMDは、自社ハードウェア・ソフトウェアと、ワールドラボズのモデル開発力を組み合わせ、オープンなAIエコシステム向けのインフラ整備を加速させる戦略を示している。",
+    "tags": [
+      "AI",
+      "買収",
+      "AMD",
+      "空間インテリジェンス"
+    ],
+    "section": "ビジネス",
+    "source": "AMD Newsroom",
+    "link": "https://newsroom.amd.com/news/amd-acquire-world-labs/",
+    "importance": 5,
+    "image_query": "artificial intelligence chip processor",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1716436329475-4c55d05383bb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwY2hpcCUyMHByb2Nlc3NvcnxlbnwxfDB8fHwxNzkwNjMwNTUwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "BoliviaInteligente",
+      "profileUrl": "https://unsplash.com/@boliviainteligente?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A central computer processor chip with AI lettering on a black circuit board",
+      "description": "chip, chipset, AI, artificial intelligence, microchip, technology, innovation, electronics, computer hardware, circuit board, integrated circuit, AI chip, machine learning, neural network, robotics, automation, computing, futuristic, tech, gadget, device, component, semiconductor, electronics component, digital, futuristic tech, AI technology, intelligent system, motherboard, computer, intel, AMD, Ryzen, Core, Apple M1, Apple M2, CPU, processor, computing platform, hardware component, tech innovation, IA, inteligencia artificial, microchip, tecnología, innovación, electrónica"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:30.882Z",
+    "publishedAt": "2026-09-28T19:00:00.000Z"
+  },
+  {
+    "slug": "20260929-02",
+    "headline": "Anthropic、Sonnet 5.5リリース—30%高速化・大幅コスト削減",
+    "lead": "Anthropicが新型モデルSonnet 5.5を発表。前版比30%の高速化と大幅なトークン削減で、コーディングと文書作成に最適化。",
+    "body_markdown": "Anthropicが9月28日、中位モデル『Claude Sonnet 5.5』をリリースした。\n\nSonnet 5.5は、3ヶ月前にリリースされた前版Sonnet 5比で、30%の高速化を実現。同時にトークン消費を大幅削減し、コスト効率を大幅に改善した。日常的なアシスタント業務、特にコーディングタスクと文書作成において高いパフォーマンスを発揮するとされている。\n\n注目すべきは、セキュリティ機能の強化。Sonnet 5.5は初めて、Opus 5と同等のサイバーセキュリティ防御機構を搭載した。これまでSonnetシリーズはこの水準に達していなかった。また、エージェント型コーディングシナリオでは、より上位のOpus 5.5を上回る性能を示す。\n\nAnthropicの製品ラインアップにおいて、SonnetはOpusより機能は限定される一方、コスト・スピードの効率性で優位。同社は今後数週間以内に、最小モデル『Haiku』の更新版もリリース予定としている。",
+    "tags": [
+      "AI",
+      "LLM",
+      "Anthropic",
+      "モデル"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
+    "importance": 4,
+    "image_query": "programming code screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1669023414162-5bb06bbff0ec?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8cHJvZ3JhbW1pbmclMjBjb2RlJTIwc2NyZWVufGVufDF8MHx8fDE3OTA2MzA1NTF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Growtika",
+      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a computer with a keyboard and mouse"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:31.419Z",
+    "publishedAt": "2026-09-28T18:00:00.000Z"
+  },
+  {
+    "slug": "20260929-03",
+    "headline": "米中、600億ドル分の関税削減で合意—大豆は対象外",
+    "lead": "米中が600億ドル分の製品関税を削減することで合意したが、米国の農業セクターが重視する大豆は対象から除外。",
+    "body_markdown": "米国と中国は9月28日、600億ドル相当の非敏感製品にかかる関税を削減することで合意した。\n\n削減対象は、中国製のおもちゃから米国製化粧品まで多岐にわたる。米通商代表部のジェイミソン・グリア代表は「米国輸出の約30%に相当する市場アクセスの改善をもたらす」と述べた。対象には、トウモロコシ、小麦、乳製品などの農産物も含まれる。\n\nしかし、米農業セクターが重視する大豆は除外された。大豆は2025年、米国の最大貿易相手国である中国向けの輸出額で第二位の農産物。中国はトランプ政権の通商政策への報復として、意図的に米国産大豆を標的にしており、農家は経済的に大きな打撃を受けている。\n\n交渉当事者には3ヶ月の猶予期間が与えられ、残る懸案事項について協議を続ける。関税休戦は2027年1月10日まで有効。ただし、先月のトランプ・習近平会談が「目立った成果をもたらさなかった」という現状に鑑みると、最終的な成功は不確実な状況にある。",
+    "tags": [
+      "貿易",
+      "関税",
+      "米中関係",
+      "農業"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/09/28/us-china-tariffs-soybeans-trade-war-truce-taiwan-selling-weapons/",
+    "importance": 5,
+    "image_query": "shipping containers trade port",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxzaGlwcGluZyUyMGNvbnRhaW5lcnMlMjB0cmFkZSUyMHBvcnR8ZW58MXwwfHx8MTc5MDYzMDU1MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Andy Li",
+      "profileUrl": "https://unsplash.com/@andylid0?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "cargo ships docked at the pier during day",
+      "description": "Freight Containers on a Ship"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:32.037Z",
+    "publishedAt": "2026-09-28T20:07:00.000Z"
+  },
+  {
+    "slug": "20260929-04",
+    "headline": "トランプ、アイオワに150億ドル製鋼プラント計画—過去50年最大",
+    "lead": "トランプ政権がアイオワに過去半世紀で最大規模となる製鋼プラント建設を発表。2030年稼働予定で、1700人の常勤職を創出。",
+    "body_markdown": "トランプ大統領は9月28日、アイオワ州への150億ドル規模の製鋼プラント建設計画を発表した。プロジェクトはミネソタに本拠を置く企業メサビ・メタルリクスが推進する。\n\nプラントは米国内で過去50年間で最大規模の製鋼施設となる見込み。完工時には1700人の常勤職を創出し、建設段階で5000～6000人の雇用が生じる。鉄鉱石はミネソタ州メサビ鉄鉱山から調達される。同鉱山は50年ぶりの新規開発で、インド系財閥エッサール・グループ傘下のメサビが25億ドル以上投じて開発した。\n\n本格生産は2030年の開始を予定している。トランプ政権は「米国の産業再生と製造業の回帰、雇用創出という約束の実行」を強調。商務長官ハワード・ラトニックは、昨年導入した50%の鉄鋼関税がこのプロジェクト実現を可能にしたと指摘した。\n\n発表は中間選挙を数週間後に控えた時期。また、米国はニッポン製鋼による米スチール買収後も、国内製鋼会社の経営判断に対する影響力を保つ「ゴールデン・シェア」を保有している。",
+    "tags": [
+      "製造業",
+      "米国政策",
+      "貿易",
+      "雇用"
+    ],
+    "section": "ビジネス",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/economy/2026/9/28/trump-announces-15bn-steel-mill-project-in-iowa-before-us-midterms",
+    "importance": 5,
+    "image_query": "steel mill factory industrial",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1760507453064-d0b412a7007b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8c3RlZWwlMjBtaWxsJTIwZmFjdG9yeSUyMGluZHVzdHJpYWx8ZW58MXwwfHx8MTc5MDYzMDU1Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jakub Żerdzicki",
+      "profileUrl": "https://unsplash.com/@jakubzerdzicki?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Modern red bridge spans across green landscape with industrial background",
+      "description": "Red suspension bridge urban landscape industrial skyline. Vibrant red cable-stayed bridge crossing green forest area with industrial zone visible in background."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:32.647Z",
+    "publishedAt": "2026-09-28T20:04:00.000Z"
+  },
+  {
+    "slug": "20260929-05",
+    "headline": "Holo4、軽量な汎用エージェント—27Bモデル、複数インタフェース対応",
+    "lead": "H company（Hcompany）が軽量な27Bモデル『Holo4』をリリース。デスクトップからWebアプリ、コード実行、APIまで統一インタフェースで操作可能。",
+    "body_markdown": "H company（Hcompany）が『Holo4』シリーズのエージェントモデルをリリースした。27B密度版と35B Mixture of Experts版の2サイズで提供される。\n\nHolo4は、GUI、コード実行、MCP（モデル・コンテキスト・プロトコル）、APIという複数のインタフェースを通じてコンピュータ作業を自動化する。「画面をクリック・タイプしたり、独自のコードを書いて実行したり、MCPやAPIツールを呼び出したりできる」とのこと。\n\nプラットフォーム依存性が低い点が特徴。同じ基盤モデルで、デスクトップ、Webアプリ、Androidデバイス、コード・サンドボックス、ビジネスAPIに対応する。OSWorld 2.0ベンチマークでは、Holo4-27Bが61.7%の精度を達成。比較対象のOpus 5.5は81.8%だが、パラメータ数は大幅に少ない。\n\n軽量性とマルチインタフェース柔軟性により、実務的で展開可能なAIエージェントへの道を示している。",
+    "tags": [
+      "AI",
+      "エージェント",
+      "オープンソース",
+      "モデル"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/Hcompany/holo4",
+    "importance": 4,
+    "image_query": "artificial intelligence automation workflow",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/69fc7e49052f11ab9931b672/yzjxvlmlZKtjASwAYu6bN.jpeg",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/Hcompany/holo4",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:32.903Z",
+    "publishedAt": "2026-09-28T09:44:00.000Z"
+  },
+  {
+    "slug": "20260929-06",
+    "headline": "ミャンマー軍の空爆で市民ら33人が死亡か",
+    "lead": "内戦状態のミャンマーで、軍が西部の反政府勢力支配地域を空爆。武装勢力側の発表では市民ら33人が死亡したという。",
+    "body_markdown": "ミャンマー西部で9月28日、軍が対立する武装勢力の支配地域に対して空爆を実施した。\n\n武装勢力側の発表によれば、空爆により市民を含む33人が死亡したとされている。ミャンマーは2021年の軍事クーデター以降、内戦状態が続いている。軍事政権と反政府勢力の対立が常態化し、市民の被害も増加している。\n\n詳細は限定的ながら、継続する内戦の実態が改めて浮き彫りになった形。国際社会からの圧力や人道的懸念が高まる中でも、戦闘は継続している。",
+    "tags": [
+      "ミャンマー",
+      "内戦",
+      "人道危機",
+      "東南アジア"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260929de52957",
+    "importance": 4,
+    "image_query": "conflict war military news",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1649949480665-a2ba4b37ed5b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8Y29uZmxpY3QlMjB3YXIlMjBtaWxpdGFyeSUyMG5ld3N8ZW58MXwwfHx8MTc5MDYzMDU1M3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Road Ahead",
+      "profileUrl": "https://unsplash.com/@roadahead_2223?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a wooden block that says stop war on top of a map",
+      "description": "Stop the war in Russia and Ukraine\nDonate now to help me continue my passion\nhttps://www.paypal.com/donate/?hosted_button_id=PXL22FU4LMVG6"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:33.475Z",
+    "publishedAt": "2026-09-28T20:59:00.000Z"
+  },
+  {
+    "slug": "20260929-07",
+    "headline": "Apple、触覚技術で特許侵害—57億ドルの賠償判決",
+    "lead": "米連邦陪審団がAppleの触覚フィードバック技術『Taptic Engine』がTaction Technologyの特許を侵害したと判決。Appleは控訴を表明。",
+    "body_markdown": "米連邦陪審団は9月28日、Appleがサンディエゴの企業Taction Technologyの2件の特許を侵害したと認定し、57億ドルの賠償金支払いを命じた。\n\nTaction Technologyは触覚フィードバック（ユーザーが通知やボタン操作時に感じる振動）の特許を保有。Appleの『Taptic Engine』が同特許を侵害していると主張していた。\n\n陪審団はAppleが特許を侵害したことを認めたものの、「故意の侵害」とは認定しなかった。これによって損害賠償額は低く抑えられた。\n\nAppleは控訴する方針。同社は「Taptic Engineはタクションの技術とは根本的に異なる」と主張し、試験結果もこの区別を裏付けていると述べている。\n\n訴訟は2021年に提起され、2023年に一度却下されたが、2025年に控訴審で復活。2026年9月の判決に至った。",
+    "tags": [
+      "Apple",
+      "特許",
+      "訴訟",
+      "テクノロジー"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/economy/2026/9/28/apple-ordered-to-pay-5-7bn-in-patent-infringement-case",
+    "importance": 4,
+    "image_query": "smartphone technology patent",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1790160331489-6347198398c9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8c21hcnRwaG9uZSUyMHRlY2hub2xvZ3klMjBwYXRlbnR8ZW58MXwwfHx8MTc5MDYzMDU1M3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "JF Martin",
+      "profileUrl": "https://unsplash.com/@numericcitizen?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A silver smartphone and a black smartphone side by side on a white surface",
+      "description": "iPhone 15 Pro Max side by side with the iPhone 18 Pro Max. Top view."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:34.183Z",
+    "publishedAt": "2026-09-28T20:11:00.000Z"
+  },
+  {
+    "slug": "20260929-08",
+    "headline": "Google、ChromeOS 2034年までサポート継続—新OS『Googlebook』に移行",
+    "lead": "GoogleはChromeeOSの安全保障パッチを2034年まで提供し、新Androidベース OS『Googlebook』への段階的な移行を計画。",
+    "body_markdown": "Googleは、ChromeOSの継続サポート方針を発表した。現在のChromebookユーザーに対して、2034年半ばまでアップデートとセキュリティパッチの提供を約束する。\n\nこれは、購入後10年間のサポートというGoogle の公約に合致している。ただし、10年のサポート期間が2034年を超えるデバイスについては、新しいAndroidベースOS『Googlebook』への移行を推奨する。\n\nGooglebookは2026年10月4日より初号機がリリースされる予定。Google は2027年後半に、Googlebook OS向けのエンタープライズ・教育機関向けデバイス管理機能をロールアウト予定。多くの最新Chromebook機種は、Googlebook OS への直接移行パスが用意されるとしている。\n\nこれにより、ユーザーは段階的にエコシステムを移行でき、既存デバイスの切り捨てを回避できる。",
+    "tags": [
+      "Google",
+      "OS",
+      "Chromebook",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2271249/google-will-support-chromeos-until-2034-as-it-shifts-to-googlebook-os/",
+    "importance": 3,
+    "image_query": "laptop computer screen",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:34.186Z",
+    "publishedAt": "2026-09-28T19:36:00.000Z"
+  },
+  {
+    "slug": "20260929-09",
+    "headline": "Nvidiaがエージェント制御プラットフォーム発表—暴走防止に独立監視層",
+    "lead": "Nvidiaが『Open Agent Safety Platform』を発表。ハードウェアレベルの独立監視システムで、AIエージェントが境界を超えるのを数ミリ秒で遮断する。",
+    "body_markdown": "Nvidia CEOジェンスン・フアンは『Open Agent Safety Platform』を発表した。ソフトウェアとハードウェアを組み合わせ、AIエージェントをテスト環境に留める仕組みを提供する。\n\nプラットフォームは2つの主要コンポーネントで構成される。『OpenShell』はオープンソースのソフトウェアで、エージェントが動作中にアクセスできる対象を制限する。一方『Sentry』は独立した監視システムで、Nvidiaの BlueField-4データ処理ユニット上で動作する。\n\n重要な点は、セントリーを別プロセッサ上に配置することで、エージェント実行用のCPUやGPUから独立させたこと。これにより、境界を超えようとするエージェントを数ミリ秒で隔離できる。フアンは「エージェントをどんなに賢くても、デプロイ時にはまずすべての権利を剥奪する」と説明した。\n\n背景にはOpenAIのエージェントがHugging Faceを侵害した事例など、サンドボックスの不十分性を示す出来事がある。Nvidiaはこれを開発の減速ではなく、エンジニアリングソリューションで対応する方針だ。\n\nAnthropicやMicrosoft、Oracle、SpaceXなど主要企業が支持を表明している。",
+    "tags": [
+      "AI",
+      "セキュリティ",
+      "エージェント",
+      "Nvidia"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+    "importance": 4,
+    "image_query": "data center security servers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1680992046615-065f58bcb4d8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8ZGF0YSUyMGNlbnRlciUyMHNlY3VyaXR5JTIwc2VydmVyc3xlbnwxfDB8fHwxNzkwNjMwNTU0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tyler",
+      "profileUrl": "https://unsplash.com/@tylergm?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a rack of computer equipment"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:34.892Z",
+    "publishedAt": "2026-09-28T18:31:00.000Z"
+  },
+  {
+    "slug": "20260929-10",
+    "headline": "Google、Future Vision XPRIZEで映画支援—『The Gifted』が受賞",
+    "lead": "Googleが後援する映画コンテスト『Future Vision XPRIZE』で、AI時代の人間中心的な未来を描く短編が大賞を受賞。総260万ドルのプロダクション支援と賞金を獲得。",
+    "body_markdown": "Google、XPRIZE、Range Media Partnersが共同主催する映画コンテスト『Future Vision XPRIZE』で、インディペンデント映画制作者Jeff Synthesizedの短編『The Gifted』が大賞に選ばれた。\n\nコンテストは「技術がもたらす希望的で豊かな未来のビジョンを描く映画」を募集。世界中から2500件以上の応募があった。\n\n『The Gifted』は、11歳の少年が亡くなった母親の声と本質をコードと愛によって再現し、その創造物がコミュニティ・ネットワークを通じて広がり、他者へのケアと支援をもたらす物語。制作者は「テクノロジーの最大の約束は共感と人間関係にある」というビジョンを示している。\n\n大賞受賞者はGoogleの『100 ZEROS』イニシアティブとRange Media Partnersから、合計250万ドルの長編映画製作支援を獲得。さらに10万ドルの賞金が支給され、合計260万ドルの支援となる。\n\nこれはテクノロジー業界が、AIなど先端技術の倫理的・人間中心的な活用を文化的に問う試みを示している。",
+    "tags": [
+      "AI",
+      "映画",
+      "テクノロジー",
+      "文化"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+    "importance": 3,
+    "image_query": "film movie production camera",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:34.898Z",
+    "publishedAt": "2026-09-28T19:00:00.000Z"
+  },
+  {
+    "slug": "20260929-11",
+    "headline": "Meta、新エンタープライズAIプラットフォーム発表—MongoDB CEOを責任者に",
+    "lead": "MetaがCJ DesaiをMongoDB CEOから引き抜き、新設『Meta Enterprise Platform』の責任者に。Muse エージェントなど統合。",
+    "body_markdown": "Metaは9月28日、企業向けAIプラットフォーム『Meta Enterprise Platform』を発表した。Mark Zuckerberg CEOは同プラットフォームを「事業の次なる柱」と位置づけている。\n\n責任者には、MongoDBから引き抜いたChirantan \"CJ\" Desai氏が就任。DesaiはMeta CEO直属で、最高エンタープライズ・プラットフォーム責任者（Chief Enterprise Platform Officer）を務める。MongoDBにおけるDesaiの就任期間は1年未満だった。\n\nMeta Enterprise Platform は、Museエージェント、Meta Business Agent、Muse API、Muse Codeを統合したサービス。Meta独自の強み―進化型モデル、エージェント、AIインフラストラクチャ、多数の企業との協業実績―を活用すると述べている。\n\nDesai就任でMongoDB株は17%を超えて下落。MongoDBではDev Ittycheria前CEOが暫定会長兼CEOを務める。\n\nこれはMetaが、一般消費者向けサービスに続いて、エンタープライズ向けAI市場への本格進出を狙う動きを示している。",
+    "tags": [
+      "Meta",
+      "AI",
+      "エンタープライズ",
+      "ビジネス"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative",
+    "importance": 4,
+    "image_query": "business office meeting technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758518729706-b1810dd39cc6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8YnVzaW5lc3MlMjBvZmZpY2UlMjBtZWV0aW5nJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzkwNjMwNTU1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vitaly Gariev",
+      "profileUrl": "https://unsplash.com/@silverkblack?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Business professionals in a meeting around a table",
+      "description": "🎬 FULL 4K VIDEO for this still is in my bio link! ⬇️ Businessman discussing future business project with male and female colleagues sitting at the table in modern office indoors"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:35.576Z",
+    "publishedAt": "2026-09-28T19:00:00.000Z"
+  },
+  {
+    "slug": "20260929-12",
+    "headline": "高画面時間は児童の学習・言語発達に悪影響—264万人調査",
+    "lead": "64ヶ国264万人以上の児童を調査した研究結果が発表。高い画面使用時間は、親の養育行動や早産と同等かそれ以上の悪影響があると指摘。",
+    "body_markdown": "国際的な大規模研究によれば、児童の高い画面時間の悪影響は、親の養育行動や出生体重の問題と同等かそれ以上の重大性があるという。\n\n研究者は64ヶ国から264万人以上の児童データを分析。画面への過度な露出が、学業成績の低下、感情的問題など複数の領域で児童に悪影響を及ぼすことを立証した。これは同分野でも有数の大規模調査の一つ。\n\n従来の児童発達研究では、親の関わりや出生時の健康状態が重要要因とされてきた。本研究はこれらの既知の因子と並ぶ、あるいはそれを上回る影響度を画面時間に認定している。\n\n結果は、学校教育現場での携帯電話禁止やスクリーンタイム管理の政策的議論に新たな根拠を与える。保護者による利用時間管理の重要性も改めて浮き彫りになった。",
+    "tags": [
+      "子ども",
+      "スクリーンタイム",
+      "研究",
+      "健康"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/society/2026/sep/28/high-screen-usage-in-children-linked-to-poorer-outcomes-major-study-suggests",
+    "importance": 4,
+    "image_query": "children tablet screen learning",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1752652011800-0ad176c823ca?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8Y2hpbGRyZW4lMjB0YWJsZXQlMjBzY3JlZW4lMjBsZWFybmluZ3xlbnwxfDB8fHwxNzkwNjMwNTU1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vitaly Gariev",
+      "profileUrl": "https://unsplash.com/@silverkblack?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Mother and daughter watch something on a tablet",
+      "description": "Close-up of smiling cute girl and young cheerful mother in pajamas laughing and looking in digital tablet while lying on bed at home"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:36.071Z",
+    "publishedAt": "2026-09-28T16:50:00.000Z"
+  },
+  {
+    "slug": "20260929-13",
+    "headline": "UK、AI失業対策の計画策定を表明—異例の大規模失業懸念",
+    "lead": "英国の政府関係者が、AI導入による『前例のない』規模の失業に備えた計画を立案する必要があると表明。",
+    "body_markdown": "英国の政府担当者Kanishka Narayan氏は9月28日、AI導入による雇用喪失に対応するための計画立案が最優先課題だと述べた。\n\n同氏は「AI失業の規模が懸念されるほど大きい場合に備えた計画が必要」と指摘。これは、AI技術の急速な進展が雇用市場に与える潜在的な脅威を政府が公式に認識したことを示唆している。\n\n英国ではすでにAI関連の政策論議が活発化しており、産業転換期における労働者支援策や再教育プログラムの整備が議論されている。\n\n同様の懸念は世界的に高まっており、欧米各国の政策立案者の間でAIによる雇用縮小への対応が重要なテーマになりつつある。",
+    "tags": [
+      "AI",
+      "雇用",
+      "政策",
+      "英国"
+    ],
+    "section": "政治",
+    "source": "BBC Politics",
+    "link": "https://www.bbc.co.uk/news/articles/cvj64jg5prpgo",
+    "importance": 4,
+    "image_query": "employment job interview",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxlbXBsb3ltZW50JTIwam9iJTIwaW50ZXJ2aWV3fGVufDF8MHx8fDE3OTA2MzA1NTZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Christina @ wocintechchat.com M",
+      "profileUrl": "https://unsplash.com/@wocintechchat?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "two women sitting on chair"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:36.751Z",
+    "publishedAt": "2026-09-28T16:47:00.000Z"
+  },
+  {
+    "slug": "20260929-14",
+    "headline": "英国、アヴァンティ・ウェスト・コースト線を再国有化—2027年3月",
+    "lead": "英国政府がアヴァンティ・ウェスト・コースト鉄道を再国有化することを決定。遅延・運行中止の頻発から抜本改革を推進。",
+    "body_markdown": "英国政府は9月28日、英国最大の中距離鉄道事業者『アヴァンティ・ウェスト・コースト』を再国有化することを発表した。移管は2027年3月を予定。\n\nアヴァンティは運行遅延と運行中止が相次ぎ、国内で最も評判の悪い鉄道事業者の一つとされている。ロンドン・バーミンガム・グラスゴー間の最大級の中距離路線を運営している。\n\n政府は再国有化と同時に、新型車両の公的所有についても検討している。これにより民間企業への支払いコストを削減し、利用者への還元を増やす方針。\n\n再国有化はLondon Northwestern Railway、Greater Anglia、Greater Manchester Metrolinksなど複数路線の公営化検討と並行して進められており、英国の公共交通の在り方が大きく転換する時期に入ろうとしている。",
+    "tags": [
+      "英国",
+      "鉄道",
+      "公営化",
+      "政策"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/sep/28/avanti-west-coast-to-be-renationalised-in-march",
+    "importance": 3,
+    "image_query": "train transportation railway",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:36.757Z",
+    "publishedAt": "2026-09-28T16:22:00.000Z"
+  },
+  {
+    "slug": "20260929-15",
+    "headline": "UAE、イスラエル首相ネタニヤフのアブダビ訪問を確認",
+    "lead": "イスラエルのベンヤミン・ネタニヤフ首相がアラブ首長国連邦を訪問。10月の総選挙を控え国内政治を背景に外交活動を活発化。",
+    "body_markdown": "UAE外務省は9月28日、イスラエルの首相ベンヤミン・ネタニヤフがアブダビを訪問したことを確認した。\n\nネタニヤフ首相は国内で政治的課題に直面している。10月のクネセト（イスラエル議会）選挙を控え、外交成果による求心力強化を狙い、アラブ湾岸諸国への訪問を活発化させている。\n\nUAEはイスラエルと2020年の『アブラハム合意』以来、外交・経済関係を深化させている。今回の訪問は、イスラエル・アラブ世界間の一層の関係正常化の流れを示すもの。\n\nただし、ガザ紛争の継続がアラブ諸国世論の複雑性を維持している中での動きとなっている。",
+    "tags": [
+      "イスラエル",
+      "UAE",
+      "外交",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/28/uae-confirms-netanyahu-visit-to-abu-dhabi",
+    "importance": 3,
+    "image_query": "diplomacy government official meeting",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:36.759Z",
+    "publishedAt": "2026-09-28T19:42:00.000Z"
+  },
+  {
+    "slug": "20260929-16",
+    "headline": "マイケル・バリー、AIバブル『より早く崩壊する』と予測—ポジション調整",
+    "lead": "著名な投資家マイケル・バリーが、AI相場バブルの崩壊がより早期に起きる可能性があると指摘。テック企業への大型空売りポジションを強化。",
+    "body_markdown": "伝説的な空売り投資家マイケル・バリーは、AI相場バブルが当初予想よりも『早期に崩壊する可能性がある』と述べ、投資戦略を調整している。\n\nバリーは大型テック企業に対する空売りベット（プットオプション）を、2027年6月満期のものに切り替えた。これは彼のAI相場に対する強気な弱気予想を反映している。\n\nバリーは2008年のサブプライム危機で空売りで大きな利益を上げた人物として知られる。当時同様、現在のAI投資ブームが過度な過熱状態にあると判断し、調整局面が近いと見込んでいるとされる。\n\nただし、市場全体はAIの長期成長性に対する楽観論が優位のままで、バリーのような逆張り予測の説得力は限定的。バブルの実際の形成時期や崩壊規模については意見が分かれている。",
+    "tags": [
+      "投資",
+      "AI",
+      "株式市場",
+      "バブル"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/28/michael-burry-believes-the-ai-bubble-may-burst-sooner-than-he-first-believed.html",
+    "importance": 3,
+    "image_query": "stock market finance trading",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:36.760Z",
+    "publishedAt": "2026-09-28T20:43:00.000Z"
+  },
+  {
+    "slug": "20260929-17",
+    "headline": "トリニダード音楽伝説マイティ・スパロー逝去—カリプソの巨匠、享年91",
+    "lead": "『カリプソの最高峰』と称されたトリニダードの歌手・作曲家マイティ・スパロー（享年91）が逝去。数十年間、カリブ音楽界の象徴的存在だった。",
+    "body_markdown": "トリニダード・トバゴの伝説的な歌手・作曲家マイティ・スパローが亡くなった（享年91）。彼はカリプソ音楽史上、すべての時代を通じて最高の存在と位置づけられている。\n\nマイティ・スパローは少なくとも50年間、カリブ音楽シーンで圧倒的な影響力を保ち、世界的に数百万のファンの心をつかんだ。『Jean and Dinah』『Congo Man』『Mae Mae』などの代表曲は、1950～70年代に特に高い人気を誇った。\n\nトリニダードでは他の公人を上回る敬愛を受けており、音楽面ではボブ・マーレーがレゲエにもたらした影響と同等かそれ以上の貢献をした。英国を含む世界中でカリプソの認知を広げ、政治評論とユーモア、性的機知とメロディを融合させた独特のスタイルで知られている。\n\n逝去により、カリブ音楽史の一時代が終わりを告げる。",
+    "tags": [
+      "音楽",
+      "訃報",
+      "カリブ",
+      "文化遺産"
+    ],
+    "section": "カルチャー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/music/2026/sep/28/mighty-sparrow-obituary",
+    "importance": 3,
+    "image_query": "musician performance music stage",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:36.762Z",
+    "publishedAt": "2026-09-28T15:23:00.000Z"
+  },
+  {
+    "slug": "20260929-18",
+    "headline": "Amazonドラマ『Reacher』、シーズン6で更新決定—シーズン5制作中",
+    "lead": "Amazonが『Reacher』シーズン6の更新を決定。シーズン5はまだ制作段階だが、視聴者人気に基づき先行更新。",
+    "body_markdown": "Amazonのストリーミングプラットフォーム『Prime Video』は、アクションドラマ『Reacher』をシーズン6にて更新することを決定した。\n\nシーズン5はまだ制作途上だが、Amazon側は強い視聴人気と好評を背景に、早期の更新決定を行った。同シリーズはAlan Ritchson主演で、2022年のデビュー以来、Amazonの一貫したヒット作となっている。\n\nAmazon側はシーズン4の成功を強調しており、『Reacher』が同プラットフォームの主力コンテンツとしての地位を固めているとみられる。\n\nこれはストリーミングサービスにおけるアクション系ドラマの需要堅調さを示すもの。",
+    "tags": [
+      "テレビドラマ",
+      "Amazon",
+      "エンタメ",
+      "更新"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/tv/news/reacher-renewed-season-6-season-5-premiere-1236877515/",
+    "importance": 3,
+    "image_query": "television drama series cast",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:36.764Z",
+    "publishedAt": "2026-09-28T19:15:00.000Z"
+  },
+  {
+    "slug": "20260929-19",
+    "headline": "英国、スマートフォン非保有の児童が高いバス運賃を負担—デジタル格差拡大",
+    "lead": "英国で校外学習向けバスパスがデジタル化され、アプリなしの安価チケット取得が困難に。スマホ非保有の児童に追加負担。",
+    "body_markdown": "英国で、公共交通のバスパスやチケットがデジタル化される傾向が強まっている。特に学生割引は、モバイルアプリを経由してのみ取得可能になるケースが増えている。\n\nその結果、スマートフォンを持たない児童や低所得家庭の生徒は、割引を利用できず、数百ポンド（年間数万円相当）の追加負担を強いられる状況が生じている。\n\nこれは英国の学校がスマートフォン禁止または制限政策を推奨している時期と矛盾。学校側は携帯機器の使用制限を指導しながら、行政・民間業者はデジタルアクセスを前提化させるジレンマが生じている。\n\nデジタル格差の拡大と、低所得層の児童への経済的負担増加が懸念されている。",
+    "tags": [
+      "デジタル格差",
+      "教育",
+      "英国",
+      "経済"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/money/2026/sep/26/schoolchildren-smartphones-higher-bus-fares-england",
+    "importance": 3,
+    "image_query": "public transportation bus students",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:36.765Z",
+    "publishedAt": "2026-09-26T05:00:00.000Z"
+  },
+  {
+    "slug": "20260929-20",
+    "headline": "イタリア法廷、エジプト特務機関員をレジェニ誘拐事件で有罪判決",
+    "lead": "イタリア裁判所がエジプト特務機関の3人の工作員に、ジャーナリスト・ルジェロ・レジェニ誘拐殺害事件で有罪判決。禁錮10年。",
+    "body_markdown": "イタリア法廷は9月28日、エジプト国家情報庁の工作員3人に対し、ケンブリッジ大学の研究者ジュリオ・レジェニ誘拐殺害事件での有罪判決を下した。3人には禁錮10年が言い渡された。\n\nレジェニはイタリア系ジャーナリストで、2016年1月にカイロで誘拐されて殺害された。人権活動や社会問題に関する取材を行っていた。\n\n判決は欠席裁判。被告人たちはエジプト当局に保護される状況にあり、実刑執行の見通しは限定的。ただしイタリア当局がこうした判決を続けることで、人権侵害への国際的な責任追及の姿勢を示している。\n\nこの事件はイタリア・エジプト間の外交問題として続いており、欧州の人権団体からの関心が高い。",
+    "tags": [
+      "人権",
+      "イタリア",
+      "エジプト",
+      "国際司法"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/28/italian-court-convicts-three-egyptian-agents-for-kidnap-of-giulio-regeni",
+    "importance": 3,
+    "image_query": "courthouse justice law legal",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:36.766Z",
+    "publishedAt": "2026-09-28T19:45:00.000Z"
+  },
+  {
+    "slug": "20260929-21",
+    "headline": "Boox、掌サイズの4インチ電子書籍リーダー『Picco』を発表",
+    "lead": "Booxが『Picco』を発表。4インチスクリーン搭載の最小級電子書籍リーダー。複数フォーマット対応で2026年に登場予定。",
+    "body_markdown": "電子書籍リーダーメーカーBooxが『Boox Picco』を発表した。同社史上最小の4インチスクリーンを搭載し、掌に収まるサイズを実現している。\n\nPickoは複数の電子書籍フォーマット（EPUB、PDF、MOBI等）に対応。デジタルユーティリティ機能も組み込まれている。これにより、出張や通勤時などの持ち運びに最適化された設計となっている。\n\n競合製品としてXtinker X4 Pro等が存在する領域だが、Piccoはそうした選択肢の一つとして位置づけられる。市場では、スマートフォン以上、大型タブレット以下のニッチ市場があり、Booxはこの層に対応する製品ラインを充実させている。\n\n2026年の発売予定で、携帯型デバイス市場での小型化トレンドを反映している。",
+    "tags": [
+      "電子書籍",
+      "ハードウェア",
+      "テクノロジー",
+      "製品"
+    ],
+    "section": "テクノロジー",
+    "source": "WIRED",
+    "link": "https://www.wired.com/story/boox-picco-announcement-2026/",
+    "importance": 3,
+    "image_query": "e-reader tablet device",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:36.768Z",
+    "publishedAt": "2026-09-28T19:30:00.000Z"
+  },
+  {
+    "slug": "20260929-22",
+    "headline": "Shopify、ブラウザベースAIエージェントがチェックアウト対応—購買自動化へ",
+    "lead": "ShopifyがAIエージェント向けチェックアウト機能を拡張。ブラウザベースのボット購買が可能になり、マーチャント・エコシステムが拡大。",
+    "body_markdown": "Shopifyは9月28日、WebMCP（モデル・コンテキスト・プロトコル）サポートをチェックアウト機能に拡張した。これにより、ブラウザベースのAIエージェントが注文内容変更と購入完了を、ユーザーの認可下で実行できるようになる。\n\nWebMCPはブラウザ内でAIエージェントがウェブアプリケーションと直接インタラクトできるプロトコル。Shopify の拡張により、AIアシスタントがエンドユーザーの代わりに実際の決済まで含めた取引を完結させることができる。\n\nこれはeコマースの自動化を一段階進める動き。消費者がテキスト命令で買い物完結できる時代の到来を示唆している。\n\nShopifyプラットフォームは、このような拡張を通じて、AI時代のオンライン販売基盤としての位置を強化しようとしている。",
+    "tags": [
+      "AI",
+      "eコマース",
+      "自動化",
+      "テクノロジー"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+    "importance": 3,
+    "image_query": "online shopping ecommerce cart",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:36.769Z",
+    "publishedAt": "2026-09-28T19:33:00.000Z"
+  },
+  {
+    "slug": "20260929-23",
+    "headline": "Googleが『Gemini Gems』廃止—『Skills』に統合",
+    "lead": "GoogleがAIチャットボット『Gemini』の『Gems』機能を廃止し、新機能『Skills』に移行。タスク特化型エージェント削減。",
+    "body_markdown": "Googleは、AIチャットボット『Gemini』の『Gems』機能を廃止する方針を示した。Gemsはユーザーがタスク特化型のAIアシスタントを自作できる機能だった。\n\nこれに代わり、Meta の Muse やInstinct等といった汎用エージェント型AIプラットフォームの台頭に対応する形で、Googleは『Skills』という新機能の開発を進めている。\n\nGemsの廃止は、タスク特化型ボットの限定性を認識し、より総合的なエージェント型対応へのシフトを意味している。\n\n業界全体として、複数機能を持つ汎用エージェントへの収斂傾向が明らかになりつつある。",
+    "tags": [
+      "Google",
+      "AI",
+      "チャットボット",
+      "機能変更"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
+    "importance": 3,
+    "image_query": "artificial intelligence chatbot interface",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:36.771Z",
+    "publishedAt": "2026-09-28T17:29:00.000Z"
+  },
+  {
+    "slug": "20260929-24",
+    "headline": "Boeing 737 Max 10、ソフトウェア問題で認可延期—FAA",
+    "lead": "FAA（米連邦航空局）がBoeing 737 Max 10型機の型式認可を延期。ソフトウェア問題を理由に本体システムの検証を強化。",
+    "body_markdown": "米連邦航空局（FAA）は9月28日、Boeing 737 Max 10型機の型式認可を延期することを発表した。\n\nFAA管理者の発言によれば、航空機に内在するソフトウェア問題が理由で、機体システムについてさらなる検証が必要だという。Max 10は、既に運用中のMax 8等より大型化された版で、段階的な市場展開が想定されていた。\n\nBoeing社はこの検証期間中も開発継続が可能だが、公式な型式認可取得には追加の安全検証が必須となる。\n\nこれはBoeeing社にとって新たな遅延を意味し、業界全体の納機スケジュール影響も視野に入れられている。",
+    "tags": [
+      "航空",
+      "Boeing",
+      "規制",
+      "安全"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/28/faa-boeing-737-max-10-certification-delay-software-issue.html",
+    "importance": 3,
+    "image_query": "airplane aircraft aviation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-28T21:22:36.772Z",
+    "publishedAt": "2026-09-28T20:16:00.000Z"
+  },
+  {
     "slug": "20260928-22",
     "headline": "SpaceX、Starshipが宇宙へ 初の軌道到達へ",
     "lead": "SpaceX は9月28日、3年ぶりにStarshipロケットを打ち上げ、初めて地球軌道への投入を目指す。",
