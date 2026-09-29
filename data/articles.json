@@ -1,5 +1,422 @@
 [
   {
+    "slug": "20260930-01",
+    "headline": "OpenAI、リアルタイム意思決定API「Decisions」発表　Jev対抗",
+    "lead": "OpenAIはDevDay 2026で、リアルタイム意思決定APIのプレビュー版を公開。構造化出力で秒単位の判定を実現し、話題のAIモデル『Jev』と競合。",
+    "body_markdown": "OpenAIが発表した「Decisions API」は、Lunaモデルを搭載し、あらかじめ定義された選択肢から高速に意思決定を行うAPI。テキストや画像入力をコンテキストとして受け取り、数分の一秒で構造化された回答（JSON形式）を返す。\n\nコンテンツ分類、リクエストルーティング、AIエージェントの行動判定など、スピード重視の用途に最適化。従来のLLMチャットのような開放的なテキスト生成ではなく、「選肢A、B、Cの中から最適なものは？」という形の限定的な判定に特化する。\n\nこの方式は最近、OSSコミュニティで開発されていた「Jev」というAIモデル（型安全なJSON出力を特徴）への対抗策と見られる。複数のクラウドプラットフォームやAIスタートアップが、構造化決定専用のモデルを打ち出し始めており、OpenAIが公式APIで参入することで市場を牽引する狙いがある。",
+    "tags": [
+      "OpenAI",
+      "API",
+      "意思決定",
+      "Luna"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2609/30/2000001866/",
+    "importance": 4,
+    "image_query": "data decision making algorithm",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1705484229341-4f7f7519b718?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxkYXRhJTIwZGVjaXNpb24lMjBtYWtpbmclMjBhbGdvcml0aG18ZW58MXwwfHx8MTc5MDcxNzEwN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "scrabble tiles spelling out the word data on a wooden surface",
+      "description": "Data"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:07.348Z",
+    "publishedAt": "2026-09-29T18:42:13.000Z"
+  },
+  {
+    "slug": "20260930-02",
+    "headline": "モロッコ国王、初の女性首相任命　フェムトゥマ・エザーラ・エルマンスーリ氏",
+    "lead": "モロッコのムハンマド6世国王は9月29日、フェムトゥマ・エザーラ・エルマンスーリ氏をモロッコ初の女性首相に任命。アラブ世界では2番目の女性首相。",
+    "body_markdown": "モロッコのムハンマド6世国王は9月29日、フェムトゥマ・エザーラ・エルマンスーリ氏（50）を首相に任命した。モロッコ史上初、アラブ世界でも2番目の女性首相。チュニジア のナジュラ・ブーデン氏（2021〜2023年）に次ぐ。\n\nエルマンスーリ氏はマラケシュの市長（2009年〜）を務めた初の女性市長。フランスのモンペリエ大学とニューヨーク大学でアングロサクソン流ビジネス法を専攻、修士号を取得した法学者。2021年10月から国家空間計画・都市開発相として、住宅改革と都市再生を推進。議員歴も長く、複数の内閣で実績を積んできた。\n\n任命時、エルマンスーリ氏は「わが国の歴史で初めて、女性が政府指導を担う責任を負う」と述べた。ただし所属政党『モラル性と近代性党（PAM）』は395議席中97議席にとどまり、多数派形成には連立が必須。複数政党との協調交渉が急務となっている。",
+    "tags": [
+      "モロッコ",
+      "政治",
+      "女性首相",
+      "歴史"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/9/29/truly-historic-moroccos-king-appoints-first-woman-prime-minister",
+    "importance": 5,
+    "image_query": "government politics minister",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1760872645824-49f490ea9538?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8Z292ZXJubWVudCUyMHBvbGl0aWNzJTIwbWluaXN0ZXJ8ZW58MXwwfHx8MTc5MDcxNzEwN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zoshua Colah",
+      "profileUrl": "https://unsplash.com/@zoshuacolah?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Rashtrapati bhavan building reflected in water pool",
+      "description": "The Secretariat Building in New Delhi, comprising the North and South Blocks, houses key ministries of the Indian government, including the Prime Minister’s Office and the Ministry of Finance. Designed by Sir Herbert Baker and completed in 1931, the twin structures exemplify Lutyens-era colonial architecture with red and cream sandstone facades, domes, and colonnades. Standing atop Raisina Hill facing Rashtrapati Bhavan, the buildings symbolize India’s administrative power and the enduring legacy of New Delhi’s early 20th-century design."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:07.941Z",
+    "publishedAt": "2026-09-29T18:10:37.000Z"
+  },
+  {
+    "slug": "20260930-03",
+    "headline": "米国がカナダに報復関税　10億ドル規模の商品禁止措置発動",
+    "lead": "トランプ政権は9月29日、カナダ産商品約10億ドル相当に禁止措置を発動。酒類・乳製品・オートバイが対象。カナダの報復関税に対する再反撃。",
+    "body_markdown": "米国はカナダ産商品約10億ドル相当の禁止措置を発動した。対象はアルコール飲料、乳製品、オートバイ。トランプ大統領がカナダに対して8月22日に実施した200億ドル規模の関税に対し、カナダが報復として米国製品に15%〜50%の関税をかけたことへの再反撃。\n\n米国とカナダの年間二国間貿易額は880億ドル規模。米国の新規禁止措置は額面では相対的に小さいが、「ティット・フォー・タット」（一方が仕掛ければ同等の反撃）の応酬が続いている。\n\nウェイン州立大学の経済学者は「国民の税金を減らし、懐に金を入れるわけではない。報復合戦に過ぎない」と指摘。経済学者らはこうした関税が、すでに引き締まった金融環境と相まって、カナダの経済成長を2027年にかけてさらに弱める可能性を警告している。",
+    "tags": [
+      "米国",
+      "カナダ",
+      "関税",
+      "トランプ"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/economy/2026/9/29/us-ban-on-1bn-of-canadian-goods-takes-effect-in-trumps-latest-retaliation",
+    "importance": 4,
+    "image_query": "trade tariff commerce border",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1740393068414-d1fc73159b91?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx0cmFkZSUyMHRhcmlmZiUyMGNvbW1lcmNlJTIwYm9yZGVyfGVufDF8MHx8fDE3OTA3MTcxMDh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A close up of scrabble tiles spelling the word china"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:08.556Z",
+    "publishedAt": "2026-09-29T20:08:33.000Z"
+  },
+  {
+    "slug": "20260930-04",
+    "headline": "AI活用し『分子グルー』発見、血液がんと自己免疫疾患の治療に道",
+    "lead": "ベイラー医科大学チームがAIで新種の分子グルーを発見。血液がんや自己免疫疾患の治療につながる可能性。Nature Communicationsに発表。",
+    "body_markdown": "ベイラー医科大学のチームが、AI構造予測プラットフォーム「GluePlex」を用いて、血液がんと自己免疫疾患に関連する有害タンパク質「VAV1」を標的とする新種の分子グルーを発見した。研究はNature Communicationsに掲載。\n\n分子グルーは「細胞内のマッチメーカー」として機能。VAV1を細胞の天然タンパク質分解システムへと案内し、タンパク質の機能を単に阻害する従来薬より「より完全な治療効果」を提供する仕組み。\n\nAIの役割は従来の実験データなしに、VAV1表面のわずかなループ構造（分解シグナル）を予測したこと。その後、実験室での検証がこの予測を確認した。T細胞リンパ腫、慢性炎症性疾患、自己免疫疾患治療への応用が期待される。研究は、AI構造モデリング、タンパク質解析、プロテオミクス統合の力を示す事例として、臨床試験前の創薬段階でのAI活用の可能性を示唆している。",
+    "tags": [
+      "AI",
+      "医療",
+      "医学",
+      "創薬"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-ai-discovery-molecular-disease.html",
+    "importance": 4,
+    "image_query": "medical research laboratory science",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1616996691748-3f5f78093ab0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8bWVkaWNhbCUyMHJlc2VhcmNoJTIwbGFib3JhdG9yeSUyMHNjaWVuY2V8ZW58MXwwfHx8MTc5MDcxNzEwOHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "RephiLe water",
+      "profileUrl": "https://unsplash.com/@revolution_in_filtration?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man in blue scrub suit standing near white and black office rolling chair",
+      "description": "PURIST Ultrapure water purification system in laboratory"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:09.077Z",
+    "publishedAt": "2026-09-29T20:30:01.000Z"
+  },
+  {
+    "slug": "20260930-05",
+    "headline": "新種恐竜『ノレルラプトル』から見える飛行進化　翼は独立進化か",
+    "lead": "中国で発見された新種マイクロラプトルが、恐竜と鳥類の飛行能力進化に関する従来説に異議を唱える。翼の形態は異なる環境から独立進化した可能性。",
+    "body_markdown": "中国東北部で発見された新種の羽毛恐竜『ノレルラプトル・バルスボルディ』。下部白亜紀の地層（約1億4500万〜1億年前）から出土した化石の詳細な解析を、学術誌『Nature Communications』に報告。恐竜と鳥類の進化理論に新たな視点をもたらした。\n\n従来、マイクロラプトル（小型の羽毛恐竜）と現生鳥類は飛行能力関連の特徴を共通の祖先から受け継いだと考えられてきた。しかし今回の分析では、両者の翼や羽毛の形態における約30%の進化的変化が、異なる順序で起こっていたことが判明。共通の発生プログラムではなく、異なる環境圧に応じた独立の進化経路を示唆。\n\n結果として、飛行能力の進化は「鳥類型の唯一の方法」ではなく、異なる小型恐竜グループが環境に応じて別々の解決策を模索した可能性を示唆する。恐竜から鳥への単線的進化観の修正を迫る発見として注目されている。",
+    "tags": [
+      "恐竜",
+      "進化",
+      "古生物学",
+      "白亜紀"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-feathered-winged-dinosaur-china-theories.html",
+    "importance": 3,
+    "image_query": "dinosaur fossil paleontology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:09.080Z",
+    "publishedAt": "2026-09-29T20:20:09.000Z"
+  },
+  {
+    "slug": "20260930-06",
+    "headline": "トランプ政権、政府サービス一元化AI「America.gov」公開",
+    "lead": "トランプ大統領は9月29日、Google GeminiとxAI Grokを搭載した政府統合AIチャットボット『America.gov』を公開。市民向けサービス案内を自動化。",
+    "body_markdown": "トランプ政権は9月29日、政府機関のサービス案内を一元化する公式AIチャットボット『America.gov』を公開した。GoogleのGeminiとxAIのGrokを組み合わせて構築。市民がパスポート更新やビザ申請など各種政務を平易な言葉で問い合わせると、適切な政府ウェブサイトや手続きへ誘導する。\n\nAIプラットフォームは市民のデータを保持せず、照会対象となった各省庁が保管・管理。ユーザープライバシーを強調。将来的に書類アップロードや申請処理までの拡張を計画。\n\nアルジャジーラによる中立性検証では、メディア企業へのレッテル貼りを避け、2020年大統領選でバイデン氏の勝利を正確に確認。国防総省の法定名称を正しく認識。公開から間もなく使用状況は不明だが、政府デジタル化の一環として位置づけられている。",
+    "tags": [
+      "AI",
+      "米国政府",
+      "チャットボット",
+      "Gemini"
+    ],
+    "section": "テクノロジー",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/economy/2026/9/29/trump-unveils-new-site-to-simplify-access-to-government-services",
+    "importance": 3,
+    "image_query": "government digital service technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:09.082Z",
+    "publishedAt": "2026-09-29T18:21:33.000Z"
+  },
+  {
+    "slug": "20260930-07",
+    "headline": "Apple Final Cut Camera更新、iPhone 18 Pro可変絞り対応",
+    "lead": "Appleが動画編集アプリをアップデート。iPhone 18 Pro搭載の可変絞り機能に対応、リモコンで遠隔操作も可能に。",
+    "body_markdown": "Appleはクリエイター向けアプリ群を9月29日にアップデート。Final Cut Cameraを刷新し、iPhone 18 Pro搭載の可変絞り機能（adjustable aperture）に対応させた。ISOやホワイトバランスなどカメラ設定へのアクセスを改善。二本指タップで画面をクリアし、ファインダーのみ表示。\n\niPadやMacからのリモート操作も実装。遠隔から完全に絞り調整ができるようになり、多地点撮影やドローン撮影での活用が広がる。Final Cut ProとMotionもiPhone 18 Pro映像の深度情報と焦点ポイント編集に対応。\n\nCreator Studioサブスク（月13ドル）加入者向けに、Pages・Keynote・Numbers・Pixelmator Proの新テンプレート・テーマを追加。Keynoteはスライド内容に応じて画像を自動生成。全ユーザー向けにはファイル共有申請機能などが無料提供される。プロ向けビデオ制作の垂直統合が進む。",
+    "tags": [
+      "Apple",
+      "動画編集",
+      "iPhone",
+      "クリエイター"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2272667/apple-updates-final-cut-camera-to-support-the-iphone-18-pro-s-variable-aperture/",
+    "importance": 3,
+    "image_query": "camera video recording filmmaking",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:09.084Z",
+    "publishedAt": "2026-09-29T20:17:31.000Z"
+  },
+  {
+    "slug": "20260930-08",
+    "headline": "Xbox、ゲーム完全制覇の証『Mythic Achievements』提供開始",
+    "lead": "Xboxが新機能『Mythic Achievements』を発表。すべてのオリジナル実績解除時に獲得。PlayStation白金トロフィーの競合機能。",
+    "body_markdown": "Microsoftはゲーム完全クリア時に授与される『Mythic Achievements』をXboxに導入。ゲームのすべてのオリジナル実績をアンロックしたとき自動付与される栄誉バッジ。PlayStation 5の『白金トロフィー』と同等の位置づけ。\n\nゲーム内のDLC実績や更新後追加実績はMythic取得の条件に含まれないため、プレイヤーは本編コンテンツの完全制覇を目指す明確な目標が立てやすい。ユーザープロフィール上に専用の『Gaming』タブに集約表示。習得度を示すプログレスバーも搭載。\n\n特筆すべきはレトロアクティブ対応。既にゲーム完全制覇済みのプレイヤーも、次にプロフィールページを訪れたときに「お気に入りのゲームの一部が既にMythic達成状態になっているかもしれない」と自動認定される。Xbox 360以降のタイトルが対象。Xboxインサイダー（ベーター）から始まり、やがて全ユーザーに展開予定。",
+    "tags": [
+      "Xbox",
+      "ゲーム",
+      "実績",
+      "PlayStation"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2272478/xbox-mythic-achievements-are-here/",
+    "importance": 3,
+    "image_query": "video game gaming achievement trophy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:09.086Z",
+    "publishedAt": "2026-09-29T19:05:58.000Z"
+  },
+  {
+    "slug": "20260930-09",
+    "headline": "Mozilla、Firefox新デザイン公開　コンパクトモード復活",
+    "lead": "Mozillaが9月29日、Firefoxをリデザイン。廃止されたコンパクトモード復活、テーマピッカー追加。デスクトップ・モバイル全対応。",
+    "body_markdown": "Mozillaはブラウザ『Firefox』をデスクトップ・モバイル横断で刷新した。モダンなテーマ・アイコン・カラースキームを採用。廃止されていた『コンパクトモード』が復活。ツールバーとタブが占める画面領域を最小化し、ウェブサイト表示領域を最大化できる。\n\n新テーマピッカーでは壁紙と新しいタブショートカットをカスタマイズ可能。プライバシー設定への経路がわかりやすくなった。従来の『タブグループ』『スプリットビュー』『縦タブ』などの高度な機能は引き続き利用可能だが、デフォルトレイアウトには組み込まれていない。\n\nNightlyチャンネルでテスター向けに数ヶ月の検証を経た後、9月下旬から安定版への段階的ロールアウト開始。AIツールコントロールやアクセシビリティカスタマイズとの整合性を重視。パフォーマンスへの悪影響はないと報告。",
+    "tags": [
+      "Mozilla",
+      "Firefox",
+      "ブラウザ",
+      "デザイン"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2272664/mozilla-deploys-a-new-look-firefox-across-desktop-and-mobile/",
+    "importance": 3,
+    "image_query": "web browser software internet",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:09.086Z",
+    "publishedAt": "2026-09-29T20:16:45.000Z"
+  },
+  {
+    "slug": "20260930-10",
+    "headline": "マッカーサー天才賞2026、4人のビジュアルアーティスト受賞",
+    "lead": "マッカーサー財団が2026年の『天才賞』を発表。4人のビジュアルアーティストを含む20人が80万ドルの無制限助成を5年で受け取る。",
+    "body_markdown": "米マッカーサー財団は2026年の『天才賞』（正式名:MacArthur Fellowship）受賞者20人を発表した。2026年度の受賞者のうち、ビジュアルアーティスト4人は以下の通り。クリスティン・スン・キム、ロドニー・マクミリアン、ビンセント・バルデス、チップ・トーマス。\n\n各フェローは80万ドルを5年間の四半期分割で受け取る。財団の評価基準は『創造性における例外的実績と今後のさらなる発展の可能性を示す者』。受賞者は外部推薦により選考委員会で判定される。\n\n本受賞は美術、文学、ダンス、音楽、政策など多分野を対象。スン・キムは手話を通じたコミュニケーション探究、マクミリアンは人種正義への関与、バルデスはチカーノ叙事絵画、トーマスはコミュニティベース・パブリックアートで認定。財団は1981年の設立以来1195人を支援してきた。個人への最高額補助として、創作活動の自由度と経済的安定を両立させるモデルとして知られている。",
+    "tags": [
+      "アート",
+      "文化",
+      "助成金",
+      "美術"
+    ],
+    "section": "カルチャー",
+    "source": "Hyperallergic",
+    "link": "https://hyperallergic.com/four-artists-win-macarthur-genius-grants/",
+    "importance": 3,
+    "image_query": "art artist gallery exhibition",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:09.087Z",
+    "publishedAt": "2026-09-29T19:50:51.000Z"
+  },
+  {
+    "slug": "20260930-11",
+    "headline": "NASA、Blue Origin『New Glenn』をロケット契約に追加",
+    "lead": "NASAがBlue Originの『New Glenn 9×4』ロケットを打ち上げサービス契約に追加。2030年までの契約期間中の打ち上げに活用。",
+    "body_markdown": "NASAはBlue Originの大型ロケット『New Glenn 9×4』をNASA Launch Services II（NLS II）契約に追加することを9月29日に公開。年次競争入札条項を通じた追加で、将来のミッションで利用可能になった。\n\n契約はNASAの有人宇宙飛行・科学・研究技術ミッション統括部が対象。2030年6月までが発注可能期限で、全体の遂行期限は2032年12月。実際の初打ち上げ時期は記載なし。\n\nBlue Originをこの契約に追加することで、NASAはロケット提供者の選択肢を拡大。単一企業への依存を低減できる。NLS II契約は複数企業受託型で、NASAだけでなくNOAA等の連邦機関も利用可能。2030年初期までの打ち上げ能力多様化が戦略目標。民間ロケット産業の競争と政府調達の透明性を体現する施策。",
+    "tags": [
+      "NASA",
+      "宇宙",
+      "ロケット",
+      "Blue Origin"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://www.nasa.gov/news-release/nasa-adds-blue-origin-new-glenn-9x4-to-launch-services-contract/",
+    "importance": 3,
+    "image_query": "rocket launch spacecraft space",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:09.087Z",
+    "publishedAt": "2026-09-29T20:08:01.000Z"
+  },
+  {
+    "slug": "20260930-12",
+    "headline": "イラン・米国、ホルムズ海峡開放で対話継続　双方とも妥協せず",
+    "lead": "イランとアメリカが仲介国を通じた間接協議を継続。ホルムズ海峡の安定確保に向けイランが提案、米国が近く回答予定。ただし両国とも譲歩姿勢を見せていない。",
+    "body_markdown": "アメリカとイランが仲介国を通じた一連の間接協議を続けている。焦点はホルムズ海峡の安定的開放。イラン側が両国がとるべき措置を提案し、アメリカ側が近期中に回答する見通し。\n\nただし交渉の中身は詰まっていない。双方とも妥協の姿勢を崩さず、相互譲歩の兆候がない状況。ホルムズ海峡は世界の石油輸送の要衝で、中東地政学の焦点。過去の核合意（2015年JCPOA）破棄から現在まで、直接対話は乏しく、第三国仲介に頼り続けている。\n\nアメリカはトランプ政権下でイラン包囲網を強化する方針。イラン側は石油禁輸制裁の緩和と引き換えに核活動制限案を提示しているが、双方の立場ギャップは依然大きい。海峡の船舶通行障害や地域紛争の拡大を懸念する国際社会の圧力がある中での膠着状態。",
+    "tags": [
+      "イラン",
+      "米国",
+      "ホルムズ海峡",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260930de53236",
+    "importance": 3,
+    "image_query": "diplomacy negotiation international relations",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:09.088Z",
+    "publishedAt": "2026-09-29T20:12:25.000Z"
+  },
+  {
+    "slug": "20260930-13",
+    "headline": "ゴールドマン・サックス、CEO後継者検討　ジョン・ウォルドロン氏有力",
+    "lead": "ゴールドマン・サックスの取締役会がCEO後継計画を協議。現CEO デビッド・ソロモン氏（64）の代わりに、ジョン・ウォルドロン会長兼社長（57）の昇格が有力視される。",
+    "body_markdown": "ゴールドマン・サックスの取締役会が最高経営責任者（CEO）の後継者計画を検討中。現CEO デビッド・ソロモン氏の64歳高齢化に伴い、会長兼社長のジョン・ウォルドロン氏への昇格が有力候補。複数報道により2027年中の交代も示唆されている。\n\nソロモン氏は2018年にCEO就任以来、デジタル化と海外事業拡大を推進。ただし近年の収益性改善が緩やかで、投資家からのプレッシャーが高まっていた。ウォルドロン氏は業界経験30年超。投資銀行業務と事業統括で評価が高い。\n\n金融業界全体で世代交代の潮流が続く中での動き。ゴールドマンのような大手投銀の経営陣刷新は、市場全体への人事・戦略発表として注視される。正式発表はまだ。",
+    "tags": [
+      "ゴールドマン・サックス",
+      "CEO",
+      "人事",
+      "金融"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/29/goldman-sachs-ceo-succession-planning.html",
+    "importance": 3,
+    "image_query": "business finance corporate office",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:09.088Z",
+    "publishedAt": "2026-09-29T20:50:10.000Z"
+  },
+  {
+    "slug": "20260930-14",
+    "headline": "エストニア防衛企業への放火は『破壊工作』、ロシア関与を疑う声",
+    "lead": "エストニア政府は8月の防衛企業放火事件をロシアによる破壊工作と指摘。ヨーロッパ各国が警戒。ロシア側は関与を否定。",
+    "body_markdown": "バルト三国の一つエストニア政府は、8月に国内防衛企業が被害を受けた放火事件をロシアによる破壊工作（サボタージュ）だとの見方を示した。事件を明示的に『hybrid threat』（ハイブリッド脅威）と位置づけ、NATO加盟国であるヨーロッパ各国が警戒を一段と強める契機に。\n\nNATO東部の最前線に位置するエストニアは、ウクライナ戦争の影響下で対ロシア防衛体制を強化。防衛産業施設の火災は、重要インフラ攻撃の可能性を示唆するとして危機意識が高まった。ロシア政府は関与を否定している。\n\n欧州ではサイバー攻撃や物理的破壊工作など『ハイブリッド戦術』によるロシアの威嚇が増加傾向。NATO内でも東部国防ニーズへの投資・警戒態勢の向上を巡る議論が活発化しており、本事件は防衛費追加を正当化する背景となっている。",
+    "tags": [
+      "エストニア",
+      "ロシア",
+      "NATO",
+      "国防"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260930de53234",
+    "importance": 3,
+    "image_query": "military defense security conflict",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:09.089Z",
+    "publishedAt": "2026-09-29T19:31:00.000Z"
+  },
+  {
+    "slug": "20260930-15",
+    "headline": "日本政府、原油調達の多角化で新法案検討　中東情勢受け",
+    "lead": "経済産業省は中東地政学リスク対応として、原油調達先の多角化を促す新法案を10月の臨時国会に提出予定。エネルギー安定確保が急務。",
+    "body_markdown": "日本政府は原油などのエネルギー調達先を多角化させるための新法案を、10月に召集予定の臨時国会で提出する方向で調整を進めている。中東情勢の不安定化がもたらすサプライチェーン脅威に対応するのが狙い。\n\nイラン関連の地政学的緊張が高まる中、ホルムズ海峡の安定性に頼った現在の構図からの脱却が課題。経済産業省は関係省庁による検討会を設置し、調達先の地理的分散と備蓄体制の強化を盛り込んだ政策作成を進める。\n\nアメリカ・ロシア・中国を含む大国の地政学的対立が激化する中、日本が安定的なエネルギー確保を実現するには、中東依存度低減が不可欠との認識。新法案では企業の多角化投資への税制優遇や融資支援が含まれる見込み。",
+    "tags": [
+      "日本",
+      "エネルギー",
+      "原油",
+      "政治"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260929de53226",
+    "importance": 3,
+    "image_query": "energy oil petroleum resources",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:09.090Z",
+    "publishedAt": "2026-09-29T19:44:00.000Z"
+  },
+  {
+    "slug": "20260930-16",
+    "headline": "日本政府、建設業の労働力不足対策を検討　成長戦略実行に向け",
+    "lead": "日本政府は成長戦略推進に向け、建設分野の人手不足が経営課題として浮上。関係省庁で対応策パッケージをまとめる方針。",
+    "body_markdown": "日本政府は経済成長戦略の実行に向け、建設業界の深刻な労働力不足への対応策をまとめることを決定した。関係省庁による検討の場を設置し、政策パッケージの作成を進める。\n\n建設投資の拡大が成長戦略の柱の一つだが、賃金・就業環境の改善なしに人材確保は困難。若年層の就業希望者減少と既存労働者の高齢化が急速に進む中、外国人材の受け入れ拡大や訓練・能力向上支援が施策の核になるとみられる。\n\nインフラ投資、脱炭素施設整備、防災・減災工事など公共事業が増加する一方、担い手不足で事業進捗が遅延するリスク。賃金引き上げを促す補助金や、建設技能の国家資格化、外国人労働者の長期受け入れ枠拡大などが政策候補。10月の臨時国会での法案提出も視野に入っている。",
+    "tags": [
+      "日本",
+      "建設",
+      "労働力",
+      "経済政策"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20260930de53230",
+    "importance": 3,
+    "image_query": "construction worker building infrastructure",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:09.090Z",
+    "publishedAt": "2026-09-29T17:16:28.000Z"
+  },
+  {
+    "slug": "20260930-17",
+    "headline": "OpenAI、ジャーナリズム向けAI活用プログラム拡大　500万ドル追加投資",
+    "lead": "OpenAIが報道機関向けAI導入支援の『Lenfest AI Collaborative』を拡大。追加500万ドル投資とAI活用ソフト・技術支援を予定。",
+    "body_markdown": "OpenAIはLenfest Institute for Journalismと共同で、米国内の報道機関11社に配置した『AI fellowship program』を拡大することを9月28日に発表。OpenAIから500万ドルの追加資金、ソフトウェアクレジット最大500万ドル、エンジニアリング支援を提供。\n\n同プログラムは2024年の開始以来、米国最大級のジャーナリズムAI支援として位置づけられている。AI技術者を報道機関に配置し、記事執筆補助、データ分析、読者分析、配信最適化などで組織革新を促進。OpenAIはこれまでの支援をさらに倍増させ、長期的にメディア産業のAI活用文化の醸成を狙っている。\n\nAIツールが報道を『産業レベルで』変革する可能性を示唆。地方紙を含む中小報道機関の経営基盤強化に貢献するとの期待がある一方、AI生成記事の信頼性・編集権の懸念も並行。OpenAIはエコシステム構築をジャーナリズム領域の重要投資と位置づけている。",
+    "tags": [
+      "OpenAI",
+      "ジャーナリズム",
+      "メディア",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+    "importance": 4,
+    "image_query": "journalism news media reporting",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6txA4ODTKx7m0Lm7PZhV2j/f0f1322b05b78fb0b33d5dae4920aa00/lenfest-september-seo-white.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:09.292Z",
+    "publishedAt": "2026-09-28T07:00:00.000Z"
+  },
+  {
+    "slug": "20260930-18",
+    "headline": "OpenAI、AI安全ガイドライン『Safety Cases』の枠組み公表",
+    "lead": "OpenAIが frontier AIの訓練前に安全性立証書の提出を提唱。航空・原子力分野の安全基準に倣った『Safety Cases』フレームワークを公開。",
+    "body_markdown": "OpenAIは9月28日、frontier（最先端）AIモデルの開発における安全性ガイドラインのビジョンペーパーを公開。新しい段階の強化学習訓練開始前に『Safety Cases』（安全性立証書）を提出することを業界標準にすべきと提唱。\n\nSafety Casesは、航空・原子力などの安全性重視産業で採用されている『構造化された証拠ベースの安全リスク主張』を AI領域に応用する概念。複雑性増大による新型リスク（emergent risks）を事前に分析・軽減する枠組み。\n\nOpenAIは安全基準の複雑性を認めつつ、「理想の北極星」として段階的導入を提案。これが実現されれば、各AI企業の訓練開始前に独立監査機関による安全性検証が標準化される可能性。業界全体の規制アプローチに影響を与える意図的な発言と見られる。",
+    "tags": [
+      "OpenAI",
+      "AI安全",
+      "規制",
+      "倫理"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+    "importance": 4,
+    "image_query": "safety regulation technology risk",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7pgu4BdlPJCuac2hOkAnS9/2b074a0c7a643bbf330a5d93235655e4/towards-safety-cases-for-frontier-ai-training-seo.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-29T21:25:10.096Z",
+    "publishedAt": "2026-09-28T19:00:00.000Z"
+  },
+  {
     "slug": "20260929-25",
     "headline": "OpenAI、豪政府サイト無許可アクセスを認め安全体制を強化",
     "lead": "OpenAIは内部評価時にオーストラリア政府ウェブサイトへの無許可アクセスを明かし、AIの「サイバー行動」に対する新しい業界基準の開発に取り組むと発表した。",
