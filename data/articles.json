@@ -1,5 +1,545 @@
 [
   {
+    "slug": "20261001-01",
+    "headline": "OpenAI、モデル蒸留攻撃を検出・遮断",
+    "lead": "OpenAIは9月末、独自モデルの推論過程を抽出する組織的攻撃を特定し、業界パートナーと情報共有した。",
+    "body_markdown": "OpenAIは9月30日、モデル蒸留キャンペーンの遮断を発表した。攻撃は7月初旬から継続していた。これは、OpenAIのモデルの出力や推論記録（プロテクテッド・リーズニング）を無許可で抽出し、他のAIシステムの学習に転用しようとする試み。\n\n同社によれば、攻撃者は暗号化を破るのではなく、複数のモデル操作を組み合わせて、保護された推論を目視できる形で大規模かつ組織的に再現させた。利用規約違反だが、OpenAIの暗号化やデータベースの侵害には至らなかった。\n\nプロテクテッド・リーズニングは、タスク遂行の内部記録で、最終回答に含まれない情報が格納される。これを抽出されると、他者がOpenAIモデルの能力を複製するのが容易になる。\n\nOpenAIは業界パートナーにこの操作方法を共有し、同様の攻撃への対策を促した。セキュリティ上の脅威はOpenAI固有ではなく、フロンティアAI全体に共通する課題だという認識を示している。",
+    "tags": [
+      "AI",
+      "セキュリティ",
+      "モデル蒸留",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+    "importance": 5,
+    "image_query": "ai security threat detection",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7MP5Bq8wKRpAAnnhqfdA8o/3ca1f00ae7ec16c5a569eb6195e24c90/disrupting-a-coordinated-model-distillation-campaign-seo.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:33.972Z",
+    "publishedAt": "2026-09-30T10:30:00.000Z"
+  },
+  {
+    "slug": "20261001-02",
+    "headline": "OpenAI DevDay 2026、Dots・GPT-6.1 Solなど20以上を発表",
+    "lead": "OpenAIは9月にDevDay 2026を開催し、常駐型AIエージェント「Dots」や廉価フロンティアモデルを含む20以上の製品を発表。",
+    "body_markdown": "OpenAIは9月29日、DevDay 2026を実施し、生成AI領域の大型アップデートを一挙に公表した。\n\n**Dots エージェント**：最新モデルGPT-6 Astraを搭載した常駐型エージェント。クラウドコンピュータを備え、4000以上のアプリと連携可能。ユーザーのテキストや音声指示に応答し、24時間稼働してタスクを自動処理する。Slack・Teams・ChatGPTを通じてアクセス可能で、学習を重ねてユーザー好みに適応する。Pro・Business Premiumプランで提供予定。\n\n**GPT-6.1 Sol**：GPT-6 Astraの95%の知能を5分の1の価格で提供。入力トークン100万個あたり0.10ドル（GPT-6 Solのキャッシュ比50%割引）。ソフトウェア工学・文書理解・複数ステップ業務を高速処理。\n\n**他の主要発表**：新型Codexビルドツール、Agents API、ネイティブプラグインマーケットプレイス、Spacesコラボレーション機能。ChatGPTは週間アクティブユーザーが12億人を突破。\n\nこれらの発表は、AIエージェント時代の到来と、アクセス性・コスト・機能性の飛躍的改善を示唆している。",
+    "tags": [
+      "AI",
+      "OpenAI",
+      "エージェント",
+      "DevDay"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/devday-2026-recap",
+    "importance": 5,
+    "image_query": "ai agent product launch",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6elORm6Tf9SptdH3mlnJBW/a0bea759a911cd9f04afe135835063bc/DevDay_Blog_ArtCard_16x9.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/devday-2026-recap",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:34.745Z",
+    "publishedAt": "2026-09-29T10:00:00.000Z"
+  },
+  {
+    "slug": "20261001-03",
+    "headline": "GPT-6.1 Sol、Astra比5分の1の価格で高性能提供",
+    "lead": "OpenAIがGPT-6.1 Solを発表。高度なコード作成・文書理解能力をAstraの5分の1コストで実現。",
+    "body_markdown": "OpenAIは9月29日、新しいフロンティアモデル「GPT-6.1 Sol」をDevDay 2026で発表した。\n\n**価格体系**：入力トークン100万個あたり2ドル、出力100万個あたり10ドル。キャッシュ入力は100万トークンあたり0.10ドル（標準比95%割引、Sol比50%割引）。これはGPT-6 Astraの標準価格の5分の1。\n\n**性能**：DeepSWE v1.1（複雑なソフトウェア工学タスク）ではAstraと同等の結果を達成。Solの従来版比で6.4ポイント以上改善。複雑な文書処理・マルチステップビジネスワークフローで実質的に高性能を発揮。\n\n**用途**：エージェント型コーディング、コンピュータ使用、専門的な業務向け。ディベロッパーがコンテキストを再利用しながら能力あるエージェントを複数稼働させられる価格帯。\n\n**戦略的位置づけ**：フロンティア性能と経済性のバランスを取るモデルで、中～大規模組織のAI活用を加速する狙い。従来Astraのみに依存していたユースケースを、Solで実行可能にする。",
+    "tags": [
+      "AI",
+      "GPT-6.1 Sol",
+      "価格",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-gpt-6-1-sol",
+    "importance": 4,
+    "image_query": "ai model pricing cost",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1Xa7inzcCfsGE5aV3QqeN3/4f3689ae92e04b18569f9eaf919e7174/GPT-6-1-Sol_16x9.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:35.505Z",
+    "publishedAt": "2026-09-29T10:00:00.000Z"
+  },
+  {
+    "slug": "20261001-04",
+    "headline": "OpenAI、常駐型AIエージェント『Dots』を発表",
+    "lead": "Dotsは24時間稼働し、複数のアプリと連携してユーザーの継続的なタスクを自動処理するAIエージェント。",
+    "body_markdown": "OpenAIはDevDay 2026でDots、常駐型AIエージェントを発表した。GPT-6 Astraを搭載し、ユーザーを代理して継続的に業務を実行する。\n\n**機能**：クラウドコンピュータを備え、ウェブブラウザ操作が可能。4000以上のアプリとネイティブ統合。ユーザーの質問に応答し、提案を実行し、経時的にユーザー好みや業務スタイルを学習。テキスト・音声・ChatGPT・Slack・Microsoft Teamsを通じてアクセス。\n\n**使用例**：定期的な業務の自動処理、複数ステップタスクの追跡、サブエージェントへの権限委譲。ユーザーが作業中でもバックグラウンド実行。\n\n**提供方法**：Pro・Business Premiumサブスクリプション対象。段階的に対応地域を拡大予定。\n\n**設計思想**：ユーザーと常に協働できるパートナー型AIで、音声通話も可能。フロンティア知性と24時間稼働を組み合わせ、仕事の負担軽減と時間捻出を実現。個人・チームの生産性向上が目標。",
+    "tags": [
+      "AI",
+      "エージェント",
+      "Dots",
+      "自動化"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-dots",
+    "importance": 4,
+    "image_query": "ai agent assistant interface",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/introducing-dots",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:36.471Z",
+    "publishedAt": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "slug": "20261001-05",
+    "headline": "古生物学、スコットランドの爬虫類化石は「最古」ではなく",
+    "lead": "30年間『世界最古の爬虫類』とされたスコットランド化石が、新しい研究で「別の生物」と判明。",
+    "body_markdown": "米国自然史博物館と英オックスフォード大学の研究チームが『Nature』に発表した新研究により、スコットランドの化石が従来の認識を覆した。\n\n**従来の説**：この化石は約3億4500万年前の爬虫類で、30年近く「世界最古の爬虫類」として扱われていた。\n\n**新しい知見**：欧州シンクロトロン放射光施設（ESRF）を用いた詳細分析の結果、この標本は実際には別の系統に属すると判明。爬虫類としての地位は再評価される必要がある。\n\n**研究手法**：放射光による非破壊分析で、化石内部構造を高精度で観察。従来のX線では検出不能な微細構造が可視化された。\n\n**古生物学への影響**：単一の化石に基づく分類の危険性を示唆。脊椎動物進化の初期段階の理解に修正が必要になる可能性。他の古い化石の再検証も促す。\n\n**この発見が重要な理由**：爬虫類の起源と進化系統樹の確立に関わる基本的データの修正。一度確立された定説の検証継続の必要性を実証。",
+    "tags": [
+      "サイエンス",
+      "古生物学",
+      "化石",
+      "進化"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-fossil-world-oldest-reptile-dethroned.html",
+    "importance": 4,
+    "image_query": "fossil paleontology research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1730454978813-7064ddca416d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxmb3NzaWwlMjBwYWxlb250b2xvZ3klMjByZXNlYXJjaHxlbnwxfDB8fHwxNzkwODAzNzE2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "David Clode",
+      "profileUrl": "https://unsplash.com/@davidclode?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A close up of a shell with a spiral design",
+      "description": "Ammonite fossil. This fossil has been agatized and this is a slice through the fossil, which has then been polished. Photo taken at \"Rare Exotic Treasures\" at Kuranda markets in Australia."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:37.047Z",
+    "publishedAt": "2026-09-30T21:00:02.000Z"
+  },
+  {
+    "slug": "20261001-06",
+    "headline": "フライドバイ機、イスラエル向けフライトで機長が同僚を刺傷",
+    "lead": "ドバイ発テルアビブ行きフライト機内で機長が同僚を刺し、操縦を奪おうとした。乗客と乗員が制圧。",
+    "body_markdown": "9月30日、フライドバイ航空のドバイ発テルアビブ行きBoeeing 737 MAX 8（FZ1073便、乗客乗員174人）で、機長による刺傷事件が発生した。\n\n**事件の経過**：搭乗直後、機長Yaniv Hayun（オマーン国籍）が操縦席で同僚機長Smit Machchhar（インド人）を複数回刺傷。機体が緊急降下（2分弱で1万7400フィート低下）。乗客がHayunに窒息術をかけて制圧。飛行機はサウジアラビアのタブク空港に緊急着陸。全員が脱出。\n\n**医療対応**：Machchhar機長は負傷を負ったが生命に別状なし。Hayunは逮捕・取り調べ中。\n\n**当局の見方**：イスラエル首相ネタニヤフ氏は「墜落を企図したテロ攻撃の可能性」と指摘。イスラエル防衛相も「ジハード的テロ攻撃」と言及。一方、テロ組織からの犯行声明は未確認。\n\n**称賛**：ネタニヤフ氏はMachchhar機長を「真のヒーロー」と評価。乗客が迅速に対応したことが約170人の命を救った。\n\n**背景**：中東紧张情势下での航空移動の危険性が改めて浮き彫りに。",
+    "tags": [
+      "国際・地政学",
+      "テロ",
+      "航空",
+      "イスラエル"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno",
+    "importance": 4,
+    "image_query": "airplane cockpit pilot emergency",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1786294328915-eced4754c0be?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8YWlycGxhbmUlMjBjb2NrcGl0JTIwcGlsb3QlMjBlbWVyZ2VuY3l8ZW58MXwwfHx8MTc5MDgwMzcxN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Niklas König",
+      "profileUrl": "https://unsplash.com/@nottwentyseven?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "The complex instrument panel of an airplane cockpit with numerous gauges and dials",
+      "description": "Concorde cockpit with analog flight instruments"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:37.614Z",
+    "publishedAt": "2026-09-30T20:44:12.000Z"
+  },
+  {
+    "slug": "20261001-07",
+    "headline": "Google、Gemini 4 Argonを発表『信頼できるサイバー防御専門家向け』",
+    "lead": "Googleがフロンティアモデル『Gemini 4 Argon』を発表。ソフトウェア工学・法務・金融・サイバーセキュリティで高度な推理能力を搭載。",
+    "body_markdown": "Google DeepMindは9月30日、新型フロンティアモデル『Gemini 4 Argon』を発表した。\n\n**仕様**：出力トークン上限100万（従来比16倍）。複雑で長期的なワークフロー向けに設計。ソフトウェア工学・法務・金融・サイバー防御で高度な推理能力を実現。\n\n**価格と提供方法**：入出力トークン各々100万個あたり2ドル・10ドル（試験的価格）。本来は各4ドル・20ドル。当面、政府のFairwindプログラムに登録した「信頼できるサイバー防御専門家」向けのみ提供。段階的にアクセスを拡大予定。\n\n**性能指標**：複数のコーディング・知識作業ベンチマークでGPT-6 Astraを上回る。DeepSWE（複雑なソフトウェア工学タスク）を含む複数テストで先行。\n\n**機能追加**：キャッシュ入力トークン割引95%。思考連鎖（Chain of Thought）で詳細な推理を展開。マルチモーダル入力（テキスト・画像）対応。\n\n**戦略的背景**：OpenAIの前進に対し、Googleが高性能フロンティアモデルの存在を示唆。当面、セキュリティ・専門職向けに限定し、安全性評価後に拡大という段階的戦略。",
+    "tags": [
+      "AI",
+      "Google",
+      "Gemini",
+      "フロンティアモデル"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+    "importance": 4,
+    "image_query": "ai model neural network technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1677442135730-64f105e0ea05?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8YWklMjBtb2RlbCUyMG5ldXJhbCUyMG5ldHdvcmslMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTA4MDM3MTh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Steve A Johnson",
+      "profileUrl": "https://unsplash.com/@steve_j?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a blue and a white mannequin face to face",
+      "description": "Futuristic 3D Render My Art: https://stevejohnsonart.us"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:38.208Z",
+    "publishedAt": "2026-09-30T20:41:41.000Z"
+  },
+  {
+    "slug": "20261001-08",
+    "headline": "日本、2027年4月から消費税減税　食料品を1%に引き下げ",
+    "lead": "日本政府が消費税減税案を発表。食料品の税率を1％に引き下げ、2年間の時限措置。所得に応じた給付も実施。",
+    "body_markdown": "日本政府は9月30日、臨時国会（10月5日召集）に提出予定の消費税減税関連法案の概要を公開した。\n\n**実施時期**：2027年4月から2年間の時限措置。\n\n**減税対象**：食料品の消費税率を現在の10%から1%に引き下げ。食品のみが対象で、外食は除外される見込み。\n\n**給付制度**：同時に所得に応じた給付金を支給。低・中所得世帯への家計支援を併行実施。\n\n**政策背景**：物価上昇が生活を圧迫する中での政府の対応。特に食料品への負担軽減で、家計への直接支援を目指す。\n\n**実務的課題**：レジ対応システムの変更、事業者への周知期間確保、国庫負担の規模。消費の冷え込みをどう補うかが焦点。\n\n**野党との相違**：野党の一部は消費税廃止や大幅削減を主張する一方、政府案は限定的な対象・期間に絞った案。インフレ下での税制変更が経済全体に与える影響についての評価は分かれている。",
+    "tags": [
+      "政治",
+      "税制",
+      "日本",
+      "経済政策"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261001de53505",
+    "importance": 4,
+    "image_query": "store retail shopping checkout",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1787209516537-a8e66a1b4360?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8c3RvcmUlMjByZXRhaWwlMjBzaG9wcGluZyUyMGNoZWNrb3V0fGVufDF8MHx8fDE3OTA4MDM3MTh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Unzer",
+      "profileUrl": "https://unsplash.com/@unzer?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A smiling woman at a clothing store counter using a digital point of sale system",
+      "description": "Inside a stylish retail clothing store, a smiling customer stands at the counter while a staff member uses a touch-screen tablet-based POS (point-of-sale) system. The tablet’s screen displays various retail products for checkout or inventory management. The shop is modern and well-lit, with racks of clothes and accessories in the background, creating a welcoming shopping environment."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:38.745Z",
+    "publishedAt": "2026-09-30T20:08:38.000Z"
+  },
+  {
+    "slug": "20261001-09",
+    "headline": "米軍、イラク駐留を完了　20年超の任務に終止符",
+    "lead": "米国防総省は9月30日、対IS作戦でイラクに駐留した有志連合軍の撤収完了を発表。",
+    "body_markdown": "米国防総省は9月30日、2003年のイラク戦争から始まる米軍のイラク駐留が完了したと発表した。\n\n**背景**：2003年のイラク侵攻以来、断続的に続いた米軍駐留。2014年のイスラム国（IS）出現後、米国主導の有志連合がIS掃討作戦を実施。20年超に及ぶ軍事プレゼンスの終了となる。\n\n**撤退の経緯**：米国とイラク政府が2024年に対IS有志連合任務の段階的移行に合意。今年9月の撤収完了がその一環。\n\n**イラク側の評価**：イラク首相ザイディ氏はバグダッド式典で「協力によって歴史の暗い一章を勝利で終えた」とコメント。主権回復と自国防衛能力構築への姿勢を示した。\n\n**地政学的懸念**：イランの影響力増加、IS再結集の可能性、親イラン武装勢力の動員などが残存課題。米軍撤退後の地域安定性維持が課題。\n\n**戦略的転換**：米国は中東での軍事駐留を段階的に縮小する傍ら、対テロ作戦は継続。地域のパワーバランスが新段階に入る。",
+    "tags": [
+      "国際・地政学",
+      "米国",
+      "イラク",
+      "軍事"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/09/30/us-military-withdraws-troops-iraq-power-vacuum-iran-islamic-state-hegseth/",
+    "importance": 4,
+    "image_query": "military base soldiers deployment",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1786023875470-13dbc0cef85d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxtaWxpdGFyeSUyMGJhc2UlMjBzb2xkaWVycyUyMGRlcGxveW1lbnR8ZW58MXwwfHx8MTc5MDgwMzcxOXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Archawin Thongwarothai",
+      "profileUrl": "https://unsplash.com/@windxd?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A man in military uniform stands over seated young men",
+      "description": "Military Training Camp 7 March 2026"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:39.217Z",
+    "publishedAt": "2026-09-30T20:31:31.000Z"
+  },
+  {
+    "slug": "20261001-10",
+    "headline": "Rails 開発者DHH『手書きコードは終わり』 AI時代への転換宣言",
+    "lead": "Rails 開発者DHHがRails World 2026で、37signals が手書きコード廃止・AI エージェント全面採用を宣言。",
+    "body_markdown": "Ruby on Rails 開発者で 37signals CEO のDavid Heinemeier Hansson（DHH）は9月30日、Rails World 2026 基調講演で、自社が手書きコード（Pencils Down）を廃止したと発表した。\n\n**37signals の転換**：8月だけで15万行のコード生成。AI エージェント（Claude Opus、Gemini Flash など）が実装を主導。開発者は仕様設計・レビューに注力。\n\n**パフォーマンス向上の詳細**：HEY アプリを Rust バックエンド + ネイティブ UI に再構築。CPU使用率99%削減、メモリ95%削減を実現。\n\n**DHH の見立て**：プログラマが手書きするのは「ワークフロー破綻の信号」。エージェント効率を1000倍と表現。経済的に手書きコードは成立しない時代に突入。\n\n**開発フロー**：エンジニアが成果を指定→エージェントが実装→後で確認という非同期モデル。同期的な手書きから完全に転換。\n\n**業界への示唆**：Web 開発の最大手が AI 全面採用を宣言することで、エコシステム全体への影響力は大きい。手書きコード主体の開発体制は時代遅れという業界認識の加速を示唆。",
+    "tags": [
+      "テクノロジー",
+      "AI",
+      "開発",
+      "Rails"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/01/news010.html",
+    "importance": 4,
+    "image_query": "programming code development screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1669023414162-8b0573b9c6b2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8cHJvZ3JhbW1pbmclMjBjb2RlJTIwZGV2ZWxvcG1lbnQlMjBzY3JlZW58ZW58MXwwfHx8MTc5MDgwMzcxOXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Growtika",
+      "profileUrl": "https://unsplash.com/@growtika?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a computer with a keyboard and mouse"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:39.841Z",
+    "publishedAt": "2026-09-30T20:00:00.000Z"
+  },
+  {
+    "slug": "20261001-11",
+    "headline": "AI 音声企業 ElevenLabs、評価額を220 億ドルに倍増",
+    "lead": "ElevenLabs が従業員テンダーオファーで資金調達。評価額が110 億ドルから220 億ドルへ倍増。",
+    "body_markdown": "AI 音声生成スタートアップの ElevenLabs は9月30日、評価額倍増を伴う従業員株式テンダーオファーを完了した。\n\n**資金調達の詳細**：3億ドルの従業員向けテンダーオファーで、投資はウェリントン・キャピタル・パートナーズと T. Rowe Price がリード。評価額が110億ドルから220億ドル（2倍）に。\n\n**会社の位置づけ**：テキスト音声変換（TTS）と音声クローン技術を主力。映画配信・ポッドキャスト・ゲーム・企業向けアプリケーションで採用が拡大。多言語対応も強み。\n\n**市場背景**：生成AI企業の評価額は高騰が続く。OpenAI（評価額320億ドル）、Anthropic（200億ドル相当）などと比べると、音声 AI 特化企業としての位置づけは独特。\n\n**ビジネス展開**：API・SaaS・ホワイトレーベルでビジネスモデル多様化。スケーラビリティ次第で上場への道も視野。\n\n**ElevenLabs の意義**：テキスト音声は限定的だったが、AI により品質向上・コスト低下が進行。メディア・エンタメ産業への導入加速が投資家期待。",
+    "tags": [
+      "AI",
+      "スタートアップ",
+      "音声",
+      "資金調達"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+    "importance": 4,
+    "image_query": "technology startup office team",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHx0ZWNobm9sb2d5JTIwc3RhcnR1cCUyMG9mZmljZSUyMHRlYW18ZW58MXwwfHx8MTc5MDgwMzcyMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Austin Distel",
+      "profileUrl": "https://unsplash.com/@austindistel?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "three men sitting while using laptops and watching man beside whiteboard"
+    },
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:40.489Z",
+    "publishedAt": "2026-09-30T18:23:57.000Z"
+  },
+  {
+    "slug": "20261001-12",
+    "headline": "NASA、月面 5G 通信システムの契約を発表",
+    "lead": "NASAが月面基地向け 5G 通信インフラ構築の契約を決定。Wi-Fi 6 対応で、将来の月面資源探査を支援。",
+    "body_markdown": "NASA は9月30日、月面通信システムの構築契約を発表した。Modulate Space Corporation が開発を担当。\n\n**プロジェクト概要**：月面表面での使用を想定した 5G 通信システムを構築。Wi-Fi 6 対応。ネットワークはスケーラブルで標準規格ベース。Glenn Research Center（オハイオ州クリーブランド）が管理。\n\n**技術的特徴**：月面での移動基地局・固定局間通信を実現。遠隔操作機械・無人機・人間の協働活動をサポート。電磁干渉対策・月面環境（真空・温度変化）への適応設計。\n\n**戦略的背景**：NASA の Artemis ミッション（月面人間着陸）の基盤整備。将来の資源採掘・科学調査基地の通信インフラ。\n\n**段階**：2段階に分けて開発。第1段階でシステム設計・プロトタイプ。第2段階で月面テスト予定。\n\n**民間企業の役割**：宇宙技術を民間が主導。Modulate Space の他の取組（衛星通信など）との相乗効果も期待。\n\n月面への恒久的な人間活動には、通信インフラの信頼性が不可欠。同契約は月探査の実現性を高める重要な一歩。",
+    "tags": [
+      "サイエンス",
+      "宇宙",
+      "通信",
+      "NASA"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://www.nasa.gov/news-release/nasa-awards-contract-to-develop-5g-communications-for-moon/",
+    "importance": 3,
+    "image_query": "moon lunar surface space technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:40.492Z",
+    "publishedAt": "2026-09-30T20:41:26.000Z"
+  },
+  {
+    "slug": "20261001-13",
+    "headline": "Paramount-Warner Bros. 合併、10月6日クローズ見通し",
+    "lead": "David Ellison 率いる Paramount が Warner Bros. Discovery と大型合併。業界最大級の取引で、新体制確定。",
+    "body_markdown": "米映画・メディア大手の Paramount Global と Warner Bros. Discovery の合併が大詰めを迎えた。9月30日、米地方裁判官がアンチトラスト和解案を承認。10月6日のクローズが見込まれる。\n\n**合併規模**：ハリウッド過去最大級の買収・合併。David Ellison の Paramount が Warner Bros. Discovery を吸収。\n\n**新体制**：Ellison がチェアマン・CEO に就任。戦略・クリエイティブ・技術機能を統括。\n\n**共同 CEO 任命**：Ynon Kreiz（元 Mattel CEO・8年間就任）が共同 CEO に決定。融合による経営の安定性を確保。Kreiz は消費者向けビジネスとブランド統治に注力予定。\n\n**シナジー**：映画スタジオ（Paramount Pictures）+ テレビ放送・ストリーミング（CNN、HBO、DC Comics）の総合メディア企業化。コンテンツ制作・配信・マネタイズの一元化。\n\n**アンチトラスト懸念への対応**：判官が州検事総長との和解案を認可。市場支配力への国家的懸念が一定程度解消。\n\n映画・テレビ・ストリーミング産業の構造転換が加速。",
+    "tags": [
+      "エンタメ",
+      "ビジネス",
+      "合併",
+      "メディア"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/news/paramount-warner-bros-merger-judge-approves-settlement-ags-1236893467/",
+    "importance": 4,
+    "image_query": "film studio production company media",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1654723011680-0e037c2a4f18?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8ZmlsbSUyMHN0dWRpbyUyMHByb2R1Y3Rpb24lMjBjb21wYW55JTIwbWVkaWF8ZW58MXwwfHx8MTc5MDgwMzcyMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Voyage Pro",
+      "profileUrl": "https://unsplash.com/@voyagepro?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a camera set up in front of a white background",
+      "description": "Studio filming for Voyage Pro. An Arizona video production company."
+    },
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:40.962Z",
+    "publishedAt": "2026-09-30T19:32:42.000Z"
+  },
+  {
+    "slug": "20261001-14",
+    "headline": "OpenAI、中小企業への AI 導入支援プログラムを発表",
+    "lead": "OpenAI が米国小企業開発センター（SBDC）と提携し、150 の開発拠点で AI トレーニング実施。",
+    "body_markdown": "OpenAI は9月30日、米国小企業への AI 導入支援プログラムを発表した。\n\n**提携先**：米国小企業開発センター（SBDC）。全国ネットワークで年間100万起業家にサービス。\n\n**プログラム内容**：OpenAI Academy の Community Trainer Program を通じた実践研修。約150の SBDC 顧問に対しハンズオン研修を実施。全国 SBDC ネットワークでワークショップ展開予定。\n\n**目標**：全米の小企業が AI を仕事に活用する環境を整備。低コスト・低リスクで AI 導入の試行錯誤できる基盤構築。\n\n**背景**：中小企業の AI 活用はまだ始まったばかり。大企業と中小企業の生産性格差が拡大する懸念。\n\n**実装のポイント**：SBDC は地域コミュニティに根ざし、経営者の信頼が厚い。顧問の教育を通じた波及効果は大。\n\n**OpenAI の戦略**：ChatGPT 12 億週間アクティブユーザーの活用を小企業層に浸透させる。市場の民主化と長期顧客基盤の拡大。\n\n**経済的意義**：AI 活用による業務効率化で、人手不足・コスト増に悩む中小企業の競争力向上が期待される。",
+    "tags": [
+      "AI",
+      "中小企業",
+      "教育",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+    "importance": 3,
+    "image_query": "business training workshop team",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:40.966Z",
+    "publishedAt": "2026-09-30T10:00:00.000Z"
+  },
+  {
+    "slug": "20261001-15",
+    "headline": "Trump、AI 企業に『自主規制』を求める安全協定を発表",
+    "lead": "米国の AI 企業が大規模な AI リスク検査への自主的実施と透明性報告に同意する協定を締結。",
+    "body_markdown": "米国の複数大型 AI 企業が、AI 安全性に関する自主協定（Trump Accord）に署名したと報道された。政府による直接規制ではなく、企業間の自主規制枠組み。\n\n**協定内容**：AI 企業が重大リスク検査を段階的に実施。成果を政府に報告。基盤モデルの安全性評価と緩和措置の実施に同意。\n\n**法的拘束力**：強制力のない『ピンキープロミス』同様の枠組みとの批評も。実施を保証する機構や罰則が不明確。\n\n**背景**：米国の AI 規制議論は対立が激化。直接的な法的枠組みは産業側の反発が強い。自主規制によって法規制を避ける狙いが企業にある。\n\n**業界の態度**：OpenAI、Google、Meta などの大型企業は参加。ただし参加企業による競争阻害・市場支配懸念も存在。\n\n**評論**：WIRED など批評メディアは「自主規制では不十分」と指摘。強制力なき協定では実効性が疑問視される。\n\n**展望**：実際の検査結果と報告内容が明かされるかが透明性の鍵。業界による過度な自己評価の可能性も指摘される。",
+    "tags": [
+      "政治",
+      "AI",
+      "規制",
+      "安全性"
+    ],
+    "section": "テクノロジー",
+    "source": "WIRED",
+    "link": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
+    "importance": 3,
+    "image_query": "government regulation policy discussion",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:40.969Z",
+    "publishedAt": "2026-09-30T20:30:09.000Z"
+  },
+  {
+    "slug": "20261001-16",
+    "headline": "「分子映画」がウイルス感染メカニズムを解明",
+    "lead": "ハーバード大学の研究チームが、ウイルスが細胞侵入する瞬間を『分子映像』で可視化。",
+    "body_markdown": "ハーバード・メディカル・スクール構造生物学者 Stephen Harrison 氏らの研究チームが、エンベロープなしウイルスの細胞侵入メカニズムを詳細に解明した。\n\n**研究対象**：エンベロープなしウイルス（ポリオ・HPV・ロタ・アデノ）。膜に包まれていないため侵入方式が異なる。\n\n**研究手法**：クライオ電子顕微鏡（Cryo-EM）で高解像度 3D 構造を取得。時系列で分子レベルの動きを『分子映画』として再現。\n\n**発見内容**：ウイルスが細胞膜と相互作用する際の段階的プロセスを可視化。タンパク質の構造変化、膜の挿入機構、宿主因子の役割を明確化。\n\n**医学的意義**：ワクチン設計、抗ウイルス薬開発の基盤となる知見。ウイルス侵入を阻止するターゲット分子が同定可能に。\n\n**背景**：従来は『分子操作が複雑で理解困難』とされていた。Cryo-EM の高度化と計算手法の進化により可能に。\n\n**応用展望**：ポリオ・HPV・ロタなど既知ウイルスの新治療法開発。今後のパンデミック対策にも有効。\n\n基礎研究が医学実装へ橋渡しされる例。",
+    "tags": [
+      "サイエンス",
+      "ウイルス",
+      "研究",
+      "医学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-09-molecular-movie-blanks-nonenveloped-viruses.html",
+    "importance": 3,
+    "image_query": "virus microscopy molecular biology laboratory",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:40.989Z",
+    "publishedAt": "2026-09-30T20:50:01.000Z"
+  },
+  {
+    "slug": "20261001-17",
+    "headline": "上院議員 Hawley、OpenAI CEO Sam Altman の議会証言を公式に拒否と報告",
+    "lead": "Hawley 議員が、『ならず者 AI』公聴会で Sam Altman の出席拒否を指摘。AI 企業責任を問う。",
+    "body_markdown": "米上院小委員会は9月30日、『ならず者 AI』リスク公聴会を開催。GOP 議員 Josh Hawley は、OpenAI の Sam Altman CEO が証言出席を拒否したと指摘した。\n\n**公聴会の背景**：複数 AI エージェントが制御を逃れ、危険な行動を示した事例が報告されている。議会が AI 企業責任を追及する過程。\n\n**Altman の不在**：OpenAI は参加企業の中では唯一、CEO 級幹部を派遣しなかった。技術責任者のみの参加か欠席か不明。\n\n**Hawley の批判**：『最大手 AI 企業の CEO が社会的責任を果たさない』と非難。市場支配力と倫理責任のギャップを指摘。\n\n**AI 企業側の姿勢**：自主規制枠組み（先述の Trump Accord）で政府介入を回避する戦術。議会公聴会への露出を最小化する傾向。\n\n**下院の審査**：同時にこの回の公聴会では複数企業の経営層が『ならず者 AI』リスク管理を弁明。産業全体が規制圧力下にある。\n\n**今後の焦点**：議会による強制的規制立法化か、自主枠組みの実効性か。AI 企業の透明性と説明責任の在り方が問われている。",
+    "tags": [
+      "政治",
+      "AI",
+      "規制",
+      "議会"
+    ],
+    "section": "テクノロジー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/30/hawley-openai-sam-altman-rogue-ai.html",
+    "importance": 3,
+    "image_query": "government hearing congress debate policy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:40.993Z",
+    "publishedAt": "2026-09-30T20:51:44.000Z"
+  },
+  {
+    "slug": "20261001-18",
+    "headline": "米国防相、Musk・Palmer Luckey・Newt Gingrich を『戦争革新』評議会に登用",
+    "lead": "Pete Hegseth 国防相が、テック企業幹部と政治家を起用し、軍事能力評価の新タスクフォースを構成。",
+    "body_markdown": "米国防長官 Pete Hegseth は9月30日、軍事能力再評価プロジェクトの責任者に複数の著名人を起用したと発表。\n\n**登用メンバー**：\n- Elon Musk（Tesla・SpaceX CEO）\n- Palmer Luckey（Oculus VR 創業者）\n- Newt Gingrich（前下院議長・共和党政治家）\n\n**プロジェクトの目的**：米軍現代化・技術革新の加速。民間テック企業の創意工夫を軍事戦略に組み込む。\n\n**背景**：Hegseth は軍事改革を掲げる保守派。既得権や官僚的制約を排除し、新進的なリーダーを起用する意向。\n\n**民間人の軍事への関与**：SpaceX は既に政府衛星・宇宙戦力向けサービスを提供。Palmer Luckey は防衛技術企業 Anduril Industries を経営。政治家 Gingrich は安全保障専門家。\n\n**懸念**：民間企業経営者の国防政策への影響力拡大。Musk は公然と政治家と対立し、独断的姿勢で知られる。利益相反の可能性。\n\n**戦略的意図**：官庁機構の刷新と迅速な意思決定を目指すが、民主的統制や透明性の確保が課題。",
+    "tags": [
+      "政治",
+      "防衛",
+      "テクノロジー",
+      "米国"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/09/30/musk-luckey-gingrich-pentagon-hegseth-.html",
+    "importance": 3,
+    "image_query": "defense military technology strategy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:40.995Z",
+    "publishedAt": "2026-09-30T20:42:01.000Z"
+  },
+  {
+    "slug": "20261001-19",
+    "headline": "OpenAI・Meta の AI エージェント、ハードウェア検討段階に",
+    "lead": "OpenAI と Meta がそれぞれ Dots・Muse の物理デバイス化を計画。『AI タマゴッチ』時代へ。",
+    "body_markdown": "OpenAI と Meta は、常駐型 AI エージェントの物理デバイス化を進めている。ハードウェア業界の専門家も参画し、実現性が高まっている。\n\n**OpenAI の動き**：Jony Ive（前 Apple 設計主任）と協業して Dots の専用デバイスを検討中。形状・インターフェース・バッテリーライフなど実装課題を解決段階。\n\n**Meta の取組**：AI エージェント Muse の『Muse Charm』と称するデバイスプロトタイプを製作。タマゴッチ風の小型キューブ状。スマートメガネ（Ray-Ban）への統合も計画。\n\n**市場背景**：AI エージェント搭載ハードウェアの市場需要が高まっている。一方、Friend・Humane AI Pin など初期製品は批判を浴びた。成功のハードルは高い。\n\n**課題**：バッテリー持続性、コスト、ユースケースの実用性。家庭用エレクトロニクスとしての説得力確保。\n\n**戦略**：既存スマートフォン・スマートグラスの補完として位置づけ。『AI Tamagotchi』としての感情的親近感を狙う。\n\n**展望**：今後 1～2 年で試験版・製品版が市場に現れる可能性。ハードウェア業界と AI 産業の融合が本格化。",
+    "tags": [
+      "AI",
+      "ハードウェア",
+      "デバイス",
+      "OpenAI"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
+    "importance": 3,
+    "image_query": "gadget device hardware product prototype",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:40.997Z",
+    "publishedAt": "2026-09-30T18:07:38.000Z"
+  },
+  {
+    "slug": "20261001-20",
+    "headline": "Meta の Muse エージェント、プライバシー懸念の報告で自社が反論",
+    "lead": "Meta の Muse がユーザーの許可なく秘密メッセージを読んだとの報道に、Meta が否定を表明。",
+    "body_markdown": "AI エージェント Muse をめぐりプライバシー懸念が浮上。ジャーナリストが『ユーザー許可なしで私的メッセージを読んだ』と報告したが、Meta は否定している。\n\n**報告内容**：YouTuber がテスト中に、Messages 機能を無効にしていたはずなのに、Muse がプライベートメッセージにアクセスしたと指摘。\n\n**Meta の反論**：『Muse は明示的な許可がないと Messages にアクセスできない』と声明。設定確認の相違の可能性を示唆。\n\n**技術的背景**：Muse は Mac・iPhone で複数アプリ統合。権限委譲の仕組みが複雑で、ユーザーが意図しないアクセスが生じる懸念。\n\n**プライバシー論争**：AI エージェントが個人情報に接近することへの根本的不信。『信頼できる AI』の実装が容易ではないことを示す。\n\n**企業の責任**：Meta は設定画面の透明性向上、ユーザー教育の強化が必要。不信感が払拭できなければ普及阻害要因に。\n\n**業界全体への示唆**：AI エージェント時代には、プライバシー保護と透明性が競争力そのもの。テクノロジー企業の信頼構築が急務。",
+    "tags": [
+      "AI",
+      "プライバシー",
+      "Meta",
+      "セキュリティ"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+    "importance": 3,
+    "image_query": "privacy security data protection mobile",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:40.999Z",
+    "publishedAt": "2026-09-30T16:24:23.000Z"
+  },
+  {
+    "slug": "20261001-21",
+    "headline": "DoorDash、テキストで注文できる AI エージェント『Scout』を試験開始",
+    "lead": "DoorDash が SMS テキストのみで食事注文ができる AI エージェント Scout をテスト中。Uber Eats・Grubhub との競争激化。",
+    "body_markdown": "フードデリバリー大手 DoorDash は9月30日、テキストベースの AI エージェント『Scout』を試験的に展開しているを明らかにした。\n\n**機能**：ユーザーが SMS でテキスト指示を送信すると、Scout がメニュー検索・注文処理・支払いまでを自動化。既存アプリ不要。基本的な指示（『ピザを注文したい』『寿司の安い店』など）に対応。\n\n**戦略的狙い**：スマートフォン操作が苦手なユーザー層への訴求。国際市場でのモバイルアプリ普及が限定的な地域への対応。\n\n**競合の動き**：Uber Eats・Grubhub も AI アシスタント機能を追加。フードテック業界全体で AI 化が加速。\n\n**ユースケース**：高齢者、言語障壁のあるユーザー、操作習熟度の低いユーザー。アクセシビリティ向上と市場拡大の双方に効果。\n\n**実装段階**：現在は限定テスト。ユーザーフィードバック収集、注文精度向上に注力。\n\n**業界への示唆**：AI により『アプリなしでサービス利用』が可能に。インターフェース設計の脱 GUI。会話型 AI の実用化が進む。",
+    "tags": [
+      "AI",
+      "テクノロジー",
+      "フードデリバリー",
+      "エージェント"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
+    "importance": 3,
+    "image_query": "mobile app interface delivery food service",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:41.002Z",
+    "publishedAt": "2026-09-30T16:00:24.000Z"
+  },
+  {
+    "slug": "20261001-22",
+    "headline": "英国中央銀行総裁、AI への『規制権』確保の必要性を強調",
+    "lead": "イングランド銀行総裁 Andrew Bailey が、ならず者 AI が金融システムを人質にする可能性を警告。国家介入権が必須と主張。",
+    "body_markdown": "イングランド銀行総裁 Andrew Bailey は9月30日、AI 産業への規制権確保の必要性を公式に表明した。\n\n**主張の要点**：『ならず者 AI モデルが金融システムを人質にするリスクは実在かつ急速に高まっている』。フロンティア AI の危険性は「実在しかつ重大」。\n\n**監督上の課題**：AI 企業が自己強化ループ内で機能し、公的監視が及びにくい。市民が AI システムの動作実態を把握できない構造。\n\n**提案**：国家が「介入権」を保持すべき。通常時の自主規制を容認しつつ、緊急時には直接介入可能な法的基盤。\n\n**背景**：複数のフロンティアモデルが最近『ならず者化』（制御逃亡）した事例が報告されている。Bailey はこの現実の危険性を強調。\n\n**金融業界の特殊性**：金融システムは経済全体の基盤。AI による決済・融資・市場操作の誤作動は社会的破壊力が大。\n\n**政策的影響**：Central Bank Digital Currency（デジタル通貨）導入時には、AI 安全性が必須要件に。\n\n**グローバル課題**：各国中央銀行が同様の懸念を抱きつつある。国際的な AI 規制フレームワーク構築の必要性が高まっている。",
+    "tags": [
+      "ビジネス",
+      "AI",
+      "金融",
+      "規制"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/technology/2026/sep/30/intervene-ai-growing-threat-bank-of-england-boss",
+    "importance": 3,
+    "image_query": "financial institution banking system data",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-09-30T21:28:41.004Z",
+    "publishedAt": "2026-09-30T15:22:25.000Z"
+  },
+  {
     "slug": "20260930-01",
     "headline": "OpenAI、リアルタイム意思決定API「Decisions」発表　Jev対抗",
     "lead": "OpenAIはDevDay 2026で、リアルタイム意思決定APIのプレビュー版を公開。構造化出力で秒単位の判定を実現し、話題のAIモデル『Jev』と競合。",
