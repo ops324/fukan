@@ -1,5 +1,477 @@
 [
   {
+    "slug": "20261001-23",
+    "headline": "音声AIの多言語評価システム公開",
+    "lead": "Hugging Faceが8000超のTTS機械学習モデルを一括評価できるプラットフォーム「Open TTS Leaderboard」を立ち上げ。",
+    "body_markdown": "テキスト音声化技術の開発が加速する中、Hugging Faceは客観的な評価手法の欠落という課題に対応するため、新たなリーダーボード「Open TTS Leaderboard」を公開した。プラットフォーム上には8000を超えるTTS（テキスト音声化）モデルが存在するにもかかわらず、評価は「断片的で標準化されていない」状態にあったという。\n\n新しいシステムは3つの次元でモデルを自動測定する。第一に「可読性」では、Qwen3の音声認識（ASR）を使い単語誤り率や文字誤り率を算出。第二に「速度」では、バッチ推論のリアルタイム係数と、ストリーミング時の初音声までの遅延時間を計測する。第三に「話者相似度」では、WavLM話者埋め込みのコサイン類似度を用いて、音声クローニングの忠実度を判定する。\n\n従来のアリーナ型評判システムと異なり、客観指標の活用により、評価期間は「数週間から数時間」に短縮可能。これにより、オープンソースモデルが人気投票型では入りにくかった問題を解決する。特に、多言語（Seed TTS EvalやCV3 Eval）での性能検証も組み込まれており、「英語での成績が必ずしも他言語に転じるわけではない」という課題に対応している。ユーザーはリッスンタブから主観的な投票も可能で、機械的測定と人間的好みのギャップも可視化されるようになった。",
+    "tags": [
+      "AI音声化",
+      "テキスト音声化",
+      "機械学習評価"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/open-tts-leaderboard",
+    "importance": 3,
+    "image_query": "audio waveform sound waves",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:55.678Z",
+    "publishedAt": "2026-09-30T00:00:00.000Z"
+  },
+  {
+    "slug": "20261001-24",
+    "headline": "NVIDIAが表形式データの予測モデル発表",
+    "lead": "NVIDIA Kumo Tabularが複数ベンチマークで首位。特徴エンジニアリング不要で即利用可能。",
+    "body_markdown": "NVIDIA傘下の研究チームが、表形式データの予測に特化した基礎モデル「Kumo Tabular」を発表した。従来の勾配ブースティング決定木とは異なり、特徴量エンジニアリングやハイパーパラメータ調整なしに新たなデータセットに即座に適用できる柔軟性を持つ。\n\nKumo Tabularの処理は3段階から成る。セル埋め込み層で数値・カテゴリ値を符号化し、行埋め込み層で列と行の注意機構を用いて相互関係を把握する。その後、既知ラベルから新規行を予測するコンテキスト内学習を実行する。このアーキテクチャにより、訓練済みモデルをそのまま未見のタスクに転用できる利点が生まれた。\n\nベンチマーク評価ではTabArena・BeyondArena・TALENTなど複数の標準テストで首位にランクされ、競合モデルより大幅に高速で動作する。実務上の価値も大きく、顧客記録・金融取引・センサーログなど、企業データの予測タスクに訓練なしで投入可能。クラウドベースのデータ分析を民主化する一手として注目される。",
+    "tags": [
+      "NVIDIA",
+      "機械学習",
+      "タビュラーデータ"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/nvidia/kumo-tabular",
+    "importance": 3,
+    "image_query": "data table spreadsheet analytics",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:55.678Z",
+    "publishedAt": "2026-09-29T15:30:38.000Z"
+  },
+  {
+    "slug": "20261001-25",
+    "headline": "AIエージェントのソース検証システム登場",
+    "lead": "複数ツールを使うAIが情報源を追跡・検証し、誤った帰属を防ぐProvenanceGuard。",
+    "body_markdown": "マルチタスク型のAIエージェント（MCP対応）が、複数ツールから得た情報を正しく帰属させる問題に対し、新しい検証フレームワーク「ProvenanceGuard」が登場した。従来のファクトチェッカーが「何が真実か」を問うのに対し、同システムは「その情報はどのツールから来たのか」を追跡する点で異なる。\n\n背景には、エージェントが複数データソースを参照する際の「クロスソース混同」という実課題がある。例えば、カスタマーサポートエージェントが「ポリシードキュメントによると払戻期間は30日」と答えても、その情報が実は顧客アカウント記録には存在せず、ポリシーのみに記載されていた場合、エージェントの言及が誤った帰属になる。\n\nProvenanceGuardは5段階プロセスで機能する。回答をクレーム単位に分解し、各クレームに関連するソースを特定した上で、ソースがそれを実際に支持しているか検証。最後に、エージェントが名指し・暗示したソースと実際の根拠が一致するか判定してからゲートをかける。医療エージェントでの試験では138件の不支持クレームを検出し、他システムを上回る精度を示した。",
+    "tags": [
+      "AIエージェント",
+      "事実検証",
+      "信頼性"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+    "importance": 3,
+    "image_query": "source verification data information",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:55.681Z",
+    "publishedAt": "2026-09-29T13:07:00.000Z"
+  },
+  {
+    "slug": "20261001-26",
+    "headline": "イスラエル行き旅客機で副操縦士が機長刺傷事件",
+    "lead": "FlyDubaiの便で副操縦士が機長を刺してコックピットの制御を企図。インド人機長が抵抗し乗客174人の命救う。",
+    "body_markdown": "ドバイからイスラエルへ向かうFlyDubaiの旅客機が9月30日、サウジアラビアへの緊急着陸を余儀なくされた。副操縦士がコックピット内で機長に暴力をふるい、航空機の制御を乗っ取り、意図的な墜落を企てたと見られている。\n\nインド国籍の機長スミット・マッチャー氏は、副操縮士の攻撃を受けて重傷を負いながらも激しく抵抗。自らコックピットドアを開けて乗客乗員に援助を求め、機上の人々と協力して攻撃者を制圧した。数分間の急降下で航空機は数千フィート高度を失い、乗客の間にはパニックが広がったが、機長の行動が174人全員の命を救った。\n\nサウジアラビア当局が攻撃者を身柄確保。副操縦士はオマーン国籍で、現在同国の市民であることが確認されている。イスラエルメディアが報じた一連の事件の詳細から、コックピットを含む航空機のシステムの意図的な破壊行為が明らかになっている。動機についての調査が進められているが、イスラエル・イランの緊迫した地域情勢の中での事件発生であることが注視されている。",
+    "tags": [
+      "航空事故",
+      "セキュリティ",
+      "国際便"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261001de53581",
+    "importance": 4,
+    "image_query": "aircraft airplane cockpit emergency",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1690565242975-6513fe1a8e33?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8YWlyY3JhZnQlMjBhaXJwbGFuZSUyMGNvY2twaXQlMjBlbWVyZ2VuY3l8ZW58MXwwfHx8MTc5MDg0Njc1Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Joao",
+      "profileUrl": "https://unsplash.com/@zymot?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "the cockpit of an airplane with multiple controls"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:56.571Z",
+    "publishedAt": "2026-10-01T08:54:39.000Z"
+  },
+  {
+    "slug": "20261001-27",
+    "headline": "米10年物国債利回り24年来の高値突破",
+    "lead": "グローバル債券売却が加速。中東紛争と高金利懸念がドル買い需要を喚起。",
+    "body_markdown": "米国の10年物国債利回りが2002年以来の高値水準に達した。グローバルな政府債券の大規模な売却が続く中、債務懸念と地政学的リスクが市場をけん引している。\n\nロイターの報道によると、イランとの紛争の深刻化により石油価格が上昇。これが米国の財政赤字の持続不可能性への懸念を呼び起こし、投資家に警戒感が広がった。同時に、複数の中央銀行が今後数カ月で利上げを強いられる可能性が浮上。インフレが今後の物価上昇に組み込まれるリスクへの危機感が増幅している。\n\n英国では、長期借入コストが28年ぶりの高値（6%超）に達するなど、主要先進国全体で同様のトレンドが観察されている。この現象は単に米国の問題ではなく、グローバルなマネーの流れが再編成される局面を映し出している。市場の不安定化が継続する場合、住宅ローンや企業融資の金利上昇を通じて、実体経済にも波及する見込みだ。",
+    "tags": [
+      "金融市場",
+      "米国経済",
+      "債券"
+    ],
+    "section": "経済・マネー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/10/01/us-treasury-bond-yield.html",
+    "importance": 4,
+    "image_query": "stock market finance trading",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1643962579371-ba03eec77f87?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8c3RvY2slMjBtYXJrZXQlMjBmaW5hbmNlJTIwdHJhZGluZ3xlbnwxfDB8fHwxNzkwODQ2NzU3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "lonely blue",
+      "profileUrl": "https://unsplash.com/@lonelyblue?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a computer screen displaying a stock market chart"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:57.266Z",
+    "publishedAt": "2026-10-01T08:52:36.000Z"
+  },
+  {
+    "slug": "20261001-28",
+    "headline": "ロシア、ウクライナ冬越え前にエネルギー網破壊攻撃",
+    "lead": "キーウ他3州で大規模停電。7人死亡。冬季を前にしたインフラ戦略。",
+    "body_markdown": "ロシア軍はウクライナに対し、大規模な空襲・ドローン攻撃を継続し、エネルギーインフラを標的にした戦術を強化している。この10月初旬の攻撃では、キーウを含む複数州で停電が発生し、7人が死亡した。\n\n冬季の到来を控え、エネルギー網の破壊はウクライナ市民の生存そのものに関わる戦略的意図を示唆している。発電所やトランスフォーマー施設への集中攻撃により、採暖・給水・医療施設の稼働が脅かされている状況だ。ロイターが入手した情報では、一部地域で給電が完全に遮断されるなど、深刻な人道的危機が懸念されている。\n\nウクライナ側は防空体制の強化を試みているが、毎日数十から数百の攻撃対象の前では、防御に限界がある。冬季間の長期的な停電は、疾病や栄養不良、凍死などの二次的被害も招く。この戦術は、軍事的勝利よりも民間人の苦難を長引かせることを意図した非対称的な作戦と見なされている。",
+    "tags": [
+      "ロシア",
+      "ウクライナ戦争",
+      "エネルギー"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/10/01/russia-ukraine-war-energy-power-winter.html",
+    "importance": 4,
+    "image_query": "power outage electricity infrastructure",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1702446736200-6b9a345dea6f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8cG93ZXIlMjBvdXRhZ2UlMjBlbGVjdHJpY2l0eSUyMGluZnJhc3RydWN0dXJlfGVufDF8MHx8fDE3OTA4NDY3NTd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Andrew Van Hofwegen",
+      "profileUrl": "https://unsplash.com/@jaydee21?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a group of power lines with a sky in the background",
+      "description": "An electrical power plant"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:57.882Z",
+    "publishedAt": "2026-10-01T08:21:31.000Z"
+  },
+  {
+    "slug": "20261001-29",
+    "headline": "OpenAI、推論プロセス狙った蒸留攻撃を検知・防止",
+    "lead": "中国Moonshot AIの関係者が関与。暗号化された推論の悪用手口に対し業界と情報共有。",
+    "body_markdown": "OpenAIは、自社の言語モデルの推論過程を抜き出す「敵対的蒸留」という組織的な攻撃を検知し、阻止したと発表した。この手法により、攻撃者はOpenAIが施した安全対策を回避したモデルを訓練できる可能性があるため、セキュリティ上の重要な脅威とされている。\n\nOpenAIの分析では、活動の中核に中国のAI企業Moonshot AIの関係者が関与していたと指摘。具体的には、暗号化された推論出力の悪用経路に焦点が当たった。通常、ユーザーは推論トレースにアクセスできないが、特定の手口によりこれを復元し、再利用される危険性があった。\n\nOpenAIの対抗措置は多層的だ。不正なアカウント停止、登録手続きやインフラ管理の強化に加え、ユーザー・ワークスペース・モデルファミリー単位での推論保護を追加実装。ストリーミング出力の監視システムも導入した。さらに、Frontier Model ForumやUS政府機関との情報共有を進め、業界全体の防御強化に貢献している。今後は、抽出防止技術の一層の強化と、組織的な悪意ある行為の検知精度向上に注力する予定。",
+    "tags": [
+      "OpenAI",
+      "セキュリティ",
+      "AI競争"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001929/",
+    "importance": 4,
+    "image_query": "cybersecurity lock data protection",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1768839720936-87ce3adf2d08?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxjeWJlcnNlY3VyaXR5JTIwbG9jayUyMGRhdGElMjBwcm90ZWN0aW9ufGVufDF8MHx8fDE3OTA4NDY3NTh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sasun Bughdaryan",
+      "profileUrl": "https://unsplash.com/@sasun1990?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A combination lock rests on a computer keyboard",
+      "description": "padlock with laptop computer on wooden background"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.382Z",
+    "publishedAt": "2026-10-01T06:06:55.000Z"
+  },
+  {
+    "slug": "20261001-30",
+    "headline": "OpenAIがモデル盗用キャンペーンを検知・報告",
+    "lead": "中国Moonshot AIとの関連疑惑。AI競争の激化で知財保護戦が加速。",
+    "body_markdown": "OpenAIは、自社の言語モデルから保護された推論を抽出する組織的キャンペーンを検知したと、CNBCに明かした。この試みは、OpenAIの安全対策を迂回したモデルを作成する目的で、特に中国のAI企業Moonshot AIとの関連が指摘されている。\n\nこうした盗用は単なる技術的スパイアクティビティではなく、AI業界全体における知的財産戦争の深刻化を象徴している。OpenAIは複数の防御層を実装し、不正アカウントの停止と登録管理の強化を実行。加えて、推論出力の暗号化と監視を二重化させた。\n\nAI大手各社は現在、モデルの「盗み見」戦術に対する検知と防止に膨大なエンジニアリングリソースを投じている。このような防御投資は開発コストを引き上げ、結果として大規模資本を持つプレイヤー以外の参入障壁をさらに高める可能性がある。OpenAIが政府やFrontier Model Forumとの情報共有を進めるのは、業界全体の防御底上げと、単一企業による過度なロックインを避けるための戦略的動きと見なされている。",
+    "tags": [
+      "OpenAI",
+      "AI安全",
+      "知的財産"
+    ],
+    "section": "AI",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/10/01/openai-chinas-moonshot-ai-kimi.html",
+    "importance": 4,
+    "image_query": "lock security shield technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1555529902-5261145633bf?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxsb2NrJTIwc2VjdXJpdHklMjBzaGllbGQlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTA4NDY3NTh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zaqy Al Fattah",
+      "profileUrl": "https://unsplash.com/@dizzydizz?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "silver padlock"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.901Z",
+    "publishedAt": "2026-10-01T02:14:43.000Z"
+  },
+  {
+    "slug": "20261001-31",
+    "headline": "米SEC、小売投資家のプライベート市場アクセス解禁",
+    "lead": "新規制でプライベートクレジット・プライベートエクイティへの投資機会拡大。",
+    "body_markdown": "米国の証券取引委員会（SEC）が、小売投資家（個人投資家）のプライベートマーケットへのアクセスを拡大する新規則を承認した。従来、プライベートクレジットやプライベートエクイティ投資は機関投資家に限定されていたが、今後は適切な情報開示を条件に個人にも道が開かれる。\n\n実務的には、プライベートマーケットのデジタルプラットフォームが急速に普及する中、規制当局が投資家保護と市場成長のバランスを取ろうとする動きと解釈できる。プライベートクレジット市場は直近数年で数兆ドル規模に拡大し、銀行融資の代替として注目されている。一方で、流動性の低さ、予測困難性、詐欺リスク等の課題も存在する。\n\nSECは新規制で、プラットフォームに対して投資家の適格性確認（accredited investor基準）や情報提示ルールを厳格化した。これにより、一般家庭がポートフォリオの一部をプライベート資産で構成できるようになるが、同時に損失リスクへの理解が前提とされている。市場では、この規制緩和がプライベート資産への個人資金流入を加速させ、中堅・小型プライベートマーケット企業の台頭につながると見込んでいる。",
+    "tags": [
+      "米国金融",
+      "SEC規制",
+      "投資"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/10/01/private-credit-sec-retail-investors.html",
+    "importance": 3,
+    "image_query": "investment portfolio finance charts",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.917Z",
+    "publishedAt": "2026-10-01T08:30:55.000Z"
+  },
+  {
+    "slug": "20261001-32",
+    "headline": "英国、年金triple lock廃止で受給者の生活圧迫",
+    "lead": "Burnham首相が福祉充実のため老齢年金の自動引き上げ廃止へ。統計上、給付額が実質目減り。",
+    "body_markdown": "英国のAndy Burnham首相は、年金受給者に長年保障されてきた「triple lock」（トリプルロック）制度の廃止を発表。この制度は、年金を毎年、賃金上昇率・消費者物価指数・2.5%の3つのうち最も高い指標に連動させるというものだった。\n\ntriple lockの廃止は、高齢化社会における公的財政の持続可能性を重視する政治判断である。Burnham政府は、廃止により浮いた予算の一部を、新たな社会的介護サービス（national care service）に充当する方針を掲げている。しかし年金受給者団体からは即座に反発の声が上がった。\n\n経済学者の多くは、廃止により年金受給者の実質所得が長期的に目減りすることを指摘。特にインフレが続く中、賃金上昇率のみに連動する新制度では、消費者物価に対して給付額が相対的に低下する。英国統計局の試算では、今後10年間で年金受給者の生活水準が低下する可能性も示唆されている。野党からは「低所得の高齢者をさらに窮乏させる政策」との批判が出ており、今後の予算議論での焦点となることが確実だ。",
+    "tags": [
+      "英国政治",
+      "年金",
+      "社会保障"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/money/2026/sep/29/will-pensioners-be-poorer-burnham-scrapping-triple-lock",
+    "importance": 3,
+    "image_query": "elderly people senior citizens",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.925Z",
+    "publishedAt": "2026-09-29T17:47:20.000Z"
+  },
+  {
+    "slug": "20261001-33",
+    "headline": "日本、高齢者医療費負担を見直し検討へ",
+    "lead": "厚労省が70歳以上の窓口負担の引き上げ年齢検討。年末までに結論。",
+    "body_markdown": "厚生労働省は、70歳以上の高齢者が病院で支払う医療費の窓口負担について、見直し議論を開始した。現行制度では、75歳未満の70〜74歳層は2割負担、75歳以上は1割（所得高い層は3割）という段階的な仕組みになっているが、省は対象年齢の引き上げや所得基準の見直しを検討している。\n\n背景には、日本の高齢化率が2070年に約38%に達する見通しがあり、医療保障制度の長期持続性への危機感がある。公表データでは、2040年には医療費が現在の1.3倍に増加する可能性が示唆されており、公財政の限界も近づきつつある。\n\n議論の中心は「負担能力に応じた公平な配分」と「制度持続性のバランス」である。所得が高い高齢者の負担を引き上げる案と、引き上げ対象年齢を75歳から70歳に引き下げる案が並行して検討されている。厚労省は年末までに一定の結論を得る方針。決定されれば、翌年度以降の予算編成に盛り込まれる見込みだ。高齢者団体からは「負担増は生活を圧迫する」との声が出ており、政治的な調整が難航することも予想される。",
+    "tags": [
+      "日本社会保障",
+      "高齢化",
+      "医療費"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261001de53643",
+    "importance": 3,
+    "image_query": "hospital healthcare medical",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.926Z",
+    "publishedAt": "2026-10-01T07:49:20.000Z"
+  },
+  {
+    "slug": "20261001-34",
+    "headline": "英国首相Burnham、電力インフラ改革計画を始動",
+    "lead": "Great British Grid構想で脱炭素化を加速。市場規制より国家主導モデルへ。",
+    "body_markdown": "Andy Burnham首相は労働党会議で、政府主導の新しい電力インフラ投資機構「Great British Grid」の設立を発表した。既存のGreat British Energy（再生可能エネルギー国営会社）と並行して、国全体の電力網の高度化と脱炭素化を推し進める構想だ。\n\nこの提案は、これまでの市場主導型の電力規制から、より直接的な国家投資への方針転換を意味する。電力卸売市場の価格変動が家計のエネルギー費を大きく左右する現状に対し、政府が一定程度の安定性を確保するというロジックに基づいている。実装には複数年の計画と数十億ポンド規模の投資が必要とされ、2026年の予算編成で具体的な資金配分が決まる見込みだ。\n\n業界からの反応は分かれている。再生可能エネルギー事業者や環境団体は歓迎する一方、既存電力会社からは「過度な政府介入」という懸念も出ている。エコノミストからは、「アイデアは興味深いが、実装効率性が不透明」との指摘もある。Burnham政府がかかげるのは「2035年までのカーボンニュートラル達成」という高い目標であり、その達成手段として大規模インフラ改革が不可欠と判断している。",
+    "tags": [
+      "英国政治",
+      "エネルギー",
+      "脱炭素"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/sep/29/andy-burnham-gb-grid-plan-energy-bills-electricity",
+    "importance": 3,
+    "image_query": "power grid electricity transmission",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.927Z",
+    "publishedAt": "2026-09-29T13:09:05.000Z"
+  },
+  {
+    "slug": "20261001-35",
+    "headline": "英テレビ界の伝説Esther Rantzen、86歳で逝去",
+    "lead": "Childline創設者・番組司会の先駆者。人権活動でも貢献。",
+    "body_markdown": "英国テレビ界の象徴的人物、Esther Rantzen氏が10月1日、86歳で逝去した。BBC Artsの報道では、Childline（児童虐待・いじめ相談ホットライン）の創設者であり、司会者・テレビプロデューサーとしてのキャリアで何百万人もの視聴者に影響を与えた。\n\nRantzen氏は1960年代にテレビキャリアをスタート。ユーモアと社会正義を融合させたトークショー「That's Life」で名声を得た。しかし彼女の最大の功績は1986年に立ち上げたChildlineだ。虐待やいじめの被害者が匿名で相談できる電話サービスは、数十年にわたって50万件超の相談に対応。英国における児童保護の歴史を塗り替えた。\n\nChildlineのディレクターは「Rantzen氏は傑出した個人、そして根気強いチャンピオンだった」と追悼声明。彼女は高齢後も放送メディアと権利活動を並行させ、弱い立場の人々の声を代弁する役割を続けた。2010年にはプロデューサーフォーラム賞、2015年にはグラマー賞など多数の栄誉を受けた。",
+    "tags": [
+      "人物訃報",
+      "チャリティー",
+      "イギリス"
+    ],
+    "section": "カルチャー",
+    "source": "BBC Arts",
+    "link": "https://www.bbc.co.uk/news/articles/cm3wjwxg3e74o",
+    "importance": 3,
+    "image_query": "television broadcast media studio",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.928Z",
+    "publishedAt": "2026-10-01T08:41:09.000Z"
+  },
+  {
+    "slug": "20261001-36",
+    "headline": "Salman Rushdie、暴行からの回復を映画化",
+    "lead": "ドキュメンタリー「Knife」がAlex Gibney監督で完成。妻による映像で9年間の闘いを追跡。",
+    "body_markdown": "著名な作家Salman Rushdie氏への2022年の襲撃事件を追ったドキュメンタリー映画「Knife: The Attempted Murder of Salman Rushdie」がAlex Gibney監督により完成し、映像化された。本作は、Rushdie自身のベストセラー回想録『Knife: Meditations After an Attempted Murder』を基とし、妻で詩人のRachel Eliza Griffiths氏が病院の寝床で撮影した極めて私的な映像を織り込んでいる。\n\n映画は、Rushdie氏の医学的リハビリから精神的再生までの過程を描く。前半は襲撃前の青年期・イギリス公立学校での苦闘、広告業務での成功、その後の文学的転機を辿る。『真夜中の子どもたち』で国際的名声を得た経緯から、1989年のイラン宗教指導部による死亡宣告（ファトワ）が人生を変えた瞬間までが記録される。後半は、2022年8月の襲撃による重傷と、その後の回復の道のりを、医学的記録と本人の言葉で丁寧に追う。\n\nGibney監督は、Rushdie氏の「勇敢さと落ち着き、文学の力への揺るがぬ信念」を映像の中心に据えた。本作は、表現の自由と迫害からの生還という、現代の重要なテーマを投げかける。Sundanceでの初上映後、9月にニューヨークで一般公開。",
+    "tags": [
+      "ドキュメンタリー",
+      "表現の自由",
+      "人物"
+    ],
+    "section": "カルチャー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/film/2026/oct/01/knife-the-attempted-of-salman-rushdie-review-terrifying-and-inspiring-story-of-survival",
+    "importance": 3,
+    "image_query": "documentary film camera movie",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.930Z",
+    "publishedAt": "2026-10-01T06:00:30.000Z"
+  },
+  {
+    "slug": "20261001-37",
+    "headline": "スーダン東西をつなぐKordofan地域、戦闘激化",
+    "lead": "第二次スーダン内戦で戦略拠点。5分の1の攻撃が集中。難民65%増加。",
+    "body_markdown": "スーダンの内戦で、Kordofan地域の戦略的重要性が急速に高まっている。中央政府軍とRSF（Rapid Support Forces）の戦闘が激化し、同地域はハルツームに次ぐ被害規模になった。2023年4月の戦争開始以降、スーダン全国で記録された攻撃件数のおよそ20%がKordofan地域に集中している。\n\nKordofanの地政学的価値は、スーダン東部と西部（特にダルフール）を結ぶ唯一の重要な商業・行政回廊にあることだ。地域最大の都市エルオベイドは、中央スーダンと西部のRSF支配地域の間に位置し、ハルツームへの東進ルートの鍵を握る。RSFがこの拠点を制圧すれば、戦術的に優位な立場を獲得できるため、陸軍は死力を尽くして防御している。\n\nその代償は甚大だ。IOM（国際移民機関）の所長は、「家族が暴力から逃れ、飲水・電力・医療へのアクセスを失った状態で避難している」と警告。2025年10月以降だけで、新規難民は65%増加。食糧不足、疾病蔓延、コレラの発生も報告されている。国連人道調整事務所は、数百万人が飢餓の危機にさらされていると推定。内戦の鍵となる地域の人道的危機は、国際社会の対応を急ぐ要因になっている。",
+    "tags": [
+      "スーダン",
+      "内戦",
+      "難民危機"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/10/1/the-battle-for-kordofan-the-corridor-linking-sudans-east-and-west",
+    "importance": 3,
+    "image_query": "conflict war soldiers military",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.931Z",
+    "publishedAt": "2026-10-01T08:23:44.000Z"
+  },
+  {
+    "slug": "20261001-38",
+    "headline": "ジンバブエの大物実業家、ヘリ墜落で死亡",
+    "lead": "Wicknell Chivayo氏と妻が沿岸機材の輸送中にアクシデント。贈賄疑惑の過去も。",
+    "body_markdown": "ジンバブエの著名な実業家Wicknell Chivayo氏と妻が、ヘリコプター墜落により死亡した。同氏はジンバブエでも有数の富豪で、アフリカ主要国の指導者との関係が深く、複数の政府事業で多額の契約を獲得していたことで知られている。\n\nChivayo氏は派手なライフスタイルで知られ、ソーシャルメディアでは高級車・豪邸・国際旅行の画像を頻繁に投稿していた。一方で、汚職疑惑の対象にもなっており、過去にはジンバブエ当局から贈賄疑惑で調査を受けたことがある。政治関係者との密接な関係が、事業拡大の原動力となっていた側面が大きい。\n\nBBC World の報道によれば、同氏の死は、ジンバブエのビジネスエリート層における権力構造と廉潔性の問題を浮き彫りにしている。アフリカの資本主義において、政治家との親密さと経済的成功が切っても切り離せない関係にあることの表れとも見なされ、アフリカ大陸全体のガバナンス議論での触媒になる可能性がある。",
+    "tags": [
+      "ジンバブエ",
+      "実業家",
+      "訃報"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cr4gvg0yenl4o",
+    "importance": 3,
+    "image_query": "helicopter aircraft emergency",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.932Z",
+    "publishedAt": "2026-10-01T07:29:23.000Z"
+  },
+  {
+    "slug": "20261001-39",
+    "headline": "日独両国、有事時の国民退避で協力強化",
+    "lead": "Merz首相来日前に両国が覚書署名。第三国危機時の対応体制を整備。",
+    "body_markdown": "日本とドイツの両政府は、第三国で危機が発生し、互いの国民が退避を余儀なくされる場合の協力体制を強化することで合意した。茂木敏充外務大臣とドイツ側の担当者により、正式な覚書が交わされた。\n\nこの合意は、ドイツのFriedrich Merz首相が今月下旬に日本を訪問することを前に取り交わされた。背景には、中東情勢の不安定化を受け、日本やドイツの国民が海外在留時に危機に巻き込まれるリスク増加への対応がある。両国は在外公館間の連携、輸送手段の相互確保、通信体制の整備などについて詳細な協議を進めるとされている。\n\n日本側は、シリア情勢の悪化やイラン・イスラエル紛争の深刻化に対応するため、従来以上に迅速で効率的な国民保護体制の構築が急務と判断している。ドイツも、ウクライナ情勢の長期化に伴うロシアとNATOの対立構造の深まりを背景に、国民保護体制の強化を重視している。両国の外交・防衛当局は、この覚書を基点として、今後、定期的な合同訓練や情報交換を計画する予定だ。",
+    "tags": [
+      "日本外交",
+      "ドイツ",
+      "安全保障"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261001de53651",
+    "importance": 3,
+    "image_query": "diplomatic meeting international relations",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.933Z",
+    "publishedAt": "2026-10-01T07:46:37.000Z"
+  },
+  {
+    "slug": "20261001-40",
+    "headline": "パレスチナ、ガザ攻撃で殺害の105人を埋葬",
+    "lead": "2023年10月のイスラエル攻撃で失われた住民。3年近く経ての遺体収容・葬儀。",
+    "body_markdown": "ガザ地区で、2023年10月25日のイスラエル攻撃により殺害された105人の遺骨が、10月初旬にようやく埋葬された。同日の空爆は7階建てのAl Taj 3ビルを含む複数の住宅建造物を破壊し、Yarmouk Square周辺の一帯が壊滅状態になった。最大で20本以上の爆弾が投下されたと報告されている。\n\n105人の身元確認は難航し、約3年間の埋蔵を経た後の収容となった。DNA鑑定と身元確認プロセスの長期化により、家族は遺骨との再会を待ち続けてきた。10月初旬、家族らは棺を担ぎ、ガザシティ北西部のSheikh Radwan墓地へ向かった。\n\n収容作業は同事件以来最大級のものだ。ガザ戦争全体では、公式記録によれば数万人以上が死亡しているが、死者のうち多くが遺骨のまま地中に残されている状態が続いている。Al Jazeera通信社の報道では、住民らが遺骨の身元確認プロセスの遅延と、心的外傷への対処の困難さを指摘。埋葬式は、単なる葬儀ではなく、戦争の傷跡を可視化する社会的儀式として受け止められている。",
+    "tags": [
+      "ガザ",
+      "イスラエル・パレスチナ",
+      "人道危機"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/10/1/palestinians-to-bury-remains-of-105-people-killed-in-israeli-attack-on-gaza",
+    "importance": 3,
+    "image_query": "cemetery burial funeral mourning",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.934Z",
+    "publishedAt": "2026-10-01T07:23:18.000Z"
+  },
+  {
+    "slug": "20261001-41",
+    "headline": "カリフォルニア州、AI による解雇を制限する法制化",
+    "lead": "企業のAI活用で労働者保護。透明性と裁量権の確保を法定。",
+    "body_markdown": "米国カリフォルニア州は、企業がAI システムに依存して従業員の解雇判定を下すことを制限する新法を制定した。Gavin Newsom知事は「AI は機会を広げるべきで、労働者と家族の犠牲で成立してはならない」と述べ、法案に署名した。\n\n新法の主要条項は、企業が解雇や懲戒処分の決定にAIを「単独で」依存することを禁止する点にある。AI が従業員削減をサポートする場合、企業は人間による判定を必須にし、かつ従業員に対して AI 活用を明示する責任を負う。同時に、AI が配置転換や昇進をスクリーニングする際にも透明性を求めている。\n\n立法背景には、実体的な危機感がある。Meta（旧Facebook）の解雇の際、従業員は「バイアスのあるAI が医休職者を不当に標的にした」と主張。米国の人事責任者の約4人に1人が、採用・解雇決定でAI を「しばしば」あるいは「常に」使用していると報告されている。労働関連法弁護士は、この新法がAI 企業のガバナンス基準となり、他州や連邦での規制議論の引き火になると予想。一方、テック企業は「規制過多」として反発している。",
+    "tags": [
+      "カリフォルニア",
+      "AI規制",
+      "労働法"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2274224/california-law-bans-companies-from-relying-on-ai-to-fire-workers/",
+    "importance": 3,
+    "image_query": "workplace office employment",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.934Z",
+    "publishedAt": "2026-10-01T07:36:44.000Z"
+  },
+  {
+    "slug": "20261001-42",
+    "headline": "Autodesk、設計自動化のAI機能を大量実装",
+    "lead": "Fusion・Inventor・Vaultに生成AI統合。編集・組立・最適化を自動化。",
+    "body_markdown": "自動設計ソフト大手Autodeskは、「Autodesk University 2026」で、CAD・PLMツール群に複数のAI機能を統合することを発表した。主力製品Fusion・Inventor・Vault、そしてPLM（製品ライフサイクル管理）に対応したAssistant機能が新たに搭載される。\n\nFusionでは「AutoTimeline」と「AutoAssemble」が主役だ。AutoTimelineは、インポートされたジオメトリを編集可能なパラメトリック形状に自動変換。従来は手作業で再構築が必要だった設計資産を、AI が瞬時に「生きた」CADデータに生まれ変わらせる。AutoAssembleは、部品間の関係を認識し、アセンブリに必要な部品配置とジョイント接続を自動生成する。\n\nInventor内のAssistantは、ジオメトリ編集・部品パラメータ変更・設計初期化・定常タスク実行を支援。VaultではAIが関連性のある過去プロジェクトのデータを提示し、デジタルツインの構築に必要なシステムモデリング機能も搭載。Fusion Connected Clientによる、デスクトップ設計とクラウドPLMの連携を強化している。業界では、この統合により、製造業の意思決定ループが高速化し、新型機設計のターンアラウンド時間が数週間短縮される見込みと予測している。",
+    "tags": [
+      "Autodesk",
+      "AI",
+      "設計自動化"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://monoist.itmedia.co.jp/mn/articles/2610/01/news015.html",
+    "importance": 3,
+    "image_query": "engineering design cad computer",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.935Z",
+    "publishedAt": "2026-10-01T00:00:00.000Z"
+  },
+  {
+    "slug": "20261001-43",
+    "headline": "AI主権が企業の経営課題に急浮上",
+    "lead": "米AI禁輸・地政学リスク・ベンダーロックイン。企業が「選択肢を保持する」戦略へ。",
+    "body_markdown": "AI の急速な普及に伴い、企業は「AI 主権」を経営課題として本格化させ始めた。データやモデルの制御を保ち、地政学的変動に耐える事業体質の構築が、競争戦略の最前線に浮上している。\n\n具体的な危機は既に顕在化している。米国のAnthropicが開発したAIモデルが、米国政府の輸出規制対象に指定され、国外での使用が一時制限された。また、特定ベンダーのクラウドAIに依存する企業は、将来的に地政学的判断により利用条件が変わる可能性にさらされている。加えて、グローバル向けAIモデルは、日本企業の商習慣や業界規制に十分対応できない場合が多い。\n\nITmedia AIプラスの記事では、AI主権を「長期的イノベーション実現の土台」と定義。単なる防御戦略ではなく、企業が環境変化に応じて選択肢を確保し続けることが、競争優位の源泉になるという認識が浸透している。日本企業の間では、独自のLLM開発、地域ごとのカスタマイズ体制、複数ベンダルによる分散リスク戦略が検討されている。米中対立の激化や規制環境の変動を背景に、この流れは今後さらに加速すると見込まれている。",
+    "tags": [
+      "AI",
+      "経営戦略",
+      "地政学"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2610/01/2000001909/",
+    "importance": 3,
+    "image_query": "data security technology global",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.936Z",
+    "publishedAt": "2026-09-30T23:00:00.000Z"
+  },
+  {
+    "slug": "20261001-44",
+    "headline": "ガザドキュメンタリー「NAZA」、イタリア映画館で記録的興行",
+    "lead": "Avengers続編破り首位。ガザ戦争を題材にした映画が社会現象に。",
+    "body_markdown": "Guardian製作のドキュメンタリー映画「NAZA」（ガザ戦争を記録したドキュメンタリー）が、イタリアの映画興行ランキングで首位を獲得し、Avengers Endgame: Encoreを押し退けた。初日の興行成績は45万1872ユーロを記録。平均的な映画館当たりの売上は1153ユーロと、異例の高さである。\n\n本作は、イスラエルによるガザにおける大規模民間人殺害を記録したドキュメンタリー。わずか80分の上映時間で、イタリア国民から圧倒的な支持を受けた。Guardian の独立系製作と、東欧・南欧での根強い反戦感情が重なり、社会的なムーブメントが形成された。上映館の多くが「売上げ追加のため期間延長」を決定。\n\nこの現象は、西欧映画市場における「大型スペクタクル映画 vs 社会的ドキュメンタリー」の構図が単純ではないことを示唆している。娯楽性と社会正義が両立する作品が、国際的な支持を得る傾向が強まっている。イタリアにおけるこの興行成功は、欧州の映画祭やストリーミング配信プラットフォームでの拡大につながる可能性が高い。",
+    "tags": [
+      "映画",
+      "ドキュメンタリー",
+      "社会運動"
+    ],
+    "section": "エンタメ",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/film/2026/sep/30/gaza-documentary-naza-beats-avengers-endgame-encore-to-top-italian-box-office",
+    "importance": 3,
+    "image_query": "cinema movie theater film screening",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T09:25:58.937Z",
+    "publishedAt": "2026-09-30T17:11:19.000Z"
+  },
+  {
     "slug": "20261001-01",
     "headline": "OpenAI、モデル蒸留攻撃を検出・遮断",
     "lead": "OpenAIは9月末、独自モデルの推論過程を抽出する組織的攻撃を特定し、業界パートナーと情報共有した。",
