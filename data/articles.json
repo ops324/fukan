@@ -1,5 +1,345 @@
 [
   {
+    "slug": "20261002-01",
+    "headline": "トランプが米連邦準備制度の理事3人の解任を検討、法的障壁が立ちはだかる",
+    "lead": "トランプ前大統領がFed理事のパウエル、リサ・クック、バーの解任を目指す計画が報じられたが、「職責事由」の法的要件が大きな障壁となる。",
+    "body_markdown": "米大統領ドナルド・トランプがFed（連邦準備制度）の3人の理事——ジェロム・パウエル議長、リサ・クック理事、マイケル・バー副議長——の解任を目指す可能性がCNBCの報道で明らかになった。\n\nしかし法的には、大統領がFed理事を解任するには「職責事由（for cause）」が必要であり、これが大きな障壁となる。過去、Fed設立以来113年の歴史の中で、現職大統領がFed理事の解任を試みたことは一度もない。\n\nリサ・クック理事の場合、最高裁は6月29日に彼女の職務継続を支持する決定を下しており、トランプの解任努力は長期の訴訟に直面する可能性が高い。パウエルやバーの場合でも、事由の立証と法的手続きに時間がかかるため、実現には大きな課題がある。金融政策への影響力を狙う試みは、司法による独立性の保護に当たる構造になっている。",
+    "tags": [
+      "政治",
+      "連邦準備制度",
+      "アメリカ"
+    ],
+    "section": "政治",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/10/01/trump-fed-powell-lisa-cook-michael-barr-removal.html",
+    "importance": 5,
+    "image_query": "federal reserve building washington",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1633059050703-0f1b50828402?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxmZWRlcmFsJTIwcmVzZXJ2ZSUyMGJ1aWxkaW5nfGVufDF8MHx8fDE3OTA4ODk3MDl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Joshua Woroniecki",
+      "profileUrl": "https://unsplash.com/@joshuaworoniecki?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large building with columns and a flag on the corner",
+      "description": "Chicago Federal Reserve Bank Building"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-01T21:21:44.714Z",
+    "publishedAt": "2026-10-01T20:59:39.000Z"
+  },
+  {
+    "slug": "20261002-02",
+    "headline": "ロシアがNATOに警告、カリーニングラード海上封鎖なら核兵器使用も辞さず",
+    "lead": "ロシアは飛び地の領土防衛について、NATO加盟国の海上封鎖試みに対して核兵器を含む全軍事力の使用も辞さないと公式文書でNATOに警告した。",
+    "body_markdown": "ロシアはNATO事務総長に宛てた外交文書で、飛び地のカリーニングラード州への海上・空軍封鎖行為に対して、核兵器を含む「全軍事力」で対抗する用意があると警告した。\n\n文書ではNATOを「危険かつ無責任な路線をたどっている」と非難し、「ロシアの領土隔離を試みるいかなる行為に対しても、核兵器を含む軍事力全体で対抗する準備がある」と明記している。さらにロシアはNATO諸国の「意思決定中枢への直接攻撃の可能性」まで言及している。\n\nNATO事務総長マーク・ルッテは反発し、NATOは防御同盟であり「核の脅迫をやめるべき」と述べた。NATOはカリーニングラードを標的にしておらず、軍事活動や演習はロシアに対する脅威ではないと主張している。この対立はバルト海地域の緊張が新たな段階に入ったことを示している。",
+    "tags": [
+      "ロシア",
+      "NATO",
+      "地政学",
+      "核兵器"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261002de53773",
+    "sources": [
+      {
+        "url": "https://www.aljazeera.com/news/2026/9/30/russia-warns-nato-of-possible-nuclear-response-if-kaliningrad-is-cut-off",
+        "name": "Al Jazeera"
+      }
+    ],
+    "importance": 5,
+    "image_query": "military warship baltic sea",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1630434829057-9ff8f5e04b9e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxtaWxpdGFyeSUyMHdhcnNoaXAlMjBiYWx0aWMlMjBzZWF8ZW58MXwwfHx8MTc5MDg4OTcwOXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Martin",
+      "profileUrl": "https://unsplash.com/@martinostsee?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black ship on sea under white clouds during daytime",
+      "description": "Still in the sea canel of Rostock in the direction of Baltic Sea."
+    },
+    "mode": "full",
+    "createdAt": "2026-10-01T21:21:45.167Z",
+    "publishedAt": "2026-10-01T20:30:30.000Z"
+  },
+  {
+    "slug": "20261002-03",
+    "headline": "イスラエル首相、フライドバイ副操縦士は「イスラム過激思想に洗脳された」と指摘",
+    "lead": "UAE発イスラエル行きのフライドバイ便で副操縦士が機長を刺した事件について、ネタニヤフ首相はオマーン国籍の容疑者が過激思想に染まっていたと述べた。",
+    "body_markdown": "イスラエルのベンヤミン・ネタニヤフ首相は、アラブ首長国連邦からイスラエルへ向かっていたフライドバイ便の副操縦士がコックピットで機長を刺した事件について、容疑者は「イスラム過激思想による洗脳を受けていた」とコメントした。\n\n事件はUAEからイスラエルへの飛行中、サウジアラビア上空で発生。副操縦士（オマーン国籍）は機長を短刃で刺し、飛行機は30秒足らずで高度1万4000フィート以上低下した。ネタニヤフ首相によると、この容疑者は「自殺志願者であり、飛行機を墜落させるつもりだった可能性が高い」という。\n\nイスラエルの初期評価では、この容疑者が単独で行動したと見ており、イランとの関連性については「数日以内に判明する」とネタニヤフ首相は述べた。事件は中東地域の航空セキュリティ体制に新たな警告をもたらした。",
+    "tags": [
+      "テロ",
+      "中東",
+      "航空セキュリティ"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.com/news",
+    "importance": 5,
+    "image_query": "aircraft cockpit pilot",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1713327023682-d327a6961012?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8YWlyY3JhZnQlMjBjb2NrcGl0JTIwcGlsb3R8ZW58MXwwfHx8MTc5MDg4OTcxMHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "naillul autar",
+      "profileUrl": "https://unsplash.com/@kmrzaman?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "two pilots in the cockpit of a plane",
+      "description": "airplane cabin with pilot"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-01T21:21:45.633Z",
+    "publishedAt": "2026-10-01T00:00:00.000Z"
+  },
+  {
+    "slug": "20261002-04",
+    "headline": "NASA、SpaceX Crew-13の打ち上げに成功——ISS到着まで史上最速の8時間",
+    "lead": "NASA と SpaceX が4人の宇宙飛行士をISS へ送り込むCrew-13ミッションの打ち上げに成功。Crew Dragon 最速の飛行記録を樹立した。",
+    "body_markdown": "NASA とSpaceXは日本時間10月2日の未明（米国東部時間10月1日午前11時10分）、フロリダ州ケープカナベラルからFalcon 9ロケットを発射し、4人の宇宙飛行士を搭載したCrew-13ミッションを成功裏に打ち上げた。\n\n搭乗者はNASA宇宙飛行士のジェシカ・ワトキンス（船長）とルーク・デラニー（パイロット）、カナダ宇宙局のジョシュア・クトリク、ロスコスモスのセルゲイ・テテリャトニコフの4人。ワトキンス船長はクルードラゴンで2度目の飛行となり、NASA宇宙飛行士として史上初の複数回登壇者となる。\n\nCrew-13の最大の特徴はISS到着予定時間の短さで、従来のクルードラゴンは約1日以上を要していたのに対し、今回は8時間で到着する見込み。宇宙飛行士たちはISS上で6ヶ月間のミッションに従事する。",
+    "tags": [
+      "NASA",
+      "宇宙",
+      "SpaceX"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+    "importance": 4,
+    "image_query": "rocket launch spacecraft ISS",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://www.nasa.gov/wp-content/uploads/2026/10/spacex-crew13.jpg",
+      "credit": "NASA",
+      "creditUrl": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-01T21:21:45.706Z",
+    "publishedAt": "2026-10-01T15:00:00.000Z"
+  },
+  {
+    "slug": "20261002-05",
+    "headline": "Hugging Face、大規模言語モデル訓練インフラ「Olmo-core 3」を公開——スループット2.7倍向上",
+    "lead": "AI研究機関 Allen Institute が Hugging Face と発表したOlmo-core 3 は、大規模 MoE（混合専門家）モデル訓練の効率を劇的に改善するオープンソースインフラ。",
+    "body_markdown": "Hugging Face と Allen Institute は、大規模言語モデル訓練のためのオープンソースインフラ「Olmo-core 3」を発表した。このシステムはGPUメモリ効率を根本的に改善し、従来実装比で約2.7倍のスループット向上を実現している。\n\n47億パラメータの混合専門家（MoE）モデルでは、秒あたり5万2千トークンの処理が可能に。その秘訣は「エキスパートをGPUに常駐させ、関連データをルーティングする」というアーキテクチャ転換にある。並列化手法（エキスパート並列化、パイプライン並列化、MXFP8計算最適化）を統合し、1兆パラメータスケールの訓練まで対応する。\n\n開発チームは「モデルウェイトだけでなく、その背後の訓練インフラと意思決定もオープンにすることが重要」と述べており、オープンソース化により学術機関やAIスタートアップが独自のMoEモデルを構築する参入障壁が大幅に低下。AI開発の民主化を加速させる一歩となる。",
+    "tags": [
+      "AI",
+      "機械学習",
+      "オープンソース"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/allenai/olmocore3",
+    "importance": 4,
+    "image_query": "neural network computer server",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/uKnK93gjkKbmJmSx94WO2.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/allenai/olmocore3",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-01T21:21:46.180Z",
+    "publishedAt": "2026-10-01T15:01:43.000Z"
+  },
+  {
+    "slug": "20261002-06",
+    "headline": "OpenAI、スーパー「セーフウェイ」で ChatGPT 買い物体験——レシピから決済まで一括",
+    "lead": "OpenAI とスーパーチェーン・アルバートソンズが提携し、ChatGPT 内でセーフウェイの完全買い物体験を提供開始。夕食計画から店頭決済まで一つのAIで完結。",
+    "body_markdown": "OpenAI とアメリカのスーパーマーケット大手アルバートソンズは、ChatGPT にセーフウェイの買い物機能を統合した新体験を発表した。これにより顧客は夕食のアイデア、レシピ、デジタル買い物リストからすべてを ChatGPT 内で処理でき、最終的に Safeway ウェブサイトで決済することができる。\n\nセーフウェイの親会社アルバートソンズは、2200以上の店舗（セーフウェイ、ヴォンズ、ジュエル・オスコなど）で毎週3600万顧客を支援しており、ChatGPT Enterprise と OpenAI API による「データ駆動型レコメンデーション」と「プロモーション洞察」をこの統合に組み込んでいる。\n\n今後、この新体験はセーフウェイ以外のアルバートソンズ傘下ブランドにも拡大予定。社内ではマーチャンダイザーが予測モデルと生成AI を組み合わせて、プロモーション推奨を自動生成している。小売とAIの統合が、顧客体験の根本的な変革を起こしつつある。",
+    "tags": [
+      "AI",
+      "小売",
+      "ChatGPT"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/albertsons-reimagining-retail",
+    "importance": 4,
+    "image_query": "grocery shopping supermarket shopping cart",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6sZopZBu8aHeeYeb8H6IS1/945a5ed2fcd3a837554c8ac49a38cdf6/how-albertsons-companies-is-reimagining-retail-from-the-inside-out-seo.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/albertsons-reimagining-retail",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-01T21:21:47.089Z",
+    "publishedAt": "2026-10-01T16:00:00.000Z"
+  },
+  {
+    "slug": "20261002-07",
+    "headline": "Google DeepMind、AI 生成タンパク質に「見えない透かし」技術開発——不正流通を防止",
+    "lead": "Google DeepMind が、AI で設計されたタンパク質に検知不可能な透かしを埋め込む技術を開発。AI 生成医薬品の不正な転用や無許可利用を防ぐ。",
+    "body_markdown": "Google DeepMind はAIで設計されたタンパク質に「見えない透かし」を埋め込む新技術を開発したと発表した。この技術により、AI 生成医薬品や生物学的化合物の不正な流通や無許可利用を識別・防止することが可能になる。\n\n透かしは分子レベルで組み込まれており、タンパク質の機能に影響を与えないながらも、専門家による分析で原著作者（AI 開発企業）を証明できる。医薬品開発競争が激化する中、知的財産権保護と安全性管理が重要な課題になっており、この技術はそれらの課題に対する重要な答えとなる。\n\nPharma・Biotech 業界では、AI 生成分子の商業化が急速に進む一方で、成分の追跡と使用権の管理に課題があった。DeepMind のこの発明は「AI 倫理・安全」と「知財保護」の両立を示す好例として、業界標準化への足掛かりになる可能性がある。",
+    "tags": [
+      "AI",
+      "生物学",
+      "医薬品"
+    ],
+    "section": "AI",
+    "source": "Phys.org",
+    "link": "https://phys.org/",
+    "importance": 4,
+    "image_query": "protein molecular biology laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1582560469781-1965b9af903d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMnx8cHJvdGVpbiUyMG1vbGVjdWxhciUyMGJpb2xvZ3klMjBsYWJvcmF0b3J5fGVufDF8MHx8fDE3OTA4ODk3MTF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "CDC",
+      "profileUrl": "https://unsplash.com/@cdc?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "woman in white shirt standing in front of computer",
+      "description": "This image depicted a Centers for Disease Control and Prevention (CDC) scientist interacting with her Caliper LifeSciences’ Zephyr Molecular Biology Workstation, working with samples to be tested using a real-time PCR machine, known as a themocycler (see PHIL 22904), in order to identify the various types of poliovirus contained therein. The data from this analysis is stored in a computer, while the software further analyzes the data before being reviewed by a scientist."
+    },
+    "mode": "full",
+    "createdAt": "2026-10-01T21:21:47.649Z",
+    "publishedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "slug": "20261002-08",
+    "headline": "OpenAI、3人の安全保障研究者との関係を断絶——内部構造の変化が明らかに",
+    "lead": "OpenAI が Wall Street Journal の報道を受け、3人の安全保障関連研究者の契約を終了。AI 安全技術開発体制の再編が進む。",
+    "body_markdown": "Wall Street Journal の報道により、OpenAI が3人の安全保障関連の研究者との関係を終了したことが明らかになった。具体的な離職理由は公開されていないが、これは OpenAI の内部構造や安全研究部門の戦略的変化を示唆している。\n\nOpenAI は ChatGPT などの大規模言語モデルの安全性評価と改善を目的とした独立した研究チームを保有してきたが、その体制が再編の局面に入ったとみられる。業界観測者の間では、AIセーフティ研究が実装側との統合を深める傾向があり、独立した評価体制の縮小がトレンドになっているとの指摘もある。\n\n同時に、AI 企業における「安全」の定義や優先順位が多様化しており、OpenAI の判断が業界全体の安全文化に影響を与える可能性がある。今後、AI セーフティ領域がどう進化するか、技術開発のスピードと安全検証のバランスについて、業界内外から注目が集まっている。",
+    "tags": [
+      "AI",
+      "安全性",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/",
+    "importance": 3,
+    "image_query": "laboratory research scientist",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T21:21:47.651Z",
+    "publishedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "slug": "20261002-09",
+    "headline": "Google、「Guided Vision」で細字印刷も読み取り可能に——ビジョンAIの実用化が進む",
+    "lead": "Google が新機能「Guided Vision」を発表。スマートフォンのカメラで小さな文字や注釈も即座に拡大・解読できるようになった。",
+    "body_markdown": "Google は AI ビジョン機能「Guided Vision」を発表し、スマートフォンのカメラを使って微小な文字や細かい注釈をリアルタイムで拡大・解読できるようにした。医療文書の用量表記、食品パッケージの成分表、契約書の細則など、日常生活で細字が必要な場面での利用を想定している。\n\n技術的には、Google の視覚認識 AI が「ユーザーの焦点領域」を自動検知し、その部分を優先的に解析・拡大表示する。機械学習により、複数言語の混在テキストや手書き文字にも対応し、角度や光源の変化に強い。アクセシビリティ機能として視力に課題のあるユーザーも想定した設計になっている。\n\nこの機能は Google Pixel シリーズから段階的にロールアウトされており、今後他の Android デバイスにも拡大予定。AI による「視覚支援」の実用化は、実装と市場投入のスピードが加速している好例だ。",
+    "tags": [
+      "Google",
+      "AI",
+      "ビジョン"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/",
+    "importance": 3,
+    "image_query": "smartphone camera technology vision",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T21:21:47.653Z",
+    "publishedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "slug": "20261002-10",
+    "headline": "Samsung、初のクリップ式イヤホン「Galaxy Buds Clip」を韓国で発売——グローバル展開へ",
+    "lead": "Samsung がイヤホンの新形状「クリップ式」を初めて市場に投入。従来のインカナル式の課題を解決し、装着感の自由度が向上する新製品。",
+    "body_markdown": "Samsung は韓国市場向けに、初のクリップ式イヤホン「Galaxy Buds Clip」を発表した。従来の入耳型（インカナル）イヤホンではなく、耳たぶの外側にクリップで装着する形状で、装着感や耳への負担を軽減できることが特徴だ。\n\nオーディオ品質は従来製品を継承しており、ノイズキャンセリング、空間オーディオ、タッチコントロールなど主要機能は全て搭載。バッテリー駆動時間も同等水準を実現している。大きな違いは「耳穴に挿入しないため、長時間装着でも違和感が少ない」という点で、通勤・在宅勤務での常時装用ユーザーには利点が大きい。\n\nEnggadget の報道によれば、グローバルロールアウトは今後行われるが、具体的なスケジュールは未公表。イヤホン市場では Apple AirPods Pro が市場を支配しているが、Samsung のこの新形状は「新しい装用スタイル」を提案することで、既存市場にカテゴリの拡張をもたらす可能性がある。",
+    "tags": [
+      "テクノロジー",
+      "音声機器",
+      "Samsung"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2275187/samsung-launches-its-first-clip-on-earbuds-in-south-korea/",
+    "importance": 3,
+    "image_query": "earbuds wireless audio device",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-10-01T21:21:47.655Z",
+    "publishedAt": "2026-10-01T12:00:00.000Z"
+  },
+  {
+    "slug": "20261002-11",
+    "headline": "MIT、脳スキャンから視覚情報を AI で再構成——「マインドリーディング」技術が進展",
+    "lead": "MIT とハーバード大がAI技術を使い、脳スキャン信号から「見ている景色」を視覚的に再構成することに成功。神経科学と AI の融合が加速。",
+    "body_markdown": "米 MIT の研究チームは、機能的磁気共鳴画像法（fMRI）の脳スキャン信号から、被験者が「見ている視覚情報」を AI を使って再構成する実験に成功した。脳活動パターンから画像・映像を復元するという、いわば「マインドリーディング」に近い技術である。\n\n研究では、被験者に複数の動画を視聴させ、その際の脳活動をスキャン。AI モデルが脳信号から「どの種類の風景・物体・人物が映っていたか」を推測し、実際の映像に対する復元精度が 60〜70% に達した。この精度は、従来手法の 20〜30% から大きく改善されている。\n\nこの技術の応用は医療（脳卒中患者のリハビリ、コミュニケーション障害の治療）や認知神経科学の研究に広がり、同時に倫理的課題（プライバシー、個人の思考監視の可能性）ももたらす。研究者たちは「医療応用が主目的」と強調しており、透明性と倫理ガイドラインの確立が並行する必要がある。",
+    "tags": [
+      "AI",
+      "脳神経学",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/",
+    "importance": 4,
+    "image_query": "brain MRI scanner laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1581595220921-eec2071e5159?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOHx8YnJhaW4lMjBNUkklMjBzY2FubmVyfGVufDF8MHx8fDE3OTA4ODk3MTJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "woman in red shirt sitting in front of computer",
+      "description": "A computer-assisted tomographic (CAT) scanner, with a Caucasian female technician working at a screen and behind a glass wall. A patient is on a table and being tested by the CAT scanner. The lighting is very subdued. This new technology revolutionized detection of brain tumors."
+    },
+    "mode": "full",
+    "createdAt": "2026-10-01T21:21:48.573Z",
+    "publishedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "slug": "20261002-12",
+    "headline": "米英の借入コスト急上昇——世界的な債券売却がもたらすリスク",
+    "lead": "アメリカとイギリスの長期金利が大幅上昇。全世界規模での債券売却が進行中で、金融市場が新たな不安定化リスクに直面している。",
+    "body_markdown": "アメリカの10年物国債利回りが 24 年ぶりの高さに上昇し、イギリスの長期金利も同様に上昇している。これは世界的な「債券売却」トレンドが強まっていることを示しており、中央銀行の金利引き上げ政策と、投資家の「リスク回避」姿勢の転換が背景にある。\n\nGuardian の分析によれば、金利上昇は住宅ローン・企業融資に波及し、借入コストの総体的な上昇をもたらしている。同時に政府債務を抱える各国の財政負担が増加し、特に先進国の「長期的な財政サステナビリティ」が問い直されている。\n\nThe Economist の見方では「政府は米ドル・英ポンドよりも国内インフレヘッジ資産を保有したいというシグナル」であり、米英の実質的な「信用低下」を示唆している可能性もある。金融市場全体の再評価局面が続く中で、企業・個人の借入意欲が阻害される影響も懸念される。",
+    "tags": [
+      "金融",
+      "金利",
+      "経済"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/",
+    "sources": [
+      {
+        "url": "https://www.economist.com/",
+        "name": "The Economist"
+      }
+    ],
+    "importance": 4,
+    "image_query": "stock market finance trading",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1614028674026-a65e31bfd27c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8c3RvY2slMjBtYXJrZXQlMjBmaW5hbmNlJTIwdHJhZGluZ3xlbnwxfDB8fHwxNzkwODg5NzEzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tech Daily",
+      "profileUrl": "https://unsplash.com/@techdailyca?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "laptop showing stock chart on desk",
+      "description": "GME Stock Chart on Robinhood App! | Via techdaily.ca | #stocks #finance #investing #gme #stonks #citadel "
+    },
+    "mode": "full",
+    "createdAt": "2026-10-01T21:21:49.186Z",
+    "publishedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "slug": "20261002-13",
+    "headline": "AI ブーム、先進国の財政危機を深刻化させる可能性——The Economist 分析",
+    "lead": "AI への巨額投資と研究開発が進む一方で、先進国の政府財政が急速に悪化。支出増と税収減のスパイラルが金融市場を揺るがす。",
+    "body_markdown": "The Economist の最新分析では、AI テクノロジーへの巨額投資ラッシュが「先進国の長期的な財政危機」を加速させる可能性があると警告している。原因は複数ある：\n\n第一に、AI インフラ（データセンター、GPU、高度なコンピューティング）への投資が年数十兆円規模に達し、これが政府債務残高の増加を推し進めている。第二に、労働市場の構造化による税収減——AI が労働生産性を高める一方で、労働所得税の減少をもたらす。\n\n第三に、AI による「産業転換」が迅速な場合、失業対策・職業訓練への公的支出が急増する。これらのコストを賄うため、政府は債券発行（借金）に依存せざるを得ず、長期金利上昇のスパイラルが形成される。特にアメリカ・イギリス・日本などの先進国は既に債務比率が高く、AI ブーム期の追加借金は「将来世代への負担転嫁」になる可能性がある。",
+    "tags": [
+      "AI",
+      "財政",
+      "経済"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/",
+    "importance": 4,
+    "image_query": "data center computers servers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1580192984971-1f0a3dcc535e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8ZGF0YSUyMGNlbnRlciUyMGNvbXB1dGVycyUyMHNlcnZlcnN8ZW58MXwwfHx8MTc5MDg4OTcxNHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Museums Victoria",
+      "profileUrl": "https://unsplash.com/@museumsvictoria?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "woman in black coat standing in front of mirror",
+      "description": "Trevor Pearcey and CSIR Mk 1, 1952"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-01T21:21:49.754Z",
+    "publishedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
     "slug": "20261001-23",
     "headline": "音声AIの多言語評価システム公開",
     "lead": "Hugging Faceが8000超のTTS機械学習モデルを一括評価できるプラットフォーム「Open TTS Leaderboard」を立ち上げ。",
