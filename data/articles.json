@@ -1,5 +1,312 @@
 [
   {
+    "slug": "20261002-14",
+    "headline": "インド人パイロット、副操縦士の刃物攻撃から乗客救う",
+    "lead": "ドバイ発テルアビブ便で副操縦士がコックピット攻撃、キャプテンが人命救助に当たった。",
+    "body_markdown": "フライ・ドバイ機がコックピット内で深刻な攻撃事件に見舞われた。ドバイからイスラエル行きフライト1073の副操縦士が、インド人キャプテンのスミット・マッチャー氏（39歳）をナイフで刺し、飛行機を墜落させようとしたとみられている。マッチャー氏は防戦中に負傷しながらもコックピットドアを開き、乗客と乗務員が攻撃者を制圧した。飛行機は高度の半分を2分以内に失ったが、機長と他の乗務員が急速に高度を回復させ、サウジアラビアに緊急着陸。乗客全員が無事で、この事件はインドのメディアで民間航空の危機的状況の一例として報じられている。トランプ大統領はこの事件がイランと関連している可能性を指摘している。キャプテン・マッチャー氏の対応は、航空史における英雄的な行動として注目されている。",
+    "tags": [
+      "航空",
+      "航空事故",
+      "危機管理",
+      "テロ"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/c639m98gde00o",
+    "importance": 5,
+    "image_query": "cockpit attack airplane",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1601579852503-c82d2dd10267?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8Y29ja3BpdCUyMGF0dGFjayUyMGFpcnBsYW5lfGVufDF8MHx8fDE3OTA5MzMwNzF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Eric Ward",
+      "profileUrl": "https://unsplash.com/@ericjamesward?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black and green airplane engine",
+      "description": "This is the B-17 Flying Fortress - a beastly warplane from Boeing used by America during WWII to protect the skies over Europe. This is the cockpit of a plane with 4 turboprop engines."
+    },
+    "mode": "full",
+    "createdAt": "2026-10-02T09:24:32.121Z",
+    "publishedAt": "2026-10-02T08:49:53.000Z"
+  },
+  {
+    "slug": "20261002-15",
+    "headline": "ブラジル大統領選、左右が対立し投票日を迎える",
+    "lead": "ルーラ左翼大統領とボルソナロ右翼議員が激戦。10月4日投票予定。",
+    "body_markdown": "ブラジルは10月4日（日）の大統領選第1次投票に向けて投票準備を進めている。世論調査で40対36の僅差となる左翼大統領ルイス・イナシオ・ルーラ・ダ・シルバと右翼上院議員フラヴィオ・ボルソナロが最有力候補。どちらも支持率拒否率が約50%に達しており、激しい対立が続く。主な争点は汚職、失業率、生活費の高騰、ギャング勢力の拡大など。ルーラは4期目の大統領を目指し、不平等の削減と失業率の低下を成果として挙げるが、生活費と家計債務の増加が有権者の支持を阻む。ボルソナロは前大統領の息子で、右翼運動への回帰を代表している。決選投票が行われる場合は10月25日となる。",
+    "tags": [
+      "ブラジル",
+      "選挙",
+      "政治",
+      "大統領"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/10/02/brazil-election-bolsonaro-lula-china-trump.html",
+    "importance": 5,
+    "image_query": "voting election ballot",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1790861286878-1f9a3f5134fb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyM3x8dm90aW5nJTIwZWxlY3Rpb24lMjBiYWxsb3R8ZW58MXwwfHx8MTc5MDkzMzA3Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vitalii Abakumov",
+      "profileUrl": "https://unsplash.com/@scoutori?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A light blue marker on a calendar page marked for midterm election voting",
+      "description": "Election 2026. Calendar Page Marked Vote Midterm Election Date on Blue Background"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-02T09:24:32.718Z",
+    "publishedAt": "2026-10-02T08:48:14.000Z"
+  },
+  {
+    "slug": "20261002-16",
+    "headline": "ServiceNow、エンタープライズAIの自動データ生成システム発表",
+    "lead": "AutoSynthDataが企業固有タスク向けの訓練データを自動生成。効率35%向上。",
+    "body_markdown": "ServiceNow CoreAIは「AutoSynthData」を発表した。エンタープライズエージェントが環境固有タスクで能力不足に陥る課題に対応するシステム。従来は手作業で失敗ケースを収集し訓練データセットを作成していたが、AutoSynthDataは評価実行でモデルの弱点を特定し、自動的に現実的で難度の高い新規タスクを生成する。3段階の抽象化（システム指定、ユーザープロンプト、検証）で構成。結果、EnterpriseOps Gym環境のHybridドメインで35%の相対的改善、ITSM領域で18.77%から27.18%への向上を実現。機械学習パイプラインの効率化により、企業向けAIエージェントの実用性が向上する。",
+    "tags": [
+      "AI",
+      "機械学習",
+      "データ生成",
+      "エンタープライズ"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+    "importance": 4,
+    "image_query": "machine learning data",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-02T09:24:33.014Z",
+    "publishedAt": "2026-10-02T04:01:31.000Z"
+  },
+  {
+    "slug": "20261002-17",
+    "headline": "LLMは「本当には推論していない」と研究者が指摘",
+    "lead": "AlphaGo開発者が、大規模言語モデルの推論能力の限界を分析。",
+    "body_markdown": "MIT Technology Reviewの分析によれば、AlphaGo開発者で研究者のトーレ・グレーペル氏は、大規模言語モデル（LLM）は表面的には見えても、実質的には「推論」していないと指摘している。AlphaGoの有名なMove 37は、1万分の1の確率の着手を直感的に判断し、その後数千の分岐を検索して最適性を確認する「真の推論」を示したが、LLMにはこのような能力がない。グレーペル氏が挙げる3つの弱点は、第1に明確な認識状態がなく仮説の記録がない、第2に知識と推論がニューラルネットの重みに不可分に混在している、第3に理由づけが外観の後付けである、ということだ。真の推論システムを構築するには、科学的方法を進化させた、明示的な推論機構と検証可能な証拠の更新が必要だと主張している。",
+    "tags": [
+      "AI",
+      "推論",
+      "LLM",
+      "AlphaGo"
+    ],
+    "section": "AI",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+    "importance": 4,
+    "image_query": "artificial intelligence algorithm",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1646583288948-24548aedffd8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGFsZ29yaXRobXxlbnwxfDB8fHwxNzkwOTMzMDczfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Spiske",
+      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "the word ai spelled in white letters on a black surface",
+      "description": "AI – Artificial Intelligence – digital binary algorithm – Human vs. machine"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-02T09:24:33.671Z",
+    "publishedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "slug": "20261002-18",
+    "headline": "欧州の52%が記録的熱ストレスに—EU気候監視",
+    "lead": "欧州史上最高の気温を記録した夏。52%が極端な熱ストレスを経験。",
+    "body_markdown": "EU気候監視機関は、欧州が記録的な高温に見舞われた2026年夏、52%の地域が「極めて強い」熱ストレス（気温換算38℃以上相当）にさらされたと報告した。さらに広範には、80%の欧州大陸が「強い」熱ストレス（32℃以上相当）を経験し、その日数は記録的な41日に達した。欧州西部は史上最高気温を記録し、複数の国が国単位の気温新記録を樹立した。この夏だけで欧州の過去10年の熱波ランキングのうち4件が起きている。気象現象に加え、乾燥によるディーゼル河川流量の低下は1992年以降で最低となり、河川運送と核原発の冷却、水力発電に圧力がかかった。",
+    "tags": [
+      "気候",
+      "熱波",
+      "環境",
+      "EU"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-10-europe-hottest-summer-stress.html",
+    "importance": 4,
+    "image_query": "heat wave weather climate",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1786302199640-0ca9c604ed33?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxoZWF0JTIwd2F2ZSUyMHdlYXRoZXIlMjBjbGltYXRlfGVufDF8MHx8fDE3OTA5MzMwNzR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Veronica White",
+      "profileUrl": "https://unsplash.com/@veronicaa_white?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A lone tree in a dry golden field with rolling green hills beyond",
+      "description": "Devon fields during the summer 2026 drought"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-02T09:24:34.365Z",
+    "publishedAt": "2026-10-02T07:40:02.000Z"
+  },
+  {
+    "slug": "20261002-19",
+    "headline": "ワーナー映画部門トップ、パラマウント合併で退任",
+    "lead": "マイケル・デ・ルーカとパメラ・アブディ氏が、大型M&Aを前に退職。",
+    "body_markdown": "ワーナー・ブラザーズの映画部門を率いてきたマイケル・デ・ルーカとパメラ・アブディは、パラマウントとの大型合併が成立する見通しの中、近く退職する。1100億ドル規模の歴史的M&Aとなるパラマウント・スカイダンスとワーナー・ブラザーズ・ディスカバリーの合併は10月6日に完了予定。合併後の経営体制では、デイビッド・エリソンCEOの下で、ダナ・ゴールドバーグとジョシュ・グリーンスタイン両氏が両映画スタジオを統括することになる。合併により60億ドルの経営効率化を求められるなか、スタジオ幹部の人員削減は経営合理化の一環と見られている。",
+    "tags": [
+      "映画",
+      "M&A",
+      "合併",
+      "人事"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/news/michael-de-luca-pamela-abdy-exit-warner-bros-paramount-merger-close-1236897365/",
+    "importance": 4,
+    "image_query": "film studio movie",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1781127445209-f02336fa36a0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8ZmlsbSUyMHN0dWRpbyUyMG1vdmllfGVufDF8MHx8fDE3OTA5MzMwNzR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Cemrecan Yurtman",
+      "profileUrl": "https://unsplash.com/@cmrcn_?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Professional video cameras and crew working on a studio set",
+      "description": "A cinematic behind-the-scenes moment on a professional film set, featuring cinema cameras, production lighting, and crew members preparing a shot. The shallow depth of field and soft lighting create an atmospheric view of the filmmaking process, highlighting the artistry and technical precision behind modern cinema production."
+    },
+    "mode": "full",
+    "createdAt": "2026-10-02T09:24:34.965Z",
+    "publishedAt": "2026-10-02T06:15:17.000Z"
+  },
+  {
+    "slug": "20261002-20",
+    "headline": "台湾、米国からF-16V戦闘機を初受領",
+    "lead": "80億ドル案件の最初の2機が到着。中国の脅威に対抗。",
+    "body_markdown": "米国は台湾への初のF-16V Block 70戦闘機2機を届けた。米防衛企業ロッキード・マーティン製のこれらの航空機は、トランプ大統領の第1期中に承認された66機購入案件（80億ドル）の第1陣。F-16Vはより高度な戦闘能力、探知能力、エンジン性能を備え、中国の最新J-20ステルス戦闘機を含む脅威への対抗力を強化する。新型機はより高度なアビオニクス、武装、レーダーシステムを搭載している。中国はこの武器供与の停止を米国に繰り返し求めていたが、納入は実現した。台湾の国防大臣ウェリントン・クーは「年末までには2機だけでなく、より多くの納入がある」と述べている。",
+    "tags": [
+      "台湾",
+      "F-16V",
+      "防衛",
+      "中国"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/10/2/us-delivers-f-16v-fighter-jets-to-taiwan-as-island-eyes-threat-from-china",
+    "importance": 4,
+    "image_query": "fighter aircraft military jet",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1536714303373-a2114b28b6b7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxmaWdodGVyJTIwYWlyY3JhZnQlMjBtaWxpdGFyeSUyMGpldHxlbnwxfDB8fHwxNzkwOTMzMDc1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Clayton Holmes",
+      "profileUrl": "https://unsplash.com/@clayton_holmes?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black and grey fire fighter plane",
+      "description": "F-22 Raptor"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-02T09:24:35.427Z",
+    "publishedAt": "2026-10-02T08:26:22.000Z"
+  },
+  {
+    "slug": "20261002-21",
+    "headline": "国産AI「ELYZA」、LLM-jp-4ベースで性能強化版を無料公開",
+    "lead": "KDDI傘下のエライザが日本語AIモデルを大幅改善。オープンソース化。",
+    "body_markdown": "KDDI傘下のAI企業エライザは、日本語大規模言語モデル「ELYZA-Thinking-1.0-llm-jp-4-33b」と「ELYZA-Thinking-1.0-llm-jp-4-32b-a3b」を発表した。国立情報学研究所が開発したオープンAIモデル「LLM-jp-4」シリーズをベースに、事後学習により性能を強化している。両モデルはApache 2.0ライセンス下で10月2日からHugging Faceで公開され、商用利用も可能。密型の「ELYZA-Thinking-1.0-llm-jp-4-33b」と混合エキスパート型の「ELYZA-Thinking-1.0-llm-jp-4-32b-a3b」の総ベンチマークスコアはそれぞれ61.7と58.5を達成し、公開LLM-jp-4シリーズの既存モデルを上回っている。AIが自己改善する「再帰的自己改善（RSI）」研究も推進している。",
+    "tags": [
+      "日本語AI",
+      "LLM",
+      "オープンソース",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2610/02/2000001965/",
+    "importance": 4,
+    "image_query": "artificial intelligence machine learning",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwxfDB8fHwxNzkwOTMzMDc1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Hitesh Choudhary",
+      "profileUrl": "https://unsplash.com/@hiteshchoudhary?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person holding sticky note",
+      "description": "Python programming"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-02T09:24:36.041Z",
+    "publishedAt": "2026-10-02T06:20:44.000Z"
+  },
+  {
+    "slug": "20261002-22",
+    "headline": "マレーシア、ミャンマー難民1500人以上を強制送還",
+    "lead": "UN警告を無視。難民支援団体が激しく反発。ロヒンギャへの不安が高まる。",
+    "body_markdown": "マレーシアはミャンマー国籍者1476人以上をミャンマーに強制送還し、内戦下の人権危機への国連の警告と160以上の市民組織の抗議を無視した。最初のグループにロヒンギャ難民がいない事実が判明し、市民戦争と深刻な人権問題で知られるミャンマーへの帰還に対する懸念が高まっている。ロヒンギャはミャンマーの市民権を否定されているため、強制送還の対象外とされている一方、最初の1500人にはその他の民族的少数派が含まれた。拡大計画では最大5000人の帰還を予定している。国連難民高等弁務官事務所（UNHCR）はミャンマーへの帰還に懸念を表明。マレーシアに登録された約20万人の難民と庇護申請者のうち約3分の2がロヒンギャである。",
+    "tags": [
+      "難民",
+      "ミャンマー",
+      "マレーシア",
+      "人道"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/features/2026/10/2/they-are-crying-refugees-in-malaysia-in-fear-amid-myanmar-deportation",
+    "importance": 4,
+    "image_query": "refugee humanitarian crisis",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1635929114944-8bab23b98e74?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxyZWZ1Z2VlJTIwaHVtYW5pdGFyaWFuJTIwY3Jpc2lzfGVufDF8MHx8fDE3OTA5MzMwNzZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Dulana Kodithuwakku",
+      "profileUrl": "https://unsplash.com/@dulana_hansisi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a group of young boys walking down a dirt road",
+      "description": "May the god be with them"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-02T09:24:36.555Z",
+    "publishedAt": "2026-10-02T08:14:18.000Z"
+  },
+  {
+    "slug": "20261002-23",
+    "headline": "Meta、400億ドルの罰金を求める—ケンブリッジ・アナリティカ訴訟",
+    "lead": "ニューメキシコ州がデータプライバシー侵害で大型賠償請求。Meta側は34.5億ドル上限を主張。",
+    "body_markdown": "ニューメキシコ州は、Meta（Facebook）がユーザーのプライバシーについて虚偽を告げたとして、350～400億ドルの罰金を求めている。ケンブリッジ・アナリティカ・スキャンダルに関連した裁判で、陪審団は9月末にMetaが州の不公正取引法を違反し、プライバシーと偽情報対策について居住者を誤導したと判定した。陪審団の判定によると、ニューメキシコ州内のFacebookユーザーを対象とした声明が4300万件の州消費者保護法違反に相当するという。州は現在、判事に350～400億ドルの罰金を求めている。Metaはこの提案を「天文学的」と呼び、上限を34.5億ドルに限定することを求めている。判事の判定は今月後半に予定されている。",
+    "tags": [
+      "Meta",
+      "プライバシー",
+      "罰金",
+      "規制"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2275451/new-mexico-meta-40-billion-penalties-cambridge-analytica-lawsuit/",
+    "importance": 4,
+    "image_query": "technology company regulation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1662747845337-448182c838c4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8dGVjaG5vbG9neSUyMGNvbXBhbnklMjByZWd1bGF0aW9ufGVufDF8MHx8fDE3OTA5MzMwNzd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "hasyir anshori",
+      "profileUrl": "https://unsplash.com/@anshorihasyir?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a keyboard",
+      "description": "Keyboard"
+    },
+    "mode": "full",
+    "createdAt": "2026-10-02T09:24:37.209Z",
+    "publishedAt": "2026-10-02T08:47:29.000Z"
+  },
+  {
+    "slug": "20261002-24",
+    "headline": "米国、欧州にディーゼル備蓄放出を促す—トランプ輸出禁止警告",
+    "lead": "エネルギー価格上昇、イラン情勢悪化でエネルギー危機。EU困惑。",
+    "body_markdown": "米国はEU諸国に対し、ディーゼル価格上昇に対応してディーゼル備蓄を放出するよう圧力をかけている。トランプ大統領はディーゼル輸出禁止を脅迫し、中東のエネルギー供給不安と連動してエネルギー市場が混乱している。ロイターは、EU各国がトランプ政権の圧力に応じてディーゼル備蓄を放出する提案について協議していると報じた。米国のディーゼル不足と価格高騰はイラン情勢の悪化、石油供給の不確実性につながっている。EU各国は危機協議に備えており、エネルギー政策の面でも米国との関係構築が課題となっている。",
+    "tags": [
+      "エネルギー",
+      "ディーゼル",
+      "EU",
+      "トランプ"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/10/02/oil-wti-brent-diesel-stock-release-europe.html",
+    "importance": 4,
+    "image_query": "oil energy fuel",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1762680585321-4b7a07dbad33?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzMHx8b2lsJTIwZW5lcmd5JTIwZnVlbHxlbnwxfDB8fHwxNzkwOTMzMDc3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zoshua Colah",
+      "profileUrl": "https://unsplash.com/@zoshuacolah?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Man sitting at a petrol station at night",
+      "description": "An Indian Oil petrol station in India, showcasing the company’s distinctive blue and orange branding. Indian Oil Corporation Limited (IOCL) is one of India’s largest state-owned oil and gas companies, operating fuel stations across the country."
+    },
+    "mode": "full",
+    "createdAt": "2026-10-02T09:24:37.673Z",
+    "publishedAt": "2026-10-02T08:51:49.000Z"
+  },
+  {
     "slug": "20261002-01",
     "headline": "トランプが米連邦準備制度の理事3人の解任を検討、法的障壁が立ちはだかる",
     "lead": "トランプ前大統領がFed理事のパウエル、リサ・クック、バーの解任を目指す計画が報じられたが、「職責事由」の法的要件が大きな障壁となる。",
