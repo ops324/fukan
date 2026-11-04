@@ -141,6 +141,35 @@ git stash pop
 
 ---
 
+## 5b. judge の判定が使えなかった（veto が効いていない回）
+
+**症状**: Slack に「査読(judge)が不在のまま公開します」または「判定が一部の下書きに付いていません」。
+`data/quality/incidents.jsonl` に `judge_absent`（`cause` が `verdict_unusable` / `verdict_partial`）。
+`scheduler.log` に `judge 判定が使えません` / `judge 判定を使えません`。
+
+**公開は止まっていない**（評価機構の故障で日次を止めない設計）。止まっているのは **veto の効き**なので、
+その回の記事は**未査読のまま出ている**と考えて点検する。
+
+```bash
+# ① 何が起きたか（cause と理由）
+grep '"type":"judge_absent"' data/quality/incidents.jsonl | tail -5
+
+# ② judge が書いたものの原本（退避済み）。壊れ方をここで見る
+ls -la data/quality/_review-failed-*.json
+
+# ③ 退避ファイルから判定を復元できるなら、veto 相当の記事を取り下げる（§2 の手順）
+#    復元できない場合は scheduler.log の judge 出力（markdown）が唯一の原本
+grep -n "veto" data/scheduler.log | tail -20
+```
+
+取り下げた記事は **`data/quality/vetoes.jsonl` に遡及記録する**（`origin` を `runtime` 以外にして由来を残す）。
+記録しないと writer への還流（`vetoDigest`）から漏れ、同じ型の誤りが繰り返される。
+
+`npm run check` の `checkReviewVerdictGuard()` が緑なら、ガードと配線そのものは生きている
+（＝judge の出力が壊れた回であって、ガードの退行ではない）。
+
+---
+
 ## 6. 画像がおかしい
 
 ```bash

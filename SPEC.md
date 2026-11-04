@@ -102,7 +102,8 @@ AIニュースサイト/
 │   │   ├── evaluations.jsonl # 1記事1評価（客観指標＋judge 結果＋sourceFetched）
 │   │   ├── vetoes.jsonl      # 不採用にした下書き（critique 原文・categories・救済結果）
 │   │   ├── runs.jsonl        # 実行ごとのサイト集計
-│   │   └── incidents.jsonl   # 運用イベント（judge_absent / auth_failed / publish_blocked / ledger_write_failed / candidates 等）
+│   │   ├── incidents.jsonl   # 運用イベント（judge_absent / auth_failed / publish_blocked / ledger_write_failed / candidates 等）
+│   │   └── _review-failed-*.json # 読めなかった judge 出力の退避（§12.8）
 │   ├── .health             # 一時: 新規ゼロの連続回数（監視用・git管理外）
 │   ├── .status             # 一時: 最終実行の状態サマリ（人間が読む・git管理外）
 │   ├── _writer.log         # 一時: writer 出力の退避（認証エラー検査用・実行後に掃除）
@@ -139,6 +140,7 @@ AIニュースサイト/
 │   ├── markdown.js         # md→html / エスケープ / 本文の生HTML・危険プロトコル無害化
 │   ├── evaluate.js         # 客観評価・ledger 追記・有界化・二重掲載の特徴語判定（§12.1）
 │   ├── qualityDigest.js    # 直近の逸脱と veto 傾向を writer プロンプトへ還流（§12.6）
+│   ├── reviewVerdict.js    # judge 判定の受け取り検査（使える判定かの唯一の正本・§12.8）
 │   ├── vetoLedger.js       # veto の記録と critique の分類（data/quality/vetoes.jsonl）
 │   ├── vetoDigest.js       # veto 傾向 → writer への是正指示テキスト
 │   ├── seedVetoLedger.js   # 過去の veto を scheduler.log から遡及投入（冪等・既定 dry-run）
@@ -769,6 +771,8 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
   かつリント指摘無し**の低リスク回は judge を**丸ごとスキップ**（客観ゲート＋writer 自己批評のみで公開）。`media` 混在 or 客観フラグ有り＝独立検証が最も要る回だけ judge を走らせる。
   `tier` が `primary` と明示されない下書きは risky 扱い（フェイルセーフ）。writer=Haiku のため judge は一段上の **Sonnet** を既定にしている（writer≠judge を保ち、安いHaikuの量産を賢いSonnetが独立検証する分業）。
 - **失敗時最優先＝日次を止めない**: judge がエラー/タイムアウト/スキップでも**ブロックせず**客観ゲートのみで通常公開し（失敗時は通知＋`data/quality/incidents.jsonl` に `judge_absent` を1行記録して後追い分析できるようにする）。
+  ここでの「失敗」は**プロセスの異常終了だけではない**——judge が正常終了して `_review.json` を書いても、
+  中身が判定として使えなければ veto は効かない。その検査は `src/reviewVerdict.js` が担う（§12.8）。
 
 ### 12.4 記憶（ledger）
 `data/quality/`（**data 配下＝dirty ガードに触れず auto コミットに乗る**）:
@@ -881,6 +885,43 @@ numeric/entity 側に寄せる（writer への指示が「書いた後に突き�
 - **退行検査**: `npm run check` の `checkDraftLint()` が、上表の事故形を再現した合成下書きを通し、
   4つの code が今も検出されることを hard-fail で確認する（サニタイザ検査と同じ方式）。
   安全弁 `config.draftLint.enabled=false` の間は警告に落とす（安全弁を引いたら check が赤になる逆転を避けるため）。
+
+### 12.8 judge 判定の受け取りガード（veto を無言で失わない）
+
+**背景（2026-11-04）**: judge は 25本中3本を veto と判定し `data/_review.json` を書き出したが、中身が
+**壊れた JSON** だった。`auto-generate.sh` のガードは `! -f .../data/_review.json`＝**ファイルの存在しか
+見ていなかった**ため「査読は成功した」と扱われ、`judge_absent` も Slack 通知も出ないまま、`ingestDrafts`
+が判定を読めずに veto を無視して3本（金額の10倍誤り・出典に無い記述を含む）を取り込んだ。
+`prepareFixRound` も同じ理由で「対象0件」を返し、`fixable:true` の1本は修正リトライにも回らなかった
+（呼び出し側が `2>/dev/null` で理由を捨てていた）。記事は正常に見えるため、`git push` が GitHub の
+Internal Server Error で偶然失敗していなければ、そのまま公開されて誰も気づけなかった。
+
+**構造的な原因**: 「判定が使えるか」をガードと消費側が**別々に判定していた**。ガードは存在で真、
+消費側は `JSON.parse` で偽。この非対称があると veto は無言で消える。
+
+- **正本の一本化**: `src/reviewVerdict.js` が「使える判定か」を決める唯一の場所。`ingestDrafts.js` /
+  `prepareFixRound.js` が `readVerdicts()` を使い、`auto-generate.sh` は同じモジュールの CLI
+  （`node src/reviewVerdict.js --validate`）を呼ぶ。**終了コードが契約**（0=判定は使えて全下書きに
+  付いている／1=使えない／2=一部が未査読・形式不備）。stdout の書式を見せないのは、書式を変えた
+  瞬間にガードが沈黙するのを防ぐため。
+- **壊れ方の扱い**: 不正 JSON・配列でない・使える行が0件 → **judge 不在と同じ**（通知＋`judge_absent`
+  に `cause:"verdict_unusable"`）。1行だけ形式不備や未査読の下書きがある場合は、**読めた判定は尊重して
+  続行**し `cause:"verdict_partial"` を残す。1行の不備で veto を全部捨てると、正しく読めた veto まで
+  公開されてしまう（検出のために事故を広げることになる）。
+- **原本を捨てない**: 読めなかった `_review.json` は `data/quality/_review-failed-<UTC>.json` へ退避する
+  （末尾の一時ファイル掃除で消えるため、その場に残すと復元不能。2026-11-04 は `scheduler.log` の
+  markdown から critique を手で復元するしかなかった）。退避先が `data/quality/` なのは、そこが
+  git 追跡対象＝バックアップされる唯一の置き場だから。
+- **記録の二重化**: 自動実行では `auto-generate.sh`（`stage:"guard"`）と `ingestDrafts`（`stage:"ingest"`）
+  の両方が記録する。前者は検出、後者は**判定なしで公開した層**。手動 ingest では後者だけが残る。
+  件数を数えるときは `stage` で絞る。
+- **止めない**: ここも §12 の規律どおり、評価機構の故障で公開事故や停止を起こさない。ガードがするのは
+  「気づける経路を残す」ことだけで、公開はブロックしない（ブロックするのは `npm run check` の側）。
+- **退行検査**: `npm run check` の `checkReviewVerdictGuard()` が hard-fail で止める。
+  ①判定器そのもの（壊れ方ごとに ok/complete を取り違えないか）②CLI の終了コード（合成フィクスチャで
+  0/1/2）③配線（ガードが CLI を呼んでいるか・消費側が自前で `JSON.parse` し直していないか・
+  `-f` による存在判定に戻っていないか）。**実データ（正常な判定）を通してもこの3つは検証できない**ため、
+  合成した壊れ方を実際に通す（`checkTagPathWiring()` と同じ考え方）。
 
 ---
 

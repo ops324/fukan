@@ -12,12 +12,15 @@
 // 3e) タグ→パス配線の退行検査 … 危険文字を含む合成タグを実際に描画し、書き出し名・tagHref・
 //    canonical・sitemap の4経路が tagSlug を通っているかを突き合わせる。実データは取り込み時に
 //    正規化済みで tagSlug の不動点になるため、実データを描画しても配線の外れを検知できない。
+// 3f) judge 判定ガードの退行検査 … 壊れた _review.json を合成して、判定器・CLI の終了コード・
+//    配線（ガードと消費側が同じモジュールを通っているか）を検証する。ここが「ファイルの存在」
+//    だけを見ていたため、2026-11-04 は壊れた判定が素通りして veto 3本が取り込まれた。
 // 4) 客観品質チェック … 本文長/タグ数/重複話題など。これは「警告のみ」で exit には影響しない
 //    （自己改善 MVP の床。決定的・オフライン・LLM/ネットワーク不使用）。
 // 4b) ledger 網羅チェック … 直近記事が evaluations.jsonl に残っているか（警告のみ）。
 //    取り込み時の記録は try/catch で握るため、失敗しても記事は正常に見え誰も気づけない。
-// 1〜3e のいずれか失敗で非ゼロ終了。4 / 4b は警告のみで exit に影響しない（参考情報）。
-import { mkdtemp, rm, readFile, readdir, access } from 'node:fs/promises';
+// 1〜3f のいずれか失敗で非ゼロ終了。4 / 4b は警告のみで exit に影響しない（参考情報）。
+import { mkdtemp, rm, readFile, readdir, access, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
@@ -30,6 +33,7 @@ import { evaluateArticle } from './evaluate.js';
 import { lintDrafts } from './lintDrafts.js';
 import { mdToHtml } from './markdown.js';
 import { tagSlug } from './tagSlug.js';
+import { validateVerdicts } from './reviewVerdict.js';
 import { tagHref } from '../templates/cardbits.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -408,6 +412,103 @@ async function checkTagPathWiring() {
 // --- 4) 客観品質チェック（警告のみ・exit に影響しない）---
 // しきい値（config.qualityThresholds）は「床」であって最大化目標ではない。
 // hard-fail は 2) スキーマ側に任せ、ここは編集の気づき用に warn を出すだけ。
+// --- 3f) judge 判定ガードの退行検査（veto が無言で無効化される穴を塞いだまま保つ）---
+// 2026-11-04: judge は 25本中3本を veto と判定して _review.json を書き出したが中身が壊れており、
+// auto-generate.sh のガードが**ファイルの存在しか見ていなかった**ため「査読成功」と扱われ、
+// judge_absent も Slack 通知も出ないまま veto 3本（桁誤り・出典に無い記述）が取り込まれた。
+// 記事は正常に見えるので、push が GitHub の 500 で失敗していなければ誰も気づけなかった。
+// (1) 判定器そのものの退行、(2) CLI の終了コード＝ガードが読む契約、(3) 配線の外れ を見る。
+// 実データ（正常な判定）を通しても、この3つはどれも検証できない。
+async function checkReviewVerdictGuard() {
+  const links = ['https://a.example/1', 'https://b.example/2'];
+  const good = JSON.stringify([
+    { link: links[0], verdict: 'pass' },
+    { link: links[1], verdict: 'veto', critique: '桁が10倍ずれている' },
+  ]);
+
+  // (1) 判定器の退行。壊れ方ごとに「使えない／不完全／正常」を取り違えないこと。
+  //     ok=false は judge 不在と同じ扱い、complete=false は一部が未査読のまま公開される回。
+  const cases = [
+    ['不正な JSON', '[{"link":"a",', false, false],
+    ['配列でない', '{"link":"a","verdict":"pass"}', false, false],
+    ['使える行なし', '[{"foo":1},{"link":123,"verdict":"pass"}]', false, false],
+    ['空配列', '[]', false, false],
+    ['verdict が未知の語', `[{"link":"${links[0]}","verdict":"maybe"}]`, false, false],
+    ['一部だけ使える', `[{"link":"${links[0]}","verdict":"pass"},{"link":"${links[1]}"}]`, true, false],
+    ['正常', good, true, true],
+  ];
+  for (const [name, raw, wantOk, wantComplete] of cases) {
+    let v;
+    try {
+      v = validateVerdicts(raw, links);
+    } catch (err) {
+      fail(`judge 判定ガード退行: validateVerdicts が例外で停止しました（${name}）: ${err.message}`);
+      continue;
+    }
+    if (v.ok !== wantOk) {
+      fail(`judge 判定ガード退行: 「${name}」を ok=${v.ok} と判定しました（期待 ${wantOk}）`);
+    } else if (v.complete !== wantComplete) {
+      fail(`judge 判定ガード退行: 「${name}」を complete=${v.complete} と判定しました（期待 ${wantComplete}）`);
+    }
+  }
+
+  // (2) CLI の終了コード。auto-generate.sh のガードはこれだけで分岐するので、
+  //     文言ではなく終了コードを検証する（0=完全 / 1=使えない / 2=不完全）。
+  const dir = await mkdtemp(path.join(tmpdir(), 'fukan-verdict-'));
+  try {
+    const draftsFile = path.join(dir, 'drafts.json');
+    await writeFile(draftsFile, JSON.stringify(links.map((l) => ({ link: l }))), 'utf8');
+    for (const [name, raw, wantCode] of [
+      ['壊れた判定', '[{"link":"a",', 1],
+      ['判定ファイル無し', null, 1],
+      ['一部未査読', `[{"link":"${links[0]}","verdict":"pass"}]`, 2],
+      ['正常', good, 0],
+    ]) {
+      const f = path.join(dir, `${name}.json`);
+      if (raw !== null) await writeFile(f, raw, 'utf8');
+      let code = 0;
+      try {
+        execFileSync(
+          process.execPath,
+          [path.join(ROOT, 'src', 'reviewVerdict.js'), '--validate', '--review', f, '--drafts', draftsFile],
+          { stdio: 'pipe' },
+        );
+      } catch (err) {
+        code = typeof err.status === 'number' ? err.status : -1;
+      }
+      if (code !== wantCode) {
+        fail(`judge 判定ガード退行: CLI が「${name}」で exit=${code} を返しました（期待 ${wantCode}）`);
+      }
+    }
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
+
+  // (3) 配線。判定の解釈が複数箇所に増えると、またガードと消費側がズレて veto が消える。
+  for (const [rel, re, msg] of [
+    ['scripts/auto-generate.sh', /src\/reviewVerdict\.js\s+--validate/, 'ガードが reviewVerdict.js を呼んでいません'],
+    ['src/ingestDrafts.js', /from '\.\/reviewVerdict\.js'/, 'ingestDrafts が reviewVerdict.js を使っていません'],
+    ['src/prepareFixRound.js', /from '\.\/reviewVerdict\.js'/, 'prepareFixRound が reviewVerdict.js を使っていません'],
+  ]) {
+    let src;
+    try {
+      src = await readFile(path.join(ROOT, rel), 'utf8');
+    } catch {
+      fail(`judge 判定ガード退行: ${rel} を読めません`);
+      continue;
+    }
+    if (!re.test(src)) fail(`judge 判定ガード退行: ${msg}（${rel}）`);
+    // 消費側が自前で _review.json を parse し直していないこと（解釈が二重化するとズレる）。
+    if (rel !== 'scripts/auto-generate.sh' && /JSON\.parse\(await readFile\(reviewPath/.test(src)) {
+      fail(`judge 判定ガード退行: ${rel} が _review.json を自前で JSON.parse しています（判定の解釈は reviewVerdict.js に一本化すること）`);
+    }
+    // 存在チェックだけのガードに戻っていないこと（-f では壊れた JSON が素通りする）。
+    if (rel === 'scripts/auto-generate.sh' && /!\s*-f\s+"\$PROJECT_DIR\/data\/_review\.json"/.test(src)) {
+      fail('judge 判定ガード退行: auto-generate.sh が _review.json の存在（-f）で査読の成否を判定しています（壊れた JSON が素通りします）');
+    }
+  }
+}
+
 function checkQuality(arts) {
   arts.forEach((a, i) => {
     const recent = arts.slice(i + 1); // この記事より古い記事を母集団に
@@ -486,6 +587,7 @@ checkSanitizer();
 checkDraftLint();
 checkTagSlugs(arts);
 await checkTagPathWiring();
+await checkReviewVerdictGuard();
 await checkSecrets(arts);
 checkQuality(arts);
 await checkLedgerCoverage(arts);
@@ -505,4 +607,4 @@ if (fails.length) {
   for (const f of fails) console.error(`  - ${f}`);
   process.exit(1);
 }
-console.log(`✓ check 通過: ${arts.length} 記事・レンダー完走・スキーマOK・サニタイザOK・下書きリントOK・鍵混入なし・constitution 維持`);
+console.log(`✓ check 通過: ${arts.length} 記事・レンダー完走・スキーマOK・サニタイザOK・下書きリントOK・judge判定ガードOK・鍵混入なし・constitution 維持`);
