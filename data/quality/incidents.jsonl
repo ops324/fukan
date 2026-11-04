@@ -284,3 +284,4 @@
 {"ts":"2026-11-04T10:33:36.024Z","type":"candidates","total":365,"pool":140,"skippedWeak":5,"skippedIrrelevant":9,"enriched":8}
 {"ts":"2026-11-04T10:43:44.550Z","type":"candidates","total":365,"pool":140,"skippedWeak":5,"skippedIrrelevant":9,"enriched":8}
 {"ts":"2026-11-04T10:49:56Z","type":"draft_lint","flagged":4,"drafts":25}
+{"ts":"2026-11-04T11:05:56.819Z","type":"veto_bypassed","count":3,"cause":"_review.json unparseable; -f guard passed","recovered":"manual withdraw before push"}

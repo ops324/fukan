@@ -131,32 +131,6 @@
     "publishedAt": "2026-11-04T04:13:20.000Z"
   },
   {
-    "slug": "20261104-06",
-    "headline": "Anthropic、暗号技術でAI応答の正真正銘を証明する『FlashProve』",
-    "lead": "AnthropicがzkSNARK活用システムを発表。AIの応答が本当に指定モデルから来たかを検証できるように。",
-    "body_markdown": "Anthropicは、AI応答が特定のモデルから生成されたことを暗号技術で証明するシステム『FlashProve』を公開した。現状、ユーザーはAI応答がどのモデルから返ってきたのか確かめられない。改ざんやモデル置き換わりを検知する手段がなかった。\n\nzkSNARK（ゼロ知識簡潔非対話式知識証明）という暗号技術を活用。プロバイダーが公開した暗号「指紋」と、各応答に対応する証明ファイルを照合することで、特定のモデル重みがその応答を生成したことを検証できる。GPUなしでも一般的なコンピュータで確認可能で、モデル重みは保護される。\n\nテスト結果はLlama 4 Maverickで毎秒110トークン生成、1024トークン当たりの証明ファイルサイズ約19MB、CPU検証時間は約17秒。現在は研究段階プロトタイプで、最大1024トークンコンテキスト、量子化モデルのみ対応。生成後の検出であり、改ざん防止ではない。",
-    "tags": [
-      "セキュリティ",
-      "AI",
-      "暗号技術"
-    ],
-    "section": "AI",
-    "source": "ITmedia AI+",
-    "link": "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002863/",
-    "importance": 4,
-    "image_query": "cryptography security digital",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1654588834398-f594db5164d3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8Y3J5cHRvZ3JhcGh5JTIwc2VjdXJpdHklMjBkaWdpdGFsfGVufDF8MHx8fDE3OTM3OTAxMzF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Sasun Bughdaryan",
-      "profileUrl": "https://unsplash.com/@sasun1990?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash",
-      "alt": "a padlock sitting on top of a computer keyboard"
-    },
-    "mode": "full",
-    "createdAt": "2026-11-04T11:02:11.507Z",
-    "publishedAt": "2026-11-04T01:40:15.000Z"
-  },
-  {
     "slug": "20261104-07",
     "headline": "Apple、刷新版Siri AIを全開発者に開放 App連携で予約・注文に対応",
     "lead": "AppleがSiri AIの能力をサードパーティアプリと連携。アプリを開かずに音声指示で操作可能に。",
@@ -202,60 +176,6 @@
     "mode": "full",
     "createdAt": "2026-11-04T11:02:12.139Z",
     "publishedAt": "2026-11-03T17:15:21.000Z"
-  },
-  {
-    "slug": "20261104-09",
-    "headline": "民主党、議会掌握で対トランプ政策の監視強化へ",
-    "lead": "米中間選挙で民主党が上下両院を奪還。イラン・ウクライナ政策などで大統領権限を牽制。",
-    "body_markdown": "2026年11月3日投開票の米国中間選挙で、民主党が下院222議席、上院52議席を確保し、連邦議会上下両院の多数派を奪還した。テキサス州（38年ぶり）、カンザス州（94年ぶり）、オハイオ州など共和党の地盤でも民主党候補が軒並み勝利。\n\n民主党掌握により、トランプ大統領の外交政策に対する議会監視が強化される見通し。イラン戦争に関しては戦争権限制限措置の検討、歳出権限でベトナム支援の制限も可能。ウクライナ支援も議会が法遵守を求め、ロシア有利な協定強要を牽制できる。ただ大統領は外交で多くの権限を保有しており、完全な制限ではない。\n\n背景には、生活費上昇、関税政策、イラン紛争への国民の不満が存在。歴史的には初の黒人女性知事、初の公然とゲイを明かす男性上院議員、初のイスラム教徒上院議員が当選するなど、多様性拡大も特徴。",
-    "tags": [
-      "政治",
-      "選挙",
-      "米国"
-    ],
-    "section": "政治",
-    "source": "CNBC",
-    "link": "https://www.cnbc.com/2026/11/04/democrats-congress-trump-foreign-policy.html",
-    "importance": 4,
-    "image_query": "voting election congress",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1597700331582-aab3614b3c0c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHx2b3RpbmclMjBlbGVjdGlvbiUyMGNvbmdyZXNzfGVufDF8MHx8fDE3OTM3OTAxMzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Unseen Histories",
-      "profileUrl": "https://unsplash.com/@unseenhistories?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash",
-      "alt": "A young African American woman casting her ballot in 1964",
-      "description": "Caption reads, \"Negro voting in Cardoza [i.e., Cardozo] High School in [Washington,] D.C. / [MST].\" Original black and white negative by Marion S. Trikosko. Taken November 3rd, 1964, Washington D.C, United States (@libraryofcongress). Colorized by Jordan J. Lloyd. Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA https://www.loc.gov/pictures/item/2003688167/"
-    },
-    "mode": "full",
-    "createdAt": "2026-11-04T11:02:12.887Z",
-    "publishedAt": "2026-11-04T10:43:08.000Z"
-  },
-  {
-    "slug": "20261104-10",
-    "headline": "Novo、Wegovy錠剤が期待超過 売上見通し上方修正",
-    "lead": "デンマークの医薬大手が第3四半期の売上を発表。Wegovy経口剤が予想上回る売上で、年間ガイダンスを引き上げ。",
-    "body_markdown": "Novo Nordiskが第3四半期業績を発表。売上は79億2,000万デンマーククローネ（119億ドル）で前年比4%増。調整営業利益（EBIT）は31億7,000万クローネ。\n\nWegovy経口剤は54億クローネの売上で、アナリスト予想の45億クローネを上回った。注射型Wegovyは204億クローネ、糖尿病治療薬Ozempicは297億クローネとともに期待を超過。会社は年間見通しを上方修正し、調整売上・営業利益の増減率を「マイナス6%～横這い」から「マイナス2%～プラス2%」に改善。\n\nCEOは「米国市場で80%のシェア維持」と述べた。肥満・糖尿病治療薬市場で競争が激化する中、経口剤の普及がしゅんきょく拡大を支えている。",
-    "tags": [
-      "医薬",
-      "売上",
-      "業績"
-    ],
-    "section": "ビジネス",
-    "source": "CNBC",
-    "link": "https://www.cnbc.com/2026/11/04/novo-q3-earnings-wegovy-sales.html",
-    "importance": 4,
-    "image_query": "pharmaceutical medicine health",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1577401132921-cb39bb0adcff?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8cGhhcm1hY2V1dGljYWwlMjBtZWRpY2luZSUyMGhlYWx0aHxlbnwxfDB8fHwxNzkzNzkwMTMzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Volodymyr Hryshchenko",
-      "profileUrl": "https://unsplash.com/@lunarts?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash",
-      "alt": "pile of blister packs of colorful medicine tablets",
-      "description": "Heap of medical pills in white, blue and other colors. Pills in plastic package. Concept of healthcare and medicine."
-    },
-    "mode": "full",
-    "createdAt": "2026-11-04T11:02:13.497Z",
-    "publishedAt": "2026-11-04T10:40:51.000Z"
   },
   {
     "slug": "20261104-11",
