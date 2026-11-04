@@ -1,5 +1,602 @@
 [
   {
+    "slug": "20261104-01",
+    "headline": "OpenAI、物理世界のエンジニアリング加速へ AI活用",
+    "lead": "OpenAIが機械・電気設計から製造まで、エンジニアリング全体をAIで支援する仕組みを開発。内部チームが既に設計反復を高速化。",
+    "body_markdown": "OpenAIは11月3日、物理世界のエンジニアリングにおけるAIの活用を発表した。機械設計、電気設計、システム設計、製造要件を統合した複雑なエンジニアリングワークフローをAIモデルが支援できるようになったという。\n\nエンジニアが通常、図面作成、シミュレーション設定、各分野間の変更調整に費やす時間を大幅に削減。OpenAIの内部チームでは既に設計反復の高速化が実証されている。描画準備からシミュレーション実行、分野横断的な変更の整合性確認まで、専門ツールを使わずAIが支援する。\n\nこの機能は専門領域の複雑なワークフローに対応し、産業界での導入も進む見通し。エンジニアが創造的なアイデア検証に時間を充てられるようになる。",
+    "tags": [
+      "AI",
+      "エンジニアリング",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+    "importance": 4,
+    "image_query": "engineering design cad software",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3NAeFNOstkEE0aSxayt8NT/cedb470d8c0bcd7e6a2ca828c1db136c/accelerating-engineering-physical-world-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:08.281Z",
+    "publishedAt": "2026-11-03T12:00:00.000Z"
+  },
+  {
+    "slug": "20261104-02",
+    "headline": "Cisco、OpenAIと組み強化でサイバー脅威に即座対抗",
+    "lead": "ネットワークテレメトリとOpenAIモデルを組み合わせ、自動化された攻撃に対抗する防御システムをCiscoが構築。",
+    "body_markdown": "CiscoはOpenAIと連携し、ネットワークインテリジェンスとAIを統合したサイバー防御の仕組みを開発した。攻撃者がAIを使い自動化・高速化させる脅威に対抗するには、守る側も同じスピードと適応力が必要という判断。\n\nCiscoの膨大なネットワークテレメトリ（通信履歴・トラフィック情報）とOpenAIの推論モデルを組み合わせることで、既知の脅威だけでなく未知の異常パターンも検出できるシステムを実現。ネットワークが脅威が移動する最前線であるという原点に立ち、単一の防御ポイントではなく全体的な防御インテリジェンスを構築している。\n\nOpenAIはゼロデータ保持とカスタマーデータ境界の分離を厳密に守り、Ciscoが顧客情報やテレメトリを漏洩させない安全性を確保。企業のミッションクリティカルなシステムへの展開を可能にした。",
+    "tags": [
+      "セキュリティ",
+      "AI",
+      "ネットワーク防御"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/cisco-cyber",
+    "importance": 4,
+    "image_query": "cybersecurity defense network",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/36h62E2b83Pzjfkrm6ZnOF/e611d7923f6c0533eed4d76ea9b48c08/cisco-cyber-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/cisco-cyber",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:09.121Z",
+    "publishedAt": "2026-11-03T08:00:00.000Z"
+  },
+  {
+    "slug": "20261104-03",
+    "headline": "東南アジア、デジタル経済が3682億ドル到達 AI成長は携帯4倍速",
+    "lead": "GoogleがAI採用による東南アジアデジタル経済の加速を報告。2035年には1兆ドルを超える見通し。",
+    "body_markdown": "Googleが発表した東南アジアデジタル経済報告書によると、2026年の域内デジタル経済規模は3,682億ドルに達した。AI採用が急速に広がっており、生成AIユーザーは2億4,300万人で就業人口の58%に上る。\n\n特筆すべきは、生成AI導入の速度。携帯インターネット普及当時の4倍のペースで拡大しているという。消費者の信頼感も高く、62%が1年前と比べてAIツールへの信頼が強まったと報告。75%のユーザーは、価格比較や商品購入をAIエージェントに自動委任する意思を示している。\n\n将来見通しでは2030年に6,200億ドル、2035年には1兆ドルを突破する予測。この成長を支えるには、向こう5年でデータセンター容量を3倍に拡張する必要があり、AI関連の企業投資が本格化する局面を迎える。",
+    "tags": [
+      "AI",
+      "東南アジア",
+      "デジタル経済"
+    ],
+    "section": "AI",
+    "source": "Google",
+    "link": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+    "importance": 4,
+    "image_query": "digital economy asia growth",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_Image_e-Conomy_SEA_2026.width-1300.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:09.530Z",
+    "publishedAt": "2026-10-21T04:00:00.000Z"
+  },
+  {
+    "slug": "20261104-04",
+    "headline": "Google、最強フロンティアモデル『Gemini 4 Argon』公開",
+    "lead": "Googleが複雑な推論に特化する新モデルを発表。プログラミング、金融、法律など専門分野で業界最高性能。",
+    "body_markdown": "GoogleはGemini 4 Argonを公表した。複雑な現実世界の課題に特化したフロンティアレベルのAIモデルで、コーディング、金融、法律、サイバーセキュリティ、科学分野で卓越した性能を示す。\n\nVals Indexで第1位にランクされ、重要経済分野での性能が際立つ。業界最高水準の100万トークン統一入出力制限により、長いコンテキスト処理が可能。実世界での活用実績として、Chromiumコードベースの大規模リファクタリング、量子コンピュータのエラー補正アルゴリズム最適化、医療施設のサイバーセキュリティ脆弱性検出、酵素設計と生命科学研究の加速が挙げられる。\n\n先代モデルに比べ、より直接的で迷いのない回答を提供し、科学推論能力とマルチモーダル理解が向上。ロボティクス開発とエージェント推論で顕著な進歩を実現している。",
+    "tags": [
+      "AI",
+      "Google",
+      "フロンティアモデル"
+    ],
+    "section": "AI",
+    "source": "Google",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "importance": 4,
+    "image_query": "artificial intelligence model advanced",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:09.961Z",
+    "publishedAt": "2026-10-13T16:00:00.000Z"
+  },
+  {
+    "slug": "20261104-05",
+    "headline": "GitHub Copilot Fusion、タスク最適化で性能とコスト両立",
+    "lead": "Githubが複数AIモデルの自動選択機能を正式リリース。難度別に最適なモデルを連携させ、開発効率を向上。",
+    "body_markdown": "GitHubがCopilot Fusionを正式リリースした。複数のAIモデルを組み合わせ、タスクの難度に応じて最適なモデルを自動選択する仕組み。開発者がモデル選択の手間を減らし、性能とコストのバランスを実現。\n\n3つの戦略を採用。Singleは1つのモデルで完結。Cascadeでは軽量モデルが下書き案を作成し、品質判定モデルが必要に応じて高性能モデルへ昇格。Critiqueでは複数モデルが独立して案を審査し、フィードバックに基づき再検討する。\n\nFusion Standardから Fusion Max、Fusion Fastの4段階で負荷レベルを設定可能。開発者は個別にモデルを切り替える手間が不要になり、システムが自動的に「簡単な補完」と「複雑なデバッグ」を区別して処理を振り分ける。",
+    "tags": [
+      "開発ツール",
+      "AI",
+      "GitHub"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI+",
+    "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002869/",
+    "importance": 4,
+    "image_query": "software development coding tools",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8c29mdHdhcmUlMjBkZXZlbG9wbWVudCUyMGNvZGluZyUyMHRvb2xzfGVufDF8MHx8fDE3OTM3OTAxMzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jackson Sophat",
+      "profileUrl": "https://unsplash.com/@jacksonsophat?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A red code bracket symbol on a soft purple gradient background",
+      "description": "I hope this is useful for others. "
+    },
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:10.842Z",
+    "publishedAt": "2026-11-04T04:13:20.000Z"
+  },
+  {
+    "slug": "20261104-06",
+    "headline": "Anthropic、暗号技術でAI応答の正真正銘を証明する『FlashProve』",
+    "lead": "AnthropicがzkSNARK活用システムを発表。AIの応答が本当に指定モデルから来たかを検証できるように。",
+    "body_markdown": "Anthropicは、AI応答が特定のモデルから生成されたことを暗号技術で証明するシステム『FlashProve』を公開した。現状、ユーザーはAI応答がどのモデルから返ってきたのか確かめられない。改ざんやモデル置き換わりを検知する手段がなかった。\n\nzkSNARK（ゼロ知識簡潔非対話式知識証明）という暗号技術を活用。プロバイダーが公開した暗号「指紋」と、各応答に対応する証明ファイルを照合することで、特定のモデル重みがその応答を生成したことを検証できる。GPUなしでも一般的なコンピュータで確認可能で、モデル重みは保護される。\n\nテスト結果はLlama 4 Maverickで毎秒110トークン生成、1024トークン当たりの証明ファイルサイズ約19MB、CPU検証時間は約17秒。現在は研究段階プロトタイプで、最大1024トークンコンテキスト、量子化モデルのみ対応。生成後の検出であり、改ざん防止ではない。",
+    "tags": [
+      "セキュリティ",
+      "AI",
+      "暗号技術"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI+",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2611/04/2000002863/",
+    "importance": 4,
+    "image_query": "cryptography security digital",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1654588834398-f594db5164d3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8Y3J5cHRvZ3JhcGh5JTIwc2VjdXJpdHklMjBkaWdpdGFsfGVufDF8MHx8fDE3OTM3OTAxMzF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sasun Bughdaryan",
+      "profileUrl": "https://unsplash.com/@sasun1990?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a padlock sitting on top of a computer keyboard"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:11.507Z",
+    "publishedAt": "2026-11-04T01:40:15.000Z"
+  },
+  {
+    "slug": "20261104-07",
+    "headline": "Apple、刷新版Siri AIを全開発者に開放 App連携で予約・注文に対応",
+    "lead": "AppleがSiri AIの能力をサードパーティアプリと連携。アプリを開かずに音声指示で操作可能に。",
+    "body_markdown": "AppleはSiri AIの刷新版を全開発者向けに開放すると発表。音声アシスタント機能をApp Intentsフレームワークを使用してサードパーティアプリと連携させる。\n\nこれまでSiriはApple純正機能に限定されていたが、今後は開発者が自社アプリをSiriの指示に対応させられる。ユーザーはアプリを開かず、音声指示だけで配送状況確認、レストラン予約、商品注文などが実行可能。個人コンテキスト理解、画面情報認識、自然言語処理を統合。複雑な多段階リクエストを処理する「スキル」機能も備える。\n\nApp Store提出開始は2027年春、一般ユーザー提供は数ヶ月後の見通し。6言語対応（日本語を含む）、13歳未満は利用不可。サーバー連携機能は日次使用制限があり、将来的に有料化の可能性も示唆されている。",
+    "tags": [
+      "AI",
+      "Apple",
+      "音声アシスタント"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI+",
+    "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002855/",
+    "importance": 4,
+    "image_query": "voice assistant digital technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1752955471067-294a5de5bf48?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHx2b2ljZSUyMGFzc2lzdGFudCUyMGRpZ2l0YWwlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTM3OTAxMzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "User_Pascal",
+      "profileUrl": "https://unsplash.com/@user_pascal?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A smartphone is connected to a cylinder speaker",
+      "description": "This image showcases a sleek Harman Kardon smart speaker positioned next to a smartphone on a wooden surface. The scene highlights the seamless integration of smart home technology, where voice-activated devices and mobile apps work together to deliver high-quality audio experiences. The minimalist design of the speaker, paired with natural elements like a potted plant, creates a cozy and modern atmosphere perfect for any smart home setup. Ideal for illustrating themes around smart assistants, home automation, and wireless music streaming."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:12.139Z",
+    "publishedAt": "2026-11-04T00:37:42.000Z"
+  },
+  {
+    "slug": "20261104-08",
+    "headline": "言語モデルの長文追跡能力を測定『StateBench』、最先端モデルにも課題",
+    "lead": "Allen AIとHugging Face提携チームが、LMが長いテキストで情報追跡できるかを評価するベンチマークを発表。",
+    "body_markdown": "AllenAIのチームが言語モデルの状態追跡能力を測定するベンチマーク『StateBench』を発表。長い文書内で登場人物・数値・状態の変化を追跡できるか、複雑さを段階的に変えながら評価する。\n\n4段階の難度を用意。最初の段階（R-trivial）は不変値の確認、次が再割り当て後の最新値検索、その次が自己参照的な累積更新、最後が相互参照による状態遷移。Claude Opus 5.5やGPT-6といった最先端モデルでも、文書が長くなると複雑な状態追跡で性能が低下。\n\nGated DeltaNetやハイブリッドモデルは最長シーケンスまでほぼ完璧に対応できるのに対し、Transformerは苦戦。これはコード解析（変数再割り当て）、ストーリー理解（登場人物移動）、対話追跡など実務領域に直結。1つの更新を見落とすと全体の推論が崩壊する。",
+    "tags": [
+      "AI",
+      "言語モデル",
+      "評価"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/allenai/statebench",
+    "importance": 3,
+    "image_query": "computer science data analysis",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:12.139Z",
+    "publishedAt": "2026-11-03T17:15:21.000Z"
+  },
+  {
+    "slug": "20261104-09",
+    "headline": "民主党、議会掌握で対トランプ政策の監視強化へ",
+    "lead": "米中間選挙で民主党が上下両院を奪還。イラン・ウクライナ政策などで大統領権限を牽制。",
+    "body_markdown": "2026年11月3日投開票の米国中間選挙で、民主党が下院222議席、上院52議席を確保し、連邦議会上下両院の多数派を奪還した。テキサス州（38年ぶり）、カンザス州（94年ぶり）、オハイオ州など共和党の地盤でも民主党候補が軒並み勝利。\n\n民主党掌握により、トランプ大統領の外交政策に対する議会監視が強化される見通し。イラン戦争に関しては戦争権限制限措置の検討、歳出権限でベトナム支援の制限も可能。ウクライナ支援も議会が法遵守を求め、ロシア有利な協定強要を牽制できる。ただ大統領は外交で多くの権限を保有しており、完全な制限ではない。\n\n背景には、生活費上昇、関税政策、イラン紛争への国民の不満が存在。歴史的には初の黒人女性知事、初の公然とゲイを明かす男性上院議員、初のイスラム教徒上院議員が当選するなど、多様性拡大も特徴。",
+    "tags": [
+      "政治",
+      "選挙",
+      "米国"
+    ],
+    "section": "政治",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/04/democrats-congress-trump-foreign-policy.html",
+    "importance": 4,
+    "image_query": "voting election congress",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1597700331582-aab3614b3c0c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHx2b3RpbmclMjBlbGVjdGlvbiUyMGNvbmdyZXNzfGVufDF8MHx8fDE3OTM3OTAxMzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Unseen Histories",
+      "profileUrl": "https://unsplash.com/@unseenhistories?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A young African American woman casting her ballot in 1964",
+      "description": "Caption reads, \"Negro voting in Cardoza [i.e., Cardozo] High School in [Washington,] D.C. / [MST].\" Original black and white negative by Marion S. Trikosko. Taken November 3rd, 1964, Washington D.C, United States (@libraryofcongress). Colorized by Jordan J. Lloyd. Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA https://www.loc.gov/pictures/item/2003688167/"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:12.887Z",
+    "publishedAt": "2026-11-04T10:43:08.000Z"
+  },
+  {
+    "slug": "20261104-10",
+    "headline": "Novo、Wegovy錠剤が期待超過 売上見通し上方修正",
+    "lead": "デンマークの医薬大手が第3四半期の売上を発表。Wegovy経口剤が予想上回る売上で、年間ガイダンスを引き上げ。",
+    "body_markdown": "Novo Nordiskが第3四半期業績を発表。売上は79億2,000万デンマーククローネ（119億ドル）で前年比4%増。調整営業利益（EBIT）は31億7,000万クローネ。\n\nWegovy経口剤は54億クローネの売上で、アナリスト予想の45億クローネを上回った。注射型Wegovyは204億クローネ、糖尿病治療薬Ozempicは297億クローネとともに期待を超過。会社は年間見通しを上方修正し、調整売上・営業利益の増減率を「マイナス6%～横這い」から「マイナス2%～プラス2%」に改善。\n\nCEOは「米国市場で80%のシェア維持」と述べた。肥満・糖尿病治療薬市場で競争が激化する中、経口剤の普及がしゅんきょく拡大を支えている。",
+    "tags": [
+      "医薬",
+      "売上",
+      "業績"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/04/novo-q3-earnings-wegovy-sales.html",
+    "importance": 4,
+    "image_query": "pharmaceutical medicine health",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1577401132921-cb39bb0adcff?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8cGhhcm1hY2V1dGljYWwlMjBtZWRpY2luZSUyMGhlYWx0aHxlbnwxfDB8fHwxNzkzNzkwMTMzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Volodymyr Hryshchenko",
+      "profileUrl": "https://unsplash.com/@lunarts?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "pile of blister packs of colorful medicine tablets",
+      "description": "Heap of medical pills in white, blue and other colors. Pills in plastic package. Concept of healthcare and medicine."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:13.497Z",
+    "publishedAt": "2026-11-04T10:40:51.000Z"
+  },
+  {
+    "slug": "20261104-11",
+    "headline": "Binanceが63億ドルハッキング被害、北朝鮮が関与 フェイク採用面接が手口",
+    "lead": "暗号資産取引所Binanceが過去最大規模のサイバー攻撃を受けた。社会工学的攻撃で内部アクセス奪取。",
+    "body_markdown": "Binanceは10月29日のサイバー攻撃で63億4,000万ドルの暗号資産盗難被害を明かした。FBIが北朝鮮の関与を確認。攻撃者はソフトウェアエンジニアに「プロジェクトディレクター」と名乗るフェイクリクルーターを装い、2段階の面接を実施。HR担当者や架空のCEOと動画・チャットで面談させた後、勤務課題に偽装したマルウェアをダウンロードさせた。\n\nマルウェアは高度な難読化・回避技術を使用。被害エンジニアのアクセス権を乗っ取られ、攻撃者が他のチームメンバーシステムへ侵入し、最終的に大量引き出しスクリプトを実行。盗難資産28億5,000万ドルは凍結され、Binanceは残り全額を吸収補填する方針。11月3日時点で被害トークンの98%が復旧された。\n\nBinanceはセキュリティを全面改修、AIによる異常検知システムを導入。",
+    "tags": [
+      "セキュリティ",
+      "サイバー攻撃",
+      "暗号資産"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2306223/binance-attackers-fake-job-interviews-6-3-billion-crypto-heist/",
+    "importance": 4,
+    "image_query": "cybersecurity hacking attack",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1509479200622-4503f27f12ef?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxjeWJlcnNlY3VyaXR5JTIwaGFja2luZyUyMGF0dGFja3xlbnwxfDB8fHwxNzkzNzkwMTM0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Max Bender",
+      "profileUrl": "https://unsplash.com/@maxwbender?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person standing near LED sign",
+      "description": "Masks of Light"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:14.089Z",
+    "publishedAt": "2026-11-04T08:50:36.000Z"
+  },
+  {
+    "slug": "20261104-12",
+    "headline": "Valve、Steam AI ゲーム急増で申請ルール強化 導入5分以上の実行を義務化",
+    "lead": "PCゲームプラットフォームSteamが審査バックログ解消へ。AI生成ゲーム比率が20%から50%に跳ね上がった。",
+    "body_markdown": "Valveはゲーム申請プロセスを強化した。Steam上のAI生成ゲーム比率が6月の約20%から10月に50%近くに跳ね上がり、審査バックログが12営業日に達するなど、目標3～5日を大きく超過。\n\n新ルールでは、開発者がゲームを最低5分以上Steamで実行し、DirectX・Visual C++などの再配布ファイルを確認、実績機能の動作、クラウドセーブパス設定、スクリーンショット分類を正確に実施することが義務化。これまでは形式的なチェックで済んでいた。\n\nバックログの背景は、AI生成が容易になったことで「手抜きコンテンツの大量投稿」が発生。Cubic Earthの開発者は60,000YouTube再生、6,000ウィッシュリスト獲得後、承認遅延で勢いが失われたと証言。Valveは「この圧力を理解している」とし、さらなる改善予定を示唆。",
+    "tags": [
+      "ゲーム",
+      "AI",
+      "Steam"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2306215/valve-changed-its-steam-release-rules-amid-a-flood-of-ai-games/",
+    "importance": 3,
+    "image_query": "video game development platform",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:14.090Z",
+    "publishedAt": "2026-11-04T08:28:09.000Z"
+  },
+  {
+    "slug": "20261104-13",
+    "headline": "デリーの大気汚染が WHO基準30倍超、稲わら焚きと車排ガスが主因",
+    "lead": "インド首都の空気質がWHO推奨限界の30倍以上に悪化。二次粒子と直接排出が深刻。",
+    "body_markdown": "デリーの11月3日のPM2.5濃度が461マイクログラム/立方メートルに達し、WHO推奨基準の30倍を超えた。インドの大気汚染研究では、2009～2019年に大気汚染関連死が380万件推定されている。\n\n主因の内訳は、二次粒子（細粒子が大気中で化学反応して生成）が27%、自動車排出23%、バイオマス燃焼（農地の稲わら焚き）20%、産業排出9%。特に肥料から放出されるアンモニアが他の汚染物質と反応して二次粒子を形成し、全汚染の約4分の1を占める。\n\n北東部からの季節風により汚染が集中するこの時期、デリーで毎冬繰り返される危機。健康影響は呼吸器疾患、心血管疾患、認知機能低下など広範。政府は規制強化とクリーンエネルギー移行を推進中だが、農業・産業セクターとの調整に課題が残る。",
+    "tags": [
+      "環境",
+      "汚染",
+      "インド"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-toxic-air-pollution-surges-indian.html",
+    "importance": 3,
+    "image_query": "air pollution smog atmospheric",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:14.091Z",
+    "publishedAt": "2026-11-04T10:20:01.000Z"
+  },
+  {
+    "slug": "20261104-14",
+    "headline": "中国AI企業の株価低迷、供給が需要を追い抜く警告",
+    "lead": "中国のAI関連上場企業の株価が苦戦。技術革新のペースに市場期待が追いつかなくなり始めた。",
+    "body_markdown": "中国のAI企業の株価が低迷している。The Economistは「供給が需要を追い抜く」局面に入ったと指摘。新しいテクノロジーが市場に充満し、価格競争が始まる典型的なサイクルに見える。\n\n初期段階では稀少な技術への投機熱が急速な株価上昇をもたらす。だが、複数の企業が類似技術を提供し始めると、供給過剰で実需要が掘り起こされない。中国市場では、生成AI企業の新興ラッシュにより、かつての独占的優位性が失われつつある状況。\n\n米国市場とは異なり、中国ではOpenAI・Google・Meta等の成熟大手がなく、新興企業群の競争が早期に市場飽和をもたらした可能性。この警告は、テックセクター全体の過熱期待に対する冷や水となるシグナル。",
+    "tags": [
+      "AI",
+      "株価",
+      "中国"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/11/03/chinas-ai-stock-market-struggles-are-a-warning",
+    "importance": 4,
+    "image_query": "stock market finance trading",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1614028674026-a65e31bfd27c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOHx8c3RvY2slMjBtYXJrZXQlMjBmaW5hbmNlJTIwdHJhZGluZ3xlbnwxfDB8fHwxNzkzNzkwMTM0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tech Daily",
+      "profileUrl": "https://unsplash.com/@techdailyca?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "laptop showing stock chart on desk",
+      "description": "GME Stock Chart on Robinhood App! | Via techdaily.ca | #stocks #finance #investing #gme #stonks #citadel "
+    },
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:14.773Z",
+    "publishedAt": "2026-11-03T20:48:59.000Z"
+  },
+  {
+    "slug": "20261104-15",
+    "headline": "AMD、データセンター好調で過去最高四半期達成",
+    "lead": "半導体大手AMDが社史上最大かつ最も利益の高い四半期を報告。AI需要がサーバーCPU・GPU市場を牽引。",
+    "body_markdown": "AMDが「社史上最大にして最も利益の高い」四半期業績を発表した。データセンタープロセッサ事業がAI関連需要で好調、全体を押し上げている。生成AIの普及に伴い、大規模言語モデル学習・推論用の高性能プロセッサ需要が急増。\n\nAMDはIntel等との競争を勝ち抜き、AIデータセンター用CPUとGPU（MI300X等）で市場シェアを拡大。エンタープライズサーバー向けプロセッサの売上が過去最高を更新。GPU製品は初期段階ながら、NvidiaのCUDA 独占からの脱却を目指す顧客企業の乗り換え需要を取り込み始めている。\n\nこの業績は、AIインフラ投資が高止まりしている証左。クラウドプロバイダーとAI企業のデータセンター建設投資が今後も続く見通しから、AMDなど関連半導体メーカーの成長余地は大きい。",
+    "tags": [
+      "半導体",
+      "AI",
+      "企業決算"
+    ],
+    "section": "ビジネス",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/2026/11/04/technology/amd-data-center-earnings",
+    "importance": 4,
+    "image_query": "semiconductor chip technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1642229408383-b035ccf1a5f2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8c2VtaWNvbmR1Y3RvciUyMGNoaXAlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTM3OTAxMzV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vishnu Mohanan",
+      "profileUrl": "https://unsplash.com/@vishnumaiea?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a couple of microchips sitting on top of a table",
+      "description": "Two RP2040 microcontrollers."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:15.337Z",
+    "publishedAt": "2026-11-04T10:31:32.000Z"
+  },
+  {
+    "slug": "20261104-16",
+    "headline": "OpenAI、Git拡張システム『Pando』でモノレポを高速化 Push遅延5分の1に",
+    "lead": "OpenAIが開発したGit互換バックエンド『Pando』が全モノレポの運用を支える。エージェント規模のスケーリングに対応。",
+    "body_markdown": "OpenAIは、開発用モノレポのスケーリングシステム『Pando』を発表。Gitプロトコル互換を保ちながら、大規模並行開発に対応するバックエンドを自社構築した。\n\nOpenAIのモノレポは過去1年で規模と負荷が爆増。エージェント技術により、複数ブランチへの並行プッシュが激増。従来のGitでは、複数チームの同時コミットで競合や遅延が発生。Pandoは水平スケーラブルな書き込み性能を実現し、中央値プッシュレイテンシを従来の5分の1に短縮。\n\nペタバイト規模のデータセンター帯域を最大限使用し、クライアント側ネットワークを飽和させながら数秒でダウンロード完了。Gitクライアント・エージェント双方がシームレスに採用でき、オペレーション中断なく導入。開発者・AIエージェント双方の効率向上を実現。",
+    "tags": [
+      "開発",
+      "インフラ",
+      "OpenAI"
+    ],
+    "section": "テクノロジー",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/scaling-git-at-openai",
+    "importance": 4,
+    "image_query": "software development code repository",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/CMZECnCACxZO52Dqy7SnB/d7451310a4c165a396517dc7387b9b71/scaling-git-at-openai-seo-card.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/scaling-git-at-openai",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:15.835Z",
+    "publishedAt": "2026-11-02T15:30:00.000Z"
+  },
+  {
+    "slug": "20261104-17",
+    "headline": "OpenAI『Grid Protectors Program』、AI計算所を電力網の調整弁に",
+    "lead": "OpenAIが、データセンターの消費電力を需要に応じて変動させ、電力網を支援するプログラムを発表。",
+    "body_markdown": "OpenAIはGrid Protectors Programを立ち上げた。将来のAIコンピュートキャンパスが、電力網のひっ迫時に消費電力を削減し、電力網を支援するという構想。地域ユーティリティ、規制当局、政策立案者と協力し、信頼できる電力の確保と安定供給を実現。\n\nAIデータセンターは24時間稼働で大電力を要求する。一方、電力網は季節・時間帯で供給が変動し、極寒や酷暑で需要が急増。OpenAIのコンピュートキャンパスが、『グリッドが圧迫されるときだけ』電力使用を自動削減し、ピークカットに貢献できる。家庭暖房・クーラー運転を優先させながら、AI計算は『やや低効率モード』で続行する仕組み。\n\n米国データセンター容量は2030年に100ギガワットを超える見通し。AI企業の責任ある成長と地域社会との共存を実現する一歩。",
+    "tags": [
+      "エネルギー",
+      "インフラ",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/grid-protectors-program",
+    "importance": 3,
+    "image_query": "renewable energy power grid",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:15.835Z",
+    "publishedAt": "2026-11-02T15:00:00.000Z"
+  },
+  {
+    "slug": "20261104-18",
+    "headline": "プロジェクト『ProtoStar』、公的資金研究をAI対応へ Hugging Faceが支援",
+    "lead": "Hugging Faceが、公的資金で実施された研究データをAI学習用に標準化・公開する取り組みを発表。",
+    "body_markdown": "Hugging FaceはProject ProtoStarを発表。納税者の税金で実施された研究成果をAI技術で再活用できるようにする構想。欧米各国の研究機関、政府機関が蓄積した膨大な学術論文・データをメタデータ標準化し、AIモデル学習用に利用可能にする。\n\n背景は、公開研究の再発見と応用加速。多くの公的資金研究は単発で埋没し、後続研究や産業応用に結びつかない。データセット化・インデックス化により、AI研究者が過去研究を効率的に検索・参照でき、重複研究を減らし、イノベーション速度を加速。\n\n具体的には気候科学、生命科学、工学分野から開始。政府資金研究のデータ共有文化を醸成し、学術界全体のAI活用底上げを目指す。知財処理、倫理ガイドラインも整備予定。",
+    "tags": [
+      "研究",
+      "AI",
+      "オープンサイエンス"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/announcing-project-protostar",
+    "importance": 4,
+    "image_query": "scientific research data analysis",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/announcing-project-protostar",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:16.365Z",
+    "publishedAt": "2026-10-29T00:00:00.000Z"
+  },
+  {
+    "slug": "20261104-19",
+    "headline": "Mistral、大規模モデル『Le Chonk（大きなチャンク）』公開 Hugging Faceで利用可能",
+    "lead": "フランスのAI企業MistralがLarge 4モデルをHugging Faceで公開。コミュニティ向けに軽量版を提供。",
+    "body_markdown": "MistralがMistral Large 4モデルをHugging Faceで公開した。愛称は『Le Chonk』（大きなチャンク）。Mistralの大規模言語モデル系統の最新版で、複雑な推論・長い文書処理に対応。\n\nMistralは、OpenAI・Claudeと異なりオープンソース志向が強く、ローカルでの運用を重視。Large 4はコミュニティ無料利用を想定し、Hugging Face経由で直接ダウンロード可能。他社クローズドなモデルと異なり、学術・企業の双方が自社インフラで運用できる。\n\n欧州のAI企業としてはgoogleやOpenAIより後発だが、オープンモデル戦略でLlamaなどと競争。実装の自由度、コスト削減、プライバシー保護を求める組織からの需要が見込まれる。",
+    "tags": [
+      "AI",
+      "言語モデル",
+      "オープンソース"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/mistral-large4",
+    "importance": 3,
+    "image_query": "artificial intelligence language model",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:16.367Z",
+    "publishedAt": "2026-10-29T00:00:00.000Z"
+  },
+  {
+    "slug": "20261104-20",
+    "headline": "Heimstaden、AIで賃貸住宅管理を効率化 画像処理コスト99%削減",
+    "lead": "ヨーロッパの不動産大手がOpenAIで賃貸オペレーション全体をAI化。物件管理を根本転換。",
+    "body_markdown": "スウェーデン・ノルウェーの大手不動産会社Heimstadenが、OpenAIを使った不動産管理全般のAI化戦略を発表。賃借人募集から家賃回収、建物管理まで数百年変わらなかった業務プロセスを再構想。\n\n具体的には、賃貸物件の画像処理自動化で『99%のコスト削減』を実現。物件状態を写真撮影するだけで、修繕必要箇所の自動判定・見積もり生成。Codexを使用して2万112件の物件資産を自動分析。従業員の導入受け入れも順調で、2～3ヶ月で50%採用率達成。\n\n背景は、欧州の人手不足と賃貸市場の競争激化。オペレーション効率化により、家賃設定・テナント対応の質向上に人的資源をシフト。AI導入前の評価過程で『複数プラットフォーム検討後OpenAIを選定』と明記し、エンタープライズレベルのセキュリティ・サポートが採用の決め手だったと示唆。",
+    "tags": [
+      "AI",
+      "不動産",
+      "業務自動化"
+    ],
+    "section": "ビジネス",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/heimstaden",
+    "importance": 3,
+    "image_query": "real estate property management",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:16.368Z",
+    "publishedAt": "2026-11-03T08:00:00.000Z"
+  },
+  {
+    "slug": "20261104-21",
+    "headline": "OpenAI新トップ『Jill Hazelbaker』、企業コミュニケーション率先へ",
+    "lead": "UberのチーフコーポレートアフェアーズオフィサーをOpenAIが起用。AI社会統合を加速。",
+    "body_markdown": "OpenAIはJill Hazelbakerをチーフコーポレートアフェアーズオフィサーに任命した。グローバルコミュニケーションと企業ポジショニングを統括。20年近い経歴で、テック企業・政治指導者の成長期課題を支援。\n\nUber時代は、スタートアップから世界最大級テックプラットフォームへの変身を牽引。激変市場での信頼構築・規制対応・ステークホルダー調整の経験を持つ。OpenAIはAI技術の急速な社会浸透に伴い、企業イメージ管理・政界・市民との対話機能を強化する必要と判断。\n\nHazelbaker は『AIが人生の一部になる今、コミュニケーション、関与、信頼構築がこれまで以上に重要』と述べた。AI規制議論が世界で加熱する中、企業側の対外発信強化を象徴。",
+    "tags": [
+      "AI",
+      "企業経営",
+      "コミュニケーション"
+    ],
+    "section": "ビジネス",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+    "importance": 4,
+    "image_query": "business corporate management",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/12cWiOrhEJBVjJpSKoRNzC/62cac2e1b99cd5ba56661755d6945157/jill-hazelbaker-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:16.592Z",
+    "publishedAt": "2026-11-03T00:00:00.000Z"
+  },
+  {
+    "slug": "20261104-22",
+    "headline": "OpenAI、セキュリティ予算4倍超へ　独立研究者に懸賞金増額",
+    "lead": "OpenAIが脆弱性報告プログラムを大幅強化。セキュリティ専門家をインセンティブで確保。",
+    "body_markdown": "OpenAIは『Defense Factory』とセキュリティバグ懸賞金プログラムの強化を発表。脆弱性報告の報酬を中レベル以上で『4倍超』に引き上げた。独立研究者が自社テストで見つけた弱点の報告を奨励。\n\nセキュリティ研究者は業界全体の防御強化に不可欠だが、給与・仕事機会で恵まれない傾向。懸賞金をインセンティブに、優秀な人材を確保する戦略。Defense Factoryでは自社エンジニアがAIを使い、自らの脆弱性を先制的に検出・修正。\n\nこの二重戦略により、社内テスト（Defense Factory）と外部テスト（バグ懸賞）を組み合わせ、本番システムの穴をできるだけ事前に塞ぐ体制を構築。生成AIの安全性・信頼性競争が進む中、セキュリティへのコミットメント表明。",
+    "tags": [
+      "セキュリティ",
+      "AI",
+      "懸賞金"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+    "importance": 3,
+    "image_query": "cybersecurity protection defense",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:16.593Z",
+    "publishedAt": "2026-11-02T18:00:00.000Z"
+  },
+  {
+    "slug": "20261104-23",
+    "headline": "ルワンダ軍がアフリカリーグから除名、米制裁理由はDRコンゴ紛争",
+    "lead": "バスケットボール連盟がルワンダ軍チームをアフリカ大陸トーナメントから除外。米国のコンゴ関連制裁に連動。",
+    "body_markdown": "ルワンダ軍のバスケットボールチームがアフリカバスケットボール連盟主催のトーナメントから除名された。米国がルワンダ軍に対し、隣国民主共和国（DRC）への関与を理由に制裁を実施。NBAは米国制裁に従い、米国が支援する国際体育事業への参加を制限。\n\nDRコンゴでは、ルワンダが支援する反政府勢力が領土紛争を続けており、数万人の難民が発生。米国はルワンダ軍の関与が国際人道法違反と判断し、制裁対象に。アフリカ域内での政治的複雑性を反映し、スポーツ制裁へと波及。\n\nルワンダはアフリカ地域大国として、東部コンゴの地政学的支配を目指すが、国際社会との関係が冷え込む契機に。",
+    "tags": [
+      "制裁",
+      "紛争",
+      "スポーツ"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/c699zdx9knmpo",
+    "importance": 3,
+    "image_query": "international conflict military",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:16.593Z",
+    "publishedAt": "2026-11-04T10:19:41.000Z"
+  },
+  {
+    "slug": "20261104-24",
+    "headline": "Nexus Mods、AI使用開示を義務化 ユーザー懸念に対応",
+    "lead": "PC ゲームMODの最大サイトが、AI生成・支援MODを明示させる新ルール導入。",
+    "body_markdown": "PC ゲーム MODの最大リポジトリ『Nexus Mods』が、AI使用開示の義務化を発表。新規 MOD 投稿時に『AI生成・AI支援の有無』を申告。既存の『AI生成』『AI支援』タグ機能では不十分と判断。\n\nサイト運営者Victor Folmannは『AIが使われたか明確に開示されていない』というユーザー懸念を認識。タグ機能が存在しても、作者が意図的に非表示にしたり、ユーザーが見落としたりする問題が発生。新ルールで、mod ページの目立つ場所に開示させることで、ユーザーが透明な選択ができる環境を整備。\n\nコミュニティは AI 生成コンテンツの品質や著作権問題に不安を抱く傾向。プラットフォーム側が透明性を強制することで、信頼回復と適正利用の支援を図る。",
+    "tags": [
+      "AI",
+      "ゲーム",
+      "透明性"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+    "importance": 3,
+    "image_query": "video game modding creative",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:16.594Z",
+    "publishedAt": "2026-11-04T00:42:10.000Z"
+  },
+  {
+    "slug": "20261104-25",
+    "headline": "Google、東南アジアAIリテラシー教育 『AI Quest』新シナリオで脳科学",
+    "lead": "Googleが学習ゲーム『AI Quest』に脳神経科学シナリオを追加。東南アジア地域での AI 理解支援。",
+    "body_markdown": "GoogleはAI Questシリーズに『Polar Peaks』（脳波シナリオ）を追加。AIリテラシー教育に脳神経科学知識を組み込んだ学習ゲーム。東南アジアを含む発展途上国のAI デジタルリテラシー格差を埋めるイニシアティブ。\n\nゲーム形式により、抽象的なAI概念を体験的に理解できるカリキュラムを提供。ニューロンネットワーク、脳神経科学におけるパターン認識等、AIの生物学的インスピレーションを視覚的に学習。特にアジア・アフリカの若年層に向け、デジタルスキル格差縮小を支援。\n\nGoogle AIの社会貢献戦略として、教育デジタル化とAIリテラシー底上げを同時推進。",
+    "tags": [
+      "教育",
+      "AI",
+      "リテラシー"
+    ],
+    "section": "AI",
+    "source": "Google",
+    "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+    "importance": 2,
+    "image_query": "education learning neuroscience",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-04T11:02:16.594Z",
+    "publishedAt": "2026-10-26T16:00:00.000Z"
+  },
+  {
     "slug": "20261002-14",
     "headline": "インド人パイロット、副操縦士の刃物攻撃から乗客救う",
     "lead": "ドバイ発テルアビブ便で副操縦士がコックピット攻撃、キャプテンが人命救助に当たった。",
