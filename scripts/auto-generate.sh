@@ -296,12 +296,29 @@ ${LINT_TEXT}"
 
 $LINT_NOTE}"
     jrc=$?
+    # 判定が「使えるか」の判断は src/reviewVerdict.js が正本（ingestDrafts / prepareFixRound と
+    # 同じモジュール）。ここがファイルの**存在（-f）だけ**を見ていたため、2026-11-04 は judge が
+    # 書いた壊れた JSON がガードを素通りし、judge_absent も Slack 通知も出ないまま veto 3本
+    # （桁誤り・出典に無い記述）が公開対象に入った。存在ではなく中身で判定すること。
+    # 終了コード: 0=判定は使えて全下書きに付いている / 1=使えない / 2=一部が未査読・形式不備。
+    "$NODE_BIN" src/reviewVerdict.js --validate
+    vrc=$?
     # 失敗時最優先: 日次ジョブを止めない。査読不在なら客観ゲートのみで通常公開し通知。
-    if [[ "$jrc" -ne 0 || ! -f "$PROJECT_DIR/data/_review.json" ]]; then
-      echo "WARN: 査読が完了しませんでした (exit=$jrc)。客観ゲートのみで取り込みを続行します。"
+    if [[ "$jrc" -ne 0 || "$vrc" -eq 1 ]]; then
+      if [[ "$jrc" -ne 0 ]]; then JUDGE_CAUSE="exit"; else JUDGE_CAUSE="verdict_unusable"; fi
+      echo "WARN: 査読が完了しませんでした (exit=$jrc, verdict=$vrc)。客観ゲートのみで取り込みを続行します。"
       notify "査読(judge)が不在のまま公開します。後で品質をご確認ください。"
       # 観測性: judge 不在を ledger に残し、後追いで頻度・原因を分析できるようにする（日次は止めない）。
-      printf '{"ts":"%s","type":"judge_absent","exit":%s}\n' "$(date -u +%FT%TZ)" "$jrc" \
+      printf '{"ts":"%s","type":"judge_absent","cause":"%s","stage":"guard","exit":%s}\n' \
+        "$(date -u +%FT%TZ)" "$JUDGE_CAUSE" "$jrc" \
+        >> "$PROJECT_DIR/data/quality/incidents.jsonl"
+    elif [[ "$vrc" -eq 2 ]]; then
+      # 読めた veto は尊重されるが、判定が付かなかった下書きは**未査読のまま公開**される。
+      # 止めはしない（評価機構の都合で公開を落とさない）。ただし黙って通さない。
+      echo "WARN: 査読の判定が一部の下書きに届いていません。読めた判定は尊重して続行します。"
+      notify "査読(judge)の判定が一部の下書きに付いていません。後で品質をご確認ください。"
+      printf '{"ts":"%s","type":"judge_absent","cause":"verdict_partial","stage":"guard","exit":%s}\n' \
+        "$(date -u +%FT%TZ)" "$jrc" \
         >> "$PROJECT_DIR/data/quality/incidents.jsonl"
     fi
   else
@@ -313,7 +330,10 @@ $LINT_NOTE}"
   # 置き場所が要: ingestDrafts が _drafts.json/_review.json を消すので、必ず ingest の前。
   # 失敗しても pass 記事の公開は妨げない（mergeFixReview.js がドラフトを原状復帰させる）。
   # 停止したいときは config.fixRound.enabled=false（prepareFixRound が 0 を返して素通りする）。
-  FIX_COUNT="$("$NODE_BIN" src/prepareFixRound.js 2>/dev/null)"
+  # stderr は捨てない。2>/dev/null だと「判定が壊れていて対象 0 件になった」理由が
+  # ログに残らず、修正リトライが黙って起きないだけに見える（2026-11-04）。
+  # stdout（件数）だけを取り込み、stderr は scheduler.log へ流す。
+  FIX_COUNT="$("$NODE_BIN" src/prepareFixRound.js)"
   [[ "$FIX_COUNT" =~ ^[0-9]+$ ]] || FIX_COUNT=0
   if [[ "$FIX_COUNT" -gt 0 ]]; then
     echo "修正リトライ: ${FIX_COUNT} 件を writer に差し戻し（$WRITER_MODEL・出典を再取得して訂正）"

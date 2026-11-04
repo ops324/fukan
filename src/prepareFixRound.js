@@ -11,6 +11,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { config } from './config.js';
+import { readVerdicts } from './reviewVerdict.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const draftsPath = path.join(ROOT, 'data', '_drafts.json');
@@ -23,14 +24,24 @@ async function main() {
   if (!config.fixRound?.enabled) return 0;
 
   let drafts;
-  let review;
   try {
     drafts = JSON.parse(await readFile(draftsPath, 'utf8'));
-    review = JSON.parse(await readFile(reviewPath, 'utf8'));
   } catch {
-    return 0; // judge がスキップされた回など（_review.json が無い）は対象なし
+    return 0; // 下書きが無い回は対象なし
   }
-  if (!Array.isArray(drafts) || !Array.isArray(review)) return 0;
+  if (!Array.isArray(drafts)) return 0;
+
+  // 判定の読み取りは src/reviewVerdict.js が正本（ingestDrafts / auto-generate.sh と同じ判断）。
+  // ここが独自に JSON.parse していたため、2026-11-04 は壊れた判定を無言で「対象 0 件」として
+  // 返し、fixable:true の veto 1本が修正リトライに回らなかった——しかも理由はどこにも出なかった
+  // （呼び出し側が 2>/dev/null で stderr を捨てていた）。判定の解釈を増やさないこと。
+  const verdict = await readVerdicts(reviewPath, drafts.map((d) => d?.link).filter(Boolean));
+  if (!verdict.ok) {
+    // 判定が「無い」のは正常（judge スキップ回）。「あるのに使えない」のは異常なので必ず出す。
+    if (verdict.exists) console.error(`  修正リトライをスキップ: judge 判定が使えません（${verdict.reason}）`);
+    return 0;
+  }
+  const review = verdict.rows;
 
   const draftByLink = new Map(drafts.filter((d) => d?.link).map((d) => [d.link, d]));
   const targets = [];

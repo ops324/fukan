@@ -12,6 +12,7 @@ import { fetchPressImage } from './pressImage.js';
 import { renderSite } from './render.js';
 import { evaluateArticle, appendEvaluation, writeRunSummary, maxFeatureContainment } from './evaluate.js';
 import { appendVeto } from './vetoLedger.js';
+import { readVerdicts } from './reviewVerdict.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const draftsPath = path.join(ROOT, 'data', '_drafts.json');
@@ -29,15 +30,58 @@ try {
 }
 if (!Array.isArray(drafts)) { console.error('✗ _drafts.json は配列である必要があります。'); process.exit(1); }
 
+// 運用イベントの記録（incidents.jsonl）。記録の失敗で取り込みを止めない。
+async function recordIncident(rec) {
+  try {
+    await appendFile(
+      path.join(ROOT, 'data', 'quality', 'incidents.jsonl'),
+      `${JSON.stringify({ ts: new Date().toISOString(), ...rec })}\n`,
+      'utf8',
+    );
+  } catch { /* noop */ }
+}
+
+// 読めなかった judge 出力を data/quality/ へ退避する。_review.json は末尾の一時ファイル掃除で
+// 消えるため、その場に残すと原本が失われる（2026-11-04 は scheduler.log の markdown から
+// critique を手で復元するしかなかった）。退避先が data/quality/ なのは、そこが git 追跡対象＝
+// バックアップされる唯一の置き場だから（data/ 直下は gitignore）。
+async function keepBrokenVerdict(cause, reason) {
+  const stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\..+/, 'Z');
+  const kept = path.join(ROOT, 'data', 'quality', `_review-failed-${stamp}.json`);
+  let keptRel = null;
+  try {
+    await rename(reviewPath, kept);
+    keptRel = path.relative(ROOT, kept);
+    console.error(`  judge 出力を退避しました: ${keptRel}`);
+  } catch (err) {
+    console.error(`  WARN: judge 出力の退避に失敗しました: ${err.message}`);
+  }
+  await recordIncident({ type: 'judge_absent', cause, stage: 'ingest', reason, ...(keptRel ? { kept: keptRel } : {}) });
+}
+
 // 別モデル judge の判定（data/_review.json）。あれば veto された下書きを破棄する。
 // 形式: [{ link, verdict: 'pass'|'veto', scores?, overall?, critique?, suggestions? }, ...]
 // judge が走らなかった/失敗した場合は単に存在しない → 客観ゲートのみで通常公開（日次を止めない）。
-const reviewByLink = new Map();
-if (existsSync(reviewPath)) {
-  try {
-    const review = JSON.parse(await readFile(reviewPath, 'utf8'));
-    if (Array.isArray(review)) for (const r of review) { if (r?.link) reviewByLink.set(r.link, r); }
-  } catch { console.error('  WARN: _review.json を解析できませんでした（judge 判定を無視して続行）'); }
+//
+// 「使える判定か」の判断は src/reviewVerdict.js が正本。auto-generate.sh のガードも同じ
+// モジュールを通すので「ガードは通したが ingest は読めない」＝veto が無言で消える、という
+// ズレが起きない（2026-11-04 の事故。壊れた JSON がこの経路を素通りし veto 3本が公開対象に入った）。
+//
+// 判定を無視して続行する設計はそのまま（評価機構の故障で日次を止めない・SPEC §12）。
+// 足したのは「後から気づける経路」だけ——記事は正常に見えるため、記録が無いと誰も気づけない。
+// なお自動実行では auto-generate.sh のガードも同じ事象を記録する（stage: 'guard'）。
+// 件数を数えるときは stage で絞ること（guard=検出、ingest=判定なしで公開した層）。
+const verdict = await readVerdicts(reviewPath, drafts.map((d) => d?.link).filter(Boolean));
+const reviewByLink = new Map(verdict.rows.map((r) => [r.link, r]));
+if (verdict.exists && !verdict.ok) {
+  console.error(`  WARN: judge 判定を使えません（判定を無視して続行）: ${verdict.reason}`);
+  await keepBrokenVerdict('verdict_unusable', verdict.reason);
+} else if (verdict.exists && !verdict.complete) {
+  console.error(`  WARN: judge 判定が不完全です（読めた ${verdict.usable} 件は尊重して続行）: ${verdict.reason}`);
+  await recordIncident({
+    type: 'judge_absent', cause: 'verdict_partial', stage: 'ingest', reason: verdict.reason,
+    usable: verdict.usable, dropped: verdict.dropped, missing: verdict.missing,
+  });
 }
 
 const store = await loadArticles();
@@ -277,15 +321,8 @@ if (ledgerFailures > 0 && existsSync(reviewPath)) {
     console.error(`  WARN: judge 出力の退避に失敗しました: ${err.message}`);
   }
   // 機械可読な運用イベントとしても残す（judge_absent / publish_blocked と同じ流儀）。
-  // 公開は止めない（評価機構の故障で公開事故を起こさない）。ディスク満杯なら
-  // この追記自体も失敗しうるので必ず握る。
-  try {
-    await appendFile(
-      path.join(ROOT, 'data', 'quality', 'incidents.jsonl'),
-      `${JSON.stringify({ ts: new Date().toISOString(), type: 'ledger_write_failed', failures: ledgerFailures })}\n`,
-      'utf8',
-    );
-  } catch { /* noop */ }
+  // 公開は止めない（評価機構の故障で公開事故を起こさない）。
+  await recordIncident({ type: 'ledger_write_failed', failures: ledgerFailures });
 }
 
 // 一時ファイルを掃除（judge の _review.json も含む）。
