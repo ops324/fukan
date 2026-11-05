@@ -1,5 +1,420 @@
 [
   {
+    "slug": "20261105-14",
+    "headline": "OpenAI、948個のLinux脆弱性を自動検出・修正",
+    "lead": "OpenAIが開発した自動脆弱性検出パイプラインが、1回の実行でLinuxの特権昇格脆弱性948個を検出・修正した。",
+    "body_markdown": "OpenAIは、AIを使った脆弱性の自動検出・悪用・修正のパイプラインを発表した。セキュリティ研究チームが構築したこのシステムは、従来は個別案件ごとに時間をかけた脆弱性調査を、体系的なプロセスとして実行できる。\n\n試験環境でLinuxカーネルの脆弱性を調べたところ、候補となる2308個の発見を分析し、1724個の脆弱性を動的に再現。その中から特に危険な948個のローカル特権昇格（LPE）エクスプロイトを生成し、メンテナー向けの修正パッチ案を作成した。API実行コストは120万ドル。\n\nセキュリティ研究が大規模化する中、脆弱性の発見は容易になりつつあるが、優先度付けと検証が課題だった。OpenAIのサイバーセキュリティ専門モデルは、この自動検証・修正の流れで、1000件超の脆弱性を単一ジョブで処理した。結果は公表予定で、セキュリティコミュニティの実装を支援する見通し。",
+    "tags": [
+      "AI",
+      "セキュリティ",
+      "Linux",
+      "脆弱性検出"
+    ],
+    "section": "テクノロジー",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+    "importance": 5,
+    "image_query": "computer security vulnerability code",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/400PQ4WTCOvXwwvk1OMOHv/03970ddeafd22fdbc9832669deacc59c/a-thousand-fewer-paths-to-root-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T09:25:58.750Z",
+    "publishedAt": "2026-11-04T08:00:00.000Z"
+  },
+  {
+    "slug": "20261105-15",
+    "headline": "OpenAI、画像生成AI「Images 2.6」発表 生成速度50%向上、GIF対応",
+    "lead": "OpenAIが画像生成AI最新版Images 2.6を発表。生成速度を50%改善し、GIFアニメーション制作機能を新搭載。",
+    "body_markdown": "OpenAIは、画像生成AI「Images 2.6」をChatGPT、Codex、APIで公開した。生成速度が前バージョンから50%高速化され、APIモデルではFlareとSunburstの2種類から選択可能。品質設定を低にするとFlareは6秒で画像生成が可能。\n\n新機能として、静止画をGIFアニメーションに変換できる「GIF生成」を搭載。ブランドマスコットの動きや製品写真のループ化など、マーケティング用途での活用を想定している。同時に、画像編集ラウンドの制度も向上し、キャラクターやブランド要素の一貫性を保ちながら精密な修正が可能になった。\n\nChatGPT、Codex、APIの三つのプラットフォーム全体で、週約40億枚（1日平均5億枚以上）の画像が生成されている。高速化とGIF対応により、ビジネスユースの拡大が見込まれる。",
+    "tags": [
+      "AI",
+      "画像生成",
+      "ChatGPT",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-images-2-6",
+    "importance": 4,
+    "image_query": "AI image generation animation",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6EYvL2y5CLXFr8E1pqoVUK/064e0d73b10087e20967b69ef0a06678/images-2-6-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/introducing-images-2-6",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T09:25:58.995Z",
+    "publishedAt": "2026-11-04T00:00:00.000Z"
+  },
+  {
+    "slug": "20261105-16",
+    "headline": "OpenAI、政府向けセキュリティモデル「Daybreak Red」をAWS GovCloudで提供開始",
+    "lead": "OpenAIが米政府チーム向けサイバーセキュリティモデル「Daybreak Red」をAWS GovCloudで利用可能に。",
+    "body_markdown": "OpenAIは、Daybreak Redを通じて政府セキュリティチーム向けのサイバーセキュリティ機能を拡充した。AWS GovCloud（US-East）でGPT-5.6 Cyberが承認された顧客に対して利用可能になる。\n\nDaybreak Redは、OpenAIの専門訓練を受けたサイバーセキュリティモデルで、認可された脆弱性研究、エクスプロイト検証、セキュリティテストに対応。GPT-5.6 Cyberは複雑なソフトウェアの弱点を調査し、制御環境での脆弱性再現、軽減案の開発を支援する。\n\n米政府組織は独自のセキュリティ・ガバナンス・運用要件の中での導入を要求される。Amazon Bedrockへの統合により、政府チームが既存のAWS環境内でOpenAIの最先端サイバーセキュリティ機能を活用できるようになる。",
+    "tags": [
+      "AI",
+      "セキュリティ",
+      "政府",
+      "AWS"
+    ],
+    "section": "テクノロジー",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+    "importance": 4,
+    "image_query": "government cybersecurity defense",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5kxMZV1Js4071yUAa9rsyx/2ac76c7318411b493ec032afb3d7aaf9/daybreak-red-aws-govcloud-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T09:25:59.202Z",
+    "publishedAt": "2026-11-04T07:00:00.000Z"
+  },
+  {
+    "slug": "20261105-17",
+    "headline": "PFN、翻訳特化型LLM「PLaMo 3 Translate」をオープン化",
+    "lead": "日本のAIベンチャーPreferred Networksが、翻訳タスク専用の最新言語モデルをオープンウェイトで公開。",
+    "body_markdown": "Preferred Networks（PFN）は、翻訳特化型大規模言語モデル「PLaMo 3 Translate」をオープンウェイトで公開した。「世界最高水準」と謳う性能で、0.8B～31Bの4つのサイズを用意。オンデバイス実行にも対応している。\n\nこのモデルは、多言語翻訳タスクに最適化されており、ニッチなドメイン言語や低リソース言語への対応能力を高めている。小型版（0.8B）はスマートフォンなどエッジデバイスで動作。大型版（31B）は高精度が必要な業務翻訳向け。\n\nオープンウェイトでの公開により、研究者や企業が独自に翻訳システムをカスタマイズできる。クラウド依存を減らしながら、言語処理性能を高めたい組織での採用が広がる可能性がある。",
+    "tags": [
+      "AI",
+      "言語モデル",
+      "翻訳",
+      "日本企業"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2611/05/2000002900/",
+    "importance": 4,
+    "image_query": "language translation AI model",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1673515335152-f2589ba8bb7a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxsYW5ndWFnZSUyMHRyYW5zbGF0aW9uJTIwQUklMjBtb2RlbHxlbnwxfDB8fHwxNzkzODcwNzU5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ling App",
+      "profileUrl": "https://unsplash.com/@lingapp?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a wooden block that says translation on it",
+      "description": "Translation word"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T09:26:00.022Z",
+    "publishedAt": "2026-11-05T04:24:50.000Z"
+  },
+  {
+    "slug": "20261105-18",
+    "headline": "フジテレビ、全ドラマでAI活用体制へ 2027年10月めど",
+    "lead": "フジテレビが2027年10月までに、傘下の全ドラマ制作でAI活用を可能にするシステムを整備。",
+    "body_markdown": "フジテレビジョンは、2027年10月をめどに傘下のドラマ制作全般でAI技術を活用できる体制を整備すると発表した。既に人気ドラマ「救命病棟24時」での先行導入が始まっている。\n\nこの体制により、脚本作成、映像編集、視聴者分析など、ドラマ制作の複数段階でAIを導入。作業効率化と制作品質の向上を目指す。大手テレビ局が制作プロセス全体にAIを組み込む試みは業界では先進的。\n\n放送局は視聴者減少と制作コストの増加に直面している。AIの活用により、限られた予算で質の高いコンテンツを量産しやすくなる期待がある。一方で、脚本や映像表現の創造性をAIがどこまで補えるかという課題も残る。",
+    "tags": [
+      "AI",
+      "テレビ",
+      "メディア",
+      "日本"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2611/05/2000002903/",
+    "importance": 4,
+    "image_query": "television studio production",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1612544409025-e1f6a56c1152?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHx0ZWxldmlzaW9uJTIwc3R1ZGlvJTIwcHJvZHVjdGlvbnxlbnwxfDB8fHwxNzkzODcwNzYwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brands&People",
+      "profileUrl": "https://unsplash.com/@brandsandpeople?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A film crew working on a large soundstage with lighting equipment and cameras",
+      "description": "Film set studio photographed with fish eye lens"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T09:26:00.526Z",
+    "publishedAt": "2026-11-05T04:05:02.000Z"
+  },
+  {
+    "slug": "20261105-19",
+    "headline": "防衛大手ラインメタル、見通し切り下げ 独軍事契約遅延で",
+    "lead": "ドイツ防衛大手ラインメタルが3ヶ月で2度目となる2026年見通し切り下げ。軍事プロジェクト遅延が影響。",
+    "body_markdown": "ドイツの防衛大手ラインメタルが2026年度の見通しを2度目の切り下げた。砲兵弾薬の納期遅延とドイツ国防省のプロジェクト遅延が原因。株価は一時16%下落した。\n\nドイツ政府は国防予算を大幅増加させているが、装備品の調達が予定通り進まないボトルネックが浮上。ウクライナ紛争の長期化で、欧州各国の防衛支出が増えている中、防衛産業の供給能力が追いつかない状況が明らかになった。\n\nラインメタルは砲兵システムと弾薬で欧州トップシェア。見通し修正は、欧州防衛産業全体の納期ひっ迫と政府との契約管理の課題を象徴している。",
+    "tags": [
+      "防衛産業",
+      "ドイツ経済",
+      "欧州",
+      "ウクライナ"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/05/rheinmetall-stock-outlook-sales-germany.html",
+    "importance": 4,
+    "image_query": "military defense weapons systems",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1748653756660-3c7908832aea?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyM3x8bWlsaXRhcnklMjBkZWZlbnNlJTIwd2VhcG9ucyUyMHN5c3RlbXN8ZW58MXwwfHx8MTc5Mzg3MDc2MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Meg von Haartman",
+      "profileUrl": "https://unsplash.com/@traveleroohlala?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Military equipment is on display with a blue sky"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T09:26:01.082Z",
+    "publishedAt": "2026-11-05T08:10:55.000Z"
+  },
+  {
+    "slug": "20261105-20",
+    "headline": "韓国、中東派遣部隊を拡大 ホルムズ海峡活動の含みも",
+    "lead": "韓国が中東派遣軍を増強し活動海域をオマーン南沖に拡張。米国のホルムズ海峡派遣要請への含みも示唆。",
+    "body_markdown": "韓国政府は、中東に派遣している軍部隊を増強し、活動海域をオマーン南沖まで拡大する方針を示した。米国からのホルムズ海峡派遣要請には直接応じないとしながらも、将来的な活動参加の可能性を示唆している。\n\n韓国は既に中東に駐留する海軍部隊により、海賊対策と商船護衛に当たっているが、活動域の南方拡張により、中東全域への展開能力を高める狙いがある。アメリカは同盟国に対し、ホルムズ海峡の航行の自由を保証するための派遣参加を募っており、韓国の決定は間接的な応答の側面。\n\nイラン情勢の不安定化に伴い、海峡通航の保障がグローバル経済の要。韓国の能力強化は日米とも協力し、インド太平洋地域における海上安全保障の均衡を保つ動き。",
+    "tags": [
+      "韓国",
+      "国際・地政学",
+      "米国同盟",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261105de71025",
+    "importance": 4,
+    "image_query": "military naval ships deployment",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1570547280529-db0a5d5af2db?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxtaWxpdGFyeSUyMG5hdmFsJTIwc2hpcHMlMjBkZXBsb3ltZW50fGVufDF8MHx8fDE3OTM4NzA3NjF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Arron Choi",
+      "profileUrl": "https://unsplash.com/@arronchoi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "naval ships on water"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T09:26:01.706Z",
+    "publishedAt": "2026-11-05T07:52:00.000Z"
+  },
+  {
+    "slug": "20261105-21",
+    "headline": "消費税減税法案、6日衆院通過へ 与野党対立",
+    "lead": "食料品の消費税減税法案が6日の委員会採決で衆院通過の見通し。野党は首相答弁を求める。",
+    "body_markdown": "日本の消費税減税関連法案をめぐる審議が佳境に入っている。与党側は充分な審議が終わったとして、11月6日の委員会と本会議での採決・衆院通過を目指す方針。野党側は、高市総理大臣の直接答弁を条件に採決に応じるか判断する立場。\n\n法案は食料品の消費税を軽減する内容。生活コストの上昇に対応する措置として、内閣が優先度を高くしている。野党は減税対象・期間・恒久性など細部の詰めが不十分だと指摘。\n\n衆院で可決された場合、参院での審議が続く。政府は2027年度予算にこの減税を反映させるスケジュール。政局は激しさを増しており、衆参での可決タイミングが焦点となっている。",
+    "tags": [
+      "日本政治",
+      "税制",
+      "経済政策",
+      "国会"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261105de70693",
+    "importance": 4,
+    "image_query": "parliament legislative debate",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1607778102165-6a418ee9adf2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxwYXJsaWFtZW50JTIwbGVnaXNsYXRpdmUlMjBkZWJhdGV8ZW58MXwwfHx8MTc5Mzg3MDc2Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Hansjörg Keller",
+      "profileUrl": "https://unsplash.com/@kel_foto?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "brown wooden tables and chairs",
+      "description": "Schweizer Parlament. Swiss Parliament."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T09:26:02.312Z",
+    "publishedAt": "2026-11-05T07:09:25.000Z"
+  },
+  {
+    "slug": "20261105-22",
+    "headline": "民主党の選挙勝利、マーケットは無反応 経済専門家分析",
+    "lead": "米中間選挙で民主党が大勝利も、金融市場はほぼ反応なし。市場は政策変化より金利動向を重視。",
+    "body_markdown": "米国の中間選挙で民主党が大きく議席を伸ばしたが、株式市場や為替市場は顕著な反応を示していない。エコノミストからは、政策の不確実性よりも、連邦準備理事会（FRB）の金利政策が市場の主要懸念であるとの指摘が出ている。\n\n通常、与野党の大きな勢力変化は投資家の期待値を急速に変える。しかし今回、市場参加者は政策転換よりも、インフレ鈍化に伴う金利低下の可能性を測っている。エコノミスト分析では、政治的リスク緩和よりも、経済ファンダメンタルズの方が取引の主流。\n\n民主党勝利は共和党の減税政策後退を意味するが、大統領権限の制約や議会構成の複雑性により、大きな政策転換は限定的との見方。市場は政治ショックよりも金融政策の継続性を評価している。",
+    "tags": [
+      "米国選挙",
+      "経済",
+      "マーケット",
+      "金利"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/11/04/what-markets-make-of-the-midterms",
+    "importance": 4,
+    "image_query": "stock market trading finance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1629339941379-da30348cdba6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOXx8c3RvY2slMjBtYXJrZXQlMjB0cmFkaW5nJTIwZmluYW5jZXxlbnwxfDB8fHwxNzkzODcwNzYyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Kanchanara",
+      "profileUrl": "https://unsplash.com/@kanchanara?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person using black tablet computer",
+      "description": "Two investors are trading cryptocurrency on Binance"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T09:26:03.132Z",
+    "publishedAt": "2026-11-04T21:48:18.000Z"
+  },
+  {
+    "slug": "20261105-23",
+    "headline": "オーストラリア、日本企業の海洋貯蔵サイト承認 二酸化炭素削減へ",
+    "lead": "オーストラリアが、日本企業によるCO2海洋貯蔵サイトを承認。気候変動対策で急進的な選択肢を採択。",
+    "body_markdown": "オーストラリア政府は、日本企業が北部沖合で計画する大規模な二酸化炭素海洋貯蔵サイトを承認した。同国の二酸化炭素削減戦略の一環。海洋貯蔵は気候科学者の間で意見が分かれており、環境リスクへの懸念も存在する。\n\n海洋CCS（カーボン・キャプチャー・ストレージ）は、産業排出ガスの深刻な削減が困難な分野での対策として注目されている。日本企業の計画は、高度な技術と規制枠組みを前提としている。\n\n気候変動対策のジレンマが浮き彫りになった形。排出削減の直接的な方法を取りながらも、産業競争力維持のため、新しい貯蔵技術を並行して進める戦略。海洋への長期影響の不確実性は残るが、削減目標達成への実用性が優先された。",
+    "tags": [
+      "気候変動",
+      "カーボンニュートラル",
+      "オーストラリア",
+      "環境"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-australia-seabed-site-japanese-company.html",
+    "importance": 3,
+    "image_query": "carbon capture climate change ocean",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T09:26:03.150Z",
+    "publishedAt": "2026-11-05T08:56:32.000Z"
+  },
+  {
+    "slug": "20261105-24",
+    "headline": "福岡県議会・藏内前議長が金銭授受を否定 辞職後初会見",
+    "lead": "福岡県議会の正副議長ポストめぐる金銭問題で、藏内勇夫前議長が辞職後初めて会見を開き金銭授受を重ねて否定。",
+    "body_markdown": "福岡県議会の正副議長ポストをめぐり金銭の授受が指摘されていた問題について、藏内勇夫前議長が8月の辞職後初となる記者会見を開いた。疑惑の金銭授受は無かったと重ねて否定した。\n\nこの問題は地方議会の透明性と倫理をめぐる重要な案件。県議会が独立した調査委員会を設置し、事実究明を進めているが、前議長の直接説明により議論が深まる可能性。\n\n地方議会での地位獲得に伴う金銭取引は、憲法上禁止される贈収賄に該当しうる。県民の信頼回復と議会制度の正当性維持が焦点となっている。",
+    "tags": [
+      "日本政治",
+      "地方議会",
+      "倫理",
+      "福岡県"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261105de70981",
+    "importance": 3,
+    "image_query": "parliament meeting politics",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T09:26:03.151Z",
+    "publishedAt": "2026-11-05T08:13:21.000Z"
+  },
+  {
+    "slug": "20261105-25",
+    "headline": "ドラマ「Black Doves」シーズン2、豪華キャスト陣で話題 英Netflixドラマ",
+    "lead": "「Black Doves」シーズン2がベン・ウィショーら豪華キャストで展開。スパイドラマの娯楽性と複雑さを評価。",
+    "body_markdown": "イギリスのスパイドラマ「Black Doves」がシーズン2で、ベン・ウィショー、キーラ・ナイトレイ、サラ・ランチェスターら豪華キャスト陣で展開。Netflix作品として注目を集めている。\n\nシーズン2は、友情と陰謀の複雑な物語を軸に、スパイアクションドラマの大作らしい娯楽性を備えている。製作・脚本のジョー・バートンが手がけた脚本は、現実離れした設定を超越した異色のスパイ・サスペンス。\n\nドラマの緻密さと出演者の演技力が高い評価を受けており、エンタメコンテンツとしての作品品質がドラマ業界のトレンドを示唆している。",
+    "tags": [
+      "ドラマ",
+      "Netflix",
+      "エンタメ",
+      "映像"
+    ],
+    "section": "エンタメ",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/tv-and-radio/2026/nov/05/black-doves-review-keira-knightley-ben-whishaw",
+    "importance": 3,
+    "image_query": "television drama netflix series",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T09:26:03.153Z",
+    "publishedAt": "2026-11-05T08:01:57.000Z"
+  },
+  {
+    "slug": "20261105-26",
+    "headline": "英国、ポルノ規制強化へ シミュレーション近親相姦など禁止",
+    "lead": "英国で新たなポルノ規制法が施行間近。シミュレーション近親相姦やオーラルセックス表現を禁止へ。",
+    "body_markdown": "英国で新たな成人コンテンツ規制法が近く施行予定。シミュレーション近親相姦とオーラルセックスの一部表現を禁止する内容。アダルトコンテンツ制作者と言論の自由を主張する側から懸念の声が上がっている。\n\nこの規制は表現内容に直接介入する異例の法律と位置づけられており、アメリカのポルノ業界とも異なる厳格なアプローチ。英国政府は性的暴力の描写削減と公序良俗維持を目的としているが、表現の幅を大きく制限する懸念も存在。\n\nデジタル時代の成人コンテンツ規制のあり方は、各国で議論が高まっている。言論の自由との衝突、取り締まりの実効性、国境を越えたコンテンツ流通への対応など、技術社会の課題を象徴している。",
+    "tags": [
+      "英国政治",
+      "言論の自由",
+      "規制",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "WIRED",
+    "link": "https://www.wired.com/story/a-new-uk-ban-sparks-fears-of-unprecedented-sex-censorship/",
+    "importance": 3,
+    "image_query": "government regulation policy law",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T09:26:03.154Z",
+    "publishedAt": "2026-11-05T07:00:00.000Z"
+  },
+  {
+    "slug": "20261105-27",
+    "headline": "Nintendo Switch 2、価格上昇で販売41%減 メモリコスト上昇が影響",
+    "lead": "Nintendo Switch 2の販売が前年同期比41%減少。価格上昇とメモリコスト高騰が原因。",
+    "body_markdown": "任天堂の主力ゲーム機Switch 2の売上が、会計年度第2四半期で前年同期比41%の大幅減少。価格引き上げと半導体メモリコストの急騰が販売を圧迫した。市場の期待を大きく下回る結果となり、ゲーム業界全体の需要減速懸念も呼び起こしている。\n\nメモリコストの上昇は、生成AI・データセンター需要によるメモリ争奪が背景。ゲーム機メーカーは部品調達コスト上昇を消費者負担に転嫁したが、価格弾力性が想定より大きく、41%もの販売台数減少につながった。\n\nグローバルなテック製品市場では、AI関連投資の拡大による部品コスト構造の変化が、ゲーム機・スマートフォン・PC業界に波及。競争力維持と利益率改善のバランスが各メーカーの課題となっている。",
+    "tags": [
+      "ゲーム",
+      "任天堂",
+      "半導体",
+      "エレクトロニクス"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/05/nintendo-earnings-switch-2-sales.html",
+    "importance": 3,
+    "image_query": "gaming console video game",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T09:26:03.155Z",
+    "publishedAt": "2026-11-05T07:30:58.000Z"
+  },
+  {
+    "slug": "20261105-28",
+    "headline": "フランスで大規模スト計画 医療・教育・公共サービスに波及予定",
+    "lead": "フランスで全国的なストライキが計画。教育・医療の労働条件改善と生活費危機対応を要求。",
+    "body_markdown": "フランスで高校生を中心とした教育現場での大規模なストライキが計画されている。医療従事者、航空管制官、郵便職員、鉄道職員などの公共部門労働者が参加予定。生活費上昇と労働条件改善を求める動き。\n\nマクロン大統領の任期終盤で、国内の分裂が深刻化。議会が予算案の可決に難航し、国債負債が国内総生産（GDP）の120%に近づくなど、財政危機の兆候も。政府は緊縮政策を進める必要があり、公共労働者との対立は避けられない状況。\n\nフランスのストライキ文化は強く、今後数週間の社会的混乱が予想される。欧州経済全体への波及もあり得る。",
+    "tags": [
+      "フランス",
+      "ストライキ",
+      "労働",
+      "政治"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living",
+    "importance": 3,
+    "image_query": "protest march demonstration crowd",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T09:26:03.156Z",
+    "publishedAt": "2026-11-05T05:00:54.000Z"
+  },
+  {
+    "slug": "20261105-29",
+    "headline": "Nintendo Ocarina of Time、Switch 2でのリメイク開発 優雅さ重視か",
+    "lead": "任天堂がゲーム「Ocarina of Time」をSwitch 2向けにリメイク。デザイン優雅さの追求が開発方針。",
+    "body_markdown": "任天堂が伝説的なゼルダシリーズ「Ocarina of Time」をNintendo Switch 2向けにリメイクしている。開発チームは、単なるグラフィック向上ではなく、ゲームデザインの「優雅さ」を追求する方針を掲げている。\n\nオリジナル版は1998年のN64発売で、3Dゲームの標準を確立した傑作。リメイクでは、グラフィックと操作感を現代的に改善しながら、元のゲーム設計哲学を尊重する慎重なアプローチ。\n\nゲーム業界ではリメイク・リマスターが定番化。古典作品をどのように現代化させ、新世代プレイヤーに提供するかは、業界全体の課題。任天堂の慎重かつ創意的な取り組みが業界トレンドを示唆している。",
+    "tags": [
+      "ゲーム",
+      "任天堂",
+      "Switch",
+      "エンタメ"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/2026/11/05/game-design-elegance",
+    "importance": 3,
+    "image_query": "video game design graphics",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T09:26:03.157Z",
+    "publishedAt": "2026-11-05T05:00:00.000Z"
+  },
+  {
+    "slug": "20261105-30",
+    "headline": "土星の衛星エンセラダス、太陽背景に浮かぶ NASA撮影画像",
+    "lead": "NASAのカッシーニ（土星探査機）が土星の衛星エンセラダスを太陽背景に捉えた画像を公開。氷の世界の鮮烈な映像。",
+    "body_markdown": "米航空宇宙局（NASA）の観測チームが、土星の衛星エンセラダスを太陽光をバックに捉えた鮮烈な画像を公開した。月面のような起伏を持つ氷の表面が浮き彫りになっている。\n\nエンセラダスは土星の衛星の中で、地球外生命探査の最有力候補。南極付近の氷床の下に液体の水の海があると考えられており、微生物の存在可能性が注視されている。今回の画像は、惑星探査ミッションの一環として撮影。\n\n宇宙観測では、太陽を背景にした逆光撮影により、天体の大気や表面構造がより詳細に見える。NASAの次世代ミッション計画では、エンセラダスへの着陸探査も構想されており、生命探査の新段階を示唆している。",
+    "tags": [
+      "宇宙探査",
+      "NASA",
+      "土星",
+      "サイエンス"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://science.nasa.gov/image-article/apod-2026-november-5-enceladus-in-silhouette/",
+    "importance": 3,
+    "image_query": "space exploration saturn planet",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T09:26:03.158Z",
+    "publishedAt": "2026-11-05T05:05:00.000Z"
+  },
+  {
     "slug": "20261105-01",
     "headline": "OpenAI がコード管理企業 Pierre を買収、AIエージェント時代に対応",
     "lead": "OpenAI は開発者向けツールの企業 Pierre を買収し、Git ワークフローを AI エージェント向けに進化させる。",
