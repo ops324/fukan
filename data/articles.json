@@ -1,5 +1,324 @@
 [
   {
+    "slug": "20261106-01",
+    "headline": "Google、動画生成モデル Gemini Omni 1.2 Flash を発表",
+    "lead": "Gemini Omni 1.2 Flash が15秒のネイティブ動画生成と30%の価格低下を実現、クリエイター向けツールとして一般利用可能に。",
+    "body_markdown": "Google は11月5日、動画生成モデル Gemini Omni 1.2 Flash を発表した。最大の改善は、ネイティブ動画生成の長さが従来の10秒から15秒に延長されたこと。ユーザーは1秒単位で3～15秒の長さを指定でき、完全なナレーティブやSNS広告を1回の生成で制作できるようになった。\n\n価格面では30%の低下を実現。新たに $0.07/秒（720p）で利用可能になり、クリエイターの制作コストが大幅に削減される。マルチターン編集の仕組みにより、低解像度で試作→対話ベースの編集→高解像度へのアップスケールというワークフローが可能で、さらなるコスト最適化が見込める。\n\n技術面では、キャラクター・商品・スタイル画像、最大3秒の動画クリップ、音声キューを組み合わせることで、複数のカメラアングルにおける安定した同一性の保持を実現。人物の動きや商品の表現がぶれにくくなり、仮想試着シーケンスやブランド動画の信頼性が向上する。\n\n加えて、音声合成面では唇の動きの正確さが改善され、複数スピーカーの条件付けが強化された。カメラの動きもより滑らかで、フレーム間のちらつきが最小化されている。\n\n提供は Gemini API、Google Cloud、Google Vids、その他 Google アプリケーション全域で一般利用可能。既存ユーザーは段階的に新バージョンへアップグレードされる予定。",
+    "tags": [
+      "Gemini",
+      "AI動画生成",
+      "Google AI",
+      "クリエイティブツール"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+    "importance": 4,
+    "image_query": "video generation artificial intelligence",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T23:42:00.514Z",
+    "publishedAt": "2026-11-05T17:00:00.000Z"
+  },
+  {
+    "slug": "20261106-02",
+    "headline": "OpenAI、サイバーセキュリティ専用モデル GPT-6 Cyber を発表",
+    "lead": "GPT-6 Cyber は脆弱性検証で51%の性能向上を達成し、既に Linux・Firefox などのセキュリティコード検査に採用。",
+    "body_markdown": "OpenAI は11月5日、セキュリティ研究に特化した大規模言語モデル GPT-6 Cyber を発表した。サイバーセキュリティ分野での重大な進展として、既存モデル GPT-5.6 Cyber を大きく上回る性能を実現している。\n\nExploitGym ベンチマークにおいて、GPT-6 Cyber は48.5%のスコアを達成し、前世代の32.1%から51%の相対改善を記録した。ExploitGym は指定された脆弱性を実際に悪用できるかを検証するテストで、このスコア向上は検出・修正両面での能力向上を示す。\n\n重要な特性として、研究者が設定した探索範囲から逸脱しないよう設計されている。専用のアラインメント評価では、スコープ外の脆弱性を悪用することを明確に回避。これにより、セキュリティ研究者は探索目標を限定したうえで安全にモデルを運用できる。\n\n既に実運用で成果を上げており、Linux や Firefox といったセキュリティが重要なオープンソースコードベースで数千の脆弱性を発見・検証している。攻撃サイドではなく防御サイドに限定した能力活用により、セキュリティを強化するツールとして機能している。\n\nモデルは OpenAI Daybreak サイトで関連リソースやシステムカード（技術詳細・安全考慮）が公開されており、セキュリティ研究コミュニティが活用可能。この方向は、AI 能力が現実のソフトウェア保護にどう役立つかを示す一例となっている。",
+    "tags": [
+      "GPT-6",
+      "サイバーセキュリティ",
+      "AIセキュリティ",
+      "脆弱性検証"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-gpt-6-cyber",
+    "importance": 4,
+    "image_query": "cybersecurity code vulnerability",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/73cvZmLsj7WIXQAgMDX8kz/4996c7a084b81e21a8f1357fe395c30b/gpt-6-cyber-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/introducing-gpt-6-cyber",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T23:42:00.736Z",
+    "publishedAt": "2026-11-05T09:00:00.000Z"
+  },
+  {
+    "slug": "20261106-03",
+    "headline": "NVIDIA、ロボット・自動運転向け世界シミュレーションプラットフォーム Cosmos 3 を公開",
+    "lead": "Cosmos 3 は複数カメラからの同期映像・LiDAR データを生成し、ロボットと自動運転の実時間シミュレーションを実現。",
+    "body_markdown": "NVIDIA は11月5日、ワールドモデル開発プラットフォーム Cosmos 3 を発表した。ロボティクスと自動運転の分野に向け、複数センサーから同期した観測を生成し、環境が行動にどう応答するかを予測するシステム。\n\n主要機能は複数視点映像生成にある。複数のカメラアングルから同時に調和した映像を生成でき、センサーフュージョンにより RGB と LiDAR データを整列させて出力。ロボット制御や自動運転の開発では、異なるセンサーモダリティが一貫性を保つことが必須であり、このアプローチは現実のシミュレーション精度を大幅に高める。\n\nストリーミング相互作用によるリアルタイムシミュレーションが実現される。観測が次のアクション判定を情報提供し、ループが閉じるため、動的な環境応答をシミュレート可能。空間制御とテキストプロンプトで映像生成を細かく操作でき、異なるシナリオを試験的に実行できる。\n\n新たに 4 つの特化型モデルが Cosmos 3 Nano（トレーニング可能パラメータ 16B）の派生として公開された。Transfer-Auto は気象・照明・時刻の変動を含む自動運転データを生成。Sim-Auto はカメラと LiDAR をリアルタイムで同期させ、高速な運転シミュレーション環境を提供する。Sim-Transfer は物理シミュレータの制御信号を写真リアリスティックな映像に変換し、Sim-Bimanual はロボットの両腕操作と視点変化に基づく視覚的結果を予測。\n\nすべてのモデルは OpenMDW1.1 ライセンス下で商用・非商用利用が可能。開発者向けにカスタムセンサー設定に適応させるためのポストトレーニング方式も提供される。",
+    "tags": [
+      "NVIDIA Cosmos",
+      "ワールドモデル",
+      "ロボティクス",
+      "自動運転"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+    "importance": 4,
+    "image_query": "robot simulation autonomous driving",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/677c471f8b4c4e271e57eaa5/rtmGVvFdD6JqkjBc26vsp.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T23:42:01.238Z",
+    "publishedAt": "2026-11-05T19:35:16.000Z"
+  },
+  {
+    "slug": "20261106-04",
+    "headline": "Meta、AIアバター「Muse」のビデオチャット機能を米国でローンチ",
+    "lead": "Meta Muse が実時間アバターとのビデオ通話に対応。年内には Tamagotchi のようなウェアラブルデバイス『Muse Charm』も登場予定。",
+    "body_markdown": "Meta は11月5日、消費者向け AI エージェント Muse の新機能として、アバターを通じたビデオチャットを米国ユーザーに公開した。ユーザーは自分の Muse avatar（「Jolly」をベースに、人物・動物など自由にカスタマイズ可能）と直接ビデオ通話でき、音声を通じたインタラクションがアバターの表情や身振りに反映される。\n\nMuse Realtime Avatar と Muse Realtime Voice という新 AI モデルが搭載され、会話のトーンに応じた「微妙な表情と身振り」をアバターが表現。ただし、Muse が実際にユーザーの姿を見ているわけではなく、音声入力に基づいて応答・表現が生成される仕組み。この設計により、ユーザープライバシーを損なわずに自然な対話が実現している。\n\n対応プラットフォームはモバイル・ウェブ・Mac に及び、デスクトップからスマートフォンまで幅広い環境で利用可能。ユーザーはビデオ通話とテキストチャットの両方で Muse に質問や依頼ができ、タスク支援が期待される。\n\nハードウェア面では、年末までに「Tamagotchi のようなウェアラブルデバイス」Muse Charm の投入が予定されている。小型のディスプレイにデジタルアバターを表示し、ユーザーが持ち歩きながら Muse と会話・タスク依頼を行える。これにより、スマートフォンなしに AI エージェントと交流できる新たな接点が生まれる。\n\nMeta はこのデバイスを通じ、AI エージェント市場における物理的なプレゼンスを強化する戦略を推し進めており、Google・Apple などが進める AI ウェアラブル競争に参入する姿勢を示している。",
+    "tags": [
+      "Meta Muse",
+      "AIアバター",
+      "ウェアラブルAI",
+      "AI エージェント"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+    "importance": 4,
+    "image_query": "ai avatar digital character",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1733765601550-0d79dc6566e2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8YWklMjBhdmF0YXIlMjBkaWdpdGFsJTIwY2hhcmFjdGVyfGVufDF8MHx8fDE3OTM5MjIxMjJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tanya Yarosh",
+      "profileUrl": "https://unsplash.com/@monday88?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A little girl wearing a white dress and a pink hat",
+      "description": "Celebration cartoony character 3D render"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T23:42:02.357Z",
+    "publishedAt": "2026-11-05T19:48:28.000Z"
+  },
+  {
+    "slug": "20261106-05",
+    "headline": "Linux Foundation が警告、本番環境の AI エージェント「48ドルが4800ドルに」暴走事例",
+    "lead": "東京開催の AGNTCon + MCPCon Japan 2026 で、AI エージェント導入時のコスト管理と責任構造の課題が浮き彫りに。",
+    "body_markdown": "Linux Foundation 傘下の Agentic AI Foundation（AAIF）が東京で開催した「AGNTCon + MCPCon Japan 2026」で、AI エージェントの本番運用における実装上の課題が集中的に議論された。同イベントは日本初開催となり、MCP（Model Context Protocol）共同開発者らが最前線の知見を共有した。\n\n最大の警告は、AI エージェントのコスト管理の困難さだ。講演では「48ドルの返金が4800ドルに膨らむ」という実例が報告された。これは、返金処理を実行する AI エージェントが、初期の指示を過度に解釈し、返金額を100倍に拡大してしまったケース。開発段階では想定していない挙動が本番環境で発生しやすく、エスカレーション制御の重要性が強調された。\n\n本番運用の根本課題として、「人間がループにいるか」という設計哲学が議論の中心になった。従来の「Human in the Loop」では、人間が各ステップに直接関与する。一方、新しいアプローチは「Human on the Loop」や「Own the Loop」へシフトしており、人間が常時介入せず全体的な監視にとどめつつも最終責任を保持する構造。講演者 Angie Jones は「システムが失敗したとき、責任は必ず人間にある」と明言し、AI エージェント導入企業は監視体制の構築を必須条件として認識する必要があると指摘した。\n\nコスト効率面では、オープンソースモデルの活用が強調された。大規模プロプライエタリモデルに依存せず、軽量モデルを戦略的に組み合わせることで、タスク当たりのコストを数分の一に削減できるという実例も報告された。ただし、これらの最適化が本当に機能するには、包括的なテストとモニタリングが前提となる。\n\n日本での開催により、グローバルな最新知見が国内エンジニアに届く形となった。AI エージェント導入を検討する企業は、技術的な能力向上だけでなく、コスト・責任・監視の三点セットでの実装体制を整えることが急務であることが明確化された。",
+    "tags": [
+      "AIエージェント",
+      "本番運用",
+      "コスト管理",
+      "責任構造"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/06/news012.html",
+    "importance": 3,
+    "image_query": "software engineering agent monitoring",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T23:42:02.359Z",
+    "publishedAt": "2026-11-05T20:00:00.000Z"
+  },
+  {
+    "slug": "20261106-06",
+    "headline": "Google、IDE「Firebase Studio」を廃止へ。AI中心の開発ツールへシフト",
+    "lead": "Firebase Studio は2027年3月までに完全廃止。Google AI Studio・Antigravity など AI 駆動型ツールへの移行を推奨。",
+    "body_markdown": "Google は11月5日、統合開発環境「Firebase Studio」の廃止を正式発表した。2026年6月22日に新規ワークスペース作成を終了しており、開発者には2027年3月22日までにプロジェクトをエクスポートすることが求められる。その後、すべてのデータが削除される。\n\nFirebase Studio は従来型のコード編集を重視する Web ベース IDE だったが、Google はこの転換の理由を「2026年、多くのコーディングプロジェクトがプロンプトから開始する」という市場実態に挙げた。開発スタイルの根本的な変化に対応し、ワークフローを「明確に」することが目的だという。\n\n代替ツールとして Google が推し進めるのは AI 中心型の開発環境。「Google AI Studio」は、プロンプトから本番スタックアプリケーションまでの最速経路を実現する Web ツール。「Antigravity」はデスクトップアプリケーションで、直接的なコード操作を可能にしつつ、複数の AI エージェントを調整。Google 自社モデルだけでなく、他社 AI モデルもサポートしている。\n\nサードパーティの IDE も選択肢にある。Cursor（現 SpaceX 傘下）、Claude Code（Anthropic）、Codex（OpenAI）など、AI 駆動型の IDE 市場が急速に成長しており、開発者は価格・インターフェース・機能セットに基づいて選択することになる。\n\nFirebase の**バックエンド機能**は廃止されず、新しい IDE から Firebase に接続可能なため、開発基盤としての機能は維持される。ただし、Firebase に特化した IDE は不要と Google が判断したわけだ。この決定は、AI アシスタント主導の開発フロー確立を急ぐ業界全体の動きを象徴している。",
+    "tags": [
+      "Google",
+      "Firebase",
+      "開発ツール",
+      "AI IDE"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2308541/google-is-ditching-firebase-studio-soon-and-it-wants-you-to-use-its-newer-ai-tools-instead/",
+    "importance": 3,
+    "image_query": "software development code editor",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T23:42:02.363Z",
+    "publishedAt": "2026-11-05T21:01:28.000Z"
+  },
+  {
+    "slug": "20261106-07",
+    "headline": "Blue Origin、New Glenn ロケット打上を2027年1月に再延期",
+    "lead": "5月のパッド爆発から復旧中の Blue Origin。Jeff Bezos の「12月31日打上」公言から10日後の1月へ修正。",
+    "body_markdown": "Blue Origin は11月、New Glenn ロケットの次期打上を2027年1月に修正した。CEO Dave Limp から社員へのメモで明らかになった。この日程変更は、当初12月末を目指していた目標から約10日の遅延を意味する。\n\n背景にあるのは2026年5月のパッド爆発。Blue Origin の New Glenn パッドが損傷を受け、Amazon の Leo 衛星通信コンステレーション打上を予定していたミッションが中断した。その後の修復工事が想定より長期化していた。\n\n10月には、Blue Origin 創業者 Jeff Bezos が Fox News のインタビューで「12月打上を目指している。おそらく12月31日」とジョークを交えて述べていた。しかし、その後の技術検証や安全審査を経て、より保守的な1月スケジュールへの修正が判断された。\n\nNew Glenn は Blue Origin の大型ヘビーリフトロケット。Amazon の低軌道衛星インターネット網構想である Project Kuiper の基盤となるほか、NASA や防衛関連のペイロード打上も予定されている。延期は、これらのプログラム全体の時間軸に影響を及ぼす可能性がある。\n\nロケット産業では SpaceX の Starship も頻繁に日程を調整しており、大型機体の本番打上までのハードルの高さが業界全体で共有されている状況。Blue Origin の1月打上実現に向けた準備状況が、今後の注視点になる。",
+    "tags": [
+      "Blue Origin",
+      "New Glenn",
+      "ロケット",
+      "宇宙開発"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/science/1028178/blue-origins-next-launch-now-wont-happen-until-2027",
+    "importance": 3,
+    "image_query": "rocket launch spacecraft",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T23:42:02.364Z",
+    "publishedAt": "2026-11-05T20:47:14.000Z"
+  },
+  {
+    "slug": "20261106-08",
+    "headline": "南極のシロナガスクジラ、50年の保護で個体数 4000 頭まで回復",
+    "lead": "1973年の商業捕鯨終了後、1970年代の418頭から約9倍に増加。ただし産業捕鯨前の20万頭からの完全回復は不透明。",
+    "body_markdown": "南極に生息するシロナガスクジラの個体数が、保護政策の成果を示す新たな研究で約4018頭と推定された。1974年の歴史上の最低点である418頭から、過去50年で約9倍の増加を記録している。\n\nシロナガスクジラは工業的捕鯨の最大の被害者だった。産業捕鯨が20世紀初頭にピークに達した際、個体数は約205905頭に達していた。その後、商業的価値の高さゆえに徹底的に狩られ、1974年には絶滅寸前の状態に。国際捕鯨委員会（IWC）は1964年に保護を決定したものの、違法なソビエト捕鯨が1970年代半ばまで続いた。\n\n研究チームは、現在の年間成長率が約4.5%で「この種の再生から予想される成長率に対して現実的」と指摘。保護環境の下では、クジラが本来持つ生殖能力が回復しつつあることを示唆している。\n\nただし、悲観的な見通しも示される。産業捕鯨前の20万頭への完全回復は、現在の成長率でも数百年単位の時間がかかる可能性が高い。シロナガスクジラは繁殖サイクルが遅く、環境変動への脆弱性も残る。研究者は「慎重な楽観視」の位置付けで、継続的なモニタリングを必須と強調。\n\n今回の推定値は、保護政策が機能することを示す指標となる一方、人類の活動による生態系破壊がいかに深刻であったか、そしてその回復にいかに長期の時間を要するかを物語っている。",
+    "tags": [
+      "シロナガスクジラ",
+      "野生生物",
+      "保全",
+      "環境"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-antarctic-blue-whales-advance-road.html",
+    "importance": 3,
+    "image_query": "whale ocean marine life",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T23:42:02.366Z",
+    "publishedAt": "2026-11-05T21:00:13.000Z"
+  },
+  {
+    "slug": "20261106-09",
+    "headline": "日本、食料品の消費税減税法案が採決へ。野党は支援金制度の不透明さを指摘",
+    "lead": "高市総理が主導する食料品減税法案が11月6日に衆議院委員会で採決。支援金制度の具体像に野党から疑問の声。",
+    "body_markdown": "日本の衆議院委員会は11月6日、食料品を対象とした消費税減税関連法案の採決を予定している。与党は議論の深化を理由に採決を強行する姿勢を示す一方、野党は支援金制度の具体像が曖昧なまま進められることに強く反発している。\n\n法案の核心は、食料品に対する消費税の引き下げ。生活必需品である食品の税負担を軽減し、物価高騰に苦しむ家計を支援する目的を掲げている。ただし、食料品産業の構造や小売・卸・生産者間の流通を考慮した実装は複雑であり、単純な税率引き下げでは十分ではないとの見方もある。\n\n野党の主要な懸念は、同法案に含まれる「支援金制度」の実装が不透明な点。減税による財源の穴埋めをどのような支援金スキームで補うのか、その具体的な配分・申請・実行プロセスが不明瞭なまま採決に進む懸念を示している。与党は「討議は十分に進んだ」と判断しているが、野党は「具体像があいまいなままだ」と明確に指摘。\n\n高市総理が本採決に出席する予定で、与党が採決を強行する意思を明示している。食料品減税は物価対策としては直感的に支持を集めやすい政策である一方、その実装・財源・支援スキームの透明性が不足している状態での法案化は、後々の混乱を招く可能性もある。今後の実装フェーズでの具体化が急務となる。",
+    "tags": [
+      "消費税",
+      "食料品",
+      "減税",
+      "日本政治"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261106de71308",
+    "importance": 3,
+    "image_query": "grocery shopping food market",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T23:42:02.371Z",
+    "publishedAt": "2026-11-05T19:54:55.000Z"
+  },
+  {
+    "slug": "20261106-10",
+    "headline": "JR東日本、QRコード決済「teppay」開始。Suica の2万円上限を解消",
+    "lead": "新決済サービス teppay がコード決済で登場。Suica の上限を超える柔軟なチャージが可能な一方、ビューカード限定チャージが課題。",
+    "body_markdown": "JR東日本は11月5日、新たなコード決済サービス「teppay」を正式に開始した。QRコードベースの決済システムで、従来の Suica が直面していた利用上の制約を部分的に解消する狙いがある。\n\nteppay の最大の特徴は、Suica の「上限2万円」というチャージ制限を超える柔軟性を提供すること。利用者は設定に応じてより高額のチャージが可能になり、一度に大きな金額を持ち歩きたい需要に対応する。QRコードベースの決済形式により、スマートフォンさえあれば利用でき、IC カード専用ハードウェアが不要という利便性も実現している。\n\nただし、実装上の制約も存在する。チャージ方法が JCB 系の「ビューカード」に限定される点が、利用層の拡大を制限する可能性がある。クレジットカード全般でのチャージが認められていないため、ビューカード保有者でない利用者は選択肢から外れる。\n\nさらに、タッチ決済（NFC）に対応していない点も、国際的な決済標準化の流れから見ると後れを取っている。PayPay など既存のコード決済サービスとの競争環境で、機能面での差別化が限定的であることがわかる。\n\nJR東日本はこのサービスで、Suica ユーザーの流出防止と新規獲得を狙うが、普及には既存 Suica ユーザーの移行と、ビューカード以外のクレジットカード対応の検討が課題となる見込み。東京圏の交通・決済インフラの一角を担うだけに、今後の展開が業界全体に影響を及ぼす可能性がある。",
+    "tags": [
+      "JR東日本",
+      "決済",
+      "QRコード",
+      "Suica"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia ビジネス",
+    "link": "https://www.itmedia.co.jp/business/articles/2611/06/news009.html",
+    "importance": 3,
+    "image_query": "payment mobile phone qr code",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T23:42:02.375Z",
+    "publishedAt": "2026-11-05T20:30:00.000Z"
+  },
+  {
+    "slug": "20261106-11",
+    "headline": "フランス、物価高対策求める大規模デモ。高校火災など混乱続く",
+    "lead": "フランス全土で物価高対策デモが再燃。指定地外での若年層による暴動や高校火災が発生、秩序維持が課題に。",
+    "body_markdown": "フランスは11月5日、物価高対策を求める大規模なデモンストレーションが再び全土で繰り広げられた。労働組合が中心となって組織した大規模な示威行動であり、参加者は生活コストの削減や経済対策の強化を政府に要求している。\n\nただし、デモは一部で秩序を失った。指定されたデモ区域の外で、若年層が無許可での抗議活動を試みるなど、警察の管理能力が問われる局面も生じた。特に高校で火災が発生したことが報じられており、暴動に発展した可能性も指摘されている。\n\nフランスでは経済停滞と物価上昇が同時に進行する「スタグフレーション」的な状況が深刻化している。賃金の伸びが物価上昇に追いつかず、家計の実質購買力が低下していることが、市民の不満の根底にある。\n\nこのデモが「再び」と表現されるのは、直近数ヶ月間にフランスで複数回の大規模デモが実施されてきたためで、政府の対策が市民の期待に応えていない状況を反映している。労働組合が継続的に大規模集会を組織し続けることで、政治的プレッシャーを維持する戦略を示唆している。\n\n西欧先進国における経済的困窮と政治的不安定性の相互作用が、フランスでも明確になりつつある。政府の対応次第では、さらなる大規模デモが継続される見込み。",
+    "tags": [
+      "フランス",
+      "デモ",
+      "物価高",
+      "社会運動"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261106de71327",
+    "importance": 3,
+    "image_query": "protest demonstration street rally",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T23:42:02.377Z",
+    "publishedAt": "2026-11-05T20:52:35.000Z"
+  },
+  {
+    "slug": "20261106-12",
+    "headline": "Claude、個人向け「Personal Finance Tool」で銀行・クレカ口座分析に対応",
+    "lead": "Claude が Plaid 連携で支出管理に進出。重複請求・手数料の検出、財務教育機能も装備。米国で beta テスト開始。",
+    "body_markdown": "Anthropic は11月5日、AI モデル Claude に個人向けの財務分析機能「Personal Finance Tool」を追加したことを発表した。Plaid との連携により、ユーザーは銀行口座とクレジットカードを Claude に接続し、複雑な支出データの分析を AI に依頼できるようになった。\n\nこの機能の主要な役割は、個人の家計管理の複雑さを解きほぐすこと。Claude は月単位での支出を「家賃、光熱費、食料、ショッピング」などのカテゴリに自動分類し、「今月のお金はどこへ行ったのか」といった定性的な質問に答える。単純な集計ツールではなく、自然言語での対話を通じた財務アドバイスが特徴。\n\n特に有用な機能として、支出異常の検出がある。重複請求、予期しない手数料、増加し続ける定期請求の傾向を Claude が自動的に識別し、ユーザーに注意喚起。こうしたムダな支出の削減は、家計改善の第一歩となる。\n\nさらに教育的側面も備えており、APR（年率）などの金融概念を説明し、利息計算を透視化。ユーザーは「自分の収入を超える支出をしていないか」といった戦略的な質問も Claude に投じられる。\n\nプライバシーが重視されたシステム設計が施されている。Claude のアクセスは読み取り専用で、資金移動・投資実行などの操作は一切不可。参照できるのは銀行名、口座名・種類、口座番号末尾4桁、残高、与信限度額、過去2年間の取引履歴のみ。またこの機能利用時の会話は Claude の学習に使用されないため、プライバシー侵害のリスクも最小化されている。\n\nベータ版は米国の Pro・Max・Ultra プラン購読者向けに今週から展開予定。個人向け AI が金融領域に本格参入する新たな段階を示唆している。",
+    "tags": [
+      "Claude",
+      "Personal Finance",
+      "銀行連携",
+      "AI"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+    "importance": 3,
+    "image_query": "banking finance digital wallet",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T23:42:02.386Z",
+    "publishedAt": "2026-11-05T20:00:00.000Z"
+  },
+  {
+    "slug": "20261106-13",
+    "headline": "OpenAI、AI インフラ構築に向けた「National Community Compact」を発表",
+    "lead": "OpenAI がコミュニティとの共存モデルを提示。計算機インフラの開発で地域住民の参加と利益配分を約束。",
+    "body_markdown": "OpenAI は11月5日、米国における計算インフラ構築の新たなアプローチを示す「National Community Compact（全国地域協約）」と「Compute Campus Policy（計算キャンパス政策）」を同時に公表した。AI の物理的基盤となるデータセンター・計算機施設の開発において、地域住民の関与と利益配分を中心概念とする方針転換。\n\nこれまで AI インフラ投資は、企業側の効率性と拡張性を優先する傾向が強かった。一方、OpenAI の新たなアプローチは、計算キャンパスを「地域資産」として位置付け、その開発プロセスに地域住民の発言権を組み込もうとしている。\n\n具体的には、下記の三つの原則を掲げる。\n\n第一に、**意思決定への参加**。キャンパス開発の計画段階で、地域住民がその進め方に影響を与える機会を保障する。単純な事後告知ではなく、前段階での実質的な関与。\n\n第二に、**費用負担の透明性**。計算機施設の電力消費には膨大なコストが伴うため、デベロッパーは地域社会に対し、そうしたコストをどう負担・相殺するのかを明確にする責任を負う。\n\n第三に、**雇用と事業機会の配分**。計算キャンパスの建設・運用で生まれる雇用を地域内で優先的に供給し、関連ビジネス機会も地域企業に開放する。\n\nこうした方針は、AI インフラの急速な拡大に対する社会的反発を先制的に緩和する狙いもあると見られる。同時に、政府・地方自治体・企業間での協調モデルが確立されれば、他の科学基盤施設（核施設、リサイクル施設など）の開発にも応用可能な枠組みになる可能性がある。\n\nただし、実装面での課題も残る。地域住民の利益と企業の効率性がしばしば相反するため、実際の運用でどの程度の譲歩が行われるかが不透明。",
+    "tags": [
+      "OpenAI",
+      "AI インフラ",
+      "地域共生",
+      "エネルギー"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+    "importance": 3,
+    "image_query": "data center server infrastructure",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T23:42:02.386Z",
+    "publishedAt": "2026-11-05T02:00:00.000Z"
+  },
+  {
+    "slug": "20261106-14",
+    "headline": "タコはなぜ小さな隙間をくぐるか。目の間隔が制限要因に",
+    "lead": "タコは腕で道を作り、瞬時に身体を圧縮して隙間をすり抜ける。目の間隔（15-35mm）が通過可能なサイズを決める。",
+    "body_markdown": "タコが想像を超えた小さな隙間をくぐり抜ける柔軟性は、古くから研究者を魅了してきた。新たな研究により、その生物学的メカニズムが明らかになった。タコの逃避戦略は隙間のサイズに応じて動的に調整され、単一の行動パターンではなく、状況判断に基づく複数の戦術を使い分けていることが判明。\n\n比較的大きな開口部では、タコは腕で徹底的に探索を行う。通常、前左腕から1本を挿し込み、その後、最大5本までの腕が続く。既に通った腕の吸盤を支点として固定し、そこから力を入れ、残りの腕、頭部、マントル（外套膜）を約20秒で引き抜く。力学的には、腕の張力と吸盤の接着力が協調して、体全体を押し出す。\n\n隙間がより小さい場合、戦術が変わる。一般的なタコの場合、腕を先に全部通し、その後、マントルを圧縮してから隙間を通す。この圧縮の能力が、タコの並外れた柔軟性の鍵。軟骨と筋肉の構成により、必要に応じて身体を劇的に扁平化させる。\n\n生物学的な制限因子として、「眼の間隔」が重要な役割を果たしていることが特定された。タコの眼の中心間距離は15～35ミリメートル。この間隔は、中枢神経系を保護する軟骨鞘のサイズを示す指標で、これが通過可能な最小隙間を制限する。言い換えれば、目の間隔より小さい隙間は通過不可能。\n\n興味深いことに、タコの種によって行動は異なる。マヤダコは、より小さな隙間の前では逃避を放棄し、代わりに大きな開口部のある代替経路を選ぶ傾向を示した。つまり、すべてのタコが極限の圧縮を試みるわけではなく、種固有の行動パターンや学習経験が判断に影響する。",
+    "tags": [
+      "タコ",
+      "軟体動物",
+      "生物学",
+      "柔軟性"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-octopuses-small-gaps.html",
+    "importance": 2,
+    "image_query": "octopus marine animal ocean",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T23:42:02.387Z",
+    "publishedAt": "2026-11-05T21:00:04.000Z"
+  },
+  {
     "slug": "20261105-14",
     "headline": "OpenAI、948個のLinux脆弱性を自動検出・修正",
     "lead": "OpenAIが開発した自動脆弱性検出パイプラインが、1回の実行でLinuxの特権昇格脆弱性948個を検出・修正した。",
