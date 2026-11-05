@@ -1,5 +1,311 @@
 [
   {
+    "slug": "20261105-01",
+    "headline": "OpenAI がコード管理企業 Pierre を買収、AIエージェント時代に対応",
+    "lead": "OpenAI は開発者向けツールの企業 Pierre を買収し、Git ワークフローを AI エージェント向けに進化させる。",
+    "body_markdown": "OpenAI は11月4日、Pierre Computer Company を買収すると発表した。Pierre は Code Storage と呼ばれるコード管理ツール、および Trees と Diffs などのオープンソース開発者ツールの企業。Codex アプリを使っている多くの開発者が既に Pierre のライブラリを利用している。\n\nこの買収は、AI エージェントが開発の現場で増えるのに対応するためだ。OpenAI は最近、社内で Git 運用をスケール化するための独自バックエンド「Pando」を開発した。複数の AI エージェントが同時に並行作業を進める環境では、従来の Git ワークフローが新しいニーズに対応しきれない。Pierre チームとの協力により、エージェントが最初のブランチを作成してから本番デプロイまで、一貫した開発標準を確立する狙いがある。\n\nOpenAI の声明では「モダンなソフトウェア開発の標準を確立する」ことを目指すとしており、Codex をこの領域の中心ツールへ位置付ける戦略が明確だ。AI エージェントによるコード生成・修正が現実になる中、プロンプトから本番環境までのパイプラインを統合するプラットフォーム整備が急速に進んでいる。",
+    "tags": [
+      "AI",
+      "開発ツール",
+      "OpenAI",
+      "エージェント"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/openai-to-acquire-pierre",
+    "importance": 4,
+    "image_query": "code development software git",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5lDkYRSw86lFyHulgkyVVr/5b20bd6b90c3d87c33b780884b48123a/openai-to-acquire-pierre-computer-company-inc-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/openai-to-acquire-pierre",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T00:03:50.927Z",
+    "publishedAt": "2026-11-04T14:30:00.000Z"
+  },
+  {
+    "slug": "20261105-02",
+    "headline": "米中間選挙で民主党が上下院制圧、財政や社会政策に転換点",
+    "lead": "米国の2026年中間選挙で民主党が上下院で多数派を奪還し、医療・税制・住宅など主要政策の再編が見えてきた。",
+    "body_markdown": "2026年11月4日のアメリカ中間選挙で、民主党が連邦議会の上下両院で多数派を確保する歴史的勝利を収めた。共和党が保有していた議席を次々と失い、投票前の予想を上回る規模での政権交代となった。この結果は、今後2年間の米国政治・経済政策の方向性を大きく変えることになる。\n\n民主党の議会掌握により、複数の重要政策で転換が予想される。医療分野では、2025年に失効した ACA（医療保険制度）の補助拡充が再導入される可能性が高い。これにより数百万人の保険料負担が軽減される見込みだ。税制面では児童税控除の拡大や高所得層への税率引き上げが議論される。また、住宅ローン困窮者向けの支援策や学生ローン問題への取り組みも優先課題となると見られている。\n\nただし制度化には課題がある。トランプ大統領は拒否権を保有しており、民主党単独では立法化が困難な分野が多い。市場では、民主党勝利による政治的安定と議会での妥協の可能性が、株価上昇の要因になった。",
+    "tags": [
+      "米国政治",
+      "中間選挙",
+      "民主党",
+      "経済政策"
+    ],
+    "section": "政治",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/04/blue-wave-democrats-control-congress-your-money.html",
+    "importance": 5,
+    "image_query": "voting ballot election results",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1604496464355-a5032e3b47e0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHx2b3RpbmclMjBiYWxsb3QlMjBlbGVjdGlvbiUyMHJlc3VsdHN8ZW58MXwwfHx8MTc5MzgzNzAzMXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Clay Banks",
+      "profileUrl": "https://unsplash.com/@claybanks?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "red and blue building illustration",
+      "description": "The 2020 Presidential Debate (IG: @clay.banks)"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T00:03:51.838Z",
+    "publishedAt": "2026-11-04T23:11:48.000Z"
+  },
+  {
+    "slug": "20261105-03",
+    "headline": "ネアンデルタール人の扁平足は「欠陥」ではなく進化戦略",
+    "lead": "ネアンデルタール人の骨格分析により、扁平足は山岳地形での重荷運搬に適応した機能的特性だったことが判明した。",
+    "body_markdown": "ネアンデルタール人の足の骨格構造を調査する研究が『Journal of Human Evolution』誌に発表され、従来の人類進化論に新たな知見をもたらした。研究者は7体のネアンデルタール人の踵骨と64人の現代人のそれを比較分析。ネアンデルタール人は「より短く、より広く、より高い」踵を持ち、足全体が扁平な構造を示していることを確認した。\n\n従来の解釈では、こうした足の形状は身体能力の劣化として見なされていた。しかし新しい研究は異なる見方を示唆する。扁平足は、単なる偶然ではなく「重荷を運ぶ時の衝撃ストレスを軽減し、山岳地形や不規則な地面での安定性を最大化するための精密な機能戦略」だというのだ。ネアンデルタール人は狩猟採集民として、獲物運搬や移動が日常的であり、こうした環境圧力が数千年かけて骨格を適応させたと考えられる。\n\n研究はまた、現代人との対比で生活様式の影響を浮き彫りにした。工業化後の人類は、硬い靴や座った生活により、かつての狩猟民より弱い踵を発達させているという。骨格は単なる遺伝子プログラムの産物ではなく、日々の身体活動によって形作られるダイナミックなシステムである。",
+    "tags": [
+      "サイエンス",
+      "進化",
+      "人類学",
+      "骨格"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-flat-feet-neanderthals-stay-stable.html",
+    "importance": 3,
+    "image_query": "fossil bones prehistoric human",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T00:03:51.840Z",
+    "publishedAt": "2026-11-04T23:10:01.000Z"
+  },
+  {
+    "slug": "20261105-04",
+    "headline": "Meta が AI コーディング企業 Conductor を買収、エージェント開発を加速",
+    "lead": "Meta は複数の AI エージェントを並行実行するコーディング企業 Conductor を買収し、開発ツール統合を強化する。",
+    "body_markdown": "Meta は11月4日、AI コーディング・スタートアップ Conductor の買収を発表した。Conductor は、ソフトウェア開発プロジェクトの複数の工程を同時に処理する AI エージェント・チームの構成を可能にするプラットフォーム。従来は1体のエージェントが順序立てて処理を進めるのが一般的だったのに対し、Conductor は複数エージェントが並行して異なるタスクに取り組むことで、開発スピードを大幅に加速させる。\n\nこの買収は、Meta が開発者向け AI インフラの構築に注力していることを示している。Meta の AI モデルや開発プラットフォームと Conductor の技術を統合することで、複雑なソフトウェアプロジェクトにおけるエージェント活用の有効性が高まると期待される。買収額は明かされていないが、AI コーディング分野への投資競争が加熱していることを反映している。\n\nソフトウェア開発の現場では、AI エージェントの導入がまだ初期段階だが、OpenAI の Codex や Google の AI アシスタント、Anthropic の API など、主要 AI 企業がこの領域に資本を投じている。Meta の Conductor 買収は、エージェント・ベースの開発パイプライン構築が、今後の開発効率化の鍵になるという認識を示すものだ。",
+    "tags": [
+      "AI",
+      "Meta",
+      "開発ツール",
+      "エージェント"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+    "importance": 4,
+    "image_query": "programmer coding laptop",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1771887536502-71eb6dc95389?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8cHJvZ3JhbW1lciUyMGNvZGluZyUyMGxhcHRvcHxlbnwxfDB8fHwxNzkzODM3MDMyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Bayu Syaits",
+      "profileUrl": "https://unsplash.com/@bayusyaits?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Person typing on laptop with drink beside them",
+      "description": "Close-up of a professional working on a laptop while enjoying iced coffee at a modern workspace. Cozy desk setup with warm lighting creates a productive and focused work atmosphere, perfect for business, remote working, and coding concepts."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T00:03:52.299Z",
+    "publishedAt": "2026-11-04T21:10:56.000Z"
+  },
+  {
+    "slug": "20261105-05",
+    "headline": "トランプ受け入れで株価上昇、民主党勝利が市場に安定感もたらす",
+    "lead": "米国選挙翌日、株価が大幅上昇。トランプ大統領が民主党勝利を受け入れる姿勢が政治的不確実性を軽減した。",
+    "body_markdown": "2026年11月5日のニューヨーク株式市場は大きく買われ、ダウ平均が1500ドルを超える上昇となった。前夜の中間選挙で民主党が上下院を制した直後の相場だが、むしろ市場は安堵感を示した。この背景には、トランプ大統領が選挙結果を受け入れ、民主党との協力姿勢を示したことがある。\n\nトランプ大統領は選挙翌日、米主要紙に対して民主党勝利を認め、両党で協力する用意があると述べた。この発言は市場参加者に「政治的混乱は回避される」という確実性をもたらした。事前調査では、ファンドマネージャーと経済学者の63%が選挙関連の不確実性を懸念していたため、その懸念が一気に払拭されたのだ。\n\n金融アナリストの多くは、年末への強気相場への転換の可能性を指摘している。ただし、トランプ大統領は予測不可能な決定で知られており、協力姿勢が長続きするかは不透明だ。市場は今後の彼の行動をにらみながら、四半期末までの値動きを慎重に見守る局面にある。",
+    "tags": [
+      "米国経済",
+      "株価",
+      "政治",
+      "市場"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/04/stock-market-rally-trump-midterms.html",
+    "importance": 3,
+    "image_query": "stock market trading finance graph",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T00:03:52.301Z",
+    "publishedAt": "2026-11-04T22:55:22.000Z"
+  },
+  {
+    "slug": "20261105-06",
+    "headline": "Nothing CEO が予告、12月に AI ファースト製品を投入",
+    "lead": "スマートフォンメーカー Nothing が来月、AI 優先設計の謎の新デバイスを発売すると CEO が明言した。",
+    "body_markdown": "スマートフォンスタートアップの Nothing は、12月に AI をメインに設計した新製品を発表予定だと CEO Carl Pei が11月4日のインタビューで語った。詳細は明かされていないが、Pei によると「ツールであるが、Nothing ならではの個性とケアで構築された製品」という。\n\nPei は製品の特性について、いくつか重要な点を示唆した。まず、新型スクリーン搭載ではなく「AI ネイティブ」な設計であり、アプリとしては機能せず、生産性ツールとしての位置付けだという。これまでの Nothing の方針から見ると、スマートグラスやイヤフォン向けではなく、全く新しいカテゴリのデバイスの可能性がある。\n\nAI 業界では、多くの企業が「AI コンパニオン」や「AI ウェアラブル」といった新カテゴリの製品を試行中だ。Nothing は既に Google や OpenAI との協力で AI 統合を進めているが、今回の発表はこの領域への新しいアプローチを示唆している。12月のローンチまで、詳細は謎のままだが、AI を基軸に据えた新型デバイスの登場は、スマートフォン以降のモバイルデバイス市場を象徴するトレンドとなる可能性がある。",
+    "tags": [
+      "AI",
+      "Nothing",
+      "デバイス",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+    "importance": 3,
+    "image_query": "smartphone device product launch",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T00:03:52.304Z",
+    "publishedAt": "2026-11-04T22:13:16.000Z"
+  },
+  {
+    "slug": "20261105-07",
+    "headline": "Snap が3000万人の有料購読者を超える、AI レンズが牽引役",
+    "lead": "Snap の有料購読者が3000万人を突破。AI 生成効果 Lens+ の成長が主要な成長ドライバーとなった。",
+    "body_markdown": "スナップチャットを展開する Snap は11月4日の決算報告で、有料購読者の総数が3000万人を超えたことを発表した。同社は Snapchat+、Lens+、Platinum、Memory など複数の有料ティアを提供していたが、AI 機能の拡充がこの成長を大きく後押ししている。\n\nなかでも Lens+ は、AI 駆動の AR エフェクト機能を提供するサブスクリプション層。2026年1月から10月にかけて約600%の成長を遂行し、CEO Evan Spiegel は「AI が提供する新しい創作体験がプレミアム製品への需要を大きく超える見通しを示した」と述べた。これは、ユーザーが AI による視覚的表現力の向上に対して実際に課金する意思を持つことを示唆している。\n\nSnap の「その他」収益（広告以外）は前年同期比で84%成長し、購読事業の重要性がますます高まっていることが明確だ。広告収入の伸びが期待を下回る中、購読とプレミアム機能は収益多角化の切り札となっている。AI エフェクト・ジェネレータは、若年層を中心にソーシャルメディアのコンテンツ消費パターンを変えつつある。",
+    "tags": [
+      "Snap",
+      "AI",
+      "購読",
+      "ソーシャルメディア"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2307356/snap-has-more-than-30-million-paid-subscribers-across-snapchat-and-other-plans/",
+    "importance": 3,
+    "image_query": "smartphone social media app",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T00:03:52.305Z",
+    "publishedAt": "2026-11-04T22:55:57.000Z"
+  },
+  {
+    "slug": "20261105-08",
+    "headline": "Uber で AI エージェント利用はわずか 4 件、想定外の低迷",
+    "lead": "Uber が第3四半期で、AI エージェント経由の乗車は約 3 億 2000 万件中たった 4 件だけだったと明かした。",
+    "body_markdown": "配車アプリ Uber の決算報告により、AI エージェント経由での乗車リクエストが驚くほど少ないことが明かされた。10月の最も需要が高い週でさえ、全 Uber・Uber Eats のオーダー数約 3 億 2000 万件のうち、AI エージェント経由での乗車リクエストはわずか 4 件だったのだ。\n\nCEO Dara Khosrowshahi はこの数字について「非常に早期段階であり、現在のところトラクションは極めて限定的」とコメント。AI エージェント導入への期待値が高かった市場に対して、現実の利用率のギャップの大きさが浮き彫りになった。その理由として Khosrowshahi は、Uber アプリ自体の使いやすさを挙げた。ユーザーは 50 秒程度で乗車をリクエストでき、わざわざ AI エージェント経由で指示する必要性が低いのだ。\n\nこの現象は、AI エージェント技術の発展と実際のユーザー行動との乖離を示唆している。AI 推進企業や投資家が「エージェント時代」の来来を力説する中、既存インターフェースが十分に効率的な場面では、AI エージェントの出番が限定的であることが明らかになった。Khosrowshahi は今後の成長に楽観的ですが、市場の現実は当面、導入の困難さを物語っている。",
+    "tags": [
+      "Uber",
+      "AI",
+      "エージェント",
+      "テクノロジー"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+    "importance": 3,
+    "image_query": "taxi car mobile app",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T00:03:52.307Z",
+    "publishedAt": "2026-11-04T21:56:01.000Z"
+  },
+  {
+    "slug": "20261105-09",
+    "headline": "AI 業界の PAC、中間選挙で多額支出も成果限定的",
+    "lead": "AI 企業支援の PAC が数千万ドル投じたが、支援候補の大半が落選。AI 業界のロビー活動の限界が露呈した。",
+    "body_markdown": "米国の 2026 年中間選挙において、AI 企業が支援する Political Action Committee（PAC）が多額の資金を投じたが、期待ほどの成果を上げられなかったことが判明した。AI 業界寄りの PAC「American Mission」と「Building the Future」は、サウスカロライナの上院候補 Darline Graham だけに 480 万ドルを支出。その他、「Leading the Future」は初期選挙で 2738 万ドルを費やした。\n\nしかし成果は芳しくない。American Mission が支援した下院候補の Aaron Flint（モンタナ）と Laurie Buckhout（ノースカロライナ）は、各々50 万ドル以上の支援を受けながら落選。Leading the Future が民主党寄りの「Think Big」で支援した Jared Moskowitz（フロリダ）は再選を果たしたものの、全体的には期待値と結果が乖離している。\n\nこの現象は、AI 業界の政治影響力の限界を示唆している。規制対策に数千万ドルを投じても、ローカルな候補者選択や有権者の実際の投票行動は、大企業のロビーだけでは左右されない事実が明らかになった。業界側は落選候補への支援を報道されたくない傾向を見せており、今後の戦略見直しを迫られている。",
+    "tags": [
+      "AI",
+      "選挙",
+      "ロビー",
+      "米国政治"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+    "importance": 3,
+    "image_query": "voting election political campaign",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T00:03:52.309Z",
+    "publishedAt": "2026-11-04T22:45:09.000Z"
+  },
+  {
+    "slug": "20261105-10",
+    "headline": "Qualcomm がデータセンター事業に本腰、2029年に 150 億ドル超へ",
+    "lead": "Qualcomm はスマートフォン事業の減速をカバーするため、AI データセンター市場に本腰を入れ、2029年に 150 億ドル超の売上を計画している。",
+    "body_markdown": "チップ企業 Qualcomm は 2026 年第 4 四半期の決算発表で、データセンター事業を重点化する方針を明確にした。スマートフォン市場が前年比 20% の減速に見舞われる中、AI インフラストラクチャ需要の拡大を新たな成長軸に位置付けている。\n\nQualcomm の計画によると、2027 年第 1 四半期のデータセンター売上は 6 億 5000 万ドルを見込む。その後、2027 年末には 50 億ドル、2029 年には 150 億ドルに達することを目指している。これは 2026 年通期の総売上が 104 億ドルであることを考えると、デジセン事業がいかに急速に拡大するかを示している。\n\nQualcomm は Amazon や Meta などの大手ハイパースケーラーとのパートナーシップを既に構築しており、AI 訓練・推論向けチップの供給を加速させている。NVIDIA の GPU 供給がボトルネックになる中、Qualcomm などの代替チップセット供給者への注目度が高まっている。ただし競争も激しく、AMD や Intel も同様の市場を狙っており、市場シェア争奪が本格化している。",
+    "tags": [
+      "Qualcomm",
+      "AI",
+      "データセンター",
+      "チップ"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+    "importance": 4,
+    "image_query": "data center servers computer chip",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1782330136052-5dd6d0dff754?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwY2VudGVyJTIwc2VydmVycyUyMGNvbXB1dGVyJTIwY2hpcHxlbnwxfDB8fHwxNzkzODM3MDMyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brecht Corbeel",
+      "profileUrl": "https://unsplash.com/@brechtcorbeel?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Computer chip and circuit board with bright light"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T00:03:52.758Z",
+    "publishedAt": "2026-11-04T22:42:15.000Z"
+  },
+  {
+    "slug": "20261105-11",
+    "headline": "民主社会主義者が史上最多の議席獲得、ガザ問題が選挙結果左右",
+    "lead": "米国の左派団体「民主社会主義者」が中間選挙で過去 100 年ぶりの大勝利。ガザ戦争が若年有権者投票の決定要因に。",
+    "body_markdown": "米国の 2026 年中間選挙で、Democratic Socialists of America（DSA）が史上最高数の議席獲得を実現した。全米選挙委員会委員は「これは DSA 史上の記録であり、社会主義的選挙活動では 100 年以上見られない数字」と述べた。DSA 支持の下院議員は複数州で当選を果たし、ニューヨークでは初当選 3 名を含む 4 名が勝利。ミシガンでは 2 名、コロラド、ペンシルベニア、カリフォルニア、ニュージャージーでも支持候補が議席を獲得した。\n\nDSA の躍進の背景には、若年層とマイノリティ投票層を中心とした急進左派政策への支持がある。選挙に打ち出された主要政策は、イスラエルのガザ戦争への反対とパレスチナ支援、医療保険制度改革、移民庇護政策拡大、住宅アクセス改善など。特にガザ情勢に対するリベラル層の怒りが、既存民主党よりも強硬な政治姿勢を示す DSA 候補への投票につながった。\n\nDSA の会員数は現在 12 万人超。Bernie Sanders の 2016 年大統領選後、Zohran Mamdani の 2025 年ニューヨーク市長選勝利を経て、主流左派からの支持が急速に高まっている。今後、議会内での左派勢力の影響力拡大が、米国の社会政策議論に変化をもたらす可能性が高い。",
+    "tags": [
+      "米国",
+      "左派",
+      "政治",
+      "選挙"
+    ],
+    "section": "政治",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/11/4/democratic-socialists-of-america-see-record-wins-in-us-midterm-elections",
+    "importance": 3,
+    "image_query": "voting election protest rally",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T00:03:52.779Z",
+    "publishedAt": "2026-11-04T22:45:24.000Z"
+  },
+  {
+    "slug": "20261105-12",
+    "headline": "OpenAI、2028 大統領選への影響力行使を本格化。新たな「社会契約」を提案",
+    "lead": "OpenAI の幹部が 2028 年米国大統領選での AI の役割拡大を狙い、労働者保護と AI 推進を柱とした政策を提案。",
+    "body_markdown": "OpenAI の最高世界問題責任者 Chris Lehane は 11 月 4 日、2028 年米国大統領選における AI の中心的役割を確立するための政策パッケージを発表した。Lehane は FDR ニューディール政策に倣った「新たな社会契約」を提案し、5 つの重点政策柱を掲げている。\n\nまず労働者支援・教育面では、AI スキル習得への税制優遇と起業家への資本アクセス拡大。次に AI 普及を加速させるため、政治指導者に AI を経済繁栄への道として推進を呼びかけている。データセンター拡張は建設雇用と自治体税収を強調する内容。児童安全対策では、AI コンパニオン使用時の年齢別保護策の実装。最後に AI 安全基準の導入と独立評価、公開監視を求めている。\n\nしかし批評家は、Lehane の提案が OpenAI 自身の商業利益を優先していると指摘。「AI が社会に利益をもたらす」という前提を置きながら、実際の労働者保護や富の再分配については具体的要求を欠いているという。2028 年選挙に向けた AI 企業の政治的圧力は、今後さらに強まる見通しだが、その過程で既得権益と公益のバランスが問われることになりそうだ。",
+    "tags": [
+      "OpenAI",
+      "AI",
+      "政治",
+      "米国"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+    "importance": 4,
+    "image_query": "political campaign election rally",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1788831251230-082b3b63a39e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8cG9saXRpY2FsJTIwY2FtcGFpZ24lMjBlbGVjdGlvbiUyMHJhbGx5fGVufDF8MHx8fDE3OTM4MzcwMzN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Kauê Martins Bergamasco",
+      "profileUrl": "https://unsplash.com/@_raccoon_holmes?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A group of people holding political flags and banners at a night street crossing",
+      "description": "Campaign flags and banners crowd the pavement beside a Military Police post on Avenida Paulista, São Paulo, seen across an empty pedestrian crossing at night. The straight-on framing sets the noise of the rally against the geometry of the zebra stripes and traffic signals in the foreground."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-05T00:03:53.289Z",
+    "publishedAt": "2026-11-04T21:25:44.000Z"
+  },
+  {
+    "slug": "20261105-13",
+    "headline": "TOTO が半導体材料で営業利益の 70% を稼ぐ、トイレメーカーの異業種展開",
+    "lead": "トイレメーカーの TOTO が、半導体製造装置用材料の販売で営業利益の 70% を獲得。急成長の背景が明かされた。",
+    "body_markdown": "日本の TOTO は、トイレ業界の重鎮というイメージを覆す業績転換を遂行している。営業利益の 70% が半導体製造装置用材料からもたらされるまでに成長したのだ。同社の社長は、この事業転換の背景と戦略について初めて詳しく語った。\n\nTOTO の半導体関連事業は、主に精密セラミックス材料の供給。これらは半導体チップの製造プロセスにおいて、極めて高い信頼性と精度が要求される部品だ。AI やデータセンター需要の爆発的増加に伴い、チップ生産の拡大が続く中、こうした材料の需要も急増。TOTO の既存製造基盤とセラミックス技術が、この市場で高い競争力を発揮している。\n\nこの転換は、日本企業の多角化戦略の好事例として注目されている。COVID-19 パンデミック後の建設需要低迷により、トイレ関連事業の成長が鈍化していた時期に、TOTO は AI インフラ需要による新市場を見出した。営業利益の大幅増加に支えられ、今年の TOTO 株は好調な値動きを続けている。",
+    "tags": [
+      "TOTO",
+      "半導体",
+      "日本企業",
+      "ビジネス"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/business/articles/2611/05/news018.html",
+    "importance": 3,
+    "image_query": "manufacturing factory production equipment",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-05T00:03:53.291Z",
+    "publishedAt": "2026-11-04T22:00:00.000Z"
+  },
+  {
     "slug": "20261104-01",
     "headline": "OpenAI、物理世界のエンジニアリング加速へ AI活用",
     "lead": "OpenAIが機械・電気設計から製造まで、エンジニアリング全体をAIで支援する仕組みを開発。内部チームが既に設計反復を高速化。",
