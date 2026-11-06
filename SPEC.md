@@ -477,6 +477,24 @@ allowlist ドメイン判定 `pressAllowlistCredit()` は `pressImage.js` から
   新規ゼロが3回連続**のとき macOS 通知（`osascript`）を出す。連続回数は `data/.health` に記録。
   さらに **候補が1件以上あるのに下書き0本（＝writer 失敗の疑い）** は3回を待たず**即時通知**する
   （真に新着が無い回や、下書きは出たが veto/重複で全て公開見送りになった回＝品質ゲート作動、とは区別する）。
+- **認証方式（長期トークン優先・失効時はセッションへ退避）**: 既定は claude CLI がキーチェーンに持つ
+  OAuth セッション。これは失効すると復旧に**対話的な `/login` が要る**ため、無人ジョブはそこで永久に待つ——
+  2026-10-02〜11-04 に **66ラン・33日間**公開が止まった（Slack 通知は毎回届いていたが対応されなかった。
+  通知経路を増やしても防げない種類の停止で、必要なのは人手を要らなくすることだった）。
+  `.env` の `CLAUDE_CODE_OAUTH_TOKEN`（`claude setup-token` で発行）があれば、ジョブはそれを使う。
+  - **実測（2026-11-04 / CLI 2.1.185）: 環境変数はキーチェーンより優先される**。環境変数なしは `OK`/exit 0、
+    不正なトークンを与えると `Failed to authenticate. API Error: 401 OAuth access token is invalid.`/exit 1。
+    つまり**古いトークンを置いたままだと、生きているセッションを上書きして落ちる**。
+  - そのためトークンは「可用性の最適化」として扱い、効かないときは `unset` してセッションで再試行し、
+    通れば `AUTH_MODE=session-fallback` として**公開を続け**、`auth_token_invalid`（`fallback:"session"`）を
+    `incidents.jsonl` に記録して再発行を促す通知を出す。両方駄目なら記録のみ残し、下流の `auth_failed`
+    分岐に通知を任せる（二重通知を避ける）。judge / 通知 / 画像査読と同じ規律＝**補助機構の故障で公開を止めない**。
+  - ネットワークの瞬断で誤報しないよう、トークンの疎通確認は2回試す。トークン未設定の回は**API 呼び出し 0 回**
+    （従来の挙動と完全に同じ）。
+  - `.env` は **source しない**（任意のシェルコードを実行でき、`SLACK_WEBHOOK_URL` 等の秘密まで
+    writer/judge の子プロセス全てへ渡る）。該当行だけを `grep`＋`sed` で読む。トークン値はログへ出さない
+    （`data/scheduler.log` は gitignore なので `checkSecrets` の漏洩検査には掛からない）。
+  - 退行は `npm run check` の `checkAuthTokenWiring()` が hard-fail で止める（§11）。
 - **認証切れの検知（最優先分岐）**: writer の出力を `data/_writer.log` に退避し `Failed to authenticate` を検査する。
   claude CLI は **401 でも exit 0 を返す**ため終了コードでは判定できない。検出したら**リトライせず即中止**し、
   `data/quality/incidents.jsonl` に `auth_failed` を1行記録、「ターミナルで claude を起動し /login」と
@@ -731,6 +749,15 @@ npm run set-press-image -- <slug> <imageUrl> <credit> [creditUrl] [source]  # �
 - **広告**: 空の広告プレースホルダは撤去済み。AdSense 等を導入する際に枠を追加する（プライバシーポリシーは Cookie 利用に言及済み）。
 - **SEO（P0・実装済み）**: OGP / Twitter Card / canonical / JSON-LD（NewsArticle・WebSite・Organization）/
   sitemap.xml / robots.txt / RSSフィード（feed.xml＋feed.xsl）を出力。共通OG画像 `assets/og-default.jpg`。
+- **認証トークンは「静かに効かない」形で壊れる**（2026-11-04 追加）。`.env` の `CLAUDE_CODE_OAUTH_TOKEN` は
+  読み取りを1行取り違えるだけで空になり、トークンを置いたのに効いていない状態が**正常系と見分けられない**
+  （セッションが生きている限り記事は普通に出る）。逆に環境変数はキーチェーンより優先されるので、失効した
+  トークンを放置すると可用性の改善が可用性の事故に反転する。`npm run check` の `checkAuthTokenWiring()` は
+  ①読み取り関数を実際に zsh で走らせて書式10通り（引用符・`export`・空白・CRLF・重複・コメント）を突き合わせ、
+  ②`.env` を source していないこと、③トークンをログへ出していないこと、④失効時の退避（`unset`＋再試行）と
+  `session-fallback`／`auth_token_invalid` が残っていること、⑤秘密を `PUBLIC_ENV_KEYS` に足していないこと、
+  ⑥`.env.example` に項目があることを hard-fail で検査する。実データ（正常な `.env`・生きたセッション）を
+  通してもこの6つはどれも検証できない。
 - **アナリティクス**: Cloudflare Web Analytics を導入済み（`.env` の `CF_BEACON_TOKEN`）。トークンは公開前提の値で、
   HTML（=デプロイ物）に埋め込まれる。`.env` 自体は git 管理外。
 

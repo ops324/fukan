@@ -204,6 +204,66 @@ candidates_count() {
   "$NODE_BIN" -e 'try{const c=require("./data/_candidates.json");process.stdout.write(String(Array.isArray(c)?c.length:0))}catch(e){process.stdout.write("0")}' 2>/dev/null
 }
 
+# --- 0) 認証（長期トークンがあれば使う。無ければ従来どおりキーチェーンのセッション）---
+# 既定の認証はキーチェーンの OAuth セッションで、失効すると復旧に**対話的な /login が要る**。
+# 無人ジョブはそこで永久に待つため、2026-10-02〜11-04 に 66 ラン・33日間停止した。
+# `claude setup-token` で発行した長期トークンを .env の CLAUDE_CODE_OAUTH_TOKEN に置けば
+# セッションの失効に巻き込まれない（「長期」＝無期限ではない。いつかは再発行が要る）。
+#
+# 実測（2026-11-04 / CLI 2.1.185）: 環境変数は**キーチェーンより優先される**。
+#   環境変数なし                   → "OK" / exit 0
+#   不正な CLAUDE_CODE_OAUTH_TOKEN → "Failed to authenticate. API Error: 401 ..." / exit 1
+# つまり**古いトークンを置いたままだと、生きているセッションを上書きして落ちる**。
+# トークンは可用性の最適化なので、効かないときはセッションへ退避して公開を続ける
+# （judge / 通知 / 画像査読と同じ規律＝評価・補助機構の故障で公開事故や停止を招かない）。
+# この退避があるおかげで、.env の書式ミスによる読み取り失敗も「落ちる」ではなく
+# 「退避して通知」に落ちる。だから読み取りはシェルの素朴な1行パースで足りる。
+AUTH_MODE="session"
+
+# .env から当該行だけ読む。**source はしない**——.env には任意のシェルコードを書けてしまい、
+# さらに他の秘密（SLACK_WEBHOOK_URL 等）まで全部の子プロセスへ漏れる。
+read_env_token() {
+  [[ -f "$PROJECT_DIR/.env" ]] || return 0
+  grep -E '^[[:space:]]*(export[[:space:]]+)?CLAUDE_CODE_OAUTH_TOKEN[[:space:]]*=' \
+    "$PROJECT_DIR/.env" 2>/dev/null \
+    | tail -1 \
+    | sed -E 's/^[^=]*=[[:space:]]*//; s/[[:space:]]*$//; s/^"(.*)"$/\1/; s/^'"'"'(.*)'"'"'$/\1/'
+}
+
+# 認証が生きているかを最小の呼び出しで確かめる。トークンの値は絶対にログへ出さない。
+auth_probe() {
+  "$CLAUDE_BIN" -p "OK とだけ答えてください" --model "$WRITER_MODEL" \
+    --strict-mcp-config >/dev/null 2>&1
+}
+
+if [[ -z "${CLAUDE_CODE_OAUTH_TOKEN:-}" ]]; then
+  _tok="$(read_env_token)"
+  [[ -n "${_tok:-}" ]] && export CLAUDE_CODE_OAUTH_TOKEN="$_tok"
+  unset _tok
+fi
+
+if [[ -n "${CLAUDE_CODE_OAUTH_TOKEN:-}" ]]; then
+  AUTH_MODE="token"
+  # ネットワークの瞬断で「トークンが死んだ」と誤報しないよう2回試す。
+  if ! auth_probe && ! auth_probe; then
+    unset CLAUDE_CODE_OAUTH_TOKEN
+    if auth_probe; then
+      AUTH_MODE="session-fallback"
+      echo "WARN: 長期トークンが無効です。キーチェーンのセッションで続行します。"
+      notify "長期トークン（.env の CLAUDE_CODE_OAUTH_TOKEN）が無効です。今回はキーチェーンのセッションで公開しました。claude setup-token で再発行してください。"
+      printf '{"ts":"%s","type":"auth_token_invalid","fallback":"session"}\n' \
+        "$(date -u +%FT%TZ)" >> "$PROJECT_DIR/data/quality/incidents.jsonl"
+    else
+      # どちらも駄目。ここで通知すると下流の auth_failed と二重になるため記録だけ残す。
+      AUTH_MODE="none"
+      echo "ERROR: 長期トークンもセッションも認証できません。"
+      printf '{"ts":"%s","type":"auth_token_invalid","fallback":"none"}\n' \
+        "$(date -u +%FT%TZ)" >> "$PROJECT_DIR/data/quality/incidents.jsonl"
+    fi
+  fi
+fi
+echo "認証モード: $AUTH_MODE"
+
 # --- 1) 執筆（writer=Haiku。src/config.js の writerModel が正本）---
 # プロンプトに従い fetchCandidates → 取材 → 自己批評 → 下書き(data/_drafts.json) まで。取り込みはしない。
 # ツールは WRITER_TOOLS に限定し MCP を無効化（先送り・サブエージェント膨張・MCP迷走を構造的に封じる）。
