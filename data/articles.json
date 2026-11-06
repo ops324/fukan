@@ -1,5 +1,469 @@
 [
   {
+    "slug": "20261107-01",
+    "headline": "OpenAI、セキュリティ企業Hacktronとの脆弱性検査パートナーシップ発表",
+    "lead": "OpenAIは、セキュリティ企業Hacktronと協力して自社システムの脆弱性を発見・修正する新しいパートナーシップを発表した。",
+    "body_markdown": "OpenAIは11月6日、セキュリティ企業Hacktronとの新たなパートナーシップを発表。同社はバグ報奨金プログラムを通じてHacktronの成果を知り、パートナーシップの構築に至った。\n\n本パートナーシップでは、OpenAIのエンジニアとHacktronのセキュリティ研究者が協力し、高優先度エリアを共同テストする。特に、OpenAIのシステムが第三者サービスとどのように相互作用するかに焦点を当てる。Hacktronは、Daybreak Redを通じてOpenAIのフロンティアモデルへのアクセスが拡大される。\n\n同時にOpenAIはバグ報奨金の上限を引き上げ、独立研究者がOpenAIの内部テストでは検出できない脆弱性を追求するよう促進。先週はCathedralの研究者もセキュリティスプリント計画に参加することが発表されており、OpenAIは複数のセキュリティパートナーと協力を加速させている。\n\nサイバー防御にフロンティアAIを活用する方針の下、自社システムの脆弱性発見・修正にも同じ緊急性を適用する戦略。",
+    "tags": [
+      "AI",
+      "セキュリティ",
+      "脆弱性診断"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/partnering-with-hacktron",
+    "importance": 4,
+    "image_query": "security vulnerability testing",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6567aD1rFerr0QBajJ0uig/50339d375097da8d96ce12e925130276/partnering-with-hacktron-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/partnering-with-hacktron",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:10.774Z",
+    "publishedAt": "2026-11-06T08:00:00.000Z"
+  },
+  {
+    "slug": "20261107-02",
+    "headline": "OpenAI、AIが実験データを正確に解釈できるかを測定するベンチマーク発表",
+    "lead": "OpenAIは、AIエージェントが日常的なウェットラボ実験の生データをどれだけ解釈できるかを測定する新ベンチマーク『BioBasicsBench』を公開した。",
+    "body_markdown": "OpenAIとバイオテック企業Ligoは、AIエージェントが実験生物学の実務で使える信頼性を備えているかを測定する新ベンチマーク『BioBasicsBench』を発表。100種類の日常的なウェットラボタスクを網羅している。\n\nウェットラボ現場では、失敗した実験、曖昧な画像、矛盾した観察結果が日常茶飯事。既存ベンチマークは学術論文向けに選別されたチャートや画像を対象にしており、現場の混乱と試行錯誤の側面を見落としている。\n\nBioBasicsBenchはこの現実を反映し、AIエージェントが生データ解釈という信頼性の要求される仕事にどこまで対応できるかを厳密に測定。OpenAIが生物学研究の加速支援を目指す過程で、病気の理解から新治療開発まで、AIエージェントが科学者の日常的な困難に応えられるかの評価が不可欠という戦略判断が背景にある。",
+    "tags": [
+      "AI",
+      "ベンチマーク",
+      "生物学",
+      "研究"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+    "importance": 4,
+    "image_query": "laboratory experiment data analysis",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3lNbSQIg31Dg9aBrUjuQMI/131fea8d534499ca30f7a9f880269d74/biobasicsbench-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:11.947Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20261107-03",
+    "headline": "Hugging Face、セキュリティ脆弱性ベンチマーク『CWE-bench v2』をリリース",
+    "lead": "Hugging Faceは、Common Weakness Enumeration（CWE）の脆弱性検出能力を測定するベンチマーク『CWE-bench v2』を発表し、カバレッジとデータ品質を大幅拡大した。",
+    "body_markdown": "Hugging Faceは、セキュリティ脆弱性検出能力を測定するベンチマーク『CWE-bench v2』をリリース。一般的なセキュリティ弱点を標準化したCommon Weakness Enumeration（CWE）に対し、AIモデルやセキュリティツールがどの程度対応できるかを客観的に評価する。\n\nv2ではカバレッジ（対象脆弱性の数）、データ品質、透明性の3点を大幅に向上。より多くのCWEタイプを網羅し、ベンチマーク構築プロセスの透明性を高めた。\n\nセキュリティ脆弱性検出は、単なるペネトレーションテストの手段にとどまらず、AIシステム自体の安全性評価に不可欠。Hugging Faceはオープンなベンチマークを通じて、セキュリティAIの進度を業界全体で追跡できる基盤を整備する戦略。",
+    "tags": [
+      "セキュリティ",
+      "ベンチマーク",
+      "脆弱性"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/cwe-bench",
+    "importance": 3,
+    "image_query": "security code vulnerability",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:11.949Z",
+    "publishedAt": "2026-11-03T00:00:00.000Z"
+  },
+  {
+    "slug": "20261107-04",
+    "headline": "Open ASR Leaderboard、エジプト・ナイジェリア英語の音声認識評価を追加",
+    "lead": "Hugging Faceの音声認識ベンチマーク『Open ASR Leaderboard』が、エジプト英語とナイジェリア英語の評価を新規追加し、多様な英語方言への対応を強化した。",
+    "body_markdown": "Hugging Faceの音声認識ベンチマーク『Open ASR Leaderboard』は、エジプト英語とナイジェリア英語の音声認識精度評価を新たに追加。アフリカ域内の英語方言への対応を評価する重要なステップ。\n\n音声認識技術は、欧米の標準英語中心に学習されてきたため、アクセント・イントネーション・語彙が異なるアフリカ地域の英語では精度が低下しがち。Open ASR Leaderboardの拡大は、グローバルなAI音声技術の不均衡を是正する取り組み。\n\nAIの多言語・多方言対応は、先進国と発展途上国の技術格差を縮める課題。エジプト・ナイジェリアといった人口大国の英語話者層をカバーすることで、地域内のAI利用者への サービス品質向上につながる可能性。",
+    "tags": [
+      "音声認識",
+      "多言語AI",
+      "ベンチマーク"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+    "importance": 3,
+    "image_query": "voice recognition microphone",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:11.951Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20261107-05",
+    "headline": "AI企業株が数兆ドルの売却後に反発、テック市場が揺らぐ",
+    "lead": "米国AI・テク企業の株価が数日で数兆ドル規模の時価総額喪失から反発し、NVDAなど大手が6%超の上昇を記録。市場の不安定性が継続している。",
+    "body_markdown": "11月のAI・テクノロジー企業の株価が大きな変動を見せている。数兆ドル規模の売却圧が週初めに市場を襲い、特にNvidia（NVDA）は9%を超える下落を記録。しかし週末には反発が始まり、NVDAは6%超上昇、ナスダック総合指数は1.7%上昇と回復基調に転じた。\n\n市場心理の動揺の背景には民主党選挙勝利がAI開発速度の鈍化につながるという懸念が存在。一方、投資家の一部は下落をチャンスと捉え、買い戻しに動いている。\n\n市場参加者の間では慎重姿勢が根強く、単発の反発で安心できない状況。AI産業の成長期待とポリティカルリスク、及び企業利益実現期待のギャップが、今後も市場の不安定性を生み出す可能性がある。",
+    "tags": [
+      "AI企業",
+      "株価",
+      "テクノロジー"
+    ],
+    "section": "ビジネス",
+    "source": "BBC",
+    "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o",
+    "sources": [
+      {
+        "url": "https://www.bbc.co.uk/news",
+        "name": "BBC"
+      }
+    ],
+    "importance": 4,
+    "image_query": "stock market trading data",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1615992174118-9b8e9be025e7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxzdG9jayUyMG1hcmtldCUyMHRyYWRpbmclMjBkYXRhfGVufDF8MHx8fDE3OTQwMDM3OTJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Viktor Forgacs",
+      "profileUrl": "https://unsplash.com/@sonance?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black android smartphone on black textile"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:12.918Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20261107-06",
+    "headline": "将来の熱波は過去の極端な気象現象をはるかに上回る可能性、研究が警告",
+    "lead": "ベルリン自由大学の研究チームが、2060〜2099年の地球上の多くの地域で年1回以上の例外的熱波が発生する可能性を予測。排出削減と適応措置の緊急性を指摘した。",
+    "body_markdown": "ベルリン自由大学の研究チームが、2010～2023年の22の異常熱波を分析し、気候モデルとの比較から衝撃的な結論に達した。将来の熱波は「持続期間が長く、影響範囲が広く、より深刻で、蓄積された温度異常がはるかに高い」と予測。\n\n2060～2099年には、ヨーロッパを含む多くの地域で年1回以上の例外的熱波が襲来する可能性。ヨーロッパではこれまでの数日単位から数ヶ月にわたる熱波へと変質し、大陸全域に影響を及ぼす見込み。人間の健康、インフラ、生態系への脅威は深刻化する。\n\n研究者は「排出量の大幅削減と一貫した適応措置がなければ、21世紀のかなりの部分が最近の経験を大きく上回る熱によって定義されるだろう」と指摘。気候変動対策の遅滞が招く未来像を具体的に示した。",
+    "tags": [
+      "気候変動",
+      "熱波",
+      "環境研究"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-future-events-outdo-extreme.html",
+    "sources": [
+      {
+        "url": "https://phys.org",
+        "name": "Phys.org"
+      }
+    ],
+    "importance": 4,
+    "image_query": "heat wave climate weather",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1713943957119-c7befae21150?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8aGVhdCUyMHdhdmUlMjBjbGltYXRlJTIwd2VhdGhlcnxlbnwxfDB8fHwxNzk0MDAzNzkzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "The DK Photography",
+      "profileUrl": "https://unsplash.com/@deepain108?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "the sun is setting over a mountain range"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:13.734Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20261107-07",
+    "headline": "日本の消費税減税法案が衆院を通過、食料品2年間で8%→1%へ",
+    "lead": "日本の与党が提出した食料品の消費税引き下げ法案が衆院本会議で可決・通過。2027年4月から2年間、食料品の消費税率を8%から1%へ引き下げる内容。",
+    "body_markdown": "日本の食料品消費税減税関連法案は11月6日、衆院本会議で与党の賛成多数により可決・通過した。自民党・維新の両党などの支持を得た一方、採決前に自民党の石破前首相ら4人が退席。法案の政治的分裂の側面を示唆している。\n\n法案の主要内容は2027年4月から2年間、飲食料品の消費税率を現行の8%から1%へ引き下げることが中核。同時に、働く中低所得者向けの所得連動給付制度「就業者負担軽減支援金」を設置。27、28年度は消費税率1%分の財源で開始し、29年度に給付額を増やして本格導入する方針。\n\n課題は参院にある。参院では与党が過半数に達していないため、12月12日までの臨時国会会期中の成立には、与野党の合意形成が焦点となる。野党との調整難度は高い状況。",
+    "tags": [
+      "消費税",
+      "日本政治",
+      "経済政策"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261107de71985",
+    "sources": [
+      {
+        "url": "https://www.nhk.or.jp",
+        "name": "NHK"
+      }
+    ],
+    "importance": 4,
+    "image_query": "parliament congress voting",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1597700331582-aab3614b3c0c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8cGFybGlhbWVudCUyMGNvbmdyZXNzJTIwdm90aW5nfGVufDF8MHx8fDE3OTQwMDM3OTR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Unseen Histories",
+      "profileUrl": "https://unsplash.com/@unseenhistories?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A young African American woman casting her ballot in 1964",
+      "description": "Caption reads, \"Negro voting in Cardoza [i.e., Cardozo] High School in [Washington,] D.C. / [MST].\" Original black and white negative by Marion S. Trikosko. Taken November 3rd, 1964, Washington D.C, United States (@libraryofcongress). Colorized by Jordan J. Lloyd. Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA https://www.loc.gov/pictures/item/2003688167/"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:14.348Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20261107-08",
+    "headline": "中国製ペネトレーションテストツール『Artex』が800以上露出、セキュリティ脅威に",
+    "lead": "セキュリティ企業Censysが、中国製自動攻撃ツール『Artex』のデプロイメント800以上がパスワードなしで公開されていることを発見。実在する攻撃に悪用されている。",
+    "body_markdown": "セキュリティ企業Censysの調査で、中国製のオープンソース自動ペネトレーションテストツール『Artex』が設定ミスにより800以上のデプロイメントをパスワードなしでインターネット上に露出させていることが判明した。\n\nArtexはマイクロソフトに「偵察からデータ窃取まで、人間の介入をほとんど必要とせずにサイバー攻撃を実行するAIエージェントシステム」と評価されており、韓国の金融業やConnectWise社への実際の攻撃に使用されている。\n\nセキュリティ上の懸念は、単なる機能の危険性にとどまらない。弱いパスワード推測や多要素認証欠如を主な侵入手段とする「単純な脆弱性悪用」の組み合わせにより、セキュリティの層が薄い組織への被害リスクが急速に高まっている。Artexはクローズドソース化され有料顧客のみの提供に変更されたが、コード共有サイトには数十のコピーが存在し、セキュリティ脅威の長期化が懸念される。",
+    "tags": [
+      "サイバーセキュリティ",
+      "AI攻撃ツール",
+      "脆弱性"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+    "sources": [
+      {
+        "url": "https://techcrunch.com",
+        "name": "TechCrunch"
+      }
+    ],
+    "importance": 4,
+    "image_query": "cybersecurity hacking attack",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1760199789455-49098afd02f0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8Y3liZXJzZWN1cml0eSUyMGhhY2tpbmclMjBhdHRhY2t8ZW58MXwwfHx8MTc5NDAwMzc5NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Julio Lopez",
+      "profileUrl": "https://unsplash.com/@juliolopez?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Hacker in hoodie working on multiple computer screens"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:14.961Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20261107-09",
+    "headline": "Google、パートナー企業のスマートグラス『Gentle Monster Intelligent Eyewear』12月発売",
+    "lead": "GoogleはGentle MonsterやWarby Parkerと共同でAndroid XR搭載スマートグラスを開発。12月下旬からの発売を予定、Gemini AIアシスタント搭載。",
+    "body_markdown": "GoogleはGentle Monster、Warby Parker、Samsungとのパートナーシップによるスマートグラス『Gentle Monster Intelligent Eyewear』を12月に発売予定。11月12日からのプレオーダーを予告。\n\n本製品の特徴はAndroid XR搭載で「ディスプレイレス・オーディオ優先」の設計。従来のメタ製スマートグラスやXreal Auraなどのディスプレイ搭載製品とは異なり、音声インタラクションを中心としながらもAR機能を備える。GoogleのGemini AIアシスタントが統合され、音声指示で情報取得やタスク実行が可能。\n\nGentle Monsterはプレミアムブランドのため、マーケティング戦略も独特。映画作家Jonathan Glazerが監督し、俳優Joaquin Phoenixが出演する短編映画を制作。従来の広告手法ではなく、ブランドエクスペリエンスと芸術的な演出を優先。確立された眼鏡ブランドを活用することで、消費者受け入れを狙う戦略が特徴。",
+    "tags": [
+      "スマートグラス",
+      "Google",
+      "AR"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2309631/googles-eyewear-partners-cant-keep-a-lid-on-its-smart-glasses-plans/",
+    "sources": [
+      {
+        "url": "https://engadget.com",
+        "name": "Engadget"
+      }
+    ],
+    "importance": 4,
+    "image_query": "smart glasses augmented reality",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1580821810660-5486b8e980a6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxzbWFydCUyMGdsYXNzZXMlMjBhdWdtZW50ZWQlMjByZWFsaXR5fGVufDF8MHx8fDE3OTQwMDM3OTV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Quang Tri NGUYEN",
+      "profileUrl": "https://unsplash.com/@quangtri?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man in white scrub suit holding green hose",
+      "description": "The Denstist Of The Future | Intraoral Scanner and Smart View Glasses AR"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:15.575Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20261107-10",
+    "headline": "ヨーロッパ路線の爆破予告急増、30便以上が影響を受ける",
+    "lead": "ヨーロッパ各国の航空便で爆破予告が相次ぎ、少なくとも30便以上が影響を受けた。発生原因や脅迫者の正体は不明瞭。",
+    "body_markdown": "ヨーロッパの複数の国で航空便に対する爆破予告が集中的に発生し、30便以上が運航中止・遅延の影響を受けた。予告の内容や発生パターン、脅迫者の正体はいまだ不明確。\n\n被害は特定の航空会社や路線に限定されず、複数国の路線に及んでいることから、組織的な脅迫の可能性と個別の模倣犯による可能性の両方が検討されている。セキュリティ当局は調査を進めているが、短期間での急増という異常性が懸念事項。\n\n航空業界はテロ対策態勢を強化しているものの、根拠不十分な予告であっても航空安全を最優先するため対応が必要となり、乗客・乗務員の移動計画が大きく混乱。ヨーロッパ域内の航空ネットワークの脆弱性が露呈した形。",
+    "tags": [
+      "ヨーロッパ",
+      "航空",
+      "セキュリティ"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-european-flights-airports-disruption-explainer",
+    "sources": [
+      {
+        "url": "https://theguardian.com",
+        "name": "The Guardian"
+      }
+    ],
+    "importance": 3,
+    "image_query": "airplane airport security",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:15.578Z",
+    "publishedAt": "2026-11-05T00:00:00.000Z"
+  },
+  {
+    "slug": "20261107-11",
+    "headline": "借金まみれの富豪が中国の銀行システムを脅かす、不動産不況の波紋",
+    "lead": "中国の大型不動産企業の経営者が多額の債務を抱え、銀行システム全体のリスク要因に。不動産セクターの不況の影響が金融システムに波及。",
+    "body_markdown": "中国の不動産セクター不況が金融システム全体に波及するリスクが高まっている。大型不動産開発企業の経営者が多額の個人負債を抱えており、銀行システム全体に対する潜在的な脅威となっている。\n\n個別企業の経営危機を超えて、中国の銀行が保有する不良債権のポートフォリオに組み込まれた富豪個人の債務が、システミックリスク化する危険性が指摘される。不動産価格の下落トレンドは変わっておらず、富豪層の負債圧力はさらに高まる見込み。\n\n政府は金融システム安定維持の観点から対応を迫られているが、構造的な不動産セクターの課題を根本解決できない限り、銀行システムの脆弱性が継続する状況。",
+    "tags": [
+      "中国経済",
+      "不動産",
+      "銀行システム"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/11/05/indebted-tycoons-haunt-chinas-banking-system",
+    "sources": [
+      {
+        "url": "https://economist.com",
+        "name": "The Economist"
+      }
+    ],
+    "importance": 3,
+    "image_query": "financial banking crisis",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:15.579Z",
+    "publishedAt": "2026-11-05T00:00:00.000Z"
+  },
+  {
+    "slug": "20261107-12",
+    "headline": "OpenAIエンジニアが盗聴容疑で逮捕、サウジアラビア投資家が関与か",
+    "lead": "OpenAIで働いていたサウジアラビア国籍の男性が、同社幹部会議室にレコーディング機を設置した疑いで逮捕。AI技術盗難の懸念が高まっている。",
+    "body_markdown": "サンフランシスコ連邦裁判所の法廷で、OpenAIのエンジニアだったAbdulrahman Alfozan（35歳）が盗聴容疑で不起訴請求に対し無罪を主張。Alfozanは同社本社の幹部会議室のテレビ内に録音機を設置した嫌疑で10月27日に起訴された。\n\nAlfozanはエンジニアリングリーダーとしてAI Agentsを担当し、同時にサウジアラビアのベンチャー企業Raed Venturesのベンチャーパートナーを兼務。盗聴行為がサウジアラビア側による意図的なAI技術収集であった可能性が指摘されている。\n\n本事件はAI企業への外国政府や関連投資家による技術盗難懸念が現実化したケース。Alfozanは保釈なしで勾留中で、最大5年の懲役刑に直面している。次回公判は11月17日予定。",
+    "tags": [
+      "OpenAI",
+      "セキュリティ",
+      "技術盗難"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
+    "sources": [
+      {
+        "url": "https://cnbc.com",
+        "name": "CNBC"
+      }
+    ],
+    "importance": 4,
+    "image_query": "espionage surveillance recording",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1755260904813-929ec10da3ac?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8ZXNwaW9uYWdlJTIwc3VydmVpbGxhbmNlJTIwcmVjb3JkaW5nfGVufDF8MHx8fDE3OTQwMDM3OTZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Peter",
+      "profileUrl": "https://unsplash.com/@garlichs?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Surveillance cameras mounted on a building exterior",
+      "description": "Black and white close-up of multiple surveillance cameras mounted on a metal arm attached to a building facade. The composition emphasizes the stark lines, industrial textures, and the contrast between the cameras and the smooth background, evoking themes of security and urban monitoring."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:16.392Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20261107-13",
+    "headline": "高市首相『台湾有事への言及1年』、対中安定関係構築を強調",
+    "lead": "日本の高市首相は、1年前の『台湾有事発言』から今の立場を改めて述べ、中国との安定的な関係構築の重要性を強調。日本政府は対話の糸口探りを継続。",
+    "body_markdown": "日本の高市首相は、1年前の『台湾有事は日本有事』という発言から1年を経た現在の立場を改めて表明。中国との安定的な関係構築が重要であることを強調し、対話による関係改善には時間がかかる認識を示した。\n\n日本政府は米国との同盟強化と中国との対話バランスの難しい舵取りを続けている。台湾情勢の地政学的リスクは依然として高いものの、日中間の対話チャネル維持の必要性が実感されている状況。\n\n外交的には対話の糸口を探る段階にあり、一層の関係改善には複数の政治的・経済的課題の解決が前提となる。日本政府の慎重なアプローチが続く見通し。",
+    "tags": [
+      "日本政治",
+      "台湾",
+      "中国"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261106de71967",
+    "sources": [
+      {
+        "url": "https://www.nhk.or.jp",
+        "name": "NHK"
+      }
+    ],
+    "importance": 3,
+    "image_query": "politics diplomacy international",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:16.395Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20261107-14",
+    "headline": "Meta、AI アシスタント『Muse』に新機能『Spaces』追加、トピック別カスタム空間作成可能に",
+    "lead": "MetaはMuse AIアシスタントに『Spaces』機能を追加。ユーザーが特定のプロジェクト用にカスタム会話空間を作成・管理できるように。",
+    "body_markdown": "Metaは、AI アシスタント『Muse』に新機能『Spaces』を導入。特定のプロジェクトに焦点を当てた会話スレッドをMuse内に作成でき、ユーザーがカスタマイズされた体験を構築できる。\n\nSpacesの用途例は多岐にわたる。休暇計画の立案、レシピ情報の集約、ホリデーギフトリストの管理、ウェディングプランナーなど、ライフイベント中心のタスク管理が想定されている。\n\n重要な拡張は、Spacesが外部アプリケーションと連携可能な点。コンサート日程の自動更新や価格変動の即座の通知など、リアルタイム情報の同期が実現。本機能はMuse Voice機能に続く二番目の重要な機能拡張で、Muse agentsは米国とカナダで1000万ユーザーを達成している。",
+    "tags": [
+      "Meta",
+      "AI",
+      "アシスタント"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+    "sources": [
+      {
+        "url": "https://techcrunch.com",
+        "name": "TechCrunch"
+      }
+    ],
+    "importance": 3,
+    "image_query": "chat assistant interface",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:16.397Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20261107-15",
+    "headline": "米国労働市場、強い雇用統計の裏に長期失業の深刻化が隠れている",
+    "lead": "10月の米国雇用統計は好調（16.5万新規雇用）だが、平均失業期間は27.1週間と最長。失業給付切れで困窮する労働者が増加。",
+    "body_markdown": "10月の米国雇用統計は一見強気だ。雇用増は16.5万人で予想を上回り、失業率は4.1%に低下。しかし統計の裏には、深刻な長期失業という別の現実が隠れている。\n\n平均失業期間は27.1週間に達し、2016年以来の最長水準（パンデミック除く）。約200万人のアメリカ人が27週以上失業している状態で、失業者全体の27.6%を占める。この層は失業給付が尽きる時点で直面する困窮が深刻化。\n\n労働市場は「低解雇・低雇用」ダイナミクスへシフト。企業は大規模レイオフを避けながら採用を抑制。長期失業者は技能低下、職業ネットワーク喪失、採用差別のリスクに直面し、Disney・American Expressなど大企業の相次ぐレイオフが労働者不安を増幅させている。",
+    "tags": [
+      "米国経済",
+      "労働市場",
+      "失業"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
+    "sources": [
+      {
+        "url": "https://cnbc.com",
+        "name": "CNBC"
+      }
+    ],
+    "importance": 3,
+    "image_query": "employment jobs career",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:16.399Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20261107-16",
+    "headline": "光エネルギーで医薬『行き止まり』化学物質を再利用、新薬開発に道",
+    "lead": "フロリダ州立大学の研究チームが、光化学法でスルホンアミド化合物を構造変更し、新医薬開発の基礎物質へ変換する技術を開発。GSKが実用性を確認。",
+    "body_markdown": "フロリダ州立大学の研究チームがBryan Kudisch助教授率いる光化学技術を開発。医薬開発で従来は廃棄されていたスルホンアミド化合物を、光エネルギーで変形させ、アニリンなど新医薬の基礎物質へ転換する。\n\nスルホンアミドは化学的に不活性で通常の修正技術では対応困難。光を用いた「化学手術」として硫黄原子を除去し、分子を再構成することで、これまで放置されていた数千の化合物の再利用が可能。\n\nPenn State大学の計算分析とGSK（グラクソ・スミスクライン）の実用化検証により、論文はJournal of the American Chemical Societyに掲載。構造設計効率の意味ある進展であり、廃棄化学物質からの医薬候補物質創出が加速される可能性。",
+    "tags": [
+      "医薬開発",
+      "化学",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-powered-method-resurrects-dead-compounds.html",
+    "sources": [
+      {
+        "url": "https://phys.org",
+        "name": "Phys.org"
+      }
+    ],
+    "importance": 3,
+    "image_query": "chemistry laboratory research",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:16.407Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20261107-17",
+    "headline": "Appleが小型iPhone製造を拒否、独立企業が小型スマートフォン市場に参入",
+    "lead": "Appleは小型端末市場をターゲットとしないため、独立企業が小型スマートフォンを開発。スマートフォンサイズの多様化が進む。",
+    "body_markdown": "Appleが小型iPhoneの製造に消極的であることから、小型スマートフォン市場が独立企業に開かれる状況。消費者の間では、現行のiPhoneより手に収まりやすい端末への需要がある一方、Appleはそこまで小型化することを市場戦略として優先していない。\n\nこの隙間市場を独立企業が狙い、小型スマートフォン開発が進行中。スマートフォンの標準化が進む中で、サイズ多様化への需要が見直されている背景には、一部ユーザーが大型化に対する反発を持つ実態がある。\n\nAppleが放置する市場セグメントにニッチプレイヤーが参入する構図。スマートフォン市場の完全統一化ではなく、多様化の余地が存在することを示唆。",
+    "tags": [
+      "スマートフォン",
+      "Apple",
+      "テクノロジー"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "Lifehacker",
+    "link": "https://lifehacker.com/tech/apple-wont-make-a-small-phone-so-this-company-is-stepping-in",
+    "importance": 2,
+    "image_query": "smartphone mobile device",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-06T22:23:16.409Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
     "slug": "20261106-15",
     "headline": "オーストラリアの大学がOpenAIと提携、AI時代の大学教育を刷新",
     "lead": "UNSW Sydney など4校がOpenAI最新ツールへのアクセス確保。AI時代の人材育成を急ぐ。",
