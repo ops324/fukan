@@ -1,5 +1,477 @@
 [
   {
+    "slug": "20261106-15",
+    "headline": "オーストラリアの大学がOpenAIと提携、AI時代の大学教育を刷新",
+    "lead": "UNSW Sydney など4校がOpenAI最新ツールへのアクセス確保。AI時代の人材育成を急ぐ。",
+    "body_markdown": "オーストラリアの主要大学4校（UNSW Sydney、University of Sydney、La Trobe University、Adelaide University）がOpenAIと提携し、学生と教職員が最新のAIツールにアクセスできる環境を整備した。\n\nこれにより、学生は臨床シミュレーション、ロボット支援の教員研修、業界へのキャリアパスにつながる実践的プロジェクトなど、実務に即したAI活用経験を積むことができる。大学は同時に、学習・成績評価におけるAI活用の枠組みや倫理ガイドラインも策定している。\n\n各教育機関では、生成AIツールへの学生アクセスが標準化し、AIリテラシーが卒業必須スキルになりつつある。こうした取り組みは、AI導入時代の高等教育改革が急速に進む中、実践的スキル習得と判断力育成のバランスをいかに取るかという課題に直面していることを示している。オーストラリアがこうした体系的な提携を進めることで、同国の高等教育が国際競争力を維持する戦略が明確になった。",
+    "tags": [
+      "大学教育",
+      "AI人材育成",
+      "OpenAI",
+      "オーストラリア"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+    "importance": 4,
+    "image_query": "university education students learning classroom",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7mnhGajDx1KzwFEHEltZwB/1c108b90ec9cc84d0c309b9a1ad4fbe0/australian-universities-ai-native-graduates-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:24.523Z",
+    "publishedAt": "2026-11-05T17:00:00.000Z"
+  },
+  {
+    "slug": "20261106-16",
+    "headline": "2D図面をAIで3Dモデル化―WOGOが「Hacadly」で設計作業を革新",
+    "lead": "AIエージェントが古い図面から編集可能な3D CADモデルを自動生成。設計工数を大幅削減。",
+    "body_markdown": "ソフトウェア開発企業WOGOが、機械設計向けAIエージェント「Hacadly」を提供開始した。大規模言語モデルと独自の図面処理技術を組み合わせ、2D図面からの3Dモデル生成と、履歴のないCADデータからのフィーチャー（設計特性）再構築を支援する。\n\n従来、レガシー図面を新しいCAD環境に移行させるには手作業での再描画が必要だった。Hacadlyは、DXF形式やPDF図面から寸法・制約条件を自動抽出し、パラメータ編集可能な3Dモデルを生成。社内テストでは97.1%の精度でパラメータ修正に対応した。\n\n製造業の設計工程におけるデジタル化は、生産効率化の鍵。特に欧米の設計基準への適応や、自社レガシー資産の活用を迫られる企業にとって、AIによる自動変換は経営課題に直結する。Hacadlyはこうした産業ニーズに対応する実践的ソリューション。類似技術の市場化が加速する予兆となる。",
+    "tags": [
+      "機械設計",
+      "CAD",
+      "AI",
+      "デジタル化"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://monoist.itmedia.co.jp/mn/articles/2611/06/news072.html",
+    "importance": 4,
+    "image_query": "technical drawing CAD engineering blueprints",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1769147339214-076740872485?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHx0ZWNobmljYWwlMjBkcmF3aW5nJTIwQ0FEJTIwZW5naW5lZXJpbmclMjBibHVlcHJpbnRzfGVufDF8MHx8fDE3OTM5NTc5NjV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "EnCata PD",
+      "profileUrl": "https://unsplash.com/@encatapd?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Two metal mechanical parts on engineering blueprints",
+      "description": "Engineering load system parts. Other interesting mechanical projects at https://www.encata.net/services/mechanical-engineering-services?utm_source=unsplash&utm_medium=organic&utm_content=image"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:25.437Z",
+    "publishedAt": "2026-11-06T07:00:00.000Z"
+  },
+  {
+    "slug": "20261106-17",
+    "headline": "Airbnbが旅行計画AIエージェントを2027年前半にローンチ予定",
+    "lead": "テキストチャット型ではなく、地図・写真・カレンダーなど数百種類のUIコンポーネントを動的に配置。",
+    "body_markdown": "Airbnbは2027年前半、旅行計画から予約・サポートまで全工程を支援するAIエージェントをリリースすることを発表した。従来のチャットボット型ではなく、地図・写真比較・カレンダー・日程表など数百種類の旅行向けUIコンポーネントを動的に組み合わせる「ジェネレーティブUI」を採用する点が特徴。\n\nAirbnbの調査によれば、旅行者の80%は写真を眺めたり選択肢を比較したりすることを楽しむ。従ってAIは情報提示の方法をユーザーの段階に応じて最適化する。さらに20年のマーケットプレイス運営経験を活かし、予約管理や24時間安全サポートなど、競合では真似しにくい機能も装備。\n\n旅行体験のデジタル化が進む中で、AIが単なる情報検索ツールから、個人的な旅行計画パートナーへ進化する動きが加速している。Airbnbがこうした高度なエージェント開発に注力することで、トラベルテック市場全体の競争激化が予想される。",
+    "tags": [
+      "AI",
+      "旅行",
+      "Airbnb",
+      "ジェネレーティブUI"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+    "importance": 4,
+    "image_query": "travel planning vacation destination exploration",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1792955104777-4afb7ff715ef?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHx0cmF2ZWwlMjBwbGFubmluZyUyMHZhY2F0aW9uJTIwZGVzdGluYXRpb24lMjBleHBsb3JhdGlvbnxlbnwxfDB8fHwxNzkzOTU3OTY1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zan Lazarevic",
+      "profileUrl": "https://unsplash.com/@zanlazarevic?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A person pointing at a map of Mykonos beside a bowl of potato chips",
+      "description": "A finger traces the coast of Mykonos on a paper map, a bowl of crisps at the edge of the table. Planning the next beach."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:26.046Z",
+    "publishedAt": "2026-11-05T22:40:55.000Z"
+  },
+  {
+    "slug": "20261106-18",
+    "headline": "チップ時代へ―半導体の複雑性とAIがもたらす地政学的リスク",
+    "lead": "イリノイ大学教授がStack Overflowポッドキャストで現代チップ製造の課題を解説。",
+    "body_markdown": "イリノイ大学アーバナ・シャンペーン校のRakesh Kumar教授がStack Overflowポッドキャストに出演。著書『The Chip Age』の知見に基づき、現代半導体製造の複雑さとAIがもたらす地政学的リスクについて語った。\n\n最先端チップの製造には、物理学・化学・エンジニアリングの知見が統合される必要があり、その複雑性は指数関数的に増している。一方、AIの急速な普及に伴い、データセンターのエネルギー消費と環境負荷が急増。これに伴い、半導体とエネルギーをめぐる国家間の依存関係や競争が深刻化しつつある。\n\nクラウドAIインフラの拡大は、単なる技術進化の問題ではなく、国家間のエネルギー・資源争奪へと発展しつつある。Kumar教授は、技術進歩の持続には、環境・地政学的課題への統合的対応が不可避と指摘。この視点は、AI産業の成長が抱える本質的課題を明らかにしている。",
+    "tags": [
+      "半導体",
+      "AI",
+      "エネルギー",
+      "地政学"
+    ],
+    "section": "テクノロジー",
+    "source": "Stack Overflow",
+    "link": "https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/",
+    "importance": 4,
+    "image_query": "semiconductor chip manufacturing computer circuit",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1666037783574-18c608f9940f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMHx8c2VtaWNvbmR1Y3RvciUyMGNoaXAlMjBtYW51ZmFjdHVyaW5nJTIwY29tcHV0ZXIlMjBjaXJjdWl0fGVufDF8MHx8fDE3OTM5NTc5NjZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Maxence Pira",
+      "profileUrl": "https://unsplash.com/@maxence_pira?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close-up of a computer",
+      "description": "A prototype silicon wafer at the basis of the creation of our computer circuits"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:26.572Z",
+    "publishedAt": "2026-11-06T08:40:00.000Z"
+  },
+  {
+    "slug": "20261106-19",
+    "headline": "防衛産業が好況―ドローンと従来兵器、共存する市場",
+    "lead": "大手防衛企業の売上が同時成長。ドローンが兵器を置き換えるのではなく補完。",
+    "body_markdown": "CNBCの報道によれば、世界の大手防衛企業の最新決算は、従来型兵器と新型ドローン・AI兵器が競争ではなく共存していることを示している。ロッキード・マーティンのミサイル事業は第3四半期に24%の売上増。ドイツのRenk社の軍用車両受注は46%伸びた。\n\n同時に、ドローン対策システムの需要も急増。ラインメタルの防空部門（ドローン迎撃システムを含む）は売上63%増。NATOは今後5年間でドローン対策に400億ドル以上投資する計画だ。\n\nウクライナ情勢やヨーロッパの軍事能力ギャップ懸念から、各国の防衛支出が構造的に増加傾向にあり、複数の防衛カテゴリーが同時に成長する局面が続く見通し。特にAI搭載ドローンと従来型防衛システムの統合ネットワーク化が新たな市場ニーズを生み出している。",
+    "tags": [
+      "防衛産業",
+      "ドローン",
+      "軍事技術",
+      "NATO"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/06/defense-military-tech-earnings.html",
+    "importance": 4,
+    "image_query": "military equipment defense tank weapon system",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1683304764616-bfc5fa6b0d7a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxtaWxpdGFyeSUyMGVxdWlwbWVudCUyMGRlZmVuc2UlMjB0YW5rJTIwd2VhcG9uJTIwc3lzdGVtfGVufDF8MHx8fDE3OTM5NTc5Njd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Boris Busorgin",
+      "profileUrl": "https://unsplash.com/@borbus?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a tank that is sitting in the snow",
+      "description": "Soviet tank IS-3, a museum exhibit in the park of the city of Izhevsk. The IS-3 (also known as Object 703) is a Soviet heavy tank developed in late 1944. Its semi-hemispherical cast turret (resembling that of an upturned soup bowl) became the hallmark of post-war Soviet tanks. Its pike nose design would also be mirrored by other tanks of the IS tank family such as the IS-7 and T-10. Too late to see combat in World War II, the IS-3 participated in the Berlin Victory Parade of 1945, the Korean War, in the border conflict during the Sino-Soviet split, the Soviet invasion of Hungary."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:27.275Z",
+    "publishedAt": "2026-11-06T08:52:14.000Z"
+  },
+  {
+    "slug": "20261106-20",
+    "headline": "Palo Altoが500百万ドルでAIセキュリティ企業Clutchを買収",
+    "lead": "AI時代のサイバー脅威に対応。Palo Altoの2026年7社目のM&A。",
+    "body_markdown": "Palo Alto Networksが、AIエージェントの安全なシステム連携を支援するセキュリティスタートアップClutchを5億ドルで買収することが明らかになった。マイルストーン達成時に追加支払いもある。\n\nClutchは3年前の創業。AIエージェントが企業システムにアクセスする際のセキュリティリスクを管理する。同社の年間経常収益（ARR）は1000万ドルで、今回の買収額は約50倍の評価倍率。Series Aで2000万ドルを調達していた。\n\nPalo Altoは「AI駆動型サイバー攻撃の急増」に対応するため、2026年だけで7社を買収。競合企業も同様にセキュリティスタートアップの獲得を急ぐ（サイバー企業Cyeraは先月、Oasis Securityを10億ドルで買収）。エンタープライズAI導入に伴うセキュリティニーズが急速に高まり、新興企業の高額買収が相次ぐ局面。AIセキュリティは新しい市場セクターとして確立しつつある。",
+    "tags": [
+      "サイバーセキュリティ",
+      "M&A",
+      "AI",
+      "Palo Alto"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+    "importance": 4,
+    "image_query": "cybersecurity lock protection data security",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1654588834398-f594db5164d3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8Y3liZXJzZWN1cml0eSUyMGxvY2slMjBwcm90ZWN0aW9uJTIwZGF0YSUyMHNlY3VyaXR5fGVufDF8MHx8fDE3OTM5NTc5Njd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sasun Bughdaryan",
+      "profileUrl": "https://unsplash.com/@sasun1990?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a padlock sitting on top of a computer keyboard"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:27.891Z",
+    "publishedAt": "2026-11-06T06:28:32.000Z"
+  },
+  {
+    "slug": "20261106-21",
+    "headline": "Perplexityが仕事用AIエージェント「Teammates」をローンチ",
+    "lead": "複数エージェントが同時に異なるタスクを実行。OpenAI・Anthropicと競合。",
+    "body_markdown": "検索スタートアップPerplexityが、職場向けのAIエージェント群「Teammates」を発表。複数のエージェントが同時に異なる職務を担当。各Tommateは、Perplexity Computer（デバイス上でエージェントを展開しタスクを実行するAIシステム）と連携し、既存プロジェクトやスキル、過去の会話履歴を活用して大規模な業務タスクに対応する。\n\nOpenAIの「Dots」やAnthropicの「Claude Duet」など、同様の多エージェント型システムが相次ぐ中、Perplexityは「継続的で大規模な職場プロセス」への対応に重点を置く。1つ1つのタスクではなく、プロジェクト全体の管理に適した設計という。\n\nジェネレーティブAIが単発のアシスタントから継続的な職務遂行ツールへ進化する動きが加速している。企業内にAIエージェント群を配置し、組織的タスク管理を完全にAI化する時代が到来しつつある。",
+    "tags": [
+      "AI",
+      "仕事",
+      "Perplexity",
+      "エージェント"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+    "importance": 4,
+    "image_query": "office work team collaboration workspace",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1752650735943-d0fbf1edce21?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxvZmZpY2UlMjB3b3JrJTIwdGVhbSUyMGNvbGxhYm9yYXRpb24lMjB3b3Jrc3BhY2V8ZW58MXwwfHx8MTc5Mzk1Nzk2OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vitaly Gariev",
+      "profileUrl": "https://unsplash.com/@silverkblack?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Two young women working on a project together",
+      "description": "Team of creative designers is working together in light office. Cheerful dark-haired lady is listening to music and working with laptop, and blond woman is drawing images in notepad"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:28.420Z",
+    "publishedAt": "2026-11-05T22:26:50.000Z"
+  },
+  {
+    "slug": "20261106-22",
+    "headline": "イギリスの住宅価格が3年で最大の下落―利上げが市場を圧迫",
+    "lead": "10月の平均住宅価格は0.6%低下。4カ月連続の月次低下。",
+    "body_markdown": "イギリスの住宅価格が10月、前月比0.6%の下落を記録。3年以上ぶりの大幅な月次低下。銀行系ロイズの調査によれば、平均住宅価格は29万6285ポンド。4カ月連続の月次低下であり、市場の弱気心理が定着しつつある。\n\n2023年8月以来、月次最大の低下幅は1.6%。高い住宅ローン金利と買い手心理の悪化が背景。中東紛争がきっかけで国際的に金利が上昇し、ポンド圏の住宅ローン利率も上昇を続けている。\n\n不動産仲介企業Savillsは、イギリスの住宅市場が2028年まで回復しないと予測。2027年の価格は1.5%さらに下落する可能性があると示唆している。地政学的な金利環境の長期化が、実物資産市場に深刻な影響をもたらしており、買い手・投資家の資産配置戦略に大きな転換を迫っている。",
+    "tags": [
+      "不動産",
+      "イギリス",
+      "利上げ",
+      "住宅市場"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/nov/06/uk-house-prices-fall-at-steepest-rate-in-more-than-three-years",
+    "importance": 4,
+    "image_query": "house real estate property housing market",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1759428679273-11d914866394?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxob3VzZSUyMHJlYWwlMjBlc3RhdGUlMjBwcm9wZXJ0eSUyMGhvdXNpbmclMjBtYXJrZXR8ZW58MXwwfHx8MTc5Mzk1Nzk2OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jakub Żerdzicki",
+      "profileUrl": "https://unsplash.com/@jakubzerdzicki?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Hand holding house keys over miniature houses",
+      "description": "House keys real estate property market symbol with hand holding keychain above miniature model houses"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:29.056Z",
+    "publishedAt": "2026-11-06T08:05:48.000Z"
+  },
+  {
+    "slug": "20261106-23",
+    "headline": "石油精製を革新する膜技術―エネルギー消費31.6%削減も可能",
+    "lead": "KAIST・ジョージア工科大学が常温精製。エネルギー・炭素排出を大幅削減。",
+    "body_markdown": "KAIST（韓国科学技術院）とジョージア工科大学の研究グループが、常温で粗油を精製する新型膜技術を開発した。不織布製の多孔質膜（PAN）が粗油の流れの中で自己組織化し、2ナノメートル以下の極微小なフィルタチャネルを形成する。\n\nこれまで石油精製は高温加熱が必須だったが、この膜は油自体のエネルギーを活用。従来設計の23倍の透過速度を達成。シミュレーション結果によれば、エネルギー消費31.6%削減、炭素排出37.6%削減、運用コスト36%削減が期待できる。\n\nエネルギー多消費産業の脱炭素化は国家レベルの課題。膜の長期耐久性と大規模モジュール化はまだ開発中だが、数年内に産業化の可能性も見えてきた。この技術が商用化されれば、石油・化学業界全体のカーボンフットプリント改善に大きなインパクトをもたらす見通し。",
+    "tags": [
+      "石油精製",
+      "環境技術",
+      "膜技術",
+      "脱炭素"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261103003207.htm",
+    "importance": 4,
+    "image_query": "oil refinery industrial process energy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1678984240126-70bcddd7a228?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8b2lsJTIwcmVmaW5lcnklMjBpbmR1c3RyaWFsJTIwcHJvY2VzcyUyMGVuZXJneXxlbnwxfDB8fHwxNzkzOTU3OTY5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jakub Pabis",
+      "profileUrl": "https://unsplash.com/@jakubpabis?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large industrial plant with pipes and pipes",
+      "description": "Oil refinery plant. Petroleum refinery tower building. Trzebinia, Poland."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:29.711Z",
+    "publishedAt": "2026-11-05T14:04:07.000Z"
+  },
+  {
+    "slug": "20261106-24",
+    "headline": "気候変動への適応が追いつかない―国連が深刻な資金ギャップを警告",
+    "lead": "途上国に必要な年間適応費用は3050億ドル。国際支援は現状282～317億ドル。",
+    "body_markdown": "国連環境計画（UNEP）が発表した報告書によれば、地球気温が1.5℃を超える中で、気候変動への適応が急速に追い付いていない。気温上昇1.5℃超過を前提にすれば、先進国からの適応ファイナンスが壊滅的に不足している。\n\n途上国が必要とする年間適応費用は2035年までに3050億ドルと見積もられるのに対し、現状の国際公的支援は年282～317億ドルに過ぎない。先進国が2035年までに適応投資を3倍に増やしても、必要額の20～29%にしか満たないという現状。\n\n気候被害への補填基金も深刻。初期配分342百万ドルに対し、途上国からの請求額は28億ドルに達している。制度的障壁も大きく、調整不足やガバナンス不全が資金を必要地域へ流す妨げになっている。気候正義と資金メカニズムの矛盾が先鋭化し、国際交渉の焦点となっている。",
+    "tags": [
+      "気候変動",
+      "適応",
+      "資金",
+      "国連"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-isnt-global.html",
+    "importance": 4,
+    "image_query": "climate change global warming environment Earth",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1739372425274-d41281e72c5d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMHx8Y2xpbWF0ZSUyMGNoYW5nZSUyMGdsb2JhbCUyMHdhcm1pbmclMjBlbnZpcm9ubWVudCUyMEVhcnRofGVufDF8MHx8fDE3OTM5NTc5NzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Johannes Andersson",
+      "profileUrl": "https://unsplash.com/@thejoltjoker?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A crumpled Earth with visible continents and city lights against a dark space background",
+      "description": "A crumpled Earth symbolizes environmental issues like climate change and natural disasters. The image highlights the planet’s fragility and the lasting impact of human activities like pollution and deforestation. It serves as a reminder of nature’s resilience and humanity’s vulnerability."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:30.241Z",
+    "publishedAt": "2026-11-06T04:00:02.000Z"
+  },
+  {
+    "slug": "20261106-25",
+    "headline": "ソマリアの最高裁、大統領の任期延長を拒否―政治危機が深刻化",
+    "lead": "来年予定の国民選挙実施が危ぶまれる。1969年以来の全国選挙が延期も。",
+    "body_markdown": "ソマリアの最高裁は、Hassan Sheikh Mohamud大統領が提案した任期延長を違憲として却下した。2020年の初選出以来、初めての全国民間選挙が来年予定されていたが、延期される可能性が高まっている。\n\nモハムド大統領は権力基盤の強化を狙い任期延長を提案していた。これに対し、野党勢力と最高裁は強く反発。同国の政治体制には構造的脆弱性があり、再び武装勢力や地域分裂の深刻化を招く懸念が強い。\n\n1969年以来の国家的選挙プロセスの実現は、ソマリア政治の民主化・安定化の要。今回の拒否判断は象徴的だが、その後の展開次第では国情不安定化のリスクが高まる。アフリカ地政学の不安定要因の一つとして注視される。",
+    "tags": [
+      "ソマリア",
+      "政治",
+      "最高裁",
+      "選挙"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/c977ppnezep6o",
+    "importance": 4,
+    "image_query": "political crisis government meeting parliament",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1605433975283-263394f3514e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxwb2xpdGljYWwlMjBjcmlzaXMlMjBnb3Zlcm5tZW50JTIwbWVldGluZyUyMHBhcmxpYW1lbnR8ZW58MXwwfHx8MTc5Mzk1Nzk3MHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Elimende Inagella",
+      "profileUrl": "https://unsplash.com/@elimendeinagella?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "brown wooden chairs on gray concrete floor"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:30.757Z",
+    "publishedAt": "2026-11-06T08:18:10.000Z"
+  },
+  {
+    "slug": "20261106-26",
+    "headline": "イスラエルがイースト・エルサレムのパレスチナ学校を統制強化",
+    "lead": "教員許可・カリキュラム強制で、パレスチナ教育の自律性を圧迫。",
+    "body_markdown": "人権団体の報告によれば、イスラエルはイースト・エルサレムのパレスチナ人学校に対し、統制を段階的に強化している。パレスチナ大学学位を持つ教員の雇用制限、教員の出入りを制御する許可制度、イスラエル教科書の採用圧力などが実施されている。\n\n2010年以来、イスラエル教科書を導入した学校の生徒数は数百人から約4万5000人へ急増。2026-27学年度時点でイスラエル教科書採用生徒は全体の約38%に当たる。同地域の学級不足（2283教室の需要に対し供給不足）を背景に、イスラエル政府は教室新設への資金供給をイスラエル教科書採用と条件付けている。\n\n教育学的には、パレスチナの文化・言語・歴史教育の脱却を意味する。学校指導者はこれを「強制的なイスラエル化」と表現し、国連や人権団体による懸念が高まっている。教育を通じた政治的統制の事例として国際的な批判の対象になっている。",
+    "tags": [
+      "パレスチナ",
+      "イスラエル",
+      "教育",
+      "人権"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/features/2026/11/6/how-israel-is-tightening-its-grip-on-palestinian-schools-in-east-jerusalem",
+    "importance": 4,
+    "image_query": "school education classroom children learning",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1780844824413-ccb03d294ec9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8c2Nob29sJTIwZWR1Y2F0aW9uJTIwY2xhc3Nyb29tJTIwY2hpbGRyZW4lMjBsZWFybmluZ3xlbnwxfDB8fHwxNzkzOTU3OTcxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ruslan Horovyi",
+      "profileUrl": "https://unsplash.com/@ruslanstock?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Children learning in a classroom decorated with colorful balloons",
+      "description": "Two diverse elementary school children classmates studying together at desk"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:31.218Z",
+    "publishedAt": "2026-11-06T07:28:53.000Z"
+  },
+  {
+    "slug": "20261106-27",
+    "headline": "総務省がNTTドコモに行政指導―Amazonへの個人情報流出で",
+    "lead": "特定プラン契約者の同意なしに電話番号などをAmazonに提供。",
+    "body_markdown": "NTTドコモが顧客の同意を得ないまま、特定料金プランの契約者の電話番号などの個人情報をAmazonジャパンに提供していたことが判明。総務省は11月6日、同社に対し再発防止を求める行政指導を実施した。\n\nドコモはAmazon側の要請に応じ、プリペイドカード関連サービスとの連携を理由に情報提供していた。しかし、契約約款には明記されておらず、多くの顧客が気づかないまま個人情報が流出した可能性がある。\n\nこの事案は、大手通信企業における個人情報管理の甘さを露呈。特にデジタルプラットフォーマーとの連携が拡大する中、ユーザーデータの取扱いに関する透明性と同意要件がさらに厳しくなる見通し。企業は個人情報保護の強化を急ぎ、規制機関も監視を強める動き。",
+    "tags": [
+      "個人情報",
+      "NTTドコモ",
+      "Amazon",
+      "行政指導"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261106de71649",
+    "importance": 4,
+    "image_query": "personal data privacy security information",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1774898989484-0b9becf69efb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8cGVyc29uYWwlMjBkYXRhJTIwcHJpdmFjeSUyMHNlY3VyaXR5JTIwaW5mb3JtYXRpb258ZW58MXwwfHx8MTc5Mzk1Nzk3MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sasun Bughdaryan",
+      "profileUrl": "https://unsplash.com/@sasun1990?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A padlock rests on a computer keyboard",
+      "description": "Locked padlock on a computer keyboard. Cyber security concept."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:31.982Z",
+    "publishedAt": "2026-11-06T08:30:25.000Z"
+  },
+  {
+    "slug": "20261106-28",
+    "headline": "英国の利上げ初実施から3年以上―モーゲージ市場に衝撃",
+    "lead": "中央銀行が基準金利を4%に引き上げ。数百万の家計が負担増へ。",
+    "body_markdown": "イギリスの中央銀行が利上げを実施。基準金利を0.25ポイント引き上げ4%に設定。3年以上ぶりの利上げ。数百万の家計が住宅ローン支払い額の大幅な引き上げに直面することになった。\n\n中東情勢など地政学的要因で国際金利が上昇。これに伴いイギリスの住宅ローン利率も上昇圧力が高まっている。既に住宅市場は冷え込み、月次価格低下が4カ月連続。銀行系ロイズの調査では、家計心理が急速に悪化している。\n\nこうした金融引き締めはインフレ抑制には効果的だが、住宅購入能力を持つ層の限定化を招き、長期的には不動産市場の停滞をもたらすリスクが高い。家計の可処分所得圧迫は消費需要にも波及し、経済全体のスローダウンを懸念させる。",
+    "tags": [
+      "イギリス",
+      "利上げ",
+      "住宅ローン",
+      "金融"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/nov/05/what-does-interest-rate-rise-mean-for-homeowners-and-savers-mortgages",
+    "importance": 4,
+    "image_query": "mortgage interest rate finance money savings",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxtb3J0Z2FnZSUyMGludGVyZXN0JTIwcmF0ZSUyMGZpbmFuY2UlMjBtb25leSUyMHNhdmluZ3N8ZW58MXwwfHx8MTc5Mzk1Nzk3Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Andre Taissin",
+      "profileUrl": "https://unsplash.com/@andretaissin?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "pink pig coin bank on brown wooden table",
+      "description": "Piggy bank eating coins"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:32.801Z",
+    "publishedAt": "2026-11-05T14:00:12.000Z"
+  },
+  {
+    "slug": "20261106-29",
+    "headline": "米中間選挙で市場反発―民主党優勢がテック企業の面子をつぶす",
+    "lead": "データセンター規制への懸念、AI企業の政治影響力が減弱か。",
+    "body_markdown": "米国中間選挙で民主党が上下両院で優位を獲得した後、データセンター建設やAI産業への規制懸念が市場を襲った。投資家はAIブームに対する政治的逆風を警戒。テクノロジー株が軒並み下落。\n\nイーロン・マスク（テスラ・SpaceX）は選挙に数百万ドルを投じたにもかかわらず、期待する政治環境が実現しなかった。テック業界が巨額投資で得た政治的リターンが限定的だったことが浮き彫りになった。\n\nThe Economistの分析によれば、データセンター反対運動がコミュニティレベルで急速に広がっており、環境・雇用への懸念が規制強化へつながる可能性がある。AIインフラへの民主的反対が、今後のAI産業戦略を左右する要素となる見通し。政治的価値判断と技術投資が衝突する構造が明らかになった。",
+    "tags": [
+      "中間選挙",
+      "AI産業",
+      "データセンター",
+      "市場"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/11/05/markets-realise-they-hate-americas-blue-wave",
+    "importance": 4,
+    "image_query": "election politics voting government campaign",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1720128401402-81c9dc339870?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxlbGVjdGlvbiUyMHBvbGl0aWNzJTIwdm90aW5nJTIwZ292ZXJubWVudCUyMGNhbXBhaWdufGVufDF8MHx8fDE3OTM5NTc5NzN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Phil Hearing",
+      "profileUrl": "https://unsplash.com/@philhearing?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A pole with a sign that says polling station"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:33.415Z",
+    "publishedAt": "2026-11-05T23:41:07.000Z"
+  },
+  {
+    "slug": "20261106-30",
+    "headline": "米イラン緊張が油価を押し上げ―100ドル突破も視野に",
+    "lead": "中間選挙後、中東地政学リスクが再燃。アナリスト予測。",
+    "body_markdown": "石油市場の分析企業Rapidan Energyのアナリストは、米イラン関係の緊張激化により、ブレント原油とWTI先物相場が1バレル100ドル超に達する可能性があると予測。\n\n中間選挙後、トランプ新政権への懸念から中東地政学リスク報酬が再浮上。イラン核合意の行方や、ホルムズ海峡でのタンカー航行リスクが市場プレイヤーの注目を集めた。現在の原油相場は70～80ドル台だが、地政学的な予見不能性が価格上昇を牽引している。\n\nエネルギー価格上昇は、世界的なインフレ圧力となり、各国の金融政策判断をも左右する要因。中東情勢の短期的な悪化が、グローバルマクロ経済に波及するシナリオが意識されている。エネルギー市場と地政学の相互依存性が鮮明になった。",
+    "tags": [
+      "原油",
+      "地政学",
+      "イラン",
+      "エネルギー"
+    ],
+    "section": "経済・マネー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/06/us-iran-war-trump-hormuz-oil-midterms.html",
+    "importance": 4,
+    "image_query": "oil drilling energy fuel industry offshore",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1787770048282-ac20bd9452f1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxvaWwlMjBkcmlsbGluZyUyMGVuZXJneSUyMGZ1ZWwlMjBpbmR1c3RyeSUyMG9mZnNob3JlfGVufDF8MHx8fDE3OTM5NTc5NzN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Paul Einerhand",
+      "profileUrl": "https://unsplash.com/@pauleinerhand?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A small offshore oil platform on a calm and hazy blue sea",
+      "description": "Offshore oil platform in the North Sea, isolated on a calm, misty sea with soft blue tones and lots of negative space"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:34.031Z",
+    "publishedAt": "2026-11-06T05:27:24.000Z"
+  },
+  {
+    "slug": "20261106-31",
+    "headline": "ラッセル・ブランド有罪評決―レイプと性的暴行で投獄確定",
+    "lead": "英国俳優・コメディアンに懲役判決。芸能界のセクハラ問題が重罰段階へ。",
+    "body_markdown": "イギリスの俳優・コメディアンで、かつてハリウッドでも活躍していたラッセル・ブランドが、複数のレイプと性的暴行の罪で有罪評決された。判事は「相応の長期間」の投獄を見通すと言及。ブランドはさらに追加的な性的暴力疑惑にも直面している。\n\nこの判決は、英国の娯楽業界が、セクシュアル・ハラスメント・暴行について従来より厳格な司法判断を下し始めたことを示す。被害者の証言の信頼性がより重視されるようになった。\n\nハリウッド・ロンドン両地で評判を持つ著名人の有罪評決は、業界内の権力構造悪用の問題を改めて浮き彫りにし、告発者への支持の高まりを反映している。セクシュアルハラスメント問題は、企業・業界の信用問題として根本的な改善を迫られている。",
+    "tags": [
+      "ラッセル・ブランド",
+      "性暴力",
+      "司法",
+      "エンタメ"
+    ],
+    "section": "エンタメ",
+    "source": "BBC Arts",
+    "link": "https://www.bbc.co.uk/news/articles/ckyvrze96y70o",
+    "importance": 4,
+    "image_query": "courtroom trial justice law legal",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1607778914885-787b06728b07?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxjb3VydHJvb20lMjB0cmlhbCUyMGp1c3RpY2UlMjBsYXclMjBsZWdhbHxlbnwxfDB8fHwxNzkzOTU3OTc0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Hansjörg Keller",
+      "profileUrl": "https://unsplash.com/@kel_foto?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "brown wooden chairs inside building",
+      "description": "Die kleine Kammer. The small chamber."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-06T09:39:34.746Z",
+    "publishedAt": "2026-11-06T02:21:20.000Z"
+  },
+  {
     "slug": "20261106-01",
     "headline": "Google、動画生成モデル Gemini Omni 1.2 Flash を発表",
     "lead": "Gemini Omni 1.2 Flash が15秒のネイティブ動画生成と30%の価格低下を実現、クリエイター向けツールとして一般利用可能に。",
