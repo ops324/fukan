@@ -1,5 +1,554 @@
 [
   {
+    "slug": "20261107-18",
+    "headline": "OpenAI、1.25兆ドル評価で110億ドル調達",
+    "lead": "OpenAIが新たな資金ラウンドで110億ドルを調達し、企業価値が1.25兆ドルに達した。Anthropicの上場計画と並行して、AI企業の評価競争が加速している。",
+    "body_markdown": "OpenAIは新しい資金調達ラウンドで110億ドルを調達し、企業価値が1.25兆ドルに達した。これにより、OpenAIは世界で最も価値の高い企業の1つに位置付けられることになる。\n\n3月の前回調達では122億ドルを1,220億ドルの評価で調達していた。その後の8カ月間に大きく評価が上昇している。\n\nBloomberg によると、OpenAI はさらに200億ドルまでの追加投資を検討しており、当初は1.4兆ドルの評価での300億ドル調達を目指していた。ただし、テック株の下落と先月の米中間選挙の結果を受けて、この目標は引き下げられた。\n\n一方、ライバルのAnthropicはIPO計画を進めており、これによってAI業界の企業価値評価が市場の厳しい目にさらされることになる。OpenAIの大型調達はこうした競争環境での重要なマイルストーンとなっている。",
+    "tags": [
+      "OpenAI",
+      "企業価値評価",
+      "AI企業",
+      "資金調達",
+      "Anthropic"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+    "importance": 5,
+    "image_query": "technology company office",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1742630394132-cbd951f7d924?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8dGVjaG5vbG9neSUyMGNvbXBhbnklMjBvZmZpY2V8ZW58MXwwfHx8MTc5NDA0NDAyMXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Exospace Bbsr",
+      "profileUrl": "https://unsplash.com/@exospaceindia?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Modern, open-plan office space with desks and chairs",
+      "description": "Discover our best coworking space in Bhubaneswar with flexible office solutions, shared workspaces, managed office spaces, fully furnished office spaces for rent and modern amenities in prime locations like Patia and Rasulgarh. Perfect for startups, freelancers, and businesses seeking inspiring environments. Join our vibrant community today schedule a visit and explore endless opportunities for your business's success! https://www.exospace.in/"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:41.649Z",
+    "publishedAt": "2026-11-06T23:46:18.000Z"
+  },
+  {
+    "slug": "20261107-19",
+    "headline": "パラグアイ大統領、銀行危機で罷免・軟禁状態に",
+    "lead": "銀行危機でパラグアイの多くの国民が預金にアクセスできない状況下で、サンティアゴ・ペーニャ大統領が罷免された。",
+    "body_markdown": "パラグアイのサンティアゴ・ペーニャ大統領が罷免され、自宅軟禁状態に置かれた。大規模な銀行危機により、数百万人の国民が銀行預金にアクセスできなくなったことが罷免の背景にある。\n\nこの金融危機はパラグアイの経済に深刻な影響を与えており、国内の多くの市民が貯蓄を失う危機に直面している。政治的な不安定さと経済混乱が重なる形で、政権交代を招いた。\n\n南米では経済危機による政治的混乱が相次ぎており、パラグアイの事態も地域の不安定化を示す一例となっている。ペーニャ大統領の罷免は、金融監督と危機管理の重要性を改めて浮き彫りにした。",
+    "tags": [
+      "パラグアイ",
+      "銀行危機",
+      "政治",
+      "南米"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o",
+    "importance": 5,
+    "image_query": "banking crisis currency exchange",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1591033594798-33227a05780d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxiYW5raW5nJTIwY3Jpc2lzJTIwY3VycmVuY3klMjBleGNoYW5nZXxlbnwxfDB8fHwxNzk0MDQ0MDIyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "John McArthur",
+      "profileUrl": "https://unsplash.com/@snowjam?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A collection of international banknotes including US dollars, British pounds, and Czech koruna",
+      "description": "Currencies"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:42.268Z",
+    "publishedAt": "2026-11-07T07:20:00.000Z"
+  },
+  {
+    "slug": "20261107-20",
+    "headline": "中国がAI企業幹部をスパイとしてNvidia CEO を監視",
+    "lead": "中国の情報機関がMegaspeed幹部をリクルートし、Nvidia CEO ジェンセン・フアンを監視。米国の最先端AI チップ情報の入手を狙ったとも報じられている。",
+    "body_markdown": "米紙ニューヨーク・タイムズの報道によると、中国の国家安全部（MSS）がメガスピード（Megaspeed）の幹部アリス・ファンをリクルートし、Nvidia CEO ジェンセン・フアンに関する情報収集を指示したという。\n\n目的は米国の最先端AI チップに関する情報入手と、中国がこれらの最先端チップを利用できるよう Nvidia に圧力をかけることだと報じられている。メガスピードは Nvidia の顧客であり、アリス・ファンは AI チップ業界のトップレベルの経営者たちと人脈を持つ立場にある。\n\n同様のスパイ活動報告は先週もあり、ジェンセン・フアンが標的とされていることが明らかになっていた。この事態は、AI チップ産業が米中技術競争の最前線にあることを示すとともに、主要企業の経営者に対する国家レベルの情報工作が行われていることを物語っている。",
+    "tags": [
+      "中国",
+      "スパイ",
+      "AI",
+      "Nvidia",
+      "チップ産業"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+    "importance": 5,
+    "image_query": "computer chip microprocessor technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1589779255718-3c459da9ffeb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8Y29tcHV0ZXIlMjBjaGlwJTIwbWljcm9wcm9jZXNzb3IlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTQwNDQwMjJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Infralist.com",
+      "profileUrl": "https://unsplash.com/@infralist?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black and green computer motherboard",
+      "description": "Computer motherboard via https://infralist.com"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:42.873Z",
+    "publishedAt": "2026-11-06T23:00:44.000Z"
+  },
+  {
+    "slug": "20261107-21",
+    "headline": "OpenAI、110億ドルの追加調達を報告",
+    "lead": "OpenAIが新たな資金調達ラウンドで110億ドルを調達。このラウンドはまだクローズしていないが、数週間以内に完了予定である。",
+    "body_markdown": "OpenAIは110億ドルの追加資金調達を報告した。本ラウンドはまだ最終的にはクローズしていないが、今後数週間以内に完了することが予想されている。\n\nこの資金調達はOpenAIの事業拡大とAI研究開発への投資を加速させるもので、企業価値の大幅な上昇を背景としている。110億ドルという大規模な調達額は、AI技術への投資家の関心の高さを示すとともに、OpenAIが市場で最も注目される企業の1つであることを反映している。",
+    "tags": [
+      "OpenAI",
+      "資金調達",
+      "AI投資"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+    "importance": 5,
+    "image_query": "venture capital investment funding",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1689330305908-aa231c1dd595?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8dmVudHVyZSUyMGNhcGl0YWwlMjBpbnZlc3RtZW50JTIwZnVuZGluZ3xlbnwxfDB8fHwxNzk0MDQ0MDIzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Invest Europe",
+      "profileUrl": "https://unsplash.com/@invest_europe?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a man in a white shirt and tie holding a folder",
+      "description": "Invest Europe engages in Brussels on behalf of the European private equity and venture capital industry, playing a constructive part in developing EU and international legislation that shapes the future of the industry."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:44.476Z",
+    "publishedAt": "2026-11-06T22:53:46.000Z"
+  },
+  {
+    "slug": "20261107-22",
+    "headline": "SpaceX、Starlink Mobile で主要キャリアに挑戦",
+    "lead": "SpaceXが直交セル衛星で展開するStarlink Mobile で大手キャリア（AT&T、Verizon、T-Mobile）に挑む。Qualcomm と協力し2027年から5Gサイト展開を予定。",
+    "body_markdown": "SpaceXはStarlink Mobile を「主要な」モバイルキャリアに発展させると宣言した。同社はすでに直交セルの衛星を数千機配備している。次の大きな課題は、地上に5Gネットワークを構築することである。\n\nAT&T、Verizon、T-Mobileという大手キャリアに対抗するための計画の一環として、SpaceXはQualcommと提携し、2027年から数万カ所の5Gセルサイトにセルラー技術を配備する契約を結んだ。さらに、SpaceXはBoost Mobileの買収を検討しており、この買収が実現すればStarlink Mobile をBoost Mobileで立ち上げることができる可能性がある。\n\nまた、米国内の約80,000カ所のセルサイトを活用するというもう1つの計画も報じられている。T-Mobileの親会社ドイツテレコムの CEO ティム・ホッテゲスは、SpaceXの計画を「非常に真摯に」受け止めているが、実現には2,000億ドル以上の投資が必要になる可能性があると指摘している。",
+    "tags": [
+      "SpaceX",
+      "Starlink",
+      "モバイル",
+      "衛星通信",
+      "Qualcomm"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
+    "importance": 4,
+    "image_query": "satellite constellation space technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1633984726552-3ed7296dc5c9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxzYXRlbGxpdGUlMjBjb25zdGVsbGF0aW9uJTIwc3BhY2UlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTQwNDQwMjR8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Norbert Kowalczyk",
+      "profileUrl": "https://unsplash.com/@norbertkowalczyk?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a space station in the middle of the night",
+      "description": "International Space Station"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:45.056Z",
+    "publishedAt": "2026-11-06T22:45:43.000Z"
+  },
+  {
+    "slug": "20261107-23",
+    "headline": "Cybertruck 製造中止、EV産業にとっては実は朗報？",
+    "lead": "Tesla が Cybertruck の生産を中止。昨年1年間で大型EV2台が廃止されるなか、小型車が増加傾向。米国のバッテリー供給チェーンにとって好材料の可能性。",
+    "body_markdown": "テスラの Cybertruck は、この1年間で廃止された2台の大型EV のうちの1台となった。過去1年以内にテスラは複数の大型EVの生産を中止しており、大型車からのシフトが進んでいる。製造中止の背景にはコスト効率や市場戦略の見直しがあると考えられている。\n\nWIRED の報道によれば、この決定は一見マイナスに見えるが、米国のEV産業全体、特にバッテリー供給チェーンにとっては好材料になる可能性がある。小型EV の開発・製造にシフトすることで、スケーラビリティの高い効率的な生産体制が構築される可能性があるからだ。\n\nCybertruck のような大型・複雑な設計の製品に投入されていたリソースが、より市場性の高い小型EV へ再配置されることで、業界全体の効率化が進む可能性がある。",
+    "tags": [
+      "Tesla",
+      "Cybertruck",
+      "EV",
+      "自動車産業",
+      "バッテリー"
+    ],
+    "section": "テクノロジー",
+    "source": "WIRED",
+    "link": "https://www.wired.com/story/cybertrucks-death-great-news-for-evs/",
+    "importance": 4,
+    "image_query": "electric vehicle car battery charging",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1751553512991-7ae218946be9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8ZWxlY3RyaWMlMjB2ZWhpY2xlJTIwY2FyJTIwYmF0dGVyeSUyMGNoYXJnaW5nfGVufDF8MHx8fDE3OTQwNDQwMjV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ratio EV Charging",
+      "profileUrl": "https://unsplash.com/@ratioev?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "An electric car is charging at a station",
+      "description": "Ratio io7 EV Charging - 22kW UK Manufactured EV Charger with lighting head"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:45.571Z",
+    "publishedAt": "2026-11-06T22:31:15.000Z"
+  },
+  {
+    "slug": "20261107-24",
+    "headline": "世界初の商用核融合発電所開発競争、欧州は日本に期待",
+    "lead": "世界初の商用核融合発電所の開発競争が加速。欧州企業が日本のサプライチェーンに支援を求めている。豊富で環境負荷の低い電力供給が実現する可能性。",
+    "body_markdown": "CNBC によると、世界初の商用核融合発電所を開発する競争が加熱している。豊富で環境負荷の低いクリーンなエネルギー源となり得ることから、各国・企業が注力している。\n\n欧州のプロxima Fusion など複数の企業が、この開発競争に参加しており、日本のサプライチェーン支援を求めている。日本はこの分野での技術力と製造能力を評価されており、核融合発電の商用化に向けた重要なパートナーになると見込まれている。\n\n核融合エネルギーが商用化されれば、エネルギー問題の根本的な解決につながる可能性があり、各国の政策的な支援も増加している。日本の産業界にとっても、新たなビジネスチャンスが生まれる可能性がある。",
+    "tags": [
+      "核融合",
+      "再生可能エネルギー",
+      "日本",
+      "欧州",
+      "発電"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/07/proxima-fusion-power-japan-supply-chain.html",
+    "importance": 4,
+    "image_query": "nuclear fusion reactor energy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1591200834528-4050ce99fe78?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxudWNsZWFyJTIwZnVzaW9uJTIwcmVhY3RvciUyMGVuZXJneXxlbnwxfDB8fHwxNzk0MDQ0MDI2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Nicolas HIPPERT",
+      "profileUrl": "https://unsplash.com/@nhippert?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Two nuclear cooling towers emitting steam at night beside a dark river",
+      "description": "Nuclear night"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:46.178Z",
+    "publishedAt": "2026-11-07T06:00:01.000Z"
+  },
+  {
+    "slug": "20261107-25",
+    "headline": "イーロン・マスク、Cybertruck 終焉を暗示 自動運転タクシー優先へ",
+    "lead": "Elon Musk が Cybertruck の生産終了を示唆。自動運転タクシー「Cybercab」の製造スペースを優先する戦略転換を明かした。",
+    "body_markdown": "Elon Musk は Cybertruck の生産終了を示唆し、その理由を自動運転タクシー「Cybercab」の製造スペースを確保するためと説明した。テスラの経営方針が、大型ハイエンド車両から自動運転の商用化へシフトしていることが明らかになった。\n\nCybercab は運転手なしの完全自動運転タクシーであり、テスラの長期的なビジネス戦略の中心となる製品だ。Musk の決定は、Cybertruck という実験的で生産効率が低い製品から、より市場性の高い自動運転技術へのシフトを示唆している。\n\nテスラは製造キャパシティの効率的な活用に向け、大幅な経営方針の転換を進めている。",
+    "tags": [
+      "Tesla",
+      "Cybercab",
+      "自動運転",
+      "Musk",
+      "タクシー"
+    ],
+    "section": "ビジネス",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o",
+    "importance": 4,
+    "image_query": "autonomous vehicle self-driving taxi",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1681524415449-14c88372eb08?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8YXV0b25vbW91cyUyMHZlaGljbGUlMjBzZWxmLWRyaXZpbmclMjB0YXhpfGVufDF8MHx8fDE3OTQwNDQwMjZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Island Group Studios",
+      "profileUrl": "https://unsplash.com/@islandcinematics?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a yellow taxi cab driving down a street",
+      "description": "A taxi passes by in New York City."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:47.450Z",
+    "publishedAt": "2026-11-06T21:49:50.000Z"
+  },
+  {
+    "slug": "20261107-26",
+    "headline": "米共和党、中間選挙の大敗後、統一した反省なし",
+    "lead": "中間選挙で歴史的な敗北を喫した米共和党。Stephen Miller の党首・主要職への昇格により、党全体の深刻な反省がないことが懸念されている。",
+    "body_markdown": "米中間選挙で歴史的な敗北を喫した米共和党内で、本格的な反省の機運が失われようとしている。Politico の報道によると、Stephen Miller が共和党の要職に昇進したことで、党の根本的な問題解決を求める声が弱まっているという。\n\nMiller の昇進に対しては、党内からも警戒感が出ており、中間選挙での大敗の原因分析と改革なしに、党の再建は進みにくいという懸念が表明されている。\n\n共和党指導部の対応を見ると、敗北の原因を深刻に受け止め、改革の方向性を示そうとする姿勢が不十分であると指摘されている。",
+    "tags": [
+      "アメリカ政治",
+      "共和党",
+      "中間選挙",
+      "敗北",
+      "Miller"
+    ],
+    "section": "政治",
+    "source": "Politico",
+    "link": "https://www.politico.com/news/2026/11/06/gop-reckoning-trump-midterms-stephen-miller-01154760",
+    "importance": 4,
+    "image_query": "american politics election campaign rally",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1638769314433-21bf35fb356e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8YW1lcmljYW4lMjBwb2xpdGljcyUyMGVsZWN0aW9uJTIwY2FtcGFpZ24lMjByYWxseXxlbnwxfDB8fHwxNzk0MDQ0MDI3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "DJ Paine",
+      "profileUrl": "https://unsplash.com/@djpaine?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a group of people holding signs and flags",
+      "description": "A sign at Melbourne's Freedom protests rally and march in the city November 20th 2021 - over 200,000 people marched from Parliament to the Flagstaff Gardens. A happy family friendly crowd singing and chanting \"Kill The Bill\" and \"Sack Dan Andrews\""
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:48.082Z",
+    "publishedAt": "2026-11-06T23:00:00.000Z"
+  },
+  {
+    "slug": "20261107-27",
+    "headline": "ビル・マイアー、トランプの中間選挙敗北に塩を塗る",
+    "lead": "コメディアン Bill Maher が HBO 番組『Real Time』でトランプ前大統領の中間選挙敗北を揶揄。政治ユーモアで支持層の反応を引き出した。",
+    "body_markdown": "コメディアンの Bill Maher は HBO の深夜トークショー『Real Time』で、トランプ前大統領の中間選挙敗北に触れ、「ドニー、大丈夫？」というユーモアで風刺を交えた。\n\nMaher はトランプ政権時代からの政治的批評で知られており、今回も選挙の流れを踏まえた厳しくも洒脱なコメントで観客の反応を引き出したとされている。\n\n米国の政治ユーモアの世界では、こうした直接的な批判と風刺が言論の自由の重要な形態として機能している。",
+    "tags": [
+      "アメリカ政治",
+      "トランプ",
+      "コメディ",
+      "HBO",
+      "中間選挙"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/tv/news/bill-maher-trump-midterms-loss-real-time-hbo-lindsey-graham-1236941912/",
+    "importance": 4,
+    "image_query": "comedy talk show entertainer",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1721102181810-64602b6d5b47?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8Y29tZWR5JTIwdGFsayUyMHNob3clMjBlbnRlcnRhaW5lcnxlbnwxfDB8fHwxNzk0MDQ0MDI4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "DIANE MARIE PASCUAL",
+      "profileUrl": "https://unsplash.com/@dreamwalker37?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A man sitting in a chair talking to a woman",
+      "description": "Tim Ferris giving a talk at the General Assembly in San Francisco in 2017."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:49.925Z",
+    "publishedAt": "2026-11-07T03:20:01.000Z"
+  },
+  {
+    "slug": "20261107-28",
+    "headline": "イラン戦争が民主党の勝利をもたらした 米中間選挙",
+    "lead": "米中間選挙でイラン戦争の影響が民主党を後押し。戦争のコストが米国の一般家庭に直結し、トランプ党への反発につながった。",
+    "body_markdown": "Al Jazeera の分析によると、イラン戦争の存在が米中間選挙で民主党の勝利を助ける要因となったという。戦争がもたらす経済的・社会的コストが、米国の一般市民の家庭に直接影響を及ぼし、政権批判につながったとみられる。\n\nテヘランの軍事行動により、ガソリン価格やエネルギーコストの上昇など、日常生活への負担が増加。これがトランプ政権を支持していた層の投票行動に変化をもたらし、中間選挙での民主党への投票につながった。\n\n戦争という非常事態が、米国内の政治的分断を一時的に和らげ、エネルギー・経済問題への対応を軸に選挙結果に反映された。",
+    "tags": [
+      "アメリカ政治",
+      "イラン",
+      "戦争",
+      "中間選挙",
+      "民主党"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/opinions/2026/11/7/how-the-iran-war-helped-democrats-win-the-midterms",
+    "importance": 4,
+    "image_query": "military conflict war zone soldiers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758204054993-6e11190bce9b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxtaWxpdGFyeSUyMGNvbmZsaWN0JTIwd2FyJTIwem9uZSUyMHNvbGRpZXJzfGVufDF8MHx8fDE3OTQwNDQwMzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Navy Medicine",
+      "profileUrl": "https://unsplash.com/@navymedicine?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Soldiers resting on a beach near a first aid station",
+      "description": "15-3001-1038 Navy Medicine 1944: Navy corpsmen and members of the 2nd Beach Battalion take a breather on a French invasion beach following heavy action. [World War II][Aid Station][Corpsmen] \"Navy Medicine 1944\" published in Navy Medicine Magazine September-October 1993."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:50.430Z",
+    "publishedAt": "2026-11-07T06:26:58.000Z"
+  },
+  {
+    "slug": "20261107-29",
+    "headline": "AI映画制作プラットフォーム、台湾で24個の AI エージェント搭載で発表",
+    "lead": "台湾企業 imCore Corp が AI 映画制作プラットフォーム「Core Studio」を発表。台湾クリエイティブ・コンテンツ・フェスティバル（TCCF）で公開。",
+    "body_markdown": "台湾の技術企業 imCore Corp は、AI 映画制作プラットフォーム「Core Studio」を台湾クリエイティブ・コンテンツ・フェスティバル（TCCF）で発表した。同プラットフォームは脚本開発からストーリーボード、画像生成、編集、カラーグレーディングまで、映画制作の全工程をカバーすることを目指している。\n\n24個の専門 AI エージェントを備えており、アニメーション・映像制作分野の経験を持つ台湾チームによって開発された。映画制作のワークフロー全体を自動化・支援し、制作時間とコストの削減を実現する狙いがある。\n\nTCCF での発表は、アジア地域での AI コンテンツ制作技術の進展を示すマイルストーンとなっている。",
+    "tags": [
+      "AI",
+      "映画制作",
+      "台湾",
+      "コンテンツ制作"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/markets-festivals/ai-filmmaking-platform-core-studio-launches-24-agents-tccf-1236941957/",
+    "importance": 3,
+    "image_query": "film production editing video equipment",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:50.434Z",
+    "publishedAt": "2026-11-07T08:19:35.000Z"
+  },
+  {
+    "slug": "20261107-30",
+    "headline": "シルヴァン・ショメ、Dior短編の AI 使用疑惑を全面否定",
+    "lead": "アニメーション監督シルヴァン・ショメが、Dior 短編での AI 使用の告発に対し、「すべて手描き」と反論。4度のオスカー候補経歴を活かした主張。",
+    "body_markdown": "『ベルヴィル・ランデブー』と『イリュージョニスト』の監督で知られるフランスの著名なアニメーション映画人シルヴァン・ショメは、自身が手掛けたDiorの短編フィルム（Robert Pattinson の声の出演）での AI 使用に対する告発を全面否定した。\n\nショメは「すべては手描きである」と主張し、生成 AI で制作された疑いを排除している。同短編には Robert Pattinson、Rihanna、Josh O'Connor、LaKeith Stanfield ら著名な声優が参加していた。\n\nこの事案は、高度なアニメーション技術と AI 生成技術の見た目の区別が難しくなっていることを浮き彫りにしており、業界内での議論を呼んでいる。",
+    "tags": [
+      "アニメーション",
+      "シルヴァン・ショメ",
+      "AI",
+      "Dior"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/film/global/sylvain-chomet-denies-ai-accusations-dior-robert-pattinson-1236941945/",
+    "importance": 3,
+    "image_query": "animated film character art animation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:50.436Z",
+    "publishedAt": "2026-11-07T08:12:53.000Z"
+  },
+  {
+    "slug": "20261107-31",
+    "headline": "宇宙初期の謎解く、宇宙マイクロ波背景放射のパターン分析が進展",
+    "lead": "科学者たちが宇宙マイクロ波背景放射（CMB）のパターン解析を進め、初期宇宙の構造をより正確に理解する新展開。極域での観測研究が続く。",
+    "body_markdown": "物理学者たちが宇宙マイクロ波背景放射（CMB）のパターン分析により、初期宇宙の構造と進化をより詳細に理解する研究を推し進めている。\n\nCMB は、宇宙が誕生から約38万年後に放出された光の残光であり、初期宇宙の状態を知る重要な観測対象だ。これまでの観測データを再分析することで、現在知られていない宇宙の特性が明らかになる可能性がある。\n\n極域での観測は厳しい環境下での作業を強いられるが、科学者たちはこの重要な研究に取り組み続けている。",
+    "tags": [
+      "宇宙",
+      "物理学",
+      "観測",
+      "初期宇宙"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-untangling-patterns-cosmic-microwave-background.html",
+    "importance": 3,
+    "image_query": "telescope observatory space science",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:50.440Z",
+    "publishedAt": "2026-11-07T00:20:01.000Z"
+  },
+  {
+    "slug": "20261107-32",
+    "headline": "地面の雛鳥を見かけたら、触ってはいけない理由とは？",
+    "lead": "野鳥の雛が地面にいるのを見かけても、むやみに触ったり移動させてはいけない。適切な対応方法と母親鳥のサポート体制。",
+    "body_markdown": "春に地面で見かける雛鳥。親心から移動させたり保護したいという衝動に駆られるかもしれないが、そうした行動は実は雛の生存確率を下げる可能性がある。\n\n地面にいる雛は、実は親鳥からの継続的なサポートを受けている段階であることが多い。親鳥は近隣に潜んで食物を与え続け、雛が飛行能力を身につけるまでサポートしている。人間が介入することで、このプロセスが中断される可能性がある。\n\n野生動物保護の専門家たちは、地面の雛を見かけた場合、親鳥に任せることが最善の選択肢であることを強調している。",
+    "tags": [
+      "野鳥",
+      "自然保護",
+      "生態系",
+      "野生動物"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-baby-bird-ground-dont-birdnap.html",
+    "importance": 3,
+    "image_query": "baby bird fledgling nest wildlife",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:50.442Z",
+    "publishedAt": "2026-11-06T23:00:02.000Z"
+  },
+  {
+    "slug": "20261107-33",
+    "headline": "脳を貫いた刃物を無事摘出、医学的奇跡のケース",
+    "lead": "眼球を通して脳に達した刃物を摘出した男性患者が、予想外の回復を遂げた。医学の常識を覆す症例。",
+    "body_markdown": "医学的に極めてまれなケースが報告された。眼球を通して脳まで貫いた刃物を摘出された男性患者が、予想を大きく上回る回復を見せたというものだ。\n\n通常、脳に対する深刻な損傷は取り返しのつかない障害を引き起こすが、本ケースでは経路の選択が功を奏したと医学チームは指摘している。刃物が主要な脳機能領域を避けた経路を通ったことが、患者の生存と機能回復につながった。\n\n医学専門家たちは、刃物の挿入経路と組織損傷の程度が、神経障害の予後を大きく左右することを強調している。本ケースは、脳損傷の予後評価が単純な「重症度」評価では不十分であることを示している。",
+    "tags": [
+      "医学",
+      "脳損傷",
+      "外科",
+      "症例"
+    ],
+    "section": "テクノロジー",
+    "source": "Ars Technica",
+    "link": "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain/",
+    "importance": 3,
+    "image_query": "medical surgery hospital operating room",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:50.443Z",
+    "publishedAt": "2026-11-06T23:09:45.000Z"
+  },
+  {
+    "slug": "20261107-34",
+    "headline": "英 Nationwide、5.3% の利回り普通預金を新規提供",
+    "lead": "英国の Nationwide Building Society が「市場最高水準」の5.3% 利回り普通預金を発表。イングランド銀行の利上げと連動。",
+    "body_markdown": "英国の Building Society（相互金融機関）Nationwide が、市場最高水準とされる5.3% の利回りを提供する普通預金を新規に立ち上げた。\n\n本口座は Nationwide の会員向けであり、現在 1,900万人以上の会員がいる。口座開設の発表は、イングランド銀行が基本金利を4% へ引き上げる判断を下す直前に行われており、経済政策の変化を先読みした動きと見られている。\n\n多くの専門家は、今後金利が低下に向かった場合でも、本口座の5.3% の利回りはしばらくの間、競争力のある水準を保つと予想している。",
+    "tags": [
+      "銀行",
+      "普通預金",
+      "イギリス",
+      "金利"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/money/2026/nov/07/nationwide-savings-account-market-leading-interest-rate",
+    "importance": 3,
+    "image_query": "bank savings account money financial",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:50.447Z",
+    "publishedAt": "2026-11-07T07:00:05.000Z"
+  },
+  {
+    "slug": "20261107-35",
+    "headline": "生成AIが学校とのやりとりに使われ始めた、経験者の声は？",
+    "lead": "ChatGPT など AI ツールが、親と学校間の連絡に使われるようになった。教育現場での影響や課題を聞く。",
+    "body_markdown": "ChatGPT や Claude といった AI ツールが日常的に利用されるようになり、親が学校への連絡文作成に AI を使うケースが増えている。学校側も AI が生成した連絡文を受け取る機会が増えつつある。\n\nGuardian は、教育者と保護者の実際の経験や見方について、読者からの声を募集している。AI 生成メールが学校組織内でどのような影響を及ぼしているか、そしてそれが教育の質や親子関係、学校運営にいかなる変化をもたらしているかを調べるプロジェクトだ。\n\nAI の浸透により、教育現場での人間関係やコミュニケーションの質が変わりうることへの関心が高まっている。",
+    "tags": [
+      "AI",
+      "教育",
+      "学校",
+      "親",
+      "ChatGPT"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/technology/2026/nov/06/teachers-and-parents-what-are-your-experiences-of-ai-generated-emails",
+    "importance": 3,
+    "image_query": "classroom education students school learning",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:50.449Z",
+    "publishedAt": "2026-11-06T13:55:43.000Z"
+  },
+  {
+    "slug": "20261107-36",
+    "headline": "グルーミング被害から脱却、教師を投獄させた女性の経験",
+    "lead": "15歳の時に学校教師にグルーミングされた女性が、その経験と回復過程を語る。学校内での権力構造と性的虐待の実態。",
+    "body_markdown": "オーストラリア・クイーンズランド州の高校で起きたグルーミング事件の被害者が、自身の経験を振り返る手記を寄せた。15歳の時に教育体育教師から特別な関心を示されたことが、その後の長期的な虐待へと発展したという。\n\n当初、教師の称賛や関心は嬉しいものと感じられていたが、後年になってそれが何であったかが明らかになった。被害者は、学校という権力構造がある環境で、大人と子どもの間に生じやすい支配関係について指摘している。\n\n本手記は、教育機関内での性的虐待がいかに巧妙に行われ、長期にわたって影響を与え続けるかを示すケーススタディとなっており、同様の被害者の声を呼び起こす可能性がある。",
+    "tags": [
+      "グルーミング",
+      "性的虐待",
+      "教育",
+      "被害者",
+      "人権"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/lifeandstyle/2026/nov/06/experience-i-helped-jail-the-teacher-who-groomed-me",
+    "importance": 3,
+    "image_query": "school classroom education learning",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:50.451Z",
+    "publishedAt": "2026-11-06T05:00:43.000Z"
+  },
+  {
+    "slug": "20261107-37",
+    "headline": "英マンチェスター市長、若年層支援で「急進的改革」を宣言",
+    "lead": "Andy Burnham がマンチェスター市長として若年層への支援施策で「かなり急進的な変化」をもたらすと述べた。",
+    "body_markdown": "マンチェスター市長の Andy Burnham は、若年層への支援施策において「かなり急進的な変化」をもたらすという方針を示した。教育、就業機会、心身の健康サポートなど、包括的な施策の実施を予告している。\n\n都市レベルでの若年層問題への統合的なアプローチが求められており、Burnham はこの課題に本腰を入れると強調した。\n\n英国各地での若年層の失業・訓練不足の問題に対応する政策が加速している。",
+    "tags": [
+      "イギリス",
+      "政治",
+      "若年層支援",
+      "マンチェスター"
+    ],
+    "section": "政治",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/politics/2026/nov/06/andy-burnham-quite-radical-change-young-people-support-benefits-neets",
+    "importance": 3,
+    "image_query": "community youth education support program",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:50.452Z",
+    "publishedAt": "2026-11-06T16:50:13.000Z"
+  },
+  {
+    "slug": "20261107-38",
+    "headline": "AI で暖房費は本当に下げられるのか？2年間実験してみた",
+    "lead": "記者が2年間、AI 温度制御システムと手動制御を比較。結果は想定外だったという。",
+    "body_markdown": "Guardian のテック記者 Samuel Gibbs が、AI 温度制御システムが本当に光熱費を削減できるか、2年間の実験結果をレポートした。\n\n製造業者の多くが平均25% の削減（年間約180ポンド）を謳っているが、実際には詳細な条件が付いており、エネルギーコストの変動が激しいなか検証は難しい。Gibbs 氏の実験では、手動制御と AI 制御の効果の差は想定ほど大きくなかったという、驚きの結果が示されている。\n\n消費者が技術に期待する効果と実際の効果の間にはギャップが存在する可能性が示唆されている。",
+    "tags": [
+      "AI",
+      "光熱費",
+      "温度制御",
+      "エネルギー効率"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/money/2026/nov/07/can-ai-save-you-money-heating-bill",
+    "importance": 3,
+    "image_query": "home thermostat heating system control",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:50.453Z",
+    "publishedAt": "2026-11-07T07:00:07.000Z"
+  },
+  {
+    "slug": "20261107-39",
+    "headline": "英相「光熱費が払えない家庭に、電力会社はもっと支援を」",
+    "lead": "英国の担当大臣が電力会社に対し、未払い光熱費の問題に解決策を打ち出すよう要請。冬場の家計への圧迫が深刻化。",
+    "body_markdown": "英国の相関大臣は、電力会社に対して未払い光熱費の家庭支援をさらに強化するよう促した。冬場のエネルギー危機により、多くの一般家庭が光熱費の負担に苦しんでいる。\n\n政策的支援の不足が指摘され、民間企業との協力を強化することで、経済的困窮家庭の生活維持を目指す方針が示されている。\n\nエネルギー貧困への対策は、英国社会の重要な課題となっている。",
+    "tags": [
+      "エネルギー",
+      "イギリス",
+      "家計",
+      "光熱費"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/nov/06/minister-energy-suppliers-help-households-unpaid-bills-debt-relief",
+    "importance": 3,
+    "image_query": "household utility bills energy expenses",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-07T09:33:50.454Z",
+    "publishedAt": "2026-11-06T06:00:44.000Z"
+  },
+  {
     "slug": "20261107-01",
     "headline": "OpenAI、セキュリティ企業Hacktronとの脆弱性検査パートナーシップ発表",
     "lead": "OpenAIは、セキュリティ企業Hacktronと協力して自社システムの脆弱性を発見・修正する新しいパートナーシップを発表した。",
