@@ -1,5 +1,563 @@
 [
   {
+    "slug": "20261108-01",
+    "headline": "Anthropic上場、AI電力反発で企業評価が半減",
+    "lead": "AIデータセンター否決が相次ぐ中、Anthropicの上場企業価値は当初20億ドルから10〜15億ドルに下方修正。",
+    "body_markdown": "AI企業Anthropicが11月中旬のNasdaq上場を予定しているが、企業評価が大きく引き下げられた。当初20億ドルの想定評価額は10〜15億ドルまで下落している。\n\n背景には、米国市場の悪化とAIへの国民的反発がある。Nasdaqは19カ月ぶりの大幅下落を記録し、AI関連企業が特に打撃を受けている。さらに11月中間選挙で投票者のAIデータセンターへの拒否感が明確化した。データセンター関連の投票案は41件中40件が否決。データセンターを「重要な投票要因」と答えた有権者は全体の半数以上に達した。\n\n南カリフォルニア大学の調査では、回答者の71%が「大手テクノロジー企業はデータセンター開発で社会利益を考えていない」と回答。Anthropicが公開企業化することで、今後より厳しい監視にさらされる見込みだ。",
+    "tags": [
+      "Anthropic",
+      "IPO",
+      "AI企業"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
+    "importance": 5,
+    "image_query": "stock market trading nasdaq",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1594277427579-48d09e82cef0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzdG9jayUyMG1hcmtldCUyMHRyYWRpbmclMjBuYXNkYXF8ZW58MXwwfHx8MTc5NDA5NTg2OXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Nicol",
+      "profileUrl": "https://unsplash.com/@nicoljiang?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man in black suit jacket"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:49.787Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-02",
+    "headline": "Anthropic、AI自動化で研究速度が大幅に加速",
+    "lead": "METRの独立評価が判明：加速度の約80%はAIが直接担当。研究開発が1.5～2.8倍に加速。",
+    "body_markdown": "AI研究機関METRが、Anthropicを訪問調査した結果を公表した。同社のAI研究開発の速度が2024〜2025年比で1.5倍～2.8倍に加速していることが明かになった。推定中央値は約2倍。\n\n速度向上の約80%をAIシステムが直接担当している。Claudeエージェントが実験管理、モデルエラー診断、合成訓練データ生成、ベンチマーク検証を自動実行。従業員はコーディング、実験、実装、データ分析など多くの研究タスクでClaudeを活用しているという。\n\nMETRの評価は高いアクセス権下で実施され、AI技術の急速進展と極めてリスクの高い能力が近い将来に出現する可能性を検証した。ただしMETRは「AIはまだ、モデル訓練パイプラインの最も重要な部分で完全に自立した貢献をしていない」と注記している。",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI自動化"
+    ],
+    "section": "AI",
+    "source": "METR",
+    "link": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+    "importance": 5,
+    "image_query": "artificial intelligence machine learning research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1770169272345-9636d5ef2681?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMG1hY2hpbmUlMjBsZWFybmluZyUyMHJlc2VhcmNofGVufDF8MHx8fDE3OTQwOTU4NzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zach M",
+      "profileUrl": "https://unsplash.com/@zachmmalin?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "The letters ai glow with orange light",
+      "description": "Just an image that says \"AI\" - not actually made with AI."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:50.643Z",
+    "publishedAt": "2026-11-05T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-03",
+    "headline": "パラグアイ大統領、銀行危機で罷免・自宅軟禁へ",
+    "lead": "Ueno Bankの崩壊で人口の60%が口座ロック。Santiago Peña大統領は信任違反で弾劾。",
+    "body_markdown": "南米パラグアイの政治的危機が深刻化した。Santiago Peña大統領が上院の弾劾投票により罷免され、自宅軟禁となった。1989年の独裁体制終焉以来、弾劾で罷免された大統領は今回が2人目。\n\n危機の引き金は大手デジタルレンダーUeno Bankの崩壊だ。わずか5年で無名の金融会社から一般名となった同行は、パラグアイの成人人口の60%以上を顧客に抱えていた。中央銀行が同行を接収した結果、国民のほぼ半分が銀行口座へのアクセスを失った。\n\nPeña大統領は信任違反、政治的影響力行使、職権乱用の容疑で告発されており、最重罪は懲役10年に相当。同行はPeña関連企業に1億4,600万ドル相当のローンを供与していたとされ、政治家による銀行支配が危機の温床だったと指摘されている。",
+    "tags": [
+      "パラグアイ",
+      "銀行危機",
+      "弾劾"
+    ],
+    "section": "国際・地政学",
+    "source": "Washington Post",
+    "link": "https://www.washingtonpost.com/world/2026/11/05/paraguays-president-out-after-bank-implosion-freezes-millions-accounts/",
+    "importance": 5,
+    "image_query": "political crisis bank collapse",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1764983432249-ec5965fc01be?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxwb2xpdGljYWwlMjBjcmlzaXMlMjBiYW5rJTIwY29sbGFwc2V8ZW58MXwwfHx8MTc5NDA5NTg3MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Leo_Visions",
+      "profileUrl": "https://unsplash.com/@leo_visions_?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "The bank of california facade with columns"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:51.357Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-04",
+    "headline": "米国、イラン核情報提供に2,000万ドルの報酬を発表",
+    "lead": "核施設・装置・科学者の情報提供を募集。1984年開設の報奨金制度を活用。",
+    "body_markdown": "米国国務省がイランの核プログラム関連情報の提供に対し、最大2,000万ドルの報酬を提示すると発表した。「Rewards for Justice」プログラムを通じた募集で、同プログラムは1984年にアメリカの生命と国益を保護する情報を募集するため設立された。\n\n対象情報は、イランの核施設、装置、関連人員（特に科学者コミュニティ）の所在地や移動に関するもの。提供者には2,000万ドルの現金報奨のほか、米国への再定住の可能性も提示されている。\n\n公表時期は、イラン戦争が継続し、核交渉がイランとの対話の中心課題となっている局面。イランは最近、自国の核能力が強化されていると主張している一方で、米国側はイランの核開発に強い懸念を持ち続けている。この報奨金制度の再活性化は、両国の緊張状態を象徴している。",
+    "tags": [
+      "イラン",
+      "核問題",
+      "米国"
+    ],
+    "section": "国際・地政学",
+    "source": "Euronews",
+    "link": "https://www.euronews.com/2026/11/07/us-offers-20-million-reward-and-possible-relocation-for-information-on-irans-nuclear-progr",
+    "importance": 5,
+    "image_query": "nuclear facility international politics",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1630142895963-6996ae6b3a5b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxudWNsZWFyJTIwZmFjaWxpdHklMjBpbnRlcm5hdGlvbmFsJTIwcG9saXRpY3N8ZW58MXwwfHx8MTc5NDA5NTg3MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Lukáš Lehotský",
+      "profileUrl": "https://unsplash.com/@llehotsky?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "gray concrete towers under white clouds and blue sky during daytime"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:51.972Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-05",
+    "headline": "GPU供給不足、2030年まで継続へ　メモリ争奪で激化",
+    "lead": "DRAM価格が400%上昇、AI向けHBMの需要がPC市場を圧迫。業界首脳は「4〜5年」と予測。",
+    "body_markdown": "グラフィックスプロセッサー市場の供給危機が深刻化している。DRAM価格は2024年から2026年末までに400%上昇。Nvidia GeForce RTX 5090は定価1,999ドルながら、市場では4,920ドルのプレミアムが上乗せされている状況だ。\n\n根本原因はメモリ不足。AIデータセンターが高帯域幅メモリ（HBM）を大量に消費しており、従来のDRAM生産と競合している。HBMはDRAMより約30%高い利益率のため、半導体メーカーはデータセンター向けに生産をシフトさせている。\n\nSK Hynix のCEOは「業界史上最悪」の供給不足を予想し、同会長は「少なくとも4〜5年かかる」と述べた。複数のサプライヤーは既に2027年の生産能力の75〜80%を売却済み。一部は2028年以降の受注に注力しており、供給逼迫は2030年まで続く可能性が高い。",
+    "tags": [
+      "GPU",
+      "半導体",
+      "AI"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2309554/gpu-supply-problem-no-end-in-sight",
+    "importance": 4,
+    "image_query": "computer chip semiconductor factory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1613616631374-121ea711cc3d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMXx8Y29tcHV0ZXIlMjBjaGlwJTIwc2VtaWNvbmR1Y3RvciUyMGZhY3Rvcnl8ZW58MXwwfHx8MTc5NDA5NTg3Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ryan",
+      "profileUrl": "https://unsplash.com/@rioryan?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black and yellow rubber puzzle mat"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:52.690Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-06",
+    "headline": "ToyBlocks：ロボット学習用の制御環境をAllenAIが公開",
+    "lead": "FoundationWorldsフレームワークの第1弾。ブロック操作タスクで空間推論を評価。",
+    "body_markdown": "Allen Institute for AIが、ロボット学習・評価用の制御環境「ToyBlocks」を発表した。シミュレーション内でロボットアームとブロックを使用した物理タスクの研究が行える。「FoundationWorlds」という新フレームワークの第1弾として位置付けられている。\n\nToyBlocksは意図的にシンプルな設計ながら、ブロック間の相互作用や配置を理解する複雑な推論が求められる。テレオペレーション不要で、強化学習と運動計画により数百個のスキルデモンストレーションを並列生成できる。物理シミュレーションはNvidia Isaac Labを基盤とし、実世界に近い演算を実現している。\n\n用途は広い。ビジョン言語アクションモデル（VLA）の空間一般化テスト、マルチステップタスク計画の評価、シミュレーション訓練モデルの実ロボット検証、予測型世界モデルの検証などに活用できる。研究者は訓練データやモデル設計の変更を反復テストし、失敗要因を特定できるプラットフォームとなる。",
+    "tags": [
+      "ロボット学習",
+      "AI",
+      "シミュレーション"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/allenai/toyblocks",
+    "importance": 4,
+    "image_query": "robot arm manipulation block",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/allenai/toyblocks",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:53.178Z",
+    "publishedAt": "2026-11-06T14:00:48.000Z"
+  },
+  {
+    "slug": "20261108-07",
+    "headline": "Phonon TTS：小型モデルで高品質な多言語音声合成を実現",
+    "lead": "65〜75MBのオンデバイスモデルが音声明確性で上位。処理速度は100倍大型モデルを上回る。",
+    "body_markdown": "Hugging Faceが、小型オンデバイス音声合成モデル「Phonon TTS」を発表した。わずか65〜75MBながら、高品質な音声を生成できるのが特徴。5言語（英語、仏語、独語、西語、葡語）に対応し、100種類以上の音声を搭載している。\n\nOpenTTS Leaderboard での成績は優秀だ。音声明確性はドイツ語とスペイン語で第1位、全言語で上位3位以内を獲得。処理速度は最大100倍以上大きなモデルを上回り、CPU ストリーミングベンチマークで第1位を達成。音声初期出力時間は31m モデルで28ms、40m モデルで38ms に抑えられている。\n\n実装例は豊富だ。Apple Watchでのコーヒー醸造ガイド、iPhoneでのトレーニング支援、ブラウザゲーム字幕など、スマートフォン、ノートPC、シングルボードコンピュータ、ブラウザタブでの運用を想定。Apache 2.0ライセンスで商用利用が可能（他モデルはCC BY-NCで非商用のみ）。",
+    "tags": [
+      "音声合成",
+      "オンデバイス",
+      "TTS"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/phonon-tts",
+    "importance": 4,
+    "image_query": "voice speaker sound audio",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://huggingface.co/blog/assets/phonon-closer-look/thumbnail.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/phonon-tts",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:53.417Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-08",
+    "headline": "Palette：小型AIがスライド自動生成、企業ブランドを保持",
+    "lead": "20Bパラメータモデルが2段階設計でプレゼン制作を6〜7倍高速化。",
+    "body_markdown": "IBMリサーチが、スライドデッキ自動生成システム「Palette」を発表した。20Bパラメータの小型オープンウェイトモデルをファインチューニングして、企業独自のデザイン言語に準拠したプレゼンテーションを生成できる。所有権を保持しながらフロンティアモデルに近い品質を目指している。\n\nシステムは人間のワークフローを模倣した2段階で動作する。第1段階は「デザイナー」が、入力プランから色彩体系、タイプシステム、各スライドのレイアウトと設計根拠をJSON形式で仕様化。第2段階は「コーダー」が個別スライド仕様をpptxgenjs JavaScriptコードに変換する。各スライドのコンテキストが固定されるため並列処理が可能で、コーディング段階は6〜7倍高速化される。\n\nPresentBench での評価では経済学・教育分野で1位、トークスピーチで3位、3分野平均で2位（59.7点、NotebookLMの60.8点に次ぐ）を獲得。修復ハーネスが平均3.5ポイント上乗せし、テキスト重なりや余白不足などの生成エラーを自動修正する。",
+    "tags": [
+      "AI生成",
+      "スライド",
+      "デザイン"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+    "importance": 4,
+    "image_query": "presentation slides design template",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/63890e3843d8b0797a0ad606/5pHD09UHuAK-6OyKGKimD.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:53.647Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-09",
+    "headline": "愛知県で震度5強、官邸が危機管理室を設置",
+    "lead": "11月8日未明に地震発生。政府が情報収集と被害確認を開始。",
+    "body_markdown": "日本は11月8日未明、愛知県で震度5強の地震を観測した。気象庁の記録による地震の詳細な規模と被害状況は調査中だが、政府は迅速に対応を開始している。\n\n総理大臣官邸は地震発生から直後の午前1時7分に危機管理センター内に「官邸連絡室」を設置した。同室では情報の収集と被害確認などの対応にあたっている。官邸連絡室は、重大な事態が発生した際に政府の初期対応を調整する組織で、その設置は地震の規模または被害の深刻度を反映している。\n\n報道機関による被害の詳細は今後の調査で明らかになる見込み。政府は継続して情報を発表する予定。",
+    "tags": [
+      "地震",
+      "日本",
+      "災害対応"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261108de72266",
+    "importance": 4,
+    "image_query": "earthquake disaster building emergency",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1564662655264-f818dde0c6cf?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8ZWFydGhxdWFrZSUyMGRpc2FzdGVyJTIwYnVpbGRpbmclMjBlbWVyZ2VuY3l8ZW58MXwwfHx8MTc5NDA5NTg3NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Yves Moret",
+      "profileUrl": "https://unsplash.com/@yvesmoret?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "wrecked building after earthquake"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:54.222Z",
+    "publishedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-10",
+    "headline": "Cult.fit、Codex導入で内部アプリ20個超を開発",
+    "lead": "インドのフィットネス企業が非エンジニアチームで年10万ドル超のコスト削減。",
+    "body_markdown": "インド発のテクノロジー型フィットネス企業Cult.fitが、OpenAIのCodexを導入して業務効率化を実現した。同社はエンジニアリング標準をCodexに統一した後、エンジニアリング部門を超えて組織全体に拡張。この取り組みにより、非エンジニアチームが社内アプリケーション20個超を開発に成功している。\n\nCult.fitはインドを代表するテクノロジー型フィットネス企業。708のフィットネスセンターを77都市に展開し、100万人近くのペイドメンバーを抱えている。ジムと訓練士による授業へのサブスクリプションアクセスに加え、フィットネス機器、アクセサリー、トレーニングシューズ、アクティブウェアなどのコンシューマー製品ポートフォリオを拡大中。\n\n成果は目覚ましい。年間ソフトウェア費用は10万ドル超を削減。カスタマーサポートコストは50%以上削減された。企業の成長に伴い、プロセスと複雑性の層を増やさずに運用・製品課題を解決することを目指していたCult.fitにとって、Codexはその目標達成の重要なツールとなった。",
+    "tags": [
+      "Codex",
+      "企業導入",
+      "効率化"
+    ],
+    "section": "ビジネス",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/cultfit-builds-with-codex",
+    "importance": 3,
+    "image_query": "fitness gym workout training",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:54.224Z",
+    "publishedAt": "2026-11-05T20:00:00.000Z"
+  },
+  {
+    "slug": "20261108-11",
+    "headline": "コーヒー、1日2〜3杯で寿命が大幅に延びる可能性",
+    "lead": "研究が示唆：カフェイン摂取が死亡率を劇的に低下。メカニズムは未解明。",
+    "body_markdown": "科学系メディアが報じた最新研究によれば、1日2〜3杯のコーヒー摂取が寿命の延伸と相関があるという。研究は大規模な人口調査に基づくもので、カフェイン摂取が死亡率を劇的に低下させる可能性を示唆している。\n\nコーヒーの健康効果は従来の「カフェインの悪影響」というイメージを覆すものだ。複数の疫学研究がコーヒー消費と心血管疾患、特定がん、2型糖尿病など複数の死因との負の相関を報告してきたが、今回の研究はこうした知見を統合した形になっている。\n\nメカニズムについては、カフェイン自体の効果、ポリフェノールなどの抗酸化物質、微生物叢への影響など複数の仮説が提唱されているが、因果関係はまだ完全には解明されていない。研究では、1日2杯が最適とされ、過度な摂取は効果の減少や副作用をもたらす可能性も示唆されている。",
+    "tags": [
+      "コーヒー",
+      "健康",
+      "寿命"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261105224550.htm",
+    "importance": 3,
+    "image_query": "coffee cup beverage health",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:54.226Z",
+    "publishedAt": "2026-11-05T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-12",
+    "headline": "ニュージーランド総選挙、激戦で明確な勝者なし",
+    "lead": "複数政党が拮抗。連立交渉へ。",
+    "body_markdown": "ニュージーランドの総選挙は、複数の政党が票を分け合う結果となり、明確な勝者が出ない激戦となった。最大得票率の政党にも単独政権を組成する勢力がなく、今後の連立交渉が焦点となる。\n\n同国の選挙制度は比例代表制で、1政党が過半数を獲得することは稀。このため複数政党による連立政権が一般的。今回の激戦結果は、政治的分断の深さと有権者の意思決定の多様性を反映している。\n\n今後、複数の政党が連立の可能性を模索する段階に入る。最大得票党がどの政党と組むか、または複数党による「大連立」の形成も考えられ、政権構成の交渉は数週間に及ぶ可能性がある。",
+    "tags": [
+      "ニュージーランド",
+      "選挙",
+      "政治"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC",
+    "link": "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o",
+    "importance": 4,
+    "image_query": "election voting ballot political",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1604065626882-47c3093bec11?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxlbGVjdGlvbiUyMHZvdGluZyUyMGJhbGxvdCUyMHBvbGl0aWNhbHxlbnwxfDB8fHwxNzk0MDk1ODc0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Glen Carrie",
+      "profileUrl": "https://unsplash.com/@glencarrie?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "text",
+      "description": "vote \n"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:54.859Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-13",
+    "headline": "Houthis、サウジアラビア空爆で25人以上が死亡と発表",
+    "lead": "イエメン武装勢力が犠牲者数を公表。地域紛争が継続。",
+    "body_markdown": "イエメンの武装勢力Houthisが、サウジアラビアの空爆により少なくとも25人が殺害されたと発表した。同組織はソーシャルメディアを通じて死亡者数を公開し、犠牲者への怒りと報復の意思を表明している。\n\nHouthisはイエメン北部を支配する親イラン的勢力で、サウジアラビア主導の連合軍との長年の紛争が続いている。同地域では民間人を巻き込んだ被害が繰り返され、国際人権団体からの非難を受けている。\n\n本件の空爆の詳細は不明だが、Houthisが挙げた犠牲者数が正確かどうかは独立した検証機関による確認が必要。サウジアラビアとその同盟国は、Houthisへの軍事作戦は民間人被害を最小化するため実施していると主張してきたが、多数の第三者報告書が民間人被害の継続を記録している。",
+    "tags": [
+      "イエメン",
+      "Houthis",
+      "紛争"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC",
+    "link": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo",
+    "importance": 4,
+    "image_query": "military conflict war middle east",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1683490483134-3bfd76d9d5ba?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxtaWxpdGFyeSUyMGNvbmZsaWN0JTIwd2FyJTIwbWlkZGxlJTIwZWFzdHxlbnwxfDB8fHwxNzk0MDk1ODc1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Damian Kamp",
+      "profileUrl": "https://unsplash.com/@damiankamp?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large white building with a lot of tall buildings in the background",
+      "description": "Qasr Al Hosn building in Abu Dhabi"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:55.450Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-14",
+    "headline": "AI データセンター、エネルギー・環境課題で新たな焦点",
+    "lead": "電力消費の急増と冷却需要がインフラに圧力。業界が対応策を模索。",
+    "body_markdown": "AIの急速な発展に伴い、データセンターの電力消費と環境影響が急速に増大している。Vergeの報道によれば、AIモデルの訓練と運用に必要な計算量の増加により、データセンターのエネルギー需要は記録的なレベルに達している。\n\nデータセンターの冷却には膨大な水資源も消費される。電力網の容量限界に達しつつある地域も複数出現。このため業界は、再生可能エネルギーの直接購入、冷却技術の革新、施設配置の最適化などの対応策を検討中。一部企業は原発へのエネルギー供給契約も模索している。\n\n同時に、地元コミュニティからの反発が増大している。前述の11月選挙でデータセンター関連投票案が次々と否決されたことは、国民の懸念の深さを反映している。業界は環境・地域への配慮と経済的効率のバランスを取ることが急務となっている。",
+    "tags": [
+      "AI",
+      "データセンター",
+      "エネルギー"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energ",
+    "importance": 4,
+    "image_query": "data center server room technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1790746717945-425f6e0c03bd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxkYXRhJTIwY2VudGVyJTIwc2VydmVyJTIwcm9vbSUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc5NDA5NTg3NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brecht Corbeel",
+      "profileUrl": "https://unsplash.com/@brechtcorbeel?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "White rectangular towers with copper wiring connected to a curved teal arch",
+      "description": "A miniature server architecture sits inside an organic glazed vault, revealing racks, cooling fins and layered infrastructure. This conceptual 3D cutaway brings the geometry of digital systems into a sculptural architectural setting. Copper, porcelain-white and petrol-teal materials. Close-up detail of the structure and surface."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:55.875Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-15",
+    "headline": "ヨーロッパの太古の森、従来説と異なる生態系だった",
+    "lead": "科学研究が示唆：中世ヨーロッパの森林は密生ではなく開放的。",
+    "body_markdown": "科学系メディアが報じた最新の古生態研究により、ヨーロッパの太古の森に関する従来の理解が覆される可能性が浮上した。研究者らは、中世ヨーロッパの原始森林は、これまで想定されていたような密生した樹木の連続ではなく、相当に開放的な生態系だったと示唆している。\n\n研究チームは花粉分析、炭素年代測定、考古学的証拠を組み合わせ、過去5,000年の森林植生の変化を追跡した。その結果、大草原と森林が混在する「林草原」的な風景が広がっていたと推定される。この発見は、人間の農業進展前の「手つかずの自然」というイメージの修正を迫るもの。\n\n同時に、中世以降の森林喪失がいかに劇的だったかも明確化した。研究は、自然保全戦略において「元の状態に戻す」という目標の定義の重要性を指摘している。",
+    "tags": [
+      "古生態学",
+      "ヨーロッパ",
+      "森林"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
+    "importance": 3,
+    "image_query": "forest trees nature landscape",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:55.876Z",
+    "publishedAt": "2026-11-04T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-16",
+    "headline": "イラン戦争エスカレーションリスク、中間選挙後も高止まり",
+    "lead": "民主党勝利後もイランとの軍事対立の可能性は継続。石油価格への懸念も。",
+    "body_markdown": "CNBCが報じたところによれば、米国中間選挙後も、イランとの軍事紛争へのエスカレーションリスクは高止まり状態にある。民主党の選挙での成果にもかかわらず、政治的緊張の軽減は期待しがたい。\n\nイランとの軍事対立は、石油市場への直接的な影響をもたらす可能性がある。ペルシャ湾地域の紛争エスカレーションは、グローバルな原油供給に混乱をもたらし、世界的なエネルギー価格上昇へ波及する懸念がある。これは、既に高インフレに直面している経済にとって追加的な圧力となる。\n\n複数のアナリストは、イランの核開発関連の動きと米国の対抗措置の応酬が、軍事紛争へのエスカレーション経路を形成していると指摘。外交による緊張緩和のための対話機会の創出が求められている。",
+    "tags": [
+      "イラン",
+      "米国",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/07/iran-war-midterm-election-oil-price-trump.html",
+    "importance": 4,
+    "image_query": "international conflict military geopolitics",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1616346796308-bd3e4207d222?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8aW50ZXJuYXRpb25hbCUyMGNvbmZsaWN0JTIwbWlsaXRhcnklMjBnZW9wb2xpdGljc3xlbnwxfDB8fHwxNzk0MDk1ODc2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "emran sayeed",
+      "profileUrl": "https://unsplash.com/@emransayeed?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a group of military men riding on the back of a truck",
+      "description": "The Afghan National Army Commando Corps (formerly ANA Commando Brigade; ANA Commando Battalion) is a commando force of Afghan National Army. The Commando Corps was formed from existing Infantry battalions.\n\nCopyright: Emran Sayeed"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:56.473Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-17",
+    "headline": "イスラエル大統領、ネタニヤフでなくアイゼンコットを推薦",
+    "lead": "政治的対立が激化。新たな指導体制への転換模索。",
+    "body_markdown": "イスラエルの大統領がネタニヤフ首相でなくアイゼンコット（Eisenkot）を首相推薦候補として指名した。これはイスラエル内政における重要な政治的転換の兆候を示唆している。\n\nネタニヤフ首相は過去数年、複数の司法手続きと政治的対立に直面している。アイゼンコットは前参謀総長で、軍事経歴が強く、安全保障政策に関する一定の信頼性を有する。大統領による推薦は、政治的改革と新たなリーダーシップ枠組みの探索を示唆しているが、最終的な首相決定には議会の承認が必要。\n\nこの動きは、イスラエル政治の不安定化と権力の再編成を反映している。ガザ紛争の継続とイラン関係の緊張化の中で、新たな指導体制がいかなる政策選択を行うかが、地域の安定性に大きな影響を与える可能性がある。",
+    "tags": [
+      "イスラエル",
+      "政治",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC",
+    "link": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo",
+    "importance": 4,
+    "image_query": "political leaders government politics",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1619877332538-10bfd3edcce7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8cG9saXRpY2FsJTIwbGVhZGVycyUyMGdvdmVybm1lbnQlMjBwb2xpdGljc3xlbnwxfDB8fHwxNzk0MDk1ODc2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Nik",
+      "profileUrl": "https://unsplash.com/@helloimnik?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a sticker on the side of a wooden pole",
+      "description": "The state of the UK government 2021. "
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:57.089Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-18",
+    "headline": "北極観測の科学者、温暖化速度に危機感を訴え",
+    "lead": "COP前に最新データ。北極の気温上昇は世界平均の3倍。",
+    "body_markdown": "COP（気候変動枠組み条約締約国会議）を前に、北極地域の観測研究に従事する科学者たちが、温暖化の速度が予想より速いことを警告している。最新データは、北極圏の気温上昇が世界平均の約3倍に及んでいることを示しており、科学者たちは国際社会に対し、より野心的な気候変動対策の必要性を強調している。\n\n北極の急速な温暖化は、海氷の縮小、永久凍土の融解、生態系の変化など、カスケード的な影響をもたらす。メタン放出の加速も懸念されており、さらなる温暖化のフィードバック機構が働く可能性がある。\n\n本警告は、COP交渉において、より強力な排出削減目標と適応策への投資を促す材料となる。先進国と途上国との間の気候変動責任と支援に関する議論が、今会議の焦点。北極の現状は、交渉の緊迫性を物語っている。",
+    "tags": [
+      "気候変動",
+      "北極",
+      "環境"
+    ],
+    "section": "サイエンス",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261107de72044",
+    "importance": 4,
+    "image_query": "arctic climate change ice melting",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1690150421558-b0e78fde97cf?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxhcmN0aWMlMjBjbGltYXRlJTIwY2hhbmdlJTIwaWNlJTIwbWVsdGluZ3xlbnwxfDB8fHwxNzk0MDk1ODc3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Hector John Periquin",
+      "profileUrl": "https://unsplash.com/@hectorjp?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large amount of ice floating on top of a body of water",
+      "description": "A sea of ice in Arctic Circle near Canada."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:57.667Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-19",
+    "headline": "日本、サイバー攻撃対応で法改正を検討へ",
+    "lead": "重要インフラ防御強化。国内通信情報取得が焦点。",
+    "body_markdown": "日本政府はサイバー攻撃への対応強化のため、関連法の改正を検討する方針を示した。NHKによれば、国内通信情報の取得権限の拡大が改正の焦点となる見通し。\n\n背景には、国家機関・重要インフラへのサイバー攻撃が増加・高度化していることがある。ランサムウェア、データ流出、システム破壊など、多様な脅威に対する防衛体制の強化が急務。政府は、セキュリティ機関に対し、より広範な通信情報へのアクセス権限を与えることで、攻撃検知と予防能力を高めようと考えている。\n\nただし、通信の秘密と個人情報保護との権利衝突が懸念されている。法改正には国会での議論が必要で、プライバシー保護の枠組みを維持しつつ、セキュリティ強化をいかに両立させるかが課題。",
+    "tags": [
+      "サイバーセキュリティ",
+      "日本",
+      "法改正"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261106de71963",
+    "importance": 4,
+    "image_query": "cybersecurity digital protection technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1771602849639-a4a1a16b972d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8Y3liZXJzZWN1cml0eSUyMGRpZ2l0YWwlMjBwcm90ZWN0aW9uJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzk0MDk1ODc4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mark Naberezhnykh",
+      "profileUrl": "https://unsplash.com/@nabmark?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Small digital music player on a desk",
+      "description": "A Flipper Zero portable hacking and cybersecurity device sits on a desktop in a low-light workspace setting. The illuminated LCD screen and distinctive orange navigation controls stand out against the dark background, emphasizing its compact, multifunctional design. Widely used for RFID analysis, NFC testing, and hardware interaction, the device represents ethical hacking, IoT security research, and modern cyber technology culture within a contemporary tech environment."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:58.320Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-20",
+    "headline": "ヒューマノイドロボット、家事を自動化する時代へ",
+    "lead": "実用化が進むロボット掃除機能。三星（Samsung）も参入。",
+    "body_markdown": "ロボット工学の急速な進展により、ヒューマノイドロボットが家事を自動化する時代が本格的に始まろうとしている。MIT Tech Review の報道によれば、複数の企業がロボットアームと移動能力を兼ね備えた家事ロボットの開発・導入を加速させている。\n\nロボットは従来の掃除機や食器洗い機と異なり、多目的な家事タスク（整理整頓、掃除、片付けなど）をこなせる柔軟性が特徴。ハードウェアと AI の統合により、環境認識、判断、実行能力が向上している。\n\n三星を含む大手企業の参入は、市場化の段階が近いことを示唆している。ただし、技術的課題（信頼性、安全性）、倫理的課題（労働市場への影響）、経済的課題（導入コスト）が解決される必要がある。今後数年で、家庭用ロボット市場がいかに成熟するかが、多くの業界に影響を与える可能性がある。",
+    "tags": [
+      "ロボット",
+      "AI",
+      "自動化"
+    ],
+    "section": "テクノロジー",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-",
+    "importance": 4,
+    "image_query": "humanoid robot household automation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1786700633761-b6234d87eecf?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMnx8aHVtYW5vaWQlMjByb2JvdCUyMGhvdXNlaG9sZCUyMGF1dG9tYXRpb258ZW58MXwwfHx8MTc5NDA5NTg3OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Enchanted Tools",
+      "profileUrl": "https://unsplash.com/@enchantedtools?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "An orange humanoid robot with a digital screen face displaying a cat avatar",
+      "description": "Meet the Mirokaï: humanoid robots designed to assist, engage, and inspire. Blending utility with wonder, they bring AI to life through seamless interactions, making everyday moments more magical and meaningful."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:58.929Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-21",
+    "headline": "ウクライナ人道支援拠点がロシア空爆で被害、55人死亡",
+    "lead": "ロシアが民間インフラを標的。国際社会から非難。",
+    "body_markdown": "ウクライナ東部の人道支援拠点がロシアの空爆により被害を受け、少なくとも55人が死亡した。NHKの報道によれば、同拠点は主にウクライナの避難民と民間人に医療・生活支援を提供する施設。\n\nロシア軍による民間インフラへの空爆は、ウクライナ戦争において繰り返し報告されている問題。国際人権団体と複数の国家は、民間人を対象とした攻撃はジュネーブ条約違反に相当すると指摘している。\n\nこの空爆は、ウクライナの人道的危機の深刻化を示唆している。避難民数の増加と生活支援需要の拡大の中で、人道支援インフラそのものが攻撃対象となることで、支援活動の継続が一層困難になる。国連とNGOは、当事者国に対し、民間インフラの保護と人道支援の保障を強く求めている。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "人道危機"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261107de72063",
+    "importance": 4,
+    "image_query": "conflict war humanitarian crisis",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1764757766187-f97320d2d9ef?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxjb25mbGljdCUyMHdhciUyMGh1bWFuaXRhcmlhbiUyMGNyaXNpc3xlbnwxfDB8fHwxNzk0MDk1ODc5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mohammed Ibrahim",
+      "profileUrl": "https://unsplash.com/@mohammed_ibrahim_mi?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "People stand near destroyed buildings under a clear sky",
+      "description": "Gaza - Palestine Gaza residents inspect their destroyed homes"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:59.546Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-22",
+    "headline": "新聞人事：Meta戦略責任者が退社、AI企業へ",
+    "lead": "Metaの次期方針転換を示唆。事業再編の可能性。",
+    "body_markdown": "Meta Platforms の主要幹部であるDave Wehner 戦略責任者が退社することが報じられた。同氏の去職は、Facebook/Instagramの親会社が新しい戦略方向への転換を検討していることを示唆している。\n\nWehner氏は長年 Meta の経営陣として、広告事業、AI 投資、メタバースプロジェクトなど、同社の主要事業判断に関わってきた。その退社は、同社のリーダーシップ構成の変化と新たな優先順位付けを反映している。\n\nMetaはAIへの投資を大幅に拡大してきたが、同時にメタバース事業への巨額投資が経営陣の内部でも議論の対象となっていた。Wehner氏の退社による権力の再編成がいかなる事業戦略の変更をもたらすか注視される。",
+    "tags": [
+      "Meta",
+      "AI投資",
+      "企業経営"
+    ],
+    "section": "ビジネス",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/nov/07/meta-chief-strategy-officer-dave-wehner-leaves-to-join",
+    "importance": 3,
+    "image_query": "corporate leadership business executive",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-07T23:57:59.548Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
     "slug": "20261107-18",
     "headline": "OpenAI、1.25兆ドル評価で110億ドル調達",
     "lead": "OpenAIが新たな資金ラウンドで110億ドルを調達し、企業価値が1.25兆ドルに達した。Anthropicの上場計画と並行して、AI企業の評価競争が加速している。",
