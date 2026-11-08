@@ -1,5 +1,278 @@
 [
   {
+    "slug": "20261109-01",
+    "headline": "Hugging Faceが軽量テスト「MIC」でML検証を効率化",
+    "lead": "PyTorchアップデートの見落とし事案から、圧縮モデルを用いた新テストフレームワークを導入。開発コストを削減",
+    "body_markdown": "PyTorchの注意機構（attention）アップデート後、UMT5モデルの重大バグが2ヶ月間検出されなかった教訓から、Hugging Faceが軽量テストフレームワーク「Model Integration Contracts（MIC）」を導入した。同社の88,000以上のCPUテストでも本番環境のバグを見落とし続けていたという。\n\nMICは従来の大規模テストに代わり、1,227MBのチェックポイントを66MBに圧縮した「フィクスチャ」を用意。これにMarkdownで記述された「使用例」とベースライン出力を組み合わせる仕組みだ。この軽量テスト環境をプルリクエスト時のCPU環境で実行することで、本番デプロイ前にリグレッションを効率的に検出できる。\n\n開発者はAI支援ツール「tmic」を使ってMICを作成するが、コミュニティリポジトリへの追加時には必ず人間の審査を経る。従来のテスト手法では数十万コアの計算リソースが必要だったが、MICで大幅に効率化でき、他の機械学習プロジェクトへも応用可能だ。信頼性と経済性のバランスが、ML開発の実務課題として重要さを増す中での実践的な解決策である。",
+    "tags": [
+      "AI",
+      "機械学習",
+      "開発ツール"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/transformers-mic",
+    "importance": 3,
+    "image_query": "machine learning testing code",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-08T23:46:56.541Z",
+    "publishedAt": "2026-11-03T00:00:00.000Z"
+  },
+  {
+    "slug": "20261109-02",
+    "headline": "フーシ派がサウジの石油施設攻撃、対立加速",
+    "lead": "イエメン反政府勢力がリヤドのアラムコ施設を攻撃。サウジとの報復の応酬が激化し、中東の地政学的緊張が高まる",
+    "body_markdown": "イエメンの親イラン勢力フーシ派は11月8日、サウジアラビアの首都リヤドにある国営石油会社サウジアラムコの施設を攻撃したと発表した。金融街の超高層ビル「アラムコタワー」が標的となり、破片による限定的な被害が出たが、死傷者はない。\n\nサウジとフーシ派の対立は一段と激化している。10月にはアラムコのダーラン本社も標的となり、最近の攻撃は対象をサウジの金融中心地・リヤドにまで拡大させた。アラムコは世界最大級の石油企業で、サウジ経済の根幹をなす。\n\n一方、サウジの支援を受けるイエメン暫定政権側の軍事当局は7日、対フーシ派作戦「イエメンの夜明け」を継続中で、フーシ派の約130人を殺害したと発表した。両陣営の報復の応酬が激化する中、民間施設への被害拡大が懸念される。この紛争はイランとサウジの代理戦争としての側面も持ち、中東の地政学的リスク要因となっている。",
+    "tags": [
+      "サウジアラビア",
+      "イエメン",
+      "中東紛争"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261109de72663",
+    "importance": 4,
+    "image_query": "oil refinery pipeline middle east",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1674003487146-526b7beb0c41?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8b2lsJTIwcmVmaW5lcnklMjBwaXBlbGluZSUyMG1pZGRsZSUyMGVhc3R8ZW58MXwwfHx8MTc5NDE4MTYxN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "aes",
+      "profileUrl": "https://unsplash.com/@aislinns?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large pile of rocks in the middle of a desert"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T23:46:57.463Z",
+    "publishedAt": "2026-11-08T20:51:54.000Z"
+  },
+  {
+    "slug": "20261109-03",
+    "headline": "イスラエルでアイゼンコット氏に組閣指示、ネタニヤフ退場へ",
+    "lead": "反ネタニヤフ陣営の元参謀総長に組閣要請。イスラエル政治が転換点を迎える",
+    "body_markdown": "イスラエルのヘルツォグ大統領は11月8日、総選挙の結果を受け、反ネタニヤフ首相陣営を率いる中道政党ヤシャルの党首で元軍参謀総長のガディ・アイゼンコット氏に組閣を指示した。ネタニヤフ首相を上回る議員の推薦を集めたアイゼンコット氏の起用により、同首相の政治的終焉が現実性を帯びた。\n\nネタニヤフ首相は歴代最長の在任記録を持つが、ガザ紛争の長期化や司法判断に対する反発などで求心力を失っていた。新たな政権交代候補の出現は、イスラエル国内の政治的亀裂が深刻であることを示している。\n\nアイゼンコット氏は14日間の延長期間を含め最長42日以内に連立交渉をまとめる必要がある。中道・左派系の政党と右派の一部を結集できるかどうか、協議の成り行きがイスラエルの政治的安定性を左右する。パレスチナ問題への向き合い方や国際関係の構築も、新指導部の重要な課題となる。",
+    "tags": [
+      "イスラエル",
+      "政権交代",
+      "中東政治"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261109de72659",
+    "importance": 4,
+    "image_query": "government parliament politics meeting",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1762246433153-f928cc4e234a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxnb3Zlcm5tZW50JTIwcGFybGlhbWVudCUyMHBvbGl0aWNzJTIwbWVldGluZ3xlbnwxfDB8fHwxNzk0MTgxNjE3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Neon Wang",
+      "profileUrl": "https://unsplash.com/@neonwangphotography?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Empty parliamentary chamber with rows of seats"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T23:46:58.073Z",
+    "publishedAt": "2026-11-08T20:48:50.000Z"
+  },
+  {
+    "slug": "20261109-04",
+    "headline": "GoogleのAI10月更新：Gemini 4 ArgonとGenie 4が登場",
+    "lead": "複雑コーディングと金融分析に特化したGemini 4 Argon、物理演算強化のGenie 4をリリース。AI能力の多層化が加速",
+    "body_markdown": "Googleは10月、複数の注目すべきAI更新を発表した。最新モデルのうち「Gemini 4 Argon」は複雑なコーディング、金融分析、法律関連の業務に最適化され、Google CloudとGeminiアプリを含む複数のプラットフォームでグローバル展開された。\n\nさらに先進的なGemini 4 Carbonはサイバーセキュリティと長期エンジニアリングタスクに特化し、プレリリーステスト段階にある。ゲーム開発向けのGenie 4は、リアルタイムの対話的ワールドシミュレーション機能を備え、物理演算、人間の動きの精密性、ネイティブオーディオ対応を強化した。\n\nセキュリティ面ではSynthID Detectorをグローバル展開し、AI生成画像・動画・音声の識別を支援。ハードウェアではGoogle Fitbit Edgeを「最先端フィットネストラッカー」として投入し、7日間のバッテリ持続とGemini搭載ヘルスコーチングを実現。量子計算では「魔法状態培養」技術でエラーを約40倍削減する成果も報告された。各領域での多層的な進化は、AIの実用化が一層加速していることを示している。",
+    "tags": [
+      "AI",
+      "Google",
+      "Gemini"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+    "importance": 3,
+    "image_query": "artificial intelligence technology innovation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-08T23:46:58.076Z",
+    "publishedAt": "2026-11-02T17:45:00.000Z"
+  },
+  {
+    "slug": "20261109-05",
+    "headline": "Nvidia CEO調査開始：中国スパイ接触の可能性を調べ",
+    "lead": "取締役会がJensen Huang CEOについて独立調査を開始。米中技術安保の危機が浮き彫り",
+    "body_markdown": "Nvidiaの取締役会は、Chief Executive Officer（CEO）のJensen Huangが外国情報機関の標的になったとの報道を受け、独立調査を開始することを発表した。独立系取締役と外部法律顧問の委員会が調査を主導する。\n\n米国情報機関は、Megaspeed幹部のAlice Huangが中国国家安全保障部に採用され、Nvidia CEO Jensen Huangに関する情報を収集していたと判断している。中国側の狙いは、米国のAIチップに関する情報取得と、最先端GPUの中国への供給可能性を探ることだったとされる。\n\nNvidiaは声明で、Jensen HuangとAlice Huangの接触は通常のビジネス上の顧客接触であり、機密情報や国家安全保障関連情報の漏洩はなかったと主張している。一方、米議会は両院の共和党委員長3人がHuangに11月18日の非公開ブリーフィングへの出席を要求し、民主党議員も調査または証言を求めるなど、超党派的な関心を示している。当事案はAIテクノロジーの国家安全保障的な重要性を象徴している。",
+    "tags": [
+      "Nvidia",
+      "中国",
+      "米中技術安保"
+    ],
+    "section": "AI",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com",
+        "name": "CNBC"
+      }
+    ],
+    "importance": 4,
+    "image_query": "semiconductor chip technology corporate",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1586920740280-e7da670f7cb7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8c2VtaWNvbmR1Y3RvciUyMGNoaXAlMjB0ZWNobm9sb2d5JTIwY29ycG9yYXRlfGVufDF8MHx8fDE3OTQxODE2MTh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Harrison Broadbent",
+      "profileUrl": "https://unsplash.com/@harrisonbroadbent?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "green and black circuit board",
+      "description": "raspberry pi zero w electronics motherboard close up"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T23:46:58.686Z",
+    "publishedAt": "2026-11-08T20:50:54.000Z"
+  },
+  {
+    "slug": "20261109-06",
+    "headline": "日越首脳会談：重要鉱物とエネルギー安保で連携",
+    "lead": "高市首相とトー・ラム共産党書記長が11月9日に会談。レアアース調達と原子力協力で共同声明へ",
+    "body_markdown": "日本の高市早苗首相は11月9日、ベトナムの最高指導者トー・ラム共産党書記長兼国家主席と東京で会談する。両首脳は会談の成果を共同声明として発表する方向で調整している。\n\n中心議題は、ベトナムが保有する希土類（レアアース）を含む重要鉱物のサプライチェーン強化協力である。日本は電池や半導体などの産業に不可欠な重要鉱物の調達ルートを多角化する狙いで、同盟国以外の資源国との関係構築を急いでいる。原子力分野での連携も含まれる。\n\n中東情勢を踏まえ、両国はエネルギーの安定供給に向けた協力も確認する見通し。日本が主導する金融支援枠組み「パワー・アジア」を通じ、アジア各国の石油備蓄体制強化についても意見を交わす予定である。同会談は、米国のエネルギー政策不確実性の中での日本の経済安全保障戦略の重要な展開を示している。",
+    "tags": [
+      "日本",
+      "ベトナム",
+      "レアアース",
+      "エネルギー安保"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261108de72624",
+    "importance": 3,
+    "image_query": "government meeting diplomacy international relations",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-08T23:46:58.688Z",
+    "publishedAt": "2026-11-08T20:32:42.000Z"
+  },
+  {
+    "slug": "20261109-07",
+    "headline": "食料品消費税1％に：参議院で11日に審議入り",
+    "lead": "高市政権の看板政策。食料品の消費税を8％から1％に引き下げる法案が参院で本格審議へ",
+    "body_markdown": "食料品の消費税減税関連法案は11月6日の衆議院本会議で採決され、自民党・維新両党などの賛成多数で可決されて参議院に送られた。参議院では与党が少数派となるため、政府・与党は野党の協力取得を目指している。\n\n現在8％の食料品消費税率を、来年4月から2年間、1％に引き下げることが法案の柱である。自動価格改定システムを有する小売店では販売価格引き下げが見込まれ、片山財務相は「食料品の販売価格が下がる見通し」を示している。\n\n中低所得者層向けの所得連動給付「就業者負担軽減支援金」の対象者については、現役就業者の「3割以上」とする方針を高市首相が明らかにした。11日の参議院本会議では首相が出席して質疑が行われ、与野党の本格的な論戦が展開される見通しである。消費税政策は国民生活に直結する重要案件で、その行方が注視される。",
+    "tags": [
+      "消費税",
+      "日本政治",
+      "経済政策"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261108de72622",
+    "importance": 3,
+    "image_query": "parliament government legislation debate",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-08T23:46:58.690Z",
+    "publishedAt": "2026-11-08T20:04:28.000Z"
+  },
+  {
+    "slug": "20261109-08",
+    "headline": "JWST、Dragon銀河で104の重力レンズ星イベント検出",
+    "lead": "James Webb望遠鏡が同一銀河から過去最多の拡大恒星イベント検出。ダークマター解明へ新知見",
+    "body_markdown": "天文学者チームはJames Webb Space Telescope（JWST）を用い、約65億光年彼方のDragon銀河において104の重力レンズによって拡大された恒星イベント（CCE）を検出した。これまでの最高記録である44検出をはるかに上回り、単一銀河での検出では過去最大規模である。\n\n分析結果は青色と赤色の超巨星の数がほぼ同等（比率1）であることを示し、「進化し続ける星形成系」という構成を明らかにした。検出された恒星が比較的均等に分布する一方で、臨界曲線付近での非対称性が観察された。この分布パターンは「ファジーダークマター仮説」と一致する可能性を示唆している。\n\nただし研究者らは、この非対称性がダークマター分布ではなく、重力レンズモデルの精度不足による可能性も指摘している。今後、他の強レンズ銀河へこの分析手法を適用することで、通常の恒星とダークマター両方の研究に活用でき、宇宙構造の解明が加速するだろう。",
+    "tags": [
+      "宇宙",
+      "JWST",
+      "ダークマター"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-jwst-tracks-magnified-stellar-events.html",
+    "importance": 3,
+    "image_query": "space telescope galaxy astronomy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-08T23:46:58.692Z",
+    "publishedAt": "2026-11-08T19:20:01.000Z"
+  },
+  {
+    "slug": "20261109-09",
+    "headline": "宇宙天気が地球を脅かす：オーロラから送電網まで",
+    "lead": "太陽からの磁気嵐が上空でオーロラを輝かせる一方、地表の電力網を大きく揺らす危険性。1989年の停電から2024年の再発まで",
+    "body_markdown": "美しいオーロラの背景には、地球規模のインフラ脅威が潜んでいる。太陽がコロナ質量放出（CME）を起こすと、磁場線に沿って高エネルギー粒子が地球へ流入し、高度約90～150km上空の酸素と窒素に衝突してオーロラを発光させる。同じプロセスが大気に電流を誘導し、地表と送電線に電気的ハザードを生む。\n\n研究により、磁気圏の遠方で放出されたエネルギーが約7分後には地表に到達することが判明した。磁場の急激な変化は変圧器を損傷させ、遮断器を誘発する。1989年のケベック州停電は600万人以上を真冬に電力なしにし、2003年ハロウィーンストーム時には約5万人がスウェーデンで被害を受けた。最近では2024年5月の地磁気嵐がスウェーデン南部の送電線を遮断した。\n\n重要なのは、見える北極光の位置と地表での被害が一致しないという点だ。局所的な地質・大気条件が電力網の脆弱性を決定する。宇宙天気監視の充実と、送電インフラの耐性強化が、社会基盤の安定化に不可欠である。",
+    "tags": [
+      "宇宙天気",
+      "太陽嵐",
+      "インフラ"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-space-weather-powers-auroras-sky.html",
+    "importance": 3,
+    "image_query": "aurora lights sky natural phenomenon",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-08T23:46:58.694Z",
+    "publishedAt": "2026-11-08T19:00:01.000Z"
+  },
+  {
+    "slug": "20261109-10",
+    "headline": "ElvisとEminemの権利者、AI音楽生成Sunoを提訴",
+    "lead": "著作権侵害と声のクローン化に対し、著名アーティストの音楽・人格権をめぐる初の大型訴訟。AI生成音楽の法的課題が顕在化",
+    "body_markdown": "Elvis Presley音楽の権利保有者とEminemの出版社が11月6日、AI音楽生成プラットフォームSunoに対する訴訟を連邦裁判所に同時提起した。Sunoは許可なく著名アーティストの音楽を学習データとして利用し、その音声と音楽スタイルを模倣した曲を生成しているとの指摘である。\n\nPresley訴訟はAuthentic Brands Group、Raleigh Music Publishingら複数の権利者が提起し、859件のPresley作曲を模倣されたと主張。テネシー州のELVIS法（2024年制定）を適用し、未承認での音声と画像の商用利用禁止を争点としている。\n\nEminem出版社Eight Mile Styleは別訴訟で、269作品の著作権侵害を指摘し、Sunoに約41百万ドルの損害賠償を求めている。両訴訟は著作権訴訟で「Blurred Lines」事件を担当したRichard Busch弁護士が代理している。音楽生成AIの学習データの取得方法、アーティスト人格権の保護、著作権法の適用範囲がまさに問われている。",
+    "tags": [
+      "AI",
+      "著作権",
+      "音楽生成"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+    "importance": 4,
+    "image_query": "music studio technology recording equipment",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1741745977996-d9d9047f98db?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8bXVzaWMlMjBzdHVkaW8lMjB0ZWNobm9sb2d5JTIwcmVjb3JkaW5nJTIwZXF1aXBtZW50fGVufDF8MHx8fDE3OTQxODE2MTl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Dima Zimakov",
+      "profileUrl": "https://unsplash.com/@dimazimakov?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Music production setup with computer and equipment",
+      "description": "Music Studio with Computer, MIDI Keyboard, and FL Studio in Neon Purple Light. dynamic music studio scene showing a computer and monitor displaying FL Studio, with headphones resting on the MIDI keyboard. The vibrant purple neon lighting creates an energetic and creative ambiance, perfect for electronic music production"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T23:46:59.204Z",
+    "publishedAt": "2026-11-08T17:23:19.000Z"
+  },
+  {
+    "slug": "20261109-11",
+    "headline": "COP31開幕：トルコ・アンタルヤで気候変動交渉本格化",
+    "lead": "パリ協定以後の国際気候枠組みの重要転機。トルコとオーストラリアの役割分担で新体制へ",
+    "body_markdown": "国連気候変動枠組条約第31回締約国会議（COP31）は11月9日、トルコのアンタルヤで開幕した。11月20日までの会期中、パリ協定以後の国際気候交渉の重要な転機となる。\n\n本COP31の最大の特徴は、開催国トルコとオーストラリアが役割を分担する新体制である。トルコは議長国・開催国として会議全体と首脳サミット（11月11～12日予定）を主催し、オーストラリアは交渉面で主導的役割を担う。テーマ別デーとして、11月9日は食料・農業・健康、11月10日はエネルギー・交通、11月11日はゼロウェイスト、11月12日はレジリエント・シティと建築環境が設定されている。\n\n主要議題は「緩和」ルールの継続要否検討、COP30で合意した「公正な移行メカニズム」のあり方再検討、カーボンクレジット市場化に関するパリ協定第6条の実装などである。先進国と発展途上国の立場対立が深く、足並みが揃う見通しは不透明である。",
+    "tags": [
+      "気候変動",
+      "国連",
+      "パリ協定"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261108de72385",
+    "importance": 3,
+    "image_query": "climate conference sustainability environment",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-08T23:46:59.206Z",
+    "publishedAt": "2026-11-08T18:00:00.000Z"
+  },
+  {
+    "slug": "20261109-12",
+    "headline": "ポーランド・クラクフで銃乱射6人死亡、容疑者がテロ容疑で捜査へ",
+    "lead": "24歳男が歴史地区で無差別発砲。極右思想傾倒が背景か。同国数十年ぶりの大型事件",
+    "body_markdown": "ポーランド第2の都市クラクフの歴史地区で11月7日、24歳の男が銃を乱射し、6人が殺害された。少なくとも15人が負傷し、同国が数十年で経験した最大規模の銃撃事件となった。\n\n容疑者の男はクラクフの中央市場広場に車で乗り入れ、無差別に発砲した。当初は容疑者の自宅で女性2人と男性1人の遺体が追加で発見された。被害者には英国人1人も含まれている。容疑者は極右思想に傾倒していた可能性が指摘されている。\n\nトゥスク首相は事件を「テロ行為」と命名し、国として2日間の喪に服すと発表。現地検察は拘束された容疑者についてテロ容疑での捜査を開始した。事件の政治的・思想的背景の調査が焦点となり、ポーランド社会における右翼過激思想の浸透と対処が重要課題として浮き彫りになった。",
+    "tags": [
+      "ポーランド",
+      "テロ",
+      "銃乱射"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261109de72678",
+    "importance": 3,
+    "image_query": "street scene city urban architecture",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-08T23:46:59.208Z",
+    "publishedAt": "2026-11-08T20:44:56.000Z"
+  },
+  {
     "slug": "20261108-23",
     "headline": "欧州31カ国で1700件超のデモ、フランスが主導—生活費高騰に抗議",
     "lead": "フランスで始まった反生活費デモが9月中盤から10月にかけて欧州全域に波及。31カ国で1700件超のデモが開催された。",
