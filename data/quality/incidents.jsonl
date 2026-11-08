@@ -300,3 +300,5 @@
 {"ts":"2026-11-07T09:33:40.325Z","type":"judge_absent","cause":"verdict_unusable","stage":"ingest","reason":"不正な JSON です: Expected ',' or ']' after array element in JSON at position 2216 (line 59 column 24)","kept":"data/quality/_review-failed-20261107T093340Z.json"}
 {"ts":"2026-11-07T21:07:08.283Z","type":"candidates","total":365,"pool":140,"skippedWeak":13,"skippedIrrelevant":6,"enriched":3}
 {"ts":"2026-11-07T23:13:20Z","type":"draft_lint","flagged":1,"drafts":23}
+{"ts":"2026-11-08T09:01:50.161Z","type":"candidates","total":357,"pool":140,"skippedWeak":9,"skippedIrrelevant":6,"enriched":2}
+{"ts":"2026-11-08T09:09:42Z","type":"draft_lint","flagged":1,"drafts":17}

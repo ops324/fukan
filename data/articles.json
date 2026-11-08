@@ -1,5 +1,479 @@
 [
   {
+    "slug": "20261108-23",
+    "headline": "欧州31カ国で1700件超のデモ、フランスが主導—生活費高騰に抗議",
+    "lead": "フランスで始まった反生活費デモが9月中盤から10月にかけて欧州全域に波及。31カ国で1700件超のデモが開催された。",
+    "body_markdown": "2026年9月中旬から10月末にかけて、フランスで始まった反生活費デモが欧州全域に広がった。Al Jazeera による報道によると、この期間に欧州31カ国で1700件を超えるデモが開催されたという。\n\nフランスが圧倒的多数で1200件超のデモを占め、スペイン（173件）、イタリア（160件）、ドイツ（70件）、ポルトガル（33件）が続く。デモ参加者は生活費上昇、低賃金、住宅高騰、公共サービスと教育の不足に抗議した。\n\nフランスではこの運動が異例の規模に達している。通常は1日あたり20.5件程度のデモに対し、今回は66件と3倍超。10月17日には50万人超が一度に集結し、一部デモは暴動化した（全体の24.2%）。ただし11月に入り参加規模は鎮静化しつつある。",
+    "tags": [
+      "フランス",
+      "欧州",
+      "デモ",
+      "生活費",
+      "労働"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/11/8/mapping-how-frances-protest-wave-spread-across-europe",
+    "importance": 5,
+    "image_query": "protest demonstration crowd street",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1792944526661-99278b93e350?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxwcm90ZXN0JTIwZGVtb25zdHJhdGlvbiUyMGNyb3dkJTIwc3RyZWV0fGVufDF8MHx8fDE3OTQxMjk0Nzl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Erwan Martin",
+      "profileUrl": "https://unsplash.com/@zewaren?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A large crowd of people marching in a street with colorful balloons and protest signs",
+      "description": "11,500 people demonstrated on October 24 in the streets of Rennes (Brittany) to protest the policies of Emmanuel Macron and his remarks made earlier in the week. The mood was good. A brass band livened up the crowd, and the parade proceeded in calm."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:00.149Z",
+    "publishedAt": "2026-11-08T08:18:38.000Z"
+  },
+  {
+    "slug": "20261108-24",
+    "headline": "AIデータセンターの廃熱、北欧で地域暖房に活用—消費電力3%削減へ",
+    "lead": "AIデータセンターの電力消費が世界で2024年に1.5%、2030年に3%に上昇する見通しの中、デンマークなど北欧がデータセンターの廃熱を地域暖房に転用。",
+    "body_markdown": "AIデータセンターの膨大な電力消費が世界的な課題になる中、北欧諸国が廃熱の有効利用を進めている。Al Jazeera の報道による。\n\n2024年、AIデータセンターは世界の電力需要の1.5%（485テラワット時）を消費。これはドイツ全体の発電量に相当する。エネルギー調査機関の試算では、2030年にはこれが世界電力需要の3%にまで倍増するという。\n\nデンマークの企業は、データセンターから発生する熱を液体冷却システムで回収し、地域暖房ネットワークに供給する技術を開発した。Meta がOdense に持つデータセンターは年100ギガワット時の熱を回収。これは6900戸の家庭分に相当する。Stockholm は2014年からデータセンター熱を地域暖房に利用している。米国はデータセンター4000施設以上を抱えながら、廃熱回収はほぼ進んでいない。",
+    "tags": [
+      "AI",
+      "エネルギー",
+      "データセンター",
+      "北欧",
+      "環境"
+    ],
+    "section": "AI",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/features/2026/11/8/as-ai-data-centres-guzzle-energy-can-we-harness-waste-heat",
+    "importance": 4,
+    "image_query": "data center servers cooling system",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1790746717373-1226c4697974?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8ZGF0YSUyMGNlbnRlciUyMHNlcnZlcnMlMjBjb29saW5nJTIwc3lzdGVtfGVufDF8MHx8fDE3OTQxMjk0ODB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brecht Corbeel",
+      "profileUrl": "https://unsplash.com/@brechtcorbeel?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A group of server towers connected by orange cables under a translucent dome",
+      "description": "A miniature server architecture sits inside an organic glazed vault, revealing racks, cooling fins and layered infrastructure. This conceptual 3D cutaway brings the geometry of digital systems into a sculptural architectural setting. Coral and graphite materials. Oblique three-quarter composition."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:00.703Z",
+    "publishedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-25",
+    "headline": "Google、Wyoming のデータセンタープロジェクトを Crusoe から買収—AI拠点強化へ170億ドル投資",
+    "lead": "Crusoe社がGoogleに未完成のWyomingデータセンタープロジェクトを売却。Googleは170億ドル追加投資で完成させる計画。",
+    "body_markdown": "Denver を拠点とするデータセンター開発企業 Crusoe が、Wyoming のデータセンタープロジェクトを Google に売却したと TechCrunch が報道した。売却価格は非開示。\n\nこのプロジェクトは当初、Blackstone 傘下の Tallgrass と Crusoe の共同で、最大10ギガワット規模への拡張を計画していた。Google は顧客となる予定だったが、建設コストと工期について懸念を表明。その後、プロジェクトの主導権を握ることで対応した。\n\nGoogle は Wyoming での投資規模を170億ドルと発表。この大幅な増資は、独立系企業が巨大インフラ事業を予算・工期内で完成させることの難しさを浮き彫りにしている。ただし Crusoe と Google の関係は継続。Crusoe は Texas の Amarillo 近郊でも Google 向けデータセンター開発を進めており、Microsoft、Oracle、OpenAI、Meta も顧客である。",
+    "tags": [
+      "Google",
+      "AI",
+      "インフラ",
+      "データセンター"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+    "importance": 4,
+    "image_query": "data center construction building",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1484253292651-6e940b0a0e26?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxkYXRhJTIwY2VudGVyJTIwY29uc3RydWN0aW9uJTIwYnVpbGRpbmd8ZW58MXwwfHx8MTc5NDEyOTQ4MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "jesse orrico",
+      "profileUrl": "https://unsplash.com/@jessedo81?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man holding black DSLR camera",
+      "description": "Photographing Filming"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:01.261Z",
+    "publishedAt": "2026-11-06T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-26",
+    "headline": "Merge が ChatGPT・Codex で企業向け統合プラットフォーム—データシンクと AI エージェント",
+    "lead": "OpenAI と提携する Merge が、GPT-6 Astra など複数 AI を活用し、企業システムとの連携プラットフォームを提供。",
+    "body_markdown": "Merge は OpenAI と提携し、GPT-6 Astra・ChatGPT・Codex を統合した企業向けプラットフォームを展開している。同社は顧客データの同期から、AI エージェントがビジネスシステムを横断して操作できる環境まで、一連のツールを提供する。\n\nMerge Unified により顧客データの接続、Merge Agent Handler で AI エージェントへのツールアクセス制御、Merge Gateway でモデルのルーティングと費用管理を実現。さらに従業員向けの Merge for Workforce では、チームがアクセス可能なモデル・ツール・システムを一元管理できる。CEO の Shensi Ding は Codex を用いた社内コード審査に言及。",
+    "tags": [
+      "OpenAI",
+      "AI",
+      "企業ツール",
+      "ChatGPT",
+      "エージェント"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/merge-builds-with-openai",
+    "importance": 4,
+    "image_query": "programming code screen",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1ioOJt6IEab7sdVSiBFTET/fb2a79d20b4639407ca0b35af68a443c/og.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/merge-builds-with-openai",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:01.486Z",
+    "publishedAt": "2026-11-05T08:00:00.000Z"
+  },
+  {
+    "slug": "20261108-27",
+    "headline": "Dharma Field Extractor、文書から JSON へ自動抽出—請求書や身分証の情報取得",
+    "lead": "Hugging Face が20億パラメータの文書抽出モデルをリリース。請求書・医療文書・契約書などから構造化データを高速・低費用で抽出。",
+    "body_markdown": "Hugging Face が Dharma Field Extractor を公開した。20億パラメータの専用モデルで、あらゆる文書タイプから構造化フィールドを JSON 形式で抽出する。\n\nオープンモードではスキーマなしで文書を分析し、検出可能なすべてのキーバリューペアを返す。スキーマ指定モードではユーザーが指定した正確な形式に従い、必要なフィールドのみを抽出。対応文書は請求書・領収書・身分証・医療文書・銀行明細書・契約書など多岐。多言語対応で英語・ブラジルポルトガル語・欧州・アジア言語に対応している。\n\nClaude Opus 5 や各種 GPT モデルを上回る性能を持ちながら、実行コストは 6〜147倍低いとのこと。",
+    "tags": [
+      "Hugging Face",
+      "AI",
+      "文書処理",
+      "JSON",
+      "モデル"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+    "importance": 4,
+    "image_query": "document form receipt bill",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/c1ik58RednXjcqrx5s2Fo.png",
+      "credit": "Hugging Face",
+      "creditUrl": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:01.735Z",
+    "publishedAt": "2026-11-04T17:50:10.000Z"
+  },
+  {
+    "slug": "20261108-28",
+    "headline": "マルチエージェント AI 設計の15パターン、GitHub・Google・Siemens が実装—エージェント間連携の最適化",
+    "lead": "GitHub・Google・Siemens の事例から、複数 AI エージェントの連携設計パターンを体系化。データ一貫性と信頼性を重視。",
+    "body_markdown": "複数の AI エージェントを効果的に連携させるための設計パターンが体系化された。GitHub・Google・Siemens の実装を基に15パターンが整理されている。\n\n主な課題はエージェント間でのデータ一貫性の維持、アクション仕様の明確化による幻覚の防止、複雑なワークフロー内での順序処理、適切なエージェントへのリクエストルーティング、結果の集約を伴う並列実行、大規模問題の階層的分解。\n\nGitHub はスキーマ検証と Model Context Protocol（MCP）による構造化通信を強調。Google は連続パイプライン、コーディネーター・ディスパッチャーモデル、人間が判断を入るループを実装。Siemens の「Knowledge Fabric」はレガシーシステム最新化の際、コード・ドキュメント・プロジェクト管理ツールを接続し、複雑なコードベースをエージェントが理解した上で変更提案できるようにしている。",
+    "tags": [
+      "AI",
+      "マルチエージェント",
+      "GitHub",
+      "Google",
+      "Siemens"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI+",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html",
+    "importance": 4,
+    "image_query": "programming code screen",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1555066931-bf19f8fd1085?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMXx8cHJvZ3JhbW1pbmclMjBjb2RlJTIwc2NyZWVufGVufDF8MHx8fDE3OTQxMjk0ODF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Arnold Francisca",
+      "profileUrl": "https://unsplash.com/@clark_fransa?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "turned-on grey laptop computer"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:02.183Z",
+    "publishedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-29",
+    "headline": "拉致被害者家族が都内で大規模集会—高市総理参加、具体的対応を要請",
+    "lead": "北朝鮮による拉致被害者の家族と支援者が東京で大規模集会。高市総理大臣が参加し、政府に具体的な被害者帰国方針を求める。",
+    "body_markdown": "北朝鮮による拉致被害者の家族と支援者らが11月8日、都内で大規模な集会を開催した。高市総理大臣が参加する中、一刻も早いすべての被害者の帰国に向けた政府の具体的な取り組みを求める声が上がった。\n\n家族会から、政府に対して新たな外交交渉の進展や具体的な救出方針の明確化を望む意見が述べられた。この問題は日本の長年の懸案であり、総理大臣の集会参加は政府の優先課題としての位置付けを示しているとみられる。",
+    "tags": [
+      "政治",
+      "北朝鮮",
+      "拉致",
+      "政府"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261108de72485",
+    "importance": 5,
+    "image_query": "protest demonstration gathering",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1591625991934-ce6df113294d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxwcm90ZXN0JTIwZGVtb25zdHJhdGlvbiUyMGdhdGhlcmluZ3xlbnwxfDB8fHwxNzk0MTI5NDgyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "James Eades",
+      "profileUrl": "https://unsplash.com/@eadesstudio?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "people gathering on street during daytime",
+      "description": "Black Lives Matter London Protest, 6th June 2020."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:02.899Z",
+    "publishedAt": "2026-11-08T08:48:00.000Z"
+  },
+  {
+    "slug": "20261108-30",
+    "headline": "消費税減税法案が衆議院通過—参議院へ。自民・維新など賛成多数",
+    "lead": "食料品の消費税減税を巡る法案が、自民党と日本維新の会などの賛成多数で衆議院を通過し、参議院での審議に進む。",
+    "body_markdown": "食料品に対する消費税減税法案が衆議院を通過した。自民党と日本維新の会などの賛成多数により可決された。法案は今国会の最大の焦点の一つとなっており、参議院での審議へ進むことになる。\n\n法案の内容は食料品の消費税減税に関わる制度設計を含んでおり、小林自民党政調会長は「制度イメージがわく審議」の必要性を強調している。今後参議院での議論が本格化する見通し。",
+    "tags": [
+      "政治",
+      "経済",
+      "消費税",
+      "食料品"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261108de72482",
+    "importance": 4,
+    "image_query": "parliament legislation government",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1762325426611-c7a51b65c0ff?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8cGFybGlhbWVudCUyMGxlZ2lzbGF0aW9uJTIwZ292ZXJubWVudHxlbnwxfDB8fHwxNzk0MTI5NDgzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Natalie Dunn",
+      "profileUrl": "https://unsplash.com/@nataliesphotography?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "European union flag on modern building facade",
+      "description": "Close up photography of the front of the European Parliament building in Brussels, featuring the EU flag and parliament logo."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:03.484Z",
+    "publishedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-31",
+    "headline": "小泉防衛相、自衛隊の統合組織化を検討—陸海空の垣根を越える",
+    "lead": "小泉防衛相が、陸上・海上・航空自衛隊の組織的な統合・融合を検討する方針を示唆。",
+    "body_markdown": "小泉防衛相は、陸上・海上・航空自衛隊の組織上の垣根を越えた運用体制の在り方を検討する旨を明かした。NHK の報道による。\n\n検討の背景には、複雑化する国防環境に対応するため、各自衛隊が有機的に連携する必要性が指摘されている。具体的な改革案は今後の協議で詰められる見通し。",
+    "tags": [
+      "政治",
+      "防衛",
+      "自衛隊",
+      "組織"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261108de72476",
+    "importance": 4,
+    "image_query": "military defense soldiers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1609692235164-394d6828466c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxtaWxpdGFyeSUyMGRlZmVuc2UlMjBzb2xkaWVyc3xlbnwxfDB8fHwxNzk0MTI5NDgzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Clay Banks",
+      "profileUrl": "https://unsplash.com/@claybanks?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "men in camouflage uniform standing near white wall",
+      "description": "The US Army outside of the Lincoln Memorial (IG: @clay.banks)"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:04.044Z",
+    "publishedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-32",
+    "headline": "Meta の戦略責任者 Dave Wehner が AI スタートアップ Fireworks へ転職—CFO に",
+    "lead": "Meta のチーフストラテジーオフィサー Dave Wehner が、AI 推論プラットフォーム Fireworks の CFO に転職。評価額は175億ドル。",
+    "body_markdown": "Meta のチーフストラテジーオフィサー Dave Wehner が、AI スタートアップ Fireworks の最高財務責任者（CFO）に転職した。Wehner は Facebook（現 Meta）に2012年入社後、2014〜2022年に CFO を務めた。\n\nFireworks は2022年設立の AI 推論・訓練プラットフォーム企業。開発者がビジネス向けにカスタマイズしたオープンソースモデルを運用できるサービスを提供している。Series D ラウンドで175億ドルの評価を受け、Nvidia と Sequoia Capital からも支援を受けている。次回調達では300〜400億ドルの評価が検討されている見込み。Wehner は「AI は人生における決定的な技術シフト」と述べており、より小規模な環境で大きなインパクトを創造したいと述べている。",
+    "tags": [
+      "ビジネス",
+      "AI",
+      "Meta",
+      "Fireworks"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html",
+    "importance": 4,
+    "image_query": "startup tech office",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzdGFydHVwJTIwdGVjaCUyMG9mZmljZXxlbnwxfDB8fHwxNzk0MTI5NDg0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Alex Kotliarskyi",
+      "profileUrl": "https://unsplash.com/@frantic?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "people doing office works",
+      "description": "Programming "
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:04.588Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-33",
+    "headline": "AI が保護主義者を自由貿易へ—技術産業で独特の経済政策転換",
+    "lead": "AI 業界の急速な発展により、従来の保護主義者が技術分野では自由貿易を支持する傾向が。一方その他産業の貿易障壁は上昇。",
+    "body_markdown": "AI 産業の台頭により、経済政策の意外な転換が起きているという。The Economist の報道による。\n\n従来、貿易保護主義を主張してきた勢力の中でも、AI・技術領域では自由貿易を強く支持する動きが出ている。これは AI 企業が全世界のタレント・データ・計算資源へのアクセスを必要とするため。一方、技術以外の産業では貿易障壁が相対的に高まっており、対照的な状況が生まれている。\n\nこの現象は、新興技術産業がもたらす政策的な矛盾と、グローバルサプライチェーンへの依存がいかに深いかを示している。",
+    "tags": [
+      "経済",
+      "AI",
+      "貿易",
+      "政治"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/11/05/ai-is-turning-protectionists-into-free-traders",
+    "importance": 4,
+    "image_query": "trading commerce business",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1616156027751-fc9a850fdc9b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMXx8dHJhZGluZyUyMGNvbW1lcmNlJTIwYnVzaW5lc3N8ZW58MXwwfHx8MTc5NDEyOTQ4NXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sajad Nori",
+      "profileUrl": "https://unsplash.com/@sajadnori?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black and red audio mixer"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:05.349Z",
+    "publishedAt": "2026-11-05T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-34",
+    "headline": "ポーランド・Krakow で銃撃事件—主要広場で6人殺害、容疑者宅で3遺体",
+    "lead": "ポーランドの古都 Krakow の中央広場で無差別銃撃事件が発生。6人が殺害され、容疑者の自宅からさらに3遺体が発見。",
+    "body_markdown": "ポーランドの古都 Krakow の主要広場で銃撃事件が発生した。BBC の報道による。\n\n事件では無差別に6人が銃撃により殺害された。その後、容疑者の自宅から3遺体が追加で発見された。容疑者は拘束されている。事件の背景や動機の詳細は調査が進む予定。事件は欧州の安全保障情勢に新たな懸念をもたらしている。",
+    "tags": [
+      "国際",
+      "ポーランド",
+      "事件",
+      "治安"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC",
+    "link": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo",
+    "importance": 4,
+    "image_query": "city square urban",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1780779561933-ac9f68cb2386?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNXx8Y2l0eSUyMHNxdWFyZSUyMHVyYmFufGVufDF8MHx8fDE3OTQxMjk0ODV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Margo Evardson",
+      "profileUrl": "https://unsplash.com/@stadinstudio?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Urban square with classical columns and colorful buildings",
+      "description": "A scenic urban view of the historic Cinema Soprus square in Tallinn, Estonia, showcasing grand neoclassical columns alongside colorful yellow and pastel European city architecture under an overcast sky. 📸 Photo by me IG: @margoevardson"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:05.938Z",
+    "publishedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-35",
+    "headline": "Flipsnack、ChatGPT 広告で登録コスト75%削減—310%増加。ターゲティング最適化",
+    "lead": "ドキュメント作成プラットフォーム Flipsnack が ChatGPT Ads を活用し、コンバージョン率最適化キャンペーンで登録コスト大幅削減。",
+    "body_markdown": "ドキュメント作成プラットフォーム Flipsnack が ChatGPT Ads キャンペーンの成功事例を報告した。OpenAI の事例紹介による。\n\n同社は ChatGPT 広告で「コンバージョン最適化」戦略を採用。従来のクリック重視キャンペーンと比べ、米国の5つのキャンペーンで登録コスト（Cost Per Registration）を約75%削減し、同時に登録数を310%増加させた。\n\nFlipsnack は静的文書をインタラクティブなデジタル体験に変換するサービス。顧客は製品カタログ・営業資料・ブローシャー・社内資料・研修教材などを作成する。マーケティング課題は「自分たちの製品がどのような業務に役立つか」を認識させることにあり、ChatGPT 広告によるターゲティング最適化がこれを解決した形。",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "マーケティング",
+      "広告"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/ads/customers/flipsnack",
+    "importance": 4,
+    "image_query": "marketing campaign digital",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn.openai.com/mdx-assets/67bd281e-a14e-4cb9-94f8-96bd17b694f6/flipsnack-printed-motion-open-graph.94ba6cde.png",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/ads/customers/flipsnack",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:06.585Z",
+    "publishedAt": "2026-11-05T00:45:15.000Z"
+  },
+  {
+    "slug": "20261108-36",
+    "headline": "ウクライナ侵攻が続く—ロシア軍とウクライナ軍が各地で戦闘。随時更新",
+    "lead": "ロシアのウクライナ軍事侵攻が継続中。ウクライナ各地でロシア軍とウクライナ軍による戦闘が続いている。",
+    "body_markdown": "ロシアによるウクライナに対する軍事侵攻が続いており、ウクライナの各地でロシア軍とウクライナ軍が戦闘を継続している。NHK NEWS の随時更新記事による。\n\n戦闘の具体的な状況、戦線の動き、人員配置などは刻一刻と変わり、詳細は当該地のリアルタイム報道に委ねられる。欧米各国による武器支援も引き続き報じられている。",
+    "tags": [
+      "ウクライナ",
+      "ロシア",
+      "軍事",
+      "侵攻"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261028de66996",
+    "importance": 5,
+    "image_query": "military conflict warfare",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1793436258009-dbe42effe68e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxtaWxpdGFyeSUyMGNvbmZsaWN0JTIwd2FyZmFyZXxlbnwxfDB8fHwxNzk0MTI5NDg2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Daniel Silva",
+      "profileUrl": "https://unsplash.com/@thesilvafocus?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Two Polish soldiers in camouflage uniforms and tactical gear sitting inside an open military vehicle",
+      "description": "Members of the Special Unit of the Military Police of Warsaw (Oddział Specjalny Żandarmeria Wojskowa w Warszawie) from the Polish Military Police (Żandarmeria Wojskowa) during the parade on Armed Forces Day in Warsaw, Poland 2024"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:07.119Z",
+    "publishedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-37",
+    "headline": "サウジアラビアがフーシ派ミサイルを迎撃—イエメン紛争は33人殺害と報告",
+    "lead": "サウジアラビアがイエメンのフーシ派によるミサイル攻撃を迎撃。一方フーシ派が連合軍空爆で民間人33人殺害と報告。",
+    "body_markdown": "サウジアラビアが Riyadh と Eastern province を狙ったフーシ派のミサイル攻撃を迎撃したと報じられている。Al Jazeera の報道による。\n\n一方、フーシ派は Sanaa 近郊の村で連合軍による空爆により33人が殺害されたと報告している。イエメン紛争は複数の陣営による対立が続いており、民間人の被害が増加している。",
+    "tags": [
+      "イエメン",
+      "サウジアラビア",
+      "紛争",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province",
+    "importance": 4,
+    "image_query": "military conflict warfare",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1661614101019-d7178381fb7e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxtaWxpdGFyeSUyMGNvbmZsaWN0JTIwd2FyZmFyZXxlbnwxfDB8fHwxNzk0MTI5NDg2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Nathan Gubler",
+      "profileUrl": "https://unsplash.com/@nathan_gubler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a couple of men walking on a hill with guns"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:07.135Z",
+    "publishedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-38",
+    "headline": "NASA が月面基地プロジェクトに投資—核動力ローバーと商用ロボット配送",
+    "lead": "NASA が月面基地の探査能力を強化するため、複数の商用プロジェクトに投資。核動力ローバーと自動配送サービスが対象。",
+    "body_markdown": "NASA が月面基地の探査・科学・インフラ能力拡大に向けた複数の投資・ミッション更新を発表した。NASA の発表による。\n\n投資対象は商用ロボット配送、PROMISE と名付けられた核動力ローバー、打ち上げと軌道投入サービス、表面インフラなど。これらは米国の民間企業と協力し、月面での継続的な有人活動基盤を構築する戦略の一部。核動力による移動能力の拡張と自動供給ラインが、月面での人間の活動範囲を大幅に広げると見込まれている。",
+    "tags": [
+      "NASA",
+      "月面基地",
+      "宇宙開発",
+      "ロボット"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+    "importance": 4,
+    "image_query": "rocket launch spacecraft",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://www.nasa.gov/wp-content/uploads/2026/11/moon-base-artists-concept.jpg",
+      "credit": "NASA",
+      "creditUrl": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:07.203Z",
+    "publishedAt": "2026-11-07T00:00:00.000Z"
+  },
+  {
+    "slug": "20261108-39",
+    "headline": "トルコ国籍者の強制退去が急増—UK Home Office が Windrush 型ミスに批判",
+    "lead": "英国で ECAA ビザ保持者（トルコ国籍）の強制退去申し立てが急増。Home Office の行政処理ミスが Windrush スキャンダルとの類似性を指摘。",
+    "body_markdown": "英国内でトルコ国籍者のビザ拒否が急増しており、Home Office（内務省）の行政対応に批判が集まっている。The Guardian の報道による。\n\n対象は ECAA（European Community Association Agreement）ビザ保持者。このビザは英国でビジネスを開く目的で取得したトルコ国籍者への長年の定住ルート。ただし年初以降、無期限居住権（Indefinite Leave to Remain）の申請却下が急増している。\n\n行政処理に誤りがあるとの指摘があり、労働党の David Lammy 議員ら複数の政治家が Home Office に対して問題解決を求めている。この事例は 2018年の Windrush スキャンダル（カリブ系市民への不当な強制退去）との類似性があると指摘されており、行政の透明性と正確性が問われている。",
+    "tags": [
+      "英国",
+      "イミグレーション",
+      "Home Office",
+      "行政"
+    ],
+    "section": "国際・地政学",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/politics/2026/nov/08/turkish-nationals-uk-indefinite-leave-to-remain-home-office-windrush",
+    "importance": 4,
+    "image_query": "government building parliament",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1760872645824-0ba29c51950a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMnx8Z292ZXJubWVudCUyMGJ1aWxkaW5nJTIwcGFybGlhbWVudHxlbnwxfDB8fHwxNzk0MTI5NDg3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zoshua Colah",
+      "profileUrl": "https://unsplash.com/@zoshuacolah?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Grand building with domes and manicured gardens",
+      "description": "The Secretariat Building in New Delhi, comprising the North and South Blocks, houses key ministries of the Indian government, including the Prime Minister’s Office and the Ministry of Finance. Designed by Sir Herbert Baker and completed in 1931, the twin structures exemplify Lutyens-era colonial architecture with red and cream sandstone facades, domes, and colonnades. Standing atop Raisina Hill facing Rashtrapati Bhavan, the buildings symbolize India’s administrative power and the enduring legacy of New Delhi’s early 20th-century design."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-08T09:18:07.816Z",
+    "publishedAt": "2026-11-08T00:00:00.000Z"
+  },
+  {
     "slug": "20261108-01",
     "headline": "Anthropic上場、AI電力反発で企業評価が半減",
     "lead": "AIデータセンター否決が相次ぐ中、Anthropicの上場企業価値は当初20億ドルから10〜15億ドルに下方修正。",
