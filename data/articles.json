@@ -1,5 +1,480 @@
 [
   {
+    "slug": "20261109-13",
+    "headline": "Google、コード不要のカスタムゲーム作成プラットフォーム「Playground」実験開始",
+    "lead": "テキストプロンプトだけでブラウザ上にゲームを作成・プレイ・共有できる実験的プラットフォームが米国で公開開始。",
+    "body_markdown": "Google Playgroundは、プログラミング経験がない利用者でもテキスト指示だけでカスタムゲームを制作できる実験的プラットフォームである。白紙から始めるか、スターターテンプレートをリミックスするか、ガイド付きサポートで進めることが可能。作成したゲームは非公開に保つ、友人と共有、あるいはギャラリーで公開できる。ブラウザベースで、スマートフォンやノートパソコンからアクセス可能。\n\n同プラットフォームは2026年10月7日に米国（18歳以上）で提供を開始した。Googleはゲーム制作の参入障壁を下げ、アイデアを現実化する手段を広げることを狙いとしている。今後は3D制作機能やプロフェッショナル向けゲーム開発機能を統合する予定で、ゲーム制作エンジンのUnity Sparkとの連携が計画されている。\n\nこの施策はAIの民主化—専門知識なしで高度な制作が可能になる潮流—の実例である。ゲーム市場は長く、大規模なスタジオによるフルプロダクションが主流だったが、生成AIにより個人や小規模チームでもポリッシュされた体験を制作できる段階に入ってきた。",
+    "tags": [
+      "AI",
+      "ゲーム制作",
+      "生成AI",
+      "Googleプロダクト"
+    ],
+    "section": "テクノロジー",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+    "importance": 4,
+    "image_query": "game development digital creation",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/THUMBNAIL_BLOG.width-1300.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:13.909Z",
+    "publishedAt": "2026-10-07T12:00:00.000Z"
+  },
+  {
+    "slug": "20261109-14",
+    "headline": "中国・10月の生産者物価指数、5.7%上昇で市場予想を上回る",
+    "lead": "中国のインフレ圧力が4年ぶりの高さに。エコノミスト予想の5.3%を上回る5.7%を記録。",
+    "body_markdown": "中国の2026年10月生産者物価指数（PPI）は前年同月比5.7%上昇し、ロイター調査のエコノミスト予想5.3%を上回った。鉱業や原材料産業での急速な価格上昇が主因で、国外の堅調な需要を反映している。\n\n一方、消費者物価指数（CPI）は0.7%に鈍化。CPI鈍化の主因は、食料品価格の予想外の急落とガソリン価格である。基盤的な経済の弱さとして、不動産市場の不振が国内需要の抑制要因となっている。\n\nこの動きは、輸出産業に有利な原材料高と消費の停滞が共存する中国経済の現状を象徴している。中央銀行は金融政策でインフレと内需不足のバランスを調整する必要に迫られている。",
+    "tags": [
+      "中国経済",
+      "インフレ",
+      "PPI",
+      "物価"
+    ],
+    "section": "経済・マネー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+    "importance": 4,
+    "image_query": "factory manufacturing inflation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1764185800646-f75f7e16e465?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8ZmFjdG9yeSUyMG1hbnVmYWN0dXJpbmclMjBpbmZsYXRpb258ZW58MXwwfHx8MTc5NDIxNTk1NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "MGR P",
+      "profileUrl": "https://unsplash.com/@mgrhotelmaangement?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Industrial factory floor with machinery and yellow lines",
+      "description": "Fastenex is synonymous with consistency in the Indian automotive industry. Family-owned since inception over 50 years ago, we deliver umatched levels of quality & timely delivery to the market. We supply 2+ billion nuts and 1+ billion forged parts to customers annually, from our 3 facilities. https://fastenex.co.in/"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:15.427Z",
+    "publishedAt": "2026-11-09T02:50:22.000Z"
+  },
+  {
+    "slug": "20261109-15",
+    "headline": "KDDI、大阪・堺市で自動運転タクシー2028年商用化、データセンター活用",
+    "lead": "KDDIとnewmoが共同で自動運転タクシー事業を推進。AI学習と位置情報システムで安全性確保。",
+    "body_markdown": "KDDIは子会社newmoおよびKDDIスマートモビリティとの連携により、大阪府堺市で2028年の自動運転タクシー本格運用開始を目指している。2027年3月には2人乗り車両の試験運用を開始予定。\n\nシステムの中核はnewmoの配車技術とKDDIの通信・データ処理基盤の統合である。堺市に構築されたデータセンターが、走行中に生成される膨大なデータをリアルタイムで処理し、AI学習と位置情報の更新に活用する。KDDIは「AI学習、計算処理、リアルタイム位置情報技術」を提供し、安全で信頼性の高い自動運転サービスの実現を支援する。\n\n同事業は、通信インフラを持つキャリアだからこそ実行可能な、データセンター統合型のモビリティ構想である。国内で自動運転の実装が進むなか、インフラ企業による積極的な参入は、地域全体のデジタル化を加速させる可能性がある。",
+    "tags": [
+      "自動運転",
+      "KDDI",
+      "堺市",
+      "データセンター"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia ビジネス",
+    "link": "https://www.itmedia.co.jp/business/articles/2611/09/news054.html",
+    "importance": 4,
+    "image_query": "autonomous vehicles taxi streets",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1719178116569-7f48cfc07aa2?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyM3x8YXV0b25vbW91cyUyMHZlaGljbGVzJTIwdGF4aSUyMHN0cmVldHN8ZW58MXwwfHx8MTc5NDIxNTk1Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Kamil Kalkan",
+      "profileUrl": "https://unsplash.com/@kamilklkn?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A yellow taxi driving down a street next to tall buildings",
+      "description": "A bustling street in Kadıköy, Istanbul, during the evening, featuring a yellow taxi driving along the tram tracks. The street is lively with pedestrians walking by shops and cafes, while colorful spherical bollards line the sidewalk. The ambient light from the shops and street lamps creates a warm and inviting atmosphere, reflecting the vibrant nightlife and dynamic urban culture of this popular district."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:17.538Z",
+    "publishedAt": "2026-11-09T04:32:00.000Z"
+  },
+  {
+    "slug": "20261109-16",
+    "headline": "欧州で相次ぐインフラ攻撃、スーパー冷蔵庫・爆弾脅迫が露呈した防衛の脆弱性",
+    "lead": "ベルギー・ルクセンブルク・スウェーデン・オランダのスーパーマーケットやフランスの血液銀行の冷蔵システムが遠隔操作で破壊された。",
+    "body_markdown": "複数の欧州国を対象とした一連のサイバー攻撃が、重要インフラ防衛体制の穴を露呈させた。ベルギー、ルクセンブルク、スウェーデン、オランダのAhold Delhaize、IKEA、Colruyt、Carrefourなどの小売企業の冷蔵システムが遠隔で122°F（50℃）に設定され、食品を損傷させた。フランスの血液銀行も同様の攻撃を受けた。\n\n同時に、欧州全域の数十便の旅客機に爆弾脅迫がなされ、一部は戦闘機護衛で着陸を余儀なくされた。Sky NewsやRTÉなどメディア企業も脅迫を受けた。\n\nサイバーセキュリティ専門家フレドリック・ブリックス氏は、「攻撃には高度な技術は不要だった。デフォルトパスワードで接続されたシステムがインターネットに直結していた」と指摘。製造業者、メンテナンス業者、小売企業の間に責任が分散され、セキュリティ実装が遅れていた。北欧はソビエト時代の防衛体制の遺産で防御力が高いのに対し、西欧は準備が不足している状況が明らかになった。",
+    "tags": [
+      "サイバー攻撃",
+      "インフラ",
+      "欧州",
+      "セキュリティ"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/09/europe-fridge-hacks-bomb-threats-cyberattack.html",
+    "importance": 4,
+    "image_query": "cybersecurity attack infrastructure",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8Y3liZXJzZWN1cml0eSUyMGF0dGFjayUyMGluZnJhc3RydWN0dXJlfGVufDF8MHx8fDE3OTQyMTU5NTh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Arian Darvishi",
+      "profileUrl": "https://unsplash.com/@arianismmm?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person using laptops",
+      "description": "My Life"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:18.188Z",
+    "publishedAt": "2026-11-09T08:59:16.000Z"
+  },
+  {
+    "slug": "20261109-17",
+    "headline": "ペロブスカイト太陽電池、液晶成長法で変換効率25.9%、次世代エネルギーへ一歩",
+    "lead": "韓国と海外の研究チームが欠陥削減技術を開発。太陽電池だけでなくLEDも高効率化。",
+    "body_markdown": "成均館大学（SKKU）先端ナノテクノロジー研究所、韓国化学研究所、カリフォルニア大学サンディエゴ校、プリンストン大学の国際共同研究チームは、ペロブスカイト半導体の革新的な製造法を発表した。\n\nユーテクティック現象を活用した液晶支援結晶成長法が鍵である。塩化メチルアンモニウムと塩化亜鉛を混合すると、100℃で融解し、原子が固体時の約10,000倍速で拡散する性質を利用。この条件下でペロブスカイト薄膜を成長させると、欠陥が劇的に削減される。\n\n成果は数値で示されている。キャリア寿命は約295マイクロ秒、表面再結合速度は0.3cm/s（業界で最低水準）。太陽電池の認定済み変換効率は25.9%に達し、LED外部量子効率は26.1%を記録。ペロブスカイトは従来のシリコンより原理的に高効率を示唆しながら、欠陥が足枷だった。今回の技術は、その潜在能力を引き出す第一歩である。",
+    "tags": [
+      "太陽電池",
+      "ペロブスカイト",
+      "再生可能エネルギー",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-liquid-crystal-growth-perovskite-defects.html",
+    "importance": 4,
+    "image_query": "solar cell photovoltaic panel",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1648135327756-b606e2eb8caa?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxzb2xhciUyMGNlbGwlMjBwaG90b3ZvbHRhaWMlMjBwYW5lbHxlbnwxfDB8fHwxNzk0MjE1OTU4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Evgeniy Alyoshin",
+      "profileUrl": "https://unsplash.com/@oqtave?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a white hard hat sitting on top of a solar panel",
+      "description": "Solar cell contractor document with orange engineering team helmet on solar cells panels. Renewable energy and ecology concept"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:18.847Z",
+    "publishedAt": "2026-11-08T22:00:01.000Z"
+  },
+  {
+    "slug": "20261109-18",
+    "headline": "100台のバス分の長さ、サンゴ最大級の群落発見・ココス島沖で1.56km",
+    "lead": "豪州遠隔海域で水深14～65mに広がる巨大なサンゴ群落が確認された。世界的な海洋生態系の記録。",
+    "body_markdown": "オーストラリア・ココス（キーリング）諸島沖で、長さ1.56km（0.97マイル）に及ぶ巨大なサンゴ群落が発見された。研究者は「記録されている最大級のサンゴ群落の一つ」と評価している。\n\n群落は平均幅36.5m、総面積56,940平方メートルに広がり、水深14～65mの範囲に分布。100台のバスを一列に並べたほどの長さを持つ。遺伝子検査が進行中だが、単一の巨大な生物体か、時間をかけて融合した複数群落かは未確定。\n\nココス島周辺はオーストラリア本土から3,000km離れた遠隔海域で、これまで限定的にしか調査されていなかった。今回の発見は、豪州沖合い生態系の多様性が従来の想定を上回ることを示している。地球規模で進むサンゴ白化と温暖化のなか、深い海底に存在する巨大コロニーの保全は、海洋保護のあり方を問い直す材料である。",
+    "tags": [
+      "サンゴ",
+      "海洋生物",
+      "生態系",
+      "豪州"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-buses-scientists-world-largest-coral.html",
+    "importance": 4,
+    "image_query": "coral reef ocean underwater",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1745917784380-6f423e4bea8e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8Y29yYWwlMjByZWVmJTIwb2NlYW4lMjB1bmRlcndhdGVyfGVufDF8MHx8fDE3OTQyMTU5NTl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Erick Morales Oyola",
+      "profileUrl": "https://unsplash.com/@ejmoralesoyola?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Beautiful, colorful coral reef flourishes underwater",
+      "description": "Wide view of coral reef on the Great Barrier Reef—boulders, plates, and branching life all sharing space."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:19.840Z",
+    "publishedAt": "2026-11-08T17:00:01.000Z"
+  },
+  {
+    "slug": "20261109-19",
+    "headline": "2型糖尿病の新原因候補、タンパク質Miro1の除去でインスリン反応が改善",
+    "lead": "運動でMiro1レベルが低下し、血糖調節が改善される。糖尿病治療への新たな道を示唆。",
+    "body_markdown": "2型糖尿病患者の筋肉に蓄積するタンパク質Miro1（ミトコンドリアRhoGTPase1）が、インスリン抵抗性の重要な原因の一つであることが前臨床試験で明らかになった。Miro1はミトコンドリア外膜に位置し、このタンパク質の蓄積が筋肉のインスリン応答メカニズムを阻害する。\n\n研究チームが実験的にMiro1を除去した結果、筋肉のインスリン感受性が回復した。さらに肥満と2型糖尿病患者を対象とした無作為化対照試験では、運動グループがMiro1レベルの低下とともにインスリン感受性の向上を示した。この発見により、「タンパク質の蓄積が血糖調節困難の直接因」であることが支持されている。\n\n従来、2型糖尿病は単一原因ではなく複合的要因の組み合わせと考えられてきた。今回の知見は、Miro1を標的とした治療の開発可能性を示唆する。ただし、ヒトでの安全性と有効性を確認する段階はまだ前にある。",
+    "tags": [
+      "糖尿病",
+      "医学研究",
+      "インスリン",
+      "治療"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261106174543.htm",
+    "importance": 4,
+    "image_query": "medical research laboratory microscope",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1583912267670-6575ad472688?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxtZWRpY2FsJTIwcmVzZWFyY2glMjBsYWJvcmF0b3J5JTIwbWljcm9zY29wZXxlbnwxfDB8fHwxNzk0MjE1OTYwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "National Cancer Institute",
+      "profileUrl": "https://unsplash.com/@nci?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "woman in white coat holding black dslr camera",
+      "description": "A female scientist in a laboratory looks through a microscope."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:20.390Z",
+    "publishedAt": "2026-11-09T01:44:53.000Z"
+  },
+  {
+    "slug": "20261109-20",
+    "headline": "Sakana AI、初のモバイルアプリを開発中・iOS/Android向けテスター募集",
+    "lead": "日本AI企業Sakana AIが、初めてのモバイルアプリ「Sakana AI App（仮）」を構想。新たな方向性を示す。",
+    "body_markdown": "日本のAI企業Sakana AIが、同社初のモバイルアプリ「Sakana AI App（仮）」の開発を発表した。これまでWebベースのサービスに注力していたSakana AIにとって、モバイル進出は「新たな方向性」を意味する。\n\nテスター募集は11月15日までで、iOSとAndroidの両プラットフォーム対応を予定。公式Xアカウントでも募集が告知されている。\n\nSakana AIは、自律的にアルゴリズムを設計するAIシステムの開発で知られ、昨年来、業界から高い評価を受けている。モバイルアプリ化により、より広範なユーザーに技術を届ける戦略と見られる。アプリの具体的機能はまだ非公開だが、テスター段階での改善フローを通じて、本格提供に向けた知見を得る狙いと推測される。",
+    "tags": [
+      "AI",
+      "モバイルアプリ",
+      "Sakana AI",
+      "スタートアップ"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2611/09/2000003008/",
+    "importance": 3,
+    "image_query": "mobile application development smartphone",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:20.392Z",
+    "publishedAt": "2026-11-09T03:35:58.000Z"
+  },
+  {
+    "slug": "20261109-21",
+    "headline": "南海トラフの隠れた地震を検出、放射性炭素分析で13～20世紀の痕跡が判明",
+    "lead": "東京大学が超高感度炭素14測定法で、従来の画像診断では捉えきれなかった地震イベント層を発見。",
+    "body_markdown": "東京大学研究チームが、日本沿岸部・熊野灘の海底堆積物コアを分析し、従来は検出されていなかった複数の地震の痕跡を新たに特定した。手法は1cm以下の超高解像度で海底堆積物に含まれる微量の炭素14を測定する革新的な放射性炭素分析法。\n\n従来のX線撮影やCT分析、目視では、均質な半遠洋泥の中の地震層を判別できなかった。今回の超高感度炭素14測定により、地震イベントを示す地質層が複数確認され、一部は13世紀から20世紀の歴史記録にある海底地震と相関する。\n\n南海トラフでは約30年以内に次の巨大地震が懸念されており、正確な過去の地震履歴は津波防災と早期警戒システムの精度向上に直結する。今回の技術進展は、沿岸防災に資する重要な基礎情報をもたらすと期待される。",
+    "tags": [
+      "地震",
+      "南海トラフ",
+      "防災",
+      "地質学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-radiocarbon-analysis-uncovers-hidden-earthquakes.html",
+    "importance": 3,
+    "image_query": "earthquake geology seismic research",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:20.394Z",
+    "publishedAt": "2026-11-09T01:00:01.000Z"
+  },
+  {
+    "slug": "20261109-22",
+    "headline": "小惑星衝突回避、核爆発による方向が決定的・5倍の差が生じる可能性",
+    "lead": "X線ブラストで小惑星軌道を変える研究で、照射角度で速度変化が5倍、回転で17倍も変動。",
+    "body_markdown": "地球防衛として核爆発を利用して小惑星を回避させるシナリオを検討する研究により、小惑星の不規則な形状とX線ブラストの照射方向が成功と失敗を分ける決定的要因であることが明かされた。\n\n研究では、同じ小惑星に異なる角度から核爆発を仕掛けた場合、速度変化が3.9mm/秒と0.8mm/秒で約5倍の差が生じ、回転変化では17倍の差が観測された。実際の小惑星は球体ではなく、凹凸のある不規則な形状を持つため、この差は甚大な影響をもたらす。\n\n研究責任者は「正しい面を狙えば勝利。誤って予想すれば悪い1日になりうる」と述べており、照射方向の精密特定と小惑星の形状データ取得が不可欠。理論上、核兵器は小惑星衝撃回避の有力手段だが、実行には天体物理学と軍事技術の高度な統合が必要である。",
+    "tags": [
+      "宇宙防衛",
+      "小惑星",
+      "研究",
+      "科学"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261106174532.htm",
+    "importance": 4,
+    "image_query": "asteroid space science explosion",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1709142221279-959255832580?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxhc3Rlcm9pZCUyMHNwYWNlJTIwc2NpZW5jZSUyMGV4cGxvc2lvbnxlbnwxfDB8fHwxNzk0MjE1OTYwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "NASA Hubble Space Telescope",
+      "profileUrl": "https://unsplash.com/@hubblespacetelescope?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "an artist's rendering of a planet in space",
+      "description": "Artist's View of Watery Asteroid in White Dwarf Star System GD 61 Caption This is an artist's impression of a rocky and water-rich asteroid being torn apart by the strong gravity of the white dwarf star GD 61. Similar objects in our solar system likely delivered the bulk of water on Earth and represent the building blocks of the terrestrial planets. Credits Artwork: NASA, ESA, M.A. Garlick (space-art.co.uk), University of Warwick, and University of Cambridge; Science: NASA, ESA, J. Farihi (University of Cambridge), B. Gänsicke (University of Warwick), and D. Koester (University of Kiel)"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:21.669Z",
+    "publishedAt": "2026-11-08T10:11:25.000Z"
+  },
+  {
+    "slug": "20261109-23",
+    "headline": "オープンソースLLM「Arete-27B」、西洋価値観強化でプロパガンダ改善・一方で政治的バイアス批判も",
+    "lead": "Nous Research が中国製Qwenベースのモデルをチューニング。事実性スコア上昇、プロパガンダ低下。",
+    "body_markdown": "Nous Researchが、中国Alibaba CloudのオープンウェイトモデルQwen3.8-27Bを基盤に、「西洋の価値観」を強化した新モデル「Arete-27B」を公開した。事後学習に約5,280万トークンのデータセットを使用し、表現の自由と国家思想など7カテゴリで803のプロンプト・回答セットで調整。\n\n評価結果は数値で示されている。事実性スコアが2.32から2.98に上昇し、プロパガンダ含有率は約22%から約1%に低下。ただしこの手法に対し、SNS上で「開発者個人の政治的思想が含まれている」との批判が集まった。\n\nNous Researchは反論として「オープンモデルの価値観は誰でもチューニング可能である点を示したもの」と主張。事実、オープンソースLLMの民主化が進むなか、利用者が自らの価値基準に合わせて再学習できるのは特徴である。ただ、「価値観の改善」と「バイアス導入」の線引きは、技術コミュニティで常に議論の種である。",
+    "tags": [
+      "LLM",
+      "オープンソース",
+      "AI倫理",
+      "研究"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2611/09/2000003002/",
+    "importance": 3,
+    "image_query": "artificial intelligence language model",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:21.671Z",
+    "publishedAt": "2026-11-09T01:55:45.000Z"
+  },
+  {
+    "slug": "20261109-24",
+    "headline": "イラン紛争で船員の犠牲増加、4ヶ月で129件の海洋事件・IMO記録25人死亡",
+    "lead": "米国・イスラエルとイランの紛争が民間船員に直撃。10月だけで31隻が攻撃受ける。",
+    "body_markdown": "国際海事機関（IMO）の記録により、2026年2月28日開始のイラン紛争で少なくとも25人の船員が死亡したことが確認された。ミサイル、砲弾、機雷による攻撃で船舶が炎上・沈没した。IMOが記録した海洋事件は全体で129件に及び、10月は特に深刻で31隻が被害を受けた。\n\n被害者国籍はインド国籍が最多で16人以上。その他フィリピン人船員やイラン民間船員も被害を受けた。イラン商船組合は5月時点で44人の同国船員が死亡、29人が負傷したと報告している。6月には米軍の攻撃でインド船員3人がオマン沖で死亡、9月にはサウジ船籍タンカーSidrへの攻撃でフィリピン人乗組員2人が殺害された。10月は特に深刻で、タンカーOn Peaceで12人が負傷（うち11人がインド国籍）。\n\n国際海運会議は「約6,000人の船員がホルムズ海峡沖で足止めされている」と述べ、「民間人が職務遂行中に高度に不安定な状況に置かれている」と警告。海運業界全体で安全確保の重要性が高まっている。",
+    "tags": [
+      "イラン",
+      "海上紛争",
+      "国際関係",
+      "海員"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/11/9/who-are-the-seafarers-caught-in-the-us-israeli-war-on-iran",
+    "importance": 3,
+    "image_query": "ship cargo vessel maritime",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:21.673Z",
+    "publishedAt": "2026-11-09T07:07:26.000Z"
+  },
+  {
+    "slug": "20261109-25",
+    "headline": "トランプ大統領、イラン核協議で歩み寄り示唆・条件は「核兵器放棄とホルムズ開放」",
+    "lead": "戦闘再開「極めて起こりにくい」と発言。同時に追加攻撃の用意も示唆。",
+    "body_markdown": "トランプ大統領がCNNの電話インタビューで、イランとの核交渉への条件付き開放性を示した。「イランが非常に強固な協定に署名し、核兵器開発を決して行わないことに同意すれば、戦闘再開は極めて起こりにくい」と述べた。\n\n同時に同大統領は具体的要求として「ホルムズ海峡の完全な開放」を挙げた。この実現は原油価格の低下につながり、米国の経済利益と合致する。一方で、イランへの威圧も継続。「38の橋」と「発電所」を攻撃目標として特定し、「3隻の空母が配備されている」と言及した。\n\nこの発言は、交渉の窓口を開く一方で軍事圧力を保持するメッセージである。イランとの直接交渉が進むかどうかは、来週の動向が重要。米国の政策転換が中東地域の安定性に与える影響は計り知れない。",
+    "tags": [
+      "トランプ",
+      "イラン",
+      "外交",
+      "核交渉"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html",
+    "importance": 4,
+    "image_query": "diplomacy international relations negotiation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1722974611253-d9ecd8d03b48?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8ZGlwbG9tYWN5JTIwaW50ZXJuYXRpb25hbCUyMHJlbGF0aW9ucyUyMG5lZ290aWF0aW9ufGVufDF8MHx8fDE3OTQyMTU5NjJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Marvin Cheung",
+      "profileUrl": "https://unsplash.com/@marvincheung?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A book sitting on top of a table next to a cup of tea",
+      "description": "\"5 Ideas from Global Diplomacy: System-wide Transformation Methods to Close the Compliance Gap and Advance the 2030 Sustainable Development Goals\" (Ground Zero Books LLC, New York) by Marvin Cheung"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:22.700Z",
+    "publishedAt": "2026-11-08T21:53:02.000Z"
+  },
+  {
+    "slug": "20261109-26",
+    "headline": "バングラデシュ前首相ハシナ、12月の帰国予定で新パスポート申請",
+    "lead": "2年間のインド亡命後、帰国方針を固め行政手続き開始。法廷出頭の予定。",
+    "body_markdown": "バングラデシュ・シェイク・ハシナ前首相がパスポートと身分証明書の新規申請を進めており、12月の帰国予定を示唆している。彼女はインドに2年間亡命していた。\n\nハシナは2024年にバングラデシュを離れ、インドで亡命生活を続けていた。現在、帰国の形式的手続きを進めており、補佐官らは「具体的帰国日は行政手続き完了後に発表する」と述べている。帰国後、バングラデシュの法廷に自発的に出頭する方針も表明。\n\nハシナの帰国は、バングラデシュ政治に重大な転機をもたらす可能性がある。野党指導者としての立場と国内の政治状況により、帰国の安全性と法的扱いが国内で議論になると予想される。",
+    "tags": [
+      "バングラデシュ",
+      "政治",
+      "亡命",
+      "帰国"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/11/9/ousted-pm-sheikh-hasina-seeks-passport-in-sign-of-bangladesh-return-plan",
+    "importance": 3,
+    "image_query": "political leader government official",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:22.706Z",
+    "publishedAt": "2026-11-09T07:12:09.000Z"
+  },
+  {
+    "slug": "20261109-27",
+    "headline": "古代シベリアの2800年前の墓、1000粒のマリファナ種子と使用の痕跡を発掘",
+    "lead": "スキタイ人による儀式的な大麻使用の最古の直接証拠が出土。埋葬儀式と共に。",
+    "body_markdown": "シベリアの2800年前の古代墓から、約1000粒の大麻種子と精神作用物質の化学的痕跡が発見された。これは心理活性大麻の使用を示す最古の直接的考古学的証拠である。\n\n墓はスキタイ人のものと特定され、動物の生贄と精密な埋葬儀式の痕跡が残されていた。研究チームは「古代スキタイ人が大麻の精神作用的効果を意識的に利用していた」と結論づけている。これは、大麻が医療・宗教儀式の重要な役割を担っていた歴史を示唆する。\n\n考古学的には、人類による物質使用と儀式的慣行が複雑な社会構造と結びついていた証拠である。同時期の他の遺跡との比較により、大麻使用がユーラシア大陸全域でどのように分布していたかについての更なる知見が期待される。",
+    "tags": [
+      "考古学",
+      "古代史",
+      "大麻",
+      "文化史"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261106174528.htm",
+    "importance": 3,
+    "image_query": "archaeological excavation ancient tomb",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:22.708Z",
+    "publishedAt": "2026-11-08T08:14:23.000Z"
+  },
+  {
+    "slug": "20261109-28",
+    "headline": "NASA、月面基地設計コンテスト開始・米国高校生に100万ドル提供",
+    "lead": "NASAが学生向けプログラムで月基地の構想設計を募集。金銭援助と実現機会を提供。",
+    "body_markdown": "NASAは米国の高校および大学の学生を対象に、月面基地設計コンテスト「Moon Base Student Challenge」の参加を募集する。賞金総額は100万ドル。\n\nコンテストは、ジョン・F・ケネディ宇宙センター訪問者施設での「MAX POWER」イベント中に発表された。学生チームは月基地のコンセプト設計を提案することで、NASAの月面開発計画に参加する機会が与えられる。\n\n本施策はNASAの「ゴールデンエイジ・オブ・サイエンス」における人材育成戦略の一環。若い世代を宇宙開発に引き込み、次世代の科学者・エンジニアを育成する狙いがある。月面基地構想は2025年度が実現時期の目安であり、学生の創意工夫が実際の計画に組み込まれる可能性がある。",
+    "tags": [
+      "NASA",
+      "月面基地",
+      "教育",
+      "宇宙開発"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
+    "importance": 3,
+    "image_query": "lunar base moon facility construction",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:22.710Z",
+    "publishedAt": "2026-11-08T15:26:38.000Z"
+  },
+  {
+    "slug": "20261109-29",
+    "headline": "COP31開幕、気候目標1.5℃超過が目前・各国に厳しい現実突きつけられる",
+    "lead": "国連気候変動会議が開幕。1.5℃温暖化が迫る中、排出削減目標の達成困難さが浮き彫り。",
+    "body_markdown": "第31回国連気候変動会議（COP31）が開幕し、世界は1.5℃温暖化超過という差し迫った現実に直面している。IPCCの警告では、現在の排出ペースでは数年以内に1.5℃に到達する見込みが高い。\n\n気候科学者らは「産業革命前からの上昇を1.5℃以下に抑える」というパリ協定の目標達成が、ほぼ不可能になった可能性を指摘する。各国の排出削減政策の遅れと、化石燃料エネルギーへの依存が原因。\n\n会議では各国の対応が問われる。先進国の追加的資金支援、発展途上国への技術移転、そして現在の約束では不十分であることを認めつつ、新しい気候資金メカニズムの構築が急務。科学コミュニティはこの会議を「最後の実質的行動機会」と位置づけており、2026年から2030年の政策決定が人類の気候運命を決める分岐点となる。",
+    "tags": [
+      "気候変動",
+      "COP31",
+      "環境",
+      "国際交渉"
+    ],
+    "section": "国際・地政学",
+    "source": "Nature",
+    "link": "https://www.nature.com/articles/d41586-026-03631-w",
+    "importance": 5,
+    "image_query": "climate change global warming earth",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1569163139500-66446e2926ca?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8Y2xpbWF0ZSUyMGNoYW5nZSUyMGdsb2JhbCUyMHdhcm1pbmclMjBlYXJ0aHxlbnwxfDB8fHwxNzk0MjE1OTYzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Spiske",
+      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Earth is more valuable than money signage",
+      "description": "EARTH IS MORE VALUABLE THAN MONEY. Global climate change strike - No Planet B - 09-20-2019"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:23.252Z",
+    "publishedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "slug": "20261109-30",
+    "headline": "Nvidia×韓国、AI産業の「自主化」推進・NPU・XPU開発でサプライチェーン強化",
+    "lead": "Nvidiaと韓国科学技術情報通信部がNVLink Fusionエコシステム参加を推進。半導体からAIモデルまで統合。",
+    "body_markdown": "Nvidiaと韓国の科学技術情報通信部（MSIT）は、韓国のAIエコシステム全域における提携を拡大させている。協力範囲はAI半導体、データセンターインフラから、人材育成、スタートアップ支援、モデル開発、セキュリティに及ぶ。\n\nNvidiaは、韓国のNPU（Neural Processing Unit）およびXPU（Accelerated Processing Unit）企業がNVLink Fusionエコシステムへの参加を模索する基盤を提供。これにより、複数GPUを統合するための標準化されたNVLinkインターフェースを採用し、スケーラビリティを確保する。\n\nコンピューティング覇権をめぐる米国と中国の競争が激化する中、韓国はアメリカ陣営内での「主権的AI」構築を狙いとしている。SK TelecomとRebelliionsが中心となって韓国のAIエコシステム開発に参加。この提携は、技術面で米国に依存しながらも独立性を保つ新しいサプライチェーン構造を示唆している。",
+    "tags": [
+      "Nvidia",
+      "韓国",
+      "AI",
+      "サプライチェーン"
+    ],
+    "section": "テクノロジー",
+    "source": "NVIDIA",
+    "link": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+    "importance": 3,
+    "image_query": "semiconductor chip technology manufacturing",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:23.255Z",
+    "publishedAt": "2026-11-09T05:00:04.000Z"
+  },
+  {
+    "slug": "20261109-31",
+    "headline": "AWS市場シェア低下26%、Google Cloud上昇16%・クラウド市場全体は過去最高成長",
+    "lead": "2026年第3四半期、クラウドインフラ市場でAWSが前四半期比で低下。Google Cloudが上昇トレンド。",
+    "body_markdown": "クラウドインフラ市場の2026年第3四半期調査で、Amazonウェブサービス（AWS）のシェアが26%に低下したのに対し、Google Cloudは16%に上昇した。調査会社Synergy Research Groupが発表。\n\nAWSは過去数年にわたり50%超の市場シェアを保有していたが、徐々に侵食されている。Google CloudはAIインフラとのシナジーを背景に、エンタープライズ顧客からの採用が加速。Microsoft Azureは相対的に安定的な地位を維持。\n\nグローバル全体ではクラウドインフラ市場が過去最高の成長率を記録。AI需要による計算能力の急速な拡大と、複数ベンダー選択の多様化が同時に進行。これまでAWSへの寡占状態だったクラウド市場は、AI時代に入り競争が激化する段階に入った。",
+    "tags": [
+      "クラウド",
+      "AWS",
+      "Google Cloud",
+      "市場シェア"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003001.html",
+    "importance": 4,
+    "image_query": "data center cloud computing servers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1717386255950-f7fbe05eb6c0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMnx8ZGF0YSUyMGNlbnRlciUyMGNsb3VkJTIwY29tcHV0aW5nJTIwc2VydmVyc3xlbnwxfDB8fHwxNzk0MjE1OTYzfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Homa Appliances",
+      "profileUrl": "https://unsplash.com/@homaappliances?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a bunch of wires that are connected to a wall",
+      "description": "A detailed examination of the fully automated refrigerator production line, with refrigerators in a neat arrangement on a conveyor belt, prepared for dynamic cooling performance testing."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T09:19:24.213Z",
+    "publishedAt": "2026-11-09T02:00:00.000Z"
+  },
+  {
     "slug": "20261109-01",
     "headline": "Hugging Faceが軽量テスト「MIC」でML検証を効率化",
     "lead": "PyTorchアップデートの見落とし事案から、圧縮モデルを用いた新テストフレームワークを導入。開発コストを削減",
