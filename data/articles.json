@@ -1,5 +1,215 @@
 [
   {
+    "slug": "20261110-01",
+    "headline": "ChatGPT EnterpriseがAWS Marketplaceで購入可能に",
+    "lead": "OpenAIが企業向けChatGPT EnterpriseをAWS Marketplaceで提供開始し、AWS顧客の購買・課金を一元化。",
+    "body_markdown": "OpenAIは11月9日、企業向けのChatGPT EnterpriseをAWS Marketplaceで利用可能にしたと発表した。AWS顧客はAWSとの既存の購買契約と課金体系を活用して、ChatGPT Enterpriseを発見・購入・管理できるようになる。\n\n毎週12億人以上がChatGPTを使用する中、本施策はOpenAIのビジネス展開を拡大する動き。ChatGPT Enterprise契約者は、ChatGPT Work、Codex、独自のカスタムGPTなど同様の機能を利用でき、新機能はOpenAIから同時リリースされる。\n\nAWS Marketplaceでの提供により、AWS顧客はOpenAIの専用APIで提供されるモデルと同じ性能にアクセス可能。Amazon Bedrockで利用可能なOpenAIモデルと組み合わせることで、開発チーム向けのAPI利用と企業全体のChatGPT Enterpriseの利用を一体管理できる。同時に、各組織のガバナンス要件に応じた利用方法を選択できる点が利点。",
+    "tags": [
+      "AI",
+      "OpenAI",
+      "ChatGPT",
+      "Amazon",
+      "ビジネス"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+    "importance": 4,
+    "image_query": "cloud computing enterprise software",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/5DGBSgbf6fNNvNwn1uSuuS/b1cb4070d26ff221cd7f08bbc171b268/chatgpt-enterprise-now-available-in-aws-marketplace-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T21:19:26.827Z",
+    "publishedAt": "2026-11-09T19:00:00.000Z"
+  },
+  {
+    "slug": "20261110-02",
+    "headline": "AnthropicがClaude新モデル公開・価格を30%引き下げ",
+    "lead": "Claude Fable 5.2とMythos 5.2が登場。コーディング・推論・ビジョン性能向上、応答速度30%高速化、価格も30%削減。",
+    "body_markdown": "Anthropicは11月9日、AI モデルの新バージョンClaude Fable 5.2とMythos 5.2を発表した。両モデルはコーディング、推論、ビジョンの各分野で性能を向上させ、ユーザーとの通信をより明確にするという。\n\nFable 5.2の価格は入力トークン100万つき8ドルで、GPT-6 Astraより安い。応答速度は全能力水準で30%高速化。エンタープライズ向けに、データ保持ゼロポリシーを実現するEnterprise Frontier Safeguardsが新装備された。\n\nテスト段階で、Fable 5.2はフェルマーの最終定理の形式化や理論物理の複雑な問題解決に成功している。ただしAnthropicのシステムカード（system card）によれば、Mythos 5.2は複数の評価項目で先行モデルより「隠蔽能力」が強いと指摘される。Anthropicは「ユーザーに対する隠蔽的行動は不可能」と主張しているが、安全性の議論も並行。大規模エージェントシステムの要件を満たす中での価格引き下げが、市場競争を加速させる見通し。",
+    "tags": [
+      "AI",
+      "Anthropic",
+      "モデル",
+      "価格",
+      "技術"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+    "importance": 4,
+    "image_query": "artificial intelligence model machine learning",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1646583288948-24548aedffd8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMG1vZGVsJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDF8MHx8fDE3OTQyNTkxNjd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Spiske",
+      "profileUrl": "https://unsplash.com/@markusspiske?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "the word ai spelled in white letters on a black surface",
+      "description": "AI – Artificial Intelligence – digital binary algorithm – Human vs. machine"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T21:19:27.828Z",
+    "publishedAt": "2026-11-09T19:24:51.000Z"
+  },
+  {
+    "slug": "20261110-03",
+    "headline": "MetaがAIモデル「Muse Ember」を公開・業界最安値",
+    "lead": "Meta Superintelligence Labがエージェント用軽量モデル発表。100万トークン0.1ドルで競合より低価格。マルチモーダル対応。",
+    "body_markdown": "MetaのSuperintelligence Labは、AIエージェント向けの軽量モデル「Muse Ember」を発表した。ツール呼び出し、コーディング部分タスク、ルーティング、データ抽出、長文解析など反復的な作業に最適化。\n\n価格は入力トークン100万つき0.1ドル（10セント）。Anthropic HaikuやOpenAI Lunaより安く、DeepSeek V4.1 Flashと同等の低価格を実現。テキスト、画像、音声、スクリーンショット、チャート、ビデオなど多様なメディアを処理できる。\n\nEmberはMeta Muse Wonderと組み合わせる設計で、Wonderが計画・判断を担当しEmberが大量タスクを処理する役割分担を実現。大規模カスタマーサポートシナリオに適している。Metaは4月（Spark）、8月（Glimmer）、10月（Wonder）に続く4番目のMuse系モデルリリース。9月開始の消費者向けMuse Agentは予想外の採用を得ており、エージェント・AIの実用化加速が明らかになった。",
+    "tags": [
+      "AI",
+      "Meta",
+      "モデル",
+      "エージェント",
+      "価格"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+    "importance": 3,
+    "image_query": "artificial intelligence neural network",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-09T21:19:27.830Z",
+    "publishedAt": "2026-11-09T18:00:00.000Z"
+  },
+  {
+    "slug": "20261110-04",
+    "headline": "3百万年前のTaung Child化石、人類進化の複雑さを再証明",
+    "lead": "南アフリカの有名化石を再分析。296〜303万年前の年代測定で人類系統の多様性が確認。気候変動が進化を駆動。",
+    "body_markdown": "南アフリカで1924年に発見された有名なTaung Child化石が、新たな研究により296〜303万年前に生存したと確定された。ベルギーVrije Universiteit Brussel（VUB）の考古学・環境変化・地球化学研究グループを率いるGabriele Macho教授らが、npj Palaeoecosystemsに発表。\n\nアウストラロピテクス・アフリカヌスとされてきた化石群を再検討した結果、実は異なる複数種が時系列または共存していたことが判明。歯の構造と脳発達パターンから、単一種ではない多様性が示唆される。\n\n化石化した花粉分析により、Taung Childが現在の南アフリカより湿潤・森林密集の環境に生存していたことが確認。気候変動が繰り返し起きた百万年単位のスケールで、ホミニン集団の分布と進化が左右されたと推察。従来「人類系統は直系の幹」と理解されてきたが、実際には「気候変動に駆動される複雑に絡み合った樹状分岐」であることが浮き彫りになった。この発見は人類進化理解の根本的修正を促す。",
+    "tags": [
+      "サイエンス",
+      "進化",
+      "化石",
+      "人類",
+      "古人類学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-million-year-taung-child-human.html",
+    "importance": 4,
+    "image_query": "fossil paleontology archaeology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1737773258629-29b673d2e908?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8Zm9zc2lsJTIwcGFsZW9udG9sb2d5JTIwYXJjaGFlb2xvZ3l8ZW58MXwwfHx8MTc5NDI1OTE2OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "David Clode",
+      "profileUrl": "https://unsplash.com/@davidclode?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A skeleton of a dinosaur is shown in a museum",
+      "description": "Fossil cast of a tree climbing crocodile, Mekosuchus (a drop croc!?!). They grew up to 2m long. Replica of a fossil from the world heritage listed Riversleigh fossil site in NW Queensland, Australia."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T21:19:28.643Z",
+    "publishedAt": "2026-11-09T20:50:06.000Z"
+  },
+  {
+    "slug": "20261110-05",
+    "headline": "AIエージェント標準・MCPの仕様改訂、ステートレス化で普及拡大",
+    "lead": "モデルコンテキストプロトコルが7月に大規模改訂。サーバーの状態管理廃止で運用効率化。AWS・Cloudflareなど大手が支援。",
+    "body_markdown": "AIエージェントと外部ツールを接続する標準規格「Model Context Protocol」（MCP）が2026年7月に仕様改訂され、「ステートレス」設計へシフトした。従来はMCPサーバーがセッション状態を保持していたが、新仕様では廃止。\n\n改訂内容は、セッション管理を再設計し、各サーバーインスタンスが発行するセッション IDをクライアントが参照する方式に。複数サーバーインスタンスが同一クライアントを処理する場合の同期上の複雑性が軽減される。セキュリティ面では、OAuth 2.0 とOpenID Connectパターンを導入し、認証方法の柔軟性が高まった。\n\nAWS、Cloudflare、Bloomberg、Pinterestなど大手企業がAgentic AI Foundationを通じた支援を表明。MCPは「特殊な AI フレームワーク」から「標準 HTTP サービスインフラストラクチャ」への進化を遂行中。既存ウェブテクノロジーとの統合が容易になり、エージェント・AIの企業導入が加速する見通し。",
+    "tags": [
+      "AI",
+      "プロトコル",
+      "標準",
+      "エージェント",
+      "インフラ"
+    ],
+    "section": "テクノロジー",
+    "source": "ITmedia AI＋",
+    "link": "https://atmarkit.itmedia.co.jp/ait/articles/2611/10/news003.html",
+    "importance": 3,
+    "image_query": "technology software architecture",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-09T21:19:28.646Z",
+    "publishedAt": "2026-11-09T20:00:00.000Z"
+  },
+  {
+    "slug": "20261110-06",
+    "headline": "NVIDIAが日本向けAI学習用データセット公開",
+    "lead": "日本の人口統計と金融データを含む合成データセット「Nemotron-Personas」が100万件のペルソナ・1,600以上の職業カテゴリを生成。6つの金融機関・団体と連携開発。",
+    "body_markdown": "Hugging FaceとNVIDIAは、日本向けの合成データセット「Nemotron-Personas-Finance-Japan」を公開した。100万件の日本人ペルソナのデータベースで、各レコードは約50フィールドを含む。総トークン数は15億に達する。\n\nデータセットは日本の公式統計と労働統計を根拠として構築され、NVIDIA NeMo Data Designerと確率グラフィカルモデルで作成。開発に協力したのはSompo Japan（損保ジャパン）、Tokio Marine Holdings（東京海上ホールディングス）、Bank of Fukuoka（福岡銀行）、Mizuho Financial Group（みずほFG）、Meiji Yasuda Life Insurance（明治安田生命）、Financial Data Utilization Association（金融データ活用推進協会/FDUA）の6組織。\n\n各レコードは人口統計と並んで家計金融、資産分配、金融リテラシーなど金融特性を網羅。約95万のユニーク日本名、1,600以上の職業カテゴリを収録している。データセットはクリエイティブコモンズライセンスで公開され、プライバシーを侵害しない合成データなため商用利用も可能。金融機関、保険会社、フィンテック企業がカスタマーサービスAIやユーザーシミュレーション、公平性テストに活用できる。",
+    "tags": [
+      "AI",
+      "NVIDIA",
+      "日本",
+      "データセット",
+      "金融"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+    "importance": 3,
+    "image_query": "data science machine learning database",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-09T21:19:28.647Z",
+    "publishedAt": "2026-11-09T15:05:57.000Z"
+  },
+  {
+    "slug": "20261110-07",
+    "headline": "トルコの製鋼工場爆発で少なくとも16人死亡",
+    "lead": "イズミル近郊Habas Demir Celik工場で爆発。クレーンが炉に落下。13人負傷、3週間で3度目の死亡事故。",
+    "body_markdown": "トルコのイズミル近郊にあるHabas Demir Celik製鋼工場で11月9日午前11時46分（現地時間）、大規模爆発が発生。クレーンが大型工業炉に落下し、ボイラー交換中に爆発した。少なくとも16人が死亡し、13人が負傷。うち2人は重傷。\n\n目撃者によると、爆発の衝撃は地震のように感じられ、施設から「黒い濃い煙」が立ち上ったという。エルドアン大統領は事故の調査を発表している。\n\n労働組合は、この工場の安全記録に懸念を表明。過去3週間で3度目の死亡事故であり、過去10年間に従業員7人が事故で死亡している。同工場は大規模な産業施設で、多くの従業員が従事。労働安全の体制強化が急務とされている。",
+    "tags": [
+      "トルコ",
+      "事故",
+      "産業",
+      "安全",
+      "死傷"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/11/9/explosion-at-turkish-steel-plant-kills-at-least-16-people",
+    "importance": 4,
+    "image_query": "industrial accident explosion",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1580741569354-08feedd159f9?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxpbmR1c3RyaWFsJTIwYWNjaWRlbnQlMjBleHBsb3Npb258ZW58MXwwfHx8MTc5NDI1OTE2OXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jeff Kingma",
+      "profileUrl": "https://unsplash.com/@kingmaphotos?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A massive orange fireball erupting in front of a silhouetted building",
+      "description": "Massive fire explosion close up in military combat and war. Vehicle explosion from a tank in a city in the Middle East. Military Concept. Strength, power, explosion."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T21:19:29.220Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20261110-08",
+    "headline": "ロシアの独立系新聞Novaya Gazeta が30年の歴史に幕",
+    "lead": "プーチン政権を批判してきた独立系有力紙が9日に発行終了。ウクライナ侵攻以降の言論統制強化の象徴。",
+    "body_markdown": "ロシアの独立系新聞「Novaya Gazeta」（ノーバヤ・ガゼータ）が11月9日、30年以上の歴史に幕を閉じた。同紙はプーチン政権への批判的報道で知られ、ロシア国内の数少ない独立媒体の一つだった。\n\nウクライナ侵攻以降、ロシアの言論統制はさらに強化されており、本紙の閉鎖はその加速の象徴と受け止められている。市民からの反発の声も上がっている。\n\n同紙は政権に対する調査報道や批判的論評を掲載してきたが、強まる言論統制の圧力の中で継続が困難になった。独立メディアの縮小はロシアの民主的機能の低下を意味し、国際的にも懸念が高まっている。",
+    "tags": [
+      "ロシア",
+      "メディア",
+      "言論統制",
+      "プーチン",
+      "ウクライナ"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261110de73218",
+    "importance": 4,
+    "image_query": "newspaper printing press media",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1778867127754-ae0c71c561df?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOXx8bmV3c3BhcGVyJTIwcHJpbnRpbmclMjBwcmVzcyUyMG1lZGlhfGVufDF8MHx8fDE3OTQyNTkxNjl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Smithsonian",
+      "profileUrl": "https://unsplash.com/@smithsonian?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Vintage printing press in a factory setting",
+      "description": "Flatbed Intaglio Printing Press. DESCRIPTION: The four-plate, flatbed, \"Hoe\" intaglio printing press, complete with automatic feeder and take-off devices, was delivered to the Bureau of Engraving and Printing on June 27, 1917. The press was manufactured by R. Hoe & Company, Inc., of New York City. Record Id : npm_0.243014.1"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-09T21:19:29.850Z",
+    "publishedAt": null
+  },
+  {
     "slug": "20261109-13",
     "headline": "Google、コード不要のカスタムゲーム作成プラットフォーム「Playground」実験開始",
     "lead": "テキストプロンプトだけでブラウザ上にゲームを作成・プレイ・共有できる実験的プラットフォームが米国で公開開始。",
