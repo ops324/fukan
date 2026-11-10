@@ -1,5 +1,401 @@
 [
   {
+    "slug": "20261111-01",
+    "headline": "Anthropic IPO、11月19日上場 企業価値1.3〜1.4兆ドル",
+    "lead": "AI開発企業AnthropicがNasdaqに上場。企業価値1.3〜1.4兆ドルを目指す。7人の創業者が各250万ドル相当を売却。11月19日取引開始。",
+    "body_markdown": "AI安全性を掲げるスタートアップ・Anthropicは、11月10日にIPOの計画を発表。11月18日に価格設定（1株70〜78ドル）を行い、翌19日にNasdaqで「ANT」ティッカーで取引開始予定。\n\n企業価値は1.3兆〜1.4兆ドルに達し、調達額は最大90.4億ドル（Forbes報道）。Dario Amodei CEO 率いる7人の創業者は、それぞれ約250万ドル相当の株式を売却する計画。創業者グループは上場後も全議決権の51.1%を保持し、経営統制を維持する。\n\nAnthropicは2023年設立の新興企業ながら、Claude などのAIモデル開発で業界での存在感を急速に高めている。大型IPOは、生成AI分野の投資熱と競争激化を反映している。",
+    "tags": [
+      "AI開発",
+      "IPO",
+      "Anthropic",
+      "企業価値"
+    ],
+    "section": "ビジネス",
+    "source": "NHK / TechCrunch / Forbes",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261111de73850",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+        "name": "TechCrunch"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-founders-to-cash-out-1-75-billion-in-blockbuster-ipo",
+        "name": "Bloomberg"
+      }
+    ],
+    "importance": 5,
+    "image_query": "stock market IPO trading floor",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1612587592641-f2a67a7e9dad?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8c3RvY2slMjBtYXJrZXQlMjBJUE98ZW58MXwwfHx8MTc5NDM1MjI3Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tech Daily",
+      "profileUrl": "https://unsplash.com/@techdailyca?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "text",
+      "description": "Financial Analyst tries to understand what happened to Gamestop Corp stock after getting short squeezed by retail investors. #stocks #finance #investing #trading #robinhood #gme #amc #techdaily \n\nVia: techdaily.ca \n\n"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-10T23:11:16.815Z",
+    "publishedAt": "2026-11-10T21:41:51.000Z"
+  },
+  {
+    "slug": "20261111-02",
+    "headline": "Google、Gemini Intelligence を新型Pixel・モトローラ端末に拡大",
+    "lead": "GoogleがGemini Intelligenceの対応機種を拡大。Pixel新型とモトローラ Signature 27 に搭載。タスク自動化、音声からテキスト変換など新機能追加。",
+    "body_markdown": "Googleは、AI助手「Gemini Intelligence」の提供範囲を拡大すると発表。新型Pixel（Pixel 10、Pixel 10 Pro、Pixel 10 Pro XL、Pixel 10 Pro Fold）とモトローラとの共同開発機「Motorola Signature 27」（11月19日予約開始）に搭載される。\n\n新機能では、音声から自動的にテキストを整理する「Rambler」がPixel/モトローラ端末で利用可能に。ウィジェットを自然言語で設計できる「Create My Widget」機能も追加される。さらに、チェーンレストラン予約やフード配達など具体的なタスク自動化が、英国・インド・日本でも展開予定。\n\nAndroid Auto でも推奨機能が充実し、Pixel Watchにも Create My Widget 対応予定。複数端末でのGemini統合が進む。",
+    "tags": [
+      "Google",
+      "Gemini",
+      "AI",
+      "スマートフォン"
+    ],
+    "section": "テクノロジー",
+    "source": "Google AI",
+    "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+    "importance": 4,
+    "image_query": "smartphone AI assistant technology",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27_Hero_2784x156.width-1300.jpg",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-10T23:11:17.255Z",
+    "publishedAt": "2026-11-10T19:00:00.000Z"
+  },
+  {
+    "slug": "20261111-03",
+    "headline": "Google・Adobe、Gemini/Search に Creative Suite を統合",
+    "lead": "GoogleとAdobeが戦略的パートナーシップ。Gemini/Google Search に Photoshop・Acrobat を統合し、ワークフロー簡素化。",
+    "body_markdown": "GoogleとAdobeは、クリエイティブ・生産性ツールの統合を発表。Adobe Acrobat が Google Drive・Gmail 内から直接アクセス可能になり、PDF 編集が Google の AI 環境で実行できる。\n\nGemini Enterprise には Adobe の CX（顧客体験）Enterprise Coworker エージェントが統合される。ユーザーは、アプリケーション切り替えなしにグラフィック設計・PDF 作業・マーケティング キャンペーン構築ができるようになる。\n\nさらに、GoogleとAdobeの研究部門（Google DeepMind）が、Photoshop の新しい画像編集機能開発に協力。AIモデルを活用した「ほぼリアルタイム編集」が実現予定。エンタープライズと一般ユーザーの両方を対象に、シームレスなクリエイティブ統合を目指す。",
+    "tags": [
+      "Google",
+      "Adobe",
+      "AI",
+      "クリエイティブ"
+    ],
+    "section": "テクノロジー",
+    "source": "Google AI",
+    "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+    "importance": 4,
+    "image_query": "design software creative tools",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-1440x810.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-10T23:11:17.556Z",
+    "publishedAt": "2026-11-10T14:00:00.000Z"
+  },
+  {
+    "slug": "20261111-04",
+    "headline": "CoreWeave Q3決算、168%成長で上方修正 AIインフラ需要続く",
+    "lead": "AI インフラ企業 CoreWeave が Q3 で $3.66B 収益達成（168%成長）。通年ガイダンス上方修正、バックログ $132.5B に拡大。",
+    "body_markdown": "AI インフラストラクチャー企業 CoreWeave が Q3 2026 決算を発表。売上高は $3.66B で、前年同期 $1.36B から 168% 成長。アナリスト予想 $3.55B を上回った。\n\n通年ガイダンスを上方修正。2026年通期売上を $13.0〜$13.3B に引き上げ（従来 $12.4〜$13.2B）、調整営業利益を $1.275〜$1.375B に上方修正（従来 $960M〜$1.15B）。\n\nバックログは $132.5B に達し、Q2 の $104B から拡大。市場では AI チップ・GPU 需要の根強さが示唆されている。同社 CEO は、2027年の資金調達について「顧客前払いとハードウェアパートナー融資で対応可能」とコメント。競争激化と金利上昇の中、AI インフラ企業の成長ドライブが続く。",
+    "tags": [
+      "AI",
+      "インフラストラクチャー",
+      "決算",
+      "ビジネス"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+    "importance": 4,
+    "image_query": "data center servers technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1682561477064-44fb2dfd82bf?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMnx8ZGF0YSUyMGNlbnRlciUyMHNlcnZlcnMlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTQzNTIyNzd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Lightsaber Collection",
+      "profileUrl": "https://unsplash.com/@lightsabercollection?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a computer monitor sitting on top of a table"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-10T23:11:17.957Z",
+    "publishedAt": "2026-11-10T22:35:21.000Z"
+  },
+  {
+    "slug": "20261111-05",
+    "headline": "西南極の氷床、過去80万年で繰り返し崩壊 温暖化時に内陸奥深く後退",
+    "lead": "研究者が海底粘土の分析から西南極の氷床崩壊パターンを解明。過去の温暖期に Thwaites 氷河などが何度も大規模に後退したことが判明。",
+    "body_markdown": "海底粘土の成分分析により、西南極で過去80万年間の温暖期に、Thwaites 氷河をはじめ脆弱な氷流が繰り返し崩壊・後退していたことが明らかになった。Woods Hole Oceanographic Institution の研究。\n\n証拠は、中国粘土（カオリナイト）の同位体比。含有量の急激な低下は、海上に浮いていた氷床が融解し、内陸奥深くまで後退したことを示唆する。Thwaites 氷河だけで海面上昇 66cm、西南極全体で 3〜5m に相当する規模。\n\n懸念は、自然の温暖化周期では数千年かかった変化が、人為的温暖化では数百年に圧縮される点。衛星観測と模型シミュレーションから、Thwaites はすでに崩壊リスクが高まっている。",
+    "tags": [
+      "気候変動",
+      "科学",
+      "南極",
+      "海面上昇"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-seafloor-clay-reveals-ice-loss.html",
+    "importance": 4,
+    "image_query": "glaciers ice melt polar",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1787239461023-4defd31df018?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8Z2xhY2llcnMlMjBpY2UlMjBtZWx0JTIwcG9sYXJ8ZW58MXwwfHx8MTc5NDM1MjI3OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Benjamin Chambon",
+      "profileUrl": "https://unsplash.com/@benjamin_chambon?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A jagged glacier face above a dark lake filled with floating ice chunks"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-10T23:11:18.530Z",
+    "publishedAt": "2026-11-10T22:40:12.000Z"
+  },
+  {
+    "slug": "20261111-06",
+    "headline": "OpenAI、ChatGPT に企業ハブ機能を導入 ビジネス情報を一元管理",
+    "lead": "OpenAI が ChatGPT に「Businesses」機能をベータ版で提供開始。企業情報の登録・更新・ユーザー エンゲージメント追跡が可能。",
+    "body_markdown": "OpenAI は ChatGPT に新機能「Businesses in ChatGPT」をベータ版で導入。ビジネスが企業情報を一元管理し、ChatGPT の週間利用者 12 億人にリーチできる仕組み。\n\n企業は Business Hub を通じて、ビジネス情報を登録・最新化し、ユーザーの検索時の表示結果を確認・制御できる。さらに「Business Agents」と呼ぶ AI エージェントにより、米国内のeコマース・サービス企業は、ユーザーと直接対話できる。予約・発注・質問対応などを自動化。\n\n「信頼の保護」を掲げ、ビジネス情報の正確性と透明性を重視。中小企業から大手まで、ChatGPT プラットフォームでの可視化と顧客接点を簡素化する動き。",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "ビジネス",
+      "AI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-businesses-chatgpt",
+    "importance": 4,
+    "image_query": "business technology interface",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7Eicp7g84HA3PCzyVJTfbT/d423890d5a1a863bf69a57bcbbbf6e99/business-agents-blog-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/introducing-businesses-chatgpt",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-10T23:11:19.160Z",
+    "publishedAt": "2026-11-10T10:00:00.000Z"
+  },
+  {
+    "slug": "20261111-07",
+    "headline": "Google Cloud、医療向け Gemini を提供開始 臨床データ統合・業務効率化",
+    "lead": "Google Cloud が医療機関向け「Gemini for Healthcare」をリリース。臨床データ統合・ワークフロー自動化で行政負担を削減。",
+    "body_markdown": "Google Cloud は医療機関向けの AI 製品「Gemini for Healthcare」を発表。患者の臨床記録・検査結果・医療履歴を統一され、医師・ナース・事務スタッフが AI を通じてデータにアクセス可能。\n\n電子カルテシステムの複数インターフェースを行き来する手間を削減し、事務的負担（administrative burnout）を軽減。ワークフロー自動化により、診療時間を患者に費やすことに集中できる。\n\nHIPAA（米国医療プライバシー法）準拠の設計。Google が医療機関と協力しながら段階的に展開予定。医療 AI の実装加速が続く。",
+    "tags": [
+      "Google",
+      "医療",
+      "AI",
+      "ワークフロー"
+    ],
+    "section": "テクノロジー",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+    "importance": 4,
+    "image_query": "healthcare medical technology",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_share_NWQpgus.max-1440x810.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-10T23:11:19.531Z",
+    "publishedAt": "2026-11-10T13:00:00.000Z"
+  },
+  {
+    "slug": "20261111-08",
+    "headline": "ウクライナ平和交渉、初日が「建設的」と Zelensky 評価 米中ロ3国協議",
+    "lead": "ウクライナ・米国・ロシアがアラブ首長国連邦で初の三者会談。Zelensky 大統領が初日を「建設的」と評価。2月以来の格式的対話。",
+    "body_markdown": "ウクライナのVolodymyr Zelensky 大統領、米国、ロシアの代表団が、アラブ首長国連邦（UAE）で初めての三者会談を開始。2月以来の主要な格式的交渉。\n\nZelensky は初日の成果を「建設的」と述べ、交渉の進展に期待を示した。キーフ側は、ウクライナの領土保全・主権の回復を交渉の基本立場として臨む。米国代表は、調停役としての立場を示唆。ロシアとウクライナの直接対話は、停戦合意に向けた重要な局面。\n\nタイミングは、米国中間選挙後の政治的転換期。国際的な注視が集まる。",
+    "tags": [
+      "ウクライナ",
+      "平和交渉",
+      "国際",
+      "ロシア"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o",
+    "importance": 5,
+    "image_query": "diplomacy international negotiation table",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1571763642271-c9bc86b9ace0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8ZGlwbG9tYWN5JTIwaW50ZXJuYXRpb25hbCUyMG5lZ290aWF0aW9uJTIwdGFibGV8ZW58MXwwfHx8MTc5NDM1MjI4MHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Rafael Idrovo Espinoza",
+      "profileUrl": "https://unsplash.com/@rafaidrovofoto?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "paperworks on table",
+      "description": "table for work"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-10T23:11:20.241Z",
+    "publishedAt": "2026-11-10T21:21:55.000Z"
+  },
+  {
+    "slug": "20261111-09",
+    "headline": "Oura、医療 AI チャットボット Counsel Health を $625M で買収",
+    "lead": "ウェアラブル企業 Oura が「AI ネイティブ初期医療」スタートアップ Counsel Health を $625M で買収。臨床 AI と実医師を統合。",
+    "body_markdown": "ウェアラブルデバイス企業 Oura は、医療系スタートアップ Counsel Health を $625M（6億2500万ドル）で買収すると発表。Oura のアプリにすでに Counsel の AI チャットボットが統合されており、今回の買収により完全な事業統合へ。\n\nCounsel Health は「AI ネイティブ初期医療」を標榜し、ウェアラブルからのヘルスデータに基づいて AI が生成した医療診断・アドバイスを提供。その後、必要に応じて在籍する医師との相談に進む仕組み。\n\nOura CEO Tom Hale は買収の意義を「ウェアラブル・臨床 AI・医師アクセスの統合」と説明。決算は2026年内に完了予定。ウェアラブルと遠隔医療 AI の融合が進む。",
+    "tags": [
+      "ウェアラブル",
+      "医療",
+      "AI",
+      "買収"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/gadgets/1031284/oura-counsel-health-acquisition",
+    "importance": 4,
+    "image_query": "wearable health monitoring technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1776761916500-f639da084b7b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHx3ZWFyYWJsZSUyMGhlYWx0aCUyMG1vbml0b3JpbmclMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTQzNTIyODB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Salahuddin Ahmed",
+      "profileUrl": "https://unsplash.com/@saladinazad?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A yellow medical sensor attached to a person's arm",
+      "description": "Wearable patch monitors health."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-10T23:11:20.920Z",
+    "publishedAt": "2026-11-10T21:40:31.000Z"
+  },
+  {
+    "slug": "20261111-10",
+    "headline": "IBM、ビザスポンサー大幅削減 米国の外国人労働者採用を制限",
+    "lead": "IBM の最大部門が米国ビザスポンサーをほぼ廃止。Trump 政権の外国人労働者政策に対応。",
+    "body_markdown": "IBM の大型事業部門が、米国の外国人労働者（主に H1-B ビザ保有者）のスポンサーシップを大幅に削減・廃止すると発表。Trump 政権が外国人労働者プログラムの制限を推し進める中での対応。\n\nIBM はグローバルなエンジニア採用の中核を担ってきたが、政策変化により戦略転換を余儀なくされている。インド出身の技術者が多く在籍していることもあり、H1-B 廃止は米国オフィスの採用パイプラインに影響。\n\nシリコンバレー他の大手 IT 企業も同様の政策変更を進める傾向。米国への海外人材流入の制限が急速に進む。",
+    "tags": [
+      "IBM",
+      "外国人労働者",
+      "政策",
+      "米国"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/11/10/ibms-biggest-division-ends-most-us-foreign-worker-sponsorships",
+    "importance": 4,
+    "image_query": "technology office business workers",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1759844197486-5b3612c7d534?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHx0ZWNobm9sb2d5JTIwb2ZmaWNlJTIwYnVzaW5lc3MlMjB3b3JrZXJzfGVufDF8MHx8fDE3OTQzNTIyODF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Kristina spremo",
+      "profileUrl": "https://unsplash.com/@kristinaspremo0?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Two colleagues collaborating on a laptop in office",
+      "description": "Kristina Spremo: The United Arab Emirates (UAE) continues to be one of the most vibrant hubs for entrepreneurship in the Middle East. With its strategic location, world-class infrastructure, and supportive business policies, the country offers enormous opportunities for startups and business visionaries alike."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-10T23:11:21.401Z",
+    "publishedAt": "2026-11-10T21:55:49.000Z"
+  },
+  {
+    "slug": "20261111-11",
+    "headline": "Meta Quest に Disney Plus 3D 映画60本以上追加 VR 体験強化",
+    "lead": "Meta Quest の Disney Plus アプリが 3D 映画 60 本超をサポート。Avengers・Black Panther など、VR 環境での視聴が可能に。",
+    "body_markdown": "Meta は Disney Plus アプリを更新し、Meta Quest で 60 本以上の 3D 映画を視聴できるようにした。Avengers・Black Panther・Star Wars など主要タイトルが対応。\n\n新機能として、映画に合わせたテーマ別 VR 環境も提供。Star Wars 視聴時は惑星タトゥーイン、Monsters Inc. は「スケア・フロア」環境で楽しめる。Disney Plus 購読者は追加料金なしで利用可能。\n\nVR/メタバースコンテンツへの投資が加速する中、没入型エンタメ体験の充実が進む。",
+    "tags": [
+      "Meta",
+      "VR",
+      "Disney",
+      "エンタメ"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies",
+    "importance": 3,
+    "image_query": "VR virtual reality headset entertainment",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-10T23:11:21.404Z",
+    "publishedAt": "2026-11-10T22:00:00.000Z"
+  },
+  {
+    "slug": "20261111-12",
+    "headline": "キリン「晴れ風」、AI で消費者嗜好分析 前年比150%の出荷達成",
+    "lead": "キリンが独自開発 AI「FJWLA」でビール新商品を開発。消費者データとシーン分析で嗜好最適化。出荷が前年比150%に。",
+    "body_markdown": "キリンは、新ビール「晴れ風（はれかぜ）」のリニューアル版を AI により開発。社内で開発した嗜好分析 AI「FJWLA（フジワラ）を初めてビール開発に適用した。\n\nこの AI は、消費者データと購買シーン・消費フェーズの関連性を分析。季節・時間帯・ライフステージに応じた最適な味わいを提案する仕組み。新商品は、リニューアル後の出荷が前年比 150% に達する売上を達成。\n\nビール業界での AI 活用が、商品開発だけでなく売上成長に直結する事例。大手飲料メーカーでも同様の取り組みが広がる。",
+    "tags": [
+      "キリン",
+      "AI",
+      "飲料",
+      "日本"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia ビジネス",
+    "link": "https://www.itmedia.co.jp/business/articles/2611/11/news008.html",
+    "importance": 3,
+    "image_query": "beverage product design beer",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-10T23:11:21.406Z",
+    "publishedAt": "2026-11-10T22:00:00.000Z"
+  },
+  {
+    "slug": "20261111-13",
+    "headline": "Sony、Live Service ゲーム Fairgames を中止 テスト不振で判断",
+    "lead": "Sony が開発中の Live Service 型シューター「Fairgames」を中止。プレイヤー反応不十分が理由。",
+    "body_markdown": "Sony Interactive Entertainment は、2023年に発表した Live Service ゲーム「Fairgames」の開発中止を決定。Bloomberg が報道。\n\n同社は近年、God of War・The Last of Us など複数の Live Service 計画をキャンセル。Fairgames も初期テストで「プレイヤーの反応・リテンション（継続利用）が目標に達しなかった」との理由。開発元 Haven Studios は他の PlayStation スタジオ支援に配置転換。\n\nConcord（Ubisoft）など多くの Live Service ゲーム失敗に続き、市場の厳しさが浮き彫り。大手メーカーも収益性の厳密な判断を進める。",
+    "tags": [
+      "Sony",
+      "ゲーム",
+      "Live Service",
+      "キャンセル"
+    ],
+    "section": "テクノロジー",
+    "source": "The Verge",
+    "link": "https://www.theverge.com/games/1031242/sony-playstation-fairgames-canceled",
+    "importance": 3,
+    "image_query": "video game development console",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-10T23:11:21.409Z",
+    "publishedAt": "2026-11-10T21:06:12.000Z"
+  },
+  {
+    "slug": "20261111-14",
+    "headline": "Grok Build、情報流出 SpaceX 含む機密データ 35000 個のアプリが無防備",
+    "lead": "X の AI コーディング機能「Grok Build」で 35000 個のアプリが情報保護不備。SpaceX など機密データが曝露。",
+    "body_markdown": "セキュリティ研究者が、X（旧 Twitter）のコーディング AI 「Grok Build」で深刻な情報流出を発見。35000 個のアプリが API キー・認証情報・ソースコード・機密データを保護なしで公開状態になっていた。\n\nスペースX の内部情報も含まれており、X 親会社 Elon Musk の企業にも影響が及んでいる。Grok Build は、ユーザーが AI にコーディングタスクを依頼するプラットフォーム。\n\nセキュリティ対策の欠落で、多くの開発者が無意識のうちにクレデンシャルを危険にさらしている。AI ツールの安全性管理の急務が改めて浮き彫りに。",
+    "tags": [
+      "セキュリティ",
+      "Grok",
+      "X",
+      "データ流出"
+    ],
+    "section": "テクノロジー",
+    "source": "Ars Technica",
+    "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+    "importance": 4,
+    "image_query": "cybersecurity data breach warning",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1654375408506-382720d3e05f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8Y3liZXJzZWN1cml0eSUyMGRhdGElMjBicmVhY2glMjB3YXJuaW5nfGVufDF8MHx8fDE3OTQzNTIyODJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Boitumelo",
+      "profileUrl": "https://unsplash.com/@writecodenow?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a man sitting in front of a computer monitor",
+      "description": "Late night crunching"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-10T23:11:22.155Z",
+    "publishedAt": "2026-11-10T21:12:59.000Z"
+  },
+  {
+    "slug": "20261111-15",
+    "headline": "AI が分子フィンガープリント生成 既存化合物から新薬候補を発見",
+    "lead": "AI がタンパク質を標的とした治療化合物を分子レベルで特性化。既存化合物からの医薬応用を加速。",
+    "body_markdown": "研究チームが、AI 生成の「分子フィンガープリント」を使い、既存の化学化合物から医薬応用候補を発見する方法を開発。\n\n従来は、疾病標的タンパク質に結合する新規分子設計に機械学習を活用してきたが、成功は限定的だった。新手法では、既に存在する化合物を AI が「分子フィンガープリント」（微細な化学的特徴）で分析。治療の可能性があるものを同定する。\n\n既存化合物ライブラリからの再利用は、開発期間・コストを削減。AI による医薬候補探索の効率化が進む。",
+    "tags": [
+      "AI",
+      "分子設計",
+      "医薬",
+      "サイエンス"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-ai-generated-molecular-fingerprints-compounds.html",
+    "importance": 3,
+    "image_query": "molecular science laboratory research",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-10T23:11:22.158Z",
+    "publishedAt": "2026-11-10T22:30:01.000Z"
+  },
+  {
     "slug": "20261110-01",
     "headline": "ChatGPT EnterpriseがAWS Marketplaceで購入可能に",
     "lead": "OpenAIが企業向けChatGPT EnterpriseをAWS Marketplaceで提供開始し、AWS顧客の購買・課金を一元化。",
