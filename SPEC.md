@@ -140,8 +140,8 @@ AIニュースサイト/
 │   ├── markdown.js         # md→html / エスケープ / 本文の生HTML・危険プロトコル無害化
 │   ├── evaluate.js         # 客観評価・ledger 追記・有界化・二重掲載の特徴語判定（§12.1）
 │   ├── qualityDigest.js    # 直近の逸脱と veto 傾向を writer プロンプトへ還流（§12.6）
-│   ├── reviewVerdict.js    # judge 判定の受け取り検査（使える判定かの唯一の正本・§12.8）
-│   ├── vetoLedger.js       # veto の記録と critique の分類（data/quality/vetoes.jsonl）
+│   ├── reviewVerdict.js    # judge 判定の受け取り検査＋破損判定の救済（唯一の正本・§12.8 / §12.8.1）
+│   ├── vetoLedger.js       # veto の記録と critique の7カテゴリ分類（data/quality/vetoes.jsonl・§12.6.1）
 │   ├── vetoDigest.js       # veto 傾向 → writer への是正指示テキスト
 │   ├── seedVetoLedger.js   # 過去の veto を scheduler.log から遡及投入（冪等・既定 dry-run）
 │   ├── prepareFixRound.js  # 修正リトライの対象抽出とバックアップ（§12.6）
@@ -810,7 +810,7 @@ MVP を数日〜2週間運用し「評価信号が役立つ」と確認できた
 分類したところ **数値・桁・単位の誤変換が約6割**（例「$1.5B と $15B で10倍」「£3 billion を3000億ポンドと100倍」）、
 次いで固有名詞の取り違え・出典にない創作。writer はこの指摘を**一度も見ていなかった**ため同じ型の誤りを繰り返していた。
 
-**(A) 記録** — `src/vetoLedger.js`。`classifyCritique()` が critique を6カテゴリ（numeric / entity / contradiction /
+**(A) 記録** — `src/vetoLedger.js`。`classifyCritique()` が critique を7カテゴリ（numeric / entity / attribution / contradiction /
 fabrication / date / unreachable）に分類する。`contradiction` は**下書き内部の不整合に限定**し、出典との不一致は
 numeric/entity 側に寄せる（writer への指示が「書いた後に突き合わせろ」と「出典を取り直せ」で根本的に違うため）。
 過去分は `npm run seed-veto-ledger`（既定 dry-run・`--apply`・二重投入を拒む冪等ガードつき）でログから遡及投入する。
@@ -855,6 +855,32 @@ numeric/entity 側に寄せる（writer への指示が「書いた後に突き�
   **救済率は監視する** — `outcome:'rescued'` の割合を `qualityDigest` が **stderr にだけ**出す（writer に見せると
   「通ればよい」という目標値として作用する）。**100%に張り付くのは執筆改善ではなく再査読のゲーム化のシグナル**で、
   持続的に80%超なら手動監査のうえ `enabled:false` で即停止する。
+
+#### 12.6.1 分類漏れ（還流が静かに痩せる経路）
+
+`vetoLedger.js` の `CATEGORY_RULES` は critique からカテゴリを自動付与し、`vetoDigest` がカテゴリ別の
+是正指示を writer へ還流する。ここで**分類が取り落ちると二重に損をする**——`vetoDigest.js` は
+`categories` が空の行を母集団（分母）には数えるが `counts` には寄与させないため、①その型の是正指示は
+writer に一度も届かず、②他カテゴリの％まで薄まる。ledger も還流も正常に見えるため誰も気づけない。
+
+**2026-11-11**: 取り下げた veto 6本のうち3本が、どの既存カテゴリにも掛かっていなかった。いずれも
+「名前自体は正しいが、誰の／どこの／どの立場のものかを間違える」型だった:
+
+- Andy Burnham は英首相だが「マンチェスター市長」＝肩書が古い（見出し・リード・本文すべて）
+- 見出し「米中ロ3国協議」だが出典はウクライナ・米国・ロシア＝中国は参加していない
+- Concord を Ubisoft 作品と誤帰属（実際は Firewalk 開発 / Sony パブリッシュ）
+
+`entity`（綴りを出典から写せ）とは**是正手順が違う**（誰のものかを出典で確かめよ）ため、
+`attribution`＝「帰属・役職の誤り」を独立したカテゴリとして追加した。既存560件を再分類しても
+**既存ラベルは1つも失われず**（分類は多ラベル）、分類なしが 89→72件（13%）に下がり、
+`numeric` が最多（282件）という還流の軸も保たれている。
+
+分類なしの割合が `config.ledger.unclassifiedWarnRatio`（既定 0.2）を超えると `npm run check` が
+**警告**する（非ブロック・`checkVetoClassification()`）。語彙表が現実に追いつかなくなると静かに
+ここが増えるため、気づける床として置く。**しきい値は最大化目標ではない**——下げるために何にでも
+マッチする正規表現を書くと「numeric が最多」という軸が崩れ、還流が無意味になる。
+検出力の退行は `checkVetoClassifyRules()` が hard-fail で止める（各カテゴリの代表例に加えて
+**否定ケース**も置く。実データの critique は分類済みに見えるため、合成入力でしか検出力は測れない）。
 
 ### 12.7 下書きの決定論リント（writer の検算器）
 
@@ -922,6 +948,52 @@ Internal Server Error で偶然失敗していなければ、そのまま公開�
   0/1/2）③配線（ガードが CLI を呼んでいるか・消費側が自前で `JSON.parse` し直していないか・
   `-f` による存在判定に戻っていないか）。**実データ（正常な判定）を通してもこの3つは検証できない**ため、
   合成した壊れ方を実際に通す（`checkTagPathWiring()` と同じ考え方）。
+
+#### 12.8.1 破損した判定の救済（ガードは損失を可視化しただけだった）
+
+**2026-11-07 / 11-10**: 上のガードは設計どおり動いた——`judge_absent` を `guard` と `ingest` の両段で
+記録し、Slack へ通知し、原本を `_review-failed-<UTC>.json` へ退避した。それでも **veto 6本が公開された**。
+`JSON.parse` が失敗すると `rows` が空になり、判定が丸ごと捨てられていたためである。
+つまり**ガードは損失を可視化しただけで、損失を防いでいなかった**。
+
+原因は judge のエスケープ漏れ。日本語の prose の中で英語を ASCII の二重引用符で囲み、自分の JSON を壊す:
+
+| ラン | 位置 | 壊した文字列 | 場所 |
+|---|---|---|---|
+| 11-07 | position 2216 | `原綴りは "Alice Huang"` | pass 記事の `suggestions` |
+| 11-10 | position 683 | `URL タイトル "cash-out-1-75-billion"` | veto 記事の `suggestions` |
+
+**要点**: 壊れるのは prose フィールドで、しかも `isUsableRow()` が判定に使うのは `link` と `verdict` だけ。
+**判定に不要なフィールドのせいで判定全体が失われていた**。救済はこの非対称を解く。
+
+`salvageRows()` は情報を落とす量が少ない順に試す（**推測で補完はしない**。判定を創作すると judge が
+居ないのと同じになる）:
+
+1. **行構造でトップレベルのオブジェクトに切る**。括弧の数え上げは使えない——エスケープ漏れの引用符が
+   文字列の内外判定を壊し、破損オブジェクトの境界を取り違える（実測で先頭の veto を取り落とした）。
+   judge の出力は常に整形済みで、配列要素だけが「インデント＋単独の `{`」で始まる（入れ子の `scores` は
+   `"scores": {` と行内で開くので誤検出しない）。
+2. そのまま `JSON.parse` → `full`
+3. **捨ててよい順に1つずつ**足して捨てて再 parse → `trimmed`。順序は `suggestions`（どこからも読まれない）
+   → `fixHint`（`prepareFixRound` の入力。捨てると修正リトライが hint 無しになる）。まとめて捨てると
+   要らない1つのために要るものまで失う。
+4. `link` と `verdict` だけを**行まるごとの正規表現**で拾う → `minimal`。行アンカーが要で、無いと
+   `fixHint` 内の出典 URL を `link` と取り違える。`critique`/`scores`/`overall`/`sourceFetched` は
+   綺麗に読めるなら ledger のために残す。
+5. どれも駄目なら**その1件だけ**捨てる（`failed`）。
+
+救済した回は `ok:true` / `complete:false` / `salvaged:true` を返す。壊れていた以上「全下書きに判定が
+付いた」とは言えないので、ガードの終了コードは **2（一部未査読）**になる。`ingestDrafts` は復元した veto を
+**適用し**、`verdict_salvaged` を記録して原本の退避も続ける（救済の取り落ちは原本を見ないと分からない）。
+`judge_absent` と型を分けるのは、judge は不在ではない（判定は適用している）ため——混ぜると
+「査読なしで公開した回」の件数が水増しされ、評価機構の健全性を読み違える。
+
+**実測**: 退避された2ファイルから **22/22 行・15/15 行**（復元不能0件）が復元でき、veto 6本すべてが
+`critique` と `scores` 込みで戻った。これが入っていれば6本とも公開されなかった。
+
+根本側は `prompts/review-drafts.md` / `prompts/review-fixed.md` に「prose 内で英語を引用するときは `「」`
+を使う」指示を入れた。救済は保険であって、judge が壊れた JSON を書かなくなるのが本筋。ただし LLM の
+出力なので「壊れない」を前提にはしない。退行は `checkReviewVerdictGuard()` が合成入力で hard-fail 検知する。
 
 ---
 

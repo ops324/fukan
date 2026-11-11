@@ -15,11 +15,16 @@
 // 3f) judge 判定ガードの退行検査 … 壊れた _review.json を合成して、判定器・CLI の終了コード・
 //    配線（ガードと消費側が同じモジュールを通っているか）を検証する。ここが「ファイルの存在」
 //    だけを見ていたため、2026-11-04 は壊れた判定が素通りして veto 3本が取り込まれた。
+// 3h) veto 分類の検出力の退行検査 … 合成 critique で各カテゴリが今も検出できるかを見る。
+//    分類が取り落ちた型は writer に届かず（vetoDigest は分類なしを集計に含めない）他カテゴリの％も薄まる。
 // 4) 客観品質チェック … 本文長/タグ数/重複話題など。これは「警告のみ」で exit には影響しない
 //    （自己改善 MVP の床。決定的・オフライン・LLM/ネットワーク不使用）。
 // 4b) ledger 網羅チェック … 直近記事が evaluations.jsonl に残っているか（警告のみ）。
 //    取り込み時の記録は try/catch で握るため、失敗しても記事は正常に見え誰も気づけない。
-// 1〜3f のいずれか失敗で非ゼロ終了。4 / 4b は警告のみで exit に影響しない（参考情報）。
+// 4c) veto 分類漏れチェック … 現行の語彙表で veto を再分類し、分類なしの割合がしきい値
+//    （config.ledger.unclassifiedWarnRatio）を超えたら警告。vetoDigest は分類なしを母集団には
+//    数えるが集計には寄与させないため、漏れた型は writer に届かず他カテゴリの％も薄まる。
+// 1〜3h のいずれか失敗で非ゼロ終了。4 / 4b / 4c は警告のみで exit に影響しない（参考情報）。
 import { mkdtemp, rm, readFile, readdir, access, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
@@ -34,6 +39,7 @@ import { lintDrafts } from './lintDrafts.js';
 import { mdToHtml } from './markdown.js';
 import { tagSlug } from './tagSlug.js';
 import { validateVerdicts } from './reviewVerdict.js';
+import { classifyCritique } from './vetoLedger.js';
 import { tagHref } from '../templates/cardbits.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -171,6 +177,60 @@ function checkSchema(arts) {
   });
   for (const [slug, n] of slugs) if (n > 1) fail(`slug が重複しています: ${slug}（${n}件）`);
   for (const [link, n] of links) if (n > 1) fail(`link が重複しています: ${link}（${n}件）`);
+}
+
+// --- 3h) veto 分類の検出力の退行検査 ---
+// 分類は「どの是正指示を writer の上位に出すか」を決める。語彙表が取り落とすと、その型の
+// 誤りは writer に一度も届かず（vetoDigest は分類なしを集計に含めない）、しかも母集団には
+// 数えるので他カテゴリの％まで薄まる。2026-11-11 に帰属・役職の誤り3本がどのカテゴリにも
+// 掛かっていないことが取り下げ作業の副産物として判明した（attribution を追加）。
+// 実データの critique は分類済みに見えるため、合成入力で検出力そのものを確かめる。
+// 否定ケースも置く——下げたいからといって何にでもマッチする正規表現にすると、
+// 「numeric が最多」という還流の軸が崩れる。
+function checkVetoClassifyRules() {
+  // 各カテゴリの代表例（実際に veto された critique を短くしたもの）。
+  const positives = [
+    ['numeric', '創業者1人あたりの売却額を「250万ドル」と記載しているが出典は約2億5000万ドルで100倍の単位誤り。'],
+    ['entity', '研究者名を「カーム・カーン」と記載しているが出典の綴りは「カリム・カーン」。固有名詞の取り違え。'],
+    ['contradiction', '見出しは「20万人」だが本文の内訳合計は11万人で、下書き内部で整合していない。'],
+    ['fabrication', '「経営難」は出典にない記述で、出典は言論統制のみを理由として挙げている。'],
+    ['date', '設立を「2023年設立」と記載しているが出典によれば2021年。'],
+    ['unreachable', '出典が403で取得できず、記載内容をファクトチェックできなかった。'],
+    // 2026-11-11 に追加した型。どれも既存カテゴリでは1つも掛からなかった実例。
+    ['attribution', 'Andy Burnham は英国首相に就任しており「マンチェスター市長」という肩書は古い。'],
+    ['attribution', '出典は参加者をウクライナ・米国・ロシアと明記しており、中国は参加していない。'],
+    ['attribution', 'Concord は Firewalk Studios の開発で、Ubisoft への誤帰属は事実誤認。'],
+  ];
+  for (const [want, critique] of positives) {
+    const got = classifyCritique(critique);
+    if (!got.includes(want)) {
+      fail(`veto 分類の退行: 「${want}」を検出できません（分類: ${got.join(',') || 'なし'}）: ${critique.slice(0, 40)}…`);
+    }
+  }
+
+  // 否定ケース: 純粋な数値誤りを attribution と取らないこと（正規表現の広すぎを検知する）。
+  const negatives = [
+    ['attribution', '金額の桁が10倍ずれている。出典は150億ドルと記載。'],
+    ['unreachable', '出典を取得して内容を確認した。本文と一致している。'],
+  ];
+  for (const [mustNot, critique] of negatives) {
+    const got = classifyCritique(critique);
+    if (got.includes(mustNot)) {
+      fail(`veto 分類の退行: 「${mustNot}」が広すぎます（${critique.slice(0, 30)}… を ${got.join(',')} と分類）`);
+    }
+  }
+
+  // 空・非文字列で落ちないこと（記録の故障で取り込みを止めない設計を壊さない）。
+  for (const bad of [null, undefined, '', '   ', 123, {}]) {
+    let got;
+    try {
+      got = classifyCritique(bad);
+    } catch (err) {
+      fail(`veto 分類の退行: classifyCritique(${JSON.stringify(bad)}) が例外で停止しました: ${err.message}`);
+      continue;
+    }
+    if (!Array.isArray(got)) fail(`veto 分類の退行: classifyCritique(${JSON.stringify(bad)}) が配列を返しません`);
+  }
 }
 
 // --- 3) 秘密情報チェック ---
@@ -452,6 +512,100 @@ async function checkReviewVerdictGuard() {
     }
   }
 
+  // (1b) 救済の退行検査。2026-11-07 / 11-10 の本番ランは judge のエスケープ漏れで
+  //      JSON.parse が失敗し、**判定が丸ごと失われて veto 6本が公開された**。
+  //      壊れるのは prose フィールドで、判定に必要なのは link と verdict だけ——その非対称を
+  //      使って救済する経路が効いているかを合成入力で確かめる。実データ（正常な判定）では
+  //      この経路は一度も通らないので、実データによる検査では退行を捕まえられない。
+  const obj = (lines) => ['  {', ...lines.map((l) => `    ${l}`), '  }'];
+  const arr = (...objs) => ['[', objs.map((o) => o.join('\n')).join(',\n'), ']'].join('\n');
+
+  // suggestions 内のエスケープ漏れ（11-07 / 11-10 と同じ壊れ方）。veto は critique と
+  // fixHint まで残って復元できるべき——fixHint は prepareFixRound の入力なので、
+  // 「suggestions を捨てれば読める」のに一緒に捨てると修正リトライの当たりが落ちる。
+  const brokenSuggestions = arr(
+    obj([`"link": "${links[0]}",`, '"verdict": "pass",', '"critique": "問題なし",', '"sourceFetched": true']),
+    obj([
+      `"link": "${links[1]}",`,
+      '"verdict": "veto",',
+      '"scores": { "faithfulness": 1, "structure": 4 },',
+      '"overall": 2,',
+      '"critique": "金額の桁が10倍ずれている",',
+      '"suggestions": [',
+      '  "原綴りは "Alice Huang" を使う"',
+      '],',
+      '"fixable": true,',
+      '"fixHint": "出典 https://src.example/a は $250 million と記載",',
+      '"sourceFetched": false',
+    ]),
+  );
+  {
+    const v = validateVerdicts(brokenSuggestions, links);
+    if (!v.ok || !v.salvaged) {
+      fail(`judge 判定ガード退行: suggestions のエスケープ漏れを救済できていません（ok=${v.ok} salvaged=${!!v.salvaged}）`
+        + '。2026-11-07/11-10 と同じ壊れ方で、判定が丸ごと失われ veto が公開される');
+    } else if (v.complete) {
+      fail('judge 判定ガード退行: 救済した回を complete=true にしています（ガードの終了コードが 0 になり未査読を見逃す）');
+    } else if (v.usable !== 2) {
+      fail(`judge 判定ガード退行: 救済できた件数が ${v.usable} です（期待 2）`);
+    } else {
+      const veto = v.rows.find((r) => r.verdict === 'veto');
+      if (!veto) fail('judge 判定ガード退行: 救済後に veto が消えています（これが公開事故そのもの）');
+      else if (veto.link !== links[1]) fail(`judge 判定ガード退行: 救済した veto の link が違います（${veto.link}）`);
+      else if (!veto.critique) fail('judge 判定ガード退行: suggestions だけ捨てれば読める critique を失っています');
+      else if (!veto.fixHint) fail('judge 判定ガード退行: fixHint を不要に捨てています（修正リトライが hint 無しになる）');
+      else if (veto.suggestions) fail('judge 判定ガード退行: 壊れた suggestions を復元したことになっています');
+    }
+  }
+
+  // critique 自体が壊れている場合。critique は惜しいが、**veto は link と verdict だけで
+  // 尊重できる**（isUsableRow と同じ理由。必須を増やすと欠けただけで veto が無効になる）。
+  // fixHint に別の URL を置いて、行アンカーが効かず critique 内の URL を link と
+  // 取り違える退行も同時に見る。
+  const brokenCritique = arr(
+    obj([
+      `"link": "${links[1]}",`,
+      '"verdict": "veto",',
+      '"critique": "出典は "seafloor clay" と書いている",',
+      '"fixHint": "正しくは https://wrong.example/not-the-link",',
+      '"sourceFetched": true',
+    ]),
+  );
+  {
+    const v = validateVerdicts(brokenCritique, [links[1]]);
+    if (!v.ok || !v.rows.length) {
+      fail('judge 判定ガード退行: critique が壊れただけで veto を捨てています（link と verdict は読めている）');
+    } else if (v.rows[0].link !== links[1]) {
+      fail(`judge 判定ガード退行: 最小復元が別の URL を link にしています（${v.rows[0].link}）`);
+    } else if (v.rows[0].verdict !== 'veto') {
+      fail('judge 判定ガード退行: 最小復元で verdict が変わっています');
+    } else if (v.rows[0].critique) {
+      fail('judge 判定ガード退行: 壊れた critique を復元したことになっています（判定の創作）');
+    }
+  }
+
+  // 復元できない1件は捨て、他は残す（1件のために全部を捨てない／創作もしない）。
+  const brokenLink = arr(
+    obj(['"link": "https://x.example/"broken",', '"verdict": "veto",', '"sourceFetched": true']),
+    obj([`"link": "${links[0]}",`, '"verdict": "veto",', '"critique": "出典に無い記述",', '"sourceFetched": true']),
+  );
+  {
+    const v = validateVerdicts(brokenLink, links);
+    if (!v.ok || v.usable !== 1) {
+      fail(`judge 判定ガード退行: 復元不能1件・復元可能1件のとき usable=${v.usable} です（期待 1）`);
+    } else if (v.rows[0].link !== links[0]) {
+      fail('judge 判定ガード退行: 復元できる行を取り違えています');
+    } else if (!v.salvagedBy || v.salvagedBy.failed !== 1) {
+      fail(`judge 判定ガード退行: 復元不能の件数を数えていません（${JSON.stringify(v.salvagedBy)}）`);
+    }
+  }
+
+  // 救済しても1件も取れない壊れ方は従来どおり ok=false（judge 不在と同じ扱い）。
+  {
+    const v = validateVerdicts('{{{ これは JSON ではない', links);
+    if (v.ok) fail('judge 判定ガード退行: 復元不能な入力を ok=true にしています');
+  }
+
   // (2) CLI の終了コード。auto-generate.sh のガードはこれだけで分岐するので、
   //     文言ではなく終了コードを検証する（0=完全 / 1=使えない / 2=不完全）。
   const dir = await mkdtemp(path.join(tmpdir(), 'fukan-verdict-'));
@@ -462,6 +616,9 @@ async function checkReviewVerdictGuard() {
       ['壊れた判定', '[{"link":"a",', 1],
       ['判定ファイル無し', null, 1],
       ['一部未査読', `[{"link":"${links[0]}","verdict":"pass"}]`, 2],
+      // 救済できた回は 2。ここが 1 に退行すると judge_absent 扱いになり、せっかく復元した
+      // veto を ingest 側が無視しうる。0 に退行すると未査読を見逃す。
+      ['救済できた判定', brokenSuggestions, 2],
       ['正常', good, 0],
     ]) {
       const f = path.join(dir, `${name}.json`);
@@ -556,6 +713,34 @@ async function checkLedgerCoverage(arts) {
     + ' 取り込み時の記録が失敗した可能性 → data/scheduler.log の「評価の記録に失敗」を確認してください');
 }
 
+// --- 4c) veto の分類漏れチェック（警告のみ）---
+// vetoDigest は categories が空の行を母集団（分母）には数えるが counts には寄与させない。
+// つまり分類漏れは「writer に是正指示が届かない」うえ「他カテゴリの％を薄める」二重の損で、
+// しかも ledger も還流も正常に見えるため誰も気づけない（2026-11-11 に帰属・役職の誤り3本が
+// どのカテゴリにも掛かっていないことが取り下げ作業の副産物として判明した）。
+// 語彙表が現実に追いつかなくなると静かにここが増えるので、気づける床として警告を出す。
+async function checkVetoClassification() {
+  let rows;
+  try {
+    const raw = await readFile(path.join(ROOT, 'data', 'quality', 'vetoes.jsonl'), 'utf8');
+    rows = raw.split('\n').filter(Boolean).map((l) => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+  } catch {
+    return; // veto ledger が無い＝初回。網羅チェック側が別に警告する
+  }
+  if (!rows.length) return;
+  // 記録済みの categories ではなく **いま の語彙表で** 再分類する。記録時点の語彙で判定すると
+  // 「語彙を足したのに古い行は分類なしのまま」を漏れとして数えてしまう（還流は再分類しない
+  // ので実害はあるが、警告の意図は「いまの語彙の取りこぼし」を測ることなので現行で見る）。
+  const unclassified = rows.filter((r) => classifyCritique(r?.critique).length === 0);
+  const ratio = unclassified.length / rows.length;
+  const limit = config.ledger?.unclassifiedWarnRatio ?? 0.2;
+  if (ratio <= limit) return;
+  warn(`veto ${rows.length} 件のうち ${unclassified.length} 件（${Math.round(ratio * 100)}%）が分類なしです`
+    + `（しきい値 ${Math.round(limit * 100)}%）。vetoDigest は分類なしを集計に含めないため、`
+    + ' その型の是正指示が writer に届かず他カテゴリの％も薄まります'
+    + ' → src/vetoLedger.js の CATEGORY_RULES に語彙を足すか新カテゴリを検討してください');
+}
+
 // --- 5) 更新鮮度チェック（警告のみ・exit に影響しない）---
 // 自動ジョブが無言停止しても articles.json は「壊れていない」ため 1〜4 は全て通る。
 // 最終記事からの経過を見て、パイプライン停止に気づける最後の砦にする。
@@ -588,9 +773,11 @@ checkDraftLint();
 checkTagSlugs(arts);
 await checkTagPathWiring();
 await checkReviewVerdictGuard();
+checkVetoClassifyRules();
 await checkSecrets(arts);
 checkQuality(arts);
 await checkLedgerCoverage(arts);
+await checkVetoClassification();
 
 if (warns.length) {
   console.warn(`⚠ 品質警告（${warns.length} 件・公開はブロックしません）:`);
@@ -607,4 +794,4 @@ if (fails.length) {
   for (const f of fails) console.error(`  - ${f}`);
   process.exit(1);
 }
-console.log(`✓ check 通過: ${arts.length} 記事・レンダー完走・スキーマOK・サニタイザOK・下書きリントOK・judge判定ガードOK・鍵混入なし・constitution 維持`);
+console.log(`✓ check 通過: ${arts.length} 記事・レンダー完走・スキーマOK・サニタイザOK・下書きリントOK・judge判定ガードOK・veto分類OK・鍵混入なし・constitution 維持`);
