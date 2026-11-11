@@ -1,0 +1,299 @@
+[
+  {
+    "link": "https://news.web.nhk/newsweb/na/nd-20261111de73850",
+    "headline": "Anthropic IPO、11月19日上場 企業価値1.3〜1.4兆ドル",
+    "verdict": "veto",
+    "scores": {
+      "faithfulness": 1,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 2,
+    "critique": "創業者1人あたりの売却額を「250万ドル」（$2.5M）と記載しているが、TechCrunch 出典（https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/）は「approximately $250 million」（約2億5000万ドル）で100倍の単位誤り。また「2023年設立」と記載しているが同出典によれば Anthropic の設立は2021年。",
+    "suggestions": [
+      "「2億5000万ドル」「7名合計17.5億ドル」と正確な単位で表記すること（Bloomberg の URL タイトル "cash-out-1-75-billion" も一致）",
+      "NHK の「最大10兆円余りの調達」と Forbes の「90.4億ドル調達」の間に大きな数値差があり、どちらの根拠かを本文で明示するとよい",
+      "ティッカー「ANT」・上場先「Nasdaq」は確認できた出典に明示がないため、確認できたソースからの引用か要確認"
+    ],
+    "fixable": true,
+    "fixHint": "TechCrunch（https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/）は各創業者の売却額を「approximately $250 million」と記載（$2.5Mではなく$250M）。Bloomberg の記事タイトル（https://www.bloomberg.com/news/articles/2026-11-10/anthropic-founders-to-cash-out-1-75-billion-in-blockbuster-ipo）も7名合計$1.75Bを示しており一致する。Anthropic の設立年は同 TechCrunch 記事によれば2021年（2023年ではない）。",
+    "sourceFetched": true
+  },
+  {
+    "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+    "headline": "Google、Gemini Intelligence を新型Pixel・モトローラ端末に拡大",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 5,
+      "headline": 4,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "Google ブログの内容と主要事実は一致。Rambler・Create My Widget・タスク自動化の英国/インド/日本展開・Motorola Signature 27 の11月19日予約開始はいずれも確認済み。",
+    "suggestions": [
+      "Google ブログには Pixel 11 や Samsung Galaxy Z Fold8/S26 シリーズ・Googlebook も対応機種として挙げられているが本文に記載がなく、タイトルの「新型Pixel・モトローラ」に限定された印象を与える。重要であれば一言補足を検討",
+      "Pixel Watch の「Create My Widget 対応予定」は Google ブログに記載があるが、対応機能の範囲が明示されていないため「一部機能」等の限定表現を加えると正確"
+    ],
+    "sourceFetched": true
+  },
+  {
+    "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+    "headline": "Google・Adobe、Gemini/Search に Creative Suite を統合",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 5,
+      "headline": 4,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "Drive/Gmail での Acrobat 直接アクセス・CX Enterprise Coworker の Gemini Enterprise 統合・DeepMind と Adobe による Photoshop 向けほぼリアルタイム編集の協力はいずれも出典と一致。",
+    "suggestions": [
+      "リードの「Google Search に Photoshop・Acrobat を統合」は正確には「AI Mode in Google Search に Adobe ツールを統合」かつ Photoshop と Search の直接統合は明示されていないため、やや過剰表現",
+      "「GoogleとAdobeの研究部門（Google DeepMind）が」は Google DeepMind が Adobe の研究部門であるとも読め文法的に不明瞭。「Google DeepMind と Adobe が共同で」等に整理すると読者が誤解しない"
+    ],
+    "sourceFetched": true
+  },
+  {
+    "link": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+    "headline": "CoreWeave Q3決算、168%成長で上方修正 AIインフラ需要続く",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "CNBC は bot を拒否するため直接取得できなかったが、CoreWeave 公式 X ポスト・複数の金融メディア（247wallst, cryptobriefing, mlq.ai 等）が $3.66B 収益・168% 成長・$3.55B 超過・$132.5B バックログ・通年ガイダンス $13.0〜$13.3B をいずれも確認。主要数値は裏取り済み。",
+    "suggestions": [
+      "「2026年通期売上を $13.0〜$13.3B に引き上げ（従来 $12.4〜$13.2B）」の下限が出典（複数）では $12.40B であり、$12.4B と $12.4B は同じだが数値を揃えると読者が参照しやすい",
+      "調整営業利益ガイダンス $1.275〜$1.375B は CNBC 以外の複数ソースで確認していないため、確認できた出典を sources に追記すること"
+    ],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://phys.org/news/2026-11-seafloor-clay-reveals-ice-loss.html",
+    "headline": "西南極の氷床、過去80万年で繰り返し崩壊 温暖化時に内陸奥深く後退",
+    "verdict": "veto",
+    "scores": {
+      "faithfulness": 2,
+      "structure": 4,
+      "neutrality": 5,
+      "headline": 4,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 3,
+    "critique": "研究機関を「Woods Hole Oceanographic Institution」と記載しているが、Phys.org 出典は「British Antarctic Survey (BAS) led this international research team」と明示しており、異なる機関名を主体として表記している。また「カオリナイトの同位体比」という手法の説明は出典に記載がなく（出典はカオリナイトとスメクタイトの粘土鉱物含有量の変化を使用）、方法の描写も正確でない。",
+    "suggestions": [
+      "Thwaites 1本での海面上昇寄与は出典では 65cm（本文は 66cm）"
+    ],
+    "fixable": true,
+    "fixHint": "Phys.org（https://phys.org/news/2026-11-seafloor-clay-reveals-ice-loss.html）は「British Antarctic Survey (BAS) led this international research team」と明記しており、Woods Hole Oceanographic Institution が主導研究機関というのは出典にない。また分析手法は「海底堆積物コアのカオリナイトとスメクタイトの粘土鉱物含有量の変化および珪藻殻の化石」であり、同位体比には言及がない。Thwaites の海面上昇寄与は「65 centimeters」（66cm ではなく 65cm）。",
+    "sourceFetched": true
+  },
+  {
+    "link": "https://openai.com/index/introducing-businesses-chatgpt",
+    "headline": "OpenAI、ChatGPT に企業ハブ機能を導入 ビジネス情報を一元管理",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 5,
+      "headline": 4,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "openai.com は WAF により直接取得できなかったが、RSS サマリーが詳細で「1.2 billion people who use ChatGPT each week」「Business Hub」「Business Agents for eligible ecommerce and online service businesses in the U.S.」を確認でき、本文の主要事実と一致している。",
+    "suggestions": [
+      "「信頼の保護」という表現は OpenAI の原文では「protecting the trust people place in ChatGPT remains our North Star」であり、より具体的に「ChatGPT への信頼を守ることを最優先に」とすると忠実"
+    ],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+    "headline": "Google Cloud、医療向け Gemini を提供開始 臨床データ統合・業務効率化",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 3,
+      "structure": 4,
+      "neutrality": 5,
+      "headline": 4,
+      "originality": 3,
+      "japanese": 3
+    },
+    "overall": 3,
+    "critique": "臨床データ統合・ワークフロー自動化・行政負担軽減・プレビュー段階での段階展開はいずれも Google Cloud ブログと一致。ただし「HIPAA（米国医療プライバシー法）準拠の設計」は取得できたブログ本文に明示的な記載がなく、出典から独立して記述されている点が懸念。",
+    "suggestions": [
+      "「HIPAA 準拠」の記述は出典で確認できなかったため、Google Cloud の一般的な準拠情報（https://cloud.google.com/security/compliance/hipaa-compliance）を sources に追記するか、表現を「HCA Healthcare など大手医療機関と連携予定」等の確認済み情報に限定すること",
+      "本文の「患者の臨床記録・検査結果・医療履歴を統一され」は「を統一され → が統合され」と文法を修正すると自然"
+    ],
+    "sourceFetched": true
+  },
+  {
+    "link": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o",
+    "headline": "ウクライナ平和交渉、初日が「建設的」と Zelensky 評価 米中ロ3国協議",
+    "verdict": "veto",
+    "scores": {
+      "faithfulness": 3,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 1,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 3,
+    "critique": "見出しの「米中ロ3国協議」は「米国・中国・ロシア」を指す表現だが、BBC の RSS サマリーは「Delegations from Kyiv, Washington and Moscow」（ウクライナ・米国・ロシア）と明記しており中国は参加していない。本文・リードは「ウクライナのZelensky 大統領、米国、ロシア」と正確に記述しているにもかかわらず、見出しが中国を参加国として誤って示す深刻な事実誤認。",
+    "suggestions": [
+      "「Zelensky は初日の成果を『建設的』と述べ」という直接評価は BBC 本文を取得できないため確認不能。確認できたソース（RSS）からは読み取れないため、発言の根拠を sources に記録することを推奨"
+    ],
+    "fixable": true,
+    "fixHint": "BBC RSS サマリー（https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o）は参加者を「Kyiv, Washington and Moscow」（ウクライナ・米国・ロシア）と明示している。見出しの「米中ロ」（米国・中国・ロシア）は中国を誤って含んでいる。正しくは「ウ米ロ3国協議」あるいは「ウクライナ・米・露 三者協議」等とすること。",
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.theverge.com/gadgets/1031284/oura-counsel-health-acquisition",
+    "headline": "Oura、医療 AI チャットボット Counsel Health を $625M で買収",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 5,
+      "headline": 4,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "The Verge は bot を拒否するが RSS サマリーが詳細で、$625M・AI ネイティブ初期医療・チャットボット既統合・Tom Hale CEO のコメント（wearables/clinical AI/access の統合）・2026年内クローズ予定をすべて確認できた。本文の記述と完全に一致。",
+    "suggestions": [
+      "RSS では「Oura announced its quarterly earnings today」と合わせて発表されていることが分かる。決算文脈に触れると読者の背景理解が深まる"
+    ],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.aljazeera.com/news/2026/11/10/ibms-biggest-division-ends-most-us-foreign-worker-sponsorships",
+    "headline": "IBM、ビザスポンサー大幅削減 米国の外国人労働者採用を制限",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 3,
+      "structure": 3,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 3,
+    "critique": "Al Jazeera を直接取得し、IBM Consulting（150,000人超・最大部門）が H-1B を含むほとんどのビザ・グリーンカードスポンサーシップを終了したこと、Trump 政権の H-1B 政策強化との連動を確認した。主要事実は一致。",
+    "suggestions": [
+      "「インド出身の技術者が多く在籍していることもあり」は Al Jazeera 記事に明示的な記述がなく、推論が含まれている。出典に根拠がある場合のみ記載すること",
+      "「シリコンバレー他の大手 IT 企業も同様の政策変更を進める傾向」は本文が出典から独立した主張になっている。Al Jazeera の他の箇所での言及か別 sources を追記すべき"
+    ],
+    "sourceFetched": true
+  },
+  {
+    "link": "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies",
+    "headline": "Meta Quest に Disney Plus 3D 映画60本以上追加 VR 体験強化",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 5,
+      "headline": 4,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "The Verge RSS サマリーが詳細で、60本超の3D映画・The Avengers/Black Panther・タトゥーイン環境（Star Wars: A New Hope）・スケアフロア環境（Monsters, Inc.）・Disney Plus 購読者向け追加料金なしをすべて確認できた。本文の記述と一致。",
+    "suggestions": [],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.itmedia.co.jp/business/articles/2611/11/news008.html",
+    "headline": "キリン「晴れ風」、AI で消費者嗜好分析 前年比150%の出荷達成",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 3,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "ITmedia を直接取得し、FJWLA（フジワラ）をビール開発に初適用したこと・前年比150%の出荷達成をいずれも確認した。本文の主要事実と一致。",
+    "suggestions": [
+      "「大手飲料メーカーでも同様の取り組みが広がる」は出典に明示されていない一般化。削除するか根拠となる情報源を sources に追記すること"
+    ],
+    "sourceFetched": true
+  },
+  {
+    "link": "https://www.theverge.com/games/1031242/sony-playstation-fairgames-canceled",
+    "headline": "Sony、Live Service ゲーム Fairgames を中止 テスト不振で判断",
+    "verdict": "veto",
+    "scores": {
+      "faithfulness": 2,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 3,
+    "critique": "「Concord（Ubisoft）など多くの Live Service ゲーム失敗に続き」と記載しているが、Concord は Firewalk Studios 開発・Sony Interactive Entertainment パブリッシュのゲームであり Ubisoft とは無関係。The Verge RSS サマリーも「Sony shut down Concord shortly after its failed launch」と Sony の作品として明示しており、Ubisoft への誤帰属は事実誤認。",
+    "suggestions": [],
+    "fixable": true,
+    "fixHint": "The Verge の RSS サマリー（https://www.theverge.com/games/1031242/sony-playstation-fairgames-canceled）は「Sony shut down Concord shortly after its failed launch」と記載しており、Concord は Sony Interactive Entertainment がパブリッシュしたゲーム。開発元は Firewalk Studios（Sony 傘下）。「Concord（Ubisoft）」の Ubisoft という記述は誤りで、削除すること。",
+    "sourceFetched": false
+  },
+  {
+    "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+    "headline": "Grok Build、情報流出 SpaceX 含む機密データ 35000 個のアプリが無防備",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 3,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "Ars Technica は直接取得できなかったが、RSS サマリー「Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them」と記事タイトルの「some belonging to spacexsi」から、35,000アプリの露出と SpaceX 関連データの含有を確認。本文の主要事実と一致。",
+    "suggestions": [
+      "「X 親会社 Elon Musk の企業にも影響が及んでいる」は文法的に不明瞭で、X が Elon Musk の持株会社の子会社であるかのように読める。「X と SpaceX は、いずれも Elon Musk が率いる企業であり」等に整理すると正確"
+    ],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://phys.org/news/2026-11-ai-generated-molecular-fingerprints-compounds.html",
+    "headline": "AI が分子フィンガープリント生成 既存化合物から新薬候補を発見",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 3,
+      "neutrality": 5,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 3,
+    "critique": "Phys.org を直接取得し、DRUG-GAN による分子フィンガープリント生成・既存化合物ライブラリからの候補探索という手法・University of Pittsburgh Junmei Wang 教授の研究であることを確認した。本文の内容と一致。",
+    "suggestions": [
+      "研究機関（University of Pittsburgh School of Pharmacy）と研究者名（Junmei Wang 教授）を本文に加えると読者が一次情報に辿りやすい",
+      "DRUG-GAN という具体的な手法名は出典にあるが本文では「AI」とのみ記載。技術リテラシーの高い読者向けに「GAN（敵対的生成ネットワーク）」への言及を検討"
+    ],
+    "sourceFetched": true
+  }
+]

@@ -1,0 +1,413 @@
+[
+  {
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+    "headline": "OpenAI、1.25兆ドル評価で110億ドル調達",
+    "verdict": "veto",
+    "scores": {
+      "faithfulness": 2,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 2,
+    "critique": "2026年3月のOpenAI前回調達ラウンドの数値が誤っている。Bloomberg報道によると調達額は1,220億ドル（$122B）・企業価値8,520億ドル（$852B）だが、本文は「122億ドルを1,220億ドルの評価で調達」と記載しており、調達額を10分の1（$12.2B相当）、評価額を約7分の1（$122B相当）に過小記述している。また本文で言及するAnthropicのIPO計画は主出典（Verge）にも sources[] にも記録されておらず、出典を辿れない。",
+    "suggestions": [
+      "3月ラウンドの数値を修正：調達額1,220億ドル（$122B）、評価8,520億ドル（$852B）",
+      "Anthropicの上場計画に言及するなら出典媒体名とURLをsources[]に記録し、本文で帰属を示すこと"
+    ],
+    "fixable": true,
+    "fixHint": "Bloomberg報道（https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round）によると、2026年3月のOpenAI資金調達の調達額は1,220億ドル（$122 billion）、企業価値評価は8,520億ドル（$852 billion）。本文の「122億ドル（調達）／1,220億ドル（評価）」はいずれも誤りで、両数値の訂正が必要。",
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o",
+    "headline": "パラグアイ大統領、銀行危機で罷免・軟禁状態に",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "BBC のRSS要約（Santiago Peña ousted due to banking crisis, millions unable to access money）と整合しており、主要事実に問題はない。",
+    "suggestions": [
+      "「数百万人」という具体的な規模や危機の具体的な影響（預金凍結の範囲など）が補足できると深みが増す"
+    ],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+    "headline": "中国がAI企業幹部をスパイとしてNvidia CEO を監視",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "RSS要約（MSS recruited Megaspeed executive Alice Huang、Jensen Huang を標的、AIチップ情報入手・圧力目的）と整合し、主要事実に問題はない。",
+    "suggestions": [
+      "RSS要約に登場する「Gigabyte」の経営陣との人脈も言及すると背景の信頼性が補強される",
+      "「アリス・ファン」の原綴りは "Alice Huang"（Huang＝ファン は許容範囲だが、初出に原綴りを添えると読者が確認しやすい）"
+    ],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+    "headline": "OpenAI、110億ドルの追加調達を報告",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 3,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "TechCrunchから直接取得確認：$11B調達、ラウンド未クローズ・数週間以内完了予定はいずれも一致。内容がシンプルで論評が薄め。",
+    "suggestions": [
+      "記事1（Verge版）と同じ出来事を別媒体が伝えたもの。両者を同時掲載する場合は重複感が出ないよう角度を差別化すること"
+    ],
+    "sourceFetched": true
+  },
+  {
+    "link": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
+    "headline": "SpaceX、Starlink Mobile で主要キャリアに挑戦",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "RSS要約（Qualcomm契約・2027年5G展開・Boost Mobile買収検討・AT&T/Verizon/T-Mobile対抗）と整合。ドイツテレコムCEO名「ティム・ホッテゲス」と$200B超の投資試算はVerge本文からと推測されるが出典直接取得不可のため完全確認はできない。",
+    "suggestions": [
+      "$200B超の投資試算の出典がどのレポートか（T-Mobile CEO発言か別途）を本文中に帰属させると読者が検証しやすい"
+    ],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.wired.com/story/cybertrucks-death-great-news-for-evs/",
+    "headline": "Cybertruck 製造中止、EV産業にとっては実は朗報？",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 3,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "WIRED のRSS要約（1年で2台目の廃止・小型EV増加・米国バッテリー供給チェーンに好材料）と整合。WIRED本文は取得不可のため数値・具体的主張の完全照合はできない。",
+    "suggestions": [],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.cnbc.com/2026/11/07/proxima-fusion-power-japan-supply-chain.html",
+    "headline": "世界初の商用核融合発電所開発競争、欧州は日本に期待",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 3,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 3,
+      "japanese": 3
+    },
+    "overall": 3,
+    "critique": "CNBC RSS要約（豊富でクリーンな電力・世界初商用炉開発競争）と整合。CNBC本文は取得不可のため具体社名・数値の完全確認はできない。",
+    "suggestions": [
+      "「欧州のプロxima Fusion」と記載されているが、カタカナ変換が途中で途切れた形になっている（「プロキシマ・フュージョン」または「Proxima Fusion」に統一を）",
+      "日本サプライチェーンへの期待の具体的な内容（どの技術・部材か）が補足できると論評の厚みが増す"
+    ],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o",
+    "headline": "イーロン・マスク、Cybertruck 終焉を暗示 自動運転タクシー優先へ",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "BBC RSS要約（Musk said to make room for Cybercab production—autonomous taxis without a driver）と整合しており、主要事実に問題はない。",
+    "suggestions": [],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.politico.com/news/2026/11/06/gop-reckoning-trump-midterms-stephen-miller-01154760",
+    "headline": "米共和党、中間選挙の大敗後、統一した反省なし",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 3,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "Politico RSS要約（Miller's rise to chief of staff exacerbated GOP fears of no reckoning）と主旨は一致。Politico本文は取得不可のため完全確認はできない。",
+    "suggestions": [
+      "RSS要約によるとMillerの具体的な昇進先は「chief of staff（首席補佐官）」。「要職」と曖昧にせず役職名を明記するとより正確"
+    ],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://variety.com/2026/tv/news/bill-maher-trump-midterms-loss-real-time-hbo-lindsey-graham-1236941912/",
+    "headline": "ビル・マイアー、トランプの中間選挙敗北に塩を塗る",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 3,
+      "structure": 3,
+      "neutrality": 3,
+      "headline": 3,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 3,
+    "critique": "Variety本文は取得不可のため「ドニー、大丈夫？」という特定の引用の正確性を確認できない。またURLに含まれる「lindsey-graham」がエピソードに関わる人物と推測されるが、本文に一切登場しない。",
+    "suggestions": [
+      "特定の引用を記載するなら原文を確認すること。確認できなければ引用符を外して趣旨だけ伝える書き方に変える",
+      "Lindsey Grahamがエピソードに登場している場合、言及することで記事の内容が補完される"
+    ],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.aljazeera.com/opinions/2026/11/7/how-the-iran-war-helped-democrats-win-the-midterms",
+    "headline": "イラン戦争が民主党の勝利をもたらした 米中間選挙",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 3,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "Al Jazeera本文を取得確認：テヘランによるホルムズ海峡封鎖でガソリン・エネルギー等の価格上昇、有権者の90%がコスト・オブ・リビングを重要視した旨と整合。オピニオン記事であり中立性は元々低い前提で適切に処理されている。",
+    "suggestions": [
+      "これはオピニオン（論評）記事である旨を本文内に明示（「Al Jazeeraの論評によると」等）するとトーンの背景が読者に伝わりやすい"
+    ],
+    "sourceFetched": true
+  },
+  {
+    "link": "https://variety.com/2026/film/markets-festivals/ai-filmmaking-platform-core-studio-launches-24-agents-tccf-1236941957/",
+    "headline": "AI映画制作プラットフォーム、台湾で24個の AI エージェント搭載で発表",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "Variety RSS要約（imCore Corp、Core Studio、TCCF、スクリプト〜カラーグレーディング、アニメーション・VFX出身チーム）と整合。機械リントが指摘した「アニメーション」は出典に "animation and visual effects" と明示されており、取り違えではない。",
+    "suggestions": [],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://variety.com/2026/film/global/sylvain-chomet-denies-ai-accusations-dior-robert-pattinson-1236941945/",
+    "headline": "シルヴァン・ショメ、Dior短編の AI 使用疑惑を全面否定",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "RSS要約（4度のオスカー候補・The Triplets of Belleville・The Illusionist・ Pattinson/Rihanna/O'Connor/Stanfield 出演・AI使用否定）と整合。",
+    "suggestions": [
+      "RSS要約によるとキャスト全員はLouis GarrelとCamille Cottinも含まれる。主要声優をより完全に挙げると記事の正確性が増す"
+    ],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://phys.org/news/2026-11-untangling-patterns-cosmic-microwave-background.html",
+    "headline": "宇宙初期の謎解く、宇宙マイクロ波背景放射のパターン分析が進展",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 3,
+      "neutrality": 4,
+      "headline": 3,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 3,
+    "critique": "Phys.org本文取得確認：CMBが宇宙誕生から約38万年後に放出された光の残光という記述は正確（本文では "380,000 years after that first second"）。宇宙年齢138億年も正確。",
+    "suggestions": [
+      "本文が非常に一般的で、実際の研究内容（B-modeの検出・インフレーションの検証・テンソルスカラー比 <0.036 など）が含まれていない。重要な科学的進展の具体的内容を含めると価値が増す"
+    ],
+    "sourceFetched": true
+  },
+  {
+    "link": "https://phys.org/news/2026-11-baby-bird-ground-dont-birdnap.html",
+    "headline": "地面の雛鳥を見かけたら、触ってはいけない理由とは？",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "Phys.org本文取得確認：親鳥が継続サポートしている・介入が自然な発達を妨げる・人間は近づかないのが最善、という主要メッセージはすべて一致。",
+    "suggestions": [
+      "記事はオーストラリアの春（9〜11月）を対象にしている点を注記すると読者の季節感とのズレを避けられる"
+    ],
+    "sourceFetched": true
+  },
+  {
+    "link": "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain/",
+    "headline": "脳を貫いた刃物を無事摘出、医学的奇跡のケース",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 3,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "Ars Technica本文は取得不可だが、RSS要約（経路こそが重症度より重要・医師の見解）と整合。主要な論点（経路が主要脳領域を避けたことが回復につながった）は一致している。",
+    "suggestions": [],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.theguardian.com/money/2026/nov/07/nationwide-savings-account-market-leading-interest-rate",
+    "headline": "英 Nationwide、5.3% の利回り普通預金を新規提供",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "Guardian RSS要約（5.3%利回り・Nationwide会員向け・会員1,900万人超・イングランド銀行が基本金利を4%に引き上げる数日前に発表）と完全に整合。",
+    "suggestions": [],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.theguardian.com/technology/2026/nov/06/teachers-and-parents-what-are-your-experiences-of-ai-generated-emails",
+    "headline": "生成AIが学校とのやりとりに使われ始めた、経験者の声は？",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "Guardian RSS要約（ChatGPT・Claude・親→学校へのAI生成メール・読者から経験を募集）と整合。",
+    "suggestions": [
+      "これはGuardianが読者体験を募集する記事であり、その性質（調査記事の前段）を本文に明示するとより正確な紹介になる"
+    ],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.theguardian.com/lifeandstyle/2026/nov/06/experience-i-helped-jail-the-teacher-who-groomed-me",
+    "headline": "グルーミング被害から脱却、教師を投獄させた女性の経験",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "Guardian RSS要約（Queensland・15歳・体育教師Paul・31歳・「cool teacher」という感情）と整合。個人の手記として適切に処理されている。",
+    "suggestions": [],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.theguardian.com/politics/2026/nov/06/andy-burnham-quite-radical-change-young-people-support-benefits-neets",
+    "headline": "英マンチェスター市長、若年層支援で「急進的改革」を宣言",
+    "verdict": "veto",
+    "scores": {
+      "faithfulness": 1,
+      "structure": 3,
+      "neutrality": 4,
+      "headline": 1,
+      "originality": 3,
+      "japanese": 4
+    },
+    "overall": 2,
+    "critique": "Andy Burnhamは2026年7月20日に英国首相（Prime Minister）に就任しており、「マンチェスター市長」という肩書は古い。Guardian RSS要約も「Prime minister says…Andy Burnham has said」と記載している。見出し・リード・本文すべてで誤った役職が使われており、読者がBurnhamを市長と誤認する。",
+    "suggestions": [],
+    "fixable": true,
+    "fixHint": "Andy Burnhamは2026年7月20日に英国首相（Prime Minister）に就任済み（前任：Keir Starmer）。Guardian記事公開時点の2026年11月7日は首相であり、「マンチェスター市長」は就任前の役職。見出し・リード・本文の役職表記を「英国首相」に修正が必要。",
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.theguardian.com/money/2026/nov/07/can-ai-save-you-money-heating-bill",
+    "headline": "AI で暖房費は本当に下げられるのか？2年間実験してみた",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 4,
+      "originality": 4,
+      "japanese": 4
+    },
+    "overall": 4,
+    "critique": "Guardian RSS要約（Samuel Gibbs・2年間の実験・製造業者は25%/約180ポンド削減を主張・実際の差は想定ほど大きくなかった）と整合。",
+    "suggestions": [],
+    "sourceFetched": false
+  },
+  {
+    "link": "https://www.theguardian.com/business/2026/nov/06/minister-energy-suppliers-help-households-unpaid-bills-debt-relief",
+    "headline": "英相「光熱費が払えない家庭に、電力会社はもっと支援を」",
+    "verdict": "pass",
+    "scores": {
+      "faithfulness": 4,
+      "structure": 4,
+      "neutrality": 4,
+      "headline": 3,
+      "originality": 3,
+      "japanese": 3
+    },
+    "overall": 4,
+    "critique": "Guardian RSS要約（エネルギー担当大臣が電力各社を召集・約25億ポンドの債務免除計画・約240万世帯支援）と整合。",
+    "suggestions": [
+      "見出しの「英相」（首相）は「担当大臣（エネルギー大臣）」の誤り。RSSでは "An energy minister" とあり、首相が声明を出した訳ではない",
+      "本文中の「相関大臣」という表現は不自然で、「エネルギー担当大臣」が適切"
+    ],
+    "sourceFetched": false
+  }
+]

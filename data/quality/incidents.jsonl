@@ -285,3 +285,30 @@
 {"ts":"2026-11-04T10:43:44.550Z","type":"candidates","total":365,"pool":140,"skippedWeak":5,"skippedIrrelevant":9,"enriched":8}
 {"ts":"2026-11-04T10:49:56Z","type":"draft_lint","flagged":4,"drafts":25}
 {"ts":"2026-11-04T11:05:56.819Z","type":"veto_bypassed","count":3,"cause":"_review.json unparseable; -f guard passed","recovered":"manual withdraw before push"}
+{"ts":"2026-11-04T23:17:39.975Z","type":"candidates","total":365,"pool":140,"skippedWeak":8,"skippedIrrelevant":8,"enriched":4}
+{"ts":"2026-11-05T09:00:16.267Z","type":"candidates","total":365,"pool":140,"skippedWeak":7,"skippedIrrelevant":8,"enriched":4}
+{"ts":"2026-11-05T09:06:45Z","type":"draft_lint","flagged":3,"drafts":23}
+{"ts":"2026-11-05T21:13:01.064Z","type":"candidates","total":365,"pool":140,"skippedWeak":7,"skippedIrrelevant":7,"enriched":3}
+{"ts":"2026-11-05T23:34:02Z","type":"draft_lint","flagged":1,"drafts":15}
+{"ts":"2026-11-06T09:00:16.410Z","type":"candidates","total":365,"pool":140,"skippedWeak":5,"skippedIrrelevant":6,"enriched":5}
+{"ts":"2026-11-06T09:24:55Z","type":"draft_lint","flagged":2,"drafts":17}
+{"ts":"2026-11-06T21:07:42.344Z","type":"candidates","total":357,"pool":140,"skippedWeak":13,"skippedIrrelevant":6,"enriched":5}
+{"ts":"2026-11-06T22:13:44Z","type":"draft_lint","flagged":2,"drafts":21}
+{"ts":"2026-11-07T09:00:14.564Z","type":"candidates","total":365,"pool":140,"skippedWeak":9,"skippedIrrelevant":6,"enriched":3}
+{"ts":"2026-11-07T09:08:33Z","type":"draft_lint","flagged":1,"drafts":22}
+{"ts":"2026-11-07T09:33:40Z","type":"judge_absent","cause":"verdict_unusable","stage":"guard","exit":0}
+{"ts":"2026-11-07T09:33:40.325Z","type":"judge_absent","cause":"verdict_unusable","stage":"ingest","reason":"不正な JSON です: Expected ',' or ']' after array element in JSON at position 2216 (line 59 column 24)","kept":"data/quality/_review-failed-20261107T093340Z.json"}
+{"ts":"2026-11-07T21:07:08.283Z","type":"candidates","total":365,"pool":140,"skippedWeak":13,"skippedIrrelevant":6,"enriched":3}
+{"ts":"2026-11-07T23:13:20Z","type":"draft_lint","flagged":1,"drafts":23}
+{"ts":"2026-11-08T09:01:50.161Z","type":"candidates","total":357,"pool":140,"skippedWeak":9,"skippedIrrelevant":6,"enriched":2}
+{"ts":"2026-11-08T09:09:42Z","type":"draft_lint","flagged":1,"drafts":17}
+{"ts":"2026-11-08T21:00:16.886Z","type":"candidates","total":365,"pool":140,"skippedWeak":8,"skippedIrrelevant":6,"enriched":0}
+{"ts":"2026-11-09T09:00:15.011Z","type":"candidates","total":365,"pool":140,"skippedWeak":7,"skippedIrrelevant":6,"enriched":0}
+{"ts":"2026-11-09T09:07:02Z","type":"draft_lint","flagged":3,"drafts":20}
+{"ts":"2026-11-09T21:00:18.144Z","type":"candidates","total":365,"pool":140,"skippedWeak":11,"skippedIrrelevant":5,"enriched":2}
+{"ts":"2026-11-09T21:08:15Z","type":"draft_lint","flagged":1,"drafts":9}
+{"ts":"2026-11-10T09:38:34Z","type":"auth_failed","streak":1}
+{"ts":"2026-11-10T21:00:20.176Z","type":"candidates","total":365,"pool":140,"skippedWeak":6,"skippedIrrelevant":5,"enriched":7}
+{"ts":"2026-11-10T22:41:34.340Z","type":"candidates","total":365,"pool":140,"skippedWeak":6,"skippedIrrelevant":5,"enriched":7}
+{"ts":"2026-11-10T23:11:15Z","type":"judge_absent","cause":"verdict_unusable","stage":"guard","exit":0}
+{"ts":"2026-11-10T23:11:15.289Z","type":"judge_absent","cause":"verdict_unusable","stage":"ingest","reason":"不正な JSON です: Expected ',' or ']' after array element in JSON at position 683 (line 17 column 68)","kept":"data/quality/_review-failed-20261110T231115Z.json"}
