@@ -315,3 +315,5 @@
 {"ts":"2026-11-11T03:46:23.045Z","type":"veto_bypassed","count":6,"slugs":["20261107-18","20261107-37","20261111-01","20261111-05","20261111-08","20261111-13"],"cause":"_review.json unescaped quotes in suggestions/critique; JSON.parse failed so all verdicts were dropped","detected":"manual review of data/quality/_review-failed-*.json","recovered":"withdrawn after publication"}
 {"ts":"2026-11-11T09:00:16.657Z","type":"candidates","total":365,"pool":140,"skippedWeak":5,"skippedIrrelevant":5,"enriched":7}
 {"ts":"2026-11-11T09:07:21Z","type":"draft_lint","flagged":1,"drafts":23}
+{"ts":"2026-11-11T21:00:19.163Z","type":"candidates","total":357,"pool":140,"skippedWeak":10,"skippedIrrelevant":5,"enriched":6}
+{"ts":"2026-11-11T21:10:33Z","type":"draft_lint","flagged":5,"drafts":20}

@@ -1,5 +1,454 @@
 [
   {
+    "slug": "20261112-01",
+    "headline": "OpenAIが四半期売上100億ドル超え",
+    "lead": "OpenAI の Q3 売上が 100 億ドルを達成し、前四半期比約 50% 増と急速な成長を続けている。",
+    "body_markdown": "OpenAI の 2026 年第 3 四半期の売上が初めて 100 億ドルを突破しました。これは第 2 四半期の 67 億ドルから約 50% の増加で、第 1 四半期の推定 57 億ドルからの急速な伸びを示しています。現在のペースなら年間売上は約 500 億ドルに達する見通しです。\n\n成長をけん引しているのは、価格設定戦略の最適化とエンタープライズ向け製品の強化です。同社は有料プラン（ChatGPT Plus）の割引削減や高度な AI エージェントの開発に注力し、法人顧客からの収入を増やしています。OpenAI は 10 億人以上のユーザーを抱えていますが、大多数は無料またはローコスト層の利用者と考えられ、今後の成長には高付加価値ユーザーの獲得が重要です。\n\n利益性の面でも改善傾向が見られます。調整後営業利益率（adjusted operating margin）は第 2 四半期の -150% から第 3 四半期には -109% に改善し、赤字幅が着実に縮小しています。ただし競争は激化しており、Anthropic などのライバル企業がエンタープライズ市場でシェアを拡大し、同等またはそれ以上の成長率を記録しています。",
+    "tags": [
+      "OpenAI",
+      "AI企業",
+      "決算",
+      "事業成長"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+    "importance": 5,
+    "image_query": "openai logo office",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1676299081847-824916de030a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxvcGVuYWklMjBsb2dvJTIwb2ZmaWNlfGVufDF8MHx8fDE3OTQ0MzI0MjN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Levart_Photographer",
+      "profileUrl": "https://unsplash.com/@siva_photography?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a cell phone sitting on top of a laptop computer",
+      "description": "OpenAI is an American artificial intelligence research laboratory consisting of the non-profit OpenAI Incorporated and its for-profit subsidiary corporation OpenAI Limited Partnership. OpenAI conducts AI research with the declared intention of promoting and developing a friendly AI."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:03.683Z",
+    "publishedAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-02",
+    "headline": "オーストラリアの大手法律事務所、OpenAIツールで生産性2倍超",
+    "lead": "オーストラリアの大手法律事務所 Gilbert + Tobin が ChatGPT Enterprise と Codex を導入し、87% のユーザー採用率と大幅な効率改善を達成した。",
+    "body_markdown": "オーストラリアの大手法律事務所 Gilbert + Tobin は、OpenAI の ChatGPT Enterprise と Codex を組織全体で展開し、高い導入率と業務効率の向上を実現しています。CEO の Sam Nickless 率いるガバナンスチームが 2026 年 5 月から本格展開を開始し、87% のアクティブユーザーを達成しました。これは同社が導入する通常のツール採用率の 2 倍以上です。\n\n具体的な効果として、採用・人事の候補者調査業務は従来の 4 時間から 20 分に短縮されました。Codex は紛争調査・マネーロンダリング防止・実質的支配者（PEP）確認・顧客確認（KYC）など、規制要件に関わる定型業務の自動化に活用されています。一方 ChatGPT Enterprise は、各職種ごとにカスタマイズされたワークフローで、一般的な法律実務や分析作業を支援しています。\n\n同社が高い採用率を実現した鍵は、CEO を含む経営陣が率先して AI を使用し、「AI を使うのはカンニングではなく標準実務である」というメッセージを発信したことです。さらにオーストラリア国内のデータセンターでのサービス提供により、クライアント情報の保護に対する懸念を払拭し、法律事務所の信頼要件を満たしながら AI 導入を進めることができました。",
+    "tags": [
+      "法律事務所",
+      "生産性向上",
+      "AI導入",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+    "importance": 4,
+    "image_query": "law office modern workplace",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/34qb6se5e4WPds4qMTRVll/e5de73acb5100416606cc7cd390693bd/EF_Ep21_16.9.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:04.586Z",
+    "publishedAt": "2026-11-12T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-03",
+    "headline": "Nvidia CEO ジェンセン・ファン、議会での非公開ブリーフィング要求",
+    "lead": "下院共和党がNvidia CEO ジェンセン・ファンに対し、中国情報機関との関連が疑われる人物との関係について議会ブリーフィングを要求した。",
+    "body_markdown": "米国下院の複数委員会が、Nvidia CEO ジェンセン・ファンに対して非公開ブリーフィング出席を要求しました。下院外交委員会委員長 Brian Mast、中国選別委員会委員長 John Moolenaar、下院常設情報委員会委員長 Rick Crawford が連名で書簡を送付し、11月18日のブリーフィングへの出席を求めています。ファンには11月11日までに返答する必要があり、応じない場合はサブポエナが発行される見通しです。\n\nブリーフィングで取り上げられるのは、ファンと Alice Huang との関係です。Alice Huang は Megaspeed の経営幹部であり、米国の情報機関によれば中華人民共和国（PRC）の情報資産として活動しているとされています。下院の複数委員会は、この関係が米国の技術情報の流出や国家安全保障上のリスクにつながった可能性について、ファンから説明を受ける意向です。\n\nこの案件は、米国とのチップ・AI 技術競争における中国の情報活動の懸念と重なります。Nvidia は世界的に AI トレーニング向け GPU の最大手メーカーで、軍事・科学分野での需要も高く、その経営陣の安全保障リスクは議会の高い関心事となっています。ファンの対応が国家安全保障の政治的議論を生む可能性があります。",
+    "tags": [
+      "Nvidia",
+      "中国",
+      "国家安全保障",
+      "議会"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html",
+        "name": "CNBC"
+      }
+    ],
+    "importance": 4,
+    "image_query": "capitol building congress hearing",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1688417486337-b089fa4ee670?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxjYXBpdG9sJTIwYnVpbGRpbmclMjBjb25ncmVzcyUyMGhlYXJpbmd8ZW58MXwwfHx8MTc5NDQzMjQyNXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tim Mossholder",
+      "profileUrl": "https://unsplash.com/@timmossholder?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "the capitol building in washington d c is shown",
+      "description": "US Capitol Building"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:05.301Z",
+    "publishedAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-04",
+    "headline": "英国のFractile、7億2000万ドル調達で AI推論チップ競争に本格参入",
+    "lead": "英国の AI チップ企業 Fractile がシリーズC で 7 億 2000 万ドル調達し、企業評価は 70 億ドル超に到達。来年の製品出荷に向け加速する。",
+    "body_markdown": "英国の AI チップスタートアップ Fractile は、7 億 2000 万ドルのシリーズC ラウンドを完了し、企業評価を 50 億ポンド以上（約 70 億ドル相当）に押し上げました。Thrive Capital、Founders Fund、Lightspeed Venture Partners、Redpoint のほか、英国の Sovereign AI Fund も参加し、政府系投資を引き出すことに成功しています。\n\nFractile は単なるハードウェア設計企業ではなく、フルスタック戦略を採用しています。AI 推論専用チップと、それを実行する機械学習コンパイラを独自に開発することで、既存の GPU や ASIC との差別化を図っています。技術的には DRAM（メモリ）をチップの上に直接積層する設計が特徴で、メモリ容量とチップ性能のトレードオフ問題を回避することを目指しています。\n\nAI 推論チップの市場では、Axelera、Etched、OLIX など複数のスタートアップが高額な資金調達を進めており、競争が激化しています。CEO の Walter Goodwin は「来年初めに最初のチップとシステムを出荷する」と述べており、2027 年がベンチマークとなる見通しです。データセンター向けインフラの需要拡大に乗じ、欧米企業による GPU 供給依存を緩和する動きが加速しています。",
+    "tags": [
+      "AI チップ",
+      "資金調達",
+      "英国",
+      "AI 推論"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+    "importance": 4,
+    "image_query": "semiconductor chip computer hardware",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1562976540-1502c2145186?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8c2VtaWNvbmR1Y3RvciUyMGNoaXAlMjBjb21wdXRlciUyMGhhcmR3YXJlfGVufDF8MHx8fDE3OTQ0MzI0MjV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Harrison Broadbent",
+      "profileUrl": "https://unsplash.com/@harrisonbroadbent?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "green circuit board close-up photography",
+      "description": "2 ram module circuit boards"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:05.913Z",
+    "publishedAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-05",
+    "headline": "Google、決定判断API「Gemini Decisions」を発表、従来比5倍低コスト",
+    "lead": "Google が Gemini Decisions API を公開。マルチモーダル入力で高速に意思決定を行う API で、従来の 5 倍低いコストを実現した。",
+    "body_markdown": "Google は Gemini Decisions API を発表しました。これは大規模言語モデル Gemini Decision を活用した新しい API で、テキスト・画像・音声・動画・PDF を単一パスで処理し、高速な意思決定を行います。\n\nこの API は3種類の質問形式に対応しています。第1は Yes / No 判定で、確度スコア（0～1）付きで回答します。第2は複数選択で、2～255 の選肢から最適な1つを選ぶタイプです。第3は採点型で、あらかじめ設定したルーブリック（評価基準）に基づいてスコアを付けます。すべての回答に信頼度スコアが含まれるため、曖昧なケースを自動的に別処理へ振り分けることができます。\n\nパフォーマンスはレイテンシ 150～250ms、入力トークン当たり 0.10 ドル（100万トークン）で、従来の API と比べて約 5 倍低コストです。出力トークンへの課金がないため、大量のテキスト生成が不要な意思決定タスクに適しています。Google 内でも実装例があり、Gemini Notebook は Decisions API を使ってリアルタイムにモデル選択を最適化し、Google Labs のプロジェクトは絵文字選択に活用しています。",
+    "tags": [
+      "Google",
+      "API",
+      "決定支援",
+      "LLM"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+    "importance": 4,
+    "image_query": "api integration dashboard",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:06.334Z",
+    "publishedAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-06",
+    "headline": "5億ユーザー規模のJioStar、OpenAIでAI検出を実装",
+    "lead": "インド系企業 JioStar が 5 億人規模のユーザーベースで AI 検出を展開。OpenAI の API とモデルを活用し、大規模な発見エンジンを構築している。",
+    "body_markdown": "インドの JioStar は、5 億人を超えるユーザースケールで OpenAI の技術を活用し、AI 検出エンジンを実装しています。主任建築家 Vijay Seshadri が OpenAI との共同開発について語ったケーススタディによると、同社は OpenAI API とモデルを使用してパーソナライズされた発見機能を構築しました。\n\n大規模なユーザーベースを持つ企業にとって、個別最適化されたコンテンツ推奨は重大な技術的課題です。JioStar は、各ユーザーの嗜好・言語・地域特性に基づいてコンテンツを検出し、提供するため、OpenAI のモデルと API を活用して推奨エンジンを構築しました。これにより、数億人規模のユーザー層に対して、エッジケースでも対応可能な AI システムの実装が可能になったとされています。\n\nこのケースは、アジア太平洋地域の大規模プラットフォーム企業が、先進的な AI 技術を組織規模で導入・展開する事例として注目されています。単なるパイロットではなく、数億ユーザーの本番環境での運用に耐える AI システムの構築が実現されたことは、生成 AI の実用成熟度を示すものです。",
+    "tags": [
+      "JioStar",
+      "OpenAI",
+      "AI検出",
+      "推奨エンジン"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/jiostar-vijay-seshadri",
+    "importance": 4,
+    "image_query": "mobile app user interface discovery",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6yXeyZ5Lph5wYnDiSxL1Rf/fe6264331b54720f59b3c7e90a05b2b8/EF_Ep20_16.9.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/jiostar-vijay-seshadri",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:07.243Z",
+    "publishedAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-07",
+    "headline": "シンガポール航空、OpenAI導入で顧客満足度が2倍に",
+    "lead": "シンガポール航空が OpenAI の API とモデルを導入し、顧客サポート・旅行検索・従業員支援を強化。顧客満足度が従来の 2 倍に向上した。",
+    "body_markdown": "シンガポール航空は OpenAI の API とモデルを統合し、顧客サポート・旅行検出・従業員作業の効率化を実現しました。同社は公開事例で、OpenAI テクノロジーの導入によって顧客満足度指標（CSAT）が 2 倍に向上したと報告しています。\n\n同社の実装は3つの領域に及んでいます。第1に顧客サポートでは、OpenAI モデルを活用して、航空券予約・荷物管理・特別なサービスリクエストなど、日常的な質問への自動応答を実装しました。第2に旅行検出では、OpenAI の言語理解力を利用して、乗客が自然言語で目的地や予算を説明した際に、最適なルート・時間・価格帯を提案するエンジンを構築しました。第3に従業員支援では、社内プロセス・規則・運用手順の検索を AI 化し、従業員の生産性向上を図りました。\n\n航空業界は規制・安全・顧客サービスの複雑さから、AI 導入の遅れが指摘されていましたが、シンガポール航空の事例は業界内の導入を加速させるベンチマークになる可能性があります。顧客満足度の 2 倍という具体的な数字が、経営判断の根拠として他社の AI 投資判断に影響を与えると考えられます。",
+    "tags": [
+      "シンガポール航空",
+      "OpenAI",
+      "顧客サービス",
+      "AI導入"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/singapore-airlines-travel-work",
+    "importance": 3,
+    "image_query": "airplane cockpit aircraft technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:07.244Z",
+    "publishedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-08",
+    "headline": "Anduril、衛星が地球の影でも敵を視認できる赤外線センサを実装",
+    "lead": "防衛企業 Anduril が宇宙ドメイン認識衛星で赤外線センサを初実証。光学では見えない地球夜間の敵機動を追跡できる。",
+    "body_markdown": "米国防衛企業 Anduril は、その初の軌道衛星 Anduril-216 で、赤外線センサの実証を成功させました。同衛星は 7 月に SpaceX の rideshare ミッションで打ち上げられ、高度約 590km で周回しています。\n\n独特な特性は、衛星が地球の影（eclipse）を通過する際に、光学センサでは見えない敵機動を赤外線で検出できることです。従来の可視光センサは太陽が照らしている物体のみを追跡でき、地球の影に入ると失追します。Anduril-216 の長波赤外（LWIR）センサは、光源に依存せず、物体の熱シグネチャで衛星や航空機を識別します。毎軌道の約 3 分の 1 は夜間帯であり、この時間帯の追跡能力は宇宙状況把握（Space Domain Awareness）において大きな利点です。Anduril 副社長兼軌道システム部門トップ Adam Thurn は「ダイナミックレンジが非常に大きい。暗黒下でも物体が見える」と述べています。\n\nAnduril-216 には赤外線センサの他、エッジコンピュート・電源管理システムも搭載されており、衛星の自律性と処理能力が向上しています。この技術は宇宙防衛戦略における米国の優位性維持に資するとされ、中国の宇宙活動に対する対抗策として注目されています。",
+    "tags": [
+      "衛星",
+      "赤外線",
+      "防衛",
+      "宇宙"
+    ],
+    "section": "テクノロジー",
+    "source": "ArsTechnica",
+    "link": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/",
+    "importance": 4,
+    "image_query": "satellite orbit space telescope",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1710267224241-ded50105028e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxzYXRlbGxpdGUlMjBvcmJpdCUyMHNwYWNlJTIwdGVsZXNjb3BlfGVufDF8MHx8fDE3OTQ0MzI0Mjd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "NASA Hubble Space Telescope",
+      "profileUrl": "https://unsplash.com/@hubblespacetelescope?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "an image of a satellite above the earth",
+      "description": "Hubble's Final Release Over Earth (2009) Caption Hubble drifts over Earth after its release on May 19, 2009 by the crew of the Space Shuttle Atlantis. The crew had performed all planned tasks over the course of five spacewalks, making the Servicing Mission 4 (SM4), the fifth astronaut visit to the Hubble Space Telescope, an unqualified success. Credits Image NASA"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:07.866Z",
+    "publishedAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-09",
+    "headline": "細胞の電気特性で識別・分離、損傷ゼロの新技術",
+    "lead": "シンガポール・中国の研究チームが、電気シグネチャで細胞を識別し、音波で分離する無標識技術を開発。蛍光ラベル不要で細胞ストレスを回避。",
+    "body_markdown": "シンガポールと中国の研究者チームが、細胞生物学で長年の課題だった「無損傷な細胞分離」の新手法を開発しました。従来の蛍光標識法（FACS）は細胞にストレスを与え、動作を変化させるため、バイオアッセイの精度が低下します。新しい手法は、電気的特性を測定することで、物理的な標識なしに細胞を識別できます。\n\nプロセスは3段階です。まず、粘弾性流体が細胞を一列に並べます。次に、1MHz と 5MHz の 2 つの周波数の交流信号を印加し、細胞がこれらの信号を変化させる様を電極で記録します。最後に、精密にコントロールされた音波が対象細胞を横方向に押し出し、別の収集口へ導きます。\n\n成果は顕著です。同じサイズだが異なる細胞タイプ（HeLa と EA.hy926）の分離で 98% の純度を達成しました。膜の硬さが変わった赤血球の選別にも成功し、化学的に誘発された病態変化を検出できます。さらに、光感応タンパク質を持つ HEK293T 細胞では、構造は同一だが電気的状態が異なる細胞を 85.4% の精度で選別できました。近期的には薬物スクリーニング、長期的には臨床診断への応用が期待されます。",
+    "tags": [
+      "バイオテック",
+      "細胞分離",
+      "医学",
+      "診断"
+    ],
+    "section": "サイエンス",
+    "source": "phys.org",
+    "link": "https://phys.org/news/2026-11-chip-cells-electrical-signature-precisely.html",
+    "importance": 4,
+    "image_query": "microscope cell biology laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1669344319217-19810a5e3d3b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8bWljcm9zY29wZSUyMGNlbGwlMjBiaW9sb2d5JTIwbGFib3JhdG9yeXxlbnwxfDB8fHwxNzk0NDMyNDI4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "RephiLe water",
+      "profileUrl": "https://unsplash.com/@revolution_in_filtration?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a machine in a room",
+      "description": "RephiLe water purification system, Genie U"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:08.478Z",
+    "publishedAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-10",
+    "headline": "深海軟体動物、細菌を「ドラゴンボール」に閉じ込める新共生形態",
+    "lead": "香港科技大学が南シナ海の深海軟体動物内で、細菌用の新しい細胞小器官「ドラコスフェラ」を発見。生命進化のシンビオーシス戦略を示唆。",
+    "body_markdown": "香港科技大学（HKUST）の研究チームが、南シナ海のメタンシープ周辺に生息する深海軟体動物（Chaetoderma shenloong）内に、これまで知られていなかった新しい細胞小器官「ドラコスフェラ」を発見しました。この器官は、シンビオーシス維持に特化した進化的に一意な構造です。\n\nドラコスフェラは、20 層以上の膜で多重に包まれた球形構造で、直径は約 10～15 マイクロメートルです。内部には数百～数千の硫黄酸化細菌が収容されており、単一の宿主細胞あたり平均 1,600 個以上の共生菌が存在する場合もあります。この構造が果たす役割は多岐にわたります。\n\n第 1 に、栄養供給です。極度の酸素欠乏環境では、共生菌がメタンと硫化水素を化学合成エネルギー源に変換し、宿主に栄養を提供します。第 2 に、酸素調節で、多層膜が酸素の拡散を遅延させ、限定的な酸素を宿主細胞に優先供給する仕組みが推測されます。この発見は、動物がシンビオーシス維持専用の特殊な細胞小器官を進化させた初の証拠であり、生命進化における相互依存の深さを示すものです。",
+    "tags": [
+      "深海生物",
+      "シンビオーシス",
+      "進化",
+      "微生物"
+    ],
+    "section": "サイエンス",
+    "source": "phys.org",
+    "link": "https://phys.org/news/2026-11-deep-sea-mollusk-houses-bacteria.html",
+    "importance": 3,
+    "image_query": "ocean deep sea creatures",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:08.479Z",
+    "publishedAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-11",
+    "headline": "DNA折り畳みと修飾を単一細胞で同時マッピング、新手法開発",
+    "lead": "Yale 医学大学院が、DNA の 3D 構造とエピジェネティック修飾を単一細胞レベルで同時マッピング。がんなど疾患メカニズム解明に道。",
+    "body_markdown": "米 Yale School of Medicine の研究チームが、DNA の立体構造とエピジェネティック・マーク（化学修飾）を同時にマッピングする新しい実験手法「Epi-PHR」を開発しました。従来、この 2 つは別々の手法でしか検出できず、複合的な関係性の理解は不可能でした。\n\nEpi-PHR は、ヘアピン形の分子を設計し、特定のエピジェネティック修飾またはターゲット遺伝子に結合させます。これらの分子が物理的に近接すると蛍光タグが活性化され、遺伝子座の 3D 位置関係と化学修飾が可視化されます。\n\n革新性は 3 点です。第 1 に、統合的解析で、従来の手法は 3D 構造かエピジェネティック・マークのいずれかしか検出できませんでしたが、本手法は両者を同時にマッピングできます。第 2 に、単一細胞精度で、単一細胞で数百の遺伝子座位を同時にプロファイリング可能です。第 3 に医学的応用で、エピジェネティック変化は多くのがんや発達障害に関連しているため、遺伝性疾患の治療開発に貢献する可能性があります。DNA の構造と化学修飾がどう相互作用するかを理解することは、細胞分化と疾患メカニズムの解明に直結します。",
+    "tags": [
+      "DNA",
+      "エピジェネティクス",
+      "医学",
+      "研究"
+    ],
+    "section": "サイエンス",
+    "source": "phys.org",
+    "link": "https://phys.org/news/2026-11-method-dna-epigenetic-cells.html",
+    "importance": 3,
+    "image_query": "dna research laboratory",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:08.481Z",
+    "publishedAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-12",
+    "headline": "毛髪パターン、複雑な計画なしに「化学信号」で形成—従来説を覆す",
+    "lead": "ジュネーブ大学が、哺乳類の毛包パターンは単純な化学シグナルによるケモタクシスで形成されることを発見。長年の謎が単純な仕組みで説明できることが判明。",
+    "body_markdown": "ジュネーブ大学の研究チームが、哺乳類の毛包パターン形成メカニズムを明らかにしました。これまで 50 年間、「複雑な指示システムがあり、毛包が新生時に阻害物質を放出して周囲の毛包生成を制御する」という説が支配的でしたが、新発見がこの理論を覆します。\n\n新しい仕組みは、「ケモタクシス」という単純なプロセスです。表皮が放出する化学信号に応答して、真皮（皮膚の下層）の細胞が移動します。この細胞の移動と化学信号の局所的な相互作用だけで、毛包パターンが自然に出現するという、みごとに単純なモデルです。\n\nこのモデルの説得力は、多様性の説明力にあります。マウスの規則正しい毛並みパターンから、ハリネズミの複雑な棘のパターンまで、異なる哺乳類種で見られる毛被構造の違いが、同じ基本メカニズムから自発的に生まれることが説明できます。従来理論では個別のプログラムが必要だと考えられていたパターンが、細胞間のシンプルな化学的相互作用の揺らぎだけで生成される。この発見は、生物学における「複雑さは必ずしも複雑な仕組みから生まれない」という深い原理を示唆しています。",
+    "tags": [
+      "毛髪",
+      "生物学",
+      "パターン形成",
+      "進化"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261109205413.htm",
+    "importance": 3,
+    "image_query": "hair follicle skin tissue",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:08.482Z",
+    "publishedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-13",
+    "headline": "Nvidia『大きすぎて潰せない』状態に—金融システムリスク指摘",
+    "lead": "CNBC 分析：Nvidia が AI 企業への資金循環の中核になり、システミックリスクを帯びた状態。連邦準備制度も監視を強化。",
+    "body_markdown": "Nvidia が AI 企業向けの「ファイナンシャル・ハブ」と化す中で、経済全体への波及リスクが浮上しています。同社が開示している金融約束は、3 つの主要な領域に及んでいます。\n\nまず、クラウド企業への融資で、最大 360 億ドルのクラウドサービス購入契約です。次に、インフラ投資で、オハイオのデータセンタープロジェクトへの 1,050 億ドルの段階的保証があります。第 3 に、ウォール街の融資プログラムへの最大 1,250 億ドルの支援約束です。これらの「相互に補強される効果」が、技術投資家の損失を銀行や信用市場全体に波及させるリスクをもたらします。\n\nストレス兆候はすでに表れています。CoreWeave の債務保険コストは 10 月 1 日から 11 月 5 日に 94% 上昇し、IREN 転換社債は同期間に 23% 下落しました。元 FDIC 会長は「Nvidia が崩壊すれば、かなり大きな出来事になるだろう」と述べ、銀行システム全体への潜在的な波及効果への監視の重要性を強調しています。連邦準備制度理事会も、予期しないイベントが「資産の幅広い再評価」を引き起こす可能性を検討しており、規制当局の警戒度が高まっています。",
+    "tags": [
+      "Nvidia",
+      "金融リスク",
+      "AI産業",
+      "経済"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
+    "importance": 4,
+    "image_query": "stock market finance trading floor",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1711637397406-0c5fe8165dc6?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8c3RvY2slMjBtYXJrZXQlMjBmaW5hbmNlJTIwdHJhZGluZyUyMGZsb29yfGVufDF8MHx8fDE3OTQ0MzI0Mjh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Chananchida Nokjan",
+      "profileUrl": "https://unsplash.com/@rmine?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a large building with a lot of lights on it",
+      "description": "Bangkok, Thailand: Suvarnabhumi International Airport to enter Thailand."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:08.983Z",
+    "publishedAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-14",
+    "headline": "カナダ、トランプ関税の投資打撃に警告—米国経済にも波及",
+    "lead": "カナダ駐米大使が、トランプの関税政策が米加間の投資と貿易を打撃と警告。90% が米企業に転嫁された関税コストが 2027 年に物価上昇を招く懸念。",
+    "body_markdown": "カナダのマーク・ワイズマン駐米大使は、トランプ大統領の関税政策がもたらす投資環境悪化を強く警告しています。政策の不確実性が資本コストを引き上げ、企業が新工場建設や R&D 投資の判断を遅延させていると指摘しました。\n\n米加間の貿易量は、2026 年前 9 ヶ月で約 5,700 億ドルに達しており、バイデン政権期の同時期より低水準です。ニューヨーク連邦準備銀行の研究によると、関税コストの約 90% が米国の輸入業者に転嫁される傾向が確認されており、2027 年にはさらなる物価上昇が予想されています。つまり、トランプ政権が狙う「米産業保護」のコストは、最終的に米国消費者負担として表れるリスクが高いのです。\n\n交渉は 8 月に一度決裂しましたが、現在は鋼鉄と自動車関税の削減を中心に再開されています。カナダはセクション 232・338 に基づく関税撤廃を要求しており、ワイズマン大使は「早期解決が必要」と強調しました。米加間の投資と貿易の鈍化は、両国の企業収益悪化にもつながり、北米経済全体の停滞要因になる可能性があります。",
+    "tags": [
+      "カナダ",
+      "関税",
+      "米国経済",
+      "貿易"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
+    "importance": 4,
+    "image_query": "cargo shipping trade port",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1605745341112-85968b19335b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxjYXJnbyUyMHNoaXBwaW5nJTIwdHJhZGUlMjBwb3J0fGVufDF8MHx8fDE3OTQ0MzI0Mjl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ian Taylor",
+      "profileUrl": "https://unsplash.com/@carrier_lost?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "blue and red cargo ship on sea during daytime"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:09.481Z",
+    "publishedAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-15",
+    "headline": "スペイン総スト、バルセロナで衝突—住宅危機・物価高に数万人",
+    "lead": "スペインの主要労働組合がストライキを呼びかけ、バルセロナを含む各地で数万人が参加。住宅不足と生活コスト上昇に対する不満が爆発。",
+    "body_markdown": "スペイン全土での大規模なゼネラルストライキが展開され、バルセロナではデモと衝突が相次いでいます。スペインの主要労働組合が呼びかけたストライキには、数万人以上が参加しています。\n\nストは要求の中心は、住宅危機と生活コストの上昇です。スペイン経済は回復局面にあるにもかかわらず、若年層を中心に住宅購入は事実上不可能な状態が続いています。賃貸価格も高騰しており、給与との比率で見ると欧米主要国の中でも深刻です。併せて、エネルギーと食料品の物価上昇が家計を圧迫しており、労働者の実質購買力は低下しています。\n\nバルセロナでのデモでは警察との衝突も記録されており、社会的な緊張の高さが表れています。スペインにおいて住宅と物価は長年の政治課題ですが、ストライキと街頭行動の勃発は、この問題への国民の深刻な怒りを反映しています。欧州他地域でも同様の住宅危機と物価問題が抱えられており、スペインの動きが広がる可能性も懸念されています。",
+    "tags": [
+      "スペイン",
+      "ストライキ",
+      "住宅危機",
+      "物価"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo",
+    "importance": 4,
+    "image_query": "protest crowd demonstration",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1591588211599-04eeffe9acc7?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxwcm90ZXN0JTIwY3Jvd2QlMjBkZW1vbnN0cmF0aW9ufGVufDF8MHx8fDE3OTQ0MzI0Mjl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Koshu",
+      "profileUrl": "https://unsplash.com/@koshuuu?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "grayscale photo of people on street",
+      "description": "Black Lives Matter Protest in DC, 6/6/2020. \n(Instagram: @koshuphotography)"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:10.005Z",
+    "publishedAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-16",
+    "headline": "ロシア・ウクライナ和平交渉、進展なく終了—欧州安保枠組みで対立",
+    "lead": "アブダビでの和平協議が、戦後欧州の安保枠組みについて議論も成果なく終了。米特使がプーチンとゼレンスキーの個別会談を予定。",
+    "body_markdown": "ロシア・ウクライナの和平交渉がアブダビで行われ、下院 11 月の協議結果が報告されました。今回の交渉の焦点は、戦争後の欧州全体の安全保障枠組みについてでしたが、大きな進展を見ないまま終了しました。\n\n協議では、NATO 拡大の停止、ウクライナの中立化、クリミア半島の領土問題、ルハンスク・ドネツク地域の帰属といった根本的対立が議論されました。米国特使も参加し、交渉の仲介を試みましたが、両者の立場の開きは埋まりませんでした。\n\nアブダビ協議の後、米国特使はモスクワとキーウにそれぞれ訪問し、プーチン大統領とゼレンスキー大統領の個別会談をスケジュール予定としています。直接交渉の場が設定されるかどうかが、今後の交渉進展の鍵になります。長期化する紛争の解決には、単なる戦術的停止ではなく、戦後の欧州秩序そのものの再設計が必要との認識が深まっており、交渉の難易度の高さが表れています。",
+    "tags": [
+      "ロシア",
+      "ウクライナ",
+      "和平交渉",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o",
+    "importance": 4,
+    "image_query": "",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1723306743314-3dbe7cdd6a21?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8d29ybGQlMjBtYXAlMjBnZW9wb2xpdGljc3xlbnwxfDB8fHwxNzk0NDMyNDMwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "The New York Public Library",
+      "profileUrl": "https://unsplash.com/@nypl?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Antique map of the world showing continents and americas",
+      "description": "Lionel Pincus and Princess Firyal Map Division, The New York Public Library. \"A new map of ye world\" The New York Public Library Digital Collections. 1708. https://digitalcollections.nypl.org/items/510d47df-fb48-a3d9-e040-e00a18064a99"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:10.564Z",
+    "publishedAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
+    "slug": "20261112-17",
+    "headline": "石油生産、イラン戦争前レベルに回復—OPEC報告",
+    "lead": "OPEC 統計でサウジアラビアの石油生産が戦争前の 97% まで回復。ホルムズ海峡の迂回ルートで供給安定化。",
+    "body_markdown": "OPEC（石油輸出国機構）の統計によると、サウジアラビアの石油生産が 10 月に日産 1,056 万 3,000 バレルに達し、2 月のイラン戦争前の水準（日産 1,088 万 2,000 バレル）の 97% まで回復しました。OPEC+ 全体では日産 4,123 万バレルに達しています。\n\nホルムズ海峡経由の供給遮断が継続する中での回復は、迂回ルートの効果を示しています。サウジとアラブ首長国連邦は、ホルムズ海峡を避けるため東西パイプラインなどの代替輸送ルートを活用しており、イエメンのホウシ派による海上攻撃を回避しながら輸出を維持しています。サウジは複数ルートの並行運用で供給の脆弱性を低減させています。供給リスクの軽減が、市場の落ち着きを支えており、中東地政学の不安定さは残存しますが、エネルギー供給面では一定の回復力が示されました。",
+    "tags": [
+      "OPEC",
+      "石油",
+      "サウジアラビア",
+      "エネルギー"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says",
+    "importance": 4,
+    "image_query": "oil refinery petroleum industry",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1678532685208-54acdd41187d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw1fHxvaWwlMjByZWZpbmVyeSUyMHBldHJvbGV1bSUyMGluZHVzdHJ5fGVufDF8MHx8fDE3OTQ0MzI0MzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Michael Pointner",
+      "profileUrl": "https://unsplash.com/@pino_rumbero?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a factory with a lot of smoke coming out of it"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T21:27:11.132Z",
+    "publishedAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
     "slug": "20261111-16",
     "headline": "OpenAI、旅行スタートアップOdessiaを買収",
     "lead": "OpenAI は Sonder の創業者 Francis Davidson が立ち上げた旅行 AI 企業 Odessia を買収。ChatGPT の旅行計画機能を強化する狙いか。",
