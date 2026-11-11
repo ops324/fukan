@@ -187,6 +187,16 @@ function checkSchema(arts) {
 //   (2) `.env` を source する（任意コード実行＋全ての秘密を子プロセスへ漏らす）
 //   (3) トークン値をログへ出す（scheduler.log は gitignore なので漏洩検査に掛からない）
 //   (4) 失効トークンでジョブを落とす（退避が消えると可用性の改善が可用性の事故になる）
+// 本番シェル（zsh）が使えるか。無ければ読み取り関数の挙動は検証できない。
+function hasZsh() {
+  try {
+    execFileSync('zsh', ['-c', 'exit 0'], { stdio: 'ignore' });
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 async function checkAuthTokenWiring() {
   const shPath = path.join(ROOT, 'scripts', 'auto-generate.sh');
   let sh = '';
@@ -203,6 +213,14 @@ async function checkAuthTokenWiring() {
   if (!fnMatch) {
     // 抜き出せないこと自体が退行（関数が消えた／名前が変わった）。素通りさせない。
     fail('長期トークン退行: auto-generate.sh に read_env_token() が見つかりません');
+  } else if (!hasZsh()) {
+    // zsh が無い環境（GitHub Actions の ubuntu ランナー等）。**黙って飛ばさない**——
+    // 「検査が空回りする」のはこの検査が防ごうとしている失敗そのもので、しかも CI は
+    // この検査がいちばん効くべき場所。bash で代用もしない: 本番の auto-generate.sh は
+    // `#!/bin/zsh` なので、動かないシェルで検証したことになる。CI には zsh を入れてある
+    // （.github/workflows/check.yml）。1行の明示的な失敗として出す（11件の ENOENT ではなく）。
+    fail('長期トークン退行: zsh が無いため read_env_token を検証できません'
+      + '（本番シェルは zsh。CI なら .github/workflows/check.yml の zsh インストール手順を確認）');
   } else {
     const dir = await mkdtemp(path.join(tmpdir(), 'fukan-authtok-'));
     try {
