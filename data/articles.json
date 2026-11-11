@@ -1,43 +1,5 @@
 [
   {
-    "slug": "20261111-01",
-    "headline": "Anthropic IPO、11月19日上場 企業価値1.3〜1.4兆ドル",
-    "lead": "AI開発企業AnthropicがNasdaqに上場。企業価値1.3〜1.4兆ドルを目指す。7人の創業者が各250万ドル相当を売却。11月19日取引開始。",
-    "body_markdown": "AI安全性を掲げるスタートアップ・Anthropicは、11月10日にIPOの計画を発表。11月18日に価格設定（1株70〜78ドル）を行い、翌19日にNasdaqで「ANT」ティッカーで取引開始予定。\n\n企業価値は1.3兆〜1.4兆ドルに達し、調達額は最大90.4億ドル（Forbes報道）。Dario Amodei CEO 率いる7人の創業者は、それぞれ約250万ドル相当の株式を売却する計画。創業者グループは上場後も全議決権の51.1%を保持し、経営統制を維持する。\n\nAnthropicは2023年設立の新興企業ながら、Claude などのAIモデル開発で業界での存在感を急速に高めている。大型IPOは、生成AI分野の投資熱と競争激化を反映している。",
-    "tags": [
-      "AI開発",
-      "IPO",
-      "Anthropic",
-      "企業価値"
-    ],
-    "section": "ビジネス",
-    "source": "NHK / TechCrunch / Forbes",
-    "link": "https://news.web.nhk/newsweb/na/nd-20261111de73850",
-    "sources": [
-      {
-        "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
-        "name": "TechCrunch"
-      },
-      {
-        "url": "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-founders-to-cash-out-1-75-billion-in-blockbuster-ipo",
-        "name": "Bloomberg"
-      }
-    ],
-    "importance": 5,
-    "image_query": "stock market IPO trading floor",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1612587592641-f2a67a7e9dad?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8c3RvY2slMjBtYXJrZXQlMjBJUE98ZW58MXwwfHx8MTc5NDM1MjI3Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Tech Daily",
-      "profileUrl": "https://unsplash.com/@techdailyca?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash",
-      "alt": "text",
-      "description": "Financial Analyst tries to understand what happened to Gamestop Corp stock after getting short squeezed by retail investors. #stocks #finance #investing #trading #robinhood #gme #amc #techdaily \n\nVia: techdaily.ca \n\n"
-    },
-    "mode": "full",
-    "createdAt": "2026-11-10T23:11:16.815Z",
-    "publishedAt": "2026-11-10T21:41:51.000Z"
-  },
-  {
     "slug": "20261111-02",
     "headline": "Google、Gemini Intelligence を新型Pixel・モトローラ端末に拡大",
     "lead": "GoogleがGemini Intelligenceの対応機種を拡大。Pixel新型とモトローラ Signature 27 に搭載。タスク自動化、音声からテキスト変換など新機能追加。",
@@ -119,33 +81,6 @@
     "publishedAt": "2026-11-10T22:35:21.000Z"
   },
   {
-    "slug": "20261111-05",
-    "headline": "西南極の氷床、過去80万年で繰り返し崩壊 温暖化時に内陸奥深く後退",
-    "lead": "研究者が海底粘土の分析から西南極の氷床崩壊パターンを解明。過去の温暖期に Thwaites 氷河などが何度も大規模に後退したことが判明。",
-    "body_markdown": "海底粘土の成分分析により、西南極で過去80万年間の温暖期に、Thwaites 氷河をはじめ脆弱な氷流が繰り返し崩壊・後退していたことが明らかになった。Woods Hole Oceanographic Institution の研究。\n\n証拠は、中国粘土（カオリナイト）の同位体比。含有量の急激な低下は、海上に浮いていた氷床が融解し、内陸奥深くまで後退したことを示唆する。Thwaites 氷河だけで海面上昇 66cm、西南極全体で 3〜5m に相当する規模。\n\n懸念は、自然の温暖化周期では数千年かかった変化が、人為的温暖化では数百年に圧縮される点。衛星観測と模型シミュレーションから、Thwaites はすでに崩壊リスクが高まっている。",
-    "tags": [
-      "気候変動",
-      "科学",
-      "南極",
-      "海面上昇"
-    ],
-    "section": "サイエンス",
-    "source": "Phys.org",
-    "link": "https://phys.org/news/2026-11-seafloor-clay-reveals-ice-loss.html",
-    "importance": 4,
-    "image_query": "glaciers ice melt polar",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1787239461023-4defd31df018?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8Z2xhY2llcnMlMjBpY2UlMjBtZWx0JTIwcG9sYXJ8ZW58MXwwfHx8MTc5NDM1MjI3OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Benjamin Chambon",
-      "profileUrl": "https://unsplash.com/@benjamin_chambon?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash",
-      "alt": "A jagged glacier face above a dark lake filled with floating ice chunks"
-    },
-    "mode": "full",
-    "createdAt": "2026-11-10T23:11:18.530Z",
-    "publishedAt": "2026-11-10T22:40:12.000Z"
-  },
-  {
     "slug": "20261111-06",
     "headline": "OpenAI、ChatGPT に企業ハブ機能を導入 ビジネス情報を一元管理",
     "lead": "OpenAI が ChatGPT に「Businesses」機能をベータ版で提供開始。企業情報の登録・更新・ユーザー エンゲージメント追跡が可能。",
@@ -198,34 +133,6 @@
     "mode": "full",
     "createdAt": "2026-11-10T23:11:19.531Z",
     "publishedAt": "2026-11-10T13:00:00.000Z"
-  },
-  {
-    "slug": "20261111-08",
-    "headline": "ウクライナ平和交渉、初日が「建設的」と Zelensky 評価 米中ロ3国協議",
-    "lead": "ウクライナ・米国・ロシアがアラブ首長国連邦で初の三者会談。Zelensky 大統領が初日を「建設的」と評価。2月以来の格式的対話。",
-    "body_markdown": "ウクライナのVolodymyr Zelensky 大統領、米国、ロシアの代表団が、アラブ首長国連邦（UAE）で初めての三者会談を開始。2月以来の主要な格式的交渉。\n\nZelensky は初日の成果を「建設的」と述べ、交渉の進展に期待を示した。キーフ側は、ウクライナの領土保全・主権の回復を交渉の基本立場として臨む。米国代表は、調停役としての立場を示唆。ロシアとウクライナの直接対話は、停戦合意に向けた重要な局面。\n\nタイミングは、米国中間選挙後の政治的転換期。国際的な注視が集まる。",
-    "tags": [
-      "ウクライナ",
-      "平和交渉",
-      "国際",
-      "ロシア"
-    ],
-    "section": "国際・地政学",
-    "source": "BBC World",
-    "link": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o",
-    "importance": 5,
-    "image_query": "diplomacy international negotiation table",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1571763642271-c9bc86b9ace0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8ZGlwbG9tYWN5JTIwaW50ZXJuYXRpb25hbCUyMG5lZ290aWF0aW9uJTIwdGFibGV8ZW58MXwwfHx8MTc5NDM1MjI4MHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Rafael Idrovo Espinoza",
-      "profileUrl": "https://unsplash.com/@rafaidrovofoto?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash",
-      "alt": "paperworks on table",
-      "description": "table for work"
-    },
-    "mode": "full",
-    "createdAt": "2026-11-10T23:11:20.241Z",
-    "publishedAt": "2026-11-10T21:21:55.000Z"
   },
   {
     "slug": "20261111-09",
@@ -324,27 +231,6 @@
     "mode": "full",
     "createdAt": "2026-11-10T23:11:21.406Z",
     "publishedAt": "2026-11-10T22:00:00.000Z"
-  },
-  {
-    "slug": "20261111-13",
-    "headline": "Sony、Live Service ゲーム Fairgames を中止 テスト不振で判断",
-    "lead": "Sony が開発中の Live Service 型シューター「Fairgames」を中止。プレイヤー反応不十分が理由。",
-    "body_markdown": "Sony Interactive Entertainment は、2023年に発表した Live Service ゲーム「Fairgames」の開発中止を決定。Bloomberg が報道。\n\n同社は近年、God of War・The Last of Us など複数の Live Service 計画をキャンセル。Fairgames も初期テストで「プレイヤーの反応・リテンション（継続利用）が目標に達しなかった」との理由。開発元 Haven Studios は他の PlayStation スタジオ支援に配置転換。\n\nConcord（Ubisoft）など多くの Live Service ゲーム失敗に続き、市場の厳しさが浮き彫り。大手メーカーも収益性の厳密な判断を進める。",
-    "tags": [
-      "Sony",
-      "ゲーム",
-      "Live Service",
-      "キャンセル"
-    ],
-    "section": "テクノロジー",
-    "source": "The Verge",
-    "link": "https://www.theverge.com/games/1031242/sony-playstation-fairgames-canceled",
-    "importance": 3,
-    "image_query": "video game development console",
-    "image": null,
-    "mode": "full",
-    "createdAt": "2026-11-10T23:11:21.409Z",
-    "publishedAt": "2026-11-10T21:06:12.000Z"
   },
   {
     "slug": "20261111-14",
@@ -2386,35 +2272,6 @@
     "publishedAt": "2026-11-07T00:00:00.000Z"
   },
   {
-    "slug": "20261107-18",
-    "headline": "OpenAI、1.25兆ドル評価で110億ドル調達",
-    "lead": "OpenAIが新たな資金ラウンドで110億ドルを調達し、企業価値が1.25兆ドルに達した。Anthropicの上場計画と並行して、AI企業の評価競争が加速している。",
-    "body_markdown": "OpenAIは新しい資金調達ラウンドで110億ドルを調達し、企業価値が1.25兆ドルに達した。これにより、OpenAIは世界で最も価値の高い企業の1つに位置付けられることになる。\n\n3月の前回調達では122億ドルを1,220億ドルの評価で調達していた。その後の8カ月間に大きく評価が上昇している。\n\nBloomberg によると、OpenAI はさらに200億ドルまでの追加投資を検討しており、当初は1.4兆ドルの評価での300億ドル調達を目指していた。ただし、テック株の下落と先月の米中間選挙の結果を受けて、この目標は引き下げられた。\n\n一方、ライバルのAnthropicはIPO計画を進めており、これによってAI業界の企業価値評価が市場の厳しい目にさらされることになる。OpenAIの大型調達はこうした競争環境での重要なマイルストーンとなっている。",
-    "tags": [
-      "OpenAI",
-      "企業価値評価",
-      "AI企業",
-      "資金調達",
-      "Anthropic"
-    ],
-    "section": "AI",
-    "source": "The Verge AI",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-    "importance": 5,
-    "image_query": "technology company office",
-    "image": {
-      "imageUrl": "https://images.unsplash.com/photo-1742630394132-cbd951f7d924?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8dGVjaG5vbG9neSUyMGNvbXBhbnklMjBvZmZpY2V8ZW58MXwwfHx8MTc5NDA0NDAyMXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
-      "photographer": "Exospace Bbsr",
-      "profileUrl": "https://unsplash.com/@exospaceindia?utm_source=axiom_ai&utm_medium=referral",
-      "provider": "Unsplash",
-      "alt": "Modern, open-plan office space with desks and chairs",
-      "description": "Discover our best coworking space in Bhubaneswar with flexible office solutions, shared workspaces, managed office spaces, fully furnished office spaces for rent and modern amenities in prime locations like Patia and Rasulgarh. Perfect for startups, freelancers, and businesses seeking inspiring environments. Join our vibrant community today schedule a visit and explore endless opportunities for your business's success! https://www.exospace.in/"
-    },
-    "mode": "full",
-    "createdAt": "2026-11-07T09:33:41.649Z",
-    "publishedAt": "2026-11-06T23:46:18.000Z"
-  },
-  {
     "slug": "20261107-19",
     "headline": "パラグアイ大統領、銀行危機で罷免・軟禁状態に",
     "lead": "銀行危機でパラグアイの多くの国民が預金にアクセスできない状況下で、サンティアゴ・ペーニャ大統領が罷免された。",
@@ -2870,27 +2727,6 @@
     "mode": "full",
     "createdAt": "2026-11-07T09:33:50.451Z",
     "publishedAt": "2026-11-06T05:00:43.000Z"
-  },
-  {
-    "slug": "20261107-37",
-    "headline": "英マンチェスター市長、若年層支援で「急進的改革」を宣言",
-    "lead": "Andy Burnham がマンチェスター市長として若年層への支援施策で「かなり急進的な変化」をもたらすと述べた。",
-    "body_markdown": "マンチェスター市長の Andy Burnham は、若年層への支援施策において「かなり急進的な変化」をもたらすという方針を示した。教育、就業機会、心身の健康サポートなど、包括的な施策の実施を予告している。\n\n都市レベルでの若年層問題への統合的なアプローチが求められており、Burnham はこの課題に本腰を入れると強調した。\n\n英国各地での若年層の失業・訓練不足の問題に対応する政策が加速している。",
-    "tags": [
-      "イギリス",
-      "政治",
-      "若年層支援",
-      "マンチェスター"
-    ],
-    "section": "政治",
-    "source": "The Guardian",
-    "link": "https://www.theguardian.com/politics/2026/nov/06/andy-burnham-quite-radical-change-young-people-support-benefits-neets",
-    "importance": 3,
-    "image_query": "community youth education support program",
-    "image": null,
-    "mode": "full",
-    "createdAt": "2026-11-07T09:33:50.452Z",
-    "publishedAt": "2026-11-06T16:50:13.000Z"
   },
   {
     "slug": "20261107-38",
