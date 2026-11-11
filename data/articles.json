@@ -1,5 +1,625 @@
 [
   {
+    "slug": "20261111-16",
+    "headline": "OpenAI、旅行スタートアップOdessiaを買収",
+    "lead": "OpenAI は Sonder の創業者 Francis Davidson が立ち上げた旅行 AI 企業 Odessia を買収。ChatGPT の旅行計画機能を強化する狙いか。",
+    "body_markdown": "OpenAI が旅行スタートアップ Odessia を買収した。同社は 2025 年に破綻した旅行レンタル企業 Sonder の創業者 Francis Davidson が約1年前に設立したばかり。\n\n今回の買収は、Odessia のチーム全体をスカウトするアクイハイア型と見られる。Davidson は旅行業界で複数の事業を立ち上げた実績を持つ。破綻した前企業 Sonder は一度「ユニコーン」企業の地位にも達したが、2025 年に事業停止に至っていた。\n\nOpenAI は既に Booking.com や Expedia、KAYAK など旅行業界大手とのパートナーシップを構築している。ChatGPT ユーザーからの旅行計画支援に対する需要も高い。今後は Davidson の業界知見と OpenAI の AI 技術を組み合わせ、旅行計画に特化した AI エージェント機能の開発を加速させるとみられる。同社は日常的なタスクの自動化を進めており、旅行はその重要な領域として位置付けられている。",
+    "tags": [
+      "AI",
+      "ChatGPT",
+      "M&A",
+      "旅行"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+    "importance": 4,
+    "image_query": "travel planning AI technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1673515335086-c762bbd7a7cf?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOXx8dHJhdmVsJTIwcGxhbm5pbmclMjBBSSUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc5NDQwNjg2Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ling App",
+      "profileUrl": "https://unsplash.com/@lingapp?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "the word travel spelled with scrabbles on a wooden table",
+      "description": "Travel Word"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:05.136Z",
+    "publishedAt": "2026-11-10T21:08:52.000Z"
+  },
+  {
+    "slug": "20261111-17",
+    "headline": "Anthropic 上場へ、7人の創業者が各2.5億ドル売却",
+    "lead": "AI企業 Anthropic の IPO が進行中。7人の共同創業者が均等に株式売却し、上場後も投票権で企業をコントロール。",
+    "body_markdown": "AI 企業 Anthropic が IPO に向けて準備を進めている。IPO 時の企業評価は 1.4 兆ドルに達する見通し。株価の想定レンジは 70〜78 ドル。\n\n7 人の共同創業者は全員、同一数の株式を売却する。株価の中値 74 ドルで計算すると、各創業者は約 2.5 億ドルを獲得する見込みだ。これは透明性と公平性を示す異例の判断とされている。創業者は CEO を務める Dario Amodei、会長の Daniela Amodei のほか、Tom Brown、Jack Clark、Jared Kaplan、Sam McCandlish、Christopher Olah。\n\n注目は、上場後も創業者グループが会社をコントロール下に置く構造だ。A 種株式と N 種株式のほか、創業者のみが保有する F 種株式（スーパーボーティング株）が存在。この仕組みにより、創業者グループは議決権全体の 51.1% を保持する。Amazon や Google などの既存投資家は N 種株式（議決権なし）を保有するため、所有比率の削減にとどまり、経営権は創業者に残される。",
+    "tags": [
+      "IPO",
+      "AI",
+      "Anthropic",
+      "上場"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+    "importance": 4,
+    "image_query": "startup IPO technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1740560051585-c065642f04ee?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxzdGFydHVwJTIwSVBPJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzk0NDA2ODY3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A wooden block spelling the word ipo on a table"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:05.945Z",
+    "publishedAt": "2026-11-10T19:57:52.000Z"
+  },
+  {
+    "slug": "20261111-18",
+    "headline": "Google『Gemini 4 Carbon』一般提供開始、マルチエージェント機能も",
+    "lead": "Google が最先端 AI モデル『Gemini 4 Carbon』の一般提供を開始。複数のエージェントを編成するツール『/swarm』も同時発表。",
+    "body_markdown": "Google は同社最先端の AI モデル『Gemini 4 Carbon』の一般提供を開始した。同時に、大規模な開発プロジェクトを効率的に遂行するためのマルチエージェント編成機能『/swarm』も発表している。\n\n『Gemini 4 Carbon』は Google が保有する最強クラスのモデルと位置付けられ、複雑な推論や長文生成、コード生成など幅広いタスクに対応する。会社やチーム単位での導入を想定した設計になっているとみられる。\n\n同時に発表された『/swarm』は、複数の AI エージェントを自動的に調整し、大規模プロジェクトの各段階に適した AI を割り当てるシステム。たとえば、ドキュメント作成、データ解析、コード検証など異なるタスクを複数のエージェントが役割分担して実行する。これまで人間が指示する必要があった工程の自動化と効率化を狙う。両機能とも、企業の AI 導入が進むなか、チーム全体での活用を視野に入れた提供開始となっている。",
+    "tags": [
+      "AI",
+      "Google",
+      "Gemini",
+      "LLM"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2611/11/2000003093/",
+    "importance": 4,
+    "image_query": "AI model technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1762330465857-07e4c81c0dfa?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNHx8QUklMjBtb2RlbCUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc5NDQwNjg2OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zulfugar Karimov",
+      "profileUrl": "https://unsplash.com/@zulfugarkarimov?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Person typing on smartphone with ai chatbot on screen"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:06.547Z",
+    "publishedAt": "2026-11-11T01:47:35.000Z"
+  },
+  {
+    "slug": "20261111-19",
+    "headline": "中国 Alibaba『Qwen4』を発表、AI競争が加速",
+    "lead": "Alibaba Cloud が最新 AI モデル『Qwen4』を発表。中国企業による AI 開発競争が世界規模で活発化している。",
+    "body_markdown": "中国の Alibaba Cloud が次世代 AI モデル『Qwen4』を発表した。プレビュー版を同社の AI サービスで提供開始している。\n\n『Qwen4』は Alibaba が開発した『Qwen』シリーズの最新版。複雑な推論タスクや多言語対応など、グローバル規模での利用を想定した性能強化が図られている。中国国内だけでなく、海外企業や開発者も利用できるよう設計されている。\n\nこの発表は、米国の OpenAI や Google、欧州の企業との AI 競争が激化していることを示唆している。中国政府は AI 産業の発展を戦略的に重視しており、Alibaba のほか Baidu、ByteDance など複数企業が次々と新モデルを発表している。西側企業による対中制裁の厳格化により、中国企業は独立した AI 開発を加速させる必要に迫られている状況にある。",
+    "tags": [
+      "AI",
+      "中国",
+      "LLM",
+      "Alibaba"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2611/11/2000003098/",
+    "importance": 4,
+    "image_query": "AI technology development",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1763568258557-515962e11f38?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8QUklMjB0ZWNobm9sb2d5JTIwZGV2ZWxvcG1lbnR8ZW58MXwwfHx8MTc5NDQwNjg2OXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Daniil Komov",
+      "profileUrl": "https://unsplash.com/@dkomow?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Laptop screen displaying lines of code with a coffee mug"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:07.327Z",
+    "publishedAt": "2026-11-11T02:30:32.000Z"
+  },
+  {
+    "slug": "20261111-20",
+    "headline": "Notion AI チャット記録が漏えいか、クラウドサービスの脆弱性",
+    "lead": "Notion Labsが、AI サービス『Notion AI』のチャット記録漏えいのリスクを公表。委託先企業への不正アクセスが原因。",
+    "body_markdown": "クラウド型ワークスペース『Notion』を運営する米 Notion Labs は、同社の AI サービス『Notion AI』のチャット記録が漏えいした恐れがあると発表した。\n\nセキュリティインシデントの原因は、Notion が委託先企業に対する不正アクセスだと判明している。委託先企業への侵入を通じて、Notion AI のユーザーチャット記録へのアクセスが可能になった可能性があるという。Notion Labs は既に詳細を調査中で、影響を受けた可能性のあるユーザーに対して通知を進めている。\n\nビジネスツールの普及に伴い、複数企業が連携する複雑なサプライチェーン環境において、セキュリティリスクが増加している。特に AI チャット記録には機密情報や個人情報が含まれることが多く、今回のような漏えいは信頼性を大きく損なう。サービス企業だけでなく、委託企業のセキュリティ対策もユーザー保護の重要な要素として認識される必要がある。",
+    "tags": [
+      "セキュリティ",
+      "AI",
+      "クラウドサービス",
+      "Notion"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2611/11/2000003104/",
+    "importance": 3,
+    "image_query": "data security cybersecurity",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:07.328Z",
+    "publishedAt": "2026-11-11T05:16:43.000Z"
+  },
+  {
+    "slug": "20261111-21",
+    "headline": "フリーランスの仕事、AI の影響で市場構造が変化",
+    "lead": "OpenAI と Upwork の共同研究で、AI 時代のフリーランス市場の急速な変化が判明。AI 関連プロジェクトの予算が急増している。",
+    "body_markdown": "OpenAI と フリーランス仲介プラットフォーム Upwork の共同研究が、AI 時代における自由労働市場の大きな変化を明らかにした。同研究は、フリーランス労働者の需要パターンの転換を追跡したもの。\n\nAI の登場により、従来型のサービスは市場シェアを失い始めている一方で、AI 関連のプロジェクトは明らかに異なる特性を示している。AI 関連案件では、従来よりも多くの異なるスキルセットを必要とし、プロジェクト予算が大幅に増加している傾向が確認された。また、作業時間も従来型より長くなる傾向が見られている。\n\nこの変化の背景には、企業が AI 導入を急速に進めるなか、単純な外注ではなく、複雑なプロジェクト統合を必要としていることがある。Upwork の 2026 年研究によれば、米国の熟練ナレッジワーカーの 38% がフリーランスとして活動。2024 年のフリーランス知識労働による米国経済への寄与は 1.5 兆ドルと推定されている。",
+    "tags": [
+      "フリーランス",
+      "AI",
+      "労働市場",
+      "経済"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/ai-effect-on-freelance-work",
+    "importance": 4,
+    "image_query": "freelance worker technology",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6uOuGMP8uXe0QmAClG9qAN/692ade63f2f37280ed6b8ffb00f9f53b/ai-effect-on-freelance-work-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/ai-effect-on-freelance-work",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:07.600Z",
+    "publishedAt": "2026-11-10T07:00:00.000Z"
+  },
+  {
+    "slug": "20261111-22",
+    "headline": "NY 州が AI 企業に規制導入、OpenAI・Anthropic も対象",
+    "lead": "ニューヨーク州の AI 安全法が発効。OpenAI や Anthropic に安全性の開示・登録を義務付け、違反時は最大300万ドルの罰金。",
+    "body_markdown": "ニューヨーク州の『RAISE 法』が施行され、大型 AI 企業に対する規制が本格化した。年収 5 億ドル以上の大手フロンティア AI 企業は、州への登録と安全性情報の開示が義務付けられた。\n\n主な要件は以下の通り：①安全性フレームワークの公開、②72 時間以内の重大インシデント報告、③モデルの透明性報告書の発表、④2027年1月1日までの州登録。OpenAI と Anthropic はいずれもこれらの要件に該当する。\n\n違反時の罰金は段階的で、初回は最大 100 万ドル、その後の違反ごとに最大 300 万ドル。州は新たに設立された『Office of Digital Innovation, Governance, Integrity, and Trust』（DIGIT）が規制を実装・監督する。同オフィスは『New York Center for AI Responsibility and Research』と連携して企業の安全性慣行を評価。米国各州が AI 規制の導入を検討するなか、NY 州の規制枠組みは全国的なモデルになる可能性が高い。",
+    "tags": [
+      "規制",
+      "AI",
+      "ニューヨーク州",
+      "安全"
+    ],
+    "section": "テクノロジー",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+    "importance": 4,
+    "image_query": "regulation compliance rules",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1705234384551-849fc9742793?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxyZWd1bGF0aW9uJTIwY29tcGxpYW5jZSUyMHJ1bGVzfGVufDF8MHx8fDE3OTQ0MDY4NzB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "scrabble tiles spelling rules on a wooden surface"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:08.390Z",
+    "publishedAt": "2026-11-10T20:52:13.000Z"
+  },
+  {
+    "slug": "20261111-23",
+    "headline": "3400 万年前の巨大ネズミ発見、齧歯類の進化に新知見",
+    "lead": "タイで 3400 万年前のネズミの化石が発見。体重 30kg の巨大種で、東南アジアが大型齧歯類の進化の地であることが判明。",
+    "body_markdown": "東南アジアで初めて記録される大型古代ネズミの化石がタイで発見された。新種『Yakamys sirindhornae』と命名された。\n\nタイの Krabi 県で出土した化石から、約 3400 万年前に生存していたこと が判明。複数の古生物学的手法を用いて歯の測定から体重を推定したところ、約 30kg（66 ポンド）と計算された。同時代の他の齧歯類と比較して約 2 倍の体重だ。\n\nこの発見は、巨大齧歯類の進化過程に対する科学的理解を大きく転換させる。従来は、巨大齧歯動物の進化は主に南米で起こったと考えられていたが、東南アジアでも独立して大型化が進んだことが明らかになった。研究論文の著者 Virginie Millien は、『巨大齧歯類は系統の後期の歴史を通じて繰り返し進化し、主に南米で見られる。本発見は、東南アジアが大型体サイズ齧歯類の初期進化史における重要な役割を果たしていたことを示唆している』とコメント。地域別の進化過程の解明が今後の研究課題となる。",
+    "tags": [
+      "古生物学",
+      "進化",
+      "化石",
+      "東南アジア"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm",
+    "importance": 4,
+    "image_query": "fossil rodent paleontology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1624513380394-62c7d9104e97?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxmb3NzaWwlMjByb2RlbnQlMjBwYWxlb250b2xvZ3l8ZW58MXwwfHx8MTc5NDQwNjg3MHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "David Clode",
+      "profileUrl": "https://unsplash.com/@davidclode?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "gray and black fish on sand",
+      "description": "A model of a fossil of a giant toothed platypus from the Riversleigh fossil fields. About a metre long and more than twice the size of platypus today."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:08.991Z",
+    "publishedAt": "2026-11-11T01:36:04.000Z"
+  },
+  {
+    "slug": "20261111-24",
+    "headline": "宇宙最古の準星ペア発見、ブラックホール成長の謎",
+    "lead": "ビッグバンから 9 億年後の超早期宇宙で、超大質量ブラックホール 2 個からなる準星ペアを観測。現在の理論では説明不可能。",
+    "body_markdown": "天文学者がこれまでで最も古いコンパクト準星ペア『Nāpōwawāʻenakaulua』（ハワイ語で「果てしなく強大な暗黒の2つの天体」）を発見した。ビッグバンからわずか 9 億年後という極めて早期の宇宙に存在していた。\n\nこのシステムには、15 億太陽質量と 4 億太陽質量の 2 つの超大質量ブラックホールが含まれている。理論的には、これほど大質量のブラックホールが数十億年以内に成長することは極めて困難なはずだ。にもかかわらず、現在の宇宙年齢の約 13 分の 1 の時点で、完全に発達した巨大ブラックホールが 2 つも存在していた。\n\n研究者の Silvia Onorato は『1 つの超大質量準星がこれほど早期に存在すること自体が理論的説明を欠くのに、2 つ存在するというのは全く予想外』とコメント。この発見は、ブラックホール形成メカニズムと初期宇宙の構造に関する現在の理解に根本的な疑問を投げかけている。今後の観測と理論的研究が期待されている。",
+    "tags": [
+      "宇宙物理学",
+      "ブラックホール",
+      "準星",
+      "天文学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-earliest-compact-quasar-pair-poses.html",
+    "importance": 4,
+    "image_query": "quasar black hole space",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1707058665477-560297ffe913?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxxdWFzYXIlMjBibGFjayUyMGhvbGUlMjBzcGFjZXxlbnwxfDB8fHwxNzk0NDA2ODcxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "NASA Hubble Space Telescope",
+      "profileUrl": "https://unsplash.com/@hubblespacetelescope?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A glowing black hole surrounded by a swirling accretion disk of pink and blue gas",
+      "description": "Quasar Outflows Illustration Caption: This is an artist's concept of a distant galaxy with an active quasar at its center. A quasar emits exceptionally large amounts of energy generated by a supermassive black hole fueled by infalling matter. Using the unique capabilities of the Hubble Space Telescope, astronomers have discovered that blistering radiation pressure from the vicinity of the black hole pushes material away from the galaxy's center at a fraction of the speed of light. Credits: Image - NASA, ESA, Joseph Olmsted (STScI)"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:09.596Z",
+    "publishedAt": "2026-11-11T00:50:02.000Z"
+  },
+  {
+    "slug": "20261111-25",
+    "headline": "イラン、ホルムズ海峡を閉鎖 要求に応じなければ再開しないと警告",
+    "lead": "イラン最高指導部がホルムズ海峡の閉鎖継続を宣言。制裁解除など7項目の要求の実現までは再開しないと明言。",
+    "body_markdown": "イラン高官は、ホルムズ海峡の通航を再開する条件として、米国と同盟国に対して 7 項目の要求を提示した。すべての条件が満たされない限り、戦略的なこの海峡は「閉鎖のままである」と警告している。\n\nイランの要求の中核は国際制裁の解除と米国による海上封鎖の終了。さらに、ガザでのイスラエルの作戦停止、レバノンへのイスラエル攻撃の中止なども含まれている。イラン外相は『これらの要求が満たされれば、海峡は速やかに再開する可能性がある』とコメント。\n\nホルムズ海峡は世界の石油・ガス供給ルートの要衝。閉鎖は国際的なエネルギー危機を引き起こす。11 月の船舶攻撃件数は 37 件に達し、紛争開始以来の月間最高記録となった。英国海事貿易業務機関が複数のタンカー被害を確認。少なくとも 3 隻が機雷に接触して火災を起こしている。9 ヶ月続く地域紛争が、世界経済に深刻な悪影響を与え始めている。",
+    "tags": [
+      "中東",
+      "イラン",
+      "エネルギー",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/11/11/iran-denies-talks-with-us-says-hormuz-will-stay-shut-until-demands-are-met",
+    "importance": 4,
+    "image_query": "oil tanker shipping strait",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1786018122072-31eb3737ed81?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxvaWwlMjB0YW5rZXIlMjBzaGlwcGluZyUyMHN0cmFpdHxlbnwxfDB8fHwxNzk0NDA2ODcyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Mahmut Yıldız",
+      "profileUrl": "https://unsplash.com/@iammahmutyildiz?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Cityscape overlooking a blue strait with boats and distant hills"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:10.119Z",
+    "publishedAt": "2026-11-11T08:21:56.000Z"
+  },
+  {
+    "slug": "20261111-26",
+    "headline": "トランプ大統領とネタニヤフ首相が電話会談で激論、イラン再攻撃めぐり対立",
+    "lead": "米国のトランプ大統領とイスラエルのネタニヤフ首相が先週末に電話会談で激しく衝突。イランへの再攻撃方針で意見が相対立。",
+    "body_markdown": "イスラエルメディアの報道によると、米国のドナルド・トランプ大統領とイスラエルのベンジャミン・ネタニヤフ首相は先週末に電話会談を行った際、イランへの再度の軍事攻撃をめぐって激しく対立し、どなり合いになったという。\n\n両指導者の意見対立の焦点は、イランに対する追加的な軍事作戦の実施と時期に関するもの。ネタニヤフ首相は新たな攻撃を求める圧力を受けているが、トランプ大統領はより慎重なアプローチを志向している可能性が指摘されている。イスラエルはイランからの報復攻撃によるダメージを受けており、その対抗措置をめぐる戦略的判断が分かれている状況。\n\n中東情勢は、米国のイラン政策、イスラエルとイランの直接対立、また代理戦争を通じた地域勢力間の緊張という複層的な構造を呈している。トランプ政権の対中東外交姿勢が新たに定まるなか、同盟国イスラエルとの方針調整が米国の対イラン戦略の成否を左右する重要な要素となりつつある。",
+    "tags": [
+      "中東",
+      "イスラエル",
+      "イラン",
+      "トランプ"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261111de74128",
+    "importance": 4,
+    "image_query": "political conflict negotiation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1574032858406-59db57bbd688?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw0fHxwb2xpdGljYWwlMjBjb25mbGljdCUyMG5lZ290aWF0aW9ufGVufDF8MHx8fDE3OTQ0MDY4NzJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Sushil Nash",
+      "profileUrl": "https://unsplash.com/@sushilnash?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man with megaphone",
+      "description": "October 2019: Kurdish protestors march in London, against the Turkish state’s invasion of Syria."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:10.712Z",
+    "publishedAt": "2026-11-11T06:20:00.000Z"
+  },
+  {
+    "slug": "20261111-27",
+    "headline": "中国がエヌビディア H200 チップを禁輸規制をくぐって調達",
+    "lead": "中国の防衛系大学がエヌビディアの最先端 AI チップ『H200』を米国禁輸リストをくぐって購入。仲介企業を通じた迂回調達が判明。",
+    "body_markdown": "中国西安市の Northwestern Polytechnical University が、米国の輸出禁止リストに載りながら、エヌビディアの最先端 AI チップ『H200』の購入に成功していたことが明らかになった。同大学は防衛関連機関の『七子国防』グループに属する機関。\n\n米国商務省は 2001 年以降、同大学をエンティティリストに登録し、米国技術へのアクセスを禁止している。しかし Northwestern Polytechnical は、直接購入を避け、中国の仲介企業『Shaanxi Bosuan Network Technology』を通じて調達。2026 年 10 月に 2 チップを約 12.3 万ドルで購入した。さらに、複数の Chinese AI サービス企業から H200 チップへのアクセス権を賃借する契約も複数締結している。\n\nH200 は Nvidia の最先端チップで、高度な AI システムの学習に利用される。中国の軍事関連機関が国内仲介企業を通じて米国の規制をくぐり、制限技術を獲得し続けている実態が浮き彫りになった。米国の対中技術制裁の効果を問う重要な事例。",
+    "tags": [
+      "地政学",
+      "技術制裁",
+      "AI",
+      "中国"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/11/11/chinese-university-buys-nvidia-ai-h200-chips-despite-us-ban-records-show",
+    "importance": 4,
+    "image_query": "semiconductor chip technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1543722615-dbf5edf1a00d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8c2VtaWNvbmR1Y3RvciUyMGNoaXAlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTQ0MDY4NzN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Laura Ockel",
+      "profileUrl": "https://unsplash.com/@viazavier?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "green and brown abstract painting",
+      "description": "This is a macro of a silicon wafer. Each square is a chip with microscopic transistors and circuits. Ordinarily, wafers like these are diced into their individual chips and the chips go into the processors that power our computers.\r\nSometimes, wafers have flaws and the manufacturers dispose of them instead. That’s how I got mine. After visiting the tech museums in Silicon Valley, I was amazed at the beauty of silicon wafers, so I started collecting and photographing them.\r\nLike fractals and flowers, the closer you get to them, the more amazing details there are to see."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:11.442Z",
+    "publishedAt": "2026-11-11T07:26:28.000Z"
+  },
+  {
+    "slug": "20261111-28",
+    "headline": "中国 1.04 兆ドル貿易黒字、年間1.2兆超へ 消費不足が課題",
+    "lead": "中国が 2026 年 1〜10 月に 1.04 兆ドルの貿易黒字を達成。年間では 1.2 兆ドル超に達する見通しだが、家計消費が低迷し輸出依存が深刻化。",
+    "body_markdown": "中国は 2026 年 1〜10 月に 1.04 兆ドルの貿易黒字を記録。年間では 1.2 兆ドルを超える見通しだ。半導体やテクノロジー産業の輸出が急速に増加しているが、この成果の背景には深刻な経済的脆弱性が隠れている。\n\n専門家が指摘するのは、中国の家計貯蓄率の異常な高さ。国民は給与の 3 分の 1 以上を貯蓄に回す傾向が続いており、家計消費は GDP の 39% に過ぎない。比較として米国では 68%。Bruegel の経済学者によれば『輸出モデルは本質的に、中国の家計が世界の消費者を補助していることを意味する』。\n\nこのモデルは持続不可能だと警告する。中国の GDP 成長目標は 4.5〜5% まで低下し、1991 年以来の最低水準。9 月の小売売上高は前年同期比 1.1% しか増えておらず、国内需要は停滞。専門家は『2035 年までに経済規模を 2 倍にするという目標を達成するには、家計収入の向上と社会福祉の拡充なしに、輸出依存戦略では対応不可能』と指摘している。",
+    "tags": [
+      "中国経済",
+      "貿易",
+      "消費",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/economy/2026/11/11/why-chinas-1-trillion-trade-surplus-isnt-all-good-news-for-its-economy",
+    "importance": 4,
+    "image_query": "economic trade finance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1719464521902-4dc9595b182d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8ZWNvbm9taWMlMjB0cmFkZSUyMGZpbmFuY2V8ZW58MXwwfHx8MTc5NDQwNjg3M3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jakub Żerdzicki",
+      "profileUrl": "https://unsplash.com/@jakubzerdzicki?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A person holding money in front of a computer screen",
+      "description": "Money and finances. Stock charts office screens. Euro currency banknote."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:12.060Z",
+    "publishedAt": "2026-11-11T08:29:10.000Z"
+  },
+  {
+    "slug": "20261111-29",
+    "headline": "参議院選の 1 票の格差、最高裁が『違憲状態』と判断",
+    "lead": "2025 年 7 月参院選の 1 票の格差が最大 3.13 倍に達し、最高裁大法廷が憲法違反の『違憲状態』と判断。投票価値の平等が脅かされている。",
+    "body_markdown": "最高裁判所大法廷は、2025 年 7 月の参議院選挙における投票価値の不均衡が『違憲状態』に該当するとの判決を言い渡した。投票価値の格差は最大で 3.13 倍に達した。\n\n大法廷は『投票価値の不均衡は見過ごせない程度に達している』と指摘し、憲法が求める投票価値の平等に反していると判定。日本の選挙制度は、都市と地方の人口差に基づく 1 票あたりの価値に差異が生じる構造的問題を抱えている。3.13 倍という格差は、この制度的歪みが深刻化していることを示唆している。\n\n『違憲状態』判決は、選挙そのものは無効にしないが、立法府に対して制度改正の圧力をかけるシグナルとなる。今後、参議院の議席配分方式や、定数配置の見直しが国会の議題になる可能性が高い。類似の格差問題は衆議院選挙でも指摘されており、日本の民主主義的正当性に関わる根本的な課題として、抜本的改革が急務とされている。",
+    "tags": [
+      "政治",
+      "選挙",
+      "日本",
+      "司法"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261111de74142",
+    "importance": 4,
+    "image_query": "voting ballot election",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1583341592469-c4b5ae4c1d6e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHx2b3RpbmclMjBiYWxsb3QlMjBlbGVjdGlvbnxlbnwxfDB8fHwxNzk0NDA2ODc0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "visuals",
+      "profileUrl": "https://unsplash.com/@visuals?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "I voted #USelections2020",
+      "description": "I voted #USelections2020"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:12.671Z",
+    "publishedAt": "2026-11-11T08:56:55.000Z"
+  },
+  {
+    "slug": "20261111-30",
+    "headline": "米国共和党、中間選挙大敗後に保守強硬派のジョーダンを下院指導者に選出",
+    "lead": "米国中間選挙で大敗した共和党が、保守強硬派の Jim Jordan 議員を下院の新指導者に選任。体制刷新の意思を示す。",
+    "body_markdown": "米国の与党共和党は、中間選挙での大敗を受けて連邦議会の指導部を一新した。下院では、保守強硬派として知られる Jim Jordan 議員が新たなトップに選出された。Jordan は『体制の刷新』を掲げて、野党民主党に対抗していく方針を表明している。\n\nJordan の選出は、共和党の党内勢力図の変化を反映している。中道派よりも保守強硬派の意見が党内で力を増しており、これまでの主流派から一線を引く立場の議員が指導的地位に就いた形。中間選挙での敗北が、党の指導方針の根本的な転換をもたらした。\n\nJordan 率いる共和党の新指導部は、政府支出削減、移民制限強化、そして司法戦略の強化など、より攻撃的な政策姿勢を示すと予想されている。トランプ前大統領との関係も注視される点。共和党内の保守主義の潮流の高まりは、今後の米国政治の分極化をさらに深める可能性を示唆している。",
+    "tags": [
+      "米国政治",
+      "選挙",
+      "共和党",
+      "議会"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261111de74052",
+    "importance": 4,
+    "image_query": "political party congress",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1753123594624-929fa5f7b297?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOXx8cG9saXRpY2FsJTIwcGFydHklMjBjb25ncmVzc3xlbnwxfDB8fHwxNzk0NDA2ODc1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Carlos Torres",
+      "profileUrl": "https://unsplash.com/@elcarito?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Political posters are plastered on a wall"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:13.355Z",
+    "publishedAt": "2026-11-11T04:15:00.000Z"
+  },
+  {
+    "slug": "20261111-31",
+    "headline": "テックバブル収束か、防御銘柄への投資シフト加速",
+    "lead": "テクノロジー株が売却される一方、ヘルスケアや公共事業など防御銘柄への投資が急増。AI 関連支出への懸念が市場を揺るがす。",
+    "body_markdown": "テクノロジーセクターが大きな試練に直面している。ナスダックは 11 月までに 0.7% 下落。10 月の 5.3% 下落を合わせると、深刻な下げトレンドが明らかになった。\n\n投資家の関心がテック株から防御銘柄（ヘルスケア、生活必需品、公共事業）へシフトしている。エネルギー株も、米国とイランの紛争に伴う油価上昇で買われている。テクノロジーセクターは年初の 28.4% 上昇から一変し、後半は 11% 以上の下落に転じた。韓国の半導体指数（KOSPI）は 10 月に 16.2% の落ち込みを記録。\n\nこの転換を招いているのは、AI 関連の膨大な資本支出への懸念。金利・デット・キャッシュフロー問題を不安視する投資家が増加している。ただし、アナリストからは『Walmart が 40 倍の本益比で取引されている一方、Nvidia は 13 倍』と指摘され、防御への傾斜が行き過ぎている可能性も指摘されている。",
+    "tags": [
+      "株式市場",
+      "テクノロジー",
+      "投資",
+      "経済"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/11/tech-selloff-defensive-pivot.html",
+    "importance": 4,
+    "image_query": "stock market finance trading",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1614028674026-a65e31bfd27c?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOHx8c3RvY2slMjBtYXJrZXQlMjBmaW5hbmNlJTIwdHJhZGluZ3xlbnwxfDB8fHwxNzk0NDA2ODc1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tech Daily",
+      "profileUrl": "https://unsplash.com/@techdailyca?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "laptop showing stock chart on desk",
+      "description": "GME Stock Chart on Robinhood App! | Via techdaily.ca | #stocks #finance #investing #gme #stonks #citadel "
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:13.984Z",
+    "publishedAt": "2026-11-11T06:00:01.000Z"
+  },
+  {
+    "slug": "20261111-32",
+    "headline": "トランプ政権の財務長官ベッセント氏、イランの脅迫から軍事基地に移動",
+    "lead": "米国財務長官 Scott Bessent がイラン系テロ容疑者による暗殺脅迫を受け、軍事基地内の安全な場所に移動。経済制裁主導者が標的に。",
+    "body_markdown": "Scott Bessent 財務長官は、イラン系個人による生命の危機を理由に、ワシントンの私邸から軍事基地に移動している。米国当局によれば、『イラン系の対米現職・元職幹部への陰謀計画が、より高度な段階に達した』と判断された。\n\nBessent 氏は財務省の『Economic Outcast 作戦』を統率する人物。この施策は、制裁と金融措置によってイランを経済的に孤立させる戦略である。同作戦の主導者がイランの報復対象に選定されたことになる。\n\n同時に、米国司法省はイラン国籍 3 人をテロ関連罪で起訴すると発表。複数の起訴者がヨーロッパと米国全域で約 20 件の攻撃と未遂事件に関与していたと主張。9 月 2026 年には、英国の RAF Fairford 基地（米軍兵員が駐屯）への攻撃が実行されている。司法長官 Todd Blanche は『軍事基地内の米兵に対するテロ陰謀を立案した者は誰であれ、起訴される』と警告。",
+    "tags": [
+      "テロ対策",
+      "国家安全保障",
+      "イラン",
+      "米国"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/11/us-iran-war-trump-hormuz-bessent-threats.html",
+    "importance": 4,
+    "image_query": "security threat protection",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1762340916350-ad5a3d620c16?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw4fHxzZWN1cml0eSUyMHRocmVhdCUyMHByb3RlY3Rpb258ZW58MXwwfHx8MTc5NDQwNjg3Nnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Zulfugar Karimov",
+      "profileUrl": "https://unsplash.com/@zulfugarkarimov?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Security, privacy, and performance status with fix options"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:15.126Z",
+    "publishedAt": "2026-11-11T04:06:47.000Z"
+  },
+  {
+    "slug": "20261111-33",
+    "headline": "英国中央銀行、慎重な利上げがインフレ長期化のリスク招く",
+    "lead": "イングランド銀行の利上げペースが不十分だと智库が警告。2030 年までインフレが目標値を超える可能性。",
+    "body_markdown": "英国経済問題研究所（Niesr）は、イングランド銀行（イングランド中央銀行）の金融政策を厳しく批判する分析を発表。先週の利上げを『臆病な対応』と評価し、インフレが 2030 年まで 2% の目標値を上回り続ける可能性を指摘している。\n\nインフレ率が高止まりし、金利が高い状態が長期化すれば、英国経済の成長を圧迫する。企業投資や家計消費が抑制される。Niesr は、より積極的な金利調整が必要だと主張。イングランド銀行の現在の政策姿勢では、金利の高い状態が『より長期化する』という悪循環に陥る危険性を警告している。\n\nこの分析は、先進国の中央銀行が直面する共通の課題を浮き彫りにしている。インフレを抑えることと経済成長の維持のバランスが極めて難しい局面にあり、慎重さと積極性の判断が今後の経済成果を大きく左右する。英国政府は今後の金融政策の見直しを求める圧力に直面する。",
+    "tags": [
+      "金融政策",
+      "インフレ",
+      "イギリス",
+      "経済"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/nov/11/bank-of-england-inflation-response-risks-higher-interest-rates-for-longer",
+    "importance": 4,
+    "image_query": "financial policy interest rates",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1672870153618-b369bcc8c55d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBwb2xpY3klMjBpbnRlcmVzdCUyMHJhdGVzfGVufDF8MHx8fDE3OTQ0MDY4Nzh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Marcus Reubenstein",
+      "profileUrl": "https://unsplash.com/@reubenstein?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "newspapers are stacked on top of each other"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:16.454Z",
+    "publishedAt": "2026-11-11T00:01:23.000Z"
+  },
+  {
+    "slug": "20261111-34",
+    "headline": "ヘッジファンドが『ほぼ絶望的な月』、AI 投資ブームから取り残される",
+    "lead": "11 月のヘッジファンド市場が苦戦。AI 以外への投資先が限定的になり、選別が進む。",
+    "body_markdown": "ヘッジファンド業界が『ほぼ絶望的な月』を経験している。投資機会が AI 関連に著しく限定されている状況が続いている。\n\nエコノミストの分析によれば、ファンドマネジャーらが直面しているのは『AI 以外の投資対象を見つけることの困難さ』。市場全体の注目が AI テクノロジーと関連企業に集中し、その他の産業や企業への資金流入が停滞。ポートフォリオの多様化が極めて難しい環境になっている。\n\nこの傾向は、個別銘柄ピックの難度を高め、従来型のヘッジファンド戦略（市場平均を上回るリターンを目指す）の有効性を低下させている。投資家からの期待が高いなか、パフォーマンスの格差が拡大している可能性が指摘されている。AI バブルの持続可能性を懸念する声も出始めている。",
+    "tags": [
+      "投資",
+      "ヘッジファンド",
+      "市場",
+      "AI"
+    ],
+    "section": "経済・マネー",
+    "source": "The Economist",
+    "link": "https://www.economist.com/finance-and-economics/2026/11/10/lessons-from-a-miserable-month-for-hedge-funds",
+    "importance": 4,
+    "image_query": "investment portfolio finance",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1653378972336-103e1ea62721?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxNnx8aW52ZXN0bWVudCUyMHBvcnRmb2xpbyUyMGZpbmFuY2V8ZW58MXwwfHx8MTc5NDQwNjg3OXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a typewriter with a paper that reads investments"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:17.382Z",
+    "publishedAt": "2026-11-10T20:47:39.000Z"
+  },
+  {
+    "slug": "20261111-35",
+    "headline": "大学の課題採点不可能に、AI により学位の信頼性が低下",
+    "lead": "英国の高等教育規制機関が、AI による課題の『検出不可能な』使用により、大学の学位信頼性が脅かされていると警告。",
+    "body_markdown": "英国高等教育監督局（Office for Students）は調査報告書で、AI がもたらす学位評価上の危機を指摘した。講師らが『学位取得者の課題を評価することが限界に達している』と報告している。\n\n懸念事項は、学生が AI を検出されずに利用している状況。特にオンライン試験や自由解答試験では、不正使用を追跡することがほぼ不可能に近いという。同局は、英国の大学における学位の信頼性が脅かされていると指摘。講義の信用性を維持するため、従来型の試験と対面プレゼンテーションへの回帰を推奨している。\n\nオンライン学習やレポート中心の評価が一般化したなか、AI ツールの普及により、学修成果の正確な測定が困難化している。大学側は評価方法の根本的な改革を迫られている状況。この課題は英国だけでなく、デジタル教育が進む先進国全般に共通する問題として浮上している。",
+    "tags": [
+      "教育",
+      "AI",
+      "イギリス",
+      "学位"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/education/2026/nov/11/ai-close-to-impossible-assess-university-coursework-regulator",
+    "importance": 4,
+    "image_query": "education university assessment",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758270704602-9d4103704ad4?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzMHx8ZWR1Y2F0aW9uJTIwdW5pdmVyc2l0eSUyMGFzc2Vzc21lbnR8ZW58MXwwfHx8MTc5NDQwNjg3OXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vitaly Gariev",
+      "profileUrl": "https://unsplash.com/@silverkblack?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Professor lecturing students in a university lecture hall",
+      "description": "Emotional tutor is speaking to adult students explaining new information while attentive pupils are listening and taking notes. Profession, higher education and people concept."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:17.988Z",
+    "publishedAt": "2026-11-11T07:00:33.000Z"
+  },
+  {
+    "slug": "20261111-36",
+    "headline": "スマートデバイスのセキュリティ危機、冷蔵庫からテレビまで全て狙われる",
+    "lead": "スーパーマーケットの冷蔵庫から家庭用テレビまで、接続された全デバイスが攻撃対象に。IoT セキュリティの弱さが明らかに。",
+    "body_markdown": "インターネット接続されたデバイスは、ほぼすべてがハッカーの攻撃対象になりうると警告される。スーパーマーケットの冷蔵庫、スマートテレビ、ロボット掃除機、スマートウォッチなど、身近な機器のセキュリティリスクが浮き彫りになった。\n\n報告書によれば、複数の脆弱性が確認されている。ルーターは常時接続のため最大の被害対象。LG や Samsung のテレビではアプリの 3 分の 1 以上が無許可のネット接続を許す設定になっていた。DJI のロボット掃除機では、一人のプログラマーが約 7000 台を遠隔操作し、カメラ映像や間取り図に無許可でアクセスした。\n\n対策として推奨されるのは、強力で固有のパスワード設定、多要素認証の有効化、定期的なソフトウェア更新、不要なリモート機能の無効化。古い機器でセキュリティ更新が不可能な場合は使用中止が勧告されている。",
+    "tags": [
+      "サイバーセキュリティ",
+      "IoT",
+      "脆弱性",
+      "プライバシー"
+    ],
+    "section": "テクノロジー",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/11/11/if-hackers-can-take-over-a-supermarket-fridge-what-else-is-at-risk",
+    "importance": 4,
+    "image_query": "cybersecurity hacking device",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1532522750741-628fde798c73?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxjeWJlcnNlY3VyaXR5JTIwaGFja2luZyUyMGRldmljZXxlbnwxfDB8fHwxNzk0NDA2ODgwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "X",
+      "profileUrl": "https://unsplash.com/@disruptxn?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "laptop compute displaying command prompt",
+      "description": "Up close"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:18.569Z",
+    "publishedAt": "2026-11-11T07:20:08.000Z"
+  },
+  {
+    "slug": "20261111-37",
+    "headline": "ブッカー賞受賞『万物の終わり』、初の SF 文学作品が最高栄誉",
+    "lead": "81 歳の SF 作家 M.ジョン・ハリソンが『万物の終わり』でブッカー賞を受賞。SF が文学最高賞の仲間入り。",
+    "body_markdown": "SF（サイエンスフィクション）文学は、58 年の歴史を持つブッカー賞で初めて最高栄誉に輝いた。受賞作『The End of Everything』（『万物の終わり』）の著者は M.ジョン・ハリソン。81 歳での受賞は同賞史上最年長記録となった。\n\n『万物の終わり』はケント州の海岸を舞台にした黙示録的な小説。非人間的な知性が地球を支配する未来を描いている。ハリソンは 13 冊目の長編小説でブッカー賞を獲得。彼は長年の著作活動で『ジャンル文学』としての SF を超えた文学的価値を示してきた。\n\nハリソン自身、ジャンル分類を否定してきた。『SF的雰囲気を持つ作品が真摯な小説として評価されること自体に興味を感じる』とコメント。受賞は、SF の文学的地位向上を象徴する出来事。かつては『下位のジャンル』と見なされた SF が、文学の主流に認められるようになった変化を示している。",
+    "tags": [
+      "文学",
+      "SF",
+      "ブッカー賞",
+      "イギリス"
+    ],
+    "section": "カルチャー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/books/2026/nov/11/m-john-harrison-booker-prize-winner-sci-fi-alien-invasion-kent",
+    "importance": 4,
+    "image_query": "book prize literature award",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1641281010947-73c06a3dc380?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzMHx8Ym9vayUyMHByaXplJTIwbGl0ZXJhdHVyZSUyMGF3YXJkfGVufDF8MHx8fDE3OTQ0MDY4ODF8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Brett Jordan",
+      "profileUrl": "https://unsplash.com/@brett_jordan?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a stack of books sitting on top of a floor",
+      "description": "book, books, book spine, close up, bokeh, depth of field, literature, stack, book stack, \n"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:19.121Z",
+    "publishedAt": "2026-11-11T05:00:30.000Z"
+  },
+  {
+    "slug": "20261111-38",
+    "headline": "Coachella 2027、Dua Lipa・Tame Impala・SZA がヘッドライナー",
+    "lead": "音楽フェス Coachella 2027 の主要出演アーティストが発表。Dua Lipa、Tame Impala、SZA が 3 大ヘッドライナーに。",
+    "body_markdown": "2027 年の Coachella Valley Music and Arts Festival のラインナップが発表された。ヘッドライナーは Dua Lipa、Tame Impala、SZA。\n\nSZA は SNS で先行情報をリークしていたが、公式発表により確定した。Daddy Yankee と Justice が特別スロット（通常ボーナス的位置付けの4番目ヘッドライナー）に指定。Justice は『Blinded』（『見えない』と訳される楽曲）の Bunker 初出演も予定されている。\n\nCoachella は 4 月にカリフォルニアで開催される北米最大級の音楽・芸術フェスティバル。多くの音楽スタイルを代表するアーティストが出演し、2027 年も幅広い音楽ファンを集める構成になっている。",
+    "tags": [
+      "音楽",
+      "フェスティバル",
+      "Coachella",
+      "エンタメ"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/music/news/dua-lipa-tame-impala-sza-to-headline-coachella-2027-1236944962/",
+    "importance": 3,
+    "image_query": "music festival concert stage",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-11T14:21:19.126Z",
+    "publishedAt": "2026-11-11T06:26:15.000Z"
+  },
+  {
     "slug": "20261111-02",
     "headline": "Google、Gemini Intelligence を新型Pixel・モトローラ端末に拡大",
     "lead": "GoogleがGemini Intelligenceの対応機種を拡大。Pixel新型とモトローラ Signature 27 に搭載。タスク自動化、音声からテキスト変換など新機能追加。",

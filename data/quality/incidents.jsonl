@@ -313,3 +313,5 @@
 {"ts":"2026-11-10T23:11:15Z","type":"judge_absent","cause":"verdict_unusable","stage":"guard","exit":0}
 {"ts":"2026-11-10T23:11:15.289Z","type":"judge_absent","cause":"verdict_unusable","stage":"ingest","reason":"不正な JSON です: Expected ',' or ']' after array element in JSON at position 683 (line 17 column 68)","kept":"data/quality/_review-failed-20261110T231115Z.json"}
 {"ts":"2026-11-11T03:46:23.045Z","type":"veto_bypassed","count":6,"slugs":["20261107-18","20261107-37","20261111-01","20261111-05","20261111-08","20261111-13"],"cause":"_review.json unescaped quotes in suggestions/critique; JSON.parse failed so all verdicts were dropped","detected":"manual review of data/quality/_review-failed-*.json","recovered":"withdrawn after publication"}
+{"ts":"2026-11-11T09:00:16.657Z","type":"candidates","total":365,"pool":140,"skippedWeak":5,"skippedIrrelevant":5,"enriched":7}
+{"ts":"2026-11-11T09:07:21Z","type":"draft_lint","flagged":1,"drafts":23}
