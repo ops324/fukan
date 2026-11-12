@@ -1,5 +1,162 @@
 [
   {
+    "slug": "20261113-01",
+    "headline": "Google検索がGemini 4 Hydrogenで大幅刷新",
+    "lead": "Googleが検索エンジンにGemini 4 Hydrogenを全世界展開、複雑な質問理解と多角的な回答が可能に。",
+    "body_markdown": "Googleは11月12日、AI検索モデル「Gemini 4 Hydrogen」をGoogle Searchに全世界展開すると発表しました。\n\n## 主な機能強化\n\nこのアップグレードにより、ユーザーは複数の関連サブトピックについて同時に検索でき、より包括的な結果を得られます。タイプミスや極めて具体的な質問にも対応し、自然な言語による質問がそのまま通じるようになります。\n\n## ビジュアル・インターフェースの充実\n\n結果は「画像、構造化された回答、比較表、カスタムツール」など、ユーザーの必要に応じた形式で提示されます。複雑な情報をこれまでより直感的に理解できる設計です。\n\n## 多言語対応\n\nGemini 4 Hydrogenは対応言語すべてで、より細緻で有用な回答を提供するよう調整されています。Google検索部門VP Robby Steinは「これまでで最大級のモデルアップグレード」と述べており、検索体験の転換点となる可能性があります。\n\n従来は検索ボックスに決まった形式で入力する必要がありましたが、今後はユーザーが「思考の自然な流れで」質問できるようになり、検索がより対話的になります。",
+    "tags": [
+      "Google検索",
+      "Gemini",
+      "AI-モデル",
+      "検索エンジン"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+    "importance": 5,
+    "image_query": "search engine AI technology",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.width-1300.png",
+      "credit": "Google",
+      "creditUrl": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-12T21:18:26.589Z",
+    "publishedAt": "2026-11-12T18:00:00.000Z"
+  },
+  {
+    "slug": "20261113-02",
+    "headline": "Microsoft 365が世界規模で障害、数時間にわたり回復",
+    "lead": "Microsoft 365のOutlook、Teams等が北米を中心に大規模障害、インフラストラクチャの負荷上昇が原因。",
+    "body_markdown": "Microsoftは11月12日午後1時（東部時間）頃から、Microsoft 365で大規模なサービス障害を経験しました。\n\n## 影響範囲\n\nOutlook、Teams、ファイルストレージなどを含むMicrosoft 365のサービスが利用不能に。特に北米地域で影響が広がり、ビジネス用途でMicrosoft製品に依存する企業・個人に打撃が生じました。\n\n## 原因と復旧\n\nMicrosoft 365ステータスチームは午後1時半に「複数地域にまたがるインフラストラクチャの一部が『elevated load』（負荷上昇）を経験している」と発表。その後、原因は「サーバーヘルスチェック処理の特定コンポーネントの故障」に特定されました。\n\n復旧作業として、Microsoftは影響を受けたインフラへのサーバー再起動を実施し、さらなるサーバーへの波及を防ぐための予防措置を講じました。\n\n## 業界への波紋\n\nこの障害は、クラウドインフラストラクチャの可用性に対する業界全体の関心を高めます。AWS、Google Cloud でも同時期に一部ユーザーが接続問題を報告しており、より広範なインフラ課題を示唆しています。",
+    "tags": [
+      "Microsoft-365",
+      "Outlook",
+      "クラウド障害",
+      "インフラ"
+    ],
+    "section": "テクノロジー",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+    "importance": 4,
+    "image_query": "cloud servers technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1668886581054-8f5b81c0e8c1?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMnx8Y2xvdWQlMjBzZXJ2ZXJzJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzk0NTE4MzA3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ian Talmacs",
+      "profileUrl": "https://unsplash.com/@iantalmacs?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close-up of a computer"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-12T21:18:27.588Z",
+    "publishedAt": "2026-11-12T20:57:54.000Z"
+  },
+  {
+    "slug": "20261113-03",
+    "headline": "AmplitudeがOpenAI Waveで製品開発を1～2日に短縮",
+    "lead": "Amplitudeが OpenAI 主導の自動化エージェント Waveで、製品改善を月単位から数日へ加速。",
+    "body_markdown": "Amplitudeは、OpenAIのモデルで構成した「Wave」という自動エージェントを導入することで、製品開発サイクルを劇的に短縮しています。\n\n## Waveの仕組み\n\nWaveは OpenAI の複数モデル（GPT-6.1 Sol、GPT-6 Luna、GPT-Image-2.5 Flare）を約80%に組み込んだプロダクトエージェント。ユーザーの行動データから何を構築すべきかを特定し、その実装計画をコーディングエージェント Codex に渡し、最終的に影響を測定するまでを自動化します。\n\n## 具体的な成果\n\nAmplitudeの報告によると：\n- **160%のエージェント参加向上** - 1日で制御群比で160%の改善\n- **1～2日での配信** - 従来は月単位だった製品改善を数日で実現\n- **51%のコスト削減** - GPT-6.1 Sol でのディスパッチあたり平均モデルコスト\n\n## 企業への示唆\n\nこの事例は、AI エージェントがソフトウェア開発のボトルネック（計画立案、コード作成、検証）を同時に攻略できることを示唆しています。OpenAI のコーディング専用モデル Codex との組み合わせで、DevOps 全般の自動化が本格化する兆しが見えます。",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "自動化",
+      "プロダクト開発"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/amplitude",
+    "importance": 4,
+    "image_query": "software development automation",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7xyAtQVA8C5CZGHW7aQidr/a71aedc6e0ed7395f081f75411af6d03/amplitude-wave-seo.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/amplitude",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-12T21:18:27.819Z",
+    "publishedAt": "2026-11-12T20:00:00.000Z"
+  },
+  {
+    "slug": "20261113-04",
+    "headline": "日本の消費税減税法案、参院特別委で高市首相も出席し審議",
+    "lead": "食料品の消費税減税法案が参議院特別委で本格議論、物価高対策と所得別支援の対象が焦点。",
+    "body_markdown": "日本の高市首相は11月13日、参議院特別委員会で消費税減税法案に関する質疑に出席します。\n\n## 法案の概要\n\n政府は食料品を対象とした消費税減税を掲げ、物価高対策としてこの法案を推進しています。衆議院での審議を経て、参議院での本格的な議論に進みました。\n\n## 主な争点\n\n質疑では以下の2点に焦点が当たる見通し：\n\n1. **物価高対策としての実効性** - 減税がどの程度消費者負担を軽減し、インフレ鎮静に寄与するか\n2. **所得別支援金の対象範囲** - どの所得層を支援対象とするか、その線引き基準\n\n## 政治的背景\n\n減税政策は野党からも一定の支持を受ける一方、財源確保と支援対象の公平性をめぐる異論も存在します。首相の出席は政府の重要政策課題である位置づけを示しています。\n\n## 今後の見通し\n\n参院特別委での議論を踏まえ、法案は本会議での採決を経て成立へ向かう見込みです。成立後の施行時期や運用詳細が注視されます。",
+    "tags": [
+      "消費税",
+      "減税政策",
+      "日本経済",
+      "物価対策"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261113de75105",
+    "importance": 4,
+    "image_query": "parliament debate policy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1536181783029-1097aaf179de?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxwYXJsaWFtZW50JTIwZGViYXRlJTIwcG9saWN5fGVufDF8MHx8fDE3OTQ1MTgzMDh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Frederic Köberl",
+      "profileUrl": "https://unsplash.com/@internetztube?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "aerial view photography of room"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-12T21:18:28.502Z",
+    "publishedAt": "2026-11-12T19:55:40.000Z"
+  },
+  {
+    "slug": "20261113-05",
+    "headline": "ロシア、北海道新聞記者拘束から1ヶ月――日本は即時解放を要求継続",
+    "lead": "ロシアの治安機関が北海道新聞記者を拘束して1ヶ月経過、日本政府は解放要求を続けるも進展なし。",
+    "body_markdown": "ロシアの治安機関に拘束された北海道新聞の記者が、2026年11月13日で1ヶ月経過しました。日本政府は継続して即時解放を求めています。\n\n## 拘束の経緯\n\n記者の拘束は2026年10月13日に始まり、以来1ヶ月間、ロシア側との交渉が進展していません。\n\n## 日本政府の対応\n\n日本政府は外交チャネルを通じ、以下の対応を続けています：\n- 即時解放要求\n- 領事面でのサポート\n\n日本外務省は粘り強い外交交渉を継続する意思を表明しており、今後も解放実現に向けた働きかけを強化する方針です。\n\n## ロシア側の姿勢\n\nロシア側は現在のところ「応じる姿勢を示しておらず」、双方の立場に大きな溝があります。記者拘束の理由や具体的な容疑については、ロシア側から詳細が明かされていない状態です。\n\n## 国際的関心\n\nこの事件は報道の自由と国際関係の緊張を反映しています。日本政府は国際法に基づく即時解放を求め続ける意向を示しており、国際機関への働きかけも含めた全方位的対応を進める見込みです。",
+    "tags": [
+      "ロシア",
+      "報道の自由",
+      "外交",
+      "日本"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261113de75109",
+    "importance": 4,
+    "image_query": "international diplomacy conflict",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1790426571729-ec927ecdb7d5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMXx8aW50ZXJuYXRpb25hbCUyMGRpcGxvbWFjeSUyMGNvbmZsaWN0fGVufDF8MHx8fDE3OTQ1MTgzMDl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Olek Buzunov",
+      "profileUrl": "https://unsplash.com/@olek_bznv_photo?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A crowd of people holding protest signs and Ukrainian flags in Times Square at night",
+      "description": "Demonstrators stand shoulder to shoulder in Times Square at night, holding handwritten signs calling for justice for Ukraine. A woman in a painted white dress carries a trident emblem and sunflowers, while others wear red-and-black and blue-and-yellow flags. Protesters rally in Times Square, New York City, on February 15, 2022, standing in solidarity with Ukraine and speaking out against the war at an anti-war demonstration. Photo: Olek Buzunov (@buzunov.photoart)"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-12T21:18:29.219Z",
+    "publishedAt": "2026-11-12T20:22:55.000Z"
+  },
+  {
+    "slug": "20261113-06",
+    "headline": "IBMがLLM向け新型マークアップ言語LLMON発表、プロンプト注入攻撃を47%削減",
+    "lead": "IBM Granite 4.1がLLMON（LLM Object Notation）を導入、セキュリティと性能を両立させた新言語仕様。",
+    "body_markdown": "IBMはHugging Face経由で、LLM専用に設計されたマークアップ言語「LLMON（LLM Object Notation）」を発表しました。\n\n## LLMONの設計思想\n\nLLMONは従来のJSON等と異なり、**通常の文字ではなく予約特別トークンを区切り文字として使用**します。これにより、LLMの語彙内で「構造と内容を分離する」ことが可能になります。\n\n## セキュリティ面の強化\n\n最大の利点はプロンプト注入攻撃への耐性。OPI ベンチマーク測定では、LLMON モデルは従来の最高峰モデルと比べ**47%多くの攻撃を回避**。理由は、指示が特定データに IDで直接結合され、無関係なコンテンツの混入を防ぐ仕組みにあります。\n\n## 性能維持\n\nセキュリティ強化にもかかわらず、LLMON モデルは標準ベンチマークで Granite 4.1 Instruct モデルと**同等の性能**を維持しています。\n\n## 実装と今後\n\nIBMは 3B と 8B の 2 種類の実験的プレビューモデルをリリース。既存 JSON パイプラインの変換ツールも提供され、データ損失なしに移行できます。LoRA ファインチューニングでドメイン固有の語彙作成も可能です。\n\n現在プレビュー段階のため、本番運用はまだ推奨されていませんが、LLM セキュリティの次世代標準となる可能性があります。",
+    "tags": [
+      "IBM",
+      "LLM",
+      "セキュリティ",
+      "Granite"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+    "importance": 3,
+    "image_query": "programming code security",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-12T21:18:29.222Z",
+    "publishedAt": "2026-11-12T19:07:35.000Z"
+  },
+  {
     "slug": "20261112-18",
     "headline": "欧州探査機Hera、NASAの小惑星衝撃実験を調査 惑星防衛の追跡開始",
     "lead": "欧州宇宙機関の探査機Heraが、2022年のNASA実験による小惑星への衝撃効果を詳細に調査。惑星防衛技術の実証が進む。",
