@@ -45,7 +45,10 @@ async function recordIncident(rec) {
 // 消えるため、その場に残すと原本が失われる（2026-11-04 は scheduler.log の markdown から
 // critique を手で復元するしかなかった）。退避先が data/quality/ なのは、そこが git 追跡対象＝
 // バックアップされる唯一の置き場だから（data/ 直下は gitignore）。
-async function keepBrokenVerdict(cause, reason) {
+// type は既定 judge_absent。救済できた回は judge は不在ではない（判定は適用している）ため
+// verdict_salvaged を使う——judge_absent に混ぜると「査読なしで公開した回」の件数が水増しされ、
+// 評価機構の健全性を読み違える。
+async function keepBrokenVerdict(cause, reason, type = 'judge_absent') {
   const stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\..+/, 'Z');
   const kept = path.join(ROOT, 'data', 'quality', `_review-failed-${stamp}.json`);
   let keptRel = null;
@@ -76,6 +79,12 @@ const reviewByLink = new Map(verdict.rows.map((r) => [r.link, r]));
 if (verdict.exists && !verdict.ok) {
   console.error(`  WARN: judge 判定を使えません（判定を無視して続行）: ${verdict.reason}`);
   await keepBrokenVerdict('verdict_unusable', verdict.reason);
+} else if (verdict.exists && verdict.salvaged) {
+  // 壊れた JSON から復元した回。veto は復元できたぶんを**適用する**（2026-11-07 / 11-10 は
+  // 全損扱いで6本が公開された）。原本の退避は救済できた回も続ける——救済の取り落ちは
+  // 原本を見ないと分からず、_review.json は末尾の掃除で消えるため。
+  console.error(`  WARN: judge 判定を復元して使います: ${verdict.reason}`);
+  await keepBrokenVerdict('verdict_salvaged', verdict.reason, 'verdict_salvaged');
 } else if (verdict.exists && !verdict.complete) {
   console.error(`  WARN: judge 判定が不完全です（読めた ${verdict.usable} 件は尊重して続行）: ${verdict.reason}`);
   await recordIncident({
