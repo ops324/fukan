@@ -1,5 +1,371 @@
 [
   {
+    "slug": "20261113-07",
+    "headline": "Gondolaが収益2倍に、Codexで開発効率を大幅向上",
+    "lead": "クリエイター向けプラットフォーム Gondolaは、OpenAI Codexで年間収益を2倍に伸ばした。",
+    "body_markdown": "クリエイター向けプラットフォームGondolaが、OpenAIのコーディングエージェント「Codex」を導入して開発効率を大幅改善。エンジニアの統合変更が50%増加し、人員を増やさずに年間収益を2倍にした。\n\nGondolaは、クリエイターが制作した映像や作品をポートフォリオ化し、企業との雇用・案件をマッチングするサービス。創業者のJared Kleinsteinは、小規模チームの制約が最大の課題だったが、Codexにより「毎週の実装スピードが劇的に向上した」と語っている。\n\n人員を増やさずに開発効率が25〜50%改善し、ブランドによるクリエイター採用は前年比2.5倍に増加。スタートアップの経営効率化において、AIがいかに核となるかを示す事例として注目される。このモデルが他のスタートアップへ波及すれば、AI導入の意思決定スピードがさらに加速するだろう。",
+    "tags": [
+      "AI",
+      "スタートアップ",
+      "CodexAPI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/business/customer-stories/gondola",
+    "importance": 4,
+    "image_query": "creative portfolio platform",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/2gyH3WDalGtGbAK3JBzNl2/29480242d3537e70529f699d9662e99c/Gondola-Option-A-SEO-1920x1080.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/business/customer-stories/gondola",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:47.760Z",
+    "publishedAt": "2026-11-12T12:00:00.000Z"
+  },
+  {
+    "slug": "20261113-08",
+    "headline": "Holiday Extrasが開発期間を6ヶ月から2週間に短縮",
+    "lead": "旅行企業 Holiday Extrasが、OpenAI Codexでアプリ再構築を劇的に高速化。",
+    "body_markdown": "旅行予約・管理サービスのHoliday Extrasが、OpenAIのコーディングエージェント「Codex」を使ってアプリを再構築し、開発期間を6ヶ月から2週間に短縮した。\n\nCEO Matthew Packは「AI導入により、顧客接点を理解するスタッフが自分たちでアプリを改善できるようになった」と述べている。新しいアプリではブッキング成約率が32.5%向上し、エラーレートは19%から9%に低下。ChatGPT EnterpriseとCodexの組み合わせが、全社的なIT人材不足を補完できたという。\n\nこのような大型エンタープライズでのAI導入は、デジタル変革の新たなモデルを示唆している。技術スタッフだけでなく事業側が直接ソフトウェア開発に関わる「ノーコード化」が現実化しつつある。今後、業界規模のデジタル変革の起爆剤となる可能性がある。",
+    "tags": [
+      "AI",
+      "エンタープライズ",
+      "デジタル変革"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+    "importance": 4,
+    "image_query": "travel booking app development",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/YQ7iIOI0bWh6X0QxSJfhc/52dfd3404ac0611fbab3c54ed6178bce/holiday-extras-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:47.962Z",
+    "publishedAt": "2026-11-12T09:30:00.000Z"
+  },
+  {
+    "slug": "20261113-09",
+    "headline": "Google Labsが協働ツール「Tabletop」発表",
+    "lead": "Googleの新協働プラットフォーム、グループ企画・投票をAI統合。",
+    "body_markdown": "GoogleのAI研究部門Google Labsが、チーム協働プラットフォーム「Tabletop」を発表した。グループが旅程計画、投票、トーナメントブラケット作成などを行う際に、AI機能を統合し効率化する実験的なツール。\n\nTabletoは複数ユーザーがリアルタイムで共同編集・意思決定を行うための専用インターフェースを提供。Google AIのエージェント技術を活用し、会議や企画段階でのAI補助が可能になる。Google LabsはウェイトリストとしてTextでの参加受け付けを開始している。\n\nこのような「協働作業の場」にAI統合を進めるアプローチは、業務効率化だけでなく、組織の意思決定過程そのものへのAI組み込みを示唆している。組織内の協働スタイルが、AI主導の形へ転換していく転機となる可能性がある。",
+    "tags": [
+      "AI",
+      "Google",
+      "協働ツール"
+    ],
+    "section": "テクノロジー",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+    "importance": 3,
+    "image_query": "collaborative teamwork planning",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:47.968Z",
+    "publishedAt": "2026-11-11T16:00:00.000Z"
+  },
+  {
+    "slug": "20261113-10",
+    "headline": "OpenAIが退役兵向けChatGPT Plusを無料提供",
+    "lead": "退役兵・現役軍人2万人が利用、キャリア転換を支援。",
+    "body_markdown": "OpenAIが、退役兵や現役軍人のキャリア転換を支援するため、1年間のChatGPT Plus無料アクセスプログラムを拡大している。これまで約2万人の退役兵・現役軍人が同プログラムを利用し、民間職への就職準備に活用している。\n\nOpenAIはこのプログラムを契機に、軍人コミュニティ向けのAI研修「OpenAI Academy」を展開。提携組織との連携で、年内に1000人近い軍人コミュニティメンバーに対して12回以上の無料研修を提供予定。参加者は職務経歴書の作成、面接練習、キャリア戦略の策定など、実務的なスキル獲得にChatGPTを活用している。\n\n軍隊からの職業転換は雇用市場でもチャレンジが大きいが、AIが職探しや面接の支援ツールとなりうることを示す事例。今後、民間企業による社会的インパクト型のAI活用事例が増える傾向が見られる。",
+    "tags": [
+      "AI",
+      "ChatGPT",
+      "雇用支援"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+    "importance": 3,
+    "image_query": "career training development",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:47.970Z",
+    "publishedAt": "2026-11-11T08:00:00.000Z"
+  },
+  {
+    "slug": "20261113-11",
+    "headline": "小泉防衛相が自衛官処遇改善を改定テーマに",
+    "lead": "安全保障3文書改定で、給与見直しと退職者支援を検討。",
+    "body_markdown": "防衛省は自衛官の安定的確保が急務となる中、安全保障関連の3文書改定を進める。小泉防衛大臣は、今回の改定で「処遇改善」を重要なテーマとして位置づけ、給与体系の抜本的見直しと退職者支援の拡充に取り組む考えを明らかにした。\n\n少子化による採用難と長期勤続への課題に対応するため、自衛官の待遇改善は防衛力整備の根幹に位置付けられている。給与体系の見直しや退職後のキャリア支援など、複数の施策を同時進行で進める予定。防衛力維持のための「人材確保戦略」として位置づけられている。\n\n自衛官の処遇改善は、昨年来の採用難からも浮かぶ社会的課題。防衛力維持という政策課題と人的リソースが直結する局面であり、今後の防衛政策の中核となる可能性がある。国防と労働政策が交錯する重要な転機。",
+    "tags": [
+      "防衛",
+      "自衛官",
+      "政策"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261113de75292",
+    "importance": 4,
+    "image_query": "military soldier defense",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1595472968262-48209bf5b390?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxtaWxpdGFyeSUyMHNvbGRpZXIlMjBkZWZlbnNlfGVufDF8MHx8fDE3OTQ1NjIzMDh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Alexander Jawfox",
+      "profileUrl": "https://unsplash.com/@jawfox_photography?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man in black helmet holding rifle",
+      "description": "Trying to replicate the scene... "
+    },
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:48.608Z",
+    "publishedAt": "2026-11-13T08:53:18.000Z"
+  },
+  {
+    "slug": "20261113-12",
+    "headline": "Agentic検索が次世代型へ、回答を自動組立",
+    "lead": "EXAが「ページ検索」から「回答組立」への転換を示唆。",
+    "body_markdown": "StackOverflowのポッドキャストで、検索エンジン企業EXAの共同創業者Jeff Wangが登場。「AIエージェント型検索」の技術課題と市場規模について語った。\n\n従来の検索は「関連ページを並べて返す」モデルだが、エージェント型は「複数のページを読んで信頼できる回答を自動組立」する仕組みに変わる。このためには、ウェブ上の重複・矛盾するコンテンツから最信頼の情報源を特定する必要があり、EXAは独自の埋め込みとベクトルDB技術で対応している。\n\nトリリオン件規模の検索を支える基盤整備が急速に進み、次世代の情報検索が実装フェーズへ入りつつある。検索そのものが思考・判断の形を変える転機として注視されている。",
+    "tags": [
+      "AI",
+      "検索",
+      "エージェント型"
+    ],
+    "section": "テクノロジー",
+    "source": "Stack Overflow",
+    "link": "https://stackoverflow.blog/2026/11/13/agentic-doesn-t-find-pages-it-assembles-answers/",
+    "importance": 4,
+    "image_query": "search engine technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1778757949517-e2d936d0f214?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8c2VhcmNoJTIwZW5naW5lJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzk0NTYyMzA5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "ObjectType RAW",
+      "profileUrl": "https://unsplash.com/@objecttyperaw?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Detailed view of a modern car engine with turbochargers",
+      "description": "Front-facing engine composition built around symmetry and visual balance, where every component mirrors and reinforces the overall structure. Twin turbo housings, looping pipes, and layered mechanical elements create a controlled, almost architectural layout—less chaotic machinery, more engineered centerpiece."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:49.192Z",
+    "publishedAt": "2026-11-13T08:40:00.000Z"
+  },
+  {
+    "slug": "20261113-13",
+    "headline": "マングローブ回復加速、NASA衛星観測で確認",
+    "lead": "世界的な保全事業が成果を上げ、海岸林が回復傾向。",
+    "body_markdown": "米航空宇宙局（NASA）が公表した衛星データによると、世界のマングローブ林の面積が過去数年で回復傾向にあることが判明した。これまで沿岸開発による伐採で面積を減らしていたマングローブだが、各国による保全プロジェクトの進展で、特にアジア太平洋地域での回復が顕著になっている。\n\nマングローブは、高潮被害の軽減、炭素固定、漁場の保全など、気候変動への適応と生物多様性の維持で重要な役割を担う。衛星観測は今後の保全目標の設定や政策効果の測定に活用される見込み。環境回復指標として、定量的なデータが提供されることで、各国の気候政策の透明性が向上する。\n\n各国が2030年までの気候目標を達成する過程で、このような自然資本の回復が成果指標として注視されている。科学的根拠に基づいた環境政策の推進が加速していくと考えられる。",
+    "tags": [
+      "気候変動",
+      "環境保全",
+      "衛星観測"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+    "importance": 3,
+    "image_query": "mangrove forest tropical coastal",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:49.208Z",
+    "publishedAt": "2026-11-13T05:01:00.000Z"
+  },
+  {
+    "slug": "20261113-14",
+    "headline": "Notionがデータ非保持ルール破露、セキュリティ問題",
+    "lead": "委託先のAI処理でユーザーデータが保持されていた。",
+    "body_markdown": "生産性ツールNotionが、サードパーティのAI処理委託先で「データ非保持」の契約が満たされていなかったセキュリティ問題を明かした。ユーザーが外部AI機能を利用した際、データが委託先に残留していた可能性があるという。\n\nクラウドアプリケーションのAI統合が急速に進む中、データの委託先での取り扱いが企業責任の盲点になりやすい。Notionは「委託先の運用体制の不十分さがあった」と認め、対応強化を発表した。この事件は、企業がAI導入時にどの程度のセキュリティレビューを行うべきかを問い直させるものとなっている。\n\nGDPR等の規制環境が厳しくなる中、AI導入企業は委託先のセキュリティ監査体制を抜本的に強化する必要が生じている。今後、AIベンダーのセキュリティ認証が購買の際に重要な判断基準となるだろう。",
+    "tags": [
+      "セキュリティ",
+      "AI",
+      "クラウド"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003172/",
+    "importance": 3,
+    "image_query": "data security cloud",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:49.210Z",
+    "publishedAt": "2026-11-13T01:22:05.000Z"
+  },
+  {
+    "slug": "20261113-15",
+    "headline": "BYDが車輪組立不具合認め、リコール実施へ",
+    "lead": "旗艦SUVの品質問題、EV業界の信頼性が問われる。",
+    "body_markdown": "中国のEV大手BYD（比亜迪）が、旗艦モデルのSUVにおいて車輪組立の不具合が存在することを認め、ユーザーへの通知とリコール対応を開始した。製造過程での品質管理の問題が指摘されている。\n\nBYDは世界のEV販売シェアで急速に拡大しており、品質問題は国際市場での信用に直結する。同社は「対象の個体すべての点検・修正を進める」とコメントしており、修正完了までの期間を明示している。このような品質問題は、中国系EVメーカーの国際進出における信頼構築の足かせになる可能性がある。\n\nEV業界の急速な成長期では、品質と信頼性の維持がメーカーの生存戦略の核となる段階。大量生産段階での品質管理が、今後の市場競争を左右するだろう。",
+    "tags": [
+      "電動車",
+      "品質管理",
+      "BYD"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2315638/byd-wheel-assembly-error-great-tang-electric-suv/",
+    "importance": 3,
+    "image_query": "electric vehicle manufacturing",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:49.218Z",
+    "publishedAt": "2026-11-13T08:12:48.000Z"
+  },
+  {
+    "slug": "20261113-16",
+    "headline": "Sakana AIが独自モデル開発へ転換",
+    "lead": "日本発AI企業、大手依存を脱却して自立戦略へ。",
+    "body_markdown": "AI研究企業Sakana AIが、事業方針を「既存モデルとの統合」から「独自AI開発」へ大きく転換する。CEOは「今が独自開発を始めるチャンスだ」と述べており、小規模で高効率なモデル開発に資源を集中する方針。\n\nSakana AIは進化論的AIアルゴリズムで知られており、この手法の強みを生かした小型・高性能なモデル開発を目指す。GPUコストの低減とデータセット最適化により、大型企業に依存しない独立したAI企業への転換を狙っている。この戦略転換は、日本のAIスタートアップが「ツール企業」ではなく「モデルメーカー」へと進化する動きを示唆している。\n\n日本発のAIスタートアップが、単なる「ツール企業」から「モデルメーカー」への進化を遂行しようとしており、今後の日本AI産業の方向性を示唆している。",
+    "tags": [
+      "AI",
+      "スタートアップ",
+      "日本"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003141/",
+    "importance": 3,
+    "image_query": "ai research technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:49.219Z",
+    "publishedAt": "2026-11-13T01:44:00.000Z"
+  },
+  {
+    "slug": "20261113-17",
+    "headline": "気候変動、男女で異なる健康被害もたらす",
+    "lead": "研究が性別格差を指摘、ジェンダー対策が急務。",
+    "body_markdown": "気候変動が人間の健康に与える影響について、性別による差異が大きいことが研究で指摘された。熱ストレス、感染症、栄養不足など、気候変動の各要因が男性と女性で異なる脆弱性を引き起こす。\n\n例えば、極度の暑さでは妊娠中の女性の健康リスクが高く、また農業地域では女性の労働負荷増加が栄養不良につながりやすい。一方男性では外出労働時の熱中症リスクが高い傾向にある。各地域と職業によって、気候変動の影響は異なることが明らかになった。\n\n気候適応政策が「全員向け」ではなく、ジェンダー別のリスク評価と対策が必要であることを示唆している。今後、気候変動対応の主流化の中で、ジェンダー視点の統合が一つの標準となるだろう。",
+    "tags": [
+      "気候変動",
+      "ジェンダー",
+      "健康"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-climate-consequences-health-women-men.html",
+    "importance": 3,
+    "image_query": "health climate environment",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:49.221Z",
+    "publishedAt": "2026-11-13T01:40:01.000Z"
+  },
+  {
+    "slug": "20261113-18",
+    "headline": "世界ニュース主導権、グローバルサウスが獲得へ",
+    "lead": "西側メディア支配に異議、独立報道ネットワーク構築。",
+    "body_markdown": "国際的な通信社とメディアの歴史的支配構造に対し、アフリカ・アジア・中東の報道機関が独立した報道ネットワーク構築を急速に進めている。BBCやロイター、AP通信といった欧米中心の報道体制から、自地域の視点での「事実記述」への転換を試みる動きが活発化。\n\n各地域のニュースエージェンシーの連携強化、デジタルプラットフォーム経由での直接配信、多言語での同時発信など、情報流通の分散化が急速に進みつつある。この構造転換は、新興国の経済力拡大を背景にした情報主権の獲得を象徴している。\n\nグローバルサウスの経済力拡大とメディア技術の民主化が、国際情報秩序の再構成を促進している。今後、ニュース配信の「地政学化」がさらに進み、地域別の報道スタイルが多様化するだろう。",
+    "tags": [
+      "メディア",
+      "グローバルサウス",
+      "国際関係"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/features/longform/2026/11/13/who-gets-to-tell-the-worlds-news",
+    "importance": 3,
+    "image_query": "global news media international",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:49.221Z",
+    "publishedAt": "2026-11-13T08:51:11.000Z"
+  },
+  {
+    "slug": "20261113-19",
+    "headline": "高市首相ASEAN・APEC出席、地政学戦略鮮明に",
+    "lead": "インド太平洋戦略の強化、経済外交に注力。",
+    "body_markdown": "日本の高市首相が来週、東南アジア（ASEAN）とアジア太平洋経済協力（APEC）の首脳会議に参加する予定。両会議での日本の位置づけと経済・安全保障での連携強化が焦点になる。\n\nASEANとのエンゲージメントは、インド太平洋地域における日本の外交・経済戦略の中核。トランプ政権下での米国の対アジア政策が不透明な中、日本が地域的パートナーシップを通じた平衡外交を展開する重要な局面。特にサプライチェーン再構築と防衛連携が主要課題となる。\n\n地政学的な競争と経済統合の両立を目指す日本の戦略が問われるシリーズイベント。今後、ASEAN各国との二国間関係深化が加速するだろう。",
+    "tags": [
+      "外交",
+      "ASEAN",
+      "経済"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261113de75237",
+    "importance": 3,
+    "image_query": "international summit conference",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:49.222Z",
+    "publishedAt": "2026-11-13T03:25:21.000Z"
+  },
+  {
+    "slug": "20261113-20",
+    "headline": "南米チリ・ペルーの大統領が来週訪日",
+    "lead": "資源・経済協力深化、首脳会談で連携強化へ。",
+    "body_markdown": "南米のチリとペルーの大統領が来週相次いで日本を訪問し、高市首相と首脳会談を行う。両国は日本の重要な経済パートナーであり、特に鉱物資源（銅、リチウム など）の安定供給とEV産業への連携が主要議題。\n\n太平洋側からの対アジア戦略を進める両国との関係強化は、日本のエネルギー・資源外交の多角化につながる。トランプ政権下での米国の多国間主義後退を補完する外交的重要性も高い。EV産業の急成長に伴い、リチウムなど関連資源の安定供給確保が急務になっている。\n\n資源セキュリティの観点から、日本がラテンアメリカパートナーとの関係を深める重要な機会。今後、これらの地域との経済協力が強化される見込み。",
+    "tags": [
+      "外交",
+      "南米",
+      "資源"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261113de75242",
+    "importance": 3,
+    "image_query": "international diplomacy summit",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:49.228Z",
+    "publishedAt": "2026-11-13T04:45:49.000Z"
+  },
+  {
+    "slug": "20261113-21",
+    "headline": "円が160円水準に接近、円安加速の背景",
+    "lead": "米国利上げ加速見通しで、ドル買いが拡大。",
+    "body_markdown": "為替市場で円が1ドル160円水準に接近している。米国の連邦準備制度（FRB）が2024年来の利上げペース加速への見方が強まったため、ドルへの逃避需要が増加。日本銀行の金利据え置きとの金利差拡大が円売りを誘っている。\n\n円安は日本の輸出企業に有利だが、輸入物価上昇と資源コスト増加をもたらす。エネルギー・食料品の価格押し上げを通じた実質賃金への悪影響が懸念される。特に、エネルギー輸入国である日本にとって、円安による購買力低下は深刻な課題となりつつある。\n\n政策当局は市場介入も視野に入れながら相場安定を模索している段階。今後、円相場の動向は日本経済の成長率と物価動向を左右する重要な変数となるだろう。",
+    "tags": [
+      "為替",
+      "マクロ経済",
+      "日銀"
+    ],
+    "section": "経済・マネー",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261113de75259",
+    "importance": 3,
+    "image_query": "forex currency trading",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:49.229Z",
+    "publishedAt": "2026-11-13T05:49:42.000Z"
+  },
+  {
+    "slug": "20261113-22",
+    "headline": "原子力規制委がIAEA対応の新機関設置へ",
+    "lead": "国際原子力協力に専門的対応、規制体系の成熟示す。",
+    "body_markdown": "日本の原子力規制委員会が、国際原子力機関（IAEA）の査察や国際的な原子力規制協力に専門的に対応する新しい公的機関を新設する方針を決めた。この動きは、日本の原子力政策の国際化と、福島事故後の規制体系の成熟を示唆している。\n\nIAEA査察への対応能力を高めることで、日本の原子力産業の国際的信頼を回復し、原子力関連輸出（技術・装置・人材）の促進が期待される。またインド太平洋地域での原子力エネルギーの推進戦略の中核として位置づけられている。\n\nエネルギーセキュリティと脱炭素の両立を図る日本戦略の重要な一歩。今後、日本の原子力技術が国際市場でのプレゼンスを回復する可能性がある。",
+    "tags": [
+      "原子力",
+      "エネルギー",
+      "国際協力"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261113de75298",
+    "importance": 3,
+    "image_query": "nuclear power energy",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:49.230Z",
+    "publishedAt": "2026-11-13T03:35:25.000Z"
+  },
+  {
+    "slug": "20261113-23",
+    "headline": "オーストラリア・ヨルダン試合、カタールで開催",
+    "lead": "セキュリティ理由から開催地を変更、地政学緊張が波及。",
+    "body_markdown": "オーストラリア代表とヨルダン代表の国際親善試合が、当初予定していた開催地からカタール（ドーハ）での中立地開催に変更された。主催者は「地域の安全保障上の懸念」を理由に挙げている。\n\n中東地域での国際スポーツイベント開催は、地政学的緊張の影響を受けやすい。この変更は、イスラエル・パレスチナ紛争の情勢が、スポーツ外交にも波及していることを示唆。スポーツイベントが地政学的リスク評価の対象になる時代を反映している。\n\n国際試合の開催地変更には、目立たない形での経済・政治的配慮が働く背景が浮かぶ。今後、スポーツと地政学の関係が、より明示的になっていくだろう。",
+    "tags": [
+      "スポーツ",
+      "国際関係",
+      "中東"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/sports/2026/11/13/australia-jordan-football-friendly-amman-doha-qatar-socceroos",
+    "importance": 2,
+    "image_query": "soccer international sports",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T09:31:49.230Z",
+    "publishedAt": "2026-11-13T07:59:31.000Z"
+  },
+  {
     "slug": "20261113-01",
     "headline": "Google検索がGemini 4 Hydrogenで大幅刷新",
     "lead": "Googleが検索エンジンにGemini 4 Hydrogenを全世界展開、複雑な質問理解と多角的な回答が可能に。",
