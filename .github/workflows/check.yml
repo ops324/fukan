@@ -7,6 +7,7 @@
 #   push トリガーを付けると自動公開のたびに無駄な CI が走り、巻き込んでしまう。
 # - check は秘密情報もネットワークも不要（src/check.js は一時ディレクトリに描画して
 #   作業ツリーを汚さず、入力 data/articles.json はコミット済み）。
+# - zsh をインストールする。認証トークン配線の検査が本番と同じシェルで読み取り関数を走らせるため。
 # - 警告は非ブロック（exit 0）。hard-fail はスキーマ/サニタイザ/constitution/レンダー破損のみ。
 
 name: check
@@ -38,6 +39,13 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      # checkAuthTokenWiring() は auto-generate.sh の read_env_token() を**実際に zsh で走らせて**
+      # 検証する（.env の書式ごとの取り落ちは、正常な .env では一切顕れない）。本番の
+      # auto-generate.sh は `#!/bin/zsh` で動くので、bash で代用すると「動かないシェル」を
+      # 検証することになる。ubuntu ランナーに zsh は無いため入れる（約1秒）。
+      - name: Install zsh (auth token wiring check runs under the production shell)
+        run: sudo apt-get install -y --no-install-recommends zsh
 
       - name: Run publish gate (npm run check)
         run: npm run check

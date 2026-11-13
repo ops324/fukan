@@ -15,11 +15,15 @@
 // 3f) judge 判定ガードの退行検査 … 壊れた _review.json を合成して、判定器・CLI の終了コード・
 //    配線（ガードと消費側が同じモジュールを通っているか）を検証する。ここが「ファイルの存在」
 //    だけを見ていたため、2026-11-04 は壊れた判定が素通りして veto 3本が取り込まれた。
+// 3g) 長期トークン認証の退行検査 … .env の CLAUDE_CODE_OAUTH_TOKEN の読み取りを実際に zsh で
+//    走らせ（書式ごとの取り落ちは正常な .env では顕れない）、.env を source していないこと・
+//    トークンをログへ出さないこと・失効トークンからセッションへ退避する経路が残っていることを見る。
+//    環境変数はキーチェーンより優先されるため、退避が消えると「古いトークンを置くと公開が止まる」。
 // 4) 客観品質チェック … 本文長/タグ数/重複話題など。これは「警告のみ」で exit には影響しない
 //    （自己改善 MVP の床。決定的・オフライン・LLM/ネットワーク不使用）。
 // 4b) ledger 網羅チェック … 直近記事が evaluations.jsonl に残っているか（警告のみ）。
 //    取り込み時の記録は try/catch で握るため、失敗しても記事は正常に見え誰も気づけない。
-// 1〜3f のいずれか失敗で非ゼロ終了。4 / 4b は警告のみで exit に影響しない（参考情報）。
+// 1〜3g のいずれか失敗で非ゼロ終了。4 / 4b は警告のみで exit に影響しない（参考情報）。
 import { mkdtemp, rm, readFile, readdir, access, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
@@ -173,6 +177,145 @@ function checkSchema(arts) {
   for (const [link, n] of links) if (n > 1) fail(`link が重複しています: ${link}（${n}件）`);
 }
 
+// --- 3g) 長期トークン認証の退行検査（トークンが「静かに効かない／静かに事故る」のを止める）---
+// 2026-10-02〜11-04: キーチェーンの OAuth セッションが失効し、復旧に対話的な /login が
+// 要るため 66 ラン・33日間公開が止まった。.env の CLAUDE_CODE_OAUTH_TOKEN で無人化したが、
+// 実測で環境変数は**キーチェーンより優先される**ことが分かっている（CLI 2.1.185）。
+// つまり古いトークンを置いたままだと、生きているセッションを上書きして落ちる。
+// 守るべきは次の4つで、どれも実データや正常系の実行では検証できない。
+//   (1) 読み取りが素朴すぎて黙って空になる（＝トークンを置いたのに効かない）
+//   (2) `.env` を source する（任意コード実行＋全ての秘密を子プロセスへ漏らす）
+//   (3) トークン値をログへ出す（scheduler.log は gitignore なので漏洩検査に掛からない）
+//   (4) 失効トークンでジョブを落とす（退避が消えると可用性の改善が可用性の事故になる）
+// 本番シェル（zsh）が使えるか。無ければ読み取り関数の挙動は検証できない。
+function hasZsh() {
+  try {
+    execFileSync('zsh', ['-c', 'exit 0'], { stdio: 'ignore' });
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function checkAuthTokenWiring() {
+  const shPath = path.join(ROOT, 'scripts', 'auto-generate.sh');
+  let sh = '';
+  try {
+    sh = await readFile(shPath, 'utf8');
+  } catch (err) {
+    fail(`長期トークン退行: scripts/auto-generate.sh を読めません: ${err.message}`);
+    return;
+  }
+
+  // (1) 読み取りの挙動。関数定義を抜き出して実際に zsh で走らせる。
+  //     書式ごとの取り落とし（引用符・export・空白・CRLF）は、正常な .env では一切顕れない。
+  const fnMatch = sh.match(/^read_env_token\(\) \{\n[\s\S]*?^\}$/m);
+  if (!fnMatch) {
+    // 抜き出せないこと自体が退行（関数が消えた／名前が変わった）。素通りさせない。
+    fail('長期トークン退行: auto-generate.sh に read_env_token() が見つかりません');
+  } else if (!hasZsh()) {
+    // zsh が無い環境（GitHub Actions の ubuntu ランナー等）。**黙って飛ばさない**——
+    // 「検査が空回りする」のはこの検査が防ごうとしている失敗そのもので、しかも CI は
+    // この検査がいちばん効くべき場所。bash で代用もしない: 本番の auto-generate.sh は
+    // `#!/bin/zsh` なので、動かないシェルで検証したことになる。CI には zsh を入れてある
+    // （.github/workflows/check.yml）。1行の明示的な失敗として出す（11件の ENOENT ではなく）。
+    fail('長期トークン退行: zsh が無いため read_env_token を検証できません'
+      + '（本番シェルは zsh。CI なら .github/workflows/check.yml の zsh インストール手順を確認）');
+  } else {
+    const dir = await mkdtemp(path.join(tmpdir(), 'fukan-authtok-'));
+    try {
+      const fnPath = path.join(dir, 'fn.zsh');
+      await writeFile(fnPath, `${fnMatch[0]}\n`, 'utf8');
+      const T = 'sk-ant-oat01-TESTVALUE';
+      const cases = [
+        ['素の値', `CLAUDE_CODE_OAUTH_TOKEN=${T}\nSLACK_WEBHOOK_URL=https://hooks.example/SECRET\n`, T],
+        ['二重引用符', `CLAUDE_CODE_OAUTH_TOKEN="${T}"\n`, T],
+        ['単一引用符', `CLAUDE_CODE_OAUTH_TOKEN='${T}'\n`, T],
+        ['前後の空白', `CLAUDE_CODE_OAUTH_TOKEN =  ${T}   \n`, T],
+        ['export 接頭辞', `export CLAUDE_CODE_OAUTH_TOKEN=${T}\n`, T],
+        ['CRLF 改行', `CLAUDE_CODE_OAUTH_TOKEN=${T}\r\n`, T],
+        ['空の値', 'CLAUDE_CODE_OAUTH_TOKEN=\n', ''],
+        ['キー無し', 'SLACK_WEBHOOK_URL=https://hooks.example/SECRET\n', ''],
+        ['コメント行', `#CLAUDE_CODE_OAUTH_TOKEN=${T}\n`, ''],
+        ['重複は最後が勝つ', `CLAUDE_CODE_OAUTH_TOKEN=old\nCLAUDE_CODE_OAUTH_TOKEN=${T}\n`, T],
+      ];
+      for (const [name, envBody, want] of cases) {
+        const caseDir = await mkdtemp(path.join(dir, 'case-'));
+        await writeFile(path.join(caseDir, '.env'), envBody, 'utf8');
+        let got = '';
+        try {
+          got = execFileSync('zsh', ['-c', `set -u; source ${JSON.stringify(fnPath)}; read_env_token`], {
+            cwd: caseDir, encoding: 'utf8', env: { ...process.env, PROJECT_DIR: caseDir },
+          }).replace(/\n+$/, '');
+        } catch (err) {
+          fail(`長期トークン退行: read_env_token が異常終了しました（${name}）: ${err.message}`);
+          continue;
+        }
+        if (got !== want) {
+          fail(`長期トークン退行: read_env_token の結果が違います（${name}）: 期待 "${want}" / 実際 "${got}"`);
+        }
+      }
+      // .env が無いときに空を返すこと（ここで何か返すと存在しない鍵で認証を壊す）。
+      const noEnv = await mkdtemp(path.join(dir, 'noenv-'));
+      try {
+        const got = execFileSync('zsh', ['-c', `set -u; source ${JSON.stringify(fnPath)}; read_env_token`], {
+          cwd: noEnv, encoding: 'utf8', env: { ...process.env, PROJECT_DIR: noEnv },
+        }).replace(/\n+$/, '');
+        if (got !== '') fail(`長期トークン退行: .env 不在なのに値を返しました: "${got}"`);
+      } catch (err) {
+        fail(`長期トークン退行: .env 不在で read_env_token が異常終了しました: ${err.message}`);
+      }
+    } finally {
+      await rm(dir, { recursive: true, force: true });
+    }
+  }
+
+  // (2) `.env` を source していないこと。source は任意コード実行であり、
+  //     かつ SLACK_WEBHOOK_URL 等の秘密を writer/judge の子プロセスすべてへ渡してしまう。
+  if (/^\s*(source|\.)\s+[^\n]*\.env\b/m.test(sh)) {
+    fail('長期トークン退行: auto-generate.sh が .env を source しています（任意コード実行＋秘密の漏洩）');
+  }
+
+  // (3) トークン値をログへ出していないこと。scheduler.log は gitignore なので
+  //     checkSecrets の漏洩検査には掛からない＝ここで止めるしかない。
+  const printsToken = sh.split('\n').some((l) => (
+    /^\s*(echo|print|printf)\b/.test(l) && /\$\{?CLAUDE_CODE_OAUTH_TOKEN/.test(l)
+  ));
+  if (printsToken) {
+    fail('長期トークン退行: auto-generate.sh がトークン値を出力しています（ログに秘密が残ります）');
+  }
+
+  // (4) 失効トークンからの退避が残っていること。これが消えると、可用性のための仕組みが
+  //     「古いトークンを置いた瞬間に公開が止まる」という逆向きの事故に変わる。
+  if (!/unset CLAUDE_CODE_OAUTH_TOKEN/.test(sh)) {
+    fail('長期トークン退行: 失効トークンからセッションへ退避する経路（unset）がありません');
+  }
+  if (!/AUTH_MODE="session-fallback"/.test(sh)) {
+    fail('長期トークン退行: session-fallback の分岐がありません（退避したことが観測できません）');
+  }
+  if (!/auth_token_invalid/.test(sh)) {
+    fail('長期トークン退行: トークン失効を incidents へ記録していません（後から気づけません）');
+  }
+
+  // (5) 秘密を「公開値」に足していないこと。足すと .env 漏洩検査がこの鍵を素通りする。
+  if (PUBLIC_ENV_KEYS.has('CLAUDE_CODE_OAUTH_TOKEN')) {
+    fail('長期トークン退行: CLAUDE_CODE_OAUTH_TOKEN が PUBLIC_ENV_KEYS に入っています（秘密です）');
+  }
+
+  // (6) .env.example に項目があること（無いと復旧時に存在に気づけない）。
+  try {
+    const ex = await readFile(path.join(ROOT, '.env.example'), 'utf8');
+    if (!/CLAUDE_CODE_OAUTH_TOKEN/.test(ex)) {
+      fail('長期トークン退行: .env.example に CLAUDE_CODE_OAUTH_TOKEN の項目がありません');
+    }
+  } catch { /* .env.example が無い環境は検査対象外 */ }
+}
+
+// 設計上ページに埋め込まれる「公開値」。秘密を増やしたときにここへ足してしまうと
+// 漏洩検査がその鍵を素通りさせる。CLAUDE_CODE_OAUTH_TOKEN のような秘密は足さないこと
+// （checkAuthTokenWiring が hard-fail で見張る）。
+const PUBLIC_ENV_KEYS = new Set(['CF_BEACON_TOKEN', 'SITE_URL', 'IMAGE_PROVIDER']);
+
 // --- 3) 秘密情報チェック ---
 async function checkSecrets(arts) {
   // .env が git 管理下に入っていないか
@@ -185,7 +328,6 @@ async function checkSecrets(arts) {
   // ただし「設計上ページに埋め込まれる公開値」は除外する（誤検知防止）:
   //  - CF_BEACON_TOKEN … Cloudflare Web Analytics の公開ビーコン。全ページHTMLに出るのが正しい。
   //  - SITE_URL / IMAGE_PROVIDER … 公開URL・プロバイダ名（秘密ではない）。
-  const PUBLIC_ENV_KEYS = new Set(['CF_BEACON_TOKEN', 'SITE_URL', 'IMAGE_PROVIDER']);
   const envPath = path.join(ROOT, '.env');
   if (!existsSync(envPath)) return;
   let secrets = []; // { key, value }
@@ -588,6 +730,7 @@ checkDraftLint();
 checkTagSlugs(arts);
 await checkTagPathWiring();
 await checkReviewVerdictGuard();
+await checkAuthTokenWiring();
 await checkSecrets(arts);
 checkQuality(arts);
 await checkLedgerCoverage(arts);
@@ -607,4 +750,4 @@ if (fails.length) {
   for (const f of fails) console.error(`  - ${f}`);
   process.exit(1);
 }
-console.log(`✓ check 通過: ${arts.length} 記事・レンダー完走・スキーマOK・サニタイザOK・下書きリントOK・judge判定ガードOK・鍵混入なし・constitution 維持`);
+console.log(`✓ check 通過: ${arts.length} 記事・レンダー完走・スキーマOK・サニタイザOK・下書きリントOK・judge判定ガードOK・認証トークン配線OK・鍵混入なし・constitution 維持`);
