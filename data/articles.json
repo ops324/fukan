@@ -1,5 +1,366 @@
 [
   {
+    "slug": "20261114-01",
+    "headline": "Microsoft 365が24時間グローバル停止　病院・学校・警察に広範な影響",
+    "lead": "マイクロソフト365が11月12-13日に24時間のグローバル停止。Outlook・Teams等が利用不可に。NHS、学校、警察など社会インフラが混乱。",
+    "body_markdown": "マイクロソフトは11月13日、グローバルに展開するクラウドサービス「Microsoft 365」の大規模障害について、「悪いアップデート」が原因だったと発表した。同月12日夜から13日朝まで約24時間続いた停止により、世界74カ国から14万件以上の障害報告が寄せられた。\n\n**影響の規模は巨大**。イギリスのNHS（国民保健サービス）では一部の手術がキャンセルされ、電子処方箋に遅れが生じた。オーストラリア、日本、フィリピンなどの政府機関、インドの航空会社（IndiGo、Akasa Air）、学校、警察も打撃を受けた。30年近く前のやり方に戻らざるを得ず、紙のカルテや手書き記録に依存する機関も出た。\n\nマイクロソフト曰く、原因はサイバー攻撃ではなく、11月のパッチ・チューズデー（1094の脆弱性修正）に続く設定ミス。その後、サーバーに適用されたその設定によってExchange（メール基盤）が特に深刻な影響を受けた。\n\nこの事象は、世界の重要インフラが**少数の大手テック企業に過度に依存している**ことを改めて浮き彫りにした。完全復旧には数時間を要し、その間、社会全体が停止状態を経験した。",
+    "tags": [
+      "Microsoft",
+      "障害",
+      "クラウド",
+      "インフラ"
+    ],
+    "section": "テクノロジー",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o",
+    "importance": 5,
+    "image_query": "server data center outage",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1790660974699-b87a044388b8?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxzZXJ2ZXIlMjBkYXRhJTIwY2VudGVyJTIwb3V0YWdlfGVufDF8MHx8fDE3OTQ2MDUzMDV8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Cong Long Vu",
+      "profileUrl": "https://unsplash.com/@vclong2003?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "System information displayed in a terminal window with red text on a black background"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-13T21:28:25.662Z",
+    "publishedAt": "2026-11-13T20:49:52.000Z"
+  },
+  {
+    "slug": "20261114-02",
+    "headline": "Nvidia CEO辞任で地政学的危機　ファン司に続く個人的スキャンダル",
+    "lead": "Nvidia CEO ジェンソン・ファンが中国のスパイ疑惑のある人物との不倫で辞任。会社は大混乱、国家安全保障の議論も過熱。",
+    "body_markdown": "Nvidiaのジェンソン・ファンCEOが11月12日に辞任した。直前の週末、ファンは自身の不倫を認め、妻とNvidiaの従業員に謝罪した。Nvidiaの取締役会は中国からのスパイ疑惑を含むファンの複数の不倫関係により、彼の排除を決定した。FBI、米国議会、そしてNvidia自身が調査を開始した。\n\n**スキャンダルの規模**。ファンは少なくとも3人との不倫関係があり、そのうち1人は中国関連のスパイ疑惑がある。この事件は単なるセックススキャンダルではなく、**米国の最高機密であるAIチップ技術の流出リスク**を含んでいる。\n\n**市場への影響**は即座だった。Nvidiaの株価は8ヶ月ぶりの安値に急落。同社は時価総額で世界トップクラスのテック企業で、このスキャンダルは不安定性を示唆している。\n\n**指導部の空白**。Colette Kressが暫定CEOに指名されたが、永続的な後任人事は未定。ファンは長年Nvidiaを率いてきた強力なリーダーで、後継者不在のまま重要な決定が遅延する可能性もある。米国と中国の貿易・技術戦争の最前線に立つ企業だけに、この種の経営危機は世界経済にも波及しかねない。",
+    "tags": [
+      "Nvidia",
+      "経営危機",
+      "スキャンダル",
+      "CEO"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+    "importance": 5,
+    "image_query": "corporate leadership crisis",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1585829364536-ce348dd72ebc?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8Y29ycG9yYXRlJTIwbGVhZGVyc2hpcCUyMGNyaXNpc3xlbnwxfDB8fHwxNzk0NjA1MzA2fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Markus Winkler",
+      "profileUrl": "https://unsplash.com/@markuswinkler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "white and black braille machine",
+      "description": "Crisis "
+    },
+    "mode": "full",
+    "createdAt": "2026-11-13T21:28:26.474Z",
+    "publishedAt": "2026-11-13T15:58:00.000Z"
+  },
+  {
+    "slug": "20261114-03",
+    "headline": "OpenAI、児童安全研究に200万ドル投資　パリ・チャーターに署名",
+    "lead": "OpenAIが児童向けAIの安全性研究に200万ドルを投資。パリ平和フォーラムで国際チャーターに署名、AI企業の社会責任姿勢を示す。",
+    "body_markdown": "OpenAIは11月12日、「児童のための安全なAI契約（Charter of Engagement for Safer AI for Children）」に署名し、子どもたちの安全・福祉を支援する科学研究ネットワーク「Coalition for Children's Rights and Protection in the Age of AI」に200万ドルを拠出すると発表した。\n\n**チャーターの内容**。署名企業（Anthropic、Black Forest Labs、Microsoftも参加）は児童向けAIの**安全性、年齢に適切な設計、独立性**に関する共通原則に合意。法的拘束力はないが、AI業界の自主規制の枠組みとして機能する。\n\n**投資の用途**。OpenAIの200万ドルは、研究者が児童に対するAIのリスクと機会を**測定・評価するツール開発**に充てられる。より良い製品設計と政策形成を支援するのが目的だ。重要なのは「研究チームは結論の公表を含め、発見に対する支配権を保持する」という約束で、企業が不利な結果を隠すのを防ぐ仕掛けがある。\n\n**背景**。児童のAI接触が急増する中、長期的な影響はまだ未解明だ。OpenAIの投資は、AI企業が社会的責任を果たす姿勢を示す一例として受け取られている。ただし、200万ドルが実際の規制や産業慣行の改善にどう転化するかは、今後の測定枠組みの実効性にかかっている。",
+    "tags": [
+      "児童安全",
+      "AI",
+      "OpenAI",
+      "規制"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/children-first-declaration",
+    "importance": 4,
+    "image_query": "children education technology safety",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4Sf0H3Wms7pT8ElWHCBqtC/dc443a9424134ea7518258ed6bdd9ffa/supporting-research-on-ai-and-childrens-safety-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/children-first-declaration",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-13T21:28:27.432Z",
+    "publishedAt": "2026-11-12T00:00:00.000Z"
+  },
+  {
+    "slug": "20261114-04",
+    "headline": "LangChain、30億ドル評価で3億ドル調達　AIエージェント管理ツール",
+    "lead": "AI企業LangChainが30億ドルの評価額でシリーズC 3億ドルを調達。AIエージェント管理プラットフォームの市場価値が認識される。",
+    "body_markdown": "AI企業LangChainは11月13日、シリーズCで3億ドルの資金調達を発表した。企業評価は30億ドルに達し、約1年前の12.5億ドル（1億2500万ドル調達時）から**2.4倍に跳ね上がった**。\n\n**投資背景**。CapitalGがリードを務め、新規投資家ではGICとDFJ Growthが参加。既存投資家（IVP、Sapphire Ventures）も増資した。また、Salesforce Ventures、Insight Venture Partners、MongoDB Venturesなど大手もこぞって参加。Sequoia、Amplify、Benchmarkも出資を増やした。\n\n**LangSmith（提供サービス）**。LangChainのコア製品は、フレームワークに依存しないAIエージェント管理・改善・統治プラットフォーム「LangSmith」。現在、**7000以上の企業**が使用。モデルの選択、ツール、データを一元化し、エージェント開発の複雑性を削減する。\n\n**市場動向**。今年はCopilotやDotsなどのAIエージェント製品が次々と登場し、その運用・保守を担当するプラットフォームの需要が急増している。LangChainは**エージェントの「中間層」**として位置付けられ、AIモデルと実装の間で標準化を進める企業として、VC投資家に高く評価されている。\n\n調達資金は、エージェント管理ツールのさらなる高度化と企業向けカスタマイズに充てられる見通し。",
+    "tags": [
+      "AI",
+      "スタートアップ",
+      "ファンディング",
+      "エージェント"
+    ],
+    "section": "ビジネス",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+    "importance": 4,
+    "image_query": "startup technology innovation",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1589829068065-20154e8f9642?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzdGFydHVwJTIwdGVjaG5vbG9neSUyMGlubm92YXRpb258ZW58MXwwfHx8MTc5NDYwNTMwN3ww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Matt Ridley",
+      "profileUrl": "https://unsplash.com/@mattwridley?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "text",
+      "description": "Building on his national bestseller The Rational Optimist, Matt Ridley chronicles the history of innovation, and how we need to change our thinking on the subject."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-13T21:28:28.104Z",
+    "publishedAt": "2026-11-13T19:37:57.000Z"
+  },
+  {
+    "slug": "20261114-05",
+    "headline": "Claude Duet登場　Anthropic初のエージェント、プロ向けに予備公開",
+    "lead": "Anthropicが仕事用AIエージェント「Claude Duet」のプレビュー版を発表。主動的にユーザーに働きかけ、給与・決済処理まで対応。",
+    "body_markdown": "Anthropicは10月に開発中のAIエージェント「Claude Duet」を発表。プロフェッショナル向けの自動化ツールとして、ウェブ・iOS・Androidで提供される。11月13日時点で研究プレビューの段階であり、待ちリストを通じて米国ユーザー限定でアクセス可能。\n\n**特徴**。Duetは**主動的に動く**エージェントで、ユーザーからの指示を待つだけでなく「あなた、このタスク終わってますか？」と自ら確認する。バックグラウンドで継続的に作業を進め、ユーザーに定期的にチェックインする方式。Meta の「Muse」やOpenAIの「Dots」と同様のコンセプトだが、**仕事効率化に特化**している。\n\n**機能**。Claude Opus 5.5を搭載。給与・決済機能、6000以上のAPI連携を備え、ユーザー承認の下でPayroll・Payments統合も扱う。重要なセキュリティ対策として、**パスワードやログイン情報をDuetに見せない**設計。専用の分類器と安全プロンプトが個々のメッセージをチェックし、機密情報流出を防ぐ。\n\n**市場環境**。Duetはエージェント市場の急速な開発競争に位置づけられる。OpenAI・Meta・Anthropicが相次ぎエージェント製品を投入する中、Duetは**企業内ワークフロー**に焦点を当てた差別化を狙っている。完全なGA（一般提供）は未発表だが、企業のバックオフィス自動化の新標準になる可能性がある。",
+    "tags": [
+      "AI",
+      "エージェント",
+      "Anthropic",
+      "自動化"
+    ],
+    "section": "AI",
+    "source": "The Verge AI",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+    "importance": 4,
+    "image_query": "ai agent assistant work",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1758626042818-b05e9c91b84a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw5fHxhaSUyMGFnZW50JTIwYXNzaXN0YW50JTIwd29ya3xlbnwxfDB8fHwxNzk0NjA1MzA4fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Jo Lin",
+      "profileUrl": "https://unsplash.com/@jolin974658?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Person using laptop with ai integration logo displayed",
+      "description": "User working on a computer with AI technology software"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-13T21:28:28.835Z",
+    "publishedAt": "2026-11-13T14:00:00.000Z"
+  },
+  {
+    "slug": "20261114-06",
+    "headline": "Google Gemini、銀行口座連携でお金管理　家計分析AIが日本上陸へ",
+    "lead": "GoogleがGemini AIに銀行・クレジットカード連携機能を追加。支出分析・貯蓄提案がAIで自動化される。米国先行、日本展開も期待。",
+    "body_markdown": "Googleは11月13日より、AIチャットボット「Gemini」に銀行・クレジットカード連携機能を米国で全展開した。ユーザーがPlaidを経由して金融口座をリンクすれば、Geminiが支出パターンを分析し、貯蓄提案や家計最適化をAIで提供する。\n\n**利用方法**。Geminiアプリで「@Google Wallet」とタグを付けて質問すれば、AIが連携口座のデータにアクセス可能。「先月末の支出をグラフにしてほしい」「100万円貯めるには？」といった問いに、リアルタイムで答える。さらに「今年、購読料が上がったサービスはどれ？」という**複雑な照合**もGeminiがこなす。\n\n**セキュリティ設計**。リード・オンリー（読み込み専用）で、Geminiはデータを見るだけで送金や投資操作はできない。ユーザーはいつでも連携を解除可能。Plaidを通じた接続により、Google自身がカード番号などの機微データに直接アクセスしない仕組みになっている。\n\n**今後の展開**。この機能は米国ユーザーのみの提供だが、Googleの海外展開ロードマップでは日本をはじめアジア太平洋地域も対象。金融データの利活用はAIの**パーソナライゼーション**の最前線であり、他社も追従する見通し。ただし、個人情報保護規制（日本の個保法など）との調整が必要になる。",
+    "tags": [
+      "Google",
+      "AI",
+      "金融",
+      "プライバシー"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts/",
+    "importance": 4,
+    "image_query": "banking finance technology app",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1726056652641-de93ec003289?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8YmFua2luZyUyMGZpbmFuY2UlMjB0ZWNobm9sb2d5JTIwYXBwfGVufDF8MHx8fDE3OTQ2MDUzMDl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "SumUp",
+      "profileUrl": "https://unsplash.com/@sumup?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A person holding a cell phone in front of a laptop",
+      "description": "The SumUp mobile app shows account balance, Pix payment options, and access to SumUp Bank, offering entrepreneurs and small businesses a seamless way to manage finances and accept payments."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-13T21:28:29.588Z",
+    "publishedAt": "2026-11-13T19:15:32.000Z"
+  },
+  {
+    "slug": "20261114-07",
+    "headline": "EUがAI首脳会談　チップ製造で米中に大きく後れ、戦略転換を議論",
+    "lead": "EUが初のAI首脳会談をダブリンで開催。半導体製造の戦略見直しとチップ不足への対応が主要議題に。",
+    "body_markdown": "欧州連合は11月13日、ダブリンで初の「AI首脳会談」を開催した。欧州各国指導者が集まり、AI開発・インフラ、チップ製造、規制枠組みについて協議。背景には、データセンター処理能力で米国（53.73ギガワット）と中国（31.9ギガワット）に大きく劣後し、EU全体で11.92ギガワットに過ぎないという**能力格差**がある。\n\n**チップスアクト（Chips Act）の課題**。EUは2030年までに半導体市場シェアを20%に倍増する目標を掲げてきたが、最新の投影では達成困難。現在の軌跡では2030年に11.7%程度に留まる見通し。7つのAIギガファクトリー計画も資金確保や立地選定で停滞している。\n\n**新たな政策方向**。Tech Sovereignty Package（技術主権パッケージ）内の「Chips Act 2.0」が提案されており、欧州独自のAIチップ設計・製造能力強化へのシフトが議論されている。ただし、時間と巨額投資が必要で、実現には数年を要する。\n\n**地政学的背景**。ウクライナ情勢、米中技術覇権競争の激化、ロシア・ウクライナ和平交渉の可能性など、複雑な国際情勢の中で、EUは**独立したAI基盤の構築**に目覚め始めている。ただし、加盟国の利害調整が課題になる可能性も高い。",
+    "tags": [
+      "EU",
+      "AI",
+      "チップ",
+      "政策"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/11/13/eu-ai-summit-semiconductor-chips-russia-ukraine-peace-talks-nvidia/",
+    "importance": 4,
+    "image_query": "computer chip semiconductor manufacturing",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1630163219451-13a7cff121d0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOHx8Y29tcHV0ZXIlMjBjaGlwJTIwc2VtaWNvbmR1Y3RvciUyMG1hbnVmYWN0dXJpbmd8ZW58MXwwfHx8MTc5NDYwNTMwOXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Utsav Srestha",
+      "profileUrl": "https://unsplash.com/@utsavsrestha?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Close-up view of a complex electronic circuit board"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-13T21:28:30.149Z",
+    "publishedAt": "2026-11-13T20:27:42.000Z"
+  },
+  {
+    "slug": "20261114-08",
+    "headline": "ファン辞任でNvidia揺らぐ　米国がチップ規制を強化する可能性高まる",
+    "lead": "Nvidia CEO辞任により、米国内で対中AI規制派が勢いを増す。ファンが業界代表として規制緩和を推し進めていただけに、地政学的転換点に。",
+    "body_markdown": "Nvidia CEO ジェンソン・ファンの辞任は、米国の対中AI規制政策にも大きな影響を与えつつある。ファンは長年、企業利益とのバランスから**規制緩和派**として振舞ってきた。彼が去ることで、ワシントンの**規制強化派が勢いを得**ている。\n\n**地政学的な読み替え**。専門家によれば、ファン辞任は「規制緩和の主張を守りづらくなった」ことを意味する。つまり、AI産業の最有力経営者が退場することで、中国への輸出規制をさらに厳しくしたい議員・官僚の声が相対的に大きくなる。\n\n**中国の警告**。中国政府はすかさず、新たな米国輸出規制に対する「報復的対抗」を示唆している。米中間で達成された「脆い停戦」（トランプとシージンピンの会談合意など）が、ファン問題で揺らぐ可能性も指摘されている。\n\n**将来シナリオ**。米国がNvidia・AMDなどのチップ輸出をさらに厳しく統制すれば、中国は自給化の**研究開発投資を加速**させるだろう。短期的には米国産業に有利だが、中期的には中国の技術自立を早める逆効果の懸念もある。\n\nファン個人の不倫スキャンダルから始まったが、その波及は米中技術戦争の転機まで及びつつある。",
+    "tags": [
+      "Nvidia",
+      "地政学",
+      "規制",
+      "米中関係"
+    ],
+    "section": "国際・地政学",
+    "source": "Foreign Policy",
+    "link": "https://foreignpolicy.com/2026/11/13/jensen-huang-nvidia-resignation-china-spy-scandal-trump/",
+    "importance": 4,
+    "image_query": "international trade negotiation conference",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1567141607757-04a91accbbb5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyOXx8aW50ZXJuYXRpb25hbCUyMHRyYWRlJTIwbmVnb3RpYXRpb24lMjBjb25mZXJlbmNlfGVufDF8MHx8fDE3OTQ2MDUzMTB8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "David Veksler",
+      "profileUrl": "https://unsplash.com/@davidveksler?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "group of people standing beside stage close-up photography",
+      "description": "Conference with a smoky hall"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-13T21:28:30.620Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20261114-09",
+    "headline": "ナイジェリア、エボラ感染・拡大を阻止　21日間の接触者監視を完了",
+    "lead": "ナイジェリアが10月に確認された輸入エボラ症例の追跡調査を完了。62人の接触者から新規感染なし。13年ぶりの事例を封じ込め。",
+    "body_markdown": "ナイジェリア疾病管理予防センター（NCDC）は11月13日、10月20日に確認されたエボラウイルス感染症の接触者追跡調査を完了したと発表した。62人全員が21日間の監視期間を無事に過ぎ、**二次感染ゼロ**で初期症例の封じ込めに成功した。ナイジェリアにおけるエボラ確認は2014年以来、約12年ぶり。\n\n**初期症例**。スイス人女性がウガンダ滞在後にナイジェリアに帰国し、10月20日に確認。彼女と夫はスイスに送還され、女性は回復・退院。夫も搬送後に快方に向かっている。\n\n**監視結果**。追跡62人のうち13人が監視期間中に発熱など非特異的症状を報告したが、全員がウイルス検査で**陰性**。さらに、5つの州で報告された7件のエボラ疑い症例も全て検査陰性だった。\n\n**重要な留保**。ただし、NCDCは「接触者監視の完了がアウトブレイクの終結を意味しない」と慎重に述べている。緊急対応センター（Emergency Operations Centre）はレベル3（最高警戒）のまま稼働中。新規症例の可能性は依然残されており、数週間の継続的な警戒が必要だ。\n\n**意義**。発症国ウガンダの事例との違いや、ナイジェリアの対応体制の強化を示唆している。同国は過去のエボラ対応で評価が高く、今回の成功は西アフリカの公衆衛生体制の信頼を強化する。",
+    "tags": [
+      "ナイジェリア",
+      "エボラ",
+      "公衆衛生",
+      "疾病制御"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/11/13/nigeria-ends-21-day-ebola-contact-monitoring-with-no-secondary-transmission",
+    "importance": 4,
+    "image_query": "disease prevention health care laboratory",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1586534738560-438efdf1d205?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8ZGlzZWFzZSUyMHByZXZlbnRpb24lMjBoZWFsdGglMjBjYXJlJTIwbGFib3JhdG9yeXxlbnwxfDB8fHwxNzk0NjA1MzExfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "CDC",
+      "profileUrl": "https://unsplash.com/@cdc?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "man in blue dress shirt walking on hallway",
+      "description": "After having stored a cache of newly received influenza samples, and transferring them to cold storage, this Centers for Disease Control and Prevention (CDC) scientist was shown here, walking down one of the hallways in the Influenza Division’s laboratory facility, which was lined with other specimen freezers."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-13T21:28:31.378Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20261114-10",
+    "headline": "米住宅市場が16年ぶり低迷　金利上昇で3.75百万戸へ激減",
+    "lead": "米既存住宅販売が16年ぶりの低水準に。平均金利7.4%がネックで、10月の年率販売戸数は前年比8.8%減。",
+    "body_markdown": "米国の不動産市場が深刻な冷え込みに直面している。全米不動産協会（NAR）の11月13日発表によれば、10月の既存住宅販売は年率換算で375万戸となり、**2010年以来16年ぶりの低水準**を記録。前年同月比で8.8%の急落だ。\n\n**主因は金利上昇**。30年固定ローンの平均金利は7.40%に達し、3年ぶりの高さ。9月の6.86%から一気に0.54ポイント上昇、1年前の6.25%から比べると100ベーシスポイント超の上昇。こうした金利環境で、購買意欲が著しく減退している。\n\n**買い手の行動変化**。NAR チーフエコノミスト Lawrence Yunは「2000年以降、2023年の1ヶ月を除いて最悪の購買環境」とコメント。買い手が購入計画を保留し、様子見姿勢に転じている。\n\n**価格は依然堅調**。興味深いことに、中央値の既存住宅販売価格は月単位で0.4%上昇し、10月は41万6700ドルで**記録高**を更新した。つまり、住宅供給の絶対不足と金利上昇の**二重圧力**で、売り手は強気を保つ一方、買い手は萎縮している状況だ。\n\n**経済への波及**。住宅市場は米国GDP の15～20%を占め、建設・家具・家電など連関産業が多い。販売減は2027年の経済成長率低下を示唆し、FRBの金利政策のさらなる変更を促す可能性もある。",
+    "tags": [
+      "住宅市場",
+      "金利",
+      "米国経済",
+      "不動産"
+    ],
+    "section": "経済・マネー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/business/2026/nov/12/home-sales-october-low",
+    "importance": 4,
+    "image_query": "house real estate property market",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxob3VzZSUyMHJlYWwlMjBlc3RhdGUlMjBwcm9wZXJ0eSUyMG1hcmtldHxlbnwxfDB8fHwxNzk0NjA1MzExfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tierra Mallorca",
+      "profileUrl": "https://unsplash.com/@tierramallorca?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "white and red wooden house miniature on brown table",
+      "description": "Shooting in my office"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-13T21:28:32.093Z",
+    "publishedAt": "2026-11-13T17:20:32.000Z"
+  },
+  {
+    "slug": "20261114-11",
+    "headline": "llama.cpp v1.0.0リリース　ローカルAIツールが初のメジャー版到達",
+    "lead": "ローカルAI推論フレームワーク『llama.cpp』がバージョン1.0.0に到達。3.5年のプレリリース期間を終え、API安定性を確約。",
+    "body_markdown": "AIコミュニティの重要なツール『llama.cpp』と『ggml』は11月13日、ともにバージョン1.0.0に到達した。3.5年間の0.x系列を終了し、**セマンティック・バージョニング**に移行。これにより、APIの破壊的変更には今後、メジャー版の番号付けを必須とする。\n\n**重要性**。llama.cppはノートパソコンから企業サーバーまで、あらゆるデバイスでローカルLLM推論を可能にする。Ollamaなど多くのプロダクトがllama.cppに依存しており、このバージョンは開発エコシステムの**安定化ラベル**として機能する。\n\n**v1.0.0の新機能**。FP8キャッシュ対応、新モデルサポート、35個の廃止関数削除。セキュリティでは SSRF（サーバーサイド・リクエスト・フォージェリ）対策、CORS（クロスオリジンリソース共有）の改善、DNS再バインディング対策が含まれる。\n\n**流通チャネルの多様化**。Linux・macOS・Windows・Android・iOS 向けのプレリリースビルドに加え、Docker、Debian、Homebrew、conda-forge、MacPorts、Winget、XCFrameworkなど8種類以上の配布方法をサポート。開発者にとって導入障壁が大幅に低下した。\n\n**産業への影響**。v1.0.0への進化は、ローカルAIが**成熟産業段階**に進んだことを示唆。企業が自社サーバーでLLMを運用するための「標準基盤」が確立されたことになり、プライバシーと独立性を重視する組織の導入が加速する見通し。",
+    "tags": [
+      "llama.cpp",
+      "ローカルAI",
+      "オープンソース",
+      "開発"
+    ],
+    "section": "テクノロジー",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+    "importance": 3,
+    "image_query": "programming code software development",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T21:28:32.095Z",
+    "publishedAt": "2026-11-13T14:05:22.000Z"
+  },
+  {
+    "slug": "20261114-12",
+    "headline": "映画編集者の77.5%がAI使用　Avid調査で急速な採用が判明",
+    "lead": "米映画編集技術者（ACE会員）の77.5%がすでにAIツールを仕事に導入。字幕作成や音声クリーンアップが中心用途。",
+    "body_markdown": "映像編集ソフト大手Avidが11月13日に発表した調査によれば、米国映画編集者協会（ACE）の会員120人のうち、**77.5%がすでにAIツールを使用**していることが明かになった。2026年の映画・映像産業では、AI導入が確実に浸透しつつある。\n\n**主な用途**。①字幕作成・トランスクリプション（60%）、②音声ノイズ除去（55%）、③数百時間分の映像から特定のショットを検索（39.2%）。特に後者は、膨大なフッテージから必要なカットを瞬時に見つける手法で、編集時間を大幅に短縮できる。\n\n**創作上の懸念と信頼**。興味深いことに、アンケート回答者の**ほぼ100%が「AIは創作ビジョンの補助のみであるべき」**と回答。つまり、ラフカット（初期編集）の自動組立てについては、わずか7.5%しか「有用」と見なしていない。編集者たちは**AIを補助道具として見なす**一方で、最終判断は人間に委ねるべきだと考えている。\n\n**産業への示唆**。ハリウッド編集陣がAIを既に組み込んでいることは、映像制作の**自動化の次段階**を示唆している。ただし、完全な自動編集ではなく、人間とAIの**協働作業モデル**が確立されつつある。この傾向は他のクリエイティブ職業（デザイン、音楽制作）にも波及する可能性が高い。",
+    "tags": [
+      "映画編集",
+      "AI",
+      "クリエイティブ",
+      "産業"
+    ],
+    "section": "エンタメ",
+    "source": "Variety",
+    "link": "https://variety.com/2026/biz/news/surveyed-ace-editors-using-ai-avid-data-finds-1236947004/",
+    "importance": 3,
+    "image_query": "video editing film production",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T21:28:32.097Z",
+    "publishedAt": null
+  },
+  {
+    "slug": "20261114-13",
+    "headline": "ショウジョウバエのタンパク質から抗菌ペプチド発見　耐性菌に効果的",
+    "lead": "睡眠誘導タンパク質『Nemuri』から抽出したペプチドが、耐性菌を含む広範な微生物に抗菌活性。新型抗生物質の足がかりに。",
+    "body_markdown": "筑波大学とその共同研究機関は、ショウジョウバエ（Drosophila melanogaster）の睡眠関連タンパク質『Nemuri』から複数の短い**抗菌ペプチド**を同定した。Nature Communications に発表されたこの研究は、耐性菌対策の新たな道を示唆する。\n\n**Nemuri ペプチドの特性**。抽出されたペプチドは、クリニカルに重要な病原菌（大腸菌 E. coli、黄色ブドウ球菌 S. aureus を含む）の成長を強力に**抑制**。特にメチシリン耐性黄色ブドウ球菌（MRSA）のような既存抗生物質に耐性を持つ菌株に対しても有効だった。\n\n**作用メカニズム**。ペプチドは細菌内のリボソーム（タンパク質合成器官）の物理的構造を乱し、**タンパク質合成を阻害**。これにより菌の増殖が停止する。従来の抗生物質とは異なるメカニズムであり、既存耐性菌が対抗進化する余地が少ないと考えられる。\n\n**毒性と安全性**。ペプチドは昆虫・哺乳動物の細胞に対して低毒性を示した。つまり、人間の細胞へのダメージを最小化しながら細菌のみを攻撃する選別性がある。\n\n**医学への展開**。耐性菌は世界保健機関（WHO）が「最大級の公衆衛生脅威」と指定する課題だ。Nemuri ペプチドは、ハエの生物学から得られた知見が、ヒト医療の革新につながる好例として注目されている。",
+    "tags": [
+      "抗生物質",
+      "バイオテクノロジー",
+      "医学",
+      "科学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-fruit-fly-protein-yields-peptides.html",
+    "importance": 3,
+    "image_query": "laboratory microscopy research science",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T21:28:32.108Z",
+    "publishedAt": "2026-11-13T19:40:04.000Z"
+  },
+  {
+    "slug": "20261114-14",
+    "headline": "クロムがルテニウムの暴走を抑制　水電解で革新的触媒設計",
+    "lead": "クロムとルテニウムの相互作用で、緑色水素生産の効率を向上。高価な貴金属の使用量を削減可能な新触媒。",
+    "body_markdown": "スペイン・ICFO研究所の科学者らが、水電解用の革新的な触媒を開発した。クロムとルテニウムの原子を近接させることで、ルテニウムの**過剰酸化を防ぎ、触媒活性を維持**する設計。Nature Materials 誌に掲載されたこの成果は、グリーン水素製造のコスト削減を狙う。\n\n**ルテニウムの課題**。従来、水電解触媒としてルテニウムは使用されるが、単独では動作中に**酸化が進行し、触媒特性が低下**する。つまり、時間とともに効率が落ちていく問題があった。\n\n**クロムの役割**。今回の設計では、クロムをルテニウムの隣に配置。電子顕微鏡と放射光分光で観察すると、クロムがルテニウムの酸化を**バッファー**し、酸化度を適切な範囲に保つことが判明。「楽天的な夢見る人」（ルテニウム）と「現実的でしっかり者」（クロム）の相性が水電解触媒に応用されたわけだ。\n\n**グリーン水素への応用**。水を電気分解して水素を取り出すプロセスの効率向上は、**再生可能エネルギー時代の鍵**となる。この触媒設計により、貴金属使用量を減らしつつ、長時間安定動作が実現できれば、大規模水素製造施設の経済性が飛躍的に向上する。\n\n**産業化への道**。複数の機関が類似の「ルテニウム+遷移金属」設計で効率改善を報告しており、触媒技術の競争段階に入っている。数年内に産業規模での実装が見込まれる。",
+    "tags": [
+      "触媒",
+      "水素",
+      "グリーンエネルギー",
+      "化学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-couple-chromium-ruthenium-grounded-electrolysis.html",
+    "importance": 3,
+    "image_query": "chemistry laboratory research equipment",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-13T21:28:32.109Z",
+    "publishedAt": null
+  },
+  {
     "slug": "20261113-07",
     "headline": "Gondolaが収益2倍に、Codexで開発効率を大幅向上",
     "lead": "クリエイター向けプラットフォーム Gondolaは、OpenAI Codexで年間収益を2倍に伸ばした。",
