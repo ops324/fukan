@@ -326,3 +326,4 @@
 {"ts":"2026-11-13T21:08:01Z","type":"draft_lint","flagged":6,"drafts":20}
 {"ts":"2026-11-13T21:19:48Z","type":"judge_absent","cause":"verdict_partial","stage":"guard","exit":0}
 {"ts":"2026-11-13T21:28:24.688Z","type":"judge_absent","cause":"verdict_partial","stage":"ingest","reason":"判定が付かなかった下書き 1 件","usable":20,"dropped":0,"missing":1}
+{"ts":"2026-11-14T09:00:16.485Z","type":"candidates","total":365,"pool":140,"skippedWeak":8,"skippedIrrelevant":5,"enriched":3}

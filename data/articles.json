@@ -1,5 +1,308 @@
 [
   {
+    "slug": "20261114-15",
+    "headline": "NVIDIAジェンスン・フアンCEO辞任、中国スパイ疑惑で国家安全保障問題化",
+    "lead": "複数の婚外関係とスパイ疑惑により、NVIDIA CEO ジェンスン・フアンが11月12日に辞任。米国の国家安全保障に関わる重大問題に。",
+    "body_markdown": "NVIDIA の CEO ジェンスン・フアンが11月12日に辞任した。複数の婚外関係が報道された後の判断で、本人は従業員への手紙で「I was unfaithful to my wife」と認めて謝罪した。\n\n米国当局によると、フアンが関係を持っていたメガスピード幹部アリス・フアンが中国の国家安全保障省の工作員だと考えている。メガスピード社は過去2年間にNVIDIA チップ48億ドル分を購入。同社の家族ネットワークが中国でシャンハイセンチュリーリートン社を設立し、75億ドル相当のチップ取引を仲介した疑いが浮上している。\n\n後任は CFO のコレット・クレスが暫定CEO就任。NVIDIA 株価は過去5日間で11%下落し、民主党議員が調査を開始。米国議会での証言も予定されており、国家安全保障を巡る米国政治の焦点となっている。",
+    "tags": [
+      "NVIDIA",
+      "AI企業",
+      "スパイ",
+      "国家安全保障",
+      "中国"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "importance": 5,
+    "image_query": "data center AI chips technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1716436329478-e4261139e1ca?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8ZGF0YSUyMGNlbnRlciUyMEFJJTIwY2hpcHMlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTQ2NDc4Mzd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "BoliviaInteligente",
+      "profileUrl": "https://unsplash.com/@boliviainteligente?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a computer processor with many components",
+      "description": "chip, chipset, AI, artificial intelligence, microchip, technology, innovation, electronics, computer hardware, circuit board, integrated circuit, AI chip, machine learning, neural network, robotics, automation, computing, futuristic, tech, gadget, device, component, semiconductor, electronics component, digital, futuristic tech, AI technology, intelligent system, motherboard, computer, intel, AMD, Ryzen, Core, Apple M1, Apple M2, CPU, processor, computing platform, hardware component, tech innovation, IA, inteligencia artificial, microchip, tecnología, innovación, electrónica"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-14T09:17:15.131Z",
+    "publishedAt": "2026-11-13T15:58:00.000Z"
+  },
+  {
+    "slug": "20261114-16",
+    "headline": "米FAA全米航空網を4時間停止、8000便超が欠航・老朽システムが過負荷",
+    "lead": "FAA が11月13日午後、古い通信システムの過負荷で全米航空網を一時停止。数百万の乗客が立往生。",
+    "body_markdown": "米国連邦航空局（FAA）は11月13日午後、全米の航空網の地上停止措置を実施した。古い TDM テレコム技術を使用したシステムがデータ過負荷に見舞われ、午後3時36分からルーターが矛盾した情報を送信し始めた。\n\n停止措置は約4時間半後の午後8時15分に解除されたが、欠航便は8000便以上に及び、数百万の乗客が空港で立往生。運輸長官 Sean Duffy は、米国の「信じられないほど老朽化した航空管制システム」を指摘し、追加300億ドルの予算確保を要望。FAA は既に125億ドルを受け取っている。\n\n当局はサイバー攻撃の可能性を否定。21世紀では3回目、9.11 以降では2番目に長い地上停止となった。",
+    "tags": [
+      "FAA",
+      "航空",
+      "インフラ",
+      "障害",
+      "米国"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2316792/faa-flights-resume-ground-stop-old-equipment/",
+    "importance": 5,
+    "image_query": "airport planes runway",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1739841463753-0768ddb1d2cb?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHxhaXJwb3J0JTIwcGxhbmVzJTIwcnVud2F5fGVufDF8MHx8fDE3OTQ2NDc4Mzd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "David Syphers",
+      "profileUrl": "https://unsplash.com/@dsyphers?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "An airport runway with a plane on the runway",
+      "description": "QantasLink Q400 landing at Sydney Airport"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-14T09:17:15.848Z",
+    "publishedAt": "2026-11-14T06:35:40.000Z"
+  },
+  {
+    "slug": "20261114-17",
+    "headline": "OpenAI が AIエージェント向けスマートウォレット発表、セキュア決済に生体認証搭載",
+    "lead": "OpenAI が ChatGPT Wallet を発表。AI 代理人が安全に買い物・決済を行う新機能。Amex/Mastercard/Visa と提携。",
+    "body_markdown": "OpenAI は11月13日、ChatGPT Wallet を発表した。同社の AI エージェント「dots」がユーザーの代わりに買い物・決済を行う機能で、セキュリティを優先設計している。\n\nユーザーが実際のカード情報を dots に渡さず、代わりにペイメントトークンを使用。全ての購入前に生体認証（Face ID または指紋）で確認が必要。既存のクレジットカード保護と紛争解決制度も利用可能。\n\nUS 発行の Visa、Mastercard、American Express カードに対応。当初は ChatGPT Pro 加入者（米国在住、18歳以上）の限定グループへ段階的ロールアウト。将来は支出制限や事前承認設定も予定されている。Amazon など大手小売業者はAI エージェントをブロックする傾向も。",
+    "tags": [
+      "OpenAI",
+      "AI エージェント",
+      "決済",
+      "セキュリティ",
+      "ChatGPT"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+    "importance": 4,
+    "image_query": "payment digital wallet technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1705948482595-606e2848c65b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8cGF5bWVudCUyMGRpZ2l0YWwlMjB3YWxsZXQlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTQ2NDc4Mzh8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Vagaro",
+      "profileUrl": "https://unsplash.com/@vagaro?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a person holding a cell phone in their hand",
+      "description": "A customer is making a transaction using Apple Pay with the Vagaro contactless card payment system. The sleek and modern payment process introduces a touch of convenience, enhancing the overall checkout experience."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-14T09:17:16.561Z",
+    "publishedAt": "2026-11-13T16:00:12.000Z"
+  },
+  {
+    "slug": "20261114-18",
+    "headline": "SpaceX Starship 史上最大テスト実施、booster 回収失敗も upper stage は軌道到達",
+    "lead": "SpaceX が Starship Flight 15 を実施。booster と upper stage 同時回収に初チャレンジも失敗。Upper stage は軌道投入成功。",
+    "body_markdown": "SpaceX は11月13日、Starship の史上最大のテスト飛行 Flight 15 を実施。South Texas Starbase から午後4時47分（現地時間）に発射。初めて booster と upper stage の同時回収を試みたが、booster は Gulf of Mexico に落下して爆発。計画を変更した。\n\nUpper stage は軌道投入に成功。14周回を予定し、土曜日に Starbase への着陸を目指す。この達成は Starlink 衛星打ち上げの能力向上を意味する。Starship 1機で約60基の Starlink v3 衛星を搭載でき、Falcon 9 の約20倍の能力。\n\nBooster の同時回収失敗は一時的な遅延で、SpaceX の競争優位性に大きな影響はないと分析家は指摘。Starlink はすでに SpaceX の主要利益源。",
+    "tags": [
+      "SpaceX",
+      "Starship",
+      "宇宙開発",
+      "ロケット",
+      "衛星"
+    ],
+    "section": "サイエンス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html",
+    "importance": 4,
+    "image_query": "rocket launch spacecraft",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1654280983312-110b5b422397?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8cm9ja2V0JTIwbGF1bmNoJTIwc3BhY2VjcmFmdHxlbnwxfDB8fHwxNzk0NjQ3ODM5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Alessandro Ferrari",
+      "profileUrl": "https://unsplash.com/@f3rrari09?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "an artist's rendering of a space station in orbit"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-14T09:17:17.170Z",
+    "publishedAt": "2026-11-14T01:18:51.000Z"
+  },
+  {
+    "slug": "20261114-19",
+    "headline": "Yale研究が加齢を遅延させる薬物・生活習慣を特定、メトホルミンとセマグルチドで効果",
+    "lead": "Yale 大学が51の臨床試験を分析。メトホルミン・セマグルチド・運動と地中海式食が生物学的加齢を遅延させる。",
+    "body_markdown": "Yale 大学の研究チームが、51の臨床試験の分析を通じて、生物学的加齢を実際に遅延させる治療法を特定した。DNA メチル化バイオマーカーを用いた血液検査で、治療前後の変化を測定。\n\n最も効果的だった処方薬はメトホルミン、セマグルチド、抗 TNF 療法。地中海式食、低脂肪食、低炭水化物食と定期的な運動も「一貫してエピジェネティック年齢を減少させた」と報告。対照的に市販の抗加齢サプリメントと一部の医療処置は有意な改善を示さなかった。\n\n分析対象は110以上のバイオマーカーを含む。ただし重要な注意として、生物学的年齢の低下が実際の寿命延長に繋がるかは未確立。この研究は加齢治療の評価方法を変える可能性を持つ。",
+    "tags": [
+      "加齢",
+      "医学研究",
+      "健康科学",
+      "薬物",
+      "生活習慣"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261112230452.htm",
+    "importance": 4,
+    "image_query": "DNA laboratory research",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1732046801426-f32529468176?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw2fHxETkElMjBsYWJvcmF0b3J5JTIwcmVzZWFyY2h8ZW58MXwwfHx8MTc5NDY0NzgzOXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "MJH SHIKDER",
+      "profileUrl": "https://unsplash.com/@mjh_shikder?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A DNA double helix structure composed of red and white particles against a gradient",
+      "description": "3D Rendering DNA With Particles and Blurry Background."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-14T09:17:17.791Z",
+    "publishedAt": "2026-11-14T04:26:12.000Z"
+  },
+  {
+    "slug": "20261114-20",
+    "headline": "古代エジプト王族の人身献身か、5000年前の頭骨39%に致命的損傷の痕跡",
+    "lead": "46個の古代エジプト頭骨調査で39%に致命的な頭部外傷。初期王朝の従者殺害説を支持する新証拠。",
+    "body_markdown": "考古学チームがケンブリッジ大学保管の46個の古代エジプト頭骨を再調査。約5000年前（紀元前3000年ころ）のアビドス王墓周辺出土のもの。18個の頭骨に致命的となる可能性のある頭部外傷を確認。調査対象の約39%に相当。\n\n損傷の特徴は線状骨折が主体で、「急速な意識喪失、内出血、死亡をもたらす可能性がある」と指摘。鋭利な武器による損傷も観察された。この発見は100年以上前に考古学者フリンダース・ペトリーが提唱した理論を支持する。古代エジプト初期王が死亡した際、王族従者が来世で王に仕える目的で殺害されたという仮説。\n\n研究主導はパデュー大学のロセリン・キャンベル博士。発見は2026年11月に発表され、古代の人身献身の証拠として注目を集めている。",
+    "tags": [
+      "考古学",
+      "古代エジプト",
+      "王族",
+      "遺骨",
+      "歴史"
+    ],
+    "section": "サイエンス",
+    "source": "ScienceDaily",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261112025540.htm",
+    "importance": 4,
+    "image_query": "ancient Egypt skull artifact",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1718647405692-487a64dccc9f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNXx8YW5jaWVudCUyMEVneXB0JTIwc2t1bGwlMjBhcnRpZmFjdHxlbnwxfDB8fHwxNzk0NjQ3ODQwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Art Institute of Chicago",
+      "profileUrl": "https://unsplash.com/@artchicago?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Ancient egyptian hieroglyphs with a kneeling figure",
+      "description": "Artist Ancient Egyptian Title Stela of Mersumaat Place Egypt (Object made in) Date 1400 BCE–1352 BCE Medium Limestone https://www.artic.edu/artworks/34432/stela-of-mersumaat"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-14T09:17:18.359Z",
+    "publishedAt": "2026-11-14T02:59:05.000Z"
+  },
+  {
+    "slug": "20261114-21",
+    "headline": "中国 AI モデルが禁止 NVIDIA チップで訓練、米国の技術覇権戦略に穴",
+    "lead": "中国の最先端 AI モデルが米国が禁止した NVIDIA の Blackwell GPU で訓練。マレーシア経由のスマグリングルート判明。",
+    "body_markdown": "研究者 Will DePue の分析で、中国が開発した最先端 AI モデルが米国の輸出禁止対象の NVIDIA Blackwell GPU で訓練されていることが判明。対象は DeepSeek V4、Moonshot AI Kimi K3、MiniMax、Ant Group。\n\nチップの流通経路は2つ確認された。第1は「マレーシア経由」で、2024～2025年にマレーシアに輸入された NVIDIA AI アクセレータが約27万5000台。第2は「直接スマグリング」。Megaspeed と子会社 Speedmatrix が関与し、香港に H200 チップ60万台が貯蔵されている模様。\n\n米国の輸出規制は AI 優位性維持を目的に設計されたが、この突破は逆説的に中国の国内チップ産業加速を招く可能性。NVIDIA の将来的な中国需要が数十億ドル単位で失われる可能性も指摘される。",
+    "tags": [
+      "中国",
+      "NVIDIA",
+      "チップ禁止",
+      "地政学",
+      "AI競争"
+    ],
+    "section": "AI",
+    "source": "TechCrunch",
+    "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+    "importance": 5,
+    "image_query": "circuit board chip technology",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1705943145724-18c0920f5b61?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNnx8Y2lyY3VpdCUyMGJvYXJkJTIwY2hpcCUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc5NDY0Nzg0MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Ludovico Ceroseis",
+      "profileUrl": "https://unsplash.com/@ludovico_06?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a close up of a computer mother board"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-14T09:17:18.891Z",
+    "publishedAt": "2026-11-13T18:40:30.000Z"
+  },
+  {
+    "slug": "20261114-22",
+    "headline": "米中ロ3国首脳会談を11月19日に開催、初の正式会談で地政学的転機",
+    "lead": "トランプ、習近平、プーチンが11月19日に3者会談。米中ロの首脳が正式に会合するのは初。",
+    "body_markdown": "ホワイトハウスは11月19日にアメリカのトランプ大統領、中国の習近平国家主席、ロシアのプーチン大統領の3者による首脳会談を開催すると発表。米国・中国・ロシアの3国首脳による正式な会談は歴史上初めての開催となる。\n\nこの会談は国際政治において極めて稀で重要な外交イベント。具体的な議題についてはホワイトハウスから詳細は発表されていないが、ウクライナ戦争、台湾問題、経済制裁、核軍縮など複数の重要課題が取り沙汰される可能性。\n\n地政学的には米国・中国・ロシアの三極関係の転換点となる可能性を秘める。特に現在の地域紛争と大国間の張力が高まる中での会談は、国際秩序の再編を示唆する動きとして注視される。",
+    "tags": [
+      "米中ロ",
+      "首脳会談",
+      "外交",
+      "地政学",
+      "国際関係"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261114de75768",
+    "importance": 5,
+    "image_query": "world leaders international summit",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1769798643522-b0cb0d606a83?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMXx8d29ybGQlMjBsZWFkZXJzJTIwaW50ZXJuYXRpb25hbCUyMHN1bW1pdHxlbnwxfDB8fHwxNzk0NjQ3ODQxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Carlos Gil",
+      "profileUrl": "https://unsplash.com/@carlosgil83?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Three people on stage at a summit",
+      "description": "Panel discussion featuring Carlos Gil alongside industry experts at the 1 Billion Followers Summit, exploring how creators and founders can build billion-dollar personal brands through content systems, trust, and monetization."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-14T09:17:19.421Z",
+    "publishedAt": "2026-11-14T08:26:24.000Z"
+  },
+  {
+    "slug": "20261114-23",
+    "headline": "日本の消費税減税法案、中間層の負担軽減で野党が住民税減税を要求",
+    "lead": "食料品消費税減税法案について、野党・国民民主党が住民税減税の受け入れを要求。税率戻し時の負担軽減を懸念。",
+    "body_markdown": "食料品の消費税減税関連法案をめぐり、国民民主党の榛葉幹事長は、「今の政府説明では税率が戻る際に中間層の負担を軽減できるかが明確ではない」と指摘。\n\n同党は消費税減税法案の成立に向けた交渉で、党が主張する住民税の減税を受け入れるよう政府に求める姿勢を示した。減税時期と段階的な税率調整が中心課題で、特に所得に応じた支援金の対象を勤労者の5割以上とする方向で与党は検討中とされる。\n\n野党の一部が賛成に転じる可能性もあり、与党側では法案成立への期待も出ている。中間層の実質負担を軽減する仕組みが焦点となっている。",
+    "tags": [
+      "消費税",
+      "減税",
+      "日本政治",
+      "経済政策",
+      "野党"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261114de75874",
+    "importance": 3,
+    "image_query": "government policy politics",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-14T09:17:19.427Z",
+    "publishedAt": "2026-11-14T06:49:00.000Z"
+  },
+  {
+    "slug": "20261114-24",
+    "headline": "Workday HR システム障害で数百万の従業員が給与・勤務情報にアクセス不可",
+    "lead": "Workday が11月13日にシステム障害。全世界1万1500組織の従業員が給与・勤務管理機能を利用できず。",
+    "body_markdown": "HR 管理プラットフォーム Workday が11月13日午後5時19分（東部時間）にシステム障害を起こした。テスト中のシステムエラーにより、一部情報に矛盾が生じ、ユーザーがアカウントアクセスや業務完了時にエラーが発生。\n\n影響を受けた従業員は給与情報へのアクセス、勤務時間の入力、有給休暇申請、福利厚生申請ができない状態に。世界の約1万1500組織が Workday を利用しており、数百万人の従業員が影響。利用企業には Target、Walmart、Netflix、Nasdaq、Charles Schwab、米国エネルギー省、NASA ジェット推進研究所が含まれる。\n\nWorkday は謝罪し、「問題解決の最適な方法を探っている」と述べた。障害報告数は午後5時19分前後でピークを迎えた後、減少した。復旧の詳細タイムラインは明示されていない。",
+    "tags": [
+      "Workday",
+      "HR システム",
+      "障害",
+      "IT",
+      "企業"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2316804/workday-outage-locks-millions-employees-out-of-account/",
+    "importance": 4,
+    "image_query": "office computer technology work",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1748345952129-3bdd7d39f155?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxOXx8b2ZmaWNlJTIwY29tcHV0ZXIlMjB0ZWNobm9sb2d5JTIwd29ya3xlbnwxfDB8fHwxNzk0NjQ3ODQyfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "TECNIC Bioprocess Solutions",
+      "profileUrl": "https://unsplash.com/@tecnic?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Office space filled with computers and people",
+      "description": "General view of a technical office with several employees working on computers in a modern and orderly environment."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-14T09:17:20.036Z",
+    "publishedAt": "2026-11-14T08:54:55.000Z"
+  },
+  {
+    "slug": "20261114-25",
+    "headline": "エクアドルが生物多様性資金化と石油採掘のバランスに挑戦、保護に約11億ドル配分",
+    "lead": "エクアドルが生物多様性保護の財政メカニズムを拡充。債務交換でアマゾン・ガラパゴス保護に約11億ドル解放。",
+    "body_markdown": "エクアドルは革新的な金融メカニズムで生物多様性保護に投資しながら、石油・鉱物採掘を継続するという課題に直面。2023～2024年の債務交換契約2件でアマゾン・ガラパゴス保護に約11億ドルを解放。\n\n追加施策は生物多様性債券。2026年3月、IDB Invest と Banco Bolivariano による1億2000万ドルの債券を発行。さらに2027年の主権グリーンボンド発行も計画。新機構として生物多様性クレジット導入。従来のカーボンクレジットと異なり、種数とキャノピーカバレッジで生態系健全性を測定。ただし損傷相殺ではなく、検証済み保護成果への資金提供。\n\n矛盾は深刻。エクアドルのエネルギー源の約80%は石油。政府は10月にアマゾンの石油採掘拡大を発表し、先住民の反対を招いた。2028年の国連生物多様性会議（COP18）開催国として、保護リーダーのイメージを保ちながら資源採掘を継続する緊張状態が続く。",
+    "tags": [
+      "環境",
+      "生物多様性",
+      "金融",
+      "エクアドル",
+      "エネルギー"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/14/ecuador-biodiversity-green-finance-oil.html",
+    "importance": 3,
+    "image_query": "rainforest ecosystem nature conservation",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-14T09:17:20.040Z",
+    "publishedAt": "2026-11-14T06:00:01.000Z"
+  },
+  {
     "slug": "20261114-01",
     "headline": "Microsoft 365が24時間グローバル停止　病院・学校・警察に広範な影響",
     "lead": "マイクロソフト365が11月12-13日に24時間のグローバル停止。Outlook・Teams等が利用不可に。NHS、学校、警察など社会インフラが混乱。",
