@@ -1,5 +1,414 @@
 [
   {
+    "slug": "20261119-01",
+    "headline": "AIが発見したインターネット脆弱性、緊急公開へ",
+    "lead": "OpenAI のエッセイで、AI モデルが見つけたインターネット脆弱性の集中公開が進行中。",
+    "body_markdown": "OpenAIは11月18日、「The Silent Consensus」と題するエッセイを公開しました。著者のDean Ball氏によると、現在「Black October」と呼ばれる重要なセキュリティ事象が進行中だとのこと。これはAIシステムが、インターネット基盤となるコア施設の脆弱性を発見し、その公開を進めています。\n\nこうした脆弱性の発見自体が、AIが到達した双方向利用可能な能力の象徴とも言えます。AIは有用な側面（脆弱性を事前に修正する）と危険な側面（悪意ある利用）の両方の可能性を持っています。\n\nBall氏の記事は、この「双方向能力」の出現に直面する社会的課題を論じています。毎月ごとに新しい「急務」が生じるなか、良い側面の活用が悪用に先行することの重要性を強調しています。ソフトウェア脆弱性の発見は現在のAIが到達した段階ですが、次々と別の能力が出現すると指摘。これら複数の「急務」が避けられず重なっていく状況下で、AIと社会がどのようなコンセンサスを構築するかが重要との論点です。",
+    "tags": [
+      "AI",
+      "サイベロセキュリティ",
+      "AI安全性"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/the-silent-consensus",
+    "importance": 5,
+    "image_query": "cyber security network protection",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7pmy7TfVAdDPHBHAzgCeqh/16ab7f0da1098d1a8e4291148eba6d90/the-silent-consensus-seo-moss-cool.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/the-silent-consensus",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:15.241Z",
+    "publishedAt": "2026-11-18T00:00:00.000Z"
+  },
+  {
+    "slug": "20261119-02",
+    "headline": "AIエージェント、あなたのコンピュータを安全に操作",
+    "lead": "OpenAI、AIエージェント「Codex」がマシン上で実行する操作を、ユーザーが制御できるサンドボックス機能を発表。",
+    "body_markdown": "AIエージェント「Codex」は、コンピュータの操作を自動実行できる強力なツールです。しかし実行中に不用意なファイル削除やネットワーク送信を行う危険もあります。\n\nOpenAI は11月18日、このリスク低減のため「Codexサンドボックス」機能を公開しました。このサンドボックスは、Codexが特定フォルダへのアクセスやネットワーク操作を、ユーザーが事前に指定した範囲に限定します。\n\n例えば写真整理タスク時には、ユーザーは「~/Pictures フォルダの読み書きのみ許可、ネットワーク禁止」と設定。コード校閲では「ドキュメントサイト閲覧は許可、ソースコードは読み込み専用」と細かく制御できます。\n\nOpenAI は「防御の層化」という多重防衛戦略で、訓練・整合化投資に加え、エージェント実行層でも保護機構を導入。Codexはサンドボックス内で既存環境で動作しながら、ユーザー指定の制限を守って機能します。これにより、AIエージェントの利便性と安全性の両立を目指しています。",
+    "tags": [
+      "AI",
+      "AI安全性",
+      "エージェント"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/inside-the-codex-sandbox",
+    "importance": 4,
+    "image_query": "computer screen code programming",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/1PnylD7lJwgUw7jYNP8wLh/7fa5553001136f3982e8d4db44146de3/inside-the-codex-sandbox-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/inside-the-codex-sandbox",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:15.404Z",
+    "publishedAt": "2026-11-18T08:00:00.000Z"
+  },
+  {
+    "slug": "20261119-03",
+    "headline": "OpenAI、AI使用で独自チップ設計を高速化",
+    "lead": "OpenAI、自社推論チップ「Jalapeño」とAMDハードウェアの性能向上で、AIを活用したチップ設計の有効性を実証。",
+    "body_markdown": "AIの急速な発展の裏側には、それを支える半導体チップの性能向上が不可欠です。OpenAI は11月18日、自社の最先端モデルを用いてチップ設計を高速化させる取り組みを発表しました。\n\nOpenAI は2025年初頭、自社初の推論チップ「Jalapeño」の開発に GPT-4o を活用。当時のモデルでさえ、ベクトル演算ユニット（並列計算を管理・実行）などの重要な計算ブロックで非自明な性能改善（PPA改善）を発見したとのことです。\n\nこの成功を踏まえ、OpenAI は同じ手法をサードパーティ製ハードウェア（AMD製品）にも応用。複数の世代にわたるモデルを、公開チップ設計で評価し、AIがエンドツーエンドのチップ設計タスクでどの程度の能力を持つかを測定しました。\n\nさらに、実装の信頼性を高めるため、EDA（電子設計自動化）ツール大手の Synopsys と協力。最先端インテリジェンスを、エンジニアが既に使用している設計・検証ツールに統合する計画です。これにより、AI活用による設計最適化が産業的規模で実現していく見込みです。",
+    "tags": [
+      "AI",
+      "テクノロジー",
+      "半導体"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/advancing-chip-design-with-our-models",
+    "importance": 4,
+    "image_query": "circuit board chip design",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/658zg0FHAg7zuL73DTFCfC/fff21fd18c260ce64a10a14ee8d4e851/advancing-chip-design-social.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:15.612Z",
+    "publishedAt": "2026-11-18T00:00:00.000Z"
+  },
+  {
+    "slug": "20261119-04",
+    "headline": "OpenAI、フランス大手紙フィガロとタッグ",
+    "lead": "Le Groupe Figaro がOpenAI と戦略提携し、600人以上のジャーナリスト報道をChatGPT で発見可能に。",
+    "body_markdown": "ジャーナリズムと AI の協働は、今秋の大きなテーマです。フランスの大手新聞グループ「Le Groupe Figaro」は、OpenAI との戦略提携を発表しました。\n\nこの提携により、フィガロと傘下の報道機関の最新報道と過去ログが、ChatGPT 上で発見・利用可能になります。ニュース・ビジネス・文化・ライフスタイルなど、複数分野の報道が対象。ChatGPT ユーザーは、フィガロの要約・抜粋を通じて記事を知り、元の記事へのリンクで詳細を確認できます。\n\nフィガロ側のコメントでは、「AI 研究・配備の世界的リーダーとの意義深い関係構築」と位置づけられています。600人超のジャーナリスト陣による信頼できる情報源と、OpenAI の技術専門性・グローバルリーチを組み合わせることで、革新と長期的価値創造の道を開く狙いです。\n\n記事内容は要約と抜粋で提供され、読者は元の記事にアクセスして全文を確認可能。メディア企業がAIプラットフォーム企業と提携する新たなモデルを示しており、ジャーナリズムの持続可能性とAIの透明性の両立を目指す取り組みとして注視されます。",
+    "tags": [
+      "メディア",
+      "AI",
+      "パートナーシップ"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+    "importance": 3,
+    "image_query": "newspaper journalism news writing",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:15.613Z",
+    "publishedAt": "2026-11-18T00:00:00.000Z"
+  },
+  {
+    "slug": "20261119-05",
+    "headline": "NATO、AI活用でサイバー防衛を強化",
+    "lead": "OpenAI、NATO 通信機関に高度なAIサイバーセキュリティモデルを提供し、連合国の防衛支援。",
+    "body_markdown": "ロシアによるウクライナ侵攻は、NATO 加盟国にとってサイバー脅威の深刻さを改めて浮き彫りにしました。OpenAI は、NATO の通信情報機関（Communications and Information Agency, NCIA）と協力し、加盟国の中核機関にAIセキュリティ機能を提供しています。\n\n11月18日の発表によると、OpenAI は「Daybreak」プログラムを通じ、信頼できる防衛者に最先端AI を提供。ソフトウェア検査、不審アクティビティ調査、脆弱性検証、パッチ開発・テストなど、認可されたセキュリティ業務をサポートします。\n\nNATO は毎月、このAIツールを使い、最大3,000億トークンの入出力を処理。NATO の中核機関が連合国のネットワーク保護に利用しており、防御能力の強化と多国籍チーム間での専門知識共有を実現しています。これはヨーロッパ全体の防衛者に恩恵をもたらす知見をも生み出しています。\n\nこうした官民協力モデルは、戦争時の緊迫したサイバー防衛のほか、平時の予防的対策にも活用される見込み。NATO 加盟国の自由と安全保障を守るための重要な取り組みです。",
+    "tags": [
+      "NATO",
+      "サイベロセキュリティ",
+      "国際・地政学"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+    "importance": 4,
+    "image_query": "military defense cyber warfare",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/4AvTdfi4XgE0hchiQH8UhY/6c9c5278cafc000de19c0892beecbf8c/strengthening-nato-and-allied-cyber-defences-with-ai-seo.png?w=1600&h=900&fit=fill",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:16.706Z",
+    "publishedAt": "2026-11-17T00:00:00.000Z"
+  },
+  {
+    "slug": "20261119-06",
+    "headline": "Google、Gemini をメモリ少ないスマホに対応",
+    "lead": "Google AI、メモリ限定端末向けにGemini アプリを最適化し、低価格スマートフォンでも利用可能に。",
+    "body_markdown": "AI アシスタントの力強さは、高性能スマートフォンに限定される傾向がありました。Google は11月18日、メモリが限定的なAndroid 端末でも Gemini アプリが動作するよう最適化したと発表しました。\n\nこれまで、Gemini Live（音声対話）やカスタム画像生成などの高度な機能は、十分なメモリを持つデバイスでしか利用できませんでした。しかし新版では、より幅広いAndroid ユーザーがこれらの機能にアクセスできるようになります。\n\n対応端末を拡大することで、AI アシスタント技術をより多くのユーザー層に届ける戦略が明確です。特に新興国では、メモリ制約のあるスマートフォンが多くの人の主たる計算機。Google のこの施策により、地域間のAI テクノロジー利用格差が縮小する見込みです。\n\nユーザーは Google Play ストアから Gemini アプリを今すぐダウンロード可能。メモリ限定端末でも、音声チャット、画像生成、情報検索などの AI 機能が利用できるようになります。",
+    "tags": [
+      "Google",
+      "AI",
+      "スマートフォン"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+    "importance": 3,
+    "image_query": "smartphone mobile phone technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:16.707Z",
+    "publishedAt": "2026-11-18T17:00:00.000Z"
+  },
+  {
+    "slug": "20261119-07",
+    "headline": "Claude 開発のAnthropicが上場へ",
+    "lead": "AI企業Anthropic、11月19日にNASDAQ 上場予定。機関投資家の需要が旺盛で、当初価格帯（70-78ドル）を上回る公開も検討中。",
+    "body_markdown": "AI スタートアップのユニコーン上場ラッシュが続いています。最先端言語モデル Claude を開発するAnthropic は、11月19日にNASDAQ にIPO（新規公開株式）します。ティッカーシンボルは「ANT」。\n\n当初の価格帯は1株70-78ドルでしたが、機関投資家からの需要が旺盛で、現在は80-85ドルの価格帯を検討中とのこと。この価格帯なら、公開市場での評価額は1.4兆ドルに達します。825百万株に及ぶ公募・既保有株売却を含め、調達額は640億ドル超が見込まれています。\n\n投資家需要は極めて強く、機関投資家が4,000億ドル、小売投資家が100億ドル近くの申し込みがあったと報告されています。NVIDIA、Google など大手テック企業からの戦略的投資も260億ドルに上ります。\n\nAnthropicは過去2年間で、ChatGPT ライバル Claude を開発し、企業顧客の信頼を獲得。AI安全性を重視する企業姿勢が評価されており、今回のIPO成功は、AI業界の成熟性と機関投資家の強気姿勢の両方を示しています。",
+    "tags": [
+      "ビジネス",
+      "AI",
+      "IPO"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+        "name": "TechCrunch"
+      }
+    ],
+    "importance": 5,
+    "image_query": "stock market finance trading",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxzdG9jayUyMG1hcmtldCUyMGZpbmFuY2UlMjB0cmFkaW5nfGVufDF8MHx8fDE3OTUwMzcxNzd8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Maxim Hopman",
+      "profileUrl": "https://unsplash.com/@nampoh?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "stock market candlestick chart on dark screen",
+      "description": "Stock and Crypto Market Values"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:17.601Z",
+    "publishedAt": "2026-11-18T00:00:00.000Z"
+  },
+  {
+    "slug": "20261119-08",
+    "headline": "歴史的な米中露首脳会談、核・イラン議論へ",
+    "lead": "異例の3国首脳会談を深圳で開催。トランプ大統領、Xi 国家主席、プーチン大統領が核備蓄とイラン問題で協議。",
+    "body_markdown": "ジオポリティクスの舞台で、極めて異例な会合が開かれました。米国大統領ドナルド・トランプ、中国国家主席Xi Jinping、ロシア大統領ウラジミール・プーチンが、11月18日に中国の深圳（APEC サミット会場）で3者首脳会談を開きました。\n\nこのような3国首脳会談は前例が稀です。中国の国家主席がまさかの異例対応で、Xi は深圳空港でトランプを出迎え、APEC 晩餐会の前に会談。ロシアのプーチンも到着し、3者会談が実現しました。\n\nトランプ大統領は、会談を核備蓄削減交渉の機会と位置づけています。同時にイラン問題の協議も予定されており、3国が共通の懸念に直面している状況が浮き彫りです。ただし、ウクライナ問題については、トランプは議論から外す意向を示唆しており、ウクライナ側（ゼレンスキー大統領）は「当事国を外した決定は実現不可能」と懸念を表明しています。\n\nトランプ政権の一部高官は「合意に至る見込みは低い。対話の開始段階」と慎重な見通しを示唆。ただし、このような高いレベルでの直接対話は、今後の外交チャネル構築につながる可能性があります。",
+    "tags": [
+      "国際・地政学",
+      "米国",
+      "中国"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html",
+    "sources": [
+      {
+        "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china",
+        "name": "Al Jazeera"
+      }
+    ],
+    "importance": 5,
+    "image_query": "international summit politics leaders",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1783282462007-0a66f07fd06a?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxpbnRlcm5hdGlvbmFsJTIwc3VtbWl0JTIwcG9saXRpY3N8ZW58MXwwfHx8MTc5NTAzNzE3OHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "David Heilbron",
+      "profileUrl": "https://unsplash.com/@heilbron?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "National flags adorn a building with mountains in the background"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:18.426Z",
+    "publishedAt": "2026-11-18T00:00:00.000Z"
+  },
+  {
+    "slug": "20261119-09",
+    "headline": "米FRB、AI インフレ懸念で追加利上げを検討",
+    "lead": "Federal Reserve、10月会合議事録でAIデータセンター投資がインフレリスク要因と判断し、追加利上げの適切性を示唆。",
+    "body_markdown": "米国の金融政策が、AI ブームの影響で微妙な転機を迎えています。Federal Reserve が11月18日公開した10月政策会合の議事録によると、ほぼ全ての参加者が、今後の金利引き上げがさらに適切と判断していることが判らかりました。\n\nFRB は10月会合で、ベンチマーク金利を3.75-4.0% に据え置きましたが、議事録からは引き上げ圧力が明らかです。参加者の大多数は「AIインフラへの投資」を「インフレの重要なリスク要因」と見ています。AI 関連製品需要がサプライチェーンを逼迫させ、テック関連消費財の価格上昇につながっているとの指摘です。\n\nFRB スタッフは、AI 関連債務の急速な成長にも警鐘を鳴らしています。バランスシート外のリース債務や、AI 関連企業間の循環的な資金繰りが、AI 投資が期待を下回った場合に損失を増幅させるリスクがあると指摘。\n\n12月の利上げ（25bp）は大方の予想通りですが、複数の参加者が「50bp（半%）の引き上げ」の可能性も提示。ただしFRB 議長ケビン・ワーシュは、AIがインフレを駆動している点に懐疑的で、同僚の見方と異なっています。金融政策は数月間、AI インフレ懸念との綱引きが続く見込みです。",
+    "tags": [
+      "経済・マネー",
+      "AI",
+      "インフレ"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+    "importance": 4,
+    "image_query": "stock market finance interest rates",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1534469650761-fce6cc26ac0d?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyMHx8c3RvY2slMjBtYXJrZXQlMjBmaW5hbmNlJTIwaW50ZXJlc3QlMjByYXRlc3xlbnwxfDB8fHwxNzk1MDM3MTc5fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Aditya Vyas",
+      "profileUrl": "https://unsplash.com/@aditya1702?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "concrete building with USA flags",
+      "description": "The Stock Exchange"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:19.263Z",
+    "publishedAt": "2026-11-18T00:00:00.000Z"
+  },
+  {
+    "slug": "20261119-10",
+    "headline": "NVIDIA、暫定CEO が新方針「前に進もう」と表明",
+    "lead": "Jensen Huang 会長兼CEO 交代後、暫定 CEO Colette Kress が初めての全社会議で給与引き上げを発表。",
+    "body_markdown": "半導体企業 NVIDIA は、AI ブームの中心に位置する企業です。会長兼CEO として29年間会社を率いてきた Jensen Huang 氏の去就が注目される中、11月18日、暫定CEO Colette Kress 氏が初めての全社会議で職員に向けメッセージを発信しました。\n\nKress 氏は「前に進もう」と職員に呼びかけ、給与引き上げを発表。Huang 氏の突然の退任から数日での初舞台となります。NVIDIA は、GPU チップで AIインフラの中核企業として、買収・提携・開発競争が激化する局面にあります。\n\nKress 氏は従来、NVIDIA の最高財務責任者（CFO）として、財務戦略や投資家関係を担当していました。今回の全社向けメッセージで、職員の不安解消と経営の継続性を強調する戦略と見られます。\n\nHuang 氏の退任理由は詳らかにされていませんが、AI 規制、デバイス設計の複雑化、競争激化など複数の経営課題がある時期の交代です。Kress 新体制が NVIDIA をどう導くか、注目が集まっています。",
+    "tags": [
+      "ビジネス",
+      "テクノロジー",
+      "NVIDIA"
+    ],
+    "section": "ビジネス",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
+    "importance": 4,
+    "image_query": "business meeting conference corporate",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMG1lZXRpbmclMjBjb25mZXJlbmNlJTIwY29ycG9yYXRlfGVufDF8MHx8fDE3OTUwMzcxNzl8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Headway",
+      "profileUrl": "https://unsplash.com/@headwayio?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "crowd of people sitting on chairs inside room",
+      "description": "Allie and Jacob attended KinnektorCon to create new connections within the Fox Valley and spread the word about Startup Wisconsin Week and how the community can get involved."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:19.978Z",
+    "publishedAt": "2026-11-18T00:00:00.000Z"
+  },
+  {
+    "slug": "20261119-11",
+    "headline": "イスラエル軍、ガザでの地上作戦を再開（黄線外）",
+    "lead": "イスラエル軍がガザ北部で非常に稀な地上作戦を展開。Hamas は停戦違反と非難し、イスラエルはテロトンネル廃止を主張。",
+    "body_markdown": "イスラエル・ハマス紛争の激化が続いています。BBC World が11月18日に報じたところによると、イスラエル軍がガザ北部で地上作戦を再開したとのこと。作戦区域は「Yellow Line」（黄線）という分界線の外側であり、例年にない広がりを示しています。\n\nイスラエル軍の発表では、この作戦は「テロトンネルネットワークの破壊」が目的。複数年にわたるガザでのテロ対策の一環として、Hamas が構築した地下トンネルを無力化する狙いとされています。\n\n一方、Hamas は激しく反発。停戦合意違反だと非難し、この軍事行動がガザ住民にさらなる被害をもたらすと主張しています。ガザの人道状況は既に深刻で、民間人の避難を含む懸念が深まっています。\n\nこうした軍事作戦は、今後の停戦交渉に大きな影響を及ぼす可能性があります。国連やエジプト、カタールなどが調停に当たる中、軍事的エスカレーションが和平協議を複雑にするリスクがあります。",
+    "tags": [
+      "国際・地政学",
+      "イスラエル",
+      "ガザ"
+    ],
+    "section": "国際・地政学",
+    "source": "BBC World",
+    "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno",
+    "importance": 4,
+    "image_query": "military operation conflict war",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1772980218146-f8dac9716266?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8bWlsaXRhcnklMjBvcGVyYXRpb24lMjBjb25mbGljdCUyMHdhcnxlbnwxfDB8fHwxNzk1MDM3MTgwfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Saifee Art",
+      "profileUrl": "https://unsplash.com/@saifee_art?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Toy soldiers and jets on map with flags"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:20.540Z",
+    "publishedAt": "2026-11-18T00:00:00.000Z"
+  },
+  {
+    "slug": "20261119-12",
+    "headline": "韓国大学入試で AI 不正相次ぐ、政府が厳罰と対策強化",
+    "lead": "韓国で税務試験で AI 眼鏡による不正が発覚後、大学入試でも AI 不正の懸念が急速に浮上。政府が衣類ボタン封止など11項目の対策を発表。",
+    "body_markdown": "東アジアの教育大国・韓国で、AI 不正が社会問題化しています。11月17日、韓国政府は、高等学校卒業生が受ける「大学修学能力試験（suneung）」での AI 不正に対する対策を発表しました。11月19日（木）、550万人超の学生が同試験に臨む予定です。\n\nきっかけは、税務専門家試験での不正摘発。受験者が隠しカメラ付き眼鏡を使い、AI に問題解析させて解答を得ていたことが判明しました。この逮捕者は不正を認めており、韓国社会に衝撃を与えています。\n\n政府の対応は強硬です。11月19日の suneung では：\n\n- 衣類のボタンをステッカーで封止\n- スマートウォッチ・眼鏡など全スマートデバイスの禁止\n- 1,300カ所のテスト会場に AI 眼鏡識別専任者を配置\n- 不正検知時は金属探知機を使用\n- 不正摘発者は10年間の受験禁止\n\nsuneung は、韓国の社会階級上昇の唯一の道とも言われる重要試験。AI 技術が試験の公正性を脅かしている状況を、韓国政府が本気で抑止しようとしている姿勢が明らかです。",
+    "tags": [
+      "教育",
+      "AI",
+      "韓国"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/world/2026/nov/18/south-korea-university-entrace-exams-ai-cheating-measures",
+    "importance": 4,
+    "image_query": "exam test classroom education",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1602145095452-aba06946ed05?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxN3x8ZXhhbSUyMHRlc3QlMjBjbGFzc3Jvb20lMjBlZHVjYXRpb258ZW58MXwwfHx8MTc5NTAzNzE4MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Haseeb Modi",
+      "profileUrl": "https://unsplash.com/@haseebm?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "white and brown wooden table",
+      "description": "Classroom, smart classroom at Anjuman"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:21.206Z",
+    "publishedAt": "2026-11-18T00:00:00.000Z"
+  },
+  {
+    "slug": "20261119-13",
+    "headline": "野生大麦の遺伝多様性、農業改革の新地平へ",
+    "lead": "ドイツの国際研究チーム、大麦と野生種の全ゲノム多様性を初解析。品種改良への新たな道が開ける。",
+    "body_markdown": "食糧安全保障と気候変動対応に、農業技術の革新が不可欠です。ドイツのライプニッツ研究所 IPK に率いられた国際研究チームは、11月18日、大麦属 Hordeum の全ゲノム多様性を初めて体系的に解析した研究成果を発表しました。論文は Nature 誌に掲載されています。\n\nこの研究では、栽培大麦とその野生近縁種のゲノムがどのように進化してきたかを明らかにしました。野生大麦は、栽培品種には失われた遺伝的多様性を豊富に保有しており、この知見は今後の育種研究に革命的な価値をもたらします。\n\n大麦は世界で4番目に重要な穀物作物。地中海地域やアジアでの栽培の歴史は古く、農業文明の基礎となってきました。しかし近代育種の過程で、多くの遺伝的多様性が失われています。\n\n野生大麦に眠る遺伝的宝庫を体系的に活用することで、以下の可能性が広がります：\n\n- 乾燥・塩性土壌への耐性強化\n- 病害虫抵抗性の向上\n- 栄養価の増強\n- 収量の安定化\n\n気候変動で過酷な環境条件が増す現在、野生種の多様性からの学習が、持続可能な食糧生産の鍵を握ります。",
+    "tags": [
+      "サイエンス",
+      "農業",
+      "遺伝学"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-wild-barley-genetic-diversity-avenues.html",
+    "importance": 3,
+    "image_query": "barley crop agriculture field",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:21.221Z",
+    "publishedAt": "2026-11-18T00:00:00.000Z"
+  },
+  {
+    "slug": "20261119-14",
+    "headline": "光で分子の状態を切り替え、光メモリが現実へ",
+    "lead": "大阪大学の研究チーム、光で分子状態を操作する技術を極小サイズで実現。光学メモリ・光制御デバイスに道を開く。",
+    "body_markdown": "ナノテクノロジーと光学の融合が、次世代メモリと情報処理を変えようとしています。大阪大学の Takayuki Umakoshi 氏と Prabhat Verma 氏からなる研究チームは、光を使って分子の状態を極小スケールで切り替える技術を開発したと、11月18日に Phys.org で報告されました。\n\n従来、光学素子は「観測ツール」に限定されてきました。材料を見ることはできても、原子・分子レベルで意図的に操作することは困難でした。研究チームは、異なる色の光を照射することで、フォトクロミック分子を異なる分子状態に切り替える技術を実現。\n\nフォトクロミック材料には、異なる色の光に反応して分子構造を切り替える性質があります。この原理を活用すれば：\n\n- **光学メモリ**: 光による書き込み・消去が可能な超高速メモリ\n- **光制御電子デバイス**: 電気信号ではなく光信号で動作するチップ\n- **分子スイッチ**: 原子スケールの論理ゲート\n\nしかし従来の光学手法には限界がありました。光を物理的に「曲げる」には波長より小さなサイズに焦点を絞る必要があり、これが微細化の障壁になっていました。\n\nこの研究は、光の性質を活用しながら、極小空間での分子操作を実現する道筋を示しており、次世代コンピューティングの可能性を広げるものです。",
+    "tags": [
+      "サイエンス",
+      "物理学",
+      "ナノテク"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-molecular-states-smallest-spaces.html",
+    "importance": 3,
+    "image_query": "laboratory science research microscope",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:21.222Z",
+    "publishedAt": "2026-11-18T00:00:00.000Z"
+  },
+  {
+    "slug": "20261119-15",
+    "headline": "AI、人間の鼻と同等の嗅覚を獲得へ",
+    "lead": "独立した AI スタートアップ「Osmo」が開発した AI 嗅覚テクノロジー、人間の嗅覚精度と同等のレベルに到達。",
+    "body_markdown": "AI が人間の感覚を模倣する新時代が到来しています。MIT Tech Review が11月18日報道したところによると、ニュージャージー州に拠点を置く独立した AI スタートアップ「Osmo」（創業者：Alex Wiltschko 氏）が、AI による「嗅覚」プロジェクトを進行中です。研究者たちは「地球のあらゆる臭いを嗅ぎ分ける」という野心的な目標を掲げています。\n\n従来、AI は視覚（画像認識）や聴覚（音声認識）では人間を凌駕していますが、嗅覚は化学センサーの限界のため、AI 化が難しい領域でした。\n\nこの研究チームは、化学成分の複雑な相互作用を、AI モデルで学習させるアプローチを採用。訓練用データセットには、実験室での綿密な観察から生まれた「臭いの特性リスト」が含まれています：\n\n- 「ナッティ（ナッツのような）」\n- 「ピーチ（桃のような）」\n- その他多数の感覚記述\n\nAI が、このような人間的な感覚語彙を学習することで、化学センサーでは捉えられない「嗅覚の本質」を理解し始めています。\n\nこの技術が実用化されれば、以下の応用が考えられます：\n\n- 医療診断（病気の早期検出）\n- 食品品質管理\n- 環境モニタリング\n- セキュリティシステム\n\nAI による感覚の拡張は、人間が気づかない微細な化学変化を検出し、未来の予測診断を可能にするかもしれません。",
+    "tags": [
+      "AI",
+      "サイエンス",
+      "感覚"
+    ],
+    "section": "AI",
+    "source": "MIT Tech Review",
+    "link": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
+    "importance": 4,
+    "image_query": "laboratory research chemistry science",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1748263582756-082fe4adaa5b?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzMHx8bGFib3JhdG9yeSUyMHJlc2VhcmNoJTIwY2hlbWlzdHJ5JTIwc2NpZW5jZXxlbnwxfDB8fHwxNzk1MDM3MTgxfDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Nathan Rimoux",
+      "profileUrl": "https://unsplash.com/@nathan_rmx?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Rows of lab tubes sit in a tray",
+      "description": "Eppendorf tubes in a tube holder in a science laboratory."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:21.819Z",
+    "publishedAt": "2026-11-18T00:00:00.000Z"
+  },
+  {
+    "slug": "20261119-16",
+    "headline": "トランプ大統領、プーチンと個別会談へ",
+    "lead": "トランプ大統領がウクライナ停戦に向け、プーチン大統領と 1 対 1 会談を深圳で予定。",
+    "body_markdown": "米露関係が、緊迫した外交段階を迎えています。Al Jazeera が11月18日に報じたところによると、トランプ大統領とプーチン大統領が、深圳での APEC サミット期間中に 1 対 1 での個別会談を開く予定とのことです。\n\nこの会談の背景には、ウクライナ危機の解決に向けた米国の強い意思があります。トランプ政権は、ウクライナ紛争を外交的に終わらせることを重要な目標に掲げており、ロシア側との直接対話をテーブルに上げています。\n\n会談の主要議題はウクライナ戦争の終結です。Al Jazeera によれば、この 1 対 1 会談ではウクライナ停戦が中心的テーマとされており、戦後安全保障（ウクライナの地位確認）も協議される見込みです。\n\nただし、ウクライナ側（ゼレンスキー大統領）からは「当事国を除いた決定は実現不可能」との懸念が表明されており、ウクライナの主権と独立を無視した交渉への警戒感が示されています。\n\nこの会談の成否は、2026年から2027年にかけての欧州情勢、ひいては世界秩序に大きな影響を及ぼす可能性があります。トランプ政権の「交渉による紛争終結」戦略が、現実的な成果を生むかが注視されています。",
+    "tags": [
+      "国際・地政学",
+      "米国",
+      "ロシア"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/news/2026/11/18/trump-and-putin-to-meet-one-on-one-in-china-thursday",
+    "importance": 5,
+    "image_query": "international diplomacy summit politics",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1561491429-11ae811cee95?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyN3x8aW50ZXJuYXRpb25hbCUyMGRpcGxvbWFjeSUyMHN1bW1pdCUyMHBvbGl0aWNzfGVufDF8MHx8fDE3OTUwMzcxODJ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Evangeline Shaw",
+      "profileUrl": "https://unsplash.com/@evangelineshaw?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "people sitting on stage"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T21:26:22.407Z",
+    "publishedAt": "2026-11-18T00:00:00.000Z"
+  },
+  {
     "slug": "20261118-01",
     "headline": "OpenAI、GPT-6.2 Astra / Sol 発表 — 前世代超える性能をコスト1/3で実現",
     "lead": "OpenAIが次世代frontier modelのGPT-6.2 Astraと日常向けのSolを発表。Astraは専門的作業で前世代を上回りながら、コストは3分の1以下に削減した。",
