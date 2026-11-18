@@ -1,5 +1,593 @@
 [
   {
+    "slug": "20261118-01",
+    "headline": "OpenAI、GPT-6.2 Astra / Sol 発表 — 前世代超える性能をコスト1/3で実現",
+    "lead": "OpenAIが次世代frontier modelのGPT-6.2 Astraと日常向けのSolを発表。Astraは専門的作業で前世代を上回りながら、コストは3分の1以下に削減した。",
+    "body_markdown": "OpenAIは11月17日、2つの新しいAIモデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を発表した。\n\n**GPT-6.2 Astra**は最新の最強frontier modelで、複雑な専門的業務に対応。スライド・スプレッドシート・ドキュメント作成では「AIらしさが薄れ、ユーザーが指定したテンプレートや業界慣習に近い出力」を実現し、コード生成やフロントエンド開発（ウェブサイト・ゲーム・3D設計）の精度も向上した。ベンチマーク「Agents' Last Exam」で、前世代GPT-6 Astraから5.2点上昇、同時にコストは3分の1以下に引き下げた。同じベンチマークでClaude Fable 5.2と比較すると5.5点上回りながら、コストはわずか5%に収まる。\n\n**GPT-6.2 Sol**は日常的業務向けの効率的・多才なモデル。同じく出力トークンを削減し、利用枠内でより多くの処理が可能。\n\nビジネスと開発者向けに、frontier性能と現実的なコストのバランスを実現し、スケール導入を促進する狙い。ChatGPT EnterpriseおよびAPI経由で利用可能となる。",
+    "tags": [
+      "AI",
+      "LLM",
+      "GPT-6.2",
+      "OpenAI"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "importance": 4,
+    "image_query": "neural network diagram artificial intelligence",
+    "image": {
+      "kind": "press",
+      "imageUrl": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/44573edd-9653-49b3-ba07-7b3643545ef9.d3072be3.png",
+      "credit": "OpenAI",
+      "creditUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "source": "og:image auto"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:10.118Z",
+    "publishedAt": "2026-11-17T17:45:00.000Z"
+  },
+  {
+    "slug": "20261118-02",
+    "headline": "Notion AI、チャット記録流出 — ベンダー経由の三次漏洩。60社以上が影響",
+    "lead": "Notionが使う第三者AI企業が認可なくデータ保持。60社以上の日本企業が潜在的に影響を受け、API鍵が暴露された可能性。",
+    "body_markdown": "クラウドワークスペース「Notion」のAI機能「Notion AI」チャット記録がベンダー経由で流出した可能性が浮上した。\n\nNotionが契約先の米Fireworks AIが11月2日に不正アクセスを受けたことを公表。Fireworksはさらに11月6日に追加侵害を発見。NotionはCISO（情報セキュリティ責任者）David Tsaoが日本の報道機関に対応状況を明かした。\n\n**漏洩の経緯**\nFireworks AIは契約上、ユーザーデータを保持してはいけないが、違反して保持。その結果Notion AIの「Insights」（分析機能）のチャット記録が潜在的に暴露された。日本企業では大手メーカーのキリンホールディングスやデジタルコンテンツプラットフォームのPixivを含む60社以上が報告。\n\n**対応状況**\nNotionは3日以内にシステムを遮断・データ削除。暴露されたAPI鍵を無効化し、第三者ベンダーに通知。顧客に影響データへのアクセスを提供。同時に主要AI企業の監査を進め、ベンダー契約を「統合」（一本化）する方針。CSISOは日本の顧客に謝罪。",
+    "tags": [
+      "セキュリティ",
+      "データ流出",
+      "AI",
+      "Notion"
+    ],
+    "section": "AI",
+    "source": "ITmedia AI＋",
+    "link": "https://www.itmedia.co.jp/aiplus/article/2611/18/2000003299/",
+    "importance": 4,
+    "image_query": "data security lock privacy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1615985250204-b48c0936d4fc?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMnx8ZGF0YSUyMHNlY3VyaXR5JTIwbG9jayUyMHByaXZhY3l8ZW58MXwwfHx8MTc5NDk5NTQ3MXww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tech Daily",
+      "profileUrl": "https://unsplash.com/@techdailyca?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "black and white smartphone on persons hand",
+      "description": "Bitbuy Canada - Where Canadians buy and sell digital currency.\n\nVia: techdaily.ca | #crypto #bitcoin #stocks #blockchain #dogecoin"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:11.365Z",
+    "publishedAt": "2026-11-18T07:56:42.000Z"
+  },
+  {
+    "slug": "20261118-03",
+    "headline": "FAA新型ルーター故障で全米飛行停止 — Juniper製、テストは68回合格も本番で動作不良",
+    "lead": "11月13日、FAA施設のJuniper Networks製ルーターが故障し、ネットワークを浸水させて全米航空交通管制が麻痺。60台以上が事前に無効化された。",
+    "body_markdown": "米国の航空交通管制を支える近代化プロジェクトで使用されていたJuniper Networks製ルーターが故障し、11月13日に全米の飛行を一時停止させた。\n\n**故障の内容**\nアーカンソー州El DoradoのFAA施設に設置されたルーターが「航空交通管制システム内の他のルーターにデータを大量送信（フラッド）し、ネットワークを過負荷状態に」陥れた。交通長官Sean Duffyは「1台のルーターが我々のネットワークへ放送を始め、ネットワーク全体が過載状態になった」と説明。これにより全国の航空交通管制が停止した。\n\n**FAA対応と謎**\n本番導入前に68回のテストにすべて合格していたにもかかわらず、実運用で故障。同機種の別号機（テキサス州Amarilloのルーター）も同時期に動作不良を起こした。FAA当局者は「何がトリガーになったか不明」と述べた。その後、同型ルーター60台以上が先制的に無効化された。\n\n**背景**\nFAAは老朽化した航空交通管制システムを刷新する多年度プロジェクトを進行中。今回の故障で、新型機器導入の慎重さが改めて問われる状況。",
+    "tags": [
+      "インフラ",
+      "テクノロジー",
+      "航空",
+      "ネットワーク"
+    ],
+    "section": "テクノロジー",
+    "source": "Engadget",
+    "link": "https://www.engadget.com/2320202/faa-suspends-installation-router-ground-stop-flights-across-us/",
+    "importance": 4,
+    "image_query": "network router data center",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1785682117495-d87ff069cdb5?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxMHx8bmV0d29yayUyMHJvdXRlciUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc5NDk5NTQ3Mnww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Valentin Lacoste",
+      "profileUrl": "https://unsplash.com/@valentinlacoste?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A white wi-fi access point mounted on a cable tray"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:12.276Z",
+    "publishedAt": "2026-11-18T09:05:26.000Z"
+  },
+  {
+    "slug": "20261118-04",
+    "headline": "ワシが人間サイズのヒヒを捕食 — 人類進化の防御戦略を塗り替える発見",
+    "lead": "英セント・アンドリュース大学の研究が、ホミニン体格のヒヒがワシに狩られていることを初確認。早期人類も空からの脅威にさらされていた可能性が浮上。",
+    "body_markdown": "英国セント・アンドリュース大学の研究チームは、チャドのエンネディ高原で、26kg超の大型オスヒヒがワシに捕食されている証拠を発見した。頭蓋骨に鷲爪による穿孔、肩甲骨に爪の痕跡と引っかき傷を確認。\n\n**進化理論への衝撃**\n従来の通説では、体重13kg超の霊長類は約250万年前から鷲の捕食リストから外れたと考えられていた。つまり、初期ホミニン（人類の祖先）も十分に大きく、空からの脅威を免れていると見なされていた。\n\nところが、発見されたヒヒはホミニン体格の範囲に属する。これにより「早期人類も成体も含め、ワシの捕食圧にさらされていた可能性がある」という新しい視点が生まれた。ライオンやワニなどの地上肉食動物のみならず、空からの脅威に対する防御戦略を進化させる必要があったということ。\n\n**社会性進化への示唆**\n霊長類はワシ攻撃に対し「モビング」（集団での追い払い）行動で対抗する。研究者は「早期人類が大型混合群（他種とも共生）で生活した可能性が高まる」と指摘。これは言語・社会協力・集団知性の進化を考える上で、新たな環境圧を提示することになる。",
+    "tags": [
+      "進化生物学",
+      "人類学",
+      "捕食"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-eagles-preying-human-sized-baboons.html",
+    "importance": 3,
+    "image_query": "eagle hunt wildlife predator",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:12.279Z",
+    "publishedAt": "2026-11-18T09:00:02.000Z"
+  },
+  {
+    "slug": "20261118-05",
+    "headline": "Google、Gemini Tasks無料に — 60アプリ連携で予約から買い物まで自動実行",
+    "lead": "GoogleがGeminiの自動実行機能Tasksを無料化。6カ国で展開開始し、米国では電話予約・商品購買がGeminiで自動処理可能に。",
+    "body_markdown": "GoogleはGeminiのエージェント機能「Tasks」を無料化し、米国、日本、韓国、カナダ、オーストラリア、インドで展開を開始した。\n\n**タスク自動処理の範囲**\nTasksは従来のチャット（会話）から進化し、ユーザーが「○○をやって」と依頼すると、AIが実際に複数ステップの処理を自動実行。対応範囲：\n- **予約**: 「最寄りの2つのディーラーに連絡して予約取ってくれ」\n- **請求書分析**: 光熱費の削減機会を発掘\n- **買い物サポート**: 商品比較後、Google Payで購買完了\n- **食材注文**: Instacartへの自動登録\n- **スケジュール**: カレンダー自動追加・競合検出\n- **60以上のアプリ連携**: Uber Eats、DoorDash、Instacart、GMail、Google Calendarなど\n\n**米国の特別機能**\n電話をかけてディーラーやサービス業者と直接交渉する機能も追加。ただし現段階ではインディアナ州、ルイジアナ州、ミネソタ州、モンタナ州、ネブラスカ州では未対応。\n\n**背景**\nGoogle AI CEOのMustafa Suleymanは「AIが単なる会話相手から、実際に仕事を代行する時代に」と述べている。このうごきはOpenAIの「Agents」、Anthropicの「オートノマスエージェント」の潮流に並行。",
+    "tags": [
+      "AI エージェント",
+      "自動化",
+      "Google Gemini"
+    ],
+    "section": "AI",
+    "source": "Google AI",
+    "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+    "importance": 3,
+    "image_query": "automation workflow digital assistant",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:12.280Z",
+    "publishedAt": "2026-11-17T17:00:00.000Z"
+  },
+  {
+    "slug": "20261118-06",
+    "headline": "Trump、中国深センでXi・Putin と歴史的三国首脳会談 — APEC開幕 中東・ウクライナ情勢も協議",
+    "lead": "米国・中国・ロシアの首脳が中国で初の三国会談。イラン戦争とウクライナ情勢を協議するも、具体的合意に結びつく可能性は低いと見られている。",
+    "body_markdown": "米国のTrump大統領、中国の習近平国家主席、ロシアのプーチン大統領が11月18日、中国深センでのAPEC首脳会議に合わせて歴史的な三国会談を開催。\n\n**会談の意義**\n米国大統領、中国指導部、ロシア大統領が同時に一堂に会する首脳会談は極めて稀。中国外交部報道官は「世界平和と戦略的安定に不可欠な問題」について議論すると述べた。\n\n**協議テーマ**\n会談は3つの主要課題に焦点：\n1. **イラン戦争**: 中東で激化する米国ーイラン紛争\n2. **ウクライナ**: ロシアの軍事作戦継続\n3. **戦略的安定**: 大国間の地政学的競合のコントロール\n\nAPEC全体では「自由貿易」「AI協力」「多国間主義」がテーマ。中国はこれを「一国主義と保護主義」への対抗軸として打ち出している。\n\n**現実的期待値**\nただし政治評論家の見立ては「具体的成果へのハードルは高い」。記事は「期待値は低く、『深く議論する』段階に留まる可能性」を指摘している。各国の利益相反が大きいため、即座の合意よりも相互理解の確認が主目的と見られている。",
+    "tags": [
+      "米国",
+      "中国",
+      "ロシア",
+      "地政学",
+      "APEC"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html",
+    "importance": 5,
+    "image_query": "world leaders meeting diplomacy summit",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1561491432-82f2b22a263e?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwzfHx3b3JsZCUyMGxlYWRlcnMlMjBtZWV0aW5nfGVufDF8MHx8fDE3OTQ5OTU0NzN8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Evangeline Shaw",
+      "profileUrl": "https://unsplash.com/@evangelineshaw?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "people gathering inside the building"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:13.505Z",
+    "publishedAt": "2026-11-18T09:11:50.000Z"
+  },
+  {
+    "slug": "20261118-07",
+    "headline": "習主席、APEC首脳会議で自由貿易推進 — ロシアと協調し「多極化」へ シグナル",
+    "lead": "習近平がAPEC演説で自由貿易と多国間主義を強調。ロシアとの協調を示唆し、米国の「一国主義」への対抗姿勢を鮮明に。",
+    "body_markdown": "中国の習近平国家主席は、深センのAPEC首脳会議で「自由貿易」と多国間主義の推進を強調し、企業にとって『安定し予測可能で有益な世界経済環境』を提供すると述べた。\n\n**中国の立場**\n習主席の発言は、Trump政権の「保護主義・一国主義」への明確なカウンター。同時に会議ではロシアのプーチン大統領との対面も設定。中ロが「世界の多極化」へ向けて協調する姿勢を示す効果も生んだ。\n\n**プーチンの補強発言**\nプーチンは別の演説で「EUは産業能力を失い、競争で遅れ始めている」と述べ、欧米の相対的衰退を強調。ロシアが制裁下でも経済的に耐えうる国であることをアピール。さらに2035年のAPEC開催地としてロシアの立候補を推し進めた。\n\n**経済的文脈**\n中国がAPECで強調する「開放性」「多国間ルール」は、実際には自国サプライチェーン優位性を背景にしている。対して米国の保護主義の背景は、製造業の国内回帰と同盟国の経済依存を深めるTrump政策。両国の経済ビジョンの対立が、今APEC会議の裏焦点。",
+    "tags": [
+      "中国",
+      "自由貿易",
+      "APEC",
+      "地政学"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html",
+    "importance": 4,
+    "image_query": "world trade meeting international commerce",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1784914182823-c1ac7922543f?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyNHx8d29ybGQlMjB0cmFkZSUyMG1lZXRpbmclMjBpbnRlcm5hdGlvbmFsJTIwY29tbWVyY2V8ZW58MXwwfHx8MTc5NDk5NTQ3NHww&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Julia Taubitz",
+      "profileUrl": "https://unsplash.com/@justmejuliee?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "Container ship cma cgm docked with cranes under blue sky",
+      "description": "Container ship cma cgm docked with cranes under blue sky, port, logistics, shipping, maritime, global trade. Maasvlakte 2, Netherlands. Rotterdam, Netherlands travel, Dutch city, Europe."
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:14.290Z",
+    "publishedAt": "2026-11-18T08:29:35.000Z"
+  },
+  {
+    "slug": "20261118-08",
+    "headline": "気候変動が所得不平等を拡大 — 20年分析が示す新たな格差メカニズム",
+    "lead": "気候圧力が強い地域ほど所得格差が拡大。23の新興国20年分析で因果関係が判明。失業と気候ショックの複合効果が指摘される。",
+    "body_markdown": "『Sustainable Development』掲載の新研究が、気候変動と所得不平等の直接的な関係を初めて実証した。\n\n**調査対象と期間**\n新興市場23カ国、2002～2022年の20年分。複合的な気候圧力指数（1人当たり温室効果ガス排出、微粒子汚染、気温変動、降水量変動）を用い、3つの異なる不平等指標（ジニ係数・パルマ比・タイル指数）と照合。\n\n**主要な発見**\n「気候圧力が大きいほど所得不平等が有意に拡大する」。同時に失業率も不平等を助長する強い変数。逆に1人当たり所得と制度品質は格差を圧縮。つまり、気候ショックの影響は所得と制度の厚さで決まる。\n\n**メカニズム**\n気候変動による農業被害は低所得層に集中。異常気象は製造業・サービス業の雇用を不安定化させ、とりわけ非正規層の失業率が上昇。結果として上下層の格差が開く。同時に高所得層は気候対応投資（再生可能エネルギー）の利益を享受。\n\n**政策提言**\n研究者は「気候に脆弱な低所得層向けの社会保護制度の拡充」「再生可能エネルギー・気候適応産業への低スキル労働層の参入機会設計」が重要と指摘。気候変動対策がむしろ格差をこじ開ける危険性も警告している。",
+    "tags": [
+      "気候変動",
+      "経済格差",
+      "社会政策"
+    ],
+    "section": "サイエンス",
+    "source": "Phys.org",
+    "link": "https://phys.org/news/2026-11-climate-worsen-income-inequality.html",
+    "importance": 3,
+    "image_query": "climate change weather economic impact",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:14.292Z",
+    "publishedAt": "2026-11-18T08:10:07.000Z"
+  },
+  {
+    "slug": "20261118-09",
+    "headline": "NASA Space Apps Challenge、18万人超が参加 — 193カ国・593イベント 5年連続成長",
+    "lead": "NASAのオープンデータハッカソンが史上最高181,835人を集約。地球科学・宇宙探査14課題に取り組み、国際宇宙機関17機関が連携。",
+    "body_markdown": "NASAは11月14～15日、年次ハッカソン「Space Apps Challenge」を開催。過去最高の参加者181,835人が593件のイベントで世界中から集結。\n\n**記録更新の内容**\n前年比59%の新規参加者増。これで5年連続の成長達成。2012年創設以降、累計参加者600,000人超、参加国190以上に広がった。\n\n**課題の内容**\nNASAが掲げた14の課題：\n- **宇宙探査**: 月面基地設計、火星着陸支援など\n- **地球科学**: 気候監視、自然災害予測など\n\n各課題はNASAのオープンデータセットを活用。テーマごとに複数日でコード・プロトタイプを完成させる。\n\n**国際協調の進展**\n本年は17の国際宇宙機関（ISSA）が参加データセットを提供。Artemis Accordという月面探査・平和利用の国際協定に署名した機関らが共同。これにより月探査、火星ミッション、地球観測の国際的なデータ標準化が進む。\n\n**意義**\nNASA の Amy Kaminski 氏は「多様なスキル背景の人材がNASAの最高水準のデータセットを活用して実課題に挑める場」と定義。これにより、宇宙開発と民間・学生人材のギャップが埋まり、オープンサイエンスの民主化を加速させている。",
+    "tags": [
+      "NASA",
+      "宇宙",
+      "オープンサイエンス",
+      "ハッカソン"
+    ],
+    "section": "サイエンス",
+    "source": "NASA",
+    "link": "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
+    "importance": 3,
+    "image_query": "space exploration hackathon technology",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:14.294Z",
+    "publishedAt": "2026-11-17T21:50:34.000Z"
+  },
+  {
+    "slug": "20261118-10",
+    "headline": "ロヒンギャ難民、ICJ判決で希望 — 11年の難民生活から帰郷へ。ミャンマー軍事力掌握が課題",
+    "lead": "ロヒンギャ虐殺をめぐるICJ判決が11月18日予定。バングラデシュに120万人超が逃げて約10年。故国回帰は実現するか不透明。",
+    "body_markdown": "ロヒンギャ難民たちが国際司法裁判所（ICJ）の判決に一縷の望みをつなぐ。ガンビアが2019年にミャンマーを相手取り「1948年ジェノサイド条約違反」で提訴。2016年～2017年8月のロヒンギャ掃討作戦を対象とした史上初の国家間ジェノサイド事件。\n\n**難民たちの期待**\nバングラデシュのコックスバザール難民キャンプには120万人超が逃げ込んで以来、約10年間にわたり難民状態が続く。難民指導者の言葉：「難民生活は獄より劣悪。希望がない。これ以上耐えられない」。ロヒンギャたちが求めるのは：\n- 自分たちへの暴力行為の法的承認\n- ミャンマー国籍の復権\n- 平等な権利\n- 尊厳を持った帰郷\n\n**判決の限界**\nただ法廷での勝利も、現実への変換は不確実。ミャンマーは現在も国内紛争の渦中。軍事政権が依然掌握し、安全な帰国受け入れ体制が整わない。さらに、ICJ判決の執行メカニズムは限定的。\n\n**国際的背景**\n判決は11月18日予定。初めての国家対国家ジェノサイド訴訟の判断が、今後のグローバルな人権救済スタンダードとなるか注視されている。",
+    "tags": [
+      "人権",
+      "難民",
+      "ジェノサイド",
+      "国際法"
+    ],
+    "section": "国際・地政学",
+    "source": "Al Jazeera",
+    "link": "https://www.aljazeera.com/features/2026/11/18/we-want-to-go-back-rohingya-refugees-pin-hopes-on-icj-genocide-verdict",
+    "importance": 3,
+    "image_query": "refugee camp humanitarian crisis",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:14.296Z",
+    "publishedAt": "2026-11-18T08:55:40.000Z"
+  },
+  {
+    "slug": "20261118-11",
+    "headline": "Zelenskyy、Starshield速度制限を継続警告 — 占領地での防御ドローン無力化。米軍命令との指摘も",
+    "lead": "ウクライナ軍事用Starshield衛星通信が占領地上空で速度制限。ロシア攻撃回避に必要な速度（100mph超）が出ない。米国とトランプ会談を控え交渉中。",
+    "body_markdown": "ウクライナのVolodymyr Zelenskyy大統領が、SpaceXの軍事衛星通信サービス「Starshield」の速度制限が継続されていることを警告した。\n\n**制限内容**\n占領地上空でのStarshield接続が、約100mph以上の速度でドローンが飛行する場合、通信が途絶。これはウクライナの防御用インターセプター無人機（ロシアドローン迎撃用）の運用を無力化させる。高速機動が対敵回避戦術の要であり、低速走行では敵の攻撃が貫通する。\n\n**原因と責任**\nMusk はこれを「Starshield は米政府所有・管理で、制限は米軍が決定、最終的には大統領命令」と説明。ウォール・ストリート・ジャーナルはMuskが速度低下を指示したと報道したが、Muskは直接関与を否定。\n\n**期間と交渉**\n制限期間は明記されていない。Zelenskyy は「米国と協議中」と述べ、継続的な交渉を示唆。タイミングが微妙なのは、Trump大統領が中国深センでXi・Putin と首脳会談を控えているため、ウクライナの立場はこれまで以上に不確実性に直面している。\n\n**戦術的インパクト**\nこの制限によって、ウクライナのドローン迎撃能力が大幅に低下。ロシア空襲からの防御が劣化し、民間インフラへの被害増加につながる可能性。",
+    "tags": [
+      "ウクライナ",
+      "衛星通信",
+      "軍事技術",
+      "米国"
+    ],
+    "section": "国際・地政学",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/18/ukraine-starshield-starlink-musk-spacex.html",
+    "importance": 3,
+    "image_query": "satellite communication drone military",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:14.297Z",
+    "publishedAt": "2026-11-18T02:50:16.000Z"
+  },
+  {
+    "slug": "20261118-12",
+    "headline": "EU、EV域内生産を優遇 — 日本鉄鋼業が警告「対EU輸出が激減」",
+    "lead": "EUが域内製造EV優遇措置を検討。日本鉄鋼業はEV部品向け鋼材輸出の大幅減少を懸念。保護主義的産業政策が一層鮮明に。",
+    "body_markdown": "欧州連合がEU域内で製造されるEVへの優遇措置を検討。これに対し日本の鉄鋼業界団体が「対EU鋼材輸出が大幅に減少する」として警告を発している。\n\n**EUの動き**\nEVの産業化競争激化を背景に、EU内製造促進政策を強化。これにより、EU以外から輸入される素材・部品の需要が減少する可能性が高い。\n\n**日本鉄鋼業の懸念**\n日本の鉄鋼メーカーはEV向けに特化した高性能鋼材を供給してきた。EU優遇措置が導入されれば、EU域内製造業者は優遇価格を得つつ、EV化に伴う軽量化・電磁干渉対策用の特殊鋼材についても域内調達シフトを加速させるリスク。結果として日本からの輸出機会が喪失される。\n\n**グローバル保護主義の潮流**\nこれはTrump政権のアメリカ優先政策、中国の国有企業優先政策と同じ文脈。先進国が産業戦略を「自国・ブロック内优先」にシフトしており、グローバルなサプライチェーン分断の加速を物語っている。\n\n**日本への波及**\n2027年以降、日本の自動車産業・電子素材産業がEU市場で競争力を失う可能性。日本政府と業界は対抗措置やWTO提訴を視野に対応を検討中。",
+    "tags": [
+      "EU",
+      "EV",
+      "貿易",
+      "産業政策"
+    ],
+    "section": "国際・地政学",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261118de77689",
+    "importance": 3,
+    "image_query": "electric vehicle manufacturing factory",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:14.298Z",
+    "publishedAt": "2026-11-18T08:36:20.000Z"
+  },
+  {
+    "slug": "20261118-13",
+    "headline": "日本最高裁、受刑者選挙権制限は「合憲」 — ただし将来見直し必要と示唆",
+    "lead": "受刑者の投票権を一律制限する公職選挙法が憲法違反ではないと最高裁初判断。同時に「制度見直しが求められる状況」と国会への注文も。",
+    "body_markdown": "日本の最高裁判所大法廷は、服役中の受刑者の投票を一律に禁止する公職選挙法の規定が、憲法に違反していないとの判断を示した。これは国家対個人の受刑者選挙権訴訟で初の最高裁判決。\n\n**判決の内容**\n現行法では選挙権保障（憲法15条）があるものの、受刑者に限っては投票権が停止される。最高裁は「何らかの見直しが求められる状況になりつつあるが、国会や国民による十分な議論が必要」との判断。つまり、今の法制は合憲だが、将来的には改正を検討すべきという二次的メッセージも込めた。\n\n**背景の議論**\n人権団体は「犯罪を犯した者にも基本的人権は失われない」と主張。一方、保守政治家は「受刑者の更生期間、市民権の一時的制限は妥当」と反論。国際的には、一部のEU諸国がすべての受刑者投票を認める傾向。日本は従来、受刑中の投票禁止を維持してきた。\n\n**今後の展開**\n最高裁判断は合憲だが、「見直し必要」という条件付き。野党やNGOは今後、法案改正を求める声を強める可能性。ただし国会の動き次第。",
+    "tags": [
+      "選挙権",
+      "人権",
+      "日本の司法"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261118de77522",
+    "importance": 4,
+    "image_query": "voting ballot election democracy",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1621541780385-7641d3c3b472?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHw3fHx2b3RpbmclMjBiYWxsb3QlMjBlbGVjdGlvbiUyMGRlbW9jcmFjeXxlbnwxfDB8fHwxNzk0OTk1NDc0fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Phil Scroggs",
+      "profileUrl": "https://unsplash.com/@phillustrations?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "person in blue denim jeans and white sneakers standing on gray concrete floor",
+      "description": "VOTE! Sidewalk art"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:14.926Z",
+    "publishedAt": "2026-11-18T08:48:32.000Z"
+  },
+  {
+    "slug": "20261118-14",
+    "headline": "Glastonbury 2027、Harry Styles・Billie Eilish・Sam Fender・Cherがヘッドライナー",
+    "lead": "2027年のグラストンベリーが伝説的ラインアップを発表。Harry StylesとSam Fenderは初のピラミッドステージ。Cherは『Legends』枠で登場。",
+    "body_markdown": "英国の巨大フェスティバル「Glastonbury Festival 2027」がヘッドライナーを発表。ポップ・ロック界を代表する豪華な顔ぶれ。\n\n**主要ヘッドライナー**\nピラミッドステージ（主舞台）：\n- **金曜**: Sam Fender（North Shields出身シンガーソングライター、初ヘッド）\n- **土曜**: Harry Styles（元One Direction メンバー、グローバルスター、初ヘッド）\n- **日曜 Legends枠**: Cher（1960年代からの伝説的シンガー、Legend スロット）\n- **推定4番目**: Billie Eilish（前回2022年ヘッドライナー。2度目の登場）\n\n**意義**\n本ラインアップは「21世紀最年少のヘッドライナー群」と報道各社が指摘。Sam Fenderはまだ30代前半、Harry Stylesは30代前半、Billie Eilishは20代。グラストンベリーは従来50代以上の重鎮中心だったが、世代交代が進む形。\n\n**その他のカード**\n独ニューウェーブバンド「Kraftwerk」の初出演も決定。フランスの実験ポップ「Angine de Poitrine」も。\n\n**開催日程**\n2027年6月（予定）。チケット争奪戦が既に始まる見込み。",
+    "tags": [
+      "音楽フェス",
+      "Glastonbury",
+      "ロック"
+    ],
+    "section": "エンタメ",
+    "source": "BBC Arts",
+    "link": "https://www.bbc.co.uk/news/articles/crwy4w381nlpo",
+    "sources": [
+      {
+        "url": "https://www.theguardian.com/music/2026/nov/18/sam-fender-harry-styles-and-billie-eilish-to-be-youngest-glastonbury-headliners-of-21st-century",
+        "name": "The Guardian"
+      }
+    ],
+    "importance": 4,
+    "image_query": "music festival stage concert",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1692271931628-adc2b16670dd?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxM3x8bXVzaWMlMjBmZXN0aXZhbCUyMHN0YWdlJTIwY29uY2VydHxlbnwxfDB8fHwxNzk0OTk1NDc1fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Roberto Rendon",
+      "profileUrl": "https://unsplash.com/@bertorendon13?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "a crowd of people at a concert with their hands in the air",
+      "description": "PICA FEST is the Paradise Island Clothing Association (PICA) Festival, as the name suggests, this is the biggest clothing festival in Bali which is eagerly awaited by lovers of local products in Bali. In this festival there are not only 100 clothing booths, but also a music concert with 100 performers from local Balinese and national, local communities and also 100 culinary booths serving Balinese culinary as well. In 2023 this is the 8th PICA FEST. This event is 100% created by young Balinese who love the local Balinese industry and want to advance this local industry so that it can compete"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:15.647Z",
+    "publishedAt": "2026-11-18T07:59:54.000Z"
+  },
+  {
+    "slug": "20261118-15",
+    "headline": "Robert Pattinson、次の007に決定 — 「映画史上最も風変わりなBond」",
+    "lead": "ハリウッドの異色スター Robert Pattinson が次のJames Bondに抜擢。Jeff Bezos が「Twilightの偏見を乗り越えた選択」と明かし、映画業界が騒然。",
+    "body_markdown": "ハリウッド史上最も「奇想天外」なBond 決定。Robert Pattinson（Twilight シリーズで知られたが、その後、実験的・芸術的作品選択で知られるようになった俳優）が次の 007 に決まった。\n\n**抜擢の理由**\nAmazon / MGM のChief Executive Officer Jeff Bezos が明かしたところによると、Pattinson 配役は「多くの期待値を超える選択」。Bezos は「当初、彼があまりに有名なため偏見を持っていたが、スクリーンテストで確信した」と述べた。\n\n**Pattinson のキャリア**\nTwilight の「スパークリング・ヴァンパイア」イメージから脱却し、ここ10年間：\n- David Cronenberg の実験的作品\n- 低予算インディーズ映画\n- 自分の「ハリウッドらしくない」世界観を追求\n\nそのため、ファン以外にも「予測不能で粗暴なBond」への期待値が高まる。\n\n**映画業界の反応**\nCallum Turner、Jack Lowden、Josh O'Connor ら従来の有力候補者たちはこぼれ落ちた。一方、Pattinson ファンからは歓喜の声。Bond シリーズが「『こなし方の正統性』から『キャラの冒険性』へのシフト」と映画評論家は分析。",
+    "tags": [
+      "映画",
+      "James Bond",
+      "007",
+      "俳優"
+    ],
+    "section": "カルチャー",
+    "source": "BBC Business",
+    "link": "https://www.bbc.co.uk/news/articles/cm5y1eejk292o",
+    "sources": [
+      {
+        "url": "https://www.theguardian.com/film/2026/nov/18/first-truly-weird-bond-13-things-robert-pattinson-from-heavy-saliva-to-dead-clowns",
+        "name": "The Guardian"
+      }
+    ],
+    "importance": 4,
+    "image_query": "spy action movie thriller",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwxfHxzcHklMjBhY3Rpb24lMjBtb3ZpZSUyMHRocmlsbGVyfGVufDF8MHx8fDE3OTQ5OTU0NzZ8MA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Tyson Moultrie",
+      "profileUrl": "https://unsplash.com/@tysonmoultrie?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "A wall covered with a grid of vintage VHS movie cassette covers",
+      "description": "Movie cover wall section at PLAY Arcade"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:16.570Z",
+    "publishedAt": "2026-11-18T04:00:54.000Z"
+  },
+  {
+    "slug": "20261118-16",
+    "headline": "OpenAI、ChatGPT for Sales 発表 — 営業業務の自動化。30個以上のパートナープラグイン統合",
+    "lead": "OpenAI が営業チーム向けChatGPTを発表。見込客の選別から提案書作成・フォローアップまで自動化。30個以上の営業ツール連携。",
+    "body_markdown": "OpenAIは11月17日、企業営業チーム向けの専用ChatGPT「ChatGPT for Sales」を発表。営業サイクル全体を短縮し、営業管理・顧客理解を促進する。\n\n**対象課題**\n営業部隊は以下の業務に時間を消費：\n- 営業案件の優先順付け（どの見込客から攻めるか）\n- 提案内容のパーソナライズ\n- 契約後の顧客フォローアップ\n\n**ChatGPT for Sales の機能**\n新しい「Sales Plugin」に30個以上の拡張プラグインを統合。これにより：\n- **顧客データの一元化**: チーム全員が同じ顧客理解を共有\n- **ワークフロー自動化**: 「どの案件を追うべきか」「今日のコールで何を言うべきか」「翌日フォローアップメール」まで提示\n- **CRM連携**: Salesforce、HubSpot など既存営業管理ツールとの統合\n- **リアルタイム情報**: 契約交渉の各段階で顧客情報をアップデート\n\n**導入効果**\nOpenAI の内部テスト：「営業サイクルの短縮」「契約成約率向上」「営業事務作業の削減」を確認。大型案件で数百万ドルの売上を逃すリスクも低減。\n\n**提供形態**\nChatGPT Enterprise ユーザーおよびAPI経由で利用可能。",
+    "tags": [
+      "営業",
+      "AI",
+      "ChatGPT",
+      "業務自動化"
+    ],
+    "section": "AI",
+    "source": "OpenAI",
+    "link": "https://openai.com/index/introducing-chatgpt-for-sales",
+    "importance": 3,
+    "image_query": "sales team business meeting",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:16.573Z",
+    "publishedAt": "2026-11-17T08:00:00.000Z"
+  },
+  {
+    "slug": "20261118-17",
+    "headline": "Hugging Face × OpenRouter 連携開始 — オープンウェイト モデルを低コストで実行",
+    "lead": "Hugging FaceとOpenRouterが提携。オープンウェイト AI モデルを80以上のプロバイダー経由で配信。コストは専有モデルの1/4。",
+    "body_markdown": "Hugging Face とOpenRouter（AI サービス仲介企業）が提携し、オープンウェイト AI モデルの運用を簡易化する。目標は「オープンウェイトモデルを簡単に実行できる環境」の構築。\n\n**提携の仕組み**\nHugging Face が Hub（モデルリポジトリ）で発表したオープンウェイトモデルを、OpenRouter が80以上のプロバイダー経由で大規模配信。ユーザーは単一の Hugging Face トークンで任意のオープンウェイトモデルを呼び出せる。\n\n**主要機能**\n- **API 統一**: OpenAI Chat Completions 形式、Anthropic Messages 形式の両方対応\n- **自動ルーティング**: リアルタイム価格・速度・信頼性に基づいて最適プロバイダーを自動選択\n- **フェイルオーバー**: 1つのプロバイダーが応答不可なら、自動的に別プロバイダーに切り替え\n- **オーバーヘッドなし**: Hugging Face が追加料金を上乗せせず、プロバイダーコストのみ\n\n**市場動向**\nOpenRouter のデータ：オープンウェイトモデルは前年比で tokens served の 26.8% から 71.7% へ跳上。同時にコストは専有モデルの約4分の1。企業の LLM コスト最適化圧力が強まっている証。\n\n**意義**\nオープンソースAIが商用流通インフラを得ることで、専有モデルとの競争が一層激化。ローカルやプライベートクラウド運用も選択肢に。",
+    "tags": [
+      "オープンAI",
+      "LLM",
+      "Hugging Face",
+      "コスト最適化"
+    ],
+    "section": "AI",
+    "source": "Hugging Face",
+    "link": "https://huggingface.co/blog/openrouter",
+    "importance": 3,
+    "image_query": "neural network code programming",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:16.577Z",
+    "publishedAt": "2026-11-16T00:00:00.000Z"
+  },
+  {
+    "slug": "20261118-18",
+    "headline": "高市首相、APEC首脳会議で中国到着 — 習主席との会談も。プーチンとの接触調整中",
+    "lead": "日本の高市首相が APEC 参加のため中国深センに到着。習近平国家主席の出迎けが予定。ロシアとの接触も調整中。",
+    "body_markdown": "日本の高市総理大臣は11月18日、APEC（アジア太平洋経済協力）首脳会議に出席するため、中国に到着した。\n\n**会談予定**\n習近平国家主席からの出迎けが想定される。同時にロシアのプーチン大統領との接触が調整中。\n\n**外交的背景**\nAPEC はアジア太平洋地域 21 カ国・地域の経済協力枠組み。本年のテーマは自由貿易、AI協力、多国間主義。\n\n高市首相の参加は日本の存在を示す政治的シグナル。特にTrump、Xi、Putin の三国首脳会談が行われる中での日本の立場を明確にする機会。\n\n**日本の立場**\n日本はルール基盤の国際秩序を重視しながら、経済的には中国との関係維持を必要とする。ウクライナ情勢でも、ロシア制裁支持と対露貿易のバランスを取る難しい状況にある。今回の APEC は「多国間外交」の重要な局面。",
+    "tags": [
+      "日本外交",
+      "APEC",
+      "中国"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261118de77690",
+    "importance": 4,
+    "image_query": "political summit international meeting",
+    "image": {
+      "imageUrl": "https://images.unsplash.com/photo-1607037183811-2a54d746cd35?ixid=M3w5NzU5Mzd8MHwxfHNlYXJjaHwyfHxwb2xpdGljYWwlMjBzdW1taXQlMjBpbnRlcm5hdGlvbmFsJTIwbWVldGluZ3xlbnwxfDB8fHwxNzk0OTk1NDc3fDA&ixlib=rb-4.1.0&w=1280&q=80&fm=jpg",
+      "photographer": "Matthew TenBruggencate",
+      "profileUrl": "https://unsplash.com/@mtenbruggencate?utm_source=axiom_ai&utm_medium=referral",
+      "provider": "Unsplash",
+      "alt": "people sitting on chairs inside building",
+      "description": "Delegates from around the world gather at the UN High-level Political Forum on Sustainable Development, 9 July 2019"
+    },
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:17.497Z",
+    "publishedAt": "2026-11-18T08:43:00.000Z"
+  },
+  {
+    "slug": "20261118-19",
+    "headline": "日本の中小企業、8割超が賃上げ実施 — ただし「防衛的賃上げ」が62.4%に高止まり",
+    "lead": "日本商工会議所調査で中小企業の8割超が賃金引き上げ実施。しかし人手不足対抗の『防衛的』引き上げが大半で、実質的な給与向上は限定的。",
+    "body_markdown": "日本商工会議所が行った2026年度中小企業調査で、賃上げ実施企業の割合が過去最高水準に達した。\n\n**調査結果**\n9月時点で賃上げを実施した企業：61.3%\n10月以降に実施予定の企業：17.5%\n合計：8割超\n\nただし、懸念される動向も。賃上げ理由を分析すると：\n- 「防衛的賃上げ」（人手不足対抗）：62.4%（前年比上昇）\n- 「主体的賃上げ」（利益向上による）：残部\n\n**防衛的賃上げの意味**\n人材確保・流出防止のための「やむを得ない」引き上げ。企業の採算改善ではなく、人手不足圧力への消極的対応。これが高止まりしている状況は「景気回復感の弱さ」を示唆。\n\n**給与水準の実情**\n引き上げ率は前年割れ。名目賃上げは達成されても、インフレ調整後の実質賃金は停滞傾向。サプライチェーン圧力や電力コスト上昇が企業収益を圧迫。\n\n**先行き**\n2027年春季労使交渉では、さらなる人手不足圧力に直面する見込み。ただし企業体力の弱まりから、大型賃上げは難しい可能性。",
+    "tags": [
+      "賃金",
+      "雇用",
+      "中小企業",
+      "日本経済"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia ビジネス",
+    "link": "https://www.itmedia.co.jp/business/articles/2611/18/news052.html",
+    "importance": 3,
+    "image_query": "small business workers office",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:17.501Z",
+    "publishedAt": "2026-11-18T05:45:00.000Z"
+  },
+  {
+    "slug": "20261118-20",
+    "headline": "日本、政治資金をチェックする第三者機関設置へ — 与野党協議開始。法案化へ議論加速",
+    "lead": "与野党が政治資金の第三者監視機関設置で合意基調。不透明な資金管理を防ぐため法案化に向けた制度設計が進行中。",
+    "body_markdown": "日本の与野党協議会が、政治資金をチェックする第三者機関の設置についての具体的な制度設計に入った。\n\n**背景**\n過去の政治資金スキャンダルにより、透明性強化への圧力が与野党共通。ただし党派によって「監視の強さ」「秘密保護」に異なる見解を持つため、折り合いをつける交渉が続いていた。\n\n**協議会の確認事項**\n法案化に向けて、以下の方針を確認：\n- 第三者機関の独立性を確保\n- 資金の流れを追跡可能にする仕組み\n- 政治家と献金者の関係透明化\n\n**課題**\n各党の「許容できる秘密保護範囲」が異なる。野党は完全な透明性を求める一方、与党は一定の政治的配慮を求める。これらの調整が法案成立を左右。\n\n**先行き**\n2027年通常国会での法案提出が目指されている。ただ調整が難航すれば、先送りの可能性も。",
+    "tags": [
+      "政治資金",
+      "透明性",
+      "日本政治"
+    ],
+    "section": "政治",
+    "source": "NHK",
+    "link": "https://news.web.nhk/newsweb/na/nd-20261118de77844",
+    "importance": 3,
+    "image_query": "government finance politics accountability",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:17.503Z",
+    "publishedAt": "2026-11-18T09:11:58.000Z"
+  },
+  {
+    "slug": "20261118-21",
+    "headline": "南朝鮮、大学入試AI カンニング対策に「$75,000報奨金」 — 本番直前、緊急警戒態勢",
+    "lead": "南朝鮮の大学入試「修能」が11月19日に迫る中、AI・隠しカメラを使った不正カンニング事件が相次いだため、政府が$75,000の通報報奨金と警告システムを導入。",
+    "body_markdown": "南朝鮮の大学入学試験「修能」（수능）が11月19日（予定）に行われるが、直前になってAI・隠しカメラを使ったカンニング事件が多発。政府と試験当局は緊急対策を実施。\n\n**直前の事件**\n職業試験の得点者が、隠しカメラと AI を使い試験問題を撮影・自動解析していたことが発覚。同容疑者は「制度の隙間を利用した」と供述。これを受け、修能を管轄する教育当局が前代未聞の警戒体制を発動。\n\n**政府の対策**\n- **緊急警告システム**: 受験会場に「カンニング検出装置」設置\n- **通報報奨金**: 7万5,000ドルの報奨金を設定。不正を通報した者に給付\n- **携帯電話・電子機器の厳格没収**: 試験会場への持込禁止・検出時は即座に失格\n- **監督官の増員**: 会場ごとに追加の監視員配置\n\n**修能の重要性**\n修能は一度きりの試験。結果が大学進学を左右し、人生進路の分かれ道となるため、韓国社会では極めて重要視される。今年の受験者は50万人超。\n\n**背景**\n社会全体のAI利活用が進む中、教育現場での悪用例も増加。高度なAIが試験問題を秒単位で解析可能になったことで、伝統的なカンニング防止では追いつけない状況になってきた。",
+    "tags": [
+      "教育",
+      "試験",
+      "AI悪用",
+      "南朝鮮"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "CNBC",
+    "link": "https://www.cnbc.com/2026/11/18/south-korea-exam-cheating-.html",
+    "importance": 3,
+    "image_query": "examination testing classroom exam hall",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:17.505Z",
+    "publishedAt": "2026-11-18T07:00:39.000Z"
+  },
+  {
+    "slug": "20261118-22",
+    "headline": "英国 Ofqual、AI・スマートグラス試験カンニングに「人生を変える処罰」 — 資格取消",
+    "lead": "英国教育当局が、AI や隠しカメラを用いた受験不正に対し、GCSEやA-Levelの全資格取消という「人生を変える」ペナルティを警告。",
+    "body_markdown": "英国の教育資格当局 Ofqual は、高等学校・大学進学試験での AI やスマートグラスなどを用いたカンニングに対し、強硬な処罰方針を打ち出した。\n\n**処罰内容**\n- **全資格取消**: GCSE（高等学校卒業資格）、A-Level（大学入試資格）、その他認定資格の全面取消\n- **表現**: 「人生を変える処罰」（life-altering penalties）\n- **対象**: 学習評価の一部である家庭学習課題でも AI 使用が検出されれば対象\n\n**背景**\n英国でも高度な AI 利用が受験不正に使われ始めた。隠しカメラ（スマートグラス に統合）が試験監視を逃れ、AI が問題を即座に解析。従来の監視員配置では対応不可。\n\n**小売規制への呼びかけ**\nOfqual 長官 Ian Bauckham は「試験カンニング用ウェアラブル技術を販売する小売業者に対し、マーケティング禁止」を呼びかけ。同時に卸売業者にも自主規制を促す。\n\n**背景の議論**\n英国でも「AI時代の教育評価をどう維持するか」が急務。試験だけでなく、学生の自主学習・課題提出でも AI 併用が当たり前になりつつあり、当局の対応が追いつかない。",
+    "tags": [
+      "教育",
+      "試験",
+      "AI規制",
+      "英国"
+    ],
+    "section": "ライフ・キャリア",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/education/2026/nov/18/ofqual-urges-life-altering-penalties-for-students-who-use-tech-to",
+    "importance": 3,
+    "image_query": "student learning education exam",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:17.506Z",
+    "publishedAt": "2026-11-18T00:01:25.000Z"
+  },
+  {
+    "slug": "20261118-23",
+    "headline": "Nathan Fielder ドキュメンタリー『You Can See Everything』、英国公開 — Theranos 創業者と「真実」を探る",
+    "lead": "コメディアン Nathan Fielder が監督・主演した3時間ドキュメンタリーが英国で公開。Theranos 詐欺事件を舞台に「真実の不可知性」を瞑想的に追求。",
+    "body_markdown": "米国で話題となったコメディアン兼映像作家 Nathan Fielder の3時間ドキュメンタリー『You Can See Everything』が英国で11月公開。これまでの笑いと違和感に満ちた作風から、一転して「真実とは何か」という哲学的テーマに挑んだ作品。\n\n**主題**\nドキュメンタリーは、Theranos（血液検査スタートアップ）創業者 Elizabeth Holmes の詐欺事件を舞台とする。ただし従来的な「犯罪者告発映画」ではなく、Fielder 独特の「一人称瞑想的なアプローチ」。Holmes が獄に行く直前のプライベートを追い、「彼女は本当に何を考えていたのか。事実と主観の距離は埋まるか」という問い。\n\n**映像作家としての Fielder**\nFielder は以前『Dumb Starbucks』（スターバックスのパロディ店をオープンして客の反応を観察）など、既成概念を揺さぶる企画で知られた。本作は「他人の人生の真実に迫る」という試験。\n\n**ユーザー評価**\n米国では「想定外の予想成功」。ハリウッド指標の box office でも上位。英国公開により、欧州での文芸映画ファンの評価も見込まれている。\n\n**映像論的意義**\n「ドキュメンタリーは客観か」という根本問題を提起。映像は常に制作者のフレーミングを反映し、完全な真実は不可能という認識が、映像批評界で共感を呼んでいる。",
+    "tags": [
+      "映画",
+      "ドキュメンタリー",
+      "Theranos"
+    ],
+    "section": "カルチャー",
+    "source": "The Guardian",
+    "link": "https://www.theguardian.com/film/2026/nov/18/nathan-fielder-you-can-see-everything",
+    "importance": 3,
+    "image_query": "documentary film production cinema",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:17.507Z",
+    "publishedAt": "2026-11-18T08:00:35.000Z"
+  },
+  {
+    "slug": "20261118-24",
+    "headline": "ワタミ、上場廃止へ — 渡邉美樹会長 MBO で経営陣買収。「人生最大の挑戦」と語る",
+    "lead": "日本の飲食・介護企業ワタミが上場廃止。会長 渡邉美樹の資産管理会社による経営陣買収（MBO）で非公開化へ。",
+    "body_markdown": "日本の大手飲食・介護企業ワタミが上場廃止を決定。会長兼社長 CEO の渡邉美樹の個人資産管理会社によるMBO（経営陣による自社買収）で実現。\n\n**上場廃止の狙い**\n渡邉氏は「経営者人生、最大の挑戦」とコメント。上場企業としての四半期ごとの決算圧力、機関投資家対応から解放され、「長期的経営視点」に転換。\n\n**背景**\n1980年代の起業以来、ワタミは上場によって資金調達・ブランド信用を獲得してきた。だが直近年は：\n- 居酒屋チェーンの競争激化\n- 介護事業の採算悪化\n- 労務問題による社会的批判\n\nなど課題が蓄積。上場プレッシャー下では改革が難しいと判断。\n\n**MBO の意図**\n- 株主価値向上の短期目標を放棄\n- 創業家ビジョンに基づく中長期戦略の推進\n- 採算性より「顧客体験」「従業員満足度」を優先\n\n**市場反応**\nサプライチェーン金融・機関投資家からは「日本企業の一部が『上場維持の価値』を問い直す流れ」として注目。ベンチャーファイナンス業界では「フェーズの終わり」と解釈される傾向。",
+    "tags": [
+      "M&A",
+      "上場廃止",
+      "ワタミ"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia ビジネス",
+    "link": "https://www.itmedia.co.jp/business/articles/2611/18/news051.html",
+    "importance": 3,
+    "image_query": "business merger acquisition finance",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:17.508Z",
+    "publishedAt": "2026-11-18T05:45:00.000Z"
+  },
+  {
+    "slug": "20261118-25",
+    "headline": "アシックス、2029年度に売上高1.5兆円を目指す — オニツカタイガーを分社化、株主還元4,000億円",
+    "lead": "アシックスが中期経営計画を発表。サブブランド『オニツカタイガー』を分社化し、3年で売上1.5倍化へ。業界トップ水準の収益性も維持。",
+    "body_markdown": "アシックスは11月17日、2027～2029年度の中期経営計画（3年間）を発表。2029年度に売上高1兆5,000億円を目指す。現在から1.5倍の成長を掲げる大型計画。\n\n**主要戦略**\n1. **オニツカタイガー分社化**\n   - 歴史あるサブブランド「オニツカタイガー」を独立子会社へ\n   - 目的は「ヘリテージ」「プレミアム」ポジショニング\n   - 高マージン戦略で収益力向上\n\n2. **グローバル展開強化**\n   - 新興国・先進国双方で市場拡大\n   - DTC（Direct-to-Consumer）チャネル比率を高める\n\n3. **カテゴリー拡大**\n   - ランニング・フットボール以外のスポーツ用品\n   - ライフスタイル商品への進出\n\n**財務目標**\n- 売上高: 1.5兆円\n- 営業利益率: 10%超（業界トップ水準維持）\n- 株主還元: 4,000億円（配当・自社株買い）\n\n**背景**\nナイキなど海外競合との競争激化、DTC シフトによる在庫管理の複雑化を背景に、戦略転換。同時に「日本の靴メーカー」から「グローバルスポーツ企業」への再定義を推進。\n\n**先行き**\n分社化による一時的混乱も予想されるが、市場は「オニツカタイガーの国際的プレミアムポジション確立」に期待を寄せている。",
+    "tags": [
+      "企業戦略",
+      "スポーツ用品",
+      "日本企業"
+    ],
+    "section": "ビジネス",
+    "source": "ITmedia ビジネス",
+    "link": "https://www.itmedia.co.jp/business/articles/2611/18/news050.html",
+    "importance": 3,
+    "image_query": "sneaker shoe manufacturing sportswear",
+    "image": null,
+    "mode": "full",
+    "createdAt": "2026-11-18T09:51:17.509Z",
+    "publishedAt": "2026-11-18T05:45:00.000Z"
+  },
+  {
     "slug": "20261114-15",
     "headline": "NVIDIAジェンスン・フアンCEO辞任、中国スパイ疑惑で国家安全保障問題化",
     "lead": "複数の婚外関係とスパイ疑惑により、NVIDIA CEO ジェンスン・フアンが11月12日に辞任。米国の国家安全保障に関わる重大問題に。",
